@@ -1,0 +1,36 @@
+{
+  "slug": "macos-ade-with-sso",
+  "title": "macOS Automated Device Enrollment with SSO",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ADEMAC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-14",
+  "updated": "2026-06-15",
+  "published_at": "2026-06-14",
+  "products": [
+    {
+      "sku": "PTK-ADEMAC-COMM-001",
+      "audience": "commercial",
+      "price": 1695.0
+    },
+    {
+      "sku": "PTK-ADEMAC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1017.0
+    },
+    {
+      "sku": "PTK-ADEMAC-GOV-001",
+      "audience": "government",
+      "price": 1440.75
+    }
+  ],
+  "deliverables": [
+    "ADEMAC-Complete-Solution.zip"
+  ],
+  "hero": "ADEMAC-hero.png",
+  "wiki_path": "solutions/intune-solutions/macos-ade-with-sso",
+  "wiki_published": true,
+  "branding": "on"
+}

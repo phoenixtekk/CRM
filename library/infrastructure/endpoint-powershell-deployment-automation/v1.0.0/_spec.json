@@ -1,0 +1,81 @@
+{
+  "sol": "PSAUTO",
+  "slug": "endpoint-powershell-deployment-automation",
+  "title": "Endpoint PowerShell Deployment & Patch Automation Toolkit",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (automation toolkit spanning Intune/Graph + PowerShell deployment and patch tasks; conditional logic, scheduled runs)."
+  ],
+  "hook": "Replace manual endpoint chores with tested, repeatable PowerShell automation",
+  "problem": "Endpoint engineers lose hours to the same manual tasks &mdash; remediating drifted settings, confirming patch state, deploying or removing software, cleaning up after failed installs &mdash; done by hand, differently, every time. This solution gives you a <strong>tested PowerShell automation toolkit</strong> for endpoint deployment and patching: standardized, parameterized scripts and Intune remediations (proactive remediations) that run on a schedule, report results, and make every device converge to the same known-good state.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the automation model (Intune remediations / proactive remediations + Microsoft Graph + scheduled local scripts), the detect-then-remediate pattern, safe-by-default design, and how results are reported.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, the remediations feature/licensing, Microsoft Graph permissions, PowerShell execution policy/signing, a results destination) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: stand up the toolkit, deploy a detect/remediate pair as an Intune remediation, schedule patch-state checks, wire deployment/cleanup automation, capture results, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; an environment/automation-readiness discovery, a detection/validation script, a fleet automation-results report, a safe remediation script (-WhatIf default), and a deployment/cleanup runner.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A tested <strong>PowerShell automation toolkit</strong> for endpoint deployment and patching &mdash; parameterized scripts and Intune remediations that run on a schedule, report results, and converge every device to a known-good state. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A tested PowerShell automation toolkit for endpoint deployment and patching — parameterized scripts and Intune remediations that run on a schedule and converge every device to a known-good state.",
+  "meta_title": "Endpoint PowerShell Deployment & Patch Automation Toolkit",
+  "meta_description": "Automate endpoint deployment and patching with PowerShell and Intune remediations: detect-then-remediate, scheduled patch checks, deployment/cleanup runners, result reporting. Self-guided, tested steps and scripts.",
+  "bottom_line": "The repetitive endpoint work automated &mdash; detect-then-remediate jobs running on a schedule, results reported, every device converging to one known-good state &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "PowerShell Automation",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Stop Doing It By Hand",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune Remediations · Graph · PowerShell",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MANUAL ENDPOINT TOIL",
+      "items": [
+        "Hand remediation",
+        "Inconsistent runs",
+        "No results",
+        "Lost hours"
+      ]
+    },
+    "to": {
+      "label": "Scheduled & repeatable",
+      "stat": "Detect → remediate → report"
+    },
+    "tagline": "AUTOMATE THE TOIL.  CONVERGE EVERY DEVICE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Remediations",
+        "sub": "Detect + fix"
+      },
+      {
+        "icon": "chip",
+        "title": "Scheduled",
+        "sub": "Runs itself"
+      },
+      {
+        "icon": "shield",
+        "title": "Safe by Default",
+        "sub": "-WhatIf first"
+      },
+      {
+        "icon": "chart",
+        "title": "Results",
+        "sub": "Fleet report"
+      }
+    ]
+  }
+}

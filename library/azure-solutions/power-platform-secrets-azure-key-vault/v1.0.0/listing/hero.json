@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Power Platform Secrets",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "in Azure Key Vault",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Azure Key Vault · Entra ID · Power Platform",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HARDCODED SECRETS",
+    "items": [
+      "Keys in flows/apps",
+      "Secrets in connectors",
+      "Leak to run history",
+      "Can't rotate"
+    ]
+  },
+  "to": {
+    "label": "Vaulted & governed",
+    "stat": "Centralized · retrieved · rotatable"
+  },
+  "tagline": "GET SECRETS OUT OF APPS.  INTO THE VAULT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Key Vault",
+      "sub": "Central secrets"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "RBAC / MI",
+      "sub": "Least privilege"
+    },
+    {
+      "icon": "gear",
+      "title": "Retrieval",
+      "sub": "Env vars / connector"
+    },
+    {
+      "icon": "key",
+      "title": "Rotation",
+      "sub": "No rebuild"
+    }
+  ]
+}

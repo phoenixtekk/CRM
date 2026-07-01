@@ -1,0 +1,81 @@
+{
+  "sol": "COMGMT",
+  "slug": "sccm-intune-co-management-enablement",
+  "title": "Configuration Manager and Intune Co-Management Enablement",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T4 (project: enable co-management across Configuration Manager + Intune + Entra, move workloads, coexistence/cutover, higher risk)."
+  ],
+  "hook": "Bridge Configuration Manager and Intune — move workloads to the cloud at your own pace",
+  "problem": "You have years of investment in Configuration Manager, but management is moving to the cloud and you can't rip-and-replace overnight. <strong>Co-management</strong> lets a single Windows device be managed by Configuration Manager and <strong>Intune</strong> at the same time, so you shift workloads &mdash; compliance, updates, endpoint protection, configuration, app deployment &mdash; from Configuration Manager to Intune one at a time, on your schedule, with a clean path to cloud-first. This solution enables co-management correctly and gives you a controlled workload-by-workload migration.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how co-management works, the Configuration Manager + Intune authority model, the co-management workloads (compliance, updates, endpoint protection, device configuration, Office Click-to-Run, client apps), and the staged workload-slider approach.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (supported Configuration Manager current branch, Intune, Entra ID, hybrid or Entra join, Entra Connect, the cloud attach / tenant attach configuration) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: prepare identity and licensing, enable co-management in Configuration Manager, onboard a pilot collection, move one workload at a time to Intune, validate each, then expand and plan cloud-first.",
+    "<strong>5 PowerShell scripts</strong> &mdash; co-management readiness discovery, co-management state validation per device, a workload-authority and enrollment report, safe remediation of un-enrolled clients, and a co-management pilot group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Enable <strong>co-management</strong> so a single Windows device is managed by Configuration Manager and Intune together &mdash; then move workloads to the cloud one at a time, on your schedule. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Enable co-management so Windows devices are managed by Configuration Manager and Intune together — then move workloads to the cloud one at a time, on your schedule.",
+  "meta_title": "Configuration Manager and Intune Co-Management Enablement",
+  "meta_description": "Enable Configuration Manager + Intune co-management: cloud/tenant attach, enroll devices, move workloads (compliance, updates, protection, config, apps) to Intune by stages. Self-guided, tested steps and scripts.",
+  "bottom_line": "Your Configuration Manager fleet co-managed with Intune &mdash; workloads moving to the cloud one controlled step at a time, with a clear path to cloud-first &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Co-Management",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "ConfigMgr Meets Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Configuration Manager · Intune · Entra",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STUCK ON-PREM",
+      "items": [
+        "Rip-and-replace risk",
+        "All-or-nothing",
+        "No cloud path",
+        "Workloads locked"
+      ]
+    },
+    "to": {
+      "label": "Workloads move at your pace",
+      "stat": "Co-managed · staged · cloud-bound"
+    },
+    "tagline": "BRIDGE TO CLOUD.  ONE WORKLOAD AT A TIME.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Co-Manage",
+        "sub": "Both authorities"
+      },
+      {
+        "icon": "cloud",
+        "title": "Workload Slider",
+        "sub": "Move by stages"
+      },
+      {
+        "icon": "shield",
+        "title": "Validated",
+        "sub": "Each workload"
+      },
+      {
+        "icon": "chart",
+        "title": "Cloud-First",
+        "sub": "Clear path"
+      }
+    ]
+  }
+}

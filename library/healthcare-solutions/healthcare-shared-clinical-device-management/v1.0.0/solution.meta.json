@@ -1,0 +1,42 @@
+{
+  "slug": "healthcare-shared-clinical-device-management",
+  "title": "Healthcare Shared Clinical Device Management — WOWs, Kiosks & Tablets in Microsoft Intune",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "CLINDEV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: support the Epic device ecosystem (WOWs, kiosks, tablets, workstations) and standardize shared clinical devices.",
+    "Scope: provision + standardize + lock down shared clinical Windows devices (WOWs, kiosks, nurse-station PCs, tablets) via Microsoft Intune — Autopilot self-deploying, Shared PC mode, Assigned Access kiosk, clinical app baseline, WOW always-on. No personal-owner affinity. Epic/Imprivata depth deferred to their dedicated solutions. White-label.",
+    "pricing: T3 (advanced) — multi-component shared-device standardization within one platform."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CLINDEV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CLINDEV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CLINDEV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CLINDEV-Complete-Solution.zip"
+  ],
+  "hero": "CLINDEV-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/healthcare-shared-clinical-device-management",
+  "wiki_published": true
+}

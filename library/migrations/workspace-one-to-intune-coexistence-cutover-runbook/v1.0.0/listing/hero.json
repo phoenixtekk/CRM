@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Coexistence & Cutover",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Both MDMs, No Chaos",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · Cutover Runbook",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PARALLEL CHAOS",
+    "items": [
+      "Double-managed",
+      "CA lockouts",
+      "App conflicts",
+      "No go/no-go"
+    ]
+  },
+  "to": {
+    "label": "Controlled cutover",
+    "stat": "Guardrails · gates · rollback"
+  },
+  "tagline": "RUN BOTH SAFELY.  CUT OVER ON CUE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Guardrails",
+      "sub": "No double mgmt"
+    },
+    {
+      "icon": "gear",
+      "title": "Go/No-Go",
+      "sub": "Gated cutover"
+    },
+    {
+      "icon": "users",
+      "title": "Cohorts",
+      "sub": "Sequenced"
+    },
+    {
+      "icon": "chart",
+      "title": "Rollback",
+      "sub": "Tested"
+    }
+  ]
+}

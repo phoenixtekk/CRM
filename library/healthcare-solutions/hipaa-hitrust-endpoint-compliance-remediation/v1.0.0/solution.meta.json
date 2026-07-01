@@ -1,0 +1,42 @@
+{
+  "slug": "hipaa-hitrust-endpoint-compliance-remediation",
+  "title": "HIPAA & HITRUST Endpoint Compliance & Vulnerability Remediation (Intune + Defender)",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "HIPAACOMP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: ensure compliance (HIPAA, HITRUST) and remediate vulnerabilities.",
+    "Scope: map HIPAA Security Rule + HITRUST CSF control expectations to enforceable Intune compliance/config baselines + Conditional Access gating + Defender for Endpoint vulnerability remediation, with audit-ready evidence/reporting. Technical enforcement + evidence, NOT legal certification. White-label.",
+    "pricing: T4 (project) — multi-control mapping + compliance + CA + Defender remediation + evidence."
+  ],
+  "products": [
+    {
+      "sku": "PTK-HIPAACOMP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-HIPAACOMP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-HIPAACOMP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "HIPAACOMP-Complete-Solution.zip"
+  ],
+  "hero": "HIPAACOMP-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation",
+  "wiki_published": true
+}

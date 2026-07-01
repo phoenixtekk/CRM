@@ -1,0 +1,82 @@
+{
+  "sol": "WSUSM",
+  "slug": "wsus-to-wufb-patch-modernization",
+  "title": "WSUS to Windows Update for Business Patch Modernization",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (migration off WSUS to cloud patching; coexistence and cutover with existing on-prem update infrastructure).",
+    "version_directive: +1 — fork derived from windows-updates-for-business (WUFB); the original WUfB product remains live and untouched. This product is the WSUS-retirement migration angle."
+  ],
+  "hook": "Retire WSUS — move Windows patching to Windows Update for Business, managed from Intune",
+  "problem": "WSUS is a maintenance tax: a server to patch and back up, a content store that bloats and corrupts, declined-update cleanup, and approvals that only reach devices on the corporate network. Remote machines simply fall behind. This solution gives you a clean <strong>migration off WSUS to Windows Update for Business</strong>, managed through <strong>Intune</strong>: update rings, feature/quality deferrals, deadlines, and Delivery Optimization &mdash; so devices patch from Microsoft wherever they are, and you can decommission the WSUS servers.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why WSUS is a liability, how Windows Update for Business and Intune update rings replace it, feature/quality update deferrals and deadlines, Delivery Optimization, and the coexistence-then-cutover plan to retire WSUS.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra-joined or hybrid devices, removing conflicting WSUS/GPO update policy, internet/Delivery Optimization reachability, ring design) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory current WSUS approvals and update policy, design rings, create Windows Update for Business ring policies in Intune, remove conflicting WSUS/GPO settings, validate devices scan against Microsoft, decommission WSUS, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; update-configuration discovery (detect WSUS/GPO conflicts), patch-compliance validation, a fleet patch-status and ring report, safe remediation (clear WSUS pointers), and an update-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A clean migration <strong>off WSUS to Windows Update for Business</strong>, managed from Intune &mdash; update rings, deferrals, deadlines, and Delivery Optimization &mdash; so devices patch from Microsoft anywhere and the WSUS servers retire. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A clean migration off WSUS to Windows Update for Business, managed from Intune — update rings, deferrals, deadlines, Delivery Optimization — so devices patch anywhere and WSUS retires.",
+  "meta_title": "WSUS to Windows Update for Business Patch Modernization",
+  "meta_description": "Migrate from WSUS to Windows Update for Business with Intune: update rings, deferrals, deadlines, Delivery Optimization, conflict removal, and WSUS decommission. Self-guided, tested steps and scripts.",
+  "bottom_line": "Windows patching modernized off WSUS &mdash; devices updating from Microsoft via Intune update rings wherever they are, conflicts removed, and the WSUS servers decommissioned &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "WSUS to WUfB",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Retire the Update Server",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Windows Update for Business · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "WSUS MAINTENANCE TAX",
+      "items": [
+        "Server to patch",
+        "Bloated content",
+        "LAN-only approvals",
+        "Remote devices behind"
+      ]
+    },
+    "to": {
+      "label": "Cloud patching",
+      "stat": "Update rings · deadlines · DO"
+    },
+    "tagline": "DROP THE SERVER.  PATCH ANYWHERE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "WUfB",
+        "sub": "Patch from MS"
+      },
+      {
+        "icon": "gear",
+        "title": "Update Rings",
+        "sub": "Deferrals + deadlines"
+      },
+      {
+        "icon": "device",
+        "title": "Delivery Opt",
+        "sub": "Efficient delivery"
+      },
+      {
+        "icon": "chart",
+        "title": "Compliance",
+        "sub": "Fleet patch report"
+      }
+    ]
+  }
+}

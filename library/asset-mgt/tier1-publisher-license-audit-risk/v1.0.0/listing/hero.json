@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Tier-1 Publishers",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Manage the Audit Risk",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Oracle · IBM · SAP Licensing",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SEVEN-FIGURE RISK",
+    "items": [
+      "Complex metrics",
+      "Aggressive audits",
+      "Hidden exposure",
+      "Costly settlements"
+    ]
+  },
+  "to": {
+    "label": "Defensible position",
+    "stat": "Mapped · calculated · controlled"
+  },
+  "tagline": "TAME THE RISKIEST PUBLISHERS.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Metrics",
+      "sub": "PVU/NUP/digital"
+    },
+    {
+      "icon": "gear",
+      "title": "Position",
+      "sub": "Deployment-mapped"
+    },
+    {
+      "icon": "shield",
+      "title": "Exposure",
+      "sub": "Found early"
+    },
+    {
+      "icon": "lock",
+      "title": "Controls",
+      "sub": "Audit-ready"
+    }
+  ]
+}

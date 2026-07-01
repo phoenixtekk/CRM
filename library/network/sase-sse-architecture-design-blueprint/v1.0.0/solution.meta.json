@@ -1,0 +1,39 @@
+{
+  "slug": "sase-sse-architecture-design-blueprint",
+  "title": "SASE / SSE Architecture & Design Blueprint",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "SASE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T5 (enterprise architecture program tying SWG + ZTNA + CASB + identity into a SASE/SSE design; many technologies, org-wide).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SASE-COMM-001",
+      "audience": "commercial",
+      "price": 4995.0
+    },
+    {
+      "sku": "PTK-SASE-NPO-001",
+      "audience": "nonprofit",
+      "price": 2997.0
+    },
+    {
+      "sku": "PTK-SASE-GOV-001",
+      "audience": "government",
+      "price": 4245.75
+    }
+  ],
+  "deliverables": [
+    "SASE-Complete-Solution.zip"
+  ],
+  "hero": "SASE-hero.png"
+}

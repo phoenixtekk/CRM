@@ -1,0 +1,82 @@
+{
+  "sol": "NSCASB",
+  "slug": "casb-cloud-app-control-netskope",
+  "title": "CASB & Cloud App Control with Netskope",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (inline + API CASB across sanctioned/unsanctioned cloud apps; visibility, controls, DLP-adjacent policy, live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "See and control every cloud app your people use — sanctioned or not",
+  "problem": "Your people use hundreds of cloud apps, most of which IT never approved, and corporate data flows into them unseen. This solution delivers <strong>CASB and cloud app control with Netskope</strong> &mdash; discover sanctioned and shadow-IT cloud apps, score their risk, and apply inline and API-based controls (allow, restrict, coach, block, and data-movement policy) so cloud usage is visible and governed without blocking the business.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Netskope CASB works (inline and API), cloud app discovery and risk scoring, the control levers (allow/restrict/coach/block, activity and data controls), and the govern-without-blocking approach.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Netskope tenant + CASB, steering/SWG in place, Entra ID identity, API connections to sanctioned apps, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: discover and risk-score cloud apps, define sanctioned/unsanctioned policy, apply inline activity controls and API controls for sanctioned apps, validate, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; cloud-app discovery readiness, control-policy validation, a cloud-app usage and risk report, safe remediation of policy gaps, and a CASB-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Deliver <strong>CASB and cloud app control with Netskope</strong> &mdash; discover sanctioned and shadow-IT cloud apps, score risk, and apply inline and API controls so cloud usage is visible and governed without blocking the business. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deliver CASB and cloud app control with Netskope — discover sanctioned and shadow-IT cloud apps, score risk, and apply inline and API controls so cloud usage is visible and governed.",
+  "meta_title": "CASB & Cloud App Control with Netskope",
+  "meta_description": "Deploy Netskope CASB: cloud app discovery and risk scoring, sanctioned/unsanctioned policy, inline activity controls, and API controls for sanctioned apps. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Every cloud app visible and governed &mdash; shadow IT discovered and risk-scored, with inline and API controls that protect data without blocking the business &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "CASB",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Govern Every Cloud App",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · CASB · Cloud Control",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SHADOW IT",
+      "items": [
+        "Unapproved apps",
+        "Data flows unseen",
+        "No risk view",
+        "All-or-nothing block"
+      ]
+    },
+    "to": {
+      "label": "Visible & governed",
+      "stat": "Discovered · scored · controlled"
+    },
+    "tagline": "SEE EVERY APP.  GOVERN THE RISK.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Discovery",
+        "sub": "Shadow IT"
+      },
+      {
+        "icon": "chart",
+        "title": "Risk Score",
+        "sub": "Per app"
+      },
+      {
+        "icon": "gear",
+        "title": "Controls",
+        "sub": "Inline + API"
+      },
+      {
+        "icon": "shield",
+        "title": "Data",
+        "sub": "Protected"
+      }
+    ]
+  }
+}

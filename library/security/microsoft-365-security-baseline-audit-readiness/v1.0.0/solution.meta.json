@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-365-security-baseline-audit-readiness",
+  "title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "M365SEC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (M365 tenant secure-configuration baseline + control evidence + audit readiness across services; Secure Score, Compliance Manager, framework mapping).",
+    "Distinct from the CIS/STIG ENDPOINT baselines; this is the M365 TENANT/service configuration + audit-evidence layer. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-M365SEC-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-M365SEC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-M365SEC-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "M365SEC-Solution.pdf",
+    "M365SEC-Scripts.zip"
+  ],
+  "hero": "M365SEC-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Copilot Secure Adoption",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Govern Before You Roll Out",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft 365 · Purview · AI Governance",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OVERSHARING RISK",
+    "items": [
+      "Copilot sees all",
+      "Unlabeled data",
+      "Weak access",
+      "No AI governance"
+    ]
+  },
+  "to": {
+    "label": "Governed & safe",
+    "stat": "Remediated · labeled · governed"
+  },
+  "tagline": "FIX OVERSHARING FIRST.  THEN TURN ON COPILOT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Oversharing",
+      "sub": "Assessed + fixed"
+    },
+    {
+      "icon": "lock",
+      "title": "Labels + DLP",
+      "sub": "Copilot honors"
+    },
+    {
+      "icon": "users",
+      "title": "Access",
+      "sub": "Tightened"
+    },
+    {
+      "icon": "gear",
+      "title": "AI Governance",
+      "sub": "Guardrails"
+    }
+  ]
+}

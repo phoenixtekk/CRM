@@ -1,0 +1,82 @@
+{
+  "sol": "TUNMAM",
+  "slug": "microsoft-tunnel-for-mam-intranet-access",
+  "title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (deploy Microsoft Tunnel Gateway + Tunnel for MAM to route managed mobile-app traffic to internal/intranet resources; server + connector + network + client, higher infra/risk).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Let managed mobile apps reach intranet resources — without a full device VPN",
+  "problem": "Some corporate resources only live inside the network &mdash; an on-prem app, an internal API, a private intranet endpoint &mdash; and mobile users on BYOD can't reach them without a VPN you'd rather not put on a personal phone. <strong>Microsoft Tunnel for MAM</strong> solves this: an app-level VPN that routes traffic from <strong>MAM-protected Microsoft 365 (and line-of-business) apps</strong> to internal resources, scoped to the app rather than the whole device. This solution gives you a repeatable way to deploy the <strong>Microsoft Tunnel Gateway and Tunnel for MAM</strong> so managed mobile apps reach intranet resources securely.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Microsoft Tunnel and Tunnel for MAM work (the Linux-hosted Tunnel Gateway, the connector, split vs. full tunneling), how app-level VPN differs from device VPN, and which apps/resources it fits.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a supported Linux host / container for the Tunnel Gateway, network/firewall paths to internal resources, certificates, the MAM apps in scope, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: stand up the Tunnel Gateway, configure the server + site + connector, create the Tunnel for MAM configuration, target the MAM apps, validate mobile app access to an internal resource, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Tunnel/MAM readiness discovery, per-device/app tunnel-connectivity validation, a tunnel usage and health report, safe remediation of unhealthy config, and a Tunnel-for-MAM scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to deploy <strong>Microsoft Tunnel and Tunnel for MAM</strong> &mdash; an app-level VPN that routes MAM-protected mobile-app traffic to internal/intranet resources, scoped to the app rather than the whole device. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to deploy Microsoft Tunnel and Tunnel for MAM — an app-level VPN that routes MAM-protected mobile-app traffic to internal/intranet resources, scoped to the app rather than the whole device.",
+  "meta_title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
+  "meta_description": "Deploy Microsoft Tunnel Gateway and Tunnel for MAM in Intune: app-level VPN routing MAM-protected Microsoft 365 / LOB app traffic to internal intranet resources without a full-device VPN. Self-guided, tested steps and scripts.",
+  "bottom_line": "Managed mobile apps able to reach internal intranet resources &mdash; through an app-scoped Microsoft Tunnel for MAM rather than a whole-device VPN &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Tunnel for MAM",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Reach the Intranet",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft Tunnel · MAM · App VPN",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INTRANET UNREACHABLE",
+      "items": [
+        "Internal-only resources",
+        "No device VPN on BYOD",
+        "App can't route in",
+        "Blocked mobile access"
+      ]
+    },
+    "to": {
+      "label": "App-scoped tunnel",
+      "stat": "Gateway · connector · MAM apps"
+    },
+    "tagline": "ROUTE THE APP.  NOT THE WHOLE DEVICE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Tunnel Gateway",
+        "sub": "Linux-hosted"
+      },
+      {
+        "icon": "device",
+        "title": "App VPN",
+        "sub": "MAM apps only"
+      },
+      {
+        "icon": "shield",
+        "title": "Internal Reach",
+        "sub": "Intranet resources"
+      },
+      {
+        "icon": "chart",
+        "title": "Validated",
+        "sub": "Health + usage"
+      }
+    ]
+  }
+}

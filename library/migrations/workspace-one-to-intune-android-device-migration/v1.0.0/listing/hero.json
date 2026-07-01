@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Android Enterprise Way",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · Android Enterprise",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MODE CONFUSION",
+    "items": [
+      "Wrong mgmt mode",
+      "App parity gaps",
+      "Reset re-enroll",
+      "User disruption"
+    ]
+  },
+  "to": {
+    "label": "Clean Android migration",
+    "stat": "Modes · Google Play · ringed"
+  },
+  "tagline": "RIGHT MODE.  REAL PARITY.  RINGED CUTOVER.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Modes",
+      "sub": "Profile/managed"
+    },
+    {
+      "icon": "cloud",
+      "title": "Google Play",
+      "sub": "App parity"
+    },
+    {
+      "icon": "chart",
+      "title": "Re-Enroll",
+      "sub": "By ring"
+    },
+    {
+      "icon": "shield",
+      "title": "Validated",
+      "sub": "Per device"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Renewals & Contracts",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Plan Every Renewal",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Contracts · OEM Bundles · Procurement",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RENEWAL BLINDSIDES",
+    "items": [
+      "No warning",
+      "Bad auto-renews",
+      "Lapses break prod",
+      "Terms in inboxes"
+    ]
+  },
+  "to": {
+    "label": "Planned decisions",
+    "stat": "Calendar · alerts · repository"
+  },
+  "tagline": "NO MORE SURPRISE RENEWALS.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Calendar",
+      "sub": "Lead-time alerts"
+    },
+    {
+      "icon": "gear",
+      "title": "Repository",
+      "sub": "Contracts + terms"
+    },
+    {
+      "icon": "chip",
+      "title": "OEM Bundles",
+      "sub": "Mapped"
+    },
+    {
+      "icon": "users",
+      "title": "Procurement",
+      "sub": "Coordinated"
+    }
+  ]
+}

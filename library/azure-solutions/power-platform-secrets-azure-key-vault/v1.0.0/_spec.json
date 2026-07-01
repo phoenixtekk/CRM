@@ -1,0 +1,45 @@
+{
+  "sol": "PPKV",
+  "slug": "power-platform-secrets-azure-key-vault",
+  "title": "Standardize Power Platform Secrets in Azure Key Vault",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Scope: store Power Platform secrets (API keys, client secrets, connection strings, certificates, service-account credentials, external tokens, integration credentials) in Azure Key Vault instead of hardcoding them in Power Apps, Power Automate flows, custom connectors, environment variables, or scripts. Retrieve securely via approved patterns; remove hardcoded secrets; validate no exposure in flow history/app formulas/logs/connector definitions; document rotation, ownership, access control.",
+    "Primary native pattern: Power Platform environment variables of type 'Secret' backed by Azure Key Vault (Dataverse service principal granted the 'Key Vault Secrets User' RBAC role). Alternatives to cover: the Azure Key Vault connector, an Azure Function with managed identity called via custom connector, and service-principal/managed-identity retrieval.",
+    "Effort tier: T3 (multi-component integration across Azure Key Vault + Entra ID RBAC/managed identity + Power Platform (Apps/Automate/custom connectors) with rotation/governance; 2-3 technologies).",
+    "Power Platform maker/admin-portal UI minutiae deferred to Microsoft docs where volatile; give correct Azure portal + Power Platform admin center + maker portal navigation. version_directive: New; branding: off (white-label)."
+  ],
+  "hook": "Get every secret out of your Power Apps and flows — and into Azure Key Vault",
+  "problem": "Power Platform makes it far too easy to paste an API key into a flow, a client secret into a custom connector, or a connection string into an app formula &mdash; and once it's there, it leaks into run history, app definitions, logs, and exports, and it can't be rotated without rebuilding. This solution <strong>standardizes Power Platform secrets in Azure Key Vault</strong>: secrets live in the vault, apps and flows retrieve them securely through approved patterns, hardcoded credentials are removed everywhere, and rotation, ownership, and access are governed &mdash; so a key change never means an app rebuild.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why secrets belong in Azure Key Vault, the secret types in scope (API keys, client secrets, connection strings, certificates, service-account credentials, external tokens), and the retrieval patterns for Power Platform &mdash; environment variables of type Secret (Key Vault-backed), the Azure Key Vault connector, and an Azure Function + managed identity via custom connector &mdash; with a decision guide for which to use.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (an Azure subscription + Key Vault, Entra ID, the Power Platform environment and Dataverse, appropriate licensing, the Dataverse/Power Platform service principal, RBAC roles, network access) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: create/prepare the Key Vault, store the secrets, configure access with Entra ID RBAC / managed identities / service principals (grant the Dataverse app 'Key Vault Secrets User'), wire Power Platform to the vault (Secret environment variables and/or the connector/Function pattern), refactor apps/flows/connectors to stop using hardcoded secrets, validate no exposure, then pilot, validate, and expand.",
+    "<strong>Governance &amp; rotation guidance</strong> &mdash; secret ownership, least-privilege access control, expiry/rotation policy, and how rotating a secret in the vault flows through to apps and flows without a rebuild.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Key Vault + secret + RBAC discovery (and a hardcoded-secret risk scan of exported flow/app/connector definitions), access/retrieval validation (Dataverse SP has Key Vault Secrets User; Secret env vars resolve), a secrets inventory + expiry/rotation report, safe remediation (assign RBAC role, set expiry), and a rotation/ownership-tagging helper."
+  ],
+  "short": "<strong>Standardize Power Platform secrets in Azure Key Vault</strong> &mdash; store API keys, client secrets, connection strings and certificates in the vault, retrieve them securely (Key Vault-backed Secret environment variables, the Azure Key Vault connector, or an Azure Function + managed identity), remove hardcoded credentials, and govern rotation. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Standardize Power Platform secrets in Azure Key Vault — store API keys, client secrets, connection strings and certificates in the vault, retrieve them securely, remove hardcoded credentials, and govern rotation.",
+  "meta_title": "Standardize Power Platform Secrets in Azure Key Vault",
+  "meta_description": "Store Power Platform secrets in Azure Key Vault instead of hardcoding them: Key Vault-backed Secret environment variables, the Azure Key Vault connector, Azure Function + managed identity, Entra ID RBAC, exposure validation, and rotation governance. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Power Platform secret centralized in Azure Key Vault, retrieved securely through approved patterns, with no hardcoded credentials left in apps, flows, connectors, or logs &mdash; and rotation that never requires an app rebuild, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {"text": "Power Platform Secrets", "color": "white", "size": "main"},
+      {"text": "in Azure Key Vault", "color": "green", "size": "main"},
+      {"text": "Azure Key Vault · Entra ID · Power Platform", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "HARDCODED SECRETS", "items": ["Keys in flows/apps", "Secrets in connectors", "Leak to run history", "Can't rotate"]},
+    "to": {"label": "Vaulted & governed", "stat": "Centralized · retrieved · rotatable"},
+    "tagline": "GET SECRETS OUT OF APPS.  INTO THE VAULT.",
+    "benefits": [
+      {"icon": "lock", "title": "Key Vault", "sub": "Central secrets"},
+      {"icon": "fingerprint", "title": "RBAC / MI", "sub": "Least privilege"},
+      {"icon": "gear", "title": "Retrieval", "sub": "Env vars / connector"},
+      {"icon": "key", "title": "Rotation", "sub": "No rebuild"}
+    ]
+  }
+}

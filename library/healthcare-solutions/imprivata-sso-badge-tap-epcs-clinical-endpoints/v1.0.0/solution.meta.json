@@ -1,0 +1,42 @@
+{
+  "slug": "imprivata-sso-badge-tap-epcs-clinical-endpoints",
+  "title": "Imprivata SSO, Badge-Tap & EPCS Integration for Clinical Endpoints",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "IMPRIVATA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: integrate Imprivata (SSO, badge tap, EPCS).",
+    "Scope: deploy Imprivata OneSign agent + proximity reader drivers via Intune to shared clinical endpoints; configure tap-and-go badge SSO, fast user switching, SSO into Epic/clinical web apps, and EPCS two-factor (Confirm ID). Imprivata appliance/console + EPCS/DEA specifics deferred to the customer's Imprivata admin and compliance team. White-label.",
+    "pricing: T4 — auth across shared clinical fleet + regulated EPCS workflow + multiple integrations."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IMPRIVATA-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-IMPRIVATA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-IMPRIVATA-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "IMPRIVATA-Complete-Solution.zip"
+  ],
+  "hero": "IMPRIVATA-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/imprivata-sso-badge-tap-epcs-clinical-endpoints",
+  "wiki_published": true
+}

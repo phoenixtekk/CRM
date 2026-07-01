@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cloud Management Gateway",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Manage Clients Anywhere",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Configuration Manager · Azure · CMG",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNREACHABLE OFF-LAN",
+    "items": [
+      "Stale policy",
+      "Stalled updates",
+      "Dark inventory",
+      "VPN-only mgmt"
+    ]
+  },
+  "to": {
+    "label": "Managed over the internet",
+    "stat": "Policy · updates · inventory — no VPN"
+  },
+  "tagline": "REACH EVERY CLIENT.  NO VPN.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Azure CMG",
+      "sub": "Internet front door"
+    },
+    {
+      "icon": "shield",
+      "title": "Secure Auth",
+      "sub": "Token / PKI"
+    },
+    {
+      "icon": "gear",
+      "title": "MP + SUP",
+      "sub": "Policy & updates"
+    },
+    {
+      "icon": "chart",
+      "title": "Client Health",
+      "sub": "Reach & report"
+    }
+  ]
+}

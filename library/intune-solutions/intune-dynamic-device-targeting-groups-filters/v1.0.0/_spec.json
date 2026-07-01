@@ -1,0 +1,82 @@
+{
+  "sol": "DYNTGT",
+  "slug": "intune-dynamic-device-targeting-groups-filters",
+  "title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (dynamic security groups + assignment filters for scalable policy/app targeting in Intune; membership-rule logic, precedence).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Target the right devices automatically — with dynamic groups and assignment filters, not manual lists",
+  "problem": "As a fleet grows, assigning policies and apps to hand-built static groups doesn't scale: new devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer is <strong>dynamic targeting</strong> &mdash; <strong>dynamic security groups</strong> whose membership rules auto-include the right devices, and <strong>assignment filters</strong> that scope a single assignment to exactly the devices that match (OS, ownership, model, enrollment profile). This solution gives you a repeatable <strong>dynamic device targeting model in Intune</strong> so policies and apps reach the right devices automatically and stay correct as the fleet changes.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; dynamic security groups (membership rule syntax) vs. assignment filters (rule syntax + include/exclude at assignment time), when to use each, precedence and evaluation, and the scalable targeting model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID with dynamic-group licensing, a device attribute/naming convention, enrollment profile names, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the targeting taxonomy, build dynamic security groups with membership rules, create assignment filters, apply filters to policy/app assignments, validate membership and effective targeting, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; dynamic-group/filter discovery, membership and effective-targeting validation, a targeting-coverage and drift report, safe remediation of mis-scoped assignments, and a dynamic-group/filter builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>dynamic device targeting model in Intune</strong> &mdash; dynamic security groups and assignment filters so policies and apps reach exactly the right devices automatically and stay correct as the fleet changes. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable dynamic device targeting model in Intune — dynamic security groups and assignment filters so policies and apps reach exactly the right devices automatically and stay correct as the fleet changes.",
+  "meta_title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters",
+  "meta_description": "Target Intune policies and apps at scale with dynamic security groups (membership rules) and assignment filters (include/exclude by OS, ownership, model, enrollment profile), with precedence and validation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Policies and apps that reach exactly the right devices automatically &mdash; dynamic groups and assignment filters replacing hand-maintained static lists, staying correct as the fleet changes &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Dynamic Targeting",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Right Devices, Automatically",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Dynamic Groups · Assignment Filters",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STATIC LIST SPRAWL",
+      "items": [
+        "Manual group lists",
+        "New devices miss policy",
+        "Membership drift",
+        "Admin hours lost"
+      ]
+    },
+    "to": {
+      "label": "Auto-targeted",
+      "stat": "Dynamic groups · filters · scoped"
+    },
+    "tagline": "TARGET BY RULE.  SCOPE BY FILTER.  STAY CORRECT.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Dynamic Groups",
+        "sub": "Membership rules"
+      },
+      {
+        "icon": "gear",
+        "title": "Filters",
+        "sub": "Include/exclude"
+      },
+      {
+        "icon": "device",
+        "title": "At Scale",
+        "sub": "Auto-include"
+      },
+      {
+        "icon": "chart",
+        "title": "Validated",
+        "sub": "Effective targeting"
+      }
+    ]
+  }
+}

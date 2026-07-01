@@ -1,0 +1,81 @@
+{
+  "sol": "AVD",
+  "slug": "azure-virtual-desktop-remote-access",
+  "title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
+  "category": "Azure Solutions",
+  "category_slug": "azure-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (AVD host pool + workspace + identity + client access across Windows and macOS; multi-component within Azure)."
+  ],
+  "hook": "Secure remote access to a full Windows desktop and apps — from Windows or macOS",
+  "problem": "Remote staff, contractors, and federal teams need access to internal Windows desktops and applications from wherever they are &mdash; including from macOS &mdash; without exposing systems directly or shipping hardware. <strong>Azure Virtual Desktop (AVD)</strong> delivers Windows desktops and RemoteApps from Azure, reached securely through the AVD client on Windows and macOS, governed by Entra ID and Conditional Access. This solution stands up AVD correctly: host pools, a workspace, app groups, identity, and validated client access on both platforms.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Azure Virtual Desktop works, host pools (pooled vs. personal), workspaces and application groups, identity (Entra ID / hybrid), FSLogix profiles, and the Windows and macOS client experience.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Azure subscription, AVD licensing, Entra ID/identity, networking, session-host image, FSLogix storage, Conditional Access) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: prepare identity and networking, create the host pool and session hosts, build the workspace and app groups, assign users, configure FSLogix and security, connect the Windows and macOS clients, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; AVD-readiness discovery, host-pool/session-host and client-access validation, an AVD usage and assignment report, safe remediation of unhealthy hosts, and an AVD user-assignment group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up <strong>Azure Virtual Desktop</strong> for secure remote access to Windows desktops and apps &mdash; host pools, workspace, identity, and validated client access from both Windows and macOS. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up Azure Virtual Desktop for secure remote access to Windows desktops and apps — host pools, workspace, identity, and validated client access from both Windows and macOS.",
+  "meta_title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
+  "meta_description": "Deploy Azure Virtual Desktop: host pools, workspace and app groups, identity, FSLogix, Conditional Access, and validated Windows + macOS client access. Self-guided, tested steps and scripts.",
+  "bottom_line": "Secure, governed remote access to full Windows desktops and apps &mdash; delivered from Azure and reachable from Windows and macOS clients &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Azure Virtual Desktop",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Remote Windows, Anywhere",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Azure · AVD · Windows + macOS",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY REMOTE ACCESS",
+      "items": [
+        "Exposed systems",
+        "Ship hardware",
+        "No macOS path",
+        "Hard to govern"
+      ]
+    },
+    "to": {
+      "label": "Secure cloud desktop",
+      "stat": "Host pools · governed · cross-OS"
+    },
+    "tagline": "FULL DESKTOP.  ANY CLIENT.  GOVERNED.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Host Pools",
+        "sub": "Desktops + apps"
+      },
+      {
+        "icon": "device",
+        "title": "Win + macOS",
+        "sub": "Validated clients"
+      },
+      {
+        "icon": "shield",
+        "title": "Conditional Access",
+        "sub": "Governed entry"
+      },
+      {
+        "icon": "chart",
+        "title": "Usage",
+        "sub": "Assignment report"
+      }
+    ]
+  }
+}

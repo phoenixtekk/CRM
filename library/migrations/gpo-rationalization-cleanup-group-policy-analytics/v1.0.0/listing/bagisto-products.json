@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "gpo-rationalization-cleanup-group-policy-analytics",
+    "title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+    "category_path": [
+      "Migrations"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GPORAT-COMM-001",
+      "name": "GPO Rationalization & Cleanup with Group Policy Analytics — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "The <strong>foundational GPO cleanup</strong> before any Intune migration &mdash; inventory, rationalize with Group Policy analytics, retire the dead, document intent, and produce a sequenced migration backlog. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Clean up the GPO mess before you migrate — so the move to Intune is built on solid ground</h3><p>Years of Group Policy leave a thicket: nested and redundant policies, duplicate audit settings, and unclear intent that nobody fully understands. Migrating that mess to Intune as-is just moves the chaos. This solution is the <strong>foundational cleanup</strong> &mdash; inventory every GPO, use <strong>Intune Group Policy analytics</strong> to rationalize and de-duplicate, retire what's dead, document intent, and produce a clean, sequenced migration backlog &mdash; so the move to a modern Intune baseline starts from order, not sprawl.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why rationalize before migrating, how Intune Group Policy analytics scores migration readiness, and the de-duplication / retire / consolidate / document workflow.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (access to export GPOs, Intune with Group Policy analytics, Entra ID, a rationalization owner) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: export and inventory all GPOs, import to Group Policy analytics, classify (keep / retire / consolidate / replace), resolve redundant audit and conflicting policies, document intent, and produce a sequenced migration backlog, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; GPO export/inventory discovery, rationalization-coverage validation, a redundancy/conflict and readiness report, safe remediation of dead/duplicate links, and a migration-backlog/scope builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A clean, rationalized GPO estate with a documented, sequenced migration backlog &mdash; the dead and duplicate policies gone and intent captured &mdash; so the Intune migration is built on solid ground, proven on a pilot scope before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPORAT-Discovery.ps1</code> &mdash; export and inventory every Group Policy Object for rationalization</li><li><code>GPORAT-Remediation.ps1</code> &mdash; safely unlink/remove the dead and duplicate GPOs (-WhatIf default)</li><li><code>GPORAT-Report.ps1</code> &mdash; redundancy / conflict + migration-readiness report</li><li><code>GPORAT-Set-MigrationBacklogTargeting.ps1</code> &mdash; build the sequenced backlog + Entra scope groups</li><li><code>GPORAT-Validation.ps1</code> &mdash; rationalization coverage check (every GPO has a disposition)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+      "meta_description": "Rationalize a complex GPO estate before migrating to Intune: inventory, Group Policy analytics readiness scoring, de-duplication, conflict/redundant-audit cleanup, and a sequenced migration backlog. Self-guided, tested steps and scripts.",
+      "url_key": "gpo-rationalization-cleanup-group-policy-analytics-commercial",
+      "image": "GPORAT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPORAT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPORAT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GPORAT-NPO-001",
+      "name": "GPO Rationalization & Cleanup with Group Policy Analytics — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>The foundational GPO cleanup before any Intune migration — inventory, rationalize with Group Policy analytics, retire the dead, document intent, and produce a sequenced migration backlog. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Clean up the GPO mess before you migrate — so the move to Intune is built on solid ground</h3><p>Years of Group Policy leave a thicket: nested and redundant policies, duplicate audit settings, and unclear intent that nobody fully understands. Migrating that mess to Intune as-is just moves the chaos. This solution is the <strong>foundational cleanup</strong> &mdash; inventory every GPO, use <strong>Intune Group Policy analytics</strong> to rationalize and de-duplicate, retire what's dead, document intent, and produce a clean, sequenced migration backlog &mdash; so the move to a modern Intune baseline starts from order, not sprawl.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why rationalize before migrating, how Intune Group Policy analytics scores migration readiness, and the de-duplication / retire / consolidate / document workflow.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (access to export GPOs, Intune with Group Policy analytics, Entra ID, a rationalization owner) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: export and inventory all GPOs, import to Group Policy analytics, classify (keep / retire / consolidate / replace), resolve redundant audit and conflicting policies, document intent, and produce a sequenced migration backlog, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; GPO export/inventory discovery, rationalization-coverage validation, a redundancy/conflict and readiness report, safe remediation of dead/duplicate links, and a migration-backlog/scope builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPORAT-Discovery.ps1</code> &mdash; export and inventory every Group Policy Object for rationalization</li><li><code>GPORAT-Remediation.ps1</code> &mdash; safely unlink/remove the dead and duplicate GPOs (-WhatIf default)</li><li><code>GPORAT-Report.ps1</code> &mdash; redundancy / conflict + migration-readiness report</li><li><code>GPORAT-Set-MigrationBacklogTargeting.ps1</code> &mdash; build the sequenced backlog + Entra scope groups</li><li><code>GPORAT-Validation.ps1</code> &mdash; rationalization coverage check (every GPO has a disposition)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "GPO Rationalization & Cleanup with Group Policy Analytics — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Rationalize a complex GPO estate before migrating to Intune: inventory, Group Policy analytics readiness scoring, de-duplication, conflict/redundant-audit cleanup, and a sequenced migration backlog. Self-guided, tested steps and scripts.",
+      "url_key": "gpo-rationalization-cleanup-group-policy-analytics-nonprofit",
+      "image": "GPORAT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPORAT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPORAT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GPORAT-GOV-001",
+      "name": "GPO Rationalization & Cleanup with Group Policy Analytics — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>The foundational GPO cleanup before any Intune migration — inventory, rationalize with Group Policy analytics, retire the dead, document intent, and produce a sequenced migration backlog. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Clean up the GPO mess before you migrate — so the move to Intune is built on solid ground</h3><p>Years of Group Policy leave a thicket: nested and redundant policies, duplicate audit settings, and unclear intent that nobody fully understands. Migrating that mess to Intune as-is just moves the chaos. This solution is the <strong>foundational cleanup</strong> &mdash; inventory every GPO, use <strong>Intune Group Policy analytics</strong> to rationalize and de-duplicate, retire what's dead, document intent, and produce a clean, sequenced migration backlog &mdash; so the move to a modern Intune baseline starts from order, not sprawl.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why rationalize before migrating, how Intune Group Policy analytics scores migration readiness, and the de-duplication / retire / consolidate / document workflow.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (access to export GPOs, Intune with Group Policy analytics, Entra ID, a rationalization owner) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: export and inventory all GPOs, import to Group Policy analytics, classify (keep / retire / consolidate / replace), resolve redundant audit and conflicting policies, document intent, and produce a sequenced migration backlog, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; GPO export/inventory discovery, rationalization-coverage validation, a redundancy/conflict and readiness report, safe remediation of dead/duplicate links, and a migration-backlog/scope builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPORAT-Discovery.ps1</code> &mdash; export and inventory every Group Policy Object for rationalization</li><li><code>GPORAT-Remediation.ps1</code> &mdash; safely unlink/remove the dead and duplicate GPOs (-WhatIf default)</li><li><code>GPORAT-Report.ps1</code> &mdash; redundancy / conflict + migration-readiness report</li><li><code>GPORAT-Set-MigrationBacklogTargeting.ps1</code> &mdash; build the sequenced backlog + Entra scope groups</li><li><code>GPORAT-Validation.ps1</code> &mdash; rationalization coverage check (every GPO has a disposition)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "GPO Rationalization & Cleanup with Group Policy Analytics — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Rationalize a complex GPO estate before migrating to Intune: inventory, Group Policy analytics readiness scoring, de-duplication, conflict/redundant-audit cleanup, and a sequenced migration backlog. Self-guided, tested steps and scripts.",
+      "url_key": "gpo-rationalization-cleanup-group-policy-analytics-government",
+      "image": "GPORAT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPORAT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPORAT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

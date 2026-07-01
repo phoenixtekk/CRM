@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Endpoint Reporting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Numbers You Can Trust",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Configuration Manager · Graph",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CONSOLE SCRAMBLE",
+    "items": [
+      "Three consoles",
+      "Manual spreadsheets",
+      "Inconsistent counts",
+      "No KPIs"
+    ]
+  },
+  "to": {
+    "label": "One trusted view",
+    "stat": "Patch · compliance · health — repeatable"
+  },
+  "tagline": "ASK ONCE.  SAME ANSWER EVERY TIME.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "KPIs",
+      "sub": "Defined & tracked"
+    },
+    {
+      "icon": "gear",
+      "title": "Reports",
+      "sub": "Built-in + Graph"
+    },
+    {
+      "icon": "cloud",
+      "title": "Exports",
+      "sub": "Scheduled"
+    },
+    {
+      "icon": "shield",
+      "title": "Audit-Ready",
+      "sub": "Consistent"
+    }
+  ]
+}

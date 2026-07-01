@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SASE / SSE",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "One Edge Blueprint",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · SASE · SSE Architecture",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PIECEMEAL EDGE",
+    "items": [
+      "Bought in silos",
+      "Overlapping tools",
+      "Inconsistent policy",
+      "Hard to operate"
+    ]
+  },
+  "to": {
+    "label": "One operating model",
+    "stat": "SWG · ZTNA · CASB · identity"
+  },
+  "tagline": "DESIGN ONCE.  ADOPT IN PHASES.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Reference Design",
+      "sub": "All SSE services"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Identity Plane",
+      "sub": "Control point"
+    },
+    {
+      "icon": "gear",
+      "title": "Roadmap",
+      "sub": "Phased adoption"
+    },
+    {
+      "icon": "chart",
+      "title": "Operating Model",
+      "sub": "Roles + KPIs"
+    }
+  ]
+}

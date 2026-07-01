@@ -1,0 +1,42 @@
+{
+  "slug": "m365-azure-incident-response-runbook",
+  "title": "M365 & Azure Incident Response & Escalation Runbook",
+  "category": "Managed",
+  "category_slug": "managed",
+  "sol_code": "INCIDENT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Microsoft Cloud Solution Architect (MSP) requirement: lead response on high-priority/escalated incidents across M365 and Azure; RCA + problem management; convert recurring issues to permanent fixes.",
+    "Scope: a complete incident & problem management runbook for M365 + Azure — severity matrix, roles, triage, per-workload diagnostic playbooks, Service Health, client comms, Microsoft escalation, RCA, and the convert-to-permanent-fix loop. White-label.",
+    "pricing: T3 (advanced) — cross-workload runbook + process + automation."
+  ],
+  "products": [
+    {
+      "sku": "PTK-INCIDENT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-INCIDENT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-INCIDENT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "INCIDENT-Complete-Solution.zip"
+  ],
+  "hero": "INCIDENT-hero.png",
+  "wiki_path": "solutions/managed/m365-azure-incident-response-runbook",
+  "wiki_published": true
+}

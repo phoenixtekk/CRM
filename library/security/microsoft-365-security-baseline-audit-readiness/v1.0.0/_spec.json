@@ -1,0 +1,82 @@
+{
+  "sol": "M365SEC",
+  "slug": "microsoft-365-security-baseline-audit-readiness",
+  "title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (M365 tenant secure-configuration baseline + control evidence + audit readiness across services; Secure Score, Compliance Manager, framework mapping).",
+    "Distinct from the CIS/STIG ENDPOINT baselines; this is the M365 TENANT/service configuration + audit-evidence layer. version_directive: New; branding: off."
+  ],
+  "hook": "Harden the Microsoft 365 tenant to a real baseline — and walk into the audit with evidence in hand",
+  "problem": "Most Microsoft 365 tenants are configured to 'it works', not 'it's secure' &mdash; and when an audit or a framework assessment lands, nobody can show the controls are in place. This solution delivers a repeatable <strong>Microsoft 365 security baseline and audit-readiness</strong> program: harden the tenant and services to a documented baseline (improving Secure Score), map controls to recognized frameworks with Compliance Manager, and maintain the <strong>control evidence</strong> so audit readiness is continuous, not a fire drill.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the M365 secure-configuration baseline (identity, email, collaboration, device, data services), Microsoft Secure Score, Compliance Manager and control mapping to recognized frameworks, and the control-evidence model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + relevant security/compliance licensing, Entra ID, the target framework(s), a baseline owner, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: assess current Secure Score and configuration, apply the secure-configuration baseline across services, map controls in Compliance Manager to the framework, capture control evidence, validate, then maintain on a review cadence.",
+    "<strong>5 PowerShell scripts</strong> &mdash; M365 secure-config + Secure Score discovery, baseline-compliance validation, a Secure Score + control-evidence report, safe remediation of baseline gaps, and a baseline-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>Microsoft 365 security baseline and audit-readiness</strong> program &mdash; harden the tenant to a documented baseline (improving Secure Score), map controls to frameworks with Compliance Manager, and maintain control evidence. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable Microsoft 365 security baseline and audit-readiness program — harden the tenant to a documented baseline (improving Secure Score), map controls to frameworks with Compliance Manager, and maintain control evidence.",
+  "meta_title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
+  "meta_description": "Harden the Microsoft 365 tenant to a documented security baseline, improve Secure Score, map controls to frameworks in Compliance Manager, and maintain control evidence for continuous audit readiness. Self-guided, tested steps and scripts.",
+  "bottom_line": "A Microsoft 365 tenant hardened to a documented baseline with an improving Secure Score, controls mapped to your framework, and evidence maintained &mdash; so audits are a report, not a fire drill, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 Security Baseline",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Hardened & Audit-Ready",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft 365 · Secure Score · Compliance Manager",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "CONFIGURED TO WORK",
+      "items": [
+        "Not to secure",
+        "No control evidence",
+        "Audit fire drills",
+        "Low Secure Score"
+      ]
+    },
+    "to": {
+      "label": "Baselined & evidenced",
+      "stat": "Hardened · mapped · evidenced"
+    },
+    "tagline": "HARDEN THE TENANT.  MAP THE CONTROLS.  KEEP THE EVIDENCE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Baseline",
+        "sub": "All services"
+      },
+      {
+        "icon": "chart",
+        "title": "Secure Score",
+        "sub": "Improved"
+      },
+      {
+        "icon": "gear",
+        "title": "Compliance Mgr",
+        "sub": "Framework map"
+      },
+      {
+        "icon": "key",
+        "title": "Evidence",
+        "sub": "Audit-ready"
+      }
+    ]
+  }
+}

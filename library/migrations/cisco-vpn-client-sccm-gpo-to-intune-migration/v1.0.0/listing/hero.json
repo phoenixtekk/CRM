@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cisco VPN Client",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SCCM/GPO → Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "AnyConnect · Migration · Cutover",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ON-PREM DEPLOYMENT",
+    "items": [
+      "SCCM packages",
+      "GPO profiles",
+      "Breaks off-network",
+      "No cloud path"
+    ]
+  },
+  "to": {
+    "label": "Intune-delivered VPN",
+    "stat": "Migrated · coexistent · clean"
+  },
+  "tagline": "REBUILD IT.  COEXIST.  RETIRE IT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Intune Deploy",
+      "sub": "Client + profile"
+    },
+    {
+      "icon": "gear",
+      "title": "Coexistence",
+      "sub": "Safe cutover"
+    },
+    {
+      "icon": "device",
+      "title": "Wave Migrate",
+      "sub": "Pilot-first"
+    },
+    {
+      "icon": "chart",
+      "title": "Progress",
+      "sub": "Migration report"
+    }
+  ]
+}

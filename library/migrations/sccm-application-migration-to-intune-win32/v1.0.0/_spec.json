@@ -1,0 +1,82 @@
+{
+  "sol": "SCCMAPP",
+  "slug": "sccm-application-migration-to-intune-win32",
+  "title": "SCCM Application Migration to Intune Win32 (Repackaging)",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (repackage an SCCM-deployed application estate into Intune Win32 with detection/assignment parity, validation, coexistence; volume + risk).",
+    "Distinct from intune-win32-app-packaging-deployment (net-new packaging), sccm-intune-co-management-enablement (workload move), and the WS1 app-rebuild product; this is the SCCM-app -> Intune Win32 repackaging migration. version_directive: New; branding: off."
+  ],
+  "hook": "Repackage your SCCM apps into Intune Win32 — and prove each one still deploys",
+  "problem": "Moving app delivery from Configuration Manager to Intune means every SCCM application &mdash; with its detection method, requirements, dependencies, and deployment types &mdash; has to be <strong>repackaged as an Intune Win32 app</strong> and validated so nobody loses software mid-migration. Done by hand it's slow and inconsistent. This solution gives you a repeatable way to <strong>migrate the SCCM application estate to Intune Win32</strong>: inventory the SCCM apps, repackage each into <code>.intunewin</code> with correct detection and assignments, run coexistence during transition, and validate each before cutover.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; mapping SCCM applications (deployment types, detection methods, requirements, dependencies) to Intune Win32 apps, the repackage-and-validate model, SCCM/Intune coexistence during migration, and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Configuration Manager access to export app metadata, the Win32 Content Prep Tool, source installers, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory SCCM apps and deployment types, prioritize, repackage each into <code>.intunewin</code> with detection/requirements/dependencies, recreate assignments, run coexistence, validate deployment, cut over by ring, retire the SCCM deployment, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SCCM-vs-Intune app inventory discovery, install/detection validation, a repackage-coverage and deployment-success report, safe remediation of failed installs, and an app-assignment ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>migrate the SCCM application estate to Intune Win32</strong> &mdash; inventory SCCM apps, repackage each into <code>.intunewin</code> with correct detection and assignments, run coexistence, and validate each before cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to migrate the SCCM application estate to Intune Win32 — inventory SCCM apps, repackage each into .intunewin with correct detection and assignments, run coexistence, and validate each before cutover.",
+  "meta_title": "SCCM Application Migration to Intune Win32 (Repackaging)",
+  "meta_description": "Migrate SCCM-deployed applications to Intune Win32: app inventory, repackaging to .intunewin with detection/requirements/dependencies, assignment parity, coexistence, ringed cutover, and SCCM retirement. Self-guided, tested steps and scripts.",
+  "bottom_line": "Your SCCM application estate repackaged into Intune Win32 and proven to deploy &mdash; correct detection, requirements, and assignments, validated before cutover with SCCM coexistence &mdash; so no user loses software during the move, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SCCM Apps to Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Repackage, Proven",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Configuration Manager · Intune Win32",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "APPS STUCK IN SCCM",
+      "items": [
+        "Manual repackage",
+        "Detection drift",
+        "Dependency chains",
+        "Users lose apps"
+      ]
+    },
+    "to": {
+      "label": "Repackaged & validated",
+      "stat": "Detection · assignments · proven"
+    },
+    "tagline": "REPACKAGE EVERY APP.  PROVE EVERY DEPLOY.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Repackage",
+        "sub": ".intunewin"
+      },
+      {
+        "icon": "chip",
+        "title": "Detection",
+        "sub": "Parity"
+      },
+      {
+        "icon": "device",
+        "title": "Coexist",
+        "sub": "During cutover"
+      },
+      {
+        "icon": "chart",
+        "title": "Validated",
+        "sub": "Per app"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cloud-First Autopilot",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Power On, Walk Away",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Windows Autopilot · Entra Join · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HEAVY HYBRID PROVISIONING",
+    "items": [
+      "Techs babysit builds",
+      "Manual domain join",
+      "Slow & manual",
+      "High touch"
+    ]
+  },
+  "to": {
+    "label": "Near zero-touch",
+    "stat": "Entra-join · Autopilot · self-provision"
+  },
+  "tagline": "POWER ON.  WALK AWAY.  DOMAIN-JOIN ONLY IF YOU MUST.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Entra Join",
+      "sub": "Cloud-first"
+    },
+    {
+      "icon": "gear",
+      "title": "Autopilot",
+      "sub": "Self-provision"
+    },
+    {
+      "icon": "device",
+      "title": "Zero-Touch",
+      "sub": "Power-on only"
+    },
+    {
+      "icon": "chart",
+      "title": "Less Effort",
+      "sub": "Touch report"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines (always shown). Edit colors/wording here; re-run tools/build-hero.py to regenerate the SVG+PNG.",
+  "title_lines": [
+    { "text": "Endpoint Privilege", "color": "white", "size": "main" },
+    { "text": "Management (EPM)", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "LOCAL ADMINS", "items": ["Standing rights", "Malware runs free", "No audit trail", "Help-desk tickets"] },
+  "to": { "label": "Microsoft Intune", "stat": "Least privilege · Every elevation audited" },
+  "tagline": "LEAST PRIVILEGE.  CONTROLLED.  AUDITED.",
+  "benefits": [
+    { "icon": "lock", "title": "No Standing Admin", "sub": "Users run standard" },
+    { "icon": "key", "title": "Approved Elevation", "sub": "Only your rules run" },
+    { "icon": "shield", "title": "Tamper-Resistant", "sub": "Cert / hash scoped" },
+    { "icon": "chart", "title": "Fully Audited", "sub": "Tenant-wide report" }
+  ]
+}

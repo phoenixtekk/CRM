@@ -1,0 +1,41 @@
+{
+  "slug": "cisco-ise-intune-compliance-posture-integration",
+  "title": "Cisco ISE Device Compliance & Posture Integration with Intune (MDM Compliance Connector)",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "ISEPOST",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ISEPOST-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ISEPOST-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ISEPOST-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ISEPOST-Solution.pdf",
+    "ISEPOST-Scripts.zip"
+  ],
+  "hero": "ISEPOST-hero.png"
+}
+

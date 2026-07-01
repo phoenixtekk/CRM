@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "iOS Lock-Down Profile",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Shared & Corporate iPhones",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Intune · ABM/ADE · Restrictions/Kiosk",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DRIFTING DEVICES",
+    "items": [
+      "Shared phones drift",
+      "Tied to one setter",
+      "No lock-down",
+      "Users confused"
+    ]
+  },
+  "to": {
+    "label": "Locked & clear",
+    "stat": "Shared + corporate, provisioned"
+  },
+  "tagline": "LOCK THE SHARED.  KEEP CORPORATE LIGHT.  USERS KNOW HOW.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Lock-Down",
+      "sub": "Restrictions + kiosk"
+    },
+    {
+      "icon": "device",
+      "title": "Two Models",
+      "sub": "Shared + corporate"
+    },
+    {
+      "icon": "users",
+      "title": "Provision & Login",
+      "sub": "Both device types"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Per-device + fleet"
+    }
+  ]
+}

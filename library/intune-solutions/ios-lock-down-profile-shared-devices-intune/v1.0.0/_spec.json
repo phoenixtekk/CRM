@@ -1,0 +1,44 @@
+{
+  "sol": "IOSLD",
+  "slug": "ios-lock-down-profile-shared-devices-intune",
+  "title": "Implement iOS Lock Down Profile for iOS iPhones in Microsoft Intune for Shared Devices",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Shaping note: the solution must cover how to USE, PROVISION, and LOG IN to BOTH a Shared device AND a Corporate device managed by Microsoft Intune.",
+    "Effort tier: T3 (lock-down configuration/restrictions profile for shared iPhones + dual provisioning models — shared no-user-affinity vs corporate user-affinity — plus enrollment, compliance, and end-user login/use flows).",
+    "Distinct from ios-iphone-shared-device-mode (IOSSDM = kiosk locked specifically to Cisco Webex). This product centers on the lock-down PROFILE itself and the dual shared-vs-corporate provisioning + login experience; do not duplicate the Webex-kiosk product. version_directive: New; branding: off (white-label)."
+  ],
+  "hook": "Lock down shared iPhones — and give staff a clear way to use both a shared and a corporate device",
+  "problem": "Many organizations hand out two kinds of iPhone: <strong>shared devices</strong> that anyone on shift picks up and uses, and <strong>corporate devices</strong> assigned to one person. The shared ones need a real <strong>lock-down profile</strong> so they stay clean, consistent, and limited to what the job needs; the corporate ones need a lighter, user-owned experience &mdash; and staff need to know exactly how to <strong>provision, sign in to, and use each</strong>. Done ad hoc, shared phones drift, get tied to whoever set them up, and users are confused about which device does what. This solution delivers a repeatable <strong>iOS lock-down profile for shared iPhones in Microsoft Intune</strong>, alongside the provisioning and login model for <strong>both shared and corporate</strong> devices.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the shared-vs-corporate iPhone model, what an iOS lock-down profile is (device restrictions, optional kiosk single/multi-app, supervised controls), the two enrollment/provisioning models (no-user-affinity shared vs user-affinity corporate), and the end-user login/use experience for each.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Apple MDM Push (APNs) certificate, Apple Business Manager + ADE token, supervised devices, device/user groups, a shared sign-in account where used, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: identity &amp; Apple connection baseline, the shared no-user-affinity ADE enrollment, the corporate user-affinity ADE enrollment, the lock-down device-restrictions (and optional kiosk) profile for shared devices, a lighter corporate baseline, compliance &amp; access, then pilot, validate, and expand.",
+    "<strong>Use &amp; Login Guide</strong> &mdash; how an end user picks up and uses a <strong>shared</strong> device (sign in to apps with the shared/managed account, hand-back/reset expectations) and how a user provisions and signs in to their own <strong>corporate</strong> device &mdash; the practical day-to-day for both.",
+    "<strong>5 PowerShell scripts</strong> &mdash; tenant/device readiness discovery, per-device lock-down + enrollment-model validation, a fleet shared-vs-corporate posture report, safe remediation of drifted devices, and a shared/corporate device-group builder."
+  ],
+  "short": "A repeatable <strong>iOS lock-down profile for shared iPhones in Microsoft Intune</strong> &mdash; device restrictions plus optional kiosk &mdash; with the full provisioning and login model for <strong>both shared and corporate</strong> devices. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable iOS lock-down profile for shared iPhones in Microsoft Intune — device restrictions plus optional kiosk — with the full provisioning and login model for both shared and corporate devices.",
+  "meta_title": "iOS Lock Down Profile for Shared iPhones (Intune) — Shared & Corporate",
+  "meta_description": "Lock down shared iPhones in Microsoft Intune (device restrictions + optional kiosk) and provision, sign in to, and use both shared (no user affinity) and corporate (user affinity) devices via Apple Business Manager + ADE. Self-guided, tested steps and scripts.",
+  "bottom_line": "Shared iPhones locked down to exactly what the job needs, corporate iPhones kept light and user-owned, and staff who know how to provision, sign in to, and use both &mdash; managed at fleet scale in Intune, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {"text": "iOS Lock-Down Profile", "color": "white", "size": "main"},
+      {"text": "Shared & Corporate iPhones", "color": "green", "size": "main"},
+      {"text": "Microsoft Intune · ABM/ADE · Restrictions/Kiosk", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "DRIFTING DEVICES", "items": ["Shared phones drift", "Tied to one setter", "No lock-down", "Users confused"]},
+    "to": {"label": "Locked & clear", "stat": "Shared + corporate, provisioned"},
+    "tagline": "LOCK THE SHARED.  KEEP CORPORATE LIGHT.  USERS KNOW HOW.",
+    "benefits": [
+      {"icon": "lock", "title": "Lock-Down", "sub": "Restrictions + kiosk"},
+      {"icon": "device", "title": "Two Models", "sub": "Shared + corporate"},
+      {"icon": "users", "title": "Provision & Login", "sub": "Both device types"},
+      {"icon": "chart", "title": "Validated", "sub": "Per-device + fleet"}
+    ]
+  }
+}

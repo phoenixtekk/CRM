@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Windows 11",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Healthcare Baseline",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Settings Catalog · Security Baseline",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DRIFTING FLEET",
+    "items": [
+      "Inconsistent settings",
+      "PCs sleep mid-shift",
+      "No standard",
+      "Hard to audit"
+    ]
+  },
+  "to": {
+    "label": "One proven baseline",
+    "stat": "Configured · secured · auditable"
+  },
+  "tagline": "ONE BASELINE.  EVERY ENDPOINT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Baseline",
+      "sub": "Config + catalog"
+    },
+    {
+      "icon": "shield",
+      "title": "Security",
+      "sub": "Referenced baseline"
+    },
+    {
+      "icon": "gear",
+      "title": "Updates + Power",
+      "sub": "Tuned for clinical"
+    },
+    {
+      "icon": "chart",
+      "title": "Drift Report",
+      "sub": "Stay compliant"
+    }
+  ]
+}

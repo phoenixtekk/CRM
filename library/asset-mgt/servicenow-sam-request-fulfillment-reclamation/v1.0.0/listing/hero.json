@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "ServiceNow SAM",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Requests to Reclamation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "ServiceNow · SAM · ITAM Workflow",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "REQUESTS IN EMAIL",
+    "items": [
+      "Drowning desk",
+      "No reclamation",
+      "License leakage",
+      "Unauditable"
+    ]
+  },
+  "to": {
+    "label": "Clean workflow",
+    "stat": "Intake · fulfill · reclaim"
+  },
+  "tagline": "REQUEST TO RECLAMATION, ONE WORKFLOW.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Intake",
+      "sub": "Catalog + triage"
+    },
+    {
+      "icon": "key",
+      "title": "Fulfill",
+      "sub": "Entitlement"
+    },
+    {
+      "icon": "chart",
+      "title": "Reclaim",
+      "sub": "Automated"
+    },
+    {
+      "icon": "shield",
+      "title": "Auditable",
+      "sub": "Reported"
+    }
+  ]
+}

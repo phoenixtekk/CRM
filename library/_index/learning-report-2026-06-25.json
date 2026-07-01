@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "ios-iphone-shared-device-mode",
+    "wiki_path": "solutions/intune-solutions/ios-iphone-shared-device-mode",
+    "version_dir": "G:\\VisualStudioCode\\CRM\\library\\intune-solutions\\ios-iphone-shared-device-mode\\v1.0.0",
+    "author": "Lee Lacy",
+    "updated_at": "2026-06-25T16:44:25.853Z",
+    "baseline": "publish-snapshot",
+    "changed_files": [
+      "03-implementation.md"
+    ],
+    "diffs": [
+      {
+        "source_file": "03-implementation.md",
+        "diff": "--- factory:03-implementation.md\n+++ wiki:03-implementation.md\n@@ -95,7 +95,7 @@\n \n ### Step 9. Deploy the Cisco Webex app (required) first\n *(Deploy the app before the kiosk so the kiosk has an installed app to lock to.)*\n-1. **Apps → iOS/iPadOS → Add → iOS store app**; search **Webex** (publisher **Cisco**), **Select**.\n+1. **Apps → iOS/iPadOS → Add → iOS store app**; search **Webex** (publisher **Cisco Systems, Inc.** — bundle ID `com.cisco.squared`, *not* 'Webex Meetings'), **Select**.\n    *(If you license Webex through ABM/VPP, add it as a **Volume Purchase Program** app and assign\n    licenses by device.)*\n 2. **Assignments:** assign **Required** to **`iOS – Shared Devices`** so it installs automatically."
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "BitLocker", "color": "white", "size": "main" },
+    { "text": "Drive Encryption", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "PLAINTEXT DRIVES", "items": ["Data readable if stolen", "No recovery keys", "Manual setup", "No reporting"] },
+  "to": { "label": "Microsoft Intune", "stat": "Encrypted · Keys escrowed" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "lock", "title": "Full-Disk Encryption", "sub": "XTS-AES 256" },
+    { "icon": "chip", "title": "TPM-Backed", "sub": "Hardware-protected" },
+    { "icon": "cloud", "title": "Key Escrow", "sub": "Saved to Entra ID" },
+    { "icon": "gear", "title": "Silent Enablement", "sub": "No user action" }
+  ]
+}

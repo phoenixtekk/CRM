@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. White-label (branding off) — category-only footer.",
+  "title_lines": [
+    { "text": "Commercial → GCC High", "color": "white", "size": "main" },
+    { "text": "M365 & Azure Migration Program", "color": "green", "size": "main" },
+    { "text": "Exchange · SharePoint · Teams · Azure · AVD", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "COMMERCIAL CLOUD", "items": ["Not ITAR/CMMC ready", "Wrong sovereignty", "Many workstreams", "No clear plan"] },
+  "to": { "label": "GCC High (Sovereign)", "stat": "Cross-cloud · workstream by workstream" },
+  "tagline": "ONE PROGRAM.  EVERY WORKSTREAM.  SOVEREIGN BY DESIGN.",
+  "benefits": [
+    { "icon": "cloud", "title": "Cross-Cloud", "sub": "New GCC High tenant" },
+    { "icon": "users", "title": "M365 Workloads", "sub": "Exchange · SPO · Teams" },
+    { "icon": "chip", "title": "Azure + AVD", "sub": "Migrate + ASR, host pools" },
+    { "icon": "shield", "title": "Compliance", "sub": "ITAR / CMMC evidence" }
+  ]
+}

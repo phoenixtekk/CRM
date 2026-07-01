@@ -1,0 +1,45 @@
+{
+  "sol": "PFXMOB",
+  "slug": "deploy-third-party-pfx-certificate-mobile-intune",
+  "title": "Deploy a Third-Party PFX Certificate to Mobile Devices for App Use with Microsoft Intune",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Scenario/shaping note (internal): a third-party PFX (functioning like a software/license certificate an app consumes, not a standard TLS/SSL case) must reach iOS/mobile devices via Intune. The imported PFX object already exists in Intune/Graph for a service UPN, but the team could not complete delivery through the Intune UI/template path they were testing. Resolution must assess the CORRECT enterprise deployment method and how to assign/deploy for the app use case.",
+    "Key correction the solution must make: a static third-party PFX is NOT a SCEP/PKCS CA-issued scenario; the right paths are (a) a PKCS imported certificate configuration profile (needs the Intune Certificate Connector + a Graph PFX import) and/or (b) a custom iOS configuration profile carrying a PKCS12 payload. Choice is driven by how the APP accesses the identity in the keychain.",
+    "Effort tier: T3 (multi-component within Intune: imported-PFX vs custom-profile decision, Certificate Connector, Graph import, trusted-root chain, app keychain nuance, troubleshooting).",
+    "Do NOT print the customer's real tenant UPN/domain in deliverables — use a neutral placeholder (e.g. Intune.Cert.<service>@<your-domain>). version_directive: New; branding: off."
+  ],
+  "hook": "Get a third-party PFX certificate onto iOS devices through Intune — the right way, so the app can actually use it",
+  "problem": "A third-party <strong>PFX certificate</strong> &mdash; one that behaves like a software/license credential an app consumes, not a standard TLS/SSL cert &mdash; needs to land on iOS/mobile devices through <strong>Microsoft Intune</strong> so a specific app can use it. The usual trap: teams reach for the SCEP or PKCS (CA-issued) template, the request never shows up the way they expect, and the deployment stalls even though the PFX object already exists in Intune/Graph. The reason is simple once you see it: a <strong>static, externally-issued PFX is a different delivery path</strong>. This solution gives you the correct, repeatable enterprise method to import that PFX and deliver it to devices so the app can consume it.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how certificate delivery works in Intune and why a static third-party PFX is NOT a SCEP/PKCS (CA-issued) scenario; the two correct paths &mdash; a <strong>PKCS imported certificate</strong> profile (with the Intune Certificate Connector + a Graph PFX import) and a <strong>custom iOS configuration profile carrying a PKCS12 payload</strong> &mdash; and a clear decision guide for the app use case (keychain access).",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, the Intune Certificate Connector and its health, the third-party PFX file + password, the trusted root/intermediate chain, iOS enrollment, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide (the resolution)</strong> &mdash; exact, ordered steps: confirm the imported PFX object, install/validate the Certificate Connector, import the PFX via Microsoft Graph, deploy the trusted-root chain, create and assign the PKCS imported certificate profile (and the custom PKCS12 profile alternative), then validate the app can use the certificate, pilot, and expand.",
+    "<strong>App-use &amp; keychain guidance</strong> &mdash; how the certificate is placed on iOS and what determines whether the target app can access the identity (keychain access group / app configuration), with the decision criteria for imported-PFX vs custom-profile delivery; app-internal specifics are deferred to the app vendor.",
+    "<strong>5 PowerShell scripts</strong> &mdash; certificate-readiness discovery (imported PFX objects + Connector + profiles), per-device certificate-presence validation, a fleet certificate-deployment report, safe remediation (re-assign/repair), and a Graph PFX-import helper that uploads a third-party PFX to Intune."
+  ],
+  "short": "The correct, repeatable enterprise method to deliver a <strong>third-party PFX certificate to iOS/mobile devices via Intune for app use</strong> &mdash; imported-PFX (Certificate Connector + Graph import) vs custom PKCS12 profile, with a decision guide and the keychain nuance that determines whether the app can use it. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The correct enterprise method to deliver a third-party PFX certificate to iOS/mobile devices via Intune for app use — imported-PFX (Certificate Connector + Graph import) vs custom PKCS12 profile, with a decision guide and the keychain nuance.",
+  "meta_title": "Deploy a Third-Party PFX Certificate to Mobile Devices for App Use (Intune)",
+  "meta_description": "Deliver a third-party PFX certificate to iOS/mobile devices via Microsoft Intune for an app: imported PKCS certificate profile (Certificate Connector + Graph import) vs custom PKCS12 configuration profile, trusted-root chain, app keychain access, and validation. Self-guided, tested steps and scripts.",
+  "bottom_line": "A third-party PFX certificate correctly imported into Intune and delivered to iOS devices through the right profile type &mdash; with the app able to consume it &mdash; instead of stalling on the wrong SCEP/PKCS template, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {"text": "Third-Party PFX", "color": "white", "size": "main"},
+      {"text": "to Mobile, for App Use", "color": "green", "size": "main"},
+      {"text": "Microsoft Intune · Imported PKCS · Custom Profile", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "STALLED DEPLOYMENT", "items": ["Wrong SCEP/PKCS path", "PFX exists, won't deploy", "App can't see cert", "Connector/Graph unclear"]},
+    "to": {"label": "Delivered & usable", "stat": "Imported · profiled · app-ready"},
+    "tagline": "RIGHT PATH.  RIGHT PROFILE.  APP CAN USE IT.",
+    "benefits": [
+      {"icon": "key", "title": "PFX Import", "sub": "via Graph + Connector"},
+      {"icon": "device", "title": "iOS Delivery", "sub": "Imported / custom"},
+      {"icon": "lock", "title": "App Keychain", "sub": "Access decided"},
+      {"icon": "chart", "title": "Validated", "sub": "Per-device + fleet"}
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "mam-app-protection-policies-byod-m365",
+  "title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "MAMAPP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (MAM-without-enrollment App Protection Policies for M365 apps on unenrolled BYOD + app config + CA grant; multi-component within Intune).",
+    "Foundational MAM/APP product (distinct from COD/BYOD MDM enrollment). version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MAMAPP-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-MAMAPP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-MAMAPP-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "MAMAPP-Solution.pdf",
+    "MAMAPP-Scripts.zip"
+  ],
+  "hero": "MAMAPP-hero.png"
+}
+

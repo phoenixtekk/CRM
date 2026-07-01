@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Task Sequence Troubleshooting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Decode the Failure",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Configuration Manager · smsts.log · Status Messages",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALLED OSD BUILDS",
+    "items": [
+      "Cryptic status IDs",
+      "Sprawling smsts.log",
+      "Unknown exit codes",
+      "Guessing engineers"
+    ]
+  },
+  "to": {
+    "label": "Diagnosed to root cause",
+    "stat": "Status IDs · logs · exit codes"
+  },
+  "tagline": "READ THE MESSAGE.  FIND THE STEP.  FIX THE CAUSE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Status Msgs",
+      "sub": "IDs + states"
+    },
+    {
+      "icon": "chip",
+      "title": "smsts.log",
+      "sub": "To failing step"
+    },
+    {
+      "icon": "gear",
+      "title": "Exit Codes",
+      "sub": "Mapped to cause"
+    },
+    {
+      "icon": "shield",
+      "title": "Resolve",
+      "sub": "By failure class"
+    }
+  ]
+}

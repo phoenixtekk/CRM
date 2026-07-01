@@ -1,0 +1,82 @@
+{
+  "sol": "CPKI",
+  "slug": "cloud-pki-integration-intune",
+  "title": "Cloud PKI Integration with Intune (Certificate Management Modernization)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T4 (modernize certificate management to a cloud PKI integrated with Intune; connector/plugin, SCEP/PKCS issuance, trust chain, migration off legacy CA; higher risk to auth).",
+    "Vendor-neutral: specific cloud-PKI product internals deferred to the vendor's documentation. version_directive: New; branding: off."
+  ],
+  "hook": "Modernize certificates — issue them from a cloud PKI through Intune, and retire the on-prem CA dependency",
+  "problem": "Device and user certificates are everywhere &mdash; Wi-Fi, VPN, authentication &mdash; but issuing them from an aging on-prem CA + connector chain is fragile and hard to scale. A <strong>cloud PKI with an Intune integration</strong> modernizes this: certificates are issued to Intune-managed devices through the cloud PKI's Intune connector/plugin, with the trust chain deployed and the on-prem dependency reduced or retired. This solution sets up the <strong>cloud PKI ↔ Intune integration</strong>, issues certificates via SCEP/PKCS profiles, and migrates certificate workloads off the legacy CA.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how a cloud PKI integrates with Intune (connector/plugin, SCEP/PKCS issuance), the trust-chain model, what modernizing off an on-prem CA looks like, and the migration/coexistence approach.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a cloud PKI subscription with an Intune integration, the trust chain, target device groups, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing. Cloud-PKI product specifics are deferred to the vendor's documentation.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: connect the cloud PKI to Intune, deploy the trusted root/intermediate chain, create SCEP/PKCS certificate profiles, issue to a pilot, validate certificate-backed scenarios (Wi-Fi/VPN/auth), migrate workloads off the legacy CA, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; certificate/connector readiness discovery, per-device certificate-issuance validation, a certificate coverage and expiry report, safe remediation of failed issuance, and a certificate-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Modernize certificate management with a <strong>cloud PKI integrated with Intune</strong> &mdash; issue certificates via SCEP/PKCS through the cloud PKI's Intune connector, deploy the trust chain, and migrate off the on-prem CA. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Modernize certificate management with a cloud PKI integrated with Intune — issue certificates via SCEP/PKCS through the cloud PKI connector, deploy the trust chain, and migrate off the on-prem CA.",
+  "meta_title": "Cloud PKI Integration with Intune (Certificate Management Modernization)",
+  "meta_description": "Modernize certificates with a cloud PKI integrated with Intune: connector/plugin setup, trust chain, SCEP/PKCS issuance, and migration off the on-prem CA. Vendor-neutral. Self-guided, tested steps and scripts.",
+  "bottom_line": "Certificates issued to Intune-managed devices from a cloud PKI &mdash; trust chain deployed, Wi-Fi/VPN/auth scenarios validated, and the on-prem CA dependency reduced or retired &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Cloud PKI + Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Modernize Certificates",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Cloud PKI · Intune · SCEP/PKCS",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "FRAGILE ON-PREM CA",
+      "items": [
+        "Aging CA + connector",
+        "Hard to scale",
+        "On-prem dependency",
+        "Cert sprawl"
+      ]
+    },
+    "to": {
+      "label": "Cloud-issued certs",
+      "stat": "Connector · chain · SCEP/PKCS"
+    },
+    "tagline": "ISSUE FROM THE CLOUD.  RETIRE THE OLD CA.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Cloud PKI",
+        "sub": "Intune connector"
+      },
+      {
+        "icon": "shield",
+        "title": "Trust Chain",
+        "sub": "Deployed"
+      },
+      {
+        "icon": "gear",
+        "title": "SCEP/PKCS",
+        "sub": "Issuance"
+      },
+      {
+        "icon": "cloud",
+        "title": "Migrate",
+        "sub": "Off on-prem CA"
+      }
+    ]
+  }
+}

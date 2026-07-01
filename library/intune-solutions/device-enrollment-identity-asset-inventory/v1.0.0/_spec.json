@@ -1,0 +1,81 @@
+{
+  "sol": "ENROLLID",
+  "slug": "device-enrollment-identity-asset-inventory",
+  "title": "Device Enrollment, Identity Association & Asset Inventory (Intune)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (enrollment + identity-to-device association + accurate asset inventory within Intune/Entra; multi-component)."
+  ],
+  "hook": "Every device enrolled, tied to the right user, and accounted for in inventory",
+  "problem": "A service desk can't support what it can't see. When devices aren't reliably enrolled, aren't associated with the right primary user, and aren't tracked in an accurate inventory, every ticket starts with detective work and assets quietly go missing. This solution establishes clean <strong>device enrollment, identity association, and asset inventory</strong> in <strong>Microsoft Intune</strong> &mdash; the right enrollment methods, correct primary-user/device-identity association, and an accurate, reconciled inventory the service desk can trust.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the enrollment methods (Autopilot, Entra join + auto-enrollment, bulk/DEM, BYOD), primary-user and device-identity association, and the Intune inventory model as the service desk's source of truth.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, enrollment restrictions and auto-enrollment, identity/primary-user model, an inventory reconciliation source) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: configure enrollment methods and restrictions, set auto-enrollment, establish primary-user association rules, enroll/import devices, reconcile inventory, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; enrollment/identity discovery, per-device enrollment and primary-user validation, an inventory reconciliation and gap report, safe remediation (fix primary-user/stale records, -WhatIf default), and a device-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Establish clean <strong>device enrollment, identity association, and asset inventory</strong> in Microsoft Intune &mdash; the right enrollment methods, correct primary-user association, and a reconciled inventory the service desk can trust. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish clean device enrollment, identity association, and asset inventory in Intune — the right enrollment methods, correct primary-user association, and a reconciled inventory the service desk can trust.",
+  "meta_title": "Device Enrollment, Identity Association & Asset Inventory (Intune)",
+  "meta_description": "Get devices reliably enrolled, associated with the right user, and tracked in Intune: enrollment methods, auto-enrollment, primary-user association, and inventory reconciliation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every device enrolled, tied to the right user, and accounted for in a reconciled Intune inventory &mdash; so the service desk starts every ticket with the facts &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Enrollment & Inventory",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Know Every Device",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Entra ID · Asset Inventory",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLIND SERVICE DESK",
+      "items": [
+        "Devices unenrolled",
+        "Wrong primary user",
+        "Stale records",
+        "Assets missing"
+      ]
+    },
+    "to": {
+      "label": "Accounted for",
+      "stat": "Enrolled · associated · reconciled"
+    },
+    "tagline": "ENROLL IT.  ASSOCIATE IT.  ACCOUNT FOR IT.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Enrollment",
+        "sub": "Right methods"
+      },
+      {
+        "icon": "users",
+        "title": "Identity",
+        "sub": "Primary user"
+      },
+      {
+        "icon": "chart",
+        "title": "Inventory",
+        "sub": "Reconciled"
+      },
+      {
+        "icon": "shield",
+        "title": "Trusted",
+        "sub": "Source of truth"
+      }
+    ]
+  }
+}

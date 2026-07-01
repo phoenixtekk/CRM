@@ -1,0 +1,762 @@
+{
+  "bundles_dir": "/tmp/ptk-bundles",
+  "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+  "entries": [
+    {
+      "sol_code": "ADOBELIC",
+      "file_name": "ADOBELIC-Complete-Solution.zip",
+      "skus": [
+        "PTK-ADOBELIC-COMM-001",
+        "PTK-ADOBELIC-NPO-001",
+        "PTK-ADOBELIC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "M365LIC",
+      "file_name": "M365LIC-Complete-Solution.zip",
+      "skus": [
+        "PTK-M365LIC-COMM-001",
+        "PTK-M365LIC-NPO-001",
+        "PTK-M365LIC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "MSLICGOV",
+      "file_name": "MSLICGOV-Complete-Solution.zip",
+      "skus": [
+        "PTK-MSLICGOV-COMM-001",
+        "PTK-MSLICGOV-NPO-001",
+        "PTK-MSLICGOV-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SAASLIC",
+      "file_name": "SAASLIC-Complete-Solution.zip",
+      "skus": [
+        "PTK-SAASLIC-COMM-001",
+        "PTK-SAASLIC-NPO-001",
+        "PTK-SAASLIC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SNOWSAM",
+      "file_name": "SNOWSAM-Complete-Solution.zip",
+      "skus": [
+        "PTK-SNOWSAM-COMM-001",
+        "PTK-SNOWSAM-NPO-001",
+        "PTK-SNOWSAM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SAMPROG",
+      "file_name": "SAMPROG-Complete-Solution.zip",
+      "skus": [
+        "PTK-SAMPROG-COMM-001",
+        "PTK-SAMPROG-NPO-001",
+        "PTK-SAMPROG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SWDISC",
+      "file_name": "SWDISC-Complete-Solution.zip",
+      "skus": [
+        "PTK-SWDISC-COMM-001",
+        "PTK-SWDISC-NPO-001",
+        "PTK-SWDISC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "LICCOMP",
+      "file_name": "LICCOMP-Complete-Solution.zip",
+      "skus": [
+        "PTK-LICCOMP-COMM-001",
+        "PTK-LICCOMP-NPO-001",
+        "PTK-LICCOMP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "LICRPT",
+      "file_name": "LICRPT-Complete-Solution.zip",
+      "skus": [
+        "PTK-LICRPT-COMM-001",
+        "PTK-LICRPT-NPO-001",
+        "PTK-LICRPT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SWRENEW",
+      "file_name": "SWRENEW-Complete-Solution.zip",
+      "skus": [
+        "PTK-SWRENEW-COMM-001",
+        "PTK-SWRENEW-NPO-001",
+        "PTK-SWRENEW-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "TIER1LIC",
+      "file_name": "TIER1LIC-Complete-Solution.zip",
+      "skus": [
+        "PTK-TIER1LIC-COMM-001",
+        "PTK-TIER1LIC-NPO-001",
+        "PTK-TIER1LIC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "AVD",
+      "file_name": "AVD-Complete-Solution.zip",
+      "skus": [
+        "PTK-AVD-COMM-001",
+        "PTK-AVD-NPO-001",
+        "PTK-AVD-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "TEAMSSBC",
+      "file_name": "TEAMSSBC-Complete-Solution.zip",
+      "skus": [
+        "PTK-TEAMSSBC-COMM-001",
+        "PTK-TEAMSSBC-NPO-001",
+        "PTK-TEAMSSBC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "W365",
+      "file_name": "W365-Complete-Solution.zip",
+      "skus": [
+        "PTK-W365-COMM-001",
+        "PTK-W365-NPO-001",
+        "PTK-W365-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "BACKUPVAL",
+      "file_name": "BACKUPVAL-Complete-Solution.zip",
+      "skus": [
+        "PTK-BACKUPVAL-COMM-001",
+        "PTK-BACKUPVAL-NPO-001",
+        "PTK-BACKUPVAL-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "HYBID",
+      "file_name": "HYBID-Complete-Solution.zip",
+      "skus": [
+        "PTK-HYBID-COMM-001",
+        "PTK-HYBID-NPO-001",
+        "PTK-HYBID-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "FIDO2",
+      "file_name": "FIDO2-Complete-Solution.zip",
+      "skus": [
+        "PTK-FIDO2-COMM-001",
+        "PTK-FIDO2-NPO-001",
+        "PTK-FIDO2-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CLINLOGON",
+      "file_name": "CLINLOGON-Complete-Solution.zip",
+      "skus": [
+        "PTK-CLINLOGON-COMM-001",
+        "PTK-CLINLOGON-NPO-001",
+        "PTK-CLINLOGON-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EPICWS",
+      "file_name": "EPICWS-Complete-Solution.zip",
+      "skus": [
+        "PTK-EPICWS-COMM-001",
+        "PTK-EPICWS-NPO-001",
+        "PTK-EPICWS-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EPICGOLIVE",
+      "file_name": "EPICGOLIVE-Complete-Solution.zip",
+      "skus": [
+        "PTK-EPICGOLIVE-COMM-001",
+        "PTK-EPICGOLIVE-NPO-001",
+        "PTK-EPICGOLIVE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EPICCLIENT",
+      "file_name": "EPICCLIENT-Complete-Solution.zip",
+      "skus": [
+        "PTK-EPICCLIENT-COMM-001",
+        "PTK-EPICCLIENT-NPO-001",
+        "PTK-EPICCLIENT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CLINDEV",
+      "file_name": "CLINDEV-Complete-Solution.zip",
+      "skus": [
+        "PTK-CLINDEV-COMM-001",
+        "PTK-CLINDEV-NPO-001",
+        "PTK-CLINDEV-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "HIPAACOMP",
+      "file_name": "HIPAACOMP-Complete-Solution.zip",
+      "skus": [
+        "PTK-HIPAACOMP-COMM-001",
+        "PTK-HIPAACOMP-NPO-001",
+        "PTK-HIPAACOMP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "IMPRIVATA",
+      "file_name": "IMPRIVATA-Complete-Solution.zip",
+      "skus": [
+        "PTK-IMPRIVATA-COMM-001",
+        "PTK-IMPRIVATA-NPO-001",
+        "PTK-IMPRIVATA-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "W11HC",
+      "file_name": "W11HC-Complete-Solution.zip",
+      "skus": [
+        "PTK-W11HC-COMM-001",
+        "PTK-W11HC-NPO-001",
+        "PTK-W11HC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EHEM",
+      "file_name": "EHEM-Complete-Solution.zip",
+      "skus": [
+        "PTK-EHEM-COMM-001",
+        "PTK-EHEM-NPO-001",
+        "PTK-EHEM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "IMGLIFE",
+      "file_name": "IMGLIFE-Complete-Solution.zip",
+      "skus": [
+        "PTK-IMGLIFE-COMM-001",
+        "PTK-IMGLIFE-NPO-001",
+        "PTK-IMGLIFE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "PSAUTO",
+      "file_name": "PSAUTO-Complete-Solution.zip",
+      "skus": [
+        "PTK-PSAUTO-COMM-001",
+        "PTK-PSAUTO-NPO-001",
+        "PTK-PSAUTO-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EPRPT",
+      "file_name": "EPRPT-Complete-Solution.zip",
+      "skus": [
+        "PTK-EPRPT-COMM-001",
+        "PTK-EPRPT-NPO-001",
+        "PTK-EPRPT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NEWSITE",
+      "file_name": "NEWSITE-Complete-Solution.zip",
+      "skus": [
+        "PTK-NEWSITE-COMM-001",
+        "PTK-NEWSITE-NPO-001",
+        "PTK-NEWSITE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "UPRT",
+      "file_name": "UPRT-Complete-Solution.zip",
+      "skus": [
+        "PTK-UPRT-COMM-001",
+        "PTK-UPRT-NPO-001",
+        "PTK-UPRT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WDAC",
+      "file_name": "WDAC-Complete-Solution.zip",
+      "skus": [
+        "PTK-WDAC-COMM-001",
+        "PTK-WDAC-NPO-001",
+        "PTK-WDAC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "ASR",
+      "file_name": "ASR-Complete-Solution.zip",
+      "skus": [
+        "PTK-ASR-COMM-001",
+        "PTK-ASR-NPO-001",
+        "PTK-ASR-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "BITLK",
+      "file_name": "BITLK-Complete-Solution.zip",
+      "skus": [
+        "PTK-BITLK-COMM-001",
+        "PTK-BITLK-NPO-001",
+        "PTK-BITLK-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CAI",
+      "file_name": "CAI-Complete-Solution.zip",
+      "skus": [
+        "PTK-CAI-COMM-001",
+        "PTK-CAI-NPO-001",
+        "PTK-CAI-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CMG",
+      "file_name": "CMG-Complete-Solution.zip",
+      "skus": [
+        "PTK-CMG-COMM-001",
+        "PTK-CMG-NPO-001",
+        "PTK-CMG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CODBYOD",
+      "file_name": "CODBYOD-Complete-Solution.zip",
+      "skus": [
+        "PTK-CODBYOD-COMM-001",
+        "PTK-CODBYOD-NPO-001",
+        "PTK-CODBYOD-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "DCP",
+      "file_name": "DCP-Complete-Solution.zip",
+      "skus": [
+        "PTK-DCP-COMM-001",
+        "PTK-DCP-NPO-001",
+        "PTK-DCP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "ENROLLID",
+      "file_name": "ENROLLID-Complete-Solution.zip",
+      "skus": [
+        "PTK-ENROLLID-COMM-001",
+        "PTK-ENROLLID-NPO-001",
+        "PTK-ENROLLID-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "DUALDEV",
+      "file_name": "DUALDEV-Complete-Solution.zip",
+      "skus": [
+        "PTK-DUALDEV-COMM-001",
+        "PTK-DUALDEV-NPO-001",
+        "PTK-DUALDEV-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "IOSDD",
+      "file_name": "IOSDD-Complete-Solution.zip",
+      "skus": [
+        "PTK-IOSDD-COMM-001",
+        "PTK-IOSDD-NPO-001",
+        "PTK-IOSDD-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EPM",
+      "file_name": "EPM-Complete-Solution.zip",
+      "skus": [
+        "PTK-EPM-COMM-001",
+        "PTK-EPM-NPO-001",
+        "PTK-EPM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "ESB",
+      "file_name": "ESB-Complete-Solution.zip",
+      "skus": [
+        "PTK-ESB-COMM-001",
+        "PTK-ESB-NPO-001",
+        "PTK-ESB-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CISMAC",
+      "file_name": "CISMAC-Complete-Solution.zip",
+      "skus": [
+        "PTK-CISMAC-COMM-001",
+        "PTK-CISMAC-NPO-001",
+        "PTK-CISMAC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "CIS11",
+      "file_name": "CIS11-Complete-Solution.zip",
+      "skus": [
+        "PTK-CIS11-COMM-001",
+        "PTK-CIS11-NPO-001",
+        "PTK-CIS11-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WIN32",
+      "file_name": "WIN32-Complete-Solution.zip",
+      "skus": [
+        "PTK-WIN32-COMM-001",
+        "PTK-WIN32-NPO-001",
+        "PTK-WIN32-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "IOSSDM",
+      "file_name": "IOSSDM-Complete-Solution.zip",
+      "skus": [
+        "PTK-IOSSDM-COMM-001",
+        "PTK-IOSSDM-NPO-001",
+        "PTK-IOSSDM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "ADEMAC",
+      "file_name": "ADEMAC-Complete-Solution.zip",
+      "skus": [
+        "PTK-ADEMAC-COMM-001",
+        "PTK-ADEMAC-NPO-001",
+        "PTK-ADEMAC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "JAMFADE",
+      "file_name": "JAMFADE-Complete-Solution.zip",
+      "skus": [
+        "PTK-JAMFADE-COMM-001",
+        "PTK-JAMFADE-NPO-001",
+        "PTK-JAMFADE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "MDE",
+      "file_name": "MDE-Complete-Solution.zip",
+      "skus": [
+        "PTK-MDE-COMM-001",
+        "PTK-MDE-NPO-001",
+        "PTK-MDE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "ODFB",
+      "file_name": "ODFB-Complete-Solution.zip",
+      "skus": [
+        "PTK-ODFB-COMM-001",
+        "PTK-ODFB-NPO-001",
+        "PTK-ODFB-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "RHELP",
+      "file_name": "RHELP-Complete-Solution.zip",
+      "skus": [
+        "PTK-RHELP-COMM-001",
+        "PTK-RHELP-NPO-001",
+        "PTK-RHELP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "TPP",
+      "file_name": "TPP-Complete-Solution.zip",
+      "skus": [
+        "PTK-TPP-COMM-001",
+        "PTK-TPP-NPO-001",
+        "PTK-TPP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WAP",
+      "file_name": "WAP-Complete-Solution.zip",
+      "skus": [
+        "PTK-WAP-COMM-001",
+        "PTK-WAP-NPO-001",
+        "PTK-WAP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WFM",
+      "file_name": "WFM-Complete-Solution.zip",
+      "skus": [
+        "PTK-WFM-COMM-001",
+        "PTK-WFM-NPO-001",
+        "PTK-WFM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WHFB",
+      "file_name": "WHFB-Complete-Solution.zip",
+      "skus": [
+        "PTK-WHFB-COMM-001",
+        "PTK-WHFB-NPO-001",
+        "PTK-WHFB-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WUFB",
+      "file_name": "WUFB-Complete-Solution.zip",
+      "skus": [
+        "PTK-WUFB-COMM-001",
+        "PTK-WUFB-NPO-001",
+        "PTK-WUFB-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WSUSM",
+      "file_name": "WSUSM-Complete-Solution.zip",
+      "skus": [
+        "PTK-WSUSM-COMM-001",
+        "PTK-WSUSM-NPO-001",
+        "PTK-WSUSM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "INCIDENT",
+      "file_name": "INCIDENT-Complete-Solution.zip",
+      "skus": [
+        "PTK-INCIDENT-COMM-001",
+        "PTK-INCIDENT-NPO-001",
+        "PTK-INCIDENT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "MSPSTACK",
+      "file_name": "MSPSTACK-Complete-Solution.zip",
+      "skus": [
+        "PTK-MSPSTACK-COMM-001",
+        "PTK-MSPSTACK-NPO-001",
+        "PTK-MSPSTACK-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "RMMTUNE",
+      "file_name": "RMMTUNE-Complete-Solution.zip",
+      "skus": [
+        "PTK-RMMTUNE-COMM-001",
+        "PTK-RMMTUNE-NPO-001",
+        "PTK-RMMTUNE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "GCCHIGH",
+      "file_name": "GCCHIGH-Complete-Solution.zip",
+      "skus": [
+        "PTK-GCCHIGH-COMM-001",
+        "PTK-GCCHIGH-NPO-001",
+        "PTK-GCCHIGH-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "COMGMT",
+      "file_name": "COMGMT-Complete-Solution.zip",
+      "skus": [
+        "PTK-COMGMT-COMM-001",
+        "PTK-COMGMT-NPO-001",
+        "PTK-COMGMT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "GPOM",
+      "file_name": "GPOM-Complete-Solution.zip",
+      "skus": [
+        "PTK-GPOM-COMM-001",
+        "PTK-GPOM-NPO-001",
+        "PTK-GPOM-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "MDMRDY",
+      "file_name": "MDMRDY-Complete-Solution.zip",
+      "skus": [
+        "PTK-MDMRDY-COMM-001",
+        "PTK-MDMRDY-NPO-001",
+        "PTK-MDMRDY-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "EXOMIG",
+      "file_name": "EXOMIG-Complete-Solution.zip",
+      "skus": [
+        "PTK-EXOMIG-COMM-001",
+        "PTK-EXOMIG-NPO-001",
+        "PTK-EXOMIG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1DROID",
+      "file_name": "WS1DROID-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1DROID-COMM-001",
+        "PTK-WS1DROID-NPO-001",
+        "PTK-WS1DROID-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1IOS",
+      "file_name": "WS1IOS-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1IOS-COMM-001",
+        "PTK-WS1IOS-NPO-001",
+        "PTK-WS1IOS-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1MAC",
+      "file_name": "WS1MAC-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1MAC-COMM-001",
+        "PTK-WS1MAC-NPO-001",
+        "PTK-WS1MAC-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1POL",
+      "file_name": "WS1POL-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1POL-COMM-001",
+        "PTK-WS1POL-NPO-001",
+        "PTK-WS1POL-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1WIN",
+      "file_name": "WS1WIN-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1WIN-COMM-001",
+        "PTK-WS1WIN-NPO-001",
+        "PTK-WS1WIN-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1APP",
+      "file_name": "WS1APP-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1APP-COMM-001",
+        "PTK-WS1APP-NPO-001",
+        "PTK-WS1APP-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1COEX",
+      "file_name": "WS1COEX-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1COEX-COMM-001",
+        "PTK-WS1COEX-NPO-001",
+        "PTK-WS1COEX-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "WS1PROG",
+      "file_name": "WS1PROG-Complete-Solution.zip",
+      "skus": [
+        "PTK-WS1PROG-COMM-001",
+        "PTK-WS1PROG-NPO-001",
+        "PTK-WS1PROG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSCASB",
+      "file_name": "NSCASB-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSCASB-COMM-001",
+        "PTK-NSCASB-NPO-001",
+        "PTK-NSCASB-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSMIG",
+      "file_name": "NSMIG-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSMIG-COMM-001",
+        "PTK-NSMIG-NPO-001",
+        "PTK-NSMIG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSSSO",
+      "file_name": "NSSSO-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSSSO-COMM-001",
+        "PTK-NSSSO-NPO-001",
+        "PTK-NSSSO-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSCLIENT",
+      "file_name": "NSCLIENT-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSCLIENT-COMM-001",
+        "PTK-NSCLIENT-NPO-001",
+        "PTK-NSCLIENT-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSDIAG",
+      "file_name": "NSDIAG-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSDIAG-COMM-001",
+        "PTK-NSDIAG-NPO-001",
+        "PTK-NSDIAG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSSWG",
+      "file_name": "NSSWG-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSSWG-COMM-001",
+        "PTK-NSSWG-NPO-001",
+        "PTK-NSSWG-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SASE",
+      "file_name": "SASE-Complete-Solution.zip",
+      "skus": [
+        "PTK-SASE-COMM-001",
+        "PTK-SASE-NPO-001",
+        "PTK-SASE-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSSSL",
+      "file_name": "NSSSL-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSSSL-COMM-001",
+        "PTK-NSSSL-NPO-001",
+        "PTK-NSSSL-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "NSZTNA",
+      "file_name": "NSZTNA-Complete-Solution.zip",
+      "skus": [
+        "PTK-NSZTNA-COMM-001",
+        "PTK-NSZTNA-NPO-001",
+        "PTK-NSZTNA-GOV-001"
+      ]
+    },
+    {
+      "sol_code": "SENTLOG",
+      "file_name": "SENTLOG-Complete-Solution.zip",
+      "skus": [
+        "PTK-SENTLOG-COMM-001",
+        "PTK-SENTLOG-NPO-001",
+        "PTK-SENTLOG-GOV-001"
+      ]
+    }
+  ]
+}

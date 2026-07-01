@@ -1,0 +1,41 @@
+{
+  "slug": "phased-gpo-to-intune-transition-program",
+  "title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "GPOPROG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (program-level orchestration of a sequenced GPO-to-Intune transition: core OS first, then security controls; conflict/loop governance, coexistence, multi-workstream).",
+    "Complements group-policy-to-intune-settings-migration (mechanics) by providing the strategy/sequencing/governance layer. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GPOPROG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-GPOPROG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-GPOPROG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "GPOPROG-Solution.pdf",
+    "GPOPROG-Scripts.zip"
+  ],
+  "hero": "GPOPROG-hero.png"
+}
+

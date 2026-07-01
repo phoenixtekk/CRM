@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "azure-security-baseline-governance",
+    "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+    "category_path": [
+      "Azure"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AZSEC-COMM-001",
+      "name": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "A repeatable <strong>Azure security baseline and governance</strong> &mdash; Azure Policy guardrails, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve posture continuously. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Put guardrails on Azure — secure configuration, least privilege, and policy that enforces itself</h3><p>An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline &mdash; exactly what Defender for Cloud and auditors flag. This solution gives you a repeatable <strong>Azure security baseline and governance</strong>: Azure Policy guardrails that prevent and audit misconfiguration, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve secure posture continuously.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Azure governance model (management groups, Azure Policy initiatives, RBAC least-privilege), the secure-configuration baseline, and Defender for Cloud secure score / regulatory compliance.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (an Azure subscription/tenant, Entra ID, Owner/Policy contributor rights, a governance/scope design, Defender for Cloud plan, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define scope (management groups/subscriptions), assign Azure Policy guardrail initiatives (audit then deny), tighten RBAC to least privilege, apply the secure-config baseline, enable Defender for Cloud and remediate top findings, validate, pilot, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Azure policy/RBAC/secure-config discovery, compliance and least-privilege validation, a governance posture and drift report, safe remediation of over-privilege/misconfig, and a scope/management-group targeting helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Azure under governance &mdash; policy guardrails preventing misconfiguration, RBAC at least privilege, a secure-config baseline applied, and Defender for Cloud posture improving &mdash; instead of drift and audit findings, proven on a pilot scope before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AZSEC-Discovery.ps1</code> &mdash; inventory Azure Policy assignments, RBAC (incl. standing Owner), and</li><li><code>AZSEC-Remediation.ps1</code> &mdash; safe remediation: remove a standing Owner assignment (replacing with a</li><li><code>AZSEC-Report.ps1</code> &mdash; governance-posture report: assignments, per-policy compliance, Defender for</li><li><code>AZSEC-Set-ScopeTargeting.ps1</code> &mdash; resolve and confirm the management-group / subscription scope</li><li><code>AZSEC-Validation.ps1</code> &mdash; confirm the guardrail assignment, least-privilege RBAC, and the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+      "meta_description": "Govern Azure with guardrails: Azure Policy initiatives (audit-then-deny), least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud secure-score remediation. Self-guided, tested steps and scripts.",
+      "url_key": "azure-security-baseline-governance-commercial",
+      "image": "AZSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AZSEC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AZSEC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AZSEC-NPO-001",
+      "name": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>A repeatable Azure security baseline and governance — Azure Policy guardrails, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve posture continuously. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Put guardrails on Azure — secure configuration, least privilege, and policy that enforces itself</h3><p>An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline &mdash; exactly what Defender for Cloud and auditors flag. This solution gives you a repeatable <strong>Azure security baseline and governance</strong>: Azure Policy guardrails that prevent and audit misconfiguration, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve secure posture continuously.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Azure governance model (management groups, Azure Policy initiatives, RBAC least-privilege), the secure-configuration baseline, and Defender for Cloud secure score / regulatory compliance.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (an Azure subscription/tenant, Entra ID, Owner/Policy contributor rights, a governance/scope design, Defender for Cloud plan, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define scope (management groups/subscriptions), assign Azure Policy guardrail initiatives (audit then deny), tighten RBAC to least privilege, apply the secure-config baseline, enable Defender for Cloud and remediate top findings, validate, pilot, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Azure policy/RBAC/secure-config discovery, compliance and least-privilege validation, a governance posture and drift report, safe remediation of over-privilege/misconfig, and a scope/management-group targeting helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AZSEC-Discovery.ps1</code> &mdash; inventory Azure Policy assignments, RBAC (incl. standing Owner), and</li><li><code>AZSEC-Remediation.ps1</code> &mdash; safe remediation: remove a standing Owner assignment (replacing with a</li><li><code>AZSEC-Report.ps1</code> &mdash; governance-posture report: assignments, per-policy compliance, Defender for</li><li><code>AZSEC-Set-ScopeTargeting.ps1</code> &mdash; resolve and confirm the management-group / subscription scope</li><li><code>AZSEC-Validation.ps1</code> &mdash; confirm the guardrail assignment, least-privilege RBAC, and the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Govern Azure with guardrails: Azure Policy initiatives (audit-then-deny), least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud secure-score remediation. Self-guided, tested steps and scripts.",
+      "url_key": "azure-security-baseline-governance-nonprofit",
+      "image": "AZSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AZSEC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AZSEC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AZSEC-GOV-001",
+      "name": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>A repeatable Azure security baseline and governance — Azure Policy guardrails, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve posture continuously. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Put guardrails on Azure — secure configuration, least privilege, and policy that enforces itself</h3><p>An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline &mdash; exactly what Defender for Cloud and auditors flag. This solution gives you a repeatable <strong>Azure security baseline and governance</strong>: Azure Policy guardrails that prevent and audit misconfiguration, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve secure posture continuously.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Azure governance model (management groups, Azure Policy initiatives, RBAC least-privilege), the secure-configuration baseline, and Defender for Cloud secure score / regulatory compliance.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (an Azure subscription/tenant, Entra ID, Owner/Policy contributor rights, a governance/scope design, Defender for Cloud plan, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define scope (management groups/subscriptions), assign Azure Policy guardrail initiatives (audit then deny), tighten RBAC to least privilege, apply the secure-config baseline, enable Defender for Cloud and remediate top findings, validate, pilot, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Azure policy/RBAC/secure-config discovery, compliance and least-privilege validation, a governance posture and drift report, safe remediation of over-privilege/misconfig, and a scope/management-group targeting helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AZSEC-Discovery.ps1</code> &mdash; inventory Azure Policy assignments, RBAC (incl. standing Owner), and</li><li><code>AZSEC-Remediation.ps1</code> &mdash; safe remediation: remove a standing Owner assignment (replacing with a</li><li><code>AZSEC-Report.ps1</code> &mdash; governance-posture report: assignments, per-policy compliance, Defender for</li><li><code>AZSEC-Set-ScopeTargeting.ps1</code> &mdash; resolve and confirm the management-group / subscription scope</li><li><code>AZSEC-Validation.ps1</code> &mdash; confirm the guardrail assignment, least-privilege RBAC, and the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Govern Azure with guardrails: Azure Policy initiatives (audit-then-deny), least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud secure-score remediation. Self-guided, tested steps and scripts.",
+      "url_key": "azure-security-baseline-governance-government",
+      "image": "AZSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AZSEC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AZSEC-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

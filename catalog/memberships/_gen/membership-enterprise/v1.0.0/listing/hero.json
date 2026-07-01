@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Membership", "color": "white", "size": "main" },
+    { "text": "Enterprise", "color": "green", "size": "main" },
+    { "text": "Govern at scale", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "TEAM TIER LIMITS", "items": ["No org licensing", "Single admin", "No governance", "Standard support"] },
+  "to": { "label": "Phoenixtekk", "stat": "$1,499/mo · $17,988/yr" },
+  "tagline": "SCALE.  GOVERN.  LEAD.",
+  "benefits": [
+    { "icon": "shield", "title": "Enterprise Licensing", "sub": "Org-wide rights" },
+    { "icon": "users", "title": "Multiple Admins", "sub": "+ training rights" },
+    { "icon": "chart", "title": "Governance Packs", "sub": "Architecture templates" },
+    { "icon": "lock", "title": "Priority + Call Now", "sub": "Fix Doc Now" }
+  ]
+}

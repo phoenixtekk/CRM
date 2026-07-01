@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "phased-gpo-to-intune-transition-program",
+    "title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+    "category_path": [
+      "Migrations"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GPOPROG-COMM-001",
+      "name": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "The <strong>program and sequencing roadmap</strong> for a GPO-to-Intune transition done right &mdash; core OS first, then security controls, with coexistence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Do it right: a sequenced GPO-to-Intune transition that stabilizes the foundation before touching security</h3><p>The fastest way to break a GPO-to-Intune transition is to migrate security controls (firewall, app control) before the foundation is clean &mdash; conflicts, loops, and lockouts follow. This solution is the <strong>program and sequencing roadmap</strong> for doing it right: migrate <strong>core OS settings first</strong>, stabilize, then layer in <strong>security controls</strong> in a deliberate order, with coexistence governance (MDM-wins-over-GP), conflict/loop guardrails, go/no-go gates, and an operating model &mdash; so internal pressure to rush doesn't wreck the move.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the phased transition model (rationalize &rarr; core OS &rarr; stabilize &rarr; security controls &rarr; app control), coexistence and precedence (MDM wins over GP), conflict/loop governance, and the program operating model with go/no-go gates.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a rationalized GPO backlog, Group Policy analytics, stakeholder alignment, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define phases and sequencing, set coexistence/precedence guardrails, run the core-OS phase, stabilize and validate, sequence the security-control phases (firewall, app control) with go/no-go gates, then expand and decommission GPO scope.</li><li><strong>5 PowerShell scripts</strong> &mdash; transition-readiness discovery, per-phase coexistence/conflict validation, a phase-status and conflict report, safe remediation of precedence conflicts, and a phase/wave scope-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A GPO-to-Intune transition that holds together &mdash; core OS migrated and stabilized first, security controls sequenced behind go/no-go gates, conflicts and loops governed &mdash; so internal pressure to rush doesn't break the move, proven on a pilot phase before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPOPROG-Discovery.ps1</code> &mdash; transition readiness for a phased GPO-to-Intune program</li><li><code>GPOPROG-Remediation.ps1</code> &mdash; safely resolve a precedence conflict (-WhatIf default)</li><li><code>GPOPROG-Report.ps1</code> &mdash; phase-status and conflict report for the transition program</li><li><code>GPOPROG-Set-PhaseScopeTargeting.ps1</code> &mdash; build the phase/wave scope groups in Entra (Graph)</li><li><code>GPOPROG-Validation.ps1</code> &mdash; per-phase coexistence/conflict validation on a device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+      "meta_description": "Sequence a GPO-to-Intune transition the right way: core OS settings first, then security controls, with coexistence/precedence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested steps and scripts.",
+      "url_key": "phased-gpo-to-intune-transition-program-commercial",
+      "image": "GPOPROG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPOPROG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPOPROG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GPOPROG-NPO-001",
+      "name": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>The program and sequencing roadmap for a GPO-to-Intune transition done right — core OS first, then security controls, with coexistence governance, conflict/loop guardrails, and go/no-go gates. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Do it right: a sequenced GPO-to-Intune transition that stabilizes the foundation before touching security</h3><p>The fastest way to break a GPO-to-Intune transition is to migrate security controls (firewall, app control) before the foundation is clean &mdash; conflicts, loops, and lockouts follow. This solution is the <strong>program and sequencing roadmap</strong> for doing it right: migrate <strong>core OS settings first</strong>, stabilize, then layer in <strong>security controls</strong> in a deliberate order, with coexistence governance (MDM-wins-over-GP), conflict/loop guardrails, go/no-go gates, and an operating model &mdash; so internal pressure to rush doesn't wreck the move.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the phased transition model (rationalize &rarr; core OS &rarr; stabilize &rarr; security controls &rarr; app control), coexistence and precedence (MDM wins over GP), conflict/loop governance, and the program operating model with go/no-go gates.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a rationalized GPO backlog, Group Policy analytics, stakeholder alignment, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define phases and sequencing, set coexistence/precedence guardrails, run the core-OS phase, stabilize and validate, sequence the security-control phases (firewall, app control) with go/no-go gates, then expand and decommission GPO scope.</li><li><strong>5 PowerShell scripts</strong> &mdash; transition-readiness discovery, per-phase coexistence/conflict validation, a phase-status and conflict report, safe remediation of precedence conflicts, and a phase/wave scope-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPOPROG-Discovery.ps1</code> &mdash; transition readiness for a phased GPO-to-Intune program</li><li><code>GPOPROG-Remediation.ps1</code> &mdash; safely resolve a precedence conflict (-WhatIf default)</li><li><code>GPOPROG-Report.ps1</code> &mdash; phase-status and conflict report for the transition program</li><li><code>GPOPROG-Set-PhaseScopeTargeting.ps1</code> &mdash; build the phase/wave scope groups in Entra (Graph)</li><li><code>GPOPROG-Validation.ps1</code> &mdash; per-phase coexistence/conflict validation on a device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Sequence a GPO-to-Intune transition the right way: core OS settings first, then security controls, with coexistence/precedence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested steps and scripts.",
+      "url_key": "phased-gpo-to-intune-transition-program-nonprofit",
+      "image": "GPOPROG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPOPROG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPOPROG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GPOPROG-GOV-001",
+      "name": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>The program and sequencing roadmap for a GPO-to-Intune transition done right — core OS first, then security controls, with coexistence governance, conflict/loop guardrails, and go/no-go gates. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Do it right: a sequenced GPO-to-Intune transition that stabilizes the foundation before touching security</h3><p>The fastest way to break a GPO-to-Intune transition is to migrate security controls (firewall, app control) before the foundation is clean &mdash; conflicts, loops, and lockouts follow. This solution is the <strong>program and sequencing roadmap</strong> for doing it right: migrate <strong>core OS settings first</strong>, stabilize, then layer in <strong>security controls</strong> in a deliberate order, with coexistence governance (MDM-wins-over-GP), conflict/loop guardrails, go/no-go gates, and an operating model &mdash; so internal pressure to rush doesn't wreck the move.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the phased transition model (rationalize &rarr; core OS &rarr; stabilize &rarr; security controls &rarr; app control), coexistence and precedence (MDM wins over GP), conflict/loop governance, and the program operating model with go/no-go gates.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a rationalized GPO backlog, Group Policy analytics, stakeholder alignment, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define phases and sequencing, set coexistence/precedence guardrails, run the core-OS phase, stabilize and validate, sequence the security-control phases (firewall, app control) with go/no-go gates, then expand and decommission GPO scope.</li><li><strong>5 PowerShell scripts</strong> &mdash; transition-readiness discovery, per-phase coexistence/conflict validation, a phase-status and conflict report, safe remediation of precedence conflicts, and a phase/wave scope-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GPOPROG-Discovery.ps1</code> &mdash; transition readiness for a phased GPO-to-Intune program</li><li><code>GPOPROG-Remediation.ps1</code> &mdash; safely resolve a precedence conflict (-WhatIf default)</li><li><code>GPOPROG-Report.ps1</code> &mdash; phase-status and conflict report for the transition program</li><li><code>GPOPROG-Set-PhaseScopeTargeting.ps1</code> &mdash; build the phase/wave scope groups in Entra (Graph)</li><li><code>GPOPROG-Validation.ps1</code> &mdash; per-phase coexistence/conflict validation on a device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Sequence a GPO-to-Intune transition the right way: core OS settings first, then security controls, with coexistence/precedence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested steps and scripts.",
+      "url_key": "phased-gpo-to-intune-transition-program-government",
+      "image": "GPOPROG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GPOPROG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GPOPROG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

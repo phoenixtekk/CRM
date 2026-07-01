@@ -1,0 +1,81 @@
+{
+  "sol": "SAMPROG",
+  "slug": "software-asset-management-program-standup",
+  "title": "Software Asset Management (SAM) Program Standup & Governance",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (program/governance: SAM lifecycle, SOPs, KPIs, roles, ITIL v4 alignment across tools and stakeholders)."
+  ],
+  "hook": "Stand up a real Software Asset Management program — not just a spreadsheet",
+  "problem": "Most organizations 'do SAM' as scattered spreadsheets and last-minute audit panic. There is no defined lifecycle, no owners, no KPIs, and no repeatable process &mdash; so compliance is luck and savings are left on the table. This solution stands up a real <strong>Software Asset Management program</strong>: the SAM lifecycle, roles and RACI, SOPs and workflows, KPIs, and ITIL v4 alignment, so software is governed deliberately from request to retirement.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the SAM lifecycle (request &rarr; entitlement &rarr; deployment &rarr; reconciliation &rarr; renewal/retirement), roles and RACI, the tooling landscape, and ITIL v4 alignment.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (an entitlement system of record, discovery data, a request/intake channel, named owners, executive sponsorship) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define scope and roles, stand up the system of record and intake, author SOPs and workflows, set KPIs and reporting, run the first governance cycle, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SAM-readiness discovery, process/data-coverage validation, a SAM KPI and maturity report, safe remediation of data gaps, and a SAM-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up a real <strong>Software Asset Management program</strong> &mdash; the SAM lifecycle, roles and RACI, SOPs and workflows, KPIs, and ITIL v4 alignment, so software is governed from request to retirement. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up a real Software Asset Management program — the SAM lifecycle, roles and RACI, SOPs, KPIs, and ITIL v4 alignment, so software is governed from request to retirement.",
+  "meta_title": "Software Asset Management (SAM) Program Standup & Governance",
+  "meta_description": "Stand up a SAM program: lifecycle, roles/RACI, SOPs and workflows, KPIs, and ITIL v4 alignment. Self-guided, tested steps and scripts.",
+  "bottom_line": "A deliberate, governed SAM program &mdash; defined lifecycle, owners, SOPs, and KPIs &mdash; replacing spreadsheet chaos and audit panic, proven on a pilot scope before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SAM Program",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Govern It Deliberately",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Software Asset Management · ITIL v4",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SPREADSHEET SAM",
+      "items": [
+        "No lifecycle",
+        "No owners",
+        "No KPIs",
+        "Audit panic"
+      ]
+    },
+    "to": {
+      "label": "Governed program",
+      "stat": "Lifecycle · SOPs · KPIs"
+    },
+    "tagline": "FROM CHAOS TO GOVERNED SAM.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Lifecycle",
+        "sub": "Request→retire"
+      },
+      {
+        "icon": "users",
+        "title": "Roles + RACI",
+        "sub": "Owned"
+      },
+      {
+        "icon": "chart",
+        "title": "KPIs",
+        "sub": "Measured"
+      },
+      {
+        "icon": "shield",
+        "title": "ITIL v4",
+        "sub": "Aligned"
+      }
+    ]
+  }
+}

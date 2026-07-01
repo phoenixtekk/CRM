@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "RMM Alert Tuning",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Noise Out, Signal In",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "baseline · classify · threshold · automate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ALERT FATIGUE",
+    "items": [
+      "1000s of alerts/day",
+      "Real issues missed",
+      "No severity",
+      "Manual triage"
+    ]
+  },
+  "to": {
+    "label": "Tuned RMM",
+    "stat": "Fewer alerts · all actionable"
+  },
+  "tagline": "LESS NOISE.  EARLIER SIGNAL.  FEWER HANDS.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Baseline",
+      "sub": "Alerts/endpoint/day"
+    },
+    {
+      "icon": "shield",
+      "title": "Severity Tiers",
+      "sub": "SEV-1…SEV-4"
+    },
+    {
+      "icon": "gear",
+      "title": "Self-Heal",
+      "sub": "Auto-fix common issues"
+    },
+    {
+      "icon": "key",
+      "title": "Alert → Ticket",
+      "sub": "Right routing"
+    }
+  ]
+}

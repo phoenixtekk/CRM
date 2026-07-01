@@ -1,0 +1,56 @@
+{
+  "_comment": "white-label (branding off) — build-hero shows category-only footer",
+  "title_lines": [
+    {
+      "text": "Epic Hyperdrive & Hyperspace",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Client Deployment & Lifecycle",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "package · ring · supersede · retire · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL, DRIFTING INSTALLS",
+    "items": [
+      "Version drift",
+      "Broken go-lives",
+      "Hand-built carts",
+      "No clean retire"
+    ]
+  },
+  "to": {
+    "label": "Microsoft Intune",
+    "stat": "Packaged · ringed · current"
+  },
+  "tagline": "ONE PACKAGE.  EVERY ENDPOINT.  ALWAYS CURRENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Win32 Packaged",
+      "sub": "Detection + version pinning"
+    },
+    {
+      "icon": "chart",
+      "title": "Deployment Rings",
+      "sub": "Pilot then broad"
+    },
+    {
+      "icon": "cloud",
+      "title": "Lifecycle",
+      "sub": "Supersede + clean retire"
+    },
+    {
+      "icon": "device",
+      "title": "Clinical Fleet",
+      "sub": "Workstations + WOWs"
+    }
+  ]
+}

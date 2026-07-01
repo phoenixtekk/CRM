@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Windows 365",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Cloud PC Deployment",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Windows 365 · Intune · Azure",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SLOW TO PROVISION",
+    "items": [
+      "Ship a laptop each",
+      "One-off Cloud PCs",
+      "Inconsistent image",
+      "Hard to secure"
+    ]
+  },
+  "to": {
+    "label": "Provisioned by policy",
+    "stat": "Dedicated desktop · managed in Intune"
+  },
+  "tagline": "DESKTOP IN MINUTES.  MANAGED LIKE METAL.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Cloud PC",
+      "sub": "Always-on desktop"
+    },
+    {
+      "icon": "gear",
+      "title": "Provisioning",
+      "sub": "Policy-driven"
+    },
+    {
+      "icon": "device",
+      "title": "Any Device",
+      "sub": "Reach anywhere"
+    },
+    {
+      "icon": "shield",
+      "title": "Secured",
+      "sub": "Intune + CA"
+    }
+  ]
+}

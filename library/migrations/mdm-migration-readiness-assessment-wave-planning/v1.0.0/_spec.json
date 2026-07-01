@@ -1,0 +1,81 @@
+{
+  "sol": "MDMRDY",
+  "slug": "mdm-migration-readiness-assessment-wave-planning",
+  "title": "MDM Migration Readiness Assessment & Wave Planning",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (vendor-neutral pre-migration assessment + wave/risk planning across an MDM estate; discovery and planning, sells ahead of execution)."
+  ],
+  "hook": "Know exactly what you're migrating — before you touch a single device",
+  "problem": "Most MDM migrations fail in planning, not execution: nobody has a clean inventory, the waves aren't thought through, and the risks surface mid-cutover. This solution is a vendor-neutral <strong>MDM migration readiness assessment and wave plan</strong> &mdash; inventory the current estate (devices, OS mix, apps, profiles, enrollment types), score readiness and risk, and produce a sequenced wave plan so the actual migration runs to a script instead of by surprise.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the readiness-assessment model, what to inventory (devices, OS/platform mix, apps, profiles, compliance, enrollment types, dependencies), readiness/risk scoring, and how the wave plan is built.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (read access to the current MDM, an inventory/export method, target-platform context, stakeholder input) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory the estate, classify and score readiness/risk, identify dependencies and blockers, design sequenced waves with entry/exit criteria, produce the plan, then validate it against a pilot wave.",
+    "<strong>5 PowerShell scripts</strong> &mdash; estate inventory discovery, data-completeness validation, a readiness/risk and wave-plan report, safe remediation of inventory gaps, and a wave/cohort group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A vendor-neutral <strong>MDM migration readiness assessment and wave plan</strong> &mdash; inventory the estate, score readiness and risk, and produce a sequenced wave plan so the migration runs to a script instead of by surprise. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A vendor-neutral MDM migration readiness assessment and wave plan — inventory the estate, score readiness and risk, and produce a sequenced wave plan so the migration runs to a script instead of by surprise.",
+  "meta_title": "MDM Migration Readiness Assessment & Wave Planning",
+  "meta_description": "Assess MDM migration readiness and plan waves: estate inventory, readiness/risk scoring, dependency analysis, and a sequenced wave plan with entry/exit criteria. Self-guided, tested steps and scripts.",
+  "bottom_line": "A clear-eyed picture of exactly what you're migrating and in what order &mdash; estate inventoried, readiness and risk scored, and a sequenced wave plan with entry/exit criteria &mdash; so the migration runs to a script, validated against a pilot wave before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Migration Readiness",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Plan Before You Touch",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "MDM Assessment · Wave Planning",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PLANNING FAILURES",
+      "items": [
+        "No clean inventory",
+        "Waves unplanned",
+        "Risks surface late",
+        "Migrate by surprise"
+      ]
+    },
+    "to": {
+      "label": "Run to a script",
+      "stat": "Inventoried · scored · sequenced"
+    },
+    "tagline": "ASSESS FIRST.  WAVE-PLAN.  THEN MIGRATE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Inventory",
+        "sub": "Full estate"
+      },
+      {
+        "icon": "shield",
+        "title": "Risk Score",
+        "sub": "Readiness"
+      },
+      {
+        "icon": "gear",
+        "title": "Waves",
+        "sub": "Entry/exit"
+      },
+      {
+        "icon": "users",
+        "title": "Cohorts",
+        "sub": "Sequenced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "License Reporting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Make Spend Visible",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Power BI · Excel · License Data",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DATA NOBODY READS",
+    "items": [
+      "Exports ignored",
+      "Renewal surprises",
+      "Savings unclaimed",
+      "No cost view"
+    ]
+  },
+  "to": {
+    "label": "Dashboards in use",
+    "stat": "Usage · expirations · cost"
+  },
+  "tagline": "TURN LICENSE DATA INTO DECISIONS.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Dashboards",
+      "sub": "Power BI"
+    },
+    {
+      "icon": "gear",
+      "title": "KPIs",
+      "sub": "Usage + cost"
+    },
+    {
+      "icon": "cloud",
+      "title": "Refresh",
+      "sub": "Scheduled"
+    },
+    {
+      "icon": "lock",
+      "title": "Expirations",
+      "sub": "Tracked"
+    }
+  ]
+}

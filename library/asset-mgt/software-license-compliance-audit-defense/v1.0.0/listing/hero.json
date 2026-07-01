@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "License Compliance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Audit-Ready ELP",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Effective License Position · Audit Defense",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AUDIT FIRE DRILL",
+    "items": [
+      "No ELP",
+      "Unproven compliance",
+      "Hidden shortfalls",
+      "Costly settlements"
+    ]
+  },
+  "to": {
+    "label": "Defensible position",
+    "stat": "Reconciled · gaps closed"
+  },
+  "tagline": "KNOW YOUR POSITION FIRST.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "ELP",
+      "sub": "Reconciled"
+    },
+    {
+      "icon": "shield",
+      "title": "Audit Defense",
+      "sub": "Package ready"
+    },
+    {
+      "icon": "gear",
+      "title": "Gap Closure",
+      "sub": "Before found"
+    },
+    {
+      "icon": "lock",
+      "title": "Proof",
+      "sub": "Entitlements"
+    }
+  ]
+}

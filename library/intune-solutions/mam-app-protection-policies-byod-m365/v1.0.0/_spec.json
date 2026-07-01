@@ -1,0 +1,82 @@
+{
+  "sol": "MAMAPP",
+  "slug": "mam-app-protection-policies-byod-m365",
+  "title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (MAM-without-enrollment App Protection Policies for M365 apps on unenrolled BYOD + app config + CA grant; multi-component within Intune).",
+    "Foundational MAM/APP product (distinct from COD/BYOD MDM enrollment). version_directive: New; branding: off."
+  ],
+  "hook": "Protect corporate data in mobile apps — without managing the whole personal device",
+  "problem": "Employees want to use Outlook, Teams, and SharePoint on their own phones, and IT wants the data safe &mdash; but enrolling personal devices into full MDM is intrusive and slows adoption. <strong>Mobile Application Management (MAM) with App Protection Policies</strong> is the answer: protect corporate data <em>inside</em> the Microsoft 365 apps (encryption, copy/paste and save-as limits, PIN, selective wipe) on <strong>unenrolled BYOD</strong> devices, without touching the rest of the phone. This solution gives you a repeatable way to stand up <strong>App Protection Policies for BYOD</strong> in Microsoft Intune and enforce them with Conditional Access.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how MAM / App Protection Policies (MAM-without-enrollment) work, the data-protection controls (encryption, cut/copy/paste, save-as, PIN, selective wipe), app configuration, and how Conditional Access enforces 'require approved app / app protection policy'.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune with App Protection, Entra ID + Conditional Access, the Microsoft 365 mobile apps, licensing, target user groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: create App Protection Policies for iOS and Android, set data-protection and access settings, add app configuration, enforce with a Conditional Access app-protection grant, validate on unenrolled BYOD, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; App Protection Policy discovery, per-user/app protection-status validation, a coverage and enforcement report, safe remediation of gaps, and a MAM scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to stand up <strong>App Protection Policies for BYOD</strong> in Microsoft Intune &mdash; protect corporate data inside the Microsoft 365 apps on unenrolled personal devices, enforced with Conditional Access, without full device management. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to stand up App Protection Policies for BYOD in Microsoft Intune — protect corporate data inside the Microsoft 365 apps on unenrolled personal devices, enforced with Conditional Access, without full device management.",
+  "meta_title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps)",
+  "meta_description": "Deploy Intune MAM App Protection Policies for BYOD: protect data inside Microsoft 365 apps (encryption, copy/paste, save-as, PIN, selective wipe) on unenrolled devices, enforced via Conditional Access. Self-guided, tested steps and scripts.",
+  "bottom_line": "Corporate data protected inside the Microsoft 365 apps on personal phones &mdash; encryption, data-movement limits, PIN, and selective wipe, enforced by Conditional Access, with no full-device enrollment &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "App Protection (MAM)",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Protect Data, Not the Phone",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · MAM · Microsoft 365 Apps",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BYOD DATA RISK",
+      "items": [
+        "Enrollment too intrusive",
+        "Data leaks from apps",
+        "No copy/paste control",
+        "No selective wipe"
+      ]
+    },
+    "to": {
+      "label": "Data protected in-app",
+      "stat": "Encryption · PIN · selective wipe"
+    },
+    "tagline": "PROTECT THE DATA.  LEAVE THE PHONE ALONE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "App Protection",
+        "sub": "In-app controls"
+      },
+      {
+        "icon": "lock",
+        "title": "Selective Wipe",
+        "sub": "Corp data only"
+      },
+      {
+        "icon": "device",
+        "title": "Unenrolled BYOD",
+        "sub": "No full MDM"
+      },
+      {
+        "icon": "gear",
+        "title": "CA Enforced",
+        "sub": "Approved app"
+      }
+    ]
+  }
+}

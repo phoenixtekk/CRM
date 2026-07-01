@@ -1,0 +1,83 @@
+{
+  "sol": "NSSSO",
+  "slug": "netskope-entra-sso-identity-policy",
+  "title": "Netskope + Entra ID SSO & Identity-Based Policy Enforcement",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (IdP integration: SAML SSO + SCIM provisioning + identity-steered policy between Netskope and Entra ID).",
+    "Distinct from conditional-access-integration (Entra CA): this product integrates Netskope with Entra ID as IdP and enforces identity-based SSE policy.",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Make every Netskope policy follow the user — via Entra ID single sign-on",
+  "problem": "Network-security policy that isn't tied to identity is blunt: you can't write rules per user or group, and admins juggle separate logins. This solution integrates <strong>Netskope with Microsoft Entra ID for SSO and identity-based policy</strong> &mdash; SAML single sign-on for admins and users, SCIM user/group provisioning, and policies that steer and enforce by identity and group, so the right controls follow the right people everywhere.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the IdP integration model, SAML SSO, SCIM user/group provisioning into Netskope, identity-based steering and policy, and how it complements (not duplicates) Entra Conditional Access.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Netskope tenant, Entra ID with the rights to register apps/SCIM, user/group structure, the Netskope client, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: configure SAML SSO between Entra ID and Netskope, enable SCIM provisioning, map groups, build identity-based steering and policy, validate sign-in and policy targeting, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SSO/SCIM-readiness discovery, sign-in and provisioning validation, an identity-policy coverage report, safe remediation of provisioning gaps, and an identity-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Integrate <strong>Netskope with Microsoft Entra ID for SSO and identity-based policy</strong> &mdash; SAML single sign-on, SCIM user/group provisioning, and policies that steer and enforce by identity and group, so the right controls follow the right people. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Integrate Netskope with Microsoft Entra ID for SSO and identity-based policy — SAML single sign-on, SCIM user/group provisioning, and policies that steer and enforce by identity and group.",
+  "meta_title": "Netskope + Entra ID SSO & Identity-Based Policy Enforcement",
+  "meta_description": "Integrate Netskope with Entra ID: SAML SSO, SCIM user/group provisioning, and identity-based steering and policy enforcement. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Netskope policy that follows the user &mdash; Entra ID single sign-on, SCIM-provisioned users and groups, and identity-based steering and enforcement &mdash; so the right controls reach the right people everywhere, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Identity-Based Policy",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Policy Follows the User",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · Entra ID · SSO + SCIM",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLUNT POLICY",
+      "items": [
+        "No per-user rules",
+        "Separate logins",
+        "Manual provisioning",
+        "Policy drift"
+      ]
+    },
+    "to": {
+      "label": "Identity-driven",
+      "stat": "SSO · SCIM · group policy"
+    },
+    "tagline": "ONE IDENTITY.  POLICY EVERYWHERE.",
+    "benefits": [
+      {
+        "icon": "fingerprint",
+        "title": "SAML SSO",
+        "sub": "One sign-in"
+      },
+      {
+        "icon": "users",
+        "title": "SCIM",
+        "sub": "Users + groups"
+      },
+      {
+        "icon": "gear",
+        "title": "Identity Policy",
+        "sub": "Per group"
+      },
+      {
+        "icon": "shield",
+        "title": "Enforced",
+        "sub": "Everywhere"
+      }
+    ]
+  }
+}

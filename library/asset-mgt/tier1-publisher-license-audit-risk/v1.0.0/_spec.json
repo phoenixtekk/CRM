@@ -1,0 +1,82 @@
+{
+  "sol": "TIER1LIC",
+  "slug": "tier1-publisher-license-audit-risk",
+  "title": "Tier-1 Publisher License & Audit-Risk Management (Oracle / IBM / SAP)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (high-risk publisher licensing: complex metrics, audit exposure across Oracle/IBM/SAP; multi-vendor, financial risk).",
+    "Vendor-specific metric internals (Oracle Processor/NUP, IBM PVU, SAP named-user/digital access) are summarized; precise contract terms deferred to the customer's agreements and the publisher."
+  ],
+  "hook": "Manage the publishers most likely to audit you — and most expensive to get wrong",
+  "problem": "Oracle, IBM, and SAP licensing is a category of its own: complex metrics (processor, PVU, named-user, digital access), aggressive audit programs, and settlements that run into seven figures. This solution gives you a repeatable way to <strong>manage tier-1 publisher licensing and audit risk</strong> &mdash; understand each publisher's metrics, build a defensible position for your deployments, identify exposure before an auditor does, and put controls around the highest-risk software you run.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the tier-1 publisher landscape, the key metrics (Oracle Processor/Named-User Plus, IBM PVU, SAP named-user and digital access), why audit risk is high, and the defensible-position approach.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (contracts and entitlement records per publisher, deployment data, metric definitions, owner sign-off) with how to <em>verify</em> and how to <em>implement</em> each if missing. Precise contract terms are deferred to your agreements and the publisher.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: per publisher, gather contracts and metrics, map deployment to the licensing metric, calculate position and exposure, close gaps and set controls, prepare for audit, then pilot with one publisher and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; deployment discovery for the relevant workloads, metric-mapping validation, a per-publisher position and exposure report, safe remediation of over-deployment, and a publisher-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>manage tier-1 publisher licensing and audit risk</strong> (Oracle, IBM, SAP) &mdash; understand each publisher's metrics, build a defensible position, identify exposure before an auditor does, and control your highest-risk software. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to manage tier-1 publisher licensing and audit risk (Oracle, IBM, SAP) — understand each publisher's metrics, build a defensible position, and identify exposure early.",
+  "meta_title": "Tier-1 Publisher License & Audit-Risk Management (Oracle / IBM / SAP)",
+  "meta_description": "Manage tier-1 publisher licensing and audit risk: Oracle/IBM/SAP metrics, deployment-to-metric mapping, exposure calculation, gap closure, and audit prep. Self-guided, tested steps and scripts.",
+  "bottom_line": "The highest-risk publishers under control &mdash; Oracle, IBM, and SAP positions calculated against their own metrics, exposure identified, and controls in place &mdash; so a tier-1 audit holds no surprises, proven on one publisher before you expand.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Tier-1 Publishers",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Manage the Audit Risk",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Oracle · IBM · SAP Licensing",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SEVEN-FIGURE RISK",
+      "items": [
+        "Complex metrics",
+        "Aggressive audits",
+        "Hidden exposure",
+        "Costly settlements"
+      ]
+    },
+    "to": {
+      "label": "Defensible position",
+      "stat": "Mapped · calculated · controlled"
+    },
+    "tagline": "TAME THE RISKIEST PUBLISHERS.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Metrics",
+        "sub": "PVU/NUP/digital"
+      },
+      {
+        "icon": "gear",
+        "title": "Position",
+        "sub": "Deployment-mapped"
+      },
+      {
+        "icon": "shield",
+        "title": "Exposure",
+        "sub": "Found early"
+      },
+      {
+        "icon": "lock",
+        "title": "Controls",
+        "sub": "Audit-ready"
+      }
+    ]
+  }
+}

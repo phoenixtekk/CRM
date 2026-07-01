@@ -1,0 +1,38 @@
+{
+  "slug": "microsoft-365-license-optimization-reharvesting",
+  "title": "Microsoft 365 License Optimization & Reharvesting",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "M365LIC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (license usage analysis + reclamation across Microsoft 365 via admin center + Graph; reporting and savings workflow)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-M365LIC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-M365LIC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-M365LIC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "M365LIC-Complete-Solution.zip"
+  ],
+  "hero": "M365LIC-hero.png"
+}

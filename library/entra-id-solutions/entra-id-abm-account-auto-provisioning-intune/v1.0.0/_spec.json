@@ -1,0 +1,44 @@
+{
+  "sol": "ABMPROV",
+  "slug": "entra-id-abm-account-auto-provisioning-intune",
+  "title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune",
+  "category": "Entra ID Solutions",
+  "category_slug": "entra-id-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Shaping note: the solution must support iOS managed iPhones for Corporate-Owned (COD), BYOD, and Shared Device scenarios.",
+    "Effort tier: T4 (identity-plane integration across Microsoft Entra ID + Apple Business Manager + Intune: federated authentication, SCIM auto-provisioning of Managed Apple IDs, and three enrollment models; org-wide change to Apple sign-in, higher risk).",
+    "Scope: Entra ID <-> ABM Federated Authentication + automatic Managed Apple ID provisioning (SCIM from Entra to ABM and/or just-in-time on first federated sign-in), then leveraged for COD (account-driven/ADE device enrollment), BYOD (account-driven user enrollment), and Shared (no-user-affinity + Managed Apple ID). ABM console internals deferred to Apple documentation. version_directive: New; branding: off (white-label)."
+  ],
+  "hook": "Federate Entra ID with Apple Business Manager so Managed Apple IDs provision themselves — and every iPhone enrolls the right way",
+  "problem": "Managed Apple IDs are the backbone of modern iPhone management, but creating and maintaining them by hand &mdash; and reconciling them with your real users &mdash; is a slog, and it blocks the cleanest enrollment experiences. The fix is to <strong>integrate Microsoft Entra ID with Apple Business Manager</strong>: federate authentication so users sign in to Apple services with their Entra credentials, and <strong>auto-provision Managed Apple IDs</strong> from Entra (SCIM) so accounts simply exist when you need them. With that foundation in place, all three iPhone models &mdash; <strong>Corporate-Owned, BYOD, and Shared</strong> &mdash; enroll into <strong>Microsoft Intune</strong> the right way. This solution sets up the federation and auto-provisioning, then wires each enrollment scenario on top.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Entra ID &harr; Apple Business Manager federation works, automatic Managed Apple ID provisioning (SCIM from Entra plus just-in-time on first federated sign-in), how this enables the three iOS enrollment models, and the domain-capture / existing-Apple-ID conflict considerations.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID with the rights to federate + provision, Apple Business Manager, verified domain(s), the Apple MDM Push (APNs) certificate, the ADE enrollment token, Intune, user/group scoping, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: federate ABM with Entra ID, configure SCIM auto-provisioning of Managed Apple IDs (scoped to a pilot group first), resolve any existing-Apple-ID conflicts, then stand up enrollment for each model &mdash; Corporate-Owned (account-driven / ADE device enrollment), BYOD (account-driven user enrollment), and Shared (no-user-affinity with Managed Apple IDs) &mdash; then pilot, validate, and expand.",
+    "<strong>Per-scenario guidance</strong> &mdash; how the federated identity + Managed Apple ID flows into each model (COD vs BYOD vs Shared), what the end-user sign-in experience looks like, and how to keep them cleanly separated by group.",
+    "<strong>5 PowerShell scripts</strong> &mdash; federation/provisioning readiness discovery, per-user Managed-Apple-ID + per-device enrollment-model validation, a fleet provisioning-coverage and scenario-breakdown report, safe remediation (re-provision / fix scope), and a provisioning + enrollment scope-group builder for the three scenarios."
+  ],
+  "short": "Integrate <strong>Microsoft Entra ID with Apple Business Manager</strong> &mdash; federated authentication + automatic Managed Apple ID provisioning (SCIM) &mdash; then enroll iPhones the right way for <strong>Corporate-Owned, BYOD, and Shared</strong> scenarios in Microsoft Intune. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Integrate Microsoft Entra ID with Apple Business Manager — federated authentication plus automatic Managed Apple ID provisioning (SCIM) — then enroll iPhones the right way for Corporate-Owned, BYOD, and Shared scenarios in Microsoft Intune.",
+  "meta_title": "Entra ID + Apple Business Manager Federation & Auto-Provisioning (Intune)",
+  "meta_description": "Federate Microsoft Entra ID with Apple Business Manager and auto-provision Managed Apple IDs (SCIM), then enroll iPhones for Corporate-Owned, BYOD, and Shared scenarios in Microsoft Intune. Self-guided, tested steps and scripts.",
+  "bottom_line": "Entra ID federated with Apple Business Manager and Managed Apple IDs provisioning themselves &mdash; so Corporate-Owned, BYOD, and Shared iPhones all enroll into Intune cleanly on one identity &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {"text": "Entra ID + ABM", "color": "white", "size": "main"},
+      {"text": "Account Auto-Provisioning", "color": "green", "size": "main"},
+      {"text": "Microsoft Intune · Federation · Managed Apple ID", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "MANUAL APPLE IDS", "items": ["Hand-made Managed Apple IDs", "Separate Apple logins", "Enrollment blocked", "ID conflicts"]},
+    "to": {"label": "Federated & auto-provisioned", "stat": "COD · BYOD · Shared, one identity"},
+    "tagline": "FEDERATE.  AUTO-PROVISION.  ENROLL EVERY MODEL.",
+    "benefits": [
+      {"icon": "fingerprint", "title": "Federation", "sub": "Entra ↔ ABM"},
+      {"icon": "users", "title": "Auto-Provision", "sub": "SCIM Managed Apple IDs"},
+      {"icon": "device", "title": "3 Models", "sub": "COD · BYOD · Shared"},
+      {"icon": "chart", "title": "Validated", "sub": "Per-user + fleet"}
+    ]
+  }
+}

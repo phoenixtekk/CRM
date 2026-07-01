@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Intune Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Guardrails on Admin",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · RBAC · Multi-Admin Approval",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "EVERYONE IS ADMIN",
+    "items": [
+      "No least privilege",
+      "Big blast radius",
+      "No approvals",
+      "Risky changes"
+    ]
+  },
+  "to": {
+    "label": "Governed & approved",
+    "stat": "Roles · scope tags · approval"
+  },
+  "tagline": "LEAST PRIVILEGE.  SECOND PAIR OF EYES.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "RBAC",
+      "sub": "Custom roles"
+    },
+    {
+      "icon": "gear",
+      "title": "Scope Tags",
+      "sub": "Who touches what"
+    },
+    {
+      "icon": "shield",
+      "title": "Approval",
+      "sub": "Multi-admin"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Privilege report"
+    }
+  ]
+}

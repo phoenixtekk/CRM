@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Audit Telemetry",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Nothing Happens Unseen",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Entra ID · Intune · Microsoft Sentinel",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SILOED SIGNAL",
+    "items": [
+      "Logs siloed",
+      "Short retention",
+      "Invisible to SIEM",
+      "No baseline alerts"
+    ]
+  },
+  "to": {
+    "label": "Centralized in Sentinel",
+    "stat": "Ingested · retained · alert-ready"
+  },
+  "tagline": "STREAM THE SIGNAL.  SEE EVERYTHING.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Connectors",
+      "sub": "Entra + Intune"
+    },
+    {
+      "icon": "chart",
+      "title": "Log Analytics",
+      "sub": "Centralized"
+    },
+    {
+      "icon": "lock",
+      "title": "Retention",
+      "sub": "Compliance-ready"
+    },
+    {
+      "icon": "shield",
+      "title": "Analytics",
+      "sub": "Baseline alerts"
+    }
+  ]
+}

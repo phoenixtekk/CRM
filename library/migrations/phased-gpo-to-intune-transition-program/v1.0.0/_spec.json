@@ -1,0 +1,82 @@
+{
+  "sol": "GPOPROG",
+  "slug": "phased-gpo-to-intune-transition-program",
+  "title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T4 (program-level orchestration of a sequenced GPO-to-Intune transition: core OS first, then security controls; conflict/loop governance, coexistence, multi-workstream).",
+    "Complements group-policy-to-intune-settings-migration (mechanics) by providing the strategy/sequencing/governance layer. version_directive: New; branding: off."
+  ],
+  "hook": "Do it right: a sequenced GPO-to-Intune transition that stabilizes the foundation before touching security",
+  "problem": "The fastest way to break a GPO-to-Intune transition is to migrate security controls (firewall, app control) before the foundation is clean &mdash; conflicts, loops, and lockouts follow. This solution is the <strong>program and sequencing roadmap</strong> for doing it right: migrate <strong>core OS settings first</strong>, stabilize, then layer in <strong>security controls</strong> in a deliberate order, with coexistence governance (MDM-wins-over-GP), conflict/loop guardrails, go/no-go gates, and an operating model &mdash; so internal pressure to rush doesn't wreck the move.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the phased transition model (rationalize &rarr; core OS &rarr; stabilize &rarr; security controls &rarr; app control), coexistence and precedence (MDM wins over GP), conflict/loop governance, and the program operating model with go/no-go gates.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, a rationalized GPO backlog, Group Policy analytics, stakeholder alignment, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define phases and sequencing, set coexistence/precedence guardrails, run the core-OS phase, stabilize and validate, sequence the security-control phases (firewall, app control) with go/no-go gates, then expand and decommission GPO scope.",
+    "<strong>5 PowerShell scripts</strong> &mdash; transition-readiness discovery, per-phase coexistence/conflict validation, a phase-status and conflict report, safe remediation of precedence conflicts, and a phase/wave scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The <strong>program and sequencing roadmap</strong> for a GPO-to-Intune transition done right &mdash; core OS first, then security controls, with coexistence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The program and sequencing roadmap for a GPO-to-Intune transition done right — core OS first, then security controls, with coexistence governance, conflict/loop guardrails, and go/no-go gates.",
+  "meta_title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+  "meta_description": "Sequence a GPO-to-Intune transition the right way: core OS settings first, then security controls, with coexistence/precedence governance, conflict/loop guardrails, and go/no-go gates. Self-guided, tested steps and scripts.",
+  "bottom_line": "A GPO-to-Intune transition that holds together &mdash; core OS migrated and stabilized first, security controls sequenced behind go/no-go gates, conflicts and loops governed &mdash; so internal pressure to rush doesn't break the move, proven on a pilot phase before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Phased GPO Transition",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Do It Right, In Order",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "GPO → Intune · Sequencing · Governance",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RUSHED MIGRATION",
+      "items": [
+        "Security moved too early",
+        "Conflicts & loops",
+        "No sequencing",
+        "Pressure to rush"
+      ]
+    },
+    "to": {
+      "label": "Sequenced & governed",
+      "stat": "Core OS first · gated · stable"
+    },
+    "tagline": "FOUNDATION FIRST.  SECURITY NEXT.  GATED THROUGHOUT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Sequencing",
+        "sub": "Core OS first"
+      },
+      {
+        "icon": "shield",
+        "title": "Coexistence",
+        "sub": "MDM wins over GP"
+      },
+      {
+        "icon": "chart",
+        "title": "Go/No-Go",
+        "sub": "Gated phases"
+      },
+      {
+        "icon": "lock",
+        "title": "Stabilize",
+        "sub": "Then security"
+      }
+    ]
+  }
+}

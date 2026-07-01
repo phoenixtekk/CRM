@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines (always shown). Edit colors/wording here; re-run tools/build-hero.py to regenerate the SVG+PNG.",
+  "title_lines": [
+    { "text": "Personal + Corporate iPhone", "color": "white", "size": "main" },
+    { "text": "Single Sign-On", "color": "green", "size": "main" },
+    { "text": "one account · two iPhones · Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "TWO iPhones, TWO LOGINS", "items": ["Duplicate accounts", "Repeated sign-ins", "Split policies", "Data leaks"] },
+  "to": { "label": "Microsoft Intune", "stat": "One identity · SSO on both" },
+  "tagline": "ONE ACCOUNT.  BOTH iPhones.  SEAMLESS.",
+  "benefits": [
+    { "icon": "users", "title": "One Identity", "sub": "Both iPhones, one account" },
+    { "icon": "key", "title": "Single Sign-On", "sub": "Authenticator + iOS SSO" },
+    { "icon": "device", "title": "Corporate iPhone MDM", "sub": "Supervised via ABM + ADE" },
+    { "icon": "lock", "title": "Personal iPhone MAM", "sub": "Data, not the device" }
+  ]
+}

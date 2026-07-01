@@ -1,0 +1,82 @@
+{
+  "sol": "RBACGOV",
+  "slug": "intune-rbac-multi-admin-governance",
+  "title": "Intune Administrative Governance — RBAC & Multi-Admin Approval",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T3 (Intune RBAC custom roles + scope tags + multi-admin / access-policy approval; governance, multi-stakeholder).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Put real guardrails on Intune — least-privilege roles and a second pair of eyes on risky changes",
+  "problem": "When everyone is an Intune Administrator, mistakes and blast radius follow. Modern governance means <strong>least-privilege RBAC</strong> and <strong>multi-admin approval</strong> for the changes that can break a fleet. This solution implements <strong>Intune administrative governance</strong>: custom RBAC roles and <strong>scope tags</strong> that limit who can touch what, plus <strong>access policies (multi-admin approval)</strong> so high-risk actions &mdash; like app or script deployments &mdash; require a second admin to approve before they go live.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Intune RBAC model (built-in vs custom roles, permissions, scope tags, scope groups), the multi-admin approval / access-policy model, and how the two combine into least-privilege governance.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, an admin-role design, scope-tag taxonomy, approver groups, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: design roles and scope tags, create custom RBAC roles and assignments, apply scope tags to objects, enable access policies (multi-admin approval) for high-risk resource types, validate approvals, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; RBAC/scope-tag and access-policy discovery, role-assignment and approval validation, a governance-coverage and privilege report, safe remediation of over-privileged assignments, and an admin/approver scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Implement <strong>Intune administrative governance</strong> &mdash; least-privilege custom RBAC roles and scope tags, plus multi-admin approval (access policies) so high-risk changes need a second admin. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Intune administrative governance — least-privilege custom RBAC roles and scope tags, plus multi-admin approval so high-risk changes need a second admin.",
+  "meta_title": "Intune Administrative Governance — RBAC & Multi-Admin Approval",
+  "meta_description": "Govern Intune with least-privilege RBAC (custom roles + scope tags) and multi-admin approval (access policies) for high-risk app/script changes. Self-guided, tested steps and scripts.",
+  "bottom_line": "Intune locked down to least privilege &mdash; custom roles and scope tags limiting who can touch what, and a required second-admin approval on high-risk changes &mdash; so mistakes and blast radius shrink, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Intune Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Guardrails on Admin",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · RBAC · Multi-Admin Approval",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "EVERYONE IS ADMIN",
+      "items": [
+        "No least privilege",
+        "Big blast radius",
+        "No approvals",
+        "Risky changes"
+      ]
+    },
+    "to": {
+      "label": "Governed & approved",
+      "stat": "Roles · scope tags · approval"
+    },
+    "tagline": "LEAST PRIVILEGE.  SECOND PAIR OF EYES.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "RBAC",
+        "sub": "Custom roles"
+      },
+      {
+        "icon": "gear",
+        "title": "Scope Tags",
+        "sub": "Who touches what"
+      },
+      {
+        "icon": "shield",
+        "title": "Approval",
+        "sub": "Multi-admin"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Privilege report"
+      }
+    ]
+  }
+}

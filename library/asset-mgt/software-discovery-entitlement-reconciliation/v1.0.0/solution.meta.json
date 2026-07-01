@@ -1,0 +1,39 @@
+{
+  "slug": "software-discovery-entitlement-reconciliation",
+  "title": "Software Discovery & Entitlement Reconciliation (SCCM / Intune / Flexera)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "SWDISC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (technical SAM core: normalize discovery data from SCCM/Intune/Flexera and reconcile to entitlements; multi-source, conditional logic).",
+    "Distinct from device-enrollment-identity-asset-inventory (hardware/device inventory): this product is SOFTWARE-install discovery normalized and reconciled to license entitlements."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SWDISC-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SWDISC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SWDISC-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SWDISC-Complete-Solution.zip"
+  ],
+  "hero": "SWDISC-hero.png"
+}

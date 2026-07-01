@@ -1,0 +1,38 @@
+{
+  "slug": "endpoint-imaging-inventory-lifecycle",
+  "title": "Endpoint Imaging, Inventory & Hardware Lifecycle Management",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "IMGLIFE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (lifecycle process spanning provisioning method, hardware inventory, and retirement; Autopilot vs imaging decision, asset tracking)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IMGLIFE-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-IMGLIFE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-IMGLIFE-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "IMGLIFE-Complete-Solution.zip"
+  ],
+  "hero": "IMGLIFE-hero.png"
+}

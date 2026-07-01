@@ -1,0 +1,56 @@
+{
+  "_comment": "white-label",
+  "title_lines": [
+    {
+      "text": "Imprivata SSO & Badge-Tap",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "+ EPCS for Clinical Endpoints",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "tap-and-go · fast switch · EPCS · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PASSWORDS AT EVERY TAP",
+    "items": [
+      "Slow logins",
+      "Shared passwords",
+      "No EPCS 2FA",
+      "Workflow drag"
+    ]
+  },
+  "to": {
+    "label": "Imprivata OneSign",
+    "stat": "Tap on · SSO · EPCS-ready"
+  },
+  "tagline": "TAP ON.  SIGN IN.  PRESCRIBE SECURELY.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "Badge Tap-and-Go",
+      "sub": "Proximity SSO"
+    },
+    {
+      "icon": "users",
+      "title": "Fast User Switch",
+      "sub": "Shared clinical PCs"
+    },
+    {
+      "icon": "key",
+      "title": "Epic SSO",
+      "sub": "One sign-in"
+    },
+    {
+      "icon": "shield",
+      "title": "EPCS 2FA",
+      "sub": "Confirm ID workflow"
+    }
+  ]
+}

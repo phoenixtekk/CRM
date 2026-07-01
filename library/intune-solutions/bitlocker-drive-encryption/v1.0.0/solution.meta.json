@@ -1,0 +1,34 @@
+{
+  "slug": "bitlocker-drive-encryption",
+  "title": "BitLocker Drive Encryption",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "BITLK",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-13",
+  "updated": "2026-06-13",
+  "published_at": "2026-06-13",
+  "products": [
+    {
+      "sku": "PTK-BITLK-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-BITLK-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-BITLK-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "BITLK-Complete-Solution.zip"
+  ],
+  "hero": "BITLK-hero.png",
+  "branding": "on"
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "GPORAT",
+  "slug": "gpo-rationalization-cleanup-group-policy-analytics",
+  "title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2495.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T3 (pre-migration assessment + rationalization of a complex GPO estate using Intune Group Policy analytics; foundational, sells ahead of the actual migration).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Clean up the GPO mess before you migrate — so the move to Intune is built on solid ground",
+  "problem": "Years of Group Policy leave a thicket: nested and redundant policies, duplicate audit settings, and unclear intent that nobody fully understands. Migrating that mess to Intune as-is just moves the chaos. This solution is the <strong>foundational cleanup</strong> &mdash; inventory every GPO, use <strong>Intune Group Policy analytics</strong> to rationalize and de-duplicate, retire what's dead, document intent, and produce a clean, sequenced migration backlog &mdash; so the move to a modern Intune baseline starts from order, not sprawl.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why rationalize before migrating, how Intune Group Policy analytics scores migration readiness, and the de-duplication / retire / consolidate / document workflow.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (access to export GPOs, Intune with Group Policy analytics, Entra ID, a rationalization owner) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: export and inventory all GPOs, import to Group Policy analytics, classify (keep / retire / consolidate / replace), resolve redundant audit and conflicting policies, document intent, and produce a sequenced migration backlog, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; GPO export/inventory discovery, rationalization-coverage validation, a redundancy/conflict and readiness report, safe remediation of dead/duplicate links, and a migration-backlog/scope builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The <strong>foundational GPO cleanup</strong> before any Intune migration &mdash; inventory, rationalize with Group Policy analytics, retire the dead, document intent, and produce a sequenced migration backlog. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The foundational GPO cleanup before any Intune migration — inventory, rationalize with Group Policy analytics, retire the dead, document intent, and produce a sequenced migration backlog.",
+  "meta_title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+  "meta_description": "Rationalize a complex GPO estate before migrating to Intune: inventory, Group Policy analytics readiness scoring, de-duplication, conflict/redundant-audit cleanup, and a sequenced migration backlog. Self-guided, tested steps and scripts.",
+  "bottom_line": "A clean, rationalized GPO estate with a documented, sequenced migration backlog &mdash; the dead and duplicate policies gone and intent captured &mdash; so the Intune migration is built on solid ground, proven on a pilot scope before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "GPO Rationalization",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Clean Before You Migrate",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Group Policy Analytics · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "GPO SPRAWL",
+      "items": [
+        "Nested & redundant",
+        "Duplicate audit",
+        "Unclear intent",
+        "Migrate the mess"
+      ]
+    },
+    "to": {
+      "label": "Rationalized & sequenced",
+      "stat": "Inventoried · de-duped · backlog"
+    },
+    "tagline": "CLEAN THE SPRAWL.  SEQUENCE THE MOVE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Inventory",
+        "sub": "Every GPO"
+      },
+      {
+        "icon": "gear",
+        "title": "Rationalize",
+        "sub": "Analytics-scored"
+      },
+      {
+        "icon": "shield",
+        "title": "Cleanup",
+        "sub": "Retire/de-dupe"
+      },
+      {
+        "icon": "key",
+        "title": "Backlog",
+        "sub": "Sequenced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. White-label (branding off) — no company name; build-hero shows category-only footer.",
+  "title_lines": [
+    { "text": "Exchange Online", "color": "white", "size": "main" },
+    { "text": "Tenant-to-Tenant Migration", "color": "green", "size": "main" },
+    { "text": "1:1 domain cutover · coexistence · Quest", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "TWO TENANTS, ONE DOMAIN", "items": ["Split mail flow", "Domain stuck in source", "Risky cutover", "Downtime fears"] },
+  "to": { "label": "Microsoft 365", "stat": "Migrated · domain moved · validated" },
+  "tagline": "MAILBOXES MOVED.  DOMAIN CUT OVER.  ZERO SURPRISES.",
+  "benefits": [
+    { "icon": "cloud", "title": "Source → Target", "sub": "Mailboxes, calendars, contacts" },
+    { "icon": "gear", "title": "Coexistence", "sub": "Mail flow during the move" },
+    { "icon": "key", "title": "1:1 Domain Cutover", "sub": "Move the primary domain" },
+    { "icon": "chart", "title": "Pilot → Waves", "sub": "Delta passes, pass/fail gates" }
+  ]
+}

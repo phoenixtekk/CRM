@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Phased GPO Transition",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Do It Right, In Order",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "GPO → Intune · Sequencing · Governance",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RUSHED MIGRATION",
+    "items": [
+      "Security moved too early",
+      "Conflicts & loops",
+      "No sequencing",
+      "Pressure to rush"
+    ]
+  },
+  "to": {
+    "label": "Sequenced & governed",
+    "stat": "Core OS first · gated · stable"
+  },
+  "tagline": "FOUNDATION FIRST.  SECURITY NEXT.  GATED THROUGHOUT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Sequencing",
+      "sub": "Core OS first"
+    },
+    {
+      "icon": "shield",
+      "title": "Coexistence",
+      "sub": "MDM wins over GP"
+    },
+    {
+      "icon": "chart",
+      "title": "Go/No-Go",
+      "sub": "Gated phases"
+    },
+    {
+      "icon": "lock",
+      "title": "Stabilize",
+      "sub": "Then security"
+    }
+  ]
+}

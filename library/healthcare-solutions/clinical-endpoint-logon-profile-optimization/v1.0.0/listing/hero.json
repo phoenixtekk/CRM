@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Clinical Logon & Profiles",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Performance Optimization",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "FSLogix · fast logon · measured",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SLOW, UNSTABLE SESSIONS",
+    "items": [
+      "Minutes to log in",
+      "Profile bloat",
+      "Roaming corruption",
+      "Sessions drop"
+    ]
+  },
+  "to": {
+    "label": "FSLogix + Fast Logon",
+    "stat": "Seconds to sign in · stable"
+  },
+  "tagline": "TAP ON.  LOADED IN SECONDS.  STAYS STABLE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Measured",
+      "sub": "Before/after logon"
+    },
+    {
+      "icon": "cloud",
+      "title": "FSLogix",
+      "sub": "Profile containers"
+    },
+    {
+      "icon": "gear",
+      "title": "Fast Logon",
+      "sub": "Tuned sign-in"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Tap-Friendly",
+      "sub": "Imprivata switch"
+    }
+  ]
+}

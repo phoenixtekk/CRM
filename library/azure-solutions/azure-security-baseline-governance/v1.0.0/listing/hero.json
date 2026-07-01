@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Guardrails That Enforce",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Azure · Azure Policy · Defender for Cloud",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AZURE",
+    "items": [
+      "Over-privileged owners",
+      "Public storage",
+      "No baseline",
+      "Config drift"
+    ]
+  },
+  "to": {
+    "label": "Governed & secure",
+    "stat": "Policy · least-privilege · posture"
+  },
+  "tagline": "GUARDRAIL IT.  LEAST-PRIVILEGE IT.  MEASURE IT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Azure Policy",
+      "sub": "Audit then deny"
+    },
+    {
+      "icon": "users",
+      "title": "RBAC",
+      "sub": "Least privilege"
+    },
+    {
+      "icon": "gear",
+      "title": "Baseline",
+      "sub": "Secure config"
+    },
+    {
+      "icon": "chart",
+      "title": "Defender",
+      "sub": "Secure score"
+    }
+  ]
+}

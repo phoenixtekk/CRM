@@ -1,0 +1,81 @@
+{
+  "sol": "WS1PROG",
+  "slug": "workspace-one-to-intune-migration-program",
+  "title": "Workspace ONE to Microsoft Intune Migration Program",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 4995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T5 (enterprise multi-platform migration program across Windows/iOS/Android/macOS: assessment, coexistence, cutover, decommission; many technologies, org-wide, high risk)."
+  ],
+  "hook": "Move your whole fleet from Workspace ONE to Microsoft Intune — without losing a device or an app",
+  "problem": "Migrating an enterprise off VMware Workspace ONE to <strong>Microsoft Intune</strong> is one of the highest-risk endpoint projects there is: thousands of enrolled Windows, iOS, Android, and Mac devices, hundreds of apps and profiles, and zero tolerance for a user losing email or access mid-day. Done ad hoc it stalls in finger-pointing between teams. This solution is the <strong>end-to-end Workspace ONE to Intune migration program</strong> &mdash; assessment and wave planning, identity and enrollment readiness, app and policy rebuild, coexistence, ringed cutover per platform, and clean Workspace ONE decommission &mdash; as one repeatable, documented operating model.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the migration model end to end, the per-platform approach (Windows, iOS/iPadOS, Android, macOS), coexistence vs. cutover, how identity/enrollment/apps/policies move, and the program operating model (roles, waves, KPIs).",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing, Entra ID, Workspace ONE admin/export access, per-platform enrollment prerequisites, device/app inventory, executive sponsorship, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: assess and inventory the Workspace ONE estate, plan waves, stand up Intune enrollment and identity, rebuild apps and policies, run coexistence, cut over by ring/platform, validate, decommission Workspace ONE, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; migration-readiness discovery, per-device migration/enrollment validation, a program-wide migration status and parity report, safe remediation of failed migrations, and a wave/ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The end-to-end <strong>Workspace ONE to Microsoft Intune migration program</strong> &mdash; assessment, wave planning, identity/enrollment readiness, app and policy rebuild, coexistence, ringed cutover per platform, and clean Workspace ONE decommission. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The end-to-end Workspace ONE to Microsoft Intune migration program — assessment, wave planning, identity/enrollment readiness, app and policy rebuild, coexistence, ringed cutover per platform, and clean Workspace ONE decommission.",
+  "meta_title": "Workspace ONE to Microsoft Intune Migration Program",
+  "meta_description": "Migrate an enterprise from Workspace ONE to Microsoft Intune: assessment, wave planning, identity and enrollment, app and policy rebuild, coexistence, ringed per-platform cutover, and decommission. Self-guided, tested steps and scripts.",
+  "bottom_line": "Your entire fleet moved from Workspace ONE to Microsoft Intune &mdash; Windows, iOS, Android, and Mac re-enrolled, apps and policies rebuilt and validated, and Workspace ONE decommissioned &mdash; run as one repeatable program, proven on a pilot wave before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Workspace ONE to Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Migrate the Whole Fleet",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Microsoft Intune · Program",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY UEM EXIT",
+      "items": [
+        "Thousands of devices",
+        "Apps & profiles",
+        "Cross-team stalls",
+        "No-loss cutover"
+      ]
+    },
+    "to": {
+      "label": "One migration program",
+      "stat": "Assessed · ringed · decommissioned"
+    },
+    "tagline": "OFF WORKSPACE ONE.  ONTO INTUNE.  NO LOSS.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "All Platforms",
+        "sub": "Win/iOS/Android/Mac"
+      },
+      {
+        "icon": "gear",
+        "title": "Rebuild",
+        "sub": "Apps + policies"
+      },
+      {
+        "icon": "chart",
+        "title": "Waves",
+        "sub": "Ringed cutover"
+      },
+      {
+        "icon": "shield",
+        "title": "Decommission",
+        "sub": "WS1 retired"
+      }
+    ]
+  }
+}

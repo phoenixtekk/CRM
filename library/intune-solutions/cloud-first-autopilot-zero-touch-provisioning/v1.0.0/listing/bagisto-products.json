@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "cloud-first-autopilot-zero-touch-provisioning",
+    "title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join)",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CFAP-COMM-001",
+      "name": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "A near <strong>zero-touch cloud-first provisioning model</strong> &mdash; Entra join + Windows Autopilot so devices provision on power-on, with domain join added later only if truly required &mdash; so technicians do almost nothing. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Power on, walk away — provision Windows cloud-first with Autopilot, domain-join only if you must</h3><p>Hybrid provisioning drags: technicians babysit each build, juggle domain join, and handle too much by hand. The modern path is <strong>cloud-first</strong> &mdash; <strong>Entra join + Windows Autopilot</strong> so a device provisions itself the moment it's powered on, with <strong>domain join added afterward only if a specific app or resource truly requires it</strong>. This solution delivers that near <strong>zero-touch</strong> model: Autopilot profiles, the Enrollment Status Page, app/policy delivery at provisioning, and a clean decision path for the rare case that still needs on-prem domain join &mdash; so technicians do almost nothing.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the cloud-first provisioning model (Entra join + Autopilot), why it beats hybrid-by-default, the zero-touch experience (ESP, app/policy at enrollment), and the decision criteria for adding domain join later only when required.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Windows Autopilot, hardware-hash/registration path, the Enrollment Status Page, app/baseline set, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: register devices, build the Autopilot deployment profile (Entra join), configure the Enrollment Status Page and provisioning-time apps/policies, validate the zero-touch flow, define the optional later-domain-join path, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Autopilot/enrollment readiness discovery, provisioning/enrollment validation, a provisioning-success and technician-touch report, safe remediation of failed provisioning, and an Autopilot target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Windows devices that provision themselves on power-on &mdash; Entra-joined via Autopilot with apps and policy applied at enrollment, domain join only where truly required &mdash; cutting technician effort to almost nothing, proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CFAP-Discovery.ps1</code> &mdash; Autopilot / enrollment readiness discovery for Cloud-First Autopilot</li><li><code>CFAP-Remediation.ps1</code> &mdash; Safe remediation of failed cloud-first Autopilot provisioning</li><li><code>CFAP-Report.ps1</code> &mdash; Provisioning-success and technician-touch report for Cloud-First Autopilot</li><li><code>CFAP-Set-AutopilotTargeting.ps1</code> &mdash; Build/maintain the dynamic Autopilot target group and confirm</li><li><code>CFAP-Validation.ps1</code> &mdash; Per-device provisioning / enrollment validation for Cloud-First Autopilot</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cloud-First Autopilot Zero-Touch Provisioning (Intune)",
+      "meta_description": "Provision Windows cloud-first with Entra join + Autopilot for near zero-touch deployment, adding domain join later only if required: Autopilot profiles, Enrollment Status Page, provisioning-time apps. Self-guided, tested steps and scripts.",
+      "url_key": "cloud-first-autopilot-zero-touch-provisioning-commercial",
+      "image": "CFAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CFAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CFAP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CFAP-NPO-001",
+      "name": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>A near zero-touch cloud-first provisioning model — Entra join + Windows Autopilot so devices provision on power-on, with domain join added later only if truly required. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Power on, walk away — provision Windows cloud-first with Autopilot, domain-join only if you must</h3><p>Hybrid provisioning drags: technicians babysit each build, juggle domain join, and handle too much by hand. The modern path is <strong>cloud-first</strong> &mdash; <strong>Entra join + Windows Autopilot</strong> so a device provisions itself the moment it's powered on, with <strong>domain join added afterward only if a specific app or resource truly requires it</strong>. This solution delivers that near <strong>zero-touch</strong> model: Autopilot profiles, the Enrollment Status Page, app/policy delivery at provisioning, and a clean decision path for the rare case that still needs on-prem domain join &mdash; so technicians do almost nothing.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the cloud-first provisioning model (Entra join + Autopilot), why it beats hybrid-by-default, the zero-touch experience (ESP, app/policy at enrollment), and the decision criteria for adding domain join later only when required.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Windows Autopilot, hardware-hash/registration path, the Enrollment Status Page, app/baseline set, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: register devices, build the Autopilot deployment profile (Entra join), configure the Enrollment Status Page and provisioning-time apps/policies, validate the zero-touch flow, define the optional later-domain-join path, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Autopilot/enrollment readiness discovery, provisioning/enrollment validation, a provisioning-success and technician-touch report, safe remediation of failed provisioning, and an Autopilot target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CFAP-Discovery.ps1</code> &mdash; Autopilot / enrollment readiness discovery for Cloud-First Autopilot</li><li><code>CFAP-Remediation.ps1</code> &mdash; Safe remediation of failed cloud-first Autopilot provisioning</li><li><code>CFAP-Report.ps1</code> &mdash; Provisioning-success and technician-touch report for Cloud-First Autopilot</li><li><code>CFAP-Set-AutopilotTargeting.ps1</code> &mdash; Build/maintain the dynamic Autopilot target group and confirm</li><li><code>CFAP-Validation.ps1</code> &mdash; Per-device provisioning / enrollment validation for Cloud-First Autopilot</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cloud-First Autopilot Zero-Touch Provisioning (Intune) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Provision Windows cloud-first with Entra join + Autopilot for near zero-touch deployment, adding domain join later only if required: Autopilot profiles, Enrollment Status Page, provisioning-time apps. Self-guided, tested steps and scripts.",
+      "url_key": "cloud-first-autopilot-zero-touch-provisioning-nonprofit",
+      "image": "CFAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CFAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CFAP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CFAP-GOV-001",
+      "name": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>A near zero-touch cloud-first provisioning model — Entra join + Windows Autopilot so devices provision on power-on, with domain join added later only if truly required. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Power on, walk away — provision Windows cloud-first with Autopilot, domain-join only if you must</h3><p>Hybrid provisioning drags: technicians babysit each build, juggle domain join, and handle too much by hand. The modern path is <strong>cloud-first</strong> &mdash; <strong>Entra join + Windows Autopilot</strong> so a device provisions itself the moment it's powered on, with <strong>domain join added afterward only if a specific app or resource truly requires it</strong>. This solution delivers that near <strong>zero-touch</strong> model: Autopilot profiles, the Enrollment Status Page, app/policy delivery at provisioning, and a clean decision path for the rare case that still needs on-prem domain join &mdash; so technicians do almost nothing.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the cloud-first provisioning model (Entra join + Autopilot), why it beats hybrid-by-default, the zero-touch experience (ESP, app/policy at enrollment), and the decision criteria for adding domain join later only when required.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Windows Autopilot, hardware-hash/registration path, the Enrollment Status Page, app/baseline set, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: register devices, build the Autopilot deployment profile (Entra join), configure the Enrollment Status Page and provisioning-time apps/policies, validate the zero-touch flow, define the optional later-domain-join path, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Autopilot/enrollment readiness discovery, provisioning/enrollment validation, a provisioning-success and technician-touch report, safe remediation of failed provisioning, and an Autopilot target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CFAP-Discovery.ps1</code> &mdash; Autopilot / enrollment readiness discovery for Cloud-First Autopilot</li><li><code>CFAP-Remediation.ps1</code> &mdash; Safe remediation of failed cloud-first Autopilot provisioning</li><li><code>CFAP-Report.ps1</code> &mdash; Provisioning-success and technician-touch report for Cloud-First Autopilot</li><li><code>CFAP-Set-AutopilotTargeting.ps1</code> &mdash; Build/maintain the dynamic Autopilot target group and confirm</li><li><code>CFAP-Validation.ps1</code> &mdash; Per-device provisioning / enrollment validation for Cloud-First Autopilot</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cloud-First Autopilot Zero-Touch Provisioning (Intune) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Provision Windows cloud-first with Entra join + Autopilot for near zero-touch deployment, adding domain join later only if required: Autopilot profiles, Enrollment Status Page, provisioning-time apps. Self-guided, tested steps and scripts.",
+      "url_key": "cloud-first-autopilot-zero-touch-provisioning-government",
+      "image": "CFAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CFAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CFAP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

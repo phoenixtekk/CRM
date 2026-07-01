@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "MSP Tool Stack",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "PSA · RMM · Patch",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "design · stand up · integrate · onboard",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO STANDARD STACK",
+    "items": [
+      "Ad-hoc tooling",
+      "Alert chaos",
+      "No PSA ↔ RMM sync",
+      "Slow onboarding"
+    ]
+  },
+  "to": {
+    "label": "Managed Services",
+    "stat": "Standardized · integrated · repeatable"
+  },
+  "tagline": "ONE STACK.  EVERY CLIENT.  RUN LIKE CLOCKWORK.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "PSA",
+      "sub": "Tickets · contracts · billing"
+    },
+    {
+      "icon": "chart",
+      "title": "RMM",
+      "sub": "Monitor · script · automate"
+    },
+    {
+      "icon": "shield",
+      "title": "Patch",
+      "sub": "Compliance across clients"
+    },
+    {
+      "icon": "users",
+      "title": "Client Onboarding",
+      "sub": "Repeatable template"
+    }
+  ]
+}

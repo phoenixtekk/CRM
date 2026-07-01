@@ -1,0 +1,82 @@
+{
+  "sol": "NSDIAG",
+  "slug": "netskope-client-troubleshooting-diagnostics-toolkit",
+  "title": "Netskope Client Troubleshooting & Diagnostics Toolkit",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (diagnostics toolkit + runbooks for steering/auth/performance issues across the Netskope client; PowerShell/Python).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Fix Netskope client issues fast — with a real diagnostics toolkit, not guesswork",
+  "problem": "When the Netskope client misbehaves &mdash; traffic not steering, auth loops, slow browsing, an app broken behind the proxy &mdash; the help desk burns hours guessing. This solution gives your team a <strong>Netskope client troubleshooting and diagnostics toolkit</strong>: structured runbooks for the common failure classes (steering, authentication, performance, certificate/decryption) plus PowerShell/Python diagnostics that collect the right logs and state and point to the root cause.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Netskope client architecture from a support view, the common failure classes (steering, auth, performance, certificate/decryption), and the diagnose-then-resolve model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (the Netskope client on endpoints, log access, Intune for at-scale collection, admin access for verification) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: stand up the diagnostics toolkit, build the per-failure-class runbooks, wire log/state collection, validate against known issues, then pilot with the help desk, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; client-state discovery, steering/auth/connectivity validation, a client-health and issue report, safe remediation (restart/repair/re-enroll client with -WhatIf), and a diagnostics-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A <strong>Netskope client troubleshooting and diagnostics toolkit</strong> &mdash; structured runbooks for steering, auth, performance, and certificate failures, plus PowerShell/Python diagnostics that collect the right state and point to the root cause. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A Netskope client troubleshooting and diagnostics toolkit — runbooks for steering, auth, performance, and certificate failures, plus diagnostics that collect the right state and point to root cause.",
+  "meta_title": "Netskope Client Troubleshooting & Diagnostics Toolkit",
+  "meta_description": "Troubleshoot the Netskope client: runbooks for steering, auth, performance, and certificate issues, plus PowerShell/Python diagnostics and log collection. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Netskope client issues resolved fast &mdash; failure-class runbooks and diagnostics that collect the right state and point to root cause &mdash; so the help desk stops guessing, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Client Diagnostics",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Stop the Guesswork",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · Troubleshooting · Diagnostics",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "HELP-DESK GUESSWORK",
+      "items": [
+        "Steering fails",
+        "Auth loops",
+        "Slow browsing",
+        "No root cause"
+      ]
+    },
+    "to": {
+      "label": "Diagnose to root cause",
+      "stat": "Runbooks · scripts · logs"
+    },
+    "tagline": "DIAGNOSE FAST.  FIX THE ROOT CAUSE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Runbooks",
+        "sub": "Per failure class"
+      },
+      {
+        "icon": "chip",
+        "title": "Diagnostics",
+        "sub": "State + logs"
+      },
+      {
+        "icon": "chart",
+        "title": "Root Cause",
+        "sub": "Pinpointed"
+      },
+      {
+        "icon": "shield",
+        "title": "Resolve",
+        "sub": "Repair/re-enroll"
+      }
+    ]
+  }
+}

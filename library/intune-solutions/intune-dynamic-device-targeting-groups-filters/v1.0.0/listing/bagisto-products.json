@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "intune-dynamic-device-targeting-groups-filters",
+    "title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-DYNTGT-COMM-001",
+      "name": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "A repeatable <strong>dynamic device targeting model in Intune</strong> &mdash; dynamic security groups and assignment filters so policies and apps reach exactly the right devices automatically and stay correct as the fleet changes. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Target the right devices automatically — with dynamic groups and assignment filters, not manual lists</h3><p>As a fleet grows, assigning policies and apps to hand-built static groups doesn't scale: new devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer is <strong>dynamic targeting</strong> &mdash; <strong>dynamic security groups</strong> whose membership rules auto-include the right devices, and <strong>assignment filters</strong> that scope a single assignment to exactly the devices that match (OS, ownership, model, enrollment profile). This solution gives you a repeatable <strong>dynamic device targeting model in Intune</strong> so policies and apps reach the right devices automatically and stay correct as the fleet changes.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; dynamic security groups (membership rule syntax) vs. assignment filters (rule syntax + include/exclude at assignment time), when to use each, precedence and evaluation, and the scalable targeting model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID with dynamic-group licensing, a device attribute/naming convention, enrollment profile names, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the targeting taxonomy, build dynamic security groups with membership rules, create assignment filters, apply filters to policy/app assignments, validate membership and effective targeting, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; dynamic-group/filter discovery, membership and effective-targeting validation, a targeting-coverage and drift report, safe remediation of mis-scoped assignments, and a dynamic-group/filter builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Policies and apps that reach exactly the right devices automatically &mdash; dynamic groups and assignment filters replacing hand-maintained static lists, staying correct as the fleet changes &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DYNTGT-Discovery.ps1</code> &mdash; inventory dynamic security groups and assignment filters (Microsoft Graph)</li><li><code>DYNTGT-Remediation.ps1</code> &mdash; safely attach the intended assignment filter to a mis-scoped assignment</li><li><code>DYNTGT-Report.ps1</code> &mdash; targeting coverage and drift across the fleet (Microsoft Graph)</li><li><code>DYNTGT-Set-DynamicGroupFilter.ps1</code> &mdash; create a dynamic security group and/or an assignment filter</li><li><code>DYNTGT-Validation.ps1</code> &mdash; validate a device's dynamic group membership and effective targeting</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters",
+      "meta_description": "Target Intune policies and apps at scale with dynamic security groups (membership rules) and assignment filters (include/exclude by OS, ownership, model, enrollment profile), with precedence and validation. Self-guided, tested steps and scripts.",
+      "url_key": "intune-dynamic-device-targeting-groups-filters-commercial",
+      "image": "DYNTGT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DYNTGT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DYNTGT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DYNTGT-NPO-001",
+      "name": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>A repeatable dynamic device targeting model in Intune — dynamic security groups and assignment filters so policies and apps reach exactly the right devices automatically and stay correct as the fleet changes. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Target the right devices automatically — with dynamic groups and assignment filters, not manual lists</h3><p>As a fleet grows, assigning policies and apps to hand-built static groups doesn't scale: new devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer is <strong>dynamic targeting</strong> &mdash; <strong>dynamic security groups</strong> whose membership rules auto-include the right devices, and <strong>assignment filters</strong> that scope a single assignment to exactly the devices that match (OS, ownership, model, enrollment profile). This solution gives you a repeatable <strong>dynamic device targeting model in Intune</strong> so policies and apps reach the right devices automatically and stay correct as the fleet changes.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; dynamic security groups (membership rule syntax) vs. assignment filters (rule syntax + include/exclude at assignment time), when to use each, precedence and evaluation, and the scalable targeting model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID with dynamic-group licensing, a device attribute/naming convention, enrollment profile names, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the targeting taxonomy, build dynamic security groups with membership rules, create assignment filters, apply filters to policy/app assignments, validate membership and effective targeting, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; dynamic-group/filter discovery, membership and effective-targeting validation, a targeting-coverage and drift report, safe remediation of mis-scoped assignments, and a dynamic-group/filter builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DYNTGT-Discovery.ps1</code> &mdash; inventory dynamic security groups and assignment filters (Microsoft Graph)</li><li><code>DYNTGT-Remediation.ps1</code> &mdash; safely attach the intended assignment filter to a mis-scoped assignment</li><li><code>DYNTGT-Report.ps1</code> &mdash; targeting coverage and drift across the fleet (Microsoft Graph)</li><li><code>DYNTGT-Set-DynamicGroupFilter.ps1</code> &mdash; create a dynamic security group and/or an assignment filter</li><li><code>DYNTGT-Validation.ps1</code> &mdash; validate a device's dynamic group membership and effective targeting</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Target Intune policies and apps at scale with dynamic security groups (membership rules) and assignment filters (include/exclude by OS, ownership, model, enrollment profile), with precedence and validation. Self-guided, tested steps and scripts.",
+      "url_key": "intune-dynamic-device-targeting-groups-filters-nonprofit",
+      "image": "DYNTGT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DYNTGT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DYNTGT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DYNTGT-GOV-001",
+      "name": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>A repeatable dynamic device targeting model in Intune — dynamic security groups and assignment filters so policies and apps reach exactly the right devices automatically and stay correct as the fleet changes. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Target the right devices automatically — with dynamic groups and assignment filters, not manual lists</h3><p>As a fleet grows, assigning policies and apps to hand-built static groups doesn't scale: new devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer is <strong>dynamic targeting</strong> &mdash; <strong>dynamic security groups</strong> whose membership rules auto-include the right devices, and <strong>assignment filters</strong> that scope a single assignment to exactly the devices that match (OS, ownership, model, enrollment profile). This solution gives you a repeatable <strong>dynamic device targeting model in Intune</strong> so policies and apps reach the right devices automatically and stay correct as the fleet changes.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; dynamic security groups (membership rule syntax) vs. assignment filters (rule syntax + include/exclude at assignment time), when to use each, precedence and evaluation, and the scalable targeting model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID with dynamic-group licensing, a device attribute/naming convention, enrollment profile names, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the targeting taxonomy, build dynamic security groups with membership rules, create assignment filters, apply filters to policy/app assignments, validate membership and effective targeting, then pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; dynamic-group/filter discovery, membership and effective-targeting validation, a targeting-coverage and drift report, safe remediation of mis-scoped assignments, and a dynamic-group/filter builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DYNTGT-Discovery.ps1</code> &mdash; inventory dynamic security groups and assignment filters (Microsoft Graph)</li><li><code>DYNTGT-Remediation.ps1</code> &mdash; safely attach the intended assignment filter to a mis-scoped assignment</li><li><code>DYNTGT-Report.ps1</code> &mdash; targeting coverage and drift across the fleet (Microsoft Graph)</li><li><code>DYNTGT-Set-DynamicGroupFilter.ps1</code> &mdash; create a dynamic security group and/or an assignment filter</li><li><code>DYNTGT-Validation.ps1</code> &mdash; validate a device's dynamic group membership and effective targeting</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Target Intune policies and apps at scale with dynamic security groups (membership rules) and assignment filters (include/exclude by OS, ownership, model, enrollment profile), with precedence and validation. Self-guided, tested steps and scripts.",
+      "url_key": "intune-dynamic-device-targeting-groups-filters-government",
+      "image": "DYNTGT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DYNTGT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DYNTGT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

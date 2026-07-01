@@ -1,0 +1,38 @@
+{
+  "slug": "endpoint-reporting-dashboards",
+  "title": "Endpoint Reporting & Dashboards for Intune and Configuration Manager",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "EPRPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T2 (reporting/visibility layer over existing Intune + Configuration Manager data; moderate config, pilot-to-prod)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EPRPT-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-EPRPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-EPRPT-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "EPRPT-Complete-Solution.zip"
+  ],
+  "hero": "EPRPT-hero.png"
+}

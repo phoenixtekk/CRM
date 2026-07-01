@@ -1,0 +1,81 @@
+{
+  "sol": "WS1COEX",
+  "slug": "workspace-one-to-intune-coexistence-cutover-runbook",
+  "title": "Workspace ONE to Intune Coexistence & Cutover Runbook",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (operational runbook for running Workspace ONE and Intune in parallel during transition, with cutover/rollback procedures)."
+  ],
+  "hook": "Run Workspace ONE and Intune side by side — and cut over without chaos",
+  "problem": "During a migration you inevitably run <strong>both MDMs at once</strong>, and that's where things break: devices double-managed, Conditional Access locking people out, and no clear go/no-go for cutover. This solution is the operational <strong>Workspace ONE to Intune coexistence and cutover runbook</strong> &mdash; how to run both platforms safely in parallel, the order of operations, go/no-go gates, the cutover sequence per device cohort, and a tested rollback &mdash; so the transition is controlled instead of chaotic.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the coexistence model (both MDMs live), the risks (double management, Conditional Access, app conflicts), the cutover sequence and go/no-go gates, and the rollback path.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (both MDM admin access, Entra ID/Conditional Access control, a device cohort plan, change control, a comms channel) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: establish coexistence guardrails, define cohort cutover order and go/no-go gates, execute a cohort cutover, validate, roll back if a gate fails, then repeat per cohort.",
+    "<strong>5 PowerShell scripts</strong> &mdash; coexistence/dual-management discovery, per-device cutover-readiness validation, a coexistence and cutover status report, safe remediation/rollback helper, and a cohort group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The operational <strong>Workspace ONE to Intune coexistence and cutover runbook</strong> &mdash; how to run both platforms safely in parallel, the order of operations, go/no-go gates, the cutover sequence per cohort, and a tested rollback. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The operational Workspace ONE to Intune coexistence and cutover runbook — how to run both platforms safely in parallel, the order of operations, go/no-go gates, the cutover sequence per cohort, and a tested rollback.",
+  "meta_title": "Workspace ONE to Intune Coexistence & Cutover Runbook",
+  "meta_description": "Run Workspace ONE and Intune in coexistence and cut over safely: guardrails against double management, go/no-go gates, per-cohort cutover sequence, and tested rollback. Self-guided, tested steps and scripts.",
+  "bottom_line": "A controlled transition while both MDMs run in parallel &mdash; guardrails against double management, go/no-go gates, a per-cohort cutover sequence, and a tested rollback &mdash; so the migration window stays calm, proven on a pilot cohort before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Coexistence & Cutover",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Both MDMs, No Chaos",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · Cutover Runbook",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PARALLEL CHAOS",
+      "items": [
+        "Double-managed",
+        "CA lockouts",
+        "App conflicts",
+        "No go/no-go"
+      ]
+    },
+    "to": {
+      "label": "Controlled cutover",
+      "stat": "Guardrails · gates · rollback"
+    },
+    "tagline": "RUN BOTH SAFELY.  CUT OVER ON CUE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Guardrails",
+        "sub": "No double mgmt"
+      },
+      {
+        "icon": "gear",
+        "title": "Go/No-Go",
+        "sub": "Gated cutover"
+      },
+      {
+        "icon": "users",
+        "title": "Cohorts",
+        "sub": "Sequenced"
+      },
+      {
+        "icon": "chart",
+        "title": "Rollback",
+        "sub": "Tested"
+      }
+    ]
+  }
+}

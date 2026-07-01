@@ -1,0 +1,39 @@
+{
+  "slug": "software-license-usage-cost-dashboards-powerbi",
+  "title": "Software License Usage Reporting & Cost Dashboards (Power BI)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "LICRPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (reporting/dashboard layer over license usage and spend data in Power BI/Excel; moderate config, pilot-to-prod).",
+    "Distinct from endpoint-reporting-dashboards (device health reporting): this product reports software LICENSE usage, cost, and renewals."
+  ],
+  "products": [
+    {
+      "sku": "PTK-LICRPT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-LICRPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-LICRPT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "LICRPT-Complete-Solution.zip"
+  ],
+  "hero": "LICRPT-hero.png"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "netskope-entra-sso-identity-policy",
+  "title": "Netskope + Entra ID SSO & Identity-Based Policy Enforcement",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSSSO",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (IdP integration: SAML SSO + SCIM provisioning + identity-steered policy between Netskope and Entra ID).",
+    "Distinct from conditional-access-integration (Entra CA): this product integrates Netskope with Entra ID as IdP and enforces identity-based SSE policy.",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSSSO-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-NSSSO-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-NSSSO-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "NSSSO-Complete-Solution.zip"
+  ],
+  "hero": "NSSSO-hero.png"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "sccm-task-sequence-troubleshooting-status-messages",
+  "title": "SCCM Task Sequence Troubleshooting & Status Message Analysis",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "SCCMTS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (diagnostic runbook + tooling for Configuration Manager OSD task-sequence failures: status messages, smsts.log, exit codes; conditional logic).",
+    "version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SCCMTS-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-SCCMTS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-SCCMTS-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "SCCMTS-Solution.pdf",
+    "SCCMTS-Scripts.zip"
+  ],
+  "hero": "SCCMTS-hero.png"
+}
+

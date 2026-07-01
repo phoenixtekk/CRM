@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Third-Party PFX",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "to Mobile, for App Use",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Intune · Imported PKCS · Custom Profile",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALLED DEPLOYMENT",
+    "items": [
+      "Wrong SCEP/PKCS path",
+      "PFX exists, won't deploy",
+      "App can't see cert",
+      "Connector/Graph unclear"
+    ]
+  },
+  "to": {
+    "label": "Delivered & usable",
+    "stat": "Imported · profiled · app-ready"
+  },
+  "tagline": "RIGHT PATH.  RIGHT PROFILE.  APP CAN USE IT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "PFX Import",
+      "sub": "via Graph + Connector"
+    },
+    {
+      "icon": "device",
+      "title": "iOS Delivery",
+      "sub": "Imported / custom"
+    },
+    {
+      "icon": "lock",
+      "title": "App Keychain",
+      "sub": "Access decided"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Per-device + fleet"
+    }
+  ]
+}

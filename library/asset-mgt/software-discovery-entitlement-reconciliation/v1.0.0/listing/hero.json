@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Discovery & Reconciliation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Raw Inventory to Truth",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "SCCM · Intune · Flexera",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NOISY INVENTORY",
+    "items": [
+      "Unnormalized titles",
+      "No SKU mapping",
+      "No link to buys",
+      "Can't reconcile"
+    ]
+  },
+  "to": {
+    "label": "Reconciled position",
+    "stat": "Normalized · mapped · matched"
+  },
+  "tagline": "FROM RAW INVENTORY TO RECONCILED TRUTH.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Discovery",
+      "sub": "SCCM/Intune"
+    },
+    {
+      "icon": "gear",
+      "title": "Normalize",
+      "sub": "SKU mapping"
+    },
+    {
+      "icon": "chart",
+      "title": "Reconcile",
+      "sub": "vs entitlements"
+    },
+    {
+      "icon": "shield",
+      "title": "Exceptions",
+      "sub": "Flagged"
+    }
+  ]
+}

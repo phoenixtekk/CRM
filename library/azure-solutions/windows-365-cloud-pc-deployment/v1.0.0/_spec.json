@@ -1,0 +1,81 @@
+{
+  "sol": "W365",
+  "slug": "windows-365-cloud-pc-deployment",
+  "title": "Windows 365 Cloud PC Deployment & Management",
+  "category": "Azure Solutions",
+  "category_slug": "azure-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T4 (provisioning service across Windows 365 + Intune + Entra + networking, image management, licensing, coexistence with physical endpoints)."
+  ],
+  "hook": "Give users a full Windows desktop in the cloud — provisioned, secured, and managed from Intune",
+  "problem": "Contractors, BYOD staff, and offshore teams need a corporate Windows desktop, but shipping and managing a physical laptop for each one is slow and expensive. <strong>Windows 365 Cloud PCs</strong> give every user a dedicated, always-on Windows desktop streamed from the cloud &mdash; provisioned in minutes, joined to your tenant, secured by the same Intune policies as your physical fleet, and reachable from any device. This solution makes that a repeatable, governed deployment instead of a pile of one-off Cloud PCs.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Windows 365 Enterprise works, the provisioning-policy model, Azure Network Connection (ANC) vs. Microsoft-hosted network, custom vs. gallery images, and how Cloud PCs are managed exactly like physical devices in Intune.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Windows 365 Enterprise licensing, Intune, Entra ID, networking/ANC or Microsoft-hosted, an optional custom image, user group design, Conditional Access) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: licensing and groups, network connection, image, the provisioning policy, user assignment, applying Intune configuration/compliance/app policies to Cloud PCs, securing access, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; tenant-readiness discovery, Cloud PC provisioning/health validation, a Cloud PC fleet and license-utilization report, safe remediation (reprovision/resize helpers), and a provisioning-target group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Deploy and manage <strong>Windows 365 Cloud PCs</strong> at scale &mdash; provisioning policies, images, networking, and user assignment &mdash; secured and managed from Microsoft Intune like your physical fleet. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and manage Windows 365 Cloud PCs at scale — provisioning policies, images, networking, and user assignment, secured from Intune.",
+  "meta_title": "Windows 365 Cloud PC Deployment & Management",
+  "meta_description": "Deploy Windows 365 Cloud PCs: provisioning policies, custom images, Azure network connection, user assignment, and Intune management/security. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every eligible user with a dedicated, always-on Windows Cloud PC &mdash; provisioned by policy, secured and managed in Intune alongside physical devices, reachable from anywhere &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Windows 365",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Cloud PC Deployment",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Windows 365 · Intune · Azure",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SLOW TO PROVISION",
+      "items": [
+        "Ship a laptop each",
+        "One-off Cloud PCs",
+        "Inconsistent image",
+        "Hard to secure"
+      ]
+    },
+    "to": {
+      "label": "Provisioned by policy",
+      "stat": "Dedicated desktop · managed in Intune"
+    },
+    "tagline": "DESKTOP IN MINUTES.  MANAGED LIKE METAL.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Cloud PC",
+        "sub": "Always-on desktop"
+      },
+      {
+        "icon": "gear",
+        "title": "Provisioning",
+        "sub": "Policy-driven"
+      },
+      {
+        "icon": "device",
+        "title": "Any Device",
+        "sub": "Reach anywhere"
+      },
+      {
+        "icon": "shield",
+        "title": "Secured",
+        "sub": "Intune + CA"
+      }
+    ]
+  }
+}

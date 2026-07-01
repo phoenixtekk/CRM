@@ -1,0 +1,40 @@
+{
+  "slug": "wsus-to-wufb-patch-modernization",
+  "title": "WSUS to Windows Update for Business Patch Modernization",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WSUSM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "+1",
+  "forked_from": "windows-updates-for-business",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (migration off WSUS to cloud patching; coexistence and cutover with existing on-prem update infrastructure).",
+    "version_directive: +1 — fork derived from windows-updates-for-business (WUFB); the original WUfB product remains live and untouched. This product is the WSUS-retirement migration angle."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WSUSM-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WSUSM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WSUSM-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WSUSM-Complete-Solution.zip"
+  ],
+  "hero": "WSUSM-hero.png"
+}

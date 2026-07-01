@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "cisco-ise-certificate-vpn-authentication-intune",
+    "title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
+    "category_path": [
+      "Security"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CISECERT-COMM-001",
+      "name": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Issue device/user certificates from <strong>Intune</strong> (SCEP or PKCS) with a trust chain <strong>Cisco ISE</strong> validates &mdash; passwordless EAP-TLS VPN authentication, deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Replace VPN passwords with certificates Cisco ISE trusts</h3><p>Password-based VPN is the weak link Cisco ISE was built to remove &mdash; but issuing the right device or user certificate to every endpoint, with a trust chain ISE validates, defeats most teams. This solution stands up <strong>certificate-based VPN authentication</strong> end to end: issue certs from <strong>Intune</strong> via SCEP (Certificate Connector / NDES or Cloud PKI) or PKCS, deploy the trusted-root and certificate profiles, and hand Cisco ISE a clean EAP-TLS identity to authenticate &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how EAP-TLS certificate VPN auth works with ISE as the RADIUS authority, the SCEP vs PKCS choice, the trust chain ISE must validate, and where Intune's cert delivery meets the Cisco head-end.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (a CA / Cloud PKI, the Intune Certificate Connector or NDES/SCEP, trusted-root + SCEP/PKCS profiles, Entra ID groups, ISE configured for EAP-TLS) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted-root profile, the SCEP or PKCS certificate profile, assign to a named pilot group, confirm certs land, and validate ISE accepts the EAP-TLS handshake, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; certificate-readiness discovery, per-device certificate + chain validation, a certificate deployment/expiry coverage report, safe remediation of missing/failed certs, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (cert present, chain valid, ISE auth success), plus field-proven Best Practices for renewal and revocation.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Every VPN user authenticated by a certificate Cisco ISE trusts &mdash; no passwords, delivered from Intune, and proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISECERT-Discovery.ps1</code> &mdash; certificate readiness: Intune certificate connectors + cert profiles (Graph)</li><li><code>CISECERT-Remediation.ps1</code> &mdash; safely re-trigger failed VPN certificate issuance (default -WhatIf)</li><li><code>CISECERT-Report.ps1</code> &mdash; VPN certificate deployment + expiry coverage across the fleet (Graph)</li><li><code>CISECERT-Set-ScopeTargeting.ps1</code> &mdash; create the Cisco VPN certificate scope Entra groups (pilot/broad)</li><li><code>CISECERT-Validation.ps1</code> &mdash; per-device VPN certificate + trust-chain validation (local, Windows)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
+      "meta_description": "Deploy SCEP/PKCS certificates from Intune for EAP-TLS VPN authentication with Cisco ISE: trusted-root and certificate profiles, trust chain, renewal. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-certificate-vpn-authentication-intune-commercial",
+      "image": "CISECERT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISECERT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISECERT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CISECERT-NPO-001",
+      "name": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Issue device/user certificates from Intune (SCEP or PKCS) with a trust chain Cisco ISE validates — passwordless EAP-TLS VPN authentication, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Replace VPN passwords with certificates Cisco ISE trusts</h3><p>Password-based VPN is the weak link Cisco ISE was built to remove &mdash; but issuing the right device or user certificate to every endpoint, with a trust chain ISE validates, defeats most teams. This solution stands up <strong>certificate-based VPN authentication</strong> end to end: issue certs from <strong>Intune</strong> via SCEP (Certificate Connector / NDES or Cloud PKI) or PKCS, deploy the trusted-root and certificate profiles, and hand Cisco ISE a clean EAP-TLS identity to authenticate &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how EAP-TLS certificate VPN auth works with ISE as the RADIUS authority, the SCEP vs PKCS choice, the trust chain ISE must validate, and where Intune's cert delivery meets the Cisco head-end.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (a CA / Cloud PKI, the Intune Certificate Connector or NDES/SCEP, trusted-root + SCEP/PKCS profiles, Entra ID groups, ISE configured for EAP-TLS) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted-root profile, the SCEP or PKCS certificate profile, assign to a named pilot group, confirm certs land, and validate ISE accepts the EAP-TLS handshake, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; certificate-readiness discovery, per-device certificate + chain validation, a certificate deployment/expiry coverage report, safe remediation of missing/failed certs, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (cert present, chain valid, ISE auth success), plus field-proven Best Practices for renewal and revocation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISECERT-Discovery.ps1</code> &mdash; certificate readiness: Intune certificate connectors + cert profiles (Graph)</li><li><code>CISECERT-Remediation.ps1</code> &mdash; safely re-trigger failed VPN certificate issuance (default -WhatIf)</li><li><code>CISECERT-Report.ps1</code> &mdash; VPN certificate deployment + expiry coverage across the fleet (Graph)</li><li><code>CISECERT-Set-ScopeTargeting.ps1</code> &mdash; create the Cisco VPN certificate scope Entra groups (pilot/broad)</li><li><code>CISECERT-Validation.ps1</code> &mdash; per-device VPN certificate + trust-chain validation (local, Windows)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy SCEP/PKCS certificates from Intune for EAP-TLS VPN authentication with Cisco ISE: trusted-root and certificate profiles, trust chain, renewal. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-certificate-vpn-authentication-intune-nonprofit",
+      "image": "CISECERT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISECERT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISECERT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CISECERT-GOV-001",
+      "name": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Issue device/user certificates from Intune (SCEP or PKCS) with a trust chain Cisco ISE validates — passwordless EAP-TLS VPN authentication, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Replace VPN passwords with certificates Cisco ISE trusts</h3><p>Password-based VPN is the weak link Cisco ISE was built to remove &mdash; but issuing the right device or user certificate to every endpoint, with a trust chain ISE validates, defeats most teams. This solution stands up <strong>certificate-based VPN authentication</strong> end to end: issue certs from <strong>Intune</strong> via SCEP (Certificate Connector / NDES or Cloud PKI) or PKCS, deploy the trusted-root and certificate profiles, and hand Cisco ISE a clean EAP-TLS identity to authenticate &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how EAP-TLS certificate VPN auth works with ISE as the RADIUS authority, the SCEP vs PKCS choice, the trust chain ISE must validate, and where Intune's cert delivery meets the Cisco head-end.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (a CA / Cloud PKI, the Intune Certificate Connector or NDES/SCEP, trusted-root + SCEP/PKCS profiles, Entra ID groups, ISE configured for EAP-TLS) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted-root profile, the SCEP or PKCS certificate profile, assign to a named pilot group, confirm certs land, and validate ISE accepts the EAP-TLS handshake, then pilot and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; certificate-readiness discovery, per-device certificate + chain validation, a certificate deployment/expiry coverage report, safe remediation of missing/failed certs, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (cert present, chain valid, ISE auth success), plus field-proven Best Practices for renewal and revocation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISECERT-Discovery.ps1</code> &mdash; certificate readiness: Intune certificate connectors + cert profiles (Graph)</li><li><code>CISECERT-Remediation.ps1</code> &mdash; safely re-trigger failed VPN certificate issuance (default -WhatIf)</li><li><code>CISECERT-Report.ps1</code> &mdash; VPN certificate deployment + expiry coverage across the fleet (Graph)</li><li><code>CISECERT-Set-ScopeTargeting.ps1</code> &mdash; create the Cisco VPN certificate scope Entra groups (pilot/broad)</li><li><code>CISECERT-Validation.ps1</code> &mdash; per-device VPN certificate + trust-chain validation (local, Windows)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy SCEP/PKCS certificates from Intune for EAP-TLS VPN authentication with Cisco ISE: trusted-root and certificate profiles, trust chain, renewal. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-certificate-vpn-authentication-intune-government",
+      "image": "CISECERT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISECERT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISECERT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

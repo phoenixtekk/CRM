@@ -1,0 +1,82 @@
+{
+  "sol": "NSMIG",
+  "slug": "forcepoint-neo-to-netskope-migration",
+  "title": "Forcepoint Neo to Netskope Migration (Legacy Web Filtering)",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (migration off a legacy web-filtering agent to Netskope; policy translation, coexistence, agent cutover, live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Migrate off legacy web filtering to Netskope — without a gap in protection",
+  "problem": "Replacing a legacy web-filtering platform like Forcepoint Neo is risky: leave both agents on and they fight over traffic; cut over too fast and you lose protection or break access. This solution gives you a controlled <strong>migration from Forcepoint Neo to Netskope</strong> &mdash; translate existing filtering policy, manage agent coexistence, steer traffic in stages, and decommission the legacy platform once Netskope is proven.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the migration model, mapping legacy web-filtering policy to Netskope, agent coexistence and steering conflicts, and the staged cutover and decommission.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Netskope tenant + SWG, the existing Forcepoint Neo configuration/policy export, Intune for agent management, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory and translate legacy policy, stand up Netskope policy, manage coexistence and remove the legacy agent in stages, validate parity, decommission Forcepoint, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; legacy-agent and policy discovery, post-migration parity validation, a migration coverage and conflict report, safe remediation (remove legacy agent), and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A controlled <strong>migration from Forcepoint Neo to Netskope</strong> &mdash; translate filtering policy, manage agent coexistence, steer traffic in stages, and decommission the legacy platform once Netskope is proven. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A controlled migration from Forcepoint Neo to Netskope — translate filtering policy, manage agent coexistence, steer in stages, decommission the legacy platform once Netskope is proven.",
+  "meta_title": "Forcepoint Neo to Netskope Migration (Legacy Web Filtering)",
+  "meta_description": "Migrate from Forcepoint Neo to Netskope: policy translation, agent coexistence, staged traffic cutover, parity validation, and legacy decommission. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Web filtering moved off Forcepoint Neo to Netskope with no gap in protection &mdash; policy translated, agents coexisting then cut over in stages, and the legacy platform decommissioned &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Neo to Netskope",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Migrate Without a Gap",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Forcepoint Neo · Netskope · Migration",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY CUTOVER",
+      "items": [
+        "Agents fight traffic",
+        "Protection gaps",
+        "Broken access",
+        "Policy drift"
+      ]
+    },
+    "to": {
+      "label": "Controlled migration",
+      "stat": "Translated · staged · decommissioned"
+    },
+    "tagline": "OFF LEGACY.  ONTO NETSKOPE.  NO GAP.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Translate",
+        "sub": "Legacy policy"
+      },
+      {
+        "icon": "shield",
+        "title": "Coexist",
+        "sub": "No gap"
+      },
+      {
+        "icon": "chart",
+        "title": "Parity",
+        "sub": "Validated"
+      },
+      {
+        "icon": "lock",
+        "title": "Decommission",
+        "sub": "Legacy off"
+      }
+    ]
+  }
+}

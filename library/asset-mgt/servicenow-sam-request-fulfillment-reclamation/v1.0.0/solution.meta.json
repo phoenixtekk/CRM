@@ -1,0 +1,39 @@
+{
+  "slug": "servicenow-sam-request-fulfillment-reclamation",
+  "title": "ServiceNow SAM — Request Fulfillment & License Reclamation Workflow",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "SNOWSAM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (ServiceNow SAM/ITAM workflow design: intake, fulfillment, entitlement, reclamation; platform-specific, multi-stakeholder).",
+    "Non-Microsoft platform; ServiceNow SAM module specifics are deferred to ServiceNow's official docs (don't invent)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SNOWSAM-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SNOWSAM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SNOWSAM-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SNOWSAM-Complete-Solution.zip"
+  ],
+  "hero": "SNOWSAM-hero.png"
+}

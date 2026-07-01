@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Per-App VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Cisco + Intune Mobile",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "iOS · Android · Managed Apps",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DEVICE-WIDE VPN",
+    "items": [
+      "Backhauls everything",
+      "Battery drain",
+      "Privacy worries",
+      "All-or-nothing"
+    ]
+  },
+  "to": {
+    "label": "Scoped per-app tunnel",
+    "stat": "Only the apps that need it"
+  },
+  "tagline": "SCOPE IT.  TUNNEL IT.  ONLY THAT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "iOS/Android",
+      "sub": "Managed apps"
+    },
+    {
+      "icon": "lock",
+      "title": "Per-App VPN",
+      "sub": "Scoped tunnel"
+    },
+    {
+      "icon": "gear",
+      "title": "Association",
+      "sub": "App → VPN"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Scope report"
+    }
+  ]
+}

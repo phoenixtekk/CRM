@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Migration Readiness",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Plan Before You Touch",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "MDM Assessment · Wave Planning",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PLANNING FAILURES",
+    "items": [
+      "No clean inventory",
+      "Waves unplanned",
+      "Risks surface late",
+      "Migrate by surprise"
+    ]
+  },
+  "to": {
+    "label": "Run to a script",
+    "stat": "Inventoried · scored · sequenced"
+  },
+  "tagline": "ASSESS FIRST.  WAVE-PLAN.  THEN MIGRATE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Full estate"
+    },
+    {
+      "icon": "shield",
+      "title": "Risk Score",
+      "sub": "Readiness"
+    },
+    {
+      "icon": "gear",
+      "title": "Waves",
+      "sub": "Entry/exit"
+    },
+    {
+      "icon": "users",
+      "title": "Cohorts",
+      "sub": "Sequenced"
+    }
+  ]
+}

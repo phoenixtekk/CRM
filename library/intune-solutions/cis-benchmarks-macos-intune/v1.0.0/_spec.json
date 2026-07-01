@@ -1,0 +1,44 @@
+{
+  "sol": "CISMAC",
+  "slug": "cis-benchmarks-macos-intune",
+  "title": "Implement & Manage CIS Benchmarks for macOS Devices for Microsoft Intune",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Shaping note: cover net-new implementation of CIS Benchmarks AND an ongoing update/maintain process for when a new CIS Benchmark version is released or changes.",
+    "Effort tier: T3 (multi-control macOS hardening within Intune via settings catalog, custom configuration profiles (.mobileconfig) and macOS shell scripts, Level 1/Level 2 profiles, compliance reporting and drift, plus a benchmark-version maintenance lifecycle).",
+    "Sibling of cis-benchmarks-windows-11-intune (same structure, macOS-specific implementation surface). version_directive: New; branding: off (white-label)."
+  ],
+  "hook": "Harden every macOS device to the CIS Benchmark — and keep it that way as the benchmark evolves",
+  "problem": "Security and audit teams increasingly require Macs to meet the <strong>CIS Benchmarks</strong>, but hardening macOS by hand is painful: dozens of controls split across configuration profiles, settings the GUI can't reach (so you need custom <code>.mobileconfig</code> payloads and shell scripts), Level 1 vs Level 2 decisions, and a benchmark that gets <em>revised</em> regularly so your baseline silently drifts out of compliance. This solution gives you a repeatable way to <strong>implement and then continuously manage CIS Benchmarks for macOS in Microsoft Intune</strong> &mdash; build the hardened baseline as Intune policy, prove compliance, and run a documented update process every time CIS publishes a new version.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what the CIS Benchmarks for macOS are, Level 1 vs Level 2, how the controls map to Intune (settings catalog, custom configuration profiles using <code>.mobileconfig</code>, and macOS shell scripts) versus what Apple/Intune can enforce natively, the compliance/reporting model, and the benchmark-version maintenance lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, supported macOS version, Apple MDM push (APNs) certificate, enrollment, device groups, the official CIS Benchmark source, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide (net-new)</strong> &mdash; exact, ordered steps: stage the benchmark, build the Level 1 (and optional Level 2) configuration in Intune via settings catalog, custom profiles, and shell scripts, handle known break-glass exceptions, assign to a pilot, validate compliance, then expand fleet-wide.",
+    "<strong>Maintenance &amp; Update Guide</strong> &mdash; a repeatable process for when CIS releases a new macOS benchmark version: obtain the new version, diff it against your live baseline, assess and approve changes, update the Intune policies/profiles/scripts in a controlled change, re-validate, and record the version you are on.",
+    "<strong>5 PowerShell scripts</strong> &mdash; CIS-readiness discovery, per-device CIS-compliance validation, a fleet CIS posture and drift report, safe remediation of drifted settings, and a benchmark-version comparison helper that diffs a new CIS export against your current baseline."
+  ],
+  "short": "Implement and continuously manage <strong>CIS Benchmarks for macOS in Microsoft Intune</strong> &mdash; build the hardened Level 1/Level 2 baseline via settings catalog, custom profiles, and shell scripts, prove compliance, and run a documented update process every time CIS publishes a new version. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement and continuously manage CIS Benchmarks for macOS in Microsoft Intune — build the hardened Level 1/Level 2 baseline via settings catalog, custom profiles, and shell scripts, prove compliance, and update it every time CIS publishes a new version.",
+  "meta_title": "Implement & Manage CIS Benchmarks for macOS (Intune)",
+  "meta_description": "Implement and maintain CIS Benchmarks for macOS in Microsoft Intune: Level 1/Level 2 hardening via settings catalog, custom .mobileconfig profiles, and shell scripts, compliance reporting, drift remediation, and a benchmark-version update lifecycle. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Mac hardened to the CIS Benchmark and provably compliant &mdash; with a documented update lifecycle that keeps the baseline current each time CIS revises it, instead of silently drifting &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {"text": "CIS Benchmarks", "color": "white", "size": "main"},
+      {"text": "macOS Hardening", "color": "green", "size": "main"},
+      {"text": "Microsoft Intune · Settings Catalog · Profiles · Shell", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "DRIFTING BASELINE", "items": ["Dozens of controls", "GUI can't reach all", "Manual hardening", "Drifts each revision"]},
+    "to": {"label": "Hardened & maintained", "stat": "Compliant · proven · current"},
+    "tagline": "HARDEN TO CIS.  PROVE IT.  KEEP IT CURRENT.",
+    "benefits": [
+      {"icon": "shield", "title": "CIS Baseline", "sub": "Level 1 / Level 2"},
+      {"icon": "gear", "title": "Intune Policy", "sub": "Profiles + shell"},
+      {"icon": "chart", "title": "Compliance", "sub": "Posture + drift"},
+      {"icon": "key", "title": "Maintained", "sub": "Version updates"}
+    ]
+  }
+}

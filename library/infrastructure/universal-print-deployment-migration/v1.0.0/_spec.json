@@ -1,0 +1,81 @@
+{
+  "sol": "UPRT",
+  "slug": "universal-print-deployment-migration",
+  "title": "Universal Print Deployment & Print-Server Retirement",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (multi-component: Universal Print service + connectors + Intune printer deployment, coexistence with existing print servers, cutover)."
+  ],
+  "hook": "Retire your print servers — deliver printers from the cloud through Universal Print",
+  "problem": "Print servers are a quiet liability: a box (or several) you patch, back up, and pray never falls over on a Monday morning, plus drivers and GPO printer mappings that only work on the corporate network. <strong>Universal Print</strong> moves printing to a Microsoft-hosted cloud service &mdash; printers are shared from Entra ID, deployed to users and devices through Intune, and reachable wherever people work &mdash; so you can decommission the print servers entirely. This solution makes that migration orderly: connect existing printers, deploy by group, then retire the servers.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Universal Print works, the connector model for non-native printers, Entra ID printer sharing, Intune-driven printer deployment, and the coexistence-then-cutover approach to retiring print servers.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Universal Print licensing, Entra ID, Intune, a connector host for existing printers, printer inventory, network/firewall reachability) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: license and enable Universal Print, install the connector and register printers, share printers in Entra ID, deploy printers to groups via Intune, validate printing on and off network, retire the old print queues/servers, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; print-environment discovery (servers/queues/drivers), Universal Print readiness and printing validation, a printer/deployment inventory report, safe remediation of failed printer deployments, and a printer-deployment group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Move printing to <strong>Universal Print</strong> and retire your print servers &mdash; connect existing printers, share them from Entra ID, deploy by group through Intune, and print from anywhere. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Move printing to Universal Print and retire your print servers — connect printers, share from Entra ID, deploy by group through Intune, print from anywhere.",
+  "meta_title": "Universal Print Deployment & Print-Server Retirement",
+  "meta_description": "Deploy Microsoft Universal Print and retire print servers: connector setup, Entra ID printer sharing, Intune printer deployment, coexistence and cutover. Self-guided, tested steps and scripts.",
+  "bottom_line": "Cloud-delivered printing for every user &mdash; printers shared from Entra ID and deployed through Intune, reachable on or off network &mdash; with the old print servers decommissioned, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Universal Print",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Retire the Print Servers",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Universal Print · Entra ID · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PRINT-SERVER LIABILITY",
+      "items": [
+        "Boxes to patch",
+        "Driver sprawl",
+        "GPO mappings",
+        "LAN-only print"
+      ]
+    },
+    "to": {
+      "label": "Cloud-delivered print",
+      "stat": "Shared from Entra · deployed by Intune"
+    },
+    "tagline": "PRINT FROM ANYWHERE.  NO SERVERS.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Universal Print",
+        "sub": "Cloud service"
+      },
+      {
+        "icon": "gear",
+        "title": "Connector",
+        "sub": "Existing printers"
+      },
+      {
+        "icon": "users",
+        "title": "Deploy by Group",
+        "sub": "Via Intune"
+      },
+      {
+        "icon": "device",
+        "title": "Anywhere",
+        "sub": "On or off LAN"
+      }
+    ]
+  }
+}

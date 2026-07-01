@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Client at Scale",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Steered From Day One",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · Intune · Steering",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALLED ROLLOUTS",
+    "items": [
+      "Clients fail enroll",
+      "Inconsistent steering",
+      "Broken apps",
+      "No health view"
+    ]
+  },
+  "to": {
+    "label": "Deployed & steering",
+    "stat": "Packaged · ringed · healthy"
+  },
+  "tagline": "EVERY DEVICE.  HEALTHY.  STEERING.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Client",
+      "sub": "Intune-deployed"
+    },
+    {
+      "icon": "gear",
+      "title": "Steering",
+      "sub": "+ exceptions"
+    },
+    {
+      "icon": "chart",
+      "title": "Rings",
+      "sub": "Safe rollout"
+    },
+    {
+      "icon": "shield",
+      "title": "Health",
+      "sub": "Validated"
+    }
+  ]
+}

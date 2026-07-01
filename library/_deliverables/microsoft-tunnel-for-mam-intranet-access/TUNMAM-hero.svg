@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Microsoft Tunnel for MAM — Mobile Access to Intranet Resources — product hero</title><desc id="d">Intune marketing banner.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="680" cy="480" rx="640" ry="400" fill="url(#glow)"/>
+<g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M1060 185 H960 L990 215 H870"/><path d="M1060 175 H920 L950 205 H800"/><path d="M40 123 H140 L170 163 H290"/><path d="M40 246 H180 L210 286 H360"/><path d="M40 192 H220 L250 222 H370"/><path d="M70 183 H170 L200 223 H320"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="960" cy="185" r="5"/><circle cx="990" cy="215" r="5"/><circle cx="920" cy="175" r="5"/><circle cx="950" cy="205" r="5"/><circle cx="140" cy="123" r="5"/><circle cx="170" cy="163" r="5"/><circle cx="180" cy="246" r="5"/><circle cx="210" cy="286" r="5"/><circle cx="220" cy="192" r="5"/><circle cx="250" cy="222" r="5"/><circle cx="170" cy="183" r="5"/><circle cx="200" cy="223" r="5"/></g>
+<g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+<text x="600" y="170" font-size="112" fill="#ffffff" font-weight="800">Tunnel for MAM</text>
+<text x="600" y="285" font-size="112" fill="#5cc24a" font-weight="800">Reach the Intranet</text>
+<text x="600" y="400" font-size="58" fill="#2f95d6" font-weight="700">Microsoft Tunnel · MAM · App VPN</text>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="70" y="430" width="370" height="300" rx="18" fill="#ffffff" opacity="0.05"/><rect x="70" y="430" width="370" height="300" rx="18" fill="none" stroke="#1f4a7a" stroke-width="2"/><text x="255" y="478" text-anchor="middle" font-size="30" font-weight="700" fill="#cfe0f2" letter-spacing="2">INTRANET UNREACHABLE</text><g font-size="26" fill="#d7e3f1">
+<g><circle cx="120" cy="540" r="14" fill="#c0392b"/><path d="M114 534 l12 12 M126 534 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="549">Internal-only resources</text></g>
+<g><circle cx="120" cy="595" r="14" fill="#c0392b"/><path d="M114 589 l12 12 M126 589 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="604">No device VPN on BYOD</text></g>
+<g><circle cx="120" cy="650" r="14" fill="#c0392b"/><path d="M114 644 l12 12 M126 644 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="659">App can't route in</text></g>
+<g><circle cx="120" cy="705" r="14" fill="#c0392b"/><path d="M114 699 l12 12 M126 699 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="714">Blocked mobile access</text></g>
+</g></g>
+<polygon points="460,545 560,545 560,515 620,580 560,645 560,615 460,615" fill="url(#arrow)"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="660" y="430" width="470" height="300" rx="18" fill="#ffffff" opacity="0.06"/><rect x="660" y="430" width="470" height="300" rx="18" fill="none" stroke="#2f95d6" stroke-width="2"/><g transform="translate(700,470)"><path d="M14 34 a22 22 0 0 1 6 -43 a26 26 0 0 1 49 -6 a20 20 0 0 1 8 49 z" fill="#eaf3fc"/></g><text x="800" y="500" font-size="30" font-weight="700" fill="#ffffff">App-scoped tunnel</text><g transform="translate(820,540)"><path d="M75 6 L130 26 V70 C130 110 105 138 75 150 C45 138 20 110 20 70 V26 Z" fill="#13355c" stroke="#54c14a" stroke-width="4"/><path d="M50 78 L70 100 L104 56" fill="none" stroke="#5cc24a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g><text x="690" y="700" font-size="27" font-weight="700" fill="#9fe39a">Gateway · connector · MAM apps</text></g>
+<text x="600" y="800" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#9fc4e6" letter-spacing="8">ROUTE THE APP.  NOT THE WHOLE DEVICE.</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(165,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><path d="M-20 12 a16 16 0 0 1 4 -31 a19 19 0 0 1 36 -4 a15 15 0 0 1 6 35 z" fill="none" stroke="#56b0e6" stroke-width="4"/></g>
+<g transform="translate(455,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><rect x="-24" y="-18" width="48" height="32" rx="3" fill="none" stroke="#9fc4e6" stroke-width="4"/><path d="M-30 22 h60" stroke="#9fc4e6" stroke-width="4"/></g>
+<g transform="translate(745,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><path d="M0 -26 L24 -16 V8 C24 26 13 38 0 44 C-13 38 -24 26 -24 8 V-16 Z" fill="none" stroke="#5cc24a" stroke-width="4"/><path d="M-12 4 L-2 16 L14 -8" fill="none" stroke="#5cc24a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g transform="translate(1035,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><g stroke="#5cc24a" stroke-width="5" stroke-linecap="round"><path d="M-22 20 v-8 M-7 20 v-20 M8 20 v-12 M23 20 v-28"/></g></g>
+<g font-size="29" font-weight="700" fill="#ffffff">
+<text x="165" y="995">Tunnel Gateway</text>
+<text x="455" y="995">App VPN</text>
+<text x="745" y="995">Internal Reach</text>
+<text x="1035" y="995">Validated</text>
+</g><g font-size="23" fill="#9fb6cf">
+<text x="165" y="1030">Linux-hosted</text>
+<text x="455" y="1030">MAM apps only</text>
+<text x="745" y="1030">Intranet resources</text>
+<text x="1035" y="1030">Health + usage</text>
+</g></g>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune</text>
+</svg>

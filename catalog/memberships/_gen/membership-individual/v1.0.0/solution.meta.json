@@ -1,0 +1,15 @@
+{
+  "slug": "membership-individual",
+  "title": "Membership — Individual",
+  "category": "Memberships",
+  "category_slug": "memberships",
+  "sol_code": "SUBIND",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-06-14",
+  "updated": "2026-06-14",
+  "published_at": null,
+  "products": [],
+  "deliverables": [],
+  "hero": "SUBIND-hero.png"
+}

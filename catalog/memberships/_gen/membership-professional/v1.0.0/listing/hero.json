@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Membership", "color": "white", "size": "main" },
+    { "text": "Professional", "color": "green", "size": "main" },
+    { "text": "For MSPs and IT teams", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "INDIVIDUAL ONLY", "items": ["No commercial use", "No source files", "No templates", "Solo admin"] },
+  "to": { "label": "Phoenixtekk", "stat": "$999/mo · $11,988/yr" },
+  "tagline": "EQUIP.  YOUR.  TEAM.",
+  "benefits": [
+    { "icon": "shield", "title": "Commercial Use", "sub": "Client + internal" },
+    { "icon": "device", "title": "Source Files", "sub": "Templates included" },
+    { "icon": "gear", "title": "DevOps Templates", "sub": "Work items + frameworks" },
+    { "icon": "users", "title": "All of Individual", "sub": "Plus pro tools" }
+  ]
+}

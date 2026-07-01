@@ -1,0 +1,39 @@
+{
+  "slug": "netskope-client-troubleshooting-diagnostics-toolkit",
+  "title": "Netskope Client Troubleshooting & Diagnostics Toolkit",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSDIAG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (diagnostics toolkit + runbooks for steering/auth/performance issues across the Netskope client; PowerShell/Python).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSDIAG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-NSDIAG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-NSDIAG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "NSDIAG-Complete-Solution.zip"
+  ],
+  "hero": "NSDIAG-hero.png"
+}

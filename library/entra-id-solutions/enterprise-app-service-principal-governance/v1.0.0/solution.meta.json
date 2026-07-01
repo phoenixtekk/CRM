@@ -1,0 +1,41 @@
+{
+  "slug": "enterprise-app-service-principal-governance",
+  "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "APPGOV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (govern OAuth apps/service principals/app registrations, consent, API permissions, and secret/cert expiry in Entra; conditional logic, security risk from over-permissioned apps).",
+    "version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPGOV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-APPGOV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-APPGOV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "APPGOV-Solution.pdf",
+    "APPGOV-Scripts.zip"
+  ],
+  "hero": "APPGOV-hero.png"
+}
+

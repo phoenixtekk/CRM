@@ -1,0 +1,41 @@
+{
+  "slug": "cisco-secure-client-vpn-deployment-intune",
+  "title": "Cisco Secure Client (AnyConnect) VPN Deployment via Microsoft Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "CSCVPN",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CSCVPN-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CSCVPN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CSCVPN-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CSCVPN-Solution.pdf",
+    "CSCVPN-Scripts.zip"
+  ],
+  "hero": "CSCVPN-hero.png"
+}
+

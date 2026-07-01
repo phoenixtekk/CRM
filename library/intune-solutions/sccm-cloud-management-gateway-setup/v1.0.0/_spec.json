@@ -1,0 +1,81 @@
+{
+  "sol": "CMG",
+  "slug": "sccm-cloud-management-gateway-setup",
+  "title": "Configuration Manager Cloud Management Gateway (CMG) Setup & Operations",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T4 (multi-phase Azure-hosted service stood up against Configuration Manager, certificate/identity work, coexistence with on-prem MP/DP, higher risk)."
+  ],
+  "hook": "Manage internet-based Windows clients from Configuration Manager — without a VPN",
+  "problem": "Your laptops left the building and never came back. Remote and hybrid Windows devices that used to sit on the LAN now rarely touch the corporate network, so Configuration Manager can't reach them: policy goes stale, software updates stall, inventory goes dark, and you can't tell a healthy device from a dead one. A <strong>Cloud Management Gateway (CMG)</strong> fixes that — an Azure-hosted front door that lets Configuration Manager manage internet-based clients securely, with no VPN and no inbound firewall holes.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how a CMG works, the CMG + cloud management point design, token vs. PKI authentication, and where it fits alongside co-management with Intune.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (supported Configuration Manager current branch, an Azure subscription, Entra ID app registrations, the CMG server authentication certificate, client authentication model, e-HTTP/enhanced HTTP or PKI, boundary and content design) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: Azure services onboarding, create the CMG cloud service, add the CMG connection point, enable the management point and software update point for CMG traffic, configure clients for cloud management, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; environment-readiness discovery, CMG/client connectivity validation, an internet-client health and reach report, safe remediation of misconfigured clients, and a cloud-management settings helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up a Configuration Manager <strong>Cloud Management Gateway (CMG)</strong> so you can manage internet-based Windows clients securely &mdash; policy, software updates, and inventory with no VPN and no inbound firewall holes. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up a Configuration Manager Cloud Management Gateway (CMG) to manage internet-based Windows clients securely — no VPN, no inbound firewall holes.",
+  "meta_title": "Configuration Manager Cloud Management Gateway (CMG) Setup",
+  "meta_description": "Set up a Configuration Manager CMG to manage internet-based Windows clients with no VPN: Azure onboarding, certificates, cloud management point, client configuration. Self-guided, tested steps and scripts.",
+  "bottom_line": "Internet-based Windows clients fully manageable from Configuration Manager &mdash; receiving policy, software updates, and inventory over a secure Azure front door &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Cloud Management Gateway",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Manage Clients Anywhere",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Configuration Manager · Azure · CMG",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNREACHABLE OFF-LAN",
+      "items": [
+        "Stale policy",
+        "Stalled updates",
+        "Dark inventory",
+        "VPN-only mgmt"
+      ]
+    },
+    "to": {
+      "label": "Managed over the internet",
+      "stat": "Policy · updates · inventory — no VPN"
+    },
+    "tagline": "REACH EVERY CLIENT.  NO VPN.  PROVE IT.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Azure CMG",
+        "sub": "Internet front door"
+      },
+      {
+        "icon": "shield",
+        "title": "Secure Auth",
+        "sub": "Token / PKI"
+      },
+      {
+        "icon": "gear",
+        "title": "MP + SUP",
+        "sub": "Policy & updates"
+      },
+      {
+        "icon": "chart",
+        "title": "Client Health",
+        "sub": "Reach & report"
+      }
+    ]
+  }
+}

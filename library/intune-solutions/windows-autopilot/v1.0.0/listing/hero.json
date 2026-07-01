@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Windows", "color": "white", "size": "main" },
+    { "text": "Autopilot", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "MANUAL IMAGING", "items": ["Hours per device", "Tech touch needed", "Inconsistent builds", "Slow onboarding"] },
+  "to": { "label": "Microsoft Intune", "stat": "Zero-touch · Self-deploying" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "device", "title": "Zero-Touch Setup", "sub": "Ship straight to user" },
+    { "icon": "cloud", "title": "Cloud Provisioning", "sub": "OOBE auto-config" },
+    { "icon": "gear", "title": "Auto-Enrollment", "sub": "Entra + Intune" },
+    { "icon": "users", "title": "Faster Onboarding", "sub": "Ready in minutes" }
+  ]
+}

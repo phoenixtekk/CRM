@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Co-Management",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "ConfigMgr Meets Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Configuration Manager · Intune · Entra",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STUCK ON-PREM",
+    "items": [
+      "Rip-and-replace risk",
+      "All-or-nothing",
+      "No cloud path",
+      "Workloads locked"
+    ]
+  },
+  "to": {
+    "label": "Workloads move at your pace",
+    "stat": "Co-managed · staged · cloud-bound"
+  },
+  "tagline": "BRIDGE TO CLOUD.  ONE WORKLOAD AT A TIME.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Co-Manage",
+      "sub": "Both authorities"
+    },
+    {
+      "icon": "cloud",
+      "title": "Workload Slider",
+      "sub": "Move by stages"
+    },
+    {
+      "icon": "shield",
+      "title": "Validated",
+      "sub": "Each workload"
+    },
+    {
+      "icon": "chart",
+      "title": "Cloud-First",
+      "sub": "Clear path"
+    }
+  ]
+}

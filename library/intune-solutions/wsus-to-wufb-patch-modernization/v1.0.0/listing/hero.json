@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "WSUS to WUfB",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Retire the Update Server",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Windows Update for Business · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "WSUS MAINTENANCE TAX",
+    "items": [
+      "Server to patch",
+      "Bloated content",
+      "LAN-only approvals",
+      "Remote devices behind"
+    ]
+  },
+  "to": {
+    "label": "Cloud patching",
+    "stat": "Update rings · deadlines · DO"
+  },
+  "tagline": "DROP THE SERVER.  PATCH ANYWHERE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "WUfB",
+      "sub": "Patch from MS"
+    },
+    {
+      "icon": "gear",
+      "title": "Update Rings",
+      "sub": "Deferrals + deadlines"
+    },
+    {
+      "icon": "device",
+      "title": "Delivery Opt",
+      "sub": "Efficient delivery"
+    },
+    {
+      "icon": "chart",
+      "title": "Compliance",
+      "sub": "Fleet patch report"
+    }
+  ]
+}

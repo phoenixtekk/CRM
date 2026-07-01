@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Workspace ONE to Intune",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Migrate the Whole Fleet",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Microsoft Intune · Program",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY UEM EXIT",
+    "items": [
+      "Thousands of devices",
+      "Apps & profiles",
+      "Cross-team stalls",
+      "No-loss cutover"
+    ]
+  },
+  "to": {
+    "label": "One migration program",
+    "stat": "Assessed · ringed · decommissioned"
+  },
+  "tagline": "OFF WORKSPACE ONE.  ONTO INTUNE.  NO LOSS.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "All Platforms",
+      "sub": "Win/iOS/Android/Mac"
+    },
+    {
+      "icon": "gear",
+      "title": "Rebuild",
+      "sub": "Apps + policies"
+    },
+    {
+      "icon": "chart",
+      "title": "Waves",
+      "sub": "Ringed cutover"
+    },
+    {
+      "icon": "shield",
+      "title": "Decommission",
+      "sub": "WS1 retired"
+    }
+  ]
+}

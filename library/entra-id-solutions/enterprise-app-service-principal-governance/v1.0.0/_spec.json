@@ -1,0 +1,82 @@
+{
+  "sol": "APPGOV",
+  "slug": "enterprise-app-service-principal-governance",
+  "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (govern OAuth apps/service principals/app registrations, consent, API permissions, and secret/cert expiry in Entra; conditional logic, security risk from over-permissioned apps).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Find the risky OAuth apps and over-permissioned service principals hiding in your tenant",
+  "problem": "Every SaaS integration and internal app leaves behind an <strong>enterprise app, a service principal, and a set of API permissions</strong> &mdash; and over time they pile up: apps nobody owns, dangerous consented permissions, and app secrets/certs quietly expiring or lingering forever. Attackers love them. This solution gives you a repeatable way to <strong>govern enterprise apps and service principals in Microsoft Entra</strong>: inventory them, review consent and API permissions for over-privilege, control user consent, and manage secret/certificate hygiene.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Entra app model (app registrations vs. enterprise apps/service principals), delegated vs. application permissions and admin consent, the over-permission and consent-phishing risk, and secret/certificate lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID, appropriate admin roles, a consent policy decision, an app inventory approach, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory enterprise apps/service principals, review API permissions and consents for over-privilege, configure the user-consent policy (and admin-consent workflow), remediate risky grants, manage secret/cert expiry, validate, pilot, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; enterprise-app/service-principal + permission discovery, risky-consent and expiring-secret validation, an app-governance and over-permission report, safe remediation of risky grants, and a governance-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>govern enterprise apps and service principals in Microsoft Entra</strong> &mdash; inventory them, review consent and API permissions for over-privilege, control user consent, and manage secret/certificate hygiene. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to govern enterprise apps and service principals in Microsoft Entra — inventory them, review consent and API permissions for over-privilege, control user consent, and manage secret/certificate hygiene.",
+  "meta_title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
+  "meta_description": "Govern Entra enterprise apps and service principals: inventory, API-permission and consent review for over-privilege, user-consent policy, and secret/certificate lifecycle hygiene. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every enterprise app and service principal inventoried and governed &mdash; over-permissioned grants and risky consents remediated, user consent controlled, and app secrets/certs on a managed lifecycle &mdash; closing a favorite attacker foothold, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "App & SP Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Tame the OAuth Sprawl",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Entra · Enterprise Apps · API Permissions",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OAUTH SPRAWL",
+      "items": [
+        "Unowned apps",
+        "Over-permissioned SPs",
+        "Risky consents",
+        "Expiring secrets"
+      ]
+    },
+    "to": {
+      "label": "Governed app estate",
+      "stat": "Inventoried · reviewed · controlled"
+    },
+    "tagline": "INVENTORY THE APPS.  CUT THE OVER-PRIVILEGE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Inventory",
+        "sub": "Apps + SPs"
+      },
+      {
+        "icon": "shield",
+        "title": "Permissions",
+        "sub": "Over-privilege"
+      },
+      {
+        "icon": "lock",
+        "title": "Consent",
+        "sub": "Controlled"
+      },
+      {
+        "icon": "key",
+        "title": "Secrets",
+        "sub": "Lifecycle"
+      }
+    ]
+  }
+}

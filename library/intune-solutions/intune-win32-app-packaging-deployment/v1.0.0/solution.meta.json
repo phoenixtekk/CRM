@@ -1,0 +1,38 @@
+{
+  "slug": "intune-win32-app-packaging-deployment",
+  "title": "Intune Win32 Application Packaging & Deployment",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WIN32",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (multi-component within Intune: packaging, detection/requirement/supersedence logic, dependencies, ring assignment)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WIN32-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WIN32-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WIN32-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WIN32-Complete-Solution.zip"
+  ],
+  "hero": "WIN32-hero.png"
+}

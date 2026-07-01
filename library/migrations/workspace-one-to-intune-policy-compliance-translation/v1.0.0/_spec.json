@@ -1,0 +1,81 @@
+{
+  "sol": "WS1POL",
+  "slug": "workspace-one-to-intune-policy-compliance-translation",
+  "title": "Workspace ONE to Intune — Policy & Compliance Translation",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (translate Workspace ONE profiles/compliance to Intune settings catalog + compliance policy across platforms; parity validation, conditional logic)."
+  ],
+  "hook": "Translate every Workspace ONE profile and compliance rule into Intune — with proven parity",
+  "problem": "The settings are the soul of an MDM migration: every Workspace ONE configuration profile and compliance policy has to be <strong>translated into Intune</strong> &mdash; settings catalog, configuration profiles, and compliance policy &mdash; with the same effective posture, or devices quietly become less secure (or break). This solution gives you a repeatable way to <strong>translate Workspace ONE policies and compliance into Intune</strong>: inventory source policy, map it to Intune across platforms, handle what doesn't translate, and validate parity before cutover.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the policy-translation model, mapping Workspace ONE profiles/compliance to Intune (settings catalog, configuration profiles, compliance policy) per platform, handling unsupported settings, and the parity-validation gate.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Workspace ONE policy export/inventory, per-platform mapping targets, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory source profiles/compliance, map supported settings to Intune per platform, handle unsupported settings and exceptions, assign to a pilot, validate parity, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; source policy/compliance discovery, source-vs-Intune parity validation, a translation coverage and gap report, safe remediation of policy conflicts, and a policy-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>translate Workspace ONE policies and compliance into Intune</strong> &mdash; inventory source policy, map it to the settings catalog/configuration/compliance per platform, handle what doesn't translate, and validate parity before cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to translate Workspace ONE policies and compliance into Intune — inventory source policy, map it to settings catalog/configuration/compliance per platform, handle what doesn't translate, and validate parity before cutover.",
+  "meta_title": "Workspace ONE to Intune — Policy & Compliance Translation",
+  "meta_description": "Translate Workspace ONE profiles and compliance into Intune: settings catalog and compliance-policy mapping per platform, unsupported-setting handling, and parity validation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Workspace ONE profile and compliance rule translated into Intune with proven parity &mdash; the same effective security posture across platforms, gaps handled deliberately &mdash; so nothing silently weakens at cutover, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Policy Translation",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Same Posture, Proven",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · Settings Catalog",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SILENT POSTURE LOSS",
+      "items": [
+        "Profiles don't map",
+        "Compliance gaps",
+        "Weaker at cutover",
+        "No parity proof"
+      ]
+    },
+    "to": {
+      "label": "Translated to parity",
+      "stat": "Mapped · gaps handled · proven"
+    },
+    "tagline": "TRANSLATE EVERY SETTING.  PROVE THE PARITY.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Inventory",
+        "sub": "Source policy"
+      },
+      {
+        "icon": "chip",
+        "title": "Map",
+        "sub": "Catalog + compliance"
+      },
+      {
+        "icon": "shield",
+        "title": "Gaps",
+        "sub": "Handled"
+      },
+      {
+        "icon": "chart",
+        "title": "Parity",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "sol": "W11HC",
+  "slug": "windows-11-healthcare-endpoint-baseline",
+  "title": "Windows 11 Healthcare Endpoint Baseline (Intune)",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (multi-component Windows 11 baseline within Intune for clinical endpoints; configuration + security + update + power tuning)."
+  ],
+  "hook": "One proven Windows 11 baseline for every clinical and corporate endpoint",
+  "problem": "Moving a hospital or clinic fleet to Windows 11 without a defined baseline means every device drifts: inconsistent security settings, power options that put shared clinical PCs to sleep mid-shift, missing update behavior, and no documented standard to audit against. This solution gives you a single, repeatable <strong>Windows 11 endpoint baseline</strong> delivered through <strong>Microsoft Intune</strong> &mdash; configuration profiles, the settings catalog, a referenced security baseline, update behavior, and power/display tuning for always-on shared clinical devices &mdash; assigned once and inherited by the whole fleet.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what a Windows 11 baseline is, the configuration profile + settings catalog + security baseline model, update behavior, and power/display tuning for shared clinical vs. personal corporate devices.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, supported Windows 11 edition/hardware, device groups, a referenced security baseline) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: device groups, configuration profiles, the settings catalog baseline, the security baseline reference, update rings, power/display profiles, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; baseline-readiness discovery, per-device baseline validation, a fleet baseline-drift report, safe remediation of drift, and a baseline-target group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A single, repeatable <strong>Windows 11 endpoint baseline</strong> for clinical and corporate devices, delivered through Microsoft Intune &mdash; configuration, security, update, and power tuning, assigned once and inherited fleet-wide. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A single, repeatable Windows 11 endpoint baseline for clinical and corporate devices via Intune — configuration, security, update, and power tuning assigned once and inherited fleet-wide.",
+  "meta_title": "Windows 11 Healthcare Endpoint Baseline (Intune)",
+  "meta_description": "Standardize Windows 11 clinical and corporate endpoints in Intune: configuration profiles, settings catalog, security baseline, update rings, power tuning. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Windows 11 endpoint on one documented, auditable baseline &mdash; consistent security, update, and power behavior for shared clinical and corporate devices alike &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Windows 11",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Healthcare Baseline",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Settings Catalog · Security Baseline",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DRIFTING FLEET",
+      "items": [
+        "Inconsistent settings",
+        "PCs sleep mid-shift",
+        "No standard",
+        "Hard to audit"
+      ]
+    },
+    "to": {
+      "label": "One proven baseline",
+      "stat": "Configured · secured · auditable"
+    },
+    "tagline": "ONE BASELINE.  EVERY ENDPOINT.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Baseline",
+        "sub": "Config + catalog"
+      },
+      {
+        "icon": "shield",
+        "title": "Security",
+        "sub": "Referenced baseline"
+      },
+      {
+        "icon": "gear",
+        "title": "Updates + Power",
+        "sub": "Tuned for clinical"
+      },
+      {
+        "icon": "chart",
+        "title": "Drift Report",
+        "sub": "Stay compliant"
+      }
+    ]
+  }
+}

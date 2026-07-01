@@ -1,0 +1,38 @@
+{
+  "slug": "group-policy-to-intune-settings-migration",
+  "title": "Group Policy to Intune Settings Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "GPOM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (project/migration: inventory and translate AD GPOs to Intune, manage coexistence/precedence during cutover, risk of conflicting policy)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GPOM-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-GPOM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-GPOM-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "GPOM-Complete-Solution.zip"
+  ],
+  "hero": "GPOM-hero.png"
+}

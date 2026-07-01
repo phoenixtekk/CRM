@@ -1,0 +1,82 @@
+{
+  "sol": "ADOBELIC",
+  "slug": "adobe-creative-cloud-enterprise-license-management",
+  "title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (Adobe entitlement/seat management via Adobe Admin Console; Adobe-specific internals deferred to Adobe documentation).",
+    "Non-Microsoft vendor product; Adobe Admin Console specifics are deferred to Adobe's official docs (don't invent)."
+  ],
+  "hook": "Bring Adobe Creative Cloud for Enterprise licensing under control",
+  "problem": "Adobe Creative Cloud for Enterprise is expensive and easy to mismanage: named-user seats assigned and forgotten, products over-provisioned, and reassignments handled ad hoc. This solution gives you a repeatable way to <strong>manage Adobe Creative Cloud for Enterprise licensing</strong> in the Adobe Admin Console &mdash; clean user and product-profile assignment, usage-based right-sizing and reclamation, and a process that keeps Adobe spend matched to real need.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Adobe Creative Cloud for Enterprise licensing model (named-user, product profiles, identity types), the Admin Console assignment model, and the right-sizing/reclamation cycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Adobe Admin Console access, identity/SSO setup, product profiles, usage data, an entitlement record) with how to <em>verify</em> and how to <em>implement</em> each if missing. Adobe-specific configuration is deferred to Adobe's documentation.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: confirm identity and product profiles, inventory assigned seats and usage, identify unused/over-provisioned seats, reclaim and reassign, set a recurring review, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; assignment/usage discovery helper, seat-utilization validation, an Adobe seat and cost report, safe remediation (flag reclaim candidates), and a review-scope group builder. (Adobe data via the Adobe User Management API where available; otherwise Admin Console export.)",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>manage Adobe Creative Cloud for Enterprise licensing</strong> in the Adobe Admin Console &mdash; clean assignment, usage-based right-sizing and reclamation, and a process that keeps Adobe spend matched to need. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to manage Adobe Creative Cloud for Enterprise licensing in the Adobe Admin Console — clean assignment, usage-based right-sizing and reclamation.",
+  "meta_title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
+  "meta_description": "Manage Adobe Creative Cloud for Enterprise licensing in the Adobe Admin Console: product-profile assignment, usage-based right-sizing, seat reclamation, and recurring review. Self-guided, tested steps and scripts.",
+  "bottom_line": "Adobe Creative Cloud for Enterprise spend matched to real need &mdash; clean seat assignment, unused seats reclaimed, and a recurring review &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Adobe CC Licensing",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Match Spend to Need",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Adobe Admin Console · Creative Cloud",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ADOBE SEAT WASTE",
+      "items": [
+        "Forgotten seats",
+        "Over-provisioned",
+        "Ad hoc reassign",
+        "High spend"
+      ]
+    },
+    "to": {
+      "label": "Right-sized seats",
+      "stat": "Assigned · reclaimed · reviewed"
+    },
+    "tagline": "BRING ADOBE LICENSING UNDER CONTROL.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Assignment",
+        "sub": "Product profiles"
+      },
+      {
+        "icon": "key",
+        "title": "Reclaim",
+        "sub": "Unused seats"
+      },
+      {
+        "icon": "chart",
+        "title": "Right-Size",
+        "sub": "Usage-based"
+      },
+      {
+        "icon": "gear",
+        "title": "Review",
+        "sub": "Recurring"
+      }
+    ]
+  }
+}

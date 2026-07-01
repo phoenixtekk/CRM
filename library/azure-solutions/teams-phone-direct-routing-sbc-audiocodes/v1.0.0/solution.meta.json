@@ -1,0 +1,42 @@
+{
+  "slug": "teams-phone-direct-routing-sbc-audiocodes",
+  "title": "Microsoft Teams Phone Direct Routing with Session Border Controller (AudioCodes) Integration",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "TEAMSSBC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Microsoft Cloud Solution Architect (MSP) requirement: Session Border Controllers (AudioCodes) for Teams voice integration.",
+    "Scope: PSTN calling in Teams Phone via Direct Routing integrated with an AudioCodes SBC — pair the SBC, build the Teams voice routing stack (PSTN gateway, voice routes, PSTN usages, voice routing policies, dial plans), assign users, validate inbound/outbound + emergency. Teams side concrete; AudioCodes device specifics deferred to AudioCodes docs. White-label.",
+    "pricing: T4 (project/migration) — voice integration across Teams + SBC + carrier with cutover/validation."
+  ],
+  "products": [
+    {
+      "sku": "PTK-TEAMSSBC-COMM-001",
+      "audience": "commercial",
+      "price": 3495.0
+    },
+    {
+      "sku": "PTK-TEAMSSBC-NPO-001",
+      "audience": "nonprofit",
+      "price": 2097.0
+    },
+    {
+      "sku": "PTK-TEAMSSBC-GOV-001",
+      "audience": "government",
+      "price": 2970.75
+    }
+  ],
+  "deliverables": [
+    "TEAMSSBC-Complete-Solution.zip"
+  ],
+  "hero": "TEAMSSBC-hero.png",
+  "wiki_path": "solutions/azure-solutions/teams-phone-direct-routing-sbc-audiocodes",
+  "wiki_published": true
+}

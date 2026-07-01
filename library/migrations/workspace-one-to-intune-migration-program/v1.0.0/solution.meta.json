@@ -1,0 +1,38 @@
+{
+  "slug": "workspace-one-to-intune-migration-program",
+  "title": "Workspace ONE to Microsoft Intune Migration Program",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "WS1PROG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T5 (enterprise multi-platform migration program across Windows/iOS/Android/macOS: assessment, coexistence, cutover, decommission; many technologies, org-wide, high risk)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WS1PROG-COMM-001",
+      "audience": "commercial",
+      "price": 4995.0
+    },
+    {
+      "sku": "PTK-WS1PROG-NPO-001",
+      "audience": "nonprofit",
+      "price": 2997.0
+    },
+    {
+      "sku": "PTK-WS1PROG-GOV-001",
+      "audience": "government",
+      "price": 4245.75
+    }
+  ],
+  "deliverables": [
+    "WS1PROG-Complete-Solution.zip"
+  ],
+  "hero": "WS1PROG-hero.png"
+}

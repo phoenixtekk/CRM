@@ -1,0 +1,82 @@
+{
+  "sol": "CFAP",
+  "slug": "cloud-first-autopilot-zero-touch-provisioning",
+  "title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T4 (zero-touch provisioning model: Entra-join + Autopilot first, optional later domain join; reduces technician effort; spans Autopilot/Entra/Intune, hybrid considerations).",
+    "Distinct from windows-autopilot (general Autopilot); this is the cloud-first-then-optional-hybrid + near-zero-touch technician-effort model. version_directive: New; branding: off."
+  ],
+  "hook": "Power on, walk away — provision Windows cloud-first with Autopilot, domain-join only if you must",
+  "problem": "Hybrid provisioning drags: technicians babysit each build, juggle domain join, and handle too much by hand. The modern path is <strong>cloud-first</strong> &mdash; <strong>Entra join + Windows Autopilot</strong> so a device provisions itself the moment it's powered on, with <strong>domain join added afterward only if a specific app or resource truly requires it</strong>. This solution delivers that near <strong>zero-touch</strong> model: Autopilot profiles, the Enrollment Status Page, app/policy delivery at provisioning, and a clean decision path for the rare case that still needs on-prem domain join &mdash; so technicians do almost nothing.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the cloud-first provisioning model (Entra join + Autopilot), why it beats hybrid-by-default, the zero-touch experience (ESP, app/policy at enrollment), and the decision criteria for adding domain join later only when required.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Windows Autopilot, hardware-hash/registration path, the Enrollment Status Page, app/baseline set, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: register devices, build the Autopilot deployment profile (Entra join), configure the Enrollment Status Page and provisioning-time apps/policies, validate the zero-touch flow, define the optional later-domain-join path, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Autopilot/enrollment readiness discovery, provisioning/enrollment validation, a provisioning-success and technician-touch report, safe remediation of failed provisioning, and an Autopilot target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A near <strong>zero-touch cloud-first provisioning model</strong> &mdash; Entra join + Windows Autopilot so devices provision on power-on, with domain join added later only if truly required &mdash; so technicians do almost nothing. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A near zero-touch cloud-first provisioning model — Entra join + Windows Autopilot so devices provision on power-on, with domain join added later only if truly required.",
+  "meta_title": "Cloud-First Autopilot Zero-Touch Provisioning (Intune)",
+  "meta_description": "Provision Windows cloud-first with Entra join + Autopilot for near zero-touch deployment, adding domain join later only if required: Autopilot profiles, Enrollment Status Page, provisioning-time apps. Self-guided, tested steps and scripts.",
+  "bottom_line": "Windows devices that provision themselves on power-on &mdash; Entra-joined via Autopilot with apps and policy applied at enrollment, domain join only where truly required &mdash; cutting technician effort to almost nothing, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Cloud-First Autopilot",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Power On, Walk Away",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Windows Autopilot · Entra Join · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "HEAVY HYBRID PROVISIONING",
+      "items": [
+        "Techs babysit builds",
+        "Manual domain join",
+        "Slow & manual",
+        "High touch"
+      ]
+    },
+    "to": {
+      "label": "Near zero-touch",
+      "stat": "Entra-join · Autopilot · self-provision"
+    },
+    "tagline": "POWER ON.  WALK AWAY.  DOMAIN-JOIN ONLY IF YOU MUST.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Entra Join",
+        "sub": "Cloud-first"
+      },
+      {
+        "icon": "gear",
+        "title": "Autopilot",
+        "sub": "Self-provision"
+      },
+      {
+        "icon": "device",
+        "title": "Zero-Touch",
+        "sub": "Power-on only"
+      },
+      {
+        "icon": "chart",
+        "title": "Less Effort",
+        "sub": "Touch report"
+      }
+    ]
+  }
+}

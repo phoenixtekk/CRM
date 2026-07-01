@@ -1,0 +1,38 @@
+{
+  "slug": "sccm-cloud-management-gateway-setup",
+  "title": "Configuration Manager Cloud Management Gateway (CMG) Setup & Operations",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CMG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (multi-phase Azure-hosted service stood up against Configuration Manager, certificate/identity work, coexistence with on-prem MP/DP, higher risk)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CMG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CMG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CMG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CMG-Complete-Solution.zip"
+  ],
+  "hero": "CMG-hero.png"
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines (always shown). Edit colors/wording here; re-run tools/build-hero.py to regenerate the SVG+PNG.",
+  "title_lines": [
+    { "text": "macOS Device", "color": "white", "size": "main" },
+    { "text": "Enrollment + SSO", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "MANUAL SETUP", "items": ["Imaging", "Hand-config", "Local admins", "BYO identity"] },
+  "to": { "label": "Microsoft Intune", "stat": "Zero-touch · Entra SSO" },
+  "tagline": "AUTOMATED.  SUPERVISED.  SECURE.",
+  "benefits": [
+    { "icon": "device", "title": "Zero-Touch", "sub": "Enrolls on first boot" },
+    { "icon": "users", "title": "Entra SSO", "sub": "Corporate sign-in" },
+    { "icon": "chip", "title": "Secure Enclave", "sub": "Hardware-bound key" },
+    { "icon": "shield", "title": "Supervised", "sub": "Locked management" }
+  ]
+}

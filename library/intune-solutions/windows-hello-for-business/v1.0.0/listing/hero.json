@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines (always shown). Edit colors/wording here; re-run tools/build-hero.py to regenerate the SVG+PNG.",
+  "title_lines": [
+    { "text": "Windows Hello", "color": "white", "size": "main" },
+    { "text": "for Business", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "PASSWORDS", "items": ["Phished", "Reused", "Sprayed", "Reset tickets"] },
+  "to": { "label": "Microsoft Intune", "stat": "100% Passwordless · TPM-backed" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Phishing-Resistant", "sub": "No password to steal" },
+    { "icon": "fingerprint", "title": "Passwordless", "sub": "PIN or biometric" },
+    { "icon": "chip", "title": "TPM-Backed", "sub": "Hardware-bound keys" },
+    { "icon": "cloud", "title": "Cloud Trust", "sub": "No PKI required" }
+  ]
+}

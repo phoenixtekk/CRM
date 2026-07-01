@@ -1,0 +1,41 @@
+{
+  "slug": "applocker-to-wdac-app-control-migration",
+  "title": "AppLocker to WDAC (App Control for Business) Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "WDACMIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (migrate application control from legacy AppLocker to WDAC/App Control for Business; policy translation, audit-then-enforce, coexistence, lockout risk).",
+    "Distinct from application-control-wdac (net-new WDAC implementation); this is the AppLocker-replacement MIGRATION. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WDACMIG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-WDACMIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-WDACMIG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "WDACMIG-Solution.pdf",
+    "WDACMIG-Scripts.zip"
+  ],
+  "hero": "WDACMIG-hero.png"
+}
+

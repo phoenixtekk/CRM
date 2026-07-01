@@ -1,0 +1,41 @@
+{
+  "slug": "cisco-ise-vpn-intune-diagnostics-toolkit",
+  "title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "CISEDIAG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CISEDIAG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CISEDIAG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CISEDIAG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CISEDIAG-Solution.pdf",
+    "CISEDIAG-Scripts.zip"
+  ],
+  "hero": "CISEDIAG-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Identity-Based Policy",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Policy Follows the User",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · Entra ID · SSO + SCIM",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLUNT POLICY",
+    "items": [
+      "No per-user rules",
+      "Separate logins",
+      "Manual provisioning",
+      "Policy drift"
+    ]
+  },
+  "to": {
+    "label": "Identity-driven",
+    "stat": "SSO · SCIM · group policy"
+  },
+  "tagline": "ONE IDENTITY.  POLICY EVERYWHERE.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "SAML SSO",
+      "sub": "One sign-in"
+    },
+    {
+      "icon": "users",
+      "title": "SCIM",
+      "sub": "Users + groups"
+    },
+    {
+      "icon": "gear",
+      "title": "Identity Policy",
+      "sub": "Per group"
+    },
+    {
+      "icon": "shield",
+      "title": "Enforced",
+      "sub": "Everywhere"
+    }
+  ]
+}

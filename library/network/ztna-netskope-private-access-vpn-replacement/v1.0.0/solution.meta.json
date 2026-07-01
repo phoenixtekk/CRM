@@ -1,0 +1,39 @@
+{
+  "slug": "ztna-netskope-private-access-vpn-replacement",
+  "title": "Zero Trust Network Access (ZTNA) with Netskope Private Access — VPN Replacement",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSZTNA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (ZTNA app publishing + identity policy + VPN coexistence/cutover; higher risk to access).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSZTNA-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-NSZTNA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-NSZTNA-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "NSZTNA-Complete-Solution.zip"
+  ],
+  "hero": "NSZTNA-hero.png"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "cis-benchmarks-macos-intune",
+  "title": "Implement & Manage CIS Benchmarks for macOS Devices for Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CISMAC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Shaping note: cover net-new implementation of CIS Benchmarks AND an ongoing update/maintain process for when a new CIS Benchmark version is released or changes.",
+    "Effort tier: T3 (multi-control macOS hardening within Intune via settings catalog, custom configuration profiles (.mobileconfig) and macOS shell scripts, Level 1/Level 2 profiles, compliance reporting and drift, plus a benchmark-version maintenance lifecycle).",
+    "Sibling of cis-benchmarks-windows-11-intune (same structure, macOS-specific implementation surface). version_directive: New; branding: off (white-label)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CISMAC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CISMAC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CISMAC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CISMAC-Complete-Solution.zip"
+  ],
+  "hero": "CISMAC-hero.png"
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Certificate VPN Auth",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "for Cisco ISE",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "SCEP · PKCS · EAP-TLS",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PASSWORD VPN",
+    "items": [
+      "Shared secrets",
+      "Phishable logins",
+      "No device trust",
+      "Manual cert issuance"
+    ]
+  },
+  "to": {
+    "label": "Certificate EAP-TLS",
+    "stat": "Passwordless · ISE-trusted"
+  },
+  "tagline": "ISSUE IT.  TRUST IT.  AUTHENTICATE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SCEP/PKCS",
+      "sub": "Intune-issued"
+    },
+    {
+      "icon": "shield",
+      "title": "EAP-TLS",
+      "sub": "ISE validates"
+    },
+    {
+      "icon": "lock",
+      "title": "Passwordless",
+      "sub": "No secrets"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Cert report"
+    }
+  ]
+}

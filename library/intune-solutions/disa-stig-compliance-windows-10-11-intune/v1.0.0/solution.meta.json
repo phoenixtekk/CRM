@@ -1,0 +1,41 @@
+{
+  "slug": "disa-stig-compliance-windows-10-11-intune",
+  "title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "STIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (multi-control DoD STIG hardening for Windows 10/11 via Intune settings catalog/ADMX, compliance reporting, drift, and a STIG-release maintenance lifecycle; federal/DoD context, higher assurance).",
+    "Sibling in shape to the CIS Benchmark products (net-new + maintenance lifecycle) but delivers the DISA STIG (DoD standard). STIG control IDs/values deferred to the official DISA STIG / STIG Viewer. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-STIG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-STIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-STIG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "STIG-Solution.pdf",
+    "STIG-Scripts.zip"
+  ],
+  "hero": "STIG-hero.png"
+}
+

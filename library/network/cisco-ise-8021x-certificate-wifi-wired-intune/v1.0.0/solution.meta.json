@@ -1,0 +1,41 @@
+{
+  "slug": "cisco-ise-8021x-certificate-wifi-wired-intune",
+  "title": "Cisco ISE 802.1X Certificate Authentication for Wi-Fi & Wired via Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "ISE8021X",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ISE8021X-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ISE8021X-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ISE8021X-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ISE8021X-Solution.pdf",
+    "ISE8021X-Scripts.zip"
+  ],
+  "hero": "ISE8021X-hero.png"
+}
+

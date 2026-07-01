@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra ID + ABM",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Account Auto-Provisioning",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Intune · Federation · Managed Apple ID",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL APPLE IDS",
+    "items": [
+      "Hand-made Managed Apple IDs",
+      "Separate Apple logins",
+      "Enrollment blocked",
+      "ID conflicts"
+    ]
+  },
+  "to": {
+    "label": "Federated & auto-provisioned",
+    "stat": "COD · BYOD · Shared, one identity"
+  },
+  "tagline": "FEDERATE.  AUTO-PROVISION.  ENROLL EVERY MODEL.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "Federation",
+      "sub": "Entra ↔ ABM"
+    },
+    {
+      "icon": "users",
+      "title": "Auto-Provision",
+      "sub": "SCIM Managed Apple IDs"
+    },
+    {
+      "icon": "device",
+      "title": "3 Models",
+      "sub": "COD · BYOD · Shared"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Per-user + fleet"
+    }
+  ]
+}

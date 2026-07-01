@@ -1,0 +1,82 @@
+{
+  "sol": "NSSWG",
+  "slug": "netskope-secure-web-gateway-deployment",
+  "title": "Netskope Secure Web Gateway (SWG) Deployment & Web Filtering",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (inline SWG across Netskope + identity + endpoints; web-filtering policy, traffic steering, live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Put every user's web traffic behind one cloud secure web gateway",
+  "problem": "Web traffic is where most threats and data loss start, yet many organizations still rely on patchy filtering that remote users bypass entirely. This solution stands up the <strong>Netskope Secure Web Gateway (SWG)</strong> as a cloud-delivered chokepoint for web traffic &mdash; URL categorization, web-filtering policy, threat and content controls, and consistent enforcement on or off the corporate network &mdash; deployed safely with a pilot-first, rollback-ready method.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how a cloud SWG works, traffic steering into Netskope, URL categorization and web-filtering policy, threat/content controls, and the on/off-network enforcement model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a Netskope tenant + SWG, Entra ID identity, Intune for client/cert delivery, DNS/egress, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: confirm tenant and identity, define web-filtering and categorization policy, steer pilot traffic, validate enforcement and user experience, then pilot, validate, and expand fleet-wide.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SWG-readiness discovery, client/steering validation, a web-traffic and policy-coverage report, safe remediation of mis-steered devices, and a target group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up the <strong>Netskope Secure Web Gateway</strong> as a cloud chokepoint for web traffic &mdash; URL categorization, web-filtering policy, and consistent enforcement on or off network &mdash; deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up the Netskope Secure Web Gateway as a cloud chokepoint for web traffic — URL categorization, web-filtering policy, and consistent enforcement on or off network, pilot-first.",
+  "meta_title": "Netskope Secure Web Gateway (SWG) Deployment & Web Filtering",
+  "meta_description": "Deploy Netskope Secure Web Gateway: traffic steering, URL categorization, web-filtering and threat policy, on/off-network enforcement. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Every user's web traffic behind one cloud secure web gateway &mdash; categorized, filtered, and consistently enforced wherever they work &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Secure Web Gateway",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "One Cloud Chokepoint",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · SWG · Web Filtering",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PATCHY FILTERING",
+      "items": [
+        "Remote users bypass",
+        "Inconsistent policy",
+        "Threats slip in",
+        "No off-net control"
+      ]
+    },
+    "to": {
+      "label": "Cloud-enforced web",
+      "stat": "Categorized · filtered · everywhere"
+    },
+    "tagline": "STEER IT.  FILTER IT.  EVERYWHERE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Cloud SWG",
+        "sub": "Inline proxy"
+      },
+      {
+        "icon": "shield",
+        "title": "Web Filtering",
+        "sub": "URL categories"
+      },
+      {
+        "icon": "gear",
+        "title": "Steering",
+        "sub": "On/off network"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Policy report"
+      }
+    ]
+  }
+}

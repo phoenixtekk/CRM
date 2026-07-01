@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "iOS Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Apple Done Right",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · ABM/ADE",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "APPLE IS TRICKY",
+    "items": [
+      "Supervised re-enroll",
+      "ABM re-assignment",
+      "Wipe realities",
+      "User disruption"
+    ]
+  },
+  "to": {
+    "label": "Clean Apple migration",
+    "stat": "ABM · supervised · parity"
+  },
+  "tagline": "REASSIGN IN ABM.  RE-ENROLL IN INTUNE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "ABM",
+      "sub": "MDM re-assign"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Supervised",
+      "sub": "ADE re-enroll"
+    },
+    {
+      "icon": "gear",
+      "title": "Parity",
+      "sub": "Apps + profiles"
+    },
+    {
+      "icon": "chart",
+      "title": "Ringed",
+      "sub": "With comms"
+    }
+  ]
+}

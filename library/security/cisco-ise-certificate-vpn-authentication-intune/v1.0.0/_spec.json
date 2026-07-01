@@ -1,0 +1,83 @@
+{
+  "sol": "CISECERT",
+  "slug": "cisco-ise-certificate-vpn-authentication-intune",
+  "title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "tier": "T4",
+  "hook": "Replace VPN passwords with certificates Cisco ISE trusts",
+  "problem": "Password-based VPN is the weak link Cisco ISE was built to remove &mdash; but issuing the right device or user certificate to every endpoint, with a trust chain ISE validates, defeats most teams. This solution stands up <strong>certificate-based VPN authentication</strong> end to end: issue certs from <strong>Intune</strong> via SCEP (Certificate Connector / NDES or Cloud PKI) or PKCS, deploy the trusted-root and certificate profiles, and hand Cisco ISE a clean EAP-TLS identity to authenticate &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how EAP-TLS certificate VPN auth works with ISE as the RADIUS authority, the SCEP vs PKCS choice, the trust chain ISE must validate, and where Intune's cert delivery meets the Cisco head-end.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a CA / Cloud PKI, the Intune Certificate Connector or NDES/SCEP, trusted-root + SCEP/PKCS profiles, Entra ID groups, ISE configured for EAP-TLS) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted-root profile, the SCEP or PKCS certificate profile, assign to a named pilot group, confirm certs land, and validate ISE accepts the EAP-TLS handshake, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; certificate-readiness discovery, per-device certificate + chain validation, a certificate deployment/expiry coverage report, safe remediation of missing/failed certs, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (cert present, chain valid, ISE auth success), plus field-proven Best Practices for renewal and revocation."
+  ],
+  "short": "Issue device/user certificates from <strong>Intune</strong> (SCEP or PKCS) with a trust chain <strong>Cisco ISE</strong> validates &mdash; passwordless EAP-TLS VPN authentication, deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Issue device/user certificates from Intune (SCEP or PKCS) with a trust chain Cisco ISE validates — passwordless EAP-TLS VPN authentication, pilot-first.",
+  "meta_title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
+  "meta_description": "Deploy SCEP/PKCS certificates from Intune for EAP-TLS VPN authentication with Cisco ISE: trusted-root and certificate profiles, trust chain, renewal. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+  "bottom_line": "Every VPN user authenticated by a certificate Cisco ISE trusts &mdash; no passwords, delivered from Intune, and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Certificate VPN Auth",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "for Cisco ISE",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "SCEP · PKCS · EAP-TLS",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PASSWORD VPN",
+      "items": [
+        "Shared secrets",
+        "Phishable logins",
+        "No device trust",
+        "Manual cert issuance"
+      ]
+    },
+    "to": {
+      "label": "Certificate EAP-TLS",
+      "stat": "Passwordless · ISE-trusted"
+    },
+    "tagline": "ISSUE IT.  TRUST IT.  AUTHENTICATE.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "SCEP/PKCS",
+        "sub": "Intune-issued"
+      },
+      {
+        "icon": "shield",
+        "title": "EAP-TLS",
+        "sub": "ISE validates"
+      },
+      {
+        "icon": "lock",
+        "title": "Passwordless",
+        "sub": "No secrets"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Cert report"
+      }
+    ]
+  },
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ]
+}

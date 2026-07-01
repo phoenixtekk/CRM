@@ -1,0 +1,39 @@
+{
+  "slug": "workspace-one-to-intune-application-rebuild",
+  "title": "Workspace ONE to Intune Application Rebuild & Repackaging",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "WS1APP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (rebuild/repackage an app estate from a legacy MDM into Intune across Win32/store/mobile; detection/assignment parity, validation, higher volume/risk).",
+    "Adjacent to intune-win32-app-packaging-deployment (net-new Win32 packaging); THIS is the rebuild-from-Workspace-ONE, multi-platform migration angle."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WS1APP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-WS1APP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-WS1APP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "WS1APP-Complete-Solution.zip"
+  ],
+  "hero": "WS1APP-hero.png"
+}

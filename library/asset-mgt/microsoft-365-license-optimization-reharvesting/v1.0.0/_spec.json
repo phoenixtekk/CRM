@@ -1,0 +1,81 @@
+{
+  "sol": "M365LIC",
+  "slug": "microsoft-365-license-optimization-reharvesting",
+  "title": "Microsoft 365 License Optimization & Reharvesting",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (license usage analysis + reclamation across Microsoft 365 via admin center + Graph; reporting and savings workflow)."
+  ],
+  "hook": "Stop paying for Microsoft 365 licenses nobody uses",
+  "problem": "Microsoft 365 license spend quietly balloons: leavers keep their seats, users sit on E5 when E3 would do, and duplicate or unused assignments pile up where nobody is looking. This solution gives you a repeatable way to <strong>optimize and reharvest Microsoft 365 licenses</strong> &mdash; measure real usage from the Microsoft 365 admin center and Microsoft Graph, identify unused, duplicate, and over-tier assignments, reclaim them safely, and run an ongoing savings campaign.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Microsoft 365 licensing/assignment model, how usage is measured (admin center usage reports + Microsoft Graph), the reclaim/right-size/downgrade levers, and the ongoing reharvesting cycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID, Microsoft 365 admin/billing roles, usage reporting enabled, Graph permissions, a savings target) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: pull license inventory and usage, identify unused/duplicate/over-tier seats, validate candidates, reclaim and right-size safely, report savings, then pilot, validate, and expand into a recurring campaign.",
+    "<strong>5 PowerShell scripts</strong> &mdash; license inventory/usage discovery, reclaim-candidate validation, a usage and savings report, safe reclamation (remove/downgrade with -WhatIf), and a target group builder for the campaign.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>optimize and reharvest Microsoft 365 licenses</strong> &mdash; measure real usage via the admin center and Graph, reclaim unused/duplicate/over-tier seats, and run an ongoing savings campaign. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to optimize and reharvest Microsoft 365 licenses — measure real usage, reclaim unused/duplicate/over-tier seats, and run an ongoing savings campaign.",
+  "meta_title": "Microsoft 365 License Optimization & Reharvesting",
+  "meta_description": "Optimize and reharvest Microsoft 365 licenses: usage analysis via admin center + Graph, reclaim unused/duplicate/over-tier seats, savings reporting and campaigns. Self-guided, tested steps and scripts.",
+  "bottom_line": "Microsoft 365 license spend cut to what is actually used &mdash; unused, duplicate, and over-tier seats reclaimed safely and a recurring savings campaign in place &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 License",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Reclaim the Waste",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft 365 · Admin Center · Graph",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LICENSE WASTE",
+      "items": [
+        "Leavers keep seats",
+        "E5 where E3 fits",
+        "Duplicate assignments",
+        "No usage view"
+      ]
+    },
+    "to": {
+      "label": "Right-sized & reclaimed",
+      "stat": "Measured · reclaimed · saving"
+    },
+    "tagline": "PAY FOR WHAT YOU USE.  RECLAIM THE REST.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Usage",
+        "sub": "Admin + Graph"
+      },
+      {
+        "icon": "gear",
+        "title": "Right-Size",
+        "sub": "Tier + dedupe"
+      },
+      {
+        "icon": "key",
+        "title": "Reharvest",
+        "sub": "Reclaim seats"
+      },
+      {
+        "icon": "shield",
+        "title": "Savings",
+        "sub": "Tracked campaign"
+      }
+    ]
+  }
+}

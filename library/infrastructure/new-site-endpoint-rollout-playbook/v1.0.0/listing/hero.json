@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "New-Site Rollout",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Working on Day One",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Provisioning · Go-Live",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SCRAMBLE AT GO-LIVE",
+    "items": [
+      "Reinvented each time",
+      "Missing apps",
+      "No printers",
+      "Access surprises"
+    ]
+  },
+  "to": {
+    "label": "Repeatable playbook",
+    "stat": "Provisioned · validated · go-live"
+  },
+  "tagline": "OPEN ANY SITE.  THE SAME PROVEN WAY.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Provision",
+      "sub": "Site devices"
+    },
+    {
+      "icon": "gear",
+      "title": "Apps + Print",
+      "sub": "Site set"
+    },
+    {
+      "icon": "shield",
+      "title": "Validate",
+      "sub": "Connectivity + ID"
+    },
+    {
+      "icon": "chart",
+      "title": "Go-Live",
+      "sub": "Checklist gate"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "WDACMIG",
+  "slug": "applocker-to-wdac-app-control-migration",
+  "title": "AppLocker to WDAC (App Control for Business) Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T4 (migrate application control from legacy AppLocker to WDAC/App Control for Business; policy translation, audit-then-enforce, coexistence, lockout risk).",
+    "Distinct from application-control-wdac (net-new WDAC implementation); this is the AppLocker-replacement MIGRATION. version_directive: New; branding: off."
+  ],
+  "hook": "Retire AppLocker for WDAC — stronger, OS-level app control, migrated without locking anyone out",
+  "problem": "AppLocker has served its time, but <strong>WDAC (App Control for Business)</strong> enforces deeper at the OS level and aligns with modern security practice. The risk in switching is real: get a WDAC policy wrong and you lock users out of the apps they need. This solution is the controlled <strong>migration from AppLocker to WDAC</strong> &mdash; translate existing AppLocker rules, build WDAC policy, run it in <strong>audit mode</strong> to catch gaps, then move to enforcement in rings, with AppLocker coexistence handled so nothing breaks mid-cutover.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why WDAC beats AppLocker (OS-level enforcement), the migration model (translate &rarr; audit &rarr; enforce), AppLocker/WDAC coexistence, and managed-installer / ISG considerations delivered via Intune.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, supported Windows, the existing AppLocker policy export, a WDAC authoring approach, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: export/translate AppLocker rules, author the WDAC policy, deploy in audit mode via Intune, analyze audit events and close gaps, move to enforcement by ring, retire AppLocker, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; AppLocker/WDAC state discovery, audit-event and policy validation, a migration coverage and block-risk report, safe remediation (audit-mode revert), and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The controlled <strong>migration from AppLocker to WDAC (App Control for Business)</strong> &mdash; translate rules, run audit mode to catch gaps, move to enforcement in rings, and retire AppLocker without lockouts. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The controlled migration from AppLocker to WDAC — translate rules, run audit mode to catch gaps, move to enforcement in rings, and retire AppLocker without lockouts.",
+  "meta_title": "AppLocker to WDAC (App Control for Business) Migration",
+  "meta_description": "Migrate application control from AppLocker to WDAC/App Control for Business via Intune: rule translation, audit-then-enforce, coexistence, ringed cutover, and AppLocker retirement. Self-guided, tested steps and scripts.",
+  "bottom_line": "Application control moved from AppLocker to WDAC &mdash; translated, audited, and enforced in rings with no user lockouts &mdash; and AppLocker retired, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "AppLocker to WDAC",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Stronger App Control",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "App Control for Business · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LEGACY APP CONTROL",
+      "items": [
+        "AppLocker limits",
+        "Weaker enforcement",
+        "Lockout risk",
+        "Not modern"
+      ]
+    },
+    "to": {
+      "label": "WDAC enforced",
+      "stat": "Translated · audited · ringed"
+    },
+    "tagline": "AUDIT FIRST.  ENFORCE SAFELY.  RETIRE APPLOCKER.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "WDAC",
+        "sub": "OS-level"
+      },
+      {
+        "icon": "gear",
+        "title": "Translate",
+        "sub": "From AppLocker"
+      },
+      {
+        "icon": "chart",
+        "title": "Audit Mode",
+        "sub": "Catch gaps"
+      },
+      {
+        "icon": "lock",
+        "title": "Enforce",
+        "sub": "Ringed"
+      }
+    ]
+  }
+}

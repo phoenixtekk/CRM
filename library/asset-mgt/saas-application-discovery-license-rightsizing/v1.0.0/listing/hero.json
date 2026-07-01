@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SaaS Right-Sizing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Tame the Sprawl",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "SaaS · Entra ID Sign-Ins · Spend",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SAAS SPRAWL",
+    "items": [
+      "Direct buys",
+      "Forgotten seats",
+      "Overlapping tools",
+      "No spend picture"
+    ]
+  },
+  "to": {
+    "label": "Right-sized SaaS",
+    "stat": "Discovered · reclaimed · consolidated"
+  },
+  "tagline": "FIND THE SPRAWL.  RIGHT-SIZE THE SPEND.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Discover",
+      "sub": "Sign-in telemetry"
+    },
+    {
+      "icon": "key",
+      "title": "Reclaim",
+      "sub": "Unused seats"
+    },
+    {
+      "icon": "gear",
+      "title": "Consolidate",
+      "sub": "Overlaps"
+    },
+    {
+      "icon": "chart",
+      "title": "Spend",
+      "sub": "Controlled"
+    }
+  ]
+}

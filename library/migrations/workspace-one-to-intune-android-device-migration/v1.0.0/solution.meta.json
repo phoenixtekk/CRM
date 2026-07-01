@@ -1,0 +1,38 @@
+{
+  "slug": "workspace-one-to-intune-android-device-migration",
+  "title": "Workspace ONE to Intune — Android Enterprise Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "WS1DROID",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Android Enterprise re-enrollment from Workspace ONE: work profile / fully managed, managed Google Play, app/profile parity; live-device risk)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WS1DROID-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-WS1DROID-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-WS1DROID-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "WS1DROID-Complete-Solution.zip"
+  ],
+  "hero": "WS1DROID-hero.png"
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines. Re-run tools/build-hero.py after edits.",
+  "title_lines": [
+    { "text": "OneDrive", "color": "white", "size": "main" },
+    { "text": "for Business", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "LOCAL FILES", "items": ["No backup", "Lost on reset", "Ransomware risk", "Not roaming"] },
+  "to": { "label": "Microsoft Intune", "stat": "Synced · Backed up · Protected" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "users", "title": "Silent Sign-In", "sub": "SSO, no prompts" },
+    { "icon": "cloud", "title": "Known Folder Move", "sub": "Desktop/Docs/Pics" },
+    { "icon": "chart", "title": "Files On-Demand", "sub": "Saves disk space" },
+    { "icon": "shield", "title": "Ransomware Recovery", "sub": "Versioned & restorable" }
+  ]
+}

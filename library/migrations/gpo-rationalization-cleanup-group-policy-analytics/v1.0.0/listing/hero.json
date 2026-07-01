@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "GPO Rationalization",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Clean Before You Migrate",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Group Policy Analytics · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GPO SPRAWL",
+    "items": [
+      "Nested & redundant",
+      "Duplicate audit",
+      "Unclear intent",
+      "Migrate the mess"
+    ]
+  },
+  "to": {
+    "label": "Rationalized & sequenced",
+    "stat": "Inventoried · de-duped · backlog"
+  },
+  "tagline": "CLEAN THE SPRAWL.  SEQUENCE THE MOVE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Every GPO"
+    },
+    {
+      "icon": "gear",
+      "title": "Rationalize",
+      "sub": "Analytics-scored"
+    },
+    {
+      "icon": "shield",
+      "title": "Cleanup",
+      "sub": "Retire/de-dupe"
+    },
+    {
+      "icon": "key",
+      "title": "Backlog",
+      "sub": "Sequenced"
+    }
+  ]
+}

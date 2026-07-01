@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">ServiceNow SAM — Request Fulfillment &amp; License Reclamation Workflow — product hero</title><desc id="d">Asset Mgt marketing banner.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="680" cy="600" rx="560" ry="360" fill="url(#glow)"/>
+<g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M70 316 H210 L240 356 H320"/><path d="M1110 1059 H970 L1000 1009 H920"/><path d="M120 238 H260 L290 278 H410"/><path d="M70 931 H170 L200 881 H280"/><path d="M1110 1044 H930 L960 1014 H810"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="210" cy="316" r="5"/><circle cx="240" cy="356" r="5"/><circle cx="970" cy="1059" r="5"/><circle cx="1000" cy="1009" r="5"/><circle cx="260" cy="238" r="5"/><circle cx="290" cy="278" r="5"/><circle cx="170" cy="931" r="5"/><circle cx="200" cy="881" r="5"/><circle cx="930" cy="1044" r="5"/><circle cx="960" cy="1014" r="5"/></g>
+<g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+<text x="600" y="170" font-size="112" fill="#ffffff" font-weight="800">ServiceNow SAM</text>
+<text x="600" y="285" font-size="87" fill="#5cc24a" font-weight="800">Requests to Reclamation</text>
+<text x="600" y="400" font-size="58" fill="#2f95d6" font-weight="700">ServiceNow · SAM · ITAM Workflow</text>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="70" y="430" width="370" height="300" rx="18" fill="#ffffff" opacity="0.05"/><rect x="70" y="430" width="370" height="300" rx="18" fill="none" stroke="#1f4a7a" stroke-width="2"/><text x="255" y="478" text-anchor="middle" font-size="30" font-weight="700" fill="#cfe0f2" letter-spacing="2">REQUESTS IN EMAIL</text><g font-size="26" fill="#d7e3f1">
+<g><circle cx="120" cy="540" r="14" fill="#c0392b"/><path d="M114 534 l12 12 M126 534 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="549">Drowning desk</text></g>
+<g><circle cx="120" cy="595" r="14" fill="#c0392b"/><path d="M114 589 l12 12 M126 589 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="604">No reclamation</text></g>
+<g><circle cx="120" cy="650" r="14" fill="#c0392b"/><path d="M114 644 l12 12 M126 644 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="659">License leakage</text></g>
+<g><circle cx="120" cy="705" r="14" fill="#c0392b"/><path d="M114 699 l12 12 M126 699 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="714">Unauditable</text></g>
+</g></g>
+<polygon points="460,545 560,545 560,515 620,580 560,645 560,615 460,615" fill="url(#arrow)"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="660" y="430" width="470" height="300" rx="18" fill="#ffffff" opacity="0.06"/><rect x="660" y="430" width="470" height="300" rx="18" fill="none" stroke="#2f95d6" stroke-width="2"/><g transform="translate(700,470)"><path d="M14 34 a22 22 0 0 1 6 -43 a26 26 0 0 1 49 -6 a20 20 0 0 1 8 49 z" fill="#eaf3fc"/></g><text x="800" y="500" font-size="30" font-weight="700" fill="#ffffff">Clean workflow</text><g transform="translate(820,540)"><path d="M75 6 L130 26 V70 C130 110 105 138 75 150 C45 138 20 110 20 70 V26 Z" fill="#13355c" stroke="#54c14a" stroke-width="4"/><path d="M50 78 L70 100 L104 56" fill="none" stroke="#5cc24a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g><text x="690" y="700" font-size="27" font-weight="700" fill="#9fe39a">Intake · fulfill · reclaim</text></g>
+<text x="600" y="800" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#9fc4e6" letter-spacing="8">REQUEST TO RECLAMATION, ONE WORKFLOW.</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(165,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><circle r="10" fill="none" stroke="#9fc4e6" stroke-width="4"/><g stroke="#9fc4e6" stroke-width="4"><path d="M0 -26 v10 M0 26 v-10 M-26 0 h10 M26 0 h-10 M-18 -18 l7 7 M18 18 l-7 -7 M18 -18 l-7 7 M-18 18 l7 -7"/></g></g>
+<g transform="translate(455,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><circle cx="-10" cy="-2" r="12" fill="none" stroke="#9fc4e6" stroke-width="4"/><path d="M-1 4 L22 27 M14 19 l6 -6 M20 25 l6 -6" stroke="#9fc4e6" stroke-width="4" fill="none"/></g>
+<g transform="translate(745,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><g stroke="#5cc24a" stroke-width="5" stroke-linecap="round"><path d="M-22 20 v-8 M-7 20 v-20 M8 20 v-12 M23 20 v-28"/></g></g>
+<g transform="translate(1035,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><path d="M0 -26 L24 -16 V8 C24 26 13 38 0 44 C-13 38 -24 26 -24 8 V-16 Z" fill="none" stroke="#5cc24a" stroke-width="4"/><path d="M-12 4 L-2 16 L14 -8" fill="none" stroke="#5cc24a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g font-size="29" font-weight="700" fill="#ffffff">
+<text x="165" y="995">Intake</text>
+<text x="455" y="995">Fulfill</text>
+<text x="745" y="995">Reclaim</text>
+<text x="1035" y="995">Auditable</text>
+</g><g font-size="23" fill="#9fb6cf">
+<text x="165" y="1030">Catalog + triage</text>
+<text x="455" y="1030">Entitlement</text>
+<text x="745" y="1030">Automated</text>
+<text x="1035" y="1030">Reported</text>
+</g></g>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Asset Mgt</text>
+</svg>

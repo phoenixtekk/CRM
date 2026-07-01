@@ -1,0 +1,82 @@
+{
+  "sol": "FWMIG",
+  "slug": "windows-firewall-gpo-to-intune-migration",
+  "title": "Windows Firewall GPO to Intune Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2495.0,
+  "date": "2026-06-30",
+  "author_notes": [
+    "Effort tier: T3 (migrate Windows Defender Firewall rules from GPO to Intune endpoint security; conflict/loop avoidance, coexistence, ringed cutover).",
+    "Distinct from windows-firewall-management (net-new firewall config); this is the GPO-to-Intune migration angle. version_directive: New; branding: off."
+  ],
+  "hook": "Move firewall rules from GPO to Intune — without policy conflicts or loops",
+  "problem": "Migrating Windows Defender Firewall from Group Policy to <strong>Intune</strong> is a known minefield: do it before the foundation is ready and you get policy conflicts or merge/loop conditions that leave devices in an unpredictable state. This solution is the controlled <strong>firewall GPO-to-Intune migration</strong> &mdash; inventory and translate firewall rules into Intune endpoint-security firewall policy, manage GPO/Intune coexistence to avoid conflicts, and cut over in rings with validation, so the firewall stays correct throughout.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the firewall migration model, mapping GPO firewall rules to Intune endpoint-security firewall policy (and firewall rule profiles), why conflicts/loops happen and how coexistence prevents them, and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, the existing GPO firewall rule export, target device groups, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory GPO firewall rules, translate to Intune firewall policy, configure coexistence to avoid conflicts/merge issues, assign in rings, validate connectivity and rule enforcement, retire the GPO firewall settings, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; firewall-rule discovery (GPO + applied), post-migration rule-parity validation, a migration coverage and conflict report, safe remediation of conflicts, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The controlled <strong>Windows Firewall GPO-to-Intune migration</strong> &mdash; translate rules to Intune endpoint-security firewall policy, manage coexistence to avoid conflicts/loops, and cut over in rings with validation. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The controlled Windows Firewall GPO-to-Intune migration — translate rules to Intune endpoint-security firewall policy, manage coexistence to avoid conflicts/loops, and cut over in rings.",
+  "meta_title": "Windows Firewall GPO to Intune Migration",
+  "meta_description": "Migrate Windows Defender Firewall from GPO to Intune endpoint security: rule translation, conflict/loop-avoiding coexistence, ringed cutover, parity validation, and GPO retirement. Self-guided, tested steps and scripts.",
+  "bottom_line": "Windows Defender Firewall moved from GPO to Intune &mdash; rules translated, conflicts and loops avoided through managed coexistence, and cut over in rings with parity validated &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Firewall GPO to Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "No Conflicts, No Loops",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Defender Firewall · Intune · Migration",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "CONFLICT/LOOP RISK",
+      "items": [
+        "GPO vs Intune clash",
+        "Merge conditions",
+        "Unpredictable state",
+        "Premature move"
+      ]
+    },
+    "to": {
+      "label": "Clean firewall migration",
+      "stat": "Translated · coexist · ringed"
+    },
+    "tagline": "TRANSLATE.  COEXIST.  CUT OVER CLEANLY.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Firewall Rules",
+        "sub": "GPO → Intune"
+      },
+      {
+        "icon": "gear",
+        "title": "Coexist",
+        "sub": "No conflicts"
+      },
+      {
+        "icon": "chart",
+        "title": "Parity",
+        "sub": "Validated"
+      },
+      {
+        "icon": "lock",
+        "title": "Retire GPO",
+        "sub": "Ringed"
+      }
+    ]
+  }
+}

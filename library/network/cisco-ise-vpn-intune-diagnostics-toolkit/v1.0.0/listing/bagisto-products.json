@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "cisco-ise-vpn-intune-diagnostics-toolkit",
+    "title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+    "category_path": [
+      "Network"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CISEDIAG-COMM-001",
+      "name": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "A structured <strong>root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack &mdash; isolate a failing cert, profile, EAP-TLS, or posture layer in minutes. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Find why the Cisco VPN + Intune handshake is failing — fast</h3><p>When certificate VPN or ISE posture stops working, the failure hides across four layers &mdash; the Intune cert/profile, the Entra app, the EAP-TLS chain, and ISE authorization. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack so you isolate the failing layer in minutes instead of guessing &mdash; a self-guided troubleshooting playbook you keep and reuse.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the full Cisco-ISE-VPN + Intune signal path (cert issuance &rarr; profile apply &rarr; client connect &rarr; EAP-TLS &rarr; ISE posture/authorization) and the layered model behind the root-cause tree.</li><li><strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune + Graph read access, device logs, the Secure Client/ISE live-log vantage points, an Entra app for compliance) with how to <em>verify</em> each.</li><li><strong>Diagnostic Playbook</strong> &mdash; a structured root-cause decision tree by symptom (no cert, cert but no chain, client won't connect, EAP-TLS fails, connected but denied by posture), each with the exact checks and the layer it isolates.</li><li><strong>5 PowerShell scripts</strong> &mdash; end-to-end diagnostic collection, certificate + chain validation, compliance/enrollment state check, VPN client + profile state check, and a consolidated diagnostics report.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the fix, plus Best Practices for repeatable triage and escalation to Cisco with the right evidence.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The failing layer of a Cisco VPN + ISE + Intune stack isolated in minutes &mdash; a structured playbook and scripts you keep and reuse on every incident.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISEDIAG-Check-Compliance.ps1</code> &mdash; read the device compliance/enrollment state as ISE would read it (via Graph)</li><li><code>CISEDIAG-Check-VpnClient.ps1</code> &mdash; check the Cisco Secure Client / VPN client and profile state on this device</li><li><code>CISEDIAG-Collect.ps1</code> &mdash; end-to-end read-only diagnostic collection for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Report.ps1</code> &mdash; consolidated cross-layer diagnostics report for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Validate-Certificate.ps1</code> &mdash; validate the VPN client-authentication certificate and full chain on this device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+      "meta_description": "Troubleshoot Cisco Secure Client VPN + ISE posture + Intune certificate failures with a layered root-cause tree and diagnostic scripts: cert, profile, EAP-TLS, authorization. Self-guided (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-vpn-intune-diagnostics-toolkit-commercial",
+      "image": "CISEDIAG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISEDIAG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISEDIAG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CISEDIAG-NPO-001",
+      "name": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>A structured root-cause tree and diagnostic scripts for the Cisco Secure Client + ISE + Intune stack — isolate a failing cert, profile, EAP-TLS, or posture layer in minutes. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Find why the Cisco VPN + Intune handshake is failing — fast</h3><p>When certificate VPN or ISE posture stops working, the failure hides across four layers &mdash; the Intune cert/profile, the Entra app, the EAP-TLS chain, and ISE authorization. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack so you isolate the failing layer in minutes instead of guessing &mdash; a self-guided troubleshooting playbook you keep and reuse.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the full Cisco-ISE-VPN + Intune signal path (cert issuance &rarr; profile apply &rarr; client connect &rarr; EAP-TLS &rarr; ISE posture/authorization) and the layered model behind the root-cause tree.</li><li><strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune + Graph read access, device logs, the Secure Client/ISE live-log vantage points, an Entra app for compliance) with how to <em>verify</em> each.</li><li><strong>Diagnostic Playbook</strong> &mdash; a structured root-cause decision tree by symptom (no cert, cert but no chain, client won't connect, EAP-TLS fails, connected but denied by posture), each with the exact checks and the layer it isolates.</li><li><strong>5 PowerShell scripts</strong> &mdash; end-to-end diagnostic collection, certificate + chain validation, compliance/enrollment state check, VPN client + profile state check, and a consolidated diagnostics report.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the fix, plus Best Practices for repeatable triage and escalation to Cisco with the right evidence.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISEDIAG-Check-Compliance.ps1</code> &mdash; read the device compliance/enrollment state as ISE would read it (via Graph)</li><li><code>CISEDIAG-Check-VpnClient.ps1</code> &mdash; check the Cisco Secure Client / VPN client and profile state on this device</li><li><code>CISEDIAG-Collect.ps1</code> &mdash; end-to-end read-only diagnostic collection for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Report.ps1</code> &mdash; consolidated cross-layer diagnostics report for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Validate-Certificate.ps1</code> &mdash; validate the VPN client-authentication certificate and full chain on this device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Troubleshoot Cisco Secure Client VPN + ISE posture + Intune certificate failures with a layered root-cause tree and diagnostic scripts: cert, profile, EAP-TLS, authorization. Self-guided (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-vpn-intune-diagnostics-toolkit-nonprofit",
+      "image": "CISEDIAG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISEDIAG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISEDIAG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CISEDIAG-GOV-001",
+      "name": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>A structured root-cause tree and diagnostic scripts for the Cisco Secure Client + ISE + Intune stack — isolate a failing cert, profile, EAP-TLS, or posture layer in minutes. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Find why the Cisco VPN + Intune handshake is failing — fast</h3><p>When certificate VPN or ISE posture stops working, the failure hides across four layers &mdash; the Intune cert/profile, the Entra app, the EAP-TLS chain, and ISE authorization. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack so you isolate the failing layer in minutes instead of guessing &mdash; a self-guided troubleshooting playbook you keep and reuse.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the full Cisco-ISE-VPN + Intune signal path (cert issuance &rarr; profile apply &rarr; client connect &rarr; EAP-TLS &rarr; ISE posture/authorization) and the layered model behind the root-cause tree.</li><li><strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune + Graph read access, device logs, the Secure Client/ISE live-log vantage points, an Entra app for compliance) with how to <em>verify</em> each.</li><li><strong>Diagnostic Playbook</strong> &mdash; a structured root-cause decision tree by symptom (no cert, cert but no chain, client won't connect, EAP-TLS fails, connected but denied by posture), each with the exact checks and the layer it isolates.</li><li><strong>5 PowerShell scripts</strong> &mdash; end-to-end diagnostic collection, certificate + chain validation, compliance/enrollment state check, VPN client + profile state check, and a consolidated diagnostics report.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the fix, plus Best Practices for repeatable triage and escalation to Cisco with the right evidence.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CISEDIAG-Check-Compliance.ps1</code> &mdash; read the device compliance/enrollment state as ISE would read it (via Graph)</li><li><code>CISEDIAG-Check-VpnClient.ps1</code> &mdash; check the Cisco Secure Client / VPN client and profile state on this device</li><li><code>CISEDIAG-Collect.ps1</code> &mdash; end-to-end read-only diagnostic collection for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Report.ps1</code> &mdash; consolidated cross-layer diagnostics report for the Cisco ISE VPN + Intune stack</li><li><code>CISEDIAG-Validate-Certificate.ps1</code> &mdash; validate the VPN client-authentication certificate and full chain on this device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Troubleshoot Cisco Secure Client VPN + ISE posture + Intune certificate failures with a layered root-cause tree and diagnostic scripts: cert, profile, EAP-TLS, authorization. Self-guided (Cisco specifics deferred to vendor docs).",
+      "url_key": "cisco-ise-vpn-intune-diagnostics-toolkit-government",
+      "image": "CISEDIAG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CISEDIAG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CISEDIAG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

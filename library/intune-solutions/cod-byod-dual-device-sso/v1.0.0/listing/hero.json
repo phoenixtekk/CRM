@@ -1,0 +1,17 @@
+{
+  "_comment": "Hero-image spec for build-hero.py. The solution title is rendered via title_lines (always shown). Edit colors/wording here; re-run tools/build-hero.py to regenerate the SVG+PNG.",
+  "title_lines": [
+    { "text": "Personal + Corporate", "color": "white", "size": "main" },
+    { "text": "Single Sign-On", "color": "green", "size": "main" },
+    { "text": "one account · two devices · Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "TWO DEVICES, TWO LOGINS", "items": ["Duplicate accounts", "Repeated sign-ins", "Split policies", "Data leaks"] },
+  "to": { "label": "Microsoft Intune", "stat": "One identity · SSO on both" },
+  "tagline": "ONE ACCOUNT.  BOTH DEVICES.  SEAMLESS.",
+  "benefits": [
+    { "icon": "users", "title": "One Identity", "sub": "Both devices, one account" },
+    { "icon": "key", "title": "Single Sign-On", "sub": "Sign in once per device" },
+    { "icon": "device", "title": "COD Full MDM", "sub": "IT owns it end-to-end" },
+    { "icon": "lock", "title": "BYOD App Protection", "sub": "Data, not the device" }
+  ]
+}

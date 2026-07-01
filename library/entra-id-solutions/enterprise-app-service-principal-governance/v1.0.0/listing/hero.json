@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App & SP Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Tame the OAuth Sprawl",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Entra · Enterprise Apps · API Permissions",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OAUTH SPRAWL",
+    "items": [
+      "Unowned apps",
+      "Over-permissioned SPs",
+      "Risky consents",
+      "Expiring secrets"
+    ]
+  },
+  "to": {
+    "label": "Governed app estate",
+    "stat": "Inventoried · reviewed · controlled"
+  },
+  "tagline": "INVENTORY THE APPS.  CUT THE OVER-PRIVILEGE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Apps + SPs"
+    },
+    {
+      "icon": "shield",
+      "title": "Permissions",
+      "sub": "Over-privilege"
+    },
+    {
+      "icon": "lock",
+      "title": "Consent",
+      "sub": "Controlled"
+    },
+    {
+      "icon": "key",
+      "title": "Secrets",
+      "sub": "Lifecycle"
+    }
+  ]
+}

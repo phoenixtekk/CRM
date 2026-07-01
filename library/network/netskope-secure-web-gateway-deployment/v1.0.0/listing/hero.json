@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Secure Web Gateway",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "One Cloud Chokepoint",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · SWG · Web Filtering",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PATCHY FILTERING",
+    "items": [
+      "Remote users bypass",
+      "Inconsistent policy",
+      "Threats slip in",
+      "No off-net control"
+    ]
+  },
+  "to": {
+    "label": "Cloud-enforced web",
+    "stat": "Categorized · filtered · everywhere"
+  },
+  "tagline": "STEER IT.  FILTER IT.  EVERYWHERE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Cloud SWG",
+      "sub": "Inline proxy"
+    },
+    {
+      "icon": "shield",
+      "title": "Web Filtering",
+      "sub": "URL categories"
+    },
+    {
+      "icon": "gear",
+      "title": "Steering",
+      "sub": "On/off network"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Policy report"
+    }
+  ]
+}

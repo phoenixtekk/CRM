@@ -1,0 +1,83 @@
+{
+  "sol": "STIG",
+  "slug": "disa-stig-compliance-windows-10-11-intune",
+  "title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (multi-control DoD STIG hardening for Windows 10/11 via Intune settings catalog/ADMX, compliance reporting, drift, and a STIG-release maintenance lifecycle; federal/DoD context, higher assurance).",
+    "Sibling in shape to the CIS Benchmark products (net-new + maintenance lifecycle) but delivers the DISA STIG (DoD standard). STIG control IDs/values deferred to the official DISA STIG / STIG Viewer. version_directive: New; branding: off."
+  ],
+  "hook": "Harden Windows 10 & 11 to the DISA STIG in Intune — and keep it compliant as new STIGs release",
+  "problem": "Defense and federal environments must meet the <strong>DISA STIG</strong> for Windows, and auditors expect proof. Applying hundreds of STIG rules by hand &mdash; and re-checking them every quarter when DISA publishes a new benchmark &mdash; is brutal, and manual GPO-era approaches don't follow cloud-managed devices. This solution delivers a repeatable way to <strong>implement and continuously manage DISA STIG compliance for Windows 10 and 11 in Microsoft Intune</strong>: build the hardened baseline as Intune policy, prove compliance, and run a documented update process each time a new STIG release drops.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what the DISA STIG is, CAT I/II/III severities, how STIG rules map to Intune (settings catalog and imported ADMX) vs. the Microsoft security baselines, the compliance/reporting model, and the STIG-release maintenance lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, supported Windows 10/11, device groups, the official DISA STIG / STIG Viewer / SCAP content, documented exceptions/POA&amp;M process) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide (net-new)</strong> &mdash; exact, ordered steps: stage the STIG, build the configuration in Intune by severity, handle documented exceptions (POA&amp;M), assign to a pilot, validate compliance, then expand fleet-wide.",
+    "<strong>Maintenance &amp; Update Guide</strong> &mdash; a repeatable process for each new STIG release: obtain the new version, diff it against your live baseline, assess and approve changes, update the Intune policies in a controlled change, re-validate, and record the STIG version you are on.",
+    "<strong>5 PowerShell scripts</strong> &mdash; STIG-readiness discovery, per-device STIG-compliance validation, a fleet STIG posture and drift report, safe remediation of drifted settings, and a STIG-version comparison helper that diffs a new STIG export against your current baseline.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Implement and continuously manage <strong>DISA STIG compliance for Windows 10 and 11 in Microsoft Intune</strong> &mdash; build the hardened baseline by severity as Intune policy, prove compliance, and update it each time a new STIG releases. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement and continuously manage DISA STIG compliance for Windows 10 and 11 in Microsoft Intune — build the hardened baseline as Intune policy, prove compliance, and update it each time a new STIG releases.",
+  "meta_title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune",
+  "meta_description": "Implement and maintain DISA STIG compliance for Windows 10/11 in Microsoft Intune: settings-catalog/ADMX hardening by CAT severity, compliance reporting, drift remediation, POA&M exceptions, and a STIG-release update lifecycle. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Windows 10/11 device hardened to the DISA STIG and provably compliant &mdash; with a documented update lifecycle that keeps the baseline current as DISA revises it and exceptions tracked as POA&amp;M &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "DISA STIG",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Windows 10 & 11 Hardening",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft Intune · Settings Catalog · Compliance",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MANUAL STIG BURDEN",
+      "items": [
+        "Hundreds of rules",
+        "Quarterly re-checks",
+        "GPO-era, LAN-bound",
+        "Audit exposure"
+      ]
+    },
+    "to": {
+      "label": "Hardened & maintained",
+      "stat": "Compliant · proven · current"
+    },
+    "tagline": "HARDEN TO STIG.  PROVE IT.  KEEP IT CURRENT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "STIG Baseline",
+        "sub": "CAT I/II/III"
+      },
+      {
+        "icon": "gear",
+        "title": "Intune Policy",
+        "sub": "Catalog + ADMX"
+      },
+      {
+        "icon": "chart",
+        "title": "Compliance",
+        "sub": "Posture + drift"
+      },
+      {
+        "icon": "key",
+        "title": "Maintained",
+        "sub": "STIG releases"
+      }
+    ]
+  }
+}

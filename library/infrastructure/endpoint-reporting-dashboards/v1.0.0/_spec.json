@@ -1,0 +1,81 @@
+{
+  "sol": "EPRPT",
+  "slug": "endpoint-reporting-dashboards",
+  "title": "Endpoint Reporting & Dashboards for Intune and Configuration Manager",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 1995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T2 (reporting/visibility layer over existing Intune + Configuration Manager data; moderate config, pilot-to-prod)."
+  ],
+  "hook": "Turn Intune and Configuration Manager data into reports leadership and auditors actually trust",
+  "problem": "You manage thousands of endpoints, but when someone asks \"how many devices are patched?\" or \"what's our compliance rate?\" the honest answer is a scramble through three consoles and a spreadsheet. This solution gives you a <strong>repeatable endpoint reporting layer</strong> across <strong>Intune and Configuration Manager</strong>: standard reports for patch status, compliance, encryption, app deployment, and device health, plus dashboards that pull from Intune reporting and Graph &mdash; so the same numbers come out the same way every time.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Intune and Configuration Manager reporting data sources, Intune device/compliance reports, Microsoft Graph data export, what good endpoint KPIs look like, and the reusable dashboard model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Configuration Manager reporting, Graph permissions/app registration for exports, a reporting destination, KPI definitions) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the KPI set, enable and locate the built-in Intune/Configuration Manager reports, set up Graph-based data export, assemble dashboards, schedule recurring reports and distribution, then validate the numbers and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; reporting-readiness discovery, report-data validation (reconcile counts), a consolidated endpoint KPI report (patch/compliance/encryption/health), a scheduled export helper, and a reporting-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>endpoint reporting and dashboard layer</strong> across Intune and Configuration Manager &mdash; patch, compliance, encryption, app, and health reporting that produces the same trusted numbers every time. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable endpoint reporting and dashboard layer across Intune and Configuration Manager — patch, compliance, encryption, app, and health reporting that's consistent every time.",
+  "meta_title": "Endpoint Reporting & Dashboards for Intune and Configuration Manager",
+  "meta_description": "Build endpoint reporting and dashboards across Intune and Configuration Manager: KPI definitions, built-in reports, Microsoft Graph exports, scheduled distribution. Self-guided, tested steps and scripts.",
+  "bottom_line": "Trustworthy, repeatable endpoint reporting &mdash; patch, compliance, encryption, app deployment, and device health across Intune and Configuration Manager &mdash; with the same numbers every time for leadership and auditors, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Endpoint Reporting",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Numbers You Can Trust",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Configuration Manager · Graph",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "CONSOLE SCRAMBLE",
+      "items": [
+        "Three consoles",
+        "Manual spreadsheets",
+        "Inconsistent counts",
+        "No KPIs"
+      ]
+    },
+    "to": {
+      "label": "One trusted view",
+      "stat": "Patch · compliance · health — repeatable"
+    },
+    "tagline": "ASK ONCE.  SAME ANSWER EVERY TIME.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "KPIs",
+        "sub": "Defined & tracked"
+      },
+      {
+        "icon": "gear",
+        "title": "Reports",
+        "sub": "Built-in + Graph"
+      },
+      {
+        "icon": "cloud",
+        "title": "Exports",
+        "sub": "Scheduled"
+      },
+      {
+        "icon": "shield",
+        "title": "Audit-Ready",
+        "sub": "Consistent"
+      }
+    ]
+  }
+}

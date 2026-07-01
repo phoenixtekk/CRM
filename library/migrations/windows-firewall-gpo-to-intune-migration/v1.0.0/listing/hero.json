@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Firewall GPO to Intune",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "No Conflicts, No Loops",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Defender Firewall · Intune · Migration",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CONFLICT/LOOP RISK",
+    "items": [
+      "GPO vs Intune clash",
+      "Merge conditions",
+      "Unpredictable state",
+      "Premature move"
+    ]
+  },
+  "to": {
+    "label": "Clean firewall migration",
+    "stat": "Translated · coexist · ringed"
+  },
+  "tagline": "TRANSLATE.  COEXIST.  CUT OVER CLEANLY.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Firewall Rules",
+      "sub": "GPO → Intune"
+    },
+    {
+      "icon": "gear",
+      "title": "Coexist",
+      "sub": "No conflicts"
+    },
+    {
+      "icon": "chart",
+      "title": "Parity",
+      "sub": "Validated"
+    },
+    {
+      "icon": "lock",
+      "title": "Retire GPO",
+      "sub": "Ringed"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "software-license-compliance-audit-defense",
+  "title": "Software License Compliance & Audit-Defense (Effective License Position)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "LICCOMP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (compliance: entitlement-vs-deployment reconciliation, ELP build, audit preparation; high risk/financial exposure)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-LICCOMP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-LICCOMP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-LICCOMP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "LICCOMP-Complete-Solution.zip"
+  ],
+  "hero": "LICCOMP-hero.png"
+}

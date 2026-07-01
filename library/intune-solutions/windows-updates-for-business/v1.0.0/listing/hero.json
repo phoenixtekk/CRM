@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Windows Updates", "color": "white", "size": "main" },
+    { "text": "for Business", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "PATCH CHAOS", "items": ["No WSUS in cloud", "Unmanaged restarts", "Version drift", "No visibility"] },
+  "to": { "label": "Microsoft Intune", "stat": "Ringed · Scheduled · Reported" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "gear", "title": "Update Rings", "sub": "Phased rollout" },
+    { "icon": "device", "title": "Feature Control", "sub": "Pin the OS version" },
+    { "icon": "shield", "title": "Expedite Zero-Days", "sub": "Push critical fixes" },
+    { "icon": "chart", "title": "Compliance Reports", "sub": "Fleet-wide status" }
+  ]
+}

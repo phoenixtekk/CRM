@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Device Lifecycle",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Procure to Retire",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Autopilot · Imaging · Inventory",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DEVICES OFF THE BOOKS",
+    "items": [
+      "Ad hoc imaging",
+      "Stale spreadsheet",
+      "Idle in drawers",
+      "Wiped? unknown"
+    ]
+  },
+  "to": {
+    "label": "Governed lifecycle",
+    "stat": "Provisioned · inventoried · retired"
+  },
+  "tagline": "ACCOUNT FOR EVERY DEVICE.  CRADLE TO GRAVE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Provision",
+      "sub": "Autopilot / image"
+    },
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Source of truth"
+    },
+    {
+      "icon": "gear",
+      "title": "Refresh",
+      "sub": "On criteria"
+    },
+    {
+      "icon": "lock",
+      "title": "Retire",
+      "sub": "Secure wipe"
+    }
+  ]
+}

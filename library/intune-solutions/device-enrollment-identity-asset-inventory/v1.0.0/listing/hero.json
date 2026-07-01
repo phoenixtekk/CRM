@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enrollment & Inventory",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Know Every Device",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Entra ID · Asset Inventory",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND SERVICE DESK",
+    "items": [
+      "Devices unenrolled",
+      "Wrong primary user",
+      "Stale records",
+      "Assets missing"
+    ]
+  },
+  "to": {
+    "label": "Accounted for",
+    "stat": "Enrolled · associated · reconciled"
+  },
+  "tagline": "ENROLL IT.  ASSOCIATE IT.  ACCOUNT FOR IT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Enrollment",
+      "sub": "Right methods"
+    },
+    {
+      "icon": "users",
+      "title": "Identity",
+      "sub": "Primary user"
+    },
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Reconciled"
+    },
+    {
+      "icon": "shield",
+      "title": "Trusted",
+      "sub": "Source of truth"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Windows Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Re-Enrolled, Unbroken",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · Windows",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MESSY HANDOFF",
+    "items": [
+      "Dual-managed risk",
+      "Lost configuration",
+      "Access breaks",
+      "No parity"
+    ]
+  },
+  "to": {
+    "label": "Clean re-enrollment",
+    "stat": "Parity · ringed · validated"
+  },
+  "tagline": "UNENROLL.  RE-ENROLL.  KEEP PARITY.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Re-Enroll",
+      "sub": "Entra + Intune"
+    },
+    {
+      "icon": "shield",
+      "title": "Parity",
+      "sub": "Config + compliance"
+    },
+    {
+      "icon": "chart",
+      "title": "Rings",
+      "sub": "Controlled cutover"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Per device"
+    }
+  ]
+}

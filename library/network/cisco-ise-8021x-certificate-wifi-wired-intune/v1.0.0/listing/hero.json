@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "802.1X Cert Auth",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Wi-Fi & Wired · Cisco ISE",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "EAP-TLS · Intune · NAC",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OPEN NETWORK",
+    "items": [
+      "Pre-shared keys",
+      "Open switch ports",
+      "No device identity",
+      "Manual profiles"
+    ]
+  },
+  "to": {
+    "label": "802.1X EAP-TLS",
+    "stat": "Cert-authenticated access"
+  },
+  "tagline": "ISSUE IT.  PROFILE IT.  AUTHENTICATE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Certificates",
+      "sub": "Intune-issued"
+    },
+    {
+      "icon": "shield",
+      "title": "802.1X",
+      "sub": "EAP-TLS"
+    },
+    {
+      "icon": "gear",
+      "title": "Wi-Fi/Wired",
+      "sub": "Network profiles"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Profile report"
+    }
+  ]
+}

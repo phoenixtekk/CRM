@@ -1,0 +1,39 @@
+{
+  "slug": "adobe-creative-cloud-enterprise-license-management",
+  "title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "ADOBELIC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (Adobe entitlement/seat management via Adobe Admin Console; Adobe-specific internals deferred to Adobe documentation).",
+    "Non-Microsoft vendor product; Adobe Admin Console specifics are deferred to Adobe's official docs (don't invent)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ADOBELIC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ADOBELIC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ADOBELIC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ADOBELIC-Complete-Solution.zip"
+  ],
+  "hero": "ADOBELIC-hero.png"
+}

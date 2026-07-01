@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Epic Go-Live",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Command Center Readiness",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "readiness · go/no-go · hypercare",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GO-LIVE CHAOS",
+    "items": [
+      "Unready devices",
+      "No go/no-go",
+      "Ad-hoc command center",
+      "Day-1 firefighting"
+    ]
+  },
+  "to": {
+    "label": "Readiness Playbook",
+    "stat": "Validated · staffed · stabilized"
+  },
+  "tagline": "READY THE FLEET.  STAFF THE CENTER.  LAND THE GO-LIVE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Readiness Sweep",
+      "sub": "Device go/no-go"
+    },
+    {
+      "icon": "shield",
+      "title": "Go/No-Go Gate",
+      "sub": "Measurable criteria"
+    },
+    {
+      "icon": "users",
+      "title": "Command Center",
+      "sub": "Roles + dispatch"
+    },
+    {
+      "icon": "gear",
+      "title": "Rapid Fixes",
+      "sub": "Top day-1 issues"
+    }
+  ]
+}

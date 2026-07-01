@@ -1,0 +1,34 @@
+{
+  "slug": "windows-firewall-management",
+  "title": "Windows Firewall Management",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WFM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-13",
+  "updated": "2026-06-13",
+  "published_at": "2026-06-13",
+  "products": [
+    {
+      "sku": "PTK-WFM-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WFM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WFM-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WFM-Complete-Solution.zip"
+  ],
+  "hero": "WFM-hero.png",
+  "branding": "on"
+}

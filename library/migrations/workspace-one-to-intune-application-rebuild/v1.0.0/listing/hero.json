@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App Rebuild",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Every App, Proven",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · App Migration",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "APPS BOG DOWN",
+    "items": [
+      "Hundreds to rebuild",
+      "Detection guesswork",
+      "Assignment drift",
+      "Users lose apps"
+    ]
+  },
+  "to": {
+    "label": "Rebuilt & validated",
+    "stat": "Detection · assignments · proven"
+  },
+  "tagline": "REBUILD EVERY APP.  PROVE EVERY DEPLOY.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Rebuild",
+      "sub": "Win32/store/mobile"
+    },
+    {
+      "icon": "chip",
+      "title": "Detection",
+      "sub": "Parity"
+    },
+    {
+      "icon": "device",
+      "title": "Assignments",
+      "sub": "Migrated"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Per app"
+    }
+  ]
+}

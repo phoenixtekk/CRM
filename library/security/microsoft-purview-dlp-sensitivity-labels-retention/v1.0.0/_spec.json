@@ -1,0 +1,82 @@
+{
+  "sol": "PURVIEW",
+  "slug": "microsoft-purview-dlp-sensitivity-labels-retention",
+  "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (information protection program across Microsoft Purview: sensitivity labels + auto-labeling, DLP policies, retention/records; multi-service, org-wide data governance).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Classify, protect, and retain your data with Microsoft Purview — the right way",
+  "problem": "Sensitive data leaks and compliance gaps almost always trace back to the same root: data that isn't <strong>classified, protected, or retained</strong>. Microsoft Purview fixes that &mdash; but rolled out carelessly, labels confuse users, DLP floods the help desk with false positives, and retention either deletes too much or nothing at all. This solution gives you a repeatable way to <strong>implement Microsoft Purview information protection</strong>: a sane sensitivity-label taxonomy with auto-labeling, DLP policies that start in audit and tune before they enforce, and retention/records that meet compliance without surprises.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Purview information-protection model (sensitivity labels + label policies + auto-labeling, DLP across M365/endpoints, retention labels/policies and records management), and how they work together.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + Purview licensing, Entra ID, a label taxonomy, data owners, a pilot scope, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: design the label taxonomy, publish labels and label policies, configure auto-labeling, build DLP policies in audit and tune, set retention labels/policies and records, pilot, validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Purview configuration discovery, label/DLP/retention coverage validation, a classification + DLP-event report, safe remediation of gaps, and a protection-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>implement Microsoft Purview information protection</strong> &mdash; a sane sensitivity-label taxonomy with auto-labeling, DLP policies tuned in audit before enforcement, and retention/records that meet compliance. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to implement Microsoft Purview information protection — a sane sensitivity-label taxonomy with auto-labeling, DLP policies tuned in audit before enforcement, and retention/records that meet compliance.",
+  "meta_title": "Microsoft Purview — DLP, Sensitivity Labels & Retention",
+  "meta_description": "Implement Microsoft Purview: sensitivity-label taxonomy + auto-labeling, DLP policies (audit-then-enforce), and retention labels/policies and records management. Self-guided, tested steps and scripts.",
+  "bottom_line": "Data classified, protected, and retained with Microsoft Purview &mdash; a clear label taxonomy with auto-labeling, DLP tuned in audit before it enforces, and retention that meets compliance without over- or under-deleting &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Microsoft Purview",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Classify, Protect, Retain",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Purview · Sensitivity Labels · DLP · Retention",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED DATA",
+      "items": [
+        "Unclassified data",
+        "Leaks & DLP noise",
+        "No retention",
+        "Compliance gaps"
+      ]
+    },
+    "to": {
+      "label": "Governed data estate",
+      "stat": "Labeled · protected · retained"
+    },
+    "tagline": "LABEL IT.  PROTECT IT.  RETAIN IT RIGHT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Labels",
+        "sub": "+ auto-labeling"
+      },
+      {
+        "icon": "lock",
+        "title": "DLP",
+        "sub": "Audit then enforce"
+      },
+      {
+        "icon": "gear",
+        "title": "Retention",
+        "sub": "+ records"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Reported"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "PowerShell Automation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Stop Doing It By Hand",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune Remediations · Graph · PowerShell",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL ENDPOINT TOIL",
+    "items": [
+      "Hand remediation",
+      "Inconsistent runs",
+      "No results",
+      "Lost hours"
+    ]
+  },
+  "to": {
+    "label": "Scheduled & repeatable",
+    "stat": "Detect → remediate → report"
+  },
+  "tagline": "AUTOMATE THE TOIL.  CONVERGE EVERY DEVICE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Remediations",
+      "sub": "Detect + fix"
+    },
+    {
+      "icon": "chip",
+      "title": "Scheduled",
+      "sub": "Runs itself"
+    },
+    {
+      "icon": "shield",
+      "title": "Safe by Default",
+      "sub": "-WhatIf first"
+    },
+    {
+      "icon": "chart",
+      "title": "Results",
+      "sub": "Fleet report"
+    }
+  ]
+}

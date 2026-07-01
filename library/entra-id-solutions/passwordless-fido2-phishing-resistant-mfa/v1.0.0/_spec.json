@@ -1,0 +1,82 @@
+{
+  "sol": "FIDO2",
+  "slug": "passwordless-fido2-phishing-resistant-mfa",
+  "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
+  "category": "Entra ID Solutions",
+  "category_slug": "entra-id-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T4 (phishing-resistant credential program across Entra ID auth methods, FIDO2 keys, Conditional Access enforcement; higher assurance/federal context).",
+    "Distinct from windows-hello-for-business (the WHfB enrollment product): this product centers on passwordless + FIDO2 hardware security keys and phishing-resistant MFA enforcement."
+  ],
+  "hook": "Go passwordless with phishing-resistant credentials — FIDO2 keys and Windows Hello",
+  "problem": "Passwords (and even push-based MFA) are still being phished and bombed. Federal and security-conscious organizations are required to move to <strong>phishing-resistant</strong>, passwordless authentication. This solution stands up <strong>passwordless and phishing-resistant MFA in Microsoft Entra ID</strong> &mdash; FIDO2 hardware security keys, Windows Hello for Business, and (where applicable) certificate-based authentication &mdash; enabled as authentication methods, registered by users, and enforced through Conditional Access authentication strengths so weak methods can no longer get in.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what phishing-resistant, passwordless authentication is, the Entra ID authentication methods model, FIDO2 security keys vs. Windows Hello for Business vs. certificate-based auth, and Conditional Access authentication strengths.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID licensing, authentication methods policy, FIDO2 key support/provisioning, registration campaign, Conditional Access) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: enable the authentication methods, provision/register FIDO2 keys and Windows Hello, run a registration campaign, create a phishing-resistant authentication strength, enforce it via Conditional Access, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; auth-methods readiness discovery, per-user passwordless registration validation, a tenant credential-method and coverage report, safe remediation of weak-method users, and a target group builder for the rollout.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up <strong>passwordless and phishing-resistant MFA</strong> in Microsoft Entra ID &mdash; FIDO2 security keys, Windows Hello for Business, and certificate-based auth, enforced via Conditional Access authentication strengths. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up passwordless and phishing-resistant MFA in Entra ID — FIDO2 security keys, Windows Hello, and certificate-based auth, enforced via Conditional Access authentication strengths.",
+  "meta_title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
+  "meta_description": "Deploy passwordless, phishing-resistant MFA in Entra ID: FIDO2 security keys, Windows Hello for Business, certificate-based auth, registration campaigns, and Conditional Access authentication strengths. Self-guided, tested steps and scripts.",
+  "bottom_line": "Users signing in passwordless with phishing-resistant credentials &mdash; FIDO2 keys and Windows Hello &mdash; and weak methods blocked by Conditional Access authentication strengths, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Passwordless MFA",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Phishing-Resistant",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Entra ID · FIDO2 · Windows Hello",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PHISHABLE LOGINS",
+      "items": [
+        "Passwords phished",
+        "MFA bombing",
+        "Weak methods",
+        "Mandate unmet"
+      ]
+    },
+    "to": {
+      "label": "Phishing-resistant",
+      "stat": "FIDO2 · Hello · enforced"
+    },
+    "tagline": "KILL THE PASSWORD.  BLOCK THE PHISH.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "FIDO2 Keys",
+        "sub": "Hardware-backed"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Windows Hello",
+        "sub": "Passwordless"
+      },
+      {
+        "icon": "shield",
+        "title": "Auth Strength",
+        "sub": "CA enforced"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Method report"
+      }
+    ]
+  }
+}

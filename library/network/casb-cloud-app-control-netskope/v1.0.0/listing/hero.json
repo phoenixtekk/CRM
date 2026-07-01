@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "CASB",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Govern Every Cloud App",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · CASB · Cloud Control",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHADOW IT",
+    "items": [
+      "Unapproved apps",
+      "Data flows unseen",
+      "No risk view",
+      "All-or-nothing block"
+    ]
+  },
+  "to": {
+    "label": "Visible & governed",
+    "stat": "Discovered · scored · controlled"
+  },
+  "tagline": "SEE EVERY APP.  GOVERN THE RISK.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Discovery",
+      "sub": "Shadow IT"
+    },
+    {
+      "icon": "chart",
+      "title": "Risk Score",
+      "sub": "Per app"
+    },
+    {
+      "icon": "gear",
+      "title": "Controls",
+      "sub": "Inline + API"
+    },
+    {
+      "icon": "shield",
+      "title": "Data",
+      "sub": "Protected"
+    }
+  ]
+}

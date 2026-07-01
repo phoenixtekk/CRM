@@ -1,0 +1,81 @@
+{
+  "sol": "EHEM",
+  "slug": "endpoint-health-experience-monitoring",
+  "title": "Endpoint Health & Digital Experience Monitoring",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (monitoring layer using Intune Endpoint analytics + optional DEX platforms; vendor specifics for Nexthink/Tanium deferred to vendor docs)."
+  ],
+  "hook": "See how every endpoint actually performs — before users call the help desk",
+  "problem": "Most endpoint problems are invisible until a user complains: slow boots, app crashes, failing disks, battery wear, devices that never restart. By then the damage to productivity (and, in a clinical setting, to care) is done. This solution stands up <strong>endpoint health and digital experience monitoring</strong> using <strong>Microsoft Intune Endpoint analytics</strong> &mdash; startup performance, application reliability, resource and recommended-software scores &mdash; with an optional path to a dedicated digital-experience platform (such as Nexthink or Tanium) where deeper telemetry is required, so you find and fix degradations proactively.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what endpoint health and digital experience monitoring is, the Intune Endpoint analytics model (startup, app reliability, work-from-anywhere, resource performance), proactive remediation, and where a dedicated DEX platform fits.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Endpoint analytics enablement, device data collection, optional DEX platform licensing, a baseline period) with how to <em>verify</em> and how to <em>implement</em> each if missing. Vendor-specific DEX setup is deferred to the vendor's documentation.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: enable Endpoint analytics, onboard devices, set baselines, interpret scores, wire proactive remediations for common issues, optionally integrate a DEX platform, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; monitoring-readiness discovery, device health/data-collection validation, a fleet health-score and issues report, safe remediation of common degradations, and a monitoring-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Stand up <strong>endpoint health and digital experience monitoring</strong> with Intune Endpoint analytics (plus an optional DEX platform path) &mdash; startup, reliability, and resource scores that surface degradations before users call. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up endpoint health and digital experience monitoring with Intune Endpoint analytics (plus an optional DEX platform path) — surface degradations before users call.",
+  "meta_title": "Endpoint Health & Digital Experience Monitoring",
+  "meta_description": "Monitor endpoint health and digital experience with Intune Endpoint analytics: startup performance, app reliability, resource scores, proactive remediation, optional Nexthink/Tanium path. Self-guided, tested steps and scripts.",
+  "bottom_line": "Proactive visibility into how every endpoint really performs &mdash; startup, reliability, and resource health scored and trending, common issues remediated automatically &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Endpoint Health",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "See It Before They Call",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune Endpoint Analytics · DEX",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INVISIBLE DEGRADATION",
+      "items": [
+        "Slow boots",
+        "App crashes",
+        "Failing disks",
+        "Reactive only"
+      ]
+    },
+    "to": {
+      "label": "Proactive visibility",
+      "stat": "Scored · trending · remediated"
+    },
+    "tagline": "FIND IT FIRST.  FIX IT QUIETLY.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Analytics",
+        "sub": "Startup + reliability"
+      },
+      {
+        "icon": "chip",
+        "title": "Scores",
+        "sub": "Resource health"
+      },
+      {
+        "icon": "gear",
+        "title": "Remediate",
+        "sub": "Common issues"
+      },
+      {
+        "icon": "shield",
+        "title": "Proactive",
+        "sub": "Before the call"
+      }
+    ]
+  }
+}

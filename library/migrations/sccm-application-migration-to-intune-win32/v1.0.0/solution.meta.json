@@ -1,0 +1,41 @@
+{
+  "slug": "sccm-application-migration-to-intune-win32",
+  "title": "SCCM Application Migration to Intune Win32 (Repackaging)",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "SCCMAPP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (repackage an SCCM-deployed application estate into Intune Win32 with detection/assignment parity, validation, coexistence; volume + risk).",
+    "Distinct from intune-win32-app-packaging-deployment (net-new packaging), sccm-intune-co-management-enablement (workload move), and the WS1 app-rebuild product; this is the SCCM-app -> Intune Win32 repackaging migration. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SCCMAPP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SCCMAPP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SCCMAPP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SCCMAPP-Solution.pdf",
+    "SCCMAPP-Scripts.zip"
+  ],
+  "hero": "SCCMAPP-hero.png"
+}
+

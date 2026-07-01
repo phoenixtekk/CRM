@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Remote Help", "color": "white", "size": "main" },
+    { "text": "for the Help Desk", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "AD-HOC TOOLS", "items": ["Unverified helpers", "No RBAC", "No audit trail", "Risky 3rd-party"] },
+  "to": { "label": "Microsoft Intune", "stat": "Entra-auth · Audited" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "users", "title": "Secure Assistance", "sub": "View & control" },
+    { "icon": "lock", "title": "Entra Auth + RBAC", "sub": "Verified helpers" },
+    { "icon": "shield", "title": "Compliance-Aware", "sub": "See device risk" },
+    { "icon": "chart", "title": "Audited Sessions", "sub": "Full trail" }
+  ]
+}

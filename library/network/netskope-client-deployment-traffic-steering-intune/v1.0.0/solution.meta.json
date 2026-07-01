@@ -1,0 +1,39 @@
+{
+  "slug": "netskope-client-deployment-traffic-steering-intune",
+  "title": "Netskope Client Deployment & Traffic Steering at Scale (Intune)",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSCLIENT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (large-scale agent rollout via Intune + steering config + identity; coexistence and live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSCLIENT-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-NSCLIENT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-NSCLIENT-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "NSCLIENT-Complete-Solution.zip"
+  ],
+  "hero": "NSCLIENT-hero.png"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cisco-vpn-client-sccm-gpo-to-intune-migration",
+  "title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "CVPNMIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CVPNMIG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CVPNMIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CVPNMIG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CVPNMIG-Solution.pdf",
+    "CVPNMIG-Scripts.zip"
+  ],
+  "hero": "CVPNMIG-hero.png"
+}
+

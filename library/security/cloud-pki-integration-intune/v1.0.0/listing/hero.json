@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cloud PKI + Intune",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Modernize Certificates",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Cloud PKI · Intune · SCEP/PKCS",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FRAGILE ON-PREM CA",
+    "items": [
+      "Aging CA + connector",
+      "Hard to scale",
+      "On-prem dependency",
+      "Cert sprawl"
+    ]
+  },
+  "to": {
+    "label": "Cloud-issued certs",
+    "stat": "Connector · chain · SCEP/PKCS"
+  },
+  "tagline": "ISSUE FROM THE CLOUD.  RETIRE THE OLD CA.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Cloud PKI",
+      "sub": "Intune connector"
+    },
+    {
+      "icon": "shield",
+      "title": "Trust Chain",
+      "sub": "Deployed"
+    },
+    {
+      "icon": "gear",
+      "title": "SCEP/PKCS",
+      "sub": "Issuance"
+    },
+    {
+      "icon": "cloud",
+      "title": "Migrate",
+      "sub": "Off on-prem CA"
+    }
+  ]
+}

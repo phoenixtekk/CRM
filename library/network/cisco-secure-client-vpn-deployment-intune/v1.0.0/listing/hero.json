@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cisco Secure Client",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "VPN via Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "AnyConnect · Win/macOS/iOS/Android",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL VPN SETUP",
+    "items": [
+      "Per-device installs",
+      "Wrong profiles",
+      "Platform drift",
+      "No pilot path"
+    ]
+  },
+  "to": {
+    "label": "Cloud-deployed VPN",
+    "stat": "One client · every platform"
+  },
+  "tagline": "PACKAGE IT.  PUSH IT.  CONNECT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Intune Deploy",
+      "sub": "App + profile"
+    },
+    {
+      "icon": "device",
+      "title": "Every Platform",
+      "sub": "Win/mac/iOS/Droid"
+    },
+    {
+      "icon": "lock",
+      "title": "Secure Client",
+      "sub": "AnyConnect VPN"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Install report"
+    }
+  ]
+}

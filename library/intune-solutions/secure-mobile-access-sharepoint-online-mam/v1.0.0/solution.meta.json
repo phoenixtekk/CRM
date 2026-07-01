@@ -1,0 +1,41 @@
+{
+  "slug": "secure-mobile-access-sharepoint-online-mam",
+  "title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "SPMAM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (multi-component: App Protection Policies + Conditional Access + supported access paths + intranet-routing/Microsoft Tunnel-for-MAM decision + root-cause diagnostics; live-access risk).",
+    "Doubles as the resolution to a real support case: employees can't reliably reach a SharePoint Online intranet from mobile under a MAM configuration. Keep customer/intranet names OUT (white-label). version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SPMAM-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SPMAM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SPMAM-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SPMAM-Solution.pdf",
+    "SPMAM-Scripts.zip"
+  ],
+  "hero": "SPMAM-hero.png"
+}
+

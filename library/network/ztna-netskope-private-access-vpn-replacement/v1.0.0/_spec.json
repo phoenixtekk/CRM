@@ -1,0 +1,82 @@
+{
+  "sol": "NSZTNA",
+  "slug": "ztna-netskope-private-access-vpn-replacement",
+  "title": "Zero Trust Network Access (ZTNA) with Netskope Private Access — VPN Replacement",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (ZTNA app publishing + identity policy + VPN coexistence/cutover; higher risk to access).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Replace the VPN — give users least-privilege access to private apps, not the whole network",
+  "problem": "Legacy VPN hands a user the whole network and is slow, hard to scale, and a favorite attacker on-ramp. This solution replaces it with <strong>Zero Trust Network Access using Netskope Private Access</strong> &mdash; publish individual private applications, grant identity- and posture-based least-privilege access, and reach apps without exposing the network &mdash; with a staged coexistence-then-cutover migration off the VPN.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how ZTNA / Netskope Private Access works, private app publishing, identity- and posture-based access, the difference from VPN, and the coexistence-then-cutover migration.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Netskope tenant + Private Access, publisher/connector placement, Entra ID identity, the Netskope client, app inventory, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: deploy publishers/connectors, define private apps and access policy, steer pilot users, validate access and posture, run VPN coexistence then cutover, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; ZTNA-readiness discovery, private-app access validation, an access and usage report, safe remediation of broken app access, and a ZTNA user-assignment group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Replace the VPN with <strong>Zero Trust Network Access using Netskope Private Access</strong> &mdash; publish private apps, grant identity- and posture-based least-privilege access, and reach apps without exposing the network, via a staged cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Replace the VPN with Zero Trust Network Access using Netskope Private Access — publish private apps, grant identity/posture-based least-privilege access, staged cutover off the VPN.",
+  "meta_title": "Zero Trust Network Access (ZTNA) with Netskope Private Access — VPN Replacement",
+  "meta_description": "Replace VPN with ZTNA via Netskope Private Access: publish private apps, identity/posture-based least-privilege access, coexistence and cutover. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Users reaching only the private apps they're entitled to &mdash; least-privilege, identity- and posture-based access with no network exposure &mdash; and the legacy VPN retired, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Zero Trust Access",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Retire the VPN",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · ZTNA · Private Access",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "VPN EXPOSURE",
+      "items": [
+        "Whole-network access",
+        "Slow & unscalable",
+        "Attacker on-ramp",
+        "Hard to govern"
+      ]
+    },
+    "to": {
+      "label": "Least-privilege access",
+      "stat": "Per-app · identity + posture"
+    },
+    "tagline": "ACCESS THE APP.  NOT THE NETWORK.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "ZTNA",
+        "sub": "Per-app access"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Identity + Posture",
+        "sub": "Least privilege"
+      },
+      {
+        "icon": "cloud",
+        "title": "No Exposure",
+        "sub": "Network hidden"
+      },
+      {
+        "icon": "gear",
+        "title": "Cutover",
+        "sub": "VPN retired"
+      }
+    ]
+  }
+}

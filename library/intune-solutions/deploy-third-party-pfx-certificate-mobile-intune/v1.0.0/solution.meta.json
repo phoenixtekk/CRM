@@ -1,0 +1,42 @@
+{
+  "slug": "deploy-third-party-pfx-certificate-mobile-intune",
+  "title": "Deploy a Third-Party PFX Certificate to Mobile Devices for App Use with Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "PFXMOB",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Scenario/shaping note (internal): a third-party PFX (functioning like a software/license certificate an app consumes, not a standard TLS/SSL case) must reach iOS/mobile devices via Intune. The imported PFX object already exists in Intune/Graph for a service UPN, but the team could not complete delivery through the Intune UI/template path they were testing. Resolution must assess the CORRECT enterprise deployment method and how to assign/deploy for the app use case.",
+    "Key correction the solution must make: a static third-party PFX is NOT a SCEP/PKCS CA-issued scenario; the right paths are (a) a PKCS imported certificate configuration profile (needs the Intune Certificate Connector + a Graph PFX import) and/or (b) a custom iOS configuration profile carrying a PKCS12 payload. Choice is driven by how the APP accesses the identity in the keychain.",
+    "Effort tier: T3 (multi-component within Intune: imported-PFX vs custom-profile decision, Certificate Connector, Graph import, trusted-root chain, app keychain nuance, troubleshooting).",
+    "Do NOT print the customer's real tenant UPN/domain in deliverables — use a neutral placeholder (e.g. Intune.Cert.<service>@<your-domain>). version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PFXMOB-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PFXMOB-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PFXMOB-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PFXMOB-Solution.pdf",
+    "PFXMOB-Scripts.zip"
+  ],
+  "hero": "PFXMOB-hero.png"
+}

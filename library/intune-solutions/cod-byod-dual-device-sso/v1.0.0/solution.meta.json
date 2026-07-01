@@ -1,0 +1,41 @@
+{
+  "slug": "cod-byod-dual-device-sso",
+  "title": "Dual-Device (Personal + Corporate) Management with Single Sign-On in Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "DUALDEV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-21",
+  "updated": "2026-06-22",
+  "published_at": "2026-06-22",
+  "wiki_path": "solutions/intune-solutions/cod-byod-dual-device-sso",
+  "wiki_published": true,
+  "version_directive": "+1",
+  "branding": "on",
+  "author_notes": [
+    "The solution must allow a single user account to sign in on both the COD and BYOD device for scenarios where a user has 2 devices, a Personal and Corporate Owned device.",
+    "Forked (+1) from cod-and-byod-device-management v1.0.0: a separate product specializing in the one-user/two-physical-devices scenario with single sign-on across both. The original COD/BYOD product is unchanged."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DUALDEV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-DUALDEV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-DUALDEV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "DUALDEV-Complete-Solution.zip"
+  ],
+  "hero": "DUALDEV-hero.png"
+}

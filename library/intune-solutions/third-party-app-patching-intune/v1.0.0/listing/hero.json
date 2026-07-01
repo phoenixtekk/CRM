@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Third-Party Patching",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Close the Open Doors",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Enterprise App Catalog",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALE THIRD-PARTY APPS",
+    "items": [
+      "Outdated browsers",
+      "Old Adobe/Java",
+      "Open CVEs",
+      "No visibility"
+    ]
+  },
+  "to": {
+    "label": "Current automatically",
+    "stat": "Catalog + superseded · ringed"
+  },
+  "tagline": "PATCH WHAT THEY TARGET.  AUTOMATICALLY.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Attack Surface",
+      "sub": "Closed"
+    },
+    {
+      "icon": "cloud",
+      "title": "App Catalog",
+      "sub": "Auto-update"
+    },
+    {
+      "icon": "gear",
+      "title": "Supersedence",
+      "sub": "Move to current"
+    },
+    {
+      "icon": "chart",
+      "title": "Exposure",
+      "sub": "Out-of-date report"
+    }
+  ]
+}

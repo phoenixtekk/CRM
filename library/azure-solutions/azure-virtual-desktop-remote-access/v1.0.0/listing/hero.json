@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Virtual Desktop",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Remote Windows, Anywhere",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Azure · AVD · Windows + macOS",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY REMOTE ACCESS",
+    "items": [
+      "Exposed systems",
+      "Ship hardware",
+      "No macOS path",
+      "Hard to govern"
+    ]
+  },
+  "to": {
+    "label": "Secure cloud desktop",
+    "stat": "Host pools · governed · cross-OS"
+  },
+  "tagline": "FULL DESKTOP.  ANY CLIENT.  GOVERNED.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Host Pools",
+      "sub": "Desktops + apps"
+    },
+    {
+      "icon": "device",
+      "title": "Win + macOS",
+      "sub": "Validated clients"
+    },
+    {
+      "icon": "shield",
+      "title": "Conditional Access",
+      "sub": "Governed entry"
+    },
+    {
+      "icon": "chart",
+      "title": "Usage",
+      "sub": "Assignment report"
+    }
+  ]
+}

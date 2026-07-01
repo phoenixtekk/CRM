@@ -1,0 +1,81 @@
+{
+  "sol": "WIN32",
+  "slug": "intune-win32-app-packaging-deployment",
+  "title": "Intune Win32 Application Packaging & Deployment",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (multi-component within Intune: packaging, detection/requirement/supersedence logic, dependencies, ring assignment)."
+  ],
+  "hook": "Package and deploy any Windows app through Intune — reliably, with detection that actually works",
+  "problem": "Getting a Windows application onto your fleet shouldn't be a coin flip. Done by hand, app deployments fail silently: the installer runs but Intune reports the wrong state, detection rules are guesses, dependencies install out of order, and a bad package lands on everyone at once. This solution gives you the <strong>repeatable Win32 packaging method</strong> &mdash; build the <code>.intunewin</code>, write detection and requirement rules that are correct, model dependencies and supersedence, and assign in rings so a bad build never reaches production.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Win32 (<code>.intunewin</code>) app model, how the Intune Management Extension installs and reports, detection vs. requirement rules, dependencies, supersedence, and the ring-based assignment model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, the Win32 Content Prep Tool, install/uninstall command lines, a reliable detection method, requirement rules, source/distribution hygiene) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: prepare source and capture the <code>.intunewin</code>, create the Win32 app, set install/uninstall commands, author detection and requirement rules, model dependencies and supersedence, assign in pilot/broad rings, then validate and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; a packaging/wrapper helper, install-detection validation, a deployment success/failure report across the fleet, safe remediation of failed installs, and a target-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The repeatable way to <strong>package and deploy Windows apps through Intune</strong> &mdash; build the <code>.intunewin</code>, author correct detection/requirement rules, model dependencies and supersedence, and assign in rings. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The repeatable way to package and deploy Windows apps through Intune — .intunewin packaging, correct detection rules, dependencies, supersedence, ring assignment.",
+  "meta_title": "Intune Win32 Application Packaging & Deployment",
+  "meta_description": "Package and deploy Windows apps with Intune: .intunewin creation, detection and requirement rules, dependencies, supersedence, and ring-based assignment. Self-guided, tested steps and scripts.",
+  "bottom_line": "Windows applications that deploy predictably from Intune &mdash; correct detection, ordered dependencies, supersedence handled, and ring assignment so a bad package never reaches production &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Win32 App Packaging",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deploy Apps That Install",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · IME · .intunewin",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "FLAKY DEPLOYMENTS",
+      "items": [
+        "Silent failures",
+        "Guessed detection",
+        "Wrong state",
+        "Bad build to all"
+      ]
+    },
+    "to": {
+      "label": "Predictable installs",
+      "stat": "Correct detection · ringed rollout"
+    },
+    "tagline": "PACKAGE ONCE.  DEPLOY EVERYWHERE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": ".intunewin",
+        "sub": "Clean packaging"
+      },
+      {
+        "icon": "chip",
+        "title": "Detection",
+        "sub": "Rules that work"
+      },
+      {
+        "icon": "device",
+        "title": "Dependencies",
+        "sub": "Ordered installs"
+      },
+      {
+        "icon": "chart",
+        "title": "Rings",
+        "sub": "Safe rollout"
+      }
+    ]
+  }
+}

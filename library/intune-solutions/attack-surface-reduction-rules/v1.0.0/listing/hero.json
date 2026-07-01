@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Attack Surface", "color": "white", "size": "main" },
+    { "text": "Reduction Rules", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "EXPLOIT BEHAVIORS", "items": ["Office spawns malware", "LSASS theft", "Script abuse", "Email payloads"] },
+  "to": { "label": "Microsoft Intune", "stat": "Audit first · then Block" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Block Behaviors", "sub": "Stop attack patterns" },
+    { "icon": "chart", "title": "Audit First", "sub": "No surprise breakage" },
+    { "icon": "lock", "title": "LSASS Protection", "sub": "Block credential theft" },
+    { "icon": "gear", "title": "Office Hardening", "sub": "No child processes" }
+  ]
+}

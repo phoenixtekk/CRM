@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Zero Trust Access",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Retire the VPN",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · ZTNA · Private Access",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "VPN EXPOSURE",
+    "items": [
+      "Whole-network access",
+      "Slow & unscalable",
+      "Attacker on-ramp",
+      "Hard to govern"
+    ]
+  },
+  "to": {
+    "label": "Least-privilege access",
+    "stat": "Per-app · identity + posture"
+  },
+  "tagline": "ACCESS THE APP.  NOT THE NETWORK.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "ZTNA",
+      "sub": "Per-app access"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Identity + Posture",
+      "sub": "Least privilege"
+    },
+    {
+      "icon": "cloud",
+      "title": "No Exposure",
+      "sub": "Network hidden"
+    },
+    {
+      "icon": "gear",
+      "title": "Cutover",
+      "sub": "VPN retired"
+    }
+  ]
+}

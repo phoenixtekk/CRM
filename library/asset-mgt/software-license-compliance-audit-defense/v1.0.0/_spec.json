@@ -1,0 +1,81 @@
+{
+  "sol": "LICCOMP",
+  "slug": "software-license-compliance-audit-defense",
+  "title": "Software License Compliance & Audit-Defense (Effective License Position)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (compliance: entitlement-vs-deployment reconciliation, ELP build, audit preparation; high risk/financial exposure)."
+  ],
+  "hook": "Know your true license position before a vendor auditor does",
+  "problem": "A software audit letter shouldn't trigger a fire drill. Without an <strong>Effective License Position (ELP)</strong> &mdash; entitlements reconciled against actual deployment &mdash; you can't prove compliance, and shortfalls become expensive settlements. This solution builds a defensible ELP and audit-readiness posture: reconcile what you own against what you run, close gaps before they're found, and walk into any audit with the numbers already in hand.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what an Effective License Position is, the entitlement &harr; deployment reconciliation model, common compliance gaps, and the audit-defense posture.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (entitlement system of record, deployment/usage discovery, product use rights, a reconciliation method, owner sign-off) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: gather entitlements and proofs of purchase, collect deployment/usage, normalize and reconcile to an ELP, identify and close gaps, assemble the audit package, then pilot, validate, and expand to more publishers.",
+    "<strong>5 PowerShell scripts</strong> &mdash; deployment discovery, entitlement-vs-deployment reconciliation validation, an ELP and gap report, safe remediation of over-deployment, and a reconciliation-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Build a defensible <strong>Effective License Position</strong> and audit-readiness posture &mdash; reconcile entitlements against deployment, close gaps before they're found, and walk into any audit with the numbers in hand. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a defensible Effective License Position and audit-readiness posture — reconcile entitlements against deployment, close gaps before they're found, and be ready for any audit.",
+  "meta_title": "Software License Compliance & Audit-Defense (Effective License Position)",
+  "meta_description": "Build an Effective License Position and audit defense: entitlement-vs-deployment reconciliation, gap remediation, and an audit-ready package. Self-guided, tested steps and scripts.",
+  "bottom_line": "A defensible Effective License Position &mdash; entitlements reconciled to deployment, gaps closed, and an audit package ready &mdash; so a vendor audit holds no surprises, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "License Compliance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Audit-Ready ELP",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Effective License Position · Audit Defense",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "AUDIT FIRE DRILL",
+      "items": [
+        "No ELP",
+        "Unproven compliance",
+        "Hidden shortfalls",
+        "Costly settlements"
+      ]
+    },
+    "to": {
+      "label": "Defensible position",
+      "stat": "Reconciled · gaps closed"
+    },
+    "tagline": "KNOW YOUR POSITION FIRST.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "ELP",
+        "sub": "Reconciled"
+      },
+      {
+        "icon": "shield",
+        "title": "Audit Defense",
+        "sub": "Package ready"
+      },
+      {
+        "icon": "gear",
+        "title": "Gap Closure",
+        "sub": "Before found"
+      },
+      {
+        "icon": "lock",
+        "title": "Proof",
+        "sub": "Entitlements"
+      }
+    ]
+  }
+}

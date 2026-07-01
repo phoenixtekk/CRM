@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Conditional Access", "color": "white", "size": "main" },
+    { "text": "Integration", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "OPEN ACCESS", "items": ["Any device", "No MFA", "Legacy auth", "No risk checks"] },
+  "to": { "label": "Microsoft Intune", "stat": "Compliant + MFA required" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Require Compliant", "sub": "Healthy devices only" },
+    { "icon": "lock", "title": "Enforce MFA", "sub": "Stop password attacks" },
+    { "icon": "gear", "title": "Block Legacy Auth", "sub": "Close the back door" },
+    { "icon": "chart", "title": "Report-Only First", "sub": "See impact safely" }
+  ]
+}

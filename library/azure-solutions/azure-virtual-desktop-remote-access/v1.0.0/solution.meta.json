@@ -1,0 +1,38 @@
+{
+  "slug": "azure-virtual-desktop-remote-access",
+  "title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "AVD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (AVD host pool + workspace + identity + client access across Windows and macOS; multi-component within Azure)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AVD-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AVD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AVD-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AVD-Complete-Solution.zip"
+  ],
+  "hero": "AVD-hero.png"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "entra-id-governance-pim-access-reviews",
+  "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "IGA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (identity governance across Entra: Privileged Identity Management, access reviews, entitlement management/access packages; least-privilege, higher risk to access).",
+    "Distinct from intune-rbac-multi-admin-governance (Intune RBAC); this is Entra ID Governance / IGA. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IGA-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-IGA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-IGA-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "IGA-Solution.pdf",
+    "IGA-Scripts.zip"
+  ],
+  "hero": "IGA-hero.png"
+}
+

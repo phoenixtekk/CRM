@@ -1,0 +1,39 @@
+{
+  "slug": "passwordless-fido2-phishing-resistant-mfa",
+  "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "FIDO2",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (phishing-resistant credential program across Entra ID auth methods, FIDO2 keys, Conditional Access enforcement; higher assurance/federal context).",
+    "Distinct from windows-hello-for-business (the WHfB enrollment product): this product centers on passwordless + FIDO2 hardware security keys and phishing-resistant MFA enforcement."
+  ],
+  "products": [
+    {
+      "sku": "PTK-FIDO2-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-FIDO2-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-FIDO2-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "FIDO2-Complete-Solution.zip"
+  ],
+  "hero": "FIDO2-hero.png"
+}

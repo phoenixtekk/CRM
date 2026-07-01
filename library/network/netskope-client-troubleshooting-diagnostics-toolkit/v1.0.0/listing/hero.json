@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Client Diagnostics",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Stop the Guesswork",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · Troubleshooting · Diagnostics",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HELP-DESK GUESSWORK",
+    "items": [
+      "Steering fails",
+      "Auth loops",
+      "Slow browsing",
+      "No root cause"
+    ]
+  },
+  "to": {
+    "label": "Diagnose to root cause",
+    "stat": "Runbooks · scripts · logs"
+  },
+  "tagline": "DIAGNOSE FAST.  FIX THE ROOT CAUSE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Runbooks",
+      "sub": "Per failure class"
+    },
+    {
+      "icon": "chip",
+      "title": "Diagnostics",
+      "sub": "State + logs"
+    },
+    {
+      "icon": "chart",
+      "title": "Root Cause",
+      "sub": "Pinpointed"
+    },
+    {
+      "icon": "shield",
+      "title": "Resolve",
+      "sub": "Repair/re-enroll"
+    }
+  ]
+}

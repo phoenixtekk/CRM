@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Tunnel for MAM",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Reach the Intranet",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Tunnel · MAM · App VPN",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INTRANET UNREACHABLE",
+    "items": [
+      "Internal-only resources",
+      "No device VPN on BYOD",
+      "App can't route in",
+      "Blocked mobile access"
+    ]
+  },
+  "to": {
+    "label": "App-scoped tunnel",
+    "stat": "Gateway · connector · MAM apps"
+  },
+  "tagline": "ROUTE THE APP.  NOT THE WHOLE DEVICE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Tunnel Gateway",
+      "sub": "Linux-hosted"
+    },
+    {
+      "icon": "device",
+      "title": "App VPN",
+      "sub": "MAM apps only"
+    },
+    {
+      "icon": "shield",
+      "title": "Internal Reach",
+      "sub": "Intranet resources"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Health + usage"
+    }
+  ]
+}

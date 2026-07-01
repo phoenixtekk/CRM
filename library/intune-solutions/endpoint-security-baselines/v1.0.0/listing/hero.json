@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Endpoint Security", "color": "white", "size": "main" },
+    { "text": "Baselines", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "DEFAULT SETTINGS", "items": ["Unhardened OS", "Guesswork config", "No standard", "Drift over time"] },
+  "to": { "label": "Microsoft Intune", "stat": "Hardened to MS baseline" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Hardened by Default", "sub": "Hundreds of settings" },
+    { "icon": "chart", "title": "MS-Recommended", "sub": "Best-practice values" },
+    { "icon": "gear", "title": "Conflict-Aware", "sub": "Detect & resolve" },
+    { "icon": "device", "title": "Versioned", "sub": "Update with Microsoft" }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "CISEDIAG",
+  "slug": "cisco-ise-vpn-intune-diagnostics-toolkit",
+  "title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2495.0,
+  "tier": "T3",
+  "hook": "Find why the Cisco VPN + Intune handshake is failing — fast",
+  "problem": "When certificate VPN or ISE posture stops working, the failure hides across four layers &mdash; the Intune cert/profile, the Entra app, the EAP-TLS chain, and ISE authorization. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack so you isolate the failing layer in minutes instead of guessing &mdash; a self-guided troubleshooting playbook you keep and reuse.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the full Cisco-ISE-VPN + Intune signal path (cert issuance &rarr; profile apply &rarr; client connect &rarr; EAP-TLS &rarr; ISE posture/authorization) and the layered model behind the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune + Graph read access, device logs, the Secure Client/ISE live-log vantage points, an Entra app for compliance) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a structured root-cause decision tree by symptom (no cert, cert but no chain, client won't connect, EAP-TLS fails, connected but denied by posture), each with the exact checks and the layer it isolates.",
+    "<strong>5 PowerShell scripts</strong> &mdash; end-to-end diagnostic collection, certificate + chain validation, compliance/enrollment state check, VPN client + profile state check, and a consolidated diagnostics report.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the fix, plus Best Practices for repeatable triage and escalation to Cisco with the right evidence."
+  ],
+  "short": "A structured <strong>root-cause tree and diagnostic scripts</strong> for the Cisco Secure Client + ISE + Intune stack &mdash; isolate a failing cert, profile, EAP-TLS, or posture layer in minutes. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured root-cause tree and diagnostic scripts for the Cisco Secure Client + ISE + Intune stack — isolate a failing cert, profile, EAP-TLS, or posture layer in minutes.",
+  "meta_title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+  "meta_description": "Troubleshoot Cisco Secure Client VPN + ISE posture + Intune certificate failures with a layered root-cause tree and diagnostic scripts: cert, profile, EAP-TLS, authorization. Self-guided (Cisco specifics deferred to vendor docs).",
+  "bottom_line": "The failing layer of a Cisco VPN + ISE + Intune stack isolated in minutes &mdash; a structured playbook and scripts you keep and reuse on every incident.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Cisco VPN + ISE",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Diagnostics Toolkit",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Cert · EAP-TLS · Posture · Intune",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "GUESSWORK TRIAGE",
+      "items": [
+        "Four hidden layers",
+        "No clear signal path",
+        "Hours per incident",
+        "Blind escalation"
+      ]
+    },
+    "to": {
+      "label": "Layered root-cause tree",
+      "stat": "Isolate the failure fast"
+    },
+    "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Root-Cause Tree",
+        "sub": "By symptom"
+      },
+      {
+        "icon": "shield",
+        "title": "EAP-TLS",
+        "sub": "Chain checks"
+      },
+      {
+        "icon": "device",
+        "title": "Client State",
+        "sub": "Profile/cert"
+      },
+      {
+        "icon": "chart",
+        "title": "Report",
+        "sub": "Consolidated"
+      }
+    ]
+  },
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ]
+}

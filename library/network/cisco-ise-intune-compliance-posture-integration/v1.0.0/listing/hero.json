@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "ISE + Intune Posture",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Compliance-Gated Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "MDM Connector · NAC · Graph",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND NETWORK ACCESS",
+    "items": [
+      "Cert but non-compliant",
+      "No device posture",
+      "Unencrypted allowed",
+      "Static rules"
+    ]
+  },
+  "to": {
+    "label": "Compliance-gated NAC",
+    "stat": "Enrolled + compliant only"
+  },
+  "tagline": "CHECK IT.  DECIDE IT.  ENFORCE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "MDM Connector",
+      "sub": "ISE ↔ Intune"
+    },
+    {
+      "icon": "shield",
+      "title": "Posture",
+      "sub": "Compliance gate"
+    },
+    {
+      "icon": "device",
+      "title": "Enrollment",
+      "sub": "Real-time state"
+    },
+    {
+      "icon": "chart",
+      "title": "Decisions",
+      "sub": "Access report"
+    }
+  ]
+}

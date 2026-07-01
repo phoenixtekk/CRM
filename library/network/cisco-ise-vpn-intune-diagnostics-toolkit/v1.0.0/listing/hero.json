@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cisco VPN + ISE",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Diagnostics Toolkit",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Cert · EAP-TLS · Posture · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GUESSWORK TRIAGE",
+    "items": [
+      "Four hidden layers",
+      "No clear signal path",
+      "Hours per incident",
+      "Blind escalation"
+    ]
+  },
+  "to": {
+    "label": "Layered root-cause tree",
+    "stat": "Isolate the failure fast"
+  },
+  "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Root-Cause Tree",
+      "sub": "By symptom"
+    },
+    {
+      "icon": "shield",
+      "title": "EAP-TLS",
+      "sub": "Chain checks"
+    },
+    {
+      "icon": "device",
+      "title": "Client State",
+      "sub": "Profile/cert"
+    },
+    {
+      "icon": "chart",
+      "title": "Report",
+      "sub": "Consolidated"
+    }
+  ]
+}

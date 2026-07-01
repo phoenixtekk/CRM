@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Hybrid Identity",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "One Identity, Everywhere",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Active Directory · Entra Connect",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BROKEN BRIDGE",
+    "items": [
+      "Duplicate accounts",
+      "Broken sign-ins",
+      "Join failures",
+      "Sync errors"
+    ]
+  },
+  "to": {
+    "label": "Synchronized & secure",
+    "stat": "PHS/PTA · hybrid join · healthy"
+  },
+  "tagline": "ONE IDENTITY.  ON-PREM AND CLOUD.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Sync",
+      "sub": "AD ↔ Entra"
+    },
+    {
+      "icon": "key",
+      "title": "Auth Method",
+      "sub": "PHS / PTA / fed"
+    },
+    {
+      "icon": "device",
+      "title": "Hybrid Join",
+      "sub": "Devices joined"
+    },
+    {
+      "icon": "chart",
+      "title": "Sync Health",
+      "sub": "Monitored"
+    }
+  ]
+}

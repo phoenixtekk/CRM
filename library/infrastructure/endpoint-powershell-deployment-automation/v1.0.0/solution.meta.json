@@ -1,0 +1,38 @@
+{
+  "slug": "endpoint-powershell-deployment-automation",
+  "title": "Endpoint PowerShell Deployment & Patch Automation Toolkit",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "PSAUTO",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (automation toolkit spanning Intune/Graph + PowerShell deployment and patch tasks; conditional logic, scheduled runs)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PSAUTO-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PSAUTO-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PSAUTO-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PSAUTO-Complete-Solution.zip"
+  ],
+  "hero": "PSAUTO-hero.png"
+}

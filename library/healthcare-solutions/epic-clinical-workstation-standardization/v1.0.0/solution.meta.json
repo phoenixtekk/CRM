@@ -1,0 +1,42 @@
+{
+  "slug": "epic-clinical-workstation-standardization",
+  "title": "Epic Clinical Workstation Standardization & Peripheral Configuration with Microsoft Intune",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "EPICWS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: configure endpoints for Epic workflows (printing, peripherals, workstation standardization).",
+    "Scope: standardize clinical Windows workstations for Epic via Intune — device baseline + context-aware printer deployment (wristband/label/script/document), default printer mapping, scanners, signature pads, badge readers. Epic-internal print values deferred to Epic TS/UserWeb. White-label.",
+    "pricing: T3 (advanced) — multi-component standardization + peripheral/printing within one platform."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EPICWS-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-EPICWS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-EPICWS-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "EPICWS-Complete-Solution.zip"
+  ],
+  "hero": "EPICWS-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/epic-clinical-workstation-standardization",
+  "wiki_published": true
+}

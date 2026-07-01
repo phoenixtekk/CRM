@@ -1,0 +1,42 @@
+{
+  "slug": "epic-go-live-command-center-readiness",
+  "title": "Epic Go-Live & Command Center Endpoint Readiness Playbook",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "EPICGOLIVE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: support go-live and command center operations.",
+    "Scope: endpoint readiness + command-center operations playbook for an Epic go-live/upgrade/new-site activation — readiness criteria + validation sweep, go/no-go gate, command-center structure + dispatch, rapid day-1 fix runbooks, hypercare-to-steady-state handover. References the Epic-client/Imprivata/workstation solutions for deep config. White-label.",
+    "pricing: T3 (advanced) — operational readiness + event-management playbook spanning the fleet."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EPICGOLIVE-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-EPICGOLIVE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-EPICGOLIVE-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "EPICGOLIVE-Complete-Solution.zip"
+  ],
+  "hero": "EPICGOLIVE-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/epic-go-live-command-center-readiness",
+  "wiki_published": true
+}

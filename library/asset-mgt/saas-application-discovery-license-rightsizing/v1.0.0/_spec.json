@@ -1,0 +1,81 @@
+{
+  "sol": "SAASLIC",
+  "slug": "saas-application-discovery-license-rightsizing",
+  "title": "SaaS Application Discovery & License Right-Sizing",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (discover SaaS apps + right-size seats across sign-in/usage telemetry; moderate config, pilot-to-prod)."
+  ],
+  "hook": "Find the SaaS you're overpaying for — and right-size every seat",
+  "problem": "SaaS sprawl is the new shadow IT: teams buy apps directly, seats are bought and forgotten, and nobody has a full picture of SaaS spend. This solution gives you a repeatable way to <strong>discover SaaS applications and right-size licenses</strong> &mdash; surface what's actually in use from sign-in and usage telemetry, identify unused and duplicate seats, consolidate overlapping tools, and bring SaaS spend under control.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the SaaS sprawl problem, discovery via Entra ID sign-ins / app telemetry, the right-sizing levers (reclaim, consolidate, downgrade), and the ongoing review cycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID sign-in/usage data, app owner contacts, SaaS admin access where available, a spend baseline) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: discover SaaS apps and usage, map owners and spend, identify unused/duplicate/overlapping seats, right-size and consolidate, set a recurring review, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SaaS app/usage discovery (Entra ID sign-ins), seat-utilization validation, a SaaS spend and right-sizing report, safe remediation (flag/reclaim candidates), and a review-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>discover SaaS applications and right-size licenses</strong> &mdash; surface real usage from sign-in telemetry, reclaim unused and duplicate seats, consolidate overlapping tools, and bring SaaS spend under control. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to discover SaaS applications and right-size licenses — surface real usage, reclaim unused and duplicate seats, consolidate overlapping tools, control SaaS spend.",
+  "meta_title": "SaaS Application Discovery & License Right-Sizing",
+  "meta_description": "Discover SaaS apps and right-size licenses: usage from Entra ID sign-ins, reclaim unused/duplicate seats, consolidate overlapping tools, control SaaS spend. Self-guided, tested steps and scripts.",
+  "bottom_line": "SaaS spend under control &mdash; apps discovered, unused and duplicate seats reclaimed, overlapping tools consolidated &mdash; with a recurring review to keep it that way, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SaaS Right-Sizing",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Tame the Sprawl",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "SaaS · Entra ID Sign-Ins · Spend",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SAAS SPRAWL",
+      "items": [
+        "Direct buys",
+        "Forgotten seats",
+        "Overlapping tools",
+        "No spend picture"
+      ]
+    },
+    "to": {
+      "label": "Right-sized SaaS",
+      "stat": "Discovered · reclaimed · consolidated"
+    },
+    "tagline": "FIND THE SPRAWL.  RIGHT-SIZE THE SPEND.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Discover",
+        "sub": "Sign-in telemetry"
+      },
+      {
+        "icon": "key",
+        "title": "Reclaim",
+        "sub": "Unused seats"
+      },
+      {
+        "icon": "gear",
+        "title": "Consolidate",
+        "sub": "Overlaps"
+      },
+      {
+        "icon": "chart",
+        "title": "Spend",
+        "sub": "Controlled"
+      }
+    ]
+  }
+}

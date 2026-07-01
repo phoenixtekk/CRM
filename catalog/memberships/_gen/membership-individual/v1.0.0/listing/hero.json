@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Membership", "color": "white", "size": "main" },
+    { "text": "Individual", "color": "green", "size": "main" },
+    { "text": "All solutions, one plan", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "BUYING PER PROJECT", "items": ["Pay every time", "Re-research often", "No updates", "Budget spikes"] },
+  "to": { "label": "Phoenixtekk", "stat": "$499/mo · $5,988/yr" },
+  "tagline": "ACCESS.  EVERYTHING.  ALWAYS.",
+  "benefits": [
+    { "icon": "users", "title": "All Solutions", "sub": "Full library access" },
+    { "icon": "device", "title": "Guides + Scripts", "sub": "Download everything" },
+    { "icon": "chart", "title": "Monthly Releases", "sub": "New every month" },
+    { "icon": "gear", "title": "Solution Updates", "sub": "Always current" }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "SCCMTS",
+  "slug": "sccm-task-sequence-troubleshooting-status-messages",
+  "title": "SCCM Task Sequence Troubleshooting & Status Message Analysis",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (diagnostic runbook + tooling for Configuration Manager OSD task-sequence failures: status messages, smsts.log, exit codes; conditional logic).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Decode why the task sequence failed — read the status messages and smsts.log like an expert",
+  "problem": "When a Configuration Manager <strong>task sequence</strong> fails during OS deployment, the answer is buried in status messages, exit codes, and a sprawling <code>smsts.log</code> &mdash; and a stalled build blocks the whole rollout while engineers guess. This solution is a structured way to <strong>troubleshoot SCCM task sequences and analyze status messages</strong>: read task-sequence states and status message IDs correctly, parse <code>smsts.log</code> to the failing step, map common exit codes to root cause, and resolve the failure classes (content, drivers, network, app install, reboot) fast.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how task sequences report state, status message IDs and severities, where the logs live (<code>smsts.log</code> across phases), the failure classes, and the diagnose-then-resolve model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Configuration Manager access, status message queries / the Monitoring workspace, log access on the client/WinPE, symbol/exit-code references) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: locate the failing task-sequence step via status messages, pull and read <code>smsts.log</code> for that phase, map the exit code to a cause, apply the fix per failure class, re-run, and capture the resolution, then pilot the runbook and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; task-sequence + status-message discovery, deployment-state validation, a failure-summary and exit-code report, safe remediation helpers (retry/clean cache), and a scope/collection targeting helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A structured way to <strong>troubleshoot SCCM task sequences and analyze status messages</strong> &mdash; read task-sequence states and status message IDs, parse <code>smsts.log</code> to the failing step, map exit codes to root cause, and resolve failures fast. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured way to troubleshoot SCCM task sequences and analyze status messages — read task-sequence states and status message IDs, parse smsts.log to the failing step, map exit codes to root cause, and resolve failures fast.",
+  "meta_title": "SCCM Task Sequence Troubleshooting & Status Message Analysis",
+  "meta_description": "Troubleshoot Configuration Manager OSD task sequences: read task-sequence states and status message IDs, parse smsts.log to the failing step, map exit codes to root cause, and resolve failures by class. Self-guided, tested steps and scripts.",
+  "bottom_line": "SCCM task-sequence failures diagnosed to the exact step and exit code &mdash; status messages read correctly, <code>smsts.log</code> parsed, and each failure class resolved from a proven runbook &mdash; so OS deployments stop stalling, validated on real failures before you scale it out.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Task Sequence Troubleshooting",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Decode the Failure",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Configuration Manager · smsts.log · Status Messages",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STALLED OSD BUILDS",
+      "items": [
+        "Cryptic status IDs",
+        "Sprawling smsts.log",
+        "Unknown exit codes",
+        "Guessing engineers"
+      ]
+    },
+    "to": {
+      "label": "Diagnosed to root cause",
+      "stat": "Status IDs · logs · exit codes"
+    },
+    "tagline": "READ THE MESSAGE.  FIND THE STEP.  FIX THE CAUSE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Status Msgs",
+        "sub": "IDs + states"
+      },
+      {
+        "icon": "chip",
+        "title": "smsts.log",
+        "sub": "To failing step"
+      },
+      {
+        "icon": "gear",
+        "title": "Exit Codes",
+        "sub": "Mapped to cause"
+      },
+      {
+        "icon": "shield",
+        "title": "Resolve",
+        "sub": "By failure class"
+      }
+    ]
+  }
+}

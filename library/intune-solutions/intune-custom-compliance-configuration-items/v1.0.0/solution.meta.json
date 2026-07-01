@@ -1,0 +1,41 @@
+{
+  "slug": "intune-custom-compliance-configuration-items",
+  "title": "Intune Custom Compliance & Configuration Items (Scripted)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CUSTCOMP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (custom compliance policies with detection scripts + scripted configuration items/settings in Intune; conditional logic, JSON discovery rules).",
+    "Distinct from device-compliance-policies (standard built-in compliance); this is the SCRIPTED custom-compliance + configuration-items angle. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CUSTCOMP-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CUSTCOMP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CUSTCOMP-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CUSTCOMP-Solution.pdf",
+    "CUSTCOMP-Scripts.zip"
+  ],
+  "hero": "CUSTCOMP-hero.png"
+}
+

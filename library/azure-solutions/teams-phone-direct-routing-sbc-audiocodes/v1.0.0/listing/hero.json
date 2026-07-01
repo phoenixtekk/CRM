@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams Phone Direct Routing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "with AudioCodes SBC",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "pair · route · assign · validate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO PSTN IN TEAMS",
+    "items": [
+      "Separate phone system",
+      "No Direct Routing",
+      "Manual dial plans",
+      "One-way audio"
+    ]
+  },
+  "to": {
+    "label": "Teams Phone",
+    "stat": "SBC paired · calls flowing"
+  },
+  "tagline": "PAIR THE SBC.  ROUTE THE CALLS.  PICK UP IN TEAMS.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Direct Routing",
+      "sub": "SBC paired to Teams"
+    },
+    {
+      "icon": "gear",
+      "title": "Voice Routing",
+      "sub": "Routes · usages · policy"
+    },
+    {
+      "icon": "users",
+      "title": "User Enablement",
+      "sub": "Numbers + policies"
+    },
+    {
+      "icon": "shield",
+      "title": "Validated",
+      "sub": "Inbound/outbound + 911"
+    }
+  ]
+}

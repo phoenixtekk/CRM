@@ -1,0 +1,69 @@
+{
+  "solution": {
+    "slug": "phoenixtekk-support",
+    "title": "Phoenixtekk Support & Services",
+    "category_path": [
+      "Support & Services"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SUPPORT-CHAT30-001",
+      "name": "30-Day Chat Support",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 199.0,
+      "short_description": "<p>30 days of expert chat support over your preferred messaging app — SMS, WhatsApp, Teams, Slack, Telegram, or web.</p>",
+      "description": "<h3>30-Day Chat Support</h3><p>Thank you for purchasing <b>30-Day Chat Support</b>. You now have 30 days of direct chat access to our implementation team to help you deploy and operate your Phoenixtekk solution.</p><h4>What you get</h4><ul><li>Chat with our team over whatever messaging app you already use — SMS, WhatsApp, Microsoft Teams, Slack, Telegram, or the web.</li><li>Ask implementation questions, get unblocked, and validate your rollout.</li><li>Your 30-day window starts when your first session opens.</li></ul><h4>What happens next</h4><p>After checkout we'll reach out within one business day to open your session and send your chat or scheduling link — over your preferred messaging app (SMS, WhatsApp, Teams, Slack, Telegram, or web). Your download below is your Getting Started guide.</p><p><em>One-time purchase. Questions? support@phoenixtekk.com</em></p>",
+      "meta_title": "30-Day Chat Support — Phoenixtekk Support",
+      "meta_description": "30 days of expert chat support over your preferred messaging app — SMS, WhatsApp, Teams, Slack, Telegram, or web.",
+      "url_key": "support-30-day-chat",
+      "downloads": [
+        {
+          "title": "Getting Started (PDF)",
+          "source_type": "file",
+          "source": "Support-Chat30-Getting-Started.pdf"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SUPPORT-PRIORITY-001",
+      "name": "Priority Implementation Support",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 499.0,
+      "short_description": "<p>Priority, hands-on implementation support across your rollout — faster response and deeper help than standard chat.</p>",
+      "description": "<h3>Priority Implementation Support</h3><p>Thank you for purchasing <b>Priority Implementation Support</b>. You're now front-of-queue for hands-on help across your Phoenixtekk solution rollout.</p><h4>What you get</h4><ul><li>Priority response — your messages jump the queue.</li><li>Hands-on guidance through implementation, testing, and validation.</li><li>Chat over your preferred app, plus screen-share where it helps.</li></ul><h4>What happens next</h4><p>After checkout we'll reach out within one business day to open your session and send your chat or scheduling link — over your preferred messaging app (SMS, WhatsApp, Teams, Slack, Telegram, or web). Your download below is your Getting Started guide.</p><p><em>One-time purchase. Questions? support@phoenixtekk.com</em></p>",
+      "meta_title": "Priority Implementation Support — Phoenixtekk Support",
+      "meta_description": "Priority, hands-on implementation support across your rollout — faster response and deeper help than standard chat.",
+      "url_key": "support-priority-implementation",
+      "downloads": [
+        {
+          "title": "Getting Started (PDF)",
+          "source_type": "file",
+          "source": "Support-Priority-Getting-Started.pdf"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SUPPORT-CALL60-001",
+      "name": "Live Implementation Call (60 min)",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 250.0,
+      "short_description": "<p>A scheduled 60-minute live call with a Phoenixtekk implementation engineer to plan or troubleshoot your deployment.</p>",
+      "description": "<h3>Live Implementation Call (60 min)</h3><p>Thank you for purchasing a <b>Live Implementation Call (60 minutes)</b>. We'll get you on a call with an implementation engineer to plan, configure, or troubleshoot your deployment.</p><h4>What you get</h4><ul><li>One scheduled 60-minute live session with an implementation engineer.</li><li>Bring your environment specifics — we'll work through them with you.</li><li>We'll send a scheduling link to book a time that suits you.</li></ul><h4>What happens next</h4><p>After checkout we'll reach out within one business day to open your session and send your chat or scheduling link — over your preferred messaging app (SMS, WhatsApp, Teams, Slack, Telegram, or web). Your download below is your Getting Started guide.</p><p><em>One-time purchase. Questions? support@phoenixtekk.com</em></p>",
+      "meta_title": "Live Implementation Call (60 min) — Phoenixtekk Support",
+      "meta_description": "A scheduled 60-minute live call with a Phoenixtekk implementation engineer to plan or troubleshoot your deployment.",
+      "url_key": "support-live-call-60min",
+      "downloads": [
+        {
+          "title": "Getting Started (PDF)",
+          "source_type": "file",
+          "source": "Support-Call60-Getting-Started.pdf"
+        }
+      ]
+    }
+  ]
+}

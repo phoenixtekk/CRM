@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Macs, Full Parity",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · ABM · macOS",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MAC HANDOFF RISK",
+    "items": [
+      "ABM re-assignment",
+      "Profile rebuild",
+      "Shell parity",
+      "User disruption"
+    ]
+  },
+  "to": {
+    "label": "Clean Mac migration",
+    "stat": "ABM · re-enroll · parity"
+  },
+  "tagline": "REASSIGN.  RE-ENROLL.  REBUILD PARITY.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "ABM",
+      "sub": "Re-assign"
+    },
+    {
+      "icon": "gear",
+      "title": "Profiles",
+      "sub": "+ shell scripts"
+    },
+    {
+      "icon": "shield",
+      "title": "Parity",
+      "sub": "Same posture"
+    },
+    {
+      "icon": "chart",
+      "title": "Ringed",
+      "sub": "Validated"
+    }
+  ]
+}

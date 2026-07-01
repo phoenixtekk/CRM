@@ -1,0 +1,83 @@
+{
+  "sol": "CPAVPN",
+  "slug": "cisco-per-app-vpn-mobile-intune",
+  "title": "Cisco Secure Client Per-App VPN for Managed Mobile Devices (iOS/Android) via Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2495.0,
+  "tier": "T3",
+  "hook": "Tunnel only the apps that need it — on managed iPhones and Androids",
+  "problem": "A device-wide mobile VPN backhauls personal traffic, drains battery, and worries users. <strong>Per-app VPN</strong> tunnels only the managed business apps that need internal resources and leaves everything else direct. This solution builds <strong>Cisco Secure Client per-app VPN</strong> for iOS and Android through <strong>Microsoft Intune</strong> &mdash; associating specific managed apps to the VPN profile so the tunnel opens only for them, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how per-app VPN works on iOS and Android, the managed-app-to-VPN association, on-demand behavior, and where Intune's per-app VPN configuration meets the Cisco head-end.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment + managed apps, the Secure Client app + VPN profile, certificate or auth method, Entra ID groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the per-app VPN profile for iOS and Android, associate the named managed apps, assign to a pilot group, validate only those apps tunnel, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; per-app VPN readiness discovery, per-device app/VPN association validation, a per-app VPN coverage report, safe remediation of mis-scoped apps, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (managed app tunnels, other traffic direct), plus Best Practices for the managed-app model."
+  ],
+  "short": "Build <strong>Cisco Secure Client per-app VPN</strong> for iOS and Android through <strong>Intune</strong> so only named managed apps tunnel to internal resources &mdash; not the whole device &mdash; deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build Cisco Secure Client per-app VPN for iOS and Android through Intune so only named managed apps tunnel to internal resources — not the whole device — pilot-first.",
+  "meta_title": "Cisco Secure Client Per-App VPN for Managed Mobile Devices (iOS/Android) via Intune",
+  "meta_description": "Configure Cisco Secure Client per-app VPN for iOS and Android with Intune: managed-app-to-VPN association, on-demand tunneling, scoped access. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+  "bottom_line": "Only the business apps that need it tunnel to internal resources on managed mobiles &mdash; scoped by Intune, powered by Cisco Secure Client, and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Per-App VPN",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Cisco + Intune Mobile",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "iOS · Android · Managed Apps",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DEVICE-WIDE VPN",
+      "items": [
+        "Backhauls everything",
+        "Battery drain",
+        "Privacy worries",
+        "All-or-nothing"
+      ]
+    },
+    "to": {
+      "label": "Scoped per-app tunnel",
+      "stat": "Only the apps that need it"
+    },
+    "tagline": "SCOPE IT.  TUNNEL IT.  ONLY THAT.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "iOS/Android",
+        "sub": "Managed apps"
+      },
+      {
+        "icon": "lock",
+        "title": "Per-App VPN",
+        "sub": "Scoped tunnel"
+      },
+      {
+        "icon": "gear",
+        "title": "Association",
+        "sub": "App → VPN"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Scope report"
+      }
+    ]
+  },
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "rmm-monitoring-alert-tuning",
+  "title": "RMM Monitoring & Alert Tuning — Noise Reduction & Actionable Alerting",
+  "category": "Managed",
+  "category_slug": "managed",
+  "sol_code": "RMMTUNE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Microsoft Cloud Solution Architect (MSP) requirement: tune monitoring, alerting, and automation policies to reduce noise and surface real issues earlier.",
+    "Scope: a measurable methodology to tune an existing RMM's monitoring/alerting/automation — severity taxonomy, thresholds/hysteresis/auto-close, dedup/correlation, business-hours routing, alert-to-ticket mapping, self-heal automations, and a noise-reduction baseline. Vendor-agnostic. White-label.",
+    "pricing: T2 (standard) — focused single-platform tuning methodology."
+  ],
+  "products": [
+    {
+      "sku": "PTK-RMMTUNE-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-RMMTUNE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-RMMTUNE-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "RMMTUNE-Complete-Solution.zip"
+  ],
+  "hero": "RMMTUNE-hero.png",
+  "wiki_path": "solutions/managed/rmm-monitoring-alert-tuning",
+  "wiki_published": true
+}

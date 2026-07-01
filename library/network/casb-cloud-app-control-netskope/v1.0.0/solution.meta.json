@@ -1,0 +1,39 @@
+{
+  "slug": "casb-cloud-app-control-netskope",
+  "title": "CASB & Cloud App Control with Netskope",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSCASB",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (inline + API CASB across sanctioned/unsanctioned cloud apps; visibility, controls, DLP-adjacent policy, live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSCASB-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-NSCASB-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-NSCASB-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "NSCASB-Complete-Solution.zip"
+  ],
+  "hero": "NSCASB-hero.png"
+}

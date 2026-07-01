@@ -1,0 +1,38 @@
+{
+  "slug": "universal-print-deployment-migration",
+  "title": "Universal Print Deployment & Print-Server Retirement",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "UPRT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (multi-component: Universal Print service + connectors + Intune printer deployment, coexistence with existing print servers, cutover)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-UPRT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-UPRT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-UPRT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "UPRT-Complete-Solution.zip"
+  ],
+  "hero": "UPRT-hero.png"
+}

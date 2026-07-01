@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Group Policy to Intune",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Migrate Without Loss",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Settings Catalog · ADMX",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ON-PREM ONLY GPO",
+    "items": [
+      "LAN-bound policy",
+      "Unknown contents",
+      "No cloud reach",
+      "Drift & gaps"
+    ]
+  },
+  "to": {
+    "label": "Translated to Intune",
+    "stat": "Parity checked · ringed cutover"
+  },
+  "tagline": "INVENTORY.  TRANSLATE.  CUT OVER.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Inventory",
+      "sub": "Know what you have"
+    },
+    {
+      "icon": "chip",
+      "title": "Translate",
+      "sub": "Catalog + ADMX"
+    },
+    {
+      "icon": "shield",
+      "title": "Coexist",
+      "sub": "No policy fights"
+    },
+    {
+      "icon": "chart",
+      "title": "Parity",
+      "sub": "Verified cutover"
+    }
+  ]
+}

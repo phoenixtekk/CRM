@@ -1,0 +1,41 @@
+{
+  "slug": "ios-lock-down-profile-shared-devices-intune",
+  "title": "Implement iOS Lock Down Profile for iOS iPhones in Microsoft Intune for Shared Devices",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "IOSLD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Shaping note: the solution must cover how to USE, PROVISION, and LOG IN to BOTH a Shared device AND a Corporate device managed by Microsoft Intune.",
+    "Effort tier: T3 (lock-down configuration/restrictions profile for shared iPhones + dual provisioning models — shared no-user-affinity vs corporate user-affinity — plus enrollment, compliance, and end-user login/use flows).",
+    "Distinct from ios-iphone-shared-device-mode (IOSSDM = kiosk locked specifically to Cisco Webex). This product centers on the lock-down PROFILE itself and the dual shared-vs-corporate provisioning + login experience; do not duplicate the Webex-kiosk product. version_directive: New; branding: off (white-label)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IOSLD-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-IOSLD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-IOSLD-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "IOSLD-Solution.pdf",
+    "IOSLD-Scripts.zip"
+  ],
+  "hero": "IOSLD-hero.png"
+}

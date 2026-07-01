@@ -1,0 +1,82 @@
+{
+  "sol": "NSSSL",
+  "slug": "netskope-ssl-tls-inspection-decryption",
+  "title": "SSL/TLS Inspection & Decryption Rollout (Netskope)",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (decryption policy + certificate deployment + bypass management within Netskope; live-traffic sensitivity).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "See into encrypted traffic — safely, without breaking the apps that can't be decrypted",
+  "problem": "Almost all web traffic is encrypted, so without inspection your secure web gateway is largely blind. But turning on decryption carelessly breaks certificate-pinned apps and creates privacy and compliance problems. This solution delivers a safe <strong>SSL/TLS inspection and decryption rollout in Netskope</strong> &mdash; deploy the inspection certificate via Intune, build decryption policy with the right do-not-decrypt bypasses (banking, health, pinned apps), and validate before enforcing.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why decryption matters, how Netskope SSL/TLS inspection works, the inspection certificate trust chain, decryption policy and do-not-decrypt bypass categories, and privacy/compliance considerations.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Netskope tenant + SWG, the inspection certificate, Intune for cert deployment, a bypass list source, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: deploy the inspection certificate to endpoints, build decryption policy and bypass lists, steer pilot traffic, validate apps and user experience, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; certificate/decryption-readiness discovery, certificate-trust and decryption validation, a decryption coverage and bypass report, safe remediation (deploy/repair cert), and a target group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A safe <strong>SSL/TLS inspection and decryption rollout in Netskope</strong> &mdash; deploy the inspection certificate via Intune, build decryption policy with the right do-not-decrypt bypasses, and validate before enforcing. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A safe SSL/TLS inspection and decryption rollout in Netskope — deploy the inspection certificate via Intune, build decryption policy with the right do-not-decrypt bypasses, validate before enforcing.",
+  "meta_title": "SSL/TLS Inspection & Decryption Rollout (Netskope)",
+  "meta_description": "Roll out Netskope SSL/TLS inspection: deploy the inspection certificate via Intune, build decryption policy and do-not-decrypt bypasses, validate before enforcing. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "Encrypted traffic made inspectable &mdash; the inspection certificate trusted on every device, decryption policy enforced with the right bypasses for pinned/sensitive apps &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SSL Inspection",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "See the Encrypted",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · TLS Decryption",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ENCRYPTED BLIND SPOT",
+      "items": [
+        "Most traffic hidden",
+        "SWG flying blind",
+        "Pinned apps break",
+        "Privacy risk"
+      ]
+    },
+    "to": {
+      "label": "Inspected safely",
+      "stat": "Cert trusted · bypasses set"
+    },
+    "tagline": "DECRYPT WHAT YOU SHOULD.  BYPASS WHAT YOU MUST.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Inspection Cert",
+        "sub": "Intune-deployed"
+      },
+      {
+        "icon": "shield",
+        "title": "Decryption",
+        "sub": "Policy-driven"
+      },
+      {
+        "icon": "gear",
+        "title": "Bypasses",
+        "sub": "Pinned/sensitive"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

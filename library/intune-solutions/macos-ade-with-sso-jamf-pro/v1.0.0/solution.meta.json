@@ -1,0 +1,41 @@
+{
+  "slug": "macos-ade-with-sso-jamf-pro",
+  "title": "macOS Automated Device Enrollment with SSO (Jamf Pro + Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "JAMFADE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-15",
+  "updated": "2026-06-15",
+  "published_at": "2026-06-15",
+  "version_directive": "New",
+  "branding": "on",
+  "author_notes": [
+    "This solution much support with Jamf Pro Integration for MacOS device management.",
+    "Separate solution from macos-ade-with-sso (Intune-MDM): similar title, different architecture -> distinct product per the solution-identity rule."
+  ],
+  "products": [
+    {
+      "sku": "PTK-JAMFADE-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-JAMFADE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-JAMFADE-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "JAMFADE-Complete-Solution.zip"
+  ],
+  "hero": "JAMFADE-hero.png",
+  "wiki_path": "solutions/intune-solutions/macos-ade-with-sso-jamf-pro",
+  "wiki_published": true
+}

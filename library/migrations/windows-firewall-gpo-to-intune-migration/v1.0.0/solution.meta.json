@@ -1,0 +1,41 @@
+{
+  "slug": "windows-firewall-gpo-to-intune-migration",
+  "title": "Windows Firewall GPO to Intune Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "FWMIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (migrate Windows Defender Firewall rules from GPO to Intune endpoint security; conflict/loop avoidance, coexistence, ringed cutover).",
+    "Distinct from windows-firewall-management (net-new firewall config); this is the GPO-to-Intune migration angle. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-FWMIG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-FWMIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-FWMIG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "FWMIG-Solution.pdf",
+    "FWMIG-Scripts.zip"
+  ],
+  "hero": "FWMIG-hero.png"
+}
+

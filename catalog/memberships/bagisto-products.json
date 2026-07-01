@@ -1,0 +1,41 @@
+{
+  "solution": { "slug": "memberships", "title": "Phoenixtekk Memberships", "category_path": ["Memberships"], "version": "1.0.0" },
+  "products": [
+    {
+      "sku": "PTK-SUB-IND-001",
+      "name": "Membership — Individual",
+      "type": "simple",
+      "price": 499.00,
+      "url_key": "membership-individual",
+      "image": "SUBIND-hero.png",
+      "short_description": "<p><strong>$499/month</strong> (or $5,988/year). For consultants and individual admins — full access to every published Phoenixtekk solution, with new releases every month.</p>",
+      "description": "<h3>The whole library, for one monthly price</h3><p>Stop buying solutions one project at a time. The <strong>Individual</strong> membership gives a consultant or solo administrator access to <strong>every published Phoenixtekk solution</strong> — guides and PowerShell scripts included — plus every update and every new release while you're a member.</p><h4>What's included</h4><ul><li>Access to <strong>all published solutions</strong> in the catalog</li><li>Download every <strong>implementation guide</strong> (Word + PDF)</li><li>Download every <strong>PowerShell script</strong> pack</li><li><strong>Solution updates</strong> — your library stays current automatically</li><li><strong>Monthly new releases</strong> as the catalog grows</li></ul><h4>Why a membership?</h4><p>One predictable price instead of paying per solution or per consulting day. Everything is self-guided and tested, so you implement at your own pace and keep what you download.</p><h4>Pricing</h4><p><strong>$499 per month</strong>, or <strong>$5,988 per year</strong>. Cancel anytime.</p>",
+      "meta_title": "Phoenixtekk Membership — Individual ($499/mo)",
+      "meta_description": "Individual membership: full access to every Phoenixtekk solution, guides, and scripts, with monthly new releases. $499/month or $5,988/year."
+    },
+    {
+      "sku": "PTK-SUB-PRO-001",
+      "name": "Membership — Professional",
+      "type": "simple",
+      "price": 999.00,
+      "url_key": "membership-professional",
+      "image": "SUBPRO-hero.png",
+      "short_description": "<p><strong>$999/month</strong> (or $11,988/year). For MSPs and small IT teams — everything in Individual, plus commercial use rights, source files, templates, and frameworks.</p>",
+      "description": "<h3>Everything your team needs to deliver — to clients and internally</h3><p>The <strong>Professional</strong> membership is built for MSPs and small IT teams. It includes everything in Individual, plus the commercial rights, source files, and templates that let you deliver Phoenixtekk solutions as part of your own engagements.</p><h4>What's included</h4><ul><li><strong>Everything in Individual</strong> — full library, guides, scripts, updates, monthly releases</li><li><strong>Commercial use rights</strong> — deploy for clients</li><li><strong>Internal company use</strong> across your organization</li><li>Download <strong>source files</strong> and <strong>solution templates</strong></li><li><strong>DevOps work item templates</strong> and <strong>assessment frameworks</strong></li></ul><h4>Why a membership?</h4><p>Equip your whole team with a tested, repeatable delivery kit for one predictable price — far less than building it yourself or paying per-day consulting rates, and yours to reuse on every engagement.</p><h4>Pricing</h4><p><strong>$999 per month</strong>, or <strong>$11,988 per year</strong>. Cancel anytime.</p>",
+      "meta_title": "Phoenixtekk Membership — Professional ($999/mo)",
+      "meta_description": "Professional membership for MSPs and IT teams: everything in Individual plus commercial use, source files, templates, and frameworks. $999/month or $11,988/year."
+    },
+    {
+      "sku": "PTK-SUB-ENT-001",
+      "name": "Membership — Enterprise",
+      "type": "simple",
+      "price": 1499.00,
+      "url_key": "membership-enterprise",
+      "image": "SUBENT-hero.png",
+      "short_description": "<p><strong>$1,499/month</strong> (or $17,988/year). For enterprises — everything in Professional, plus enterprise licensing, multiple administrators, training rights, governance packages, and priority support.</p>",
+      "description": "<h3>Govern endpoint management at enterprise scale</h3><p>The <strong>Enterprise</strong> membership adds organization-wide licensing, multi-admin access, internal training rights, and governance to everything in Professional — for organizations standardizing endpoint management across many administrators and sites.</p><h4>What's included</h4><ul><li><strong>Everything in Professional</strong></li><li><strong>Enterprise licensing</strong> — organization-wide rights</li><li><strong>Multiple administrators</strong></li><li><strong>Internal training rights</strong></li><li><strong>Enterprise governance packages</strong> and <strong>architecture templates</strong></li><li><strong>Priority updates</strong> and <strong>Call Now / Fix Doc Now</strong> support</li></ul><h4>Why a membership?</h4><p>A single governed program that standardizes how your whole organization deploys Microsoft endpoint solutions — tested, documented, and owned by your team — for a fraction of enterprise consulting retainers.</p><h4>Pricing</h4><p><strong>$1,499 per month</strong>, or <strong>$17,988 per year</strong>. Cancel anytime.</p>",
+      "meta_title": "Phoenixtekk Membership — Enterprise ($1,499/mo)",
+      "meta_description": "Enterprise membership: everything in Professional plus enterprise licensing, multiple admins, training rights, governance packages, and priority support. $1,499/month."
+    }
+  ]
+}

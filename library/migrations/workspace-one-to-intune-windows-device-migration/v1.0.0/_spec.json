@@ -1,0 +1,81 @@
+{
+  "sol": "WS1WIN",
+  "slug": "workspace-one-to-intune-windows-device-migration",
+  "title": "Workspace ONE to Intune — Windows Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (Windows estate unenroll/re-enroll from Workspace ONE to Intune with profile/compliance parity and ringed cutover; live-device risk)."
+  ],
+  "hook": "Move Windows devices from Workspace ONE to Intune — re-enrolled, compliant, and unbroken",
+  "problem": "Migrating Windows endpoints off Workspace ONE means cleanly removing the old management, enrolling into <strong>Intune</strong>, and landing the same configuration, compliance, and security &mdash; without users losing access or a device ending up managed by neither (or both). This solution is the repeatable <strong>Workspace ONE to Intune Windows device migration</strong>: prepare identity and enrollment, achieve profile/compliance parity, unenroll and re-enroll in controlled rings, and validate each device before moving on.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Windows migration model, unenroll-from-Workspace-ONE / enroll-to-Intune flow (Entra join + automatic enrollment), profile and compliance parity, Conditional Access continuity, and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Windows automatic enrollment, Workspace ONE admin access, the Windows baseline/parity target, a pilot group, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: confirm identity/enrollment, build parity configuration in Intune, unenroll from Workspace ONE and enroll to Intune by ring, validate configuration/compliance/access per device, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Windows migration-readiness discovery, per-device enrollment/parity validation, a migration status and compliance report, safe remediation of dual/failed enrollment, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The repeatable <strong>Workspace ONE to Intune Windows device migration</strong> &mdash; prepare identity and enrollment, achieve profile/compliance parity, unenroll and re-enroll in controlled rings, and validate each device. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The repeatable Workspace ONE to Intune Windows device migration — prepare identity and enrollment, achieve profile/compliance parity, unenroll and re-enroll in controlled rings, and validate each device.",
+  "meta_title": "Workspace ONE to Intune — Windows Device Migration",
+  "meta_description": "Migrate Windows devices from Workspace ONE to Intune: identity/enrollment prep, profile and compliance parity, ringed unenroll/re-enroll, and per-device validation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Windows devices moved from Workspace ONE to Intune &mdash; re-enrolled with full configuration and compliance parity, access uninterrupted, none left dual- or un-managed &mdash; proven on a pilot ring before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Windows Migration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Re-Enrolled, Unbroken",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · Windows",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MESSY HANDOFF",
+      "items": [
+        "Dual-managed risk",
+        "Lost configuration",
+        "Access breaks",
+        "No parity"
+      ]
+    },
+    "to": {
+      "label": "Clean re-enrollment",
+      "stat": "Parity · ringed · validated"
+    },
+    "tagline": "UNENROLL.  RE-ENROLL.  KEEP PARITY.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Re-Enroll",
+        "sub": "Entra + Intune"
+      },
+      {
+        "icon": "shield",
+        "title": "Parity",
+        "sub": "Config + compliance"
+      },
+      {
+        "icon": "chart",
+        "title": "Rings",
+        "sub": "Controlled cutover"
+      },
+      {
+        "icon": "gear",
+        "title": "Validated",
+        "sub": "Per device"
+      }
+    ]
+  }
+}

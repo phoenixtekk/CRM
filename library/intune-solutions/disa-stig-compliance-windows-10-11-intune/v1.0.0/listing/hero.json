@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "DISA STIG",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Windows 10 & 11 Hardening",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Intune · Settings Catalog · Compliance",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL STIG BURDEN",
+    "items": [
+      "Hundreds of rules",
+      "Quarterly re-checks",
+      "GPO-era, LAN-bound",
+      "Audit exposure"
+    ]
+  },
+  "to": {
+    "label": "Hardened & maintained",
+    "stat": "Compliant · proven · current"
+  },
+  "tagline": "HARDEN TO STIG.  PROVE IT.  KEEP IT CURRENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "STIG Baseline",
+      "sub": "CAT I/II/III"
+    },
+    {
+      "icon": "gear",
+      "title": "Intune Policy",
+      "sub": "Catalog + ADMX"
+    },
+    {
+      "icon": "chart",
+      "title": "Compliance",
+      "sub": "Posture + drift"
+    },
+    {
+      "icon": "key",
+      "title": "Maintained",
+      "sub": "STIG releases"
+    }
+  ]
+}

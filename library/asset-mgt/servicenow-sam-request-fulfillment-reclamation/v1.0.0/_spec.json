@@ -1,0 +1,82 @@
+{
+  "sol": "SNOWSAM",
+  "slug": "servicenow-sam-request-fulfillment-reclamation",
+  "title": "ServiceNow SAM — Request Fulfillment & License Reclamation Workflow",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (ServiceNow SAM/ITAM workflow design: intake, fulfillment, entitlement, reclamation; platform-specific, multi-stakeholder).",
+    "Non-Microsoft platform; ServiceNow SAM module specifics are deferred to ServiceNow's official docs (don't invent)."
+  ],
+  "hook": "Run software requests and reclamation as a clean ServiceNow workflow",
+  "problem": "When software requests live in email and reclamation never happens, the service desk drowns and licenses leak. This solution designs a repeatable <strong>ServiceNow SAM workflow</strong> for the full request lifecycle &mdash; intake and triage, entitlement and fulfillment, and automated reclamation of unused licenses &mdash; with the catalog items, workflows, and reporting that turn license operations into a measured, auditable process.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the ServiceNow SAM/ITAM model, the request lifecycle (intake &rarr; triage &rarr; entitlement &rarr; fulfillment &rarr; reclamation), catalog items and workflows, and reporting.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a ServiceNow instance with SAM/ITAM, entitlement/CMDB data, discovery integration, roles and approvals) with how to <em>verify</em> and how to <em>implement</em> each if missing. ServiceNow-specific configuration is deferred to ServiceNow's documentation.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define the catalog items and intake, build triage and fulfillment workflows, wire entitlement and reclamation, set reporting and KPIs, then pilot, validate, and expand.",
+    "<strong>5 PowerShell/integration scripts</strong> &mdash; request/entitlement discovery helper, fulfillment-data validation, a request and reclamation report, safe remediation of stale entitlements, and a scope/assignment helper. (ServiceNow data via the Table API where available.)",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Design a repeatable <strong>ServiceNow SAM workflow</strong> for the full request lifecycle &mdash; intake and triage, entitlement and fulfillment, and automated reclamation &mdash; with the catalog items, workflows, and reporting that make license operations measured and auditable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design a repeatable ServiceNow SAM workflow for the full request lifecycle — intake and triage, entitlement and fulfillment, and automated reclamation — with catalog items, workflows, and reporting.",
+  "meta_title": "ServiceNow SAM — Request Fulfillment & License Reclamation Workflow",
+  "meta_description": "Design a ServiceNow SAM workflow: request intake/triage, entitlement and fulfillment, automated license reclamation, catalog items, and reporting. Self-guided, tested steps and scripts.",
+  "bottom_line": "Software requests and reclamation run as a clean, auditable ServiceNow workflow &mdash; intake to fulfillment to reclamation &mdash; so the service desk keeps pace and licenses stop leaking, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "ServiceNow SAM",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Requests to Reclamation",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "ServiceNow · SAM · ITAM Workflow",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "REQUESTS IN EMAIL",
+      "items": [
+        "Drowning desk",
+        "No reclamation",
+        "License leakage",
+        "Unauditable"
+      ]
+    },
+    "to": {
+      "label": "Clean workflow",
+      "stat": "Intake · fulfill · reclaim"
+    },
+    "tagline": "REQUEST TO RECLAMATION, ONE WORKFLOW.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Intake",
+        "sub": "Catalog + triage"
+      },
+      {
+        "icon": "key",
+        "title": "Fulfill",
+        "sub": "Entitlement"
+      },
+      {
+        "icon": "chart",
+        "title": "Reclaim",
+        "sub": "Automated"
+      },
+      {
+        "icon": "shield",
+        "title": "Auditable",
+        "sub": "Reported"
+      }
+    ]
+  }
+}

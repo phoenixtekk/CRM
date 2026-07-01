@@ -1,0 +1,81 @@
+{
+  "sol": "IMGLIFE",
+  "slug": "endpoint-imaging-inventory-lifecycle",
+  "title": "Endpoint Imaging, Inventory & Hardware Lifecycle Management",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (lifecycle process spanning provisioning method, hardware inventory, and retirement; Autopilot vs imaging decision, asset tracking)."
+  ],
+  "hook": "A clean lifecycle for every device — from procurement to provisioning to retirement",
+  "problem": "Without a defined lifecycle, devices appear and vanish off the books: nobody knows what was bought, what's deployed, what's idle in a drawer, or what was retired without being wiped. Imaging is done ad hoc, inventory lives in a stale spreadsheet, and audits are painful. This solution gives you a repeatable <strong>endpoint imaging, inventory, and hardware lifecycle</strong> &mdash; a clear provisioning method (cloud provisioning with Windows Autopilot, or task-sequence imaging where required), accurate hardware inventory, and a governed procure &rarr; deploy &rarr; refresh &rarr; retire flow.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the device lifecycle model, the provisioning decision (Windows Autopilot cloud provisioning vs. Configuration Manager task-sequence imaging), hardware inventory sources, and the procure/deploy/refresh/retire flow with secure wipe.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune and/or Configuration Manager, Entra ID, Autopilot or imaging infrastructure, an inventory source of truth, retirement/wipe process) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: choose and stand up the provisioning method, register/import devices, establish inventory and reconcile it, define refresh criteria, implement secure retirement/wipe, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; hardware/inventory discovery, provisioning/inventory validation, a lifecycle and asset reconciliation report, safe remediation (retire/wipe helper, -WhatIf default), and a lifecycle-stage group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>endpoint imaging, inventory, and hardware lifecycle</strong> &mdash; a clear provisioning method (Autopilot or imaging), accurate inventory, and a governed procure &rarr; deploy &rarr; refresh &rarr; retire flow with secure wipe. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable endpoint imaging, inventory, and hardware lifecycle — a clear provisioning method, accurate inventory, and a governed procure-deploy-refresh-retire flow with secure wipe.",
+  "meta_title": "Endpoint Imaging, Inventory & Hardware Lifecycle Management",
+  "meta_description": "Manage the endpoint lifecycle: Autopilot vs imaging provisioning, accurate hardware inventory, procure/deploy/refresh/retire flow, and secure wipe. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every device accounted for across its whole life &mdash; provisioned by a defined method, inventoried accurately, refreshed on criteria, and retired with a secure wipe &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Device Lifecycle",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Procure to Retire",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Autopilot · Imaging · Inventory",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DEVICES OFF THE BOOKS",
+      "items": [
+        "Ad hoc imaging",
+        "Stale spreadsheet",
+        "Idle in drawers",
+        "Wiped? unknown"
+      ]
+    },
+    "to": {
+      "label": "Governed lifecycle",
+      "stat": "Provisioned · inventoried · retired"
+    },
+    "tagline": "ACCOUNT FOR EVERY DEVICE.  CRADLE TO GRAVE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Provision",
+        "sub": "Autopilot / image"
+      },
+      {
+        "icon": "chart",
+        "title": "Inventory",
+        "sub": "Source of truth"
+      },
+      {
+        "icon": "gear",
+        "title": "Refresh",
+        "sub": "On criteria"
+      },
+      {
+        "icon": "lock",
+        "title": "Retire",
+        "sub": "Secure wipe"
+      }
+    ]
+  }
+}

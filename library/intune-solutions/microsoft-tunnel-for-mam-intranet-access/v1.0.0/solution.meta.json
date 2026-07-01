@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-tunnel-for-mam-intranet-access",
+  "title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "TUNMAM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (deploy Microsoft Tunnel Gateway + Tunnel for MAM to route managed mobile-app traffic to internal/intranet resources; server + connector + network + client, higher infra/risk).",
+    "version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-TUNMAM-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-TUNMAM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-TUNMAM-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "TUNMAM-Solution.pdf",
+    "TUNMAM-Scripts.zip"
+  ],
+  "hero": "TUNMAM-hero.png"
+}
+

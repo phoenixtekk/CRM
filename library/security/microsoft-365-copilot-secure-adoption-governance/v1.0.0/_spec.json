@@ -1,0 +1,82 @@
+{
+  "sol": "COPILOT",
+  "slug": "microsoft-365-copilot-secure-adoption-governance",
+  "title": "Microsoft 365 Copilot Secure Adoption & Governance",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (secure Copilot rollout spanning data readiness/oversharing remediation, sensitivity labels, DLP, access controls, and AI governance; multi-service, higher data-exposure risk).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Roll out Microsoft 365 Copilot without turning oversharing into a data breach",
+  "problem": "Microsoft 365 Copilot is only as safe as the data it can see &mdash; and it can see everything the user can. Turn it on before you've fixed <strong>oversharing, missing sensitivity labels, and weak access controls</strong> and it will happily surface confidential files, HR data, and stale content to anyone who asks. This solution gives you a repeatable way to <strong>adopt Microsoft 365 Copilot securely</strong>: assess and remediate oversharing, apply sensitivity labels and DLP so Copilot respects them, tighten access, and put AI governance and a phased rollout in place before you scale.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Copilot accesses M365 data (the user's permissions + semantic index), the oversharing risk, how sensitivity labels and DLP constrain Copilot, the access-control and AI-governance model, and the phased adoption approach.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Copilot licensing, Microsoft 365 + Purview, Entra ID, SharePoint/OneDrive access review, sensitivity labels, a pilot group, governance owners) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: assess oversharing and access, remediate (restrict sharing, apply labels, clean up), configure DLP and label-based protections Copilot honors, set AI-governance guardrails and acceptable-use, pilot with a controlled group, validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Copilot-readiness + oversharing discovery, per-scope access/label validation, a data-exposure and readiness report, safe remediation of oversharing, and a Copilot pilot scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>adopt Microsoft 365 Copilot securely</strong> &mdash; remediate oversharing, apply sensitivity labels and DLP so Copilot respects them, tighten access, and put AI governance and a phased rollout in place. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to adopt Microsoft 365 Copilot securely — remediate oversharing, apply sensitivity labels and DLP so Copilot respects them, tighten access, and put AI governance and a phased rollout in place.",
+  "meta_title": "Microsoft 365 Copilot Secure Adoption & Governance",
+  "meta_description": "Adopt Microsoft 365 Copilot securely: oversharing assessment and remediation, sensitivity labels + DLP that Copilot honors, access controls, AI governance, and a phased rollout. Self-guided, tested steps and scripts.",
+  "bottom_line": "Microsoft 365 Copilot rolled out on a governed data estate &mdash; oversharing remediated, sensitivity labels and DLP enforced so Copilot respects them, access tightened, and AI-use governed &mdash; proven on a controlled pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Copilot Secure Adoption",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Govern Before You Roll Out",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft 365 · Purview · AI Governance",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OVERSHARING RISK",
+      "items": [
+        "Copilot sees all",
+        "Unlabeled data",
+        "Weak access",
+        "No AI governance"
+      ]
+    },
+    "to": {
+      "label": "Governed & safe",
+      "stat": "Remediated · labeled · governed"
+    },
+    "tagline": "FIX OVERSHARING FIRST.  THEN TURN ON COPILOT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Oversharing",
+        "sub": "Assessed + fixed"
+      },
+      {
+        "icon": "lock",
+        "title": "Labels + DLP",
+        "sub": "Copilot honors"
+      },
+      {
+        "icon": "users",
+        "title": "Access",
+        "sub": "Tightened"
+      },
+      {
+        "icon": "gear",
+        "title": "AI Governance",
+        "sub": "Guardrails"
+      }
+    ]
+  }
+}

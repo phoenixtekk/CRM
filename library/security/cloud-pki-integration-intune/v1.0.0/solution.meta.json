@@ -1,0 +1,41 @@
+{
+  "slug": "cloud-pki-integration-intune",
+  "title": "Cloud PKI Integration with Intune (Certificate Management Modernization)",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "CPKI",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (modernize certificate management to a cloud PKI integrated with Intune; connector/plugin, SCEP/PKCS issuance, trust chain, migration off legacy CA; higher risk to auth).",
+    "Vendor-neutral: specific cloud-PKI product internals deferred to the vendor's documentation. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CPKI-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CPKI-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CPKI-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CPKI-Solution.pdf",
+    "CPKI-Scripts.zip"
+  ],
+  "hero": "CPKI-hero.png"
+}
+

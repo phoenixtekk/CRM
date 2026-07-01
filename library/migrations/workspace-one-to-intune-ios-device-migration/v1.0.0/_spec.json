@@ -1,0 +1,81 @@
+{
+  "sol": "WS1IOS",
+  "slug": "workspace-one-to-intune-ios-device-migration",
+  "title": "Workspace ONE to Intune — iOS/iPadOS Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (iOS/iPadOS re-enrollment from Workspace ONE incl. ABM/ADE re-assignment, supervised parity; wipe-and-re-enroll realities, live-device risk)."
+  ],
+  "hook": "Move iPhones and iPads from Workspace ONE to Intune — with Apple Business Manager done right",
+  "problem": "Apple devices are the trickiest part of a Workspace ONE exit: supervised, ADE-enrolled iPhones and iPads must be <strong>re-assigned in Apple Business Manager</strong> and re-enrolled into <strong>Intune</strong> &mdash; often a wipe-and-re-enroll &mdash; with app and profile parity and minimal user disruption. This solution is the repeatable <strong>Workspace ONE to Intune iOS/iPadOS migration</strong>: ABM MDM-server re-assignment, Intune enrollment profiles, app/profile parity, and a ringed cutover with clear user comms.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Apple migration model, moving devices in Apple Business Manager from the Workspace ONE MDM server to Intune, supervised ADE re-enrollment (and the wipe-and-re-enroll reality), app/profile parity, and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Apple Business Manager + the Apple MDM Push (APNs) certificate and ADE token, Workspace ONE/ABM admin access, app/profile parity target, a pilot group, user comms) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: connect ABM to Intune, build Intune enrollment profiles, reassign devices in ABM, re-enroll (wipe where required) by ring, restore app/profile parity, validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; iOS migration-readiness discovery, per-device enrollment/supervision/parity validation, a migration status and app-parity report, safe remediation of stuck enrollments, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The repeatable <strong>Workspace ONE to Intune iOS/iPadOS migration</strong> &mdash; Apple Business Manager MDM-server re-assignment, Intune enrollment profiles, app/profile parity, and a ringed cutover with clear user comms. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The repeatable Workspace ONE to Intune iOS/iPadOS migration — Apple Business Manager re-assignment, Intune enrollment profiles, app/profile parity, and a ringed cutover with clear user comms.",
+  "meta_title": "Workspace ONE to Intune — iOS/iPadOS Device Migration",
+  "meta_description": "Migrate iPhones and iPads from Workspace ONE to Intune: Apple Business Manager MDM-server re-assignment, supervised ADE re-enrollment, app/profile parity, ringed cutover. Self-guided, tested steps and scripts.",
+  "bottom_line": "iPhones and iPads moved from Workspace ONE to Intune &mdash; re-assigned in Apple Business Manager, re-enrolled supervised with app and profile parity, and cut over by ring with clear user comms &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "iOS Migration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Apple Done Right",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · ABM/ADE",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "APPLE IS TRICKY",
+      "items": [
+        "Supervised re-enroll",
+        "ABM re-assignment",
+        "Wipe realities",
+        "User disruption"
+      ]
+    },
+    "to": {
+      "label": "Clean Apple migration",
+      "stat": "ABM · supervised · parity"
+    },
+    "tagline": "REASSIGN IN ABM.  RE-ENROLL IN INTUNE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "ABM",
+        "sub": "MDM re-assign"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Supervised",
+        "sub": "ADE re-enroll"
+      },
+      {
+        "icon": "gear",
+        "title": "Parity",
+        "sub": "Apps + profiles"
+      },
+      {
+        "icon": "chart",
+        "title": "Ringed",
+        "sub": "With comms"
+      }
+    ]
+  }
+}

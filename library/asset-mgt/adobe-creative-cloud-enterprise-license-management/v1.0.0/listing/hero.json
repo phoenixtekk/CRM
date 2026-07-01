@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Adobe CC Licensing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Match Spend to Need",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Adobe Admin Console · Creative Cloud",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ADOBE SEAT WASTE",
+    "items": [
+      "Forgotten seats",
+      "Over-provisioned",
+      "Ad hoc reassign",
+      "High spend"
+    ]
+  },
+  "to": {
+    "label": "Right-sized seats",
+    "stat": "Assigned · reclaimed · reviewed"
+  },
+  "tagline": "BRING ADOBE LICENSING UNDER CONTROL.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Assignment",
+      "sub": "Product profiles"
+    },
+    {
+      "icon": "key",
+      "title": "Reclaim",
+      "sub": "Unused seats"
+    },
+    {
+      "icon": "chart",
+      "title": "Right-Size",
+      "sub": "Usage-based"
+    },
+    {
+      "icon": "gear",
+      "title": "Review",
+      "sub": "Recurring"
+    }
+  ]
+}

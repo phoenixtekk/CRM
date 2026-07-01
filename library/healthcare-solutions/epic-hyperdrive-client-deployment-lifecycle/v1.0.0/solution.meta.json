@@ -1,0 +1,42 @@
+{
+  "slug": "epic-hyperdrive-client-deployment-lifecycle",
+  "title": "Epic Hyperdrive & Hyperspace Client Deployment & Lifecycle Management with Microsoft Intune",
+  "category": "Healthcare Solutions",
+  "category_slug": "healthcare-solutions",
+  "sol_code": "EPICCLIENT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Senior Endpoint Engineer (healthcare/Epic) requirement: lead Epic client deployment & lifecycle (Hyperspace/Hyperdrive).",
+    "Scope: package, deploy, ring, validate, supersede, and retire the Epic clinical client (Hyperdrive + legacy Hyperspace) via Microsoft Intune Win32 (and ConfigMgr co-management). Epic-internal installer/version values deferred to the customer's Epic Technical Services / UserWeb. White-label.",
+    "pricing: T4 (project/migration) — multi-phase packaging + rings + lifecycle across a clinical fleet."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EPICCLIENT-COMM-001",
+      "audience": "commercial",
+      "price": 3495.0
+    },
+    {
+      "sku": "PTK-EPICCLIENT-NPO-001",
+      "audience": "nonprofit",
+      "price": 2097.0
+    },
+    {
+      "sku": "PTK-EPICCLIENT-GOV-001",
+      "audience": "government",
+      "price": 2970.75
+    }
+  ],
+  "deliverables": [
+    "EPICCLIENT-Complete-Solution.zip"
+  ],
+  "hero": "EPICCLIENT-hero.png",
+  "wiki_path": "solutions/healthcare-solutions/epic-hyperdrive-client-deployment-lifecycle",
+  "wiki_published": true
+}

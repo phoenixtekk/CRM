@@ -1,0 +1,56 @@
+{
+  "_comment": "white-label",
+  "title_lines": [
+    {
+      "text": "Shared Clinical Devices",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "WOWs · Kiosks · Tablets",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "self-deploy · shared-PC · kiosk · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DRIFTING SHARED CARTS",
+    "items": [
+      "Hand-built carts",
+      "Slow multi-user logon",
+      "Sleeping WOWs",
+      "No standard"
+    ]
+  },
+  "to": {
+    "label": "Microsoft Intune",
+    "stat": "Self-deployed · standardized · locked"
+  },
+  "tagline": "ANY SHIFT.  ANY USER.  ALWAYS READY.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Self-Deploying",
+      "sub": "Autopilot, hands-off carts"
+    },
+    {
+      "icon": "users",
+      "title": "Shared PC Mode",
+      "sub": "Fast multi-user logon"
+    },
+    {
+      "icon": "lock",
+      "title": "Kiosk Lock-down",
+      "sub": "Single/multi-app where apt"
+    },
+    {
+      "icon": "chip",
+      "title": "WOW Always-On",
+      "sub": "Awake on the cart"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "phoenixtekk/b2b-marketplace",
+    "description": "Phoenixtekk B2B Marketplace for Bagisto — supplier companies, supplier registration & approval, RFQ system, supplier dashboard, and company accounts. Original implementation, native Bagisto package.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        { "name": "Phoenixtekk", "homepage": "https://workplace.phoenixtekk.com" }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phoenixtekk\\B2BMarketplace\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phoenixtekk\\B2BMarketplace\\Providers\\B2BMarketplaceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

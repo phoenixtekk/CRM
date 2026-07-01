@@ -1,0 +1,82 @@
+{
+  "sol": "AZSEC",
+  "slug": "azure-security-baseline-governance",
+  "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (Azure governance: Azure Policy guardrails, least-privilege RBAC, secure-config baseline, Defender for Cloud; multi-service, org-wide).",
+    "version_directive: New; branding: off."
+  ],
+  "hook": "Put guardrails on Azure — secure configuration, least privilege, and policy that enforces itself",
+  "problem": "An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline &mdash; exactly what Defender for Cloud and auditors flag. This solution gives you a repeatable <strong>Azure security baseline and governance</strong>: Azure Policy guardrails that prevent and audit misconfiguration, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve secure posture continuously.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Azure governance model (management groups, Azure Policy initiatives, RBAC least-privilege), the secure-configuration baseline, and Defender for Cloud secure score / regulatory compliance.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (an Azure subscription/tenant, Entra ID, Owner/Policy contributor rights, a governance/scope design, Defender for Cloud plan, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: define scope (management groups/subscriptions), assign Azure Policy guardrail initiatives (audit then deny), tighten RBAC to least privilege, apply the secure-config baseline, enable Defender for Cloud and remediate top findings, validate, pilot, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Azure policy/RBAC/secure-config discovery, compliance and least-privilege validation, a governance posture and drift report, safe remediation of over-privilege/misconfig, and a scope/management-group targeting helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>Azure security baseline and governance</strong> &mdash; Azure Policy guardrails, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve posture continuously. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable Azure security baseline and governance — Azure Policy guardrails, least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud to measure and improve posture continuously.",
+  "meta_title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+  "meta_description": "Govern Azure with guardrails: Azure Policy initiatives (audit-then-deny), least-privilege RBAC, a secure-configuration baseline, and Defender for Cloud secure-score remediation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Azure under governance &mdash; policy guardrails preventing misconfiguration, RBAC at least privilege, a secure-config baseline applied, and Defender for Cloud posture improving &mdash; instead of drift and audit findings, proven on a pilot scope before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Azure Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Guardrails That Enforce",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Azure · Azure Policy · Defender for Cloud",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED AZURE",
+      "items": [
+        "Over-privileged owners",
+        "Public storage",
+        "No baseline",
+        "Config drift"
+      ]
+    },
+    "to": {
+      "label": "Governed & secure",
+      "stat": "Policy · least-privilege · posture"
+    },
+    "tagline": "GUARDRAIL IT.  LEAST-PRIVILEGE IT.  MEASURE IT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Azure Policy",
+        "sub": "Audit then deny"
+      },
+      {
+        "icon": "users",
+        "title": "RBAC",
+        "sub": "Least privilege"
+      },
+      {
+        "icon": "gear",
+        "title": "Baseline",
+        "sub": "Secure config"
+      },
+      {
+        "icon": "chart",
+        "title": "Defender",
+        "sub": "Secure score"
+      }
+    ]
+  }
+}

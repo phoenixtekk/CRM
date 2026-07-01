@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Epic Clinical Workstations",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Standardized + Peripherals",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "baseline · printers · scanners · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HAND-BUILT WORKSTATIONS",
+    "items": [
+      "Inconsistent builds",
+      "Wrong default printer",
+      "Missing label stock",
+      "Peripheral chaos"
+    ]
+  },
+  "to": {
+    "label": "Microsoft Intune",
+    "stat": "Standardized · Epic-ready"
+  },
+  "tagline": "ONE BASELINE.  EVERY UNIT.  PRINTS FIRST TIME.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Device Baseline",
+      "sub": "Consistent config"
+    },
+    {
+      "icon": "gear",
+      "title": "Printer Deploy",
+      "sub": "Label · script · doc"
+    },
+    {
+      "icon": "key",
+      "title": "Default Printer",
+      "sub": "Mapped per unit"
+    },
+    {
+      "icon": "chart",
+      "title": "Peripherals",
+      "sub": "Scanners · sig pads"
+    }
+  ]
+}

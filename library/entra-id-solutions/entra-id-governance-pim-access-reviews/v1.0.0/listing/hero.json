@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra ID Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Least, Timed, Provable",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Entra · PIM · Access Reviews · Entitlement",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STANDING ADMIN",
+    "items": [
+      "Always-on admin",
+      "Access never reviewed",
+      "No approvals",
+      "Audit fails"
+    ]
+  },
+  "to": {
+    "label": "Just-in-time & reviewed",
+    "stat": "PIM · reviews · access packages"
+  },
+  "tagline": "ACTIVATE WHEN NEEDED.  RECERTIFY.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "PIM",
+      "sub": "Just-in-time"
+    },
+    {
+      "icon": "users",
+      "title": "Access Reviews",
+      "sub": "Recertify"
+    },
+    {
+      "icon": "gear",
+      "title": "Entitlement",
+      "sub": "Packages + expiry"
+    },
+    {
+      "icon": "shield",
+      "title": "Least Privilege",
+      "sub": "Provable"
+    }
+  ]
+}

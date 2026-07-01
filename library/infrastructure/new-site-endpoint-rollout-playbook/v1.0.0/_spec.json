@@ -1,0 +1,81 @@
+{
+  "sol": "NEWSITE",
+  "slug": "new-site-endpoint-rollout-playbook",
+  "title": "New-Site Endpoint Rollout Playbook",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (repeatable rollout program coordinating provisioning, baseline, apps, printing, and validation for a new location)."
+  ],
+  "hook": "Open a new office, clinic, or site with endpoints that work on day one",
+  "problem": "Standing up endpoints at a new location &mdash; a new clinic, branch, or acquired office &mdash; usually means reinventing the rollout each time, scrambling on go-live day, and discovering missing apps, printers, or network access when staff are already trying to work. This solution is a repeatable <strong>new-site endpoint rollout playbook</strong>: a sequenced program that provisions devices, applies your baseline, installs the site's apps and printers, validates connectivity and identity, and runs a go-live checklist &mdash; so every new site opens the same proven way.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the new-site rollout model, the dependency order (network/identity &rarr; provisioning &rarr; baseline &rarr; apps/printers &rarr; validation &rarr; go-live), and how it reuses your existing Intune standards.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, the site's network/identity readiness, your device baseline, the site app/printer set, a go-live window) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: confirm network/identity, build the site device group, provision devices, apply baseline, deploy site apps and printers, validate connectivity/identity/printing, run the go-live checklist, then expand to the next site.",
+    "<strong>5 PowerShell scripts</strong> &mdash; site-readiness discovery, per-device go-live validation, a site rollout status report, safe remediation of failed deployments, and a site device-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>new-site endpoint rollout playbook</strong> &mdash; a sequenced program that provisions devices, applies your baseline, deploys site apps and printers, validates, and runs a go-live checklist, so every new location opens the same proven way. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable new-site endpoint rollout playbook — provision devices, apply your baseline, deploy site apps and printers, validate, and run a go-live checklist so every new location opens the same way.",
+  "meta_title": "New-Site Endpoint Rollout Playbook",
+  "meta_description": "Roll out endpoints at a new office, clinic, or site: sequenced provisioning, baseline, site apps and printers, connectivity/identity validation, and a go-live checklist. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every new site opening with endpoints that work on day one &mdash; provisioned, baselined, app- and printer-ready, and validated against a go-live checklist &mdash; proven on a pilot site before you repeat it everywhere.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "New-Site Rollout",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Working on Day One",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Provisioning · Go-Live",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SCRAMBLE AT GO-LIVE",
+      "items": [
+        "Reinvented each time",
+        "Missing apps",
+        "No printers",
+        "Access surprises"
+      ]
+    },
+    "to": {
+      "label": "Repeatable playbook",
+      "stat": "Provisioned · validated · go-live"
+    },
+    "tagline": "OPEN ANY SITE.  THE SAME PROVEN WAY.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Provision",
+        "sub": "Site devices"
+      },
+      {
+        "icon": "gear",
+        "title": "Apps + Print",
+        "sub": "Site set"
+      },
+      {
+        "icon": "shield",
+        "title": "Validate",
+        "sub": "Connectivity + ID"
+      },
+      {
+        "icon": "chart",
+        "title": "Go-Live",
+        "sub": "Checklist gate"
+      }
+    ]
+  }
+}

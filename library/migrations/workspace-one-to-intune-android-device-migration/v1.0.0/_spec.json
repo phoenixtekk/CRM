@@ -1,0 +1,81 @@
+{
+  "sol": "WS1DROID",
+  "slug": "workspace-one-to-intune-android-device-migration",
+  "title": "Workspace ONE to Intune — Android Enterprise Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (Android Enterprise re-enrollment from Workspace ONE: work profile / fully managed, managed Google Play, app/profile parity; live-device risk)."
+  ],
+  "hook": "Move Android devices from Workspace ONE to Intune — the Android Enterprise way",
+  "problem": "Android migrations off Workspace ONE hinge on getting <strong>Android Enterprise</strong> right in <strong>Intune</strong>: the correct management mode (work profile for BYOD, fully managed / dedicated for corporate), <strong>managed Google Play</strong> app parity, and re-enrollment that usually means a factory reset for fully-managed devices. This solution is the repeatable <strong>Workspace ONE to Intune Android migration</strong>: connect managed Google Play, build the right enrollment profiles per mode, rebuild app/profile parity, and cut over by ring.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Android Enterprise migration model, the management modes (work profile, fully managed, dedicated), managed Google Play app parity, the re-enrollment reality (factory reset for fully managed), and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, the managed Google Play connection, Workspace ONE admin access, per-mode enrollment design, app/profile parity target, a pilot group, user comms) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: connect managed Google Play, build enrollment profiles per management mode, rebuild app/profile parity, re-enroll by ring (reset where required), validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Android migration-readiness discovery, per-device mode/enrollment/parity validation, a migration status and app-parity report, safe remediation of failed enrollments, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The repeatable <strong>Workspace ONE to Intune Android Enterprise migration</strong> &mdash; connect managed Google Play, build the right enrollment profiles per management mode, rebuild app/profile parity, and cut over by ring. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The repeatable Workspace ONE to Intune Android Enterprise migration — connect managed Google Play, build the right enrollment profiles per management mode, rebuild app/profile parity, and cut over by ring.",
+  "meta_title": "Workspace ONE to Intune — Android Enterprise Device Migration",
+  "meta_description": "Migrate Android devices from Workspace ONE to Intune: Android Enterprise modes (work profile / fully managed / dedicated), managed Google Play app parity, ringed re-enrollment. Self-guided, tested steps and scripts.",
+  "bottom_line": "Android devices moved from Workspace ONE to Intune the Android Enterprise way &mdash; correct management mode, managed Google Play app parity, and ringed re-enrollment &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android Migration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Android Enterprise Way",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · Android Enterprise",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MODE CONFUSION",
+      "items": [
+        "Wrong mgmt mode",
+        "App parity gaps",
+        "Reset re-enroll",
+        "User disruption"
+      ]
+    },
+    "to": {
+      "label": "Clean Android migration",
+      "stat": "Modes · Google Play · ringed"
+    },
+    "tagline": "RIGHT MODE.  REAL PARITY.  RINGED CUTOVER.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Modes",
+        "sub": "Profile/managed"
+      },
+      {
+        "icon": "cloud",
+        "title": "Google Play",
+        "sub": "App parity"
+      },
+      {
+        "icon": "chart",
+        "title": "Re-Enroll",
+        "sub": "By ring"
+      },
+      {
+        "icon": "shield",
+        "title": "Validated",
+        "sub": "Per device"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Application Control", "color": "white", "size": "main" },
+    { "text": "(WDAC)", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "ANY CODE RUNS", "items": ["Unknown binaries", "Untrusted scripts", "Malware executes", "No allowlist"] },
+  "to": { "label": "Microsoft Intune", "stat": "Allowlisted · Audit-first" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Allowlist Trusted", "sub": "Only approved code" },
+    { "icon": "chart", "title": "Audit First", "sub": "See before enforce" },
+    { "icon": "chip", "title": "Kernel-Enforced", "sub": "Hard to bypass" },
+    { "icon": "lock", "title": "Block Untrusted", "sub": "Stop malware execution" }
+  ]
+}

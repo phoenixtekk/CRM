@@ -1,0 +1,38 @@
+{
+  "slug": "workspace-one-to-intune-ios-device-migration",
+  "title": "Workspace ONE to Intune — iOS/iPadOS Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "WS1IOS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (iOS/iPadOS re-enrollment from Workspace ONE incl. ABM/ADE re-assignment, supervised parity; wipe-and-re-enroll realities, live-device risk)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WS1IOS-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-WS1IOS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-WS1IOS-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "WS1IOS-Complete-Solution.zip"
+  ],
+  "hero": "WS1IOS-hero.png"
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App Protection (MAM)",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Protect Data, Not the Phone",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · MAM · Microsoft 365 Apps",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BYOD DATA RISK",
+    "items": [
+      "Enrollment too intrusive",
+      "Data leaks from apps",
+      "No copy/paste control",
+      "No selective wipe"
+    ]
+  },
+  "to": {
+    "label": "Data protected in-app",
+    "stat": "Encryption · PIN · selective wipe"
+  },
+  "tagline": "PROTECT THE DATA.  LEAVE THE PHONE ALONE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "App Protection",
+      "sub": "In-app controls"
+    },
+    {
+      "icon": "lock",
+      "title": "Selective Wipe",
+      "sub": "Corp data only"
+    },
+    {
+      "icon": "device",
+      "title": "Unenrolled BYOD",
+      "sub": "No full MDM"
+    },
+    {
+      "icon": "gear",
+      "title": "CA Enforced",
+      "sub": "Approved app"
+    }
+  ]
+}

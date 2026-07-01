@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 Security Baseline",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Hardened & Audit-Ready",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft 365 · Secure Score · Compliance Manager",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CONFIGURED TO WORK",
+    "items": [
+      "Not to secure",
+      "No control evidence",
+      "Audit fire drills",
+      "Low Secure Score"
+    ]
+  },
+  "to": {
+    "label": "Baselined & evidenced",
+    "stat": "Hardened · mapped · evidenced"
+  },
+  "tagline": "HARDEN THE TENANT.  MAP THE CONTROLS.  KEEP THE EVIDENCE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Baseline",
+      "sub": "All services"
+    },
+    {
+      "icon": "chart",
+      "title": "Secure Score",
+      "sub": "Improved"
+    },
+    {
+      "icon": "gear",
+      "title": "Compliance Mgr",
+      "sub": "Framework map"
+    },
+    {
+      "icon": "key",
+      "title": "Evidence",
+      "sub": "Audit-ready"
+    }
+  ]
+}

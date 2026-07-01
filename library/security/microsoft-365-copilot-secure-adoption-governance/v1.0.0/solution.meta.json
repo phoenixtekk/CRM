@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-365-copilot-secure-adoption-governance",
+  "title": "Microsoft 365 Copilot Secure Adoption & Governance",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "COPILOT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (secure Copilot rollout spanning data readiness/oversharing remediation, sensitivity labels, DLP, access controls, and AI governance; multi-service, higher data-exposure risk).",
+    "version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-COPILOT-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-COPILOT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-COPILOT-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "COPILOT-Solution.pdf",
+    "COPILOT-Scripts.zip"
+  ],
+  "hero": "COPILOT-hero.png"
+}
+

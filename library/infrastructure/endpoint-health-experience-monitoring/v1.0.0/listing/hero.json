@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Endpoint Health",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "See It Before They Call",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune Endpoint Analytics · DEX",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INVISIBLE DEGRADATION",
+    "items": [
+      "Slow boots",
+      "App crashes",
+      "Failing disks",
+      "Reactive only"
+    ]
+  },
+  "to": {
+    "label": "Proactive visibility",
+    "stat": "Scored · trending · remediated"
+  },
+  "tagline": "FIND IT FIRST.  FIX IT QUIETLY.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Analytics",
+      "sub": "Startup + reliability"
+    },
+    {
+      "icon": "chip",
+      "title": "Scores",
+      "sub": "Resource health"
+    },
+    {
+      "icon": "gear",
+      "title": "Remediate",
+      "sub": "Common issues"
+    },
+    {
+      "icon": "shield",
+      "title": "Proactive",
+      "sub": "Before the call"
+    }
+  ]
+}

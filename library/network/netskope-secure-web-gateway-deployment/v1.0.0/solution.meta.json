@@ -1,0 +1,39 @@
+{
+  "slug": "netskope-secure-web-gateway-deployment",
+  "title": "Netskope Secure Web Gateway (SWG) Deployment & Web Filtering",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "NSSWG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (inline SWG across Netskope + identity + endpoints; web-filtering policy, traffic steering, live-traffic risk).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NSSWG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-NSSWG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-NSSWG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "NSSWG-Complete-Solution.zip"
+  ],
+  "hero": "NSSWG-hero.png"
+}

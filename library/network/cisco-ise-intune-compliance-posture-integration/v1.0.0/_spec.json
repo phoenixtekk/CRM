@@ -1,0 +1,83 @@
+{
+  "sol": "ISEPOST",
+  "slug": "cisco-ise-intune-compliance-posture-integration",
+  "title": "Cisco ISE Device Compliance & Posture Integration with Intune (MDM Compliance Connector)",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "tier": "T4",
+  "hook": "Let Cisco ISE gate network access on Intune device compliance",
+  "problem": "A device can hold a valid certificate and still be non-compliant &mdash; unencrypted, out of date, jailbroken. This solution wires <strong>Cisco ISE</strong> to <strong>Microsoft Intune</strong> through the MDM compliance connector so ISE queries each device's real-time enrollment and compliance state and gates VPN and network access on it &mdash; the posture / NAC piece that turns compliance policy into enforced access, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how ISE-to-Intune posture works: the Entra app registration ISE uses, the MDM compliance connection, the compliance and enrollment signals ISE reads, and how they map to authorization / access rules.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune compliance policies in place, an Entra app registration with the right Graph permissions, ISE licensing/version for MDM, network reachability, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to register the app in Entra, connect ISE to Intune, define named compliance policies, map them to ISE authorization, assign to a pilot, and validate that non-compliant devices are denied, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; connector-readiness discovery, per-device compliance/enrollment validation, a compliance-coverage and access-decision report, safe remediation of non-compliant devices, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (registered, compliant, access granted; non-compliant, access denied), plus Best Practices for grace and remediation."
+  ],
+  "short": "Wire <strong>Cisco ISE</strong> to <strong>Intune</strong> via the MDM compliance connector so ISE gates VPN and network access on real-time device compliance and enrollment &mdash; the posture/NAC layer, deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Wire Cisco ISE to Intune via the MDM compliance connector so ISE gates VPN and network access on real-time device compliance and enrollment — the posture/NAC layer, pilot-first.",
+  "meta_title": "Cisco ISE Device Compliance & Posture Integration with Intune (MDM Compliance Connector)",
+  "meta_description": "Integrate Cisco ISE with Intune via the MDM compliance connector: Entra app registration, compliance/enrollment signals, posture-based access authorization. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+  "bottom_line": "Network and VPN access granted only to devices Intune says are compliant and enrolled &mdash; enforced by Cisco ISE, and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "ISE + Intune Posture",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Compliance-Gated Access",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "MDM Connector · NAC · Graph",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLIND NETWORK ACCESS",
+      "items": [
+        "Cert but non-compliant",
+        "No device posture",
+        "Unencrypted allowed",
+        "Static rules"
+      ]
+    },
+    "to": {
+      "label": "Compliance-gated NAC",
+      "stat": "Enrolled + compliant only"
+    },
+    "tagline": "CHECK IT.  DECIDE IT.  ENFORCE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "MDM Connector",
+        "sub": "ISE ↔ Intune"
+      },
+      {
+        "icon": "shield",
+        "title": "Posture",
+        "sub": "Compliance gate"
+      },
+      {
+        "icon": "device",
+        "title": "Enrollment",
+        "sub": "Real-time state"
+      },
+      {
+        "icon": "chart",
+        "title": "Decisions",
+        "sub": "Access report"
+      }
+    ]
+  },
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ]
+}

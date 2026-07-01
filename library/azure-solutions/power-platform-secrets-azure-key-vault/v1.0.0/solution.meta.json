@@ -1,0 +1,43 @@
+{
+  "slug": "power-platform-secrets-azure-key-vault",
+  "title": "Standardize Power Platform Secrets in Azure Key Vault",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "PPKV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Scope: store Power Platform secrets (API keys, client secrets, connection strings, certificates, service-account credentials, external tokens, integration credentials) in Azure Key Vault instead of hardcoding them in Power Apps, Power Automate flows, custom connectors, environment variables, or scripts. Retrieve securely via approved patterns; remove hardcoded secrets; validate no exposure in flow history/app formulas/logs/connector definitions; document rotation, ownership, access control.",
+    "Primary native pattern: Power Platform environment variables of type 'Secret' backed by Azure Key Vault (Dataverse service principal granted the 'Key Vault Secrets User' RBAC role). Alternatives to cover: the Azure Key Vault connector, an Azure Function with managed identity called via custom connector, and service-principal/managed-identity retrieval.",
+    "Effort tier: T3 (multi-component integration across Azure Key Vault + Entra ID RBAC/managed identity + Power Platform (Apps/Automate/custom connectors) with rotation/governance; 2-3 technologies).",
+    "Power Platform maker/admin-portal UI minutiae deferred to Microsoft docs where volatile; give correct Azure portal + Power Platform admin center + maker portal navigation. version_directive: New; branding: off (white-label)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PPKV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PPKV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PPKV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PPKV-Solution.pdf",
+    "PPKV-Scripts.zip"
+  ],
+  "hero": "PPKV-hero.png"
+}
+

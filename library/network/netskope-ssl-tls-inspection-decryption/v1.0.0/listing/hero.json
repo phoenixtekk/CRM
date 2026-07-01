@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SSL Inspection",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "See the Encrypted",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Netskope · TLS Decryption",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ENCRYPTED BLIND SPOT",
+    "items": [
+      "Most traffic hidden",
+      "SWG flying blind",
+      "Pinned apps break",
+      "Privacy risk"
+    ]
+  },
+  "to": {
+    "label": "Inspected safely",
+    "stat": "Cert trusted · bypasses set"
+  },
+  "tagline": "DECRYPT WHAT YOU SHOULD.  BYPASS WHAT YOU MUST.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Inspection Cert",
+      "sub": "Intune-deployed"
+    },
+    {
+      "icon": "shield",
+      "title": "Decryption",
+      "sub": "Policy-driven"
+    },
+    {
+      "icon": "gear",
+      "title": "Bypasses",
+      "sub": "Pinned/sensitive"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Validated"
+    }
+  ]
+}

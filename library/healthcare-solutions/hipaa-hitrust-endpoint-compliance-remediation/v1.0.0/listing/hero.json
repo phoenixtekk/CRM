@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "HIPAA & HITRUST",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Endpoint Compliance + Remediation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Conditional Access · Defender",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNPROVEN POSTURE",
+    "items": [
+      "Controls unmapped",
+      "No evidence",
+      "Open vulnerabilities",
+      "Non-compliant access"
+    ]
+  },
+  "to": {
+    "label": "Enforced + Evidenced",
+    "stat": "Compliant · gated · audit-ready"
+  },
+  "tagline": "MAP THE CONTROLS.  ENFORCE THEM.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Control Mapping",
+      "sub": "HIPAA / HITRUST"
+    },
+    {
+      "icon": "lock",
+      "title": "Compliance + CA",
+      "sub": "Gate non-compliant"
+    },
+    {
+      "icon": "chart",
+      "title": "Defender TVM",
+      "sub": "Remediate exposure"
+    },
+    {
+      "icon": "key",
+      "title": "Evidence",
+      "sub": "Audit-ready reports"
+    }
+  ]
+}

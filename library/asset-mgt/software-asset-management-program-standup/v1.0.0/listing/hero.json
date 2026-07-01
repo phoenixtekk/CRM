@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SAM Program",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Govern It Deliberately",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Software Asset Management · ITIL v4",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SPREADSHEET SAM",
+    "items": [
+      "No lifecycle",
+      "No owners",
+      "No KPIs",
+      "Audit panic"
+    ]
+  },
+  "to": {
+    "label": "Governed program",
+    "stat": "Lifecycle · SOPs · KPIs"
+  },
+  "tagline": "FROM CHAOS TO GOVERNED SAM.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Lifecycle",
+      "sub": "Request→retire"
+    },
+    {
+      "icon": "users",
+      "title": "Roles + RACI",
+      "sub": "Owned"
+    },
+    {
+      "icon": "chart",
+      "title": "KPIs",
+      "sub": "Measured"
+    },
+    {
+      "icon": "shield",
+      "title": "ITIL v4",
+      "sub": "Aligned"
+    }
+  ]
+}

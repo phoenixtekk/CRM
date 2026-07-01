@@ -1,0 +1,42 @@
+{
+  "slug": "msp-tool-stack-psa-rmm-patch",
+  "title": "MSP Tool Stack Design & Standup — PSA, RMM & Patch Management",
+  "category": "Managed",
+  "category_slug": "managed",
+  "sol_code": "MSPSTACK",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Microsoft Cloud Solution Architect (MSP) requirement: design, configure, manage, and support the internal MSP tool stack (PSA, RMM, patch management).",
+    "Scope: design + stand up + integrate the core MSP platform stack (PSA, RMM, patch) with a repeatable client-onboarding workflow and operating standards. Vendor-agnostic with named examples; vendor-specific console clicks deferred to the chosen products' docs. White-label.",
+    "pricing: T5 (enterprise program) — multi-platform standup + integration + onboarding, the practice-wide foundation."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MSPSTACK-COMM-001",
+      "audience": "commercial",
+      "price": 4995.0
+    },
+    {
+      "sku": "PTK-MSPSTACK-NPO-001",
+      "audience": "nonprofit",
+      "price": 2997.0
+    },
+    {
+      "sku": "PTK-MSPSTACK-GOV-001",
+      "audience": "government",
+      "price": 4245.75
+    }
+  ],
+  "deliverables": [
+    "MSPSTACK-Complete-Solution.zip"
+  ],
+  "hero": "MSPSTACK-hero.png",
+  "wiki_path": "solutions/managed/msp-tool-stack-psa-rmm-patch",
+  "wiki_published": true
+}

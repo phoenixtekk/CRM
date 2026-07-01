@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Neo to Netskope",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Migrate Without a Gap",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Forcepoint Neo · Netskope · Migration",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY CUTOVER",
+    "items": [
+      "Agents fight traffic",
+      "Protection gaps",
+      "Broken access",
+      "Policy drift"
+    ]
+  },
+  "to": {
+    "label": "Controlled migration",
+    "stat": "Translated · staged · decommissioned"
+  },
+  "tagline": "OFF LEGACY.  ONTO NETSKOPE.  NO GAP.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Translate",
+      "sub": "Legacy policy"
+    },
+    {
+      "icon": "shield",
+      "title": "Coexist",
+      "sub": "No gap"
+    },
+    {
+      "icon": "chart",
+      "title": "Parity",
+      "sub": "Validated"
+    },
+    {
+      "icon": "lock",
+      "title": "Decommission",
+      "sub": "Legacy off"
+    }
+  ]
+}

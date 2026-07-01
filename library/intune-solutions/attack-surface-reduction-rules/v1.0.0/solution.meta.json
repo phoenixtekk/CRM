@@ -1,0 +1,34 @@
+{
+  "slug": "attack-surface-reduction-rules",
+  "title": "Attack Surface Reduction (ASR) Rules",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ASR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-13",
+  "updated": "2026-06-13",
+  "published_at": "2026-06-13",
+  "products": [
+    {
+      "sku": "PTK-ASR-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ASR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ASR-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ASR-Complete-Solution.zip"
+  ],
+  "hero": "ASR-hero.png",
+  "branding": "on"
+}

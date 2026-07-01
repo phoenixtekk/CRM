@@ -1,0 +1,582 @@
+{
+  "entra-intune-audit-telemetry-sentinel": {
+    "post_id": 11895,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloud-pki-integration-intune": {
+    "post_id": 11893,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ztna-netskope-private-access-vpn-replacement": {
+    "post_id": 11891,
+    "status": "draft",
+    "category_id": 411
+  },
+  "netskope-ssl-tls-inspection-decryption": {
+    "post_id": 11889,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sase-sse-architecture-design-blueprint": {
+    "post_id": 11887,
+    "status": "draft",
+    "category_id": 411
+  },
+  "netskope-secure-web-gateway-deployment": {
+    "post_id": 11885,
+    "status": "draft",
+    "category_id": 411
+  },
+  "netskope-client-troubleshooting-diagnostics-toolkit": {
+    "post_id": 11883,
+    "status": "draft",
+    "category_id": 411
+  },
+  "netskope-client-deployment-traffic-steering-intune": {
+    "post_id": 11881,
+    "status": "draft",
+    "category_id": 411
+  },
+  "netskope-entra-sso-identity-policy": {
+    "post_id": 11879,
+    "status": "draft",
+    "category_id": 411
+  },
+  "forcepoint-neo-to-netskope-migration": {
+    "post_id": 11877,
+    "status": "draft",
+    "category_id": 411
+  },
+  "casb-cloud-app-control-netskope": {
+    "post_id": 11875,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-migration-program": {
+    "post_id": 11873,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-coexistence-cutover-runbook": {
+    "post_id": 11871,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-application-rebuild": {
+    "post_id": 11869,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-windows-device-migration": {
+    "post_id": 11867,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-policy-compliance-translation": {
+    "post_id": 11865,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-macos-device-migration": {
+    "post_id": 11863,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-ios-device-migration": {
+    "post_id": 11860,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-one-to-intune-android-device-migration": {
+    "post_id": 11858,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-firewall-gpo-to-intune-migration": {
+    "post_id": 11856,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sccm-application-migration-to-intune-win32": {
+    "post_id": 11854,
+    "status": "draft",
+    "category_id": 411
+  },
+  "phased-gpo-to-intune-transition-program": {
+    "post_id": 11852,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-exchange-tenant-to-tenant-migration": {
+    "post_id": 11850,
+    "status": "draft",
+    "category_id": 411
+  },
+  "mdm-migration-readiness-assessment-wave-planning": {
+    "post_id": 11848,
+    "status": "draft",
+    "category_id": 411
+  },
+  "group-policy-to-intune-settings-migration": {
+    "post_id": 11846,
+    "status": "draft",
+    "category_id": 411
+  },
+  "gpo-rationalization-cleanup-group-policy-analytics": {
+    "post_id": 11844,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sccm-intune-co-management-enablement": {
+    "post_id": 11842,
+    "status": "draft",
+    "category_id": 411
+  },
+  "commercial-to-gcc-high-migration-program": {
+    "post_id": 11840,
+    "status": "draft",
+    "category_id": 411
+  },
+  "applocker-to-wdac-app-control-migration": {
+    "post_id": 11838,
+    "status": "draft",
+    "category_id": 411
+  },
+  "rmm-monitoring-alert-tuning": {
+    "post_id": 11836,
+    "status": "draft",
+    "category_id": 411
+  },
+  "msp-tool-stack-psa-rmm-patch": {
+    "post_id": 11834,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-azure-incident-response-runbook": {
+    "post_id": 11832,
+    "status": "draft",
+    "category_id": 411
+  },
+  "wsus-to-wufb-patch-modernization": {
+    "post_id": 11830,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-updates-for-business": {
+    "post_id": 11828,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-hello-for-business": {
+    "post_id": 11826,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-firewall-management": {
+    "post_id": 11824,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-autopilot": {
+    "post_id": 11822,
+    "status": "draft",
+    "category_id": 411
+  },
+  "third-party-app-patching-intune": {
+    "post_id": 11820,
+    "status": "draft",
+    "category_id": 411
+  },
+  "remote-help": {
+    "post_id": 11818,
+    "status": "draft",
+    "category_id": 411
+  },
+  "onedrive-for-business": {
+    "post_id": 11816,
+    "status": "draft",
+    "category_id": 411
+  },
+  "defender-for-endpoint-integration": {
+    "post_id": 11814,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-ade-with-sso-jamf-pro": {
+    "post_id": 11812,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-ade-with-sso": {
+    "post_id": 11810,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ios-iphone-shared-device-mode": {
+    "post_id": 11808,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-win32-app-packaging-deployment": {
+    "post_id": 11806,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-custom-compliance-configuration-items": {
+    "post_id": 11804,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-rbac-multi-admin-governance": {
+    "post_id": 11802,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ios-lock-down-profile-shared-devices-intune": {
+    "post_id": 11800,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cis-benchmarks-windows-11-intune": {
+    "post_id": 11798,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cis-benchmarks-macos-intune": {
+    "post_id": 11796,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-security-baselines": {
+    "post_id": 11695,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-privilege-management": {
+    "post_id": 11693,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-dynamic-device-targeting-groups-filters": {
+    "post_id": 11691,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cod-byod-iphone-dual-device-sso": {
+    "post_id": 11689,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cod-byod-dual-device-sso": {
+    "post_id": 11687,
+    "status": "draft",
+    "category_id": 411
+  },
+  "device-enrollment-identity-asset-inventory": {
+    "post_id": 11685,
+    "status": "draft",
+    "category_id": 411
+  },
+  "device-compliance-policies": {
+    "post_id": 11683,
+    "status": "draft",
+    "category_id": 411
+  },
+  "deploy-third-party-pfx-certificate-mobile-intune": {
+    "post_id": 11681,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cod-and-byod-device-management": {
+    "post_id": 11679,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sccm-cloud-management-gateway-setup": {
+    "post_id": 11677,
+    "status": "draft",
+    "category_id": 411
+  },
+  "conditional-access-integration": {
+    "post_id": 11675,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloud-first-autopilot-zero-touch-provisioning": {
+    "post_id": 11673,
+    "status": "draft",
+    "category_id": 411
+  },
+  "bitlocker-drive-encryption": {
+    "post_id": 11671,
+    "status": "draft",
+    "category_id": 411
+  },
+  "attack-surface-reduction-rules": {
+    "post_id": 11669,
+    "status": "draft",
+    "category_id": 411
+  },
+  "application-control-wdac": {
+    "post_id": 11667,
+    "status": "draft",
+    "category_id": 411
+  },
+  "universal-print-deployment-migration": {
+    "post_id": 11665,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sccm-task-sequence-troubleshooting-status-messages": {
+    "post_id": 11663,
+    "status": "draft",
+    "category_id": 411
+  },
+  "new-site-endpoint-rollout-playbook": {
+    "post_id": 11661,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-reporting-dashboards": {
+    "post_id": 11659,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-powershell-deployment-automation": {
+    "post_id": 11657,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-imaging-inventory-lifecycle": {
+    "post_id": 11655,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-health-experience-monitoring": {
+    "post_id": 11653,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-11-healthcare-endpoint-baseline": {
+    "post_id": 11651,
+    "status": "draft",
+    "category_id": 411
+  },
+  "imprivata-sso-badge-tap-epcs-clinical-endpoints": {
+    "post_id": 11649,
+    "status": "draft",
+    "category_id": 411
+  },
+  "hipaa-hitrust-endpoint-compliance-remediation": {
+    "post_id": 11647,
+    "status": "draft",
+    "category_id": 411
+  },
+  "healthcare-shared-clinical-device-management": {
+    "post_id": 11645,
+    "status": "draft",
+    "category_id": 411
+  },
+  "epic-hyperdrive-client-deployment-lifecycle": {
+    "post_id": 11643,
+    "status": "draft",
+    "category_id": 411
+  },
+  "epic-go-live-command-center-readiness": {
+    "post_id": 11641,
+    "status": "draft",
+    "category_id": 411
+  },
+  "epic-clinical-workstation-standardization": {
+    "post_id": 11639,
+    "status": "draft",
+    "category_id": 411
+  },
+  "clinical-endpoint-logon-profile-optimization": {
+    "post_id": 11637,
+    "status": "draft",
+    "category_id": 411
+  },
+  "passwordless-fido2-phishing-resistant-mfa": {
+    "post_id": 11635,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-abm-account-auto-provisioning-intune": {
+    "post_id": 11633,
+    "status": "draft",
+    "category_id": 411
+  },
+  "hybrid-identity-ad-entra-connect": {
+    "post_id": 11631,
+    "status": "draft",
+    "category_id": 411
+  },
+  "backup-validation-recoverability-assurance": {
+    "post_id": 11629,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-365-cloud-pc-deployment": {
+    "post_id": 11627,
+    "status": "draft",
+    "category_id": 411
+  },
+  "power-platform-secrets-azure-key-vault": {
+    "post_id": 11625,
+    "status": "draft",
+    "category_id": 411
+  },
+  "teams-phone-direct-routing-sbc-audiocodes": {
+    "post_id": 11623,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-virtual-desktop-remote-access": {
+    "post_id": 11621,
+    "status": "draft",
+    "category_id": 411
+  },
+  "tier1-publisher-license-audit-risk": {
+    "post_id": 11619,
+    "status": "draft",
+    "category_id": 411
+  },
+  "software-renewals-contracts-oem-tracking": {
+    "post_id": 11617,
+    "status": "draft",
+    "category_id": 411
+  },
+  "software-license-usage-cost-dashboards-powerbi": {
+    "post_id": 11615,
+    "status": "draft",
+    "category_id": 411
+  },
+  "software-license-compliance-audit-defense": {
+    "post_id": 11613,
+    "status": "draft",
+    "category_id": 411
+  },
+  "software-discovery-entitlement-reconciliation": {
+    "post_id": 11611,
+    "status": "draft",
+    "category_id": 411
+  },
+  "software-asset-management-program-standup": {
+    "post_id": 11609,
+    "status": "draft",
+    "category_id": 411
+  },
+  "servicenow-sam-request-fulfillment-reclamation": {
+    "post_id": 11607,
+    "status": "draft",
+    "category_id": 411
+  },
+  "saas-application-discovery-license-rightsizing": {
+    "post_id": 11605,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-licensing-cost-governance-ea-csp": {
+    "post_id": 11603,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-license-optimization-reharvesting": {
+    "post_id": 11601,
+    "status": "draft",
+    "category_id": 411
+  },
+  "adobe-creative-cloud-enterprise-license-management": {
+    "post_id": 11599,
+    "status": "draft",
+    "category_id": 411
+  },
+  "disa-stig-compliance-windows-10-11-intune": {
+    "post_id": 11597,
+    "status": "draft",
+    "category_id": 411
+  },
+  "secure-mobile-access-sharepoint-online-mam": {
+    "post_id": 11949,
+    "status": "draft",
+    "category_id": 411
+  },
+  "mam-app-protection-policies-byod-m365": {
+    "post_id": 11951,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-tunnel-for-mam-intranet-access": {
+    "post_id": 11953,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-security-baseline-governance": {
+    "post_id": 11980,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-app-service-principal-governance": {
+    "post_id": 11982,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-governance-pim-access-reviews": {
+    "post_id": 11984,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-copilot-secure-adoption-governance": {
+    "post_id": 11986,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-security-baseline-audit-readiness": {
+    "post_id": 11988,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-dlp-sensitivity-labels-retention": {
+    "post_id": 11990,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-secure-client-vpn-deployment-intune": {
+    "post_id": 11992,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-ise-certificate-vpn-authentication-intune": {
+    "post_id": 11994,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-ise-intune-compliance-posture-integration": {
+    "post_id": 11996,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-per-app-vpn-mobile-intune": {
+    "post_id": 11998,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-ise-8021x-certificate-wifi-wired-intune": {
+    "post_id": 12000,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-ise-vpn-intune-diagnostics-toolkit": {
+    "post_id": 12002,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cisco-vpn-client-sccm-gpo-to-intune-migration": {
+    "post_id": 12004,
+    "status": "draft",
+    "category_id": 411
+  }
+}

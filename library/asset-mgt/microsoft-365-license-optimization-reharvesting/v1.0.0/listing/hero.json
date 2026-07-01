@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 License",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Reclaim the Waste",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft 365 · Admin Center · Graph",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LICENSE WASTE",
+    "items": [
+      "Leavers keep seats",
+      "E5 where E3 fits",
+      "Duplicate assignments",
+      "No usage view"
+    ]
+  },
+  "to": {
+    "label": "Right-sized & reclaimed",
+    "stat": "Measured · reclaimed · saving"
+  },
+  "tagline": "PAY FOR WHAT YOU USE.  RECLAIM THE REST.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Usage",
+      "sub": "Admin + Graph"
+    },
+    {
+      "icon": "gear",
+      "title": "Right-Size",
+      "sub": "Tier + dedupe"
+    },
+    {
+      "icon": "key",
+      "title": "Reharvest",
+      "sub": "Reclaim seats"
+    },
+    {
+      "icon": "shield",
+      "title": "Savings",
+      "sub": "Tracked campaign"
+    }
+  ]
+}

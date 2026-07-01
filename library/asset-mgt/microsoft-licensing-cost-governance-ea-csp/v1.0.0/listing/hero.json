@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Licensing Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "EA, CSP & True-Ups",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft 365 · EA · CSP",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LICENSING SURPRISES",
+    "items": [
+      "Over-buy to be safe",
+      "Shortfall risk",
+      "True-up shocks",
+      "No clear position"
+    ]
+  },
+  "to": {
+    "label": "Governed & predictable",
+    "stat": "Known position · ready true-ups"
+  },
+  "tagline": "KNOW WHAT YOU OWN.  RIGHT-SIZE THE REST.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "License Position",
+      "sub": "EA + CSP"
+    },
+    {
+      "icon": "gear",
+      "title": "True-Up Ready",
+      "sub": "No surprises"
+    },
+    {
+      "icon": "lock",
+      "title": "Renewals",
+      "sub": "Right-sized"
+    },
+    {
+      "icon": "shield",
+      "title": "Governance",
+      "sub": "Cadence + KPIs"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Policy Translation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Same Posture, Proven",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace ONE · Intune · Settings Catalog",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SILENT POSTURE LOSS",
+    "items": [
+      "Profiles don't map",
+      "Compliance gaps",
+      "Weaker at cutover",
+      "No parity proof"
+    ]
+  },
+  "to": {
+    "label": "Translated to parity",
+    "stat": "Mapped · gaps handled · proven"
+  },
+  "tagline": "TRANSLATE EVERY SETTING.  PROVE THE PARITY.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Inventory",
+      "sub": "Source policy"
+    },
+    {
+      "icon": "chip",
+      "title": "Map",
+      "sub": "Catalog + compliance"
+    },
+    {
+      "icon": "shield",
+      "title": "Gaps",
+      "sub": "Handled"
+    },
+    {
+      "icon": "chart",
+      "title": "Parity",
+      "sub": "Validated"
+    }
+  ]
+}

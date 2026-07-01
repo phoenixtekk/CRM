@@ -1,0 +1,38 @@
+{
+  "slug": "sccm-intune-co-management-enablement",
+  "title": "Configuration Manager and Intune Co-Management Enablement",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "COMGMT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-28",
+  "updated": "2026-06-28",
+  "published_at": "2026-06-28",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (project: enable co-management across Configuration Manager + Intune + Entra, move workloads, coexistence/cutover, higher risk)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-COMGMT-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-COMGMT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-COMGMT-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "COMGMT-Complete-Solution.zip"
+  ],
+  "hero": "COMGMT-hero.png"
+}

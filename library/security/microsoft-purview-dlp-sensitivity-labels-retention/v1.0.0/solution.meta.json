@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-purview-dlp-sensitivity-labels-retention",
+  "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "PURVIEW",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (information protection program across Microsoft Purview: sensitivity labels + auto-labeling, DLP policies, retention/records; multi-service, org-wide data governance).",
+    "version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PURVIEW-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-PURVIEW-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-PURVIEW-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "PURVIEW-Solution.pdf",
+    "PURVIEW-Scripts.zip"
+  ],
+  "hero": "PURVIEW-hero.png"
+}
+

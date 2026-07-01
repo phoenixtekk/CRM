@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Windows Firewall", "color": "white", "size": "main" },
+    { "text": "Management", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "UNMANAGED FIREWALL", "items": ["Profiles off", "Open inbound", "No standard rules", "No reporting"] },
+  "to": { "label": "Microsoft Intune", "stat": "Enforced · Default-deny" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Firewall Enforced", "sub": "All profiles on" },
+    { "icon": "lock", "title": "Default-Deny Inbound", "sub": "Block by default" },
+    { "icon": "gear", "title": "Managed Rules", "sub": "Centralized policy" },
+    { "icon": "chart", "title": "State Reporting", "sub": "Fleet-wide visibility" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_comment": "Account-wide subscription tiers. Loaded ONCE by setup-catalog.php, not per solution. Recurring billing is deferred (Bagisto core has no native recurring) — these publish as catalog entries showing the monthly price; the annual price is in the description. Wire a subscription extension before relying on auto-charge. See ADMIN_DOCS.md.",
+  "category_path": ["Solutions"],
+  "tiers": [
+    {
+      "sku": "PTK-SUB-IND-001",
+      "name": "Membership — Individual",
+      "price": 499.00,
+      "annual": 5988.00,
+      "short_description": "<p>For consultants and individual admins. Access to all published solutions, guides, and scripts.</p>",
+      "description": "<h3>Individual — $499/month or $5,988/year</h3><ul><li>Access to all published solutions</li><li>Download implementation guides</li><li>Download PowerShell scripts</li><li>Solution updates</li><li>Monthly new releases</li></ul>"
+    },
+    {
+      "sku": "PTK-SUB-PRO-001",
+      "name": "Membership — Professional",
+      "price": 999.00,
+      "annual": 11988.00,
+      "short_description": "<p>For MSPs and small IT teams. Everything in Individual plus commercial use rights and source files.</p>",
+      "description": "<h3>Professional — $999/month or $11,988/year</h3><p>Everything in Individual, plus:</p><ul><li>Commercial use rights</li><li>Internal company use</li><li>Download source files</li><li>Solution templates</li><li>DevOps work item templates</li><li>Assessment frameworks</li></ul>"
+    },
+    {
+      "sku": "PTK-SUB-ENT-001",
+      "name": "Membership — Enterprise",
+      "price": 1499.00,
+      "annual": 17988.00,
+      "short_description": "<p>For enterprises. Everything in Professional plus enterprise licensing, governance, and priority support.</p>",
+      "description": "<h3>Enterprise — $1,499/month or $17,988/year</h3><p>Everything in Professional, plus:</p><ul><li>Enterprise licensing</li><li>Multiple administrators</li><li>Internal training rights</li><li>Enterprise governance packages</li><li>Priority updates</li><li>Call Now / Fix Doc Now</li><li>Architecture templates</li></ul>"
+    }
+  ]
+}

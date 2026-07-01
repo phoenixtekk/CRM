@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Win32 App Packaging",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deploy Apps That Install",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · IME · .intunewin",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FLAKY DEPLOYMENTS",
+    "items": [
+      "Silent failures",
+      "Guessed detection",
+      "Wrong state",
+      "Bad build to all"
+    ]
+  },
+  "to": {
+    "label": "Predictable installs",
+    "stat": "Correct detection · ringed rollout"
+  },
+  "tagline": "PACKAGE ONCE.  DEPLOY EVERYWHERE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": ".intunewin",
+      "sub": "Clean packaging"
+    },
+    {
+      "icon": "chip",
+      "title": "Detection",
+      "sub": "Rules that work"
+    },
+    {
+      "icon": "device",
+      "title": "Dependencies",
+      "sub": "Ordered installs"
+    },
+    {
+      "icon": "chart",
+      "title": "Rings",
+      "sub": "Safe rollout"
+    }
+  ]
+}

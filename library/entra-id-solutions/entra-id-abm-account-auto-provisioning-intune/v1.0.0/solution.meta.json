@@ -1,0 +1,41 @@
+{
+  "slug": "entra-id-abm-account-auto-provisioning-intune",
+  "title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ABMPROV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Shaping note: the solution must support iOS managed iPhones for Corporate-Owned (COD), BYOD, and Shared Device scenarios.",
+    "Effort tier: T4 (identity-plane integration across Microsoft Entra ID + Apple Business Manager + Intune: federated authentication, SCIM auto-provisioning of Managed Apple IDs, and three enrollment models; org-wide change to Apple sign-in, higher risk).",
+    "Scope: Entra ID <-> ABM Federated Authentication + automatic Managed Apple ID provisioning (SCIM from Entra to ABM and/or just-in-time on first federated sign-in), then leveraged for COD (account-driven/ADE device enrollment), BYOD (account-driven user enrollment), and Shared (no-user-affinity + Managed Apple ID). ABM console internals deferred to Apple documentation. version_directive: New; branding: off (white-label)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ABMPROV-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ABMPROV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ABMPROV-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ABMPROV-Solution.pdf",
+    "ABMPROV-Scripts.zip"
+  ],
+  "hero": "ABMPROV-hero.png"
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "SWDISC",
+  "slug": "software-discovery-entitlement-reconciliation",
+  "title": "Software Discovery & Entitlement Reconciliation (SCCM / Intune / Flexera)",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (technical SAM core: normalize discovery data from SCCM/Intune/Flexera and reconcile to entitlements; multi-source, conditional logic).",
+    "Distinct from device-enrollment-identity-asset-inventory (hardware/device inventory): this product is SOFTWARE-install discovery normalized and reconciled to license entitlements."
+  ],
+  "hook": "Turn raw software discovery into a clean, reconciled license position",
+  "problem": "Discovery tools tell you what's installed &mdash; but raw inventory is noisy: thousands of unnormalized titles, editions and versions that don't map to SKUs, and no link to what you actually bought. This solution turns <strong>software discovery into a reconciled license position</strong>: pull installed-software data from Configuration Manager, Intune, or a discovery tool like Flexera, normalize it, map it to entitlements, and produce the reconciliation that drives compliance and reharvesting.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the discovery sources (Configuration Manager, Intune, Flexera), software normalization and SKU mapping, the entitlement reconciliation model, and how the output feeds compliance and optimization.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a discovery source with inventory enabled, access/export rights, an entitlement system of record, a normalization approach) with how to <em>verify</em> and how to <em>implement</em> each if missing. Vendor-specific Flexera setup is deferred to the vendor's documentation.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: enable/confirm inventory, export installed-software data, normalize titles/editions/versions, map to entitlements, reconcile and flag exceptions, then pilot, validate, and expand to more sources.",
+    "<strong>5 PowerShell scripts</strong> &mdash; installed-software discovery (Intune/Configuration Manager), normalization/mapping validation, a reconciliation and exception report, safe remediation of mapping gaps, and a discovery-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Turn <strong>software discovery into a reconciled license position</strong> &mdash; pull installed-software data from Configuration Manager, Intune, or Flexera, normalize it, map it to entitlements, and produce the reconciliation that drives compliance and reharvesting. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Turn software discovery into a reconciled license position — pull installed-software data from Configuration Manager, Intune, or Flexera, normalize it, map to entitlements, and reconcile.",
+  "meta_title": "Software Discovery & Entitlement Reconciliation (SCCM / Intune / Flexera)",
+  "meta_description": "Reconcile software discovery to entitlements: pull installed-software from Configuration Manager/Intune/Flexera, normalize and SKU-map it, and produce the license reconciliation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Raw software discovery turned into a clean, reconciled license position &mdash; normalized, mapped to entitlements, exceptions flagged &mdash; the foundation for compliance and reharvesting, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Discovery & Reconciliation",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Raw Inventory to Truth",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "SCCM · Intune · Flexera",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "NOISY INVENTORY",
+      "items": [
+        "Unnormalized titles",
+        "No SKU mapping",
+        "No link to buys",
+        "Can't reconcile"
+      ]
+    },
+    "to": {
+      "label": "Reconciled position",
+      "stat": "Normalized · mapped · matched"
+    },
+    "tagline": "FROM RAW INVENTORY TO RECONCILED TRUTH.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "Discovery",
+        "sub": "SCCM/Intune"
+      },
+      {
+        "icon": "gear",
+        "title": "Normalize",
+        "sub": "SKU mapping"
+      },
+      {
+        "icon": "chart",
+        "title": "Reconcile",
+        "sub": "vs entitlements"
+      },
+      {
+        "icon": "shield",
+        "title": "Exceptions",
+        "sub": "Flagged"
+      }
+    ]
+  }
+}

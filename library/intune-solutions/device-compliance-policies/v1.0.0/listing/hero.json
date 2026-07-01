@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Device Compliance", "color": "white", "size": "main" },
+    { "text": "Policies", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "UNMANAGED RISK", "items": ["No encryption check", "Weak passwords", "Outdated OS", "No enforcement"] },
+  "to": { "label": "Microsoft Intune", "stat": "Compliant · Enforced · Reported" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "Health Enforced", "sub": "Encryption & Secure Boot" },
+    { "icon": "lock", "title": "Strong Passwords", "sub": "PIN & complexity rules" },
+    { "icon": "gear", "title": "Auto Actions", "sub": "Notify & remediate" },
+    { "icon": "chart", "title": "CA-Ready", "sub": "Gate access by status" }
+  ]
+}

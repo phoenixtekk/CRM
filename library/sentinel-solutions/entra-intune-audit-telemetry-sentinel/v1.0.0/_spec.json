@@ -1,0 +1,81 @@
+{
+  "sol": "SENTLOG",
+  "slug": "entra-intune-audit-telemetry-sentinel",
+  "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (telemetry pipeline: Entra/Intune diagnostic logs → Log Analytics → Sentinel, connectors, retention, baseline analytics)."
+  ],
+  "hook": "Stream identity and device audit logs into Sentinel — so nothing happens unseen",
+  "problem": "Your identity and device platforms generate exactly the audit signal a SOC needs &mdash; sign-ins, directory changes, device compliance and enrollment events &mdash; but by default it's siloed in Entra ID and Intune, short-retained, and invisible to your SIEM. This solution wires <strong>Entra ID and Intune audit telemetry into Microsoft Sentinel</strong>: diagnostic settings and data connectors into Log Analytics, sensible retention, and baseline analytics so identity and endpoint activity is centralized, retained for compliance, and ready to alert on.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the telemetry pipeline (Entra ID and Intune diagnostic logs &rarr; Log Analytics workspace &rarr; Microsoft Sentinel), the relevant log categories (sign-in, audit, device/compliance), retention, and baseline analytics rules.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Azure subscription, a Log Analytics workspace, Microsoft Sentinel enabled, Entra ID and Intune diagnostic settings/connectors, retention/cost plan, RBAC) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: stand up the workspace and Sentinel, enable Entra ID diagnostic settings and the data connector, route Intune audit telemetry, set retention, enable baseline analytics rules, validate ingestion, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; telemetry-readiness discovery, ingestion/connector validation, a log-coverage and retention report, safe remediation of missing diagnostic settings, and a workspace/RBAC scoping helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Wire <strong>Entra ID and Intune audit telemetry into Microsoft Sentinel</strong> &mdash; diagnostic settings and connectors into Log Analytics, retention, and baseline analytics so identity and device activity is centralized, retained, and alert-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Wire Entra ID and Intune audit telemetry into Microsoft Sentinel — diagnostic settings and connectors into Log Analytics, retention, and baseline analytics so identity and device activity is centralized and alert-ready.",
+  "meta_title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
+  "meta_description": "Stream Entra ID and Intune audit logs into Microsoft Sentinel: diagnostic settings, data connectors, Log Analytics, retention, and baseline analytics rules. Self-guided, tested steps and scripts.",
+  "bottom_line": "Identity and device audit telemetry centralized in Microsoft Sentinel &mdash; retained for compliance and ready to alert on &mdash; so nothing in Entra ID or Intune happens unseen, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Audit Telemetry",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Nothing Happens Unseen",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Entra ID · Intune · Microsoft Sentinel",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SILOED SIGNAL",
+      "items": [
+        "Logs siloed",
+        "Short retention",
+        "Invisible to SIEM",
+        "No baseline alerts"
+      ]
+    },
+    "to": {
+      "label": "Centralized in Sentinel",
+      "stat": "Ingested · retained · alert-ready"
+    },
+    "tagline": "STREAM THE SIGNAL.  SEE EVERYTHING.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Connectors",
+        "sub": "Entra + Intune"
+      },
+      {
+        "icon": "chart",
+        "title": "Log Analytics",
+        "sub": "Centralized"
+      },
+      {
+        "icon": "lock",
+        "title": "Retention",
+        "sub": "Compliance-ready"
+      },
+      {
+        "icon": "shield",
+        "title": "Analytics",
+        "sub": "Baseline alerts"
+      }
+    ]
+  }
+}

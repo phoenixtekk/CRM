@@ -1,0 +1,81 @@
+{
+  "sol": "GPOM",
+  "slug": "group-policy-to-intune-settings-migration",
+  "title": "Group Policy to Intune Settings Migration",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T4 (project/migration: inventory and translate AD GPOs to Intune, manage coexistence/precedence during cutover, risk of conflicting policy)."
+  ],
+  "hook": "Move your Group Policy estate into Intune — translated, not guessed, with a safe cutover",
+  "problem": "Decades of Group Policy settings keep your domain-joined PCs in line &mdash; but they only apply on the corporate network, they don't follow cloud-joined and remote devices, and nobody fully knows what's in there anymore. This solution gives you a <strong>structured migration</strong> from Active Directory GPOs to <strong>Intune</strong>: inventory what you actually have, translate settings to the Intune settings catalog and ADMX-backed policies, manage coexistence so on-prem and cloud policy don't fight, and cut over by rings &mdash; without losing a setting that mattered.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how GPO and Intune policy differ, the settings catalog and imported ADMX model, the Group Policy analytics workflow, coexistence and precedence during migration, and the ring-based cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, access to export GPOs, Group Policy analytics, target device groups, a rollback plan) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: export and inventory GPOs, run Group Policy analytics, map supported settings to settings-catalog/ADMX policies, handle unsupported settings, configure coexistence and precedence, assign in rings, then validate parity and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; GPO export/inventory discovery, settings-parity validation (GPO vs. Intune), a migration coverage and gap report, safe remediation of conflicts, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A structured migration from <strong>Active Directory Group Policy to Intune</strong> &mdash; inventory, translate to the settings catalog and ADMX policies, manage coexistence, and cut over by rings without losing settings that matter. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured migration from Active Directory Group Policy to Intune — inventory, translate to the settings catalog and ADMX, manage coexistence, cut over by rings.",
+  "meta_title": "Group Policy to Intune Settings Migration",
+  "meta_description": "Migrate Active Directory GPOs to Intune: GPO inventory, Group Policy analytics, settings catalog and ADMX mapping, coexistence and precedence, ring-based cutover. Self-guided, tested steps and scripts.",
+  "bottom_line": "Your Group Policy estate translated into Intune &mdash; settings that matter preserved, coexistence managed during the move, and a ringed cutover that follows devices on or off the corporate network &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Group Policy to Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Migrate Without Loss",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Settings Catalog · ADMX",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ON-PREM ONLY GPO",
+      "items": [
+        "LAN-bound policy",
+        "Unknown contents",
+        "No cloud reach",
+        "Drift & gaps"
+      ]
+    },
+    "to": {
+      "label": "Translated to Intune",
+      "stat": "Parity checked · ringed cutover"
+    },
+    "tagline": "INVENTORY.  TRANSLATE.  CUT OVER.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Inventory",
+        "sub": "Know what you have"
+      },
+      {
+        "icon": "chip",
+        "title": "Translate",
+        "sub": "Catalog + ADMX"
+      },
+      {
+        "icon": "shield",
+        "title": "Coexist",
+        "sub": "No policy fights"
+      },
+      {
+        "icon": "chart",
+        "title": "Parity",
+        "sub": "Verified cutover"
+      }
+    ]
+  }
+}

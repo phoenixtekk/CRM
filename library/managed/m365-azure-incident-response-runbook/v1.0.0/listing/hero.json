@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 & Azure",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Incident Response Runbook",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "triage · diagnose · RCA · permanent fix",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FIREFIGHTING",
+    "items": [
+      "Chaotic escalations",
+      "Clients in the dark",
+      "No RCA",
+      "Issues recur"
+    ]
+  },
+  "to": {
+    "label": "Managed Services",
+    "stat": "Led · communicated · fixed for good"
+  },
+  "tagline": "TRIAGE FAST.  COMMUNICATE.  FIX IT FOR GOOD.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Severity Matrix",
+      "sub": "Impact × risk × effort"
+    },
+    {
+      "icon": "chart",
+      "title": "Diagnostic Playbooks",
+      "sub": "Per M365/Azure workload"
+    },
+    {
+      "icon": "users",
+      "title": "Client Comms",
+      "sub": "Templates + cadence"
+    },
+    {
+      "icon": "gear",
+      "title": "Permanent Fix",
+      "sub": "RCA → no recurrence"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "sol": "MSLICGOV",
+  "slug": "microsoft-licensing-cost-governance-ea-csp",
+  "title": "Microsoft Licensing Cost Governance — EA, CSP & True-Up Readiness",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (governance across Microsoft EA/CSP agreements, true-up management, cost modeling; multi-stakeholder, higher risk to spend/compliance)."
+  ],
+  "hook": "Govern Microsoft licensing across EA and CSP — and never fear a true-up again",
+  "problem": "Microsoft licensing is a moving target: an Enterprise Agreement here, CSP subscriptions there, annual true-ups, and renewals that arrive with surprises. Without governance you over-buy to be safe or under-license and risk a shortfall. This solution establishes <strong>Microsoft licensing cost governance across EA and CSP</strong> &mdash; a clear model of what you own under each agreement, true-up readiness, renewal planning, and the cost controls to right-size commitments with confidence.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the EA vs. CSP models, how true-ups work, the cost-governance cadence, and how entitlement counts map to deployment and growth.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Entra ID, admin/billing access, EA/CSP agreement details, usage/deployment data, procurement alignment) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory agreements and entitlements, map deployment/growth, model true-up exposure, set renewal and right-sizing decisions, establish a governance cadence and KPIs, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; entitlement/assignment discovery, true-up-exposure validation, a license position and cost report, safe remediation of mis-assignments, and a governance-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "Establish <strong>Microsoft licensing cost governance across EA and CSP</strong> &mdash; a clear model of what you own, true-up readiness, renewal planning, and cost controls to right-size commitments. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish Microsoft licensing cost governance across EA and CSP — a clear model of what you own, true-up readiness, renewal planning, and cost controls to right-size commitments.",
+  "meta_title": "Microsoft Licensing Cost Governance — EA, CSP & True-Up Readiness",
+  "meta_description": "Govern Microsoft licensing across EA and CSP: entitlement modeling, true-up readiness, renewal planning, and cost controls. Self-guided, tested steps and scripts.",
+  "bottom_line": "Microsoft licensing under control across EA and CSP &mdash; a known license position, true-ups that hold no surprises, and right-sized renewals &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Licensing Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "EA, CSP & True-Ups",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft 365 · EA · CSP",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LICENSING SURPRISES",
+      "items": [
+        "Over-buy to be safe",
+        "Shortfall risk",
+        "True-up shocks",
+        "No clear position"
+      ]
+    },
+    "to": {
+      "label": "Governed & predictable",
+      "stat": "Known position · ready true-ups"
+    },
+    "tagline": "KNOW WHAT YOU OWN.  RIGHT-SIZE THE REST.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "License Position",
+        "sub": "EA + CSP"
+      },
+      {
+        "icon": "gear",
+        "title": "True-Up Ready",
+        "sub": "No surprises"
+      },
+      {
+        "icon": "lock",
+        "title": "Renewals",
+        "sub": "Right-sized"
+      },
+      {
+        "icon": "shield",
+        "title": "Governance",
+        "sub": "Cadence + KPIs"
+      }
+    ]
+  }
+}

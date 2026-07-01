@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "CIS Benchmarks",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "macOS Hardening",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Intune · Settings Catalog · Profiles · Shell",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DRIFTING BASELINE",
+    "items": [
+      "Dozens of controls",
+      "GUI can't reach all",
+      "Manual hardening",
+      "Drifts each revision"
+    ]
+  },
+  "to": {
+    "label": "Hardened & maintained",
+    "stat": "Compliant · proven · current"
+  },
+  "tagline": "HARDEN TO CIS.  PROVE IT.  KEEP IT CURRENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "CIS Baseline",
+      "sub": "Level 1 / Level 2"
+    },
+    {
+      "icon": "gear",
+      "title": "Intune Policy",
+      "sub": "Profiles + shell"
+    },
+    {
+      "icon": "chart",
+      "title": "Compliance",
+      "sub": "Posture + drift"
+    },
+    {
+      "icon": "key",
+      "title": "Maintained",
+      "sub": "Version updates"
+    }
+  ]
+}

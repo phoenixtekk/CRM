@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "cisco-vpn-client-sccm-gpo-to-intune-migration",
+    "title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune",
+    "category_path": [
+      "Migrations"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CVPNMIG-COMM-001",
+      "name": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Migrate <strong>Cisco Secure Client (AnyConnect)</strong> deployment from <strong>SCCM/GPO to Intune</strong> &mdash; re-home the client, VPN profile, and certs, coexist during cutover, and retire the legacy path &mdash; deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Retire SCCM and GPO from your Cisco VPN client deployment</h3><p>Many fleets still push the <strong>Cisco Secure Client (AnyConnect)</strong> and its VPN profile through <strong>SCCM packages and Group Policy</strong> &mdash; on-prem plumbing that breaks for remote and cloud-managed devices. This solution migrates that deployment to <strong>Microsoft Intune</strong> cleanly: re-home the client install, the VPN profile, and any certificate delivery to Intune, run both side by side during cutover, and retire the SCCM/GPO path &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the migration model (inventory the current SCCM/GPO deployment, rebuild it in Intune, coexist during cutover, retire the legacy path) and how to avoid double-deployment conflicts.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, the Secure Client installers + VPN profile/XML, the current SCCM/GPO deployment details, certificate delivery, Entra groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to rebuild the client + VPN profile in Intune, handle coexistence with the SCCM/GPO deployment, migrate a named pilot, validate parity, cut over waves, and remove the legacy delivery.</li><li><strong>5 PowerShell scripts</strong> &mdash; current-state discovery (SCCM/GPO VPN deployment), per-device migration validation, a migration-progress/coexistence report, safe remediation/cleanup of legacy artifacts, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (Intune-delivered client + profile working, legacy path removed, no conflict), plus Best Practices for wave-based cutover.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The Cisco VPN client and profile delivered from Intune instead of SCCM/GPO &mdash; migrated wave by wave, validated for parity, and proven on a pilot before you retire the legacy path.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CVPNMIG-Discovery.ps1</code> &mdash; current-state discovery of the Cisco VPN client, profile, and cert delivery</li><li><code>CVPNMIG-Remediation.ps1</code> &mdash; safely clean up legacy Cisco VPN artifacts / fix double-deployment conflicts</li><li><code>CVPNMIG-Report.ps1</code> &mdash; fleet migration-progress / coexistence report (legacy vs Intune-managed)</li><li><code>CVPNMIG-Set-ScopeTargeting.ps1</code> &mdash; create/populate the Cisco VPN migration-wave Entra group(s)</li><li><code>CVPNMIG-Validation.ps1</code> &mdash; confirm the Intune-delivered Cisco client, profile, and cert work on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune",
+      "meta_description": "Migrate Cisco Secure Client (AnyConnect) VPN deployment from SCCM and Group Policy to Microsoft Intune: rebuild client + profile, coexistence, wave cutover, legacy retirement. Self-guided, tested steps and scripts.",
+      "url_key": "cisco-vpn-client-sccm-gpo-to-intune-migration-commercial",
+      "image": "CVPNMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CVPNMIG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CVPNMIG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CVPNMIG-NPO-001",
+      "name": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Migrate Cisco Secure Client (AnyConnect) deployment from SCCM/GPO to Intune — re-home the client, VPN profile, and certs, coexist during cutover, and retire the legacy path — pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Retire SCCM and GPO from your Cisco VPN client deployment</h3><p>Many fleets still push the <strong>Cisco Secure Client (AnyConnect)</strong> and its VPN profile through <strong>SCCM packages and Group Policy</strong> &mdash; on-prem plumbing that breaks for remote and cloud-managed devices. This solution migrates that deployment to <strong>Microsoft Intune</strong> cleanly: re-home the client install, the VPN profile, and any certificate delivery to Intune, run both side by side during cutover, and retire the SCCM/GPO path &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the migration model (inventory the current SCCM/GPO deployment, rebuild it in Intune, coexist during cutover, retire the legacy path) and how to avoid double-deployment conflicts.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, the Secure Client installers + VPN profile/XML, the current SCCM/GPO deployment details, certificate delivery, Entra groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to rebuild the client + VPN profile in Intune, handle coexistence with the SCCM/GPO deployment, migrate a named pilot, validate parity, cut over waves, and remove the legacy delivery.</li><li><strong>5 PowerShell scripts</strong> &mdash; current-state discovery (SCCM/GPO VPN deployment), per-device migration validation, a migration-progress/coexistence report, safe remediation/cleanup of legacy artifacts, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (Intune-delivered client + profile working, legacy path removed, no conflict), plus Best Practices for wave-based cutover.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CVPNMIG-Discovery.ps1</code> &mdash; current-state discovery of the Cisco VPN client, profile, and cert delivery</li><li><code>CVPNMIG-Remediation.ps1</code> &mdash; safely clean up legacy Cisco VPN artifacts / fix double-deployment conflicts</li><li><code>CVPNMIG-Report.ps1</code> &mdash; fleet migration-progress / coexistence report (legacy vs Intune-managed)</li><li><code>CVPNMIG-Set-ScopeTargeting.ps1</code> &mdash; create/populate the Cisco VPN migration-wave Entra group(s)</li><li><code>CVPNMIG-Validation.ps1</code> &mdash; confirm the Intune-delivered Cisco client, profile, and cert work on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Migrate Cisco Secure Client (AnyConnect) VPN deployment from SCCM and Group Policy to Microsoft Intune: rebuild client + profile, coexistence, wave cutover, legacy retirement. Self-guided, tested steps and scripts.",
+      "url_key": "cisco-vpn-client-sccm-gpo-to-intune-migration-nonprofit",
+      "image": "CVPNMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CVPNMIG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CVPNMIG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CVPNMIG-GOV-001",
+      "name": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Migrate Cisco Secure Client (AnyConnect) deployment from SCCM/GPO to Intune — re-home the client, VPN profile, and certs, coexist during cutover, and retire the legacy path — pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Retire SCCM and GPO from your Cisco VPN client deployment</h3><p>Many fleets still push the <strong>Cisco Secure Client (AnyConnect)</strong> and its VPN profile through <strong>SCCM packages and Group Policy</strong> &mdash; on-prem plumbing that breaks for remote and cloud-managed devices. This solution migrates that deployment to <strong>Microsoft Intune</strong> cleanly: re-home the client install, the VPN profile, and any certificate delivery to Intune, run both side by side during cutover, and retire the SCCM/GPO path &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the migration model (inventory the current SCCM/GPO deployment, rebuild it in Intune, coexist during cutover, retire the legacy path) and how to avoid double-deployment conflicts.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, the Secure Client installers + VPN profile/XML, the current SCCM/GPO deployment details, certificate delivery, Entra groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to rebuild the client + VPN profile in Intune, handle coexistence with the SCCM/GPO deployment, migrate a named pilot, validate parity, cut over waves, and remove the legacy delivery.</li><li><strong>5 PowerShell scripts</strong> &mdash; current-state discovery (SCCM/GPO VPN deployment), per-device migration validation, a migration-progress/coexistence report, safe remediation/cleanup of legacy artifacts, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (Intune-delivered client + profile working, legacy path removed, no conflict), plus Best Practices for wave-based cutover.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CVPNMIG-Discovery.ps1</code> &mdash; current-state discovery of the Cisco VPN client, profile, and cert delivery</li><li><code>CVPNMIG-Remediation.ps1</code> &mdash; safely clean up legacy Cisco VPN artifacts / fix double-deployment conflicts</li><li><code>CVPNMIG-Report.ps1</code> &mdash; fleet migration-progress / coexistence report (legacy vs Intune-managed)</li><li><code>CVPNMIG-Set-ScopeTargeting.ps1</code> &mdash; create/populate the Cisco VPN migration-wave Entra group(s)</li><li><code>CVPNMIG-Validation.ps1</code> &mdash; confirm the Intune-delivered Cisco client, profile, and cert work on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Migrate Cisco Secure Client (AnyConnect) VPN deployment from SCCM and Group Policy to Microsoft Intune: rebuild client + profile, coexistence, wave cutover, legacy retirement. Self-guided, tested steps and scripts.",
+      "url_key": "cisco-vpn-client-sccm-gpo-to-intune-migration-government",
+      "image": "CVPNMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CVPNMIG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CVPNMIG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

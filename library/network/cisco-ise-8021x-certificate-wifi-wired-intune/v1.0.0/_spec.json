@@ -1,0 +1,83 @@
+{
+  "sol": "ISE8021X",
+  "slug": "cisco-ise-8021x-certificate-wifi-wired-intune",
+  "title": "Cisco ISE 802.1X Certificate Authentication for Wi-Fi & Wired via Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "tier": "T4",
+  "hook": "Certificate-authenticate every device onto Wi-Fi and wired with Cisco ISE",
+  "problem": "Pre-shared Wi-Fi keys and open switch ports are an open door. <strong>802.1X with certificates</strong> makes every device prove identity before it touches the network &mdash; but delivering the certs and Wi-Fi/wired profiles to a fleet is the hard part. This solution issues certificates from <strong>Intune</strong> and deploys the <strong>Wi-Fi and wired 802.1X profiles</strong> that authenticate to <strong>Cisco ISE</strong> over EAP-TLS &mdash; the on-prem NAC counterpart to certificate VPN, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how 802.1X / EAP-TLS works for Wi-Fi and wired with ISE as the RADIUS authority, the certificate + network-profile model, and where Intune delivery meets the Cisco switching/wireless infrastructure.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a CA / Cloud PKI, Intune SCEP/PKCS + trusted-root profiles, Wi-Fi/wired 802.1X profile settings, ISE policy for EAP-TLS, Entra groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to deploy the certificate and trusted-root profiles, build the Wi-Fi and wired 802.1X device profiles in Intune, assign to a named pilot group, validate ISE authenticates the device, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; 802.1X readiness discovery, per-device certificate + network-profile validation, a Wi-Fi/wired profile coverage report, safe remediation of missing profiles/certs, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates (cert present, profile applied, ISE 802.1X auth success), plus Best Practices for supplicant and renewal."
+  ],
+  "short": "Issue certificates from <strong>Intune</strong> and deploy <strong>Wi-Fi and wired 802.1X profiles</strong> that authenticate to <strong>Cisco ISE</strong> over EAP-TLS &mdash; on-prem NAC for every device, deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Issue certificates from Intune and deploy Wi-Fi and wired 802.1X profiles that authenticate to Cisco ISE over EAP-TLS — on-prem NAC for every device, pilot-first.",
+  "meta_title": "Cisco ISE 802.1X Certificate Authentication for Wi-Fi & Wired via Intune",
+  "meta_description": "Deploy 802.1X EAP-TLS certificate authentication for Wi-Fi and wired with Cisco ISE and Intune: SCEP/PKCS certs, trusted-root, Wi-Fi/wired profiles. Self-guided, tested steps and scripts (Cisco specifics deferred to vendor docs).",
+  "bottom_line": "Every device certificate-authenticated onto Wi-Fi and wired by Cisco ISE &mdash; profiles and certs delivered from Intune, and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "802.1X Cert Auth",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Wi-Fi & Wired · Cisco ISE",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "EAP-TLS · Intune · NAC",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OPEN NETWORK",
+      "items": [
+        "Pre-shared keys",
+        "Open switch ports",
+        "No device identity",
+        "Manual profiles"
+      ]
+    },
+    "to": {
+      "label": "802.1X EAP-TLS",
+      "stat": "Cert-authenticated access"
+    },
+    "tagline": "ISSUE IT.  PROFILE IT.  AUTHENTICATE.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Certificates",
+        "sub": "Intune-issued"
+      },
+      {
+        "icon": "shield",
+        "title": "802.1X",
+        "sub": "EAP-TLS"
+      },
+      {
+        "icon": "gear",
+        "title": "Wi-Fi/Wired",
+        "sub": "Network profiles"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Profile report"
+      }
+    ]
+  },
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (Cisco ISE / Secure Client + Intune integration; certificate/posture/network-profile work, live-access risk).",
+    "Cisco ISE and Cisco Secure Client (AnyConnect) console/profile-editor internals are deferred to Cisco's official documentation (no fabricated menus); the Intune, Entra, and certificate side is authored at exact click-by-click detail."
+  ]
+}

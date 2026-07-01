@@ -1,0 +1,42 @@
+{
+  "slug": "backup-validation-recoverability-assurance",
+  "title": "Backup Validation & Recoverability Assurance Program",
+  "category": "Backup & DR Solutions",
+  "category_slug": "backup-dr-solutions",
+  "sol_code": "BACKUPVAL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Derived from a Microsoft Cloud Solution Architect (MSP) requirement: drive operational resilience through backup validation.",
+    "Scope: a program that proves backups restore — M365 (Exchange/SPO/OneDrive/Teams via 3rd-party SaaS backup) + Azure Backup — with coverage standards, RPO/RTO, a scheduled restore-test cadence, per-workload test restores, evidence capture, and audit-ready reporting. White-label.",
+    "pricing: T3 (advanced) — multi-workload assurance program + evidence + reporting."
+  ],
+  "products": [
+    {
+      "sku": "PTK-BACKUPVAL-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-BACKUPVAL-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-BACKUPVAL-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "BACKUPVAL-Complete-Solution.zip"
+  ],
+  "hero": "BACKUPVAL-hero.png",
+  "wiki_path": "solutions/backup-dr-solutions/backup-validation-recoverability-assurance",
+  "wiki_published": true
+}

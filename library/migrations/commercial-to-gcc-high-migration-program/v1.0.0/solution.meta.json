@@ -1,0 +1,42 @@
+{
+  "slug": "commercial-to-gcc-high-migration-program",
+  "title": "Commercial-to-GCC High Microsoft 365 & Azure Migration Program (Exchange, SharePoint, Teams, AVD)",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "GCCHIGH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-27",
+  "updated": "2026-06-27",
+  "published_at": "2026-06-27",
+  "wiki_path": "solutions/azure-solutions/commercial-to-gcc-high-migration-program",
+  "wiki_published": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Includes a project to move from azure to GCC high. Migrate azure servers, apps and critically sharepoint, vdi, azure using Quest, Sharegate, and other common migration tools.",
+    "Scope: multi-workstream PROGRAM migrating a commercial Microsoft 365 + Azure estate to a GCC High sovereign tenant (cross-cloud, not in-place; eligibility/sponsorship + AOS-G gated). Workstreams: Identity (Entra), Exchange, SharePoint/OneDrive, Teams, Azure IaaS servers (Azure Migrate + ASR), Azure apps/PaaS, AVD/VDI. Tools: Quest On Demand, ShareGate, Azure Migrate/ASR, native.",
+    "pricing: T5 (enterprise program) — multi-workstream cross-cloud / sovereign-cloud program; anchor $5,995, the highest in the catalog, above the prior product per the monotonicity rule."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GCCHIGH-COMM-001",
+      "audience": "commercial",
+      "price": 5995.0
+    },
+    {
+      "sku": "PTK-GCCHIGH-NPO-001",
+      "audience": "nonprofit",
+      "price": 3597.0
+    },
+    {
+      "sku": "PTK-GCCHIGH-GOV-001",
+      "audience": "government",
+      "price": 5095.75
+    }
+  ],
+  "deliverables": [
+    "GCCHIGH-Complete-Solution.zip"
+  ],
+  "hero": "GCCHIGH-hero.png"
+}

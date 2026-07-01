@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Universal Print",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Retire the Print Servers",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Universal Print · Entra ID · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PRINT-SERVER LIABILITY",
+    "items": [
+      "Boxes to patch",
+      "Driver sprawl",
+      "GPO mappings",
+      "LAN-only print"
+    ]
+  },
+  "to": {
+    "label": "Cloud-delivered print",
+    "stat": "Shared from Entra · deployed by Intune"
+  },
+  "tagline": "PRINT FROM ANYWHERE.  NO SERVERS.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Universal Print",
+      "sub": "Cloud service"
+    },
+    {
+      "icon": "gear",
+      "title": "Connector",
+      "sub": "Existing printers"
+    },
+    {
+      "icon": "users",
+      "title": "Deploy by Group",
+      "sub": "Via Intune"
+    },
+    {
+      "icon": "device",
+      "title": "Anywhere",
+      "sub": "On or off LAN"
+    }
+  ]
+}

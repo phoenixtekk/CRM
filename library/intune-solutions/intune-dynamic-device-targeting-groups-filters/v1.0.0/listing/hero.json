@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Dynamic Targeting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Right Devices, Automatically",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Dynamic Groups · Assignment Filters",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STATIC LIST SPRAWL",
+    "items": [
+      "Manual group lists",
+      "New devices miss policy",
+      "Membership drift",
+      "Admin hours lost"
+    ]
+  },
+  "to": {
+    "label": "Auto-targeted",
+    "stat": "Dynamic groups · filters · scoped"
+  },
+  "tagline": "TARGET BY RULE.  SCOPE BY FILTER.  STAY CORRECT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Dynamic Groups",
+      "sub": "Membership rules"
+    },
+    {
+      "icon": "gear",
+      "title": "Filters",
+      "sub": "Include/exclude"
+    },
+    {
+      "icon": "device",
+      "title": "At Scale",
+      "sub": "Auto-include"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Effective targeting"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cloud-first-autopilot-zero-touch-provisioning",
+  "title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CFAP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-30",
+  "updated": "2026-06-30",
+  "published_at": "2026-06-30",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (zero-touch provisioning model: Entra-join + Autopilot first, optional later domain join; reduces technician effort; spans Autopilot/Entra/Intune, hybrid considerations).",
+    "Distinct from windows-autopilot (general Autopilot); this is the cloud-first-then-optional-hybrid + near-zero-touch technician-effort model. version_directive: New; branding: off."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CFAP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CFAP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CFAP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CFAP-Solution.pdf",
+    "CFAP-Scripts.zip"
+  ],
+  "hero": "CFAP-hero.png"
+}
+

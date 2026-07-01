@@ -1,0 +1,83 @@
+{
+  "sol": "SPMAM",
+  "slug": "secure-mobile-access-sharepoint-online-mam",
+  "title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (multi-component: App Protection Policies + Conditional Access + supported access paths + intranet-routing/Microsoft Tunnel-for-MAM decision + root-cause diagnostics; live-access risk).",
+    "Doubles as the resolution to a real support case: employees can't reliably reach a SharePoint Online intranet from mobile under a MAM configuration. Keep customer/intranet names OUT (white-label). version_directive: New; branding: off."
+  ],
+  "hook": "Make SharePoint Online reliably reachable on mobile under MAM — without breaking data protection",
+  "problem": "A SharePoint Online intranet that works fine on a laptop can be a mess on mobile the moment <strong>Mobile Application Management (MAM)</strong> is in play: employees get blocked or bounced, links open in the wrong app, and productivity stalls. The cause is almost always a mismatch between <strong>App Protection Policies, Conditional Access, and the access path the user actually takes</strong> (the SharePoint mobile app vs. a protected browser) &mdash; and sometimes an intranet-routing gap. This solution gives you the correct, repeatable way to <strong>deliver secure, reliable mobile access to SharePoint Online under MAM</strong> in Microsoft Intune, and a diagnostic path to root-cause when it isn't working.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how mobile access to SharePoint Online works under MAM, the interplay of App Protection Policies + Conditional Access, the supported access paths (the SharePoint mobile app vs. a MAM-protected browser like Edge), and when intranet routing / Microsoft Tunnel for MAM is required.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune with App Protection, Entra ID + Conditional Access, the Microsoft 365 apps in scope, licensing, target user groups, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide (the resolution)</strong> &mdash; exact, ordered steps: define the App Protection Policies, build the Conditional Access policy (approved client apps / app-protection grant), confirm the supported access path and steer users to it, decide and (if needed) wire intranet routing / Tunnel for MAM, validate mobile access end to end, then pilot and expand.",
+    "<strong>Root-cause diagnostic tree</strong> &mdash; a step-by-step method for 'can't access the intranet on mobile': CA block vs. missing app-protection grant vs. wrong access path (browser vs. app) vs. routing/Tunnel gap vs. sign-in/token issues, with how to confirm each.",
+    "<strong>5 PowerShell scripts</strong> &mdash; App Protection + Conditional Access readiness discovery, per-user mobile-access validation, an access + policy-coverage report, safe remediation of misconfigured assignments, and a mobile-access scope-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The correct, repeatable way to <strong>deliver secure, reliable mobile access to SharePoint Online under MAM</strong> &mdash; App Protection Policies + Conditional Access + the right access path (SharePoint app vs. protected browser) + the intranet-routing decision, with a root-cause diagnostic tree. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The correct, repeatable way to deliver secure, reliable mobile access to SharePoint Online under MAM — App Protection Policies + Conditional Access + the right access path + the intranet-routing decision, with a root-cause diagnostic tree.",
+  "meta_title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access)",
+  "meta_description": "Fix and standardize mobile access to SharePoint Online under MAM in Intune: App Protection Policies, Conditional Access (approved-app / app-protection grant), SharePoint app vs. protected browser paths, Microsoft Tunnel-for-MAM routing decision, and a root-cause diagnostic tree. Self-guided, tested steps and scripts.",
+  "bottom_line": "Reliable, protected mobile access to a SharePoint Online intranet under MAM &mdash; App Protection and Conditional Access aligned, users on the supported access path, and intranet routing handled &mdash; with a diagnostic tree to root-cause any failure, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SharePoint Mobile",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Reliable Under MAM",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · App Protection · Conditional Access",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MOBILE ACCESS BREAKS",
+      "items": [
+        "Blocked / bounced",
+        "Opens wrong app",
+        "CA vs APP mismatch",
+        "Intranet unreachable"
+      ]
+    },
+    "to": {
+      "label": "Reliable & protected",
+      "stat": "APP + CA + right path"
+    },
+    "tagline": "ALIGN THE POLICIES.  PICK THE PATH.  ROUTE THE INTRANET.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "App Protection",
+        "sub": "MAM data controls"
+      },
+      {
+        "icon": "lock",
+        "title": "Conditional Access",
+        "sub": "Approved-app grant"
+      },
+      {
+        "icon": "device",
+        "title": "Access Path",
+        "sub": "App vs browser"
+      },
+      {
+        "icon": "chart",
+        "title": "Diagnose",
+        "sub": "Root-cause tree"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint Mobile",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Reliable Under MAM",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · App Protection · Conditional Access",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MOBILE ACCESS BREAKS",
+    "items": [
+      "Blocked / bounced",
+      "Opens wrong app",
+      "CA vs APP mismatch",
+      "Intranet unreachable"
+    ]
+  },
+  "to": {
+    "label": "Reliable & protected",
+    "stat": "APP + CA + right path"
+  },
+  "tagline": "ALIGN THE POLICIES.  PICK THE PATH.  ROUTE THE INTRANET.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "App Protection",
+      "sub": "MAM data controls"
+    },
+    {
+      "icon": "lock",
+      "title": "Conditional Access",
+      "sub": "Approved-app grant"
+    },
+    {
+      "icon": "device",
+      "title": "Access Path",
+      "sub": "App vs browser"
+    },
+    {
+      "icon": "chart",
+      "title": "Diagnose",
+      "sub": "Root-cause tree"
+    }
+  ]
+}

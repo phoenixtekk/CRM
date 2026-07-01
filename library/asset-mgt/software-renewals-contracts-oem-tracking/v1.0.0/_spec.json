@@ -1,0 +1,81 @@
+{
+  "sol": "SWRENEW",
+  "slug": "software-renewals-contracts-oem-tracking",
+  "title": "Software Renewals, Contracts & OEM Bundle Tracking",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "commercial_price": 2495.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T3 (renewal calendar + contract repository + procurement coordination; moderate process build)."
+  ],
+  "hook": "Never get blindsided by a software renewal again",
+  "problem": "Renewals arrive without warning, auto-renew at bad terms, or lapse and break something in production &mdash; and OEM bundles and contract terms live in people's inboxes. This solution builds a repeatable <strong>software renewals, contracts, and OEM bundle tracking</strong> process: a renewal calendar with lead-time alerts, a contract and entitlement repository, OEM/bundle mapping, and a procurement coordination workflow so every renewal is a planned decision.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the renewal lifecycle, the contract/entitlement repository model, OEM bundle mapping, lead-time alerting, and the procurement coordination workflow.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a contract/entitlement repository, renewal dates and terms, procurement contacts, an alerting mechanism) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory contracts and renewal dates, build the repository and calendar, map OEM bundles, set lead-time alerts, define the renewal decision workflow with procurement, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; contract/renewal discovery, renewal-data completeness validation, a renewal calendar and cost report, safe remediation of missing renewal records, and a renewal-owner group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>software renewals, contracts, and OEM bundle tracking</strong> process &mdash; a renewal calendar with lead-time alerts, a contract repository, OEM mapping, and procurement coordination so every renewal is a planned decision. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable software renewals, contracts, and OEM bundle tracking process — renewal calendar with alerts, a contract repository, OEM mapping, and procurement coordination.",
+  "meta_title": "Software Renewals, Contracts & OEM Bundle Tracking",
+  "meta_description": "Track software renewals, contracts, and OEM bundles: renewal calendar with lead-time alerts, contract repository, OEM mapping, procurement coordination. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every software renewal a planned decision &mdash; a renewal calendar with lead-time alerts, a contract repository, and procurement coordination &mdash; no more surprise auto-renewals or lapses, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Renewals & Contracts",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Plan Every Renewal",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Contracts · OEM Bundles · Procurement",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RENEWAL BLINDSIDES",
+      "items": [
+        "No warning",
+        "Bad auto-renews",
+        "Lapses break prod",
+        "Terms in inboxes"
+      ]
+    },
+    "to": {
+      "label": "Planned decisions",
+      "stat": "Calendar · alerts · repository"
+    },
+    "tagline": "NO MORE SURPRISE RENEWALS.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "Calendar",
+        "sub": "Lead-time alerts"
+      },
+      {
+        "icon": "gear",
+        "title": "Repository",
+        "sub": "Contracts + terms"
+      },
+      {
+        "icon": "chip",
+        "title": "OEM Bundles",
+        "sub": "Mapped"
+      },
+      {
+        "icon": "users",
+        "title": "Procurement",
+        "sub": "Coordinated"
+      }
+    ]
+  }
+}

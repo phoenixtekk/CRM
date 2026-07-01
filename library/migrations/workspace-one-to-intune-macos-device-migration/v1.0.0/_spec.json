@@ -1,0 +1,81 @@
+{
+  "sol": "WS1MAC",
+  "slug": "workspace-one-to-intune-macos-device-migration",
+  "title": "Workspace ONE to Intune — macOS Device Migration",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (macOS re-enrollment from Workspace ONE incl. ABM re-assignment, profile/shell parity; live-device risk)."
+  ],
+  "hook": "Move Macs from Workspace ONE to Intune — re-enrolled with full profile parity",
+  "problem": "Migrating a Mac fleet off Workspace ONE means moving devices in <strong>Apple Business Manager</strong> to <strong>Intune</strong>, re-enrolling, and rebuilding the macOS configuration &mdash; settings-catalog policies, custom <code>.mobileconfig</code> profiles, and shell scripts &mdash; with the same posture. This solution is the repeatable <strong>Workspace ONE to Intune macOS migration</strong>: ABM re-assignment, Intune enrollment, profile/shell parity, and a ringed cutover.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the macOS migration model, moving devices in Apple Business Manager to Intune, ADE/Account-driven re-enrollment, rebuilding macOS configuration (settings catalog, custom <code>.mobileconfig</code>, shell scripts) for parity, and the ringed cutover.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, Apple Business Manager + the Apple MDM Push (APNs) certificate, Workspace ONE/ABM admin access, the macOS parity target, a pilot group, user comms) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: connect ABM to Intune, build macOS enrollment profiles, reassign devices in ABM, re-enroll by ring, rebuild profile/shell parity, validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; macOS migration-readiness discovery, per-device enrollment/parity validation, a migration status and parity report, safe remediation of stuck enrollments, and a migration-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The repeatable <strong>Workspace ONE to Intune macOS migration</strong> &mdash; Apple Business Manager re-assignment, Intune enrollment, profile/shell parity, and a ringed cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The repeatable Workspace ONE to Intune macOS migration — Apple Business Manager re-assignment, Intune enrollment, profile/shell parity, and a ringed cutover.",
+  "meta_title": "Workspace ONE to Intune — macOS Device Migration",
+  "meta_description": "Migrate Macs from Workspace ONE to Intune: Apple Business Manager re-assignment, ADE/Account-driven re-enrollment, macOS profile and shell-script parity, ringed cutover. Self-guided, tested steps and scripts.",
+  "bottom_line": "Macs moved from Workspace ONE to Intune &mdash; re-assigned in Apple Business Manager, re-enrolled, and rebuilt to full macOS profile and shell-script parity &mdash; proven on a pilot ring before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Migration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Macs, Full Parity",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · ABM · macOS",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MAC HANDOFF RISK",
+      "items": [
+        "ABM re-assignment",
+        "Profile rebuild",
+        "Shell parity",
+        "User disruption"
+      ]
+    },
+    "to": {
+      "label": "Clean Mac migration",
+      "stat": "ABM · re-enroll · parity"
+    },
+    "tagline": "REASSIGN.  RE-ENROLL.  REBUILD PARITY.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "ABM",
+        "sub": "Re-assign"
+      },
+      {
+        "icon": "gear",
+        "title": "Profiles",
+        "sub": "+ shell scripts"
+      },
+      {
+        "icon": "shield",
+        "title": "Parity",
+        "sub": "Same posture"
+      },
+      {
+        "icon": "chart",
+        "title": "Ringed",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

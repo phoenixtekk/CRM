@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Passwordless MFA",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Phishing-Resistant",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Entra ID · FIDO2 · Windows Hello",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PHISHABLE LOGINS",
+    "items": [
+      "Passwords phished",
+      "MFA bombing",
+      "Weak methods",
+      "Mandate unmet"
+    ]
+  },
+  "to": {
+    "label": "Phishing-resistant",
+    "stat": "FIDO2 · Hello · enforced"
+  },
+  "tagline": "KILL THE PASSWORD.  BLOCK THE PHISH.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "FIDO2 Keys",
+      "sub": "Hardware-backed"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Windows Hello",
+      "sub": "Passwordless"
+    },
+    {
+      "icon": "shield",
+      "title": "Auth Strength",
+      "sub": "CA enforced"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Method report"
+    }
+  ]
+}

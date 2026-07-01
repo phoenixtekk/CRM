@@ -1,0 +1,38 @@
+{
+  "slug": "saas-application-discovery-license-rightsizing",
+  "title": "SaaS Application Discovery & License Right-Sizing",
+  "category": "Asset Mgt",
+  "category_slug": "asset-mgt",
+  "sol_code": "SAASLIC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-29",
+  "updated": "2026-06-29",
+  "published_at": "2026-06-29",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (discover SaaS apps + right-size seats across sign-in/usage telemetry; moderate config, pilot-to-prod)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SAASLIC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-SAASLIC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-SAASLIC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "SAASLIC-Complete-Solution.zip"
+  ],
+  "hero": "SAASLIC-hero.png"
+}

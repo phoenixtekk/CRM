@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Custom Compliance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Enforce What GUI Can't",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune · Detection Scripts · Config Items",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BUILT-IN GAPS",
+    "items": [
+      "GUI can't reach it",
+      "No custom checks",
+      "Unmeasured state",
+      "Standards unmet"
+    ]
+  },
+  "to": {
+    "label": "Scripted & enforced",
+    "stat": "Detection · JSON rules · CA"
+  },
+  "tagline": "SCRIPT THE CHECK.  MEASURE IT.  ENFORCE IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Detection",
+      "sub": "PowerShell"
+    },
+    {
+      "icon": "chip",
+      "title": "JSON Rules",
+      "sub": "Custom compliance"
+    },
+    {
+      "icon": "shield",
+      "title": "Config Items",
+      "sub": "Beyond templates"
+    },
+    {
+      "icon": "chart",
+      "title": "Conditional Access",
+      "sub": "Enforced"
+    }
+  ]
+}

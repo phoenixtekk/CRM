@@ -1,0 +1,82 @@
+{
+  "sol": "CUSTCOMP",
+  "slug": "intune-custom-compliance-configuration-items",
+  "title": "Intune Custom Compliance & Configuration Items (Scripted)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (custom compliance policies with detection scripts + scripted configuration items/settings in Intune; conditional logic, JSON discovery rules).",
+    "Distinct from device-compliance-policies (standard built-in compliance); this is the SCRIPTED custom-compliance + configuration-items angle. version_directive: New; branding: off."
+  ],
+  "hook": "Enforce the checks Intune's built-in settings can't — with scripted custom compliance and config items",
+  "problem": "Intune's built-in compliance settings cover the basics, but real requirements go further: a registry value, a specific app version, a security control the GUI can't reach. The answer is <strong>custom compliance</strong> &mdash; a PowerShell detection script plus a JSON rule that Intune evaluates &mdash; and <strong>scripted configuration items</strong> for settings outside the templates. This solution gives you a repeatable way to <strong>author, deploy, and manage custom compliance and configuration items in Intune</strong>, so device state is measured and enforced exactly the way your standards require.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Intune custom compliance works (the detection script + JSON discovery rule + settings mapping), scripted configuration items / settings-catalog custom settings, how custom compliance feeds Conditional Access, and the authoring model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Entra ID, PowerShell script signing/execution, a compliance baseline, target groups, Conditional Access) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: write the detection script, author the JSON rule and settings mapping, upload as a custom compliance policy, add scripted configuration items, assign to a pilot, validate evaluation and Conditional Access effect, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; a custom-compliance detection-script template, a rule/JSON validation script, a fleet custom-compliance report, safe remediation of non-compliant devices, and a compliance-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>author, deploy, and manage custom compliance and configuration items in Intune</strong> &mdash; PowerShell detection scripts + JSON rules and scripted config items for the checks the built-in settings can't reach. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to author, deploy, and manage custom compliance and configuration items in Intune — PowerShell detection scripts plus JSON rules and scripted config items for checks the built-in settings can't reach.",
+  "meta_title": "Intune Custom Compliance & Configuration Items (Scripted)",
+  "meta_description": "Author scripted custom compliance in Intune: PowerShell detection scripts + JSON discovery rules and scripted configuration items for checks beyond the built-in settings, feeding Conditional Access. Self-guided, tested steps and scripts.",
+  "bottom_line": "Device state measured and enforced exactly to your standards &mdash; custom compliance detection scripts and scripted configuration items covering what the built-in settings can't, wired into Conditional Access &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Custom Compliance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Enforce What GUI Can't",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Detection Scripts · Config Items",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BUILT-IN GAPS",
+      "items": [
+        "GUI can't reach it",
+        "No custom checks",
+        "Unmeasured state",
+        "Standards unmet"
+      ]
+    },
+    "to": {
+      "label": "Scripted & enforced",
+      "stat": "Detection · JSON rules · CA"
+    },
+    "tagline": "SCRIPT THE CHECK.  MEASURE IT.  ENFORCE IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Detection",
+        "sub": "PowerShell"
+      },
+      {
+        "icon": "chip",
+        "title": "JSON Rules",
+        "sub": "Custom compliance"
+      },
+      {
+        "icon": "shield",
+        "title": "Config Items",
+        "sub": "Beyond templates"
+      },
+      {
+        "icon": "chart",
+        "title": "Conditional Access",
+        "sub": "Enforced"
+      }
+    ]
+  }
+}

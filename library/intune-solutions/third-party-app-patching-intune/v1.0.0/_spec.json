@@ -1,0 +1,81 @@
+{
+  "sol": "TPP",
+  "slug": "third-party-app-patching-intune",
+  "title": "Third-Party Application Patching with Intune",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-06-28",
+  "author_notes": [
+    "Effort tier: T3 (multi-component within Intune: Enterprise App Catalog + Win32 update packaging, detection, supersedence, ring assignment for non-Microsoft apps)."
+  ],
+  "hook": "Patch the apps attackers actually target — Chrome, Adobe, Zoom and more — automatically, from Intune",
+  "problem": "Windows Update keeps the OS current, but the software that gets exploited most &mdash; browsers, Adobe Reader, Java, Zoom, 7-Zip, and dozens of other third-party apps &mdash; quietly drifts out of date on every device. Each unpatched version is an open door. This solution gives you a <strong>repeatable third-party patching program in Intune</strong>: use the Enterprise App Catalog where available and a packaged update method elsewhere, with detection and supersedence so devices move to the current version automatically, deployed in rings.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why third-party apps are the prime attack surface, the Enterprise App Catalog (catalog apps with auto-update) model, the packaged/superseded Win32 update method for everything else, and the ring-based update model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, app inventory, Enterprise App Catalog availability, packaging tooling for non-catalog apps, detection method, maintenance windows) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory installed third-party apps and versions, onboard catalog apps with auto-update, package and supersede non-catalog apps, set detection and assignment rings, schedule updates, then validate and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; installed third-party app/version discovery, patch-state validation, an out-of-date exposure report across the fleet, safe remediation of stuck updates, and an update-ring group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable <strong>third-party patching program in Intune</strong> for the apps attackers target most &mdash; Chrome, Adobe, Zoom and more &mdash; via the Enterprise App Catalog and packaged updates with detection, supersedence, and rings. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable third-party patching program in Intune for non-Microsoft apps — Enterprise App Catalog plus packaged updates, with detection, supersedence, and rings.",
+  "meta_title": "Third-Party Application Patching with Intune",
+  "meta_description": "Patch non-Microsoft apps with Intune: Enterprise App Catalog auto-update, packaged Win32 update method, detection, supersedence, and ring-based deployment. Self-guided, tested steps and scripts.",
+  "bottom_line": "Your highest-risk third-party apps kept current automatically across the fleet &mdash; catalog apps auto-updating, everything else packaged and superseded, deployed in rings &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Third-Party Patching",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Close the Open Doors",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune · Enterprise App Catalog",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STALE THIRD-PARTY APPS",
+      "items": [
+        "Outdated browsers",
+        "Old Adobe/Java",
+        "Open CVEs",
+        "No visibility"
+      ]
+    },
+    "to": {
+      "label": "Current automatically",
+      "stat": "Catalog + superseded · ringed"
+    },
+    "tagline": "PATCH WHAT THEY TARGET.  AUTOMATICALLY.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Attack Surface",
+        "sub": "Closed"
+      },
+      {
+        "icon": "cloud",
+        "title": "App Catalog",
+        "sub": "Auto-update"
+      },
+      {
+        "icon": "gear",
+        "title": "Supersedence",
+        "sub": "Move to current"
+      },
+      {
+        "icon": "chart",
+        "title": "Exposure",
+        "sub": "Out-of-date report"
+      }
+    ]
+  }
+}

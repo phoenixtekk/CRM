@@ -1,0 +1,82 @@
+{
+  "sol": "WS1APP",
+  "slug": "workspace-one-to-intune-application-rebuild",
+  "title": "Workspace ONE to Intune Application Rebuild & Repackaging",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "commercial_price": 2995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T4 (rebuild/repackage an app estate from a legacy MDM into Intune across Win32/store/mobile; detection/assignment parity, validation, higher volume/risk).",
+    "Adjacent to intune-win32-app-packaging-deployment (net-new Win32 packaging); THIS is the rebuild-from-Workspace-ONE, multi-platform migration angle."
+  ],
+  "hook": "Rebuild every app from Workspace ONE in Intune — and prove each one still deploys",
+  "problem": "Apps are where Workspace ONE migrations bog down: every Win32, store, and mobile app has to be <strong>rebuilt in Intune</strong> with correct detection, requirements, assignments, and configuration &mdash; and validated so nobody loses the software they work in. Done by hand it's slow and error-prone. This solution gives you a repeatable way to <strong>rebuild and repackage the Workspace ONE application estate into Intune</strong>: inventory the source apps, rebuild them with correct logic, migrate deployment/assignment workflows, and validate each one before cutover.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the app-migration model, mapping Workspace ONE app types to Intune (Win32 <code>.intunewin</code>, store apps, managed mobile apps), detection/requirement/assignment parity, app configuration, and the validation gate.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune, Workspace ONE app export/inventory, packaging tooling, per-platform app channels, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: inventory source apps, prioritize and rebuild each in Intune with correct detection/requirements, recreate assignment workflows, handle app configuration, validate deployment, then pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; source-vs-target app inventory discovery, app install/detection validation, a rebuild coverage and deployment-success report, safe remediation of failed app installs, and an app-assignment group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A repeatable way to <strong>rebuild and repackage the Workspace ONE application estate into Intune</strong> &mdash; inventory source apps, rebuild with correct detection and assignments, migrate deployment workflows, and validate each one before cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable way to rebuild and repackage the Workspace ONE application estate into Intune — inventory source apps, rebuild with correct detection and assignments, migrate deployment workflows, and validate each before cutover.",
+  "meta_title": "Workspace ONE to Intune Application Rebuild & Repackaging",
+  "meta_description": "Rebuild apps from Workspace ONE into Intune: source app inventory, Win32/store/mobile rebuild with correct detection and assignments, deployment-workflow migration, and per-app validation. Self-guided, tested steps and scripts.",
+  "bottom_line": "Every Workspace ONE app rebuilt in Intune and proven to deploy &mdash; correct detection, requirements, and assignments, validated before cutover &mdash; so no user loses the software they work in, proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "App Rebuild",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Every App, Proven",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workspace ONE · Intune · App Migration",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "APPS BOG DOWN",
+      "items": [
+        "Hundreds to rebuild",
+        "Detection guesswork",
+        "Assignment drift",
+        "Users lose apps"
+      ]
+    },
+    "to": {
+      "label": "Rebuilt & validated",
+      "stat": "Detection · assignments · proven"
+    },
+    "tagline": "REBUILD EVERY APP.  PROVE EVERY DEPLOY.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Rebuild",
+        "sub": "Win32/store/mobile"
+      },
+      {
+        "icon": "chip",
+        "title": "Detection",
+        "sub": "Parity"
+      },
+      {
+        "icon": "device",
+        "title": "Assignments",
+        "sub": "Migrated"
+      },
+      {
+        "icon": "chart",
+        "title": "Validated",
+        "sub": "Per app"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "cod-and-byod-device-management",
+  "title": "Corporate-Owned (COD) & BYOD Device Management",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CODBYOD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-06-14",
+  "updated": "2026-06-14",
+  "published_at": "2026-06-14",
+  "author_notes": [
+    "The solution must allow a single user account to sign in on both device types."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CODBYOD-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CODBYOD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CODBYOD-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CODBYOD-Complete-Solution.zip"
+  ],
+  "hero": "CODBYOD-hero.png",
+  "branding": "on"
+}

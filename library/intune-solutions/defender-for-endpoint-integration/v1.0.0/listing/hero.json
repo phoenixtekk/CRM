@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Defender for Endpoint", "color": "white", "size": "main" },
+    { "text": "Integration", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "BLIND ENDPOINTS", "items": ["No EDR", "No risk score", "Slow response", "No visibility"] },
+  "to": { "label": "Microsoft Intune", "stat": "Onboarded · EDR · Risk-scored" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "shield", "title": "EDR Onboarding", "sub": "Intune auto-onboards" },
+    { "icon": "chart", "title": "Risk Scoring", "sub": "Feeds compliance" },
+    { "icon": "gear", "title": "Unified Policy", "sub": "AV, EDR, ASR" },
+    { "icon": "lock", "title": "Auto-Response", "sub": "Isolate & remediate" }
+  ]
+}

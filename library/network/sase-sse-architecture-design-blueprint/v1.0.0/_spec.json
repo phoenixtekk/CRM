@@ -1,0 +1,82 @@
+{
+  "sol": "SASE",
+  "slug": "sase-sse-architecture-design-blueprint",
+  "title": "SASE / SSE Architecture & Design Blueprint",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 4995.0,
+  "date": "2026-06-29",
+  "author_notes": [
+    "Effort tier: T5 (enterprise architecture program tying SWG + ZTNA + CASB + identity into a SASE/SSE design; many technologies, org-wide).",
+    "Netskope console internals are deferred to Netskope's official documentation (no fabricated menus); authored at the correct architectural/procedural level."
+  ],
+  "hook": "Design your SASE/SSE architecture once — and roll out every edge service against one blueprint",
+  "problem": "Organizations buy SASE/SSE capabilities piecemeal &mdash; a web gateway here, ZTNA there &mdash; and end up with overlapping, inconsistent, hard-to-operate edge security. This solution delivers a <strong>SASE/SSE architecture and design blueprint</strong>: a coherent reference design that ties together secure web gateway, Zero Trust network access, cloud app control (CASB), SSL inspection, and identity-based policy into one operating model, with a phased adoption roadmap.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the SASE/SSE model, the component services (SWG, ZTNA, CASB, SSL inspection, DLP) and how they fit, identity as the control plane, and the target operating model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a Netskope tenant and licensed modules, Entra ID identity, endpoint management, network/egress design inputs, executive sponsorship) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: assess current state and inventory edge services, define the reference architecture and policy model, set the phased adoption roadmap, establish operating-model roles and KPIs, run a pilot phase, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; current-state edge/identity discovery, architecture-readiness validation, a capability-coverage and gap report, safe remediation of configuration gaps, and a phase-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "A <strong>SASE/SSE architecture and design blueprint</strong> &mdash; a coherent reference design tying SWG, ZTNA, CASB, SSL inspection, and identity-based policy into one operating model, with a phased adoption roadmap. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A SASE/SSE architecture and design blueprint — a coherent reference design tying SWG, ZTNA, CASB, SSL inspection, and identity-based policy into one operating model, with a phased roadmap.",
+  "meta_title": "SASE / SSE Architecture & Design Blueprint",
+  "meta_description": "Design a SASE/SSE architecture: reference design across SWG, ZTNA, CASB, SSL inspection, and identity policy, plus a phased adoption roadmap and operating model. Self-guided, tested steps and scripts (Netskope specifics deferred to vendor docs).",
+  "bottom_line": "One coherent SASE/SSE architecture &mdash; SWG, ZTNA, CASB, SSL inspection, and identity policy designed as a single operating model with a phased roadmap &mdash; replacing piecemeal edge security, proven on a pilot phase before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SASE / SSE",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "One Edge Blueprint",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Netskope · SASE · SSE Architecture",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PIECEMEAL EDGE",
+      "items": [
+        "Bought in silos",
+        "Overlapping tools",
+        "Inconsistent policy",
+        "Hard to operate"
+      ]
+    },
+    "to": {
+      "label": "One operating model",
+      "stat": "SWG · ZTNA · CASB · identity"
+    },
+    "tagline": "DESIGN ONCE.  ADOPT IN PHASES.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Reference Design",
+        "sub": "All SSE services"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Identity Plane",
+        "sub": "Control point"
+      },
+      {
+        "icon": "gear",
+        "title": "Roadmap",
+        "sub": "Phased adoption"
+      },
+      {
+        "icon": "chart",
+        "title": "Operating Model",
+        "sub": "Roles + KPIs"
+      }
+    ]
+  }
+}

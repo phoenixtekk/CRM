@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Backup Validation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Recoverability Assurance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "coverage · restore tests · evidence",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "\"WE HAVE BACKUPS\"",
+    "items": [
+      "Never test-restored",
+      "Unknown coverage",
+      "RPO/RTO guesses",
+      "No evidence"
+    ]
+  },
+  "to": {
+    "label": "Proven Recoverable",
+    "stat": "Tested · evidenced · audit-ready"
+  },
+  "tagline": "DON'T HOPE IT RESTORES.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "M365 + Azure",
+      "sub": "SaaS backup + Azure Backup"
+    },
+    {
+      "icon": "chart",
+      "title": "RPO / RTO",
+      "sub": "Targets + adherence"
+    },
+    {
+      "icon": "gear",
+      "title": "Restore Tests",
+      "sub": "Scheduled cadence"
+    },
+    {
+      "icon": "shield",
+      "title": "Evidence",
+      "sub": "Audit-ready proof"
+    }
+  ]
+}
