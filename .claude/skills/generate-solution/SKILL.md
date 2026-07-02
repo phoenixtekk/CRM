@@ -150,6 +150,40 @@ A `--brand` / `--no-brand` CLI flag overrides per-run. **Always set `"branding"`
 Record the resolved directive in `solution.meta.json` as `"branding"` (`"on"` | `"off"`) — for
 traceability and so the compilers honor it.
 
+## 0d. Commercial vs Government deliverables (research + fork when they differ) — STANDING RULE
+The 3-tier pricing (Commercial · Non-Profit −40% · Government −15%) is a **pricing** model — it does
+**not** mean the Government buyer receives the Commercial deliverable at a lower price. **Commercial
+M365 tenants and Government tenants (GCC / GCC High / DoD) frequently differ in the actual setup**, so
+a guide that is correct for Commercial can be *wrong* for Government.
+
+**Always, before authoring any solution that touches a Microsoft cloud service** (M365 / Entra /
+Intune / Defender / Purview / Sentinel / Azure), **research whether the Government tenant differs**,
+including:
+- **Admin portal URLs** — e.g. `portal.azure.us`, `portal.office365.us`, `endpoint.microsoft.us`,
+  `login.microsoftonline.us`, `security.microsoft.us`, `compliance.microsoft.us`, `*.office365.us`.
+- **Feature / endpoint availability & parity gaps** (features GA in Commercial that are delayed,
+  limited, or absent in GCC High / DoD), **service rollout timing**, and **compliance constraints**.
+- Different service endpoints/URLs the scripts must target, and different required network endpoints.
+
+**Decision:**
+- **If Government does NOT materially differ** → one deliverable, current behavior (Gov tier is
+  price-only).
+- **If Government DOES materially differ** → produce a **distinct Government deliverable**. Model:
+  - Author a **Government variant** of the affected sections/scripts under `source-gov\` +
+    `scripts-gov\` (only the files that differ; unchanged files are inherited from the Commercial
+    `source\`). The Commercial deliverable stays attached to the **Commercial + Non-Profit** SKUs;
+    the **Government deliverable** (`<SOL>-Solution-GOV.pdf` / `<SOL>-Scripts-GOV.zip`, built by
+    `build-deliverables.py --variant gov`) is attached to the **Government SKU** (`PTK-<SOL>-GOV-001`).
+  - Publish a **Government-tailored wiki page** (or a clearly-marked Government section) gated to the
+    Government Purchasers group; keep the Commercial guide for Commercial/NPO purchasers.
+  - Record `"gov_variant": true` in `solution.meta.json` and note the specific differences in
+    `author_notes`.
+- **Never invent** GCC High / DoD specifics — cite Microsoft's US-sovereign-cloud docs; where a
+  difference is uncertain, state the Commercial path and flag "verify for GCC High" rather than guess.
+
+*(This rule is enforced by the factory going forward and is being retrofitted across the existing
+catalog. See CLAUDE.md §6 learning loop + `library/_index/AUTHORING_LESSONS.md` cross-cutting entry.)*
+
 ## 1. Authoring standard (the Phoenixtekk house style)
 Author for a **novice Intune administrator** — buyer must be able to **"Click to Implement."**
 - **Imperative, exact instructions.** "Click **Devices** → **Configuration** → **Create**." No *why* in steps — the *why* lives in the Solution Overview.
