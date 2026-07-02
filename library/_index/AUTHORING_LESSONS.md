@@ -46,4 +46,4 @@
 <!-- (none yet) -->
 
 ## Cross-cutting (all categories)
-<!-- (none yet) -->
+- [2026-07-02] (cross-cutting · commercial-vs-government) **Commercial M365 and Government (GCC / GCC High / DoD) tenants often differ in actual setup — not just price.** Different admin portal URLs (e.g. `portal.azure.us`, `portal.office365.us`, `endpoint.microsoft.us`, `login.microsoftonline.us`), feature/endpoint availability and parity gaps, service rollout timing, and compliance constraints mean a step-by-step guide that is correct for Commercial can be wrong for Government. **When authoring any solution, research whether the configuration differs for Government** and, where it materially does, produce a **distinct Government deliverable** (its own guide/scripts) rather than reusing the Commercial deliverable at the Government price. The 3-tier pricing (Commercial/NPO/Gov) is a pricing model; it does NOT imply the Gov content is identical. Where Gov differs, treat it as a separate product/deliverable (own slug/SKU/guide), not price-level-3 of the same service. — from owner directive (Dolibarr catalog review)

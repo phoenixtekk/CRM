@@ -12,3 +12,7 @@ __pycache__/
 # --- os / editor junk ---
 Thumbs.db
 .DS_Store
+
+# stray secret files
+key.txt
+*.key
