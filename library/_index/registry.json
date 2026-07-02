@@ -20697,6 +20697,177 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
+    "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "PURVIEWG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVIEWG-COMM-001",
+      "PTK-PURVIEWG-NPO-001",
+      "PTK-PURVIEWG-GOV-001"
+    ],
+    "deliverables": [
+      "PURVIEWG-Solution.pdf",
+      "PURVIEWG-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\microsoft-purview-dlp-sensitivity-labels-retention-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 11.4
+        },
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVIEWG-Discovery.ps1",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/scripts/PURVIEWG-Discovery.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "PURVIEWG-Remediation.ps1",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/scripts/PURVIEWG-Remediation.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "PURVIEWG-Report.ps1",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/scripts/PURVIEWG-Report.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "PURVIEWG-Set-ScopeTargeting.ps1",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/scripts/PURVIEWG-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "PURVIEWG-Validation.ps1",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/scripts/PURVIEWG-Validation.ps1",
+          "kb": 6.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVIEWG-Complete-Solution.zip",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-Complete-Solution.zip",
+          "kb": 111.5
+        },
+        {
+          "name": "PURVIEWG-hero.png",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-hero.png",
+          "kb": 421.2
+        },
+        {
+          "name": "PURVIEWG-hero.svg",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVIEWG-Scripts.zip",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-Scripts.zip",
+          "kb": 11.2
+        },
+        {
+          "name": "PURVIEWG-Solution.docx",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "PURVIEWG-Solution.pdf",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-Solution.pdf",
+          "kb": 62.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../security/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high/v1.0.0/deliverables/PURVIEWG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
     "slug": "entra-intune-audit-telemetry-sentinel",
     "category": "Sentinel Solutions",

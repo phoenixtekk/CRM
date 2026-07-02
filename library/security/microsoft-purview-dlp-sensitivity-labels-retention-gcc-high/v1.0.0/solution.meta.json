@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
+  "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "PURVIEWG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Government edition — GCC High tenant).",
+    "GOVERNMENT/GCC HIGH EDITION: authored for US sovereign cloud. Use compliance.microsoft.us / security.microsoft.us / portal.office365.us / login.microsoftonline.us; call out feature parity gaps vs Commercial (some Purview features are delayed/limited/absent in GCC High). Never invent GCC High specifics — cite Microsoft US Gov docs; where uncertain, state the Commercial path and flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PURVIEWG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-PURVIEWG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-PURVIEWG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "PURVIEWG-Solution.pdf",
+    "PURVIEWG-Scripts.zip"
+  ],
+  "hero": "PURVIEWG-hero.png"
+}
+

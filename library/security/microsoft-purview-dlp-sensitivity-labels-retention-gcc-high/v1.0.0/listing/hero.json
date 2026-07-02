@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Purview",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Classify, Protect, Retain",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Government · GCC High · US Sovereign",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED DATA",
+    "items": [
+      "Unclassified data",
+      "Leaks & DLP noise",
+      "No retention",
+      "Compliance gaps"
+    ]
+  },
+  "to": {
+    "label": "Governed data estate",
+    "stat": "Labeled · protected · retained"
+  },
+  "tagline": "LABEL IT.  PROTECT IT.  RETAIN IT RIGHT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Labels",
+      "sub": "+ auto-labeling"
+    },
+    {
+      "icon": "lock",
+      "title": "DLP",
+      "sub": "Audit then enforce"
+    },
+    {
+      "icon": "gear",
+      "title": "Retention",
+      "sub": "+ records"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Reported"
+    }
+  ]
+}

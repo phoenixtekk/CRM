@@ -628,5 +628,10 @@
     "post_id": 12069,
     "status": "draft",
     "category_id": 411
+  },
+  "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high": {
+    "post_id": 12071,
+    "status": "draft",
+    "category_id": 411
   }
 }

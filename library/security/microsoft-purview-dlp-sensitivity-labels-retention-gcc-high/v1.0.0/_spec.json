@@ -1,0 +1,82 @@
+{
+  "sol": "PURVIEWG",
+  "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
+  "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (Government edition — GCC High tenant).",
+    "GOVERNMENT/GCC HIGH EDITION: authored for US sovereign cloud. Use compliance.microsoft.us / security.microsoft.us / portal.office365.us / login.microsoftonline.us; call out feature parity gaps vs Commercial (some Purview features are delayed/limited/absent in GCC High). Never invent GCC High specifics — cite Microsoft US Gov docs; where uncertain, state the Commercial path and flag 'verify for GCC High'."
+  ],
+  "hook": "Roll out Purview DLP, labels & retention correctly on a GCC High tenant",
+  "problem": "Microsoft Purview in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different login — admin URLs differ (compliance.microsoft.us / security.microsoft.us), and several Purview capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government edition</strong>: DLP, sensitivity labels, and retention authored for the US sovereign cloud, with the GCC High portals, endpoints, and parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Purview information-protection model (sensitivity labels + label policies + auto-labeling, DLP across M365/endpoints, retention labels/policies and records management), and how they work together.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + Purview licensing, Entra ID, a label taxonomy, data owners, a pilot scope, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps: design the label taxonomy, publish labels and label policies, configure auto-labeling, build DLP policies in audit and tune, set retention labels/policies and records, pilot, validate, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Purview configuration discovery, label/DLP/retention coverage validation, a classification + DLP-event report, safe remediation of gaps, and a protection-scope group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model."
+  ],
+  "short": "The <strong>Government (GCC High)</strong> edition of the Purview DLP, labels &amp; retention solution &mdash; US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The Government (GCC High) edition of the Purview DLP, labels & retention solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out.",
+  "meta_title": "Microsoft Purview DLP, Labels & Retention — Government (GCC High) Edition",
+  "meta_description": "Government/GCC High edition: deploy Microsoft Purview DLP, sensitivity labels, and retention on a US sovereign cloud tenant — correct portals (compliance.microsoft.us), endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+  "bottom_line": "Purview DLP, labels, and retention deployed correctly on GCC High &mdash; right portals, right endpoints, parity gaps handled &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Microsoft Purview",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Classify, Protect, Retain",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Government · GCC High · US Sovereign",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED DATA",
+      "items": [
+        "Unclassified data",
+        "Leaks & DLP noise",
+        "No retention",
+        "Compliance gaps"
+      ]
+    },
+    "to": {
+      "label": "Governed data estate",
+      "stat": "Labeled · protected · retained"
+    },
+    "tagline": "LABEL IT.  PROTECT IT.  RETAIN IT RIGHT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Labels",
+        "sub": "+ auto-labeling"
+      },
+      {
+        "icon": "lock",
+        "title": "DLP",
+        "sub": "Audit then enforce"
+      },
+      {
+        "icon": "gear",
+        "title": "Retention",
+        "sub": "+ records"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Reported"
+      }
+    ]
+  }
+}

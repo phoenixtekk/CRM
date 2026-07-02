@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
+    "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
+    "category_path": [
+      "Security"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PURVIEWG-COMM-001",
+      "name": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "The <strong>Government (GCC High)</strong> edition of the Purview DLP, labels &amp; retention solution &mdash; US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Roll out Purview DLP, labels & retention correctly on a GCC High tenant</h3><p>Microsoft Purview in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different login — admin URLs differ (compliance.microsoft.us / security.microsoft.us), and several Purview capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government edition</strong>: DLP, sensitivity labels, and retention authored for the US sovereign cloud, with the GCC High portals, endpoints, and parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview information-protection model (sensitivity labels + label policies + auto-labeling, DLP across M365/endpoints, retention labels/policies and records management), and how they work together.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + Purview licensing, Entra ID, a label taxonomy, data owners, a pilot scope, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: design the label taxonomy, publish labels and label policies, configure auto-labeling, build DLP policies in audit and tune, set retention labels/policies and records, pilot, validate, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Purview configuration discovery, label/DLP/retention coverage validation, a classification + DLP-event report, safe remediation of gaps, and a protection-scope group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Purview DLP, labels, and retention deployed correctly on GCC High &mdash; right portals, right endpoints, parity gaps handled &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVIEWG-Discovery.ps1</code> &mdash; inventory Purview labels, DLP, and retention on a GCC High tenant (read-only)</li><li><code>PURVIEWG-Remediation.ps1</code> &mdash; safely remediate detected Purview gaps on a GCC High tenant (defaults to -WhatIf)</li><li><code>PURVIEWG-Report.ps1</code> &mdash; produce a Purview coverage / classification / DLP-event report (read-only, GCC High)</li><li><code>PURVIEWG-Set-ScopeTargeting.ps1</code> &mdash; build/adjust the Purview protection-scope group for staged expansion (defaults to -WhatIf)</li><li><code>PURVIEWG-Validation.ps1</code> &mdash; validate that the designed Purview objects exist and are scoped (read-only, GCC High)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview DLP, Labels & Retention — Government (GCC High) Edition",
+      "meta_description": "Government/GCC High edition: deploy Microsoft Purview DLP, sensitivity labels, and retention on a US sovereign cloud tenant — correct portals (compliance.microsoft.us), endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high-commercial",
+      "image": "PURVIEWG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVIEWG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVIEWG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVIEWG-NPO-001",
+      "name": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>The Government (GCC High) edition of the Purview DLP, labels & retention solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Roll out Purview DLP, labels & retention correctly on a GCC High tenant</h3><p>Microsoft Purview in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different login — admin URLs differ (compliance.microsoft.us / security.microsoft.us), and several Purview capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government edition</strong>: DLP, sensitivity labels, and retention authored for the US sovereign cloud, with the GCC High portals, endpoints, and parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview information-protection model (sensitivity labels + label policies + auto-labeling, DLP across M365/endpoints, retention labels/policies and records management), and how they work together.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + Purview licensing, Entra ID, a label taxonomy, data owners, a pilot scope, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: design the label taxonomy, publish labels and label policies, configure auto-labeling, build DLP policies in audit and tune, set retention labels/policies and records, pilot, validate, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Purview configuration discovery, label/DLP/retention coverage validation, a classification + DLP-event report, safe remediation of gaps, and a protection-scope group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVIEWG-Discovery.ps1</code> &mdash; inventory Purview labels, DLP, and retention on a GCC High tenant (read-only)</li><li><code>PURVIEWG-Remediation.ps1</code> &mdash; safely remediate detected Purview gaps on a GCC High tenant (defaults to -WhatIf)</li><li><code>PURVIEWG-Report.ps1</code> &mdash; produce a Purview coverage / classification / DLP-event report (read-only, GCC High)</li><li><code>PURVIEWG-Set-ScopeTargeting.ps1</code> &mdash; build/adjust the Purview protection-scope group for staged expansion (defaults to -WhatIf)</li><li><code>PURVIEWG-Validation.ps1</code> &mdash; validate that the designed Purview objects exist and are scoped (read-only, GCC High)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview DLP, Labels & Retention — Government (GCC High) Edition — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Government/GCC High edition: deploy Microsoft Purview DLP, sensitivity labels, and retention on a US sovereign cloud tenant — correct portals (compliance.microsoft.us), endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high-nonprofit",
+      "image": "PURVIEWG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVIEWG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVIEWG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVIEWG-GOV-001",
+      "name": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>The Government (GCC High) edition of the Purview DLP, labels & retention solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Roll out Purview DLP, labels & retention correctly on a GCC High tenant</h3><p>Microsoft Purview in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different login — admin URLs differ (compliance.microsoft.us / security.microsoft.us), and several Purview capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government edition</strong>: DLP, sensitivity labels, and retention authored for the US sovereign cloud, with the GCC High portals, endpoints, and parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview information-protection model (sensitivity labels + label policies + auto-labeling, DLP across M365/endpoints, retention labels/policies and records management), and how they work together.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Microsoft 365 + Purview licensing, Entra ID, a label taxonomy, data owners, a pilot scope, change control) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps: design the label taxonomy, publish labels and label policies, configure auto-labeling, build DLP policies in audit and tune, set retention labels/policies and records, pilot, validate, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; Purview configuration discovery, label/DLP/retention coverage validation, a classification + DLP-event report, safe remediation of gaps, and a protection-scope group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVIEWG-Discovery.ps1</code> &mdash; inventory Purview labels, DLP, and retention on a GCC High tenant (read-only)</li><li><code>PURVIEWG-Remediation.ps1</code> &mdash; safely remediate detected Purview gaps on a GCC High tenant (defaults to -WhatIf)</li><li><code>PURVIEWG-Report.ps1</code> &mdash; produce a Purview coverage / classification / DLP-event report (read-only, GCC High)</li><li><code>PURVIEWG-Set-ScopeTargeting.ps1</code> &mdash; build/adjust the Purview protection-scope group for staged expansion (defaults to -WhatIf)</li><li><code>PURVIEWG-Validation.ps1</code> &mdash; validate that the designed Purview objects exist and are scoped (read-only, GCC High)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview DLP, Labels & Retention — Government (GCC High) Edition — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Government/GCC High edition: deploy Microsoft Purview DLP, sensitivity labels, and retention on a US sovereign cloud tenant — correct portals (compliance.microsoft.us), endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high-government",
+      "image": "PURVIEWG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVIEWG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVIEWG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
