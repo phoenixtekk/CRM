@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "peripheral-driver-device-control-intune",
+    "title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PERIDEV-COMM-001",
+      "name": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Manage <strong>drivers, peripherals/printers, and removable-device control</strong> across enterprise desktops with Intune &mdash; safe driver delivery, peripheral connections, and USB policy &mdash; pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Control the peripherals, drivers, and USB devices on every desktop</h3><p>Printers that won't map, a driver that breaks a fleet, and uncontrolled USB storage are daily desktop pain &mdash; and a compliance risk in regulated environments. This solution gives you a repeatable way to <strong>manage peripherals, drivers, and device control with Intune</strong>: deliver and update drivers safely, manage printer and peripheral connections, and control removable/USB devices &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how Intune manages drivers (Windows driver update management), peripherals/printers, and device control (removable-storage access), and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, Entra groups, driver/printer sources, Defender device control prerequisites, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to configure Windows driver update management, deploy printer/peripheral configuration, and set device-control (USB/removable) policy, assign to a named pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; peripheral/driver/device-control discovery, per-device applied-state validation, a driver/peripheral/device-control coverage report, safe remediation of missing/blocked devices, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (driver current, printer mapped, USB policy enforced), plus Best Practices for staged driver rollout and exceptions.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Drivers current, peripherals working, and removable devices controlled across the fleet &mdash; managed from Intune, pilot-first, with a repeatable method and scripts you keep and reuse.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PERIDEV-Discovery.ps1</code> &mdash; inventory driver, peripheral/printer, and device-control policies in Intune</li><li><code>PERIDEV-Remediation.ps1</code> &mdash; safely fix devices missing or blocked from PERIDEV coverage</li><li><code>PERIDEV-Report.ps1</code> &mdash; coverage report across a target group for all three PERIDEV areas</li><li><code>PERIDEV-Set-ScopeTargeting.ps1</code> &mdash; create/populate the PERIDEV pilot and targeting groups</li><li><code>PERIDEV-Validation.ps1</code> &mdash; per-device applied state for the three PERIDEV gates</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+      "meta_description": "Manage drivers, peripherals/printers, and removable-storage device control with Intune: Windows driver update management, peripheral config, USB/device-control policy. Self-guided steps and scripts.",
+      "url_key": "peripheral-driver-device-control-intune-commercial",
+      "image": "PERIDEV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PERIDEV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PERIDEV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PERIDEV-NPO-001",
+      "name": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Manage drivers, peripherals/printers, and removable-device control across enterprise desktops with Intune — safe driver delivery, peripheral connections, and USB policy — pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Control the peripherals, drivers, and USB devices on every desktop</h3><p>Printers that won't map, a driver that breaks a fleet, and uncontrolled USB storage are daily desktop pain &mdash; and a compliance risk in regulated environments. This solution gives you a repeatable way to <strong>manage peripherals, drivers, and device control with Intune</strong>: deliver and update drivers safely, manage printer and peripheral connections, and control removable/USB devices &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how Intune manages drivers (Windows driver update management), peripherals/printers, and device control (removable-storage access), and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, Entra groups, driver/printer sources, Defender device control prerequisites, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to configure Windows driver update management, deploy printer/peripheral configuration, and set device-control (USB/removable) policy, assign to a named pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; peripheral/driver/device-control discovery, per-device applied-state validation, a driver/peripheral/device-control coverage report, safe remediation of missing/blocked devices, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (driver current, printer mapped, USB policy enforced), plus Best Practices for staged driver rollout and exceptions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PERIDEV-Discovery.ps1</code> &mdash; inventory driver, peripheral/printer, and device-control policies in Intune</li><li><code>PERIDEV-Remediation.ps1</code> &mdash; safely fix devices missing or blocked from PERIDEV coverage</li><li><code>PERIDEV-Report.ps1</code> &mdash; coverage report across a target group for all three PERIDEV areas</li><li><code>PERIDEV-Set-ScopeTargeting.ps1</code> &mdash; create/populate the PERIDEV pilot and targeting groups</li><li><code>PERIDEV-Validation.ps1</code> &mdash; per-device applied state for the three PERIDEV gates</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Manage drivers, peripherals/printers, and removable-storage device control with Intune: Windows driver update management, peripheral config, USB/device-control policy. Self-guided steps and scripts.",
+      "url_key": "peripheral-driver-device-control-intune-nonprofit",
+      "image": "PERIDEV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PERIDEV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PERIDEV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PERIDEV-GOV-001",
+      "name": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Manage drivers, peripherals/printers, and removable-device control across enterprise desktops with Intune — safe driver delivery, peripheral connections, and USB policy — pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Control the peripherals, drivers, and USB devices on every desktop</h3><p>Printers that won't map, a driver that breaks a fleet, and uncontrolled USB storage are daily desktop pain &mdash; and a compliance risk in regulated environments. This solution gives you a repeatable way to <strong>manage peripherals, drivers, and device control with Intune</strong>: deliver and update drivers safely, manage printer and peripheral connections, and control removable/USB devices &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how Intune manages drivers (Windows driver update management), peripherals/printers, and device control (removable-storage access), and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, Entra groups, driver/printer sources, Defender device control prerequisites, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to configure Windows driver update management, deploy printer/peripheral configuration, and set device-control (USB/removable) policy, assign to a named pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; peripheral/driver/device-control discovery, per-device applied-state validation, a driver/peripheral/device-control coverage report, safe remediation of missing/blocked devices, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (driver current, printer mapped, USB policy enforced), plus Best Practices for staged driver rollout and exceptions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PERIDEV-Discovery.ps1</code> &mdash; inventory driver, peripheral/printer, and device-control policies in Intune</li><li><code>PERIDEV-Remediation.ps1</code> &mdash; safely fix devices missing or blocked from PERIDEV coverage</li><li><code>PERIDEV-Report.ps1</code> &mdash; coverage report across a target group for all three PERIDEV areas</li><li><code>PERIDEV-Set-ScopeTargeting.ps1</code> &mdash; create/populate the PERIDEV pilot and targeting groups</li><li><code>PERIDEV-Validation.ps1</code> &mdash; per-device applied state for the three PERIDEV gates</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Manage drivers, peripherals/printers, and removable-storage device control with Intune: Windows driver update management, peripheral config, USB/device-control policy. Self-guided steps and scripts.",
+      "url_key": "peripheral-driver-device-control-intune-government",
+      "image": "PERIDEV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PERIDEV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PERIDEV-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

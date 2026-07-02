@@ -578,5 +578,55 @@
     "post_id": 12004,
     "status": "draft",
     "category_id": 411
+  },
+  "intune-configuration-policy-troubleshooting": {
+    "post_id": 12051,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-compliance-failure-diagnostics": {
+    "post_id": 12053,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-app-deployment-troubleshooting": {
+    "post_id": 12055,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-desktop-support-runbook-intune": {
+    "post_id": 12057,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-network-connectivity-troubleshooting": {
+    "post_id": 12059,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-endpoint-allowlist-egress-management": {
+    "post_id": 12061,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-endpoint-performance-reliability-troubleshooting": {
+    "post_id": 12063,
+    "status": "draft",
+    "category_id": 411
+  },
+  "peripheral-driver-device-control-intune": {
+    "post_id": 12065,
+    "status": "draft",
+    "category_id": 411
+  },
+  "voip-softphone-endpoint-support": {
+    "post_id": 12067,
+    "status": "draft",
+    "category_id": 411
+  },
+  "continuous-compliance-audit-evidence-intune": {
+    "post_id": 12069,
+    "status": "draft",
+    "category_id": 411
   }
 }

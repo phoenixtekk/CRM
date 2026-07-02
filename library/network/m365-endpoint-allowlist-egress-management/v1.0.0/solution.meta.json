@@ -1,0 +1,41 @@
+{
+  "slug": "m365-endpoint-allowlist-egress-management",
+  "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "EGRESS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EGRESS-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-EGRESS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-EGRESS-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "EGRESS-Solution.pdf",
+    "EGRESS-Scripts.zip"
+  ],
+  "hero": "EGRESS-hero.png"
+}
+

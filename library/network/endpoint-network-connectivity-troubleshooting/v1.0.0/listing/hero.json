@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Can't Reach It?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Connectivity Troubleshooting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "DNS · Proxy · VPN · IP/Port/URL",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "“WORKS ON MINE”",
+    "items": [
+      "Silent filter blocks",
+      "DNS/proxy misroute",
+      "VPN split-tunnel gaps",
+      "Guesswork triage"
+    ]
+  },
+  "to": {
+    "label": "Layered root-cause",
+    "stat": "Prove where the block is"
+  },
+  "tagline": "TEST IT.  ISOLATE IT.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "DNS/Proxy",
+      "sub": "Resolve/route"
+    },
+    {
+      "icon": "lock",
+      "title": "VPN",
+      "sub": "Tunnel check"
+    },
+    {
+      "icon": "shield",
+      "title": "Filters",
+      "sub": "IP/Port/URL"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Reach report"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "EGRESS",
+  "slug": "m365-endpoint-allowlist-egress-management",
+  "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Make sure your filters let cloud management actually work",
+  "problem": "Tight egress filtering is required in regulated environments &mdash; but if the <strong>IP/Port/URL allow-lists</strong> miss a Microsoft 365, Intune, Autopilot, or Defender endpoint, enrollment stalls, policies never sync, and updates fail with no obvious cause. This solution gives you a repeatable way to <strong>administer network access controls</strong> for managed endpoints: build and maintain the required-endpoint allow-lists and proxy/firewall exceptions, validate reachability, and keep them current as Microsoft's endpoints change.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; why cloud-managed endpoints need specific egress access, the Microsoft required-endpoints model (M365, Intune, Autopilot, Defender, Entra), and the allow-list lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (a proxy/firewall you administer, the required-endpoints source, change control, a pilot scope, Entra/Intune reachability) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to derive the required IP/Port/URL set, build the allow-list / proxy exceptions, validate reachability on a pilot, then expand and keep it current as the endpoint list changes.",
+    "<strong>5 PowerShell scripts</strong> &mdash; required-endpoint + current-filter discovery, per-endpoint reachability validation, an allow-list coverage/gap report, safe allow-list update generation (preview first), and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (endpoint reachable, enrollment/sync/update succeed), plus Best Practices for change control and drift review."
+  ],
+  "short": "Administer the <strong>IP/Port/URL allow-lists and proxy/firewall exceptions</strong> that let Microsoft 365, Intune, Autopilot, and Defender endpoints work through tight egress filtering &mdash; built, validated, and kept current. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Administer the IP/Port/URL allow-lists and proxy/firewall exceptions that let Microsoft 365, Intune, Autopilot, and Defender endpoints work through tight egress filtering — built, validated, and kept current.",
+  "meta_title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
+  "meta_description": "Manage IP/Port/URL allow-lists and proxy/firewall egress exceptions for Microsoft 365, Intune, Autopilot, and Defender required endpoints: derive, validate, and keep current. Self-guided steps and scripts.",
+  "bottom_line": "Cloud management that works through strict egress filtering &mdash; the right IP/Port/URL allow-lists, validated and kept current &mdash; with a repeatable method and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Egress Blocking Cloud?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "M365/Intune Allow-Lists",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "IP · Port · URL · Proxy/Firewall",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OVER-TIGHT FILTERS",
+      "items": [
+        "Enrollment stalls",
+        "Policies never sync",
+        "Updates fail silently",
+        "Endpoint list drifts"
+      ]
+    },
+    "to": {
+      "label": "Managed allow-lists",
+      "stat": "Cloud management works"
+    },
+    "tagline": "DERIVE IT.  ALLOW IT.  KEEP CURRENT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Required Set",
+        "sub": "IP/Port/URL"
+      },
+      {
+        "icon": "gear",
+        "title": "Proxy/FW",
+        "sub": "Exceptions"
+      },
+      {
+        "icon": "cloud",
+        "title": "Reachability",
+        "sub": "Validated"
+      },
+      {
+        "icon": "chart",
+        "title": "Gaps",
+        "sub": "Coverage report"
+      }
+    ]
+  }
+}

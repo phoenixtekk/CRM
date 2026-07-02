@@ -170,7 +170,19 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit | `cisco-ise-vpn-intune-diagnostics-toolkit` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Network) |
 | Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune | `cisco-vpn-client-sccm-gpo-to-intune-migration` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Migrations) |
 
-Total commercial catalog value: **$318,625** (116 solutions, all published). **Categories are one word** (store renamed `Intune Solutions→Intune`, `Security Solutions→Security`, `Azure Solutions→Azure`, `Entra ID Solutions→Entra`). **Migrations** is now the single home for all platform-to-platform migration products (13 solutions). **Pricing is 3-tier**
+| **Endpoint Troubleshooting & Ops wave (2026-07-01)** | | | |
+| Intune Device Configuration & Policy Troubleshooting Toolkit | `intune-configuration-policy-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| Intune Compliance-Failure Diagnostics & Remediation | `intune-compliance-failure-diagnostics` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store) | `intune-app-deployment-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| Enterprise Desktop Support Runbook Library for Intune-Managed Windows | `enterprise-desktop-support-runbook-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Infrastructure) |
+| Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering) | `endpoint-network-connectivity-troubleshooting` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Network) |
+| IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints | `m365-endpoint-allowlist-egress-management` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Network) |
+| Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk) | `windows-endpoint-performance-reliability-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
+| Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) | `peripheral-driver-device-control-intune` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| Enterprise VOIP / Softphone Endpoint Support & Troubleshooting | `voip-softphone-endpoint-support` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
+| Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra) | `continuous-compliance-audit-evidence-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Security) |
+
+Total commercial catalog value: **$345,080** (126 solutions, all published). **Categories are one word** (store renamed `Intune Solutions→Intune`, `Security Solutions→Security`, `Azure Solutions→Azure`, `Entra ID Solutions→Entra`). **Migrations** is now the single home for all platform-to-platform migration products (13 solutions). **Pricing is 3-tier**
 (Commercial anchor · Non-Profit −40% · Government −15%), with the commercial anchor set from the
 **Effort & Complexity Scale (T1–T5)** in `pricing.md`. Discounted tiers are eligibility-gated (see
 `ADMIN_DOCS.md` → eligibility validation). Listings include a "run it yourself vs. consulting" value

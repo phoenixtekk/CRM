@@ -1,0 +1,82 @@
+{
+  "sol": "CCAUDIT",
+  "slug": "continuous-compliance-audit-evidence-intune",
+  "title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Prove your endpoints stay compliant — not just on the day you deployed",
+  "problem": "Passing a CIS or STIG baseline once isn't the same as proving continuous compliance to an auditor months later. This solution gives you a repeatable way to <strong>monitor baseline drift and automate audit evidence</strong> for Intune + Entra endpoints in a federally regulated environment: measure current state against the baseline, detect drift, and export the evidence and POA&amp;M-ready gaps auditors ask for &mdash; distinct from the one-time baseline build.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the continuous-compliance model (baseline &rarr; measure &rarr; detect drift &rarr; evidence/POA&amp;M &rarr; remediate/track), how it complements a one-time CIS/STIG build, and where evidence comes from.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (an existing baseline, Intune/Entra roles + Graph read access, a reporting destination, evidence-retention needs, a pilot scope) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to define the monitored control set, measure current vs baseline, schedule drift detection, and generate the audit-evidence and POA&amp;M-ready gap exports, on a pilot then fleet-wide.",
+    "<strong>5 PowerShell scripts</strong> &mdash; control-state discovery, per-device baseline-conformance validation, an audit-evidence + drift/gap report (POA&amp;M-ready), safe remediation of drifted settings (preview first), and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (control measured, drift detected, evidence exported), plus Best Practices for evidence retention and audit response."
+  ],
+  "short": "<strong>Monitor baseline drift and automate audit evidence</strong> for CIS/STIG on Intune + Entra endpoints &mdash; measure vs baseline, detect drift, and export POA&amp;M-ready evidence &mdash; distinct from the one-time build. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Monitor baseline drift and automate audit evidence for CIS/STIG on Intune + Entra endpoints — measure vs baseline, detect drift, and export POA&M-ready evidence — distinct from the one-time build.",
+  "meta_title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
+  "meta_description": "Continuously monitor CIS/STIG baseline drift and automate audit evidence for Intune + Entra endpoints: measure vs baseline, detect drift, export POA&M-ready evidence. Self-guided steps and PowerShell scripts.",
+  "bottom_line": "Continuous, provable endpoint compliance &mdash; drift detected and audit evidence exported on demand &mdash; with a repeatable method and scripts you keep and reuse between audits.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Still Compliant?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Continuous Compliance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "CIS/STIG · Drift · Audit Evidence",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "POINT-IN-TIME ONLY",
+      "items": [
+        "Compliant once",
+        "Silent drift",
+        "Manual evidence",
+        "Audit scramble"
+      ]
+    },
+    "to": {
+      "label": "Continuous + evidenced",
+      "stat": "Prove it any day"
+    },
+    "tagline": "MEASURE IT.  DETECT DRIFT.  PROVE IT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Baseline",
+        "sub": "CIS/STIG"
+      },
+      {
+        "icon": "gear",
+        "title": "Drift",
+        "sub": "Detected"
+      },
+      {
+        "icon": "chart",
+        "title": "Evidence",
+        "sub": "POA&M-ready"
+      },
+      {
+        "icon": "lock",
+        "title": "Audit",
+        "sub": "On demand"
+      }
+    ]
+  }
+}

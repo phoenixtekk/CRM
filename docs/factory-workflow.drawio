@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="claude-code" version="24.0.0">
+  <diagram name="Factory Workflow" id="factory-workflow">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Lane 0 Intake -->
+        <mxCell id="L0" value="0 · INTAKE &amp; SCOPING (interactive)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;verticalAlign=top;fontStyle=1;fontColor=#334155;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="40" width="560" height="120" as="geometry"/></mxCell>
+        <mxCell id="n1" value="JD / topic / scenario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="60" y="80" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="n2" value="Recon catalog&#10;(dedupe vs existing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="240" y="80" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="g1" value="Owner approves&#10;title list?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0f5132;strokeColor=#20c997;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="420" y="72" width="160" height="76" as="geometry"/></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="n2" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Lane 1 Stage 1 -->
+        <mxCell id="L1" value="STAGE 1 · /generate-solution — local library only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;verticalAlign=top;fontStyle=1;fontColor=#334155;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="190" width="560" height="250" as="geometry"/></mxCell>
+        <mxCell id="s1" value="Write _spec.json (one per solution)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="180" y="220" width="280" height="44" as="geometry"/></mxCell>
+        <mxCell id="s2" value="Scaffold listing + meta + hero.json&#10;(3-tier · white-label)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="160" y="282" width="320" height="44" as="geometry"/></mxCell>
+        <mxCell id="s3" value="Parallel authoring agents (1 / solution)&#10;source *.md + 5 PowerShell scripts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="140" y="344" width="360" height="44" as="geometry"/></mxCell>
+        <mxCell id="s4" value="manifest → build-deliverables → build-hero&#10;Word · PDF · Scripts.zip · hero PNG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="160" y="406" width="320" height="44" as="geometry"/></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="g1" target="s1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="320" y="180"/></Array></mxGeometry></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="s1" target="s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="s2" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="s3" target="s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Lane 2 Stage 2 -->
+        <mxCell id="L2" value="STAGE 2 · /publish-solution (publish.ps1, per slug)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;verticalAlign=top;fontStyle=1;fontColor=#334155;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="470" width="560" height="410" as="geometry"/></mxCell>
+        <mxCell id="p1" value="mysqldump DB backup (linuxg5)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="200" y="500" width="240" height="40" as="geometry"/></mxCell>
+        <mxCell id="p2" value="scp deliverables + listing + loader → linuxg5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="170" y="556" width="300" height="40" as="geometry"/></mxCell>
+        <mxCell id="p3" value="loader create-bagisto-products.php (php8.4)&#10;+ indexer:index · optimize:clear" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="150" y="612" width="340" height="44" as="geometry"/></mxCell>
+        <mxCell id="p4" value="publish-blog.py → WordPress draft&#10;hero = featured image (linuxg2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="160" y="672" width="320" height="44" as="geometry"/></mxCell>
+        <mxCell id="p5" value="publish-wiki.py → Wiki.js (linuxg3)&#10;+ access-sync gating · learning baselines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="150" y="732" width="340" height="44" as="geometry"/></mxCell>
+        <mxCell id="g2" value="Verify: store 200 · wiki 403 · downloads private" style="rhombus;whiteSpace=wrap;html=1;fillColor=#0f5132;strokeColor=#20c997;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="180" y="792" width="280" height="70" as="geometry"/></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="s4" target="p1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="p1" target="p2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="p2" target="p3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="p3" target="p4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="p4" target="p5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="p5" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Lane 3 Surfaces -->
+        <mxCell id="L3" value="PUBLISHED SURFACES" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;verticalAlign=top;fontStyle=1;fontColor=#334155;fontSize=12;" vertex="1" parent="1"><mxGeometry x="40" y="910" width="560" height="150" as="geometry"/></mxCell>
+        <mxCell id="o1" value="Bagisto STORE&#10;workplace.phoenixtekk.com&#10;(linuxg5)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F3A5F;strokeColor=#2E86C1;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="55" y="945" width="128" height="100" as="geometry"/></mxCell>
+        <mxCell id="o2" value="Wiki.js GUIDE (gated)&#10;docs.phoenixtekk.com&#10;(linuxg3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F3A5F;strokeColor=#2E86C1;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="197" y="945" width="128" height="100" as="geometry"/></mxCell>
+        <mxCell id="o3" value="WordPress BLOG draft&#10;phoenixtekk.com&#10;(linuxg2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F3A5F;strokeColor=#2E86C1;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="339" y="945" width="128" height="100" as="geometry"/></mxCell>
+        <mxCell id="o4" value="Local library&#10;+ git commit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1F3A5F;strokeColor=#2E86C1;fontColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="481" y="945" width="104" height="100" as="geometry"/></mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="g2" target="o2"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- Learning loop -->
+        <mxCell id="L4" value="DAILY LEARNING LOOP (scheduled)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#cbd5e1;verticalAlign=top;fontStyle=1;fontColor=#334155;fontSize=12;" vertex="1" parent="1"><mxGeometry x="630" y="470" width="180" height="410" as="geometry"/></mxCell>
+        <mxCell id="l1" value="Detect human wiki edits vs baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="645" y="505" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="l2" value="Classify: fact vs lesson" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="645" y="590" width="150" height="55" as="geometry"/></mxCell>
+        <mxCell id="l3" value="Sync to source + AUTHORING_LESSONS.md" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="645" y="670" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="l4" value="Rebuild + republish (store + wiki)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#94a3b8;" vertex="1" parent="1"><mxGeometry x="645" y="755" width="150" height="55" as="geometry"/></mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="l1" target="l2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="l2" target="l3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="l3" target="l4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e17" value="owner edits live wiki" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#2E86C1;fontColor=#2E86C1;fontSize=10;" edge="1" parent="1" source="o2" target="l1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e18" value="feeds future authoring" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeColor=#2E86C1;fontColor=#2E86C1;fontSize=10;" edge="1" parent="1" source="l3" target="s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="note" value="Products publish to the Bagisto store (workplace.phoenixtekk.com) — NOT crm.phoenixtekk.com, which is a separate Dolibarr ERP/CRM on the same linuxg5 host." style="text;html=1;align=left;fontSize=10;fontColor=#64748b;" vertex="1" parent="1"><mxGeometry x="40" y="1075" width="560" height="30" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

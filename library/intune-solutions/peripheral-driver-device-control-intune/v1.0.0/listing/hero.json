@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Peripherals & Drivers",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Device Control via Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Drivers · Printers · USB Control",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DESKTOP DEVICE PAIN",
+    "items": [
+      "Printers won't map",
+      "A driver breaks the fleet",
+      "Uncontrolled USB",
+      "Compliance risk"
+    ]
+  },
+  "to": {
+    "label": "Managed & controlled",
+    "stat": "Safe, pilot-first"
+  },
+  "tagline": "DELIVER IT.  MANAGE IT.  CONTROL IT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Drivers",
+      "sub": "Safe delivery"
+    },
+    {
+      "icon": "gear",
+      "title": "Peripherals",
+      "sub": "Printers/USB"
+    },
+    {
+      "icon": "lock",
+      "title": "Device Control",
+      "sub": "Removable"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "State report"
+    }
+  ]
+}

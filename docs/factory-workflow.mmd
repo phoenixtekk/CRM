@@ -1,0 +1,63 @@
+%% Workplace Marketplace solution-doc factory — end-to-end workflow
+%% Renders in VS Code (Mermaid preview), GitHub, or diagrams.net (draw.io) → export to Visio (.vsdx)
+flowchart TD
+    subgraph INPUT["0 · Intake & scoping (interactive)"]
+        A1["Job description /<br/>scenario / topic"] --> A2["Recon catalog<br/>(dedupe vs existing)"]
+        A2 --> A3["Propose net-new<br/>solution titles"]
+        A3 --> A4{"Owner approves<br/>the list?"}
+    end
+
+    A4 -- "yes: go" --> S1
+    A4 -- "revise" --> A3
+
+    subgraph STAGE1["Stage 1 · /generate-solution  (local library only)"]
+        S1["Write _spec.json<br/>per solution"] --> S2["Scaffold listing + meta + hero.json<br/>(scaffold_generic.py) · 3-tier · white-label"]
+        S2 --> S3["Parallel authoring agents (1 per solution)<br/>→ source/*.md + 5 PowerShell scripts<br/>+ copy category global-requirements"]
+        S3 --> S4["add-deliverables-manifest.py<br/>(inject 'What you receive' block)"]
+        S4 --> S5["build-deliverables.py<br/>→ Word + PDF + Scripts.zip + Complete.zip"]
+        S5 --> S6["build-hero.py<br/>→ hero SVG → PNG (1200x1200)"]
+    end
+
+    S6 --> P0
+
+    subgraph STAGE2["Stage 2 · /publish-solution  (publish.ps1, per slug)"]
+        P0["mysqldump DB backup<br/>(linuxg5)"] --> P1["scp deliverables + listing + loader → linuxg5"]
+        P1 --> P2["loader create-bagisto-products.php (php8.4)<br/>→ Bagisto store"]
+        P2 --> P3["artisan indexer:index + optimize:clear"]
+        P3 --> P4["mark meta published · rebuild INDEX"]
+        P4 --> P5["publish-blog.py → WordPress DRAFT<br/>+ hero as featured image (linuxg2)"]
+        P5 --> P6["publish-wiki.py → Wiki.js guide (linuxg3)"]
+        P6 --> P7["wiki-access-sync.py --apply<br/>→ per-solution Purchasers gating group"]
+        P7 --> P8["wiki-learning-sync.py --init-baselines"]
+        P8 --> P9{"Verify: store 200 ·<br/>wiki 403 · downloads private"}
+    end
+
+    P9 -- "ok" --> OUT
+    P9 -- "fail" --> P2
+
+    subgraph OUT["Published surfaces"]
+        O1["Bagisto STORE<br/>workplace.phoenixtekk.com<br/>(linuxg5 · /home/workplace)"]
+        O2["Wiki.js GUIDE (purchase-gated)<br/>docs.phoenixtekk.com (linuxg3)"]
+        O3["WordPress BLOG draft<br/>phoenixtekk.com (linuxg2)"]
+        O4["Local library + _deliverables shelf<br/>(repo, git-committed)"]
+    end
+
+    P2 -.-> O1
+    P6 -.-> O2
+    P5 -.-> O3
+    P4 -.-> O4
+
+    subgraph LOOP["Daily learning loop (scheduled task)"]
+        L1["wiki-learning-sync.py detects<br/>human edits vs baseline"] --> L2["Classify: solution-fact<br/>vs generalizable lesson"]
+        L2 --> L3["Sync fix into source/ · append<br/>AUTHORING_LESSONS.md"]
+        L3 --> L4["Rebuild + republish<br/>(store + wiki)"]
+        L4 --> L1
+    end
+
+    O2 -.->|"owner edits live wiki<br/>while validating"| L1
+    L3 -.->|"feeds future authoring"| S3
+
+    classDef store fill:#1F3A5F,stroke:#2E86C1,color:#fff
+    classDef gate fill:#0f5132,stroke:#20c997,color:#fff
+    class O1,O2,O3,O4 store
+    class A4,P9 gate

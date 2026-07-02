@@ -243,6 +243,52 @@ def _write_signals_md(out):
         fh.write("\n".join(lines))
 
 
+# ---------------------------------------------------------------------------- pricing stats sync
+# Keeps workplace.phoenixtekk.com/pricing in sync with the solution-library dashboard: reads the
+# solution count + commercial catalog value straight from the auto-generated INDEX.html (the same
+# figures the owner sees), writes them to the Bagisto store so the pricing template renders them.
+INDEX_HTML = os.path.join(INDEX_DIR, "INDEX.html")
+STORE_SSH = "linuxg5"
+STORE_STATS_REMOTE = "/home/workplace/public_html/storage/app/portal-pricing-stats.json"
+STORE_WEBROOT = "/home/workplace/public_html"
+
+
+def sync_pricing_stats():
+    if not os.path.exists(INDEX_HTML):
+        return {"error": "INDEX.html not found"}
+    html = open(INDEX_HTML, encoding="utf-8", errors="replace").read()
+    m_sol = re.search(r'>([0-9,]+)</div>\s*<div class="l">\s*Solutions \(products\)', html, re.I)
+    m_val = re.search(r'>\$([0-9,]+)(?:\.\d{2})?</div>\s*<div class="l">\s*Catalog Value', html, re.I)
+    if not (m_sol and m_val):
+        return {"error": "could not parse INDEX.html (labels changed?)"}
+    solutions = int(m_sol.group(1).replace(",", ""))
+    catalog = "$" + m_val.group(1)  # comma-formatted, cents dropped
+    stats = {"solutions": solutions, "catalog_value": catalog, "generated_at": now_iso()}
+
+    local_tmp = os.path.join(INDEX_DIR, "portal-pricing-stats.json")
+    save_json(local_tmp, stats)
+
+    # push to the store (scp then sudo-place + cache clear); best-effort.
+    remote_tmp = "/tmp/portal-pricing-stats.json"
+    scp = subprocess.run(
+        ["scp", "-o", "BatchMode=yes", "-o", "ConnectTimeout=20", local_tmp, f"{STORE_SSH}:{remote_tmp}"],
+        capture_output=True, text=True, timeout=60,
+    )
+    if scp.returncode != 0:
+        return {**stats, "pushed": False, "err": scp.stderr.strip()[:160]}
+    remote_cmd = (
+        f"sudo -n cp {remote_tmp} {STORE_STATS_REMOTE} && "
+        f"sudo -n chown workplace:workplace {STORE_STATS_REMOTE} && "
+        f"cd {STORE_WEBROOT} && sudo -n -u workplace /usr/bin/php8.4 artisan cache:clear >/dev/null 2>&1 && echo OK"
+    )
+    ssh = subprocess.run(
+        ["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=25", STORE_SSH, remote_cmd],
+        capture_output=True, text=True, timeout=90,
+    )
+    pushed = ssh.returncode == 0 and "OK" in ssh.stdout
+    return {**stats, "pushed": pushed, "err": ("" if pushed else ssh.stderr.strip()[:160])}
+
+
 def main():
     url, key, user, tips_cat = load_env()
     dc = Discourse(url, key, user)
@@ -255,6 +301,10 @@ def main():
         result["signals"] = build_signals(dc)
     except Exception as e:
         result["signals"] = {"error": str(e)}
+    try:
+        result["pricing_stats"] = sync_pricing_stats()
+    except Exception as e:
+        result["pricing_stats"] = {"error": str(e)}
     print(json.dumps(result, indent=2))
     # non-zero exit only if BOTH jobs errored (so the scheduler log flags a total failure)
     if "error" in result.get("tips", {}) and "error" in result.get("signals", {}):

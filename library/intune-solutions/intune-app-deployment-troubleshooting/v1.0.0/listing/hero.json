@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App Install Failing?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Intune App Troubleshooting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Win32 · Detection · Exit Codes · ESP",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STUCK INSTALLS",
+    "items": [
+      "“Waiting for status”",
+      "Wrong detection rule",
+      "Raw exit codes",
+      "ESP blocks setup"
+    ]
+  },
+  "to": {
+    "label": "Pipeline root cause",
+    "stat": "Decode + fix fast"
+  },
+  "tagline": "DECODE IT.  ISOLATE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Pipeline Tree",
+      "sub": "By stage"
+    },
+    {
+      "icon": "device",
+      "title": "Detection",
+      "sub": "Rule check"
+    },
+    {
+      "icon": "chart",
+      "title": "Exit Codes",
+      "sub": "Decoded"
+    },
+    {
+      "icon": "shield",
+      "title": "ESP",
+      "sub": "Setup gate"
+    }
+  ]
+}

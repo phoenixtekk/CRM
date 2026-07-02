@@ -1,0 +1,82 @@
+{
+  "sol": "INTAPPDX",
+  "slug": "intune-app-deployment-troubleshooting",
+  "title": "Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Turn an Intune app-install failure into a known error code and fix",
+  "problem": "A Win32 app sits at &ldquo;waiting for install status&rdquo; or fails with a raw error code, and nobody knows if it's detection, requirements, a dependency, or the ESP. This toolkit gives you a <strong>root-cause method and scripts</strong> for Intune app deployment failures &mdash; Win32, LOB, and Store apps &mdash; decoding install/detection/requirement/dependency errors and reading the IntuneManagementExtension logs, so you fix the real cause fast.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the app-delivery pipeline (assign &rarr; requirement &rarr; download &rarr; install &rarr; detection &rarr; report), the ESP's role, and the model behind the diagnostic tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need (Intune roles, Graph read access, device log access) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (requirement not met, detection wrong, dependency/supersedence, download failure, exit-code decode, ESP block) with the exact checks per branch.",
+    "<strong>5 PowerShell scripts</strong> &mdash; app-assignment/readiness discovery, per-device install + detection validation, an app deployment coverage/failure report, safe re-attempt/cleanup remediation, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (requirement met, installed, detected), plus Best Practices for detection rules and phased app rollout."
+  ],
+  "short": "A root-cause method and scripts for Intune <strong>app-deployment failures</strong> (Win32/LOB/Store) &mdash; requirement, detection, dependency, download, exit-code, and ESP issues, with log triage. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A root-cause method and scripts for Intune app-deployment failures (Win32/LOB/Store) — requirement, detection, dependency, download, exit-code, and ESP issues, with log triage.",
+  "meta_title": "Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)",
+  "meta_description": "Troubleshoot Intune app deployment failures: Win32/LOB/Store requirement, detection, dependency, download, exit codes, ESP, and IntuneManagementExtension log triage. Self-guided root-cause tree and scripts.",
+  "bottom_line": "Every failed app install traced to its real cause &mdash; requirement, detection, dependency, or ESP &mdash; and fixed, with a repeatable method and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "App Install Failing?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Intune App Troubleshooting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Win32 · Detection · Exit Codes · ESP",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STUCK INSTALLS",
+      "items": [
+        "“Waiting for status”",
+        "Wrong detection rule",
+        "Raw exit codes",
+        "ESP blocks setup"
+      ]
+    },
+    "to": {
+      "label": "Pipeline root cause",
+      "stat": "Decode + fix fast"
+    },
+    "tagline": "DECODE IT.  ISOLATE IT.  FIX IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Pipeline Tree",
+        "sub": "By stage"
+      },
+      {
+        "icon": "device",
+        "title": "Detection",
+        "sub": "Rule check"
+      },
+      {
+        "icon": "chart",
+        "title": "Exit Codes",
+        "sub": "Decoded"
+      },
+      {
+        "icon": "shield",
+        "title": "ESP",
+        "sub": "Setup gate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "WINPERF",
+  "slug": "windows-endpoint-performance-reliability-troubleshooting",
+  "title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Turn a slow, crashing PC into a measured, fixed one",
+  "problem": "&ldquo;My computer is slow&rdquo; is the ticket no one can quantify &mdash; slow boot, sign-in delays, crashes, disk pressure, or a runaway process. This toolkit gives you a <strong>measure-first root-cause method and diagnostic scripts</strong> for Windows performance and reliability in an enterprise fleet, so you turn a vague complaint into a measured cause (boot phase, profile load, resource pressure, crash/bugcheck, storage health) and a targeted fix.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the performance/reliability model (boot &rarr; sign-in/profile &rarr; steady-state resource use &rarr; stability), the signals to measure, and the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need (endpoint access, Intune Endpoint analytics where available, event/log access) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (slow boot, slow sign-in/profile, high CPU/RAM/disk, crashes/bugchecks, storage/SSD health) with the exact measurements and checks per branch.",
+    "<strong>5 PowerShell scripts</strong> &mdash; performance/reliability discovery, per-device measurement validation, a fleet performance/reliability report, safe remediation of common causes (startup, temp, profile), and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with measured pass/fail gates, plus Best Practices for baselining and repeatable performance triage."
+  ],
+  "short": "A measure-first <strong>root-cause method and scripts</strong> for Windows performance and reliability &mdash; boot, profile, crashes, resource pressure, and disk health &mdash; turning &ldquo;it's slow&rdquo; into a measured cause and fix. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A measure-first root-cause method and scripts for Windows performance and reliability — boot, profile, crashes, resource pressure, and disk health — turning “it's slow” into a measured cause and fix.",
+  "meta_title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
+  "meta_description": "Troubleshoot Windows endpoint performance and reliability: slow boot, sign-in/profile delays, high CPU/RAM/disk, crashes/bugchecks, and storage health. Measure-first root-cause tree and PowerShell scripts.",
+  "bottom_line": "A slow or crashing endpoint turned into a measured cause and a targeted fix &mdash; with a repeatable, evidence-based method and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Slow & Crashing?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Performance Troubleshooting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Boot · Profile · Crash · Disk",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "“IT'S JUST SLOW”",
+      "items": [
+        "Unquantified complaints",
+        "Random crashes",
+        "Disk/RAM pressure",
+        "No baseline"
+      ]
+    },
+    "to": {
+      "label": "Measure-first root cause",
+      "stat": "Measured cause + fix"
+    },
+    "tagline": "MEASURE IT.  ISOLATE IT.  FIX IT.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "Resource",
+        "sub": "CPU/RAM/disk"
+      },
+      {
+        "icon": "device",
+        "title": "Boot/Profile",
+        "sub": "Phase timing"
+      },
+      {
+        "icon": "gear",
+        "title": "Crashes",
+        "sub": "Bugcheck"
+      },
+      {
+        "icon": "chart",
+        "title": "Fleet",
+        "sub": "Perf report"
+      }
+    ]
+  }
+}

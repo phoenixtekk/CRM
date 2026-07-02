@@ -1,0 +1,82 @@
+{
+  "sol": "VOIPSUP",
+  "slug": "voip-softphone-endpoint-support",
+  "title": "Enterprise VOIP / Softphone Endpoint Support & Troubleshooting",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Fix the call-quality and softphone issues that land on desktop support",
+  "problem": "When a call drops, echoes, or the headset won't work, it lands on desktop support &mdash; who own the endpoint, not the phone system. This toolkit gives you a <strong>root-cause method and scripts</strong> for the endpoint side of enterprise VOIP/softphone: audio-device selection, headset/driver issues, network/QoS conditions, and client health &mdash; so technicians resolve the call-quality tickets they can actually control and escalate the rest with evidence.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the softphone/VOIP endpoint stack (audio device &rarr; client &rarr; network/QoS &rarr; service), what the endpoint owns vs the telephony platform, and the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need (endpoint access, audio-device inventory, network/QoS visibility, softphone client details) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (no/one-way audio, echo/robotic, wrong default device, headset not recognized, jitter/latency, client crash) with the exact endpoint-side checks per branch.",
+    "<strong>5 PowerShell scripts</strong> &mdash; audio-device + client discovery, per-device audio/network validation, a VOIP-readiness/quality report, safe remediation of device/driver issues, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (correct device, client healthy, network within thresholds), plus Best Practices for evidence-based escalation to the telephony team."
+  ],
+  "short": "A <strong>root-cause method and scripts</strong> for the endpoint side of enterprise VOIP/softphone &mdash; audio devices, headsets/drivers, network/QoS, and client health &mdash; so support fixes what it controls and escalates the rest with evidence. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A root-cause method and scripts for the endpoint side of enterprise VOIP/softphone — audio devices, headsets/drivers, network/QoS, and client health — so support fixes what it controls and escalates the rest with evidence.",
+  "meta_title": "Enterprise VOIP / Softphone Endpoint Support & Troubleshooting",
+  "meta_description": "Troubleshoot the endpoint side of enterprise VOIP/softphone: audio-device selection, headset/driver issues, network/QoS, and client health. Root-cause tree and PowerShell scripts for desktop support.",
+  "bottom_line": "Call-quality and softphone tickets resolved at the endpoint &mdash; or escalated with hard evidence &mdash; using a repeatable method and scripts your support team keeps and reuses.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Call Quality Issues?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "VOIP / Softphone Support",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Audio · Headset · QoS · Client",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DROPPED & ECHOING",
+      "items": [
+        "One-way audio",
+        "Headset not recognized",
+        "Jitter/latency",
+        "Bounced to telephony"
+      ]
+    },
+    "to": {
+      "label": "Endpoint root cause",
+      "stat": "Fix or escalate with evidence"
+    },
+    "tagline": "CHECK IT.  ISOLATE IT.  RESOLVE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Audio Device",
+        "sub": "Headset/driver"
+      },
+      {
+        "icon": "cloud",
+        "title": "Network/QoS",
+        "sub": "Jitter/latency"
+      },
+      {
+        "icon": "gear",
+        "title": "Client",
+        "sub": "Health check"
+      },
+      {
+        "icon": "chart",
+        "title": "Readiness",
+        "sub": "Quality report"
+      }
+    ]
+  }
+}

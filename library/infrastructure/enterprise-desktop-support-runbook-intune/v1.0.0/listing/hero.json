@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Desktop Support",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Runbook Library",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Intune-Managed Windows · Tier 1/2",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BOUNCED TICKETS",
+    "items": [
+      "No standard triage",
+      "Inconsistent fixes",
+      "Handed off, not owned",
+      "Lost evidence"
+    ]
+  },
+  "to": {
+    "label": "Repeatable runbooks",
+    "stat": "Own it end to end"
+  },
+  "tagline": "TRIAGE IT.  RESOLVE IT.  OWN IT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Tier 1/2",
+      "sub": "Runbooks"
+    },
+    {
+      "icon": "device",
+      "title": "OS/Hardware",
+      "sub": "Triage trees"
+    },
+    {
+      "icon": "gear",
+      "title": "Escalation",
+      "sub": "Clear gates"
+    },
+    {
+      "icon": "chart",
+      "title": "Health",
+      "sub": "Support report"
+    }
+  ]
+}

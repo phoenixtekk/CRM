@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Policy Not Applying?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Intune Config Troubleshooting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Assignment · Filters · Conflicts · Sync",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND RE-PUSHING",
+    "items": [
+      "“Assigned” but not applied",
+      "Hidden conflicts",
+      "Filter excludes device",
+      "Stuck sync"
+    ]
+  },
+  "to": {
+    "label": "Layered root-cause",
+    "stat": "Isolate the failing layer"
+  },
+  "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Root-Cause Tree",
+      "sub": "By symptom"
+    },
+    {
+      "icon": "device",
+      "title": "Applied State",
+      "sub": "Per device"
+    },
+    {
+      "icon": "chart",
+      "title": "Conflicts",
+      "sub": "Precedence map"
+    },
+    {
+      "icon": "shield",
+      "title": "Sync",
+      "sub": "Check-in fix"
+    }
+  ]
+}

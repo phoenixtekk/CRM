@@ -1,0 +1,82 @@
+{
+  "sol": "INTCFG",
+  "slug": "intune-configuration-policy-troubleshooting",
+  "title": "Intune Device Configuration & Policy Troubleshooting Toolkit",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Find out why an Intune policy isn't landing — and fix it",
+  "problem": "A configuration profile shows &ldquo;assigned&rdquo; but the setting never reaches the device &mdash; and the admin is left guessing. This toolkit gives you a <strong>structured root-cause method and diagnostic scripts</strong> for Intune device-configuration and settings-catalog policies: assignment and targeting, group and filter scoping, policy conflicts and precedence, MDM sync and check-in, and Company Portal state &mdash; so you isolate the failing layer in minutes instead of re-pushing blindly.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how a policy travels from assignment to applied state (assignment &rarr; group/filter scope &rarr; sync &rarr; CSP apply &rarr; report), and the layered model behind the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune admin roles, Graph read access, device access for logs) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom-driven decision tree (not assigned, assigned-not-applied, conflict/precedence, filter excludes device, stuck sync, error code) with the exact checks and the layer each isolates.",
+    "<strong>5 PowerShell scripts</strong> &mdash; policy/assignment discovery, per-device applied-state validation, an assignment + conflict coverage report, safe re-sync/remediation of stuck devices, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the fix, plus Best Practices for naming, filters, and conflict-free policy design."
+  ],
+  "short": "A structured root-cause method and scripts to diagnose why an Intune <strong>configuration/settings-catalog policy</strong> isn't applying &mdash; assignment, filters, conflicts, sync, and CSP errors &mdash; isolate the failing layer fast. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured root-cause method and scripts to diagnose why an Intune configuration/settings-catalog policy isn't applying — assignment, filters, conflicts, sync, and CSP errors.",
+  "meta_title": "Intune Device Configuration & Policy Troubleshooting Toolkit",
+  "meta_description": "Troubleshoot Intune configuration and settings-catalog policies that won't apply: assignment, group/filter scope, conflicts, MDM sync, CSP error codes. Self-guided root-cause tree and PowerShell scripts.",
+  "bottom_line": "The reason a policy isn't applying, isolated to one layer &mdash; assignment, filter, conflict, sync, or CSP &mdash; with a repeatable method and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Policy Not Applying?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Intune Config Troubleshooting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Assignment · Filters · Conflicts · Sync",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLIND RE-PUSHING",
+      "items": [
+        "“Assigned” but not applied",
+        "Hidden conflicts",
+        "Filter excludes device",
+        "Stuck sync"
+      ]
+    },
+    "to": {
+      "label": "Layered root-cause",
+      "stat": "Isolate the failing layer"
+    },
+    "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Root-Cause Tree",
+        "sub": "By symptom"
+      },
+      {
+        "icon": "device",
+        "title": "Applied State",
+        "sub": "Per device"
+      },
+      {
+        "icon": "chart",
+        "title": "Conflicts",
+        "sub": "Precedence map"
+      },
+      {
+        "icon": "shield",
+        "title": "Sync",
+        "sub": "Check-in fix"
+      }
+    ]
+  }
+}

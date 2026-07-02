@@ -1,0 +1,82 @@
+{
+  "sol": "PERIDEV",
+  "slug": "peripheral-driver-device-control-intune",
+  "title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Control the peripherals, drivers, and USB devices on every desktop",
+  "problem": "Printers that won't map, a driver that breaks a fleet, and uncontrolled USB storage are daily desktop pain &mdash; and a compliance risk in regulated environments. This solution gives you a repeatable way to <strong>manage peripherals, drivers, and device control with Intune</strong>: deliver and update drivers safely, manage printer and peripheral connections, and control removable/USB devices &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Intune manages drivers (Windows driver update management), peripherals/printers, and device control (removable-storage access), and the standard deployment model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune enrollment, Entra groups, driver/printer sources, Defender device control prerequisites, a pilot group) with how to <em>verify</em> and how to <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact, ordered steps to configure Windows driver update management, deploy printer/peripheral configuration, and set device-control (USB/removable) policy, assign to a named pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; peripheral/driver/device-control discovery, per-device applied-state validation, a driver/peripheral/device-control coverage report, safe remediation of missing/blocked devices, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (driver current, printer mapped, USB policy enforced), plus Best Practices for staged driver rollout and exceptions."
+  ],
+  "short": "Manage <strong>drivers, peripherals/printers, and removable-device control</strong> across enterprise desktops with Intune &mdash; safe driver delivery, peripheral connections, and USB policy &mdash; pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Manage drivers, peripherals/printers, and removable-device control across enterprise desktops with Intune — safe driver delivery, peripheral connections, and USB policy — pilot-first.",
+  "meta_title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+  "meta_description": "Manage drivers, peripherals/printers, and removable-storage device control with Intune: Windows driver update management, peripheral config, USB/device-control policy. Self-guided steps and scripts.",
+  "bottom_line": "Drivers current, peripherals working, and removable devices controlled across the fleet &mdash; managed from Intune, pilot-first, with a repeatable method and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Peripherals & Drivers",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Device Control via Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Drivers · Printers · USB Control",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DESKTOP DEVICE PAIN",
+      "items": [
+        "Printers won't map",
+        "A driver breaks the fleet",
+        "Uncontrolled USB",
+        "Compliance risk"
+      ]
+    },
+    "to": {
+      "label": "Managed & controlled",
+      "stat": "Safe, pilot-first"
+    },
+    "tagline": "DELIVER IT.  MANAGE IT.  CONTROL IT.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Drivers",
+        "sub": "Safe delivery"
+      },
+      {
+        "icon": "gear",
+        "title": "Peripherals",
+        "sub": "Printers/USB"
+      },
+      {
+        "icon": "lock",
+        "title": "Device Control",
+        "sub": "Removable"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "State report"
+      }
+    ]
+  }
+}

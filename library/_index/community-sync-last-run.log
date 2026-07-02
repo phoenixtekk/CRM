@@ -1,6 +1,6 @@
-[07/01/2026 13:55:54] community-sync run start
+[07/02/2026 08:45:04] community-sync run start
 {
-  "generated_at": "2026-07-01T20:55:55+00:00",
+  "generated_at": "2026-07-02T15:45:04+00:00",
   "tips": {
     "total": 1,
     "published": 0,
@@ -10,6 +10,13 @@
   "signals": {
     "signals": 0,
     "top_unanswered": 0
+  },
+  "pricing_stats": {
+    "solutions": 126,
+    "catalog_value": "$346,070",
+    "generated_at": "2026-07-02T15:45:06+00:00",
+    "pushed": true,
+    "err": ""
   }
 }
-[07/01/2026 13:55:56] community-sync exit=0
+[07/02/2026 08:45:08] community-sync exit=0

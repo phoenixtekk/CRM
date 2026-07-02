@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "enterprise-desktop-support-runbook-intune",
+    "title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+    "category_path": [
+      "Infrastructure"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-DESKSUP-COMM-001",
+      "name": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "A <strong>Tier-1/Tier-2 runbook library</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable diagnose-to-resolve path with escalation gates. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Give every technician a repeatable way to own the problem end-to-end</h3><p>In a managed fleet, desktop issues get bounced between tiers because there's no standard way to triage them. This library gives you a <strong>Tier-1/Tier-2 runbook set</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable, step-by-step diagnostic-to-resolution path with the exact checks, escalation gates, and evidence to collect, so technicians resolve issues consistently and own them end to end.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the support operating model (intake &rarr; triage &rarr; diagnose &rarr; resolve/escalate &rarr; document), how it maps to an Intune-managed fleet, and how the runbooks are structured.</li><li><strong>Requirements Guide</strong> &mdash; what a technician needs (Intune roles, Graph read access, Remote Help/remote tools, asset context) with how to <em>verify</em> each.</li><li><strong>Runbook Library</strong> &mdash; step-by-step runbooks for the common enterprise categories: sign-in/profile, OS/update, hardware/peripheral, app, network reachability, and enrollment/compliance &mdash; each with triage tree, checks, resolution, and escalation gate.</li><li><strong>5 PowerShell scripts</strong> &mdash; endpoint health/context discovery, per-device state validation, a support-metrics/health report, safe common-fix remediation, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates per runbook, plus Best Practices for consistent triage, evidence capture, and escalation.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Every technician resolving desktop issues the same repeatable way and owning them end to end &mdash; a runbook library and scripts you keep and reuse across the fleet.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DESKSUP-Discovery.ps1</code> &mdash; read-only endpoint health and context discovery for Intune-managed Windows</li><li><code>DESKSUP-Remediation.ps1</code> &mdash; safe common desktop fixes for Intune-managed Windows (defaults to WhatIf)</li><li><code>DESKSUP-Report.ps1</code> &mdash; read-only support-metrics and fleet-health summary for Intune-managed Windows</li><li><code>DESKSUP-Set-ScopeTargeting.ps1</code> &mdash; build/adjust pilot and support target groups (defaults to WhatIf)</li><li><code>DESKSUP-Validation.ps1</code> &mdash; read-only per-device state validation for Intune-managed Windows</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+      "meta_description": "Standardized Tier-1/Tier-2 desktop support runbooks for Intune-managed Windows: sign-in, OS/update, hardware/peripheral, app, network, and enrollment triage with escalation gates and scripts.",
+      "url_key": "enterprise-desktop-support-runbook-intune-commercial",
+      "image": "DESKSUP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DESKSUP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DESKSUP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DESKSUP-NPO-001",
+      "name": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>A Tier-1/Tier-2 runbook library for Intune-managed Windows — OS, hardware, profile, sign-in, and user-facing issues — each a repeatable diagnose-to-resolve path with escalation gates. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Give every technician a repeatable way to own the problem end-to-end</h3><p>In a managed fleet, desktop issues get bounced between tiers because there's no standard way to triage them. This library gives you a <strong>Tier-1/Tier-2 runbook set</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable, step-by-step diagnostic-to-resolution path with the exact checks, escalation gates, and evidence to collect, so technicians resolve issues consistently and own them end to end.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the support operating model (intake &rarr; triage &rarr; diagnose &rarr; resolve/escalate &rarr; document), how it maps to an Intune-managed fleet, and how the runbooks are structured.</li><li><strong>Requirements Guide</strong> &mdash; what a technician needs (Intune roles, Graph read access, Remote Help/remote tools, asset context) with how to <em>verify</em> each.</li><li><strong>Runbook Library</strong> &mdash; step-by-step runbooks for the common enterprise categories: sign-in/profile, OS/update, hardware/peripheral, app, network reachability, and enrollment/compliance &mdash; each with triage tree, checks, resolution, and escalation gate.</li><li><strong>5 PowerShell scripts</strong> &mdash; endpoint health/context discovery, per-device state validation, a support-metrics/health report, safe common-fix remediation, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates per runbook, plus Best Practices for consistent triage, evidence capture, and escalation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DESKSUP-Discovery.ps1</code> &mdash; read-only endpoint health and context discovery for Intune-managed Windows</li><li><code>DESKSUP-Remediation.ps1</code> &mdash; safe common desktop fixes for Intune-managed Windows (defaults to WhatIf)</li><li><code>DESKSUP-Report.ps1</code> &mdash; read-only support-metrics and fleet-health summary for Intune-managed Windows</li><li><code>DESKSUP-Set-ScopeTargeting.ps1</code> &mdash; build/adjust pilot and support target groups (defaults to WhatIf)</li><li><code>DESKSUP-Validation.ps1</code> &mdash; read-only per-device state validation for Intune-managed Windows</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Standardized Tier-1/Tier-2 desktop support runbooks for Intune-managed Windows: sign-in, OS/update, hardware/peripheral, app, network, and enrollment triage with escalation gates and scripts.",
+      "url_key": "enterprise-desktop-support-runbook-intune-nonprofit",
+      "image": "DESKSUP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DESKSUP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DESKSUP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DESKSUP-GOV-001",
+      "name": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>A Tier-1/Tier-2 runbook library for Intune-managed Windows — OS, hardware, profile, sign-in, and user-facing issues — each a repeatable diagnose-to-resolve path with escalation gates. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Give every technician a repeatable way to own the problem end-to-end</h3><p>In a managed fleet, desktop issues get bounced between tiers because there's no standard way to triage them. This library gives you a <strong>Tier-1/Tier-2 runbook set</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable, step-by-step diagnostic-to-resolution path with the exact checks, escalation gates, and evidence to collect, so technicians resolve issues consistently and own them end to end.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the support operating model (intake &rarr; triage &rarr; diagnose &rarr; resolve/escalate &rarr; document), how it maps to an Intune-managed fleet, and how the runbooks are structured.</li><li><strong>Requirements Guide</strong> &mdash; what a technician needs (Intune roles, Graph read access, Remote Help/remote tools, asset context) with how to <em>verify</em> each.</li><li><strong>Runbook Library</strong> &mdash; step-by-step runbooks for the common enterprise categories: sign-in/profile, OS/update, hardware/peripheral, app, network reachability, and enrollment/compliance &mdash; each with triage tree, checks, resolution, and escalation gate.</li><li><strong>5 PowerShell scripts</strong> &mdash; endpoint health/context discovery, per-device state validation, a support-metrics/health report, safe common-fix remediation, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates per runbook, plus Best Practices for consistent triage, evidence capture, and escalation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DESKSUP-Discovery.ps1</code> &mdash; read-only endpoint health and context discovery for Intune-managed Windows</li><li><code>DESKSUP-Remediation.ps1</code> &mdash; safe common desktop fixes for Intune-managed Windows (defaults to WhatIf)</li><li><code>DESKSUP-Report.ps1</code> &mdash; read-only support-metrics and fleet-health summary for Intune-managed Windows</li><li><code>DESKSUP-Set-ScopeTargeting.ps1</code> &mdash; build/adjust pilot and support target groups (defaults to WhatIf)</li><li><code>DESKSUP-Validation.ps1</code> &mdash; read-only per-device state validation for Intune-managed Windows</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Standardized Tier-1/Tier-2 desktop support runbooks for Intune-managed Windows: sign-in, OS/update, hardware/peripheral, app, network, and enrollment triage with escalation gates and scripts.",
+      "url_key": "enterprise-desktop-support-runbook-intune-government",
+      "image": "DESKSUP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DESKSUP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DESKSUP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "NETDX",
+  "slug": "endpoint-network-connectivity-troubleshooting",
+  "title": "Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering)",
+  "category": "Network",
+  "category_slug": "network",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Isolate why the endpoint can't reach the service — layer by layer",
+  "problem": "&ldquo;It works on my machine&rdquo; hides a stack of possible causes: DNS, proxy/PAC, VPN, or an IP/Port/URL filter silently blocking the traffic. This vendor-neutral toolkit gives you a <strong>layered root-cause method and diagnostic scripts</strong> to test each layer from the endpoint &mdash; name resolution, proxy, VPN tunnel, and access-control filters &mdash; so you prove where the block is instead of guessing.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the endpoint-to-service path (DNS &rarr; proxy/PAC &rarr; VPN &rarr; firewall/URL filter &rarr; service) and the layered model behind the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to diagnose (endpoint access, network/proxy details, test targets) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (name won't resolve, resolves-can't-connect, proxy/PAC misroute, VPN split-tunnel gap, IP:Port blocked, URL category blocked) with the exact checks per layer.",
+    "<strong>5 PowerShell scripts</strong> &mdash; connectivity/DNS/proxy discovery, per-endpoint reachability validation (name/IP/port/URL), a connectivity coverage report, safe local remediation (cache/route/proxy reset), and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> mapping each pass/fail gate to the responsible layer, plus Best Practices for repeatable network triage and escalation with evidence."
+  ],
+  "short": "A vendor-neutral, endpoint-side <strong>root-cause method and scripts</strong> to isolate connectivity failures across DNS, proxy/PAC, VPN, and IP/Port/URL filtering &mdash; prove where the block is. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A vendor-neutral, endpoint-side root-cause method and scripts to isolate connectivity failures across DNS, proxy/PAC, VPN, and IP/Port/URL filtering — prove where the block is.",
+  "meta_title": "Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering)",
+  "meta_description": "Troubleshoot endpoint connectivity layer by layer: DNS, proxy/PAC, VPN, and IP/Port/URL filter blocks. Vendor-neutral root-cause tree and PowerShell diagnostic scripts for managed Windows.",
+  "bottom_line": "The exact layer blocking the endpoint &mdash; DNS, proxy, VPN, or a filter &mdash; proven with a repeatable method and scripts you keep and reuse on every connectivity incident.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Can't Reach It?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Connectivity Troubleshooting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "DNS · Proxy · VPN · IP/Port/URL",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "“WORKS ON MINE”",
+      "items": [
+        "Silent filter blocks",
+        "DNS/proxy misroute",
+        "VPN split-tunnel gaps",
+        "Guesswork triage"
+      ]
+    },
+    "to": {
+      "label": "Layered root-cause",
+      "stat": "Prove where the block is"
+    },
+    "tagline": "TEST IT.  ISOLATE IT.  PROVE IT.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "DNS/Proxy",
+        "sub": "Resolve/route"
+      },
+      {
+        "icon": "lock",
+        "title": "VPN",
+        "sub": "Tunnel check"
+      },
+      {
+        "icon": "shield",
+        "title": "Filters",
+        "sub": "IP/Port/URL"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Reach report"
+      }
+    ]
+  }
+}

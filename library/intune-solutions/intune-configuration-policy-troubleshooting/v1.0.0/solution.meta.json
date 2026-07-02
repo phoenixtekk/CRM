@@ -1,0 +1,41 @@
+{
+  "slug": "intune-configuration-policy-troubleshooting",
+  "title": "Intune Device Configuration & Policy Troubleshooting Toolkit",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "INTCFG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-INTCFG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-INTCFG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-INTCFG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "INTCFG-Solution.pdf",
+    "INTCFG-Scripts.zip"
+  ],
+  "hero": "INTCFG-hero.png"
+}
+

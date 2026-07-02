@@ -1,0 +1,41 @@
+{
+  "slug": "enterprise-desktop-support-runbook-intune",
+  "title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "DESKSUP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DESKSUP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-DESKSUP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-DESKSUP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "DESKSUP-Solution.pdf",
+    "DESKSUP-Scripts.zip"
+  ],
+  "hero": "DESKSUP-hero.png"
+}
+

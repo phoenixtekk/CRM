@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Slow & Crashing?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Performance Troubleshooting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Boot · Profile · Crash · Disk",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "“IT'S JUST SLOW”",
+    "items": [
+      "Unquantified complaints",
+      "Random crashes",
+      "Disk/RAM pressure",
+      "No baseline"
+    ]
+  },
+  "to": {
+    "label": "Measure-first root cause",
+    "stat": "Measured cause + fix"
+  },
+  "tagline": "MEASURE IT.  ISOLATE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Resource",
+      "sub": "CPU/RAM/disk"
+    },
+    {
+      "icon": "device",
+      "title": "Boot/Profile",
+      "sub": "Phase timing"
+    },
+    {
+      "icon": "gear",
+      "title": "Crashes",
+      "sub": "Bugcheck"
+    },
+    {
+      "icon": "chart",
+      "title": "Fleet",
+      "sub": "Perf report"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "INTCOMPDX",
+  "slug": "intune-compliance-failure-diagnostics",
+  "title": "Intune Compliance-Failure Diagnostics & Remediation",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T3 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Know exactly why a device is non-compliant — before it loses access",
+  "problem": "A device flips to <strong>non-compliant</strong>, Conditional Access blocks the user, and the help desk can't say which setting failed or why. This toolkit gives you a <strong>root-cause method and scripts</strong> to read the exact per-setting failure, understand evaluation timing and grace periods, and see the Conditional Access blast radius &mdash; then remediate safely, without disabling policy fleet-wide.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how compliance evaluation works (policy &rarr; per-setting state &rarr; grace &rarr; CA gate), where results surface, and the model behind the diagnostic tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need (Intune roles, Graph read access, device access) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (which setting failed, evaluation lag, grace expiry, built-in vs custom rule, CA block) with the exact checks per branch.",
+    "<strong>5 PowerShell scripts</strong> &mdash; compliance-state discovery, per-device per-setting failure validation, a fleet compliance + CA-impact report, safe remediation of common failures, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (setting passes, device compliant, CA allows), plus Best Practices for grace and staged enforcement."
+  ],
+  "short": "A root-cause method and scripts to read the exact <strong>per-setting compliance failure</strong>, evaluation timing, grace, and the Conditional Access blast radius &mdash; then remediate safely. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A root-cause method and scripts to read the exact per-setting compliance failure, evaluation timing, grace, and the Conditional Access blast radius — then remediate safely.",
+  "meta_title": "Intune Compliance-Failure Diagnostics & Remediation",
+  "meta_description": "Diagnose Intune device compliance failures: per-setting failure reasons, evaluation timing, grace periods, Conditional Access impact, and safe remediation. Self-guided root-cause tree and PowerShell scripts.",
+  "bottom_line": "Every non-compliant device explained to the exact failing setting &mdash; with the Conditional Access impact and a safe fix &mdash; using a repeatable method you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Why Non-Compliant?",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Compliance Diagnostics",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Per-Setting · Grace · Conditional Access",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ACCESS BLOCKED",
+      "items": [
+        "Unknown failing setting",
+        "Grace expired",
+        "CA blocks user",
+        "Guesswork fixes"
+      ]
+    },
+    "to": {
+      "label": "Per-setting root cause",
+      "stat": "Explain + remediate safely"
+    },
+    "tagline": "READ IT.  EXPLAIN IT.  REMEDIATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Per-Setting",
+        "sub": "Exact failure"
+      },
+      {
+        "icon": "gear",
+        "title": "Grace/Timing",
+        "sub": "Eval model"
+      },
+      {
+        "icon": "lock",
+        "title": "CA Impact",
+        "sub": "Blast radius"
+      },
+      {
+        "icon": "chart",
+        "title": "Fleet Report",
+        "sub": "Compliance"
+      }
+    ]
+  }
+}

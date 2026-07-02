@@ -5620,6 +5620,338 @@
     "product_count": 3
   },
   {
+    "title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+    "slug": "enterprise-desktop-support-runbook-intune",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "DESKSUP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-DESKSUP-COMM-001",
+      "PTK-DESKSUP-NPO-001",
+      "PTK-DESKSUP-GOV-001"
+    ],
+    "deliverables": [
+      "DESKSUP-Solution.pdf",
+      "DESKSUP-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\enterprise-desktop-support-runbook-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/03-implementation.md",
+          "kb": 18.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DESKSUP-Discovery.ps1",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/scripts/DESKSUP-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "DESKSUP-Remediation.ps1",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/scripts/DESKSUP-Remediation.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "DESKSUP-Report.ps1",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/scripts/DESKSUP-Report.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "DESKSUP-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/scripts/DESKSUP-Set-ScopeTargeting.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "DESKSUP-Validation.ps1",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/scripts/DESKSUP-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DESKSUP-Complete-Solution.zip",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-Complete-Solution.zip",
+          "kb": 106.1
+        },
+        {
+          "name": "DESKSUP-hero.png",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-hero.png",
+          "kb": 490.9
+        },
+        {
+          "name": "DESKSUP-hero.svg",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "DESKSUP-Scripts.zip",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-Scripts.zip",
+          "kb": 10.7
+        },
+        {
+          "name": "DESKSUP-Solution.docx",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-Solution.docx",
+          "kb": 57.1
+        },
+        {
+          "name": "DESKSUP-Solution.pdf",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-Solution.pdf",
+          "kb": 57.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/enterprise-desktop-support-runbook-intune/v1.0.0/deliverables/DESKSUP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enterprise VOIP / Softphone Endpoint Support & Troubleshooting",
+    "slug": "voip-softphone-endpoint-support",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "VOIPSUP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-VOIPSUP-COMM-001",
+      "PTK-VOIPSUP-NPO-001",
+      "PTK-VOIPSUP-GOV-001"
+    ],
+    "deliverables": [
+      "VOIPSUP-Solution.pdf",
+      "VOIPSUP-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\voip-softphone-endpoint-support\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/02-requirements.md",
+          "kb": 5.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/03-implementation.md",
+          "kb": 12.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/07-best-practices.md",
+          "kb": 4.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "VOIPSUP-Discovery.ps1",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/scripts/VOIPSUP-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "VOIPSUP-Remediation.ps1",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/scripts/VOIPSUP-Remediation.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "VOIPSUP-Report.ps1",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/scripts/VOIPSUP-Report.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "VOIPSUP-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/scripts/VOIPSUP-Set-ScopeTargeting.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "VOIPSUP-Validation.ps1",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/scripts/VOIPSUP-Validation.ps1",
+          "kb": 5.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "VOIPSUP-Complete-Solution.zip",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-Complete-Solution.zip",
+          "kb": 104.6
+        },
+        {
+          "name": "VOIPSUP-hero.png",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-hero.png",
+          "kb": 491.0
+        },
+        {
+          "name": "VOIPSUP-hero.svg",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "VOIPSUP-Scripts.zip",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "VOIPSUP-Solution.docx",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "VOIPSUP-Solution.pdf",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-Solution.pdf",
+          "kb": 55.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/voip-softphone-endpoint-support/v1.0.0/deliverables/VOIPSUP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "New-Site Endpoint Rollout Playbook",
     "slug": "new-site-endpoint-rollout-playbook",
     "category": "Infrastructure",
@@ -6113,6 +6445,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../infrastructure/universal-print-deployment-migration/v1.0.0/deliverables/UPRT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
+    "slug": "windows-endpoint-performance-reliability-troubleshooting",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "WINPERF",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-WINPERF-COMM-001",
+      "PTK-WINPERF-NPO-001",
+      "PTK-WINPERF-GOV-001"
+    ],
+    "deliverables": [
+      "WINPERF-Solution.pdf",
+      "WINPERF-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\windows-endpoint-performance-reliability-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 10.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WINPERF-Discovery.ps1",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/scripts/WINPERF-Discovery.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "WINPERF-Remediation.ps1",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/scripts/WINPERF-Remediation.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "WINPERF-Report.ps1",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/scripts/WINPERF-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "WINPERF-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/scripts/WINPERF-Set-ScopeTargeting.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "WINPERF-Validation.ps1",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/scripts/WINPERF-Validation.ps1",
+          "kb": 9.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WINPERF-Complete-Solution.zip",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-Complete-Solution.zip",
+          "kb": 106.7
+        },
+        {
+          "name": "WINPERF-hero.png",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-hero.png",
+          "kb": 510.2
+        },
+        {
+          "name": "WINPERF-hero.svg",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "WINPERF-Scripts.zip",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-Scripts.zip",
+          "kb": 11.9
+        },
+        {
+          "name": "WINPERF-Solution.docx",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-Solution.docx",
+          "kb": 56.0
+        },
+        {
+          "name": "WINPERF-Solution.pdf",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-Solution.pdf",
+          "kb": 58.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0/deliverables/WINPERF-hero.png",
     "product_count": 3
   },
   {
@@ -9442,6 +9940,338 @@
     "product_count": 3
   },
   {
+    "title": "Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)",
+    "slug": "intune-app-deployment-troubleshooting",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "INTAPPDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-INTAPPDX-COMM-001",
+      "PTK-INTAPPDX-NPO-001",
+      "PTK-INTAPPDX-GOV-001"
+    ],
+    "deliverables": [
+      "INTAPPDX-Solution.pdf",
+      "INTAPPDX-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-app-deployment-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 5.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 11.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 2.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INTAPPDX-Discovery.ps1",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/scripts/INTAPPDX-Discovery.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "INTAPPDX-Remediation.ps1",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/scripts/INTAPPDX-Remediation.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "INTAPPDX-Report.ps1",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/scripts/INTAPPDX-Report.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "INTAPPDX-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/scripts/INTAPPDX-Set-ScopeTargeting.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "INTAPPDX-Validation.ps1",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/scripts/INTAPPDX-Validation.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INTAPPDX-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-Complete-Solution.zip",
+          "kb": 98.1
+        },
+        {
+          "name": "INTAPPDX-hero.png",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-hero.png",
+          "kb": 470.3
+        },
+        {
+          "name": "INTAPPDX-hero.svg",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "INTAPPDX-Scripts.zip",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-Scripts.zip",
+          "kb": 9.3
+        },
+        {
+          "name": "INTAPPDX-Solution.docx",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-Solution.docx",
+          "kb": 54.5
+        },
+        {
+          "name": "INTAPPDX-Solution.pdf",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-Solution.pdf",
+          "kb": 52.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-app-deployment-troubleshooting/v1.0.0/deliverables/INTAPPDX-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Compliance-Failure Diagnostics & Remediation",
+    "slug": "intune-compliance-failure-diagnostics",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "INTCOMPDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-INTCOMPDX-COMM-001",
+      "PTK-INTCOMPDX-NPO-001",
+      "PTK-INTCOMPDX-GOV-001"
+    ],
+    "deliverables": [
+      "INTCOMPDX-Solution.pdf",
+      "INTCOMPDX-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-compliance-failure-diagnostics\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/03-implementation.md",
+          "kb": 11.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INTCOMPDX-Discovery.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/scripts/INTCOMPDX-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "INTCOMPDX-Remediation.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/scripts/INTCOMPDX-Remediation.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "INTCOMPDX-Report.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/scripts/INTCOMPDX-Report.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "INTCOMPDX-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/scripts/INTCOMPDX-Set-ScopeTargeting.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "INTCOMPDX-Validation.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/scripts/INTCOMPDX-Validation.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INTCOMPDX-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-Complete-Solution.zip",
+          "kb": 103.3
+        },
+        {
+          "name": "INTCOMPDX-hero.png",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-hero.png",
+          "kb": 478.9
+        },
+        {
+          "name": "INTCOMPDX-hero.svg",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "INTCOMPDX-Scripts.zip",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "INTCOMPDX-Solution.docx",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-Solution.docx",
+          "kb": 56.3
+        },
+        {
+          "name": "INTCOMPDX-Solution.pdf",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-Solution.pdf",
+          "kb": 55.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/deliverables/INTCOMPDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Intune Custom Compliance & Configuration Items (Scripted)",
     "slug": "intune-custom-compliance-configuration-items",
     "category": "Intune",
@@ -9605,6 +10435,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/deliverables/CUSTCOMP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Device Configuration & Policy Troubleshooting Toolkit",
+    "slug": "intune-configuration-policy-troubleshooting",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "INTCFG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-INTCFG-COMM-001",
+      "PTK-INTCFG-NPO-001",
+      "PTK-INTCFG-GOV-001"
+    ],
+    "deliverables": [
+      "INTCFG-Solution.pdf",
+      "INTCFG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-configuration-policy-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 5.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INTCFG-Discovery.ps1",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/scripts/INTCFG-Discovery.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "INTCFG-Remediation.ps1",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/scripts/INTCFG-Remediation.ps1",
+          "kb": 2.8
+        },
+        {
+          "name": "INTCFG-Report.ps1",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/scripts/INTCFG-Report.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "INTCFG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/scripts/INTCFG-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "INTCFG-Validation.ps1",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/scripts/INTCFG-Validation.ps1",
+          "kb": 3.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INTCFG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-Complete-Solution.zip",
+          "kb": 96.0
+        },
+        {
+          "name": "INTCFG-hero.png",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-hero.png",
+          "kb": 497.9
+        },
+        {
+          "name": "INTCFG-hero.svg",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "INTCFG-Scripts.zip",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-Scripts.zip",
+          "kb": 8.1
+        },
+        {
+          "name": "INTCFG-Solution.docx",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-Solution.docx",
+          "kb": 53.8
+        },
+        {
+          "name": "INTCFG-Solution.pdf",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-Solution.pdf",
+          "kb": 51.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-configuration-policy-troubleshooting/v1.0.0/deliverables/INTCFG-hero.png",
     "product_count": 3
   },
   {
@@ -10932,6 +11928,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+    "slug": "peripheral-driver-device-control-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "PERIDEV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PERIDEV-COMM-001",
+      "PTK-PERIDEV-NPO-001",
+      "PTK-PERIDEV-GOV-001"
+    ],
+    "deliverables": [
+      "PERIDEV-Solution.pdf",
+      "PERIDEV-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\peripheral-driver-device-control-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PERIDEV-Discovery.ps1",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/scripts/PERIDEV-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "PERIDEV-Remediation.ps1",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/scripts/PERIDEV-Remediation.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "PERIDEV-Report.ps1",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/scripts/PERIDEV-Report.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "PERIDEV-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/scripts/PERIDEV-Set-ScopeTargeting.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "PERIDEV-Validation.ps1",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/scripts/PERIDEV-Validation.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PERIDEV-Complete-Solution.zip",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-Complete-Solution.zip",
+          "kb": 101.1
+        },
+        {
+          "name": "PERIDEV-hero.png",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-hero.png",
+          "kb": 465.3
+        },
+        {
+          "name": "PERIDEV-hero.svg",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PERIDEV-Scripts.zip",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "PERIDEV-Solution.docx",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-Solution.docx",
+          "kb": 54.4
+        },
+        {
+          "name": "PERIDEV-Solution.pdf",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-Solution.pdf",
+          "kb": 55.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/peripheral-driver-device-control-intune/v1.0.0/deliverables/PERIDEV-hero.png",
     "product_count": 3
   },
   {
@@ -16887,6 +18049,172 @@
     "product_count": 3
   },
   {
+    "title": "Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering)",
+    "slug": "endpoint-network-connectivity-troubleshooting",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "NETDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-NETDX-COMM-001",
+      "PTK-NETDX-NPO-001",
+      "PTK-NETDX-GOV-001"
+    ],
+    "deliverables": [
+      "NETDX-Solution.pdf",
+      "NETDX-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\endpoint-network-connectivity-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 11.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "NETDX-Discovery.ps1",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/scripts/NETDX-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "NETDX-Remediation.ps1",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/scripts/NETDX-Remediation.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "NETDX-Report.ps1",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/scripts/NETDX-Report.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "NETDX-Set-ScopeTargeting.ps1",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/scripts/NETDX-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "NETDX-Validation.ps1",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/scripts/NETDX-Validation.ps1",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "NETDX-Complete-Solution.zip",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-Complete-Solution.zip",
+          "kb": 103.3
+        },
+        {
+          "name": "NETDX-hero.png",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-hero.png",
+          "kb": 486.5
+        },
+        {
+          "name": "NETDX-hero.svg",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "NETDX-Scripts.zip",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "NETDX-Solution.docx",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "NETDX-Solution.pdf",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-Solution.pdf",
+          "kb": 56.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/endpoint-network-connectivity-troubleshooting/v1.0.0/deliverables/NETDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Forcepoint Neo to Netskope Migration (Legacy Web Filtering)",
     "slug": "forcepoint-neo-to-netskope-migration",
     "category": "Network",
@@ -17049,6 +18377,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../network/forcepoint-neo-to-netskope-migration/v1.0.0/deliverables/NSMIG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
+    "slug": "m365-endpoint-allowlist-egress-management",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "EGRESS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-EGRESS-COMM-001",
+      "PTK-EGRESS-NPO-001",
+      "PTK-EGRESS-GOV-001"
+    ],
+    "deliverables": [
+      "EGRESS-Solution.pdf",
+      "EGRESS-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\m365-endpoint-allowlist-egress-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/02-requirements.md",
+          "kb": 6.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/03-implementation.md",
+          "kb": 11.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EGRESS-Discovery.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/scripts/EGRESS-Discovery.ps1",
+          "kb": 8.8
+        },
+        {
+          "name": "EGRESS-Remediation.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/scripts/EGRESS-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "EGRESS-Report.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/scripts/EGRESS-Report.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "EGRESS-Set-ScopeTargeting.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/scripts/EGRESS-Set-ScopeTargeting.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "EGRESS-Validation.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/scripts/EGRESS-Validation.ps1",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EGRESS-Complete-Solution.zip",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-Complete-Solution.zip",
+          "kb": 108.4
+        },
+        {
+          "name": "EGRESS-hero.png",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-hero.png",
+          "kb": 407.5
+        },
+        {
+          "name": "EGRESS-hero.svg",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "EGRESS-Scripts.zip",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-Scripts.zip",
+          "kb": 12.6
+        },
+        {
+          "name": "EGRESS-Solution.docx",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-Solution.docx",
+          "kb": 56.3
+        },
+        {
+          "name": "EGRESS-Solution.pdf",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-Solution.pdf",
+          "kb": 59.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/deliverables/EGRESS-hero.png",
     "product_count": 3
   },
   {
@@ -18536,6 +20030,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../security/cloud-pki-integration-intune/v1.0.0/deliverables/CPKI-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
+    "slug": "continuous-compliance-audit-evidence-intune",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "CCAUDIT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CCAUDIT-COMM-001",
+      "PTK-CCAUDIT-NPO-001",
+      "PTK-CCAUDIT-GOV-001"
+    ],
+    "deliverables": [
+      "CCAUDIT-Solution.pdf",
+      "CCAUDIT-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\continuous-compliance-audit-evidence-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/03-implementation.md",
+          "kb": 8.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CCAUDIT-Discovery.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/scripts/CCAUDIT-Discovery.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "CCAUDIT-Remediation.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/scripts/CCAUDIT-Remediation.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "CCAUDIT-Report.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/scripts/CCAUDIT-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "CCAUDIT-Set-ScopeTargeting.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/scripts/CCAUDIT-Set-ScopeTargeting.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "CCAUDIT-Validation.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/scripts/CCAUDIT-Validation.ps1",
+          "kb": 6.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CCAUDIT-Complete-Solution.zip",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-Complete-Solution.zip",
+          "kb": 101.8
+        },
+        {
+          "name": "CCAUDIT-hero.png",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-hero.png",
+          "kb": 412.1
+        },
+        {
+          "name": "CCAUDIT-hero.svg",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "CCAUDIT-Scripts.zip",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "CCAUDIT-Solution.docx",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-Solution.docx",
+          "kb": 54.3
+        },
+        {
+          "name": "CCAUDIT-Solution.pdf",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-Solution.pdf",
+          "kb": 53.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-hero.png",
     "product_count": 3
   },
   {

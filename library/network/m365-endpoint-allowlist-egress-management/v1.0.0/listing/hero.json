@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Egress Blocking Cloud?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "M365/Intune Allow-Lists",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "IP · Port · URL · Proxy/Firewall",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OVER-TIGHT FILTERS",
+    "items": [
+      "Enrollment stalls",
+      "Policies never sync",
+      "Updates fail silently",
+      "Endpoint list drifts"
+    ]
+  },
+  "to": {
+    "label": "Managed allow-lists",
+    "stat": "Cloud management works"
+  },
+  "tagline": "DERIVE IT.  ALLOW IT.  KEEP CURRENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Required Set",
+      "sub": "IP/Port/URL"
+    },
+    {
+      "icon": "gear",
+      "title": "Proxy/FW",
+      "sub": "Exceptions"
+    },
+    {
+      "icon": "cloud",
+      "title": "Reachability",
+      "sub": "Validated"
+    },
+    {
+      "icon": "chart",
+      "title": "Gaps",
+      "sub": "Coverage report"
+    }
+  ]
+}

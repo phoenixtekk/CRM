@@ -1,0 +1,82 @@
+{
+  "sol": "DESKSUP",
+  "slug": "enterprise-desktop-support-runbook-intune",
+  "title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Effort tier: T4 (cross-domain endpoint troubleshooting/operations; diagnostic method + scripts, live-environment care).",
+    "Vendor/product-specific console internals are deferred to the vendor's official documentation; the Intune/Entra/Windows side is authored at exact click-by-click detail."
+  ],
+  "hook": "Give every technician a repeatable way to own the problem end-to-end",
+  "problem": "In a managed fleet, desktop issues get bounced between tiers because there's no standard way to triage them. This library gives you a <strong>Tier-1/Tier-2 runbook set</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable, step-by-step diagnostic-to-resolution path with the exact checks, escalation gates, and evidence to collect, so technicians resolve issues consistently and own them end to end.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the support operating model (intake &rarr; triage &rarr; diagnose &rarr; resolve/escalate &rarr; document), how it maps to an Intune-managed fleet, and how the runbooks are structured.",
+    "<strong>Requirements Guide</strong> &mdash; what a technician needs (Intune roles, Graph read access, Remote Help/remote tools, asset context) with how to <em>verify</em> each.",
+    "<strong>Runbook Library</strong> &mdash; step-by-step runbooks for the common enterprise categories: sign-in/profile, OS/update, hardware/peripheral, app, network reachability, and enrollment/compliance &mdash; each with triage tree, checks, resolution, and escalation gate.",
+    "<strong>5 PowerShell scripts</strong> &mdash; endpoint health/context discovery, per-device state validation, a support-metrics/health report, safe common-fix remediation, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates per runbook, plus Best Practices for consistent triage, evidence capture, and escalation."
+  ],
+  "short": "A <strong>Tier-1/Tier-2 runbook library</strong> for Intune-managed Windows &mdash; OS, hardware, profile, sign-in, and user-facing issues &mdash; each a repeatable diagnose-to-resolve path with escalation gates. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A Tier-1/Tier-2 runbook library for Intune-managed Windows — OS, hardware, profile, sign-in, and user-facing issues — each a repeatable diagnose-to-resolve path with escalation gates.",
+  "meta_title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+  "meta_description": "Standardized Tier-1/Tier-2 desktop support runbooks for Intune-managed Windows: sign-in, OS/update, hardware/peripheral, app, network, and enrollment triage with escalation gates and scripts.",
+  "bottom_line": "Every technician resolving desktop issues the same repeatable way and owning them end to end &mdash; a runbook library and scripts you keep and reuse across the fleet.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Desktop Support",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Runbook Library",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Intune-Managed Windows · Tier 1/2",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BOUNCED TICKETS",
+      "items": [
+        "No standard triage",
+        "Inconsistent fixes",
+        "Handed off, not owned",
+        "Lost evidence"
+      ]
+    },
+    "to": {
+      "label": "Repeatable runbooks",
+      "stat": "Own it end to end"
+    },
+    "tagline": "TRIAGE IT.  RESOLVE IT.  OWN IT.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Tier 1/2",
+        "sub": "Runbooks"
+      },
+      {
+        "icon": "device",
+        "title": "OS/Hardware",
+        "sub": "Triage trees"
+      },
+      {
+        "icon": "gear",
+        "title": "Escalation",
+        "sub": "Clear gates"
+      },
+      {
+        "icon": "chart",
+        "title": "Health",
+        "sub": "Support report"
+      }
+    ]
+  }
+}

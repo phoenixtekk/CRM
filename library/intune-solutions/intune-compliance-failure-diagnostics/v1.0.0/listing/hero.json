@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Why Non-Compliant?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Compliance Diagnostics",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Per-Setting · Grace · Conditional Access",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ACCESS BLOCKED",
+    "items": [
+      "Unknown failing setting",
+      "Grace expired",
+      "CA blocks user",
+      "Guesswork fixes"
+    ]
+  },
+  "to": {
+    "label": "Per-setting root cause",
+    "stat": "Explain + remediate safely"
+  },
+  "tagline": "READ IT.  EXPLAIN IT.  REMEDIATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Per-Setting",
+      "sub": "Exact failure"
+    },
+    {
+      "icon": "gear",
+      "title": "Grace/Timing",
+      "sub": "Eval model"
+    },
+    {
+      "icon": "lock",
+      "title": "CA Impact",
+      "sub": "Blast radius"
+    },
+    {
+      "icon": "chart",
+      "title": "Fleet Report",
+      "sub": "Compliance"
+    }
+  ]
+}

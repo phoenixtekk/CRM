@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Call Quality Issues?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "VOIP / Softphone Support",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Audio · Headset · QoS · Client",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DROPPED & ECHOING",
+    "items": [
+      "One-way audio",
+      "Headset not recognized",
+      "Jitter/latency",
+      "Bounced to telephony"
+    ]
+  },
+  "to": {
+    "label": "Endpoint root cause",
+    "stat": "Fix or escalate with evidence"
+  },
+  "tagline": "CHECK IT.  ISOLATE IT.  RESOLVE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Audio Device",
+      "sub": "Headset/driver"
+    },
+    {
+      "icon": "cloud",
+      "title": "Network/QoS",
+      "sub": "Jitter/latency"
+    },
+    {
+      "icon": "gear",
+      "title": "Client",
+      "sub": "Health check"
+    },
+    {
+      "icon": "chart",
+      "title": "Readiness",
+      "sub": "Quality report"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Still Compliant?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Continuous Compliance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "CIS/STIG · Drift · Audit Evidence",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "POINT-IN-TIME ONLY",
+    "items": [
+      "Compliant once",
+      "Silent drift",
+      "Manual evidence",
+      "Audit scramble"
+    ]
+  },
+  "to": {
+    "label": "Continuous + evidenced",
+    "stat": "Prove it any day"
+  },
+  "tagline": "MEASURE IT.  DETECT DRIFT.  PROVE IT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Baseline",
+      "sub": "CIS/STIG"
+    },
+    {
+      "icon": "gear",
+      "title": "Drift",
+      "sub": "Detected"
+    },
+    {
+      "icon": "chart",
+      "title": "Evidence",
+      "sub": "POA&M-ready"
+    },
+    {
+      "icon": "lock",
+      "title": "Audit",
+      "sub": "On demand"
+    }
+  ]
+}
