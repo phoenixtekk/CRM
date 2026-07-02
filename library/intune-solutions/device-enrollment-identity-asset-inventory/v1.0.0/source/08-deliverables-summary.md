@@ -24,7 +24,7 @@
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Every device enrolled, tied to the right user, and accounted for in a reconciled Intune inventory —

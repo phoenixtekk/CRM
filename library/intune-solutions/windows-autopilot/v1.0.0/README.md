@@ -8,7 +8,7 @@
 | Non-Profit | `PTK-WAP-NPO-001` | $1,497.00 |
 
 Zero-touch device provisioning — user-driven, Microsoft Entra–joined Autopilot via Intune.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 - `source\` — 9 docs · `scripts\` — 5 PowerShell scripts · `deliverables\` — Word/PDF/ZIP + hero · `listing\` — contract + hero.json + sales copy.
 

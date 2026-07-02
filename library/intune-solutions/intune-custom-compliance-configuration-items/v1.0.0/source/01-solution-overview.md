@@ -57,7 +57,7 @@ correct; custom compliance proves it.
 - Scripts should be **signed** (or execution policy allowed) per your standards; treat detection
   scripts as code you review and control.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Author the detection script + JSON rule → add scripted config items → upload + create the custom
 > compliance policy → assign to a pilot → validate evaluation and the Conditional Access effect →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

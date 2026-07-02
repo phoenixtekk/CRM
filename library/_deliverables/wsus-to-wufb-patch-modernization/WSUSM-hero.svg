@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">WSUS to Windows Update for Business Patch Modernization — product hero</title><desc id="d">Intune Solutions marketing banner.</desc>
+<title id="t">WSUS to Windows Update for Business Patch Modernization — product hero</title><desc id="d">Intune marketing banner.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="520" cy="480" rx="640" ry="360" fill="url(#glow)"/>
 <g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M70 202 H170 L200 252 H350"/><path d="M1110 940 H970 L1000 890 H850"/><path d="M1110 272 H970 L1000 302 H880"/><path d="M40 279 H140 L170 319 H250"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="170" cy="202" r="5"/><circle cx="200" cy="252" r="5"/><circle cx="970" cy="940" r="5"/><circle cx="1000" cy="890" r="5"/><circle cx="970" cy="272" r="5"/><circle cx="1000" cy="302" r="5"/><circle cx="140" cy="279" r="5"/><circle cx="170" cy="319" r="5"/></g>
@@ -33,5 +33,5 @@
 <text x="745" y="1030">Efficient delivery</text>
 <text x="1035" y="1030">Fleet patch report</text>
 </g></g>
-<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune Solutions</text>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune</text>
 </svg>

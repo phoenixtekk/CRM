@@ -20,7 +20,7 @@
         With -Apply: the named device's ownership is set.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Defaults to read-only; changes require -Apply.
+    White-label — Intune Solutions. Defaults to read-only; changes require -Apply.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

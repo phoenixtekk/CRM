@@ -44,6 +44,6 @@ Each rule can be set to:
 - Full reporting is richest with **Defender for Endpoint** onboarded.
 - Exclusions must be maintained as your app landscape changes.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create the ASR policy in Audit → review events → add exclusions → switch to Block → expand.**
-> Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

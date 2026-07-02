@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         MDM sync requested; local policy refreshed. Reboot if a policy persists, then WDAC-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Unassign the Intune policy FIRST.
+    White-label — Intune Solutions. Unassign the Intune policy FIRST.
 #>
 [CmdletBinding()] param()
 Write-Host "=== WDAC Remediation / Recovery — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

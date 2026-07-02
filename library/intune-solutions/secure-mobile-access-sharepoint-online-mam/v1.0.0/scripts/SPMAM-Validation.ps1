@@ -16,7 +16,7 @@
         "MOBILE ACCESS READY" when the user has an App Protection Policy AND is in scope of an
         enabled CA app-protection grant for Office 365; otherwise the missing piece is named.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory=$true)][string]$UserPrincipalName

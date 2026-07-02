@@ -1,6 +1,6 @@
 # Executive Summary — Intune Administrative Governance: RBAC & Multi-Admin Approval (Microsoft Intune)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 When everyone is an Intune Administrator, mistakes and blast radius follow — a bad app assignment or
 a destructive script can hit the whole fleet, and a single compromised admin account can do
@@ -31,7 +31,7 @@ tags such as `Region A – Devices – Prod` — combined with multi-admin appro
 (`App Deploy Approval – All – Prod`, `Script Deploy Approval – All – Prod`) that require a second
 admin to approve high-risk changes, all proven on a pilot before broad enforce.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome

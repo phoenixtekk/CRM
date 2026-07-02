@@ -30,7 +30,7 @@ can then customize and keep current as Microsoft publishes new baseline versions
 - Baselines are **versioned**; staying current requires periodic profile updates.
 - A baseline is a strong starting point, not a substitute for the specific solutions (BitLocker, ASR, Firewall) where you want explicit control.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Pick the latest baseline version → create a profile → review/adjust → assign to a pilot →
-> resolve conflicts → expand → keep current.** Phoenixtekk pattern: **Assess → Configure → Pilot →
+> resolve conflicts → expand → keep current.** repeatable pattern: **Assess → Configure → Pilot →
 > Validate → Expand.**

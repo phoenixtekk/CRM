@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-RHELP-NPO-001` | $1,497.00 |
 
 Secure, audited, RBAC-governed remote assistance via Intune Remote Help.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution remote-help`

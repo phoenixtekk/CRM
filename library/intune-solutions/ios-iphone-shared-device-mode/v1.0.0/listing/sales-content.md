@@ -24,7 +24,7 @@ click-by-click documentation a non-expert admin can follow end to end — plus t
   shared-fleet inventory report, safe remediation (clear stray primary user), and a dynamic
   shared-device group builder.
 
-## The Phoenixtekk way
+## The repeatable way
 Buy once, deploy to unlimited devices, reuse the playbook. Every solution follows the same repeatable
 shape so each rollout is familiar and low-risk.
 

@@ -20,7 +20,7 @@
         -ResetSync: OneDrive re-initializes and signs in fresh.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. The reset path does not delete cloud data.
+    White-label — Intune Solutions. The reset path does not delete cloud data.
 #>
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
 param([switch]$ResetSync)

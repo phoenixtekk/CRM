@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         A breakdown of ASR events by rule/process; review for legitimate apps to exclude.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param([int]$Days = 14, [string]$CsvPath)
 $start = (Get-Date).AddDays(-$Days)

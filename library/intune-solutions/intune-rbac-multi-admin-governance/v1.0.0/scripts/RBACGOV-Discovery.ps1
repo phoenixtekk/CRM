@@ -15,7 +15,7 @@
         Console listing of role definitions (built-in vs custom), scope tags, role assignments, and
         access policies. Read-only — no changes are made.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Microsoft Graph.
+    White-label — Intune Solutions. Read-only against Microsoft Graph.
 #>
 [CmdletBinding()] param()
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

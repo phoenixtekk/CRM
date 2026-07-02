@@ -19,7 +19,7 @@
         With -WhatIf: the collection and membership changes it would make. Without: the pilot
         collection exists and the named device(s) are direct members, ready to pilot the runbook.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Infrastructure Solutions. Changes are gated behind -WhatIf.
+    White-label — Infrastructure Solutions. Changes are gated behind -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'Medium')]
 param(

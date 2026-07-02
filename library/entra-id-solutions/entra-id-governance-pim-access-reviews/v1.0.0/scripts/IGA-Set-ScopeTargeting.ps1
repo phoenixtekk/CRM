@@ -17,7 +17,7 @@
         The scope and approver groups exist (created if missing) with the requested members; their
         object IDs are printed for use in PIM policy, access reviews, and access packages.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Entra ID Solutions. Creates/updates groups.
+    White-label — Entra ID Solutions. Creates/updates groups.
 #>
 [CmdletBinding()]
 param(

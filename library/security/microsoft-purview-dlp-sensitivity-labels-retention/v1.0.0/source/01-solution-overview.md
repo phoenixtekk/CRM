@@ -54,8 +54,8 @@ Microsoft 365. Three capabilities work together:
 - Retention deletion is irreversible once the period elapses; validate the schedule on a pilot scope
   first.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Design the label taxonomy → publish labels and label policies → configure auto-labeling → build
-> DLP in audit and tune → set retention/records → pilot → validate → expand.** Phoenixtekk pattern:
+> DLP in audit and tune → set retention/records → pilot → validate → expand.** repeatable pattern:
 > **Assess → Configure → Pilot → Validate → Expand**, with a DLP audit gate before any policy
 > enforces and a documented rollback.

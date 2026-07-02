@@ -13,7 +13,7 @@
         A per-app table of installed/failed/pending counts and a total Win32-app coverage line; an
         optional per-app CSV.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Migrations. Read-only against Graph.
+    White-label — Migrations. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

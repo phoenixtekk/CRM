@@ -1,6 +1,6 @@
 # Executive Summary — Microsoft Purview: DLP, Sensitivity Labels & Retention
 
-**Phoenixtekk Workplace Marketplace · Security Solutions**
+**White-label · Security Solutions**
 
 Sensitive data leaks and compliance gaps almost always trace back to the same root: data that is
 never classified, never protected, and never retained on a defined schedule. Microsoft Purview fixes
@@ -27,7 +27,7 @@ A named, reusable set of objects — a sensitivity-label taxonomy, label policie
 policies, DLP policies, and retention labels/policies — deployed on the assess-configure-pilot model
 with a mandatory DLP audit gate before any policy switches to enforce, and a documented rollback.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

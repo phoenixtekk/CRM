@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         OS support verdict and the current code-integrity enforcement state.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "`n=== WDAC / App Control Readiness ($($env:COMPUTERNAME)) ===" -ForegroundColor Cyan

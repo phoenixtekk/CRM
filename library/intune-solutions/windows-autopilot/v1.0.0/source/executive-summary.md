@@ -1,6 +1,6 @@
 # Executive Summary — Windows Autopilot (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Manually imaging and configuring every new PC is slow, inconsistent, and requires a technician
 to touch each device. **Windows Autopilot** replaces that with cloud-driven, zero-touch
@@ -23,8 +23,8 @@ verified before use, every step is exact and in order, and every result is testa
 mode: register device → assign deployment profile + Enrollment Status Page → user completes OOBE →
 device auto-enrolls into Intune and applies policies and apps.
 
-## The Phoenixtekk deployment model
-Every Phoenixtekk Intune solution follows the same shape: **Assess → Configure → Pilot →
+## The standard deployment model
+Every Intune solution follows the same shape: **Assess → Configure → Pilot →
 Validate → Expand.**
 
 ## Outcome

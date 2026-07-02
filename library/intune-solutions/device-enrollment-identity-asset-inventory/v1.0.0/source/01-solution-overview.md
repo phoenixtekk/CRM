@@ -72,7 +72,7 @@ trusts.
 - Apple/Android enrollment methods exist but each needs its own connector/credentials; this solution
   centers on the cross-platform model with Windows as the worked example.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Enable the enrollment methods you support → set enrollment restrictions and automatic enrollment
 > → establish the primary-user rules → enroll/import a pilot → reconcile and validate the inventory →
-> expand to the fleet.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand to the fleet.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

@@ -1,6 +1,6 @@
 # iOS iPhone Shared Device Mode (Lockdown) with WebEx Calling in Microsoft Intune
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: IOSSDM
+> **Version 1.0.0** · Category: Intune · Solution code: IOSSDM
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -28,7 +28,7 @@ This solution makes those iPhones **locked-down, shared appliances** under **Mic
 - **Ready out of the box** → **Cisco Webex** is pushed as a required app and is the app the kiosk
   shows, so an enrolled iPhone comes up ready to call with zero per-device setup.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.
@@ -102,7 +102,7 @@ This solution uses **one** model so the process is repeatable across our catalog
 > and signed into Webex with a shared organization account — assigned once to a single shared-device
 > group and rolled out pilot-first.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Benefits
 - **Interchangeable handsets** — no device belongs to anyone; any staff member can grab any phone and
@@ -222,7 +222,7 @@ network requirements through proxy/firewall.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -254,7 +254,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -271,7 +271,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---

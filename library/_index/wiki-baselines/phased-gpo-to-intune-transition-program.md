@@ -60,7 +60,7 @@ This is the **orchestration layer**. It does not duplicate the per-setting mecha
 firewall and application-control migration solutions). It is the program that decides **what order**
 those happen in, **when** each is safe to start, and **how** the whole transition is governed.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 
 **Assess → Configure → Pilot → Validate → Expand** — applied as a phased program, with a go/no-go
 gate at every phase boundary.

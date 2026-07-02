@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-ESB-NPO-001` | $1,497.00 |
 
 Deploy Microsoft's recommended Windows security baseline via Intune; conflict-aware and versioned.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution endpoint-security-baselines`

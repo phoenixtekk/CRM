@@ -24,7 +24,7 @@
         to the Smart Group. Verify it in Jamf Pro → Computers → Configuration Profiles.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates a configuration profile via the Jamf
+    White-label — Intune Solutions. Creates a configuration profile via the Jamf
     Pro Classic API; supports -WhatIf. The profile embeds an Apple com.apple.extensiblesso payload.
 #>
 [CmdletBinding(SupportsShouldProcess)]
@@ -65,7 +65,7 @@ $mobileconfig = @"
     <dict>
       <key>PayloadType</key><string>com.apple.extensiblesso</string>
       <key>PayloadVersion</key><integer>1</integer>
-      <key>PayloadIdentifier</key><string>com.phoenixtekk.platformsso.$payloadUuid</string>
+      <key>PayloadIdentifier</key><string>com.example.platformsso.$payloadUuid</string>
       <key>PayloadUUID</key><string>$payloadUuid</string>
       <key>PayloadDisplayName</key><string>Microsoft Enterprise SSO (Platform SSO)</string>
       <key>ExtensionIdentifier</key><string>$extensionId</string>
@@ -83,7 +83,7 @@ $urlXml
     </dict>
   </array>
   <key>PayloadDisplayName</key><string>$profileName</string>
-  <key>PayloadIdentifier</key><string>com.phoenixtekk.platformsso.$profileUuid</string>
+  <key>PayloadIdentifier</key><string>com.example.platformsso.$profileUuid</string>
   <key>PayloadType</key><string>Configuration</string>
   <key>PayloadUUID</key><string>$profileUuid</string>
   <key>PayloadVersion</key><integer>1</integer>
@@ -97,7 +97,7 @@ $body = @"
 <os_x_configuration_profile>
   <general>
     <name>$profileName</name>
-    <description>Microsoft Enterprise SSO / Platform SSO for macOS. Created by Phoenixtekk JAMFADE-Set-JamfSSOProfile.ps1.</description>
+    <description>Microsoft Enterprise SSO / Platform SSO for macOS. Created by JAMFADE-Set-JamfSSOProfile.ps1.</description>
     <distribution_method>Install Automatically</distribution_method>
     <user_removable>false</user_removable>
     <level>computer</level>

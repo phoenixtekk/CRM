@@ -15,7 +15,7 @@
         "VALIDATION PASSED" when the label policy is enabled, the DLP policy is present, and the
         retention policy is enabled. Exit code 0 on pass, 1 on any gap.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Security Solutions. Read-only.
+    White-label — Security Solutions. Read-only.
     Uses Get-Label / Get-LabelPolicy / Get-DlpCompliancePolicy / Get-RetentionCompliancePolicy.
 #>
 [CmdletBinding()] param(

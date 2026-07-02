@@ -12,7 +12,7 @@
   "wiki_path": "solutions/intune-solutions/cod-byod-dual-device-sso",
   "wiki_published": true,
   "version_directive": "+1",
-  "branding": "on",
+  "branding": "off",
   "author_notes": [
     "The solution must allow a single user account to sign in on both the COD and BYOD device for scenarios where a user has 2 devices, a Personal and Corporate Owned device.",
     "Forked (+1) from cod-and-byod-device-management v1.0.0: a separate product specializing in the one-user/two-physical-devices scenario with single sign-on across both. The original COD/BYOD product is unchanged."
@@ -39,3 +39,4 @@
   ],
   "hero": "DUALDEV-hero.png"
 }
+

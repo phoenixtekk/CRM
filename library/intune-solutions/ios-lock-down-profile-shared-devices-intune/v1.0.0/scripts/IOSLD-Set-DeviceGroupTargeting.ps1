@@ -24,7 +24,7 @@
         enrollment profile name. New iPhones populate the correct group automatically.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates groups; supports -WhatIf.
+    White-label — Intune Solutions. Creates groups; supports -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

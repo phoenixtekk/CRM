@@ -21,7 +21,7 @@
         With -WhatIf: a list of the exact actions. Without: policy cycles triggered and/or ccmcache
         cleared; then re-run SCCMTS-Validation.ps1 after a policy cycle to confirm 11127 / exit 0.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Infrastructure Solutions. Changes are gated behind -WhatIf.
+    White-label — Infrastructure Solutions. Changes are gated behind -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
 param(

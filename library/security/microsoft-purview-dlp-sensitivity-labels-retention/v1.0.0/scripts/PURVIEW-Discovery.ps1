@@ -15,7 +15,7 @@
         Lists of sensitivity labels (name, priority, encryption), label policies (name, enabled),
         DLP policies (name, MODE — flags any already in Enforce), and retention labels/policies.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Security Solutions. Read-only.
+    White-label — Security Solutions. Read-only.
     Uses Get-Label / Get-LabelPolicy / Get-DlpCompliancePolicy / Get-RetentionCompliancePolicy.
 #>
 [CmdletBinding()] param()

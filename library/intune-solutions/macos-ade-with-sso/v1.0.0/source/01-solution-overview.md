@@ -59,10 +59,10 @@ This solution standardizes on the **Secure Enclave key** method, with notes for 
   SSO** extension being present and current.
 - Personally-owned (BYO) Macs use a different (user-enrollment) path and are out of scope here.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Company-owned, Apple Business Manager–sourced Macs, automatically enrolled into Intune
 > (supervised), with Platform SSO via the Microsoft Enterprise SSO extension and a Secure Enclave key.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

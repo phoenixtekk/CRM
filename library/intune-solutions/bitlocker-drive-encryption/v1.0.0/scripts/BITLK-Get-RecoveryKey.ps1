@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         The recovery key ID(s) and recovery password(s) for the named device.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only but PRIVILEGED — log access per policy.
+    White-label — Intune Solutions. Read-only but PRIVILEGED — log access per policy.
 #>
 [CmdletBinding()] param([Parameter(Mandatory)][string]$DeviceName)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

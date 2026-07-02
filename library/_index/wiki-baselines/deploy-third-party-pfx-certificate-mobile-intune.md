@@ -1,6 +1,6 @@
 # Deploy a Third-Party PFX Certificate to Mobile Devices for App Use with Microsoft Intune
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: PFXMOB
+> **Version 1.0.0** · Category: Intune · Solution code: PFXMOB
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -271,7 +271,7 @@ to the vendor.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -301,7 +301,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -318,7 +318,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---

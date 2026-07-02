@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "ASR OK" when all checked rules are configured in the expected mode.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param([switch]$ExpectBlock)
 $rules = @{

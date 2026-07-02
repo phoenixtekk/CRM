@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         MDM sync requested; re-run ESB-Validation.ps1 after a policy cycle.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Baseline Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

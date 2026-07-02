@@ -17,7 +17,7 @@
         Prints the Tenant ID GUID. Copy it into the KFM policy "Tenant ID" field.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param([switch]$FromGraph)

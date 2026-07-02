@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "BITLOCKER OK" when protected, 100% encrypted, XTS-AES 256, with a recovery protector.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== BitLocker Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

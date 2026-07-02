@@ -6,7 +6,7 @@ in the **Microsoft Intune admin center** (`https://intune.microsoft.com`) unless
 > **Model:** Intune-managed, Microsoft Entra–joined Windows devices. We deploy an **Elevation
 > settings (base) policy** plus **Elevation rules policies** to a pilot group, default elevation
 > type **User confirmed**, and we **observe with reporting first** before removing local admin rights.
-> **Approach:** Pilot → Validate → Expand, exactly like every Phoenixtekk solution.
+> **Approach:** Pilot → Validate → Expand, exactly like every solution.
 
 ---
 

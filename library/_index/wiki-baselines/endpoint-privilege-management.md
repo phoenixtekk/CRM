@@ -1,6 +1,6 @@
 # Endpoint Privilege Management (EPM)
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: EPM
+> **Version 1.0.0** · Category: Intune · Solution code: EPM
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -11,7 +11,7 @@
 
 # Executive Summary — Endpoint Privilege Management (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Standing local administrator rights are one of the largest unmanaged risks on a Windows fleet.
 A user who is a permanent local admin can install anything, disable security tooling, and turn a
@@ -35,8 +35,8 @@ testable.
 - A **Testing Guide** that proves elevations behave exactly as your rules intend — and that nothing else can elevate.
 - A **Troubleshooting Guide** for the issues that actually occur in the field.
 
-## The Phoenixtekk deployment model
-Every Phoenixtekk Intune solution follows the same shape: **Assess → Configure → Pilot →
+## The standard deployment model
+Every Intune solution follows the same shape: **Assess → Configure → Pilot →
 Validate → Expand.** You will recognize this pattern in every solution you buy from us, so each
 new deployment feels familiar and low-risk.
 
@@ -108,13 +108,13 @@ binary to a trusted application's name to gain elevation.
 - EPM governs **elevation**, not application allow-listing — pair it with **WDAC/App Control** and
   **ASR** for defense in depth.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Intune-managed, Microsoft Entra–joined Windows devices, with EPM enabled via a base policy and
 > governed by certificate/hash-based elevation rules — User confirmed by default.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 You start with users still holding admin rights, observe what they actually elevate (reporting),
 codify those into rules, then remove standing admin rights once the rules cover real-world usage.
 
@@ -227,7 +227,7 @@ reserve Global Administrator for tenant-wide setup.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -259,7 +259,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -276,7 +276,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -290,7 +290,7 @@ in the **Microsoft Intune admin center** (`https://intune.microsoft.com`) unless
 > **Model:** Intune-managed, Microsoft Entra–joined Windows devices. We deploy an **Elevation
 > settings (base) policy** plus **Elevation rules policies** to a pilot group, default elevation
 > type **User confirmed**, and we **observe with reporting first** before removing local admin rights.
-> **Approach:** Pilot → Validate → Expand, exactly like every Phoenixtekk solution.
+> **Approach:** Pilot → Validate → Expand, exactly like every solution.
 
 ---
 
@@ -551,7 +551,7 @@ elevate, collect the EPM client logs and the policy check-in status and open a M
 
 # 8. Deliverables Summary — Endpoint Privilege Management (EPM)
 
-Everything included in this Phoenixtekk solution package.
+Everything included in this solution package.
 
 ## Documentation
 | Document | Purpose |
@@ -577,7 +577,7 @@ Everything included in this Phoenixtekk solution package.
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process that follows the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process that follows the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Least privilege in practice: standing local-admin rights removed from everyday users, the legitimate

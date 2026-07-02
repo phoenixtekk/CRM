@@ -23,7 +23,7 @@
         reporting interval) or reporting is not enabled on the base policy.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Microsoft Graph.
+    White-label — Intune Solutions. Read-only against Microsoft Graph.
     Graph report endpoints for EPM evolve; if a path 404s, confirm the current
     deviceManagement reports endpoint for Endpoint Privilege Management in your tenant.
 #>

@@ -11,7 +11,7 @@
 
 # Executive Summary — Microsoft 365 Security Baseline & Audit Readiness
 
-**Phoenixtekk Workplace Marketplace · Security**
+**White-label · Security**
 
 Most Microsoft 365 tenants are configured to "it works", not "it's secure" — and when an audit or a
 framework assessment lands, nobody can show the controls are actually in place. This solution
@@ -40,7 +40,7 @@ A Microsoft 365 tenant hardened to a documented baseline, an improving Secure Sc
 mapped to your target framework in Compliance Manager, and a maintained evidence pack — so the next
 audit is a report you hand over, not a scramble you dread.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess to Configure to Pilot to Validate to Expand.
 
 ## Outcome
@@ -109,10 +109,10 @@ into a report.
   certification, and should be paired with the framework assessment.
 - Framework mapping supports the audit; the auditor of record still issues the finding.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Record the baseline register to assess Secure Score and current config, configure services to the
 > baseline, pilot against a scope group, validate, then expand — mapping controls in Compliance
-> Manager and capturing evidence throughout. Phoenixtekk pattern: Assess to Configure to Pilot to
+> Manager and capturing evidence throughout. repeatable pattern: Assess to Configure to Pilot to
 > Validate to Expand, on a review cadence.
 
 
@@ -517,7 +517,7 @@ export the control-evidence report and the assessment status and raise it with t
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess to Configure to Pilot to Validate to
+- A repeatable process following the repeatable model: Assess to Configure to Pilot to Validate to
   Expand, on a review cadence.
 
 ## Outcome

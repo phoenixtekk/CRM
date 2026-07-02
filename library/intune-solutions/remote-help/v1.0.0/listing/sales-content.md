@@ -10,7 +10,7 @@ Microsoft Intune — secure, Entra-authenticated, RBAC-governed, audited remote 
 
 **Highlights:** Enable Remote Help, deploy the app via Intune, assign RBAC, configure security
 (Entra auth, control, compliance, audit); 5 PowerShell scripts; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Why a packaged solution instead of hourly consulting?
 - **One fixed, transparent price — not an open meter.** A comparable consulting engagement typically runs **$1,500–$3,000/day over several days**.

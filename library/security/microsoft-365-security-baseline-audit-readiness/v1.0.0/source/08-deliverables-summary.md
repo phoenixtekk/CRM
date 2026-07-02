@@ -30,7 +30,7 @@
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess to Configure to Pilot to Validate to
+- A repeatable process following the repeatable model: Assess to Configure to Pilot to Validate to
   Expand, on a review cadence.
 
 ## Outcome

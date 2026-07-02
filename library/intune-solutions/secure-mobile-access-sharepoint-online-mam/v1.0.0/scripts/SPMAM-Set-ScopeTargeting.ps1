@@ -17,7 +17,7 @@
         The scope group (SPO Mobile - Users - Pilot / - Prod) is created if missing, and each supplied
         user is added (idempotent — skips users already members). With -WhatIf it only prints intent.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Writes only when -WhatIf:$false.
+    White-label — Intune Solutions. Writes only when -WhatIf:$false.
 #>
 [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='Medium')]
 param(
@@ -38,7 +38,7 @@ $mailNick  = "spo-mobile-users-$($Stage.ToLower())"
 $grp = (Invoke-MgGraphRequest -Method GET -Uri "/v1.0/groups?`$filter=displayName eq '$groupName'&`$select=id,displayName").value | Select-Object -First 1
 if (-not $grp) {
     if ($PSCmdlet.ShouldProcess($groupName, 'Create security group')) {
-        $body = @{ displayName=$groupName; mailEnabled=$false; mailNickname=$mailNick; securityEnabled=$true; description='SharePoint Online mobile access scope (Phoenixtekk SPMAM)' } | ConvertTo-Json
+        $body = @{ displayName=$groupName; mailEnabled=$false; mailNickname=$mailNick; securityEnabled=$true; description='SharePoint Online mobile access scope (SPMAM)' } | ConvertTo-Json
         $grp = Invoke-MgGraphRequest -Method POST -Uri '/v1.0/groups' -Body $body -ContentType 'application/json'
         Write-Host ("  CREATED group: {0}" -f $groupName) -ForegroundColor Green
     } else {

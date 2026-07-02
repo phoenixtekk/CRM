@@ -1,6 +1,6 @@
 # Executive Summary — iOS Lock-Down Profile for Shared & Corporate iPhones (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Most organizations hand out two kinds of iPhone: **shared devices** that anyone on shift picks up, and
 **corporate devices** assigned to one person. The shared ones need a real **lock-down profile** so they
@@ -35,7 +35,7 @@ with a **shared/managed account**; and **corporate** iPhones assigned to the use
 ID**, kept light and user-owned. (iPhones have no Apple "Shared iPad" mode — this solution implements
 the accurate iPhone shared model: no user affinity + lock-down + app-level shared sign-in.)
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

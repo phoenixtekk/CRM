@@ -11,7 +11,7 @@
 
 # Executive Summary — Dynamic Device Targeting in Intune (Dynamic Groups & Filters)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 As a fleet grows, assigning policies and apps to hand-built static groups stops scaling: new
 devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer
@@ -41,7 +41,7 @@ auto-include devices by attribute) and assignment filters (include/exclude by OS
 or enrollment profile at assignment time) — so policies and apps reach exactly the right devices
 automatically and stay correct as the fleet changes, validated on a pilot before broad use.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome
@@ -135,10 +135,10 @@ throughout this solution:
   and `enrollmentProfileName` being populated correctly.
 - Overlapping filters and exclusions can produce non-obvious effective targeting; always validate.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Define the taxonomy -> build dynamic groups with membership rules -> create assignment filters ->
 > apply filters to policy/app assignments -> validate effective targeting on a pilot -> expand.
-> Phoenixtekk pattern: Assess -> Configure -> Pilot -> Validate -> Expand.
+> repeatable pattern: Assess -> Configure -> Pilot -> Validate -> Expand.
 
 
 ---
@@ -191,7 +191,7 @@ Implement: Assign the Intune Administrator role (see global requirements G3).
 
 ## 2.6 A pilot group
 Description: A small pilot audience to validate effective targeting before broad use.
-Why: Every Phoenixtekk solution is piloted before fleet rollout; targeting must be validated on a
+Why: Every solution is piloted before fleet rollout; targeting must be validated on a
 few devices first.
 Verify: Entra -> `Groups`; the pilot group exists.
 Implement: Create dynamic group `Corp Devices – Windows – Pilot` (see Implementation Step 2).
@@ -211,7 +211,7 @@ Implement: Create dynamic group `Corp Devices – Windows – Pilot` (see Implem
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -241,7 +241,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -258,7 +258,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -501,7 +501,7 @@ capture `DYNTGT-Report.ps1` and `DYNTGT-Validation.ps1` output and open a Micros
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess -> Configure -> Pilot -> Validate -> Expand.
+- A repeatable process following the repeatable model: Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome
 Policies and apps that reach exactly the right devices automatically — a named taxonomy of dynamic

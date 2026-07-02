@@ -14,7 +14,7 @@
         The custom compliance policies found, a breakdown of devices by compliance state, and a
         per-device CSV (device, compliance state, last sync).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

@@ -60,8 +60,8 @@ roles and a required second pair of eyes on the changes that can break a fleet.
 - Over-tightening can lock admins (or yourself) out — always keep a break-glass administrator
   outside the restricted roles and outside the approval gate.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Design roles and scope tags, build admin/approver scope groups, create custom roles and
 > assignments, apply scope tags to objects, enable access policies for high-risk resource types,
-> then pilot one approval before broad enforce. Phoenixtekk pattern:
+> then pilot one approval before broad enforce. repeatable pattern:
 > Assess → Configure → Pilot → Validate → Expand.

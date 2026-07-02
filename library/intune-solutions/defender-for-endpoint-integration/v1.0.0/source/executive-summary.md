@@ -1,6 +1,6 @@
 # Executive Summary — Microsoft Defender for Endpoint Integration (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Antivirus alone doesn't stop a modern attacker. **Microsoft Defender for Endpoint (MDE)** adds
 endpoint detection and response (EDR), behavioral protection, and a live device **risk score** —
@@ -22,7 +22,7 @@ The **service-to-service connector** between Intune and MDE, an **EDR onboarding
 silently onboards enrolled devices, and the **machine-risk-score signal** wired into device
 compliance — so a compromised device automatically loses access.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

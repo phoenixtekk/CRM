@@ -28,7 +28,7 @@ that allow only the platforms you support, **automatic enrollment** for Entra-jo
 **primary user**, stale and duplicate records cleaned up, and a reconciled inventory the service desk
 can search to start every ticket with the facts.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

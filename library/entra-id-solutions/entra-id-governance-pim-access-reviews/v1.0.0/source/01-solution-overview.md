@@ -40,8 +40,8 @@ and do not overlap.
 - Over-tight approval or too few approvers can delay legitimate activations; approver coverage must be planned.
 - Break-glass accounts are intentionally outside PIM and must instead be protected by strong stored credentials, exclusion documentation, and sign-in monitoring.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Onboard privileged roles to PIM as eligible with approval and alerts -> stand up access reviews for
 > roles and app access -> build entitlement-management access packages with policy and expiry ->
-> validate activation and recertification on a pilot scope -> expand to the tenant. Phoenixtekk
+> validate activation and recertification on a pilot scope -> expand to the tenant.
 > pattern: Assess -> Configure -> Pilot -> Validate -> Expand.

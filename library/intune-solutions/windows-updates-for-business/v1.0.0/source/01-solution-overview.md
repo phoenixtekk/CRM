@@ -38,6 +38,6 @@ the devices pull updates directly from Microsoft with **Delivery Optimization** 
 - Feature updates are large; first rollout timing should account for bandwidth.
 - Co-management with ConfigMgr/WSUS requires deciding which authority owns updates (avoid conflicts).
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create Pilot + Broad update rings → add a feature update profile → assign by ring → validate on
-> the pilot → expand to broad.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> the pilot → expand to broad.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

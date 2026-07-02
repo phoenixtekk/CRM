@@ -1,6 +1,6 @@
 # macOS Automated Device Enrollment with SSO
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: ADEMAC
+> **Version 1.0.0** · Category: Intune · Solution code: ADEMAC
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -29,7 +29,7 @@ written so a single administrator can follow it end to end:
 - **Conditional Access ready.** Enrolled, compliant, Entra-registered Macs become first-class
   citizens in your Zero Trust model.
 
-The package follows the standard Phoenixtekk shape — **Assess → Configure → Pilot → Validate →
+The package follows the standard repeatable shape — **Assess → Configure → Pilot → Validate →
 Expand** — with exact, click-by-click Intune steps, a requirements guide that tells you how to
 verify *and* fix each prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and
 testing/troubleshooting guides with clear pass/fail gates.
@@ -102,13 +102,13 @@ This solution standardizes on the **Secure Enclave key** method, with notes for 
   SSO** extension being present and current.
 - Personally-owned (BYO) Macs use a different (user-enrollment) path and are out of scope here.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Company-owned, Apple Business Manager–sourced Macs, automatically enrolled into Intune
 > (supervised), with Platform SSO via the Microsoft Enterprise SSO extension and a Secure Enclave key.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -214,7 +214,7 @@ platform is **Allowed**.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -246,7 +246,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -263,7 +263,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges (and Apple's published ranges where applicable) through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -273,7 +273,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 Follow these steps **in order**. The *why* for each capability lives in the Solution Overview; the
 steps below are deliberately short and exact so you can **click to implement**. Throughout, the
-Phoenixtekk pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
+repeatable pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
 against a **pilot group** first.
 
 All admin-center steps use the Microsoft Intune admin center at `https://intune.microsoft.com` and
@@ -601,7 +601,7 @@ Field-proven guidance to keep the deployment reliable, secure, and low-maintenan
 
 ## Security posture
 - **Combine with disk encryption** (FileVault) and a **macOS security baseline/compliance policy** for
-  a complete managed posture (separate Phoenixtekk solutions cover these).
+  a complete managed posture (separate solutions cover these).
 - **Limit local admin** and use Intune to manage privileged access; supervised + locked enrollment
   prevents users from quietly removing management.
 

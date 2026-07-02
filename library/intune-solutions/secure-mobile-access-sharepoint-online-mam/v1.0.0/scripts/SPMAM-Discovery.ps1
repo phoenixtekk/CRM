@@ -16,7 +16,7 @@
         Conditional Access policies that target Office 365 with an app-protection / approved-app
         grant (with included/excluded groups).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param()
 

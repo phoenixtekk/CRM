@@ -33,7 +33,7 @@ an **audit** trail.
 - Network access to the Remote Help service endpoints is required.
 - Cross-tenant / unenrolled-device assistance has specific settings and limits.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Enable Remote Help → deploy the app via Intune → assign RBAC roles → configure security
-> options → pilot a session → expand.** Phoenixtekk pattern: **Assess → Configure → Pilot →
+> options → pilot a session → expand.** repeatable pattern: **Assess → Configure → Pilot →
 > Validate → Expand.**

@@ -20,7 +20,7 @@
         app-protection (Personal) assignments.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates assignment filters; supports -WhatIf.
+    White-label — Intune Solutions. Creates assignment filters; supports -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(
@@ -47,7 +47,7 @@ foreach ($w in $wanted) {
     if ($PSCmdlet.ShouldProcess($w.name, "Create assignment filter ($Platform)")) {
         $body = @{
             displayName = $w.name
-            description = 'Created by Phoenixtekk Set-OwnershipBasedTargeting.ps1'
+            description = 'Created by Set-OwnershipBasedTargeting.ps1'
             platform    = $Platform
             rule        = $w.rule
         } | ConvertTo-Json

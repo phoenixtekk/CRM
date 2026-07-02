@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         A table (and optional CSV) of enabled rules.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param([ValidateSet('Inbound','Outbound','Both')][string]$Direction='Inbound', [string]$CsvPath)
 $dirs = if ($Direction -eq 'Both') { 'Inbound','Outbound' } else { ,$Direction }

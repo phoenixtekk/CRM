@@ -17,7 +17,7 @@
         OneDrive, and FilesOnDemandEnabled=1.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only; makes no changes.
+    White-label — Intune Solutions. Read-only; makes no changes.
 #>
 [CmdletBinding()]
 param()

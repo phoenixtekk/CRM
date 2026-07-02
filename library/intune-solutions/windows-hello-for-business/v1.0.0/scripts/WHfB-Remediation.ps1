@@ -20,7 +20,7 @@
         -ResetContainer: the NGC container is cleared; the user is prompted to set up a PIN again.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
     The reset path is intentionally hard to trigger by accident.
 #>
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]

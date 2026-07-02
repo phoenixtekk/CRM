@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-MDE-NPO-001` | $1,497.00 |
 
 Auto-onboard devices to Defender for Endpoint EDR via Intune and feed the risk score into compliance.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution defender-for-endpoint-integration`

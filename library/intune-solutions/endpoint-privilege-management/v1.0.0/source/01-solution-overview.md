@@ -56,12 +56,12 @@ binary to a trusted application's name to gain elevation.
 - EPM governs **elevation**, not application allow-listing — pair it with **WDAC/App Control** and
   **ASR** for defense in depth.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Intune-managed, Microsoft Entra–joined Windows devices, with EPM enabled via a base policy and
 > governed by certificate/hash-based elevation rules — User confirmed by default.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 You start with users still holding admin rights, observe what they actually elevate (reporting),
 codify those into rules, then remove standing admin rights once the rules cover real-world usage.

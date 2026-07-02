@@ -19,7 +19,7 @@
         the ADE enrollment profile name. New shared iPhones populate it automatically.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates a group; supports -WhatIf.
+    White-label — Intune Solutions. Creates a group; supports -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

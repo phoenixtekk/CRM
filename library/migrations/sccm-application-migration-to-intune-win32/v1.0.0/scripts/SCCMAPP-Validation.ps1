@@ -14,7 +14,7 @@
     EXPECTED RESULTS
         "DETECTION PARITY: PASS" when the on-device evidence matches the rule; "FAIL" if it does not.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Migrations. Read-only on the device.
+    White-label — Migrations. Read-only on the device.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)][ValidateSet('MSI','File','Registry')][string]$DetectionType,

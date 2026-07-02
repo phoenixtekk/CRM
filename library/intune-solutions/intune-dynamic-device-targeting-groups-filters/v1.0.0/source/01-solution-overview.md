@@ -80,7 +80,7 @@ throughout this solution:
   and `enrollmentProfileName` being populated correctly.
 - Overlapping filters and exclusions can produce non-obvious effective targeting; always validate.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Define the taxonomy -> build dynamic groups with membership rules -> create assignment filters ->
 > apply filters to policy/app assignments -> validate effective targeting on a pilot -> expand.
-> Phoenixtekk pattern: Assess -> Configure -> Pilot -> Validate -> Expand.
+> repeatable pattern: Assess -> Configure -> Pilot -> Validate -> Expand.

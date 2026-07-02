@@ -15,7 +15,7 @@
         (created if missing). Add members in Entra, then use them on the role assignment and access
         policies. This script creates groups only; it does not assign roles.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates Entra groups (write).
+    White-label — Intune Solutions. Creates Entra groups (write).
 #>
 [CmdletBinding()] param(
     [string]$AdminGroup    = 'Intune Admins – Region A – Prod',

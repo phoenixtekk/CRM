@@ -18,7 +18,7 @@
 
 ## Deployment model
 Microsoft Entra–joined devices, Intune-managed, **Cloud Kerberos Trust** (no PKI/NDES/certs).
-Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable pattern: **Assess → Configure → Pilot → Validate → Expand**.
 
 ## Next step
 Review the deliverables, then publish:

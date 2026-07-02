@@ -13,7 +13,7 @@
     EXPECTED RESULTS
         Both groups exist (created or already present); their object IDs are printed for assignment.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates groups when missing.
+    White-label — Intune Solutions. Creates groups when missing.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param([string]$PilotDeviceName)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

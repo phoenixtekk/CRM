@@ -16,7 +16,7 @@
         With -WhatIf (default) it prints the action it WOULD take. With -WhatIf:$false it performs the
         single targeted fix and confirms it.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Makes changes ONLY when run with -WhatIf:$false.
+    White-label — Intune Solutions. Makes changes ONLY when run with -WhatIf:$false.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
 param(

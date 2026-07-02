@@ -13,7 +13,7 @@
     EXPECTED RESULTS
         A per-role standing-vs-eligible table, governance coverage totals, and an optional CSV.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Entra ID Solutions. Read-only against Graph.
+    White-label — Entra ID Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

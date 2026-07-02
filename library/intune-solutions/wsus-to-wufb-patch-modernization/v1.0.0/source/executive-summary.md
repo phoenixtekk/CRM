@@ -1,6 +1,6 @@
 # Executive Summary — WSUS to Windows Update for Business Patch Modernization (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 WSUS is a maintenance tax: a server to patch and back up, a content store that bloats and corrupts,
 declined-update cleanup, and approvals that only reach devices on the corporate network — so remote

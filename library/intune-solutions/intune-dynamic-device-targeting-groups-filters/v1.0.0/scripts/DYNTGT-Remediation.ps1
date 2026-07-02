@@ -16,7 +16,7 @@
     EXPECTED RESULTS
         A preview of the assignment change; with -Apply, the filter is attached to the assignment.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Safe by default (-WhatIf).
+    White-label — Intune Solutions. Safe by default (-WhatIf).
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)][string]$PolicyName,

@@ -20,7 +20,7 @@
         (Jamf) count, and registered count.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param([string]$Path = ".\JAMFADE-macOS-report.csv")

@@ -10,7 +10,7 @@ Baselines with Microsoft Intune — apply Microsoft's recommended hardening in o
 
 **Highlights:** Deploy the Windows security baseline (+ Defender/Edge); conflict detection & resolution;
 version management; 5 PowerShell scripts; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 **Non-Profit:** Same package at 40% below commercial. Eligibility verification may be requested.
 

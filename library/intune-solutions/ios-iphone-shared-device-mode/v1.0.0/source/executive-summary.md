@@ -17,7 +17,7 @@ This solution makes those iPhones **locked-down, shared appliances** under **Mic
 - **Ready out of the box** → **Cisco Webex** is pushed as a required app and is the app the kiosk
   shows, so an enrolled iPhone comes up ready to call with zero per-device setup.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.

@@ -24,7 +24,7 @@
         and the Company Portal app present.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Jamf Pro is the MDM; this script
+    White-label — Intune Solutions. Read-only. Jamf Pro is the MDM; this script
     validates the Microsoft Entra/Intune partner-compliance + Conditional Access layer.
 #>
 [CmdletBinding()]

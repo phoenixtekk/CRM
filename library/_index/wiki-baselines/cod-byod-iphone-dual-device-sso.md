@@ -1,6 +1,6 @@
 # Dual-Device iPhone (Personal + Corporate iOS) Management with Single Sign-On in Microsoft Intune
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: IOSDD
+> **Version 1.0.0** · Category: Intune · Solution code: IOSDD
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -32,7 +32,7 @@ applies the **right level of control to each** based on who owns it.
   policy to each iPhone automatically, and **Conditional Access** grants access from their compliant
   company iPhone *or* a protected app on their personal one.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.
@@ -141,7 +141,7 @@ for the personal iPhone**, with Account-Driven User Enrollment called out as an 
   silent SSO applies to Entra-integrated apps.
 - A user signing in on a brand-new iPhone enrolls/registers that device the first time.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **One Microsoft Entra identity per user, signed in across that user's two iPhones with single
@@ -149,7 +149,7 @@ This solution uses **one** model so the process is repeatable across our catalog
 > App Protection (MAM); ownership-based targeting routes the right policy to each; a single Conditional
 > Access policy governs access from both.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -279,7 +279,7 @@ exposes **Single sign-on app extension**.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -311,7 +311,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -328,7 +328,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---

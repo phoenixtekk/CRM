@@ -12,7 +12,7 @@
   "wiki_path": "solutions/intune-solutions/cod-byod-iphone-dual-device-sso",
   "wiki_published": true,
   "version_directive": "+1",
-  "branding": "on",
+  "branding": "off",
   "author_notes": [
     "The solution must allow a single user account to sign in on both the COD and BYOD device for scenarios where a user has 2 devices, a Personal and Corporate Owned device.",
     "Forked (+1) from cod-byod-dual-device-sso v1.0.0: an iOS-iPhone-specific variant — corporate iPhone via Apple Business Manager + Automated Device Enrollment (supervised), personal iPhone via App Protection (MAM) / Account-Driven User Enrollment, single sign-on across both via the Microsoft Authenticator broker + iOS Enterprise SSO extension. Source products are unchanged."
@@ -39,3 +39,4 @@
   ],
   "hero": "IOSDD-hero.png"
 }
+

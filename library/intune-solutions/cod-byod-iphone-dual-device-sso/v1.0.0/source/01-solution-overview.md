@@ -94,7 +94,7 @@ for the personal iPhone**, with Account-Driven User Enrollment called out as an 
   silent SSO applies to Entra-integrated apps.
 - A user signing in on a brand-new iPhone enrolls/registers that device the first time.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **One Microsoft Entra identity per user, signed in across that user's two iPhones with single
@@ -102,4 +102,4 @@ This solution uses **one** model so the process is repeatable across our catalog
 > App Protection (MAM); ownership-based targeting routes the right policy to each; a single Conditional
 > Access policy governs access from both.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

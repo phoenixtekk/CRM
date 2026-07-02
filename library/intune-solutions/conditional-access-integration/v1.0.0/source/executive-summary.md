@@ -1,6 +1,6 @@
 # Executive Summary — Conditional Access Integration (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Device compliance and MFA only protect you if access is actually *gated* on them. **Conditional
 Access** is the enforcement engine: it evaluates every sign-in against your rules — is the device
@@ -24,7 +24,7 @@ A baseline Conditional Access posture: **require a compliant (or Entra-joined) d
 Microsoft 365, **require MFA**, **block legacy authentication**, and (for mobile) **require app
 protection** — all piloted in Report-only mode before enforcement, with break-glass accounts excluded.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

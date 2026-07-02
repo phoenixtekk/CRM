@@ -22,7 +22,7 @@
         With -Apply: removes the primary user from the named device (makes it shared).
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Defaults to read-only; changes require -Apply.
+    White-label — Intune Solutions. Defaults to read-only; changes require -Apply.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

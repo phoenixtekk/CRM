@@ -45,7 +45,7 @@ Implement: Assign the Intune Administrator role (see global requirements G3).
 
 ## 2.6 A pilot group
 Description: A small pilot audience to validate effective targeting before broad use.
-Why: Every Phoenixtekk solution is piloted before fleet rollout; targeting must be validated on a
+Why: Every solution is piloted before fleet rollout; targeting must be validated on a
 few devices first.
 Verify: Entra -> `Groups`; the pilot group exists.
 Implement: Create dynamic group `Corp Devices – Windows – Pilot` (see Implementation Step 2).

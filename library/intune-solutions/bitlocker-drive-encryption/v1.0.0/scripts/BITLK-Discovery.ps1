@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         PASS/FAIL per facet and a readiness verdict (silent vs PIN required).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 function R($n,$p,$d){ [pscustomobject]@{Check=$n;Result=if($p){'PASS'}else{'FAIL'};Detail=$d} }

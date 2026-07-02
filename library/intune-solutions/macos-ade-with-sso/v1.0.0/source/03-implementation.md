@@ -2,7 +2,7 @@
 
 Follow these steps **in order**. The *why* for each capability lives in the Solution Overview; the
 steps below are deliberately short and exact so you can **click to implement**. Throughout, the
-Phoenixtekk pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
+repeatable pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
 against a **pilot group** first.
 
 All admin-center steps use the Microsoft Intune admin center at `https://intune.microsoft.com` and

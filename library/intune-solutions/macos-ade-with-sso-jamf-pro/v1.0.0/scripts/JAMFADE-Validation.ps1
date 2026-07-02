@@ -22,7 +22,7 @@
         Intune (partner-managed), and Compliant.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Jamf is the MDM; compliance is
+    White-label — Intune Solutions. Read-only. Jamf is the MDM; compliance is
     reported to Intune via the Jamf ↔ Intune Device Compliance integration.
 #>
 [CmdletBinding(DefaultParameterSetName='Serial')]

@@ -13,7 +13,7 @@
         "ENROLLED + PRIMARY USER OK" when the device is enrolled and the primary user matches the
         expectation (a set user, or None when -ExpectShared).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)] [string]$DeviceName,

@@ -10,7 +10,7 @@ with Microsoft Intune — enforce the firewall on across every profile with defa
 
 **Highlights:** Firewall on (Domain/Private/Public), default-deny inbound, logging, stealth mode,
 managed rules, fleet-wide reporting; 5 PowerShell scripts; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Why a packaged solution instead of hourly consulting?
 - **One fixed, transparent price — not an open meter.** A comparable consulting engagement typically runs **$1,500–$3,000/day over several days**. This is a single known price.

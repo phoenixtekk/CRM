@@ -21,7 +21,7 @@
         printed. After running, wait a few minutes, then re-run EPM-Validation.ps1.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
     Changes made: triggers MDM sync; (re)starts the EPM service; -ResetClient restarts/re-registers
     the client. It does NOT alter elevation rules, local group membership, or user data.
 #>

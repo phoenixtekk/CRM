@@ -11,7 +11,7 @@
 
 # Executive Summary — Healthcare Shared Clinical Device Management — WOWs, Kiosks & Tablets in Microsoft Intune
 
-**Phoenixtekk Workplace Marketplace · Healthcare Solutions**
+**White-label · Healthcare Solutions**
 
 Clinical floors don't run on personal laptops — they run on **shared devices nobody owns**:
 workstations-on-wheels rolled bed to bed, registration kiosks, nurse-station PCs, and tablets

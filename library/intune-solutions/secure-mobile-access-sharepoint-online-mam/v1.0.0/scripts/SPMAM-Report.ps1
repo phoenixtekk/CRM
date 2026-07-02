@@ -15,7 +15,7 @@
         A per-user table (APP applied? / CA effective? / ready?) and a summary count of ready vs
         gapped users; optional CSV export.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory=$true)][string]$TargetGroup,

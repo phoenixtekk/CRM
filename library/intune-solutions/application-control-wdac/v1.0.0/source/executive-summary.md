@@ -1,6 +1,6 @@
 # Executive Summary — Application Control (WDAC) (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Antivirus asks "is this file known-bad?" **Application Control** asks the stronger question: "is
 this code explicitly trusted?" — and blocks everything else. **Windows Defender Application
@@ -24,7 +24,7 @@ An Intune **App Control for Business** policy that trusts **Windows + Microsoft 
 optionally, reputable apps via the Intelligent Security Graph and **Intune-managed installers**),
 deployed in **Audit mode first**, reviewed against Code Integrity events, then moved to **Enforce**.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

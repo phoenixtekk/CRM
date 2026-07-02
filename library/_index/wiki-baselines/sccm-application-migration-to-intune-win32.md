@@ -11,7 +11,7 @@
 
 # Executive Summary — SCCM Application Migration to Intune Win32 (Repackaging)
 
-**Phoenixtekk Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 Moving software delivery off Configuration Manager means every SCCM application — with its detection
 method, requirements, dependencies, and deployment types — has to be repackaged as an Intune Win32
@@ -39,7 +39,7 @@ with matching detection, requirements, dependencies, and assignments; SCCM keeps
 coexistence until each app is proven; and the SCCM deployment is retired ring by ring only after
 Intune is validated.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -116,10 +116,10 @@ retire the SCCM deployment. The value is parity and proof, at estate scale.
   conflicting way; coexistence means SCCM deploys until Intune is validated, then you stop the SCCM
   deployment for that ring.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Inventory SCCM apps → repackage into `.intunewin` with detection/requirement/dependency parity →
 > assign to a pilot ring → validate install + detection per app → expand to broad and retire the
-> SCCM deployment. Phoenixtekk pattern: Assess → Configure → Pilot → Validate → Expand.
+> SCCM deployment. repeatable pattern: Assess → Configure → Pilot → Validate → Expand.
 
 
 ---
@@ -575,7 +575,7 @@ case.
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+- A repeatable process following the repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome
 Your SCCM application estate repackaged into Intune Win32 with detection, requirement, and assignment

@@ -1,6 +1,6 @@
 # Executive Summary — Remote Help (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Ad-hoc remote-support tools are a security liability: unverified helpers, no role controls, no
 audit trail, and third-party software you don't fully trust. **Remote Help** is Microsoft's
@@ -23,7 +23,7 @@ Remote Help **enabled** in your tenant, the Remote Help **app deployed** to devi
 **RBAC roles** assigned to your help desk, and the security options (require Entra auth, RBAC,
 compliance warnings) configured — piloted, then expanded.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

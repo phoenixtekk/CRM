@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         A breakdown of devices by OS version and a per-device CSV (device, OS version, last sync).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

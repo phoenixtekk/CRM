@@ -16,7 +16,7 @@
         A count of failures, a table grouped by exit code (with the likely class), a per-device list,
         and an optional CSV export. Read-only against the SMS provider.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Infrastructure Solutions. Read-only.
+    White-label — Infrastructure Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

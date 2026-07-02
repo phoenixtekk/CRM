@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         MDM sync + update scan requested. Re-run WUFB-Validation.ps1 after a policy cycle.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding()] param()
 Write-Host "=== WUfB Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

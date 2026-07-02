@@ -63,7 +63,7 @@ retire the SCCM deployment. The value is parity and proof, at estate scale.
   conflicting way; coexistence means SCCM deploys until Intune is validated, then you stop the SCCM
   deployment for that ring.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Inventory SCCM apps → repackage into `.intunewin` with detection/requirement/dependency parity →
 > assign to a pilot ring → validate install + detection per app → expand to broad and retire the
-> SCCM deployment. Phoenixtekk pattern: Assess → Configure → Pilot → Validate → Expand.
+> SCCM deployment. repeatable pattern: Assess → Configure → Pilot → Validate → Expand.

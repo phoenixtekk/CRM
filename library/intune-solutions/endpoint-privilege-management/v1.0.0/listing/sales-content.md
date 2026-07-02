@@ -17,7 +17,7 @@ administrator in a controlled pilot within a day.
 **Full description (highlights)**
 - End standing local admin while keeping legitimate elevations working, via **certificate/hash-based elevation rules** (automatic, user-confirmed, support-approved).
 - Includes: Executive Summary, Solution Overview, Requirements Guide, click-by-click Implementation Guide, 5 PowerShell scripts, Testing Guide, Troubleshooting Guide, Best Practices.
-- Built on the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand** — observe real elevations first, then enforce.
+- Built on the repeatable model: **Assess → Configure → Pilot → Validate → Expand** — observe real elevations first, then enforce.
 - Value: smaller attack surface, least-privilege/Zero Trust posture, and a tenant-wide audit trail of every privileged action.
 - Delivered as branded Word + PDF and a scripts ZIP.
 

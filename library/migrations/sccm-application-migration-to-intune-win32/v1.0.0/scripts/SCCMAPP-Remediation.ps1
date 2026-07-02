@@ -15,7 +15,7 @@
         In preview: the actions that would run. With -Execute: an MDM sync requested and the IME
         service restarted so the app re-evaluates. Re-run SCCMAPP-Validation.ps1 after a policy cycle.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Migrations. Default is preview (-WhatIf); -Execute to apply.
+    White-label — Migrations. Default is preview (-WhatIf); -Execute to apply.
 #>
 [CmdletBinding()] param([switch]$Execute)
 $whatIf = -not $Execute

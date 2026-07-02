@@ -11,7 +11,7 @@
 
 # Executive Summary — Entra ID Governance (PIM, Access Reviews & Entitlement Management)
 
-Phoenixtekk Workplace Marketplace · Entra ID Solutions
+White-label · Entra ID Solutions
 
 Standing admin rights and access that never gets reviewed are how breaches escalate and how audits
 fail. Microsoft Entra ID Governance fixes both at once: Privileged Identity Management (PIM) makes
@@ -37,7 +37,7 @@ access on a schedule, and entitlement-management access packages grant access wi
 and an expiry date. Break-glass emergency accounts are deliberately excluded from PIM so a
 misconfiguration can never lock every administrator out.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome
@@ -90,10 +90,10 @@ and do not overlap.
 - Over-tight approval or too few approvers can delay legitimate activations; approver coverage must be planned.
 - Break-glass accounts are intentionally outside PIM and must instead be protected by strong stored credentials, exclusion documentation, and sign-in monitoring.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Onboard privileged roles to PIM as eligible with approval and alerts -> stand up access reviews for
 > roles and app access -> build entitlement-management access packages with policy and expiry ->
-> validate activation and recertification on a pilot scope -> expand to the tenant. Phoenixtekk
+> validate activation and recertification on a pilot scope -> expand to the tenant.
 > pattern: Assess -> Configure -> Pilot -> Validate -> Expand.
 
 
@@ -438,7 +438,7 @@ affected role and open a Microsoft support case.
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess -> Configure -> Pilot -> Validate -> Expand.
+- A repeatable process following the repeatable model: Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome
 Privileged access made just-in-time and approval-gated, access recertified on a schedule, and

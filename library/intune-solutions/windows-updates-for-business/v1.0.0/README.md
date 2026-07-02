@@ -9,6 +9,6 @@
 
 Ring-based Windows Update for Business via Intune — Pilot + Broad rings, pinned feature version,
 expedite zero-days, Delivery Optimization, fleet reporting.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution windows-updates-for-business`

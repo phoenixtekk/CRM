@@ -82,7 +82,7 @@ This solution standardizes on the **Secure Enclave key** method, with notes for 
   and steps in the Jamf and Microsoft documentation before connecting.
 - Personally-owned (BYO) Macs use a different (user-enrollment) path and are out of scope here.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Company-owned, Apple Business Manager–sourced Macs, automatically enrolled into Jamf Pro
@@ -90,4 +90,4 @@ This solution uses **one** model so the process is repeatable across our catalog
 > Intune Device Compliance integration, with Platform SSO via the Microsoft Enterprise SSO extension
 > and a Secure Enclave key, and SSO enforced by Entra Conditional Access.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

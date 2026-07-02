@@ -32,5 +32,6 @@
   "hero": "ADEMAC-hero.png",
   "wiki_path": "solutions/intune-solutions/macos-ade-with-sso",
   "wiki_published": true,
-  "branding": "on"
+  "branding": "off"
 }
+

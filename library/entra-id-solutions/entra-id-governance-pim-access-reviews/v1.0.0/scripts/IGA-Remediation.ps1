@@ -15,13 +15,13 @@
         A list of standing assignments that would (or did) become eligible; break-glass accounts are
         never touched. Re-run IGA-Validation.ps1 afterward.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Entra ID Solutions. Changes role assignments — preview first.
+    White-label — Entra ID Solutions. Changes role assignments — preview first.
 #>
 [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='High')]
 param(
     [Parameter(Mandatory=$true)][string]$RoleName,
     [string[]]$BreakGlassUpns = @(),
-    [string]$Justification = 'Phoenixtekk IGA: convert standing admin to eligible'
+    [string]$Justification = 'IGA: convert standing admin to eligible'
 )
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }
 Import-Module Microsoft.Graph.Authentication -ErrorAction Stop

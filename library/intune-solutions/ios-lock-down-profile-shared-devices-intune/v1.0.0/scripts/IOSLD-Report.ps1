@@ -20,7 +20,7 @@
         lists of any unsupervised shared phones and any model/group mismatches to review.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

@@ -14,7 +14,7 @@
         The device's Entra group memberships and, per assignment filter, whether the device matches
         (would be included) or not (would be excluded).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([Parameter(Mandatory)][string]$DeviceName)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

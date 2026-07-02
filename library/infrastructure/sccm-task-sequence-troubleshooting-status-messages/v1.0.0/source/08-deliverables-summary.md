@@ -24,7 +24,7 @@
 ## What the buyer receives
 - This runbook as a **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Task-sequence failures diagnosed to the exact step and exit code — status messages read correctly,

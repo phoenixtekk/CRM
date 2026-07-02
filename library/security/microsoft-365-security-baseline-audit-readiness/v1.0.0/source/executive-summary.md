@@ -1,6 +1,6 @@
 # Executive Summary — Microsoft 365 Security Baseline & Audit Readiness
 
-**Phoenixtekk Workplace Marketplace · Security**
+**White-label · Security**
 
 Most Microsoft 365 tenants are configured to "it works", not "it's secure" — and when an audit or a
 framework assessment lands, nobody can show the controls are actually in place. This solution
@@ -29,7 +29,7 @@ A Microsoft 365 tenant hardened to a documented baseline, an improving Secure Sc
 mapped to your target framework in Compliance Manager, and a maintained evidence pack — so the next
 audit is a report you hand over, not a scramble you dread.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess to Configure to Pilot to Validate to Expand.
 
 ## Outcome

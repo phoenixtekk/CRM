@@ -25,7 +25,7 @@
 ## What the buyer receives
 - These guides as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Shared iPhones locked down to exactly what the job needs, corporate iPhones kept light and user-owned,

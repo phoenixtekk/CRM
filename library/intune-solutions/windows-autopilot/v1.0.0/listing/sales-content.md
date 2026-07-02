@@ -10,7 +10,7 @@ Microsoft Intune. Ship new devices straight to users for zero-touch, cloud-drive
 
 **Highlights:** User-driven Entra-joined Autopilot; requirements with verify/implement; click-by-click
 Intune steps (auto-enrollment, registration, deployment profile, ESP); 5 PowerShell scripts; testing &
-troubleshooting. Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+troubleshooting. repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 **Non-Profit:** Same package at 40% below commercial. Eligibility verification may be requested.
 

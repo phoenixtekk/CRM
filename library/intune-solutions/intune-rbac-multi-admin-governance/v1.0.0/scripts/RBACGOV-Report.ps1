@@ -14,7 +14,7 @@
         A coverage summary plus an OVER-PRIVILEGE section listing assignments with no scope tag or a
         broad built-in role, and gated-resource gaps. Read-only — no changes are made.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Microsoft Graph.
+    White-label — Intune Solutions. Read-only against Microsoft Graph.
 #>
 [CmdletBinding()] param()
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

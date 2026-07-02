@@ -28,5 +28,5 @@ An Azure subscription without governance drifts fast. Owners accumulate standing
 - Tightening RBAC can break automation or people who relied on standing privilege — this is exactly why the model pilots on a narrow scope first and keeps a rollback.
 - Governance reduces risk; it does not replace patching, backup, or workload-specific security controls.
 
-## The standard Phoenixtekk deployment model
-> **Define scope (management groups/subscriptions) → assign guardrail initiatives in audit → tighten RBAC to least privilege → apply the secure-config baseline → enable Defender for Cloud and remediate top findings → validate on a pilot scope → move guardrails to deny → expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand**, with an **audit-before-deny gate** and a documented rollback.
+## The standard deployment model
+> **Define scope (management groups/subscriptions) → assign guardrail initiatives in audit → tighten RBAC to least privilege → apply the secure-config baseline → enable Defender for Cloud and remediate top findings → validate on a pilot scope → move guardrails to deny → expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand**, with an **audit-before-deny gate** and a documented rollback.

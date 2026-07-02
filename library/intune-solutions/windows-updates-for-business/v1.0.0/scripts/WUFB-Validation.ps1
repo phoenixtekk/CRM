@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "UPDATE RING APPLIED" when deferral/deadline policy is present and no WSUS conflict exists.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== WUfB Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

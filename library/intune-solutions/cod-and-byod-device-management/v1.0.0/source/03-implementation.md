@@ -59,7 +59,7 @@ at `https://entra.microsoft.com` unless noted.
 2. **Assignments:** assign to **PILOT – COD-BYOD Users**, **Include** the **Corporate Devices** filter.
 
 *(Zero-touch corporate enrollment — Windows Autopilot, Apple ADE, Android Enterprise corporate — is
-each covered by its own Phoenixtekk solution; plug those in for fully automated COD provisioning.)*
+each covered by its own solution; plug those in for fully automated COD provisioning.)*
 
 ---
 

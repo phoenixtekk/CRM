@@ -38,6 +38,6 @@ device**" means only devices Intune has verified as healthy can reach Microsoft 
 - Misconfigured policies *can* lock users (or admins) out — hence break-glass accounts and Report-only piloting.
 - Some controls (app protection) require the managed mobile apps and enrollment posture.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create break-glass accounts → build policies in Report-only → review impact → enable →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

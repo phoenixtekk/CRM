@@ -1,6 +1,6 @@
 # Executive Summary — Endpoint Privilege Management (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Standing local administrator rights are one of the largest unmanaged risks on a Windows fleet.
 A user who is a permanent local admin can install anything, disable security tooling, and turn a
@@ -24,8 +24,8 @@ testable.
 - A **Testing Guide** that proves elevations behave exactly as your rules intend — and that nothing else can elevate.
 - A **Troubleshooting Guide** for the issues that actually occur in the field.
 
-## The Phoenixtekk deployment model
-Every Phoenixtekk Intune solution follows the same shape: **Assess → Configure → Pilot →
+## The standard deployment model
+Every Intune solution follows the same shape: **Assess → Configure → Pilot →
 Validate → Expand.** You will recognize this pattern in every solution you buy from us, so each
 new deployment feels familiar and low-risk.
 

@@ -23,7 +23,7 @@ click-by-click documentation a non-expert admin can follow end to end — plus t
   report (incl. users with both COD and BYOD), safe ownership remediation, and a Corporate/Personal
   device-filter builder.
 
-## The Phoenixtekk way
+## The repeatable way
 Buy once, deploy to unlimited devices, reuse the playbook. Every solution follows the same repeatable
 shape so each rollout is familiar and low-risk.
 

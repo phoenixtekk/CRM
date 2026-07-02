@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         A table of current values for sampled hardening settings.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "`n=== Security Posture Snapshot ($($env:COMPUTERNAME)) ===" -ForegroundColor Cyan

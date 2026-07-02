@@ -18,7 +18,7 @@
         users show HasWHfB = True.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
     Scopes requested: User.Read.All, UserAuthenticationMethod.Read.All.
 #>
 [CmdletBinding()]

@@ -91,7 +91,7 @@ log confirms it.
 > variable). **5. Apply the class fix.** **6. Re-run and confirm** (`11127` / exit `0`). **7. Record**
 > the ID, code, cause, and fix so the next person is faster.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Assess** the failing OSD → **Configure** access to status message queries and logs → **Pilot**
 > the runbook on real failures → **Validate** the diagnoses and fixes → **Expand** it to the whole
-> deployment team. Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> deployment team. repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

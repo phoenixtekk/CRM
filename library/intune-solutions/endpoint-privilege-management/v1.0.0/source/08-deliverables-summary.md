@@ -1,6 +1,6 @@
 # 8. Deliverables Summary — Endpoint Privilege Management (EPM)
 
-Everything included in this Phoenixtekk solution package.
+Everything included in this solution package.
 
 ## Documentation
 | Document | Purpose |
@@ -26,7 +26,7 @@ Everything included in this Phoenixtekk solution package.
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process that follows the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process that follows the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Least privilege in practice: standing local-admin rights removed from everyday users, the legitimate

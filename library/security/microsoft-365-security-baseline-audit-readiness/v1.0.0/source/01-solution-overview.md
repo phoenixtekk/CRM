@@ -56,8 +56,8 @@ into a report.
   certification, and should be paired with the framework assessment.
 - Framework mapping supports the audit; the auditor of record still issues the finding.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Record the baseline register to assess Secure Score and current config, configure services to the
 > baseline, pilot against a scope group, validate, then expand — mapping controls in Compliance
-> Manager and capturing evidence throughout. Phoenixtekk pattern: Assess to Configure to Pilot to
+> Manager and capturing evidence throughout. repeatable pattern: Assess to Configure to Pilot to
 > Validate to Expand, on a review cadence.

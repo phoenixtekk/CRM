@@ -17,7 +17,7 @@
         With -WhatIf (default): prints the assignments it WOULD add. With -WhatIf:$false: adds the
         target group to each named App Protection Policy's assignments (idempotent — skips if present).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Writes only when -WhatIf:$false.
+    White-label — Intune Solutions. Writes only when -WhatIf:$false.
 #>
 [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='High')]
 param(

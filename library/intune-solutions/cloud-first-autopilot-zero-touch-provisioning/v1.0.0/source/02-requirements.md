@@ -58,7 +58,7 @@ Implement: Add the core apps (Required) and assign the baseline as in Implementa
 
 ## 2.7 Pilot device(s)
 Description: One or more representative devices to validate the zero-touch flow before fleet rollout.
-Why: Every Phoenixtekk solution is piloted before expansion.
+Why: Every solution is piloted before expansion.
 Verify: A reset/new device is available and registered to the Autopilot group.
 Implement: Reset a spare device to OOBE and register its hash for the pilot.
 

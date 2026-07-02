@@ -1,6 +1,6 @@
 # Implement iOS Lock Down Profile for iOS iPhones in Microsoft Intune for Shared Devices
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: IOSLD
+> **Version 1.0.0** · Category: Intune · Solution code: IOSLD
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -11,7 +11,7 @@
 
 # Executive Summary — iOS Lock-Down Profile for Shared & Corporate iPhones (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Most organizations hand out two kinds of iPhone: **shared devices** that anyone on shift picks up, and
 **corporate devices** assigned to one person. The shared ones need a real **lock-down profile** so they
@@ -46,7 +46,7 @@ with a **shared/managed account**; and **corporate** iPhones assigned to the use
 ID**, kept light and user-owned. (iPhones have no Apple "Shared iPad" mode — this solution implements
 the accurate iPhone shared model: no user affinity + lock-down + app-level shared sign-in.)
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -137,11 +137,11 @@ model correctly and does not pretend iPhones have Shared iPad.
 - ADE is **zero-touch only on devices added to ABM**; phones bought outside ABM need Apple Configurator
   to supervise.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Connect Apple (APNs + ADE) → create the shared no-affinity and corporate user-affinity enrollment
 > profiles → build the lock-down (restrictions + optional kiosk) for shared and the lighter baseline
 > for corporate → add compliance and access → pilot one of each → validate → expand.**
-> Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -263,7 +263,7 @@ through proxy/firewall.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -293,7 +293,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -310,7 +310,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -707,7 +707,7 @@ support case (and, for ADE/supervision anomalies, confirm the serial's state in 
 ## What the buyer receives
 - These guides as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Shared iPhones locked down to exactly what the job needs, corporate iPhones kept light and user-owned,

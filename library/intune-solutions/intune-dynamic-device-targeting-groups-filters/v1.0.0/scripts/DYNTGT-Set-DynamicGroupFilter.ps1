@@ -17,7 +17,7 @@
     EXPECTED RESULTS
         The named dynamic group and/or assignment filter created (or reported as already present).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates objects (write).
+    White-label — Intune Solutions. Creates objects (write).
 #>
 [CmdletBinding()] param(
     [string]$GroupName,

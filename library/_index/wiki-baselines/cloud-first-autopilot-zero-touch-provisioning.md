@@ -11,7 +11,7 @@
 
 # Executive Summary — Cloud-First Autopilot Zero-Touch Provisioning (Microsoft Intune)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 Provisioning a new Windows PC the old way is slow and hands-on: a technician images the machine,
 domain-joins it, installs apps, applies policy, and babysits every build. The modern path is
@@ -44,7 +44,7 @@ app/baseline set delivered at enrollment — so technicians only unbox and power
 that truly needs on-premises resources gets domain join added afterward on a documented, evidence-led
 decision path.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome
@@ -129,9 +129,9 @@ and document why.
 - Provisioning-time apps that are very large extend the ESP wait; keep the blocking set lean.
 - White-glove / pre-provisioning is an advanced add-on and is not the focus of this solution.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Register devices → build the Autopilot profile (Entra join) → configure the ESP and provisioning-time
-> apps → validate the zero-touch flow on a pilot → expand. Phoenixtekk pattern:
+> apps → validate the zero-touch flow on a pilot → expand. repeatable pattern:
 > Assess → Configure → Pilot → Validate → Expand.
 
 
@@ -198,7 +198,7 @@ Implement: Add the core apps (Required) and assign the baseline as in Implementa
 
 ## 2.7 Pilot device(s)
 Description: One or more representative devices to validate the zero-touch flow before fleet rollout.
-Why: Every Phoenixtekk solution is piloted before expansion.
+Why: Every solution is piloted before expansion.
 Verify: A reset/new device is available and registered to the Autopilot group.
 Implement: Reset a spare device to OOBE and register its hash for the pilot.
 
@@ -226,7 +226,7 @@ Kerberos Trust for resource access, or Microsoft Entra hybrid join) per Implemen
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -256,7 +256,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -273,7 +273,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -571,7 +571,7 @@ cab (`mdmdiagnosticstool.exe -area Autopilot`) and open a Microsoft support case
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+- A repeatable process following the repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome
 Windows devices that provision themselves on power-on — Entra-joined via Autopilot with apps and policy

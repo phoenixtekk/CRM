@@ -13,7 +13,7 @@
         Device counts by OS and ownership, a breakdown of primary-user coverage, and an optional
         per-device CSV (device, OS, ownership, enrollment type, primary user).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

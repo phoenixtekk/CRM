@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "REMOTE HELP READY" when the app is installed.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Remote Help Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

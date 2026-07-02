@@ -1,6 +1,6 @@
 # Executive Summary — Azure Security Baseline & Governance (Microsoft Azure)
 
-**Phoenixtekk Workplace Marketplace · Azure Solutions**
+**White-label · Azure Solutions**
 
 An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline — exactly what Defender for Cloud and auditors flag. This solution puts **guardrails** around Azure so secure configuration, least privilege, and a consistent baseline are the default the platform enforces, not something an admin has to remember.
 
@@ -16,7 +16,7 @@ This is a complete, **deploy-it-today** package for standing up an Azure securit
 ## What this delivers
 **Azure Policy** guardrail initiatives assigned **audit-then-deny** (require encryption, block public storage, allowed locations and SKUs), **RBAC** tightened to least privilege with custom roles and no standing Owner, a **secure-configuration baseline** applied estate-wide, and **Microsoft Defender for Cloud** measuring and improving secure score and regulatory compliance — all proven on a pilot scope first.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
 
 ## Outcome

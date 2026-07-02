@@ -20,7 +20,7 @@ applies the **right level of control to each** based on who owns it.
   targeting** routes the correct policy to each device automatically, and **Conditional Access** grants
   access from their compliant company device *or* a protected app on their personal one.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.

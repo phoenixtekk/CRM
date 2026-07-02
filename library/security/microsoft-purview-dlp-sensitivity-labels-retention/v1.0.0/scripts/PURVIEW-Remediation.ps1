@@ -16,7 +16,7 @@
         automated — the script only reports DLP policies still in test/audit for the operator to
         promote via the Implementation Guide (Step 7).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Security Solutions. Default is a dry run.
+    White-label — Security Solutions. Default is a dry run.
     Uses Get-/Set-LabelPolicy and Get-/Set-RetentionCompliancePolicy; reads Get-DlpCompliancePolicy.
 #>
 [CmdletBinding()] param(

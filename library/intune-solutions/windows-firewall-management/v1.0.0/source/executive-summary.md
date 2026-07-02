@@ -1,6 +1,6 @@
 # Executive Summary — Windows Firewall Management (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 The host firewall is the last line of defense on every endpoint — but on unmanaged fleets it's
 often disabled, inconsistently configured, or full of stale rules. **Windows Firewall Management**
@@ -23,7 +23,7 @@ An Intune **firewall policy** that enables the firewall for **Domain, Private, a
 profiles, sets **default inbound = Block / outbound = Allow**, configures logging and stealth mode,
 and (optionally) deploys a standardized **firewall rules** set — assigned to a pilot, then expanded.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

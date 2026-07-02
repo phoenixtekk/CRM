@@ -14,7 +14,7 @@
         Each named device is found as an Entra device and added to the target group (or reported as
         already a member / not found). With -WhatIf it only previews.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Writes group membership only.
+    White-label — Intune Solutions. Writes group membership only.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

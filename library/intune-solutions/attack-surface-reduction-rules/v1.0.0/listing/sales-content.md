@@ -10,7 +10,7 @@ rules with Microsoft Intune — block the behaviors malware relies on, rolled ou
 
 **Highlights:** High-value ASR rules (Office child processes, LSASS credential theft, email payloads,
 obfuscated scripts, ransomware); Audit → review → exclude → Block method; 5 PowerShell scripts; testing
-& troubleshooting. Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+& troubleshooting. repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Why a packaged solution instead of hourly consulting?
 - **One fixed, transparent price — not an open meter.** A comparable consulting engagement typically runs **$1,500–$3,000/day over several days**. This is a single known price.

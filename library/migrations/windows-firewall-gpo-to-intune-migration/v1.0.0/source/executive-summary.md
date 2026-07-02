@@ -1,6 +1,6 @@
 # Executive Summary — Windows Firewall GPO to Intune Migration
 
-**Phoenixtekk Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 Moving Windows Defender Firewall from Group Policy to Microsoft Intune is a known minefield. Do it
 before the foundation is ready and you get policy conflicts or merge/loop conditions that leave
@@ -32,7 +32,7 @@ A ringed firewall migration — `Migration Ring – Pilot`, `Migration Ring – 
 coexist without conflict during transition, rule parity is validated on every ring before the next,
 and the GPO firewall settings are retired only after parity holds.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand — with a parity gate and a rollback path at every
 ring, because the firewall affects connectivity.
 

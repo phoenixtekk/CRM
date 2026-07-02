@@ -32,7 +32,7 @@ Microsoft Entra ID and Intune, then applies your policies and apps.
 - First-run app/policy delivery time depends on what you require in the ESP.
 - Hybrid Entra join is supported but more complex (out of scope; this solution uses cloud Entra join).
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Register device → assign deployment profile + ESP to an Autopilot device group → user
 > completes OOBE → device auto-enrolls → policies/apps apply.**
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

@@ -1,6 +1,6 @@
 # Executive Summary — Cloud-First Autopilot Zero-Touch Provisioning (Microsoft Intune)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 Provisioning a new Windows PC the old way is slow and hands-on: a technician images the machine,
 domain-joins it, installs apps, applies policy, and babysits every build. The modern path is
@@ -33,7 +33,7 @@ app/baseline set delivered at enrollment — so technicians only unbox and power
 that truly needs on-premises resources gets domain join added afterward on a documented, evidence-led
 decision path.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome

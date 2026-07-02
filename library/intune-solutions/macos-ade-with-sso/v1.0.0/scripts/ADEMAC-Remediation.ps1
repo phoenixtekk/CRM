@@ -20,7 +20,7 @@
         With -Apply: a token sync is requested and the named profiles are assigned to the group.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Defaults to read-only; changes require -Apply.
+    White-label — Intune Solutions. Defaults to read-only; changes require -Apply.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

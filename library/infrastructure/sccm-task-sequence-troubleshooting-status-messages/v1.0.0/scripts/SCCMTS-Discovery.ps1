@@ -17,7 +17,7 @@
         A list of task sequences + deployments, and (if -DeviceName given) the recent 11124/11170
         failure messages for that device, newest first, with the exit/error code text.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Infrastructure Solutions. Read-only.
+    White-label — Infrastructure Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

@@ -1,6 +1,6 @@
 # Executive Summary — Windows Updates for Business (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Unpatched devices are how breaches start, and uncontrolled updates are how productivity dies —
 surprise reboots, version drift, and a fleet nobody can report on. **Windows Update for Business**,
@@ -24,7 +24,7 @@ and feature-update deferrals, deadlines and active hours, a **feature update pro
 target Windows version, an **expedite** path for emergencies, and Delivery Optimization tuned to
 spare your bandwidth.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

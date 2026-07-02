@@ -1,6 +1,6 @@
 # Executive Summary — Enterprise App & Service Principal Governance (Microsoft Entra)
 
-Phoenixtekk Workplace Marketplace · Entra ID Solutions
+White-label · Entra ID Solutions
 
 Every SaaS integration and internal app you connect leaves behind three things in your tenant: an
 enterprise application, a service principal, and a set of API permissions. Over time they pile up —
@@ -31,7 +31,7 @@ consent-phishing, an admin-consent workflow so users can request access safely, 
 remediated, and app secrets and certificates on a managed lifecycle — proven on a pilot scope before
 you touch the whole tenant.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome

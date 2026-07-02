@@ -19,7 +19,7 @@
         shows TPM 2.0 ready, supported OS, and AzureAdJoined = YES.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only; makes no changes.
+    White-label — Intune Solutions. Read-only; makes no changes.
 #>
 [CmdletBinding()]
 param(

@@ -33,6 +33,6 @@ each device's firewall state — so the host firewall is consistent and auditabl
 - Custom rules must be maintained as your app/port landscape changes.
 - Some specialized scenarios (server roles, IPsec connection security rules) need extra design beyond this baseline.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create the firewall policy (on + default-deny inbound) → (optional) deploy rules → assign to a
-> pilot → validate → expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> pilot → validate → expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

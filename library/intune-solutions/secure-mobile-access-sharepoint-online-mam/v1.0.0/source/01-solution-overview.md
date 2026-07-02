@@ -101,7 +101,7 @@ START: user reports the SharePoint Online intranet won't load on mobile
       • No, and Q1–Q5 all clean → escalate with Sign-in log correlation ID (Troubleshooting G).
 ```
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Define the App Protection Policies (SharePoint app + Edge) → build the Conditional Access grant
 > for Office 365 → confirm and steer users to the supported access path → validate on a pilot →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

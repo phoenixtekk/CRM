@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         A list of recent Remote Help related activities (best-effort) and an optional CSV.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
     For full session detail, also see Intune > Tenant administration > Remote Help (usage report).
 #>
 [CmdletBinding()] param([int]$Days = 30, [string]$CsvPath)

@@ -9,7 +9,7 @@
 Endpoint with Microsoft Intune — auto-onboard EDR and feed the risk score into compliance.
 
 **Highlights:** Service-to-service connector; EDR onboarding policy; risk-score-into-compliance;
-5 PowerShell scripts; testing & troubleshooting. Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+5 PowerShell scripts; testing & troubleshooting. repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 **Non-Profit:** Same package at 40% below commercial. Eligibility verification may be requested.
 

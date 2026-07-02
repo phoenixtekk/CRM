@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "MDE ONBOARDED" with Sense Running and OnboardingState=1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== MDE Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

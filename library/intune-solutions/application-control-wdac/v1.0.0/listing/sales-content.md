@@ -10,7 +10,7 @@ Application Control (WDAC) with Microsoft Intune — allowlist trusted code, blo
 
 **Highlights:** App Control for Business (trust Windows/Store/ISG/managed-installer); Audit → add trust →
 Enforce with recovery; 5 PowerShell scripts incl. recovery; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Why a packaged solution instead of hourly consulting?
 - **One fixed, transparent price — not an open meter.** WDAC is advanced work that easily becomes a **$1,500–$3,000/day** multi-day engagement.

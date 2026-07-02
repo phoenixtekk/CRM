@@ -24,7 +24,7 @@
         With an action switch and -WhatIf:$false: performs the named, scoped fix on the named device.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. -WhatIf is ON by default; actions are explicit.
+    White-label — Intune Solutions. -WhatIf is ON by default; actions are explicit.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact='High')]
 param(

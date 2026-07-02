@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-WFM-NPO-001` | $1,497.00 |
 
 Enforce Windows Defender Firewall fleet-wide via Intune — all profiles on, default-deny inbound.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution windows-firewall-management`

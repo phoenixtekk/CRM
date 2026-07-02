@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "DEVICE CA-READY" when Entra joined and PRT present.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Compliance state is authoritative in Intune.
+    White-label — Intune Solutions. Read-only. Compliance state is authoritative in Intune.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Conditional Access Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

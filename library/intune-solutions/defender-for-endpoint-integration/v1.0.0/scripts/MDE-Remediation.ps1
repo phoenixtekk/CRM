@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         Sense restarted; MDM sync requested; quick scan started. Re-run MDE-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param()
 Write-Host "=== MDE Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

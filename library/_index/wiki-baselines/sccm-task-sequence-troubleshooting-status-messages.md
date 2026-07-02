@@ -11,7 +11,7 @@
 
 # Executive Summary — SCCM Task Sequence Troubleshooting & Status Message Analysis
 
-**Phoenixtekk Workplace Marketplace · Infrastructure Solutions**
+**White-label · Infrastructure Solutions**
 
 When a Configuration Manager task sequence fails during OS deployment, the whole rollout stalls
 while engineers guess. The answer is buried in status messages, exit codes, and a sprawling
@@ -42,7 +42,7 @@ A diagnostic capability your team keeps: every OSD failure is triaged the same w
 step and exit code, so builds stop stalling and knowledge stops walking out the door. Pilot the
 runbook on real failures, prove it, then make it the standard.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -147,10 +147,10 @@ log confirms it.
 > variable). **5. Apply the class fix.** **6. Re-run and confirm** (`11127` / exit `0`). **7. Record**
 > the ID, code, cause, and fix so the next person is faster.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Assess** the failing OSD → **Configure** access to status message queries and logs → **Pilot**
 > the runbook on real failures → **Validate** the diagnoses and fixes → **Expand** it to the whole
-> deployment team. Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> deployment team. repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -548,7 +548,7 @@ failures) and open a Microsoft support case with the step name and exit code.
 ## What the buyer receives
 - This runbook as a **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Task-sequence failures diagnosed to the exact step and exit code — status messages read correctly,

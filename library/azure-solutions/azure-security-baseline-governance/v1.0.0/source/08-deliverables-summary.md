@@ -24,7 +24,7 @@
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
 
 ## Outcome
 Azure under governance — policy guardrails preventing misconfiguration, RBAC at least privilege, a secure-config baseline applied, and Defender for Cloud posture improving — proven on a pilot scope before you scale.

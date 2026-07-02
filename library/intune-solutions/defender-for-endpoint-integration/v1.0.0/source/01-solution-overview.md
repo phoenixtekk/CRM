@@ -31,7 +31,7 @@ compliance and Conditional Access signal.
 - Onboarding takes effect after policy sync and a device check-in to the Defender service.
 - Down-level/unsupported OSes have reduced capability.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Enable the connector → create the EDR onboarding policy → assign to a pilot → wire risk score
-> into compliance → validate → expand.** Phoenixtekk pattern: **Assess → Configure → Pilot →
+> into compliance → validate → expand.** repeatable pattern: **Assess → Configure → Pilot →
 > Validate → Expand.**

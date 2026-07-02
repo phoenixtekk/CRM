@@ -13,7 +13,7 @@
     EXPECTED RESULTS
         PASS/FAIL lines for each expected role, assignment, and access policy. Read-only — no changes.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Microsoft Graph.
+    White-label — Intune Solutions. Read-only against Microsoft Graph.
 #>
 [CmdletBinding()] param(
     [string[]]$ExpectedRoles    = @('App Manager – Region A – Prod','Policy Reader – All – Audit'),

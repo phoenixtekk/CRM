@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         All profiles enabled; MDM sync requested. Re-run WFM-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param()
 Write-Host "=== Firewall Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

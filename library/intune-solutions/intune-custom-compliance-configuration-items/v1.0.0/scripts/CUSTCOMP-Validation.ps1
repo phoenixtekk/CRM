@@ -12,7 +12,7 @@
     EXPECTED RESULTS
         "PAIRING VALID" when the JSON parses, rules are well-formed, and setting names all match.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)][string]$ScriptPath,

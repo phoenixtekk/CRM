@@ -23,7 +23,7 @@
         to the group. Verify it in Intune → Devices → Configuration.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Creates a configuration policy; supports -WhatIf.
+    White-label — Intune Solutions. Creates a configuration policy; supports -WhatIf.
     Uses Microsoft Graph beta (settings catalog).
 #>
 [CmdletBinding(SupportsShouldProcess)]
@@ -48,7 +48,7 @@ $urls = @(
 # Settings-catalog body for the Extensible SSO (redirect) + Platform SSO block.
 $policy = @{
     name        = "$Name – $AuthMethod"
-    description = 'Microsoft Enterprise SSO / Platform SSO for macOS. Created by Phoenixtekk Set-PlatformSSOProfile.ps1.'
+    description = 'Microsoft Enterprise SSO / Platform SSO for macOS. Created by Set-PlatformSSOProfile.ps1.'
     platforms   = 'macOS'
     technologies = 'mdm'
     settings = @(

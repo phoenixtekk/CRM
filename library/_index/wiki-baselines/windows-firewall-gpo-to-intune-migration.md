@@ -11,7 +11,7 @@
 
 # Executive Summary — Windows Firewall GPO to Intune Migration
 
-**Phoenixtekk Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 Moving Windows Defender Firewall from Group Policy to Microsoft Intune is a known minefield. Do it
 before the foundation is ready and you get policy conflicts or merge/loop conditions that leave
@@ -43,7 +43,7 @@ A ringed firewall migration — `Migration Ring – Pilot`, `Migration Ring – 
 coexist without conflict during transition, rule parity is validated on every ring before the next,
 and the GPO firewall settings are retired only after parity holds.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand — with a parity gate and a rollback path at every
 ring, because the firewall affects connectivity.
 
@@ -122,10 +122,10 @@ All objects follow `<Purpose> – <Scope> – <Stage>` and are reused verbatim t
   `Firewall Rules – Migrated Outbound – Pilot` (and the Broad equivalents).
 - Migration rings: `Migration Ring – Pilot`, `Migration Ring – Wave 1`, `Migration Ring – Broad`.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Assess (inventory GPO firewall rules) → Configure (translate to Intune policy + rules,
 > set coexistence) → Pilot (`Migration Ring – Pilot`) → Validate (rule parity + connectivity) →
-> Expand (waves, then retire GPO). Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> Expand (waves, then retire GPO). repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -549,7 +549,7 @@ device is synced, but connectivity still fails or compliance still oscillates, c
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand**
   with a parity gate and rollback at every ring.
 
 ## Outcome

@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         Defender state plus a table of configured ASR rule GUIDs and their action (Off/Block/Audit/Warn).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "`n=== ASR Discovery ($($env:COMPUTERNAME)) ===" -ForegroundColor Cyan

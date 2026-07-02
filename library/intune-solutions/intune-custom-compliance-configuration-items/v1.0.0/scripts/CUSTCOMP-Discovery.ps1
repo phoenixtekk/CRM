@@ -12,7 +12,7 @@
     EXPECTED RESULTS
         OS build, the discovered values, and a single-line JSON object mirroring the detection script.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param(
     [string]$RegPath = 'HKLM:\SOFTWARE\Contoso\Security',

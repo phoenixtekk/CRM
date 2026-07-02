@@ -25,7 +25,7 @@ single, repeatable deployment a Mac admin can follow end to end:
   registered Mac (and, optionally, a phishing-resistant authentication strength) before granting
   access to Microsoft 365 — turning Platform SSO from "available" into **mandatory**.
 
-The package follows the standard Phoenixtekk shape — **Assess → Configure → Pilot → Validate →
+The package follows the standard repeatable shape — **Assess → Configure → Pilot → Validate →
 Expand** — with exact, click-by-click steps across both consoles, a requirements guide that tells you
 how to verify *and* fix each prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph and
 the Jamf Pro API), and testing/troubleshooting guides with clear pass/fail gates.

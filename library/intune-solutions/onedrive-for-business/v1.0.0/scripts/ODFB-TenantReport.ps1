@@ -17,7 +17,7 @@
         Provisioned pilot users show non-zero storage/files once syncing.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
     Note: report data may be display-name anonymized if that tenant setting is on
     (Admin center > Settings > Org settings > Reports). Turn it off for named results.
 #>

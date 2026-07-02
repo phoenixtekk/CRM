@@ -1,6 +1,6 @@
 # Executive Summary — SCCM Task Sequence Troubleshooting & Status Message Analysis
 
-**Phoenixtekk Workplace Marketplace · Infrastructure Solutions**
+**White-label · Infrastructure Solutions**
 
 When a Configuration Manager task sequence fails during OS deployment, the whole rollout stalls
 while engineers guess. The answer is buried in status messages, exit codes, and a sprawling
@@ -31,7 +31,7 @@ A diagnostic capability your team keeps: every OSD failure is triaged the same w
 step and exit code, so builds stop stalling and knowledge stops walking out the door. Pilot the
 runbook on real failures, prove it, then make it the standard.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

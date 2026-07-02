@@ -1,6 +1,6 @@
 # Executive Summary — Intune Custom Compliance & Configuration Items (Scripted)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Intune's built-in compliance settings cover the basics — encryption, OS version, password — but
 real security standards go further: a specific registry value, a minimum app version, a control the
@@ -30,7 +30,7 @@ settings mapping, upload it as a custom compliance policy, add any scripted conf
 assign to a pilot, validate evaluation and the Conditional Access effect, then expand — so device
 state is measured and enforced exactly the way your standards require.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

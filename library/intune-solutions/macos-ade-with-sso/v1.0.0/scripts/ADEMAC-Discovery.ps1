@@ -20,7 +20,7 @@
         profile, Company Portal assigned, and a Platform SSO profile present.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Uses Microsoft Graph beta
+    White-label — Intune Solutions. Read-only. Uses Microsoft Graph beta
     for DEP/enrollment-profile resources.
 #>
 [CmdletBinding()]

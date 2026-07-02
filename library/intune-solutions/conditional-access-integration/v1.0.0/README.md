@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-CAI-NPO-001` | $1,497.00 |
 
 Zero Trust access enforcement — require compliant device + MFA, block legacy auth, break-glass safety.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution conditional-access-integration`

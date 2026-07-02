@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-BITLK-NPO-001` | $1,497.00 |
 
 Silent full-disk encryption (XTS-AES 256) with recovery keys escrowed to Entra ID, via Intune.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution bitlocker-drive-encryption`

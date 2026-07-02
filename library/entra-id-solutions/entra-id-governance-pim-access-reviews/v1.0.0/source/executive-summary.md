@@ -1,6 +1,6 @@
 # Executive Summary — Entra ID Governance (PIM, Access Reviews & Entitlement Management)
 
-Phoenixtekk Workplace Marketplace · Entra ID Solutions
+White-label · Entra ID Solutions
 
 Standing admin rights and access that never gets reviewed are how breaches escalate and how audits
 fail. Microsoft Entra ID Governance fixes both at once: Privileged Identity Management (PIM) makes
@@ -26,7 +26,7 @@ access on a schedule, and entitlement-management access packages grant access wi
 and an expiry date. Break-glass emergency accounts are deliberately excluded from PIM so a
 misconfiguration can never lock every administrator out.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome

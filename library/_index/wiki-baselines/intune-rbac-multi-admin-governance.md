@@ -11,7 +11,7 @@
 
 # Executive Summary — Intune Administrative Governance: RBAC & Multi-Admin Approval (Microsoft Intune)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 When everyone is an Intune Administrator, mistakes and blast radius follow — a bad app assignment or
 a destructive script can hit the whole fleet, and a single compromised admin account can do
@@ -42,7 +42,7 @@ tags such as `Region A – Devices – Prod` — combined with multi-admin appro
 (`App Deploy Approval – All – Prod`, `Script Deploy Approval – All – Prod`) that require a second
 admin to approve high-risk changes, all proven on a pilot before broad enforce.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome
@@ -116,10 +116,10 @@ roles and a required second pair of eyes on the changes that can break a fleet.
 - Over-tightening can lock admins (or yourself) out — always keep a break-glass administrator
   outside the restricted roles and outside the approval gate.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Design roles and scope tags, build admin/approver scope groups, create custom roles and
 > assignments, apply scope tags to objects, enable access policies for high-risk resource types,
-> then pilot one approval before broad enforce. Phoenixtekk pattern:
+> then pilot one approval before broad enforce. repeatable pattern:
 > Assess → Configure → Pilot → Validate → Expand.
 
 
@@ -233,7 +233,7 @@ Implement: Allow Microsoft Graph / Intune URLs through proxy/firewall.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -263,7 +263,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -280,7 +280,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -539,7 +539,7 @@ expected, capture the `RBACGOV-Report.ps1` output and open a Microsoft support c
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+- A repeatable process following the repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Outcome
 Intune locked down to least privilege — custom roles and scope tags limiting who can touch what, and

@@ -1,6 +1,6 @@
 # Executive Summary — Device Compliance Policies (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 An unmanaged device with no encryption, a weak PIN, or an outdated OS is a breach waiting to
 happen — and most organizations have no automated way to *prove* a device is healthy before it
@@ -23,7 +23,7 @@ A Windows compliance policy enforcing **encryption (BitLocker), Secure Boot, min
 rules, antivirus/firewall**, with automated **actions for noncompliance** (notify, then mark
 noncompliant) — ready to gate access via Conditional Access.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

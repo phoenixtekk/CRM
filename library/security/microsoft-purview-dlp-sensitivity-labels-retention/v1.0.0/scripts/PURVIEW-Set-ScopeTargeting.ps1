@@ -16,7 +16,7 @@
         The group exists (created if missing) and the named members are added. -WhatIf previews
         without changing anything.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Security Solutions.
+    White-label — Security Solutions.
     Uses Microsoft Graph PowerShell (New-MgGroup / New-MgGroupMemberByRef).
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param(

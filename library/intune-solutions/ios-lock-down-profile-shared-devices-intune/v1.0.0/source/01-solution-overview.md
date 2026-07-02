@@ -77,8 +77,8 @@ model correctly and does not pretend iPhones have Shared iPad.
 - ADE is **zero-touch only on devices added to ABM**; phones bought outside ABM need Apple Configurator
   to supervise.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Connect Apple (APNs + ADE) → create the shared no-affinity and corporate user-affinity enrollment
 > profiles → build the lock-down (restrictions + optional kiosk) for shared and the lighter baseline
 > for corporate → add compliance and access → pilot one of each → validate → expand.**
-> Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

@@ -20,7 +20,7 @@
 Intune-managed, Microsoft Entra–joined Windows devices. EPM enabled via a base policy and governed
 by **certificate/hash-based elevation rules** (User confirmed by default). Observe real elevations
 with reporting first, then remove standing local-admin rights.
-Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable pattern: **Assess → Configure → Pilot → Validate → Expand**.
 
 > **Licensing:** Requires the Microsoft Intune Suite or the standalone Endpoint Privilege Management
 > add-on (not in base Intune Plan 1).

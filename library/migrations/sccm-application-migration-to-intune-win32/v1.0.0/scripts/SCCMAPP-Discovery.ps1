@@ -14,7 +14,7 @@
         A per-deployment-type table (app, deployment type, install command, detection type,
         dependency + supersedence flags) on screen and, if -CsvPath is given, a CSV to migrate from.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Migrations. Read-only against Configuration Manager.
+    White-label — Migrations. Read-only against Configuration Manager.
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)][string]$SiteCode,

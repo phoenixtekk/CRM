@@ -1,6 +1,6 @@
 # Device Enrollment, Identity Association & Asset Inventory (Intune)
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: ENROLLID
+> **Version 1.0.0** · Category: Intune · Solution code: ENROLLID
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -39,7 +39,7 @@ that allow only the platforms you support, **automatic enrollment** for Entra-jo
 **primary user**, stale and duplicate records cleaned up, and a reconciled inventory the service desk
 can search to start every ticket with the facts.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -124,10 +124,10 @@ trusts.
 - Apple/Android enrollment methods exist but each needs its own connector/credentials; this solution
   centers on the cross-platform model with Windows as the worked example.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Enable the enrollment methods you support → set enrollment restrictions and automatic enrollment
 > → establish the primary-user rules → enroll/import a pilot → reconcile and validate the inventory →
-> expand to the fleet.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand to the fleet.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -213,7 +213,7 @@ against Intune.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -243,7 +243,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -260,7 +260,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -523,7 +523,7 @@ and open a Microsoft support case.
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Every device enrolled, tied to the right user, and accounted for in a reconciled Intune inventory —

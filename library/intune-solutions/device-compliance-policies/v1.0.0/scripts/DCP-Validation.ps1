@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "LIKELY COMPLIANT" when all enforced facets pass and the device is MDM-enrolled.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Authoritative status is in Intune.
+    White-label — Intune Solutions. Read-only. Authoritative status is in Intune.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Compliance Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

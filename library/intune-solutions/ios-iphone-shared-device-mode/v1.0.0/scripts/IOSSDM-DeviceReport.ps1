@@ -19,7 +19,7 @@
         and a printed list of iOS devices that have a primary user (review these). Read-only.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

@@ -1872,7 +1872,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../azure-solutions/azure-security-baseline-governance/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 2.0
+          "kb": 2.1
         },
         {
           "name": "executive-summary.md",
@@ -1916,7 +1916,7 @@
         {
           "name": "AZSEC-Complete-Solution.zip",
           "href": "../azure-solutions/azure-security-baseline-governance/v1.0.0/deliverables/AZSEC-Complete-Solution.zip",
-          "kb": 86.5
+          "kb": 86.4
         },
         {
           "name": "AZSEC-hero.png",
@@ -1936,7 +1936,7 @@
         {
           "name": "AZSEC-Solution.docx",
           "href": "../azure-solutions/azure-security-baseline-governance/v1.0.0/deliverables/AZSEC-Solution.docx",
-          "kb": 49.1
+          "kb": 49.0
         },
         {
           "name": "AZSEC-Solution.pdf",
@@ -2834,7 +2834,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../entra-id-solutions/enterprise-app-service-principal-governance/v1.0.0/source/01-solution-overview.md",
-          "kb": 5.3
+          "kb": 5.4
         },
         {
           "name": "02-requirements.md",
@@ -2908,7 +2908,7 @@
         {
           "name": "APPGOV-Complete-Solution.zip",
           "href": "../entra-id-solutions/enterprise-app-service-principal-governance/v1.0.0/deliverables/APPGOV-Complete-Solution.zip",
-          "kb": 84.3
+          "kb": 84.2
         },
         {
           "name": "APPGOV-hero.png",
@@ -2933,7 +2933,7 @@
         {
           "name": "APPGOV-Solution.pdf",
           "href": "../entra-id-solutions/enterprise-app-service-principal-governance/v1.0.0/deliverables/APPGOV-Solution.pdf",
-          "kb": 42.0
+          "kb": 41.9
         }
       ],
       "Listing": [
@@ -2962,7 +2962,7 @@
         {
           "name": "solution.meta.json",
           "href": "../entra-id-solutions/enterprise-app-service-principal-governance/v1.0.0/solution.meta.json",
-          "kb": 1.1
+          "kb": 1.2
         }
       ]
     },
@@ -3030,12 +3030,12 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 1.9
+          "kb": 2.0
         },
         {
           "name": "executive-summary.md",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/source/executive-summary.md",
-          "kb": 2.2
+          "kb": 2.3
         },
         {
           "name": "global-requirements-entra-id-solutions.md",
@@ -3074,7 +3074,7 @@
         {
           "name": "IGA-Complete-Solution.zip",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/deliverables/IGA-Complete-Solution.zip",
-          "kb": 80.3
+          "kb": 80.0
         },
         {
           "name": "IGA-hero.png",
@@ -3089,17 +3089,17 @@
         {
           "name": "IGA-Scripts.zip",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/deliverables/IGA-Scripts.zip",
-          "kb": 7.6
+          "kb": 7.7
         },
         {
           "name": "IGA-Solution.docx",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/deliverables/IGA-Solution.docx",
-          "kb": 47.4
+          "kb": 47.3
         },
         {
           "name": "IGA-Solution.pdf",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/deliverables/IGA-Solution.pdf",
-          "kb": 39.7
+          "kb": 39.4
         }
       ],
       "Listing": [
@@ -4361,7 +4361,7 @@
         {
           "name": "executive-summary.md",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/source/executive-summary.md",
-          "kb": 3.1
+          "kb": 3.2
         },
         {
           "name": "global-requirements-healthcare-solutions.md",
@@ -4405,7 +4405,7 @@
         {
           "name": "CLINDEV-hero.png",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/deliverables/CLINDEV-hero.png",
-          "kb": 478.1
+          "kb": 487.7
         },
         {
           "name": "CLINDEV-hero.svg",
@@ -5812,7 +5812,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.7
+          "kb": 6.8
         },
         {
           "name": "02-requirements.md",
@@ -5842,7 +5842,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 2.0
+          "kb": 2.1
         },
         {
           "name": "executive-summary.md",
@@ -5859,7 +5859,7 @@
         {
           "name": "SCCMTS-Discovery.ps1",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/scripts/SCCMTS-Discovery.ps1",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "SCCMTS-Remediation.ps1",
@@ -5869,24 +5869,24 @@
         {
           "name": "SCCMTS-Report.ps1",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/scripts/SCCMTS-Report.ps1",
-          "kb": 3.9
+          "kb": 4.0
         },
         {
           "name": "SCCMTS-Set-ScopeTargeting.ps1",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/scripts/SCCMTS-Set-ScopeTargeting.ps1",
-          "kb": 3.7
+          "kb": 3.8
         },
         {
           "name": "SCCMTS-Validation.ps1",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/scripts/SCCMTS-Validation.ps1",
-          "kb": 4.1
+          "kb": 4.2
         }
       ],
       "Deliverables": [
         {
           "name": "SCCMTS-Complete-Solution.zip",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/deliverables/SCCMTS-Complete-Solution.zip",
-          "kb": 91.1
+          "kb": 90.9
         },
         {
           "name": "SCCMTS-hero.png",
@@ -5911,7 +5911,7 @@
         {
           "name": "SCCMTS-Solution.pdf",
           "href": "../infrastructure/sccm-task-sequence-troubleshooting-status-messages/v1.0.0/deliverables/SCCMTS-Solution.pdf",
-          "kb": 47.0
+          "kb": 46.8
         }
       ],
       "Listing": [
@@ -6172,7 +6172,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "executive-summary.md",
@@ -6199,7 +6199,7 @@
         {
           "name": "WDAC-PolicyReport.ps1",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/scripts/WDAC-PolicyReport.ps1",
-          "kb": 2.1
+          "kb": 2.2
         },
         {
           "name": "WDAC-Remediation.ps1",
@@ -6216,17 +6216,17 @@
         {
           "name": "WDAC-Complete-Solution.zip",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/deliverables/WDAC-Complete-Solution.zip",
-          "kb": 67.6
+          "kb": 67.2
         },
         {
           "name": "WDAC-hero.png",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/deliverables/WDAC-hero.png",
-          "kb": 416.9
+          "kb": 414.4
         },
         {
           "name": "WDAC-hero.svg",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/deliverables/WDAC-hero.svg",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "WDAC-Scripts.zip",
@@ -6236,12 +6236,12 @@
         {
           "name": "WDAC-Solution.docx",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/deliverables/WDAC-Solution.docx",
-          "kb": 45.2
+          "kb": 45.1
         },
         {
           "name": "WDAC-Solution.pdf",
           "href": "../intune-solutions/application-control-wdac/v1.0.0/deliverables/WDAC-Solution.pdf",
-          "kb": 28.5
+          "kb": 28.1
         }
       ],
       "Listing": [
@@ -6307,7 +6307,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/source/01-solution-overview.md",
-          "kb": 2.6
+          "kb": 2.7
         },
         {
           "name": "02-requirements.md",
@@ -6354,12 +6354,12 @@
         {
           "name": "ASR-AuditReport.ps1",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/scripts/ASR-AuditReport.ps1",
-          "kb": 1.9
+          "kb": 2.0
         },
         {
           "name": "ASR-Discovery.ps1",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/scripts/ASR-Discovery.ps1",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "ASR-Remediation.ps1",
@@ -6381,17 +6381,17 @@
         {
           "name": "ASR-Complete-Solution.zip",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/deliverables/ASR-Complete-Solution.zip",
-          "kb": 68.1
+          "kb": 67.7
         },
         {
           "name": "ASR-hero.png",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/deliverables/ASR-hero.png",
-          "kb": 420.3
+          "kb": 418.3
         },
         {
           "name": "ASR-hero.svg",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/deliverables/ASR-hero.svg",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "ASR-Scripts.zip",
@@ -6401,19 +6401,19 @@
         {
           "name": "ASR-Solution.docx",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/deliverables/ASR-Solution.docx",
-          "kb": 45.1
+          "kb": 45.0
         },
         {
           "name": "ASR-Solution.pdf",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/deliverables/ASR-Solution.pdf",
-          "kb": 28.6
+          "kb": 28.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.1
+          "kb": 15.0
         },
         {
           "name": "hero.json",
@@ -6430,7 +6430,7 @@
         {
           "name": "README.md",
           "href": "../intune-solutions/attack-surface-reduction-rules/v1.0.0/README.md",
-          "kb": 0.5
+          "kb": 0.6
         },
         {
           "name": "solution.meta.json",
@@ -6502,7 +6502,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "executive-summary.md",
@@ -6546,39 +6546,39 @@
         {
           "name": "BITLK-Complete-Solution.zip",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-Complete-Solution.zip",
-          "kb": 66.8
+          "kb": 66.3
         },
         {
           "name": "BITLK-hero.png",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-hero.png",
-          "kb": 440.2
+          "kb": 437.1
         },
         {
           "name": "BITLK-hero.svg",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "BITLK-Scripts.zip",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-Scripts.zip",
-          "kb": 5.5
+          "kb": 5.4
         },
         {
           "name": "BITLK-Solution.docx",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-Solution.docx",
-          "kb": 44.7
+          "kb": 44.6
         },
         {
           "name": "BITLK-Solution.pdf",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/deliverables/BITLK-Solution.pdf",
-          "kb": 27.6
+          "kb": 27.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.2
+          "kb": 15.1
         },
         {
           "name": "hero.json",
@@ -6595,7 +6595,7 @@
         {
           "name": "README.md",
           "href": "../intune-solutions/bitlocker-drive-encryption/v1.0.0/README.md",
-          "kb": 0.5
+          "kb": 0.6
         },
         {
           "name": "solution.meta.json",
@@ -6712,7 +6712,7 @@
         {
           "name": "CFAP-Complete-Solution.zip",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning/v1.0.0/deliverables/CFAP-Complete-Solution.zip",
-          "kb": 89.1
+          "kb": 88.9
         },
         {
           "name": "CFAP-hero.png",
@@ -6732,12 +6732,12 @@
         {
           "name": "CFAP-Solution.docx",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning/v1.0.0/deliverables/CFAP-Solution.docx",
-          "kb": 49.6
+          "kb": 49.5
         },
         {
           "name": "CFAP-Solution.pdf",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning/v1.0.0/deliverables/CFAP-Solution.pdf",
-          "kb": 44.5
+          "kb": 44.4
         }
       ],
       "Listing": [
@@ -6860,7 +6860,7 @@
         {
           "name": "CAI-PolicyReport.ps1",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/scripts/CAI-PolicyReport.ps1",
-          "kb": 1.7
+          "kb": 1.8
         },
         {
           "name": "CAI-SignInReport.ps1",
@@ -6877,17 +6877,17 @@
         {
           "name": "CAI-Complete-Solution.zip",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-Complete-Solution.zip",
-          "kb": 68.5
+          "kb": 68.1
         },
         {
           "name": "CAI-hero.png",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-hero.png",
-          "kb": 415.6
+          "kb": 413.3
         },
         {
           "name": "CAI-hero.svg",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "CAI-Scripts.zip",
@@ -6897,19 +6897,19 @@
         {
           "name": "CAI-Solution.docx",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-Solution.docx",
-          "kb": 45.5
+          "kb": 45.4
         },
         {
           "name": "CAI-Solution.pdf",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-Solution.pdf",
-          "kb": 29.1
+          "kb": 28.8
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.7
+          "kb": 15.6
         },
         {
           "name": "hero.json",
@@ -7042,17 +7042,17 @@
         {
           "name": "CMG-Complete-Solution.zip",
           "href": "../intune-solutions/sccm-cloud-management-gateway-setup/v1.0.0/deliverables/CMG-Complete-Solution.zip",
-          "kb": 81.9
+          "kb": 81.7
         },
         {
           "name": "CMG-hero.png",
           "href": "../intune-solutions/sccm-cloud-management-gateway-setup/v1.0.0/deliverables/CMG-hero.png",
-          "kb": 482.5
+          "kb": 487.8
         },
         {
           "name": "CMG-hero.svg",
           "href": "../intune-solutions/sccm-cloud-management-gateway-setup/v1.0.0/deliverables/CMG-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "CMG-Scripts.zip",
@@ -7067,7 +7067,7 @@
         {
           "name": "CMG-Solution.pdf",
           "href": "../intune-solutions/sccm-cloud-management-gateway-setup/v1.0.0/deliverables/CMG-Solution.pdf",
-          "kb": 39.9
+          "kb": 39.7
         }
       ],
       "Listing": [
@@ -7195,29 +7195,29 @@
         {
           "name": "CODBYOD-Validation.ps1",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/scripts/CODBYOD-Validation.ps1",
-          "kb": 3.3
+          "kb": 3.4
         },
         {
           "name": "Set-OwnershipBasedTargeting.ps1",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/scripts/Set-OwnershipBasedTargeting.ps1",
-          "kb": 2.6
+          "kb": 2.7
         }
       ],
       "Deliverables": [
         {
           "name": "CODBYOD-Complete-Solution.zip",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/deliverables/CODBYOD-Complete-Solution.zip",
-          "kb": 85.2
+          "kb": 84.8
         },
         {
           "name": "CODBYOD-hero.png",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/deliverables/CODBYOD-hero.png",
-          "kb": 425.7
+          "kb": 423.4
         },
         {
           "name": "CODBYOD-hero.svg",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/deliverables/CODBYOD-hero.svg",
-          "kb": 6.2
+          "kb": 6.1
         },
         {
           "name": "CODBYOD-Scripts.zip",
@@ -7227,12 +7227,12 @@
         {
           "name": "CODBYOD-Solution.docx",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/deliverables/CODBYOD-Solution.docx",
-          "kb": 50.5
+          "kb": 50.4
         },
         {
           "name": "CODBYOD-Solution.pdf",
           "href": "../intune-solutions/cod-and-byod-device-management/v1.0.0/deliverables/CODBYOD-Solution.pdf",
-          "kb": 42.6
+          "kb": 42.2
         }
       ],
       "Listing": [
@@ -7373,12 +7373,12 @@
         {
           "name": "PFXMOB-Complete-Solution.zip",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-Complete-Solution.zip",
-          "kb": 97.0
+          "kb": 96.9
         },
         {
           "name": "PFXMOB-hero.png",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-hero.png",
-          "kb": 490.7
+          "kb": 498.9
         },
         {
           "name": "PFXMOB-hero.svg",
@@ -7398,7 +7398,7 @@
         {
           "name": "PFXMOB-Solution.pdf",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-Solution.pdf",
-          "kb": 52.0
+          "kb": 51.9
         }
       ],
       "Listing": [
@@ -7511,7 +7511,7 @@
         {
           "name": "DCP-ConflictCheck.ps1",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/scripts/DCP-ConflictCheck.ps1",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "DCP-Discovery.ps1",
@@ -7538,17 +7538,17 @@
         {
           "name": "DCP-Complete-Solution.zip",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/deliverables/DCP-Complete-Solution.zip",
-          "kb": 67.3
+          "kb": 66.9
         },
         {
           "name": "DCP-hero.png",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/deliverables/DCP-hero.png",
-          "kb": 500.3
+          "kb": 499.0
         },
         {
           "name": "DCP-hero.svg",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/deliverables/DCP-hero.svg",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "DCP-Scripts.zip",
@@ -7558,12 +7558,12 @@
         {
           "name": "DCP-Solution.docx",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/deliverables/DCP-Solution.docx",
-          "kb": 44.9
+          "kb": 44.8
         },
         {
           "name": "DCP-Solution.pdf",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/deliverables/DCP-Solution.pdf",
-          "kb": 28.2
+          "kb": 27.9
         }
       ],
       "Listing": [
@@ -7681,12 +7681,12 @@
         {
           "name": "ENROLLID-Remediation.ps1",
           "href": "../intune-solutions/device-enrollment-identity-asset-inventory/v1.0.0/scripts/ENROLLID-Remediation.ps1",
-          "kb": 3.7
+          "kb": 3.8
         },
         {
           "name": "ENROLLID-Report.ps1",
           "href": "../intune-solutions/device-enrollment-identity-asset-inventory/v1.0.0/scripts/ENROLLID-Report.ps1",
-          "kb": 3.6
+          "kb": 3.7
         },
         {
           "name": "ENROLLID-Set-DeviceScopeTargeting.ps1",
@@ -7703,12 +7703,12 @@
         {
           "name": "ENROLLID-Complete-Solution.zip",
           "href": "../intune-solutions/device-enrollment-identity-asset-inventory/v1.0.0/deliverables/ENROLLID-Complete-Solution.zip",
-          "kb": 79.9
+          "kb": 79.8
         },
         {
           "name": "ENROLLID-hero.png",
           "href": "../intune-solutions/device-enrollment-identity-asset-inventory/v1.0.0/deliverables/ENROLLID-hero.png",
-          "kb": 430.8
+          "kb": 435.8
         },
         {
           "name": "ENROLLID-hero.svg",
@@ -7874,7 +7874,7 @@
         {
           "name": "STIG-Complete-Solution.zip",
           "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune/v1.0.0/deliverables/STIG-Complete-Solution.zip",
-          "kb": 100.1
+          "kb": 100.0
         },
         {
           "name": "STIG-hero.png",
@@ -7965,7 +7965,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.9
+          "kb": 6.8
         },
         {
           "name": "02-requirements.md",
@@ -8027,29 +8027,29 @@
         {
           "name": "DUALDEV-Validation.ps1",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/scripts/DUALDEV-Validation.ps1",
-          "kb": 3.3
+          "kb": 3.4
         },
         {
           "name": "Set-OwnershipBasedTargeting.ps1",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/scripts/Set-OwnershipBasedTargeting.ps1",
-          "kb": 2.6
+          "kb": 2.7
         }
       ],
       "Deliverables": [
         {
           "name": "DUALDEV-Complete-Solution.zip",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/deliverables/DUALDEV-Complete-Solution.zip",
-          "kb": 90.2
+          "kb": 89.8
         },
         {
           "name": "DUALDEV-hero.png",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/deliverables/DUALDEV-hero.png",
-          "kb": 426.1
+          "kb": 425.1
         },
         {
           "name": "DUALDEV-hero.svg",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/deliverables/DUALDEV-hero.svg",
-          "kb": 6.1
+          "kb": 5.9
         },
         {
           "name": "DUALDEV-Scripts.zip",
@@ -8059,12 +8059,12 @@
         {
           "name": "DUALDEV-Solution.docx",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/deliverables/DUALDEV-Solution.docx",
-          "kb": 52.1
+          "kb": 52.0
         },
         {
           "name": "DUALDEV-Solution.pdf",
           "href": "../intune-solutions/cod-byod-dual-device-sso/v1.0.0/deliverables/DUALDEV-Solution.pdf",
-          "kb": 47.3
+          "kb": 46.9
         }
       ],
       "Listing": [
@@ -8192,7 +8192,7 @@
         {
           "name": "IOSDD-Set-OwnershipBasedTargeting.ps1",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/scripts/IOSDD-Set-OwnershipBasedTargeting.ps1",
-          "kb": 2.6
+          "kb": 2.7
         },
         {
           "name": "IOSDD-Validation.ps1",
@@ -8204,17 +8204,17 @@
         {
           "name": "IOSDD-Complete-Solution.zip",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/deliverables/IOSDD-Complete-Solution.zip",
-          "kb": 99.7
+          "kb": 99.3
         },
         {
           "name": "IOSDD-hero.png",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/deliverables/IOSDD-hero.png",
-          "kb": 408.9
+          "kb": 408.3
         },
         {
           "name": "IOSDD-hero.svg",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/deliverables/IOSDD-hero.svg",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "IOSDD-Scripts.zip",
@@ -8224,19 +8224,19 @@
         {
           "name": "IOSDD-Solution.docx",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/deliverables/IOSDD-Solution.docx",
-          "kb": 55.1
+          "kb": 55.0
         },
         {
           "name": "IOSDD-Solution.pdf",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/deliverables/IOSDD-Solution.pdf",
-          "kb": 56.6
+          "kb": 56.1
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/listing/bagisto-products.json",
-          "kb": 19.8
+          "kb": 19.7
         },
         {
           "name": "hero.json",
@@ -8246,7 +8246,7 @@
         {
           "name": "sales-content.md",
           "href": "../intune-solutions/cod-byod-iphone-dual-device-sso/v1.0.0/listing/sales-content.md",
-          "kb": 2.0
+          "kb": 2.1
         }
       ],
       "Overview": [
@@ -8296,12 +8296,12 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/source/01-solution-overview.md",
-          "kb": 5.5
+          "kb": 5.6
         },
         {
           "name": "02-requirements.md",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/source/02-requirements.md",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "03-implementation.md",
@@ -8331,7 +8331,7 @@
         {
           "name": "executive-summary.md",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/source/executive-summary.md",
-          "kb": 2.3
+          "kb": 2.4
         },
         {
           "name": "global-requirements-intune-solutions.md",
@@ -8348,12 +8348,12 @@
         {
           "name": "DYNTGT-Remediation.ps1",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/scripts/DYNTGT-Remediation.ps1",
-          "kb": 4.3
+          "kb": 4.4
         },
         {
           "name": "DYNTGT-Report.ps1",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/scripts/DYNTGT-Report.ps1",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "DYNTGT-Set-DynamicGroupFilter.ps1",
@@ -8370,7 +8370,7 @@
         {
           "name": "DYNTGT-Complete-Solution.zip",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/deliverables/DYNTGT-Complete-Solution.zip",
-          "kb": 81.9
+          "kb": 81.7
         },
         {
           "name": "DYNTGT-hero.png",
@@ -8385,17 +8385,17 @@
         {
           "name": "DYNTGT-Scripts.zip",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/deliverables/DYNTGT-Scripts.zip",
-          "kb": 7.5
+          "kb": 7.4
         },
         {
           "name": "DYNTGT-Solution.docx",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/deliverables/DYNTGT-Solution.docx",
-          "kb": 48.5
+          "kb": 48.4
         },
         {
           "name": "DYNTGT-Solution.pdf",
           "href": "../intune-solutions/intune-dynamic-device-targeting-groups-filters/v1.0.0/deliverables/DYNTGT-Solution.pdf",
-          "kb": 40.9
+          "kb": 40.8
         }
       ],
       "Listing": [
@@ -8471,7 +8471,7 @@
         {
           "name": "03-implementation.md",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/source/03-implementation.md",
-          "kb": 6.6
+          "kb": 6.7
         },
         {
           "name": "05-testing.md",
@@ -8513,7 +8513,7 @@
         {
           "name": "EPM-ElevationReport.ps1",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/scripts/EPM-ElevationReport.ps1",
-          "kb": 5.1
+          "kb": 5.2
         },
         {
           "name": "EPM-Remediation.ps1",
@@ -8523,29 +8523,29 @@
         {
           "name": "EPM-Validation.ps1",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/scripts/EPM-Validation.ps1",
-          "kb": 3.6
+          "kb": 3.7
         },
         {
           "name": "New-EpmElevationRule.ps1",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/scripts/New-EpmElevationRule.ps1",
-          "kb": 3.9
+          "kb": 4.0
         }
       ],
       "Deliverables": [
         {
           "name": "EPM-Complete-Solution.zip",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/deliverables/EPM-Complete-Solution.zip",
-          "kb": 91.8
+          "kb": 91.4
         },
         {
           "name": "EPM-hero.png",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/deliverables/EPM-hero.png",
-          "kb": 409.9
+          "kb": 408.2
         },
         {
           "name": "EPM-hero.svg",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/deliverables/EPM-hero.svg",
-          "kb": 6.2
+          "kb": 6.1
         },
         {
           "name": "EPM-Scripts.zip",
@@ -8555,19 +8555,19 @@
         {
           "name": "EPM-Solution.docx",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/deliverables/EPM-Solution.docx",
-          "kb": 51.9
+          "kb": 51.8
         },
         {
           "name": "EPM-Solution.pdf",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/deliverables/EPM-Solution.pdf",
-          "kb": 46.1
+          "kb": 45.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/listing/bagisto-products.json",
-          "kb": 17.7
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -8577,7 +8577,7 @@
         {
           "name": "sales-content.md",
           "href": "../intune-solutions/endpoint-privilege-management/v1.0.0/listing/sales-content.md",
-          "kb": 2.5
+          "kb": 2.6
         }
       ],
       "Overview": [
@@ -8626,7 +8626,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/source/01-solution-overview.md",
-          "kb": 2.2
+          "kb": 2.3
         },
         {
           "name": "02-requirements.md",
@@ -8673,7 +8673,7 @@
         {
           "name": "ESB-ConflictCheck.ps1",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/scripts/ESB-ConflictCheck.ps1",
-          "kb": 1.9
+          "kb": 2.0
         },
         {
           "name": "ESB-Discovery.ps1",
@@ -8693,46 +8693,46 @@
         {
           "name": "ESB-Validation.ps1",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/scripts/ESB-Validation.ps1",
-          "kb": 1.8
+          "kb": 1.9
         }
       ],
       "Deliverables": [
         {
           "name": "ESB-Complete-Solution.zip",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-Complete-Solution.zip",
-          "kb": 65.8
+          "kb": 65.4
         },
         {
           "name": "ESB-hero.png",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-hero.png",
-          "kb": 443.6
+          "kb": 441.6
         },
         {
           "name": "ESB-hero.svg",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "ESB-Scripts.zip",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-Scripts.zip",
-          "kb": 4.9
+          "kb": 4.8
         },
         {
           "name": "ESB-Solution.docx",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-Solution.docx",
-          "kb": 44.4
+          "kb": 44.3
         },
         {
           "name": "ESB-Solution.pdf",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-Solution.pdf",
-          "kb": 27.6
+          "kb": 27.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.0
+          "kb": 14.9
         },
         {
           "name": "hero.json",
@@ -8749,7 +8749,7 @@
         {
           "name": "README.md",
           "href": "../intune-solutions/endpoint-security-baselines/v1.0.0/README.md",
-          "kb": 0.5
+          "kb": 0.6
         },
         {
           "name": "solution.meta.json",
@@ -8870,12 +8870,12 @@
         {
           "name": "CISMAC-Complete-Solution.zip",
           "href": "../intune-solutions/cis-benchmarks-macos-intune/v1.0.0/deliverables/CISMAC-Complete-Solution.zip",
-          "kb": 109.2
+          "kb": 109.1
         },
         {
           "name": "CISMAC-hero.png",
           "href": "../intune-solutions/cis-benchmarks-macos-intune/v1.0.0/deliverables/CISMAC-hero.png",
-          "kb": 430.0
+          "kb": 437.3
         },
         {
           "name": "CISMAC-hero.svg",
@@ -8890,7 +8890,7 @@
         {
           "name": "CISMAC-Solution.docx",
           "href": "../intune-solutions/cis-benchmarks-macos-intune/v1.0.0/deliverables/CISMAC-Solution.docx",
-          "kb": 57.0
+          "kb": 56.9
         },
         {
           "name": "CISMAC-Solution.pdf",
@@ -9045,7 +9045,7 @@
         {
           "name": "CIS11-hero.png",
           "href": "../intune-solutions/cis-benchmarks-windows-11-intune/v1.0.0/deliverables/CIS11-hero.png",
-          "kb": 463.6
+          "kb": 471.4
         },
         {
           "name": "CIS11-hero.svg",
@@ -9065,7 +9065,7 @@
         {
           "name": "CIS11-Solution.pdf",
           "href": "../intune-solutions/cis-benchmarks-windows-11-intune/v1.0.0/deliverables/CIS11-Solution.pdf",
-          "kb": 55.1
+          "kb": 55.0
         }
       ],
       "Listing": [
@@ -9132,7 +9132,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/source/01-solution-overview.md",
-          "kb": 5.2
+          "kb": 5.3
         },
         {
           "name": "02-requirements.md",
@@ -9184,39 +9184,39 @@
         {
           "name": "IOSLD-Discovery.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Discovery.ps1",
-          "kb": 5.8
+          "kb": 5.9
         },
         {
           "name": "IOSLD-Remediation.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Remediation.ps1",
-          "kb": 4.2
+          "kb": 4.3
         },
         {
           "name": "IOSLD-Report.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Report.ps1",
-          "kb": 4.6
+          "kb": 4.7
         },
         {
           "name": "IOSLD-Set-DeviceGroupTargeting.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Set-DeviceGroupTargeting.ps1",
-          "kb": 4.0
+          "kb": 4.1
         },
         {
           "name": "IOSLD-Validation.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Validation.ps1",
-          "kb": 4.9
+          "kb": 5.0
         }
       ],
       "Deliverables": [
         {
           "name": "IOSLD-Complete-Solution.zip",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Complete-Solution.zip",
-          "kb": 107.6
+          "kb": 107.5
         },
         {
           "name": "IOSLD-hero.png",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-hero.png",
-          "kb": 461.7
+          "kb": 459.6
         },
         {
           "name": "IOSLD-hero.svg",
@@ -9236,7 +9236,7 @@
         {
           "name": "IOSLD-Solution.pdf",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Solution.pdf",
-          "kb": 62.2
+          "kb": 62.1
         }
       ],
       "Listing": [
@@ -9303,7 +9303,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/source/01-solution-overview.md",
-          "kb": 4.3
+          "kb": 4.4
         },
         {
           "name": "02-requirements.md",
@@ -9360,7 +9360,7 @@
         {
           "name": "RBACGOV-Report.ps1",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/scripts/RBACGOV-Report.ps1",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "RBACGOV-Set-ScopeTargeting.ps1",
@@ -9377,7 +9377,7 @@
         {
           "name": "RBACGOV-Complete-Solution.zip",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/deliverables/RBACGOV-Complete-Solution.zip",
-          "kb": 83.9
+          "kb": 83.7
         },
         {
           "name": "RBACGOV-hero.png",
@@ -9397,12 +9397,12 @@
         {
           "name": "RBACGOV-Solution.docx",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/deliverables/RBACGOV-Solution.docx",
-          "kb": 49.0
+          "kb": 48.9
         },
         {
           "name": "RBACGOV-Solution.pdf",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/deliverables/RBACGOV-Solution.pdf",
-          "kb": 43.5
+          "kb": 43.4
         }
       ],
       "Listing": [
@@ -9469,7 +9469,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/source/01-solution-overview.md",
-          "kb": 4.0
+          "kb": 4.1
         },
         {
           "name": "02-requirements.md",
@@ -9521,7 +9521,7 @@
         {
           "name": "CUSTCOMP-Remediation.ps1",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/scripts/CUSTCOMP-Remediation.ps1",
-          "kb": 2.1
+          "kb": 2.2
         },
         {
           "name": "CUSTCOMP-Report.ps1",
@@ -9543,7 +9543,7 @@
         {
           "name": "CUSTCOMP-Complete-Solution.zip",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/deliverables/CUSTCOMP-Complete-Solution.zip",
-          "kb": 80.5
+          "kb": 80.1
         },
         {
           "name": "CUSTCOMP-hero.png",
@@ -9568,7 +9568,7 @@
         {
           "name": "CUSTCOMP-Solution.pdf",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/deliverables/CUSTCOMP-Solution.pdf",
-          "kb": 40.6
+          "kb": 40.1
         }
       ],
       "Listing": [
@@ -9713,7 +9713,7 @@
         {
           "name": "WIN32-hero.png",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/deliverables/WIN32-hero.png",
-          "kb": 478.5
+          "kb": 484.5
         },
         {
           "name": "WIN32-hero.svg",
@@ -9733,7 +9733,7 @@
         {
           "name": "WIN32-Solution.pdf",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/deliverables/WIN32-Solution.pdf",
-          "kb": 46.6
+          "kb": 46.7
         }
       ],
       "Listing": [
@@ -9799,7 +9799,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.0
+          "kb": 6.1
         },
         {
           "name": "02-requirements.md",
@@ -9846,7 +9846,7 @@
         {
           "name": "IOSSDM-DeviceReport.ps1",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/scripts/IOSSDM-DeviceReport.ps1",
-          "kb": 3.0
+          "kb": 3.1
         },
         {
           "name": "IOSSDM-Discovery.ps1",
@@ -9861,29 +9861,29 @@
         {
           "name": "IOSSDM-Set-SharedDeviceTargeting.ps1",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/scripts/IOSSDM-Set-SharedDeviceTargeting.ps1",
-          "kb": 2.9
+          "kb": 3.0
         },
         {
           "name": "IOSSDM-Validation.ps1",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/scripts/IOSSDM-Validation.ps1",
-          "kb": 3.5
+          "kb": 3.6
         }
       ],
       "Deliverables": [
         {
           "name": "IOSSDM-Complete-Solution.zip",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Complete-Solution.zip",
-          "kb": 92.7
+          "kb": 92.3
         },
         {
           "name": "IOSSDM-hero.png",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-hero.png",
-          "kb": 480.0
+          "kb": 478.3
         },
         {
           "name": "IOSSDM-hero.svg",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-hero.svg",
-          "kb": 6.1
+          "kb": 5.9
         },
         {
           "name": "IOSSDM-Scripts.zip",
@@ -9893,12 +9893,12 @@
         {
           "name": "IOSSDM-Solution.docx",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Solution.docx",
-          "kb": 52.8
+          "kb": 52.7
         },
         {
           "name": "IOSSDM-Solution.pdf",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Solution.pdf",
-          "kb": 49.0
+          "kb": 48.6
         },
         {
           "name": "IOSSDM-wiki.md",
@@ -9920,7 +9920,7 @@
         {
           "name": "sales-content.md",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/listing/sales-content.md",
-          "kb": 1.9
+          "kb": 2.0
         }
       ],
       "Overview": [
@@ -9969,7 +9969,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/source/01-solution-overview.md",
-          "kb": 4.6
+          "kb": 4.7
         },
         {
           "name": "02-requirements.md",
@@ -9979,7 +9979,7 @@
         {
           "name": "03-implementation.md",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/source/03-implementation.md",
-          "kb": 7.4
+          "kb": 7.5
         },
         {
           "name": "05-testing.md",
@@ -10004,12 +10004,12 @@
         {
           "name": "executive-summary.md",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/source/executive-summary.md",
-          "kb": 1.8
+          "kb": 1.9
         },
         {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/source/global-requirements-intune-solutions.md",
-          "kb": 3.5
+          "kb": 3.6
         }
       ],
       "PowerShell Scripts": [
@@ -10031,29 +10031,29 @@
         {
           "name": "ADEMAC-Validation.ps1",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/scripts/ADEMAC-Validation.ps1",
-          "kb": 3.4
+          "kb": 3.5
         },
         {
           "name": "Set-PlatformSSOProfile.ps1",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/scripts/Set-PlatformSSOProfile.ps1",
-          "kb": 5.0
+          "kb": 5.1
         }
       ],
       "Deliverables": [
         {
           "name": "ADEMAC-Complete-Solution.zip",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/deliverables/ADEMAC-Complete-Solution.zip",
-          "kb": 90.5
+          "kb": 90.3
         },
         {
           "name": "ADEMAC-hero.png",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/deliverables/ADEMAC-hero.png",
-          "kb": 391.4
+          "kb": 388.2
         },
         {
           "name": "ADEMAC-hero.svg",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/deliverables/ADEMAC-hero.svg",
-          "kb": 6.1
+          "kb": 5.9
         },
         {
           "name": "ADEMAC-Scripts.zip",
@@ -10063,19 +10063,19 @@
         {
           "name": "ADEMAC-Solution.docx",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/deliverables/ADEMAC-Solution.docx",
-          "kb": 52.1
+          "kb": 52.0
         },
         {
           "name": "ADEMAC-Solution.pdf",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/deliverables/ADEMAC-Solution.pdf",
-          "kb": 45.4
+          "kb": 45.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/macos-ade-with-sso/v1.0.0/listing/bagisto-products.json",
-          "kb": 17.8
+          "kb": 17.7
         },
         {
           "name": "hero.json",
@@ -10144,7 +10144,7 @@
         {
           "name": "03-implementation.md",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/source/03-implementation.md",
-          "kb": 9.4
+          "kb": 9.5
         },
         {
           "name": "05-testing.md",
@@ -10169,19 +10169,19 @@
         {
           "name": "executive-summary.md",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/source/executive-summary.md",
-          "kb": 2.6
+          "kb": 2.7
         },
         {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/source/global-requirements-intune-solutions.md",
-          "kb": 3.5
+          "kb": 3.6
         }
       ],
       "PowerShell Scripts": [
         {
           "name": "JAMFADE-DeviceReport.ps1",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/scripts/JAMFADE-DeviceReport.ps1",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "JAMFADE-Discovery.ps1",
@@ -10191,56 +10191,56 @@
         {
           "name": "JAMFADE-JamfReadiness.ps1",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/scripts/JAMFADE-JamfReadiness.ps1",
-          "kb": 5.5
+          "kb": 5.6
         },
         {
           "name": "JAMFADE-Set-JamfSSOProfile.ps1",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/scripts/JAMFADE-Set-JamfSSOProfile.ps1",
-          "kb": 5.7
+          "kb": 5.8
         },
         {
           "name": "JAMFADE-Validation.ps1",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/scripts/JAMFADE-Validation.ps1",
-          "kb": 4.2
+          "kb": 4.3
         }
       ],
       "Deliverables": [
         {
           "name": "JAMFADE-Complete-Solution.zip",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-Complete-Solution.zip",
-          "kb": 105.4
+          "kb": 105.0
         },
         {
           "name": "JAMFADE-hero.png",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-hero.png",
-          "kb": 469.1
+          "kb": 466.4
         },
         {
           "name": "JAMFADE-hero.svg",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-hero.svg",
-          "kb": 6.2
+          "kb": 6.1
         },
         {
           "name": "JAMFADE-Scripts.zip",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-Scripts.zip",
-          "kb": 10.0
+          "kb": 10.1
         },
         {
           "name": "JAMFADE-Solution.docx",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-Solution.docx",
-          "kb": 56.4
+          "kb": 56.3
         },
         {
           "name": "JAMFADE-Solution.pdf",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-Solution.pdf",
-          "kb": 58.7
+          "kb": 58.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/listing/bagisto-products.json",
-          "kb": 20.2
+          "kb": 20.1
         },
         {
           "name": "hero.json",
@@ -10351,7 +10351,7 @@
         {
           "name": "MDE-Discovery.ps1",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/scripts/MDE-Discovery.ps1",
-          "kb": 1.7
+          "kb": 1.8
         },
         {
           "name": "MDE-Remediation.ps1",
@@ -10373,17 +10373,17 @@
         {
           "name": "MDE-Complete-Solution.zip",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/deliverables/MDE-Complete-Solution.zip",
-          "kb": 66.4
+          "kb": 66.0
         },
         {
           "name": "MDE-hero.png",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/deliverables/MDE-hero.png",
-          "kb": 404.9
+          "kb": 401.9
         },
         {
           "name": "MDE-hero.svg",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/deliverables/MDE-hero.svg",
-          "kb": 6.2
+          "kb": 6.1
         },
         {
           "name": "MDE-Scripts.zip",
@@ -10393,19 +10393,19 @@
         {
           "name": "MDE-Solution.docx",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/deliverables/MDE-Solution.docx",
-          "kb": 44.5
+          "kb": 44.4
         },
         {
           "name": "MDE-Solution.pdf",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/deliverables/MDE-Solution.pdf",
-          "kb": 28.1
+          "kb": 27.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.4
+          "kb": 15.3
         },
         {
           "name": "hero.json",
@@ -10539,7 +10539,7 @@
         {
           "name": "TUNMAM-Complete-Solution.zip",
           "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access/v1.0.0/deliverables/TUNMAM-Complete-Solution.zip",
-          "kb": 84.1
+          "kb": 84.2
         },
         {
           "name": "TUNMAM-hero.png",
@@ -10564,7 +10564,7 @@
         {
           "name": "TUNMAM-Solution.pdf",
           "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access/v1.0.0/deliverables/TUNMAM-Solution.pdf",
-          "kb": 43.5
+          "kb": 43.6
         }
       ],
       "Listing": [
@@ -10705,7 +10705,7 @@
         {
           "name": "MAMAPP-Complete-Solution.zip",
           "href": "../intune-solutions/mam-app-protection-policies-byod-m365/v1.0.0/deliverables/MAMAPP-Complete-Solution.zip",
-          "kb": 82.9
+          "kb": 82.4
         },
         {
           "name": "MAMAPP-hero.png",
@@ -10730,7 +10730,7 @@
         {
           "name": "MAMAPP-Solution.pdf",
           "href": "../intune-solutions/mam-app-protection-policies-byod-m365/v1.0.0/deliverables/MAMAPP-Solution.pdf",
-          "kb": 42.4
+          "kb": 41.6
         }
       ],
       "Listing": [
@@ -10848,12 +10848,12 @@
         {
           "name": "ODFB-Discovery.ps1",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/scripts/ODFB-Discovery.ps1",
-          "kb": 3.0
+          "kb": 3.1
         },
         {
           "name": "ODFB-Remediation.ps1",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/scripts/ODFB-Remediation.ps1",
-          "kb": 3.0
+          "kb": 3.1
         },
         {
           "name": "ODFB-TenantReport.ps1",
@@ -10870,17 +10870,17 @@
         {
           "name": "ODFB-Complete-Solution.zip",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-Complete-Solution.zip",
-          "kb": 79.0
+          "kb": 78.7
         },
         {
           "name": "ODFB-hero.png",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-hero.png",
-          "kb": 440.3
+          "kb": 437.0
         },
         {
           "name": "ODFB-hero.svg",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "ODFB-Scripts.zip",
@@ -10890,19 +10890,19 @@
         {
           "name": "ODFB-Solution.docx",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-Solution.docx",
-          "kb": 48.6
+          "kb": 48.5
         },
         {
           "name": "ODFB-Solution.pdf",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/deliverables/ODFB-Solution.pdf",
-          "kb": 37.3
+          "kb": 37.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/onedrive-for-business/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.0
+          "kb": 14.9
         },
         {
           "name": "hero.json",
@@ -10991,7 +10991,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../intune-solutions/remote-help/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "executive-summary.md",
@@ -11035,39 +11035,39 @@
         {
           "name": "RHELP-Complete-Solution.zip",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-Complete-Solution.zip",
-          "kb": 66.1
+          "kb": 65.7
         },
         {
           "name": "RHELP-hero.png",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-hero.png",
-          "kb": 457.1
+          "kb": 453.7
         },
         {
           "name": "RHELP-hero.svg",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-hero.svg",
-          "kb": 6.1
+          "kb": 5.9
         },
         {
           "name": "RHELP-Scripts.zip",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-Scripts.zip",
-          "kb": 5.0
+          "kb": 4.9
         },
         {
           "name": "RHELP-Solution.docx",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-Solution.docx",
-          "kb": 44.6
+          "kb": 44.5
         },
         {
           "name": "RHELP-Solution.pdf",
           "href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-Solution.pdf",
-          "kb": 27.6
+          "kb": 27.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/remote-help/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.9
+          "kb": 14.8
         },
         {
           "name": "hero.json",
@@ -11127,7 +11127,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/source/01-solution-overview.md",
-          "kb": 7.0
+          "kb": 7.1
         },
         {
           "name": "02-requirements.md",
@@ -11174,7 +11174,7 @@
         {
           "name": "SPMAM-Discovery.ps1",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/scripts/SPMAM-Discovery.ps1",
-          "kb": 3.8
+          "kb": 3.9
         },
         {
           "name": "SPMAM-Remediation.ps1",
@@ -11189,19 +11189,19 @@
         {
           "name": "SPMAM-Set-ScopeTargeting.ps1",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/scripts/SPMAM-Set-ScopeTargeting.ps1",
-          "kb": 4.0
+          "kb": 4.1
         },
         {
           "name": "SPMAM-Validation.ps1",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/scripts/SPMAM-Validation.ps1",
-          "kb": 4.5
+          "kb": 4.6
         }
       ],
       "Deliverables": [
         {
           "name": "SPMAM-Complete-Solution.zip",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/deliverables/SPMAM-Complete-Solution.zip",
-          "kb": 90.7
+          "kb": 90.5
         },
         {
           "name": "SPMAM-hero.png",
@@ -11226,7 +11226,7 @@
         {
           "name": "SPMAM-Solution.pdf",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/deliverables/SPMAM-Solution.pdf",
-          "kb": 47.3
+          "kb": 47.1
         }
       ],
       "Listing": [
@@ -11366,12 +11366,12 @@
         {
           "name": "TPP-Complete-Solution.zip",
           "href": "../intune-solutions/third-party-app-patching-intune/v1.0.0/deliverables/TPP-Complete-Solution.zip",
-          "kb": 83.3
+          "kb": 83.4
         },
         {
           "name": "TPP-hero.png",
           "href": "../intune-solutions/third-party-app-patching-intune/v1.0.0/deliverables/TPP-hero.png",
-          "kb": 414.0
+          "kb": 419.8
         },
         {
           "name": "TPP-hero.svg",
@@ -11391,7 +11391,7 @@
         {
           "name": "TPP-Solution.pdf",
           "href": "../intune-solutions/third-party-app-patching-intune/v1.0.0/deliverables/TPP-Solution.pdf",
-          "kb": 41.9
+          "kb": 42.0
         }
       ],
       "Listing": [
@@ -11524,24 +11524,24 @@
         {
           "name": "Get-AutopilotHash.ps1",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/scripts/Get-AutopilotHash.ps1",
-          "kb": 1.6
+          "kb": 1.7
         }
       ],
       "Deliverables": [
         {
           "name": "WAP-Complete-Solution.zip",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-Complete-Solution.zip",
-          "kb": 67.5
+          "kb": 67.0
         },
         {
           "name": "WAP-hero.png",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-hero.png",
-          "kb": 420.8
+          "kb": 419.3
         },
         {
           "name": "WAP-hero.svg",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "WAP-Scripts.zip",
@@ -11551,19 +11551,19 @@
         {
           "name": "WAP-Solution.docx",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-Solution.docx",
-          "kb": 45.1
+          "kb": 45.0
         },
         {
           "name": "WAP-Solution.pdf",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-Solution.pdf",
-          "kb": 28.7
+          "kb": 28.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.7
+          "kb": 14.6
         },
         {
           "name": "hero.json",
@@ -11580,7 +11580,7 @@
         {
           "name": "README.md",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/README.md",
-          "kb": 0.8
+          "kb": 0.9
         },
         {
           "name": "solution.meta.json",
@@ -11696,17 +11696,17 @@
         {
           "name": "WFM-Complete-Solution.zip",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/deliverables/WFM-Complete-Solution.zip",
-          "kb": 64.9
+          "kb": 64.5
         },
         {
           "name": "WFM-hero.png",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/deliverables/WFM-hero.png",
-          "kb": 421.3
+          "kb": 418.5
         },
         {
           "name": "WFM-hero.svg",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/deliverables/WFM-hero.svg",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "WFM-Scripts.zip",
@@ -11716,19 +11716,19 @@
         {
           "name": "WFM-Solution.docx",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/deliverables/WFM-Solution.docx",
-          "kb": 44.5
+          "kb": 44.4
         },
         {
           "name": "WFM-Solution.pdf",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/deliverables/WFM-Solution.pdf",
-          "kb": 27.1
+          "kb": 26.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.7
+          "kb": 14.6
         },
         {
           "name": "hero.json",
@@ -11745,7 +11745,7 @@
         {
           "name": "README.md",
           "href": "../intune-solutions/windows-firewall-management/v1.0.0/README.md",
-          "kb": 0.5
+          "kb": 0.6
         },
         {
           "name": "solution.meta.json",
@@ -11834,7 +11834,7 @@
         {
           "name": "Enable-EntraKerberos.ps1",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/scripts/Enable-EntraKerberos.ps1",
-          "kb": 3.4
+          "kb": 3.5
         },
         {
           "name": "WHfB-Discovery.ps1",
@@ -11844,56 +11844,56 @@
         {
           "name": "WHfB-Remediation.ps1",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/scripts/WHfB-Remediation.ps1",
-          "kb": 3.2
+          "kb": 3.3
         },
         {
           "name": "WHfB-TenantReport.ps1",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/scripts/WHfB-TenantReport.ps1",
-          "kb": 2.6
+          "kb": 2.7
         },
         {
           "name": "WHfB-Validation.ps1",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/scripts/WHfB-Validation.ps1",
-          "kb": 2.4
+          "kb": 2.5
         }
       ],
       "Deliverables": [
         {
           "name": "WHFB-Complete-Solution.zip",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-Complete-Solution.zip",
-          "kb": 80.3
+          "kb": 83.0
         },
         {
           "name": "WHFB-hero.png",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-hero.png",
-          "kb": 409.8
+          "kb": 406.7
         },
         {
           "name": "WHFB-hero.svg",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-hero.svg",
-          "kb": 6.3
+          "kb": 6.1
         },
         {
           "name": "WHFB-Scripts.zip",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-Scripts.zip",
-          "kb": 7.4
+          "kb": 7.3
         },
         {
           "name": "WHFB-Solution.docx",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-Solution.docx",
-          "kb": 48.1
+          "kb": 49.8
         },
         {
           "name": "WHFB-Solution.pdf",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-Solution.pdf",
-          "kb": 41.0
+          "kb": 40.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-hello-for-business/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.8
+          "kb": 15.7
         },
         {
           "name": "hero.json",
@@ -11982,7 +11982,7 @@
         {
           "name": "08-deliverables-summary.md",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 1.6
+          "kb": 1.7
         },
         {
           "name": "executive-summary.md",
@@ -11999,7 +11999,7 @@
         {
           "name": "WUFB-ComplianceReport.ps1",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/scripts/WUFB-ComplianceReport.ps1",
-          "kb": 1.8
+          "kb": 1.9
         },
         {
           "name": "WUFB-Discovery.ps1",
@@ -12026,17 +12026,17 @@
         {
           "name": "WUFB-Complete-Solution.zip",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-Complete-Solution.zip",
-          "kb": 69.3
+          "kb": 68.8
         },
         {
           "name": "WUFB-hero.png",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-hero.png",
-          "kb": 458.4
+          "kb": 455.7
         },
         {
           "name": "WUFB-hero.svg",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-hero.svg",
-          "kb": 6.0
+          "kb": 5.9
         },
         {
           "name": "WUFB-Scripts.zip",
@@ -12046,19 +12046,19 @@
         {
           "name": "WUFB-Solution.docx",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-Solution.docx",
-          "kb": 45.6
+          "kb": 45.5
         },
         {
           "name": "WUFB-Solution.pdf",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-Solution.pdf",
-          "kb": 30.3
+          "kb": 30.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.7
+          "kb": 15.6
         },
         {
           "name": "hero.json",
@@ -12080,7 +12080,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/windows-updates-for-business/v1.0.0/solution.meta.json",
-          "kb": 0.7
+          "kb": 0.8
         }
       ]
     },
@@ -12191,12 +12191,12 @@
         {
           "name": "WSUSM-Complete-Solution.zip",
           "href": "../intune-solutions/wsus-to-wufb-patch-modernization/v1.0.0/deliverables/WSUSM-Complete-Solution.zip",
-          "kb": 86.6
+          "kb": 86.2
         },
         {
           "name": "WSUSM-hero.png",
           "href": "../intune-solutions/wsus-to-wufb-patch-modernization/v1.0.0/deliverables/WSUSM-hero.png",
-          "kb": 457.3
+          "kb": 463.6
         },
         {
           "name": "WSUSM-hero.svg",
@@ -12216,7 +12216,7 @@
         {
           "name": "WSUSM-Solution.pdf",
           "href": "../intune-solutions/wsus-to-wufb-patch-modernization/v1.0.0/deliverables/WSUSM-Solution.pdf",
-          "kb": 44.4
+          "kb": 44.0
         }
       ],
       "Listing": [
@@ -13182,12 +13182,12 @@
         {
           "name": "COMGMT-Complete-Solution.zip",
           "href": "../migrations/sccm-intune-co-management-enablement/v1.0.0/deliverables/COMGMT-Complete-Solution.zip",
-          "kb": 77.0
+          "kb": 76.9
         },
         {
           "name": "COMGMT-hero.png",
           "href": "../migrations/sccm-intune-co-management-enablement/v1.0.0/deliverables/COMGMT-hero.png",
-          "kb": 422.3
+          "kb": 429.4
         },
         {
           "name": "COMGMT-hero.svg",
@@ -13513,12 +13513,12 @@
         {
           "name": "GPOM-Complete-Solution.zip",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-Complete-Solution.zip",
-          "kb": 88.5
+          "kb": 88.4
         },
         {
           "name": "GPOM-hero.png",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-hero.png",
-          "kb": 424.9
+          "kb": 430.8
         },
         {
           "name": "GPOM-hero.svg",
@@ -14314,7 +14314,7 @@
         {
           "name": "SCCMAPP-Discovery.ps1",
           "href": "../migrations/sccm-application-migration-to-intune-win32/v1.0.0/scripts/SCCMAPP-Discovery.ps1",
-          "kb": 3.5
+          "kb": 3.6
         },
         {
           "name": "SCCMAPP-Remediation.ps1",
@@ -14334,7 +14334,7 @@
         {
           "name": "SCCMAPP-Validation.ps1",
           "href": "../migrations/sccm-application-migration-to-intune-win32/v1.0.0/scripts/SCCMAPP-Validation.ps1",
-          "kb": 3.4
+          "kb": 3.5
         }
       ],
       "Deliverables": [
@@ -14433,7 +14433,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../migrations/windows-firewall-gpo-to-intune-migration/v1.0.0/source/01-solution-overview.md",
-          "kb": 4.9
+          "kb": 5.0
         },
         {
           "name": "02-requirements.md",
@@ -14507,7 +14507,7 @@
         {
           "name": "FWMIG-Complete-Solution.zip",
           "href": "../migrations/windows-firewall-gpo-to-intune-migration/v1.0.0/deliverables/FWMIG-Complete-Solution.zip",
-          "kb": 85.2
+          "kb": 85.1
         },
         {
           "name": "FWMIG-hero.png",
@@ -14527,7 +14527,7 @@
         {
           "name": "FWMIG-Solution.docx",
           "href": "../migrations/windows-firewall-gpo-to-intune-migration/v1.0.0/deliverables/FWMIG-Solution.docx",
-          "kb": 49.7
+          "kb": 49.6
         },
         {
           "name": "FWMIG-Solution.pdf",
@@ -18831,7 +18831,7 @@
         {
           "name": "M365SEC-Solution.pdf",
           "href": "../security/microsoft-365-security-baseline-audit-readiness/v1.0.0/deliverables/M365SEC-Solution.pdf",
-          "kb": 39.5
+          "kb": 39.4
         }
       ],
       "Listing": [
@@ -18898,7 +18898,7 @@
         {
           "name": "01-solution-overview.md",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/source/01-solution-overview.md",
-          "kb": 3.9
+          "kb": 4.0
         },
         {
           "name": "02-requirements.md",
@@ -18945,17 +18945,17 @@
         {
           "name": "PURVIEW-Discovery.ps1",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/scripts/PURVIEW-Discovery.ps1",
-          "kb": 3.4
+          "kb": 3.5
         },
         {
           "name": "PURVIEW-Remediation.ps1",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/scripts/PURVIEW-Remediation.ps1",
-          "kb": 4.2
+          "kb": 4.3
         },
         {
           "name": "PURVIEW-Report.ps1",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/scripts/PURVIEW-Report.ps1",
-          "kb": 4.1
+          "kb": 4.2
         },
         {
           "name": "PURVIEW-Set-ScopeTargeting.ps1",
@@ -18972,7 +18972,7 @@
         {
           "name": "PURVIEW-Complete-Solution.zip",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/deliverables/PURVIEW-Complete-Solution.zip",
-          "kb": 87.9
+          "kb": 87.7
         },
         {
           "name": "PURVIEW-hero.png",
@@ -18997,7 +18997,7 @@
         {
           "name": "PURVIEW-Solution.pdf",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/deliverables/PURVIEW-Solution.pdf",
-          "kb": 45.3
+          "kb": 45.1
         }
       ],
       "Listing": [

@@ -48,7 +48,7 @@ All three unlock the same underlying hardware-bound key; biometrics are a conven
 - Hybrid (on-premises AD) access to file shares/printers requires **Microsoft Entra Kerberos** to be enabled.
 - Shared/kiosk multi-user scenarios need extra planning (not covered by the base solution).
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Microsoft Entra–joined devices, managed by Intune, using Cloud Kerberos Trust.**
@@ -58,5 +58,5 @@ This solution uses **one** model so the process is repeatable across our catalog
   Kerberos** once (a single script in this package) so WHfB users can reach on-premises resources.
 
 This avoids the complexity of the legacy **Certificate Trust** model (no PKI, NDES, or
-per-user certificates required). Every step follows the Phoenixtekk pattern:
+per-user certificates required). Every step follows the repeatable pattern:
 **Assess → Configure → Pilot → Validate → Expand.**

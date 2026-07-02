@@ -1,6 +1,6 @@
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -32,7 +32,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -49,4 +49,4 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**

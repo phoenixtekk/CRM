@@ -1,6 +1,6 @@
 # Executive Summary — Attack Surface Reduction (ASR) Rules (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Most malware uses the same handful of tricks: a macro spawning PowerShell, an email attachment
 launching an executable, credential theft from LSASS. **Attack Surface Reduction (ASR) rules**
@@ -23,7 +23,7 @@ An Intune **Attack Surface Reduction policy** with the high-value rules (block O
 processes, block credential theft from LSASS, block executable content from email, block obfuscated
 scripts, and more) — deployed **Audit-first**, reviewed, then moved to **Block**, with exclusions.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

@@ -47,6 +47,6 @@ Field-proven guidance to keep the deployment reliable, secure, and low-maintenan
 
 ## Security posture
 - **Combine with disk encryption** (FileVault) and a **macOS security baseline/compliance policy** for
-  a complete managed posture (separate Phoenixtekk solutions cover these).
+  a complete managed posture (separate solutions cover these).
 - **Limit local admin** and use Intune to manage privileged access; supervised + locked enrollment
   prevents users from quietly removing management.

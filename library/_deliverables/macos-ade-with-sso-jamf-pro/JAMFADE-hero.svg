@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">macOS Automated Device Enrollment with SSO (Jamf Pro + Intune) — product hero</title><desc id="d">Phoenixtekk Intune Solutions marketing banner.</desc>
+<title id="t">macOS Automated Device Enrollment with SSO (Jamf Pro + Intune) — product hero</title><desc id="d">Intune marketing banner.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="520" cy="480" rx="560" ry="400" fill="url(#glow)"/>
 <g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M1110 1051 H930 L960 1021 H880"/><path d="M120 1057 H300 L330 1007 H450"/><path d="M1110 946 H970 L1000 906 H920"/><path d="M1160 947 H980 L1010 917 H930"/><path d="M1060 962 H880 L910 932 H830"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="930" cy="1051" r="5"/><circle cx="960" cy="1021" r="5"/><circle cx="300" cy="1057" r="5"/><circle cx="330" cy="1007" r="5"/><circle cx="970" cy="946" r="5"/><circle cx="1000" cy="906" r="5"/><circle cx="980" cy="947" r="5"/><circle cx="1010" cy="917" r="5"/><circle cx="880" cy="962" r="5"/><circle cx="910" cy="932" r="5"/></g>
@@ -33,5 +33,5 @@
 <text x="745" y="1030">Hardware-bound key</text>
 <text x="1035" y="1030">Compliance enforced</text>
 </g></g>
-<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">PHOENIXTEKK&#160;&#160;·&#160;&#160;Intune Solutions&#160;&#160;·&#160;&#160;workplace.phoenixtekk.com</text>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune</text>
 </svg>

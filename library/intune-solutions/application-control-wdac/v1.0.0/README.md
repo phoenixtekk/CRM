@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-WDAC-NPO-001` | $1,497.00 |
 
 Kernel-enforced allowlisting via Intune App Control for Business — Audit-first, then Enforce, with recovery.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution application-control-wdac`

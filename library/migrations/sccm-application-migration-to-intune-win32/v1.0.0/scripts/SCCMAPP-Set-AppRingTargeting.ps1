@@ -16,7 +16,7 @@
         Both ring groups exist (created if missing) and their object IDs are printed; any supplied
         pilot device IDs are added to the pilot ring.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Migrations. Creates/updates Entra groups.
+    White-label — Migrations. Creates/updates Entra groups.
 #>
 [CmdletBinding()] param([string[]]$PilotDeviceIds)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

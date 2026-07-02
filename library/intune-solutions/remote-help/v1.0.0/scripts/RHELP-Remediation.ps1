@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         MDM sync requested; re-run RHELP-Validation.ps1 after the app delivers.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Remote Help Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

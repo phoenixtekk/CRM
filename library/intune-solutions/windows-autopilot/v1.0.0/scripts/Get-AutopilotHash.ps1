@@ -17,7 +17,7 @@
         in Intune to register the device for Autopilot.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Uses Microsoft's Get-WindowsAutopilotInfo.
+    White-label — Intune Solutions. Uses Microsoft's Get-WindowsAutopilotInfo.
 #>
 [CmdletBinding()]
 param([string]$OutFile = ".\AutopilotHWID.csv", [switch]$Append)

@@ -27,7 +27,7 @@ Microsoft Graph and the Jamf Pro API.
   Jamf-side readiness (Jamf Pro API: ADE/token, PreStage, SSO profile), and a one-shot Jamf Platform
   SSO profile builder.
 
-## The Phoenixtekk way
+## The repeatable way
 Buy once, deploy to unlimited devices, reuse the playbook. Every solution follows the same repeatable
 shape so each rollout is familiar and low-risk.
 

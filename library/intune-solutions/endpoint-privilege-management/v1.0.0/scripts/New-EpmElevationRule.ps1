@@ -23,7 +23,7 @@
         Elevation rules policy → Add. This script makes NO changes to the device or Intune.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

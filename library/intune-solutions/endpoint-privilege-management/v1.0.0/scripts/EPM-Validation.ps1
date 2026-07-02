@@ -19,7 +19,7 @@
         extension registered. If NOT PROVISIONED, run EPM-Remediation.ps1 and re-test.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only; makes no changes.
+    White-label — Intune Solutions. Read-only; makes no changes.
 #>
 [CmdletBinding()]
 param()

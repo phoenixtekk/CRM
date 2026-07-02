@@ -1,6 +1,6 @@
 # Executive Summary — Windows Hello for Business (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Passwords are the single largest attack surface in most organizations. They are phished,
 reused, sprayed, and stolen. **Windows Hello for Business (WHfB)** removes the password from
@@ -20,8 +20,8 @@ it is used, every configuration step is exact and in order, and every result is 
 - A **Testing Guide** that proves the rollout worked.
 - A **Troubleshooting Guide** for the issues that actually occur in the field.
 
-## The Phoenixtekk deployment model
-Every Phoenixtekk Intune solution follows the same shape: **Assess → Configure → Pilot →
+## The standard deployment model
+Every Intune solution follows the same shape: **Assess → Configure → Pilot →
 Validate → Expand.** You will recognize this pattern in every solution you buy from us, so
 each new deployment feels familiar and low-risk.
 

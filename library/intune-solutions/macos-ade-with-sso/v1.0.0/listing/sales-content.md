@@ -22,7 +22,7 @@ registered, SSO-enabled Mac — plus tested PowerShell (Microsoft Graph).
 - 5 PowerShell scripts: tenant-readiness discovery (with APNs/token expiry alarms), device
   validation, macOS fleet report, safe remediation, and a one-shot Platform SSO profile builder.
 
-## The Phoenixtekk way
+## The repeatable way
 Buy once, deploy to unlimited devices, reuse the playbook. Every solution follows the same repeatable
 shape so each rollout is familiar and low-risk.
 

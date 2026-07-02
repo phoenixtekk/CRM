@@ -71,7 +71,7 @@ and document why.
 - Provisioning-time apps that are very large extend the ESP wait; keep the blocking set lean.
 - White-glove / pre-provisioning is an advanced add-on and is not the focus of this solution.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Register devices → build the Autopilot profile (Entra join) → configure the ESP and provisioning-time
-> apps → validate the zero-touch flow on a pilot → expand. Phoenixtekk pattern:
+> apps → validate the zero-touch flow on a pilot → expand. repeatable pattern:
 > Assess → Configure → Pilot → Validate → Expand.

@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         MDM sync requested; device should re-evaluate enrollment/policies at next cycle.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Autopilot Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

@@ -18,7 +18,7 @@
 
 ## Deployment model
 Windows devices, Intune-managed, OneDrive configured via the **Settings Catalog** — Silent Sign-In
-+ Known Folder Move + Files On-Demand. Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand**.
++ Known Folder Move + Files On-Demand. repeatable pattern: **Assess → Configure → Pilot → Validate → Expand**.
 
 ## Next step
 Review the deliverables, then publish:

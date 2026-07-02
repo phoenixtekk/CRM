@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "WDAC ACTIVE (Audit)" or "WDAC ACTIVE (Enforced)"; "NO ACTIVE POLICY" if none.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== WDAC Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

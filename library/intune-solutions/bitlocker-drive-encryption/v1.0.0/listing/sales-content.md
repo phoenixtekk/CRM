@@ -10,7 +10,7 @@ Encryption with Microsoft Intune — silently encrypt every drive and escrow rec
 
 **Highlights:** Disk encryption policy (XTS-AES 256, OS + fixed drives, silent on TPM, Entra key escrow);
 click-by-click Intune steps; 5 PowerShell scripts incl. recovery-key retrieval; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 **Non-Profit:** Same package at 40% below commercial. Eligibility verification may be requested.
 

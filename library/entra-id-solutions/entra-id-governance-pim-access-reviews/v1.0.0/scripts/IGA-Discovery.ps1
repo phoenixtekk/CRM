@@ -14,7 +14,7 @@
         Counts of eligible vs active privileged assignments, a list of access reviews and access
         packages, and a break-glass (standing Global Administrator) callout.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Entra ID Solutions. Read-only against Graph.
+    White-label — Entra ID Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param()
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

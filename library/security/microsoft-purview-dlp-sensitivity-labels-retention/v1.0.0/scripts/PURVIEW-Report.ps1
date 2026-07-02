@@ -15,7 +15,7 @@
         A label inventory, a DLP location/mode matrix, and a per-workload count of DLP rule matches
         for the window, optionally exported to CSV.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Security Solutions. Read-only.
+    White-label — Security Solutions. Read-only.
     Uses Get-Label / Get-DlpCompliancePolicy and Search-UnifiedAuditLog (DLPRuleMatch).
 #>
 [CmdletBinding()] param(

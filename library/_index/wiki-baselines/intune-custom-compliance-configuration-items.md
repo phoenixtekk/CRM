@@ -11,7 +11,7 @@
 
 # Executive Summary — Intune Custom Compliance & Configuration Items (Scripted)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Intune's built-in compliance settings cover the basics — encryption, OS version, password — but
 real security standards go further: a specific registry value, a minimum app version, a control the
@@ -41,7 +41,7 @@ settings mapping, upload it as a custom compliance policy, add any scripted conf
 assign to a pilot, validate evaluation and the Conditional Access effect, then expand — so device
 state is measured and enforced exactly the way your standards require.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -112,10 +112,10 @@ correct; custom compliance proves it.
 - Scripts should be **signed** (or execution policy allowed) per your standards; treat detection
   scripts as code you review and control.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Author the detection script + JSON rule → add scripted config items → upload + create the custom
 > compliance policy → assign to a pilot → validate evaluation and the Conditional Access effect →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -184,7 +184,7 @@ Implement: Create a Conditional Access policy requiring a compliant device (star
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -214,7 +214,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -231,7 +231,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -522,7 +522,7 @@ after a policy cycle, collect the IntuneManagementExtension logs and open a Micr
 ## What the buyer receives
 - This implementation guide as a branded Word document and PDF.
 - All five PowerShell scripts in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Device state measured and enforced to your standards — scripted detection + JSON rules and config

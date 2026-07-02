@@ -74,8 +74,8 @@ secret has a short, bounded life.
 - This governs Entra app permissions and consent; it does not replace a full third-party SaaS
   security review of what each vendor does with the access.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Inventory apps and service principals -> review permissions and consent for over-privilege ->
 > configure the user-consent policy and admin-consent workflow on a pilot scope -> validate ->
-> remediate risky grants and manage credential expiry -> expand tenant-wide. Phoenixtekk pattern:
+> remediate risky grants and manage credential expiry -> expand tenant-wide. repeatable pattern:
 > Assess -> Configure -> Pilot -> Validate -> Expand.

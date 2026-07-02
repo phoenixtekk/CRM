@@ -31,7 +31,7 @@ devices with a TPM, and every **recovery key is escrowed to Microsoft Entra ID**
 - The first full encryption takes time (used-space-only is faster); plan pilot timing.
 - Self-encrypting drives / certain firmware quirks may need hardware-specific handling.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create the disk encryption policy → require XTS-AES 256 + Entra key escrow + silent enablement
-> → assign to a pilot → validate encryption + key escrow → expand.** Phoenixtekk pattern:
+> → assign to a pilot → validate encryption + key escrow → expand.** repeatable pattern:
 > **Assess → Configure → Pilot → Validate → Expand.**

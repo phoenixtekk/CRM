@@ -1,6 +1,6 @@
 # Executive Summary — BitLocker Drive Encryption (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 A laptop left in a taxi is only a breach if its drive is readable. **BitLocker** encrypts the
 whole disk so a lost or stolen device exposes nothing — and managed through Microsoft Intune, it
@@ -22,7 +22,7 @@ An Intune **disk encryption policy** that requires **XTS-AES 256** encryption of
 fixed) drives, **silently** on TPM devices, with **recovery keys automatically saved to Entra ID**
 and full encryption reporting.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

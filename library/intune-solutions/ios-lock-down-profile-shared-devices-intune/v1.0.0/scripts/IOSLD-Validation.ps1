@@ -21,7 +21,7 @@
         A device summary plus per-check PASS/FAIL and an overall GATE verdict for the model.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

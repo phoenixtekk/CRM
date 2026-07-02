@@ -15,7 +15,7 @@
         Counts and lists for: stale records, duplicate serials, missing primary user, and
         expected-but-not-enrolled — plus an optional reconciliation CSV.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param(
     [string]$ExpectedCsv,

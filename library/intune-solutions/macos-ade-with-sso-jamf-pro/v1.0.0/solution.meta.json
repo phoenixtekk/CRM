@@ -10,7 +10,7 @@
   "updated": "2026-06-15",
   "published_at": "2026-06-15",
   "version_directive": "New",
-  "branding": "on",
+  "branding": "off",
   "author_notes": [
     "This solution much support with Jamf Pro Integration for MacOS device management.",
     "Separate solution from macos-ade-with-sso (Intune-MDM): similar title, different architecture -> distinct product per the solution-identity rule."
@@ -39,3 +39,4 @@
   "wiki_path": "solutions/intune-solutions/macos-ade-with-sso-jamf-pro",
   "wiki_published": true
 }
+

@@ -11,7 +11,7 @@
 
 # Executive Summary — Secure Mobile Access to SharePoint Online under MAM (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 A SharePoint Online intranet that works fine on a laptop can fall apart on a phone the moment
 Mobile Application Management (MAM) is in play: employees get blocked or bounced, links open in the
@@ -42,7 +42,7 @@ App Protection Policies and Conditional Access aligned so mobile users on the su
 data stays protected — with unmanaged browsers steered onto the supported path rather than left to
 fail, and the routing decision made deliberately.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
@@ -156,10 +156,10 @@ START: user reports the SharePoint Online intranet won't load on mobile
       • No, and Q1–Q5 all clean → escalate with Sign-in log correlation ID (Troubleshooting G).
 ```
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Define the App Protection Policies (SharePoint app + Edge) → build the Conditional Access grant
 > for Office 365 → confirm and steer users to the supported access path → validate on a pilot →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -252,7 +252,7 @@ for MAM solution instead.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level so individual listings stay small.
 Confirm these before deploying *any* Intune solution. Each entry: **Description · Why · Verify · Implement-if-missing.**
 
@@ -282,7 +282,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted before fleet rollout.
+**Why:** Every solution is piloted before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists.
 **Implement:** Entra → **Groups → New group** → **Security** → add members.
 
@@ -299,7 +299,7 @@ Confirm these before deploying *any* Intune solution. Each entry: **Description 
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -612,7 +612,7 @@ the Sign-in log entry and open a Microsoft support case.
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Reliable, protected mobile access to a SharePoint Online intranet under MAM — App Protection and

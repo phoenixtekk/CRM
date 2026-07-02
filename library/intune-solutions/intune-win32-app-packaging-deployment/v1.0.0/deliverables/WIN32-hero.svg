@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">Intune Win32 Application Packaging &amp; Deployment — product hero</title><desc id="d">Intune Solutions marketing banner.</desc>
+<title id="t">Intune Win32 Application Packaging &amp; Deployment — product hero</title><desc id="d">Intune marketing banner.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="680" cy="480" rx="640" ry="400" fill="url(#glow)"/>
 <g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M1160 142 H1020 L1050 172 H970"/><path d="M120 217 H300 L330 247 H410"/><path d="M1110 259 H1010 L1040 289 H960"/><path d="M1110 1018 H1010 L1040 988 H960"/><path d="M1110 214 H1010 L1040 254 H920"/><path d="M1060 937 H920 L950 887 H870"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="1020" cy="142" r="5"/><circle cx="1050" cy="172" r="5"/><circle cx="300" cy="217" r="5"/><circle cx="330" cy="247" r="5"/><circle cx="1010" cy="259" r="5"/><circle cx="1040" cy="289" r="5"/><circle cx="1010" cy="1018" r="5"/><circle cx="1040" cy="988" r="5"/><circle cx="1010" cy="214" r="5"/><circle cx="1040" cy="254" r="5"/><circle cx="920" cy="937" r="5"/><circle cx="950" cy="887" r="5"/></g>
@@ -33,5 +33,5 @@
 <text x="745" y="1030">Ordered installs</text>
 <text x="1035" y="1030">Safe rollout</text>
 </g></g>
-<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune Solutions</text>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune</text>
 </svg>

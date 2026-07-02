@@ -19,7 +19,7 @@
         OneDrive client present, AzureAdJoined = YES, and adequate free disk.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only; makes no changes.
+    White-label — Intune Solutions. Read-only; makes no changes.
 #>
 [CmdletBinding()]
 param([string]$CsvPath)

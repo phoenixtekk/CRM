@@ -1,6 +1,6 @@
 # 8. Deliverables Summary — Windows Hello for Business
 
-Everything included in this Phoenixtekk solution package.
+Everything included in this solution package.
 
 ## Documentation
 | Document | Purpose |
@@ -26,7 +26,7 @@ Everything included in this Phoenixtekk solution package.
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process that follows the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand.**
+- A repeatable process that follows the repeatable model: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome
 Phishing-resistant, passwordless sign-in on Microsoft Entra–joined Windows devices, deployable

@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         A table of GUID, rule name, and the current local action.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 $rules = [ordered]@{

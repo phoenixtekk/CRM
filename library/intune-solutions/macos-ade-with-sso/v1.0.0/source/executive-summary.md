@@ -18,7 +18,7 @@ written so a single administrator can follow it end to end:
 - **Conditional Access ready.** Enrolled, compliant, Entra-registered Macs become first-class
   citizens in your Zero Trust model.
 
-The package follows the standard Phoenixtekk shape — **Assess → Configure → Pilot → Validate →
+The package follows the standard repeatable shape — **Assess → Configure → Pilot → Validate →
 Expand** — with exact, click-by-click Intune steps, a requirements guide that tells you how to
 verify *and* fix each prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and
 testing/troubleshooting guides with clear pass/fail gates.

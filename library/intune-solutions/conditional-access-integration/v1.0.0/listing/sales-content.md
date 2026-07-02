@@ -10,7 +10,7 @@ integrated with Microsoft Intune — require compliant devices and MFA, block le
 
 **Highlights:** Baseline CA policies (compliant device, MFA, block legacy auth, app protection);
 break-glass safety; Report-only piloting; 5 PowerShell scripts; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 **Non-Profit:** Same package at 40% below commercial. Eligibility verification may be requested.
 

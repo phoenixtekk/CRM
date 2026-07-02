@@ -1,5 +1,5 @@
 <svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
-<title id="t">Dual-Device (Personal + Corporate) Management with Single Sign-On in Microsoft Intune — product hero</title><desc id="d">Phoenixtekk Intune Solutions marketing banner.</desc>
+<title id="t">Dual-Device (Personal + Corporate) Management with Single Sign-On in Microsoft Intune — product hero</title><desc id="d">Intune marketing banner.</desc>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="600" cy="540" rx="560" ry="320" fill="url(#glow)"/>
 <g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M70 132 H210 L240 162 H320"/><path d="M70 944 H250 L280 914 H400"/><path d="M120 292 H260 L290 322 H440"/><path d="M40 946 H220 L250 906 H370"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="210" cy="132" r="5"/><circle cx="240" cy="162" r="5"/><circle cx="250" cy="944" r="5"/><circle cx="280" cy="914" r="5"/><circle cx="260" cy="292" r="5"/><circle cx="290" cy="322" r="5"/><circle cx="220" cy="946" r="5"/><circle cx="250" cy="906" r="5"/></g>
@@ -33,5 +33,5 @@
 <text x="745" y="1030">IT owns it end-to-end</text>
 <text x="1035" y="1030">Data, not the device</text>
 </g></g>
-<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">PHOENIXTEKK&#160;&#160;·&#160;&#160;Intune Solutions&#160;&#160;·&#160;&#160;workplace.phoenixtekk.com</text>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Intune</text>
 </svg>

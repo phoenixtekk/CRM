@@ -16,7 +16,7 @@ passwordless sign-in — implementable by a single administrator in a controlled
 **Full description (highlights)**
 - Replace passwords with phishing-resistant, passwordless sign-in using **Cloud Kerberos Trust** (no PKI/NDES/certs).
 - Includes: Executive Summary, Solution Overview, Requirements Guide, click-by-click Implementation Guide, 5 PowerShell scripts, Testing Guide, Troubleshooting Guide, Best Practices.
-- Built on the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+- Built on the repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 - Value: fewer password resets, stronger Zero Trust/compliance posture, better user experience.
 - Delivered as branded Word + PDF and a scripts ZIP.
 

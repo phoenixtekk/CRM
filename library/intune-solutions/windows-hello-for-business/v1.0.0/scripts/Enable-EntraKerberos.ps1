@@ -23,7 +23,7 @@
         (or confirms) the Azure AD Kerberos server object for the domain, and prints its state.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
     Wraps Microsoft's Set-/Get-AzureADKerberosServer cmdlets with safe checks and clear output.
 #>
 [CmdletBinding(SupportsShouldProcess = $true)]

@@ -37,6 +37,6 @@ solution manages it through Microsoft Intune.
 - Custom XML policies are advanced; this solution favors the **managed-installer + ISG** model for most fleets.
 - Recovery from an over-strict enforced policy is via removing/replacing the policy (covered here).
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Create the App Control policy in Audit → review Code Integrity events → add trust → Enforce →
-> expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

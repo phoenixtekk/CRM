@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         A summary of join state and SSO; use it to predict how CA "device" controls will treat the device.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Conditional Access — device state ($($env:COMPUTERNAME)) ===" -ForegroundColor Cyan

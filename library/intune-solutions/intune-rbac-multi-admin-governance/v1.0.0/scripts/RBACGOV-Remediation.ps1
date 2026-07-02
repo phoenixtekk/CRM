@@ -16,7 +16,7 @@
         no-scope-tag assignment receives $ScopeTagId. Always run RBACGOV-Validation.ps1 afterward.
         Keep a break-glass admin excluded from the gate so you never lock yourself out.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Defaults to -WhatIf (no changes).
+    White-label — Intune Solutions. Defaults to -WhatIf (no changes).
 #>
 [CmdletBinding()] param(
     [Parameter(Mandatory)][string]$ScopeTagId,   # the roleScopeTag id to apply to unbounded assignments

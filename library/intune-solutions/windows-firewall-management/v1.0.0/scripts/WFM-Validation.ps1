@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "FIREWALL OK" when all three profiles are enabled with inbound Block / outbound Allow.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Firewall Validation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

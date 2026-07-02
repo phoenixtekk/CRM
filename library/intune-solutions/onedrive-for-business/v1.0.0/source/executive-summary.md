@@ -1,6 +1,6 @@
 # Executive Summary — OneDrive for Business (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 When files live only on a laptop, one lost, stolen, or wiped device means lost work — and a
 ransomware hit can take a whole team offline. **OneDrive for Business** turns every user's
@@ -25,8 +25,8 @@ configuration step is exact and in order, and every result is testable.
 2. **Known Folder Move (KFM)** — Desktop, Documents, and Pictures are redirected into OneDrive and backed up automatically.
 3. **Files On-Demand** — files appear locally but download only when opened, saving disk space.
 
-## The Phoenixtekk deployment model
-Every Phoenixtekk Intune solution follows the same shape: **Assess → Configure → Pilot →
+## The standard deployment model
+Every Intune solution follows the same shape: **Assess → Configure → Pilot →
 Validate → Expand.** Repeat buyers recognize the pattern, so each new deployment feels familiar.
 
 ## Outcome

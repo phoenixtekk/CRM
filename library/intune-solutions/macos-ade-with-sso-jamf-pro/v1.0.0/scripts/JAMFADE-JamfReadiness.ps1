@@ -25,7 +25,7 @@
         an advisory (verify in Jamf → Settings → Global → Push certificates).
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Uses the Jamf Pro API (bearer
+    White-label — Intune Solutions. Read-only. Uses the Jamf Pro API (bearer
     token) and the Classic API (osxconfigurationprofiles) for the SSO-profile check.
 #>
 [CmdletBinding(DefaultParameterSetName='Cred')]

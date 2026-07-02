@@ -64,7 +64,7 @@ All objects follow `<Purpose> – <Scope> – <Stage>` and are reused verbatim t
   `Firewall Rules – Migrated Outbound – Pilot` (and the Broad equivalents).
 - Migration rings: `Migration Ring – Pilot`, `Migration Ring – Wave 1`, `Migration Ring – Broad`.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > Assess (inventory GPO firewall rules) → Configure (translate to Intune policy + rules,
 > set coexistence) → Pilot (`Migration Ring – Pilot`) → Validate (rule parity + connectivity) →
-> Expand (waves, then retire GPO). Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+> Expand (waves, then retire GPO). repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

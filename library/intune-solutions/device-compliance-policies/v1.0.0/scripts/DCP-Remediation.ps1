@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         Firewall/Defender re-enabled where off; MDM sync requested; re-run DCP-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param()
 Write-Host "=== Compliance Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

@@ -10,7 +10,7 @@
     EXPECTED RESULTS
         "BASELINE APPLIED (sample)" when the sampled settings match hardened expectations.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only. Authoritative status is in Intune per-setting report.
+    White-label — Intune Solutions. Read-only. Authoritative status is in Intune per-setting report.
 #>
 [CmdletBinding()] param()
 Write-Host "=== Baseline Validation (sample) — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

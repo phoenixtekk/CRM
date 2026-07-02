@@ -13,7 +13,7 @@
         In preview, the actions it would take. When applied, an MDM sync is requested; re-run
         CUSTCOMP-Report.ps1 / check the portal after a policy cycle.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Default -WhatIf.
+    White-label — Intune Solutions. Default -WhatIf.
 #>
 [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='Medium')]
 param()

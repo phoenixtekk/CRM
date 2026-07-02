@@ -38,10 +38,10 @@ The user simply works as normal in Desktop/Documents/Pictures; everything is bac
 - Known Folder Move covers Desktop/Documents/Pictures — not arbitrary custom folders.
 - Some line-of-business apps that hardcode local paths may need testing against redirected folders.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Windows devices, Intune-managed, OneDrive configured via the Settings Catalog**
 > (Silent Sign-In + Known Folder Move + Files On-Demand), assigned to a pilot group first.
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

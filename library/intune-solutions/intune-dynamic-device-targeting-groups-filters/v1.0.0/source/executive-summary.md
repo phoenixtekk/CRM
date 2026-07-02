@@ -1,6 +1,6 @@
 # Executive Summary — Dynamic Device Targeting in Intune (Dynamic Groups & Filters)
 
-Phoenixtekk Workplace Marketplace · Intune Solutions
+White-label · Intune Solutions
 
 As a fleet grows, assigning policies and apps to hand-built static groups stops scaling: new
 devices miss policy, membership drifts, and admins burn hours maintaining lists. The modern answer
@@ -30,7 +30,7 @@ auto-include devices by attribute) and assignment filters (include/exclude by OS
 or enrollment profile at assignment time) — so policies and apps reach exactly the right devices
 automatically and stay correct as the fleet changes, validated on a pilot before broad use.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 Assess -> Configure -> Pilot -> Validate -> Expand.
 
 ## Outcome

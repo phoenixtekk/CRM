@@ -15,7 +15,7 @@
         "DEPLOYMENT SUCCEEDED" (exit 0) when the device's latest result is success (11127),
         or a collection status breakdown; "NOT SUCCEEDED" (exit 1) if a failure is still present.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Infrastructure Solutions. Read-only.
+    White-label — Infrastructure Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

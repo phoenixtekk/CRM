@@ -11,7 +11,7 @@
 
 # Executive Summary — Azure Security Baseline & Governance (Microsoft Azure)
 
-**Phoenixtekk Workplace Marketplace · Azure Solutions**
+**White-label · Azure Solutions**
 
 An Azure subscription without governance drifts fast: over-privileged owners, public storage, unencrypted resources, and no consistent baseline — exactly what Defender for Cloud and auditors flag. This solution puts **guardrails** around Azure so secure configuration, least privilege, and a consistent baseline are the default the platform enforces, not something an admin has to remember.
 
@@ -27,7 +27,7 @@ This is a complete, **deploy-it-today** package for standing up an Azure securit
 ## What this delivers
 **Azure Policy** guardrail initiatives assigned **audit-then-deny** (require encryption, block public storage, allowed locations and SKUs), **RBAC** tightened to least privilege with custom roles and no standing Owner, a **secure-configuration baseline** applied estate-wide, and **Microsoft Defender for Cloud** measuring and improving secure score and regulatory compliance — all proven on a pilot scope first.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
 
 ## Outcome
@@ -67,8 +67,8 @@ An Azure subscription without governance drifts fast. Owners accumulate standing
 - Tightening RBAC can break automation or people who relied on standing privilege — this is exactly why the model pilots on a narrow scope first and keeps a rollback.
 - Governance reduces risk; it does not replace patching, backup, or workload-specific security controls.
 
-## The standard Phoenixtekk deployment model
-> **Define scope (management groups/subscriptions) → assign guardrail initiatives in audit → tighten RBAC to least privilege → apply the secure-config baseline → enable Defender for Cloud and remediate top findings → validate on a pilot scope → move guardrails to deny → expand.** Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand**, with an **audit-before-deny gate** and a documented rollback.
+## The standard deployment model
+> **Define scope (management groups/subscriptions) → assign guardrail initiatives in audit → tighten RBAC to least privilege → apply the secure-config baseline → enable Defender for Cloud and remediate top findings → validate on a pilot scope → move guardrails to deny → expand.** repeatable pattern: **Assess → Configure → Pilot → Validate → Expand**, with an **audit-before-deny gate** and a documented rollback.
 
 
 ---
@@ -395,7 +395,7 @@ If the assignment is present at the correct scope, the provider is registered, a
 ## What the buyer receives
 - This implementation guide as a branded **Word** document and **PDF**.
 - All five **PowerShell scripts** in a single ZIP.
-- A repeatable process following the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
+- A repeatable process following the repeatable model: **Assess → Configure → Pilot → Validate → Expand** — with an audit-before-deny gate and a documented rollback.
 
 ## Outcome
 Azure under governance — policy guardrails preventing misconfiguration, RBAC at least privilege, a secure-config baseline applied, and Defender for Cloud posture improving — proven on a pilot scope before you scale.

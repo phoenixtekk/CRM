@@ -32,7 +32,7 @@ can use to allow or block access to Microsoft 365 and other apps.
 - A grace period means a freshly noncompliant device isn't blocked instantly (by design).
 - Devices without any assigned policy are treated per your tenant default — set it deliberately.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 > **Set the no-policy default → create the compliance policy → configure actions → assign to a
 > pilot group → (optionally) require compliance in Conditional Access.**
-Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

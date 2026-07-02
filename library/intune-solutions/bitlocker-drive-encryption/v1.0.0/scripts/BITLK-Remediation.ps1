@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         A recovery protector exists and is escrowed to Entra; protection resumed. Re-run BITLK-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param([switch]$StartEncryption)
 $mp = $env:SystemDrive

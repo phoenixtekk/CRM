@@ -33,5 +33,6 @@
   "hero": "EPM-hero.png",
   "wiki_path": "solutions/intune-solutions/endpoint-privilege-management",
   "wiki_published": true,
-  "branding": "on"
+  "branding": "off"
 }
+

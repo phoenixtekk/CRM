@@ -17,7 +17,7 @@ device, while IT applies the **right level of control to each** based on who own
   and **Conditional Access** grants access from a compliant company device *or* a protected app on a
   personal one.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.

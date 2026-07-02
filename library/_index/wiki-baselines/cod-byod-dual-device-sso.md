@@ -1,6 +1,6 @@
 # Dual-Device (Personal + Corporate) Management with Single Sign-On in Microsoft Intune
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: DUALDEV
+> **Version 1.0.0** · Category: Intune · Solution code: DUALDEV
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -31,7 +31,7 @@ applies the **right level of control to each** based on who owns it.
   targeting** routes the correct policy to each device automatically, and **Conditional Access** grants
   access from their compliant company device *or* a protected app on their personal one.
 
-Built the standard Phoenixtekk way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
+Built the standard repeatable way — **Assess → Configure → Pilot → Validate → Expand** — with exact,
 click-by-click Intune steps, a requirements guide that tells you how to verify *and* fix each
 prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph), and testing/troubleshooting
 guides with clear pass/fail gates.
@@ -130,10 +130,10 @@ called out as an option.
 - BYOD users must use the **managed/approved apps** (e.g. Outlook, Edge, Teams) to get corporate data;
   built-in personal mail/browser apps are blocked from corporate data by design.
 - COD zero-touch provisioning (Autopilot/ADE/Android Enterprise) is referenced but each platform's
-  full enrollment is covered by its own Phoenixtekk solution; this solution unifies the **model**.
+  full enrollment is covered by its own solution; this solution unifies the **model**.
 - A user signing in on a brand-new device enrolls/registers that device the first time.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **One Microsoft Entra identity per user, signed in across that user's two devices with single
@@ -141,7 +141,7 @@ This solution uses **one** model so the process is repeatable across our catalog
 > (MAM); ownership-based targeting routes the right policy to each; a single Conditional Access policy
 > governs access from both.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -241,7 +241,7 @@ device type — the mechanism that makes "one account, both devices" work cleanl
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -273,7 +273,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -290,7 +290,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -357,7 +357,7 @@ at `https://entra.microsoft.com` unless noted.
 2. **Assignments:** assign to **PILOT – COD-BYOD Users**, **Include** the **Corporate Devices** filter.
 
 *(Zero-touch corporate enrollment — Windows Autopilot, Apple ADE, Android Enterprise corporate — is
-each covered by its own Phoenixtekk solution; plug those in for fully automated COD provisioning.)*
+each covered by its own solution; plug those in for fully automated COD provisioning.)*
 
 ---
 

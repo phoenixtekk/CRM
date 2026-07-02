@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         Per policy: EXCLUDED (good) or NOT EXCLUDED (fix before enforcing).
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    White-label — Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([Parameter(Mandatory)][string[]]$Upns)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

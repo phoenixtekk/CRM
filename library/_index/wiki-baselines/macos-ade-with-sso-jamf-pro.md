@@ -1,6 +1,6 @@
 # macOS Automated Device Enrollment with SSO (Jamf Pro + Intune)
 
-> **Version 1.0.0** · Category: Intune Solutions · Solution code: JAMFADE
+> **Version 1.0.0** · Category: Intune · Solution code: JAMFADE
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -36,7 +36,7 @@ single, repeatable deployment a Mac admin can follow end to end:
   registered Mac (and, optionally, a phishing-resistant authentication strength) before granting
   access to Microsoft 365 — turning Platform SSO from "available" into **mandatory**.
 
-The package follows the standard Phoenixtekk shape — **Assess → Configure → Pilot → Validate →
+The package follows the standard repeatable shape — **Assess → Configure → Pilot → Validate →
 Expand** — with exact, click-by-click steps across both consoles, a requirements guide that tells you
 how to verify *and* fix each prerequisite, five ready-to-run PowerShell scripts (Microsoft Graph and
 the Jamf Pro API), and testing/troubleshooting guides with clear pass/fail gates.
@@ -134,7 +134,7 @@ This solution standardizes on the **Secure Enclave key** method, with notes for 
   and steps in the Jamf and Microsoft documentation before connecting.
 - Personally-owned (BYO) Macs use a different (user-enrollment) path and are out of scope here.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **Company-owned, Apple Business Manager–sourced Macs, automatically enrolled into Jamf Pro
@@ -142,7 +142,7 @@ This solution uses **one** model so the process is repeatable across our catalog
 > Intune Device Compliance integration, with Platform SSO via the Microsoft Enterprise SSO extension
 > and a Secure Enclave key, and SSO enforced by Entra Conditional Access.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -284,7 +284,7 @@ push/enrollment.
 
 # Global Requirements — Intune Solutions (category-level)
 
-These requirements apply to **every** Phoenixtekk solution in the **Intune Solutions**
+These requirements apply to **every** solution in the **Intune Solutions**
 category. They are published once at the category level on the marketplace so individual
 solution listings stay small. Confirm these are in place before deploying *any* Intune solution.
 
@@ -316,7 +316,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 ## G5. Pilot security group
 **Description:** A Microsoft Entra security group for pilot/targeted users or devices.
-**Why:** Every Phoenixtekk solution is piloted to a small group before fleet rollout.
+**Why:** Every solution is piloted to a small group before fleet rollout.
 **Verify:** Entra → **Groups**; the pilot group exists with intended members.
 **Implement:** Entra → **Groups → New group** → type **Security** → add pilot members.
 
@@ -333,7 +333,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 **Implement:** Allow Microsoft's published Office 365/Intune URL & IP ranges (and Apple's published ranges where applicable) through proxy/firewall.
 
 ---
-**The Phoenixtekk deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
+**The standard deployment model (all solutions):** **Assess → Configure → Pilot → Validate → Expand.**
 
 
 ---
@@ -343,7 +343,7 @@ Each entry: **Description · Why required · How to verify · How to implement i
 
 Follow these steps **in order**. The *why* for each capability lives in the Solution Overview; the
 steps below are deliberately short and exact so you can **click to implement**. Throughout, the
-Phoenixtekk pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
+repeatable pattern applies: **Assess → Configure → Pilot → Validate → Expand.** Do everything
 against a **pilot group / pilot Smart Group** first.
 
 Consoles used:

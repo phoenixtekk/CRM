@@ -1,6 +1,6 @@
 # Executive Summary — SCCM Application Migration to Intune Win32 (Repackaging)
 
-**Phoenixtekk Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 Moving software delivery off Configuration Manager means every SCCM application — with its detection
 method, requirements, dependencies, and deployment types — has to be repackaged as an Intune Win32
@@ -28,7 +28,7 @@ with matching detection, requirements, dependencies, and assignments; SCCM keeps
 coexistence until each app is proven; and the SCCM deployment is retired ring by ring only after
 Intune is validated.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

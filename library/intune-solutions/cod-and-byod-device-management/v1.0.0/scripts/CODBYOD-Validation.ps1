@@ -17,7 +17,7 @@
         Corporate (compliant) device and one Personal device under a single UPN.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only.
+    White-label — Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

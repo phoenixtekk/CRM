@@ -12,7 +12,7 @@
   "wiki_path": "solutions/intune-solutions/ios-iphone-shared-device-mode",
   "wiki_published": true,
   "version_directive": "New",
-  "branding": "on",
+  "branding": "off",
   "author_notes": [
     "The solution must enable shared devices in Lock down mode, Organization accounts used for login. Devices should be able to be enrolled via the Device Enrollment Manager accounts. The iOS iPhone devices should be provisioned with the Cisco WebEx App for making calls.",
     "New standalone Intune Solutions product. Scope: shared (non-personal) iOS iPhones enrolled WITHOUT user affinity via a Device Enrollment Manager (DEM) account, supervised via ABM+ADE, locked down with a kiosk profile to the Cisco Webex app for calling; staff sign into Webex with a shared organization account."
@@ -39,3 +39,4 @@
   ],
   "hero": "IOSSDM-hero.png"
 }
+

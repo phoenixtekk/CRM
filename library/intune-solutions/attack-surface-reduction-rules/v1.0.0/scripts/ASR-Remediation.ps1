@@ -11,7 +11,7 @@
     EXPECTED RESULTS
         Real-time protection on; MDM sync requested. Re-run ASR-Validation.ps1.
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions.
+    White-label — Intune Solutions.
 #>
 [CmdletBinding(SupportsShouldProcess=$true)] param()
 Write-Host "=== ASR Remediation — $($env:COMPUTERNAME) ===" -ForegroundColor Cyan

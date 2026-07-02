@@ -8,6 +8,6 @@
 | Non-Profit | `PTK-ASR-NPO-001` | $1,497.00 |
 
 Behavior-based malware prevention via Intune ASR rules — Audit-first, then Block.
-Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 
 **Publish:** `/publish-solution attack-surface-reduction-rules`

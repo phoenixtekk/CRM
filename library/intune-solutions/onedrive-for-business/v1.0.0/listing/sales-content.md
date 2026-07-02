@@ -16,7 +16,7 @@ implementable by a single administrator in a controlled pilot within a day.
 **Full description (highlights)**
 - Three capabilities: **Silent Sign-In**, **Known Folder Move**, **Files On-Demand** — configured via the Intune Settings Catalog.
 - Includes: Executive Summary, Solution Overview, Requirements Guide, click-by-click Implementation Guide, 5 PowerShell scripts, Testing Guide, Troubleshooting Guide, Best Practices.
-- Built on the Phoenixtekk model: **Assess → Configure → Pilot → Validate → Expand**.
+- Built on the repeatable model: **Assess → Configure → Pilot → Validate → Expand**.
 - Value: ransomware/device-loss resilience, file roaming, fewer lost-file tickets, disk-efficient sync.
 - Delivered as branded Word + PDF and a scripts ZIP.
 

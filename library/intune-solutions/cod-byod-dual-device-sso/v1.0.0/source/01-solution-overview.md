@@ -84,10 +84,10 @@ called out as an option.
 - BYOD users must use the **managed/approved apps** (e.g. Outlook, Edge, Teams) to get corporate data;
   built-in personal mail/browser apps are blocked from corporate data by design.
 - COD zero-touch provisioning (Autopilot/ADE/Android Enterprise) is referenced but each platform's
-  full enrollment is covered by its own Phoenixtekk solution; this solution unifies the **model**.
+  full enrollment is covered by its own solution; this solution unifies the **model**.
 - A user signing in on a brand-new device enrolls/registers that device the first time.
 
-## The standard Phoenixtekk deployment model
+## The standard deployment model
 This solution uses **one** model so the process is repeatable across our catalog:
 
 > **One Microsoft Entra identity per user, signed in across that user's two devices with single
@@ -95,4 +95,4 @@ This solution uses **one** model so the process is repeatable across our catalog
 > (MAM); ownership-based targeting routes the right policy to each; a single Conditional Access policy
 > governs access from both.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**

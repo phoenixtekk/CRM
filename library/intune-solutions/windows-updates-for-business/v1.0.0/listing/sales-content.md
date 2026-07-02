@@ -10,7 +10,7 @@ version, and a zero-day expedite button — deploy it yourself with self-guided,
 
 **Highlights:** Pilot + Broad update rings, feature update profile (pin the OS version), expedite
 for zero-days, Delivery Optimization, fleet reporting; 5 PowerShell scripts; testing & troubleshooting.
-Phoenixtekk model: Assess → Configure → Pilot → Validate → Expand.
+repeatable model: Assess → Configure → Pilot → Validate → Expand.
 
 ## Why a packaged solution instead of hourly consulting?
 - **One fixed, transparent price — not an open meter.** A comparable consulting engagement runs **$1,500–$3,000/day over several days**.

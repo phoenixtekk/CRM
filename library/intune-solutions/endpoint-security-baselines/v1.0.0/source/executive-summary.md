@@ -1,6 +1,6 @@
 # Executive Summary — Endpoint Security Baselines (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Hardening Windows by hand means choosing among hundreds of security settings — and getting some
 wrong. **Security Baselines** in Microsoft Intune apply Microsoft's own recommended, pre-configured
@@ -23,7 +23,7 @@ A deployed **Security Baseline for Windows** (and optionally the **Microsoft Def
 and **Microsoft Edge** baselines), assigned to a pilot, with a clear process to **review per-setting
 status, detect conflicts, and version-update** the baseline over time.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

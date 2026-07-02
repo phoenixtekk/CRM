@@ -1,6 +1,6 @@
 # Executive Summary — Secure Mobile Access to SharePoint Online under MAM (Microsoft Intune)
 
-**Phoenixtekk Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 A SharePoint Online intranet that works fine on a laptop can fall apart on a phone the moment
 Mobile Application Management (MAM) is in play: employees get blocked or bounced, links open in the
@@ -31,7 +31,7 @@ App Protection Policies and Conditional Access aligned so mobile users on the su
 data stays protected — with unmanaged browsers steered onto the supported path rather than left to
 fail, and the routing decision made deliberately.
 
-## The Phoenixtekk deployment model
+## The standard deployment model
 **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Outcome

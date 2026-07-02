@@ -59,7 +59,7 @@ This solution uses **one** model so the process is repeatable across our catalog
 > and signed into Webex with a shared organization account — assigned once to a single shared-device
 > group and rolled out pilot-first.**
 
-Every step follows the Phoenixtekk pattern: **Assess → Configure → Pilot → Validate → Expand.**
+Every step follows the repeatable pattern: **Assess → Configure → Pilot → Validate → Expand.**
 
 ## Benefits
 - **Interchangeable handsets** — no device belongs to anyone; any staff member can grab any phone and

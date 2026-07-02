@@ -17,7 +17,7 @@
         devices, a Kerberos TGT is listed after first resource access.
 
 .NOTES
-    Phoenixtekk Workplace Marketplace — Intune Solutions. Read-only; makes no changes.
+    White-label — Intune Solutions. Read-only; makes no changes.
 #>
 [CmdletBinding()]
 param()
