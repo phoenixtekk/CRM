@@ -5,10 +5,10 @@
   "category_slug": "entra-id-solutions",
   "sol_code": "FIDO2G",
   "version": "1.0.0",
-  "status": "generated",
+  "status": "published",
   "created": "2026-07-01",
   "updated": "2026-07-01",
-  "published_at": null,
+  "published_at": "2026-07-01",
   "version_directive": "New",
   "branding": "off",
   "author_notes": [
@@ -38,3 +38,4 @@
   ],
   "hero": "FIDO2G-hero.png"
 }
+

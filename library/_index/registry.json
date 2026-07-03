@@ -5014,10 +5014,10 @@
     "category_slug": "entra-id-solutions",
     "sol_code": "FIDO2G",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -5033,16 +5033,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 12.1
+        },
+        {
           "name": "global-requirements-entra-id-solutions.md",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
           "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "FIDO2G-Discovery.ps1",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/scripts/FIDO2G-Discovery.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "FIDO2G-Remediation.ps1",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/scripts/FIDO2G-Remediation.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "FIDO2G-Report.ps1",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/scripts/FIDO2G-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "FIDO2G-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/scripts/FIDO2G-Set-ScopeTargeting.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "FIDO2G-Validation.ps1",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/scripts/FIDO2G-Validation.ps1",
+          "kb": 4.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "FIDO2G-Complete-Solution.zip",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Complete-Solution.zip",
+          "kb": 105.7
+        },
+        {
+          "name": "FIDO2G-hero.png",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-hero.png",
+          "kb": 445.3
+        },
+        {
+          "name": "FIDO2G-hero.svg",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "FIDO2G-Scripts.zip",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Scripts.zip",
+          "kb": 9.6
+        },
+        {
+          "name": "FIDO2G-Solution.docx",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Solution.docx",
+          "kb": 54.9
+        },
+        {
+          "name": "FIDO2G-Solution.pdf",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Solution.pdf",
+          "kb": 61.7
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.5
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -5068,10 +5172,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-hero.png",
     "product_count": 3
   },
   {
@@ -6071,10 +6175,10 @@
     "category_slug": "healthcare-solutions",
     "sol_code": "HIPAACOMPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6090,16 +6194,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 12.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 13.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 18.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 6.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 10.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 6.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.8
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 12.2
+        },
+        {
           "name": "global-requirements-healthcare-solutions.md",
           "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/global-requirements-healthcare-solutions.md",
           "kb": 6.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "HIPAACOMPG-Discovery.ps1",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/scripts/HIPAACOMPG-Discovery.ps1",
+          "kb": 8.0
+        },
+        {
+          "name": "HIPAACOMPG-Remediation.ps1",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/scripts/HIPAACOMPG-Remediation.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "HIPAACOMPG-Report.ps1",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/scripts/HIPAACOMPG-Report.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "HIPAACOMPG-Set-ScopeTargeting.ps1",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/scripts/HIPAACOMPG-Set-ScopeTargeting.ps1",
+          "kb": 8.3
+        },
+        {
+          "name": "HIPAACOMPG-Validation.ps1",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/scripts/HIPAACOMPG-Validation.ps1",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "HIPAACOMPG-Complete-Solution.zip",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-Complete-Solution.zip",
+          "kb": 147.1
+        },
+        {
+          "name": "HIPAACOMPG-hero.png",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-hero.png",
+          "kb": 410.1
+        },
+        {
+          "name": "HIPAACOMPG-hero.svg",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "HIPAACOMPG-Scripts.zip",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-Scripts.zip",
+          "kb": 13.5
+        },
+        {
+          "name": "HIPAACOMPG-Solution.docx",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-Solution.docx",
+          "kb": 68.3
+        },
+        {
+          "name": "HIPAACOMPG-Solution.pdf",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-Solution.pdf",
+          "kb": 95.2
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.7
+          "kb": 17.0
         },
         {
           "name": "hero.json",
@@ -6125,10 +6333,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/deliverables/HIPAACOMPG-hero.png",
     "product_count": 3
   },
   {
@@ -7956,10 +8164,10 @@
     "category_slug": "infrastructure",
     "sol_code": "UPRTG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -7975,16 +8183,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 5.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.8
+        },
+        {
           "name": "global-requirements-infrastructure.md",
           "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/global-requirements-infrastructure.md",
           "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "UPRTG-Discovery.ps1",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/scripts/UPRTG-Discovery.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "UPRTG-Remediation.ps1",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/scripts/UPRTG-Remediation.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "UPRTG-Report.ps1",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/scripts/UPRTG-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "UPRTG-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/scripts/UPRTG-Set-ScopeTargeting.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "UPRTG-Validation.ps1",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/scripts/UPRTG-Validation.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "UPRTG-Complete-Solution.zip",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-Complete-Solution.zip",
+          "kb": 120.2
+        },
+        {
+          "name": "UPRTG-hero.png",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-hero.png",
+          "kb": 425.8
+        },
+        {
+          "name": "UPRTG-hero.svg",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "UPRTG-Scripts.zip",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-Scripts.zip",
+          "kb": 10.5
+        },
+        {
+          "name": "UPRTG-Solution.docx",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-Solution.docx",
+          "kb": 60.3
+        },
+        {
+          "name": "UPRTG-Solution.pdf",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-Solution.pdf",
+          "kb": 73.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.3
+          "kb": 15.9
         },
         {
           "name": "hero.json",
@@ -8010,10 +8322,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/deliverables/UPRTG-hero.png",
     "product_count": 3
   },
   {
@@ -14543,10 +14855,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "TUNMAMG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -14562,16 +14874,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 14.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 5.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.8
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TUNMAMG-Discovery.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/scripts/TUNMAMG-Discovery.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "TUNMAMG-Remediation.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/scripts/TUNMAMG-Remediation.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "TUNMAMG-Report.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/scripts/TUNMAMG-Report.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "TUNMAMG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/scripts/TUNMAMG-Set-ScopeTargeting.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "TUNMAMG-Validation.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/scripts/TUNMAMG-Validation.ps1",
+          "kb": 8.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TUNMAMG-Complete-Solution.zip",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-Complete-Solution.zip",
+          "kb": 128.8
+        },
+        {
+          "name": "TUNMAMG-hero.png",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-hero.png",
+          "kb": 471.5
+        },
+        {
+          "name": "TUNMAMG-hero.svg",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "TUNMAMG-Scripts.zip",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-Scripts.zip",
+          "kb": 12.5
+        },
+        {
+          "name": "TUNMAMG-Solution.docx",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-Solution.docx",
+          "kb": 63.5
+        },
+        {
+          "name": "TUNMAMG-Solution.pdf",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-Solution.pdf",
+          "kb": 77.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.6
+          "kb": 16.6
         },
         {
           "name": "hero.json",
@@ -14597,10 +15013,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-hero.png",
     "product_count": 3
   },
   {
@@ -14776,10 +15192,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "MAMAPPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -14795,16 +15211,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.8
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MAMAPPG-Discovery.ps1",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/scripts/MAMAPPG-Discovery.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "MAMAPPG-Remediation.ps1",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/scripts/MAMAPPG-Remediation.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "MAMAPPG-Report.ps1",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/scripts/MAMAPPG-Report.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "MAMAPPG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/scripts/MAMAPPG-Set-ScopeTargeting.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "MAMAPPG-Validation.ps1",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/scripts/MAMAPPG-Validation.ps1",
+          "kb": 2.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MAMAPPG-Complete-Solution.zip",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-Complete-Solution.zip",
+          "kb": 102.5
+        },
+        {
+          "name": "MAMAPPG-hero.png",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-hero.png",
+          "kb": 436.4
+        },
+        {
+          "name": "MAMAPPG-hero.svg",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "MAMAPPG-Scripts.zip",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-Scripts.zip",
+          "kb": 7.7
+        },
+        {
+          "name": "MAMAPPG-Solution.docx",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-Solution.docx",
+          "kb": 54.6
+        },
+        {
+          "name": "MAMAPPG-Solution.pdf",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-Solution.pdf",
+          "kb": 60.5
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.6
+          "kb": 16.7
         },
         {
           "name": "hero.json",
@@ -14830,10 +15350,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/deliverables/MAMAPPG-hero.png",
     "product_count": 3
   },
   {
@@ -15505,10 +16025,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "SPMAMG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -15524,16 +16044,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.4
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SPMAMG-Discovery.ps1",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/scripts/SPMAMG-Discovery.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "SPMAMG-Remediation.ps1",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/scripts/SPMAMG-Remediation.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "SPMAMG-Report.ps1",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/scripts/SPMAMG-Report.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "SPMAMG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/scripts/SPMAMG-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "SPMAMG-Validation.ps1",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/scripts/SPMAMG-Validation.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPMAMG-Complete-Solution.zip",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-Complete-Solution.zip",
+          "kb": 102.1
+        },
+        {
+          "name": "SPMAMG-hero.png",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-hero.png",
+          "kb": 469.8
+        },
+        {
+          "name": "SPMAMG-hero.svg",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SPMAMG-Scripts.zip",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-Scripts.zip",
+          "kb": 8.5
+        },
+        {
+          "name": "SPMAMG-Solution.docx",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-Solution.docx",
+          "kb": 54.9
+        },
+        {
+          "name": "SPMAMG-Solution.pdf",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-Solution.pdf",
+          "kb": 58.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.4
+          "kb": 16.2
         },
         {
           "name": "hero.json",
@@ -15559,10 +16183,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/deliverables/SPMAMG-hero.png",
     "product_count": 3
   },
   {
@@ -15902,10 +16526,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "WAPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -15921,16 +16545,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 12.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 5.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.1
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WAPG-Discovery.ps1",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/scripts/WAPG-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "WAPG-Remediation.ps1",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/scripts/WAPG-Remediation.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "WAPG-Report.ps1",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/scripts/WAPG-Report.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "WAPG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/scripts/WAPG-Set-ScopeTargeting.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "WAPG-Validation.ps1",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/scripts/WAPG-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WAPG-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-Complete-Solution.zip",
+          "kb": 122.9
+        },
+        {
+          "name": "WAPG-hero.png",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-hero.png",
+          "kb": 478.8
+        },
+        {
+          "name": "WAPG-hero.svg",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "WAPG-Scripts.zip",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "WAPG-Solution.docx",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-Solution.docx",
+          "kb": 60.9
+        },
+        {
+          "name": "WAPG-Solution.pdf",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-Solution.pdf",
+          "kb": 75.5
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.3
+          "kb": 14.8
         },
         {
           "name": "hero.json",
@@ -15956,10 +16684,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/deliverables/WAPG-hero.png",
     "product_count": 3
   },
   {
@@ -16794,10 +17522,10 @@
     "category_slug": "managed",
     "sol_code": "INCIDENTG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -16813,16 +17541,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 15.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 13.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 21.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 7.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 7.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.7
+        },
+        {
           "name": "global-requirements-managed.md",
           "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/global-requirements-managed.md",
           "kb": 4.4
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INCIDENTG-Discovery.ps1",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/scripts/INCIDENTG-Discovery.ps1",
+          "kb": 7.7
+        },
+        {
+          "name": "INCIDENTG-Remediation.ps1",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/scripts/INCIDENTG-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "INCIDENTG-Report.ps1",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/scripts/INCIDENTG-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "INCIDENTG-Set-ScopeTargeting.ps1",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/scripts/INCIDENTG-Set-ScopeTargeting.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "INCIDENTG-Validation.ps1",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/scripts/INCIDENTG-Validation.ps1",
+          "kb": 6.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INCIDENTG-Complete-Solution.zip",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-Complete-Solution.zip",
+          "kb": 148.7
+        },
+        {
+          "name": "INCIDENTG-hero.png",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-hero.png",
+          "kb": 445.5
+        },
+        {
+          "name": "INCIDENTG-hero.svg",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "INCIDENTG-Scripts.zip",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "INCIDENTG-Solution.docx",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-Solution.docx",
+          "kb": 70.4
+        },
+        {
+          "name": "INCIDENTG-Solution.pdf",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-Solution.pdf",
+          "kb": 96.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.3
+          "kb": 16.2
         },
         {
           "name": "hero.json",
@@ -16848,10 +17680,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/deliverables/INCIDENTG-hero.png",
     "product_count": 3
   },
   {

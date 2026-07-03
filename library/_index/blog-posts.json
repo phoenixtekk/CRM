@@ -713,5 +713,45 @@
     "post_id": 12103,
     "status": "draft",
     "category_id": 411
+  },
+  "passwordless-fido2-phishing-resistant-mfa-gcc-high": {
+    "post_id": 12105,
+    "status": "draft",
+    "category_id": 411
+  },
+  "hipaa-hitrust-endpoint-compliance-remediation-gcc-high": {
+    "post_id": 12107,
+    "status": "draft",
+    "category_id": 411
+  },
+  "universal-print-deployment-migration-gcc-high": {
+    "post_id": 12109,
+    "status": "draft",
+    "category_id": 411
+  },
+  "mam-app-protection-policies-byod-m365-gcc-high": {
+    "post_id": 12111,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-tunnel-for-mam-intranet-access-gcc-high": {
+    "post_id": 12113,
+    "status": "draft",
+    "category_id": 411
+  },
+  "secure-mobile-access-sharepoint-online-mam-gcc-high": {
+    "post_id": 12115,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-autopilot-gcc-high": {
+    "post_id": 12117,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-azure-incident-response-runbook-gcc-high": {
+    "post_id": 12119,
+    "status": "draft",
+    "category_id": 411
   }
 }
