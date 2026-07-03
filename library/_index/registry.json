@@ -19180,10 +19180,10 @@
     "category_slug": "migrations",
     "sol_code": "EXOMIGG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 3495.0,
     "nonprofit": 2097.0,
     "skus": [
@@ -19199,16 +19199,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 11.0
+        },
+        {
           "name": "global-requirements-azure-solutions.md",
           "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
           "kb": 6.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EXOMIGG-Discovery.ps1",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/scripts/EXOMIGG-Discovery.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "EXOMIGG-Remediation.ps1",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/scripts/EXOMIGG-Remediation.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "EXOMIGG-Report.ps1",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/scripts/EXOMIGG-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "EXOMIGG-Set-ScopeTargeting.ps1",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/scripts/EXOMIGG-Set-ScopeTargeting.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "EXOMIGG-Validation.ps1",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/scripts/EXOMIGG-Validation.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EXOMIGG-Complete-Solution.zip",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-Complete-Solution.zip",
+          "kb": 116.3
+        },
+        {
+          "name": "EXOMIGG-hero.png",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-hero.png",
+          "kb": 438.0
+        },
+        {
+          "name": "EXOMIGG-hero.svg",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "EXOMIGG-Scripts.zip",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-Scripts.zip",
+          "kb": 10.9
+        },
+        {
+          "name": "EXOMIGG-Solution.docx",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-Solution.docx",
+          "kb": 58.6
+        },
+        {
+          "name": "EXOMIGG-Solution.pdf",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-Solution.pdf",
+          "kb": 69.5
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.4
+          "kb": 16.4
         },
         {
           "name": "hero.json",
@@ -19230,14 +19334,14 @@
         {
           "name": "solution.meta.json",
           "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/solution.meta.json",
-          "kb": 1.4
+          "kb": 1.5
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/deliverables/EXOMIGG-hero.png",
     "product_count": 3
   },
   {
@@ -22723,10 +22827,10 @@
     "category_slug": "network",
     "sol_code": "EGRESSG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -22742,16 +22846,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.7
+        },
+        {
           "name": "global-requirements-network.md",
           "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/global-requirements-network.md",
           "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EGRESSG-Discovery.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/scripts/EGRESSG-Discovery.ps1",
+          "kb": 7.5
+        },
+        {
+          "name": "EGRESSG-Remediation.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/scripts/EGRESSG-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "EGRESSG-Report.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/scripts/EGRESSG-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "EGRESSG-Set-ScopeTargeting.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/scripts/EGRESSG-Set-ScopeTargeting.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "EGRESSG-Validation.ps1",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/scripts/EGRESSG-Validation.ps1",
+          "kb": 4.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EGRESSG-Complete-Solution.zip",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-Complete-Solution.zip",
+          "kb": 112.0
+        },
+        {
+          "name": "EGRESSG-hero.png",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-hero.png",
+          "kb": 467.1
+        },
+        {
+          "name": "EGRESSG-hero.svg",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "EGRESSG-Scripts.zip",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-Scripts.zip",
+          "kb": 10.7
+        },
+        {
+          "name": "EGRESSG-Solution.docx",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-Solution.docx",
+          "kb": 57.4
+        },
+        {
+          "name": "EGRESSG-Solution.pdf",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-Solution.pdf",
+          "kb": 65.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 13.2
+          "kb": 17.5
         },
         {
           "name": "hero.json",
@@ -22777,10 +22985,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/deliverables/EGRESSG-hero.png",
     "product_count": 3
   },
   {
@@ -24277,10 +24485,10 @@
     "category_slug": "security",
     "sol_code": "CPKIG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -24296,16 +24504,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 12.3
+        },
+        {
           "name": "global-requirements-security.md",
           "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/global-requirements-security.md",
           "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPKIG-Discovery.ps1",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/scripts/CPKIG-Discovery.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "CPKIG-Remediation.ps1",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/scripts/CPKIG-Remediation.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "CPKIG-Report.ps1",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/scripts/CPKIG-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "CPKIG-Set-ScopeTargeting.ps1",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/scripts/CPKIG-Set-ScopeTargeting.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "CPKIG-Validation.ps1",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/scripts/CPKIG-Validation.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPKIG-Complete-Solution.zip",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-Complete-Solution.zip",
+          "kb": 113.8
+        },
+        {
+          "name": "CPKIG-hero.png",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-hero.png",
+          "kb": 426.7
+        },
+        {
+          "name": "CPKIG-hero.svg",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "CPKIG-Scripts.zip",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-Scripts.zip",
+          "kb": 11.3
+        },
+        {
+          "name": "CPKIG-Solution.docx",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-Solution.docx",
+          "kb": 58.4
+        },
+        {
+          "name": "CPKIG-Solution.pdf",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-Solution.pdf",
+          "kb": 65.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.9
+          "kb": 15.9
         },
         {
           "name": "hero.json",
@@ -24331,10 +24643,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/deliverables/CPKIG-hero.png",
     "product_count": 3
   },
   {
@@ -24510,10 +24822,10 @@
     "category_slug": "security",
     "sol_code": "CCAUDITG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -24529,16 +24841,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 11.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 6.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 13.4
+        },
+        {
           "name": "global-requirements-security.md",
           "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/global-requirements-security.md",
           "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CCAUDITG-Discovery.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/scripts/CCAUDITG-Discovery.ps1",
+          "kb": 7.6
+        },
+        {
+          "name": "CCAUDITG-Remediation.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/scripts/CCAUDITG-Remediation.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "CCAUDITG-Report.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/scripts/CCAUDITG-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "CCAUDITG-Set-ScopeTargeting.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/scripts/CCAUDITG-Set-ScopeTargeting.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "CCAUDITG-Validation.ps1",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/scripts/CCAUDITG-Validation.ps1",
+          "kb": 7.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CCAUDITG-Complete-Solution.zip",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-Complete-Solution.zip",
+          "kb": 124.4
+        },
+        {
+          "name": "CCAUDITG-hero.png",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-hero.png",
+          "kb": 439.7
+        },
+        {
+          "name": "CCAUDITG-hero.svg",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CCAUDITG-Scripts.zip",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-Scripts.zip",
+          "kb": 13.5
+        },
+        {
+          "name": "CCAUDITG-Solution.docx",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-Solution.docx",
+          "kb": 61.5
+        },
+        {
+          "name": "CCAUDITG-Solution.pdf",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-Solution.pdf",
+          "kb": 72.1
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.6
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -24564,10 +24980,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-hero.png",
     "product_count": 3
   },
   {
@@ -24743,10 +25159,10 @@
     "category_slug": "security",
     "sol_code": "COPILOTG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -24762,16 +25178,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.9
+        },
+        {
           "name": "global-requirements-security.md",
           "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/global-requirements-security.md",
           "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "COPILOTG-Discovery.ps1",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/scripts/COPILOTG-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "COPILOTG-Remediation.ps1",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/scripts/COPILOTG-Remediation.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "COPILOTG-Report.ps1",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/scripts/COPILOTG-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "COPILOTG-Set-ScopeTargeting.ps1",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/scripts/COPILOTG-Set-ScopeTargeting.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "COPILOTG-Validation.ps1",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/scripts/COPILOTG-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "COPILOTG-Complete-Solution.zip",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-Complete-Solution.zip",
+          "kb": 111.0
+        },
+        {
+          "name": "COPILOTG-hero.png",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-hero.png",
+          "kb": 455.0
+        },
+        {
+          "name": "COPILOTG-hero.svg",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "COPILOTG-Scripts.zip",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-Scripts.zip",
+          "kb": 10.5
+        },
+        {
+          "name": "COPILOTG-Solution.docx",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-Solution.docx",
+          "kb": 57.6
+        },
+        {
+          "name": "COPILOTG-Solution.pdf",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-Solution.pdf",
+          "kb": 63.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.3
+          "kb": 16.1
         },
         {
           "name": "hero.json",
@@ -24797,10 +25317,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/deliverables/COPILOTG-hero.png",
     "product_count": 3
   },
   {
@@ -24976,10 +25496,10 @@
     "category_slug": "security",
     "sol_code": "M365SECG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -24995,16 +25515,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 9.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.7
+        },
+        {
           "name": "global-requirements-security.md",
           "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/global-requirements-security.md",
           "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "M365SECG-Discovery.ps1",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/scripts/M365SECG-Discovery.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "M365SECG-Remediation.ps1",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/scripts/M365SECG-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "M365SECG-Report.ps1",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/scripts/M365SECG-Report.ps1",
+          "kb": 7.5
+        },
+        {
+          "name": "M365SECG-Set-ScopeTargeting.ps1",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/scripts/M365SECG-Set-ScopeTargeting.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "M365SECG-Validation.ps1",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/scripts/M365SECG-Validation.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "M365SECG-Complete-Solution.zip",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-Complete-Solution.zip",
+          "kb": 118.2
+        },
+        {
+          "name": "M365SECG-hero.png",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-hero.png",
+          "kb": 482.7
+        },
+        {
+          "name": "M365SECG-hero.svg",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "M365SECG-Scripts.zip",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-Scripts.zip",
+          "kb": 12.5
+        },
+        {
+          "name": "M365SECG-Solution.docx",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-Solution.docx",
+          "kb": 59.0
+        },
+        {
+          "name": "M365SECG-Solution.pdf",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-Solution.pdf",
+          "kb": 69.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.4
+          "kb": 16.1
         },
         {
           "name": "hero.json",
@@ -25030,10 +25654,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/deliverables/M365SECG-hero.png",
     "product_count": 3
   },
   {
@@ -25545,10 +26169,10 @@
     "category_slug": "sentinel-solutions",
     "sol_code": "SENTLOGG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -25564,16 +26188,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.3
+        },
+        {
           "name": "global-requirements-sentinel-solutions.md",
           "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/global-requirements-sentinel-solutions.md",
           "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTLOGG-Discovery.ps1",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/scripts/SENTLOGG-Discovery.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "SENTLOGG-Remediation.ps1",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/scripts/SENTLOGG-Remediation.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "SENTLOGG-Report.ps1",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/scripts/SENTLOGG-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "SENTLOGG-Set-ScopeTargeting.ps1",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/scripts/SENTLOGG-Set-ScopeTargeting.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "SENTLOGG-Validation.ps1",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/scripts/SENTLOGG-Validation.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTLOGG-Complete-Solution.zip",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-Complete-Solution.zip",
+          "kb": 100.5
+        },
+        {
+          "name": "SENTLOGG-hero.png",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.png",
+          "kb": 441.6
+        },
+        {
+          "name": "SENTLOGG-hero.svg",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SENTLOGG-Scripts.zip",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-Scripts.zip",
+          "kb": 8.8
+        },
+        {
+          "name": "SENTLOGG-Solution.docx",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-Solution.docx",
+          "kb": 53.9
+        },
+        {
+          "name": "SENTLOGG-Solution.pdf",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-Solution.pdf",
+          "kb": 56.8
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.4
+          "kb": 16.3
         },
         {
           "name": "hero.json",
@@ -25599,10 +26327,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.png",
     "product_count": 3
   }
 ]

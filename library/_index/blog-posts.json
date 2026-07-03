@@ -753,5 +753,40 @@
     "post_id": 12119,
     "status": "draft",
     "category_id": 411
+  },
+  "m365-exchange-tenant-to-tenant-migration-gcc-high": {
+    "post_id": 12121,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-endpoint-allowlist-egress-management-gcc-high": {
+    "post_id": 12123,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloud-pki-integration-intune-gcc-high": {
+    "post_id": 12125,
+    "status": "draft",
+    "category_id": 411
+  },
+  "continuous-compliance-audit-evidence-intune-gcc-high": {
+    "post_id": 12127,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-copilot-secure-adoption-governance-gcc-high": {
+    "post_id": 12129,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-security-baseline-audit-readiness-gcc-high": {
+    "post_id": 12131,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-intune-audit-telemetry-sentinel-gcc-high": {
+    "post_id": 12133,
+    "status": "draft",
+    "category_id": 411
   }
 }
