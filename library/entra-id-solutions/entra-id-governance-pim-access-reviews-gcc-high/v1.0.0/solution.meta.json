@@ -1,0 +1,41 @@
+{
+  "slug": "entra-id-governance-pim-access-reviews-gcc-high",
+  "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management — Government (GCC High)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "IGAG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Entra ID Governance — PIM, Access Reviews & Entitlement Management.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IGAG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-IGAG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-IGAG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "IGAG-Solution.pdf",
+    "IGAG-Scripts.zip"
+  ],
+  "hero": "IGAG-hero.png"
+}
+

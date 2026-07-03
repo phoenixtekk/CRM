@@ -1,0 +1,40 @@
+{
+  "slug": "cloud-first-autopilot-zero-touch-provisioning-gcc-high",
+  "title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Government (GCC High)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CFAPG",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join).",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CFAPG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CFAPG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CFAPG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CFAPG-Solution.pdf",
+    "CFAPG-Scripts.zip"
+  ],
+  "hero": "CFAPG-hero.png"
+}

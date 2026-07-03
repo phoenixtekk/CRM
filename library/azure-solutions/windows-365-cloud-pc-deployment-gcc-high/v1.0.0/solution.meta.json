@@ -1,0 +1,41 @@
+{
+  "slug": "windows-365-cloud-pc-deployment-gcc-high",
+  "title": "Windows 365 Cloud PC Deployment & Management — Government (GCC High)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "W365G",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Windows 365 Cloud PC Deployment & Management.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-W365G-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-W365G-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-W365G-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "W365G-Solution.pdf",
+    "W365G-Scripts.zip"
+  ],
+  "hero": "W365G-hero.png"
+}
+

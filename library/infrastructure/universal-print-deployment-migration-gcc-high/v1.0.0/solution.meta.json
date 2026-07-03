@@ -1,0 +1,40 @@
+{
+  "slug": "universal-print-deployment-migration-gcc-high",
+  "title": "Universal Print Deployment & Print-Server Retirement — Government (GCC High)",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "UPRTG",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Universal Print Deployment & Print-Server Retirement.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-UPRTG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-UPRTG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-UPRTG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "UPRTG-Solution.pdf",
+    "UPRTG-Scripts.zip"
+  ],
+  "hero": "UPRTG-hero.png"
+}

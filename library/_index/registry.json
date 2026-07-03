@@ -1981,6 +1981,177 @@
     "product_count": 3
   },
   {
+    "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Government (GCC High)",
+    "slug": "azure-security-baseline-governance-gcc-high",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "AZSECG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AZSECG-COMM-001",
+      "PTK-AZSECG-NPO-001",
+      "PTK-AZSECG-GOV-001"
+    ],
+    "deliverables": [
+      "AZSECG-Solution.pdf",
+      "AZSECG-Scripts.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\azure-security-baseline-governance-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 5.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.1
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AZSECG-Discovery.ps1",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/scripts/AZSECG-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "AZSECG-Remediation.ps1",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/scripts/AZSECG-Remediation.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "AZSECG-Report.ps1",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/scripts/AZSECG-Report.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "AZSECG-Set-ScopeTargeting.ps1",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/scripts/AZSECG-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "AZSECG-Validation.ps1",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/scripts/AZSECG-Validation.ps1",
+          "kb": 5.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AZSECG-Complete-Solution.zip",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-Complete-Solution.zip",
+          "kb": 114.6
+        },
+        {
+          "name": "AZSECG-hero.png",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-hero.png",
+          "kb": 449.9
+        },
+        {
+          "name": "AZSECG-hero.svg",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AZSECG-Scripts.zip",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "AZSECG-Solution.docx",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-Solution.docx",
+          "kb": 57.6
+        },
+        {
+          "name": "AZSECG-Solution.pdf",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-Solution.pdf",
+          "kb": 68.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
     "slug": "azure-virtual-desktop-remote-access",
     "category": "Azure",
@@ -2143,6 +2314,177 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../azure-solutions/azure-virtual-desktop-remote-access/v1.0.0/deliverables/AVD-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients) — Government (GCC High)",
+    "slug": "azure-virtual-desktop-remote-access-gcc-high",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "AVDG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AVDG-COMM-001",
+      "PTK-AVDG-NPO-001",
+      "PTK-AVDG-GOV-001"
+    ],
+    "deliverables": [
+      "AVDG-Solution.pdf",
+      "AVDG-Scripts.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\azure-virtual-desktop-remote-access-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 12.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.0
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AVDG-Discovery.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/scripts/AVDG-Discovery.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "AVDG-Remediation.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/scripts/AVDG-Remediation.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "AVDG-Report.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/scripts/AVDG-Report.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "AVDG-Set-ScopeTargeting.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/scripts/AVDG-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "AVDG-Validation.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/scripts/AVDG-Validation.ps1",
+          "kb": 5.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AVDG-Complete-Solution.zip",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-Complete-Solution.zip",
+          "kb": 112.4
+        },
+        {
+          "name": "AVDG-hero.png",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-hero.png",
+          "kb": 444.4
+        },
+        {
+          "name": "AVDG-hero.svg",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AVDG-Scripts.zip",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-Scripts.zip",
+          "kb": 11.2
+        },
+        {
+          "name": "AVDG-Solution.docx",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-Solution.docx",
+          "kb": 57.6
+        },
+        {
+          "name": "AVDG-Solution.pdf",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-Solution.pdf",
+          "kb": 64.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../azure-solutions/azure-virtual-desktop-remote-access-gcc-high/v1.0.0/deliverables/AVDG-hero.png",
     "product_count": 3
   },
   {
@@ -2477,6 +2819,177 @@
     "product_count": 3
   },
   {
+    "title": "Standardize Power Platform Secrets in Azure Key Vault — Government (GCC High)",
+    "slug": "power-platform-secrets-azure-key-vault-gcc-high",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "PPKVG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PPKVG-COMM-001",
+      "PTK-PPKVG-NPO-001",
+      "PTK-PPKVG-GOV-001"
+    ],
+    "deliverables": [
+      "PPKVG-Solution.pdf",
+      "PPKVG-Scripts.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\power-platform-secrets-azure-key-vault-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 10.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.3
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PPKVG-Discovery.ps1",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/scripts/PPKVG-Discovery.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "PPKVG-Remediation.ps1",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/scripts/PPKVG-Remediation.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "PPKVG-Report.ps1",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/scripts/PPKVG-Report.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "PPKVG-Set-ScopeTargeting.ps1",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/scripts/PPKVG-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "PPKVG-Validation.ps1",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/scripts/PPKVG-Validation.ps1",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PPKVG-Complete-Solution.zip",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-Complete-Solution.zip",
+          "kb": 112.7
+        },
+        {
+          "name": "PPKVG-hero.png",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-hero.png",
+          "kb": 469.3
+        },
+        {
+          "name": "PPKVG-hero.svg",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "PPKVG-Scripts.zip",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "PPKVG-Solution.docx",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-Solution.docx",
+          "kb": 57.2
+        },
+        {
+          "name": "PPKVG-Solution.pdf",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-Solution.pdf",
+          "kb": 65.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../azure-solutions/power-platform-secrets-azure-key-vault-gcc-high/v1.0.0/deliverables/PPKVG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows 365 Cloud PC Deployment & Management",
     "slug": "windows-365-cloud-pc-deployment",
     "category": "Azure",
@@ -2639,6 +3152,177 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../azure-solutions/windows-365-cloud-pc-deployment/v1.0.0/deliverables/W365-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows 365 Cloud PC Deployment & Management — Government (GCC High)",
+    "slug": "windows-365-cloud-pc-deployment-gcc-high",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "W365G",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-W365G-COMM-001",
+      "PTK-W365G-NPO-001",
+      "PTK-W365G-GOV-001"
+    ],
+    "deliverables": [
+      "W365G-Solution.pdf",
+      "W365G-Scripts.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\windows-365-cloud-pc-deployment-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 12.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 10.4
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "W365G-Discovery.ps1",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/scripts/W365G-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "W365G-Remediation.ps1",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/scripts/W365G-Remediation.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "W365G-Report.ps1",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/scripts/W365G-Report.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "W365G-Set-ScopeTargeting.ps1",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/scripts/W365G-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "W365G-Validation.ps1",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/scripts/W365G-Validation.ps1",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "W365G-Complete-Solution.zip",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-Complete-Solution.zip",
+          "kb": 112.5
+        },
+        {
+          "name": "W365G-hero.png",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-hero.png",
+          "kb": 432.3
+        },
+        {
+          "name": "W365G-hero.svg",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "W365G-Scripts.zip",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-Scripts.zip",
+          "kb": 9.2
+        },
+        {
+          "name": "W365G-Solution.docx",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "W365G-Solution.pdf",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-Solution.pdf",
+          "kb": 66.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../azure-solutions/windows-365-cloud-pc-deployment-gcc-high/v1.0.0/deliverables/W365G-hero.png",
     "product_count": 3
   },
   {
@@ -2973,6 +3657,177 @@
     "product_count": 3
   },
   {
+    "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions) — Government (GCC High)",
+    "slug": "enterprise-app-service-principal-governance-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "APPGOVG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-APPGOVG-COMM-001",
+      "PTK-APPGOVG-NPO-001",
+      "PTK-APPGOVG-GOV-001"
+    ],
+    "deliverables": [
+      "APPGOVG-Solution.pdf",
+      "APPGOVG-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\enterprise-app-service-principal-governance-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 2.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.5
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPGOVG-Discovery.ps1",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/scripts/APPGOVG-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "APPGOVG-Remediation.ps1",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/scripts/APPGOVG-Remediation.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "APPGOVG-Report.ps1",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/scripts/APPGOVG-Report.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "APPGOVG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/scripts/APPGOVG-Set-ScopeTargeting.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "APPGOVG-Validation.ps1",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/scripts/APPGOVG-Validation.ps1",
+          "kb": 4.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPGOVG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-Complete-Solution.zip",
+          "kb": 101.2
+        },
+        {
+          "name": "APPGOVG-hero.png",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-hero.png",
+          "kb": 465.0
+        },
+        {
+          "name": "APPGOVG-hero.svg",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "APPGOVG-Scripts.zip",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-Scripts.zip",
+          "kb": 9.1
+        },
+        {
+          "name": "APPGOVG-Solution.docx",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-Solution.docx",
+          "kb": 54.4
+        },
+        {
+          "name": "APPGOVG-Solution.pdf",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-Solution.pdf",
+          "kb": 56.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
     "slug": "entra-id-governance-pim-access-reviews",
     "category": "Entra",
@@ -3139,6 +3994,177 @@
     "product_count": 3
   },
   {
+    "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management — Government (GCC High)",
+    "slug": "entra-id-governance-pim-access-reviews-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "IGAG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-IGAG-COMM-001",
+      "PTK-IGAG-NPO-001",
+      "PTK-IGAG-GOV-001"
+    ],
+    "deliverables": [
+      "IGAG-Solution.pdf",
+      "IGAG-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-id-governance-pim-access-reviews-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.9
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "IGAG-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/scripts/IGAG-Discovery.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "IGAG-Remediation.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/scripts/IGAG-Remediation.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "IGAG-Report.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/scripts/IGAG-Report.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "IGAG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/scripts/IGAG-Set-ScopeTargeting.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "IGAG-Validation.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/scripts/IGAG-Validation.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IGAG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-Complete-Solution.zip",
+          "kb": 99.1
+        },
+        {
+          "name": "IGAG-hero.png",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-hero.png",
+          "kb": 430.2
+        },
+        {
+          "name": "IGAG-hero.svg",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "IGAG-Scripts.zip",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-Scripts.zip",
+          "kb": 8.5
+        },
+        {
+          "name": "IGAG-Solution.docx",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-Solution.docx",
+          "kb": 52.9
+        },
+        {
+          "name": "IGAG-Solution.pdf",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-Solution.pdf",
+          "kb": 56.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Hybrid Identity with Active Directory & Microsoft Entra Connect",
     "slug": "hybrid-identity-ad-entra-connect",
     "category": "Entra",
@@ -3301,6 +4327,177 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/deliverables/HYBID-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Hybrid Identity with Active Directory & Microsoft Entra Connect — Government (GCC High)",
+    "slug": "hybrid-identity-ad-entra-connect-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "HYBIDG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-HYBIDG-COMM-001",
+      "PTK-HYBIDG-NPO-001",
+      "PTK-HYBIDG-GOV-001"
+    ],
+    "deliverables": [
+      "HYBIDG-Solution.pdf",
+      "HYBIDG-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\hybrid-identity-ad-entra-connect-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 5.7
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "HYBIDG-Discovery.ps1",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/scripts/HYBIDG-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "HYBIDG-Remediation.ps1",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/scripts/HYBIDG-Remediation.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "HYBIDG-Report.ps1",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/scripts/HYBIDG-Report.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "HYBIDG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/scripts/HYBIDG-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "HYBIDG-Validation.ps1",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/scripts/HYBIDG-Validation.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "HYBIDG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-Complete-Solution.zip",
+          "kb": 101.0
+        },
+        {
+          "name": "HYBIDG-hero.png",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-hero.png",
+          "kb": 404.7
+        },
+        {
+          "name": "HYBIDG-hero.svg",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "HYBIDG-Scripts.zip",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "HYBIDG-Solution.docx",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-Solution.docx",
+          "kb": 53.8
+        },
+        {
+          "name": "HYBIDG-Solution.pdf",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-Solution.pdf",
+          "kb": 55.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/hybrid-identity-ad-entra-connect-gcc-high/v1.0.0/deliverables/HYBIDG-hero.png",
     "product_count": 3
   },
   {
@@ -3475,6 +4672,177 @@
     "product_count": 3
   },
   {
+    "title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune — Government (GCC High)",
+    "slug": "entra-id-abm-account-auto-provisioning-intune-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ABMPROVG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": "2026-07-01",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ABMPROVG-COMM-001",
+      "PTK-ABMPROVG-NPO-001",
+      "PTK-ABMPROVG-GOV-001"
+    ],
+    "deliverables": [
+      "ABMPROVG-Solution.pdf",
+      "ABMPROVG-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-id-abm-account-auto-provisioning-intune-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.6
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ABMPROVG-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/scripts/ABMPROVG-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "ABMPROVG-Remediation.ps1",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/scripts/ABMPROVG-Remediation.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "ABMPROVG-Report.ps1",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/scripts/ABMPROVG-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "ABMPROVG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/scripts/ABMPROVG-Set-ScopeTargeting.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "ABMPROVG-Validation.ps1",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/scripts/ABMPROVG-Validation.ps1",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ABMPROVG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-Complete-Solution.zip",
+          "kb": 105.4
+        },
+        {
+          "name": "ABMPROVG-hero.png",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-hero.png",
+          "kb": 484.5
+        },
+        {
+          "name": "ABMPROVG-hero.svg",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ABMPROVG-Scripts.zip",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "ABMPROVG-Solution.docx",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-Solution.docx",
+          "kb": 54.3
+        },
+        {
+          "name": "ABMPROVG-Solution.pdf",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-Solution.pdf",
+          "kb": 60.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
     "slug": "passwordless-fido2-phishing-resistant-mfa",
     "category": "Entra",
@@ -3637,6 +5005,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/deliverables/FIDO2-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys — Government (GCC High)",
+    "slug": "passwordless-fido2-phishing-resistant-mfa-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "FIDO2G",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-FIDO2G-COMM-001",
+      "PTK-FIDO2G-NPO-001",
+      "PTK-FIDO2G-GOV-001"
+    ],
+    "deliverables": [
+      "FIDO2G-Solution.pdf",
+      "FIDO2G-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\passwordless-fido2-phishing-resistant-mfa-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 3.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -4627,6 +6062,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation/v1.0.0/deliverables/HIPAACOMP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "HIPAA & HITRUST Endpoint Compliance & Vulnerability Remediation (Intune + Defender) — Government (GCC High)",
+    "slug": "hipaa-hitrust-endpoint-compliance-remediation-gcc-high",
+    "category": "Healthcare Solutions",
+    "category_slug": "healthcare-solutions",
+    "sol_code": "HIPAACOMPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-HIPAACOMPG-COMM-001",
+      "PTK-HIPAACOMPG-NPO-001",
+      "PTK-HIPAACOMPG-GOV-001"
+    ],
+    "deliverables": [
+      "HIPAACOMPG-Solution.pdf",
+      "HIPAACOMPG-Scripts.zip"
+    ],
+    "rel_path": "library\\healthcare-solutions\\hipaa-hitrust-endpoint-compliance-remediation-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-healthcare-solutions.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/source/global-requirements-healthcare-solutions.md",
+          "kb": 6.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -6448,6 +7950,73 @@
     "product_count": 3
   },
   {
+    "title": "Universal Print Deployment & Print-Server Retirement — Government (GCC High)",
+    "slug": "universal-print-deployment-migration-gcc-high",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "UPRTG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-UPRTG-COMM-001",
+      "PTK-UPRTG-NPO-001",
+      "PTK-UPRTG-GOV-001"
+    ],
+    "deliverables": [
+      "UPRTG-Solution.pdf",
+      "UPRTG-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\universal-print-deployment-migration-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/universal-print-deployment-migration-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
     "slug": "windows-endpoint-performance-reliability-troubleshooting",
     "category": "Infrastructure",
@@ -7275,6 +8844,73 @@
     "product_count": 3
   },
   {
+    "title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Government (GCC High)",
+    "slug": "cloud-first-autopilot-zero-touch-provisioning-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "CFAPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CFAPG-COMM-001",
+      "PTK-CFAPG-NPO-001",
+      "PTK-CFAPG-GOV-001"
+    ],
+    "deliverables": [
+      "CFAPG-Solution.pdf",
+      "CFAPG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\cloud-first-autopilot-zero-touch-provisioning-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Conditional Access Integration",
     "slug": "conditional-access-integration",
     "category": "Intune",
@@ -7437,6 +9073,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/conditional-access-integration/v1.0.0/deliverables/CAI-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Conditional Access Integration — Government (GCC High)",
+    "slug": "conditional-access-integration-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "CAIG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CAIG-COMM-001",
+      "PTK-CAIG-NPO-001",
+      "PTK-CAIG-GOV-001"
+    ],
+    "deliverables": [
+      "CAIG-Solution.pdf",
+      "CAIG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\conditional-access-integration-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -8101,6 +9804,73 @@
     "product_count": 3
   },
   {
+    "title": "Device Compliance Policies — Government (GCC High)",
+    "slug": "device-compliance-policies-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "DCPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-DCPG-COMM-001",
+      "PTK-DCPG-NPO-001",
+      "PTK-DCPG-GOV-001"
+    ],
+    "deliverables": [
+      "DCPG-Solution.pdf",
+      "DCPG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\device-compliance-policies-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Device Enrollment, Identity Association & Asset Inventory (Intune)",
     "slug": "device-enrollment-identity-asset-inventory",
     "category": "Intune",
@@ -8434,6 +10204,73 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune/v1.0.0/deliverables/STIG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune — Government (GCC High)",
+    "slug": "disa-stig-compliance-windows-10-11-intune-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "STIGG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-STIGG-COMM-001",
+      "PTK-STIGG-NPO-001",
+      "PTK-STIGG-GOV-001"
+    ],
+    "deliverables": [
+      "STIGG-Solution.pdf",
+      "STIGG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\disa-stig-compliance-windows-10-11-intune-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -9940,6 +11777,73 @@
     "product_count": 3
   },
   {
+    "title": "Intune Administrative Governance — RBAC & Multi-Admin Approval — Government (GCC High)",
+    "slug": "intune-rbac-multi-admin-governance-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "RBACGOVG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-RBACGOVG-COMM-001",
+      "PTK-RBACGOVG-NPO-001",
+      "PTK-RBACGOVG-GOV-001"
+    ],
+    "deliverables": [
+      "RBACGOVG-Solution.pdf",
+      "RBACGOVG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-rbac-multi-admin-governance-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)",
     "slug": "intune-app-deployment-troubleshooting",
     "category": "Intune",
@@ -10272,6 +12176,73 @@
     "product_count": 3
   },
   {
+    "title": "Intune Compliance-Failure Diagnostics & Remediation — Government (GCC High)",
+    "slug": "intune-compliance-failure-diagnostics-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "INTCOMPDXG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-INTCOMPDXG-COMM-001",
+      "PTK-INTCOMPDXG-NPO-001",
+      "PTK-INTCOMPDXG-GOV-001"
+    ],
+    "deliverables": [
+      "INTCOMPDXG-Solution.pdf",
+      "INTCOMPDXG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-compliance-failure-diagnostics-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Intune Custom Compliance & Configuration Items (Scripted)",
     "slug": "intune-custom-compliance-configuration-items",
     "category": "Intune",
@@ -10435,6 +12406,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/deliverables/CUSTCOMP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Custom Compliance & Configuration Items (Scripted) — Government (GCC High)",
+    "slug": "intune-custom-compliance-configuration-items-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "CUSTCOMPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CUSTCOMPG-COMM-001",
+      "PTK-CUSTCOMPG-NPO-001",
+      "PTK-CUSTCOMPG-GOV-001"
+    ],
+    "deliverables": [
+      "CUSTCOMPG-Solution.pdf",
+      "CUSTCOMPG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-custom-compliance-configuration-items-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -11434,6 +13472,73 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Defender for Endpoint Integration — Government (GCC High)",
+    "slug": "defender-for-endpoint-integration-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MDEG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MDEG-COMM-001",
+      "PTK-MDEG-NPO-001",
+      "PTK-MDEG-GOV-001"
+    ],
+    "deliverables": [
+      "MDEG-Solution.pdf",
+      "MDEG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\defender-for-endpoint-integration-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
     "slug": "microsoft-tunnel-for-mam-intranet-access",
     "category": "Intune",
@@ -11600,6 +13705,73 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources — Government (GCC High)",
+    "slug": "microsoft-tunnel-for-mam-intranet-access-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "TUNMAMG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-TUNMAMG-COMM-001",
+      "PTK-TUNMAMG-NPO-001",
+      "PTK-TUNMAMG-GOV-001"
+    ],
+    "deliverables": [
+      "TUNMAMG-Solution.pdf",
+      "TUNMAMG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\microsoft-tunnel-for-mam-intranet-access-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps)",
     "slug": "mam-app-protection-policies-byod-m365",
     "category": "Intune",
@@ -11763,6 +13935,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/mam-app-protection-policies-byod-m365/v1.0.0/deliverables/MAMAPP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps) — Government (GCC High)",
+    "slug": "mam-app-protection-policies-byod-m365-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MAMAPPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MAMAPPG-COMM-001",
+      "PTK-MAMAPPG-NPO-001",
+      "PTK-MAMAPPG-GOV-001"
+    ],
+    "deliverables": [
+      "MAMAPPG-Solution.pdf",
+      "MAMAPPG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\mam-app-protection-policies-byod-m365-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/mam-app-protection-policies-byod-m365-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -12428,6 +14667,73 @@
     "product_count": 3
   },
   {
+    "title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access) — Government (GCC High)",
+    "slug": "secure-mobile-access-sharepoint-online-mam-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "SPMAMG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SPMAMG-COMM-001",
+      "PTK-SPMAMG-NPO-001",
+      "PTK-SPMAMG-GOV-001"
+    ],
+    "deliverables": [
+      "SPMAMG-Solution.pdf",
+      "SPMAMG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\secure-mobile-access-sharepoint-online-mam-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Third-Party Application Patching with Intune",
     "slug": "third-party-app-patching-intune",
     "category": "Intune",
@@ -12755,6 +15061,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/windows-autopilot/v1.0.0/deliverables/WAP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Autopilot — Government (GCC High)",
+    "slug": "windows-autopilot-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "WAPG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-WAPG-COMM-001",
+      "PTK-WAPG-NPO-001",
+      "PTK-WAPG-GOV-001"
+    ],
+    "deliverables": [
+      "WAPG-Solution.pdf",
+      "WAPG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-autopilot-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-autopilot-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -13580,6 +15953,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../managed/m365-azure-incident-response-runbook/v1.0.0/deliverables/INCIDENT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "M365 & Azure Incident Response & Escalation Runbook — Government (GCC High)",
+    "slug": "m365-azure-incident-response-runbook-gcc-high",
+    "category": "Managed",
+    "category_slug": "managed",
+    "sol_code": "INCIDENTG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-INCIDENTG-COMM-001",
+      "PTK-INCIDENTG-NPO-001",
+      "PTK-INCIDENTG-GOV-001"
+    ],
+    "deliverables": [
+      "INCIDENTG-Solution.pdf",
+      "INCIDENTG-Scripts.zip"
+    ],
+    "rel_path": "library\\managed\\m365-azure-incident-response-runbook-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-managed.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/source/global-requirements-managed.md",
+          "kb": 4.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../managed/m365-azure-incident-response-runbook-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -15067,6 +17507,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../migrations/m365-exchange-tenant-to-tenant-migration/v1.0.0/deliverables/EXOMIG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Exchange Online Tenant-to-Tenant Migration (1:1 Domains) — Government (GCC High)",
+    "slug": "m365-exchange-tenant-to-tenant-migration-gcc-high",
+    "category": "Migrations",
+    "category_slug": "migrations",
+    "sol_code": "EXOMIGG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 3495.0,
+    "nonprofit": 2097.0,
+    "skus": [
+      "PTK-EXOMIGG-COMM-001",
+      "PTK-EXOMIGG-NPO-001",
+      "PTK-EXOMIGG-GOV-001"
+    ],
+    "deliverables": [
+      "EXOMIGG-Solution.pdf",
+      "EXOMIGG-Scripts.zip"
+    ],
+    "rel_path": "library\\migrations\\m365-exchange-tenant-to-tenant-migration-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 6.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../migrations/m365-exchange-tenant-to-tenant-migration-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -18546,6 +21053,73 @@
     "product_count": 3
   },
   {
+    "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints — Government (GCC High)",
+    "slug": "m365-endpoint-allowlist-egress-management-gcc-high",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "EGRESSG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-EGRESSG-COMM-001",
+      "PTK-EGRESSG-NPO-001",
+      "PTK-EGRESSG-GOV-001"
+    ],
+    "deliverables": [
+      "EGRESSG-Solution.pdf",
+      "EGRESSG-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\m365-endpoint-allowlist-egress-management-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 13.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/m365-endpoint-allowlist-egress-management-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Netskope + Entra ID SSO & Identity-Based Policy Enforcement",
     "slug": "netskope-entra-sso-identity-policy",
     "category": "Network",
@@ -20033,6 +22607,73 @@
     "product_count": 3
   },
   {
+    "title": "Cloud PKI Integration with Intune (Certificate Management Modernization) — Government (GCC High)",
+    "slug": "cloud-pki-integration-intune-gcc-high",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "CPKIG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CPKIG-COMM-001",
+      "PTK-CPKIG-NPO-001",
+      "PTK-CPKIG-GOV-001"
+    ],
+    "deliverables": [
+      "CPKIG-Solution.pdf",
+      "CPKIG-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\cloud-pki-integration-intune-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/cloud-pki-integration-intune-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
     "slug": "continuous-compliance-audit-evidence-intune",
     "category": "Security",
@@ -20196,6 +22837,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/deliverables/CCAUDIT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra) — Government (GCC High)",
+    "slug": "continuous-compliance-audit-evidence-intune-gcc-high",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "CCAUDITG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CCAUDITG-COMM-001",
+      "PTK-CCAUDITG-NPO-001",
+      "PTK-CCAUDITG-GOV-001"
+    ],
+    "deliverables": [
+      "CCAUDITG-Solution.pdf",
+      "CCAUDITG-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\continuous-compliance-audit-evidence-intune-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -20365,6 +23073,73 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft 365 Copilot Secure Adoption & Governance — Government (GCC High)",
+    "slug": "microsoft-365-copilot-secure-adoption-governance-gcc-high",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "COPILOTG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-COPILOTG-COMM-001",
+      "PTK-COPILOTG-NPO-001",
+      "PTK-COPILOTG-GOV-001"
+    ],
+    "deliverables": [
+      "COPILOTG-Solution.pdf",
+      "COPILOTG-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\microsoft-365-copilot-secure-adoption-governance-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/microsoft-365-copilot-secure-adoption-governance-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
     "title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
     "slug": "microsoft-365-security-baseline-audit-readiness",
     "category": "Security",
@@ -20528,6 +23303,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../security/microsoft-365-security-baseline-audit-readiness/v1.0.0/deliverables/M365SEC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager) — Government (GCC High)",
+    "slug": "microsoft-365-security-baseline-audit-readiness-gcc-high",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "M365SECG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-M365SECG-COMM-001",
+      "PTK-M365SECG-NPO-001",
+      "PTK-M365SECG-GOV-001"
+    ],
+    "deliverables": [
+      "M365SECG-Solution.pdf",
+      "M365SECG-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\microsoft-365-security-baseline-audit-readiness-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/microsoft-365-security-baseline-audit-readiness-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   },
   {
@@ -21030,6 +23872,73 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel/v1.0.0/deliverables/SENTLOG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel — Government (GCC High)",
+    "slug": "entra-intune-audit-telemetry-sentinel-gcc-high",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTLOGG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-01",
+    "updated": "2026-07-01",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SENTLOGG-COMM-001",
+      "PTK-SENTLOGG-NPO-001",
+      "PTK-SENTLOGG-GOV-001"
+    ],
+    "deliverables": [
+      "SENTLOGG-Solution.pdf",
+      "SENTLOGG-Scripts.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\entra-intune-audit-telemetry-sentinel-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
     "product_count": 3
   }
 ]

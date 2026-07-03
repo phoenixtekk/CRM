@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Secure Mobile Access to Sh",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Government / GCC High",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "US Sovereign · GCC High · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "COMMERCIAL STEPS",
+    "items": [
+      "Wrong portals",
+      "Missing features",
+      "Silent failures",
+      "No parity map"
+    ]
+  },
+  "to": {
+    "label": "GCC High correct",
+    "stat": "Sovereign portals · parity handled"
+  },
+  "tagline": "SOVEREIGN.  CORRECT.  PROVEN.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "GCC High",
+      "sub": "US sovereign"
+    },
+    {
+      "icon": "cloud",
+      "title": "*.us portals",
+      "sub": "Correct URLs"
+    },
+    {
+      "icon": "gear",
+      "title": "Parity gaps",
+      "sub": "Called out"
+    },
+    {
+      "icon": "chart",
+      "title": "Validated",
+      "sub": "Pilot-first"
+    }
+  ]
+}

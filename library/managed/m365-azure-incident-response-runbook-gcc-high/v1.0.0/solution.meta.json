@@ -1,0 +1,40 @@
+{
+  "slug": "m365-azure-incident-response-runbook-gcc-high",
+  "title": "M365 & Azure Incident Response & Escalation Runbook — Government (GCC High)",
+  "category": "Managed",
+  "category_slug": "managed",
+  "sol_code": "INCIDENTG",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of M365 & Azure Incident Response & Escalation Runbook.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-INCIDENTG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-INCIDENTG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-INCIDENTG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "INCIDENTG-Solution.pdf",
+    "INCIDENTG-Scripts.zip"
+  ],
+  "hero": "INCIDENTG-hero.png"
+}

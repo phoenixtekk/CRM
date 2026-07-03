@@ -1,0 +1,41 @@
+{
+  "slug": "power-platform-secrets-azure-key-vault-gcc-high",
+  "title": "Standardize Power Platform Secrets in Azure Key Vault — Government (GCC High)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "PPKVG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Standardize Power Platform Secrets in Azure Key Vault.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-PPKVG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PPKVG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PPKVG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PPKVG-Solution.pdf",
+    "PPKVG-Scripts.zip"
+  ],
+  "hero": "PPKVG-hero.png"
+}
+

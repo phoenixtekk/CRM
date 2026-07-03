@@ -1,0 +1,41 @@
+{
+  "slug": "enterprise-app-service-principal-governance-gcc-high",
+  "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions) — Government (GCC High)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "APPGOVG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Enterprise App & Service Principal Governance (App Registrations, API Permissions).",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPGOVG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-APPGOVG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-APPGOVG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "APPGOVG-Solution.pdf",
+    "APPGOVG-Scripts.zip"
+  ],
+  "hero": "APPGOVG-hero.png"
+}
+

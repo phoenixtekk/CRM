@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "device-compliance-policies-gcc-high",
+    "title": "Device Compliance Policies — Government (GCC High)",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-DCPG-COMM-001",
+      "name": "Device Compliance Policies — Government (GCC High) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "The <strong>Government (GCC High)</strong> edition of the Device Compliance Policies solution &mdash; US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Deploy Device Compliance Policies correctly on a GCC High tenant</h3><p><strong>Device Compliance Policies</strong> in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different sign-in &mdash; the sovereign-cloud admin URLs differ and some capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government (GCC High) edition</strong>: device compliance policies authored for the US sovereign cloud, with the correct portals, endpoints, and Commercial-vs-GCC-High parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; device compliance policies on GCC High and how the US sovereign cloud differs from Commercial (portals, endpoints, feature parity), plus an explicit <em>Commercial vs GCC High &mdash; what's different</em> section and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em> and <em>implement</em> each (GCC High tenant, US Gov licensing (G3/G5 Gov), roles, sovereign portal access, endpoints/URLs allowed through filtering).</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps using the GCC High portals, with GCC-High-only caveats/parity notes inline at the step where they matter.</li><li><strong>5 PowerShell scripts</strong> &mdash; discovery, validation, reporting, safe remediation, and a target-group builder &mdash; all connecting to US Gov Graph endpoints (<code>-Environment USGov</code>).</li><li><strong>GCC High parity reference</strong> plus <strong>Testing &amp; Troubleshooting</strong> with pass/fail gates and GCC-High-specific gotchas.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Device Compliance Policies deployed correctly on GCC High &mdash; right portals, right endpoints, parity gaps handled &mdash; proven on a pilot before you scale.</p><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Device Compliance Policies — Government (GCC High) Edition",
+      "meta_description": "Government/GCC High edition: deploy device compliance policies on a US sovereign cloud tenant — correct *.us portals, US Gov Graph endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "device-compliance-policies-gcc-high-commercial",
+      "image": "DCPG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DCPG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DCPG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DCPG-NPO-001",
+      "name": "Device Compliance Policies — Government (GCC High) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>The Government (GCC High) edition of the Device Compliance Policies solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Deploy Device Compliance Policies correctly on a GCC High tenant</h3><p><strong>Device Compliance Policies</strong> in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different sign-in &mdash; the sovereign-cloud admin URLs differ and some capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government (GCC High) edition</strong>: device compliance policies authored for the US sovereign cloud, with the correct portals, endpoints, and Commercial-vs-GCC-High parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; device compliance policies on GCC High and how the US sovereign cloud differs from Commercial (portals, endpoints, feature parity), plus an explicit <em>Commercial vs GCC High &mdash; what's different</em> section and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em> and <em>implement</em> each (GCC High tenant, US Gov licensing (G3/G5 Gov), roles, sovereign portal access, endpoints/URLs allowed through filtering).</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps using the GCC High portals, with GCC-High-only caveats/parity notes inline at the step where they matter.</li><li><strong>5 PowerShell scripts</strong> &mdash; discovery, validation, reporting, safe remediation, and a target-group builder &mdash; all connecting to US Gov Graph endpoints (<code>-Environment USGov</code>).</li><li><strong>GCC High parity reference</strong> plus <strong>Testing &amp; Troubleshooting</strong> with pass/fail gates and GCC-High-specific gotchas.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Device Compliance Policies — Government (GCC High) Edition — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Government/GCC High edition: deploy device compliance policies on a US sovereign cloud tenant — correct *.us portals, US Gov Graph endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "device-compliance-policies-gcc-high-nonprofit",
+      "image": "DCPG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DCPG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DCPG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DCPG-GOV-001",
+      "name": "Device Compliance Policies — Government (GCC High) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>The Government (GCC High) edition of the Device Compliance Policies solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Deploy Device Compliance Policies correctly on a GCC High tenant</h3><p><strong>Device Compliance Policies</strong> in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different sign-in &mdash; the sovereign-cloud admin URLs differ and some capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government (GCC High) edition</strong>: device compliance policies authored for the US sovereign cloud, with the correct portals, endpoints, and Commercial-vs-GCC-High parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; device compliance policies on GCC High and how the US sovereign cloud differs from Commercial (portals, endpoints, feature parity), plus an explicit <em>Commercial vs GCC High &mdash; what's different</em> section and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em> and <em>implement</em> each (GCC High tenant, US Gov licensing (G3/G5 Gov), roles, sovereign portal access, endpoints/URLs allowed through filtering).</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps using the GCC High portals, with GCC-High-only caveats/parity notes inline at the step where they matter.</li><li><strong>5 PowerShell scripts</strong> &mdash; discovery, validation, reporting, safe remediation, and a target-group builder &mdash; all connecting to US Gov Graph endpoints (<code>-Environment USGov</code>).</li><li><strong>GCC High parity reference</strong> plus <strong>Testing &amp; Troubleshooting</strong> with pass/fail gates and GCC-High-specific gotchas.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Device Compliance Policies — Government (GCC High) Edition — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Government/GCC High edition: deploy device compliance policies on a US sovereign cloud tenant — correct *.us portals, US Gov Graph endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+      "url_key": "device-compliance-policies-gcc-high-government",
+      "image": "DCPG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DCPG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DCPG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

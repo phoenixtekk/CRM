@@ -633,5 +633,45 @@
     "post_id": 12071,
     "status": "draft",
     "category_id": 411
+  },
+  "azure-security-baseline-governance-gcc-high": {
+    "post_id": 12073,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-virtual-desktop-remote-access-gcc-high": {
+    "post_id": 12075,
+    "status": "draft",
+    "category_id": 411
+  },
+  "power-platform-secrets-azure-key-vault-gcc-high": {
+    "post_id": 12077,
+    "status": "draft",
+    "category_id": 411
+  },
+  "windows-365-cloud-pc-deployment-gcc-high": {
+    "post_id": 12079,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-app-service-principal-governance-gcc-high": {
+    "post_id": 12081,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-governance-pim-access-reviews-gcc-high": {
+    "post_id": 12083,
+    "status": "draft",
+    "category_id": 411
+  },
+  "hybrid-identity-ad-entra-connect-gcc-high": {
+    "post_id": 12085,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-abm-account-auto-provisioning-intune-gcc-high": {
+    "post_id": 12087,
+    "status": "draft",
+    "category_id": 411
   }
 }

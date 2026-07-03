@@ -1,0 +1,82 @@
+{
+  "sol": "W365G",
+  "slug": "windows-365-cloud-pc-deployment-gcc-high",
+  "title": "Windows 365 Cloud PC Deployment & Management — Government (GCC High)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-01",
+  "author_notes": [
+    "Government (GCC High) edition of Windows 365 Cloud PC Deployment & Management.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "hook": "Deploy Windows 365 Cloud PC Deployment & Management correctly on a GCC High tenant",
+  "problem": "<strong>Windows 365 Cloud PC Deployment & Management</strong> in <strong>GCC High</strong> is <em>not</em> the Commercial portal with a different sign-in &mdash; the sovereign-cloud admin URLs differ and some capabilities lag, are limited, or are absent versus Commercial. This is the <strong>Government (GCC High) edition</strong>: windows 365 cloud pc deployment & management authored for the US sovereign cloud, with the correct portals, endpoints, and Commercial-vs-GCC-High parity gaps called out so a government tenant is configured correctly &mdash; not with Commercial steps that silently fail.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; windows 365 cloud pc deployment & management on GCC High and how the US sovereign cloud differs from Commercial (portals, endpoints, feature parity), plus an explicit <em>Commercial vs GCC High &mdash; what's different</em> section and the standard deployment model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em> and <em>implement</em> each (GCC High tenant, US Gov licensing (G3/G5 Gov), roles, sovereign portal access, endpoints/URLs allowed through filtering).",
+    "<strong>Implementation Guide</strong> &mdash; exact ordered steps using the GCC High portals, with GCC-High-only caveats/parity notes inline at the step where they matter.",
+    "<strong>5 PowerShell scripts</strong> &mdash; discovery, validation, reporting, safe remediation, and a target-group builder &mdash; all connecting to US Gov Graph endpoints (<code>-Environment USGov</code>).",
+    "<strong>GCC High parity reference</strong> plus <strong>Testing &amp; Troubleshooting</strong> with pass/fail gates and GCC-High-specific gotchas."
+  ],
+  "short": "The <strong>Government (GCC High)</strong> edition of the Windows 365 Cloud PC Deployment & Management solution &mdash; US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The Government (GCC High) edition of the Windows 365 Cloud PC Deployment & Management solution — US-sovereign-cloud portals/endpoints and Commercial-vs-GCC-High parity gaps called out.",
+  "meta_title": "Windows 365 Cloud PC Deployment & Management — Government (GCC High) Edition",
+  "meta_description": "Government/GCC High edition: deploy windows 365 cloud pc deployment & management on a US sovereign cloud tenant — correct *.us portals, US Gov Graph endpoints, and feature parity gaps vs Commercial. Self-guided steps and scripts.",
+  "bottom_line": "Windows 365 Cloud PC Deployment & Management deployed correctly on GCC High &mdash; right portals, right endpoints, parity gaps handled &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Windows 365 Cloud PC Deplo",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Government / GCC High",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "US Sovereign · GCC High · Azure",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "COMMERCIAL STEPS",
+      "items": [
+        "Wrong portals",
+        "Missing features",
+        "Silent failures",
+        "No parity map"
+      ]
+    },
+    "to": {
+      "label": "GCC High correct",
+      "stat": "Sovereign portals · parity handled"
+    },
+    "tagline": "SOVEREIGN.  CORRECT.  PROVEN.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "GCC High",
+        "sub": "US sovereign"
+      },
+      {
+        "icon": "cloud",
+        "title": "*.us portals",
+        "sub": "Correct URLs"
+      },
+      {
+        "icon": "gear",
+        "title": "Parity gaps",
+        "sub": "Called out"
+      },
+      {
+        "icon": "chart",
+        "title": "Validated",
+        "sub": "Pilot-first"
+      }
+    ]
+  }
+}

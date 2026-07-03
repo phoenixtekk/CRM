@@ -1,0 +1,41 @@
+{
+  "slug": "entra-id-abm-account-auto-provisioning-intune-gcc-high",
+  "title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune — Government (GCC High)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ABMPROVG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": "2026-07-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ABMPROVG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ABMPROVG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ABMPROVG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ABMPROVG-Solution.pdf",
+    "ABMPROVG-Scripts.zip"
+  ],
+  "hero": "ABMPROVG-hero.png"
+}
+

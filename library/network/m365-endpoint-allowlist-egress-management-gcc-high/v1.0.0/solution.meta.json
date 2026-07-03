@@ -1,0 +1,40 @@
+{
+  "slug": "m365-endpoint-allowlist-egress-management-gcc-high",
+  "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints — Government (GCC High)",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "EGRESSG",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints.",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EGRESSG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-EGRESSG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-EGRESSG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "EGRESSG-Solution.pdf",
+    "EGRESSG-Scripts.zip"
+  ],
+  "hero": "EGRESSG-hero.png"
+}

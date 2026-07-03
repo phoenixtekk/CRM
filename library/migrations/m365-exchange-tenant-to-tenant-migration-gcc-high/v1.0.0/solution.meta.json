@@ -1,0 +1,40 @@
+{
+  "slug": "m365-exchange-tenant-to-tenant-migration-gcc-high",
+  "title": "Microsoft 365 Exchange Online Tenant-to-Tenant Migration (1:1 Domains) — Government (GCC High)",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "EXOMIGG",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-01",
+  "updated": "2026-07-01",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Government (GCC High) edition of Microsoft 365 Exchange Online Tenant-to-Tenant Migration (1:1 Domains).",
+    "GOVERNMENT/GCC HIGH: authored for the US sovereign cloud — use *.us admin portals (login.microsoftonline.us, portal.office365.us, endpoint.microsoft.us, security.microsoft.us, compliance.microsoft.us, portal.azure.us) and US Gov Graph (-Environment USGov). Research and call out Commercial-vs-GCC-High feature parity gaps; never invent GCC High specifics — cite Microsoft US Gov docs or flag 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EXOMIGG-COMM-001",
+      "audience": "commercial",
+      "price": 3495.0
+    },
+    {
+      "sku": "PTK-EXOMIGG-NPO-001",
+      "audience": "nonprofit",
+      "price": 2097.0
+    },
+    {
+      "sku": "PTK-EXOMIGG-GOV-001",
+      "audience": "government",
+      "price": 2970.75
+    }
+  ],
+  "deliverables": [
+    "EXOMIGG-Solution.pdf",
+    "EXOMIGG-Scripts.zip"
+  ],
+  "hero": "EXOMIGG-hero.png"
+}
