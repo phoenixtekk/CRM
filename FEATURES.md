@@ -182,7 +182,22 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Enterprise VOIP / Softphone Endpoint Support & Troubleshooting | `voip-softphone-endpoint-support` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
 | Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra) | `continuous-compliance-audit-evidence-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Security) |
 
-Total commercial catalog value: **$345,080** (126 solutions, all published). **Categories are one word** (store renamed `Intune Solutions→Intune`, `Security Solutions→Security`, `Azure Solutions→Azure`, `Entra ID Solutions→Entra`). **Migrations** is now the single home for all platform-to-platform migration products (13 solutions). **Pricing is 3-tier**
+| **Government (GCC High) editions (2026-07-03)** | | | |
+| 32 sovereign-cloud editions of the Microsoft-cloud solutions — separate `<slug>-gcc-high` products, GCC High / Azure Government / US Gov Graph, doc-cited Commercial-vs-GCC-High parity gaps | `*-gcc-high` | same 3-tier as parent | ✅ published (store + wiki + Dolibarr) |
+
+Total commercial catalog value: **$435,410** (158 solutions, all published — incl. 32 Government (GCC High) editions).
+
+**Government (GCC High) editions (2026-07-03):** for every solution whose setup materially differs on a US
+sovereign tenant, a **separate `<slug>-gcc-high` product** ("<Title> — Government (GCC High)") was authored
+against Microsoft US-Gov docs — correct `*.us` portals (`portal.azure.us`, `intune.microsoft.us`,
+`entra.microsoft.us`, `compliance.microsoft.us`, `security.microsoft.us`), US Gov Graph (`-Environment
+USGov`/`USGovDoD`), and doc-cited Commercial-vs-GCC-High **parity gaps** (each edition ships a
+`gcc-high-parity-notes.md`). Notable findings baked in: classic Windows Autopilot → Autopilot device
+preparation; Cloud PKI N/A → SCEP/PKCS; cross-cloud Exchange migration → third-party tools; Entra↔ABM
+federation unsupported; Universal Print GA in GCC High but not DoD; Tunnel needs `intune_env=FXP`, no FIPS;
+Copilot GA Dec 2025 (web-grounding off). Parent products carry a non-destructive pointer to their Government
+edition. Model + pricing: separate product, same 3 tiers as parent (content = GCC High, discount = buyer org).
+Governed by generate-solution SKILL §0d (research-and-fork rule). **Categories are one word** (store renamed `Intune Solutions→Intune`, `Security Solutions→Security`, `Azure Solutions→Azure`, `Entra ID Solutions→Entra`). **Migrations** is now the single home for all platform-to-platform migration products (13 solutions). **Pricing is 3-tier**
 (Commercial anchor · Non-Profit −40% · Government −15%), with the commercial anchor set from the
 **Effort & Complexity Scale (T1–T5)** in `pricing.md`. Discounted tiers are eligibility-gated (see
 `ADMIN_DOCS.md` → eligibility validation). Listings include a "run it yourself vs. consulting" value
