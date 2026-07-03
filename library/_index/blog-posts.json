@@ -673,5 +673,45 @@
     "post_id": 12087,
     "status": "draft",
     "category_id": 411
+  },
+  "cloud-first-autopilot-zero-touch-provisioning-gcc-high": {
+    "post_id": 12089,
+    "status": "draft",
+    "category_id": 411
+  },
+  "conditional-access-integration-gcc-high": {
+    "post_id": 12091,
+    "status": "draft",
+    "category_id": 411
+  },
+  "device-compliance-policies-gcc-high": {
+    "post_id": 12093,
+    "status": "draft",
+    "category_id": 411
+  },
+  "disa-stig-compliance-windows-10-11-intune-gcc-high": {
+    "post_id": 12095,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-rbac-multi-admin-governance-gcc-high": {
+    "post_id": 12097,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-compliance-failure-diagnostics-gcc-high": {
+    "post_id": 12099,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-custom-compliance-configuration-items-gcc-high": {
+    "post_id": 12101,
+    "status": "draft",
+    "category_id": 411
+  },
+  "defender-for-endpoint-integration-gcc-high": {
+    "post_id": 12103,
+    "status": "draft",
+    "category_id": 411
   }
 }

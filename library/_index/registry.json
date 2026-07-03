@@ -8850,10 +8850,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "CFAPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -8869,16 +8869,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 11.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.2
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CFAPG-Discovery.ps1",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/scripts/CFAPG-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "CFAPG-Remediation.ps1",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/scripts/CFAPG-Remediation.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "CFAPG-Report.ps1",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/scripts/CFAPG-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "CFAPG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/scripts/CFAPG-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "CFAPG-Validation.ps1",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/scripts/CFAPG-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CFAPG-Complete-Solution.zip",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-Complete-Solution.zip",
+          "kb": 123.7
+        },
+        {
+          "name": "CFAPG-hero.png",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-hero.png",
+          "kb": 417.9
+        },
+        {
+          "name": "CFAPG-hero.svg",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CFAPG-Scripts.zip",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-Scripts.zip",
+          "kb": 10.9
+        },
+        {
+          "name": "CFAPG-Solution.docx",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-Solution.docx",
+          "kb": 61.1
+        },
+        {
+          "name": "CFAPG-Solution.pdf",
+          "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-Solution.pdf",
+          "kb": 76.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.3
+          "kb": 15.8
         },
         {
           "name": "hero.json",
@@ -8904,10 +9008,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning-gcc-high/v1.0.0/deliverables/CFAPG-hero.png",
     "product_count": 3
   },
   {
@@ -9082,10 +9186,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "CAIG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -9101,16 +9205,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 6.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 6.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 2.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.7
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CAIG-Discovery.ps1",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/scripts/CAIG-Discovery.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "CAIG-Remediation.ps1",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/scripts/CAIG-Remediation.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "CAIG-Report.ps1",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/scripts/CAIG-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "CAIG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/scripts/CAIG-Set-ScopeTargeting.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "CAIG-Validation.ps1",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/scripts/CAIG-Validation.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CAIG-Complete-Solution.zip",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-Complete-Solution.zip",
+          "kb": 96.4
+        },
+        {
+          "name": "CAIG-hero.png",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-hero.png",
+          "kb": 409.9
+        },
+        {
+          "name": "CAIG-hero.svg",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CAIG-Scripts.zip",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-Scripts.zip",
+          "kb": 8.7
+        },
+        {
+          "name": "CAIG-Solution.docx",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-Solution.docx",
+          "kb": 52.6
+        },
+        {
+          "name": "CAIG-Solution.pdf",
+          "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-Solution.pdf",
+          "kb": 53.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.7
+          "kb": 15.4
         },
         {
           "name": "hero.json",
@@ -9136,10 +9344,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/conditional-access-integration-gcc-high/v1.0.0/deliverables/CAIG-hero.png",
     "product_count": 3
   },
   {
@@ -9810,10 +10018,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "DCPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -9829,16 +10037,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.6
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DCPG-Discovery.ps1",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/scripts/DCPG-Discovery.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "DCPG-Remediation.ps1",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/scripts/DCPG-Remediation.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "DCPG-Report.ps1",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/scripts/DCPG-Report.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "DCPG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/scripts/DCPG-Set-ScopeTargeting.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "DCPG-Validation.ps1",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/scripts/DCPG-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DCPG-Complete-Solution.zip",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-Complete-Solution.zip",
+          "kb": 111.1
+        },
+        {
+          "name": "DCPG-hero.png",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-hero.png",
+          "kb": 432.8
+        },
+        {
+          "name": "DCPG-hero.svg",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "DCPG-Scripts.zip",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-Scripts.zip",
+          "kb": 9.5
+        },
+        {
+          "name": "DCPG-Solution.docx",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-Solution.docx",
+          "kb": 58.0
+        },
+        {
+          "name": "DCPG-Solution.pdf",
+          "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-Solution.pdf",
+          "kb": 65.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.5
+          "kb": 15.4
         },
         {
           "name": "hero.json",
@@ -9864,10 +10176,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/device-compliance-policies-gcc-high/v1.0.0/deliverables/DCPG-hero.png",
     "product_count": 3
   },
   {
@@ -10213,10 +10525,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "STIGG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -10232,16 +10544,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 9.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 10.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.6
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "STIGG-Discovery.ps1",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/scripts/STIGG-Discovery.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "STIGG-Remediation.ps1",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/scripts/STIGG-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "STIGG-Report.ps1",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/scripts/STIGG-Report.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "STIGG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/scripts/STIGG-Set-ScopeTargeting.ps1",
+          "kb": 7.9
+        },
+        {
+          "name": "STIGG-Validation.ps1",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/scripts/STIGG-Validation.ps1",
+          "kb": 7.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "STIGG-Complete-Solution.zip",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-Complete-Solution.zip",
+          "kb": 123.8
+        },
+        {
+          "name": "STIGG-hero.png",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-hero.png",
+          "kb": 503.0
+        },
+        {
+          "name": "STIGG-hero.svg",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "STIGG-Scripts.zip",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-Scripts.zip",
+          "kb": 13.2
+        },
+        {
+          "name": "STIGG-Solution.docx",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-Solution.docx",
+          "kb": 60.7
+        },
+        {
+          "name": "STIGG-Solution.pdf",
+          "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-Solution.pdf",
+          "kb": 73.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.5
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -10267,10 +10683,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune-gcc-high/v1.0.0/deliverables/STIGG-hero.png",
     "product_count": 3
   },
   {
@@ -11783,10 +12199,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "RBACGOVG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -11802,16 +12218,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.1
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "RBACGOVG-Discovery.ps1",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/scripts/RBACGOVG-Discovery.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "RBACGOVG-Remediation.ps1",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/scripts/RBACGOVG-Remediation.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "RBACGOVG-Report.ps1",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/scripts/RBACGOVG-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "RBACGOVG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/scripts/RBACGOVG-Set-ScopeTargeting.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "RBACGOVG-Validation.ps1",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/scripts/RBACGOVG-Validation.ps1",
+          "kb": 3.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "RBACGOVG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-Complete-Solution.zip",
+          "kb": 106.3
+        },
+        {
+          "name": "RBACGOVG-hero.png",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-hero.png",
+          "kb": 414.3
+        },
+        {
+          "name": "RBACGOVG-hero.svg",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "RBACGOVG-Scripts.zip",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-Scripts.zip",
+          "kb": 8.0
+        },
+        {
+          "name": "RBACGOVG-Solution.docx",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-Solution.docx",
+          "kb": 55.6
+        },
+        {
+          "name": "RBACGOVG-Solution.pdf",
+          "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-Solution.pdf",
+          "kb": 63.8
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.6
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -11837,10 +12357,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/intune-rbac-multi-admin-governance-gcc-high/v1.0.0/deliverables/RBACGOVG-hero.png",
     "product_count": 3
   },
   {
@@ -12182,10 +12702,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "INTCOMPDXG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -12201,16 +12721,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 11.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 9.0
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INTCOMPDXG-Discovery.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/scripts/INTCOMPDXG-Discovery.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "INTCOMPDXG-Remediation.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/scripts/INTCOMPDXG-Remediation.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "INTCOMPDXG-Report.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/scripts/INTCOMPDXG-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "INTCOMPDXG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/scripts/INTCOMPDXG-Set-ScopeTargeting.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "INTCOMPDXG-Validation.ps1",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/scripts/INTCOMPDXG-Validation.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INTCOMPDXG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-Complete-Solution.zip",
+          "kb": 113.1
+        },
+        {
+          "name": "INTCOMPDXG-hero.png",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-hero.png",
+          "kb": 440.0
+        },
+        {
+          "name": "INTCOMPDXG-hero.svg",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "INTCOMPDXG-Scripts.zip",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "INTCOMPDXG-Solution.docx",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-Solution.docx",
+          "kb": 57.7
+        },
+        {
+          "name": "INTCOMPDXG-Solution.pdf",
+          "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-Solution.pdf",
+          "kb": 65.3
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.3
+          "kb": 15.9
         },
         {
           "name": "hero.json",
@@ -12236,10 +12860,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/intune-compliance-failure-diagnostics-gcc-high/v1.0.0/deliverables/INTCOMPDXG-hero.png",
     "product_count": 3
   },
   {
@@ -12415,10 +13039,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "CUSTCOMPG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -12434,16 +13058,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 5.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.4
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CUSTCOMPG-Discovery.ps1",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/scripts/CUSTCOMPG-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "CUSTCOMPG-Remediation.ps1",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/scripts/CUSTCOMPG-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "CUSTCOMPG-Report.ps1",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/scripts/CUSTCOMPG-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "CUSTCOMPG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/scripts/CUSTCOMPG-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "CUSTCOMPG-Validation.ps1",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/scripts/CUSTCOMPG-Validation.ps1",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CUSTCOMPG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-Complete-Solution.zip",
+          "kb": 113.5
+        },
+        {
+          "name": "CUSTCOMPG-hero.png",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-hero.png",
+          "kb": 445.1
+        },
+        {
+          "name": "CUSTCOMPG-hero.svg",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "CUSTCOMPG-Scripts.zip",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-Scripts.zip",
+          "kb": 10.9
+        },
+        {
+          "name": "CUSTCOMPG-Solution.docx",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-Solution.docx",
+          "kb": 57.7
+        },
+        {
+          "name": "CUSTCOMPG-Solution.pdf",
+          "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-Solution.pdf",
+          "kb": 66.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.2
+          "kb": 16.3
         },
         {
           "name": "hero.json",
@@ -12469,10 +13197,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/intune-custom-compliance-configuration-items-gcc-high/v1.0.0/deliverables/CUSTCOMPG-hero.png",
     "product_count": 3
   },
   {
@@ -13478,10 +14206,10 @@
     "category_slug": "intune-solutions",
     "sol_code": "MDEG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-01",
     "updated": "2026-07-01",
-    "published_at": null,
+    "published_at": "2026-07-01",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
     "skus": [
@@ -13497,16 +14225,120 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.0
+        },
+        {
           "name": "global-requirements-intune-solutions.md",
           "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
           "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MDEG-Discovery.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/scripts/MDEG-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "MDEG-Remediation.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/scripts/MDEG-Remediation.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "MDEG-Report.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/scripts/MDEG-Report.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "MDEG-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/scripts/MDEG-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "MDEG-Validation.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/scripts/MDEG-Validation.ps1",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MDEG-Complete-Solution.zip",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-Complete-Solution.zip",
+          "kb": 110.3
+        },
+        {
+          "name": "MDEG-hero.png",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-hero.png",
+          "kb": 479.0
+        },
+        {
+          "name": "MDEG-hero.svg",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "MDEG-Scripts.zip",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-Scripts.zip",
+          "kb": 10.8
+        },
+        {
+          "name": "MDEG-Solution.docx",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-Solution.docx",
+          "kb": 57.2
+        },
+        {
+          "name": "MDEG-Solution.pdf",
+          "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-Solution.pdf",
+          "kb": 63.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/listing/bagisto-products.json",
-          "kb": 12.0
+          "kb": 15.8
         },
         {
           "name": "hero.json",
@@ -13532,10 +14364,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/defender-for-endpoint-integration-gcc-high/v1.0.0/deliverables/MDEG-hero.png",
     "product_count": 3
   },
   {
