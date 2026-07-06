@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra ↔ Google",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SSO & Provisioning",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Federation · GCDS · SCIM",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "IDENTITY SPLIT",
+    "items": [
+      "Two logins",
+      "Inconsistent accounts",
+      "Manual provisioning",
+      "Licensing drift"
+    ]
+  },
+  "to": {
+    "label": "One identity",
+    "stat": "SSO + provisioning"
+  },
+  "tagline": "FEDERATE.  PROVISION.  SIGN IN ONCE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SSO",
+      "sub": "Entra IdP"
+    },
+    {
+      "icon": "gear",
+      "title": "Provisioning",
+      "sub": "GCDS/SCIM"
+    },
+    {
+      "icon": "users",
+      "title": "Groups",
+      "sub": "Consistent"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Per-user"
+    }
+  ]
+}

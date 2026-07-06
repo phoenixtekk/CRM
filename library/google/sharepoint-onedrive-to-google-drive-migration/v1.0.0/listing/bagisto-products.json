@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "sharepoint-onedrive-to-google-drive-migration",
+    "title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWDRIVE-COMM-001",
+      "name": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Migrate <strong>SharePoint Online and OneDrive to Google Drive / Shared Drives</strong> with deliberate content + permission mapping and per-item validation &mdash; files land with the right access, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Move files and shares to Drive without losing permissions</h3><p>SharePoint sites and OneDrive content don't map one-to-one to Google Drive &mdash; permissions, sharing, and structure are where these migrations go wrong. This solution migrates <strong>SharePoint Online and OneDrive to Google Drive and Shared Drives</strong> with a deliberate content/permission mapping, tooling pattern, and per-item validation, so files land in the right shared drives with the right access, executed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the SPO/OneDrive → Drive/Shared Drives mapping model (sites→shared drives, permissions/sharing translation, structure) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (source SPO/OneDrive access, Google tenant/licensing, a migration tool, mapping decisions, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the content + permission mapping, run a named pilot, validate files/permissions/sharing, then migrate by wave and validate.</li><li><strong>5 supporting scripts</strong> &mdash; source content/permission discovery, per-item migration + permission validation, a migration coverage/exception report, safe remediation, and a wave target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (files migrated, permissions correct, sharing works) plus Best Practices for shared-drive structure.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>SharePoint and OneDrive content on Google Drive / Shared Drives with permissions and sharing intact &mdash; mapped deliberately, validated per item &mdash; proven on a pilot before you scale.</p><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration",
+      "meta_description": "Migrate SharePoint Online and OneDrive to Google Drive and Shared Drives: content and permission mapping, sharing translation, tooling patterns, and per-item validation. Self-guided steps and scripts.",
+      "url_key": "sharepoint-onedrive-to-google-drive-migration-commercial",
+      "image": "GWDRIVE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWDRIVE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWDRIVE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWDRIVE-NPO-001",
+      "name": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Migrate SharePoint Online and OneDrive to Google Drive / Shared Drives with deliberate content + permission mapping and per-item validation — files land with the right access, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Move files and shares to Drive without losing permissions</h3><p>SharePoint sites and OneDrive content don't map one-to-one to Google Drive &mdash; permissions, sharing, and structure are where these migrations go wrong. This solution migrates <strong>SharePoint Online and OneDrive to Google Drive and Shared Drives</strong> with a deliberate content/permission mapping, tooling pattern, and per-item validation, so files land in the right shared drives with the right access, executed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the SPO/OneDrive → Drive/Shared Drives mapping model (sites→shared drives, permissions/sharing translation, structure) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (source SPO/OneDrive access, Google tenant/licensing, a migration tool, mapping decisions, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the content + permission mapping, run a named pilot, validate files/permissions/sharing, then migrate by wave and validate.</li><li><strong>5 supporting scripts</strong> &mdash; source content/permission discovery, per-item migration + permission validation, a migration coverage/exception report, safe remediation, and a wave target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (files migrated, permissions correct, sharing works) plus Best Practices for shared-drive structure.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Migrate SharePoint Online and OneDrive to Google Drive and Shared Drives: content and permission mapping, sharing translation, tooling patterns, and per-item validation. Self-guided steps and scripts.",
+      "url_key": "sharepoint-onedrive-to-google-drive-migration-nonprofit",
+      "image": "GWDRIVE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWDRIVE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWDRIVE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWDRIVE-GOV-001",
+      "name": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Migrate SharePoint Online and OneDrive to Google Drive / Shared Drives with deliberate content + permission mapping and per-item validation — files land with the right access, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Move files and shares to Drive without losing permissions</h3><p>SharePoint sites and OneDrive content don't map one-to-one to Google Drive &mdash; permissions, sharing, and structure are where these migrations go wrong. This solution migrates <strong>SharePoint Online and OneDrive to Google Drive and Shared Drives</strong> with a deliberate content/permission mapping, tooling pattern, and per-item validation, so files land in the right shared drives with the right access, executed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the SPO/OneDrive → Drive/Shared Drives mapping model (sites→shared drives, permissions/sharing translation, structure) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (source SPO/OneDrive access, Google tenant/licensing, a migration tool, mapping decisions, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the content + permission mapping, run a named pilot, validate files/permissions/sharing, then migrate by wave and validate.</li><li><strong>5 supporting scripts</strong> &mdash; source content/permission discovery, per-item migration + permission validation, a migration coverage/exception report, safe remediation, and a wave target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (files migrated, permissions correct, sharing works) plus Best Practices for shared-drive structure.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Migrate SharePoint Online and OneDrive to Google Drive and Shared Drives: content and permission mapping, sharing translation, tooling patterns, and per-item validation. Self-guided steps and scripts.",
+      "url_key": "sharepoint-onedrive-to-google-drive-migration-government",
+      "image": "GWDRIVE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWDRIVE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWDRIVE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

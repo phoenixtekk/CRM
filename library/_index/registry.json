@@ -5179,6 +5179,2036 @@
     "product_count": 3
   },
   {
+    "title": "Apps Script & AppSheet Work-Transformation Governance",
+    "slug": "apps-script-appsheet-work-transformation-governance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWAUTO",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GWAUTO-COMM-001",
+      "PTK-GWAUTO-NPO-001",
+      "PTK-GWAUTO-GOV-001"
+    ],
+    "deliverables": [
+      "GWAUTO-Solution.pdf",
+      "GWAUTO-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\apps-script-appsheet-work-transformation-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/03-implementation.md",
+          "kb": 9.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWAUTO-Discovery.ps1",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/scripts/GWAUTO-Discovery.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "GWAUTO-Remediation.ps1",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/scripts/GWAUTO-Remediation.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "GWAUTO-Report.ps1",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/scripts/GWAUTO-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "GWAUTO-Set-ScopeTargeting.ps1",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/scripts/GWAUTO-Set-ScopeTargeting.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "GWAUTO-Validation.ps1",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/scripts/GWAUTO-Validation.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWAUTO-Complete-Solution.zip",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-Complete-Solution.zip",
+          "kb": 106.4
+        },
+        {
+          "name": "GWAUTO-hero.png",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-hero.png",
+          "kb": 425.3
+        },
+        {
+          "name": "GWAUTO-hero.svg",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GWAUTO-Scripts.zip",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "GWAUTO-Solution.docx",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-Solution.docx",
+          "kb": 56.0
+        },
+        {
+          "name": "GWAUTO-Solution.pdf",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-Solution.pdf",
+          "kb": 59.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/apps-script-appsheet-work-transformation-governance/v1.0.0/deliverables/GWAUTO-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Architecture & Design Review Board (ARB) Governance Framework for a Workspace Transformation",
+    "slug": "workspace-transformation-arb-governance-framework",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWARB",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWARB-COMM-001",
+      "PTK-GWARB-NPO-001",
+      "PTK-GWARB-GOV-001"
+    ],
+    "deliverables": [
+      "GWARB-Solution.pdf",
+      "GWARB-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\workspace-transformation-arb-governance-framework\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/03-implementation.md",
+          "kb": 6.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWARB-Discovery.ps1",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/scripts/GWARB-Discovery.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "GWARB-Remediation.ps1",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/scripts/GWARB-Remediation.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "GWARB-Report.ps1",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/scripts/GWARB-Report.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "GWARB-Set-ScopeTargeting.ps1",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/scripts/GWARB-Set-ScopeTargeting.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "GWARB-Validation.ps1",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/scripts/GWARB-Validation.ps1",
+          "kb": 4.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWARB-Complete-Solution.zip",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-Complete-Solution.zip",
+          "kb": 108.2
+        },
+        {
+          "name": "GWARB-hero.png",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-hero.png",
+          "kb": 451.3
+        },
+        {
+          "name": "GWARB-hero.svg",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWARB-Scripts.zip",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "GWARB-Solution.docx",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-Solution.docx",
+          "kb": 56.3
+        },
+        {
+          "name": "GWARB-Solution.pdf",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-Solution.pdf",
+          "kb": 62.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/workspace-transformation-arb-governance-framework/v1.0.0/deliverables/GWARB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+    "slug": "collaboration-ai-platform-consolidation-strategy",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWCONSOL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWCONSOL-COMM-001",
+      "PTK-GWCONSOL-NPO-001",
+      "PTK-GWCONSOL-GOV-001"
+    ],
+    "deliverables": [
+      "GWCONSOL-Solution.pdf",
+      "GWCONSOL-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\collaboration-ai-platform-consolidation-strategy\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/02-requirements.md",
+          "kb": 12.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/03-implementation.md",
+          "kb": 13.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/05-testing.md",
+          "kb": 6.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/07-best-practices.md",
+          "kb": 6.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 7.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWCONSOL-Discovery.ps1",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/scripts/GWCONSOL-Discovery.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "GWCONSOL-Remediation.ps1",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/scripts/GWCONSOL-Remediation.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "GWCONSOL-Report.ps1",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/scripts/GWCONSOL-Report.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "GWCONSOL-Set-ScopeTargeting.ps1",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/scripts/GWCONSOL-Set-ScopeTargeting.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "GWCONSOL-Validation.ps1",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/scripts/GWCONSOL-Validation.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWCONSOL-Complete-Solution.zip",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-Complete-Solution.zip",
+          "kb": 140.1
+        },
+        {
+          "name": "GWCONSOL-hero.png",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-hero.png",
+          "kb": 446.9
+        },
+        {
+          "name": "GWCONSOL-hero.svg",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GWCONSOL-Scripts.zip",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "GWCONSOL-Solution.docx",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-Solution.docx",
+          "kb": 65.2
+        },
+        {
+          "name": "GWCONSOL-Solution.pdf",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-Solution.pdf",
+          "kb": 92.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/collaboration-ai-platform-consolidation-strategy/v1.0.0/deliverables/GWCONSOL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enterprise Integration Patterns — Entra ID ↔ Google + M365 Coexistence + Third-Party Apps",
+    "slug": "enterprise-integration-patterns-entra-google-thirdparty",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWINTEG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWINTEG-COMM-001",
+      "PTK-GWINTEG-NPO-001",
+      "PTK-GWINTEG-GOV-001"
+    ],
+    "deliverables": [
+      "GWINTEG-Solution.pdf",
+      "GWINTEG-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\enterprise-integration-patterns-entra-google-thirdparty\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/02-requirements.md",
+          "kb": 8.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/03-implementation.md",
+          "kb": 10.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWINTEG-Discovery.ps1",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/scripts/GWINTEG-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWINTEG-Remediation.ps1",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/scripts/GWINTEG-Remediation.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "GWINTEG-Report.ps1",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/scripts/GWINTEG-Report.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "GWINTEG-Set-ScopeTargeting.ps1",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/scripts/GWINTEG-Set-ScopeTargeting.ps1",
+          "kb": 3.0
+        },
+        {
+          "name": "GWINTEG-Validation.ps1",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/scripts/GWINTEG-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWINTEG-Complete-Solution.zip",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-Complete-Solution.zip",
+          "kb": 111.8
+        },
+        {
+          "name": "GWINTEG-hero.png",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-hero.png",
+          "kb": 469.0
+        },
+        {
+          "name": "GWINTEG-hero.svg",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWINTEG-Scripts.zip",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "GWINTEG-Solution.docx",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-Solution.docx",
+          "kb": 57.4
+        },
+        {
+          "name": "GWINTEG-Solution.pdf",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-Solution.pdf",
+          "kb": 65.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/enterprise-integration-patterns-entra-google-thirdparty/v1.0.0/deliverables/GWINTEG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM)",
+    "slug": "entra-id-google-cloud-identity-sso-provisioning",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWSSO",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWSSO-COMM-001",
+      "PTK-GWSSO-NPO-001",
+      "PTK-GWSSO-GOV-001"
+    ],
+    "deliverables": [
+      "GWSSO-Solution.pdf",
+      "GWSSO-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\entra-id-google-cloud-identity-sso-provisioning\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Exchange Online → Gmail Migration (Mail, Calendar, Contacts)",
+    "slug": "exchange-online-to-gmail-migration",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWGMAIL",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWGMAIL-COMM-001",
+      "PTK-GWGMAIL-NPO-001",
+      "PTK-GWGMAIL-GOV-001"
+    ],
+    "deliverables": [
+      "GWGMAIL-Solution.pdf",
+      "GWGMAIL-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\exchange-online-to-gmail-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Gemini Connector Strategy & Agent Development Framework",
+    "slug": "gemini-connector-strategy-agent-development-framework",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GEMCONN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GEMCONN-COMM-001",
+      "PTK-GEMCONN-NPO-001",
+      "PTK-GEMCONN-GOV-001"
+    ],
+    "deliverables": [
+      "GEMCONN-Solution.pdf",
+      "GEMCONN-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\gemini-connector-strategy-agent-development-framework\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/03-implementation.md",
+          "kb": 7.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/07-best-practices.md",
+          "kb": 3.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GEMCONN-Discovery.ps1",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/scripts/GEMCONN-Discovery.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "GEMCONN-Remediation.ps1",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/scripts/GEMCONN-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "GEMCONN-Report.ps1",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/scripts/GEMCONN-Report.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "GEMCONN-Set-ScopeTargeting.ps1",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/scripts/GEMCONN-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "GEMCONN-Validation.ps1",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/scripts/GEMCONN-Validation.ps1",
+          "kb": 7.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GEMCONN-Complete-Solution.zip",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-Complete-Solution.zip",
+          "kb": 109.1
+        },
+        {
+          "name": "GEMCONN-hero.png",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-hero.png",
+          "kb": 426.2
+        },
+        {
+          "name": "GEMCONN-hero.svg",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GEMCONN-Scripts.zip",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "GEMCONN-Solution.docx",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-Solution.docx",
+          "kb": 55.8
+        },
+        {
+          "name": "GEMCONN-Solution.pdf",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-Solution.pdf",
+          "kb": 61.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/gemini-connector-strategy-agent-development-framework/v1.0.0/deliverables/GEMCONN-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+    "slug": "gemini-enterprise-secure-adoption-governance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GEMGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GEMGOV-COMM-001",
+      "PTK-GEMGOV-NPO-001",
+      "PTK-GEMGOV-GOV-001"
+    ],
+    "deliverables": [
+      "GEMGOV-Solution.pdf",
+      "GEMGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\gemini-enterprise-secure-adoption-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/03-implementation.md",
+          "kb": 7.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GEMGOV-Discovery.ps1",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/scripts/GEMGOV-Discovery.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "GEMGOV-Remediation.ps1",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/scripts/GEMGOV-Remediation.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "GEMGOV-Report.ps1",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/scripts/GEMGOV-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "GEMGOV-Set-ScopeTargeting.ps1",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/scripts/GEMGOV-Set-ScopeTargeting.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "GEMGOV-Validation.ps1",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/scripts/GEMGOV-Validation.ps1",
+          "kb": 5.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GEMGOV-Complete-Solution.zip",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-Complete-Solution.zip",
+          "kb": 105.1
+        },
+        {
+          "name": "GEMGOV-hero.png",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-hero.png",
+          "kb": 428.4
+        },
+        {
+          "name": "GEMGOV-hero.svg",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GEMGOV-Scripts.zip",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-Scripts.zip",
+          "kb": 10.6
+        },
+        {
+          "name": "GEMGOV-Solution.docx",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-Solution.docx",
+          "kb": 54.5
+        },
+        {
+          "name": "GEMGOV-Solution.pdf",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-Solution.pdf",
+          "kb": 59.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/gemini-enterprise-secure-adoption-governance/v1.0.0/deliverables/GEMGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
+    "slug": "google-workspace-gemini-target-architecture-blueprint",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWARCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-GWARCH-COMM-001",
+      "PTK-GWARCH-NPO-001",
+      "PTK-GWARCH-GOV-001"
+    ],
+    "deliverables": [
+      "GWARCH-Solution.pdf",
+      "GWARCH-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-gemini-target-architecture-blueprint\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/03-implementation.md",
+          "kb": 12.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWARCH-Discovery.ps1",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/scripts/GWARCH-Discovery.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "GWARCH-Remediation.ps1",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/scripts/GWARCH-Remediation.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "GWARCH-Report.ps1",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/scripts/GWARCH-Report.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWARCH-Set-ScopeTargeting.ps1",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/scripts/GWARCH-Set-ScopeTargeting.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWARCH-Validation.ps1",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/scripts/GWARCH-Validation.ps1",
+          "kb": 7.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWARCH-Complete-Solution.zip",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-Complete-Solution.zip",
+          "kb": 119.4
+        },
+        {
+          "name": "GWARCH-hero.png",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-hero.png",
+          "kb": 482.7
+        },
+        {
+          "name": "GWARCH-hero.svg",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GWARCH-Scripts.zip",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "GWARCH-Solution.docx",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-Solution.docx",
+          "kb": 59.8
+        },
+        {
+          "name": "GWARCH-Solution.pdf",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-Solution.pdf",
+          "kb": 70.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Workspace Security Baseline, DLP & Context-Aware Access (CAA)",
+    "slug": "google-workspace-security-baseline-dlp-caa",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWSEC",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWSEC-COMM-001",
+      "PTK-GWSEC-NPO-001",
+      "PTK-GWSEC-GOV-001"
+    ],
+    "deliverables": [
+      "GWSEC-Solution.pdf",
+      "GWSEC-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-security-baseline-dlp-caa\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 → Google Workspace Migration Program & Wave Plan (Enterprise/150k+)",
+    "slug": "m365-to-google-workspace-migration-program",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMIGPROG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-GWMIGPROG-COMM-001",
+      "PTK-GWMIGPROG-NPO-001",
+      "PTK-GWMIGPROG-GOV-001"
+    ],
+    "deliverables": [
+      "GWMIGPROG-Solution.pdf",
+      "GWMIGPROG-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\m365-to-google-workspace-migration-program\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/03-implementation.md",
+          "kb": 8.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/05-testing.md",
+          "kb": 3.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWMIGPROG-Discovery.ps1",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/scripts/GWMIGPROG-Discovery.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "GWMIGPROG-Remediation.ps1",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/scripts/GWMIGPROG-Remediation.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "GWMIGPROG-Report.ps1",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/scripts/GWMIGPROG-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "GWMIGPROG-Set-ScopeTargeting.ps1",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/scripts/GWMIGPROG-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "GWMIGPROG-Validation.ps1",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/scripts/GWMIGPROG-Validation.ps1",
+          "kb": 4.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMIGPROG-Complete-Solution.zip",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-Complete-Solution.zip",
+          "kb": 107.0
+        },
+        {
+          "name": "GWMIGPROG-hero.png",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-hero.png",
+          "kb": 477.5
+        },
+        {
+          "name": "GWMIGPROG-hero.svg",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GWMIGPROG-Scripts.zip",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-Scripts.zip",
+          "kb": 9.4
+        },
+        {
+          "name": "GWMIGPROG-Solution.docx",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-Solution.docx",
+          "kb": 55.2
+        },
+        {
+          "name": "GWMIGPROG-Solution.pdf",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-Solution.pdf",
+          "kb": 63.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/m365-to-google-workspace-migration-program/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/m365-to-google-workspace-migration-program/v1.0.0/deliverables/GWMIGPROG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync)",
+    "slug": "m365-google-workspace-coexistence",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWCOEX",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWCOEX-COMM-001",
+      "PTK-GWCOEX-NPO-001",
+      "PTK-GWCOEX-GOV-001"
+    ],
+    "deliverables": [
+      "GWCOEX-Solution.pdf",
+      "GWCOEX-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\m365-google-workspace-coexistence\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams → Google Chat & Meet Migration & Coexistence",
+    "slug": "teams-to-google-chat-meet-migration",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWCHAT",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWCHAT-COMM-001",
+      "PTK-GWCHAT-NPO-001",
+      "PTK-GWCHAT-GOV-001"
+    ],
+    "deliverables": [
+      "GWCHAT-Solution.pdf",
+      "GWCHAT-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\teams-to-google-chat-meet-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Regulated Google Workspace — Assured Controls, ITAR & DFARS Compliance",
+    "slug": "google-workspace-assured-controls-itar-dfars",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWREG",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWREG-COMM-001",
+      "PTK-GWREG-NPO-001",
+      "PTK-GWREG-GOV-001"
+    ],
+    "deliverables": [
+      "GWREG-Solution.pdf",
+      "GWREG-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-assured-controls-itar-dfars\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration",
+    "slug": "sharepoint-onedrive-to-google-drive-migration",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWDRIVE",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWDRIVE-COMM-001",
+      "PTK-GWDRIVE-NPO-001",
+      "PTK-GWDRIVE-GOV-001"
+    ],
+    "deliverables": [
+      "GWDRIVE-Solution.pdf",
+      "GWDRIVE-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\sharepoint-onedrive-to-google-drive-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Vault ↔ Purview Coexistence — eDiscovery, Legal Hold & Retention",
+    "slug": "google-vault-purview-coexistence-ediscovery",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWVAULT",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWVAULT-COMM-001",
+      "PTK-GWVAULT-NPO-001",
+      "PTK-GWVAULT-GOV-001"
+    ],
+    "deliverables": [
+      "GWVAULT-Solution.pdf",
+      "GWVAULT-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-vault-purview-coexistence-ediscovery\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 0,
+    "deliv_count": 0,
+    "doc_count": 1,
+    "hero_href": null,
+    "product_count": 3
+  },
+  {
+    "title": "Vendor Technical Governance & Anti-Lock-In Playbook (Google + Systems Integrators)",
+    "slug": "workspace-vendor-technical-governance-anti-lock-in",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWVEND",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWVEND-COMM-001",
+      "PTK-GWVEND-NPO-001",
+      "PTK-GWVEND-GOV-001"
+    ],
+    "deliverables": [
+      "GWVEND-Solution.pdf",
+      "GWVEND-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\workspace-vendor-technical-governance-anti-lock-in\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/02-requirements.md",
+          "kb": 6.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/03-implementation.md",
+          "kb": 7.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/05-testing.md",
+          "kb": 2.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWVEND-Discovery.ps1",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/scripts/GWVEND-Discovery.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "GWVEND-Remediation.ps1",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/scripts/GWVEND-Remediation.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "GWVEND-Report.ps1",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/scripts/GWVEND-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "GWVEND-Set-ScopeTargeting.ps1",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/scripts/GWVEND-Set-ScopeTargeting.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "GWVEND-Validation.ps1",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/scripts/GWVEND-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWVEND-Complete-Solution.zip",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-Complete-Solution.zip",
+          "kb": 102.5
+        },
+        {
+          "name": "GWVEND-hero.png",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-hero.png",
+          "kb": 443.9
+        },
+        {
+          "name": "GWVEND-hero.svg",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GWVEND-Scripts.zip",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "GWVEND-Solution.docx",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-Solution.docx",
+          "kb": 54.3
+        },
+        {
+          "name": "GWVEND-Solution.pdf",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-Solution.pdf",
+          "kb": 58.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/workspace-vendor-technical-governance-anti-lock-in/v1.0.0/deliverables/GWVEND-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Clinical Endpoint Logon & Profile Performance Optimization (FSLogix)",
     "slug": "clinical-endpoint-logon-profile-optimization",
     "category": "Healthcare Solutions",

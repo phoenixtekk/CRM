@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint/OneDrive",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "→ Google Drive",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Permissions · Shared Drives · Mapping",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BROKEN PERMISSIONS",
+    "items": [
+      "Sites don't map",
+      "Lost sharing",
+      "Wrong access",
+      "No validation"
+    ]
+  },
+  "to": {
+    "label": "Mapped migration",
+    "stat": "Access intact"
+  },
+  "tagline": "MAP IT.  MIGRATE IT.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Shared Drives",
+      "sub": "Structure"
+    },
+    {
+      "icon": "key",
+      "title": "Permissions",
+      "sub": "Translated"
+    },
+    {
+      "icon": "gear",
+      "title": "Tooling",
+      "sub": "Pattern"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Per-item"
+    }
+  ]
+}

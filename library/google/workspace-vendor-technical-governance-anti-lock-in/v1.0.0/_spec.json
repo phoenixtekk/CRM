@@ -1,0 +1,82 @@
+{
+  "sol": "GWVEND",
+  "slug": "workspace-vendor-technical-governance-anti-lock-in",
+  "title": "Vendor Technical Governance & Anti-Lock-In Playbook (Google + Systems Integrators)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Keep architectural control while partners do the work",
+  "problem": "When Google and systems integrators drive execution, the enterprise can quietly lose architectural control and inherit long-term lock-in. This playbook makes you the <strong>primary technical counterpart</strong>: a repeatable way to validate vendor assumptions, review designs, challenge implementation approaches, and keep a clean separation between vendor execution responsibility and enterprise architectural authority &mdash; so partners deliver sustainable solutions without fragmentation or lock-in.",
+  "whats_inside": [
+    "<strong>Governance Overview</strong> &mdash; the operating model between the enterprise architect and external partners (Google, integrators), and where authority sits.",
+    "<strong>Vendor-Design Review Method</strong> &mdash; how to review and validate vendor proposals against the target architecture, challenge assumptions, and require clean/sustainable patterns.",
+    "<strong>Anti-Lock-In Criteria</strong> &mdash; the checklist of portability, data-ownership, standards-conformance, and exit criteria every vendor design must meet; RACI separating execution vs architectural authority.",
+    "<strong>5 supporting scripts</strong> &mdash; vendor-deliverable inventory discovery, conformance/anti-lock-in validation, a review/finding report, remediation tracking, and a scope helper.",
+    "<strong>Escalation & a Vendor-Governance runbook</strong> &mdash; how to handle non-conformant designs, plus Testing gates and Best Practices for durable partner relationships."
+  ],
+  "short": "A repeatable <strong>vendor technical governance</strong> method &mdash; validate assumptions, review designs, apply anti-lock-in criteria, and keep execution vs architectural authority cleanly separated &mdash; so partners deliver sustainable solutions. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable vendor technical governance method — validate assumptions, review designs, apply anti-lock-in criteria, and keep execution vs architectural authority cleanly separated — so partners deliver sustainable solutions.",
+  "meta_title": "Vendor Technical Governance & Anti-Lock-In Playbook",
+  "meta_description": "Govern Google + systems-integrator execution on a Workspace transformation: validate vendor assumptions, review designs, apply anti-lock-in criteria, and separate execution from architectural authority. Self-guided playbook and scripts.",
+  "bottom_line": "Vendor execution that aligns to the target architecture &mdash; no long-term lock-in, no fragmentation &mdash; with architectural control firmly held by the enterprise.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Vendor Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Anti-Lock-In",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Google · Integrators · Authority",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LOSS OF CONTROL",
+      "items": [
+        "Vendor-led designs",
+        "Hidden lock-in",
+        "Unchallenged assumptions",
+        "Fragmentation"
+      ]
+    },
+    "to": {
+      "label": "Held authority",
+      "stat": "Sustainable delivery"
+    },
+    "tagline": "VALIDATE.  CHALLENGE.  CONTROL.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Anti-Lock-In",
+        "sub": "Criteria"
+      },
+      {
+        "icon": "users",
+        "title": "RACI",
+        "sub": "Exec vs authority"
+      },
+      {
+        "icon": "gear",
+        "title": "Design Review",
+        "sub": "Validate"
+      },
+      {
+        "icon": "chart",
+        "title": "Findings",
+        "sub": "Tracked"
+      }
+    ]
+  }
+}

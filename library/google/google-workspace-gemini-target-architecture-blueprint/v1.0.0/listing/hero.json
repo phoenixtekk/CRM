@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Target Architecture",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Google Workspace + Gemini",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Collab · Drive · Identity · AI",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "VENDOR-DRIVEN DRIFT",
+    "items": [
+      "No owned end-state",
+      "Fragmented designs",
+      "Lock-in creep",
+      "Rework per wave"
+    ]
+  },
+  "to": {
+    "label": "Owned architecture",
+    "stat": "Scalable · supportable"
+  },
+  "tagline": "DEFINE IT.  OWN IT.  ALIGN IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "End-State",
+      "sub": "All workstreams"
+    },
+    {
+      "icon": "cloud",
+      "title": "Workspace+Gemini",
+      "sub": "Reference design"
+    },
+    {
+      "icon": "key",
+      "title": "Identity",
+      "sub": "Integration"
+    },
+    {
+      "icon": "chart",
+      "title": "Standards",
+      "sub": "ADRs/NFRs"
+    }
+  ]
+}

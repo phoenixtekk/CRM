@@ -1,0 +1,82 @@
+{
+  "sol": "GWCONSOL",
+  "slug": "collaboration-ai-platform-consolidation-strategy",
+  "title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Turn a two-ecosystem mess into one sustainable platform",
+  "problem": "A transformation that stalls in permanent coexistence carries double the cost, tools, and risk. This solution defines the <strong>long-term platform consolidation strategy</strong> across collaboration and AI systems &mdash; the target state, the decommission path for legacy Microsoft systems, the sequencing, and the sustainability/cost model &mdash; so the enterprise converges on one supportable platform instead of running two forever.",
+  "whats_inside": [
+    "<strong>Strategy Overview</strong> &mdash; the consolidation thesis: target platform, what gets retired, and why (sustainability, security, cost efficiency).",
+    "<strong>Current-vs-Target Estate</strong> &mdash; a method to map the collaboration + AI estate (Microsoft, Google, third-party) to the target and identify redundancy and decommission candidates.",
+    "<strong>Consolidation Roadmap</strong> &mdash; sequencing, dependencies, decommission gates, and the coexistence-exit criteria that move the program off legacy systems deliberately.",
+    "<strong>5 supporting scripts</strong> &mdash; estate/redundancy discovery, target-state conformance validation, a consolidation/cost-savings report, safe decommission-readiness checks, and a scope helper.",
+    "<strong>Testing gates + a Consolidation-Roadmap document template</strong> and Best Practices for cost efficiency and long-term platform sustainability."
+  ],
+  "short": "Define the <strong>long-term consolidation strategy</strong> across collaboration and AI systems &mdash; target state, decommission path for legacy Microsoft systems, sequencing, and cost model &mdash; so the enterprise converges on one supportable platform. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define the long-term consolidation strategy across collaboration and AI systems — target state, decommission path for legacy Microsoft systems, sequencing, and cost model — so the enterprise converges on one supportable platform.",
+  "meta_title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+  "meta_description": "Define a platform consolidation strategy for a Google transformation: target state, decommission path for legacy Microsoft systems, sequencing, and cost/sustainability model across collaboration and AI. Self-guided roadmap and scripts.",
+  "bottom_line": "A clear, documented path to one consolidated collaboration + AI platform &mdash; legacy systems retired on a deliberate schedule &mdash; delivering sustainability, security, and cost efficiency.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Platform Consolidation",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Collaboration + AI",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Target · Decommission · Cost",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PERMANENT COEXISTENCE",
+      "items": [
+        "Two ecosystems",
+        "Double cost",
+        "No exit plan",
+        "Sprawl"
+      ]
+    },
+    "to": {
+      "label": "One platform",
+      "stat": "Sustainable · efficient"
+    },
+    "tagline": "MAP IT.  SEQUENCE IT.  CONSOLIDATE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Target State",
+        "sub": "One platform"
+      },
+      {
+        "icon": "gear",
+        "title": "Roadmap",
+        "sub": "Sequencing"
+      },
+      {
+        "icon": "chart",
+        "title": "Cost",
+        "sub": "Savings"
+      },
+      {
+        "icon": "shield",
+        "title": "Exit",
+        "sub": "Decommission"
+      }
+    ]
+  }
+}

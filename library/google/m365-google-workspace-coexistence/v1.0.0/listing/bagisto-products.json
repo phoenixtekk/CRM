@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "m365-google-workspace-coexistence",
+    "title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWCOEX-COMM-001",
+      "name": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Design and run <strong>M365 ↔ Google Workspace coexistence</strong> &mdash; mail routing/split delivery, cross-platform free/busy, and directory sync &mdash; so both ecosystems behave as one during the transition, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Make Microsoft and Google work as one during the transition</h3><p>For months during a 150k-user migration, Microsoft and Google run side by side &mdash; and users expect mail, calendars, and directory to just work across both. This solution designs and implements <strong>M365 ↔ Google Workspace coexistence</strong>: split/shared mail routing, cross-platform free/busy, and directory sync, so the two ecosystems behave as one until consolidation, executed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the coexistence model (mail routing/split delivery, free/busy interop, directory sync) and how it bridges the transition.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (both tenants + admin access, DNS/mail-flow control, directory-sync mechanism, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure mail routing/split delivery, cross-platform free/busy, and directory sync, validate interop on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; coexistence-readiness discovery, per-user interop validation (mail/free-busy/directory), a coexistence coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (mail routes, free/busy resolves, directory in sync) plus Best Practices for a stable transition period.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Microsoft and Google working as one through the transition &mdash; mail routes, calendars resolve, directory stays in sync &mdash; until consolidation retires the legacy side.</p><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail, Free/Busy, Directory)",
+      "meta_description": "Implement M365 ↔ Google Workspace coexistence: mail routing / split delivery, cross-platform free/busy, and directory sync during a migration. Self-guided steps and scripts.",
+      "url_key": "m365-google-workspace-coexistence-commercial",
+      "image": "GWCOEX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCOEX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCOEX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWCOEX-NPO-001",
+      "name": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Design and run M365 ↔ Google Workspace coexistence — mail routing/split delivery, cross-platform free/busy, and directory sync — so both ecosystems behave as one during the transition, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Make Microsoft and Google work as one during the transition</h3><p>For months during a 150k-user migration, Microsoft and Google run side by side &mdash; and users expect mail, calendars, and directory to just work across both. This solution designs and implements <strong>M365 ↔ Google Workspace coexistence</strong>: split/shared mail routing, cross-platform free/busy, and directory sync, so the two ecosystems behave as one until consolidation, executed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the coexistence model (mail routing/split delivery, free/busy interop, directory sync) and how it bridges the transition.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (both tenants + admin access, DNS/mail-flow control, directory-sync mechanism, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure mail routing/split delivery, cross-platform free/busy, and directory sync, validate interop on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; coexistence-readiness discovery, per-user interop validation (mail/free-busy/directory), a coexistence coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (mail routes, free/busy resolves, directory in sync) plus Best Practices for a stable transition period.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail, Free/Busy, Directory) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Implement M365 ↔ Google Workspace coexistence: mail routing / split delivery, cross-platform free/busy, and directory sync during a migration. Self-guided steps and scripts.",
+      "url_key": "m365-google-workspace-coexistence-nonprofit",
+      "image": "GWCOEX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCOEX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCOEX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWCOEX-GOV-001",
+      "name": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Design and run M365 ↔ Google Workspace coexistence — mail routing/split delivery, cross-platform free/busy, and directory sync — so both ecosystems behave as one during the transition, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Make Microsoft and Google work as one during the transition</h3><p>For months during a 150k-user migration, Microsoft and Google run side by side &mdash; and users expect mail, calendars, and directory to just work across both. This solution designs and implements <strong>M365 ↔ Google Workspace coexistence</strong>: split/shared mail routing, cross-platform free/busy, and directory sync, so the two ecosystems behave as one until consolidation, executed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the coexistence model (mail routing/split delivery, free/busy interop, directory sync) and how it bridges the transition.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (both tenants + admin access, DNS/mail-flow control, directory-sync mechanism, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure mail routing/split delivery, cross-platform free/busy, and directory sync, validate interop on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; coexistence-readiness discovery, per-user interop validation (mail/free-busy/directory), a coexistence coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (mail routes, free/busy resolves, directory in sync) plus Best Practices for a stable transition period.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail, Free/Busy, Directory) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Implement M365 ↔ Google Workspace coexistence: mail routing / split delivery, cross-platform free/busy, and directory sync during a migration. Self-guided steps and scripts.",
+      "url_key": "m365-google-workspace-coexistence-government",
+      "image": "GWCOEX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCOEX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCOEX-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

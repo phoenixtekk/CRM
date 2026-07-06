@@ -1,0 +1,82 @@
+{
+  "sol": "GWMIGPROG",
+  "slug": "m365-to-google-workspace-migration-program",
+  "title": "Microsoft 365 → Google Workspace Migration Program & Wave Plan (Enterprise/150k+)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T5 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Move 150k users off Microsoft 365 without breaking the business",
+  "problem": "Migrating 150k+ users from Microsoft 365 to Google Workspace is a program, not a project &mdash; and it fails without a disciplined wave plan, coexistence design, and cutover governance. This flagship solution provides the <strong>end-to-end migration program</strong>: discovery, wave planning, tooling strategy, coexistence, cutover runbooks, and hypercare across mail, Drive, and collaboration &mdash; executed pilot-first so waves run without architectural rework.",
+  "whats_inside": [
+    "<strong>Program Overview</strong> &mdash; the migration operating model (discovery → design → coexistence → waves → cutover → hypercare) and how the workstreams sequence.",
+    "<strong>Wave Planning & Tooling Strategy</strong> &mdash; how to segment 150k users into waves, choose and govern migration tooling/patterns (mail, Drive, Chat), and define coexistence during the transition.",
+    "<strong>Cutover Runbooks</strong> &mdash; per-wave runbooks (readiness, mail-flow/DNS, data move, validation, rollback) and the go/no-go gates for each wave.",
+    "<strong>5 supporting scripts</strong> &mdash; source-estate discovery (M365/Entra), per-wave readiness validation, a migration-progress/coverage report, safe remediation, and a wave target-group builder.",
+    "<strong>Governance hooks + a Migration-Program playbook</strong> and Best Practices for executing waves without rework, plus Testing/validation gates."
+  ],
+  "short": "The end-to-end <strong>M365 → Google Workspace migration program</strong> for 150k+ users &mdash; discovery, wave planning, tooling strategy, coexistence, cutover runbooks, and hypercare &mdash; executed pilot-first so waves run without rework. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The end-to-end M365 → Google Workspace migration program for 150k+ users — discovery, wave planning, tooling strategy, coexistence, cutover runbooks, and hypercare — executed pilot-first so waves run without rework.",
+  "meta_title": "Microsoft 365 → Google Workspace Migration Program & Wave Plan (Enterprise)",
+  "meta_description": "Run an enterprise M365 → Google Workspace migration: discovery, wave planning, tooling strategy, coexistence, cutover runbooks, and hypercare across mail, Drive, and collaboration. Self-guided program and scripts.",
+  "bottom_line": "150k+ users moved to Google Workspace wave by wave &mdash; coexistence managed, cutovers governed, waves executed without architectural rework &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 → Google",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Migration Program",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "150k+ · Waves · Cutover",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BIG-BANG RISK",
+      "items": [
+        "No wave plan",
+        "Coexistence gaps",
+        "Ungoverned cutovers",
+        "Rework per wave"
+      ]
+    },
+    "to": {
+      "label": "Disciplined program",
+      "stat": "Waves without rework"
+    },
+    "tagline": "PLAN IT.  WAVE IT.  CUT OVER.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Waves",
+        "sub": "150k segmented"
+      },
+      {
+        "icon": "gear",
+        "title": "Tooling",
+        "sub": "Strategy"
+      },
+      {
+        "icon": "device",
+        "title": "Cutover",
+        "sub": "Runbooks"
+      },
+      {
+        "icon": "chart",
+        "title": "Progress",
+        "sub": "Coverage"
+      }
+    ]
+  }
+}

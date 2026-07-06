@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Vault ↔ Purview",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "eDiscovery & Retention",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Legal Hold · Coexistence · Defensible",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "COMPLIANCE GAPS",
+    "items": [
+      "Two hold systems",
+      "Retention mismatch",
+      "Discovery blind spots",
+      "Legal risk"
+    ]
+  },
+  "to": {
+    "label": "Defensible governance",
+    "stat": "Both ecosystems"
+  },
+  "tagline": "HOLD.  RETAIN.  DISCOVER.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Legal Hold",
+      "sub": "Both sides"
+    },
+    {
+      "icon": "gear",
+      "title": "Retention",
+      "sub": "Mapped"
+    },
+    {
+      "icon": "chart",
+      "title": "eDiscovery",
+      "sub": "Defensible"
+    },
+    {
+      "icon": "lock",
+      "title": "Coexistence",
+      "sub": "No gaps"
+    }
+  ]
+}

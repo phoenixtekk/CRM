@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "gemini-enterprise-secure-adoption-governance",
+    "title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GEMGOV-COMM-001",
+      "name": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Establish <strong>secure Gemini Enterprise adoption</strong> &mdash; technical guardrails, data-access boundaries, and governance alignment &mdash; so AI only sees what it should and use cases fit policy, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Adopt Gemini Enterprise without opening your data</h3><p>Gemini Enterprise is only safe if it respects the enterprise data-governance model &mdash; grounding answers in the right data and nothing more. This solution establishes <strong>secure Gemini Enterprise adoption</strong>: the technical guardrails, data-access boundaries, and governance alignment so AI can only see what it should, use cases align to policy, and security/legal are satisfied &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gemini Enterprise governance model: how grounding/data access works, the guardrails, and how adoption aligns to the enterprise data-governance model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Gemini/Workspace licensing, data-governance baseline incl. sharing/DLP, security/legal stakeholders, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to set the technical guardrails and data-access boundaries, align use cases to policy, remediate oversharing that AI would surface, validate on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; AI-readiness/oversharing discovery, per-scope guardrail validation, an access-boundary/coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> plus Best Practices for safe, compliant AI adoption; Gemini preview capabilities are cited or flagged, never invented.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Gemini Enterprise adopted safely &mdash; guardrails set, data-access boundaries enforced, use cases aligned to governance &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GEMGOV-Discovery.ps1</code> &mdash; AI-readiness / oversharing discovery for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Remediation.ps1</code> &mdash; safe oversharing remediation: remove public/domain-wide Drive links (default -WhatIf)</li><li><code>GEMGOV-Report.ps1</code> &mdash; access-boundary & coverage report for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Set-ScopeTargeting.ps1</code> &mdash; create the Gemini Enterprise pilot scope group (idempotent, default -WhatIf)</li><li><code>GEMGOV-Validation.ps1</code> &mdash; per-scope guardrail validation for the Gemini Enterprise pilot (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+      "meta_description": "Adopt Gemini Enterprise safely: technical guardrails, data-access boundaries, oversharing remediation, and alignment to the enterprise data-governance model. Self-guided steps and scripts (Gemini preview specifics deferred).",
+      "url_key": "gemini-enterprise-secure-adoption-governance-commercial",
+      "image": "GEMGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GEMGOV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GEMGOV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GEMGOV-NPO-001",
+      "name": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Establish secure Gemini Enterprise adoption — technical guardrails, data-access boundaries, and governance alignment — so AI only sees what it should and use cases fit policy, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Adopt Gemini Enterprise without opening your data</h3><p>Gemini Enterprise is only safe if it respects the enterprise data-governance model &mdash; grounding answers in the right data and nothing more. This solution establishes <strong>secure Gemini Enterprise adoption</strong>: the technical guardrails, data-access boundaries, and governance alignment so AI can only see what it should, use cases align to policy, and security/legal are satisfied &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gemini Enterprise governance model: how grounding/data access works, the guardrails, and how adoption aligns to the enterprise data-governance model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Gemini/Workspace licensing, data-governance baseline incl. sharing/DLP, security/legal stakeholders, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to set the technical guardrails and data-access boundaries, align use cases to policy, remediate oversharing that AI would surface, validate on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; AI-readiness/oversharing discovery, per-scope guardrail validation, an access-boundary/coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> plus Best Practices for safe, compliant AI adoption; Gemini preview capabilities are cited or flagged, never invented.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GEMGOV-Discovery.ps1</code> &mdash; AI-readiness / oversharing discovery for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Remediation.ps1</code> &mdash; safe oversharing remediation: remove public/domain-wide Drive links (default -WhatIf)</li><li><code>GEMGOV-Report.ps1</code> &mdash; access-boundary & coverage report for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Set-ScopeTargeting.ps1</code> &mdash; create the Gemini Enterprise pilot scope group (idempotent, default -WhatIf)</li><li><code>GEMGOV-Validation.ps1</code> &mdash; per-scope guardrail validation for the Gemini Enterprise pilot (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Adopt Gemini Enterprise safely: technical guardrails, data-access boundaries, oversharing remediation, and alignment to the enterprise data-governance model. Self-guided steps and scripts (Gemini preview specifics deferred).",
+      "url_key": "gemini-enterprise-secure-adoption-governance-nonprofit",
+      "image": "GEMGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GEMGOV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GEMGOV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GEMGOV-GOV-001",
+      "name": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Establish secure Gemini Enterprise adoption — technical guardrails, data-access boundaries, and governance alignment — so AI only sees what it should and use cases fit policy, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Adopt Gemini Enterprise without opening your data</h3><p>Gemini Enterprise is only safe if it respects the enterprise data-governance model &mdash; grounding answers in the right data and nothing more. This solution establishes <strong>secure Gemini Enterprise adoption</strong>: the technical guardrails, data-access boundaries, and governance alignment so AI can only see what it should, use cases align to policy, and security/legal are satisfied &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gemini Enterprise governance model: how grounding/data access works, the guardrails, and how adoption aligns to the enterprise data-governance model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Gemini/Workspace licensing, data-governance baseline incl. sharing/DLP, security/legal stakeholders, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to set the technical guardrails and data-access boundaries, align use cases to policy, remediate oversharing that AI would surface, validate on a pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; AI-readiness/oversharing discovery, per-scope guardrail validation, an access-boundary/coverage report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> plus Best Practices for safe, compliant AI adoption; Gemini preview capabilities are cited or flagged, never invented.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GEMGOV-Discovery.ps1</code> &mdash; AI-readiness / oversharing discovery for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Remediation.ps1</code> &mdash; safe oversharing remediation: remove public/domain-wide Drive links (default -WhatIf)</li><li><code>GEMGOV-Report.ps1</code> &mdash; access-boundary & coverage report for Gemini Enterprise (Google Workspace, read-only)</li><li><code>GEMGOV-Set-ScopeTargeting.ps1</code> &mdash; create the Gemini Enterprise pilot scope group (idempotent, default -WhatIf)</li><li><code>GEMGOV-Validation.ps1</code> &mdash; per-scope guardrail validation for the Gemini Enterprise pilot (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Adopt Gemini Enterprise safely: technical guardrails, data-access boundaries, oversharing remediation, and alignment to the enterprise data-governance model. Self-guided steps and scripts (Gemini preview specifics deferred).",
+      "url_key": "gemini-enterprise-secure-adoption-governance-government",
+      "image": "GEMGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GEMGOV-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GEMGOV-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

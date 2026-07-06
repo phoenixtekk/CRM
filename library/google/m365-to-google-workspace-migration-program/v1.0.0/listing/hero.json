@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 → Google",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Migration Program",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "150k+ · Waves · Cutover",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BIG-BANG RISK",
+    "items": [
+      "No wave plan",
+      "Coexistence gaps",
+      "Ungoverned cutovers",
+      "Rework per wave"
+    ]
+  },
+  "to": {
+    "label": "Disciplined program",
+    "stat": "Waves without rework"
+  },
+  "tagline": "PLAN IT.  WAVE IT.  CUT OVER.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Waves",
+      "sub": "150k segmented"
+    },
+    {
+      "icon": "gear",
+      "title": "Tooling",
+      "sub": "Strategy"
+    },
+    {
+      "icon": "device",
+      "title": "Cutover",
+      "sub": "Runbooks"
+    },
+    {
+      "icon": "chart",
+      "title": "Progress",
+      "sub": "Coverage"
+    }
+  ]
+}

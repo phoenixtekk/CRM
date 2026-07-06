@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 ↔ Google",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Coexistence",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Mail · Free/Busy · Directory",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SPLIT-BRAIN ORG",
+    "items": [
+      "Mail misroutes",
+      "No free/busy",
+      "Directory drift",
+      "Broken interop"
+    ]
+  },
+  "to": {
+    "label": "Unified experience",
+    "stat": "Both as one"
+  },
+  "tagline": "ROUTE IT.  SYNC IT.  BRIDGE IT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Mail Routing",
+      "sub": "Split delivery"
+    },
+    {
+      "icon": "gear",
+      "title": "Free/Busy",
+      "sub": "Interop"
+    },
+    {
+      "icon": "users",
+      "title": "Directory",
+      "sub": "Sync"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Interop"
+    }
+  ]
+}

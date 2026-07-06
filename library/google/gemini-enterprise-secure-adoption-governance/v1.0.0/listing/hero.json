@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Gemini Enterprise",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Secure Adoption",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Guardrails · Data Boundaries · AI",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AI",
+    "items": [
+      "AI over-access",
+      "Oversharing surfaced",
+      "No guardrails",
+      "Policy gaps"
+    ]
+  },
+  "to": {
+    "label": "Governed adoption",
+    "stat": "Safe · compliant"
+  },
+  "tagline": "GROUND IT.  BOUND IT.  ADOPT IT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Guardrails",
+      "sub": "Technical"
+    },
+    {
+      "icon": "lock",
+      "title": "Boundaries",
+      "sub": "Data access"
+    },
+    {
+      "icon": "gear",
+      "title": "Governance",
+      "sub": "Aligned"
+    },
+    {
+      "icon": "chart",
+      "title": "Readiness",
+      "sub": "Oversharing"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Platform Consolidation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Collaboration + AI",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Target · Decommission · Cost",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PERMANENT COEXISTENCE",
+    "items": [
+      "Two ecosystems",
+      "Double cost",
+      "No exit plan",
+      "Sprawl"
+    ]
+  },
+  "to": {
+    "label": "One platform",
+    "stat": "Sustainable · efficient"
+  },
+  "tagline": "MAP IT.  SEQUENCE IT.  CONSOLIDATE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Target State",
+      "sub": "One platform"
+    },
+    {
+      "icon": "gear",
+      "title": "Roadmap",
+      "sub": "Sequencing"
+    },
+    {
+      "icon": "chart",
+      "title": "Cost",
+      "sub": "Savings"
+    },
+    {
+      "icon": "shield",
+      "title": "Exit",
+      "sub": "Decommission"
+    }
+  ]
+}

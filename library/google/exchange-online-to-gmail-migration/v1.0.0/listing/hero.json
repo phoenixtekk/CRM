@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Exchange → Gmail",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Mail · Calendar · Contacts",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Coexistence · Cutover · Validate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY MAIL MOVE",
+    "items": [
+      "Lost items",
+      "Broken calendars",
+      "Mail-flow gaps",
+      "No validation"
+    ]
+  },
+  "to": {
+    "label": "Clean migration",
+    "stat": "Nothing lost"
+  },
+  "tagline": "STAGE IT.  MIGRATE IT.  CUT OVER.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Gmail",
+      "sub": "Mailboxes"
+    },
+    {
+      "icon": "gear",
+      "title": "Coexistence",
+      "sub": "Mail-flow"
+    },
+    {
+      "icon": "device",
+      "title": "Cutover",
+      "sub": "DNS/MX"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Per-user"
+    }
+  ]
+}

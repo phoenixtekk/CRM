@@ -1,0 +1,82 @@
+{
+  "sol": "GWREG",
+  "slug": "google-workspace-assured-controls-itar-dfars",
+  "title": "Regulated Google Workspace — Assured Controls, ITAR & DFARS Compliance",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Run Google Workspace for regulated, controlled data",
+  "problem": "Enterprises with <strong>ITAR/DFARS</strong> obligations can't just turn on Google Workspace &mdash; controlled data needs sovereignty, access, and support boundaries. This solution configures <strong>regulated Google Workspace</strong> using <strong>Assured Controls</strong> and related capabilities: data-region residency, access-management/support controls, and the policy configuration that aligns Workspace to ITAR/DFARS and internal compliance, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Assured Controls, data regions, access management, and support controls map to ITAR/DFARS and controlled-data requirements.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Assured Controls / appropriate Workspace edition + add-ons, compliance/legal stakeholders, data classification, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to configure data-region residency, access/support controls, and the policy set for controlled data, validate against the compliance requirements on a pilot, then expand.",
+    "<strong>5 supporting scripts</strong> &mdash; controlled-data posture discovery, per-scope controls validation, a compliance coverage/evidence report, safe remediation, and a scope helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> plus Best Practices for evidence and audit; regulatory interpretation is deferred to legal/compliance (cite, don't invent)."
+  ],
+  "short": "Configure <strong>regulated Google Workspace</strong> with Assured Controls &mdash; data-region residency, access/support controls, and policy aligned to ITAR/DFARS and internal compliance &mdash; for controlled data, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure regulated Google Workspace with Assured Controls — data-region residency, access/support controls, and policy aligned to ITAR/DFARS and internal compliance — for controlled data, pilot-first.",
+  "meta_title": "Regulated Google Workspace — Assured Controls, ITAR & DFARS",
+  "meta_description": "Configure regulated Google Workspace with Assured Controls for ITAR/DFARS: data-region residency, access and support controls, and compliance policy for controlled data. Self-guided steps and scripts (legal interpretation deferred).",
+  "bottom_line": "Google Workspace configured for controlled data &mdash; sovereignty, access, and support boundaries aligned to ITAR/DFARS and internal policy &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Regulated Workspace",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Assured Controls",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "ITAR · DFARS · Data Regions",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNCONTROLLED DATA",
+      "items": [
+        "No sovereignty",
+        "Open support access",
+        "Compliance risk",
+        "No evidence"
+      ]
+    },
+    "to": {
+      "label": "Controlled config",
+      "stat": "ITAR/DFARS-aligned"
+    },
+    "tagline": "SCOPE IT.  CONTROL IT.  EVIDENCE IT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Assured Controls",
+        "sub": "Access/support"
+      },
+      {
+        "icon": "cloud",
+        "title": "Data Regions",
+        "sub": "Residency"
+      },
+      {
+        "icon": "lock",
+        "title": "Compliance",
+        "sub": "ITAR/DFARS"
+      },
+      {
+        "icon": "chart",
+        "title": "Evidence",
+        "sub": "Coverage"
+      }
+    ]
+  }
+}

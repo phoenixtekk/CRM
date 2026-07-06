@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Apps Script/AppSheet",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Automation Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Approval · Guardrails · Review",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHADOW AUTOMATION",
+    "items": [
+      "Ungoverned scripts",
+      "OAuth over-scope",
+      "Data leakage",
+      "No review"
+    ]
+  },
+  "to": {
+    "label": "Governed build",
+    "stat": "Safe · to standard"
+  },
+  "tagline": "GUARDRAIL.  APPROVE.  BUILD.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Guardrails",
+      "sub": "OAuth/data"
+    },
+    {
+      "icon": "users",
+      "title": "Approval",
+      "sub": "Review model"
+    },
+    {
+      "icon": "shield",
+      "title": "Standards",
+      "sub": "Environments"
+    },
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Risk"
+    }
+  ]
+}

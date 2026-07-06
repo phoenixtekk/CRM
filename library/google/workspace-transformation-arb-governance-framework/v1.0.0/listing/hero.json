@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Design Review Board",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Transformation Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Charter · Gates · Decision Rights",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED DESIGN",
+    "items": [
+      "No approval authority",
+      "Drift unnoticed",
+      "Vendor-led decisions",
+      "Inconsistent designs"
+    ]
+  },
+  "to": {
+    "label": "ARB authority",
+    "stat": "Approved · aligned"
+  },
+  "tagline": "CHARTER IT.  GATE IT.  APPROVE IT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "ARB",
+      "sub": "Decision rights"
+    },
+    {
+      "icon": "gear",
+      "title": "Gates",
+      "sub": "Review stages"
+    },
+    {
+      "icon": "shield",
+      "title": "No Drift",
+      "sub": "Prevention"
+    },
+    {
+      "icon": "chart",
+      "title": "Records",
+      "sub": "Decisions"
+    }
+  ]
+}

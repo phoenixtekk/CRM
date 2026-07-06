@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Vendor Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Anti-Lock-In",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Google · Integrators · Authority",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LOSS OF CONTROL",
+    "items": [
+      "Vendor-led designs",
+      "Hidden lock-in",
+      "Unchallenged assumptions",
+      "Fragmentation"
+    ]
+  },
+  "to": {
+    "label": "Held authority",
+    "stat": "Sustainable delivery"
+  },
+  "tagline": "VALIDATE.  CHALLENGE.  CONTROL.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Anti-Lock-In",
+      "sub": "Criteria"
+    },
+    {
+      "icon": "users",
+      "title": "RACI",
+      "sub": "Exec vs authority"
+    },
+    {
+      "icon": "gear",
+      "title": "Design Review",
+      "sub": "Validate"
+    },
+    {
+      "icon": "chart",
+      "title": "Findings",
+      "sub": "Tracked"
+    }
+  ]
+}

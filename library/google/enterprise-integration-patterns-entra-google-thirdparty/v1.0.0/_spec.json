@@ -1,0 +1,82 @@
+{
+  "sol": "GWINTEG",
+  "slug": "enterprise-integration-patterns-entra-google-thirdparty",
+  "title": "Enterprise Integration Patterns — Entra ID ↔ Google + M365 Coexistence + Third-Party Apps",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "One consistent way to connect Google, Microsoft, and everything else",
+  "problem": "During and after a Google transformation, authentication, authorization, and data access must stay consistent across <strong>Microsoft Entra ID and Google Workspace</strong>, the legacy Microsoft systems in coexistence, and third-party enterprise apps (ServiceNow, SAP, Databricks, and more). This solution defines the <strong>enterprise integration patterns</strong> &mdash; the reference designs for identity federation, provisioning, app SSO, and data access &mdash; so integrations are consistent, secure, and don't become a pile of one-off connections.",
+  "whats_inside": [
+    "<strong>Integration Overview</strong> &mdash; the pattern catalog approach: identity federation, provisioning, app SSO/OIDC/SAML, API/data-access, and coexistence, and how each maps to Entra + Google.",
+    "<strong>Reference Patterns</strong> &mdash; Entra ID ↔ Google (federation + provisioning), M365-during-coexistence, and third-party apps (ServiceNow, SAP, Databricks, etc.) with the recommended authN/authZ and data-access approach for each.",
+    "<strong>Standards & Anti-Patterns</strong> &mdash; the consistent approach to authentication, authorization, and data access, plus the anti-patterns (per-app snowflakes, credential sprawl) to avoid.",
+    "<strong>5 supporting scripts</strong> &mdash; integration-inventory discovery (SSO apps, provisioning, federation), pattern-conformance validation, an integration coverage/exception report, safe remediation guidance, and a scope helper.",
+    "<strong>Testing gates + an Integration-Patterns reference doc</strong> and Best Practices for a consolidated, standards-based integration estate."
+  ],
+  "short": "Define the <strong>enterprise integration patterns</strong> across Entra ID ↔ Google, M365 coexistence, and third-party apps (ServiceNow/SAP/Databricks) &mdash; consistent authentication, authorization, and data access, not one-off connections. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define the enterprise integration patterns across Entra ID ↔ Google, M365 coexistence, and third-party apps (ServiceNow/SAP/Databricks) — consistent authentication, authorization, and data access, not one-off connections.",
+  "meta_title": "Enterprise Integration Patterns — Entra ID ↔ Google + Third-Party Apps",
+  "meta_description": "Define consistent integration patterns for a Google transformation: Entra ID ↔ Google federation/provisioning, M365 coexistence, and third-party apps (ServiceNow, SAP, Databricks) with standard authN/authZ and data access. Self-guided patterns and scripts.",
+  "bottom_line": "Consistent, standards-based integration across Google, Microsoft, and third-party apps &mdash; stable identity and data access, no snowflake connections &mdash; that scales through the transformation and beyond.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Integration Patterns",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Entra · Google · 3rd-Party",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "AuthN · AuthZ · Data Access",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SNOWFLAKE CONNECTIONS",
+      "items": [
+        "One-off integrations",
+        "Credential sprawl",
+        "Inconsistent authZ",
+        "Coexistence gaps"
+      ]
+    },
+    "to": {
+      "label": "Pattern catalog",
+      "stat": "Consistent + secure"
+    },
+    "tagline": "PATTERN IT.  STANDARDIZE.  CONNECT.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Federation",
+        "sub": "Entra↔Google"
+      },
+      {
+        "icon": "gear",
+        "title": "Provisioning",
+        "sub": "GCDS/SCIM"
+      },
+      {
+        "icon": "cloud",
+        "title": "3rd-Party",
+        "sub": "SNOW/SAP/DBX"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Exceptions"
+      }
+    ]
+  }
+}

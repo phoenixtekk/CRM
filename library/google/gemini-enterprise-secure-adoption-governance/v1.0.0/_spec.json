@@ -1,0 +1,82 @@
+{
+  "sol": "GEMGOV",
+  "slug": "gemini-enterprise-secure-adoption-governance",
+  "title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Adopt Gemini Enterprise without opening your data",
+  "problem": "Gemini Enterprise is only safe if it respects the enterprise data-governance model &mdash; grounding answers in the right data and nothing more. This solution establishes <strong>secure Gemini Enterprise adoption</strong>: the technical guardrails, data-access boundaries, and governance alignment so AI can only see what it should, use cases align to policy, and security/legal are satisfied &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Gemini Enterprise governance model: how grounding/data access works, the guardrails, and how adoption aligns to the enterprise data-governance model.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Gemini/Workspace licensing, data-governance baseline incl. sharing/DLP, security/legal stakeholders, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to set the technical guardrails and data-access boundaries, align use cases to policy, remediate oversharing that AI would surface, validate on a pilot, then expand.",
+    "<strong>5 supporting scripts</strong> &mdash; AI-readiness/oversharing discovery, per-scope guardrail validation, an access-boundary/coverage report, safe remediation, and a scope helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> plus Best Practices for safe, compliant AI adoption; Gemini preview capabilities are cited or flagged, never invented."
+  ],
+  "short": "Establish <strong>secure Gemini Enterprise adoption</strong> &mdash; technical guardrails, data-access boundaries, and governance alignment &mdash; so AI only sees what it should and use cases fit policy, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish secure Gemini Enterprise adoption — technical guardrails, data-access boundaries, and governance alignment — so AI only sees what it should and use cases fit policy, pilot-first.",
+  "meta_title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+  "meta_description": "Adopt Gemini Enterprise safely: technical guardrails, data-access boundaries, oversharing remediation, and alignment to the enterprise data-governance model. Self-guided steps and scripts (Gemini preview specifics deferred).",
+  "bottom_line": "Gemini Enterprise adopted safely &mdash; guardrails set, data-access boundaries enforced, use cases aligned to governance &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Gemini Enterprise",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Secure Adoption",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Guardrails · Data Boundaries · AI",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED AI",
+      "items": [
+        "AI over-access",
+        "Oversharing surfaced",
+        "No guardrails",
+        "Policy gaps"
+      ]
+    },
+    "to": {
+      "label": "Governed adoption",
+      "stat": "Safe · compliant"
+    },
+    "tagline": "GROUND IT.  BOUND IT.  ADOPT IT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Guardrails",
+        "sub": "Technical"
+      },
+      {
+        "icon": "lock",
+        "title": "Boundaries",
+        "sub": "Data access"
+      },
+      {
+        "icon": "gear",
+        "title": "Governance",
+        "sub": "Aligned"
+      },
+      {
+        "icon": "chart",
+        "title": "Readiness",
+        "sub": "Oversharing"
+      }
+    ]
+  }
+}

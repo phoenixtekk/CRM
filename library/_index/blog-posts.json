@@ -843,5 +843,50 @@
     "post_id": 12162,
     "status": "draft",
     "category_id": 411
+  },
+  "google-workspace-gemini-target-architecture-blueprint": {
+    "post_id": 12164,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-transformation-arb-governance-framework": {
+    "post_id": 12166,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workspace-vendor-technical-governance-anti-lock-in": {
+    "post_id": 12168,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-integration-patterns-entra-google-thirdparty": {
+    "post_id": 12170,
+    "status": "draft",
+    "category_id": 411
+  },
+  "collaboration-ai-platform-consolidation-strategy": {
+    "post_id": 12172,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-to-google-workspace-migration-program": {
+    "post_id": 12174,
+    "status": "draft",
+    "category_id": 411
+  },
+  "gemini-enterprise-secure-adoption-governance": {
+    "post_id": 12176,
+    "status": "draft",
+    "category_id": 411
+  },
+  "gemini-connector-strategy-agent-development-framework": {
+    "post_id": 12178,
+    "status": "draft",
+    "category_id": 411
+  },
+  "apps-script-appsheet-work-transformation-governance": {
+    "post_id": 12180,
+    "status": "draft",
+    "category_id": 411
   }
 }

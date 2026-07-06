@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Regulated Workspace",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Assured Controls",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "ITAR · DFARS · Data Regions",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNCONTROLLED DATA",
+    "items": [
+      "No sovereignty",
+      "Open support access",
+      "Compliance risk",
+      "No evidence"
+    ]
+  },
+  "to": {
+    "label": "Controlled config",
+    "stat": "ITAR/DFARS-aligned"
+  },
+  "tagline": "SCOPE IT.  CONTROL IT.  EVIDENCE IT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Assured Controls",
+      "sub": "Access/support"
+    },
+    {
+      "icon": "cloud",
+      "title": "Data Regions",
+      "sub": "Residency"
+    },
+    {
+      "icon": "lock",
+      "title": "Compliance",
+      "sub": "ITAR/DFARS"
+    },
+    {
+      "icon": "chart",
+      "title": "Evidence",
+      "sub": "Coverage"
+    }
+  ]
+}

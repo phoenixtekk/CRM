@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams → Chat & Meet",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Migration & Coexistence",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Channels→Spaces · Meetings",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STRANDED USERS",
+    "items": [
+      "Channels lost",
+      "Meetings break",
+      "No coexistence",
+      "Low adoption"
+    ]
+  },
+  "to": {
+    "label": "Continuous collab",
+    "stat": "Spaces + Meet"
+  },
+  "tagline": "MAP IT.  MOVE IT.  ADOPT IT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Spaces",
+      "sub": "From channels"
+    },
+    {
+      "icon": "cloud",
+      "title": "Meet",
+      "sub": "Meetings"
+    },
+    {
+      "icon": "gear",
+      "title": "Coexistence",
+      "sub": "Cutover"
+    },
+    {
+      "icon": "chart",
+      "title": "Adoption",
+      "sub": "Coverage"
+    }
+  ]
+}

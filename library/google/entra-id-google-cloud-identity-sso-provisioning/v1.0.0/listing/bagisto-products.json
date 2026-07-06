@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "entra-id-google-cloud-identity-sso-provisioning",
+    "title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWSSO-COMM-001",
+      "name": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Federate <strong>Entra ID with Google Cloud Identity</strong> for SSO and stand up provisioning (GCDS/SCIM) &mdash; consistent accounts, groups, and licensing across both clouds &mdash; the identity foundation for the transformation, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>One identity across Microsoft and Google</h3><p>In a Google transformation, identity is the backbone: users must sign in once and exist consistently across both clouds. This solution federates <strong>Microsoft Entra ID with Google Cloud Identity</strong> for SSO and stands up <strong>provisioning</strong> (Google Cloud Directory Sync / SCIM) so accounts, groups, and licensing stay consistent &mdash; the identity foundation for coexistence and migration, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the identity model: Entra ID as IdP federating to Google (SAML/OIDC), provisioning via GCDS or SCIM, and how source-of-truth flows.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra ID + Google super-admin, source of truth, GCDS host or SCIM, DNS, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure Entra→Google SSO federation, set up GCDS/SCIM provisioning of users+groups, validate sign-in and provisioning on a named pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; identity-readiness discovery, per-user SSO + provisioning validation, an identity coverage/exception report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, users/groups provisioned, licensing correct) plus Best Practices for source-of-truth and lifecycle.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>One identity across Microsoft and Google &mdash; single sign-on and consistent provisioning &mdash; underpinning coexistence, migration, and secure access through the transformation.</p><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS/SCIM)",
+      "meta_description": "Federate Microsoft Entra ID with Google Cloud Identity for SSO and provision users/groups via GCDS or SCIM for a Google transformation. Self-guided steps and scripts.",
+      "url_key": "entra-id-google-cloud-identity-sso-provisioning-commercial",
+      "image": "GWSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWSSO-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWSSO-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWSSO-NPO-001",
+      "name": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Federate Entra ID with Google Cloud Identity for SSO and stand up provisioning (GCDS/SCIM) — consistent accounts, groups, and licensing across both clouds — the identity foundation for the transformation, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>One identity across Microsoft and Google</h3><p>In a Google transformation, identity is the backbone: users must sign in once and exist consistently across both clouds. This solution federates <strong>Microsoft Entra ID with Google Cloud Identity</strong> for SSO and stands up <strong>provisioning</strong> (Google Cloud Directory Sync / SCIM) so accounts, groups, and licensing stay consistent &mdash; the identity foundation for coexistence and migration, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the identity model: Entra ID as IdP federating to Google (SAML/OIDC), provisioning via GCDS or SCIM, and how source-of-truth flows.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra ID + Google super-admin, source of truth, GCDS host or SCIM, DNS, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure Entra→Google SSO federation, set up GCDS/SCIM provisioning of users+groups, validate sign-in and provisioning on a named pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; identity-readiness discovery, per-user SSO + provisioning validation, an identity coverage/exception report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, users/groups provisioned, licensing correct) plus Best Practices for source-of-truth and lifecycle.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS/SCIM) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Federate Microsoft Entra ID with Google Cloud Identity for SSO and provision users/groups via GCDS or SCIM for a Google transformation. Self-guided steps and scripts.",
+      "url_key": "entra-id-google-cloud-identity-sso-provisioning-nonprofit",
+      "image": "GWSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWSSO-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWSSO-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWSSO-GOV-001",
+      "name": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Federate Entra ID with Google Cloud Identity for SSO and stand up provisioning (GCDS/SCIM) — consistent accounts, groups, and licensing across both clouds — the identity foundation for the transformation, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>One identity across Microsoft and Google</h3><p>In a Google transformation, identity is the backbone: users must sign in once and exist consistently across both clouds. This solution federates <strong>Microsoft Entra ID with Google Cloud Identity</strong> for SSO and stands up <strong>provisioning</strong> (Google Cloud Directory Sync / SCIM) so accounts, groups, and licensing stay consistent &mdash; the identity foundation for coexistence and migration, deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the identity model: Entra ID as IdP federating to Google (SAML/OIDC), provisioning via GCDS or SCIM, and how source-of-truth flows.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra ID + Google super-admin, source of truth, GCDS host or SCIM, DNS, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure Entra→Google SSO federation, set up GCDS/SCIM provisioning of users+groups, validate sign-in and provisioning on a named pilot, then expand.</li><li><strong>5 supporting scripts</strong> &mdash; identity-readiness discovery, per-user SSO + provisioning validation, an identity coverage/exception report, safe remediation, and a scope helper.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, users/groups provisioned, licensing correct) plus Best Practices for source-of-truth and lifecycle.</li></ul><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS/SCIM) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Federate Microsoft Entra ID with Google Cloud Identity for SSO and provision users/groups via GCDS or SCIM for a Google transformation. Self-guided steps and scripts.",
+      "url_key": "entra-id-google-cloud-identity-sso-provisioning-government",
+      "image": "GWSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWSSO-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWSSO-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

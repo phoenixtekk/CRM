@@ -23,6 +23,7 @@ SOURCE_ORDER = [
     "01-solution-overview.md",
     "02-requirements.md",
     "global-requirements-intune-solutions.md",
+    "global-requirements-google.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",

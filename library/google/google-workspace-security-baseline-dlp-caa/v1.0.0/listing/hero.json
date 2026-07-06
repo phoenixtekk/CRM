@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Workspace Security",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Baseline · DLP · CAA",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Hardening · Zero-Trust · Data",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INSECURE DEFAULTS",
+    "items": [
+      "Weak baseline",
+      "No DLP",
+      "Open sharing",
+      "No context gate"
+    ]
+  },
+  "to": {
+    "label": "Hardened posture",
+    "stat": "Data protected"
+  },
+  "tagline": "HARDEN.  PREVENT.  GATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Baseline",
+      "sub": "2SV/sessions"
+    },
+    {
+      "icon": "lock",
+      "title": "DLP",
+      "sub": "Drive/Gmail"
+    },
+    {
+      "icon": "key",
+      "title": "CAA",
+      "sub": "Context gate"
+    },
+    {
+      "icon": "chart",
+      "title": "Posture",
+      "sub": "Coverage"
+    }
+  ]
+}

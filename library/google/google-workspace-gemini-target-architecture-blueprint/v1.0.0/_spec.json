@@ -1,0 +1,82 @@
+{
+  "sol": "GWARCH",
+  "slug": "google-workspace-gemini-target-architecture-blueprint",
+  "title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T5 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Own the end-state before the vendors start building",
+  "problem": "In a 150k-user shift from Microsoft 365 to Google Workspace and Gemini, whoever owns the <strong>target architecture</strong> owns the outcome. This blueprint defines the end-state Google Workspace + Gemini + identity architecture and the architectural principles that govern every workstream &mdash; email/calendar/collaboration, Drive replacement, identity integration, data governance/retention, and AI enablement &mdash; so the transformation stays scalable, supportable, and under enterprise control rather than fragmenting across partners.",
+  "whats_inside": [
+    "<strong>Architecture Overview</strong> &mdash; the end-state Google Workspace + Gemini + identity architecture and how the workstreams fit together, with the enterprise principles that constrain every design.",
+    "<strong>Architecture Domains</strong> &mdash; principles and reference patterns for email/calendar/collaboration, <strong>Drive / SharePoint replacement</strong>, identity integration (Entra ID / SSO / provisioning), data governance & retention (Vault / Purview coexistence), and AI enablement (Gemini + agentic).",
+    "<strong>Decision Records & Standards</strong> &mdash; a reusable set of architecture decision records (ADRs), non-functional requirements, and enterprise standards the program measures designs against.",
+    "<strong>5 assessment/validation scripts</strong> &mdash; current-state discovery across the M365/Entra source, an architecture-conformance validation, a coverage/gap report, safe remediation guidance, and a scope/target-group helper.",
+    "<strong>Governance hooks & a Target-Architecture document template</strong> &mdash; how the blueprint feeds the Architecture Review Board, plus Testing/validation gates and Best Practices for keeping the architecture authoritative."
+  ],
+  "short": "Define and own the <strong>end-state Google Workspace + Gemini + identity architecture</strong> for a 150k-user transformation &mdash; principles for collaboration, Drive replacement, identity, governance, and AI &mdash; so it stays scalable, supportable, and under enterprise control. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define and own the end-state Google Workspace + Gemini + identity architecture for a 150k-user transformation — principles for collaboration, Drive replacement, identity, governance, and AI — so it stays scalable, supportable, and under enterprise control.",
+  "meta_title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint",
+  "meta_description": "Own the end-state Google Workspace + Gemini + identity architecture for a large M365-to-Google transformation: principles for collaboration, Drive replacement, identity, data governance, and AI enablement. Self-guided blueprint and validation scripts.",
+  "bottom_line": "An approved, stable enterprise target architecture &mdash; every workstream aligned to one end-state design &mdash; so migration waves execute without architectural rework.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Target Architecture",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Google Workspace + Gemini",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Collab · Drive · Identity · AI",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "VENDOR-DRIVEN DRIFT",
+      "items": [
+        "No owned end-state",
+        "Fragmented designs",
+        "Lock-in creep",
+        "Rework per wave"
+      ]
+    },
+    "to": {
+      "label": "Owned architecture",
+      "stat": "Scalable · supportable"
+    },
+    "tagline": "DEFINE IT.  OWN IT.  ALIGN IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "End-State",
+        "sub": "All workstreams"
+      },
+      {
+        "icon": "cloud",
+        "title": "Workspace+Gemini",
+        "sub": "Reference design"
+      },
+      {
+        "icon": "key",
+        "title": "Identity",
+        "sub": "Integration"
+      },
+      {
+        "icon": "chart",
+        "title": "Standards",
+        "sub": "ADRs/NFRs"
+      }
+    ]
+  }
+}

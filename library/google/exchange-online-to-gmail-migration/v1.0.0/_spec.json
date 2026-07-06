@@ -1,0 +1,82 @@
+{
+  "sol": "GWGMAIL",
+  "slug": "exchange-online-to-gmail-migration",
+  "title": "Exchange Online → Gmail Migration (Mail, Calendar, Contacts)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Move mailboxes to Gmail cleanly, with calendars and contacts intact",
+  "problem": "Email is the highest-visibility, highest-risk part of a Google move. This solution migrates <strong>Exchange Online mailboxes to Gmail</strong> &mdash; mail, calendar, and contacts &mdash; with the right tooling pattern, mail-flow/coexistence during transition, and per-user validation, so nothing is lost and users land smoothly, executed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Exchange-to-Gmail migration model (data types, tooling patterns, coexistence/mail routing, cutover) and the deployment model.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (source M365/Exchange access, Google tenant/licensing, DNS/mail-flow control, a migration tool, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact ordered steps to configure the migration, run a named pilot batch, validate mail/calendar/contacts, manage coexistence and DNS/MX cutover, then expand by wave.",
+    "<strong>5 supporting scripts</strong> &mdash; mailbox/estate discovery, per-user migration validation, a migration coverage/exception report, safe remediation of failed items, and a wave target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (migrated, validated, mail flows) plus Best Practices for cutover and coexistence."
+  ],
+  "short": "Migrate <strong>Exchange Online mailboxes to Gmail</strong> &mdash; mail, calendar, contacts &mdash; with the right tooling, coexistence/mail-flow, and per-user validation, pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Migrate Exchange Online mailboxes to Gmail — mail, calendar, contacts — with the right tooling, coexistence/mail-flow, and per-user validation, pilot-first and rollback-ready.",
+  "meta_title": "Exchange Online → Gmail Migration (Mail, Calendar, Contacts)",
+  "meta_description": "Migrate Exchange Online to Gmail: mail, calendar, and contacts with tooling patterns, mail-flow coexistence, DNS/MX cutover, and per-user validation. Self-guided steps and scripts (tool internals deferred to vendor docs).",
+  "bottom_line": "Every mailbox on Gmail with calendars and contacts intact &mdash; coexistence managed and cutover clean &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Exchange → Gmail",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Mail · Calendar · Contacts",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Coexistence · Cutover · Validate",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY MAIL MOVE",
+      "items": [
+        "Lost items",
+        "Broken calendars",
+        "Mail-flow gaps",
+        "No validation"
+      ]
+    },
+    "to": {
+      "label": "Clean migration",
+      "stat": "Nothing lost"
+    },
+    "tagline": "STAGE IT.  MIGRATE IT.  CUT OVER.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Gmail",
+        "sub": "Mailboxes"
+      },
+      {
+        "icon": "gear",
+        "title": "Coexistence",
+        "sub": "Mail-flow"
+      },
+      {
+        "icon": "device",
+        "title": "Cutover",
+        "sub": "DNS/MX"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Per-user"
+      }
+    ]
+  }
+}

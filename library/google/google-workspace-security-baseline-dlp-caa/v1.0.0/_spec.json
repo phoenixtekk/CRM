@@ -1,0 +1,82 @@
+{
+  "sol": "GWSEC",
+  "slug": "google-workspace-security-baseline-dlp-caa",
+  "title": "Google Workspace Security Baseline, DLP & Context-Aware Access (CAA)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Google Workspace + Gemini enterprise transformation; architecture/governance/integration or migration work, live-environment care).",
+    "Google Admin console + Microsoft/Entra authored click-by-click from public docs; Gemini Enterprise preview/rolling-out capabilities cited or flagged 'verify in tenant', never invented; third-party migration-tool and enterprise-app internals deferred to vendor docs."
+  ],
+  "hook": "Harden Google Workspace to enterprise standard from day one",
+  "problem": "A new Google Workspace tenant is not secure by default at enterprise standard. This solution establishes the <strong>Google Workspace security posture</strong>: an admin-console hardening baseline (2SV, session controls, sharing), <strong>Data Loss Prevention (DLP)</strong> rules for Drive/Gmail, and <strong>Context-Aware Access (CAA)</strong> that gates access on device and context &mdash; so corporate data is protected under Zero-Trust, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Workspace security model: hardening baseline, DLP, Context-Aware Access, and how they enforce Zero-Trust.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Workspace edition supporting DLP/CAA, super-admin, identity/context signals, a pilot OU) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to apply the named hardening baseline (2SV, sessions, sharing), build DLP rules for Drive/Gmail, and define CAA access levels + assignments, on a pilot then expand.",
+    "<strong>5 supporting scripts</strong> &mdash; security-posture discovery, per-OU baseline/DLP/CAA validation, a posture coverage/exception report, safe remediation, and a scope helper.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (baseline applied, DLP blocks, CAA gates) plus Best Practices for staged enforcement."
+  ],
+  "short": "Establish the <strong>Google Workspace security posture</strong> &mdash; admin hardening baseline, DLP for Drive/Gmail, and Context-Aware Access &mdash; so corporate data is protected under Zero-Trust, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish the Google Workspace security posture — admin hardening baseline, DLP for Drive/Gmail, and Context-Aware Access — so corporate data is protected under Zero-Trust, pilot-first.",
+  "meta_title": "Google Workspace Security Baseline, DLP & Context-Aware Access (CAA)",
+  "meta_description": "Harden Google Workspace: admin security baseline (2SV, sessions, sharing), Data Loss Prevention for Drive/Gmail, and Context-Aware Access for Zero-Trust. Self-guided steps and scripts.",
+  "bottom_line": "A Google Workspace tenant hardened to enterprise standard &mdash; baseline, DLP, and Context-Aware Access enforcing Zero-Trust &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Workspace Security",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Baseline · DLP · CAA",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Hardening · Zero-Trust · Data",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INSECURE DEFAULTS",
+      "items": [
+        "Weak baseline",
+        "No DLP",
+        "Open sharing",
+        "No context gate"
+      ]
+    },
+    "to": {
+      "label": "Hardened posture",
+      "stat": "Data protected"
+    },
+    "tagline": "HARDEN.  PREVENT.  GATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Baseline",
+        "sub": "2SV/sessions"
+      },
+      {
+        "icon": "lock",
+        "title": "DLP",
+        "sub": "Drive/Gmail"
+      },
+      {
+        "icon": "key",
+        "title": "CAA",
+        "sub": "Context gate"
+      },
+      {
+        "icon": "chart",
+        "title": "Posture",
+        "sub": "Coverage"
+      }
+    ]
+  }
+}

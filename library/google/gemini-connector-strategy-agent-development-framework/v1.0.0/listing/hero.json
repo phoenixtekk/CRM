@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Gemini Connectors",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Agent Framework",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Approval · Boundaries · Agents",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AGENT SPRAWL",
+    "items": [
+      "Ad-hoc connectors",
+      "Uncontrolled agents",
+      "Data over-exposure",
+      "No framework"
+    ]
+  },
+  "to": {
+    "label": "Governed AI build",
+    "stat": "Connectors + agents"
+  },
+  "tagline": "APPROVE.  BOUND.  BUILD.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Connectors",
+      "sub": "Approved"
+    },
+    {
+      "icon": "lock",
+      "title": "Boundaries",
+      "sub": "Data access"
+    },
+    {
+      "icon": "users",
+      "title": "Agents",
+      "sub": "Framework"
+    },
+    {
+      "icon": "chart",
+      "title": "Risk",
+      "sub": "Coverage"
+    }
+  ]
+}

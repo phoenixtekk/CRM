@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "google-workspace-gemini-target-architecture-blueprint",
+    "title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWARCH-COMM-001",
+      "name": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 4995.0,
+      "short_description": "Define and own the <strong>end-state Google Workspace + Gemini + identity architecture</strong> for a 150k-user transformation &mdash; principles for collaboration, Drive replacement, identity, governance, and AI &mdash; so it stays scalable, supportable, and under enterprise control. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Own the end-state before the vendors start building</h3><p>In a 150k-user shift from Microsoft 365 to Google Workspace and Gemini, whoever owns the <strong>target architecture</strong> owns the outcome. This blueprint defines the end-state Google Workspace + Gemini + identity architecture and the architectural principles that govern every workstream &mdash; email/calendar/collaboration, Drive replacement, identity integration, data governance/retention, and AI enablement &mdash; so the transformation stays scalable, supportable, and under enterprise control rather than fragmenting across partners.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Architecture Overview</strong> &mdash; the end-state Google Workspace + Gemini + identity architecture and how the workstreams fit together, with the enterprise principles that constrain every design.</li><li><strong>Architecture Domains</strong> &mdash; principles and reference patterns for email/calendar/collaboration, <strong>Drive / SharePoint replacement</strong>, identity integration (Entra ID / SSO / provisioning), data governance & retention (Vault / Purview coexistence), and AI enablement (Gemini + agentic).</li><li><strong>Decision Records & Standards</strong> &mdash; a reusable set of architecture decision records (ADRs), non-functional requirements, and enterprise standards the program measures designs against.</li><li><strong>5 assessment/validation scripts</strong> &mdash; current-state discovery across the M365/Entra source, an architecture-conformance validation, a coverage/gap report, safe remediation guidance, and a scope/target-group helper.</li><li><strong>Governance hooks & a Target-Architecture document template</strong> &mdash; how the blueprint feeds the Architecture Review Board, plus Testing/validation gates and Best Practices for keeping the architecture authoritative.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>An approved, stable enterprise target architecture &mdash; every workstream aligned to one end-state design &mdash; so migration waves execute without architectural rework.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWARCH-Discovery.ps1</code> &mdash; read-only current-state discovery of the M365/Entra source estate for the target-architecture blueprint</li><li><code>GWARCH-Remediation.ps1</code> &mdash; safe, guidance-first remediation for architecture-conformance gaps (defaults to -WhatIf)</li><li><code>GWARCH-Report.ps1</code> &mdash; read-only coverage/gap report rolling discovery + validation into an ARB-ready view</li><li><code>GWARCH-Set-ScopeTargeting.ps1</code> &mdash; map source Entra groups to the GWARCH-Scope taxonomy (defaults to -WhatIf)</li><li><code>GWARCH-Validation.ps1</code> &mdash; read-only architecture-conformance checks against the M365/Entra source estate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint",
+      "meta_description": "Own the end-state Google Workspace + Gemini + identity architecture for a large M365-to-Google transformation: principles for collaboration, Drive replacement, identity, data governance, and AI enablement. Self-guided blueprint and validation scripts.",
+      "url_key": "google-workspace-gemini-target-architecture-blueprint-commercial",
+      "image": "GWARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWARCH-NPO-001",
+      "name": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 2997.0,
+      "short_description": "<p>Define and own the end-state Google Workspace + Gemini + identity architecture for a 150k-user transformation — principles for collaboration, Drive replacement, identity, governance, and AI — so it stays scalable, supportable, and under enterprise control. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Own the end-state before the vendors start building</h3><p>In a 150k-user shift from Microsoft 365 to Google Workspace and Gemini, whoever owns the <strong>target architecture</strong> owns the outcome. This blueprint defines the end-state Google Workspace + Gemini + identity architecture and the architectural principles that govern every workstream &mdash; email/calendar/collaboration, Drive replacement, identity integration, data governance/retention, and AI enablement &mdash; so the transformation stays scalable, supportable, and under enterprise control rather than fragmenting across partners.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Architecture Overview</strong> &mdash; the end-state Google Workspace + Gemini + identity architecture and how the workstreams fit together, with the enterprise principles that constrain every design.</li><li><strong>Architecture Domains</strong> &mdash; principles and reference patterns for email/calendar/collaboration, <strong>Drive / SharePoint replacement</strong>, identity integration (Entra ID / SSO / provisioning), data governance & retention (Vault / Purview coexistence), and AI enablement (Gemini + agentic).</li><li><strong>Decision Records & Standards</strong> &mdash; a reusable set of architecture decision records (ADRs), non-functional requirements, and enterprise standards the program measures designs against.</li><li><strong>5 assessment/validation scripts</strong> &mdash; current-state discovery across the M365/Entra source, an architecture-conformance validation, a coverage/gap report, safe remediation guidance, and a scope/target-group helper.</li><li><strong>Governance hooks & a Target-Architecture document template</strong> &mdash; how the blueprint feeds the Architecture Review Board, plus Testing/validation gates and Best Practices for keeping the architecture authoritative.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWARCH-Discovery.ps1</code> &mdash; read-only current-state discovery of the M365/Entra source estate for the target-architecture blueprint</li><li><code>GWARCH-Remediation.ps1</code> &mdash; safe, guidance-first remediation for architecture-conformance gaps (defaults to -WhatIf)</li><li><code>GWARCH-Report.ps1</code> &mdash; read-only coverage/gap report rolling discovery + validation into an ARB-ready view</li><li><code>GWARCH-Set-ScopeTargeting.ps1</code> &mdash; map source Entra groups to the GWARCH-Scope taxonomy (defaults to -WhatIf)</li><li><code>GWARCH-Validation.ps1</code> &mdash; read-only architecture-conformance checks against the M365/Entra source estate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Own the end-state Google Workspace + Gemini + identity architecture for a large M365-to-Google transformation: principles for collaboration, Drive replacement, identity, data governance, and AI enablement. Self-guided blueprint and validation scripts.",
+      "url_key": "google-workspace-gemini-target-architecture-blueprint-nonprofit",
+      "image": "GWARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWARCH-GOV-001",
+      "name": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 4245.75,
+      "short_description": "<p>Define and own the end-state Google Workspace + Gemini + identity architecture for a 150k-user transformation — principles for collaboration, Drive replacement, identity, governance, and AI — so it stays scalable, supportable, and under enterprise control. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Own the end-state before the vendors start building</h3><p>In a 150k-user shift from Microsoft 365 to Google Workspace and Gemini, whoever owns the <strong>target architecture</strong> owns the outcome. This blueprint defines the end-state Google Workspace + Gemini + identity architecture and the architectural principles that govern every workstream &mdash; email/calendar/collaboration, Drive replacement, identity integration, data governance/retention, and AI enablement &mdash; so the transformation stays scalable, supportable, and under enterprise control rather than fragmenting across partners.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Architecture Overview</strong> &mdash; the end-state Google Workspace + Gemini + identity architecture and how the workstreams fit together, with the enterprise principles that constrain every design.</li><li><strong>Architecture Domains</strong> &mdash; principles and reference patterns for email/calendar/collaboration, <strong>Drive / SharePoint replacement</strong>, identity integration (Entra ID / SSO / provisioning), data governance & retention (Vault / Purview coexistence), and AI enablement (Gemini + agentic).</li><li><strong>Decision Records & Standards</strong> &mdash; a reusable set of architecture decision records (ADRs), non-functional requirements, and enterprise standards the program measures designs against.</li><li><strong>5 assessment/validation scripts</strong> &mdash; current-state discovery across the M365/Entra source, an architecture-conformance validation, a coverage/gap report, safe remediation guidance, and a scope/target-group helper.</li><li><strong>Governance hooks & a Target-Architecture document template</strong> &mdash; how the blueprint feeds the Architecture Review Board, plus Testing/validation gates and Best Practices for keeping the architecture authoritative.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWARCH-Discovery.ps1</code> &mdash; read-only current-state discovery of the M365/Entra source estate for the target-architecture blueprint</li><li><code>GWARCH-Remediation.ps1</code> &mdash; safe, guidance-first remediation for architecture-conformance gaps (defaults to -WhatIf)</li><li><code>GWARCH-Report.ps1</code> &mdash; read-only coverage/gap report rolling discovery + validation into an ARB-ready view</li><li><code>GWARCH-Set-ScopeTargeting.ps1</code> &mdash; map source Entra groups to the GWARCH-Scope taxonomy (defaults to -WhatIf)</li><li><code>GWARCH-Validation.ps1</code> &mdash; read-only architecture-conformance checks against the M365/Entra source estate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Own the end-state Google Workspace + Gemini + identity architecture for a large M365-to-Google transformation: principles for collaboration, Drive replacement, identity, data governance, and AI enablement. Self-guided blueprint and validation scripts.",
+      "url_key": "google-workspace-gemini-target-architecture-blueprint-government",
+      "image": "GWARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWARCH-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

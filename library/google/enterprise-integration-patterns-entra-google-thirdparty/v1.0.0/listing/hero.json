@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Integration Patterns",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Entra · Google · 3rd-Party",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "AuthN · AuthZ · Data Access",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SNOWFLAKE CONNECTIONS",
+    "items": [
+      "One-off integrations",
+      "Credential sprawl",
+      "Inconsistent authZ",
+      "Coexistence gaps"
+    ]
+  },
+  "to": {
+    "label": "Pattern catalog",
+    "stat": "Consistent + secure"
+  },
+  "tagline": "PATTERN IT.  STANDARDIZE.  CONNECT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Federation",
+      "sub": "Entra↔Google"
+    },
+    {
+      "icon": "gear",
+      "title": "Provisioning",
+      "sub": "GCDS/SCIM"
+    },
+    {
+      "icon": "cloud",
+      "title": "3rd-Party",
+      "sub": "SNOW/SAP/DBX"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Exceptions"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "collaboration-ai-platform-consolidation-strategy",
+    "title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWCONSOL-COMM-001",
+      "name": "Collaboration & AI Platform Consolidation Strategy & Roadmap — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Define the <strong>long-term consolidation strategy</strong> across collaboration and AI systems &mdash; target state, decommission path for legacy Microsoft systems, sequencing, and cost model &mdash; so the enterprise converges on one supportable platform. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Turn a two-ecosystem mess into one sustainable platform</h3><p>A transformation that stalls in permanent coexistence carries double the cost, tools, and risk. This solution defines the <strong>long-term platform consolidation strategy</strong> across collaboration and AI systems &mdash; the target state, the decommission path for legacy Microsoft systems, the sequencing, and the sustainability/cost model &mdash; so the enterprise converges on one supportable platform instead of running two forever.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Strategy Overview</strong> &mdash; the consolidation thesis: target platform, what gets retired, and why (sustainability, security, cost efficiency).</li><li><strong>Current-vs-Target Estate</strong> &mdash; a method to map the collaboration + AI estate (Microsoft, Google, third-party) to the target and identify redundancy and decommission candidates.</li><li><strong>Consolidation Roadmap</strong> &mdash; sequencing, dependencies, decommission gates, and the coexistence-exit criteria that move the program off legacy systems deliberately.</li><li><strong>5 supporting scripts</strong> &mdash; estate/redundancy discovery, target-state conformance validation, a consolidation/cost-savings report, safe decommission-readiness checks, and a scope helper.</li><li><strong>Testing gates + a Consolidation-Roadmap document template</strong> and Best Practices for cost efficiency and long-term platform sustainability.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A clear, documented path to one consolidated collaboration + AI platform &mdash; legacy systems retired on a deliberate schedule &mdash; delivering sustainability, security, and cost efficiency.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWCONSOL-Discovery.ps1</code> &mdash; Read-only collaboration + AI estate/redundancy inventory for consolidation</li><li><code>GWCONSOL-Remediation.ps1</code> &mdash; Safe remediation of consolidation readiness gaps (default -WhatIf)</li><li><code>GWCONSOL-Report.ps1</code> &mdash; Read-only consolidation/cost-savings + decommission-readiness report</li><li><code>GWCONSOL-Set-ScopeTargeting.ps1</code> &mdash; Consolidation wave-scope targeting-group builder (default -WhatIf)</li><li><code>GWCONSOL-Validation.ps1</code> &mdash; Read-only target-state conformance validation for consolidation waves</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+      "meta_description": "Define a platform consolidation strategy for a Google transformation: target state, decommission path for legacy Microsoft systems, sequencing, and cost/sustainability model across collaboration and AI. Self-guided roadmap and scripts.",
+      "url_key": "collaboration-ai-platform-consolidation-strategy-commercial",
+      "image": "GWCONSOL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCONSOL-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCONSOL-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWCONSOL-NPO-001",
+      "name": "Collaboration & AI Platform Consolidation Strategy & Roadmap — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Define the long-term consolidation strategy across collaboration and AI systems — target state, decommission path for legacy Microsoft systems, sequencing, and cost model — so the enterprise converges on one supportable platform. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Turn a two-ecosystem mess into one sustainable platform</h3><p>A transformation that stalls in permanent coexistence carries double the cost, tools, and risk. This solution defines the <strong>long-term platform consolidation strategy</strong> across collaboration and AI systems &mdash; the target state, the decommission path for legacy Microsoft systems, the sequencing, and the sustainability/cost model &mdash; so the enterprise converges on one supportable platform instead of running two forever.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Strategy Overview</strong> &mdash; the consolidation thesis: target platform, what gets retired, and why (sustainability, security, cost efficiency).</li><li><strong>Current-vs-Target Estate</strong> &mdash; a method to map the collaboration + AI estate (Microsoft, Google, third-party) to the target and identify redundancy and decommission candidates.</li><li><strong>Consolidation Roadmap</strong> &mdash; sequencing, dependencies, decommission gates, and the coexistence-exit criteria that move the program off legacy systems deliberately.</li><li><strong>5 supporting scripts</strong> &mdash; estate/redundancy discovery, target-state conformance validation, a consolidation/cost-savings report, safe decommission-readiness checks, and a scope helper.</li><li><strong>Testing gates + a Consolidation-Roadmap document template</strong> and Best Practices for cost efficiency and long-term platform sustainability.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWCONSOL-Discovery.ps1</code> &mdash; Read-only collaboration + AI estate/redundancy inventory for consolidation</li><li><code>GWCONSOL-Remediation.ps1</code> &mdash; Safe remediation of consolidation readiness gaps (default -WhatIf)</li><li><code>GWCONSOL-Report.ps1</code> &mdash; Read-only consolidation/cost-savings + decommission-readiness report</li><li><code>GWCONSOL-Set-ScopeTargeting.ps1</code> &mdash; Consolidation wave-scope targeting-group builder (default -WhatIf)</li><li><code>GWCONSOL-Validation.ps1</code> &mdash; Read-only target-state conformance validation for consolidation waves</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Collaboration & AI Platform Consolidation Strategy & Roadmap — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Define a platform consolidation strategy for a Google transformation: target state, decommission path for legacy Microsoft systems, sequencing, and cost/sustainability model across collaboration and AI. Self-guided roadmap and scripts.",
+      "url_key": "collaboration-ai-platform-consolidation-strategy-nonprofit",
+      "image": "GWCONSOL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCONSOL-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCONSOL-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWCONSOL-GOV-001",
+      "name": "Collaboration & AI Platform Consolidation Strategy & Roadmap — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Define the long-term consolidation strategy across collaboration and AI systems — target state, decommission path for legacy Microsoft systems, sequencing, and cost model — so the enterprise converges on one supportable platform. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Turn a two-ecosystem mess into one sustainable platform</h3><p>A transformation that stalls in permanent coexistence carries double the cost, tools, and risk. This solution defines the <strong>long-term platform consolidation strategy</strong> across collaboration and AI systems &mdash; the target state, the decommission path for legacy Microsoft systems, the sequencing, and the sustainability/cost model &mdash; so the enterprise converges on one supportable platform instead of running two forever.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Strategy Overview</strong> &mdash; the consolidation thesis: target platform, what gets retired, and why (sustainability, security, cost efficiency).</li><li><strong>Current-vs-Target Estate</strong> &mdash; a method to map the collaboration + AI estate (Microsoft, Google, third-party) to the target and identify redundancy and decommission candidates.</li><li><strong>Consolidation Roadmap</strong> &mdash; sequencing, dependencies, decommission gates, and the coexistence-exit criteria that move the program off legacy systems deliberately.</li><li><strong>5 supporting scripts</strong> &mdash; estate/redundancy discovery, target-state conformance validation, a consolidation/cost-savings report, safe decommission-readiness checks, and a scope helper.</li><li><strong>Testing gates + a Consolidation-Roadmap document template</strong> and Best Practices for cost efficiency and long-term platform sustainability.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>GWCONSOL-Discovery.ps1</code> &mdash; Read-only collaboration + AI estate/redundancy inventory for consolidation</li><li><code>GWCONSOL-Remediation.ps1</code> &mdash; Safe remediation of consolidation readiness gaps (default -WhatIf)</li><li><code>GWCONSOL-Report.ps1</code> &mdash; Read-only consolidation/cost-savings + decommission-readiness report</li><li><code>GWCONSOL-Set-ScopeTargeting.ps1</code> &mdash; Consolidation wave-scope targeting-group builder (default -WhatIf)</li><li><code>GWCONSOL-Validation.ps1</code> &mdash; Read-only target-state conformance validation for consolidation waves</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Collaboration & AI Platform Consolidation Strategy & Roadmap — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Define a platform consolidation strategy for a Google transformation: target state, decommission path for legacy Microsoft systems, sequencing, and cost/sustainability model across collaboration and AI. Self-guided roadmap and scripts.",
+      "url_key": "collaboration-ai-platform-consolidation-strategy-government",
+      "image": "GWCONSOL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWCONSOL-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "GWCONSOL-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
