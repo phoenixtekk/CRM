@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Performance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Tuning & Optimization",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "JVM · Pools · Batch · SQL",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SLOW C2M",
+    "items": [
+      "JVM/GC pressure",
+      "Pool exhaustion",
+      "Batch backlog",
+      "Slow SQL"
+    ]
+  },
+  "to": {
+    "label": "Measured tuning",
+    "stat": "Optimized stack"
+  },
+  "tagline": "MEASURE.  TUNE.  RE-MEASURE.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "JVM/GC",
+      "sub": "Heap/GC"
+    },
+    {
+      "icon": "gear",
+      "title": "Pools",
+      "sub": "Thread/conn"
+    },
+    {
+      "icon": "cloud",
+      "title": "Database",
+      "sub": "SQL"
+    },
+    {
+      "icon": "chart",
+      "title": "Gains",
+      "sub": "Measured"
+    }
+  ]
+}

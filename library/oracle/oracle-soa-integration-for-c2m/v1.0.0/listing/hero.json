@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SOA Integration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "for Oracle C2M",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Composites · IWS · APIs",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SNOWFLAKE INTEGRATION",
+    "items": [
+      "One-off interfaces",
+      "No error handling",
+      "Blind flows",
+      "Lock-in"
+    ]
+  },
+  "to": {
+    "label": "Consistent patterns",
+    "stat": "Supportable + observable"
+  },
+  "tagline": "DESIGN.  INTEGRATE.  OBSERVE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "SOA",
+      "sub": "Composites"
+    },
+    {
+      "icon": "gear",
+      "title": "IWS",
+      "sub": "In/out"
+    },
+    {
+      "icon": "key",
+      "title": "APIs",
+      "sub": "Patterns"
+    },
+    {
+      "icon": "chart",
+      "title": "Observability",
+      "sub": "Flows"
+    }
+  ]
+}

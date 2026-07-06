@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-log-analysis-health-monitoring",
+    "title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MLOG-COMM-001",
+      "name": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Establish <strong>C2M log analysis and health monitoring</strong> &mdash; where the logs are, what to watch, early detection, and SLO tracking &mdash; so you maximize uptime and catch problems early, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Turn C2M logs into health and uptime you can prove</h3><p>C2M and WebLogic produce a lot of logs &mdash; and the signal that keeps uptime high is buried in them. This solution establishes <strong>C2M log analysis and health monitoring</strong>: where the logs are (OUAF, WebLogic, batch), what to watch, how to detect issues early, and how to track system health against <strong>service-level objectives</strong> &mdash; so you maximize uptime and catch problems early, pilot-first.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/WebLogic log landscape (OUAF, server, batch), the health signals, and the SLO model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (log access, health metrics, SLO definitions, alerting).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to locate and standardize logs, define the health checks and early-warning signals, track against SLOs, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (logs accessible, health tracked, SLOs measured) plus Best Practices for log hygiene and early detection.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>C2M logs turned into provable health and uptime &mdash; early-warning signals watched, SLOs tracked &mdash; so problems are caught before they cost service.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MLOG-Discovery.sh</code> &mdash; read-only discovery of the C2M log landscape (OUAF, WebLogic, batch) and health signals</li><li><code>OC2MLOG-Remediation.sh</code> &mdash; preview safe log rotation/cleanup to hold log filesystems within policy (DRY-RUN by default)</li><li><code>OC2MLOG-Report.sh</code> &mdash; read-only daily health/SLO report from the C2M logs and early-warning signals</li><li><code>OC2MLOG-ScopeHelper.sh</code> &mdash; build the in-scope log-source / host / signal target list for pilot and expansion</li><li><code>OC2MLOG-Validation.sh</code> &mdash; read-only health checks and early-warning signal detection across the C2M logs</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+      "meta_description": "Analyze Oracle C2M/WebLogic logs and monitor system health: OUAF/server/batch logs, health checks, early-warning signals, and SLO tracking. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-log-analysis-health-monitoring-commercial",
+      "image": "OC2MLOG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MLOG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MLOG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MLOG-NPO-001",
+      "name": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Establish C2M log analysis and health monitoring — where the logs are, what to watch, early detection, and SLO tracking — so you maximize uptime and catch problems early, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Turn C2M logs into health and uptime you can prove</h3><p>C2M and WebLogic produce a lot of logs &mdash; and the signal that keeps uptime high is buried in them. This solution establishes <strong>C2M log analysis and health monitoring</strong>: where the logs are (OUAF, WebLogic, batch), what to watch, how to detect issues early, and how to track system health against <strong>service-level objectives</strong> &mdash; so you maximize uptime and catch problems early, pilot-first.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/WebLogic log landscape (OUAF, server, batch), the health signals, and the SLO model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (log access, health metrics, SLO definitions, alerting).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to locate and standardize logs, define the health checks and early-warning signals, track against SLOs, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (logs accessible, health tracked, SLOs measured) plus Best Practices for log hygiene and early detection.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MLOG-Discovery.sh</code> &mdash; read-only discovery of the C2M log landscape (OUAF, WebLogic, batch) and health signals</li><li><code>OC2MLOG-Remediation.sh</code> &mdash; preview safe log rotation/cleanup to hold log filesystems within policy (DRY-RUN by default)</li><li><code>OC2MLOG-Report.sh</code> &mdash; read-only daily health/SLO report from the C2M logs and early-warning signals</li><li><code>OC2MLOG-ScopeHelper.sh</code> &mdash; build the in-scope log-source / host / signal target list for pilot and expansion</li><li><code>OC2MLOG-Validation.sh</code> &mdash; read-only health checks and early-warning signal detection across the C2M logs</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Analyze Oracle C2M/WebLogic logs and monitor system health: OUAF/server/batch logs, health checks, early-warning signals, and SLO tracking. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-log-analysis-health-monitoring-nonprofit",
+      "image": "OC2MLOG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MLOG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MLOG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MLOG-GOV-001",
+      "name": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Establish C2M log analysis and health monitoring — where the logs are, what to watch, early detection, and SLO tracking — so you maximize uptime and catch problems early, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Turn C2M logs into health and uptime you can prove</h3><p>C2M and WebLogic produce a lot of logs &mdash; and the signal that keeps uptime high is buried in them. This solution establishes <strong>C2M log analysis and health monitoring</strong>: where the logs are (OUAF, WebLogic, batch), what to watch, how to detect issues early, and how to track system health against <strong>service-level objectives</strong> &mdash; so you maximize uptime and catch problems early, pilot-first.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/WebLogic log landscape (OUAF, server, batch), the health signals, and the SLO model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (log access, health metrics, SLO definitions, alerting).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to locate and standardize logs, define the health checks and early-warning signals, track against SLOs, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (logs accessible, health tracked, SLOs measured) plus Best Practices for log hygiene and early detection.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MLOG-Discovery.sh</code> &mdash; read-only discovery of the C2M log landscape (OUAF, WebLogic, batch) and health signals</li><li><code>OC2MLOG-Remediation.sh</code> &mdash; preview safe log rotation/cleanup to hold log filesystems within policy (DRY-RUN by default)</li><li><code>OC2MLOG-Report.sh</code> &mdash; read-only daily health/SLO report from the C2M logs and early-warning signals</li><li><code>OC2MLOG-ScopeHelper.sh</code> &mdash; build the in-scope log-source / host / signal target list for pilot and expansion</li><li><code>OC2MLOG-Validation.sh</code> &mdash; read-only health checks and early-warning signal detection across the C2M logs</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Analyze Oracle C2M/WebLogic logs and monitor system health: OUAF/server/batch logs, health checks, early-warning signals, and SLO tracking. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-log-analysis-health-monitoring-government",
+      "image": "OC2MLOG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MLOG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MLOG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "oracle-soa-integration-for-c2m",
+  "title": "Oracle SOA Integration for C2M (Web Services & APIs)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "sol_code": "OSOAC2M",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OSOAC2M-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-OSOAC2M-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-OSOAC2M-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "OSOAC2M-Solution.pdf",
+    "OSOAC2M-Scripts.zip"
+  ],
+  "hero": "OSOAC2M-hero.png"
+}
+

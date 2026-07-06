@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "WebLogic 14c",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "for Oracle C2M",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Domain · Node Manager · Data Sources",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHAKY MIDDLEWARE",
+    "items": [
+      "Bad domain layout",
+      "No Node Manager",
+      "Data-source errors",
+      "JVM misconfig"
+    ]
+  },
+  "to": {
+    "label": "Solid foundation",
+    "stat": "Domain healthy"
+  },
+  "tagline": "INSTALL.  DOMAIN.  CONFIGURE.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Domain",
+      "sub": "Admin/managed"
+    },
+    {
+      "icon": "gear",
+      "title": "Node Manager",
+      "sub": "Lifecycle"
+    },
+    {
+      "icon": "cloud",
+      "title": "Data Sources",
+      "sub": "DB pools"
+    },
+    {
+      "icon": "chart",
+      "title": "Validation",
+      "sub": "Domain health"
+    }
+  ]
+}

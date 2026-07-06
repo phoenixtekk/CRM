@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M & WebLogic",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Patching & Upgrade",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Readiness · Apply · Rollback",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY PATCHING",
+    "items": [
+      "Outage risk",
+      "No rollback",
+      "Version drift",
+      "Support gaps"
+    ]
+  },
+  "to": {
+    "label": "Disciplined runbook",
+    "stat": "Current + supportable"
+  },
+  "tagline": "READY.  APPLY.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Patch",
+      "sub": "MOS patches"
+    },
+    {
+      "icon": "chip",
+      "title": "Upgrade",
+      "sub": "To 25.4"
+    },
+    {
+      "icon": "shield",
+      "title": "Rollback",
+      "sub": "Documented"
+    },
+    {
+      "icon": "chart",
+      "title": "Validation",
+      "sub": "Per env"
+    }
+  ]
+}

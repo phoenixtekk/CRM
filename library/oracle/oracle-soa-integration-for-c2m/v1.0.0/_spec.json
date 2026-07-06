@@ -1,0 +1,82 @@
+{
+  "sol": "OSOAC2M",
+  "slug": "oracle-soa-integration-for-c2m",
+  "title": "Oracle SOA Integration for C2M (Web Services & APIs)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Integrate C2M with the enterprise via SOA, web services, and APIs",
+  "problem": "C2M rarely stands alone &mdash; it exchanges data with meters, billing, analytics, and enterprise systems, often through <strong>Oracle SOA</strong> and web services/APIs. This solution defines the <strong>SOA integration approach for C2M</strong>: composites and adapters between C2M and other systems, inbound/outbound web services (IWS), and API patterns &mdash; so integrations are consistent, supportable, and observable, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M integration model: Oracle SOA composites/adapters, IWS inbound/outbound web services, and API patterns.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (SOA Suite where used, C2M IWS, endpoints/credentials, pilot).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to design and deploy the named SOA composites/adapters and IWS, apply consistent authN/error-handling/observability, and validate the integrations, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (integration flows, errors handled, observable) plus Best Practices for supportable, low-lock-in integration."
+  ],
+  "short": "Define the <strong>SOA integration approach for C2M</strong> &mdash; composites/adapters, inbound/outbound IWS, and API patterns &mdash; so integrations are consistent, supportable, and observable, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define the SOA integration approach for C2M — composites/adapters, inbound/outbound IWS, and API patterns — so integrations are consistent, supportable, and observable, pilot-first.",
+  "meta_title": "Oracle SOA Integration for C2M (Web Services & APIs)",
+  "meta_description": "Integrate Oracle C2M with the enterprise via Oracle SOA and web services/APIs: composites/adapters, inbound/outbound IWS, and API patterns. Self-guided steps and scripts (SOA internals deferred to Oracle docs).",
+  "bottom_line": "C2M integrated with the enterprise through consistent, supportable, observable patterns &mdash; SOA composites, IWS, and APIs &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SOA Integration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "for Oracle C2M",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Composites · IWS · APIs",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SNOWFLAKE INTEGRATION",
+      "items": [
+        "One-off interfaces",
+        "No error handling",
+        "Blind flows",
+        "Lock-in"
+      ]
+    },
+    "to": {
+      "label": "Consistent patterns",
+      "stat": "Supportable + observable"
+    },
+    "tagline": "DESIGN.  INTEGRATE.  OBSERVE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "SOA",
+        "sub": "Composites"
+      },
+      {
+        "icon": "gear",
+        "title": "IWS",
+        "sub": "In/out"
+      },
+      {
+        "icon": "key",
+        "title": "APIs",
+        "sub": "Patterns"
+      },
+      {
+        "icon": "chart",
+        "title": "Observability",
+        "sub": "Flows"
+      }
+    ]
+  }
+}

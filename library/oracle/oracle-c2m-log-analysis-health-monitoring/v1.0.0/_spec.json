@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MLOG",
+  "slug": "oracle-c2m-log-analysis-health-monitoring",
+  "title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Turn C2M logs into health and uptime you can prove",
+  "problem": "C2M and WebLogic produce a lot of logs &mdash; and the signal that keeps uptime high is buried in them. This solution establishes <strong>C2M log analysis and health monitoring</strong>: where the logs are (OUAF, WebLogic, batch), what to watch, how to detect issues early, and how to track system health against <strong>service-level objectives</strong> &mdash; so you maximize uptime and catch problems early, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M/WebLogic log landscape (OUAF, server, batch), the health signals, and the SLO model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (log access, health metrics, SLO definitions, alerting).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to locate and standardize logs, define the health checks and early-warning signals, track against SLOs, and validate, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (logs accessible, health tracked, SLOs measured) plus Best Practices for log hygiene and early detection."
+  ],
+  "short": "Establish <strong>C2M log analysis and health monitoring</strong> &mdash; where the logs are, what to watch, early detection, and SLO tracking &mdash; so you maximize uptime and catch problems early, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish C2M log analysis and health monitoring — where the logs are, what to watch, early detection, and SLO tracking — so you maximize uptime and catch problems early, pilot-first.",
+  "meta_title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+  "meta_description": "Analyze Oracle C2M/WebLogic logs and monitor system health: OUAF/server/batch logs, health checks, early-warning signals, and SLO tracking. Self-guided steps and WLST/shell/SQL scripts.",
+  "bottom_line": "C2M logs turned into provable health and uptime &mdash; early-warning signals watched, SLOs tracked &mdash; so problems are caught before they cost service.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Log Analysis",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Health Monitoring",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "OUAF/Server/Batch · SLOs",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SIGNAL BURIED",
+      "items": [
+        "Log sprawl",
+        "Late detection",
+        "No SLO tracking",
+        "Downtime"
+      ]
+    },
+    "to": {
+      "label": "Health assured",
+      "stat": "Uptime maximized"
+    },
+    "tagline": "COLLECT.  ANALYZE.  ASSURE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Logs",
+        "sub": "Standardized"
+      },
+      {
+        "icon": "shield",
+        "title": "Health",
+        "sub": "Early warning"
+      },
+      {
+        "icon": "gear",
+        "title": "SLOs",
+        "sub": "Tracked"
+      },
+      {
+        "icon": "chip",
+        "title": "Uptime",
+        "sub": "Maximized"
+      }
+    ]
+  }
+}

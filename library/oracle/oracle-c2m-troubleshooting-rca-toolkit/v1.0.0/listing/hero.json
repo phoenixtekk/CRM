@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Troubleshooting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Root-Cause Analysis",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "WebLogic · DB · Batch · IWS",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GUESSWORK TRIAGE",
+    "items": [
+      "Cause hidden",
+      "Slow restore",
+      "No RCA",
+      "Repeat outages"
+    ]
+  },
+  "to": {
+    "label": "Layered root-cause",
+    "stat": "Restore + RCA"
+  },
+  "tagline": "TRACE.  ISOLATE.  RESTORE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Root-Cause Tree",
+      "sub": "By symptom"
+    },
+    {
+      "icon": "chip",
+      "title": "WebLogic/DB",
+      "sub": "Layer checks"
+    },
+    {
+      "icon": "cloud",
+      "title": "Batch/IWS",
+      "sub": "Integration"
+    },
+    {
+      "icon": "chart",
+      "title": "RCA",
+      "sub": "Defensible"
+    }
+  ]
+}

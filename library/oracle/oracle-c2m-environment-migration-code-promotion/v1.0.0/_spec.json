@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MMIG",
+  "slug": "oracle-c2m-environment-migration-code-promotion",
+  "title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Promote C2M config and code cleanly across environments",
+  "problem": "C2M configuration and extensions have to move from <strong>Dev → QA → Prod</strong> without drift or manual mistakes. This solution defines the <strong>migration and code-promotion</strong> method: OUAF configuration migration (bundles / Configuration Migration Assistant), code and web-service promotion, and environment-comparison &mdash; so what you tested is exactly what goes live, pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M promotion model: OUAF config migration (bundles/CMA), code/IWS promotion, and environment comparison.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (source+target environments, migration tooling, access, change control).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to export/import OUAF config bundles, promote code and web services, compare environments, and validate parity, across Dev→QA→Prod with gates.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (config migrated, parity confirmed, no drift) plus Best Practices for repeatable promotion."
+  ],
+  "short": "Define the <strong>C2M migration and code-promotion</strong> method &mdash; OUAF config migration, code/IWS promotion, environment comparison &mdash; so what you tested is what goes live, Dev→QA→Prod, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define the C2M migration and code-promotion method — OUAF config migration, code/IWS promotion, environment comparison — so what you tested is what goes live, Dev→QA→Prod, pilot-first.",
+  "meta_title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+  "meta_description": "Promote Oracle C2M config and code across environments: OUAF configuration migration (bundles/CMA), code/web-service promotion, and environment comparison. Self-guided steps and WLST/shell/SQL scripts.",
+  "bottom_line": "C2M configuration and code promoted cleanly from Dev to QA to Prod &mdash; parity confirmed, no drift &mdash; so what you tested is exactly what goes live.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Migration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Code Promotion",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Dev → QA → Prod · CMA · Parity",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ENV DRIFT",
+      "items": [
+        "Manual promotion",
+        "Config mismatch",
+        "Lost changes",
+        "Untested prod"
+      ]
+    },
+    "to": {
+      "label": "Clean promotion",
+      "stat": "Parity confirmed"
+    },
+    "tagline": "EXPORT.  PROMOTE.  COMPARE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Config Bundles",
+        "sub": "CMA"
+      },
+      {
+        "icon": "cloud",
+        "title": "Code/IWS",
+        "sub": "Promoted"
+      },
+      {
+        "icon": "chart",
+        "title": "Compare",
+        "sub": "Parity"
+      },
+      {
+        "icon": "shield",
+        "title": "Gates",
+        "sub": "Per env"
+      }
+    ]
+  }
+}

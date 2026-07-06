@@ -24,6 +24,7 @@ SOURCE_ORDER = [
     "02-requirements.md",
     "global-requirements-intune-solutions.md",
     "global-requirements-google.md",
+    "global-requirements-oracle.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",
@@ -115,16 +116,29 @@ def strip_inline(s):
     return s.replace("**", "").replace("`", "")
 
 
+SCRIPT_EXTS = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst")
+
+
+def script_files(d):
+    """All automation scripts in a dir (PowerShell + shell/Python/WLST/SQL), sorted by name."""
+    fs = []
+    for g in SCRIPT_EXTS:
+        fs += list(Path(d).glob(g))
+    return sorted(fs, key=lambda p: p.name)
+
+
 def scripts_appendix(scripts_dir):
-    """Return list of (name, purpose, howto) extracted from each .ps1 header."""
+    """Return list of (name, purpose, howto) extracted from each script's header (any language)."""
     out = []
-    for ps1 in sorted(Path(scripts_dir).glob("*.ps1")):
+    for ps1 in script_files(scripts_dir):
         body = ps1.read_text(encoding="utf-8", errors="ignore")
         purpose = howto = ""
+        def _dc(l):  # strip leading comment markers (#, --, *, /*, ;) so non-PowerShell headers render clean
+            return re.sub(r"^\s*(#+|--+|/\*+|\*+|;+)\s?", "", l).strip()
         pm = re.search(r"PURPOSE\s*\n(.*?)\n\s*\n", body, re.S)
-        if pm: purpose = " ".join(l.strip() for l in pm.group(1).splitlines() if l.strip())
+        if pm: purpose = " ".join(_dc(l) for l in pm.group(1).splitlines() if _dc(l))
         hm = re.search(r"HOW TO RUN\s*\n(.*?)\n\s*\n", body, re.S)
-        if hm: howto = " ".join(l.strip() for l in hm.group(1).splitlines() if l.strip())
+        if hm: howto = " ".join(_dc(l) for l in hm.group(1).splitlines() if _dc(l))
         out.append((ps1.name, purpose, howto))
     return out
 
@@ -429,7 +443,7 @@ def main():
     build_pdf(meta, blocks, scripts, str(pdf_path), branded=branded)
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
-        for ps1 in sorted(scr.glob("*.ps1")):
+        for ps1 in script_files(scr):
             z.write(ps1, ps1.name)
 
     # Single "Complete Solution Package" — the one always-included deliverable attached to the
@@ -439,7 +453,7 @@ def main():
     with zipfile.ZipFile(bundle_path, "w", zipfile.ZIP_DEFLATED) as b:
         b.write(pdf_path, arcname=pdf_path.name)
         b.write(docx_path, arcname=docx_path.name)
-        for ps1 in sorted(scr.glob("*.ps1")):
+        for ps1 in script_files(scr):
             b.write(ps1, arcname=f"Scripts/{ps1.name}")
 
     for p in (docx_path, pdf_path, zip_path, bundle_path):

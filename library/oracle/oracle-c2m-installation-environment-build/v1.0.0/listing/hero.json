@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Oracle C2M",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Installation & Build",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "OUAF · WebLogic · Database",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INCONSISTENT BUILDS",
+    "items": [
+      "Uncertified stacks",
+      "Manual installs",
+      "Env drift",
+      "Failed setup"
+    ]
+  },
+  "to": {
+    "label": "Reproducible build",
+    "stat": "Dev/Test/Prod aligned"
+  },
+  "tagline": "INSTALL.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "OUAF Install",
+      "sub": "Product home"
+    },
+    {
+      "icon": "chip",
+      "title": "WebLogic",
+      "sub": "Domain"
+    },
+    {
+      "icon": "cloud",
+      "title": "Database",
+      "sub": "Schema setup"
+    },
+    {
+      "icon": "chart",
+      "title": "Validation",
+      "sub": "Per env"
+    }
+  ]
+}

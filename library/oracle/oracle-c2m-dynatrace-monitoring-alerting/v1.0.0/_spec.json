@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MDYNA",
+  "slug": "oracle-c2m-dynatrace-monitoring-alerting",
+  "title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "See C2M health in Dynatrace before users feel it",
+  "problem": "Once C2M is live, you need to <strong>see problems before users do</strong>. This solution sets up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and its WebLogic 14c middleware: instrument the JVM/WebLogic tiers, build the service/infra dashboards, and define standardized alerts on the signals that matter &mdash; so the team responds to health, not surprises, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what to monitor across C2M/WebLogic (JVM, services, batch, endpoints) and how Dynatrace instruments and alerts on it.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Dynatrace tenant/OneAgent, C2M environment access, alerting destinations).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to instrument the WebLogic/JVM tiers with Dynatrace, build the C2M dashboards, and define standardized alerts + notification, then validate coverage, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (instrumented, dashboards live, alerts fire) plus Best Practices for alert tuning and noise reduction."
+  ],
+  "short": "Set up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and WebLogic 14c &mdash; instrument the tiers, build dashboards, define standardized alerts &mdash; so the team sees problems before users do, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Set up Dynatrace monitoring and alerting for Oracle C2M and WebLogic 14c — instrument the tiers, build dashboards, define standardized alerts — so the team sees problems before users do, pilot-first.",
+  "meta_title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+  "meta_description": "Monitor Oracle C2M and WebLogic 14c with Dynatrace: instrument the JVM/middleware tiers, build service/infra dashboards, and define standardized alerts. Self-guided steps and scripts (Dynatrace specifics deferred to vendor docs).",
+  "bottom_line": "C2M health visible in Dynatrace &mdash; tiers instrumented, dashboards live, standardized alerts firing &mdash; so the team responds to problems before users feel them.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Monitoring",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "with Dynatrace",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Instrument · Dashboards · Alerts",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLIND OPERATIONS",
+      "items": [
+        "No visibility",
+        "User-reported issues",
+        "No alerts",
+        "Slow response"
+      ]
+    },
+    "to": {
+      "label": "Full observability",
+      "stat": "See it first"
+    },
+    "tagline": "INSTRUMENT.  DASHBOARD.  ALERT.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Dashboards",
+        "sub": "C2M health"
+      },
+      {
+        "icon": "shield",
+        "title": "Alerts",
+        "sub": "Standardized"
+      },
+      {
+        "icon": "chip",
+        "title": "JVM/WebLogic",
+        "sub": "Instrumented"
+      },
+      {
+        "icon": "gear",
+        "title": "Coverage",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Security",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SSO · SSL · Keystores",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Sign-in · TLS · Certificates",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INSECURE ENDPOINTS",
+    "items": [
+      "Broken SSO",
+      "No TLS",
+      "Untrusted certs",
+      "Audit findings"
+    ]
+  },
+  "to": {
+    "label": "Secured C2M",
+    "stat": "Trusted end to end"
+  },
+  "tagline": "AUTHENTICATE.  ENCRYPT.  TRUST.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SSO",
+      "sub": "Sign-in"
+    },
+    {
+      "icon": "lock",
+      "title": "SSL/TLS",
+      "sub": "Encrypted"
+    },
+    {
+      "icon": "shield",
+      "title": "Keystores",
+      "sub": "Identity/trust"
+    },
+    {
+      "icon": "chart",
+      "title": "Validation",
+      "sub": "Secure endpoints"
+    }
+  ]
+}

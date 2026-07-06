@@ -928,5 +928,75 @@
     "post_id": 12196,
     "status": "draft",
     "category_id": 411
+  },
+  "oracle-c2m-installation-environment-build": {
+    "post_id": 12198,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-weblogic-14c-c2m-install-configure": {
+    "post_id": 12200,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-coherence-jms-iws-configuration": {
+    "post_id": 12202,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-sso-ssl-keystore-configuration": {
+    "post_id": 12204,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-batch-scheduling-management": {
+    "post_id": 12206,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-weblogic-patching-upgrade-runbook": {
+    "post_id": 12208,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-environment-migration-code-promotion": {
+    "post_id": 12210,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-performance-tuning-optimization": {
+    "post_id": 12212,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-dynatrace-monitoring-alerting": {
+    "post_id": 12214,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-log-analysis-health-monitoring": {
+    "post_id": 12216,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-devops-release-management-cicd": {
+    "post_id": 12218,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-hypercare-production-support-runbook": {
+    "post_id": 12220,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-c2m-troubleshooting-rca-toolkit": {
+    "post_id": 12222,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oracle-soa-integration-for-c2m": {
+    "post_id": 12224,
+    "status": "draft",
+    "category_id": 411
   }
 }

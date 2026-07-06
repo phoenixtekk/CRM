@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Runtime",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Coherence · JMS · IWS",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Cluster · Messaging · Web Services",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BROKEN RUNTIME",
+    "items": [
+      "Cluster won't form",
+      "JMS backs up",
+      "IWS errors",
+      "Integration fails"
+    ]
+  },
+  "to": {
+    "label": "Wired runtime",
+    "stat": "Clustered + messaging"
+  },
+  "tagline": "CLUSTER.  QUEUE.  INTEGRATE.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Coherence",
+      "sub": "Cluster"
+    },
+    {
+      "icon": "gear",
+      "title": "JMS",
+      "sub": "Queues"
+    },
+    {
+      "icon": "cloud",
+      "title": "IWS",
+      "sub": "Web services"
+    },
+    {
+      "icon": "chart",
+      "title": "Validation",
+      "sub": "Runtime health"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MSEC",
+  "slug": "oracle-c2m-sso-ssl-keystore-configuration",
+  "title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Secure C2M end to end: SSO, SSL, and keystores",
+  "problem": "C2M and WebLogic have to be secured properly &mdash; <strong>Single Sign-On</strong>, <strong>SSL/TLS</strong>, and the <strong>certificate keystores</strong> underneath &mdash; or you get broken logins, untrusted endpoints, and audit findings. This solution configures the <strong>C2M security plumbing</strong>: SSO integration, SSL/TLS on the WebLogic domain and C2M, and identity/trust keystore setup and management, pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M security model: SSO, SSL/TLS termination, and the identity/trust keystore chain on WebLogic.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (IdP for SSO, certificates/CA, WebLogic domain, C2M config).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to configure SSO, enable SSL/TLS on the domain and C2M, create/manage identity and trust keystores, wire certificates, and validate secure sign-in and endpoints, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, SSL valid, keystores trusted) plus Best Practices for certificate lifecycle and key rotation."
+  ],
+  "short": "Configure the <strong>C2M security plumbing</strong> &mdash; SSO, SSL/TLS on WebLogic and C2M, and identity/trust keystores &mdash; so sign-in, endpoints, and trust are correct, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure the C2M security plumbing — SSO, SSL/TLS on WebLogic and C2M, and identity/trust keystores — so sign-in, endpoints, and trust are correct, pilot-first.",
+  "meta_title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+  "meta_description": "Configure Oracle C2M security: SSO integration, SSL/TLS on WebLogic 14c and C2M, and identity/trust certificate keystores. Self-guided steps and WLST/shell scripts.",
+  "bottom_line": "C2M secured end to end &mdash; SSO working, SSL/TLS valid, keystores trusted and managed &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Security",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "SSO · SSL · Keystores",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Sign-in · TLS · Certificates",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INSECURE ENDPOINTS",
+      "items": [
+        "Broken SSO",
+        "No TLS",
+        "Untrusted certs",
+        "Audit findings"
+      ]
+    },
+    "to": {
+      "label": "Secured C2M",
+      "stat": "Trusted end to end"
+    },
+    "tagline": "AUTHENTICATE.  ENCRYPT.  TRUST.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "SSO",
+        "sub": "Sign-in"
+      },
+      {
+        "icon": "lock",
+        "title": "SSL/TLS",
+        "sub": "Encrypted"
+      },
+      {
+        "icon": "shield",
+        "title": "Keystores",
+        "sub": "Identity/trust"
+      },
+      {
+        "icon": "chart",
+        "title": "Validation",
+        "sub": "Secure endpoints"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MRCA",
+  "slug": "oracle-c2m-troubleshooting-rca-toolkit",
+  "title": "Oracle C2M Troubleshooting & Root-Cause Analysis Toolkit",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Isolate and fix C2M failures — fast, with root cause",
+  "problem": "When C2M breaks, the cause hides across WebLogic, the database, the network, and the application. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for Oracle C2M and WebLogic 14c &mdash; startup/login failures, batch and JMS problems, IWS/integration errors, performance stalls, and outages &mdash; so you isolate the failing layer, restore service, and produce a defensible root-cause analysis.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M fault domains (WebLogic, database, network, application/OUAF) and the layered model behind the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to diagnose (log/metric access, WLST, SQL, environment access) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom-driven tree (won't start / can't log in; batch fails; JMS backs up; IWS/integration errors; performance stall; outage) with the exact checks per branch and the layer each isolates.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> mapping each gate to the fix and to service restoration, plus Best Practices for defensible RCA and escalation to Oracle."
+  ],
+  "short": "A structured <strong>root-cause tree and diagnostic scripts</strong> for Oracle C2M + WebLogic 14c &mdash; startup/login, batch, JMS, IWS, performance, outages &mdash; to isolate the failing layer, restore service, and produce a defensible RCA. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured root-cause tree and diagnostic scripts for Oracle C2M + WebLogic 14c — startup/login, batch, JMS, IWS, performance, outages — to isolate the failing layer, restore service, and produce a defensible RCA.",
+  "meta_title": "Oracle C2M Troubleshooting & Root-Cause Analysis Toolkit",
+  "meta_description": "Troubleshoot Oracle C2M and WebLogic 14c: startup/login, batch, JMS, IWS/integration, performance, and outages, with a layered root-cause tree and diagnostic scripts for defensible RCA. Self-guided.",
+  "bottom_line": "The failing layer of a C2M problem isolated fast &mdash; service restored and a defensible root-cause analysis produced &mdash; with a repeatable playbook and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Troubleshooting",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Root-Cause Analysis",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "WebLogic · DB · Batch · IWS",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "GUESSWORK TRIAGE",
+      "items": [
+        "Cause hidden",
+        "Slow restore",
+        "No RCA",
+        "Repeat outages"
+      ]
+    },
+    "to": {
+      "label": "Layered root-cause",
+      "stat": "Restore + RCA"
+    },
+    "tagline": "TRACE.  ISOLATE.  RESTORE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Root-Cause Tree",
+        "sub": "By symptom"
+      },
+      {
+        "icon": "chip",
+        "title": "WebLogic/DB",
+        "sub": "Layer checks"
+      },
+      {
+        "icon": "cloud",
+        "title": "Batch/IWS",
+        "sub": "Integration"
+      },
+      {
+        "icon": "chart",
+        "title": "RCA",
+        "sub": "Defensible"
+      }
+    ]
+  }
+}

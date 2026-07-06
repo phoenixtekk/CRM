@@ -206,7 +206,12 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Gemini Secure Adoption/Governance · Gemini Connector & Agent Framework | `gemini-enterprise-secure-adoption-governance` · `gemini-connector-strategy-agent-development-framework` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Google) |
 | Apps Script & AppSheet Work-Transformation Governance | `apps-script-appsheet-work-transformation-governance` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; Google) |
 
-Total commercial catalog value: **$518,770** (186 solutions, all published — incl. 32 Government (GCC High) editions and the 17-solution Google Workspace + Gemini line).
+| **Oracle Utilities C2M wave (2026-07-06) — NEW `Oracle` category (14)** | | | |
+| Oracle Customer to Meter (C2M) Installation & Multi-Environment Build | `oracle-c2m-installation-environment-build` | $4,995 / $2,997 / Gov $4,245.75 | ✅ published (T5; Oracle) |
+| WebLogic 14c for C2M · Coherence/JMS/IWS · SSO/SSL/Keystore · Batch · Patching/Upgrade · Env Migration/Code Promotion · Performance Tuning · DevOps CI/CD · Hypercare Runbook · Troubleshooting/RCA · SOA Integration | `oracle-weblogic-14c-c2m-install-configure` · `oracle-c2m-coherence-jms-iws-configuration` · `oracle-c2m-sso-ssl-keystore-configuration` · `oracle-c2m-batch-scheduling-management` · `oracle-c2m-weblogic-patching-upgrade-runbook` · `oracle-c2m-environment-migration-code-promotion` · `oracle-c2m-performance-tuning-optimization` · `oracle-c2m-devops-release-management-cicd` · `oracle-c2m-hypercare-production-support-runbook` · `oracle-c2m-troubleshooting-rca-toolkit` · `oracle-soa-integration-for-c2m` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Oracle) |
+| Dynatrace Monitoring & Alerting · Log Analysis & Health (SLO) | `oracle-c2m-dynatrace-monitoring-alerting` · `oracle-c2m-log-analysis-health-monitoring` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; Oracle) |
+
+Total commercial catalog value: **$561,700** (200 solutions, all published — incl. 32 Government (GCC High) editions, the 17-solution Google Workspace + Gemini line, and the 14-solution Oracle Utilities C2M line). Automation is delivered per-platform: **PowerShell** for Microsoft/Intune, and **WLST (Jython)/shell/SQL** for the Oracle C2M line (the factory compiler packages both).
 
 **Government (GCC High) editions (2026-07-03):** for every solution whose setup materially differs on a US
 sovereign tenant, a **separate `<slug>-gcc-high` product** ("<Title> — Government (GCC High)") was authored

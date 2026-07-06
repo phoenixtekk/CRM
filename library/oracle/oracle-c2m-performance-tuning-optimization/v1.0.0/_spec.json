@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MPERF",
+  "slug": "oracle-c2m-performance-tuning-optimization",
+  "title": "Oracle C2M Performance Tuning & Resource Optimization",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Make C2M fast — JVM, WebLogic, batch, and database",
+  "problem": "As C2M load grows, performance problems surface across the stack &mdash; JVM/GC, WebLogic thread pools and connection pools, batch throughput, and database. This solution provides a <strong>measure-first tuning method</strong> for C2M and its WebLogic 14c middleware: find the real bottleneck and tune JVM/GC, server and data-source pools, batch, and SQL &mdash; turning a slow environment into a measured, optimized one, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M performance model (JVM/GC → WebLogic pools → batch → database) and the measure-first tuning method.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to tune (metrics/monitoring, environment access, workload profile) with how to <em>verify</em> each.",
+    "<strong>Tuning Method</strong> &mdash; ordered steps: measure and baseline, isolate the bottleneck, tune JVM/GC, WebLogic thread/connection pools, batch threadpools, and SQL/database, then re-measure and validate the gain, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with measured pass/fail gates plus Best Practices for repeatable, evidence-based tuning."
+  ],
+  "short": "A measure-first <strong>C2M performance tuning</strong> method &mdash; JVM/GC, WebLogic pools, batch, and SQL &mdash; that turns a slow environment into a measured, optimized one, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A measure-first C2M performance tuning method — JVM/GC, WebLogic pools, batch, and SQL — that turns a slow environment into a measured, optimized one, pilot-first.",
+  "meta_title": "Oracle C2M Performance Tuning & Resource Optimization",
+  "meta_description": "Tune Oracle C2M and WebLogic 14c performance: JVM/GC, WebLogic thread/connection pools, batch throughput, and SQL/database, measure-first. Self-guided method and WLST/shell/SQL scripts.",
+  "bottom_line": "A slow C2M environment turned into a measured, optimized one &mdash; JVM, pools, batch, and SQL tuned to the real bottleneck &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Performance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Tuning & Optimization",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "JVM · Pools · Batch · SQL",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SLOW C2M",
+      "items": [
+        "JVM/GC pressure",
+        "Pool exhaustion",
+        "Batch backlog",
+        "Slow SQL"
+      ]
+    },
+    "to": {
+      "label": "Measured tuning",
+      "stat": "Optimized stack"
+    },
+    "tagline": "MEASURE.  TUNE.  RE-MEASURE.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "JVM/GC",
+        "sub": "Heap/GC"
+      },
+      {
+        "icon": "gear",
+        "title": "Pools",
+        "sub": "Thread/conn"
+      },
+      {
+        "icon": "cloud",
+        "title": "Database",
+        "sub": "SQL"
+      },
+      {
+        "icon": "chart",
+        "title": "Gains",
+        "sub": "Measured"
+      }
+    ]
+  }
+}

@@ -45,8 +45,16 @@ def synopsis_of(ps1: Path) -> str:
                     break
             break
     if not syn:
+        # Fallback for non-PowerShell scripts (.sh/.py/.sql/.wlst): scan the first ~20 lines for a
+        # header comment line of the form "<name> — <purpose>" (comment chars stripped).
+        for ln in lines[:20]:
+            s = re.sub(r"^\s*(#+|--+|/\*+|\*+|<#)\s*", "", ln).strip()
+            m = re.match(re.escape(ps1.name) + r"\s*[—\-:]\s*(.+)", s)
+            if m:
+                syn = m.group(1); break
+    if not syn:
         return ""
-    # strip leading "Name.ps1 — " / "Name.ps1 - " / "Name.ps1: "
+    # strip leading "Name.ext — " / "Name.ext - " / "Name.ext: "
     syn = re.sub(r"^\s*" + re.escape(ps1.name) + r"\s*[—\-:]\s*", "", syn)
     syn = syn.rstrip(". ").strip()
     return syn
@@ -63,7 +71,9 @@ def guide_contents(src: Path) -> str:
 def build_block(vdir: Path) -> str:
     scr = vdir / "scripts"
     src = vdir / "source"
-    scripts = sorted(scr.glob("*.ps1"))
+    exts = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst")
+    scripts = sorted([f for g in exts for f in scr.glob(g)], key=lambda p: p.name)
+    script_label = "PowerShell Scripts" if scripts and all(s.suffix == ".ps1" for s in scripts) else "Automation Scripts"
     items = []
     for s in scripts:
         purpose = synopsis_of(s)
@@ -83,7 +93,7 @@ def build_block(vdir: Path) -> str:
         "<ul>"
         f"<li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: "
         f"{contents}.</li>"
-        f"<li><strong>PowerShell Scripts (ZIP)</strong> &mdash; {n} ready-to-run script"
+        f"<li><strong>{script_label} (ZIP)</strong> &mdash; {n} ready-to-run script"
         f"{'s' if n != 1 else ''} (read-only discovery/validation/reporting; remediation defaults to a "
         "safe preview):"
         f"<ul>{scripts_li}</ul></li>"

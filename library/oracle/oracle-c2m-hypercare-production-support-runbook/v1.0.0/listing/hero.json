@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Hypercare",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Production Support",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Go-Live · On-Call · Day-2",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHAKY GO-LIVE",
+    "items": [
+      "No readiness gate",
+      "Ad-hoc on-call",
+      "Unhandled incidents",
+      "Chaos at cutover"
+    ]
+  },
+  "to": {
+    "label": "Runbook-driven",
+    "stat": "Confident production"
+  },
+  "tagline": "READY.  CUT OVER.  STABILIZE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "On-Call",
+      "sub": "Escalation"
+    },
+    {
+      "icon": "gear",
+      "title": "Readiness",
+      "sub": "Checklist"
+    },
+    {
+      "icon": "shield",
+      "title": "Incidents",
+      "sub": "Handled"
+    },
+    {
+      "icon": "chart",
+      "title": "Health",
+      "sub": "Routine"
+    }
+  ]
+}

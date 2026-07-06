@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-dynatrace-monitoring-alerting",
+    "title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MDYNA-COMM-001",
+      "name": "Oracle C2M Monitoring & Alerting with Dynatrace — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Set up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and WebLogic 14c &mdash; instrument the tiers, build dashboards, define standardized alerts &mdash; so the team sees problems before users do, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>See C2M health in Dynatrace before users feel it</h3><p>Once C2M is live, you need to <strong>see problems before users do</strong>. This solution sets up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and its WebLogic 14c middleware: instrument the JVM/WebLogic tiers, build the service/infra dashboards, and define standardized alerts on the signals that matter &mdash; so the team responds to health, not surprises, pilot-first.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what to monitor across C2M/WebLogic (JVM, services, batch, endpoints) and how Dynatrace instruments and alerts on it.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Dynatrace tenant/OneAgent, C2M environment access, alerting destinations).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to instrument the WebLogic/JVM tiers with Dynatrace, build the C2M dashboards, and define standardized alerts + notification, then validate coverage, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (instrumented, dashboards live, alerts fire) plus Best Practices for alert tuning and noise reduction.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>C2M health visible in Dynatrace &mdash; tiers instrumented, dashboards live, standardized alerts firing &mdash; so the team responds to problems before users feel them.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDYNA-Discovery.sh</code> &mdash; read-only discovery of Dynatrace monitoring coverage for the C2M / WebLogic estate</li><li><code>OC2MDYNA-Remediation.sh</code> &mdash; print the intended fix for a C2M monitoring coverage/config gap (DRY-RUN by default)</li><li><code>OC2MDYNA-Report.sh</code> &mdash; read-only monitoring coverage / health snapshot for the C2M estate</li><li><code>OC2MDYNA-ScopeHelper.sh</code> &mdash; build the in-scope C2M host / tier target list for pilot and expansion</li><li><code>OC2MDYNA-Validation.sh</code> &mdash; read-only validation that C2M tiers are instrumented, tagged, and alerted</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+      "meta_description": "Monitor Oracle C2M and WebLogic 14c with Dynatrace: instrument the JVM/middleware tiers, build service/infra dashboards, and define standardized alerts. Self-guided steps and scripts (Dynatrace specifics deferred to vendor docs).",
+      "url_key": "oracle-c2m-dynatrace-monitoring-alerting-commercial",
+      "image": "OC2MDYNA-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MDYNA-NPO-001",
+      "name": "Oracle C2M Monitoring & Alerting with Dynatrace — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Set up Dynatrace monitoring and alerting for Oracle C2M and WebLogic 14c — instrument the tiers, build dashboards, define standardized alerts — so the team sees problems before users do, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>See C2M health in Dynatrace before users feel it</h3><p>Once C2M is live, you need to <strong>see problems before users do</strong>. This solution sets up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and its WebLogic 14c middleware: instrument the JVM/WebLogic tiers, build the service/infra dashboards, and define standardized alerts on the signals that matter &mdash; so the team responds to health, not surprises, pilot-first.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what to monitor across C2M/WebLogic (JVM, services, batch, endpoints) and how Dynatrace instruments and alerts on it.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Dynatrace tenant/OneAgent, C2M environment access, alerting destinations).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to instrument the WebLogic/JVM tiers with Dynatrace, build the C2M dashboards, and define standardized alerts + notification, then validate coverage, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (instrumented, dashboards live, alerts fire) plus Best Practices for alert tuning and noise reduction.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDYNA-Discovery.sh</code> &mdash; read-only discovery of Dynatrace monitoring coverage for the C2M / WebLogic estate</li><li><code>OC2MDYNA-Remediation.sh</code> &mdash; print the intended fix for a C2M monitoring coverage/config gap (DRY-RUN by default)</li><li><code>OC2MDYNA-Report.sh</code> &mdash; read-only monitoring coverage / health snapshot for the C2M estate</li><li><code>OC2MDYNA-ScopeHelper.sh</code> &mdash; build the in-scope C2M host / tier target list for pilot and expansion</li><li><code>OC2MDYNA-Validation.sh</code> &mdash; read-only validation that C2M tiers are instrumented, tagged, and alerted</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Monitoring & Alerting with Dynatrace — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Monitor Oracle C2M and WebLogic 14c with Dynatrace: instrument the JVM/middleware tiers, build service/infra dashboards, and define standardized alerts. Self-guided steps and scripts (Dynatrace specifics deferred to vendor docs).",
+      "url_key": "oracle-c2m-dynatrace-monitoring-alerting-nonprofit",
+      "image": "OC2MDYNA-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MDYNA-GOV-001",
+      "name": "Oracle C2M Monitoring & Alerting with Dynatrace — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Set up Dynatrace monitoring and alerting for Oracle C2M and WebLogic 14c — instrument the tiers, build dashboards, define standardized alerts — so the team sees problems before users do, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>See C2M health in Dynatrace before users feel it</h3><p>Once C2M is live, you need to <strong>see problems before users do</strong>. This solution sets up <strong>Dynatrace monitoring and alerting</strong> for Oracle C2M and its WebLogic 14c middleware: instrument the JVM/WebLogic tiers, build the service/infra dashboards, and define standardized alerts on the signals that matter &mdash; so the team responds to health, not surprises, pilot-first.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what to monitor across C2M/WebLogic (JVM, services, batch, endpoints) and how Dynatrace instruments and alerts on it.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Dynatrace tenant/OneAgent, C2M environment access, alerting destinations).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to instrument the WebLogic/JVM tiers with Dynatrace, build the C2M dashboards, and define standardized alerts + notification, then validate coverage, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (instrumented, dashboards live, alerts fire) plus Best Practices for alert tuning and noise reduction.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDYNA-Discovery.sh</code> &mdash; read-only discovery of Dynatrace monitoring coverage for the C2M / WebLogic estate</li><li><code>OC2MDYNA-Remediation.sh</code> &mdash; print the intended fix for a C2M monitoring coverage/config gap (DRY-RUN by default)</li><li><code>OC2MDYNA-Report.sh</code> &mdash; read-only monitoring coverage / health snapshot for the C2M estate</li><li><code>OC2MDYNA-ScopeHelper.sh</code> &mdash; build the in-scope C2M host / tier target list for pilot and expansion</li><li><code>OC2MDYNA-Validation.sh</code> &mdash; read-only validation that C2M tiers are instrumented, tagged, and alerted</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Monitoring & Alerting with Dynatrace — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Monitor Oracle C2M and WebLogic 14c with Dynatrace: instrument the JVM/middleware tiers, build service/infra dashboards, and define standardized alerts. Self-guided steps and scripts (Dynatrace specifics deferred to vendor docs).",
+      "url_key": "oracle-c2m-dynatrace-monitoring-alerting-government",
+      "image": "OC2MDYNA-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDYNA-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

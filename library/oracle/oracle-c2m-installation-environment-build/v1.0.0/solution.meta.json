@@ -1,0 +1,41 @@
+{
+  "slug": "oracle-c2m-installation-environment-build",
+  "title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "sol_code": "OC2MINST",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T5 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OC2MINST-COMM-001",
+      "audience": "commercial",
+      "price": 4995.0
+    },
+    {
+      "sku": "PTK-OC2MINST-NPO-001",
+      "audience": "nonprofit",
+      "price": 2997.0
+    },
+    {
+      "sku": "PTK-OC2MINST-GOV-001",
+      "audience": "government",
+      "price": 4245.75
+    }
+  ],
+  "deliverables": [
+    "OC2MINST-Solution.pdf",
+    "OC2MINST-Scripts.zip"
+  ],
+  "hero": "OC2MINST-hero.png"
+}
+

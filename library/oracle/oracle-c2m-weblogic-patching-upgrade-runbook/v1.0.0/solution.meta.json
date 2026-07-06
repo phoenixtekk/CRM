@@ -1,0 +1,41 @@
+{
+  "slug": "oracle-c2m-weblogic-patching-upgrade-runbook",
+  "title": "Oracle C2M & WebLogic Patching & Upgrade Runbook (to 25.4)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "sol_code": "OC2MPATCH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OC2MPATCH-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-OC2MPATCH-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-OC2MPATCH-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "OC2MPATCH-Solution.pdf",
+    "OC2MPATCH-Scripts.zip"
+  ],
+  "hero": "OC2MPATCH-hero.png"
+}
+

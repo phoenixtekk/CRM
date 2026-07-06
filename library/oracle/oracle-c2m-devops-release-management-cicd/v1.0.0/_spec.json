@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MDEVOPS",
+  "slug": "oracle-c2m-devops-release-management-cicd",
+  "title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Automate C2M releases — repeatable, governed, hands-off",
+  "problem": "Manual C2M releases are slow and error-prone. This solution establishes <strong>DevOps release management and CI/CD</strong> for Oracle C2M: a pipeline for building, promoting, and deploying OUAF config and code across environments, with automation for the routine admin tasks &mdash; so releases are repeatable, governed, and fast, pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M DevOps model: source control for OUAF config/code, a build/promote/deploy pipeline, and automation of routine admin.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (CI/CD tooling, source control, environment access, migration/CMA tooling).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to define the pipeline (build → migrate config → deploy → validate), wire automation for routine tasks (restarts, checks, promotions), add gates/rollback, and validate, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (pipeline runs, deploys succeed, rollback works) plus Best Practices for governed, automated releases."
+  ],
+  "short": "Establish <strong>DevOps release management and CI/CD</strong> for C2M &mdash; a build/promote/deploy pipeline plus routine-task automation &mdash; so releases are repeatable, governed, and fast, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish DevOps release management and CI/CD for C2M — a build/promote/deploy pipeline plus routine-task automation — so releases are repeatable, governed, and fast, pilot-first.",
+  "meta_title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+  "meta_description": "Establish DevOps release management and CI/CD for Oracle C2M: build/promote/deploy pipeline for OUAF config and code, plus routine-admin automation. Self-guided steps and WLST/shell/SQL scripts.",
+  "bottom_line": "C2M releases that are repeatable, governed, and fast &mdash; a CI/CD pipeline and routine-task automation &mdash; instead of slow, error-prone manual work.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M DevOps",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Release & CI/CD",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Pipeline · Automation · Rollback",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MANUAL RELEASES",
+      "items": [
+        "Slow deploys",
+        "Human error",
+        "No pipeline",
+        "Hard rollback"
+      ]
+    },
+    "to": {
+      "label": "Automated CI/CD",
+      "stat": "Repeatable · governed"
+    },
+    "tagline": "BUILD.  PROMOTE.  DEPLOY.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Pipeline",
+        "sub": "CI/CD"
+      },
+      {
+        "icon": "cloud",
+        "title": "Deploy",
+        "sub": "Automated"
+      },
+      {
+        "icon": "shield",
+        "title": "Rollback",
+        "sub": "Governed"
+      },
+      {
+        "icon": "chart",
+        "title": "Automation",
+        "sub": "Routine tasks"
+      }
+    ]
+  }
+}

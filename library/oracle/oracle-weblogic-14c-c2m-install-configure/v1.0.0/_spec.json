@@ -1,0 +1,82 @@
+{
+  "sol": "OWLS14C",
+  "slug": "oracle-weblogic-14c-c2m-install-configure",
+  "title": "Oracle WebLogic 14c for C2M — Install, Configure & Domain Setup",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Build the WebLogic 14c foundation C2M runs on",
+  "problem": "Oracle Utilities C2M runs on <strong>Oracle WebLogic Server</strong> &mdash; and a mis-built domain undermines everything above it. This solution installs and configures <strong>WebLogic 14c for C2M</strong>: the domain, Administration Server and managed servers, Node Manager, data sources, and the JVM/startup configuration C2M expects &mdash; the middleware foundation, done right and pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; WebLogic 14c for C2M: domain topology, Admin/managed servers, Node Manager, data sources, and how OUAF sits on the domain.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (certified WebLogic 14c + JDK, OS product account, DB connectivity, C2M entitlement).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to install WebLogic 14c, create the named domain, configure Admin/managed servers + Node Manager, set up data sources, tune JVM/startup, and validate the domain, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (domain up, managed servers running, data sources healthy) plus Best Practices for domain layout and Node Manager."
+  ],
+  "short": "Install and configure <strong>Oracle WebLogic 14c for C2M</strong> &mdash; domain, Admin/managed servers, Node Manager, data sources, JVM/startup &mdash; the middleware foundation, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Install and configure Oracle WebLogic 14c for C2M — domain, Admin/managed servers, Node Manager, data sources, JVM/startup — the middleware foundation, pilot-first.",
+  "meta_title": "Oracle WebLogic 14c for C2M — Install, Configure & Domain Setup",
+  "meta_description": "Install and configure Oracle WebLogic Server 14c for Oracle C2M: domain creation, Admin/managed servers, Node Manager, data sources, and JVM/startup tuning. Self-guided steps and WLST/shell scripts.",
+  "bottom_line": "A correctly built WebLogic 14c foundation for C2M &mdash; domain, servers, Node Manager, and data sources healthy &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "WebLogic 14c",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "for Oracle C2M",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Domain · Node Manager · Data Sources",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SHAKY MIDDLEWARE",
+      "items": [
+        "Bad domain layout",
+        "No Node Manager",
+        "Data-source errors",
+        "JVM misconfig"
+      ]
+    },
+    "to": {
+      "label": "Solid foundation",
+      "stat": "Domain healthy"
+    },
+    "tagline": "INSTALL.  DOMAIN.  CONFIGURE.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "Domain",
+        "sub": "Admin/managed"
+      },
+      {
+        "icon": "gear",
+        "title": "Node Manager",
+        "sub": "Lifecycle"
+      },
+      {
+        "icon": "cloud",
+        "title": "Data Sources",
+        "sub": "DB pools"
+      },
+      {
+        "icon": "chart",
+        "title": "Validation",
+        "sub": "Domain health"
+      }
+    ]
+  }
+}

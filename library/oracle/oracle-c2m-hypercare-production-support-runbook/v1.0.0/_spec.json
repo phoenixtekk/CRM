@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MHYPER",
+  "slug": "oracle-c2m-hypercare-production-support-runbook",
+  "title": "Oracle C2M Hypercare & Production Support Runbook (Go-Live Readiness)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Go live on C2M — and survive hypercare with a runbook",
+  "problem": "The riskiest weeks of any C2M program are <strong>go-live and hypercare</strong>. This solution provides the <strong>hypercare and production-support runbook</strong>: go-live readiness checks, the on-call and escalation model, incident and known-issue handling, day-2 build support in lower environments, and the monitoring/health routine &mdash; so the team runs production confidently from cutover through stabilization.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the hypercare operating model (readiness → cutover → hypercare → steady-state) and the production-support structure.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (monitoring, on-call rota, escalation contacts, runbook access, lower-environment access for day-2).",
+    "<strong>Runbook</strong> &mdash; go-live readiness checklist, on-call/escalation model, incident + known-issue handling, day-2 build support in lower environments, and the daily health/monitoring routine, with gates.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (readiness met, incidents handled, health stable) plus Best Practices for a smooth stabilization."
+  ],
+  "short": "The <strong>C2M hypercare and production-support runbook</strong> &mdash; go-live readiness, on-call/escalation, incident handling, day-2 support, and health routine &mdash; so the team runs production confidently from cutover. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The C2M hypercare and production-support runbook — go-live readiness, on-call/escalation, incident handling, day-2 support, and health routine — so the team runs production confidently from cutover.",
+  "meta_title": "Oracle C2M Hypercare & Production Support Runbook (Go-Live Readiness)",
+  "meta_description": "Run Oracle C2M go-live and hypercare: readiness checklist, on-call/escalation model, incident and known-issue handling, day-2 build support, and the health/monitoring routine. Self-guided runbook and WLST/shell/SQL scripts.",
+  "bottom_line": "A C2M go-live and hypercare the team can actually run &mdash; readiness proven, on-call structured, incidents handled, health stable &mdash; from cutover through stabilization.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Hypercare",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Production Support",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Go-Live · On-Call · Day-2",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SHAKY GO-LIVE",
+      "items": [
+        "No readiness gate",
+        "Ad-hoc on-call",
+        "Unhandled incidents",
+        "Chaos at cutover"
+      ]
+    },
+    "to": {
+      "label": "Runbook-driven",
+      "stat": "Confident production"
+    },
+    "tagline": "READY.  CUT OVER.  STABILIZE.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "On-Call",
+        "sub": "Escalation"
+      },
+      {
+        "icon": "gear",
+        "title": "Readiness",
+        "sub": "Checklist"
+      },
+      {
+        "icon": "shield",
+        "title": "Incidents",
+        "sub": "Handled"
+      },
+      {
+        "icon": "chart",
+        "title": "Health",
+        "sub": "Routine"
+      }
+    ]
+  }
+}

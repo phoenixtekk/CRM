@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M DevOps",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Release & CI/CD",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Pipeline · Automation · Rollback",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL RELEASES",
+    "items": [
+      "Slow deploys",
+      "Human error",
+      "No pipeline",
+      "Hard rollback"
+    ]
+  },
+  "to": {
+    "label": "Automated CI/CD",
+    "stat": "Repeatable · governed"
+  },
+  "tagline": "BUILD.  PROMOTE.  DEPLOY.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Pipeline",
+      "sub": "CI/CD"
+    },
+    {
+      "icon": "cloud",
+      "title": "Deploy",
+      "sub": "Automated"
+    },
+    {
+      "icon": "shield",
+      "title": "Rollback",
+      "sub": "Governed"
+    },
+    {
+      "icon": "chart",
+      "title": "Automation",
+      "sub": "Routine tasks"
+    }
+  ]
+}

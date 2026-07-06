@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-environment-migration-code-promotion",
+    "title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MMIG-COMM-001",
+      "name": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Define the <strong>C2M migration and code-promotion</strong> method &mdash; OUAF config migration, code/IWS promotion, environment comparison &mdash; so what you tested is what goes live, Dev→QA→Prod, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Promote C2M config and code cleanly across environments</h3><p>C2M configuration and extensions have to move from <strong>Dev → QA → Prod</strong> without drift or manual mistakes. This solution defines the <strong>migration and code-promotion</strong> method: OUAF configuration migration (bundles / Configuration Migration Assistant), code and web-service promotion, and environment-comparison &mdash; so what you tested is exactly what goes live, pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M promotion model: OUAF config migration (bundles/CMA), code/IWS promotion, and environment comparison.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (source+target environments, migration tooling, access, change control).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to export/import OUAF config bundles, promote code and web services, compare environments, and validate parity, across Dev→QA→Prod with gates.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (config migrated, parity confirmed, no drift) plus Best Practices for repeatable promotion.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>C2M configuration and code promoted cleanly from Dev to QA to Prod &mdash; parity confirmed, no drift &mdash; so what you tested is exactly what goes live.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MMIG-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment for migration & code promotion</li><li><code>OC2MMIG-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of promotion parity gaps</li><li><code>OC2MMIG-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted scope</li><li><code>OC2MMIG-ScopeHelper.sh</code> &mdash; resolve and print a Migration Request's declared scope</li><li><code>OC2MMIG-Validation.py</code> &mdash; read-only WLST parity validation of a promotion target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+      "meta_description": "Promote Oracle C2M config and code across environments: OUAF configuration migration (bundles/CMA), code/web-service promotion, and environment comparison. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-environment-migration-code-promotion-commercial",
+      "image": "OC2MMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MMIG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MMIG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MMIG-NPO-001",
+      "name": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Define the C2M migration and code-promotion method — OUAF config migration, code/IWS promotion, environment comparison — so what you tested is what goes live, Dev→QA→Prod, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Promote C2M config and code cleanly across environments</h3><p>C2M configuration and extensions have to move from <strong>Dev → QA → Prod</strong> without drift or manual mistakes. This solution defines the <strong>migration and code-promotion</strong> method: OUAF configuration migration (bundles / Configuration Migration Assistant), code and web-service promotion, and environment-comparison &mdash; so what you tested is exactly what goes live, pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M promotion model: OUAF config migration (bundles/CMA), code/IWS promotion, and environment comparison.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (source+target environments, migration tooling, access, change control).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to export/import OUAF config bundles, promote code and web services, compare environments, and validate parity, across Dev→QA→Prod with gates.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (config migrated, parity confirmed, no drift) plus Best Practices for repeatable promotion.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MMIG-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment for migration & code promotion</li><li><code>OC2MMIG-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of promotion parity gaps</li><li><code>OC2MMIG-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted scope</li><li><code>OC2MMIG-ScopeHelper.sh</code> &mdash; resolve and print a Migration Request's declared scope</li><li><code>OC2MMIG-Validation.py</code> &mdash; read-only WLST parity validation of a promotion target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Promote Oracle C2M config and code across environments: OUAF configuration migration (bundles/CMA), code/web-service promotion, and environment comparison. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-environment-migration-code-promotion-nonprofit",
+      "image": "OC2MMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MMIG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MMIG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MMIG-GOV-001",
+      "name": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Define the C2M migration and code-promotion method — OUAF config migration, code/IWS promotion, environment comparison — so what you tested is what goes live, Dev→QA→Prod, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Promote C2M config and code cleanly across environments</h3><p>C2M configuration and extensions have to move from <strong>Dev → QA → Prod</strong> without drift or manual mistakes. This solution defines the <strong>migration and code-promotion</strong> method: OUAF configuration migration (bundles / Configuration Migration Assistant), code and web-service promotion, and environment-comparison &mdash; so what you tested is exactly what goes live, pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M promotion model: OUAF config migration (bundles/CMA), code/IWS promotion, and environment comparison.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (source+target environments, migration tooling, access, change control).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to export/import OUAF config bundles, promote code and web services, compare environments, and validate parity, across Dev→QA→Prod with gates.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (config migrated, parity confirmed, no drift) plus Best Practices for repeatable promotion.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MMIG-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment for migration & code promotion</li><li><code>OC2MMIG-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of promotion parity gaps</li><li><code>OC2MMIG-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted scope</li><li><code>OC2MMIG-ScopeHelper.sh</code> &mdash; resolve and print a Migration Request's declared scope</li><li><code>OC2MMIG-Validation.py</code> &mdash; read-only WLST parity validation of a promotion target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Promote Oracle C2M config and code across environments: OUAF configuration migration (bundles/CMA), code/web-service promotion, and environment comparison. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-environment-migration-code-promotion-government",
+      "image": "OC2MMIG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MMIG-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MMIG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

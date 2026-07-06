@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MINST",
+  "slug": "oracle-c2m-installation-environment-build",
+  "title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T5 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Stand up Oracle Customer to Meter — correctly, in every environment",
+  "problem": "Installing <strong>Oracle Utilities Customer to Meter (C2M)</strong> across Development, Test, and Production is where utility programs stall &mdash; certified stacks, OUAF setup, WebLogic domains, and database schemas all have to line up. This solution is the end-to-end <strong>C2M installation and multi-environment build</strong>: certified prerequisites, OUAF/product install, WebLogic domain creation, database initial setup, and environment configuration &mdash; done consistently across Dev/Test/Prod, pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M/OUAF architecture (product home, WebLogic domain, database schema), the certified stack, and the standard build model across environments.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em>/<em>implement</em> (licensed C2M + WebLogic 14c entitlement, certified OS/JDK/DB, environment access, MOS access).",
+    "<strong>Installation Guide</strong> &mdash; exact ordered steps: certified prereqs, OUAF/product install, WebLogic domain creation, database initial setup, environment configuration (`configureEnv`/`initialSetup`), and post-install validation, per environment.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (product up, domain healthy, schema valid) plus Best Practices for repeatable multi-environment builds."
+  ],
+  "short": "The end-to-end <strong>Oracle C2M installation and multi-environment build</strong> &mdash; certified prereqs, OUAF install, WebLogic domain, database setup, config &mdash; consistent across Dev/Test/Prod, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The end-to-end Oracle C2M installation and multi-environment build — certified prereqs, OUAF install, WebLogic domain, database setup, config — consistent across Dev/Test/Prod, pilot-first.",
+  "meta_title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build",
+  "meta_description": "Install Oracle Utilities Customer to Meter (C2M) across Dev/Test/Prod: certified stack, OUAF product install, WebLogic 14c domain, database setup, and environment configuration. Self-guided steps and WLST/shell/SQL scripts.",
+  "bottom_line": "Oracle C2M installed and configured consistently in every environment &mdash; certified, healthy, and reproducible &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Oracle C2M",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Installation & Build",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "OUAF · WebLogic · Database",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INCONSISTENT BUILDS",
+      "items": [
+        "Uncertified stacks",
+        "Manual installs",
+        "Env drift",
+        "Failed setup"
+      ]
+    },
+    "to": {
+      "label": "Reproducible build",
+      "stat": "Dev/Test/Prod aligned"
+    },
+    "tagline": "INSTALL.  CONFIGURE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "OUAF Install",
+        "sub": "Product home"
+      },
+      {
+        "icon": "chip",
+        "title": "WebLogic",
+        "sub": "Domain"
+      },
+      {
+        "icon": "cloud",
+        "title": "Database",
+        "sub": "Schema setup"
+      },
+      {
+        "icon": "chart",
+        "title": "Validation",
+        "sub": "Per env"
+      }
+    ]
+  }
+}

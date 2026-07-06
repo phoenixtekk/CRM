@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MPATCH",
+  "slug": "oracle-c2m-weblogic-patching-upgrade-runbook",
+  "title": "Oracle C2M & WebLogic Patching & Upgrade Runbook (to 25.4)",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Patch and upgrade C2M without breaking production",
+  "problem": "Keeping C2M supportable means <strong>patching and upgrading</strong> C2M/OUAF and WebLogic &mdash; and doing it wrong takes production down. This runbook gives you the disciplined method to apply Oracle patches and perform version upgrades (e.g. toward <strong>C2M 25.4</strong>) across environments: readiness, backup, apply, validate, rollback &mdash; so you stay current and secure without unplanned outages, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M/OUAF + WebLogic patch/upgrade model, supportability, and the environment progression (lower first).",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (MOS patch access, backups, certified target versions, change control, pilot env).",
+    "<strong>Upgrade & Patch Runbook</strong> &mdash; exact ordered steps: readiness + backup, apply Oracle patches / perform the version upgrade, post-apply validation, and rollback; per environment with go/no-go gates.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (patched, validated, supportable) plus Best Practices for staying current safely."
+  ],
+  "short": "A disciplined <strong>C2M &amp; WebLogic patching/upgrade runbook</strong> &mdash; readiness, backup, apply, validate, rollback across environments &mdash; so you stay current and secure without outages, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A disciplined C2M & WebLogic patching/upgrade runbook — readiness, backup, apply, validate, rollback across environments — so you stay current and secure without outages, pilot-first.",
+  "meta_title": "Oracle C2M & WebLogic Patching & Upgrade Runbook",
+  "meta_description": "Patch and upgrade Oracle C2M/OUAF and WebLogic 14c (toward C2M 25.4): readiness, backup, apply, validation, and rollback across environments. Self-guided runbook and WLST/shell/SQL scripts.",
+  "bottom_line": "C2M and WebLogic kept current and secure &mdash; patches and upgrades applied with readiness, backup, validation, and rollback &mdash; proven in lower environments before production.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M & WebLogic",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Patching & Upgrade",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Readiness · Apply · Rollback",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY PATCHING",
+      "items": [
+        "Outage risk",
+        "No rollback",
+        "Version drift",
+        "Support gaps"
+      ]
+    },
+    "to": {
+      "label": "Disciplined runbook",
+      "stat": "Current + supportable"
+    },
+    "tagline": "READY.  APPLY.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Patch",
+        "sub": "MOS patches"
+      },
+      {
+        "icon": "chip",
+        "title": "Upgrade",
+        "sub": "To 25.4"
+      },
+      {
+        "icon": "shield",
+        "title": "Rollback",
+        "sub": "Documented"
+      },
+      {
+        "icon": "chart",
+        "title": "Validation",
+        "sub": "Per env"
+      }
+    ]
+  }
+}

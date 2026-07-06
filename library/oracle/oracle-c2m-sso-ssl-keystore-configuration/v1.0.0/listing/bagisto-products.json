@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-sso-ssl-keystore-configuration",
+    "title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MSEC-COMM-001",
+      "name": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Configure the <strong>C2M security plumbing</strong> &mdash; SSO, SSL/TLS on WebLogic and C2M, and identity/trust keystores &mdash; so sign-in, endpoints, and trust are correct, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Secure C2M end to end: SSO, SSL, and keystores</h3><p>C2M and WebLogic have to be secured properly &mdash; <strong>Single Sign-On</strong>, <strong>SSL/TLS</strong>, and the <strong>certificate keystores</strong> underneath &mdash; or you get broken logins, untrusted endpoints, and audit findings. This solution configures the <strong>C2M security plumbing</strong>: SSO integration, SSL/TLS on the WebLogic domain and C2M, and identity/trust keystore setup and management, pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M security model: SSO, SSL/TLS termination, and the identity/trust keystore chain on WebLogic.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (IdP for SSO, certificates/CA, WebLogic domain, C2M config).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure SSO, enable SSL/TLS on the domain and C2M, create/manage identity and trust keystores, wire certificates, and validate secure sign-in and endpoints, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, SSL valid, keystores trusted) plus Best Practices for certificate lifecycle and key rotation.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>C2M secured end to end &mdash; SSO working, SSL/TLS valid, keystores trusted and managed &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MSEC-Discovery.sh</code> &mdash; read-only discovery of C2M/WebLogic keystores, SSL config, and advertised URL</li><li><code>OC2MSEC-Remediation.py</code> &mdash; DRY-RUN-by-default WLST remediation of C2M/WebLogic SSL and keystore config</li><li><code>OC2MSEC-Report.py</code> &mdash; read-only WLST coverage report of C2M/WebLogic security across the domain</li><li><code>OC2MSEC-ScopeHelper.py</code> &mdash; read-only WLST helper that stages pilot vs domain scope for C2M security work</li><li><code>OC2MSEC-Validation.py</code> &mdash; read-only WLST validation of C2M/WebLogic SSL, keystore, and SSO posture</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+      "meta_description": "Configure Oracle C2M security: SSO integration, SSL/TLS on WebLogic 14c and C2M, and identity/trust certificate keystores. Self-guided steps and WLST/shell scripts.",
+      "url_key": "oracle-c2m-sso-ssl-keystore-configuration-commercial",
+      "image": "OC2MSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MSEC-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MSEC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MSEC-NPO-001",
+      "name": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Configure the C2M security plumbing — SSO, SSL/TLS on WebLogic and C2M, and identity/trust keystores — so sign-in, endpoints, and trust are correct, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Secure C2M end to end: SSO, SSL, and keystores</h3><p>C2M and WebLogic have to be secured properly &mdash; <strong>Single Sign-On</strong>, <strong>SSL/TLS</strong>, and the <strong>certificate keystores</strong> underneath &mdash; or you get broken logins, untrusted endpoints, and audit findings. This solution configures the <strong>C2M security plumbing</strong>: SSO integration, SSL/TLS on the WebLogic domain and C2M, and identity/trust keystore setup and management, pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M security model: SSO, SSL/TLS termination, and the identity/trust keystore chain on WebLogic.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (IdP for SSO, certificates/CA, WebLogic domain, C2M config).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure SSO, enable SSL/TLS on the domain and C2M, create/manage identity and trust keystores, wire certificates, and validate secure sign-in and endpoints, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, SSL valid, keystores trusted) plus Best Practices for certificate lifecycle and key rotation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MSEC-Discovery.sh</code> &mdash; read-only discovery of C2M/WebLogic keystores, SSL config, and advertised URL</li><li><code>OC2MSEC-Remediation.py</code> &mdash; DRY-RUN-by-default WLST remediation of C2M/WebLogic SSL and keystore config</li><li><code>OC2MSEC-Report.py</code> &mdash; read-only WLST coverage report of C2M/WebLogic security across the domain</li><li><code>OC2MSEC-ScopeHelper.py</code> &mdash; read-only WLST helper that stages pilot vs domain scope for C2M security work</li><li><code>OC2MSEC-Validation.py</code> &mdash; read-only WLST validation of C2M/WebLogic SSL, keystore, and SSO posture</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Configure Oracle C2M security: SSO integration, SSL/TLS on WebLogic 14c and C2M, and identity/trust certificate keystores. Self-guided steps and WLST/shell scripts.",
+      "url_key": "oracle-c2m-sso-ssl-keystore-configuration-nonprofit",
+      "image": "OC2MSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MSEC-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MSEC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MSEC-GOV-001",
+      "name": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Configure the C2M security plumbing — SSO, SSL/TLS on WebLogic and C2M, and identity/trust keystores — so sign-in, endpoints, and trust are correct, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Secure C2M end to end: SSO, SSL, and keystores</h3><p>C2M and WebLogic have to be secured properly &mdash; <strong>Single Sign-On</strong>, <strong>SSL/TLS</strong>, and the <strong>certificate keystores</strong> underneath &mdash; or you get broken logins, untrusted endpoints, and audit findings. This solution configures the <strong>C2M security plumbing</strong>: SSO integration, SSL/TLS on the WebLogic domain and C2M, and identity/trust keystore setup and management, pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M security model: SSO, SSL/TLS termination, and the identity/trust keystore chain on WebLogic.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (IdP for SSO, certificates/CA, WebLogic domain, C2M config).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to configure SSO, enable SSL/TLS on the domain and C2M, create/manage identity and trust keystores, wire certificates, and validate secure sign-in and endpoints, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (SSO works, SSL valid, keystores trusted) plus Best Practices for certificate lifecycle and key rotation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MSEC-Discovery.sh</code> &mdash; read-only discovery of C2M/WebLogic keystores, SSL config, and advertised URL</li><li><code>OC2MSEC-Remediation.py</code> &mdash; DRY-RUN-by-default WLST remediation of C2M/WebLogic SSL and keystore config</li><li><code>OC2MSEC-Report.py</code> &mdash; read-only WLST coverage report of C2M/WebLogic security across the domain</li><li><code>OC2MSEC-ScopeHelper.py</code> &mdash; read-only WLST helper that stages pilot vs domain scope for C2M security work</li><li><code>OC2MSEC-Validation.py</code> &mdash; read-only WLST validation of C2M/WebLogic SSL, keystore, and SSO posture</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Configure Oracle C2M security: SSO integration, SSL/TLS on WebLogic 14c and C2M, and identity/trust certificate keystores. Self-guided steps and WLST/shell scripts.",
+      "url_key": "oracle-c2m-sso-ssl-keystore-configuration-government",
+      "image": "OC2MSEC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MSEC-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MSEC-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

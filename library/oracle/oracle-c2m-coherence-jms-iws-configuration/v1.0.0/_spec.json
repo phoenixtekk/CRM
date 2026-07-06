@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MRUNTIME",
+  "slug": "oracle-c2m-coherence-jms-iws-configuration",
+  "title": "C2M Coherence Clusters, JMS Queues & Inbound Web Services (IWS) Configuration",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Wire up the C2M runtime: Coherence, JMS, and IWS",
+  "problem": "C2M's real-time behaviour lives in its runtime components &mdash; <strong>Coherence clusters</strong>, <strong>JMS queues</strong>, and <strong>Inbound Web Services (IWS)</strong> &mdash; and misconfiguring any of them breaks clustering, messaging, or integration. This solution configures the <strong>C2M runtime layer</strong>: Coherence cluster setup, JMS queues/topics and connection factories, and IWS deployment &mdash; so the platform clusters, messages, and integrates correctly, pilot-first.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M runtime: Coherence clustering, JMS messaging, and Inbound Web Services, and how they support batch, real-time, and integration.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (WebLogic domain, C2M product config, network/ports for Coherence, IWS prerequisites).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to configure the named Coherence cluster, create JMS queues/topics + connection factories, and deploy/enable IWS, then validate clustering, messaging, and web-service calls, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (cluster formed, JMS flowing, IWS responding) plus Best Practices for Coherence/JMS/IWS."
+  ],
+  "short": "Configure the <strong>C2M runtime</strong> &mdash; Coherence clusters, JMS queues, and Inbound Web Services (IWS) &mdash; so the platform clusters, messages, and integrates correctly, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure the C2M runtime — Coherence clusters, JMS queues, and Inbound Web Services (IWS) — so the platform clusters, messages, and integrates correctly, pilot-first.",
+  "meta_title": "C2M Coherence Clusters, JMS Queues & Inbound Web Services (IWS) Configuration",
+  "meta_description": "Configure the Oracle C2M runtime: Coherence clusters, JMS queues/topics and connection factories, and Inbound Web Services (IWS). Self-guided steps and WLST/shell scripts.",
+  "bottom_line": "The C2M runtime wired correctly &mdash; Coherence clustering, JMS messaging, and IWS integration all healthy &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Runtime",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Coherence · JMS · IWS",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Cluster · Messaging · Web Services",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BROKEN RUNTIME",
+      "items": [
+        "Cluster won't form",
+        "JMS backs up",
+        "IWS errors",
+        "Integration fails"
+      ]
+    },
+    "to": {
+      "label": "Wired runtime",
+      "stat": "Clustered + messaging"
+    },
+    "tagline": "CLUSTER.  QUEUE.  INTEGRATE.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "Coherence",
+        "sub": "Cluster"
+      },
+      {
+        "icon": "gear",
+        "title": "JMS",
+        "sub": "Queues"
+      },
+      {
+        "icon": "cloud",
+        "title": "IWS",
+        "sub": "Web services"
+      },
+      {
+        "icon": "chart",
+        "title": "Validation",
+        "sub": "Runtime health"
+      }
+    ]
+  }
+}

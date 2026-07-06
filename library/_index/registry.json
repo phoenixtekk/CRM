@@ -28629,6 +28629,2345 @@
     "product_count": 3
   },
   {
+    "title": "C2M Coherence Clusters, JMS Queues & Inbound Web Services (IWS) Configuration",
+    "slug": "oracle-c2m-coherence-jms-iws-configuration",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MRUNTIME",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MRUNTIME-COMM-001",
+      "PTK-OC2MRUNTIME-NPO-001",
+      "PTK-OC2MRUNTIME-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MRUNTIME-Solution.pdf",
+      "OC2MRUNTIME-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-coherence-jms-iws-configuration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/03-implementation.md",
+          "kb": 12.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/07-best-practices.md",
+          "kb": 5.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MRUNTIME-Discovery.py",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/scripts/OC2MRUNTIME-Discovery.py",
+          "kb": 4.9
+        },
+        {
+          "name": "OC2MRUNTIME-Remediation.py",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/scripts/OC2MRUNTIME-Remediation.py",
+          "kb": 6.7
+        },
+        {
+          "name": "OC2MRUNTIME-Report.py",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/scripts/OC2MRUNTIME-Report.py",
+          "kb": 4.4
+        },
+        {
+          "name": "OC2MRUNTIME-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/scripts/OC2MRUNTIME-ScopeHelper.sh",
+          "kb": 5.7
+        },
+        {
+          "name": "OC2MRUNTIME-Validation.py",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/scripts/OC2MRUNTIME-Validation.py",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MRUNTIME-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-Complete-Solution.zip",
+          "kb": 112.7
+        },
+        {
+          "name": "OC2MRUNTIME-hero.png",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-hero.png",
+          "kb": 415.4
+        },
+        {
+          "name": "OC2MRUNTIME-hero.svg",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "OC2MRUNTIME-Scripts.zip",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-Scripts.zip",
+          "kb": 10.6
+        },
+        {
+          "name": "OC2MRUNTIME-Solution.docx",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-Solution.docx",
+          "kb": 58.4
+        },
+        {
+          "name": "OC2MRUNTIME-Solution.pdf",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-Solution.pdf",
+          "kb": 65.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-coherence-jms-iws-configuration/v1.0.0/deliverables/OC2MRUNTIME-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M & WebLogic Patching & Upgrade Runbook (to 25.4)",
+    "slug": "oracle-c2m-weblogic-patching-upgrade-runbook",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MPATCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MPATCH-COMM-001",
+      "PTK-OC2MPATCH-NPO-001",
+      "PTK-OC2MPATCH-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MPATCH-Solution.pdf",
+      "OC2MPATCH-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-weblogic-patching-upgrade-runbook\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/03-implementation.md",
+          "kb": 7.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/05-testing.md",
+          "kb": 3.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/07-best-practices.md",
+          "kb": 2.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MPATCH-Discovery.sh",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/scripts/OC2MPATCH-Discovery.sh",
+          "kb": 3.5
+        },
+        {
+          "name": "OC2MPATCH-Remediation.sh",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/scripts/OC2MPATCH-Remediation.sh",
+          "kb": 3.2
+        },
+        {
+          "name": "OC2MPATCH-Report.sql",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/scripts/OC2MPATCH-Report.sql",
+          "kb": 2.4
+        },
+        {
+          "name": "OC2MPATCH-ScopeHelper.py",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/scripts/OC2MPATCH-ScopeHelper.py",
+          "kb": 3.4
+        },
+        {
+          "name": "OC2MPATCH-Validation.sh",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/scripts/OC2MPATCH-Validation.sh",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MPATCH-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-Complete-Solution.zip",
+          "kb": 96.3
+        },
+        {
+          "name": "OC2MPATCH-hero.png",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-hero.png",
+          "kb": 432.0
+        },
+        {
+          "name": "OC2MPATCH-hero.svg",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "OC2MPATCH-Scripts.zip",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-Scripts.zip",
+          "kb": 7.7
+        },
+        {
+          "name": "OC2MPATCH-Solution.docx",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-Solution.docx",
+          "kb": 53.0
+        },
+        {
+          "name": "OC2MPATCH-Solution.pdf",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-Solution.pdf",
+          "kb": 53.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-weblogic-patching-upgrade-runbook/v1.0.0/deliverables/OC2MPATCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Batch Scheduling & Thread-Pool Management",
+    "slug": "oracle-c2m-batch-scheduling-management",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MBATCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MBATCH-COMM-001",
+      "PTK-OC2MBATCH-NPO-001",
+      "PTK-OC2MBATCH-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MBATCH-Solution.pdf",
+      "OC2MBATCH-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-batch-scheduling-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/03-implementation.md",
+          "kb": 7.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/05-testing.md",
+          "kb": 2.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MBATCH-Discovery.sh",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/scripts/OC2MBATCH-Discovery.sh",
+          "kb": 3.4
+        },
+        {
+          "name": "OC2MBATCH-Remediation.sh",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/scripts/OC2MBATCH-Remediation.sh",
+          "kb": 3.6
+        },
+        {
+          "name": "OC2MBATCH-Report.sql",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/scripts/OC2MBATCH-Report.sql",
+          "kb": 3.4
+        },
+        {
+          "name": "OC2MBATCH-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/scripts/OC2MBATCH-ScopeHelper.sh",
+          "kb": 3.0
+        },
+        {
+          "name": "OC2MBATCH-Validation.sh",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/scripts/OC2MBATCH-Validation.sh",
+          "kb": 3.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MBATCH-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-Complete-Solution.zip",
+          "kb": 97.5
+        },
+        {
+          "name": "OC2MBATCH-hero.png",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-hero.png",
+          "kb": 404.7
+        },
+        {
+          "name": "OC2MBATCH-hero.svg",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "OC2MBATCH-Scripts.zip",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-Scripts.zip",
+          "kb": 7.5
+        },
+        {
+          "name": "OC2MBATCH-Solution.docx",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-Solution.docx",
+          "kb": 53.9
+        },
+        {
+          "name": "OC2MBATCH-Solution.pdf",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-Solution.pdf",
+          "kb": 54.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-batch-scheduling-management/v1.0.0/deliverables/OC2MBATCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+    "slug": "oracle-c2m-devops-release-management-cicd",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MDEVOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MDEVOPS-COMM-001",
+      "PTK-OC2MDEVOPS-NPO-001",
+      "PTK-OC2MDEVOPS-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MDEVOPS-Solution.pdf",
+      "OC2MDEVOPS-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-devops-release-management-cicd\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/03-implementation.md",
+          "kb": 7.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MDEVOPS-Discovery.sh",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/scripts/OC2MDEVOPS-Discovery.sh",
+          "kb": 4.7
+        },
+        {
+          "name": "OC2MDEVOPS-Remediation.sh",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/scripts/OC2MDEVOPS-Remediation.sh",
+          "kb": 4.3
+        },
+        {
+          "name": "OC2MDEVOPS-Report.sql",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/scripts/OC2MDEVOPS-Report.sql",
+          "kb": 2.9
+        },
+        {
+          "name": "OC2MDEVOPS-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/scripts/OC2MDEVOPS-ScopeHelper.sh",
+          "kb": 4.1
+        },
+        {
+          "name": "OC2MDEVOPS-Validation.py",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/scripts/OC2MDEVOPS-Validation.py",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MDEVOPS-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-Complete-Solution.zip",
+          "kb": 106.7
+        },
+        {
+          "name": "OC2MDEVOPS-hero.png",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-hero.png",
+          "kb": 403.0
+        },
+        {
+          "name": "OC2MDEVOPS-hero.svg",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "OC2MDEVOPS-Scripts.zip",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-Scripts.zip",
+          "kb": 9.2
+        },
+        {
+          "name": "OC2MDEVOPS-Solution.docx",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-Solution.docx",
+          "kb": 55.9
+        },
+        {
+          "name": "OC2MDEVOPS-Solution.pdf",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-Solution.pdf",
+          "kb": 61.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-devops-release-management-cicd/v1.0.0/deliverables/OC2MDEVOPS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+    "slug": "oracle-c2m-environment-migration-code-promotion",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MMIG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MMIG-COMM-001",
+      "PTK-OC2MMIG-NPO-001",
+      "PTK-OC2MMIG-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MMIG-Solution.pdf",
+      "OC2MMIG-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-environment-migration-code-promotion\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/03-implementation.md",
+          "kb": 6.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/05-testing.md",
+          "kb": 2.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MMIG-Discovery.sh",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/scripts/OC2MMIG-Discovery.sh",
+          "kb": 3.6
+        },
+        {
+          "name": "OC2MMIG-Remediation.sh",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/scripts/OC2MMIG-Remediation.sh",
+          "kb": 3.3
+        },
+        {
+          "name": "OC2MMIG-Report.sql",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/scripts/OC2MMIG-Report.sql",
+          "kb": 2.5
+        },
+        {
+          "name": "OC2MMIG-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/scripts/OC2MMIG-ScopeHelper.sh",
+          "kb": 3.1
+        },
+        {
+          "name": "OC2MMIG-Validation.py",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/scripts/OC2MMIG-Validation.py",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MMIG-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-Complete-Solution.zip",
+          "kb": 99.3
+        },
+        {
+          "name": "OC2MMIG-hero.png",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-hero.png",
+          "kb": 414.0
+        },
+        {
+          "name": "OC2MMIG-hero.svg",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "OC2MMIG-Scripts.zip",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-Scripts.zip",
+          "kb": 7.7
+        },
+        {
+          "name": "OC2MMIG-Solution.docx",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-Solution.docx",
+          "kb": 53.7
+        },
+        {
+          "name": "OC2MMIG-Solution.pdf",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-Solution.pdf",
+          "kb": 57.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-environment-migration-code-promotion/v1.0.0/deliverables/OC2MMIG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Hypercare & Production Support Runbook (Go-Live Readiness)",
+    "slug": "oracle-c2m-hypercare-production-support-runbook",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MHYPER",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MHYPER-COMM-001",
+      "PTK-OC2MHYPER-NPO-001",
+      "PTK-OC2MHYPER-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MHYPER-Solution.pdf",
+      "OC2MHYPER-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-hypercare-production-support-runbook\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/02-requirements.md",
+          "kb": 9.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/03-implementation.md",
+          "kb": 10.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MHYPER-Discovery.sh",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-Discovery.sh",
+          "kb": 4.6
+        },
+        {
+          "name": "OC2MHYPER-Remediation.sh",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-Remediation.sh",
+          "kb": 4.6
+        },
+        {
+          "name": "OC2MHYPER-Report.sh",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-Report.sh",
+          "kb": 4.6
+        },
+        {
+          "name": "OC2MHYPER-Report.sql",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-Report.sql",
+          "kb": 4.5
+        },
+        {
+          "name": "OC2MHYPER-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-ScopeHelper.sh",
+          "kb": 3.9
+        },
+        {
+          "name": "OC2MHYPER-Validation.sh",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/scripts/OC2MHYPER-Validation.sh",
+          "kb": 4.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MHYPER-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-Complete-Solution.zip",
+          "kb": 116.0
+        },
+        {
+          "name": "OC2MHYPER-hero.png",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-hero.png",
+          "kb": 472.6
+        },
+        {
+          "name": "OC2MHYPER-hero.svg",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "OC2MHYPER-Scripts.zip",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "OC2MHYPER-Solution.docx",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "OC2MHYPER-Solution.pdf",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-Solution.pdf",
+          "kb": 68.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-hypercare-production-support-runbook/v1.0.0/deliverables/OC2MHYPER-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+    "slug": "oracle-c2m-log-analysis-health-monitoring",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MLOG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-OC2MLOG-COMM-001",
+      "PTK-OC2MLOG-NPO-001",
+      "PTK-OC2MLOG-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MLOG-Solution.pdf",
+      "OC2MLOG-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-log-analysis-health-monitoring\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/02-requirements.md",
+          "kb": 8.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/03-implementation.md",
+          "kb": 8.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MLOG-Discovery.sh",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/scripts/OC2MLOG-Discovery.sh",
+          "kb": 4.6
+        },
+        {
+          "name": "OC2MLOG-Remediation.sh",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/scripts/OC2MLOG-Remediation.sh",
+          "kb": 4.9
+        },
+        {
+          "name": "OC2MLOG-Report.sh",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/scripts/OC2MLOG-Report.sh",
+          "kb": 5.8
+        },
+        {
+          "name": "OC2MLOG-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/scripts/OC2MLOG-ScopeHelper.sh",
+          "kb": 3.9
+        },
+        {
+          "name": "OC2MLOG-Validation.sh",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/scripts/OC2MLOG-Validation.sh",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MLOG-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-Complete-Solution.zip",
+          "kb": 114.3
+        },
+        {
+          "name": "OC2MLOG-hero.png",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-hero.png",
+          "kb": 485.7
+        },
+        {
+          "name": "OC2MLOG-hero.svg",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "OC2MLOG-Scripts.zip",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-Scripts.zip",
+          "kb": 10.5
+        },
+        {
+          "name": "OC2MLOG-Solution.docx",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "OC2MLOG-Solution.pdf",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-Solution.pdf",
+          "kb": 67.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-log-analysis-health-monitoring/v1.0.0/deliverables/OC2MLOG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+    "slug": "oracle-c2m-dynatrace-monitoring-alerting",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MDYNA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-OC2MDYNA-COMM-001",
+      "PTK-OC2MDYNA-NPO-001",
+      "PTK-OC2MDYNA-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MDYNA-Solution.pdf",
+      "OC2MDYNA-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-dynatrace-monitoring-alerting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MDYNA-Discovery.sh",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/scripts/OC2MDYNA-Discovery.sh",
+          "kb": 5.0
+        },
+        {
+          "name": "OC2MDYNA-Remediation.sh",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/scripts/OC2MDYNA-Remediation.sh",
+          "kb": 4.7
+        },
+        {
+          "name": "OC2MDYNA-Report.sh",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/scripts/OC2MDYNA-Report.sh",
+          "kb": 5.4
+        },
+        {
+          "name": "OC2MDYNA-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/scripts/OC2MDYNA-ScopeHelper.sh",
+          "kb": 3.1
+        },
+        {
+          "name": "OC2MDYNA-Validation.sh",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/scripts/OC2MDYNA-Validation.sh",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MDYNA-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-Complete-Solution.zip",
+          "kb": 110.4
+        },
+        {
+          "name": "OC2MDYNA-hero.png",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-hero.png",
+          "kb": 429.5
+        },
+        {
+          "name": "OC2MDYNA-hero.svg",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "OC2MDYNA-Scripts.zip",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "OC2MDYNA-Solution.docx",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-Solution.docx",
+          "kb": 57.0
+        },
+        {
+          "name": "OC2MDYNA-Solution.pdf",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-Solution.pdf",
+          "kb": 64.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-dynatrace-monitoring-alerting/v1.0.0/deliverables/OC2MDYNA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Performance Tuning & Resource Optimization",
+    "slug": "oracle-c2m-performance-tuning-optimization",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MPERF",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MPERF-COMM-001",
+      "PTK-OC2MPERF-NPO-001",
+      "PTK-OC2MPERF-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MPERF-Solution.pdf",
+      "OC2MPERF-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-performance-tuning-optimization\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/03-implementation.md",
+          "kb": 10.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MPERF-Discovery.py",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-Discovery.py",
+          "kb": 4.9
+        },
+        {
+          "name": "OC2MPERF-Remediation.py",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-Remediation.py",
+          "kb": 5.1
+        },
+        {
+          "name": "OC2MPERF-Report.sh",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-Report.sh",
+          "kb": 5.5
+        },
+        {
+          "name": "OC2MPERF-Report.sql",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-Report.sql",
+          "kb": 4.0
+        },
+        {
+          "name": "OC2MPERF-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-ScopeHelper.sh",
+          "kb": 4.5
+        },
+        {
+          "name": "OC2MPERF-Validation.py",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/scripts/OC2MPERF-Validation.py",
+          "kb": 5.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MPERF-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-Complete-Solution.zip",
+          "kb": 111.5
+        },
+        {
+          "name": "OC2MPERF-hero.png",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-hero.png",
+          "kb": 416.2
+        },
+        {
+          "name": "OC2MPERF-hero.svg",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "OC2MPERF-Scripts.zip",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-Scripts.zip",
+          "kb": 11.9
+        },
+        {
+          "name": "OC2MPERF-Solution.docx",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "OC2MPERF-Solution.pdf",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-Solution.pdf",
+          "kb": 61.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-performance-tuning-optimization/v1.0.0/deliverables/OC2MPERF-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+    "slug": "oracle-c2m-sso-ssl-keystore-configuration",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MSEC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MSEC-COMM-001",
+      "PTK-OC2MSEC-NPO-001",
+      "PTK-OC2MSEC-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MSEC-Solution.pdf",
+      "OC2MSEC-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-sso-ssl-keystore-configuration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/03-implementation.md",
+          "kb": 10.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/07-best-practices.md",
+          "kb": 3.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MSEC-Discovery.sh",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/scripts/OC2MSEC-Discovery.sh",
+          "kb": 3.9
+        },
+        {
+          "name": "OC2MSEC-Remediation.py",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/scripts/OC2MSEC-Remediation.py",
+          "kb": 5.3
+        },
+        {
+          "name": "OC2MSEC-Report.py",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/scripts/OC2MSEC-Report.py",
+          "kb": 3.7
+        },
+        {
+          "name": "OC2MSEC-ScopeHelper.py",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/scripts/OC2MSEC-ScopeHelper.py",
+          "kb": 3.3
+        },
+        {
+          "name": "OC2MSEC-Validation.py",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/scripts/OC2MSEC-Validation.py",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MSEC-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-Complete-Solution.zip",
+          "kb": 109.4
+        },
+        {
+          "name": "OC2MSEC-hero.png",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-hero.png",
+          "kb": 461.9
+        },
+        {
+          "name": "OC2MSEC-hero.svg",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "OC2MSEC-Scripts.zip",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "OC2MSEC-Solution.docx",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "OC2MSEC-Solution.pdf",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-Solution.pdf",
+          "kb": 62.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-sso-ssl-keystore-configuration/v1.0.0/deliverables/OC2MSEC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle C2M Troubleshooting & Root-Cause Analysis Toolkit",
+    "slug": "oracle-c2m-troubleshooting-rca-toolkit",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MRCA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OC2MRCA-COMM-001",
+      "PTK-OC2MRCA-NPO-001",
+      "PTK-OC2MRCA-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MRCA-Solution.pdf",
+      "OC2MRCA-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-troubleshooting-rca-toolkit\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/02-requirements.md",
+          "kb": 8.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/03-implementation.md",
+          "kb": 12.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MRCA-Discovery.sh",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/scripts/OC2MRCA-Discovery.sh",
+          "kb": 5.2
+        },
+        {
+          "name": "OC2MRCA-Remediation.sh",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/scripts/OC2MRCA-Remediation.sh",
+          "kb": 5.9
+        },
+        {
+          "name": "OC2MRCA-Report.sql",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/scripts/OC2MRCA-Report.sql",
+          "kb": 5.6
+        },
+        {
+          "name": "OC2MRCA-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/scripts/OC2MRCA-ScopeHelper.sh",
+          "kb": 5.4
+        },
+        {
+          "name": "OC2MRCA-Validation.py",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/scripts/OC2MRCA-Validation.py",
+          "kb": 8.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MRCA-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-Complete-Solution.zip",
+          "kb": 117.4
+        },
+        {
+          "name": "OC2MRCA-hero.png",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-hero.png",
+          "kb": 434.9
+        },
+        {
+          "name": "OC2MRCA-hero.svg",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "OC2MRCA-Scripts.zip",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-Scripts.zip",
+          "kb": 12.0
+        },
+        {
+          "name": "OC2MRCA-Solution.docx",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-Solution.docx",
+          "kb": 59.8
+        },
+        {
+          "name": "OC2MRCA-Solution.pdf",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-Solution.pdf",
+          "kb": 67.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-troubleshooting-rca-toolkit/v1.0.0/deliverables/OC2MRCA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod)",
+    "slug": "oracle-c2m-installation-environment-build",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OC2MINST",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-OC2MINST-COMM-001",
+      "PTK-OC2MINST-NPO-001",
+      "PTK-OC2MINST-GOV-001"
+    ],
+    "deliverables": [
+      "OC2MINST-Solution.pdf",
+      "OC2MINST-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-c2m-installation-environment-build\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/03-implementation.md",
+          "kb": 11.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/05-testing.md",
+          "kb": 5.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OC2MINST-Discovery.sh",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/scripts/OC2MINST-Discovery.sh",
+          "kb": 4.6
+        },
+        {
+          "name": "OC2MINST-Remediation.sh",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/scripts/OC2MINST-Remediation.sh",
+          "kb": 4.5
+        },
+        {
+          "name": "OC2MINST-Report.sql",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/scripts/OC2MINST-Report.sql",
+          "kb": 4.4
+        },
+        {
+          "name": "OC2MINST-ScopeHelper.sh",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/scripts/OC2MINST-ScopeHelper.sh",
+          "kb": 4.1
+        },
+        {
+          "name": "OC2MINST-Validation.py",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/scripts/OC2MINST-Validation.py",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OC2MINST-Complete-Solution.zip",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-Complete-Solution.zip",
+          "kb": 118.6
+        },
+        {
+          "name": "OC2MINST-hero.png",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-hero.png",
+          "kb": 476.0
+        },
+        {
+          "name": "OC2MINST-hero.svg",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "OC2MINST-Scripts.zip",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-Scripts.zip",
+          "kb": 9.4
+        },
+        {
+          "name": "OC2MINST-Solution.docx",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-Solution.docx",
+          "kb": 60.6
+        },
+        {
+          "name": "OC2MINST-Solution.pdf",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-Solution.pdf",
+          "kb": 71.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-c2m-installation-environment-build/v1.0.0/deliverables/OC2MINST-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle SOA Integration for C2M (Web Services & APIs)",
+    "slug": "oracle-soa-integration-for-c2m",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OSOAC2M",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OSOAC2M-COMM-001",
+      "PTK-OSOAC2M-NPO-001",
+      "PTK-OSOAC2M-GOV-001"
+    ],
+    "deliverables": [
+      "OSOAC2M-Solution.pdf",
+      "OSOAC2M-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-soa-integration-for-c2m\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/02-requirements.md",
+          "kb": 8.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/03-implementation.md",
+          "kb": 14.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/05-testing.md",
+          "kb": 6.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/07-best-practices.md",
+          "kb": 6.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OSOAC2M-Discovery.py",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-Discovery.py",
+          "kb": 5.1
+        },
+        {
+          "name": "OSOAC2M-Discovery.sql",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-Discovery.sql",
+          "kb": 3.8
+        },
+        {
+          "name": "OSOAC2M-Remediation.py",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-Remediation.py",
+          "kb": 6.1
+        },
+        {
+          "name": "OSOAC2M-Report.py",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-Report.py",
+          "kb": 4.6
+        },
+        {
+          "name": "OSOAC2M-ScopeHelper.sh",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-ScopeHelper.sh",
+          "kb": 6.8
+        },
+        {
+          "name": "OSOAC2M-Validation.py",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/scripts/OSOAC2M-Validation.py",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OSOAC2M-Complete-Solution.zip",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-Complete-Solution.zip",
+          "kb": 132.1
+        },
+        {
+          "name": "OSOAC2M-hero.png",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-hero.png",
+          "kb": 433.5
+        },
+        {
+          "name": "OSOAC2M-hero.svg",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-hero.svg",
+          "kb": 5.7
+        },
+        {
+          "name": "OSOAC2M-Scripts.zip",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-Scripts.zip",
+          "kb": 12.5
+        },
+        {
+          "name": "OSOAC2M-Solution.docx",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-Solution.docx",
+          "kb": 64.0
+        },
+        {
+          "name": "OSOAC2M-Solution.pdf",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-Solution.pdf",
+          "kb": 81.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-soa-integration-for-c2m/v1.0.0/deliverables/OSOAC2M-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Oracle WebLogic 14c for C2M — Install, Configure & Domain Setup",
+    "slug": "oracle-weblogic-14c-c2m-install-configure",
+    "category": "Oracle",
+    "category_slug": "oracle",
+    "sol_code": "OWLS14C",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-OWLS14C-COMM-001",
+      "PTK-OWLS14C-NPO-001",
+      "PTK-OWLS14C-GOV-001"
+    ],
+    "deliverables": [
+      "OWLS14C-Solution.pdf",
+      "OWLS14C-Scripts.zip"
+    ],
+    "rel_path": "library\\oracle\\oracle-weblogic-14c-c2m-install-configure\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/03-implementation.md",
+          "kb": 15.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/05-testing.md",
+          "kb": 6.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/07-best-practices.md",
+          "kb": 5.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-oracle.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/source/global-requirements-oracle.md",
+          "kb": 5.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OWLS14C-Discovery.py",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/scripts/OWLS14C-Discovery.py",
+          "kb": 4.3
+        },
+        {
+          "name": "OWLS14C-Remediation.sh",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/scripts/OWLS14C-Remediation.sh",
+          "kb": 6.4
+        },
+        {
+          "name": "OWLS14C-Report.py",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/scripts/OWLS14C-Report.py",
+          "kb": 5.6
+        },
+        {
+          "name": "OWLS14C-ScopeHelper.sh",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/scripts/OWLS14C-ScopeHelper.sh",
+          "kb": 5.4
+        },
+        {
+          "name": "OWLS14C-Validation.py",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/scripts/OWLS14C-Validation.py",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OWLS14C-Complete-Solution.zip",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-Complete-Solution.zip",
+          "kb": 133.6
+        },
+        {
+          "name": "OWLS14C-hero.png",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-hero.png",
+          "kb": 443.0
+        },
+        {
+          "name": "OWLS14C-hero.svg",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "OWLS14C-Scripts.zip",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-Scripts.zip",
+          "kb": 11.1
+        },
+        {
+          "name": "OWLS14C-Solution.docx",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-Solution.docx",
+          "kb": 66.2
+        },
+        {
+          "name": "OWLS14C-Solution.pdf",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-Solution.pdf",
+          "kb": 82.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
     "slug": "cisco-ise-certificate-vpn-authentication-intune",
     "category": "Security",

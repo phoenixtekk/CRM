@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Batch",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Scheduling & Threadpools",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workers · Schedule · Monitoring",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BATCH FAILURES",
+    "items": [
+      "Missed schedules",
+      "Under-resourced",
+      "Stuck jobs",
+      "Backlog"
+    ]
+  },
+  "to": {
+    "label": "Reliable batch",
+    "stat": "On time · complete"
+  },
+  "tagline": "SCHEDULE.  RUN.  MONITOR.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Threadpools",
+      "sub": "Workers"
+    },
+    {
+      "icon": "chip",
+      "title": "Schedule",
+      "sub": "Dependencies"
+    },
+    {
+      "icon": "chart",
+      "title": "Throughput",
+      "sub": "Monitoring"
+    },
+    {
+      "icon": "shield",
+      "title": "Completion",
+      "sub": "No backlog"
+    }
+  ]
+}

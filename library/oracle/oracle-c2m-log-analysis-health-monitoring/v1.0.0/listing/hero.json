@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Log Analysis",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Health Monitoring",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "OUAF/Server/Batch · SLOs",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SIGNAL BURIED",
+    "items": [
+      "Log sprawl",
+      "Late detection",
+      "No SLO tracking",
+      "Downtime"
+    ]
+  },
+  "to": {
+    "label": "Health assured",
+    "stat": "Uptime maximized"
+  },
+  "tagline": "COLLECT.  ANALYZE.  ASSURE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Logs",
+      "sub": "Standardized"
+    },
+    {
+      "icon": "shield",
+      "title": "Health",
+      "sub": "Early warning"
+    },
+    {
+      "icon": "gear",
+      "title": "SLOs",
+      "sub": "Tracked"
+    },
+    {
+      "icon": "chip",
+      "title": "Uptime",
+      "sub": "Maximized"
+    }
+  ]
+}

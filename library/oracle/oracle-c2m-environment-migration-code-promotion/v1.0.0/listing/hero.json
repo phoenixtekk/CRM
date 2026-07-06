@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "C2M Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Code Promotion",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Dev → QA → Prod · CMA · Parity",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ENV DRIFT",
+    "items": [
+      "Manual promotion",
+      "Config mismatch",
+      "Lost changes",
+      "Untested prod"
+    ]
+  },
+  "to": {
+    "label": "Clean promotion",
+    "stat": "Parity confirmed"
+  },
+  "tagline": "EXPORT.  PROMOTE.  COMPARE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Config Bundles",
+      "sub": "CMA"
+    },
+    {
+      "icon": "cloud",
+      "title": "Code/IWS",
+      "sub": "Promoted"
+    },
+    {
+      "icon": "chart",
+      "title": "Compare",
+      "sub": "Parity"
+    },
+    {
+      "icon": "shield",
+      "title": "Gates",
+      "sub": "Per env"
+    }
+  ]
+}

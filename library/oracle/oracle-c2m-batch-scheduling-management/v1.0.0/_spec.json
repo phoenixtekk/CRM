@@ -1,0 +1,82 @@
+{
+  "sol": "OC2MBATCH",
+  "slug": "oracle-c2m-batch-scheduling-management",
+  "title": "Oracle C2M Batch Scheduling & Thread-Pool Management",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "hook": "Run C2M batch reliably — threadpools, schedules, and monitoring",
+  "problem": "C2M does its heavy lifting in <strong>batch</strong> &mdash; billing, meter reads, and more &mdash; and batch that's mis-scheduled or under-resourced quietly breaks the business. This solution configures and manages <strong>C2M batch</strong>: threadpool workers, batch scheduling and dependencies, DBMS scheduler/enterprise scheduler integration, and batch monitoring &mdash; so jobs run on time and complete, pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the C2M batch architecture: threadpool workers, batch control, scheduling, dependencies, and monitoring.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (C2M environment, threadpool config, scheduler, DB access).",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to configure named threadpool workers, set up batch scheduling and dependencies, integrate the scheduler, and validate throughput and completion, pilot-first.",
+    "<strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (threadpools up, jobs complete, no backlog) plus Best Practices for batch sizing and scheduling."
+  ],
+  "short": "Configure and manage <strong>C2M batch</strong> &mdash; threadpool workers, scheduling and dependencies, scheduler integration, and monitoring &mdash; so jobs run on time and complete, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure and manage C2M batch — threadpool workers, scheduling and dependencies, scheduler integration, and monitoring — so jobs run on time and complete, pilot-first.",
+  "meta_title": "Oracle C2M Batch Scheduling & Thread-Pool Management",
+  "meta_description": "Configure Oracle C2M batch: threadpool workers, batch scheduling and dependencies, scheduler integration, and batch monitoring. Self-guided steps and WLST/shell/SQL scripts.",
+  "bottom_line": "C2M batch that runs on time and completes &mdash; threadpools sized, schedules and dependencies correct, backlog visible &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "C2M Batch",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Scheduling & Threadpools",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Workers · Schedule · Monitoring",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BATCH FAILURES",
+      "items": [
+        "Missed schedules",
+        "Under-resourced",
+        "Stuck jobs",
+        "Backlog"
+      ]
+    },
+    "to": {
+      "label": "Reliable batch",
+      "stat": "On time · complete"
+    },
+    "tagline": "SCHEDULE.  RUN.  MONITOR.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Threadpools",
+        "sub": "Workers"
+      },
+      {
+        "icon": "chip",
+        "title": "Schedule",
+        "sub": "Dependencies"
+      },
+      {
+        "icon": "chart",
+        "title": "Throughput",
+        "sub": "Monitoring"
+      },
+      {
+        "icon": "shield",
+        "title": "Completion",
+        "sub": "No backlog"
+      }
+    ]
+  }
+}

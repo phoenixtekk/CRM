@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-performance-tuning-optimization",
+    "title": "Oracle C2M Performance Tuning & Resource Optimization",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MPERF-COMM-001",
+      "name": "Oracle C2M Performance Tuning & Resource Optimization — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "A measure-first <strong>C2M performance tuning</strong> method &mdash; JVM/GC, WebLogic pools, batch, and SQL &mdash; that turns a slow environment into a measured, optimized one, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Make C2M fast — JVM, WebLogic, batch, and database</h3><p>As C2M load grows, performance problems surface across the stack &mdash; JVM/GC, WebLogic thread pools and connection pools, batch throughput, and database. This solution provides a <strong>measure-first tuning method</strong> for C2M and its WebLogic 14c middleware: find the real bottleneck and tune JVM/GC, server and data-source pools, batch, and SQL &mdash; turning a slow environment into a measured, optimized one, pilot-first.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M performance model (JVM/GC → WebLogic pools → batch → database) and the measure-first tuning method.</li><li><strong>Requirements Guide</strong> &mdash; what you need to tune (metrics/monitoring, environment access, workload profile) with how to <em>verify</em> each.</li><li><strong>Tuning Method</strong> &mdash; ordered steps: measure and baseline, isolate the bottleneck, tune JVM/GC, WebLogic thread/connection pools, batch threadpools, and SQL/database, then re-measure and validate the gain, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with measured pass/fail gates plus Best Practices for repeatable, evidence-based tuning.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A slow C2M environment turned into a measured, optimized one &mdash; JVM, pools, batch, and SQL tuned to the real bottleneck &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MPERF-Discovery.py</code> &mdash; read-only baseline of the C2M / WebLogic 14c performance stack</li><li><code>OC2MPERF-Remediation.py</code> &mdash; apply ONE validated WebLogic tuning change (DRY-RUN by default)</li><li><code>OC2MPERF-Report.sh</code> &mdash; read-only health/coverage evidence pack for C2M performance tuning</li><li><code>OC2MPERF-Report.sql</code> &mdash; read-only Oracle Database performance snapshot for C2M tuning</li><li><code>OC2MPERF-ScopeHelper.sh</code> &mdash; record the tuning pilot scope and rollback targets</li><li><code>OC2MPERF-Validation.py</code> &mdash; read-only re-measure of the C2M / WebLogic 14c stack after a change</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Performance Tuning & Resource Optimization",
+      "meta_description": "Tune Oracle C2M and WebLogic 14c performance: JVM/GC, WebLogic thread/connection pools, batch throughput, and SQL/database, measure-first. Self-guided method and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-performance-tuning-optimization-commercial",
+      "image": "OC2MPERF-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MPERF-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MPERF-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MPERF-NPO-001",
+      "name": "Oracle C2M Performance Tuning & Resource Optimization — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>A measure-first C2M performance tuning method — JVM/GC, WebLogic pools, batch, and SQL — that turns a slow environment into a measured, optimized one, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Make C2M fast — JVM, WebLogic, batch, and database</h3><p>As C2M load grows, performance problems surface across the stack &mdash; JVM/GC, WebLogic thread pools and connection pools, batch throughput, and database. This solution provides a <strong>measure-first tuning method</strong> for C2M and its WebLogic 14c middleware: find the real bottleneck and tune JVM/GC, server and data-source pools, batch, and SQL &mdash; turning a slow environment into a measured, optimized one, pilot-first.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M performance model (JVM/GC → WebLogic pools → batch → database) and the measure-first tuning method.</li><li><strong>Requirements Guide</strong> &mdash; what you need to tune (metrics/monitoring, environment access, workload profile) with how to <em>verify</em> each.</li><li><strong>Tuning Method</strong> &mdash; ordered steps: measure and baseline, isolate the bottleneck, tune JVM/GC, WebLogic thread/connection pools, batch threadpools, and SQL/database, then re-measure and validate the gain, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with measured pass/fail gates plus Best Practices for repeatable, evidence-based tuning.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MPERF-Discovery.py</code> &mdash; read-only baseline of the C2M / WebLogic 14c performance stack</li><li><code>OC2MPERF-Remediation.py</code> &mdash; apply ONE validated WebLogic tuning change (DRY-RUN by default)</li><li><code>OC2MPERF-Report.sh</code> &mdash; read-only health/coverage evidence pack for C2M performance tuning</li><li><code>OC2MPERF-Report.sql</code> &mdash; read-only Oracle Database performance snapshot for C2M tuning</li><li><code>OC2MPERF-ScopeHelper.sh</code> &mdash; record the tuning pilot scope and rollback targets</li><li><code>OC2MPERF-Validation.py</code> &mdash; read-only re-measure of the C2M / WebLogic 14c stack after a change</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Performance Tuning & Resource Optimization — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Tune Oracle C2M and WebLogic 14c performance: JVM/GC, WebLogic thread/connection pools, batch throughput, and SQL/database, measure-first. Self-guided method and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-performance-tuning-optimization-nonprofit",
+      "image": "OC2MPERF-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MPERF-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MPERF-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MPERF-GOV-001",
+      "name": "Oracle C2M Performance Tuning & Resource Optimization — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>A measure-first C2M performance tuning method — JVM/GC, WebLogic pools, batch, and SQL — that turns a slow environment into a measured, optimized one, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Make C2M fast — JVM, WebLogic, batch, and database</h3><p>As C2M load grows, performance problems surface across the stack &mdash; JVM/GC, WebLogic thread pools and connection pools, batch throughput, and database. This solution provides a <strong>measure-first tuning method</strong> for C2M and its WebLogic 14c middleware: find the real bottleneck and tune JVM/GC, server and data-source pools, batch, and SQL &mdash; turning a slow environment into a measured, optimized one, pilot-first.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M performance model (JVM/GC → WebLogic pools → batch → database) and the measure-first tuning method.</li><li><strong>Requirements Guide</strong> &mdash; what you need to tune (metrics/monitoring, environment access, workload profile) with how to <em>verify</em> each.</li><li><strong>Tuning Method</strong> &mdash; ordered steps: measure and baseline, isolate the bottleneck, tune JVM/GC, WebLogic thread/connection pools, batch threadpools, and SQL/database, then re-measure and validate the gain, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with measured pass/fail gates plus Best Practices for repeatable, evidence-based tuning.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MPERF-Discovery.py</code> &mdash; read-only baseline of the C2M / WebLogic 14c performance stack</li><li><code>OC2MPERF-Remediation.py</code> &mdash; apply ONE validated WebLogic tuning change (DRY-RUN by default)</li><li><code>OC2MPERF-Report.sh</code> &mdash; read-only health/coverage evidence pack for C2M performance tuning</li><li><code>OC2MPERF-Report.sql</code> &mdash; read-only Oracle Database performance snapshot for C2M tuning</li><li><code>OC2MPERF-ScopeHelper.sh</code> &mdash; record the tuning pilot scope and rollback targets</li><li><code>OC2MPERF-Validation.py</code> &mdash; read-only re-measure of the C2M / WebLogic 14c stack after a change</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M Performance Tuning & Resource Optimization — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Tune Oracle C2M and WebLogic 14c performance: JVM/GC, WebLogic thread/connection pools, batch throughput, and SQL/database, measure-first. Self-guided method and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-performance-tuning-optimization-government",
+      "image": "OC2MPERF-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MPERF-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MPERF-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

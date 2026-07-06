@@ -1,0 +1,41 @@
+{
+  "slug": "oracle-weblogic-14c-c2m-install-configure",
+  "title": "Oracle WebLogic 14c for C2M — Install, Configure & Domain Setup",
+  "category": "Oracle",
+  "category_slug": "oracle",
+  "sol_code": "OWLS14C",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Oracle Utilities C2M + WebLogic 14c administration; middleware/database/integration work, production-impact care).",
+    "Oracle Utilities C2M/CC&B/MDM + WebLogic 14c authored from Oracle's official product + OUAF docs; version-specific details (C2M 25.4/min v2.9, WebLogic 14c) cited or flagged 'verify for your version'; My-Oracle-Support-gated patches/notes are pointed to, not reproduced. Automation is WLST (Jython)/shell/SQL, not PowerShell."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OWLS14C-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-OWLS14C-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-OWLS14C-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "OWLS14C-Solution.pdf",
+    "OWLS14C-Scripts.zip"
+  ],
+  "hero": "OWLS14C-hero.png"
+}
+

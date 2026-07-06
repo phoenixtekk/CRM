@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-devops-release-management-cicd",
+    "title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MDEVOPS-COMM-001",
+      "name": "Oracle C2M DevOps Release Management & CI/CD Automation — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Establish <strong>DevOps release management and CI/CD</strong> for C2M &mdash; a build/promote/deploy pipeline plus routine-task automation &mdash; so releases are repeatable, governed, and fast, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Automate C2M releases — repeatable, governed, hands-off</h3><p>Manual C2M releases are slow and error-prone. This solution establishes <strong>DevOps release management and CI/CD</strong> for Oracle C2M: a pipeline for building, promoting, and deploying OUAF config and code across environments, with automation for the routine admin tasks &mdash; so releases are repeatable, governed, and fast, pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M DevOps model: source control for OUAF config/code, a build/promote/deploy pipeline, and automation of routine admin.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (CI/CD tooling, source control, environment access, migration/CMA tooling).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the pipeline (build → migrate config → deploy → validate), wire automation for routine tasks (restarts, checks, promotions), add gates/rollback, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (pipeline runs, deploys succeed, rollback works) plus Best Practices for governed, automated releases.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>C2M releases that are repeatable, governed, and fast &mdash; a CI/CD pipeline and routine-task automation &mdash; instead of slow, error-prone manual work.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDEVOPS-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment and its release pipeline</li><li><code>OC2MDEVOPS-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of release-pipeline gaps</li><li><code>OC2MDEVOPS-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted release scope</li><li><code>OC2MDEVOPS-ScopeHelper.sh</code> &mdash; resolve and print a release's scope before it runs through the pipeline</li><li><code>OC2MDEVOPS-Validation.py</code> &mdash; read-only WLST parity/health validation of a release-pipeline target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+      "meta_description": "Establish DevOps release management and CI/CD for Oracle C2M: build/promote/deploy pipeline for OUAF config and code, plus routine-admin automation. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-devops-release-management-cicd-commercial",
+      "image": "OC2MDEVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MDEVOPS-NPO-001",
+      "name": "Oracle C2M DevOps Release Management & CI/CD Automation — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Establish DevOps release management and CI/CD for C2M — a build/promote/deploy pipeline plus routine-task automation — so releases are repeatable, governed, and fast, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Automate C2M releases — repeatable, governed, hands-off</h3><p>Manual C2M releases are slow and error-prone. This solution establishes <strong>DevOps release management and CI/CD</strong> for Oracle C2M: a pipeline for building, promoting, and deploying OUAF config and code across environments, with automation for the routine admin tasks &mdash; so releases are repeatable, governed, and fast, pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M DevOps model: source control for OUAF config/code, a build/promote/deploy pipeline, and automation of routine admin.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (CI/CD tooling, source control, environment access, migration/CMA tooling).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the pipeline (build → migrate config → deploy → validate), wire automation for routine tasks (restarts, checks, promotions), add gates/rollback, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (pipeline runs, deploys succeed, rollback works) plus Best Practices for governed, automated releases.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDEVOPS-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment and its release pipeline</li><li><code>OC2MDEVOPS-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of release-pipeline gaps</li><li><code>OC2MDEVOPS-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted release scope</li><li><code>OC2MDEVOPS-ScopeHelper.sh</code> &mdash; resolve and print a release's scope before it runs through the pipeline</li><li><code>OC2MDEVOPS-Validation.py</code> &mdash; read-only WLST parity/health validation of a release-pipeline target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M DevOps Release Management & CI/CD Automation — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Establish DevOps release management and CI/CD for Oracle C2M: build/promote/deploy pipeline for OUAF config and code, plus routine-admin automation. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-devops-release-management-cicd-nonprofit",
+      "image": "OC2MDEVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MDEVOPS-GOV-001",
+      "name": "Oracle C2M DevOps Release Management & CI/CD Automation — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Establish DevOps release management and CI/CD for C2M — a build/promote/deploy pipeline plus routine-task automation — so releases are repeatable, governed, and fast, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Automate C2M releases — repeatable, governed, hands-off</h3><p>Manual C2M releases are slow and error-prone. This solution establishes <strong>DevOps release management and CI/CD</strong> for Oracle C2M: a pipeline for building, promoting, and deploying OUAF config and code across environments, with automation for the routine admin tasks &mdash; so releases are repeatable, governed, and fast, pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M DevOps model: source control for OUAF config/code, a build/promote/deploy pipeline, and automation of routine admin.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (CI/CD tooling, source control, environment access, migration/CMA tooling).</li><li><strong>Implementation Guide</strong> &mdash; exact steps to define the pipeline (build → migrate config → deploy → validate), wire automation for routine tasks (restarts, checks, promotions), add gates/rollback, and validate, pilot-first.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (pipeline runs, deploys succeed, rollback works) plus Best Practices for governed, automated releases.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MDEVOPS-Discovery.sh</code> &mdash; read-only inventory of a C2M/OUAF environment and its release pipeline</li><li><code>OC2MDEVOPS-Remediation.sh</code> &mdash; guided, DRY-RUN-by-default remediation of release-pipeline gaps</li><li><code>OC2MDEVOPS-Report.sql</code> &mdash; read-only source-vs-target compare report for a promoted release scope</li><li><code>OC2MDEVOPS-ScopeHelper.sh</code> &mdash; resolve and print a release's scope before it runs through the pipeline</li><li><code>OC2MDEVOPS-Validation.py</code> &mdash; read-only WLST parity/health validation of a release-pipeline target</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle C2M DevOps Release Management & CI/CD Automation — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Establish DevOps release management and CI/CD for Oracle C2M: build/promote/deploy pipeline for OUAF config and code, plus routine-admin automation. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-devops-release-management-cicd-government",
+      "image": "OC2MDEVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MDEVOPS-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

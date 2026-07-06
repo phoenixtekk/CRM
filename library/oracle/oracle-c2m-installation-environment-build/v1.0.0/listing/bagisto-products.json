@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oracle-c2m-installation-environment-build",
+    "title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod)",
+    "category_path": [
+      "Oracle"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OC2MINST-COMM-001",
+      "name": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 4995.0,
+      "short_description": "The end-to-end <strong>Oracle C2M installation and multi-environment build</strong> &mdash; certified prereqs, OUAF install, WebLogic domain, database setup, config &mdash; consistent across Dev/Test/Prod, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Stand up Oracle Customer to Meter — correctly, in every environment</h3><p>Installing <strong>Oracle Utilities Customer to Meter (C2M)</strong> across Development, Test, and Production is where utility programs stall &mdash; certified stacks, OUAF setup, WebLogic domains, and database schemas all have to line up. This solution is the end-to-end <strong>C2M installation and multi-environment build</strong>: certified prerequisites, OUAF/product install, WebLogic domain creation, database initial setup, and environment configuration &mdash; done consistently across Dev/Test/Prod, pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/OUAF architecture (product home, WebLogic domain, database schema), the certified stack, and the standard build model across environments.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em>/<em>implement</em> (licensed C2M + WebLogic 14c entitlement, certified OS/JDK/DB, environment access, MOS access).</li><li><strong>Installation Guide</strong> &mdash; exact ordered steps: certified prereqs, OUAF/product install, WebLogic domain creation, database initial setup, environment configuration (`configureEnv`/`initialSetup`), and post-install validation, per environment.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (product up, domain healthy, schema valid) plus Best Practices for repeatable multi-environment builds.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Oracle C2M installed and configured consistently in every environment &mdash; certified, healthy, and reproducible &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MINST-Discovery.sh</code> &mdash; read-only discovery of a host's C2M build prerequisites</li><li><code>OC2MINST-Remediation.sh</code> &mdash; safe, dry-run-by-default fixes for common C2M build issues</li><li><code>OC2MINST-Report.sql</code> &mdash; read-only build/schema report for a C2M database</li><li><code>OC2MINST-ScopeHelper.sh</code> &mdash; resolve and confirm the target C2M environment before you act</li><li><code>OC2MINST-Validation.py</code> &mdash; read-only WLST post-install validation of the C2M WebLogic domain</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build",
+      "meta_description": "Install Oracle Utilities Customer to Meter (C2M) across Dev/Test/Prod: certified stack, OUAF product install, WebLogic 14c domain, database setup, and environment configuration. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-installation-environment-build-commercial",
+      "image": "OC2MINST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MINST-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MINST-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MINST-NPO-001",
+      "name": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 2997.0,
+      "short_description": "<p>The end-to-end Oracle C2M installation and multi-environment build — certified prereqs, OUAF install, WebLogic domain, database setup, config — consistent across Dev/Test/Prod, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stand up Oracle Customer to Meter — correctly, in every environment</h3><p>Installing <strong>Oracle Utilities Customer to Meter (C2M)</strong> across Development, Test, and Production is where utility programs stall &mdash; certified stacks, OUAF setup, WebLogic domains, and database schemas all have to line up. This solution is the end-to-end <strong>C2M installation and multi-environment build</strong>: certified prerequisites, OUAF/product install, WebLogic domain creation, database initial setup, and environment configuration &mdash; done consistently across Dev/Test/Prod, pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/OUAF architecture (product home, WebLogic domain, database schema), the certified stack, and the standard build model across environments.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em>/<em>implement</em> (licensed C2M + WebLogic 14c entitlement, certified OS/JDK/DB, environment access, MOS access).</li><li><strong>Installation Guide</strong> &mdash; exact ordered steps: certified prereqs, OUAF/product install, WebLogic domain creation, database initial setup, environment configuration (`configureEnv`/`initialSetup`), and post-install validation, per environment.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (product up, domain healthy, schema valid) plus Best Practices for repeatable multi-environment builds.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MINST-Discovery.sh</code> &mdash; read-only discovery of a host's C2M build prerequisites</li><li><code>OC2MINST-Remediation.sh</code> &mdash; safe, dry-run-by-default fixes for common C2M build issues</li><li><code>OC2MINST-Report.sql</code> &mdash; read-only build/schema report for a C2M database</li><li><code>OC2MINST-ScopeHelper.sh</code> &mdash; resolve and confirm the target C2M environment before you act</li><li><code>OC2MINST-Validation.py</code> &mdash; read-only WLST post-install validation of the C2M WebLogic domain</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Install Oracle Utilities Customer to Meter (C2M) across Dev/Test/Prod: certified stack, OUAF product install, WebLogic 14c domain, database setup, and environment configuration. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-installation-environment-build-nonprofit",
+      "image": "OC2MINST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MINST-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MINST-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OC2MINST-GOV-001",
+      "name": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 4245.75,
+      "short_description": "<p>The end-to-end Oracle C2M installation and multi-environment build — certified prereqs, OUAF install, WebLogic domain, database setup, config — consistent across Dev/Test/Prod, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stand up Oracle Customer to Meter — correctly, in every environment</h3><p>Installing <strong>Oracle Utilities Customer to Meter (C2M)</strong> across Development, Test, and Production is where utility programs stall &mdash; certified stacks, OUAF setup, WebLogic domains, and database schemas all have to line up. This solution is the end-to-end <strong>C2M installation and multi-environment build</strong>: certified prerequisites, OUAF/product install, WebLogic domain creation, database initial setup, and environment configuration &mdash; done consistently across Dev/Test/Prod, pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the C2M/OUAF architecture (product home, WebLogic domain, database schema), the certified stack, and the standard build model across environments.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite with how to <em>verify</em>/<em>implement</em> (licensed C2M + WebLogic 14c entitlement, certified OS/JDK/DB, environment access, MOS access).</li><li><strong>Installation Guide</strong> &mdash; exact ordered steps: certified prereqs, OUAF/product install, WebLogic domain creation, database initial setup, environment configuration (`configureEnv`/`initialSetup`), and post-install validation, per environment.</li><li><strong>5 automation scripts (WLST/Jython, shell &amp; SQL)</strong> &mdash; environment/config discovery, per-node validation, a health/coverage report, safe remediation (dry-run by default), and a scope/target helper &mdash; authentic to C2M &amp; WebLogic administration.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates (product up, domain healthy, schema valid) plus Best Practices for repeatable multi-environment builds.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>OC2MINST-Discovery.sh</code> &mdash; read-only discovery of a host's C2M build prerequisites</li><li><code>OC2MINST-Remediation.sh</code> &mdash; safe, dry-run-by-default fixes for common C2M build issues</li><li><code>OC2MINST-Report.sql</code> &mdash; read-only build/schema report for a C2M database</li><li><code>OC2MINST-ScopeHelper.sh</code> &mdash; resolve and confirm the target C2M environment before you act</li><li><code>OC2MINST-Validation.py</code> &mdash; read-only WLST post-install validation of the C2M WebLogic domain</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Install Oracle Utilities Customer to Meter (C2M) across Dev/Test/Prod: certified stack, OUAF product install, WebLogic 14c domain, database setup, and environment configuration. Self-guided steps and WLST/shell/SQL scripts.",
+      "url_key": "oracle-c2m-installation-environment-build-government",
+      "image": "OC2MINST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "OC2MINST-Solution.pdf"
+        },
+        {
+          "title": "Automation Scripts (WLST/shell/SQL) (ZIP)",
+          "source_type": "file",
+          "source": "OC2MINST-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
