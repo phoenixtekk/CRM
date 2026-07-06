@@ -5,10 +5,10 @@
   "category_slug": "google",
   "sol_code": "GWCOEX",
   "version": "1.0.0",
-  "status": "generated",
+  "status": "published",
   "created": "2026-07-06",
   "updated": "2026-07-06",
-  "published_at": null,
+  "published_at": "2026-07-06",
   "version_directive": "New",
   "branding": "off",
   "author_notes": [
@@ -38,3 +38,4 @@
   ],
   "hero": "GWCOEX-hero.png"
 }
+

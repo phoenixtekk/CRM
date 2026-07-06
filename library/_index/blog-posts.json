@@ -888,5 +888,45 @@
     "post_id": 12180,
     "status": "draft",
     "category_id": 411
+  },
+  "exchange-online-to-gmail-migration": {
+    "post_id": 12182,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-onedrive-to-google-drive-migration": {
+    "post_id": 12184,
+    "status": "draft",
+    "category_id": 411
+  },
+  "teams-to-google-chat-meet-migration": {
+    "post_id": 12186,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-google-workspace-coexistence": {
+    "post_id": 12188,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-google-cloud-identity-sso-provisioning": {
+    "post_id": 12190,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-security-baseline-dlp-caa": {
+    "post_id": 12192,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-vault-purview-coexistence-ediscovery": {
+    "post_id": 12194,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-assured-controls-itar-dfars": {
+    "post_id": 12196,
+    "status": "draft",
+    "category_id": 411
   }
 }

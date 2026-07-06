@@ -197,7 +197,16 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | macOS Identity-Threat & Account-Lockout Hardening | `macos-identity-threat-account-lockout-hardening` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Security) |
 | macOS Management Runbooks & IT-Support Enablement | `macos-management-runbooks-support-enablement` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
 
-Total commercial catalog value: **$464,355** (169 solutions, all published — incl. 32 Government (GCC High) editions).
+| **Google Workspace + Gemini wave (2026-07-06) — NEW `Google` category (17)** | | | |
+| Google Workspace + Gemini Enterprise Target Architecture Blueprint | `google-workspace-gemini-target-architecture-blueprint` | $4,995 / $2,997 / Gov $4,245.75 | ✅ published (T5; Google) |
+| M365 → Google Workspace Migration Program & Wave Plan | `m365-to-google-workspace-migration-program` | $4,995 / $2,997 / Gov $4,245.75 | ✅ published (T5; Google) |
+| ARB Governance · Vendor/Anti-Lock-In · Integration Patterns · Consolidation Strategy | `workspace-transformation-arb-governance-framework` · `workspace-vendor-technical-governance-anti-lock-in` · `enterprise-integration-patterns-entra-google-thirdparty` · `collaboration-ai-platform-consolidation-strategy` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Google) |
+| Exchange→Gmail · SPO/OneDrive→Drive · Teams→Chat/Meet · M365↔Google Coexistence | `exchange-online-to-gmail-migration` · `sharepoint-onedrive-to-google-drive-migration` · `teams-to-google-chat-meet-migration` · `m365-google-workspace-coexistence` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Google) |
+| Entra↔Cloud Identity SSO/Provisioning · Security Baseline/DLP/CAA · Vault↔Purview eDiscovery · Assured Controls (ITAR/DFARS) | `entra-id-google-cloud-identity-sso-provisioning` · `google-workspace-security-baseline-dlp-caa` · `google-vault-purview-coexistence-ediscovery` · `google-workspace-assured-controls-itar-dfars` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Google) |
+| Gemini Secure Adoption/Governance · Gemini Connector & Agent Framework | `gemini-enterprise-secure-adoption-governance` · `gemini-connector-strategy-agent-development-framework` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; Google) |
+| Apps Script & AppSheet Work-Transformation Governance | `apps-script-appsheet-work-transformation-governance` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; Google) |
+
+Total commercial catalog value: **$518,770** (186 solutions, all published — incl. 32 Government (GCC High) editions and the 17-solution Google Workspace + Gemini line).
 
 **Government (GCC High) editions (2026-07-03):** for every solution whose setup materially differs on a US
 sovereign tenant, a **separate `<slug>-gcc-high` product** ("<Title> — Government (GCC High)") was authored

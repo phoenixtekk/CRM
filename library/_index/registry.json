@@ -5849,10 +5849,10 @@
     "category_slug": "google",
     "sol_code": "GWSSO",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -5868,16 +5868,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/02-requirements.md",
+          "kb": 9.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/03-implementation.md",
+          "kb": 10.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWSSO-Discovery.ps1",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/scripts/GWSSO-Discovery.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "GWSSO-Remediation.ps1",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/scripts/GWSSO-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "GWSSO-Report.ps1",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/scripts/GWSSO-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "GWSSO-Set-ScopeTargeting.ps1",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/scripts/GWSSO-Set-ScopeTargeting.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "GWSSO-Validation.ps1",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/scripts/GWSSO-Validation.ps1",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWSSO-Complete-Solution.zip",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-Complete-Solution.zip",
+          "kb": 116.5
+        },
+        {
+          "name": "GWSSO-hero.png",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-hero.png",
+          "kb": 460.2
+        },
+        {
+          "name": "GWSSO-hero.svg",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GWSSO-Scripts.zip",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-Scripts.zip",
+          "kb": 10.1
+        },
+        {
+          "name": "GWSSO-Solution.docx",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-Solution.docx",
+          "kb": 59.2
+        },
+        {
+          "name": "GWSSO-Solution.pdf",
+          "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-Solution.pdf",
+          "kb": 69.8
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.1
+          "kb": 14.8
         },
         {
           "name": "hero.json",
@@ -5903,10 +6002,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/entra-id-google-cloud-identity-sso-provisioning/v1.0.0/deliverables/GWSSO-hero.png",
     "product_count": 3
   },
   {
@@ -5916,10 +6015,10 @@
     "category_slug": "google",
     "sol_code": "GWGMAIL",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -5935,16 +6034,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/03-implementation.md",
+          "kb": 8.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/executive-summary.md",
+          "kb": 3.8
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/exchange-online-to-gmail-migration/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWGMAIL-Discovery.ps1",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/scripts/GWGMAIL-Discovery.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "GWGMAIL-Remediation.ps1",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/scripts/GWGMAIL-Remediation.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWGMAIL-Report.ps1",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/scripts/GWGMAIL-Report.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "GWGMAIL-Set-ScopeTargeting.ps1",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/scripts/GWGMAIL-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "GWGMAIL-Validation.ps1",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/scripts/GWGMAIL-Validation.ps1",
+          "kb": 5.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWGMAIL-Complete-Solution.zip",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-Complete-Solution.zip",
+          "kb": 111.3
+        },
+        {
+          "name": "GWGMAIL-hero.png",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-hero.png",
+          "kb": 445.6
+        },
+        {
+          "name": "GWGMAIL-hero.svg",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GWGMAIL-Scripts.zip",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "GWGMAIL-Solution.docx",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-Solution.docx",
+          "kb": 56.5
+        },
+        {
+          "name": "GWGMAIL-Solution.pdf",
+          "href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-Solution.pdf",
+          "kb": 66.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/exchange-online-to-gmail-migration/v1.0.0/listing/bagisto-products.json",
-          "kb": 10.8
+          "kb": 14.4
         },
         {
           "name": "hero.json",
@@ -5970,10 +6168,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/exchange-online-to-gmail-migration/v1.0.0/deliverables/GWGMAIL-hero.png",
     "product_count": 3
   },
   {
@@ -6481,10 +6679,10 @@
     "category_slug": "google",
     "sol_code": "GWSEC",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6500,16 +6698,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWSEC-Discovery.ps1",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/scripts/GWSEC-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "GWSEC-Remediation.ps1",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/scripts/GWSEC-Remediation.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "GWSEC-Report.ps1",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/scripts/GWSEC-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "GWSEC-Set-ScopeTargeting.ps1",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/scripts/GWSEC-Set-ScopeTargeting.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "GWSEC-Validation.ps1",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/scripts/GWSEC-Validation.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWSEC-Complete-Solution.zip",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-Complete-Solution.zip",
+          "kb": 116.0
+        },
+        {
+          "name": "GWSEC-hero.png",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-hero.png",
+          "kb": 447.6
+        },
+        {
+          "name": "GWSEC-hero.svg",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GWSEC-Scripts.zip",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "GWSEC-Solution.docx",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-Solution.docx",
+          "kb": 58.6
+        },
+        {
+          "name": "GWSEC-Solution.pdf",
+          "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-Solution.pdf",
+          "kb": 67.8
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/listing/bagisto-products.json",
-          "kb": 10.9
+          "kb": 14.7
         },
         {
           "name": "hero.json",
@@ -6535,10 +6832,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-hero.png",
     "product_count": 3
   },
   {
@@ -6714,10 +7011,10 @@
     "category_slug": "google",
     "sol_code": "GWCOEX",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6733,16 +7030,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/02-requirements.md",
+          "kb": 9.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/03-implementation.md",
+          "kb": 11.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/07-best-practices.md",
+          "kb": 5.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/m365-google-workspace-coexistence/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWCOEX-Discovery.ps1",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/scripts/GWCOEX-Discovery.ps1",
+          "kb": 7.6
+        },
+        {
+          "name": "GWCOEX-Remediation.ps1",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/scripts/GWCOEX-Remediation.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "GWCOEX-Report.ps1",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/scripts/GWCOEX-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "GWCOEX-Set-ScopeTargeting.ps1",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/scripts/GWCOEX-Set-ScopeTargeting.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "GWCOEX-Validation.ps1",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/scripts/GWCOEX-Validation.ps1",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWCOEX-Complete-Solution.zip",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-Complete-Solution.zip",
+          "kb": 120.3
+        },
+        {
+          "name": "GWCOEX-hero.png",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-hero.png",
+          "kb": 410.9
+        },
+        {
+          "name": "GWCOEX-hero.svg",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWCOEX-Scripts.zip",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-Scripts.zip",
+          "kb": 10.5
+        },
+        {
+          "name": "GWCOEX-Solution.docx",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-Solution.docx",
+          "kb": 60.7
+        },
+        {
+          "name": "GWCOEX-Solution.pdf",
+          "href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-Solution.pdf",
+          "kb": 72.6
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/m365-google-workspace-coexistence/v1.0.0/listing/bagisto-products.json",
-          "kb": 10.9
+          "kb": 14.5
         },
         {
           "name": "hero.json",
@@ -6768,10 +7164,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/m365-google-workspace-coexistence/v1.0.0/deliverables/GWCOEX-hero.png",
     "product_count": 3
   },
   {
@@ -6781,10 +7177,10 @@
     "category_slug": "google",
     "sol_code": "GWCHAT",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6800,16 +7196,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/02-requirements.md",
+          "kb": 10.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/03-implementation.md",
+          "kb": 10.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 5.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/executive-summary.md",
+          "kb": 4.3
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWCHAT-Discovery.ps1",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/scripts/GWCHAT-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "GWCHAT-Remediation.ps1",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/scripts/GWCHAT-Remediation.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "GWCHAT-Report.ps1",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/scripts/GWCHAT-Report.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "GWCHAT-Set-ScopeTargeting.ps1",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/scripts/GWCHAT-Set-ScopeTargeting.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "GWCHAT-Validation.ps1",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/scripts/GWCHAT-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWCHAT-Complete-Solution.zip",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-Complete-Solution.zip",
+          "kb": 121.3
+        },
+        {
+          "name": "GWCHAT-hero.png",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-hero.png",
+          "kb": 437.9
+        },
+        {
+          "name": "GWCHAT-hero.svg",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWCHAT-Scripts.zip",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-Scripts.zip",
+          "kb": 10.2
+        },
+        {
+          "name": "GWCHAT-Solution.docx",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-Solution.docx",
+          "kb": 59.4
+        },
+        {
+          "name": "GWCHAT-Solution.pdf",
+          "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-Solution.pdf",
+          "kb": 76.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/teams-to-google-chat-meet-migration/v1.0.0/listing/bagisto-products.json",
-          "kb": 10.7
+          "kb": 14.3
         },
         {
           "name": "hero.json",
@@ -6835,10 +7330,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-hero.png",
     "product_count": 3
   },
   {
@@ -6848,10 +7343,10 @@
     "category_slug": "google",
     "sol_code": "GWREG",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6867,16 +7362,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/03-implementation.md",
+          "kb": 10.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWREG-Discovery.ps1",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/scripts/GWREG-Discovery.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "GWREG-Remediation.ps1",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/scripts/GWREG-Remediation.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "GWREG-Report.ps1",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/scripts/GWREG-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "GWREG-Set-ScopeTargeting.ps1",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/scripts/GWREG-Set-ScopeTargeting.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "GWREG-Validation.ps1",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/scripts/GWREG-Validation.ps1",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWREG-Complete-Solution.zip",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-Complete-Solution.zip",
+          "kb": 118.4
+        },
+        {
+          "name": "GWREG-hero.png",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-hero.png",
+          "kb": 456.2
+        },
+        {
+          "name": "GWREG-hero.svg",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GWREG-Scripts.zip",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "GWREG-Solution.docx",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-Solution.docx",
+          "kb": 59.1
+        },
+        {
+          "name": "GWREG-Solution.pdf",
+          "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-Solution.pdf",
+          "kb": 71.4
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.4
+          "kb": 15.2
         },
         {
           "name": "hero.json",
@@ -6902,10 +7496,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-assured-controls-itar-dfars/v1.0.0/deliverables/GWREG-hero.png",
     "product_count": 3
   },
   {
@@ -6915,10 +7509,10 @@
     "category_slug": "google",
     "sol_code": "GWDRIVE",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -6934,16 +7528,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/02-requirements.md",
+          "kb": 7.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/03-implementation.md",
+          "kb": 7.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWDRIVE-Discovery.ps1",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/scripts/GWDRIVE-Discovery.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "GWDRIVE-Remediation.ps1",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/scripts/GWDRIVE-Remediation.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "GWDRIVE-Report.ps1",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/scripts/GWDRIVE-Report.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWDRIVE-Set-ScopeTargeting.ps1",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/scripts/GWDRIVE-Set-ScopeTargeting.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "GWDRIVE-Validation.ps1",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/scripts/GWDRIVE-Validation.ps1",
+          "kb": 6.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWDRIVE-Complete-Solution.zip",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-Complete-Solution.zip",
+          "kb": 111.4
+        },
+        {
+          "name": "GWDRIVE-hero.png",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-hero.png",
+          "kb": 434.2
+        },
+        {
+          "name": "GWDRIVE-hero.svg",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GWDRIVE-Scripts.zip",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "GWDRIVE-Solution.docx",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-Solution.docx",
+          "kb": 56.2
+        },
+        {
+          "name": "GWDRIVE-Solution.pdf",
+          "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-Solution.pdf",
+          "kb": 65.0
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.1
+          "kb": 15.0
         },
         {
           "name": "hero.json",
@@ -6969,10 +7662,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/sharepoint-onedrive-to-google-drive-migration/v1.0.0/deliverables/GWDRIVE-hero.png",
     "product_count": 3
   },
   {
@@ -6982,10 +7675,10 @@
     "category_slug": "google",
     "sol_code": "GWVAULT",
     "version": "1.0.0",
-    "status": "generated",
+    "status": "published",
     "created": "2026-07-06",
     "updated": "2026-07-06",
-    "published_at": null,
+    "published_at": "2026-07-06",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
     "skus": [
@@ -7001,16 +7694,115 @@
     "groups": {
       "Documentation": [
         {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/02-requirements.md",
+          "kb": 8.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/03-implementation.md",
+          "kb": 8.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
           "name": "global-requirements-google.md",
           "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/source/global-requirements-google.md",
           "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GWVAULT-Discovery.ps1",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/scripts/GWVAULT-Discovery.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "GWVAULT-Remediation.ps1",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/scripts/GWVAULT-Remediation.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "GWVAULT-Report.ps1",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/scripts/GWVAULT-Report.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "GWVAULT-Set-ScopeTargeting.ps1",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/scripts/GWVAULT-Set-ScopeTargeting.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GWVAULT-Validation.ps1",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/scripts/GWVAULT-Validation.ps1",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWVAULT-Complete-Solution.zip",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-Complete-Solution.zip",
+          "kb": 112.0
+        },
+        {
+          "name": "GWVAULT-hero.png",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-hero.png",
+          "kb": 416.7
+        },
+        {
+          "name": "GWVAULT-hero.svg",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GWVAULT-Scripts.zip",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "GWVAULT-Solution.docx",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-Solution.docx",
+          "kb": 56.7
+        },
+        {
+          "name": "GWVAULT-Solution.pdf",
+          "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-Solution.pdf",
+          "kb": 65.5
         }
       ],
       "Listing": [
         {
           "name": "bagisto-products.json",
           "href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.3
+          "kb": 15.1
         },
         {
           "name": "hero.json",
@@ -7036,10 +7828,10 @@
         }
       ]
     },
-    "script_count": 0,
-    "deliv_count": 0,
-    "doc_count": 1,
-    "hero_href": null,
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-vault-purview-coexistence-ediscovery/v1.0.0/deliverables/GWVAULT-hero.png",
     "product_count": 3
   },
   {
