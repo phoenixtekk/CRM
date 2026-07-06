@@ -1,13 +1,15 @@
 {
   "slug": "hdr-ad-rid-capacity-assessment",
-  "title": "Active Directory Capacity & Architecture Assessment — Project Group-Provisioning (RID) Review",
+  "title": "Active Directory Capacity & Architecture Assessment \u2014 Project Group-Provisioning (RID) Review",
   "category": "Infrastructure",
   "category_slug": "infrastructure",
   "sol_code": "HDRAD",
   "version": "1.0.0",
   "status": "generated",
   "created": "2026-07-03",
-  "branding": "on",
-  "deliverables": ["HDRAD-Solution.pdf"],
+  "branding": "off",
+  "deliverables": [
+    "HDRAD-Solution.pdf"
+  ],
   "products": []
 }
