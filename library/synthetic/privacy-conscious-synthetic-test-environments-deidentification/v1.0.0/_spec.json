@@ -1,0 +1,82 @@
+{
+  "sol": "SYNPRIV",
+  "slug": "privacy-conscious-synthetic-test-environments-deidentification",
+  "title": "Privacy-Conscious Synthetic Test Environments — De-Identification & Re-ID Risk",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Make test data privacy-safe — and prove it",
+  "problem": "Test environments built from clinical data have to be <strong>privacy-safe</strong> &mdash; and you must be able to demonstrate it. This solution establishes <strong>privacy-conscious synthetic test environments</strong>: de-identification technique and pipeline, re-identification-risk assessment (k-anonymity / disclosure risk), and the evidence to satisfy privacy and governance &mdash; so AI teams test on data that is safe by design and defensible on review.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the privacy model for test data: synthetic vs de-identified, disclosure-risk concepts (k-anonymity, l-diversity, membership/attribute inference), and the safe-by-design posture.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (data classification, privacy stakeholders/IRB where applicable, isolated environment, disclosure-risk threshold).",
+    "<strong>Implementation Guide</strong> &mdash; define the de-identification/synthesis pipeline, assess re-identification risk against the threshold, capture the privacy evidence, and validate before release, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (risk under threshold, evidence captured) plus Best Practices; regulatory determinations deferred to privacy/legal."
+  ],
+  "short": "Establish <strong>privacy-conscious synthetic test environments</strong> &mdash; de-identification pipeline, re-identification-risk assessment, and the evidence to satisfy governance &mdash; so AI teams test on data safe by design. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish privacy-conscious synthetic test environments — de-identification pipeline, re-identification-risk assessment, and the evidence to satisfy governance — so AI teams test on data safe by design.",
+  "meta_title": "Privacy-Conscious Synthetic Test Environments — De-Identification & Re-ID Risk",
+  "meta_description": "Build privacy-conscious synthetic/de-identified test environments: de-identification pipeline, re-identification-risk assessment (k-anonymity, disclosure risk), and privacy evidence. Self-guided steps and Python tools (regulatory determinations deferred to privacy/legal).",
+  "bottom_line": "Test data that is safe by design and defensible on review &mdash; de-identified or synthetic, re-ID risk assessed under threshold, evidence captured &mdash; so AI teams can evaluate without privacy exposure.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Privacy-Conscious",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Synthetic Test Environments",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "De-ID · Re-ID Risk · Evidence",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DISCLOSURE RISK",
+      "items": [
+        "Re-ID exposure",
+        "No risk assessment",
+        "No evidence",
+        "Governance blocks"
+      ]
+    },
+    "to": {
+      "label": "Safe by design",
+      "stat": "Defensible · evidenced"
+    },
+    "tagline": "DE-IDENTIFY.  ASSESS.  PROVE.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "De-ID",
+        "sub": "Pipeline"
+      },
+      {
+        "icon": "shield",
+        "title": "Re-ID Risk",
+        "sub": "k-anon/DR"
+      },
+      {
+        "icon": "chart",
+        "title": "Evidence",
+        "sub": "Privacy proof"
+      },
+      {
+        "icon": "gear",
+        "title": "Gates",
+        "sub": "Threshold"
+      }
+    ]
+  }
+}

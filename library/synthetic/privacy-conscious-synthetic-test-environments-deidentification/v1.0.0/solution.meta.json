@@ -1,0 +1,41 @@
+{
+  "slug": "privacy-conscious-synthetic-test-environments-deidentification",
+  "title": "Privacy-Conscious Synthetic Test Environments — De-Identification & Re-ID Risk",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "sol_code": "SYNPRIV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SYNPRIV-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SYNPRIV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SYNPRIV-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SYNPRIV-Solution.pdf",
+    "SYNPRIV-Scripts.zip"
+  ],
+  "hero": "SYNPRIV-hero.png"
+}
+

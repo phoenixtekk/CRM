@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Model Testing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Scenario Evaluation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Scenarios · Metrics · Gates",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHIP-AND-PRAY AI",
+    "items": [
+      "Demo-only testing",
+      "No scenarios",
+      "No pass/fail",
+      "Inconsistent eval"
+    ]
+  },
+  "to": {
+    "label": "Scenario harness",
+    "stat": "Safe · comparable"
+  },
+  "tagline": "SCENARIO.  EVALUATE.  GATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Scenarios",
+      "sub": "Reusable"
+    },
+    {
+      "icon": "chart",
+      "title": "Metrics",
+      "sub": "Captured"
+    },
+    {
+      "icon": "shield",
+      "title": "Gates",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "chip",
+      "title": "Models",
+      "sub": "Pre-prod"
+    }
+  ]
+}

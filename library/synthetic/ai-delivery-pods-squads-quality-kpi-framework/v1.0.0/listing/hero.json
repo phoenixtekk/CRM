@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Delivery",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Pods/Squads & KPIs",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Structure · Roles · Quality KPIs",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNMEASURED DELIVERY",
+    "items": [
+      "Unclear structure",
+      "Vanity metrics",
+      "No targets",
+      "No improvement"
+    ]
+  },
+  "to": {
+    "label": "Measured delivery",
+    "stat": "Structured · improving"
+  },
+  "tagline": "STRUCTURE.  MEASURE.  IMPROVE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Pods/Squads",
+      "sub": "Structure"
+    },
+    {
+      "icon": "chart",
+      "title": "KPIs",
+      "sub": "Productivity/quality"
+    },
+    {
+      "icon": "gear",
+      "title": "Targets",
+      "sub": "Dashboards"
+    },
+    {
+      "icon": "shield",
+      "title": "Cadence",
+      "sub": "Improvement"
+    }
+  ]
+}

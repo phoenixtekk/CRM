@@ -1,0 +1,82 @@
+{
+  "sol": "SYNVEND",
+  "slug": "digital-twin-synthetic-data-vendor-integration-framework",
+  "title": "Digital-Twin & Synthetic-Data Partner/Vendor Integration Framework",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Bring partner twin & synthetic-data capabilities in — without lock-in",
+  "problem": "Digital-twin and synthetic-data capabilities often come from <strong>partners</strong> &mdash; and integrating them well, across programs, without lock-in is the hard part. This solution defines the <strong>partner/vendor integration framework</strong>: how to evaluate digital-twin and synthetic-data vendors, the integration patterns to plug them into your harness and AI test environments, data/interface contracts, and anti-lock-in criteria &mdash; so partner capabilities are leveraged consistently and remain portable.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the integration model for external twin/synthetic-data capabilities: evaluation, integration patterns, data/interface contracts, portability.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (candidate vendors, your harness/test env, governance, evaluation criteria).",
+    "<strong>Implementation Guide</strong> &mdash; the vendor-evaluation method, the named integration patterns (data in/out, interface contracts), anti-lock-in/portability criteria, and a pilot integration, then expand.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (integrated, portable, governed) plus Best Practices for durable, low-lock-in partner integration."
+  ],
+  "short": "Define the <strong>partner/vendor integration framework</strong> for digital-twin & synthetic-data capabilities &mdash; evaluation, integration patterns, data/interface contracts, and anti-lock-in &mdash; so partner capabilities are leveraged consistently and stay portable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Define the partner/vendor integration framework for digital-twin & synthetic-data capabilities — evaluation, integration patterns, data/interface contracts, and anti-lock-in — so partner capabilities are leveraged consistently and stay portable.",
+  "meta_title": "Digital-Twin & Synthetic-Data Partner/Vendor Integration Framework",
+  "meta_description": "Integrate partner digital-twin and synthetic-data capabilities: vendor evaluation, integration patterns, data/interface contracts, and anti-lock-in/portability criteria. Self-guided framework and Python tools.",
+  "bottom_line": "Partner digital-twin and synthetic-data capabilities leveraged across programs &mdash; integrated consistently, contract-defined, and portable &mdash; without vendor lock-in.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Digital-Twin & Synthetic",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Vendor Integration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Evaluate · Integrate · Anti-Lock-In",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PARTNER LOCK-IN",
+      "items": [
+        "One-off integrations",
+        "No contracts",
+        "Vendor lock-in",
+        "Inconsistent use"
+      ]
+    },
+    "to": {
+      "label": "Portable integration",
+      "stat": "Consistent · governed"
+    },
+    "tagline": "EVALUATE.  INTEGRATE.  KEEP PORTABLE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Vendors",
+        "sub": "Evaluated"
+      },
+      {
+        "icon": "gear",
+        "title": "Patterns",
+        "sub": "Contracts"
+      },
+      {
+        "icon": "shield",
+        "title": "Anti-Lock-In",
+        "sub": "Portable"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Programs"
+      }
+    ]
+  }
+}

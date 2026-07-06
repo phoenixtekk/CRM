@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Digital-Twin & Synthetic",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Vendor Integration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Evaluate · Integrate · Anti-Lock-In",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PARTNER LOCK-IN",
+    "items": [
+      "One-off integrations",
+      "No contracts",
+      "Vendor lock-in",
+      "Inconsistent use"
+    ]
+  },
+  "to": {
+    "label": "Portable integration",
+    "stat": "Consistent · governed"
+  },
+  "tagline": "EVALUATE.  INTEGRATE.  KEEP PORTABLE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Vendors",
+      "sub": "Evaluated"
+    },
+    {
+      "icon": "gear",
+      "title": "Patterns",
+      "sub": "Contracts"
+    },
+    {
+      "icon": "shield",
+      "title": "Anti-Lock-In",
+      "sub": "Portable"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Programs"
+    }
+  ]
+}

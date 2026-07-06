@@ -1,0 +1,82 @@
+{
+  "sol": "HOSPTWIN",
+  "slug": "hospital-twin-simulated-environment-ai-testing",
+  "title": "Hospital Twin — Simulated Hospital Environment for AI Solution Testing",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T5 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Build a hospital twin to test AI safely before it reaches patients",
+  "problem": "Testing clinical AI in production is unacceptable &mdash; you need a place to try it first. This solution designs and builds a <strong>hospital twin</strong>: a simulated hospital environment, driven by synthetic clinical data and realistic operational dynamics, where AI solutions are evaluated against scenarios before broader adoption. It's the digital-twin harness that lets AI, QA, and architecture teams assess solutions safely and repeatably.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the hospital-twin concept: what it simulates (patients, encounters, workflows, events), how synthetic data drives it, and how AI solutions plug in for evaluation.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (synthetic data source, isolated environment, target AI use cases, scenario definitions, governance).",
+    "<strong>Build Guide</strong> &mdash; design the twin (entities, workflows, event dynamics), wire the synthetic data feed, define evaluation scenarios and AI plug-in points, run a pilot evaluation, and expand fidelity.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (twin runs, scenarios execute, AI evaluated) plus Best Practices for iterative fidelity refinement."
+  ],
+  "short": "Design and build a <strong>hospital twin</strong> &mdash; a simulated hospital driven by synthetic data &mdash; where AI solutions are evaluated against scenarios safely before broader adoption. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design and build a hospital twin — a simulated hospital driven by synthetic data — where AI solutions are evaluated against scenarios safely before broader adoption.",
+  "meta_title": "Hospital Twin — Simulated Hospital Environment for AI Solution Testing",
+  "meta_description": "Design and build a hospital twin: a simulated hospital environment driven by synthetic clinical data for scenario-based AI solution testing before broader adoption. Self-guided steps and Python tools.",
+  "bottom_line": "A hospital twin where clinical AI is proven safe against realistic scenarios &mdash; before it ever touches a real patient &mdash; iteratively refined for higher fidelity.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Hospital Twin",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Simulated Environment",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Digital Twin · Scenarios · AI Testing",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PRODUCTION AI RISK",
+      "items": [
+        "Test on real patients",
+        "No safe sandbox",
+        "Unrepeatable eval",
+        "Late failures"
+      ]
+    },
+    "to": {
+      "label": "Simulated hospital",
+      "stat": "Safe AI evaluation"
+    },
+    "tagline": "SIMULATE.  EVALUATE.  REFINE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Twin",
+        "sub": "Simulated hospital"
+      },
+      {
+        "icon": "gear",
+        "title": "Scenarios",
+        "sub": "Driven by data"
+      },
+      {
+        "icon": "chip",
+        "title": "AI Plug-In",
+        "sub": "Evaluated"
+      },
+      {
+        "icon": "chart",
+        "title": "Fidelity",
+        "sub": "Refined"
+      }
+    ]
+  }
+}

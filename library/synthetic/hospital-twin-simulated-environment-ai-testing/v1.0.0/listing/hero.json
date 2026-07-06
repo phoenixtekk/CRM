@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Hospital Twin",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Simulated Environment",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Digital Twin · Scenarios · AI Testing",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PRODUCTION AI RISK",
+    "items": [
+      "Test on real patients",
+      "No safe sandbox",
+      "Unrepeatable eval",
+      "Late failures"
+    ]
+  },
+  "to": {
+    "label": "Simulated hospital",
+    "stat": "Safe AI evaluation"
+  },
+  "tagline": "SIMULATE.  EVALUATE.  REFINE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Twin",
+      "sub": "Simulated hospital"
+    },
+    {
+      "icon": "gear",
+      "title": "Scenarios",
+      "sub": "Driven by data"
+    },
+    {
+      "icon": "chip",
+      "title": "AI Plug-In",
+      "sub": "Evaluated"
+    },
+    {
+      "icon": "chart",
+      "title": "Fidelity",
+      "sub": "Refined"
+    }
+  ]
+}

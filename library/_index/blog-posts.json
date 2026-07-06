@@ -998,5 +998,55 @@
     "post_id": 12224,
     "status": "draft",
     "category_id": 411
+  },
+  "synthetic-data-subfunction-standup-quality-engineering": {
+    "post_id": 12226,
+    "status": "draft",
+    "category_id": 411
+  },
+  "clinical-synthetic-data-generation-harness": {
+    "post_id": 12228,
+    "status": "draft",
+    "category_id": 411
+  },
+  "hospital-twin-simulated-environment-ai-testing": {
+    "post_id": 12230,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ai-model-testing-scenario-evaluation-harness": {
+    "post_id": 12232,
+    "status": "draft",
+    "category_id": 411
+  },
+  "privacy-conscious-synthetic-test-environments-deidentification": {
+    "post_id": 12234,
+    "status": "draft",
+    "category_id": 411
+  },
+  "synthetic-data-governance-regulated-healthcare": {
+    "post_id": 12236,
+    "status": "draft",
+    "category_id": 411
+  },
+  "synthetic-data-fidelity-validation-asset-library": {
+    "post_id": 12238,
+    "status": "draft",
+    "category_id": 411
+  },
+  "multimodal-clinical-synthetic-data": {
+    "post_id": 12240,
+    "status": "draft",
+    "category_id": 411
+  },
+  "digital-twin-synthetic-data-vendor-integration-framework": {
+    "post_id": 12242,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ai-delivery-pods-squads-quality-kpi-framework": {
+    "post_id": 12244,
+    "status": "draft",
+    "category_id": 411
   }
 }

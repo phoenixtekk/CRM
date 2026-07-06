@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Multi-Modal",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Clinical Synthetic Data",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Structured · Notes · Vitals/Time-Series",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TABULAR-ONLY",
+    "items": [
+      "No synthetic notes",
+      "No vitals/signals",
+      "Inconsistent modalities",
+      "Limited AI tests"
+    ]
+  },
+  "to": {
+    "label": "Multi-modal data",
+    "stat": "Consistent per patient"
+  },
+  "tagline": "STRUCTURE.  NARRATE.  MEASURE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Structured",
+      "sub": "Records"
+    },
+    {
+      "icon": "users",
+      "title": "Notes",
+      "sub": "NLP-ready"
+    },
+    {
+      "icon": "chart",
+      "title": "Vitals",
+      "sub": "Time-series"
+    },
+    {
+      "icon": "shield",
+      "title": "Consistency",
+      "sub": "Cross-modal"
+    }
+  ]
+}

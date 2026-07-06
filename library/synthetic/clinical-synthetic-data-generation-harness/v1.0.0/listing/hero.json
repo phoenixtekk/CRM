@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Clinical Synthetic Data",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Generation Harness",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "FHIR/OMOP · Plausible · Reproducible",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "REAL-PHI RISK",
+    "items": [
+      "Privacy exposure",
+      "No safe test data",
+      "Unrealistic mocks",
+      "Not reproducible"
+    ]
+  },
+  "to": {
+    "label": "Safe synthetic data",
+    "stat": "Realistic + private"
+  },
+  "tagline": "MODEL.  GENERATE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Generation",
+      "sub": "FHIR/OMOP"
+    },
+    {
+      "icon": "chart",
+      "title": "Plausibility",
+      "sub": "Distributions"
+    },
+    {
+      "icon": "shield",
+      "title": "Privacy",
+      "sub": "No real PHI"
+    },
+    {
+      "icon": "cloud",
+      "title": "Scenarios",
+      "sub": "Reproducible"
+    }
+  ]
+}

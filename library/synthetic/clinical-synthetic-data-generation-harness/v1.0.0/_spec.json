@@ -1,0 +1,82 @@
+{
+  "sol": "SYNCLIN",
+  "slug": "clinical-synthetic-data-generation-harness",
+  "title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Generate realistic clinical data without touching real PHI",
+  "problem": "AI and QA teams need <strong>realistic clinical data</strong> to test against &mdash; but real EHR data carries privacy risk they can't take on. This solution builds a <strong>clinical synthetic data generation harness</strong>: generate clinically plausible, privacy-conscious synthetic records (patients, encounters, conditions, medications, labs, vitals) against a target model (FHIR/OMOP/native), with configurable scenarios and reproducibility &mdash; so teams get high-fidelity test data safely.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the synthetic clinical-data model: target standard (FHIR/OMOP/native), generation approach, clinical plausibility, reproducibility, and the privacy-conscious posture.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Python environment, target data model, isolated environment, privacy stakeholders, reference stats).",
+    "<strong>Implementation Guide</strong> &mdash; design the generation harness (entities, relationships, distributions, scenarios), generate a pilot dataset, validate clinical plausibility, and expand coverage.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (schema-valid, plausible, reproducible) plus Best Practices for a maintainable, extensible harness."
+  ],
+  "short": "Build a <strong>clinical synthetic data generation harness</strong> &mdash; realistic, privacy-conscious EHR records against FHIR/OMOP/native, with scenarios and reproducibility &mdash; so AI/QA get high-fidelity test data safely. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a clinical synthetic data generation harness — realistic, privacy-conscious EHR records against FHIR/OMOP/native, with scenarios and reproducibility — so AI/QA get high-fidelity test data safely.",
+  "meta_title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+  "meta_description": "Build a clinical synthetic data generation harness: realistic, privacy-conscious EHR records (patients, encounters, labs, meds, vitals) against FHIR/OMOP/native, with scenarios and reproducibility. Self-guided steps and Python tools.",
+  "bottom_line": "Realistic clinical test data on demand &mdash; clinically plausible, reproducible, and privacy-conscious &mdash; so AI and QA teams evaluate safely without real PHI.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Clinical Synthetic Data",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Generation Harness",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "FHIR/OMOP · Plausible · Reproducible",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "REAL-PHI RISK",
+      "items": [
+        "Privacy exposure",
+        "No safe test data",
+        "Unrealistic mocks",
+        "Not reproducible"
+      ]
+    },
+    "to": {
+      "label": "Safe synthetic data",
+      "stat": "Realistic + private"
+    },
+    "tagline": "MODEL.  GENERATE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Generation",
+        "sub": "FHIR/OMOP"
+      },
+      {
+        "icon": "chart",
+        "title": "Plausibility",
+        "sub": "Distributions"
+      },
+      {
+        "icon": "shield",
+        "title": "Privacy",
+        "sub": "No real PHI"
+      },
+      {
+        "icon": "cloud",
+        "title": "Scenarios",
+        "sub": "Reproducible"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "SYNFUNC",
+  "slug": "synthetic-data-subfunction-standup-quality-engineering",
+  "title": "Synthetic Data Sub-Function Standup for Quality Engineering (Operating Model, Pods & KPIs)",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T5 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Stand up a synthetic-data capability inside quality engineering",
+  "problem": "Building a <strong>synthetic data sub-function</strong> in a greenfield quality-engineering org is an operating-model problem, not just a tooling one. This solution stands up the capability end to end: the team structure (pods/squads), intake and prioritization, the reference architecture, the maturity model, and the <strong>KPIs</strong> that track engineering productivity and delivery quality &mdash; so synthetic data and simulation become a repeatable, measured service across programs and products.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the synthetic-data sub-function: mission, scope, how it serves AI/QA teams, and the operating model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (sponsorship, environment, governance stakeholders, target data model, pilot AI use cases).",
+    "<strong>Operating Model & Roadmap</strong> &mdash; team structure (pods/squads), intake/prioritization, reference architecture, a maturity model, and a delivery-quality + productivity <strong>KPI framework</strong>.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates + a Capability document template</strong> and Best Practices for scaling the sub-function across programs."
+  ],
+  "short": "Stand up a <strong>synthetic data sub-function</strong> in quality engineering &mdash; pods/squads, intake, reference architecture, maturity model, and delivery-quality KPIs &mdash; so simulation becomes a repeatable, measured service. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up a synthetic data sub-function in quality engineering — pods/squads, intake, reference architecture, maturity model, and delivery-quality KPIs — so simulation becomes a repeatable, measured service.",
+  "meta_title": "Synthetic Data Sub-Function Standup for Quality Engineering",
+  "meta_description": "Build a synthetic data sub-function inside quality engineering: operating model, pods/squads, intake, reference architecture, maturity model, and delivery-quality/productivity KPIs. Self-guided framework and Python tools.",
+  "bottom_line": "A synthetic-data capability that operates as a repeatable, measured service &mdash; structured teams, clear intake, and KPIs proving delivery quality &mdash; serving AI and QA across programs.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Synthetic Data",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Sub-Function Standup",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Pods · Intake · Maturity · KPIs",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "AD-HOC CAPABILITY",
+      "items": [
+        "No operating model",
+        "Unclear intake",
+        "No maturity path",
+        "No KPIs"
+      ]
+    },
+    "to": {
+      "label": "Measured service",
+      "stat": "Repeatable · scaled"
+    },
+    "tagline": "STRUCTURE.  INTAKE.  MEASURE.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Pods/Squads",
+        "sub": "Structure"
+      },
+      {
+        "icon": "gear",
+        "title": "Intake",
+        "sub": "Prioritization"
+      },
+      {
+        "icon": "chart",
+        "title": "KPIs",
+        "sub": "Quality"
+      },
+      {
+        "icon": "shield",
+        "title": "Maturity",
+        "sub": "Roadmap"
+      }
+    ]
+  }
+}

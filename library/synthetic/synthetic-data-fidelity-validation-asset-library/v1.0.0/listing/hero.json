@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Synthetic Data Fidelity",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Validation Assets",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Metrics · Coverage · Reusable",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNPROVEN DATA",
+    "items": [
+      "No fidelity proof",
+      "Re-invented validation",
+      "Coverage gaps",
+      "Distrust"
+    ]
+  },
+  "to": {
+    "label": "Evidenced quality",
+    "stat": "Reusable validation"
+  },
+  "tagline": "MEASURE.  COVER.  REUSE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Fidelity",
+      "sub": "vs real"
+    },
+    {
+      "icon": "gear",
+      "title": "Coverage",
+      "sub": "Edge cases"
+    },
+    {
+      "icon": "shield",
+      "title": "Utility",
+      "sub": "Fit-for-use"
+    },
+    {
+      "icon": "cloud",
+      "title": "Assets",
+      "sub": "Reusable"
+    }
+  ]
+}

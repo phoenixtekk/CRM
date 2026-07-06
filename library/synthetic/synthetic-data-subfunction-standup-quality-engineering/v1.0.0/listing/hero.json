@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Synthetic Data",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Sub-Function Standup",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Pods · Intake · Maturity · KPIs",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AD-HOC CAPABILITY",
+    "items": [
+      "No operating model",
+      "Unclear intake",
+      "No maturity path",
+      "No KPIs"
+    ]
+  },
+  "to": {
+    "label": "Measured service",
+    "stat": "Repeatable · scaled"
+  },
+  "tagline": "STRUCTURE.  INTAKE.  MEASURE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Pods/Squads",
+      "sub": "Structure"
+    },
+    {
+      "icon": "gear",
+      "title": "Intake",
+      "sub": "Prioritization"
+    },
+    {
+      "icon": "chart",
+      "title": "KPIs",
+      "sub": "Quality"
+    },
+    {
+      "icon": "shield",
+      "title": "Maturity",
+      "sub": "Roadmap"
+    }
+  ]
+}

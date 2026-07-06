@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Synthetic Data",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "HIPAA/HITRUST · Lineage · Approval",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHADOW DATA RISK",
+    "items": [
+      "No lineage",
+      "Ungoverned assets",
+      "No approval",
+      "Compliance gaps"
+    ]
+  },
+  "to": {
+    "label": "Governed synthetic data",
+    "stat": "Auditable · aligned"
+  },
+  "tagline": "CATALOG.  CLASSIFY.  APPROVE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Governance",
+      "sub": "Policy"
+    },
+    {
+      "icon": "gear",
+      "title": "Lineage",
+      "sub": "Catalog"
+    },
+    {
+      "icon": "lock",
+      "title": "Access",
+      "sub": "Controlled"
+    },
+    {
+      "icon": "chart",
+      "title": "Approval",
+      "sub": "Auditable"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Privacy-Conscious",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Synthetic Test Environments",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "De-ID · Re-ID Risk · Evidence",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DISCLOSURE RISK",
+    "items": [
+      "Re-ID exposure",
+      "No risk assessment",
+      "No evidence",
+      "Governance blocks"
+    ]
+  },
+  "to": {
+    "label": "Safe by design",
+    "stat": "Defensible · evidenced"
+  },
+  "tagline": "DE-IDENTIFY.  ASSESS.  PROVE.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "De-ID",
+      "sub": "Pipeline"
+    },
+    {
+      "icon": "shield",
+      "title": "Re-ID Risk",
+      "sub": "k-anon/DR"
+    },
+    {
+      "icon": "chart",
+      "title": "Evidence",
+      "sub": "Privacy proof"
+    },
+    {
+      "icon": "gear",
+      "title": "Gates",
+      "sub": "Threshold"
+    }
+  ]
+}

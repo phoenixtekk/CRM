@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "ai-model-testing-scenario-evaluation-harness",
+    "title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production)",
+    "category_path": [
+      "Synthetic"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AITEST-COMM-001",
+      "name": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Build an <strong>AI model testing and scenario-based evaluation harness</strong> &mdash; scenarios, metrics, synthetic/twin test data, and pass/fail gates &mdash; so AI is evaluated safely and consistently before production. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Evaluate AI models against scenarios before you ship them</h3><p>AI teams need to prove a model is safe and useful <strong>before production</strong> &mdash; against realistic, repeatable scenarios, not one-off demos. This solution builds an <strong>AI model testing and scenario-based evaluation harness</strong>: define evaluation scenarios and metrics, run models against synthetic/twin data, capture results with pass/fail gates, and make the whole thing reusable &mdash; so AI is evaluated safely and consistently before broader adoption.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python tooling.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the evaluation model: scenarios, metrics, test data (synthetic/twin), pass/fail gates, and reusability.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (synthetic/twin data, model access, evaluation metrics, isolated environment, use cases).</li><li><strong>Implementation Guide</strong> &mdash; define evaluation scenarios + metrics, wire the model and synthetic/twin data, run evaluations with pass/fail gates, capture results, and make the harness reusable, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (scenarios run, metrics captured, gates enforced) plus Best Practices for repeatable, comparable evaluation.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>AI models proven against realistic scenarios with clear pass/fail gates &mdash; evaluated safely and comparably before broader adoption &mdash; with a reusable harness the org keeps.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>eval_scope_assess.py</code> &mdash; profile readiness/scope for the AI evaluation harness (read-only)</li><li><code>harness_config.py</code> &mdash; scaffold/validate the harness config + asset skeletons; manage the baseline</li><li><code>metrics_reporter.py</code> &mdash; aggregate a Run Record and enforce the Evaluation Gate Policy (PASS/FAIL)</li><li><code>regression_check.py</code> &mdash; compare a Run Record to the approved baseline and verify the safety boundary</li><li><code>scenario_runner.py</code> &mdash; run scenarios against a Model Under Test adapter and record metrics</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production)",
+      "meta_description": "Build an AI model testing and scenario-based evaluation harness: evaluation scenarios and metrics, synthetic/twin test data, and pass/fail gates for safe pre-production AI evaluation. Self-guided steps and Python tools.",
+      "url_key": "ai-model-testing-scenario-evaluation-harness-commercial",
+      "image": "AITEST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AITEST-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "AITEST-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AITEST-NPO-001",
+      "name": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Build an AI model testing and scenario-based evaluation harness — scenarios, metrics, synthetic/twin test data, and pass/fail gates — so AI is evaluated safely and consistently before production. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Evaluate AI models against scenarios before you ship them</h3><p>AI teams need to prove a model is safe and useful <strong>before production</strong> &mdash; against realistic, repeatable scenarios, not one-off demos. This solution builds an <strong>AI model testing and scenario-based evaluation harness</strong>: define evaluation scenarios and metrics, run models against synthetic/twin data, capture results with pass/fail gates, and make the whole thing reusable &mdash; so AI is evaluated safely and consistently before broader adoption.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the evaluation model: scenarios, metrics, test data (synthetic/twin), pass/fail gates, and reusability.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (synthetic/twin data, model access, evaluation metrics, isolated environment, use cases).</li><li><strong>Implementation Guide</strong> &mdash; define evaluation scenarios + metrics, wire the model and synthetic/twin data, run evaluations with pass/fail gates, capture results, and make the harness reusable, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (scenarios run, metrics captured, gates enforced) plus Best Practices for repeatable, comparable evaluation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>eval_scope_assess.py</code> &mdash; profile readiness/scope for the AI evaluation harness (read-only)</li><li><code>harness_config.py</code> &mdash; scaffold/validate the harness config + asset skeletons; manage the baseline</li><li><code>metrics_reporter.py</code> &mdash; aggregate a Run Record and enforce the Evaluation Gate Policy (PASS/FAIL)</li><li><code>regression_check.py</code> &mdash; compare a Run Record to the approved baseline and verify the safety boundary</li><li><code>scenario_runner.py</code> &mdash; run scenarios against a Model Under Test adapter and record metrics</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Build an AI model testing and scenario-based evaluation harness: evaluation scenarios and metrics, synthetic/twin test data, and pass/fail gates for safe pre-production AI evaluation. Self-guided steps and Python tools.",
+      "url_key": "ai-model-testing-scenario-evaluation-harness-nonprofit",
+      "image": "AITEST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AITEST-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "AITEST-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AITEST-GOV-001",
+      "name": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Build an AI model testing and scenario-based evaluation harness — scenarios, metrics, synthetic/twin test data, and pass/fail gates — so AI is evaluated safely and consistently before production. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Evaluate AI models against scenarios before you ship them</h3><p>AI teams need to prove a model is safe and useful <strong>before production</strong> &mdash; against realistic, repeatable scenarios, not one-off demos. This solution builds an <strong>AI model testing and scenario-based evaluation harness</strong>: define evaluation scenarios and metrics, run models against synthetic/twin data, capture results with pass/fail gates, and make the whole thing reusable &mdash; so AI is evaluated safely and consistently before broader adoption.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the evaluation model: scenarios, metrics, test data (synthetic/twin), pass/fail gates, and reusability.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (synthetic/twin data, model access, evaluation metrics, isolated environment, use cases).</li><li><strong>Implementation Guide</strong> &mdash; define evaluation scenarios + metrics, wire the model and synthetic/twin data, run evaluations with pass/fail gates, capture results, and make the harness reusable, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (scenarios run, metrics captured, gates enforced) plus Best Practices for repeatable, comparable evaluation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>eval_scope_assess.py</code> &mdash; profile readiness/scope for the AI evaluation harness (read-only)</li><li><code>harness_config.py</code> &mdash; scaffold/validate the harness config + asset skeletons; manage the baseline</li><li><code>metrics_reporter.py</code> &mdash; aggregate a Run Record and enforce the Evaluation Gate Policy (PASS/FAIL)</li><li><code>regression_check.py</code> &mdash; compare a Run Record to the approved baseline and verify the safety boundary</li><li><code>scenario_runner.py</code> &mdash; run scenarios against a Model Under Test adapter and record metrics</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Build an AI model testing and scenario-based evaluation harness: evaluation scenarios and metrics, synthetic/twin test data, and pass/fail gates for safe pre-production AI evaluation. Self-guided steps and Python tools.",
+      "url_key": "ai-model-testing-scenario-evaluation-harness-government",
+      "image": "AITEST-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AITEST-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "AITEST-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

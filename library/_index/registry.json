@@ -33319,5 +33319,1670 @@
     "doc_count": 10,
     "hero_href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.png",
     "product_count": 3
+  },
+  {
+    "title": "AI Delivery Pods/Squads & Engineering-Quality KPI Framework",
+    "slug": "ai-delivery-pods-squads-quality-kpi-framework",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "AIKPI",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AIKPI-COMM-001",
+      "PTK-AIKPI-NPO-001",
+      "PTK-AIKPI-GOV-001"
+    ],
+    "deliverables": [
+      "AIKPI-Solution.pdf",
+      "AIKPI-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\ai-delivery-pods-squads-quality-kpi-framework\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/03-implementation.md",
+          "kb": 7.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "kpi_definition_validator.py",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/scripts/kpi_definition_validator.py",
+          "kb": 6.5
+        },
+        {
+          "name": "kpi_privacy_check.py",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/scripts/kpi_privacy_check.py",
+          "kb": 5.4
+        },
+        {
+          "name": "kpi_rollup_generator.py",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/scripts/kpi_rollup_generator.py",
+          "kb": 6.0
+        },
+        {
+          "name": "kpi_variance_reporter.py",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/scripts/kpi_variance_reporter.py",
+          "kb": 6.6
+        },
+        {
+          "name": "pod_capacity_planner.py",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/scripts/pod_capacity_planner.py",
+          "kb": 6.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AIKPI-Complete-Solution.zip",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-Complete-Solution.zip",
+          "kb": 99.1
+        },
+        {
+          "name": "AIKPI-hero.png",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-hero.png",
+          "kb": 426.2
+        },
+        {
+          "name": "AIKPI-hero.svg",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "AIKPI-Scripts.zip",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-Scripts.zip",
+          "kb": 12.2
+        },
+        {
+          "name": "AIKPI-Solution.docx",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-Solution.docx",
+          "kb": 53.7
+        },
+        {
+          "name": "AIKPI-Solution.pdf",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-Solution.pdf",
+          "kb": 50.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/ai-delivery-pods-squads-quality-kpi-framework/v1.0.0/deliverables/AIKPI-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production)",
+    "slug": "ai-model-testing-scenario-evaluation-harness",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "AITEST",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AITEST-COMM-001",
+      "PTK-AITEST-NPO-001",
+      "PTK-AITEST-GOV-001"
+    ],
+    "deliverables": [
+      "AITEST-Solution.pdf",
+      "AITEST-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\ai-model-testing-scenario-evaluation-harness\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/02-requirements.md",
+          "kb": 5.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/03-implementation.md",
+          "kb": 7.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "eval_scope_assess.py",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/scripts/eval_scope_assess.py",
+          "kb": 4.9
+        },
+        {
+          "name": "harness_config.py",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/scripts/harness_config.py",
+          "kb": 7.1
+        },
+        {
+          "name": "metrics_reporter.py",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/scripts/metrics_reporter.py",
+          "kb": 5.0
+        },
+        {
+          "name": "regression_check.py",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/scripts/regression_check.py",
+          "kb": 4.5
+        },
+        {
+          "name": "scenario_runner.py",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/scripts/scenario_runner.py",
+          "kb": 7.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AITEST-Complete-Solution.zip",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-Complete-Solution.zip",
+          "kb": 96.8
+        },
+        {
+          "name": "AITEST-hero.png",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-hero.png",
+          "kb": 398.5
+        },
+        {
+          "name": "AITEST-hero.svg",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "AITEST-Scripts.zip",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-Scripts.zip",
+          "kb": 11.9
+        },
+        {
+          "name": "AITEST-Solution.docx",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-Solution.docx",
+          "kb": 52.9
+        },
+        {
+          "name": "AITEST-Solution.pdf",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-Solution.pdf",
+          "kb": 48.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/ai-model-testing-scenario-evaluation-harness/v1.0.0/deliverables/AITEST-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+    "slug": "clinical-synthetic-data-generation-harness",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNCLIN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNCLIN-COMM-001",
+      "PTK-SYNCLIN-NPO-001",
+      "PTK-SYNCLIN-GOV-001"
+    ],
+    "deliverables": [
+      "SYNCLIN-Solution.pdf",
+      "SYNCLIN-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\clinical-synthetic-data-generation-harness\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/03-implementation.md",
+          "kb": 7.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "generate_harness.py",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/scripts/generate_harness.py",
+          "kb": 7.8
+        },
+        {
+          "name": "plausibility_report.py",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/scripts/plausibility_report.py",
+          "kb": 6.8
+        },
+        {
+          "name": "scenario_config.py",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/scripts/scenario_config.py",
+          "kb": 6.4
+        },
+        {
+          "name": "schema_privacy_validator.py",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/scripts/schema_privacy_validator.py",
+          "kb": 7.3
+        },
+        {
+          "name": "scope_assessment.py",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/scripts/scope_assessment.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNCLIN-Complete-Solution.zip",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-Complete-Solution.zip",
+          "kb": 99.9
+        },
+        {
+          "name": "SYNCLIN-hero.png",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-hero.png",
+          "kb": 416.1
+        },
+        {
+          "name": "SYNCLIN-hero.svg",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SYNCLIN-Scripts.zip",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-Scripts.zip",
+          "kb": 13.1
+        },
+        {
+          "name": "SYNCLIN-Solution.docx",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-Solution.docx",
+          "kb": 53.3
+        },
+        {
+          "name": "SYNCLIN-Solution.pdf",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-Solution.pdf",
+          "kb": 50.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/clinical-synthetic-data-generation-harness/v1.0.0/deliverables/SYNCLIN-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Digital-Twin & Synthetic-Data Partner/Vendor Integration Framework",
+    "slug": "digital-twin-synthetic-data-vendor-integration-framework",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNVEND",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNVEND-COMM-001",
+      "PTK-SYNVEND-NPO-001",
+      "PTK-SYNVEND-GOV-001"
+    ],
+    "deliverables": [
+      "SYNVEND-Solution.pdf",
+      "SYNVEND-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\digital-twin-synthetic-data-vendor-integration-framework\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/03-implementation.md",
+          "kb": 6.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/07-best-practices.md",
+          "kb": 3.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "adapter_conformance_checker.py",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/scripts/adapter_conformance_checker.py",
+          "kb": 4.0
+        },
+        {
+          "name": "integration_contract_validator.py",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/scripts/integration_contract_validator.py",
+          "kb": 6.1
+        },
+        {
+          "name": "portability_lockin_assessor.py",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/scripts/portability_lockin_assessor.py",
+          "kb": 5.1
+        },
+        {
+          "name": "privacy_validation_check.py",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/scripts/privacy_validation_check.py",
+          "kb": 4.3
+        },
+        {
+          "name": "vendor_evaluation_scorecard.py",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/scripts/vendor_evaluation_scorecard.py",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNVEND-Complete-Solution.zip",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-Complete-Solution.zip",
+          "kb": 96.2
+        },
+        {
+          "name": "SYNVEND-hero.png",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-hero.png",
+          "kb": 467.5
+        },
+        {
+          "name": "SYNVEND-hero.svg",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SYNVEND-Scripts.zip",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-Scripts.zip",
+          "kb": 10.9
+        },
+        {
+          "name": "SYNVEND-Solution.docx",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-Solution.docx",
+          "kb": 52.5
+        },
+        {
+          "name": "SYNVEND-Solution.pdf",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-Solution.pdf",
+          "kb": 49.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/digital-twin-synthetic-data-vendor-integration-framework/v1.0.0/deliverables/SYNVEND-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Hospital Twin — Simulated Hospital Environment for AI Solution Testing",
+    "slug": "hospital-twin-simulated-environment-ai-testing",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "HOSPTWIN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-HOSPTWIN-COMM-001",
+      "PTK-HOSPTWIN-NPO-001",
+      "PTK-HOSPTWIN-GOV-001"
+    ],
+    "deliverables": [
+      "HOSPTWIN-Solution.pdf",
+      "HOSPTWIN-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\hospital-twin-simulated-environment-ai-testing\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/03-implementation.md",
+          "kb": 8.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "twin_fidelity_report.py",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/scripts/twin_fidelity_report.py",
+          "kb": 7.3
+        },
+        {
+          "name": "twin_privacy_validate.py",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/scripts/twin_privacy_validate.py",
+          "kb": 6.6
+        },
+        {
+          "name": "twin_readiness_assess.py",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/scripts/twin_readiness_assess.py",
+          "kb": 9.9
+        },
+        {
+          "name": "twin_scenario_runner.py",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/scripts/twin_scenario_runner.py",
+          "kb": 7.7
+        },
+        {
+          "name": "twin_simulator.py",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/scripts/twin_simulator.py",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "HOSPTWIN-Complete-Solution.zip",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-Complete-Solution.zip",
+          "kb": 101.7
+        },
+        {
+          "name": "HOSPTWIN-hero.png",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-hero.png",
+          "kb": 441.9
+        },
+        {
+          "name": "HOSPTWIN-hero.svg",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "HOSPTWIN-Scripts.zip",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-Scripts.zip",
+          "kb": 14.5
+        },
+        {
+          "name": "HOSPTWIN-Solution.docx",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-Solution.docx",
+          "kb": 53.6
+        },
+        {
+          "name": "HOSPTWIN-Solution.pdf",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-Solution.pdf",
+          "kb": 50.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/hospital-twin-simulated-environment-ai-testing/v1.0.0/deliverables/HOSPTWIN-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Multi-Modal Clinical Synthetic Data (Structured + Clinical Notes + Vitals Time-Series)",
+    "slug": "multimodal-clinical-synthetic-data",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNMULTI",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNMULTI-COMM-001",
+      "PTK-SYNMULTI-NPO-001",
+      "PTK-SYNMULTI-GOV-001"
+    ],
+    "deliverables": [
+      "SYNMULTI-Solution.pdf",
+      "SYNMULTI-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\multimodal-clinical-synthetic-data\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/02-requirements.md",
+          "kb": 6.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/03-implementation.md",
+          "kb": 6.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "crossmodal_consistency_check.py",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/scripts/crossmodal_consistency_check.py",
+          "kb": 7.6
+        },
+        {
+          "name": "fidelity_coverage_report.py",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/scripts/fidelity_coverage_report.py",
+          "kb": 5.9
+        },
+        {
+          "name": "modality_scope_assess.py",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/scripts/modality_scope_assess.py",
+          "kb": 5.3
+        },
+        {
+          "name": "multimodal_generate.py",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/scripts/multimodal_generate.py",
+          "kb": 9.6
+        },
+        {
+          "name": "scope_config_helper.py",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/scripts/scope_config_helper.py",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNMULTI-Complete-Solution.zip",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-Complete-Solution.zip",
+          "kb": 100.7
+        },
+        {
+          "name": "SYNMULTI-hero.png",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-hero.png",
+          "kb": 439.7
+        },
+        {
+          "name": "SYNMULTI-hero.svg",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SYNMULTI-Scripts.zip",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-Scripts.zip",
+          "kb": 13.8
+        },
+        {
+          "name": "SYNMULTI-Solution.docx",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-Solution.docx",
+          "kb": 53.1
+        },
+        {
+          "name": "SYNMULTI-Solution.pdf",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-Solution.pdf",
+          "kb": 51.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/multimodal-clinical-synthetic-data/v1.0.0/deliverables/SYNMULTI-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Privacy-Conscious Synthetic Test Environments — De-Identification & Re-ID Risk",
+    "slug": "privacy-conscious-synthetic-test-environments-deidentification",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNPRIV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNPRIV-COMM-001",
+      "PTK-SYNPRIV-NPO-001",
+      "PTK-SYNPRIV-GOV-001"
+    ],
+    "deliverables": [
+      "SYNPRIV-Solution.pdf",
+      "SYNPRIV-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\privacy-conscious-synthetic-test-environments-deidentification\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/02-requirements.md",
+          "kb": 5.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/03-implementation.md",
+          "kb": 6.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/07-best-practices.md",
+          "kb": 3.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "deid_config_helper.py",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/scripts/deid_config_helper.py",
+          "kb": 9.0
+        },
+        {
+          "name": "deid_pipeline.py",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/scripts/deid_pipeline.py",
+          "kb": 5.6
+        },
+        {
+          "name": "fidelity_coverage_report.py",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/scripts/fidelity_coverage_report.py",
+          "kb": 4.9
+        },
+        {
+          "name": "phi_field_scanner.py",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/scripts/phi_field_scanner.py",
+          "kb": 7.7
+        },
+        {
+          "name": "reid_risk_assessor.py",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/scripts/reid_risk_assessor.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNPRIV-Complete-Solution.zip",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-Complete-Solution.zip",
+          "kb": 95.3
+        },
+        {
+          "name": "SYNPRIV-hero.png",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-hero.png",
+          "kb": 415.6
+        },
+        {
+          "name": "SYNPRIV-hero.svg",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SYNPRIV-Scripts.zip",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-Scripts.zip",
+          "kb": 13.4
+        },
+        {
+          "name": "SYNPRIV-Solution.docx",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-Solution.docx",
+          "kb": 51.5
+        },
+        {
+          "name": "SYNPRIV-Solution.pdf",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-Solution.pdf",
+          "kb": 46.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/privacy-conscious-synthetic-test-environments-deidentification/v1.0.0/deliverables/SYNPRIV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Synthetic Data Fidelity & Validation Asset Library",
+    "slug": "synthetic-data-fidelity-validation-asset-library",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNFID",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNFID-COMM-001",
+      "PTK-SYNFID-NPO-001",
+      "PTK-SYNFID-GOV-001"
+    ],
+    "deliverables": [
+      "SYNFID-Solution.pdf",
+      "SYNFID-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\synthetic-data-fidelity-validation-asset-library\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/03-implementation.md",
+          "kb": 6.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "synfid_config.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_config.py",
+          "kb": 7.7
+        },
+        {
+          "name": "synfid_coverage.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_coverage.py",
+          "kb": 5.0
+        },
+        {
+          "name": "synfid_fidelity.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_fidelity.py",
+          "kb": 8.1
+        },
+        {
+          "name": "synfid_privacy.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_privacy.py",
+          "kb": 5.7
+        },
+        {
+          "name": "synfid_profile.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_profile.py",
+          "kb": 6.8
+        },
+        {
+          "name": "synfid_validate.py",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/scripts/synfid_validate.py",
+          "kb": 9.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNFID-Complete-Solution.zip",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-Complete-Solution.zip",
+          "kb": 96.4
+        },
+        {
+          "name": "SYNFID-hero.png",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-hero.png",
+          "kb": 437.7
+        },
+        {
+          "name": "SYNFID-hero.svg",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SYNFID-Scripts.zip",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-Scripts.zip",
+          "kb": 15.8
+        },
+        {
+          "name": "SYNFID-Solution.docx",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-Solution.docx",
+          "kb": 51.1
+        },
+        {
+          "name": "SYNFID-Solution.pdf",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-Solution.pdf",
+          "kb": 45.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/synthetic-data-fidelity-validation-asset-library/v1.0.0/deliverables/SYNFID-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance)",
+    "slug": "synthetic-data-governance-regulated-healthcare",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SYNGOV-COMM-001",
+      "PTK-SYNGOV-NPO-001",
+      "PTK-SYNGOV-GOV-001"
+    ],
+    "deliverables": [
+      "SYNGOV-Solution.pdf",
+      "SYNGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\synthetic-data-governance-regulated-healthcare\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/03-implementation.md",
+          "kb": 8.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "assess_governance_readiness.py",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/scripts/assess_governance_readiness.py",
+          "kb": 5.7
+        },
+        {
+          "name": "asset_catalog_register.py",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/scripts/asset_catalog_register.py",
+          "kb": 6.6
+        },
+        {
+          "name": "classify_approve_tracker.py",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/scripts/classify_approve_tracker.py",
+          "kb": 7.6
+        },
+        {
+          "name": "control_compliance_check.py",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/scripts/control_compliance_check.py",
+          "kb": 7.5
+        },
+        {
+          "name": "syngov_config.py",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/scripts/syngov_config.py",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNGOV-Complete-Solution.zip",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-Complete-Solution.zip",
+          "kb": 102.6
+        },
+        {
+          "name": "SYNGOV-hero.png",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-hero.png",
+          "kb": 415.1
+        },
+        {
+          "name": "SYNGOV-hero.svg",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SYNGOV-Scripts.zip",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-Scripts.zip",
+          "kb": 12.7
+        },
+        {
+          "name": "SYNGOV-Solution.docx",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-Solution.docx",
+          "kb": 54.6
+        },
+        {
+          "name": "SYNGOV-Solution.pdf",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-Solution.pdf",
+          "kb": 53.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/synthetic-data-governance-regulated-healthcare/v1.0.0/deliverables/SYNGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Synthetic Data Sub-Function Standup for Quality Engineering (Operating Model, Pods & KPIs)",
+    "slug": "synthetic-data-subfunction-standup-quality-engineering",
+    "category": "Synthetic",
+    "category_slug": "synthetic",
+    "sol_code": "SYNFUNC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-SYNFUNC-COMM-001",
+      "PTK-SYNFUNC-NPO-001",
+      "PTK-SYNFUNC-GOV-001"
+    ],
+    "deliverables": [
+      "SYNFUNC-Solution.pdf",
+      "SYNFUNC-Scripts.zip"
+    ],
+    "rel_path": "library\\synthetic\\synthetic-data-subfunction-standup-quality-engineering\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/03-implementation.md",
+          "kb": 9.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-synthetic.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/source/global-requirements-synthetic.md",
+          "kb": 5.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "datasetprofile.py",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/scripts/datasetprofile.py",
+          "kb": 7.6
+        },
+        {
+          "name": "intakequeue.py",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/scripts/intakequeue.py",
+          "kb": 6.7
+        },
+        {
+          "name": "kpirollup.py",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/scripts/kpirollup.py",
+          "kb": 8.6
+        },
+        {
+          "name": "maturityassess.py",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/scripts/maturityassess.py",
+          "kb": 5.4
+        },
+        {
+          "name": "privacycheck.py",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/scripts/privacycheck.py",
+          "kb": 8.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SYNFUNC-Complete-Solution.zip",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-Complete-Solution.zip",
+          "kb": 105.1
+        },
+        {
+          "name": "SYNFUNC-hero.png",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-hero.png",
+          "kb": 473.2
+        },
+        {
+          "name": "SYNFUNC-hero.svg",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SYNFUNC-Scripts.zip",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-Scripts.zip",
+          "kb": 14.2
+        },
+        {
+          "name": "SYNFUNC-Solution.docx",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-Solution.docx",
+          "kb": 54.6
+        },
+        {
+          "name": "SYNFUNC-Solution.pdf",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-Solution.pdf",
+          "kb": 54.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-hero.png",
+    "product_count": 3
   }
 ]

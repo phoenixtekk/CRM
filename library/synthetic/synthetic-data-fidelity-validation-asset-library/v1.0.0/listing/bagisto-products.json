@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "synthetic-data-fidelity-validation-asset-library",
+    "title": "Synthetic Data Fidelity & Validation Asset Library",
+    "category_path": [
+      "Synthetic"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SYNFID-COMM-001",
+      "name": "Synthetic Data Fidelity & Validation Asset Library — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Build a <strong>fidelity and validation asset library</strong> &mdash; statistical-fidelity/utility metrics vs real, coverage checks, and reusable validation assets &mdash; so every synthetic dataset ships with evidence of quality. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Prove your synthetic data is good enough — and reuse the proof</h3><p>Synthetic data is only useful if it's <strong>faithful enough</strong> for the AI use case &mdash; and teams need reusable ways to prove it. This solution builds a <strong>fidelity and validation asset library</strong>: statistical-fidelity and utility metrics comparing synthetic to real, coverage/edge-case checks, and a library of reusable validation assets and test suites &mdash; so every synthetic dataset ships with evidence of quality and teams stop re-inventing validation.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python tooling.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the fidelity model: statistical fidelity vs utility vs privacy, coverage/edge cases, and the reusable-asset approach.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (reference statistics/governed real data, synthetic datasets, metrics, environment).</li><li><strong>Implementation Guide</strong> &mdash; define the fidelity/utility metric suite, measure synthetic vs reference, build coverage/edge-case checks, and package reusable validation assets/test suites, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (fidelity within tolerance, coverage met, assets reusable) plus Best Practices for a growing validation library.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Every synthetic dataset shipped with evidence of quality &mdash; fidelity and utility measured, coverage checked, validation assets reused &mdash; so AI teams trust the data.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>synfid_config.py</code> &mdash; scaffold/validate a Validation Suite config, draft a Field Manifest, check mapping</li><li><code>synfid_coverage.py</code> &mdash; check a synthetic dataset against a coverage / edge-case specification</li><li><code>synfid_fidelity.py</code> &mdash; measure statistical fidelity (and optional utility gap) synthetic vs reference</li><li><code>synfid_privacy.py</code> &mdash; report technical disclosure-risk SIGNALS on synthetic data (not a determination)</li><li><code>synfid_profile.py</code> &mdash; build an aggregate-only Reference Profile from governed reference data</li><li><code>synfid_validate.py</code> &mdash; run the full Validation Suite and emit a PASS/FAIL Evidence Report</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Fidelity & Validation Asset Library",
+      "meta_description": "Measure synthetic data fidelity and build reusable validation assets: statistical-fidelity/utility metrics vs real data, coverage/edge-case checks, and reusable test suites. Self-guided steps and Python tools.",
+      "url_key": "synthetic-data-fidelity-validation-asset-library-commercial",
+      "image": "SYNFID-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNFID-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNFID-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNFID-NPO-001",
+      "name": "Synthetic Data Fidelity & Validation Asset Library — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Build a fidelity and validation asset library — statistical-fidelity/utility metrics vs real, coverage checks, and reusable validation assets — so every synthetic dataset ships with evidence of quality. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Prove your synthetic data is good enough — and reuse the proof</h3><p>Synthetic data is only useful if it's <strong>faithful enough</strong> for the AI use case &mdash; and teams need reusable ways to prove it. This solution builds a <strong>fidelity and validation asset library</strong>: statistical-fidelity and utility metrics comparing synthetic to real, coverage/edge-case checks, and a library of reusable validation assets and test suites &mdash; so every synthetic dataset ships with evidence of quality and teams stop re-inventing validation.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the fidelity model: statistical fidelity vs utility vs privacy, coverage/edge cases, and the reusable-asset approach.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (reference statistics/governed real data, synthetic datasets, metrics, environment).</li><li><strong>Implementation Guide</strong> &mdash; define the fidelity/utility metric suite, measure synthetic vs reference, build coverage/edge-case checks, and package reusable validation assets/test suites, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (fidelity within tolerance, coverage met, assets reusable) plus Best Practices for a growing validation library.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>synfid_config.py</code> &mdash; scaffold/validate a Validation Suite config, draft a Field Manifest, check mapping</li><li><code>synfid_coverage.py</code> &mdash; check a synthetic dataset against a coverage / edge-case specification</li><li><code>synfid_fidelity.py</code> &mdash; measure statistical fidelity (and optional utility gap) synthetic vs reference</li><li><code>synfid_privacy.py</code> &mdash; report technical disclosure-risk SIGNALS on synthetic data (not a determination)</li><li><code>synfid_profile.py</code> &mdash; build an aggregate-only Reference Profile from governed reference data</li><li><code>synfid_validate.py</code> &mdash; run the full Validation Suite and emit a PASS/FAIL Evidence Report</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Fidelity & Validation Asset Library — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Measure synthetic data fidelity and build reusable validation assets: statistical-fidelity/utility metrics vs real data, coverage/edge-case checks, and reusable test suites. Self-guided steps and Python tools.",
+      "url_key": "synthetic-data-fidelity-validation-asset-library-nonprofit",
+      "image": "SYNFID-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNFID-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNFID-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNFID-GOV-001",
+      "name": "Synthetic Data Fidelity & Validation Asset Library — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Build a fidelity and validation asset library — statistical-fidelity/utility metrics vs real, coverage checks, and reusable validation assets — so every synthetic dataset ships with evidence of quality. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Prove your synthetic data is good enough — and reuse the proof</h3><p>Synthetic data is only useful if it's <strong>faithful enough</strong> for the AI use case &mdash; and teams need reusable ways to prove it. This solution builds a <strong>fidelity and validation asset library</strong>: statistical-fidelity and utility metrics comparing synthetic to real, coverage/edge-case checks, and a library of reusable validation assets and test suites &mdash; so every synthetic dataset ships with evidence of quality and teams stop re-inventing validation.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the fidelity model: statistical fidelity vs utility vs privacy, coverage/edge cases, and the reusable-asset approach.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (reference statistics/governed real data, synthetic datasets, metrics, environment).</li><li><strong>Implementation Guide</strong> &mdash; define the fidelity/utility metric suite, measure synthetic vs reference, build coverage/edge-case checks, and package reusable validation assets/test suites, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (fidelity within tolerance, coverage met, assets reusable) plus Best Practices for a growing validation library.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 6 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>synfid_config.py</code> &mdash; scaffold/validate a Validation Suite config, draft a Field Manifest, check mapping</li><li><code>synfid_coverage.py</code> &mdash; check a synthetic dataset against a coverage / edge-case specification</li><li><code>synfid_fidelity.py</code> &mdash; measure statistical fidelity (and optional utility gap) synthetic vs reference</li><li><code>synfid_privacy.py</code> &mdash; report technical disclosure-risk SIGNALS on synthetic data (not a determination)</li><li><code>synfid_profile.py</code> &mdash; build an aggregate-only Reference Profile from governed reference data</li><li><code>synfid_validate.py</code> &mdash; run the full Validation Suite and emit a PASS/FAIL Evidence Report</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Fidelity & Validation Asset Library — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Measure synthetic data fidelity and build reusable validation assets: statistical-fidelity/utility metrics vs real data, coverage/edge-case checks, and reusable test suites. Self-guided steps and Python tools.",
+      "url_key": "synthetic-data-fidelity-validation-asset-library-government",
+      "image": "SYNFID-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNFID-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNFID-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "SYNMULTI",
+  "slug": "multimodal-clinical-synthetic-data",
+  "title": "Multi-Modal Clinical Synthetic Data (Structured + Clinical Notes + Vitals Time-Series)",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Go beyond tables: synthetic notes, vitals, and time-series",
+  "problem": "Real clinical AI runs on more than tables &mdash; it consumes <strong>clinical notes, vitals, and time-series</strong>. This solution extends synthetic generation to <strong>multi-modal clinical data</strong>: structured records plus realistic clinical notes (NLP-ready) and vitals/time-series, kept consistent across modalities for a single synthetic patient &mdash; so AI teams can test document-, signal-, and sequence-based models, not just tabular ones.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the multi-modal model: structured + notes + vitals/time-series, cross-modal consistency for a synthetic patient, and privacy posture.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (base structured harness, note/vitals references, environment, governance).",
+    "<strong>Implementation Guide</strong> &mdash; extend generation to clinical notes (NLP-ready) and vitals/time-series, enforce cross-modal consistency, validate realism, and expand, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (modalities generated, consistent, realistic) plus Best Practices for multi-modal fidelity."
+  ],
+  "short": "Extend synthetic generation to <strong>multi-modal clinical data</strong> &mdash; structured records plus realistic clinical notes and vitals/time-series, consistent per synthetic patient &mdash; so AI teams test document-, signal-, and sequence-based models. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Extend synthetic generation to multi-modal clinical data — structured records plus realistic clinical notes and vitals/time-series, consistent per synthetic patient — so AI teams test document-, signal-, and sequence-based models.",
+  "meta_title": "Multi-Modal Clinical Synthetic Data (Structured + Notes + Vitals Time-Series)",
+  "meta_description": "Generate multi-modal clinical synthetic data: structured records plus realistic clinical notes (NLP-ready) and vitals/time-series, cross-modally consistent per synthetic patient. Self-guided steps and Python tools.",
+  "bottom_line": "Synthetic clinical data across modalities &mdash; structured, notes, and vitals/time-series, consistent per patient &mdash; so AI teams test the models real care actually uses.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Multi-Modal",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Clinical Synthetic Data",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Structured · Notes · Vitals/Time-Series",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "TABULAR-ONLY",
+      "items": [
+        "No synthetic notes",
+        "No vitals/signals",
+        "Inconsistent modalities",
+        "Limited AI tests"
+      ]
+    },
+    "to": {
+      "label": "Multi-modal data",
+      "stat": "Consistent per patient"
+    },
+    "tagline": "STRUCTURE.  NARRATE.  MEASURE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Structured",
+        "sub": "Records"
+      },
+      {
+        "icon": "users",
+        "title": "Notes",
+        "sub": "NLP-ready"
+      },
+      {
+        "icon": "chart",
+        "title": "Vitals",
+        "sub": "Time-series"
+      },
+      {
+        "icon": "shield",
+        "title": "Consistency",
+        "sub": "Cross-modal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "SYNFID",
+  "slug": "synthetic-data-fidelity-validation-asset-library",
+  "title": "Synthetic Data Fidelity & Validation Asset Library",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Prove your synthetic data is good enough — and reuse the proof",
+  "problem": "Synthetic data is only useful if it's <strong>faithful enough</strong> for the AI use case &mdash; and teams need reusable ways to prove it. This solution builds a <strong>fidelity and validation asset library</strong>: statistical-fidelity and utility metrics comparing synthetic to real, coverage/edge-case checks, and a library of reusable validation assets and test suites &mdash; so every synthetic dataset ships with evidence of quality and teams stop re-inventing validation.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the fidelity model: statistical fidelity vs utility vs privacy, coverage/edge cases, and the reusable-asset approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (reference statistics/governed real data, synthetic datasets, metrics, environment).",
+    "<strong>Implementation Guide</strong> &mdash; define the fidelity/utility metric suite, measure synthetic vs reference, build coverage/edge-case checks, and package reusable validation assets/test suites, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (fidelity within tolerance, coverage met, assets reusable) plus Best Practices for a growing validation library."
+  ],
+  "short": "Build a <strong>fidelity and validation asset library</strong> &mdash; statistical-fidelity/utility metrics vs real, coverage checks, and reusable validation assets &mdash; so every synthetic dataset ships with evidence of quality. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a fidelity and validation asset library — statistical-fidelity/utility metrics vs real, coverage checks, and reusable validation assets — so every synthetic dataset ships with evidence of quality.",
+  "meta_title": "Synthetic Data Fidelity & Validation Asset Library",
+  "meta_description": "Measure synthetic data fidelity and build reusable validation assets: statistical-fidelity/utility metrics vs real data, coverage/edge-case checks, and reusable test suites. Self-guided steps and Python tools.",
+  "bottom_line": "Every synthetic dataset shipped with evidence of quality &mdash; fidelity and utility measured, coverage checked, validation assets reused &mdash; so AI teams trust the data.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Synthetic Data Fidelity",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Validation Assets",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Metrics · Coverage · Reusable",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNPROVEN DATA",
+      "items": [
+        "No fidelity proof",
+        "Re-invented validation",
+        "Coverage gaps",
+        "Distrust"
+      ]
+    },
+    "to": {
+      "label": "Evidenced quality",
+      "stat": "Reusable validation"
+    },
+    "tagline": "MEASURE.  COVER.  REUSE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Fidelity",
+        "sub": "vs real"
+      },
+      {
+        "icon": "gear",
+        "title": "Coverage",
+        "sub": "Edge cases"
+      },
+      {
+        "icon": "shield",
+        "title": "Utility",
+        "sub": "Fit-for-use"
+      },
+      {
+        "icon": "cloud",
+        "title": "Assets",
+        "sub": "Reusable"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "ai-delivery-pods-squads-quality-kpi-framework",
+  "title": "AI Delivery Pods/Squads & Engineering-Quality KPI Framework",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "sol_code": "AIKPI",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AIKPI-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AIKPI-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AIKPI-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AIKPI-Solution.pdf",
+    "AIKPI-Scripts.zip"
+  ],
+  "hero": "AIKPI-hero.png"
+}
+

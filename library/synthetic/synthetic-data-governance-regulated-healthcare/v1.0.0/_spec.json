@@ -1,0 +1,82 @@
+{
+  "sol": "SYNGOV",
+  "slug": "synthetic-data-governance-regulated-healthcare",
+  "title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance)",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Govern synthetic data like the regulated asset it is",
+  "problem": "Even synthetic data needs governance in a regulated healthcare enterprise &mdash; lineage, approval, access, and alignment to <strong>HIPAA/HITRUST</strong> and enterprise data-governance standards. This solution establishes <strong>synthetic data governance</strong>: the policies, catalog/lineage, approval workflow, access model, and controls that make synthetic and test data managed, auditable, and aligned to regulated-data constraints &mdash; so the capability scales without becoming a shadow risk.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the synthetic-data governance model: policy, catalog/lineage, classification, approval, access, and how it aligns to HIPAA/HITRUST + enterprise data governance.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (governance/compliance stakeholders, catalog tooling, classification scheme, policy).",
+    "<strong>Implementation Guide</strong> &mdash; define the governance policy + roles, stand up catalog/lineage and classification for synthetic/test assets, wire approval + access controls, and validate against the standards, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (assets cataloged, approvals enforced, aligned) plus Best Practices; regulatory interpretation deferred to compliance/legal."
+  ],
+  "short": "Establish <strong>synthetic data governance</strong> for regulated healthcare &mdash; policy, catalog/lineage, approval, access, aligned to HIPAA/HITRUST + enterprise data governance &mdash; so the capability scales without shadow risk. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish synthetic data governance for regulated healthcare — policy, catalog/lineage, approval, access, aligned to HIPAA/HITRUST + enterprise data governance — so the capability scales without shadow risk.",
+  "meta_title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST)",
+  "meta_description": "Govern synthetic/test data in regulated healthcare: policy, catalog/lineage, classification, approval, and access controls aligned to HIPAA/HITRUST and enterprise data governance. Self-guided steps and Python tools (regulatory interpretation deferred).",
+  "bottom_line": "Synthetic and test data managed as governed, auditable assets &mdash; cataloged, classified, approved, and access-controlled, aligned to HIPAA/HITRUST &mdash; so the capability scales safely.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Synthetic Data",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "HIPAA/HITRUST · Lineage · Approval",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SHADOW DATA RISK",
+      "items": [
+        "No lineage",
+        "Ungoverned assets",
+        "No approval",
+        "Compliance gaps"
+      ]
+    },
+    "to": {
+      "label": "Governed synthetic data",
+      "stat": "Auditable · aligned"
+    },
+    "tagline": "CATALOG.  CLASSIFY.  APPROVE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Governance",
+        "sub": "Policy"
+      },
+      {
+        "icon": "gear",
+        "title": "Lineage",
+        "sub": "Catalog"
+      },
+      {
+        "icon": "lock",
+        "title": "Access",
+        "sub": "Controlled"
+      },
+      {
+        "icon": "chart",
+        "title": "Approval",
+        "sub": "Auditable"
+      }
+    ]
+  }
+}

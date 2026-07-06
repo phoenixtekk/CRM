@@ -1,0 +1,82 @@
+{
+  "sol": "AIKPI",
+  "slug": "ai-delivery-pods-squads-quality-kpi-framework",
+  "title": "AI Delivery Pods/Squads & Engineering-Quality KPI Framework",
+  "category": "Synthetic",
+  "category_slug": "synthetic",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (synthetic clinical data / AI test enablement; data-engineering/simulation/governance work, privacy care).",
+    "Synthetic-data & digital-twin tools (e.g. Synthea, commercial platforms) and AI/model frameworks integrated at the pattern level; vendor internals cited or deferred, never invented. Regulatory/legal interpretation (HIPAA/HITRUST de-identification, IRB/privacy sign-off, disclosure risk) deferred to privacy/compliance/legal. Never real PHI in a shared harness/twin/AI test env. Automation is Python."
+  ],
+  "hook": "Structure AI delivery teams and prove quality with KPIs",
+  "problem": "Delivering AI at pace needs the right <strong>team structure and the right measures</strong>. This solution provides an <strong>AI delivery pods/squads and engineering-quality KPI framework</strong>: how to structure pods/squads for AI delivery, the roles and interfaces, and the KPIs that actually improve engineering productivity and delivery quality &mdash; with definitions, targets, and dashboards &mdash; so leaders can organize AI delivery and measure whether it's getting better.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the AI-delivery operating model: pods/squads, roles/interfaces, and the productivity + delivery-quality measurement approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (delivery teams, data sources for KPIs, tooling, sponsorship).",
+    "<strong>Implementation Guide</strong> &mdash; define the pod/squad structure and interfaces, select and define the KPI set (productivity + quality), set targets and dashboards, and run an improvement cadence, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).",
+    "<strong>Testing/validation gates</strong> (structure defined, KPIs instrumented, cadence running) plus Best Practices for KPI hygiene and avoiding vanity metrics."
+  ],
+  "short": "An <strong>AI delivery pods/squads and engineering-quality KPI framework</strong> &mdash; team structure, roles/interfaces, and the KPIs that improve productivity and delivery quality, with targets and dashboards. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "An AI delivery pods/squads and engineering-quality KPI framework — team structure, roles/interfaces, and the KPIs that improve productivity and delivery quality, with targets and dashboards.",
+  "meta_title": "AI Delivery Pods/Squads & Engineering-Quality KPI Framework",
+  "meta_description": "Structure AI delivery teams and measure quality: pods/squads operating model, roles/interfaces, and engineering-productivity + delivery-quality KPIs with targets and dashboards. Self-guided framework and Python tools.",
+  "bottom_line": "AI delivery organized for pace and proven for quality &mdash; pods/squads structured, KPIs instrumented, improvement cadence running &mdash; so leaders can see it getting better.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "AI Delivery",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Pods/Squads & KPIs",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Structure · Roles · Quality KPIs",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNMEASURED DELIVERY",
+      "items": [
+        "Unclear structure",
+        "Vanity metrics",
+        "No targets",
+        "No improvement"
+      ]
+    },
+    "to": {
+      "label": "Measured delivery",
+      "stat": "Structured · improving"
+    },
+    "tagline": "STRUCTURE.  MEASURE.  IMPROVE.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Pods/Squads",
+        "sub": "Structure"
+      },
+      {
+        "icon": "chart",
+        "title": "KPIs",
+        "sub": "Productivity/quality"
+      },
+      {
+        "icon": "gear",
+        "title": "Targets",
+        "sub": "Dashboards"
+      },
+      {
+        "icon": "shield",
+        "title": "Cadence",
+        "sub": "Improvement"
+      }
+    ]
+  }
+}

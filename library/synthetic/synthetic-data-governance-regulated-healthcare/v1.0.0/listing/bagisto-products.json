@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "synthetic-data-governance-regulated-healthcare",
+    "title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance)",
+    "category_path": [
+      "Synthetic"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SYNGOV-COMM-001",
+      "name": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Establish <strong>synthetic data governance</strong> for regulated healthcare &mdash; policy, catalog/lineage, approval, access, aligned to HIPAA/HITRUST + enterprise data governance &mdash; so the capability scales without shadow risk. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Govern synthetic data like the regulated asset it is</h3><p>Even synthetic data needs governance in a regulated healthcare enterprise &mdash; lineage, approval, access, and alignment to <strong>HIPAA/HITRUST</strong> and enterprise data-governance standards. This solution establishes <strong>synthetic data governance</strong>: the policies, catalog/lineage, approval workflow, access model, and controls that make synthetic and test data managed, auditable, and aligned to regulated-data constraints &mdash; so the capability scales without becoming a shadow risk.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python tooling.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic-data governance model: policy, catalog/lineage, classification, approval, access, and how it aligns to HIPAA/HITRUST + enterprise data governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (governance/compliance stakeholders, catalog tooling, classification scheme, policy).</li><li><strong>Implementation Guide</strong> &mdash; define the governance policy + roles, stand up catalog/lineage and classification for synthetic/test assets, wire approval + access controls, and validate against the standards, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (assets cataloged, approvals enforced, aligned) plus Best Practices; regulatory interpretation deferred to compliance/legal.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Synthetic and test data managed as governed, auditable assets &mdash; cataloged, classified, approved, and access-controlled, aligned to HIPAA/HITRUST &mdash; so the capability scales safely.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>assess_governance_readiness.py</code> &mdash; profile the current state of synthetic-data governance</li><li><code>asset_catalog_register.py</code> &mdash; register synthetic/test assets into the catalog with lineage</li><li><code>classify_approve_tracker.py</code> &mdash; record stewarded classifications and drive the approval workflow</li><li><code>control_compliance_check.py</code> &mdash; governance gate coverage + control-map evidence view</li><li><code>syngov_config.py</code> &mdash; scaffold and validate the synthetic-data governance register store</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST)",
+      "meta_description": "Govern synthetic/test data in regulated healthcare: policy, catalog/lineage, classification, approval, and access controls aligned to HIPAA/HITRUST and enterprise data governance. Self-guided steps and Python tools (regulatory interpretation deferred).",
+      "url_key": "synthetic-data-governance-regulated-healthcare-commercial",
+      "image": "SYNGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNGOV-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNGOV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNGOV-NPO-001",
+      "name": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Establish synthetic data governance for regulated healthcare — policy, catalog/lineage, approval, access, aligned to HIPAA/HITRUST + enterprise data governance — so the capability scales without shadow risk. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Govern synthetic data like the regulated asset it is</h3><p>Even synthetic data needs governance in a regulated healthcare enterprise &mdash; lineage, approval, access, and alignment to <strong>HIPAA/HITRUST</strong> and enterprise data-governance standards. This solution establishes <strong>synthetic data governance</strong>: the policies, catalog/lineage, approval workflow, access model, and controls that make synthetic and test data managed, auditable, and aligned to regulated-data constraints &mdash; so the capability scales without becoming a shadow risk.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic-data governance model: policy, catalog/lineage, classification, approval, access, and how it aligns to HIPAA/HITRUST + enterprise data governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (governance/compliance stakeholders, catalog tooling, classification scheme, policy).</li><li><strong>Implementation Guide</strong> &mdash; define the governance policy + roles, stand up catalog/lineage and classification for synthetic/test assets, wire approval + access controls, and validate against the standards, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (assets cataloged, approvals enforced, aligned) plus Best Practices; regulatory interpretation deferred to compliance/legal.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>assess_governance_readiness.py</code> &mdash; profile the current state of synthetic-data governance</li><li><code>asset_catalog_register.py</code> &mdash; register synthetic/test assets into the catalog with lineage</li><li><code>classify_approve_tracker.py</code> &mdash; record stewarded classifications and drive the approval workflow</li><li><code>control_compliance_check.py</code> &mdash; governance gate coverage + control-map evidence view</li><li><code>syngov_config.py</code> &mdash; scaffold and validate the synthetic-data governance register store</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Govern synthetic/test data in regulated healthcare: policy, catalog/lineage, classification, approval, and access controls aligned to HIPAA/HITRUST and enterprise data governance. Self-guided steps and Python tools (regulatory interpretation deferred).",
+      "url_key": "synthetic-data-governance-regulated-healthcare-nonprofit",
+      "image": "SYNGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNGOV-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNGOV-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNGOV-GOV-001",
+      "name": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Establish synthetic data governance for regulated healthcare — policy, catalog/lineage, approval, access, aligned to HIPAA/HITRUST + enterprise data governance — so the capability scales without shadow risk. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Govern synthetic data like the regulated asset it is</h3><p>Even synthetic data needs governance in a regulated healthcare enterprise &mdash; lineage, approval, access, and alignment to <strong>HIPAA/HITRUST</strong> and enterprise data-governance standards. This solution establishes <strong>synthetic data governance</strong>: the policies, catalog/lineage, approval workflow, access model, and controls that make synthetic and test data managed, auditable, and aligned to regulated-data constraints &mdash; so the capability scales without becoming a shadow risk.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic-data governance model: policy, catalog/lineage, classification, approval, access, and how it aligns to HIPAA/HITRUST + enterprise data governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (governance/compliance stakeholders, catalog tooling, classification scheme, policy).</li><li><strong>Implementation Guide</strong> &mdash; define the governance policy + roles, stand up catalog/lineage and classification for synthetic/test assets, wire approval + access controls, and validate against the standards, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (assets cataloged, approvals enforced, aligned) plus Best Practices; regulatory interpretation deferred to compliance/legal.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>assess_governance_readiness.py</code> &mdash; profile the current state of synthetic-data governance</li><li><code>asset_catalog_register.py</code> &mdash; register synthetic/test assets into the catalog with lineage</li><li><code>classify_approve_tracker.py</code> &mdash; record stewarded classifications and drive the approval workflow</li><li><code>control_compliance_check.py</code> &mdash; governance gate coverage + control-map evidence view</li><li><code>syngov_config.py</code> &mdash; scaffold and validate the synthetic-data governance register store</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Govern synthetic/test data in regulated healthcare: policy, catalog/lineage, classification, approval, and access controls aligned to HIPAA/HITRUST and enterprise data governance. Self-guided steps and Python tools (regulatory interpretation deferred).",
+      "url_key": "synthetic-data-governance-regulated-healthcare-government",
+      "image": "SYNGOV-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNGOV-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNGOV-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

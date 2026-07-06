@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "clinical-synthetic-data-generation-harness",
+    "title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+    "category_path": [
+      "Synthetic"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SYNCLIN-COMM-001",
+      "name": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Build a <strong>clinical synthetic data generation harness</strong> &mdash; realistic, privacy-conscious EHR records against FHIR/OMOP/native, with scenarios and reproducibility &mdash; so AI/QA get high-fidelity test data safely. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Generate realistic clinical data without touching real PHI</h3><p>AI and QA teams need <strong>realistic clinical data</strong> to test against &mdash; but real EHR data carries privacy risk they can't take on. This solution builds a <strong>clinical synthetic data generation harness</strong>: generate clinically plausible, privacy-conscious synthetic records (patients, encounters, conditions, medications, labs, vitals) against a target model (FHIR/OMOP/native), with configurable scenarios and reproducibility &mdash; so teams get high-fidelity test data safely.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python tooling.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic clinical-data model: target standard (FHIR/OMOP/native), generation approach, clinical plausibility, reproducibility, and the privacy-conscious posture.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Python environment, target data model, isolated environment, privacy stakeholders, reference stats).</li><li><strong>Implementation Guide</strong> &mdash; design the generation harness (entities, relationships, distributions, scenarios), generate a pilot dataset, validate clinical plausibility, and expand coverage.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (schema-valid, plausible, reproducible) plus Best Practices for a maintainable, extensible harness.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Realistic clinical test data on demand &mdash; clinically plausible, reproducible, and privacy-conscious &mdash; so AI and QA teams evaluate safely without real PHI.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>generate_harness.py</code> &mdash; seeded, reproducible synthetic-EHR generator (dry-run by default)</li><li><code>plausibility_report.py</code> &mdash; grade a synthetic dataset for clinical plausibility and coverage</li><li><code>scenario_config.py</code> &mdash; scaffold, edit, and validate the harness config + scenario suite</li><li><code>schema_privacy_validator.py</code> &mdash; validate schema conformance and privacy of a synthetic-EHR dataset</li><li><code>scope_assessment.py</code> &mdash; profile target model, in-scope domains, reference coverage, and out-dir safety</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+      "meta_description": "Build a clinical synthetic data generation harness: realistic, privacy-conscious EHR records (patients, encounters, labs, meds, vitals) against FHIR/OMOP/native, with scenarios and reproducibility. Self-guided steps and Python tools.",
+      "url_key": "clinical-synthetic-data-generation-harness-commercial",
+      "image": "SYNCLIN-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNCLIN-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNCLIN-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNCLIN-NPO-001",
+      "name": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Build a clinical synthetic data generation harness — realistic, privacy-conscious EHR records against FHIR/OMOP/native, with scenarios and reproducibility — so AI/QA get high-fidelity test data safely. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Generate realistic clinical data without touching real PHI</h3><p>AI and QA teams need <strong>realistic clinical data</strong> to test against &mdash; but real EHR data carries privacy risk they can't take on. This solution builds a <strong>clinical synthetic data generation harness</strong>: generate clinically plausible, privacy-conscious synthetic records (patients, encounters, conditions, medications, labs, vitals) against a target model (FHIR/OMOP/native), with configurable scenarios and reproducibility &mdash; so teams get high-fidelity test data safely.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic clinical-data model: target standard (FHIR/OMOP/native), generation approach, clinical plausibility, reproducibility, and the privacy-conscious posture.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Python environment, target data model, isolated environment, privacy stakeholders, reference stats).</li><li><strong>Implementation Guide</strong> &mdash; design the generation harness (entities, relationships, distributions, scenarios), generate a pilot dataset, validate clinical plausibility, and expand coverage.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (schema-valid, plausible, reproducible) plus Best Practices for a maintainable, extensible harness.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>generate_harness.py</code> &mdash; seeded, reproducible synthetic-EHR generator (dry-run by default)</li><li><code>plausibility_report.py</code> &mdash; grade a synthetic dataset for clinical plausibility and coverage</li><li><code>scenario_config.py</code> &mdash; scaffold, edit, and validate the harness config + scenario suite</li><li><code>schema_privacy_validator.py</code> &mdash; validate schema conformance and privacy of a synthetic-EHR dataset</li><li><code>scope_assessment.py</code> &mdash; profile target model, in-scope domains, reference coverage, and out-dir safety</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Build a clinical synthetic data generation harness: realistic, privacy-conscious EHR records (patients, encounters, labs, meds, vitals) against FHIR/OMOP/native, with scenarios and reproducibility. Self-guided steps and Python tools.",
+      "url_key": "clinical-synthetic-data-generation-harness-nonprofit",
+      "image": "SYNCLIN-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNCLIN-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNCLIN-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SYNCLIN-GOV-001",
+      "name": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Build a clinical synthetic data generation harness — realistic, privacy-conscious EHR records against FHIR/OMOP/native, with scenarios and reproducibility — so AI/QA get high-fidelity test data safely. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Generate realistic clinical data without touching real PHI</h3><p>AI and QA teams need <strong>realistic clinical data</strong> to test against &mdash; but real EHR data carries privacy risk they can't take on. This solution builds a <strong>clinical synthetic data generation harness</strong>: generate clinically plausible, privacy-conscious synthetic records (patients, encounters, conditions, medications, labs, vitals) against a target model (FHIR/OMOP/native), with configurable scenarios and reproducibility &mdash; so teams get high-fidelity test data safely.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the synthetic clinical-data model: target standard (FHIR/OMOP/native), generation approach, clinical plausibility, reproducibility, and the privacy-conscious posture.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Python environment, target data model, isolated environment, privacy stakeholders, reference stats).</li><li><strong>Implementation Guide</strong> &mdash; design the generation harness (entities, relationships, distributions, scenarios), generate a pilot dataset, validate clinical plausibility, and expand coverage.</li><li><strong>5 Python tools</strong> &mdash; assessment/profiling, generation or scenario execution, a fidelity/coverage report, a privacy/validation check, and a scope/config helper &mdash; authentic to synthetic-data engineering (safe by default; no real PHI written to shared locations).</li><li><strong>Testing/validation gates</strong> (schema-valid, plausible, reproducible) plus Best Practices for a maintainable, extensible harness.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>generate_harness.py</code> &mdash; seeded, reproducible synthetic-EHR generator (dry-run by default)</li><li><code>plausibility_report.py</code> &mdash; grade a synthetic dataset for clinical plausibility and coverage</li><li><code>scenario_config.py</code> &mdash; scaffold, edit, and validate the harness config + scenario suite</li><li><code>schema_privacy_validator.py</code> &mdash; validate schema conformance and privacy of a synthetic-EHR dataset</li><li><code>scope_assessment.py</code> &mdash; profile target model, in-scope domains, reference coverage, and out-dir safety</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Build a clinical synthetic data generation harness: realistic, privacy-conscious EHR records (patients, encounters, labs, meds, vitals) against FHIR/OMOP/native, with scenarios and reproducibility. Self-guided steps and Python tools.",
+      "url_key": "clinical-synthetic-data-generation-harness-government",
+      "image": "SYNCLIN-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SYNCLIN-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "SYNCLIN-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
