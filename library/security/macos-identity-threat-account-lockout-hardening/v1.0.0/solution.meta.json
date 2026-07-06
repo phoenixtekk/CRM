@@ -1,0 +1,41 @@
+{
+  "slug": "macos-identity-threat-account-lockout-hardening",
+  "title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken)",
+  "category": "Security",
+  "category_slug": "security",
+  "sol_code": "MACLOCK",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACLOCK-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-MACLOCK-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-MACLOCK-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "MACLOCK-Solution.pdf",
+    "MACLOCK-Scripts.zip"
+  ],
+  "hero": "MACLOCK-hero.png"
+}
+

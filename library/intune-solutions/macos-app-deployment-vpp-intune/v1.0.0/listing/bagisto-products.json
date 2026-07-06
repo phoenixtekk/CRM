@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "macos-app-deployment-vpp-intune",
+    "title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MACVPP-COMM-001",
+      "name": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Deploy and license Mac apps via <strong>Intune + Apple VPP</strong> &mdash; App Store and enterprise apps, token/license sync, updates &mdash; without touching the device, deployed pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Deliver and license Mac apps without touching the device</h3><p>Getting the right apps &mdash; App Store and enterprise &mdash; onto managed Macs, licensed and updated, is a persistent gap. This solution stands up <strong>macOS app deployment through Microsoft Intune with Apple's Volume Purchase Program (VPP)</strong>: connect the ABM/VPP token, sync licenses, deploy store and line-of-business apps, and keep them updated &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS app-delivery model in Intune (VPP location tokens, device- vs user-licensing, store apps, LOB <code>.pkg</code>/<code>.dmg</code>, unmanaged PKG) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (ABM + VPP location + token, Intune app connector, Entra groups, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to connect the VPP token, sync licenses, add and assign store + enterprise apps to the named pilot group, validate install/licensing, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; app/VPP-token discovery, per-device app + license validation, an app/VPP-license coverage report, safe remediation of failed installs/licenses, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (app installed, licensed, updated) plus Best Practices for token renewal and licensing model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The right apps on every Mac &mdash; store and enterprise, licensed via VPP and kept current &mdash; delivered from Intune and proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACVPP-Discovery.ps1</code> &mdash; tenant readiness check for macOS app deployment via Apple VPP</li><li><code>MACVPP-Remediation.ps1</code> &mdash; safe remediation helpers for macOS app deployment via Apple VPP</li><li><code>MACVPP-Report.ps1</code> &mdash; tenant-wide report of macOS app deployment and VPP license consumption</li><li><code>MACVPP-Set-ScopeTargeting.ps1</code> &mdash; build the target Entra group and retarget macOS app assignments</li><li><code>MACVPP-Validation.ps1</code> &mdash; validate one Mac against the solution's app + licensing acceptance gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS App Deployment & Apple VPP with Microsoft Intune",
+      "meta_description": "Deploy macOS apps via Microsoft Intune and Apple VPP: VPP location tokens, license sync, App Store and enterprise (LOB) apps, updates. Self-guided steps and scripts.",
+      "url_key": "macos-app-deployment-vpp-intune-commercial",
+      "image": "MACVPP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACVPP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACVPP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACVPP-NPO-001",
+      "name": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Deploy and license Mac apps via Intune + Apple VPP — App Store and enterprise apps, token/license sync, updates — without touching the device, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Deliver and license Mac apps without touching the device</h3><p>Getting the right apps &mdash; App Store and enterprise &mdash; onto managed Macs, licensed and updated, is a persistent gap. This solution stands up <strong>macOS app deployment through Microsoft Intune with Apple's Volume Purchase Program (VPP)</strong>: connect the ABM/VPP token, sync licenses, deploy store and line-of-business apps, and keep them updated &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS app-delivery model in Intune (VPP location tokens, device- vs user-licensing, store apps, LOB <code>.pkg</code>/<code>.dmg</code>, unmanaged PKG) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (ABM + VPP location + token, Intune app connector, Entra groups, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to connect the VPP token, sync licenses, add and assign store + enterprise apps to the named pilot group, validate install/licensing, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; app/VPP-token discovery, per-device app + license validation, an app/VPP-license coverage report, safe remediation of failed installs/licenses, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (app installed, licensed, updated) plus Best Practices for token renewal and licensing model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACVPP-Discovery.ps1</code> &mdash; tenant readiness check for macOS app deployment via Apple VPP</li><li><code>MACVPP-Remediation.ps1</code> &mdash; safe remediation helpers for macOS app deployment via Apple VPP</li><li><code>MACVPP-Report.ps1</code> &mdash; tenant-wide report of macOS app deployment and VPP license consumption</li><li><code>MACVPP-Set-ScopeTargeting.ps1</code> &mdash; build the target Entra group and retarget macOS app assignments</li><li><code>MACVPP-Validation.ps1</code> &mdash; validate one Mac against the solution's app + licensing acceptance gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS App Deployment & Apple VPP with Microsoft Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy macOS apps via Microsoft Intune and Apple VPP: VPP location tokens, license sync, App Store and enterprise (LOB) apps, updates. Self-guided steps and scripts.",
+      "url_key": "macos-app-deployment-vpp-intune-nonprofit",
+      "image": "MACVPP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACVPP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACVPP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACVPP-GOV-001",
+      "name": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Deploy and license Mac apps via Intune + Apple VPP — App Store and enterprise apps, token/license sync, updates — without touching the device, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Deliver and license Mac apps without touching the device</h3><p>Getting the right apps &mdash; App Store and enterprise &mdash; onto managed Macs, licensed and updated, is a persistent gap. This solution stands up <strong>macOS app deployment through Microsoft Intune with Apple's Volume Purchase Program (VPP)</strong>: connect the ABM/VPP token, sync licenses, deploy store and line-of-business apps, and keep them updated &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS app-delivery model in Intune (VPP location tokens, device- vs user-licensing, store apps, LOB <code>.pkg</code>/<code>.dmg</code>, unmanaged PKG) and the deployment model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (ABM + VPP location + token, Intune app connector, Entra groups, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to connect the VPP token, sync licenses, add and assign store + enterprise apps to the named pilot group, validate install/licensing, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; app/VPP-token discovery, per-device app + license validation, an app/VPP-license coverage report, safe remediation of failed installs/licenses, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (app installed, licensed, updated) plus Best Practices for token renewal and licensing model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACVPP-Discovery.ps1</code> &mdash; tenant readiness check for macOS app deployment via Apple VPP</li><li><code>MACVPP-Remediation.ps1</code> &mdash; safe remediation helpers for macOS app deployment via Apple VPP</li><li><code>MACVPP-Report.ps1</code> &mdash; tenant-wide report of macOS app deployment and VPP license consumption</li><li><code>MACVPP-Set-ScopeTargeting.ps1</code> &mdash; build the target Entra group and retarget macOS app assignments</li><li><code>MACVPP-Validation.ps1</code> &mdash; validate one Mac against the solution's app + licensing acceptance gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS App Deployment & Apple VPP with Microsoft Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy macOS apps via Microsoft Intune and Apple VPP: VPP location tokens, license sync, App Store and enterprise (LOB) apps, updates. Self-guided steps and scripts.",
+      "url_key": "macos-app-deployment-vpp-intune-government",
+      "image": "MACVPP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACVPP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACVPP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

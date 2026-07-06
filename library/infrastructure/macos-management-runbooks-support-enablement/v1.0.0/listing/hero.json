@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Runbooks",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Support Enablement",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Enrollment · SSO · FileVault · IR",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TRIBAL KNOWLEDGE",
+    "items": [
+      "No standard runbooks",
+      "Inconsistent support",
+      "Knowledge silos",
+      "Ad-hoc adoption"
+    ]
+  },
+  "to": {
+    "label": "Repeatable runbooks",
+    "stat": "Consistent Mac support"
+  },
+  "tagline": "DOCUMENT.  RUN.  ENABLE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Runbooks",
+      "sub": "Enrollment→IR"
+    },
+    {
+      "icon": "device",
+      "title": "macOS",
+      "sub": "Intune-managed"
+    },
+    {
+      "icon": "gear",
+      "title": "Enablement",
+      "sub": "Train staff"
+    },
+    {
+      "icon": "chart",
+      "title": "Health",
+      "sub": "Support report"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "FileVault Encryption",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Key Escrow via Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Recovery · SecureToken · Rotation",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DATA AT RISK",
+    "items": [
+      "Unencrypted Macs",
+      "Lost recovery keys",
+      "No escrow",
+      "SecureToken errors"
+    ]
+  },
+  "to": {
+    "label": "Encrypted + recoverable",
+    "stat": "Escrowed · rotatable"
+  },
+  "tagline": "ENCRYPT.  ESCROW.  RECOVER.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "FileVault",
+      "sub": "Full-disk"
+    },
+    {
+      "icon": "key",
+      "title": "Escrow",
+      "sub": "Recovery keys"
+    },
+    {
+      "icon": "shield",
+      "title": "SecureToken",
+      "sub": "Enabled"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Encryption report"
+    }
+  ]
+}

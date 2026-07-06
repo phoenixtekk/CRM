@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "macos-identity-threat-account-lockout-hardening",
+    "title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken)",
+    "category_path": [
+      "Security"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MACLOCK-COMM-001",
+      "name": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Harden the <strong>identity posture of the Mac fleet</strong> &mdash; find and stop Mac-originated failed sign-ins that drive password-spray detections and account lockouts, enforce Smart Lockout + MFA, and clean up stale Mac credential state. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Stop Macs from triggering account lockouts and credential attacks</h3><p>macOS clients with saved or stale credentials can hammer Entra ID with failed sign-ins &mdash; feeding <strong>password-spray</strong> detections and triggering <strong>account lockouts</strong> that block legitimate users, sometimes tangled up with SecureToken/keychain state. This solution hardens the <strong>identity posture of the Mac fleet</strong>: understand and mitigate lockout sources, enforce Entra <strong>Smart Lockout</strong> and MFA, and clean up the Mac-side credential state that causes repeat failures &mdash; under Zero-Trust and least-privilege.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how macOS authentication, saved credentials, and keychain/SecureToken state contribute to failed sign-ins, lockouts, and password-spray noise, and the hardening model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra sign-in logs / Identity Protection, Smart Lockout, MFA, Intune, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to identify Mac-originated lockout/spray sources from sign-in logs, enforce Smart Lockout + MFA, remediate stale Mac-side credentials/keychain, and validate the reduction, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; sign-in-failure/lockout discovery (by device/OS), per-device credential-state validation, a lockout/spray exposure report, safe remediation guidance, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (lockout sources identified, failures reduced) plus Best Practices for identity protection on Macs.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Fewer account lockouts and less password-spray noise from the Mac fleet &mdash; sources identified, Smart Lockout + MFA enforced, stale credentials cleaned &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACLOCK-Discovery.ps1</code> &mdash; identify Mac-originated failed sign-ins, lockouts, and spray sources plus current Smart Lockout / MFA posture (Graph)</li><li><code>MACLOCK-Remediation.ps1</code> &mdash; safe remediation of Mac-originated lockout/spray sources (defaults to -WhatIf)</li><li><code>MACLOCK-Report.ps1</code> &mdash; before/after lockout-and-spray exposure report for the Mac fleet (Graph)</li><li><code>MACLOCK-Set-ScopeTargeting.ps1</code> &mdash; create the Mac scope Entra groups (pilot / broad)</li><li><code>MACLOCK-Validation.ps1</code> &mdash; do Smart Lockout + the MFA policy match the register, and did Mac failures drop? (Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout)",
+      "meta_description": "Mitigate Mac-originated account lockouts and password-spray noise: identify sources from Entra sign-in logs, enforce Smart Lockout + MFA, and remediate stale macOS credential/keychain state. Self-guided steps and scripts.",
+      "url_key": "macos-identity-threat-account-lockout-hardening-commercial",
+      "image": "MACLOCK-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACLOCK-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACLOCK-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACLOCK-NPO-001",
+      "name": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Harden the identity posture of the Mac fleet — find and stop Mac-originated failed sign-ins that drive password-spray detections and account lockouts, enforce Smart Lockout + MFA, and clean up stale Mac credential state. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stop Macs from triggering account lockouts and credential attacks</h3><p>macOS clients with saved or stale credentials can hammer Entra ID with failed sign-ins &mdash; feeding <strong>password-spray</strong> detections and triggering <strong>account lockouts</strong> that block legitimate users, sometimes tangled up with SecureToken/keychain state. This solution hardens the <strong>identity posture of the Mac fleet</strong>: understand and mitigate lockout sources, enforce Entra <strong>Smart Lockout</strong> and MFA, and clean up the Mac-side credential state that causes repeat failures &mdash; under Zero-Trust and least-privilege.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how macOS authentication, saved credentials, and keychain/SecureToken state contribute to failed sign-ins, lockouts, and password-spray noise, and the hardening model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra sign-in logs / Identity Protection, Smart Lockout, MFA, Intune, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to identify Mac-originated lockout/spray sources from sign-in logs, enforce Smart Lockout + MFA, remediate stale Mac-side credentials/keychain, and validate the reduction, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; sign-in-failure/lockout discovery (by device/OS), per-device credential-state validation, a lockout/spray exposure report, safe remediation guidance, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (lockout sources identified, failures reduced) plus Best Practices for identity protection on Macs.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACLOCK-Discovery.ps1</code> &mdash; identify Mac-originated failed sign-ins, lockouts, and spray sources plus current Smart Lockout / MFA posture (Graph)</li><li><code>MACLOCK-Remediation.ps1</code> &mdash; safe remediation of Mac-originated lockout/spray sources (defaults to -WhatIf)</li><li><code>MACLOCK-Report.ps1</code> &mdash; before/after lockout-and-spray exposure report for the Mac fleet (Graph)</li><li><code>MACLOCK-Set-ScopeTargeting.ps1</code> &mdash; create the Mac scope Entra groups (pilot / broad)</li><li><code>MACLOCK-Validation.ps1</code> &mdash; do Smart Lockout + the MFA policy match the register, and did Mac failures drop? (Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Mitigate Mac-originated account lockouts and password-spray noise: identify sources from Entra sign-in logs, enforce Smart Lockout + MFA, and remediate stale macOS credential/keychain state. Self-guided steps and scripts.",
+      "url_key": "macos-identity-threat-account-lockout-hardening-nonprofit",
+      "image": "MACLOCK-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACLOCK-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACLOCK-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACLOCK-GOV-001",
+      "name": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Harden the identity posture of the Mac fleet — find and stop Mac-originated failed sign-ins that drive password-spray detections and account lockouts, enforce Smart Lockout + MFA, and clean up stale Mac credential state. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stop Macs from triggering account lockouts and credential attacks</h3><p>macOS clients with saved or stale credentials can hammer Entra ID with failed sign-ins &mdash; feeding <strong>password-spray</strong> detections and triggering <strong>account lockouts</strong> that block legitimate users, sometimes tangled up with SecureToken/keychain state. This solution hardens the <strong>identity posture of the Mac fleet</strong>: understand and mitigate lockout sources, enforce Entra <strong>Smart Lockout</strong> and MFA, and clean up the Mac-side credential state that causes repeat failures &mdash; under Zero-Trust and least-privilege.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how macOS authentication, saved credentials, and keychain/SecureToken state contribute to failed sign-ins, lockouts, and password-spray noise, and the hardening model.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (Entra sign-in logs / Identity Protection, Smart Lockout, MFA, Intune, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact steps to identify Mac-originated lockout/spray sources from sign-in logs, enforce Smart Lockout + MFA, remediate stale Mac-side credentials/keychain, and validate the reduction, then expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; sign-in-failure/lockout discovery (by device/OS), per-device credential-state validation, a lockout/spray exposure report, safe remediation guidance, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (lockout sources identified, failures reduced) plus Best Practices for identity protection on Macs.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACLOCK-Discovery.ps1</code> &mdash; identify Mac-originated failed sign-ins, lockouts, and spray sources plus current Smart Lockout / MFA posture (Graph)</li><li><code>MACLOCK-Remediation.ps1</code> &mdash; safe remediation of Mac-originated lockout/spray sources (defaults to -WhatIf)</li><li><code>MACLOCK-Report.ps1</code> &mdash; before/after lockout-and-spray exposure report for the Mac fleet (Graph)</li><li><code>MACLOCK-Set-ScopeTargeting.ps1</code> &mdash; create the Mac scope Entra groups (pilot / broad)</li><li><code>MACLOCK-Validation.ps1</code> &mdash; do Smart Lockout + the MFA policy match the register, and did Mac failures drop? (Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Mitigate Mac-originated account lockouts and password-spray noise: identify sources from Entra sign-in logs, enforce Smart Lockout + MFA, and remediate stale macOS credential/keychain state. Self-guided steps and scripts.",
+      "url_key": "macos-identity-threat-account-lockout-hardening-government",
+      "image": "MACLOCK-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACLOCK-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACLOCK-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

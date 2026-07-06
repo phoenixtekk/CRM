@@ -1,0 +1,82 @@
+{
+  "sol": "MACBASE",
+  "slug": "macos-endpoint-management-baseline-intune",
+  "title": "macOS Endpoint Management Baseline in Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Give every Mac a consistent, compliant Intune baseline",
+  "problem": "Macs enrolled in Intune without a deliberate baseline drift into inconsistent, non-compliant states. This solution establishes the <strong>foundational macOS management baseline</strong> in Microsoft Intune &mdash; configuration profiles (settings catalog and custom <code>.mobileconfig</code>), device restrictions, compliance policies, and software-update management &mdash; so every Mac meets corporate standards for security, performance, and user experience, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the macOS management model in Intune (MDM protocol, config profiles, settings catalog vs custom <code>.mobileconfig</code>, compliance, update management) and the standard deployment model.",
+    "<strong>Requirements Guide</strong> &mdash; every prerequisite (Intune + Entra licensing, APNs certificate, enrollment method, Entra groups, a pilot group) with how to <em>verify</em> and <em>implement</em> each if missing.",
+    "<strong>Implementation Guide</strong> &mdash; exact ordered steps to build the named baseline configuration profiles, restrictions, compliance policies, and macOS software-update policy, assign to a pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; baseline discovery, per-device applied-state validation, a config/compliance coverage report, safe remediation of drifted devices, and a target-group builder (Microsoft Graph).",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates, plus Best Practices for naming, settings catalog, and update rings."
+  ],
+  "short": "Establish the <strong>foundational macOS management baseline</strong> in Intune &mdash; config profiles, restrictions, compliance, and update management &mdash; so every Mac meets corporate standards, deployed pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish the foundational macOS management baseline in Intune — config profiles, restrictions, compliance, and update management — so every Mac meets corporate standards, pilot-first.",
+  "meta_title": "macOS Endpoint Management Baseline in Microsoft Intune",
+  "meta_description": "Build a macOS management baseline in Microsoft Intune: settings-catalog + custom .mobileconfig profiles, restrictions, compliance policies, and software-update management. Self-guided steps and scripts.",
+  "bottom_line": "Every Mac on a consistent, compliant Intune baseline &mdash; secure, performant, and predictable &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Baseline",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Managed in Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Profiles · Compliance · Updates",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNMANAGED DRIFT",
+      "items": [
+        "Inconsistent Macs",
+        "No compliance",
+        "Ad-hoc profiles",
+        "Update chaos"
+      ]
+    },
+    "to": {
+      "label": "Consistent baseline",
+      "stat": "Every Mac compliant"
+    },
+    "tagline": "PROFILE IT.  COMPLY.  UPDATE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Config Profiles",
+        "sub": "Settings catalog"
+      },
+      {
+        "icon": "shield",
+        "title": "Compliance",
+        "sub": "Standards"
+      },
+      {
+        "icon": "gear",
+        "title": "Updates",
+        "sub": "Managed"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Baseline report"
+      }
+    ]
+  }
+}

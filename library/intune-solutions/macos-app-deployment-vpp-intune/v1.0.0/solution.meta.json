@@ -1,0 +1,41 @@
+{
+  "slug": "macos-app-deployment-vpp-intune",
+  "title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "MACVPP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACVPP-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-MACVPP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-MACVPP-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "MACVPP-Solution.pdf",
+    "MACVPP-Scripts.zip"
+  ],
+  "hero": "MACVPP-hero.png"
+}
+

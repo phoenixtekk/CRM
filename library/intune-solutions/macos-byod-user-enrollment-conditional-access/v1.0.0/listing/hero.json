@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS BYOD",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Enroll · Protect · Gate",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "User Enrollment · CA · App Protection",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PERSONAL MAC RISK",
+    "items": [
+      "Unmanaged access",
+      "Over-management",
+      "No CA gate",
+      "Privacy worries"
+    ]
+  },
+  "to": {
+    "label": "Right-sized BYOD",
+    "stat": "Data protected"
+  },
+  "tagline": "ENROLL LIGHT.  GATE ACCESS.  PROTECT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "User Enroll",
+      "sub": "Account-driven"
+    },
+    {
+      "icon": "lock",
+      "title": "Conditional Access",
+      "sub": "Compliance gate"
+    },
+    {
+      "icon": "shield",
+      "title": "Protection",
+      "sub": "Honest model"
+    },
+    {
+      "icon": "chart",
+      "title": "Posture",
+      "sub": "Access report"
+    }
+  ]
+}

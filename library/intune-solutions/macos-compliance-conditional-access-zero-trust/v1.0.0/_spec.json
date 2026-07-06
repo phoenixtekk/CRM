@@ -1,0 +1,82 @@
+{
+  "sol": "MACCA",
+  "slug": "macos-compliance-conditional-access-zero-trust",
+  "title": "macOS Compliance & Conditional Access for Zero-Trust Access",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Let only compliant, trusted Macs reach corporate resources",
+  "problem": "A Mac shouldn't reach corporate resources just because someone has the password. This solution builds <strong>macOS device compliance tied to Conditional Access</strong> &mdash; the Mac-specific compliance signals (encryption, OS version, firewall, Defender risk) feeding named Conditional Access policies &mdash; so only trusted, compliant Macs get in, under Zero-Trust principles, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how macOS compliance signals map to Conditional Access, the Zero-Trust model for Macs, and the standard deployment approach.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Intune compliance, Entra Conditional Access, device-based CA prerequisites, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to build the named macOS compliance policy (encryption, OS, firewall, Defender risk), map it to a named Conditional Access policy, assign to a pilot, validate that non-compliant Macs are blocked, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; compliance/CA discovery, per-device compliance + access validation, a compliance + access-decision report, safe remediation, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (compliant &rarr; allowed; non-compliant &rarr; denied) plus Best Practices for grace and Zero-Trust rollout."
+  ],
+  "short": "Tie <strong>macOS device compliance to Conditional Access</strong> &mdash; Mac-specific signals gating resource access under Zero-Trust &mdash; so only trusted, compliant Macs get in, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Tie macOS device compliance to Conditional Access — Mac-specific signals gating resource access under Zero-Trust — so only trusted, compliant Macs get in, pilot-first.",
+  "meta_title": "macOS Compliance & Conditional Access for Zero-Trust Access",
+  "meta_description": "Tie macOS Intune compliance (encryption, OS, firewall, Defender risk) to Entra Conditional Access for Zero-Trust access. Self-guided steps and PowerShell scripts.",
+  "bottom_line": "Only compliant, trusted Macs reach corporate resources &mdash; compliance signals wired to Conditional Access under Zero-Trust &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Compliance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Conditional Access",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Zero-Trust · Signals · Gating",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PASSWORD-ONLY ACCESS",
+      "items": [
+        "Untrusted Macs",
+        "No device gate",
+        "Static access",
+        "No Zero-Trust"
+      ]
+    },
+    "to": {
+      "label": "Compliance-gated",
+      "stat": "Trusted Macs only"
+    },
+    "tagline": "MEASURE.  GATE.  TRUST.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Compliance",
+        "sub": "Mac signals"
+      },
+      {
+        "icon": "lock",
+        "title": "Conditional Access",
+        "sub": "Access gate"
+      },
+      {
+        "icon": "key",
+        "title": "Zero-Trust",
+        "sub": "Least privilege"
+      },
+      {
+        "icon": "chart",
+        "title": "Decisions",
+        "sub": "Access report"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "MACLOCK",
+  "slug": "macos-identity-threat-account-lockout-hardening",
+  "title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken)",
+  "category": "Security",
+  "category_slug": "security",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Stop Macs from triggering account lockouts and credential attacks",
+  "problem": "macOS clients with saved or stale credentials can hammer Entra ID with failed sign-ins &mdash; feeding <strong>password-spray</strong> detections and triggering <strong>account lockouts</strong> that block legitimate users, sometimes tangled up with SecureToken/keychain state. This solution hardens the <strong>identity posture of the Mac fleet</strong>: understand and mitigate lockout sources, enforce Entra <strong>Smart Lockout</strong> and MFA, and clean up the Mac-side credential state that causes repeat failures &mdash; under Zero-Trust and least-privilege.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how macOS authentication, saved credentials, and keychain/SecureToken state contribute to failed sign-ins, lockouts, and password-spray noise, and the hardening model.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Entra sign-in logs / Identity Protection, Smart Lockout, MFA, Intune, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to identify Mac-originated lockout/spray sources from sign-in logs, enforce Smart Lockout + MFA, remediate stale Mac-side credentials/keychain, and validate the reduction, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; sign-in-failure/lockout discovery (by device/OS), per-device credential-state validation, a lockout/spray exposure report, safe remediation guidance, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (lockout sources identified, failures reduced) plus Best Practices for identity protection on Macs."
+  ],
+  "short": "Harden the <strong>identity posture of the Mac fleet</strong> &mdash; find and stop Mac-originated failed sign-ins that drive password-spray detections and account lockouts, enforce Smart Lockout + MFA, and clean up stale Mac credential state. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Harden the identity posture of the Mac fleet — find and stop Mac-originated failed sign-ins that drive password-spray detections and account lockouts, enforce Smart Lockout + MFA, and clean up stale Mac credential state.",
+  "meta_title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout)",
+  "meta_description": "Mitigate Mac-originated account lockouts and password-spray noise: identify sources from Entra sign-in logs, enforce Smart Lockout + MFA, and remediate stale macOS credential/keychain state. Self-guided steps and scripts.",
+  "bottom_line": "Fewer account lockouts and less password-spray noise from the Mac fleet &mdash; sources identified, Smart Lockout + MFA enforced, stale credentials cleaned &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Identity Hardening",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Lockouts & Password Spray",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Smart Lockout · MFA · SecureToken",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MAC-DRIVEN LOCKOUTS",
+      "items": [
+        "Stale saved creds",
+        "Failed sign-in storms",
+        "Spray detections",
+        "Legit users locked"
+      ]
+    },
+    "to": {
+      "label": "Hardened identity",
+      "stat": "Fewer lockouts"
+    },
+    "tagline": "FIND IT.  HARDEN IT.  STOP LOCKOUTS.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Smart Lockout",
+        "sub": "+ MFA"
+      },
+      {
+        "icon": "key",
+        "title": "Credential State",
+        "sub": "Cleaned"
+      },
+      {
+        "icon": "chart",
+        "title": "Exposure",
+        "sub": "Lockout report"
+      },
+      {
+        "icon": "gear",
+        "title": "Zero-Trust",
+        "sub": "Least privilege"
+      }
+    ]
+  }
+}

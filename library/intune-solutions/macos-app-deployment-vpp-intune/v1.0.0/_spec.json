@@ -1,0 +1,82 @@
+{
+  "sol": "MACVPP",
+  "slug": "macos-app-deployment-vpp-intune",
+  "title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Deliver and license Mac apps without touching the device",
+  "problem": "Getting the right apps &mdash; App Store and enterprise &mdash; onto managed Macs, licensed and updated, is a persistent gap. This solution stands up <strong>macOS app deployment through Microsoft Intune with Apple's Volume Purchase Program (VPP)</strong>: connect the ABM/VPP token, sync licenses, deploy store and line-of-business apps, and keep them updated &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the macOS app-delivery model in Intune (VPP location tokens, device- vs user-licensing, store apps, LOB <code>.pkg</code>/<code>.dmg</code>, unmanaged PKG) and the deployment model.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (ABM + VPP location + token, Intune app connector, Entra groups, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to connect the VPP token, sync licenses, add and assign store + enterprise apps to the named pilot group, validate install/licensing, then expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; app/VPP-token discovery, per-device app + license validation, an app/VPP-license coverage report, safe remediation of failed installs/licenses, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (app installed, licensed, updated) plus Best Practices for token renewal and licensing model."
+  ],
+  "short": "Deploy and license Mac apps via <strong>Intune + Apple VPP</strong> &mdash; App Store and enterprise apps, token/license sync, updates &mdash; without touching the device, deployed pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and license Mac apps via Intune + Apple VPP — App Store and enterprise apps, token/license sync, updates — without touching the device, pilot-first.",
+  "meta_title": "macOS App Deployment & Apple VPP with Microsoft Intune",
+  "meta_description": "Deploy macOS apps via Microsoft Intune and Apple VPP: VPP location tokens, license sync, App Store and enterprise (LOB) apps, updates. Self-guided steps and scripts.",
+  "bottom_line": "The right apps on every Mac &mdash; store and enterprise, licensed via VPP and kept current &mdash; delivered from Intune and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS App Deployment",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Apple VPP via Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "App Store · Enterprise · VPP",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MANUAL APP INSTALLS",
+      "items": [
+        "Unlicensed apps",
+        "No VPP sync",
+        "Stale versions",
+        "Hands-on installs"
+      ]
+    },
+    "to": {
+      "label": "VPP-licensed delivery",
+      "stat": "Store + enterprise"
+    },
+    "tagline": "CONNECT.  LICENSE.  DEPLOY.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Store + LOB",
+        "sub": "App Store/PKG"
+      },
+      {
+        "icon": "key",
+        "title": "VPP",
+        "sub": "Token/licenses"
+      },
+      {
+        "icon": "gear",
+        "title": "Updates",
+        "sub": "Kept current"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "App report"
+      }
+    ]
+  }
+}

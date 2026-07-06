@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Baseline",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Managed in Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Profiles · Compliance · Updates",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNMANAGED DRIFT",
+    "items": [
+      "Inconsistent Macs",
+      "No compliance",
+      "Ad-hoc profiles",
+      "Update chaos"
+    ]
+  },
+  "to": {
+    "label": "Consistent baseline",
+    "stat": "Every Mac compliant"
+  },
+  "tagline": "PROFILE IT.  COMPLY.  UPDATE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Config Profiles",
+      "sub": "Settings catalog"
+    },
+    {
+      "icon": "shield",
+      "title": "Compliance",
+      "sub": "Standards"
+    },
+    {
+      "icon": "gear",
+      "title": "Updates",
+      "sub": "Managed"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "Baseline report"
+    }
+  ]
+}

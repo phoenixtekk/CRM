@@ -7828,6 +7828,338 @@
     "product_count": 3
   },
   {
+    "title": "macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit",
+    "slug": "macos-enrollment-sso-filevault-troubleshooting",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "MACDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACDX-COMM-001",
+      "PTK-MACDX-NPO-001",
+      "PTK-MACDX-GOV-001"
+    ],
+    "deliverables": [
+      "MACDX-Solution.pdf",
+      "MACDX-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\macos-enrollment-sso-filevault-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 12.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACDX-Discovery.ps1",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/scripts/MACDX-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "MACDX-Remediation.ps1",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/scripts/MACDX-Remediation.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "MACDX-Report.ps1",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/scripts/MACDX-Report.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "MACDX-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/scripts/MACDX-Set-ScopeTargeting.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "MACDX-Validation.ps1",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/scripts/MACDX-Validation.ps1",
+          "kb": 10.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACDX-Complete-Solution.zip",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-Complete-Solution.zip",
+          "kb": 105.5
+        },
+        {
+          "name": "MACDX-hero.png",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-hero.png",
+          "kb": 439.1
+        },
+        {
+          "name": "MACDX-hero.svg",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MACDX-Scripts.zip",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-Scripts.zip",
+          "kb": 12.3
+        },
+        {
+          "name": "MACDX-Solution.docx",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-Solution.docx",
+          "kb": 55.6
+        },
+        {
+          "name": "MACDX-Solution.pdf",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-Solution.pdf",
+          "kb": 56.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/macos-enrollment-sso-filevault-troubleshooting/v1.0.0/deliverables/MACDX-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS Management Runbooks & IT-Support Enablement (Intune)",
+    "slug": "macos-management-runbooks-support-enablement",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "MACRUN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACRUN-COMM-001",
+      "PTK-MACRUN-NPO-001",
+      "PTK-MACRUN-GOV-001"
+    ],
+    "deliverables": [
+      "MACRUN-Solution.pdf",
+      "MACRUN-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\macos-management-runbooks-support-enablement\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/03-implementation.md",
+          "kb": 29.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/05-testing.md",
+          "kb": 6.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/07-best-practices.md",
+          "kb": 6.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACRUN-Discovery.ps1",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/scripts/MACRUN-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "MACRUN-Remediation.ps1",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/scripts/MACRUN-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "MACRUN-Report.ps1",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/scripts/MACRUN-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "MACRUN-Set-ScopeTargeting.ps1",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/scripts/MACRUN-Set-ScopeTargeting.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "MACRUN-Validation.ps1",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/scripts/MACRUN-Validation.ps1",
+          "kb": 6.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACRUN-Complete-Solution.zip",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-Complete-Solution.zip",
+          "kb": 127.4
+        },
+        {
+          "name": "MACRUN-hero.png",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-hero.png",
+          "kb": 421.4
+        },
+        {
+          "name": "MACRUN-hero.svg",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "MACRUN-Scripts.zip",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-Scripts.zip",
+          "kb": 11.4
+        },
+        {
+          "name": "MACRUN-Solution.docx",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-Solution.docx",
+          "kb": 64.2
+        },
+        {
+          "name": "MACRUN-Solution.pdf",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-Solution.pdf",
+          "kb": 76.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/macos-management-runbooks-support-enablement/v1.0.0/deliverables/MACRUN-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "New-Site Endpoint Rollout Playbook",
     "slug": "new-site-endpoint-rollout-playbook",
     "category": "Infrastructure",
@@ -11994,6 +12326,172 @@
     "product_count": 3
   },
   {
+    "title": "FileVault Full-Disk Encryption & Key Escrow/Recovery for macOS (Intune)",
+    "slug": "macos-filevault-encryption-key-escrow-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACFV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACFV-COMM-001",
+      "PTK-MACFV-NPO-001",
+      "PTK-MACFV-GOV-001"
+    ],
+    "deliverables": [
+      "MACFV-Solution.pdf",
+      "MACFV-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-filevault-encryption-key-escrow-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/03-implementation.md",
+          "kb": 5.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/05-testing.md",
+          "kb": 2.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 2.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACFV-Discovery.ps1",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/scripts/MACFV-Discovery.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "MACFV-Remediation.ps1",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/scripts/MACFV-Remediation.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "MACFV-Report.ps1",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/scripts/MACFV-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "MACFV-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/scripts/MACFV-Set-ScopeTargeting.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "MACFV-Validation.ps1",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/scripts/MACFV-Validation.ps1",
+          "kb": 3.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACFV-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-Complete-Solution.zip",
+          "kb": 87.5
+        },
+        {
+          "name": "MACFV-hero.png",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-hero.png",
+          "kb": 406.9
+        },
+        {
+          "name": "MACFV-hero.svg",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MACFV-Scripts.zip",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "MACFV-Solution.docx",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-Solution.docx",
+          "kb": 50.3
+        },
+        {
+          "name": "MACFV-Solution.pdf",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-Solution.pdf",
+          "kb": 43.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-filevault-encryption-key-escrow-intune/v1.0.0/deliverables/MACFV-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Implement & Manage CIS Benchmarks for macOS Devices for Microsoft Intune",
     "slug": "cis-benchmarks-macos-intune",
     "category": "Intune",
@@ -14183,6 +14681,172 @@
     "product_count": 3
   },
   {
+    "title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
+    "slug": "macos-app-deployment-vpp-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACVPP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACVPP-COMM-001",
+      "PTK-MACVPP-NPO-001",
+      "PTK-MACVPP-GOV-001"
+    ],
+    "deliverables": [
+      "MACVPP-Solution.pdf",
+      "MACVPP-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-app-deployment-vpp-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/03-implementation.md",
+          "kb": 6.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACVPP-Discovery.ps1",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/scripts/MACVPP-Discovery.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "MACVPP-Remediation.ps1",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/scripts/MACVPP-Remediation.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "MACVPP-Report.ps1",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/scripts/MACVPP-Report.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "MACVPP-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/scripts/MACVPP-Set-ScopeTargeting.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "MACVPP-Validation.ps1",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/scripts/MACVPP-Validation.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACVPP-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-Complete-Solution.zip",
+          "kb": 99.3
+        },
+        {
+          "name": "MACVPP-hero.png",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-hero.png",
+          "kb": 410.0
+        },
+        {
+          "name": "MACVPP-hero.svg",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "MACVPP-Scripts.zip",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "MACVPP-Solution.docx",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-Solution.docx",
+          "kb": 54.3
+        },
+        {
+          "name": "MACVPP-Solution.pdf",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-Solution.pdf",
+          "kb": 53.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-app-deployment-vpp-intune/v1.0.0/deliverables/MACVPP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "macOS Automated Device Enrollment with SSO",
     "slug": "macos-ade-with-sso",
     "category": "Intune",
@@ -14510,6 +15174,836 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/macos-ade-with-sso-jamf-pro/v1.0.0/deliverables/JAMFADE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS BYOD Management — Account-Driven User Enrollment, App Protection & Conditional Access",
+    "slug": "macos-byod-user-enrollment-conditional-access",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACBYOD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MACBYOD-COMM-001",
+      "PTK-MACBYOD-NPO-001",
+      "PTK-MACBYOD-GOV-001"
+    ],
+    "deliverables": [
+      "MACBYOD-Solution.pdf",
+      "MACBYOD-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-byod-user-enrollment-conditional-access\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/03-implementation.md",
+          "kb": 8.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACBYOD-Discovery.ps1",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/scripts/MACBYOD-Discovery.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "MACBYOD-Remediation.ps1",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/scripts/MACBYOD-Remediation.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "MACBYOD-Report.ps1",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/scripts/MACBYOD-Report.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "MACBYOD-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/scripts/MACBYOD-Set-ScopeTargeting.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "MACBYOD-Validation.ps1",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/scripts/MACBYOD-Validation.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACBYOD-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-Complete-Solution.zip",
+          "kb": 108.6
+        },
+        {
+          "name": "MACBYOD-hero.png",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-hero.png",
+          "kb": 439.9
+        },
+        {
+          "name": "MACBYOD-hero.svg",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "MACBYOD-Scripts.zip",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "MACBYOD-Solution.docx",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-Solution.docx",
+          "kb": 56.6
+        },
+        {
+          "name": "MACBYOD-Solution.pdf",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-Solution.pdf",
+          "kb": 63.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-byod-user-enrollment-conditional-access/v1.0.0/deliverables/MACBYOD-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS Compliance & Conditional Access for Zero-Trust Access",
+    "slug": "macos-compliance-conditional-access-zero-trust",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACCA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACCA-COMM-001",
+      "PTK-MACCA-NPO-001",
+      "PTK-MACCA-GOV-001"
+    ],
+    "deliverables": [
+      "MACCA-Solution.pdf",
+      "MACCA-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-compliance-conditional-access-zero-trust\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/03-implementation.md",
+          "kb": 7.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACCA-Discovery.ps1",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/scripts/MACCA-Discovery.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "MACCA-Remediation.ps1",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/scripts/MACCA-Remediation.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "MACCA-Report.ps1",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/scripts/MACCA-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "MACCA-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/scripts/MACCA-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "MACCA-Validation.ps1",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/scripts/MACCA-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACCA-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-Complete-Solution.zip",
+          "kb": 95.3
+        },
+        {
+          "name": "MACCA-hero.png",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-hero.png",
+          "kb": 467.7
+        },
+        {
+          "name": "MACCA-hero.svg",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "MACCA-Scripts.zip",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-Scripts.zip",
+          "kb": 9.4
+        },
+        {
+          "name": "MACCA-Solution.docx",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-Solution.docx",
+          "kb": 52.3
+        },
+        {
+          "name": "MACCA-Solution.pdf",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-Solution.pdf",
+          "kb": 51.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-compliance-conditional-access-zero-trust/v1.0.0/deliverables/MACCA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS Endpoint Management Baseline in Microsoft Intune",
+    "slug": "macos-endpoint-management-baseline-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACBASE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MACBASE-COMM-001",
+      "PTK-MACBASE-NPO-001",
+      "PTK-MACBASE-GOV-001"
+    ],
+    "deliverables": [
+      "MACBASE-Solution.pdf",
+      "MACBASE-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-endpoint-management-baseline-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/02-requirements.md",
+          "kb": 8.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACBASE-Discovery.ps1",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/scripts/MACBASE-Discovery.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "MACBASE-Remediation.ps1",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/scripts/MACBASE-Remediation.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "MACBASE-Report.ps1",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/scripts/MACBASE-Report.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "MACBASE-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/scripts/MACBASE-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "MACBASE-Validation.ps1",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/scripts/MACBASE-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACBASE-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-Complete-Solution.zip",
+          "kb": 107.1
+        },
+        {
+          "name": "MACBASE-hero.png",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-hero.png",
+          "kb": 461.0
+        },
+        {
+          "name": "MACBASE-hero.svg",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "MACBASE-Scripts.zip",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "MACBASE-Solution.docx",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-Solution.docx",
+          "kb": 56.3
+        },
+        {
+          "name": "MACBASE-Solution.pdf",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-Solution.pdf",
+          "kb": 62.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-endpoint-management-baseline-intune/v1.0.0/deliverables/MACBASE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS Enterprise SSO App Extension (Extensible SSO for Apps & Browsers) via Intune",
+    "slug": "macos-enterprise-sso-app-extension-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACSSOEXT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACSSOEXT-COMM-001",
+      "PTK-MACSSOEXT-NPO-001",
+      "PTK-MACSSOEXT-GOV-001"
+    ],
+    "deliverables": [
+      "MACSSOEXT-Solution.pdf",
+      "MACSSOEXT-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\macos-enterprise-sso-app-extension-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/03-implementation.md",
+          "kb": 6.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACSSOEXT-Discovery.ps1",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/scripts/MACSSOEXT-Discovery.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "MACSSOEXT-Remediation.ps1",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/scripts/MACSSOEXT-Remediation.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "MACSSOEXT-Report.ps1",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/scripts/MACSSOEXT-Report.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "MACSSOEXT-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/scripts/MACSSOEXT-Set-ScopeTargeting.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "MACSSOEXT-Validation.ps1",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/scripts/MACSSOEXT-Validation.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACSSOEXT-Complete-Solution.zip",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-Complete-Solution.zip",
+          "kb": 97.3
+        },
+        {
+          "name": "MACSSOEXT-hero.png",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-hero.png",
+          "kb": 423.6
+        },
+        {
+          "name": "MACSSOEXT-hero.svg",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MACSSOEXT-Scripts.zip",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-Scripts.zip",
+          "kb": 9.3
+        },
+        {
+          "name": "MACSSOEXT-Solution.docx",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-Solution.docx",
+          "kb": 53.3
+        },
+        {
+          "name": "MACSSOEXT-Solution.pdf",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-Solution.pdf",
+          "kb": 52.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/macos-enterprise-sso-app-extension-intune/v1.0.0/deliverables/MACSSOEXT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+    "slug": "defender-for-endpoint-macos-onboarding-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "MACMDE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MACMDE-COMM-001",
+      "PTK-MACMDE-NPO-001",
+      "PTK-MACMDE-GOV-001"
+    ],
+    "deliverables": [
+      "MACMDE-Solution.pdf",
+      "MACMDE-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\defender-for-endpoint-macos-onboarding-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/03-implementation.md",
+          "kb": 10.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACMDE-Discovery.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/scripts/MACMDE-Discovery.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "MACMDE-Remediation.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/scripts/MACMDE-Remediation.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "MACMDE-Report.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/scripts/MACMDE-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "MACMDE-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/scripts/MACMDE-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "MACMDE-Validation.ps1",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/scripts/MACMDE-Validation.ps1",
+          "kb": 5.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACMDE-Complete-Solution.zip",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-Complete-Solution.zip",
+          "kb": 105.7
+        },
+        {
+          "name": "MACMDE-hero.png",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-hero.png",
+          "kb": 413.7
+        },
+        {
+          "name": "MACMDE-hero.svg",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "MACMDE-Scripts.zip",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "MACMDE-Solution.docx",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-Solution.docx",
+          "kb": 55.0
+        },
+        {
+          "name": "MACMDE-Solution.pdf",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-Solution.pdf",
+          "kb": 60.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/defender-for-endpoint-macos-onboarding-intune/v1.0.0/deliverables/MACMDE-hero.png",
     "product_count": 3
   },
   {
@@ -25150,6 +26644,172 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../security/continuous-compliance-audit-evidence-intune-gcc-high/v1.0.0/deliverables/CCAUDITG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken)",
+    "slug": "macos-identity-threat-account-lockout-hardening",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "MACLOCK",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MACLOCK-COMM-001",
+      "PTK-MACLOCK-NPO-001",
+      "PTK-MACLOCK-GOV-001"
+    ],
+    "deliverables": [
+      "MACLOCK-Solution.pdf",
+      "MACLOCK-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\macos-identity-threat-account-lockout-hardening\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/03-implementation.md",
+          "kb": 6.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/05-testing.md",
+          "kb": 2.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-security.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/source/global-requirements-security.md",
+          "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MACLOCK-Discovery.ps1",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/scripts/MACLOCK-Discovery.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "MACLOCK-Remediation.ps1",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/scripts/MACLOCK-Remediation.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "MACLOCK-Report.ps1",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/scripts/MACLOCK-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "MACLOCK-Set-ScopeTargeting.ps1",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/scripts/MACLOCK-Set-ScopeTargeting.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "MACLOCK-Validation.ps1",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/scripts/MACLOCK-Validation.ps1",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MACLOCK-Complete-Solution.zip",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-Complete-Solution.zip",
+          "kb": 95.8
+        },
+        {
+          "name": "MACLOCK-hero.png",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-hero.png",
+          "kb": 423.7
+        },
+        {
+          "name": "MACLOCK-hero.svg",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MACLOCK-Scripts.zip",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-Scripts.zip",
+          "kb": 11.2
+        },
+        {
+          "name": "MACLOCK-Solution.docx",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-Solution.docx",
+          "kb": 51.6
+        },
+        {
+          "name": "MACLOCK-Solution.pdf",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-Solution.pdf",
+          "kb": 50.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../security/macos-identity-threat-account-lockout-hardening/v1.0.0/deliverables/MACLOCK-hero.png",
     "product_count": 3
   },
   {

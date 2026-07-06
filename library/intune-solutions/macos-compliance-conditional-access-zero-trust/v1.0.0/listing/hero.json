@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Compliance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Conditional Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Zero-Trust · Signals · Gating",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PASSWORD-ONLY ACCESS",
+    "items": [
+      "Untrusted Macs",
+      "No device gate",
+      "Static access",
+      "No Zero-Trust"
+    ]
+  },
+  "to": {
+    "label": "Compliance-gated",
+    "stat": "Trusted Macs only"
+  },
+  "tagline": "MEASURE.  GATE.  TRUST.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Compliance",
+      "sub": "Mac signals"
+    },
+    {
+      "icon": "lock",
+      "title": "Conditional Access",
+      "sub": "Access gate"
+    },
+    {
+      "icon": "key",
+      "title": "Zero-Trust",
+      "sub": "Least privilege"
+    },
+    {
+      "icon": "chart",
+      "title": "Decisions",
+      "sub": "Access report"
+    }
+  ]
+}

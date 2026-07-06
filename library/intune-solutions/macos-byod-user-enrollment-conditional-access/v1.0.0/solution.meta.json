@@ -1,0 +1,41 @@
+{
+  "slug": "macos-byod-user-enrollment-conditional-access",
+  "title": "macOS BYOD Management — Account-Driven User Enrollment, App Protection & Conditional Access",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "MACBYOD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACBYOD-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-MACBYOD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-MACBYOD-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "MACBYOD-Solution.pdf",
+    "MACBYOD-Scripts.zip"
+  ],
+  "hero": "MACBYOD-hero.png"
+}
+

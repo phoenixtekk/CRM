@@ -1,0 +1,82 @@
+{
+  "sol": "MACRUN",
+  "slug": "macos-management-runbooks-support-enablement",
+  "title": "macOS Management Runbooks & IT-Support Enablement (Intune)",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Give your team a repeatable way to run and support Macs",
+  "problem": "macOS support gets inconsistent when there are no standard runbooks and the knowledge lives in one engineer's head. This solution provides a <strong>runbook library and enablement kit</strong> for managing and supporting Intune-managed Macs &mdash; enrollment, SSO setup, passwordless/FileVault procedures, incident response, and staff training &mdash; so IT support resolves Mac issues consistently and new features get adopted deliberately.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the macOS support operating model, how the runbooks are structured, and how to keep them current as Intune/Apple features change.",
+    "<strong>Requirements Guide</strong> &mdash; what the team needs (Intune roles, Graph read access, remote tools, asset context) with how to <em>verify</em> each.",
+    "<strong>Runbook Library</strong> &mdash; step-by-step runbooks: ADE/enrollment, SSO setup, passwordless/FileVault procedures, app/VPP, BYOD, compliance/CA, and incident response (recover from encryption/SecureToken issues, account lock-outs) &mdash; each with triage, checks, and escalation gate.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Mac fleet health/context discovery, per-device state validation, a support-metrics/health report, safe common-fix remediation, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates per runbook, plus Best Practices for documentation, training, and feature evaluation."
+  ],
+  "short": "A <strong>runbook library and enablement kit</strong> for Intune-managed Macs &mdash; enrollment, SSO, passwordless/FileVault, app/VPP, BYOD, compliance, and incident response &mdash; so support is consistent and features get adopted deliberately. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A runbook library and enablement kit for Intune-managed Macs — enrollment, SSO, passwordless/FileVault, app/VPP, BYOD, compliance, and incident response — so support is consistent and features get adopted deliberately.",
+  "meta_title": "macOS Management Runbooks & IT-Support Enablement (Intune)",
+  "meta_description": "Standardized runbooks + enablement for Intune-managed Macs: enrollment, SSO, passwordless/FileVault, app/VPP, BYOD, compliance, and incident response, with staff-training guidance. Self-guided steps and scripts.",
+  "bottom_line": "A Mac-support team that resolves issues the same repeatable way and adopts new features deliberately &mdash; a runbook library and scripts you keep and reuse across the fleet.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Runbooks",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Support Enablement",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Enrollment · SSO · FileVault · IR",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "TRIBAL KNOWLEDGE",
+      "items": [
+        "No standard runbooks",
+        "Inconsistent support",
+        "Knowledge silos",
+        "Ad-hoc adoption"
+      ]
+    },
+    "to": {
+      "label": "Repeatable runbooks",
+      "stat": "Consistent Mac support"
+    },
+    "tagline": "DOCUMENT.  RUN.  ENABLE.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Runbooks",
+        "sub": "Enrollment→IR"
+      },
+      {
+        "icon": "device",
+        "title": "macOS",
+        "sub": "Intune-managed"
+      },
+      {
+        "icon": "gear",
+        "title": "Enablement",
+        "sub": "Train staff"
+      },
+      {
+        "icon": "chart",
+        "title": "Health",
+        "sub": "Support report"
+      }
+    ]
+  }
+}

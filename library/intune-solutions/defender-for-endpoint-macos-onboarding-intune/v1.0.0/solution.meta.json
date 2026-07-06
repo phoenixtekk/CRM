@@ -1,0 +1,41 @@
+{
+  "slug": "defender-for-endpoint-macos-onboarding-intune",
+  "title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "MACMDE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACMDE-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-MACMDE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-MACMDE-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "MACMDE-Solution.pdf",
+    "MACMDE-Scripts.zip"
+  ],
+  "hero": "MACMDE-hero.png"
+}
+

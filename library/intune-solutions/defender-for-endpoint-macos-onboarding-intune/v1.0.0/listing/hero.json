@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Defender for Endpoint",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "macOS Onboarding · Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "System Ext · FDA · Network Filter",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SILENT MDE FAILURE",
+    "items": [
+      "Missing extensions",
+      "No full-disk access",
+      "Onboard-before-profiles",
+      "Unhealthy agents"
+    ]
+  },
+  "to": {
+    "label": "Correct onboarding",
+    "stat": "Healthy on every Mac"
+  },
+  "tagline": "PROFILE FIRST.  ONBOARD.  VERIFY.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "MDE macOS",
+      "sub": "Onboarded"
+    },
+    {
+      "icon": "gear",
+      "title": "Extensions",
+      "sub": "System/FDA"
+    },
+    {
+      "icon": "lock",
+      "title": "Network Filter",
+      "sub": "Approved"
+    },
+    {
+      "icon": "chart",
+      "title": "Health",
+      "sub": "Coverage report"
+    }
+  ]
+}

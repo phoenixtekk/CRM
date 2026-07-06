@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "macos-endpoint-management-baseline-intune",
+    "title": "macOS Endpoint Management Baseline in Microsoft Intune",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MACBASE-COMM-001",
+      "name": "macOS Endpoint Management Baseline in Microsoft Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Establish the <strong>foundational macOS management baseline</strong> in Intune &mdash; config profiles, restrictions, compliance, and update management &mdash; so every Mac meets corporate standards, deployed pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Give every Mac a consistent, compliant Intune baseline</h3><p>Macs enrolled in Intune without a deliberate baseline drift into inconsistent, non-compliant states. This solution establishes the <strong>foundational macOS management baseline</strong> in Microsoft Intune &mdash; configuration profiles (settings catalog and custom <code>.mobileconfig</code>), device restrictions, compliance policies, and software-update management &mdash; so every Mac meets corporate standards for security, performance, and user experience, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS management model in Intune (MDM protocol, config profiles, settings catalog vs custom <code>.mobileconfig</code>, compliance, update management) and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune + Entra licensing, APNs certificate, enrollment method, Entra groups, a pilot group) with how to <em>verify</em> and <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to build the named baseline configuration profiles, restrictions, compliance policies, and macOS software-update policy, assign to a pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; baseline discovery, per-device applied-state validation, a config/compliance coverage report, safe remediation of drifted devices, and a target-group builder (Microsoft Graph).</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates, plus Best Practices for naming, settings catalog, and update rings.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Every Mac on a consistent, compliant Intune baseline &mdash; secure, performant, and predictable &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACBASE-Discovery.ps1</code> &mdash; tenant/device readiness for a macOS management baseline (management plane, Graph)</li><li><code>MACBASE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted macOS baseline (management plane, Graph)</li><li><code>MACBASE-Report.ps1</code> &mdash; fleet macOS baseline posture + drift via Microsoft Graph (Intune macOS objects)</li><li><code>MACBASE-Set-ScopeTargeting.ps1</code> &mdash; add a group assignment to the macOS baseline policies (management plane, Graph)</li><li><code>MACBASE-Validation.ps1</code> &mdash; per-device applied-state check for the macOS baseline (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Endpoint Management Baseline in Microsoft Intune",
+      "meta_description": "Build a macOS management baseline in Microsoft Intune: settings-catalog + custom .mobileconfig profiles, restrictions, compliance policies, and software-update management. Self-guided steps and scripts.",
+      "url_key": "macos-endpoint-management-baseline-intune-commercial",
+      "image": "MACBASE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACBASE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACBASE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACBASE-NPO-001",
+      "name": "macOS Endpoint Management Baseline in Microsoft Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Establish the foundational macOS management baseline in Intune — config profiles, restrictions, compliance, and update management — so every Mac meets corporate standards, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Give every Mac a consistent, compliant Intune baseline</h3><p>Macs enrolled in Intune without a deliberate baseline drift into inconsistent, non-compliant states. This solution establishes the <strong>foundational macOS management baseline</strong> in Microsoft Intune &mdash; configuration profiles (settings catalog and custom <code>.mobileconfig</code>), device restrictions, compliance policies, and software-update management &mdash; so every Mac meets corporate standards for security, performance, and user experience, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS management model in Intune (MDM protocol, config profiles, settings catalog vs custom <code>.mobileconfig</code>, compliance, update management) and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune + Entra licensing, APNs certificate, enrollment method, Entra groups, a pilot group) with how to <em>verify</em> and <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to build the named baseline configuration profiles, restrictions, compliance policies, and macOS software-update policy, assign to a pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; baseline discovery, per-device applied-state validation, a config/compliance coverage report, safe remediation of drifted devices, and a target-group builder (Microsoft Graph).</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates, plus Best Practices for naming, settings catalog, and update rings.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACBASE-Discovery.ps1</code> &mdash; tenant/device readiness for a macOS management baseline (management plane, Graph)</li><li><code>MACBASE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted macOS baseline (management plane, Graph)</li><li><code>MACBASE-Report.ps1</code> &mdash; fleet macOS baseline posture + drift via Microsoft Graph (Intune macOS objects)</li><li><code>MACBASE-Set-ScopeTargeting.ps1</code> &mdash; add a group assignment to the macOS baseline policies (management plane, Graph)</li><li><code>MACBASE-Validation.ps1</code> &mdash; per-device applied-state check for the macOS baseline (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Endpoint Management Baseline in Microsoft Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Build a macOS management baseline in Microsoft Intune: settings-catalog + custom .mobileconfig profiles, restrictions, compliance policies, and software-update management. Self-guided steps and scripts.",
+      "url_key": "macos-endpoint-management-baseline-intune-nonprofit",
+      "image": "MACBASE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACBASE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACBASE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACBASE-GOV-001",
+      "name": "macOS Endpoint Management Baseline in Microsoft Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Establish the foundational macOS management baseline in Intune — config profiles, restrictions, compliance, and update management — so every Mac meets corporate standards, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Give every Mac a consistent, compliant Intune baseline</h3><p>Macs enrolled in Intune without a deliberate baseline drift into inconsistent, non-compliant states. This solution establishes the <strong>foundational macOS management baseline</strong> in Microsoft Intune &mdash; configuration profiles (settings catalog and custom <code>.mobileconfig</code>), device restrictions, compliance policies, and software-update management &mdash; so every Mac meets corporate standards for security, performance, and user experience, deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the macOS management model in Intune (MDM protocol, config profiles, settings catalog vs custom <code>.mobileconfig</code>, compliance, update management) and the standard deployment model.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune + Entra licensing, APNs certificate, enrollment method, Entra groups, a pilot group) with how to <em>verify</em> and <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to build the named baseline configuration profiles, restrictions, compliance policies, and macOS software-update policy, assign to a pilot, validate, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; baseline discovery, per-device applied-state validation, a config/compliance coverage report, safe remediation of drifted devices, and a target-group builder (Microsoft Graph).</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with pass/fail gates, plus Best Practices for naming, settings catalog, and update rings.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACBASE-Discovery.ps1</code> &mdash; tenant/device readiness for a macOS management baseline (management plane, Graph)</li><li><code>MACBASE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted macOS baseline (management plane, Graph)</li><li><code>MACBASE-Report.ps1</code> &mdash; fleet macOS baseline posture + drift via Microsoft Graph (Intune macOS objects)</li><li><code>MACBASE-Set-ScopeTargeting.ps1</code> &mdash; add a group assignment to the macOS baseline policies (management plane, Graph)</li><li><code>MACBASE-Validation.ps1</code> &mdash; per-device applied-state check for the macOS baseline (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "macOS Endpoint Management Baseline in Microsoft Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Build a macOS management baseline in Microsoft Intune: settings-catalog + custom .mobileconfig profiles, restrictions, compliance policies, and software-update management. Self-guided steps and scripts.",
+      "url_key": "macos-endpoint-management-baseline-intune-government",
+      "image": "MACBASE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACBASE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACBASE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

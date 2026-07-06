@@ -1,0 +1,41 @@
+{
+  "slug": "macos-enrollment-sso-filevault-troubleshooting",
+  "title": "macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "MACDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-MACDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-MACDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "MACDX-Solution.pdf",
+    "MACDX-Scripts.zip"
+  ],
+  "hero": "MACDX-hero.png"
+}
+

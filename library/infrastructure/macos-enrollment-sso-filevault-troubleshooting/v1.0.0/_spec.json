@@ -1,0 +1,82 @@
+{
+  "sol": "MACDX",
+  "slug": "macos-enrollment-sso-filevault-troubleshooting",
+  "title": "macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Fix the Mac enrollment, SSO and FileVault failures — fast",
+  "problem": "When a Mac won't enroll, Platform/Extensible SSO won't sign in, or FileVault/SecureToken blocks a user, the cause hides across the Apple profile, the Intune policy, and the Entra identity. This toolkit gives you a <strong>structured root-cause tree and diagnostic scripts</strong> for the macOS + Intune stack &mdash; ADE/enrollment, SSO login, SecureToken/FileVault, compliance/CA, and post-enrollment lock-outs &mdash; so you isolate the failing layer in minutes.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the macOS-Intune signal path (ADE/enrollment &rarr; profiles &rarr; SSO &rarr; SecureToken/FileVault &rarr; compliance/CA) and the layered model behind the root-cause tree.",
+    "<strong>Requirements Guide</strong> &mdash; what you need to diagnose (Intune + Graph read access, device logs, the Apple/SSO vantage points) with how to <em>verify</em> each.",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom tree (ADE not assigned / enrollment stuck, SSO won't sign in, SecureToken/FileVault error, compliant-but-denied, user locked after enrollment) with exact checks per branch.",
+    "<strong>5 PowerShell scripts</strong> &mdash; enrollment/profile discovery, per-device SSO + SecureToken/FileVault validation, a consolidated diagnostics report, safe re-sync/remediation, and a target-group builder (read-only where it matters).",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> mapping each gate to the fix, plus Best Practices for evidence-based escalation."
+  ],
+  "short": "A structured <strong>root-cause tree and diagnostic scripts</strong> for macOS + Intune failures &mdash; ADE/enrollment, SSO login, SecureToken/FileVault, compliance/CA, post-enrollment lock-outs &mdash; isolate the failing layer fast. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A structured root-cause tree and diagnostic scripts for macOS + Intune failures — ADE/enrollment, SSO login, SecureToken/FileVault, compliance/CA, post-enrollment lock-outs — isolate the failing layer fast.",
+  "meta_title": "macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit",
+  "meta_description": "Troubleshoot macOS + Intune failures: ADE/enrollment, Platform/Extensible SSO login, SecureToken/FileVault, compliance/Conditional Access, and post-enrollment lock-outs. Root-cause tree and scripts.",
+  "bottom_line": "The failing layer of a stuck Mac isolated in minutes &mdash; enrollment, SSO, SecureToken/FileVault, or compliance &mdash; with a repeatable playbook and scripts you keep and reuse.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS + Intune",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Troubleshooting Toolkit",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Enrollment · SSO · SecureToken/FileVault",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "STUCK MACS",
+      "items": [
+        "Enrollment stalls",
+        "SSO won't sign in",
+        "SecureToken errors",
+        "Post-enroll lock-outs"
+      ]
+    },
+    "to": {
+      "label": "Layered root-cause",
+      "stat": "Isolate the failure"
+    },
+    "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Root-Cause Tree",
+        "sub": "By symptom"
+      },
+      {
+        "icon": "key",
+        "title": "SSO/Token",
+        "sub": "Sign-in/FileVault"
+      },
+      {
+        "icon": "device",
+        "title": "Enrollment",
+        "sub": "ADE/profiles"
+      },
+      {
+        "icon": "chart",
+        "title": "Report",
+        "sub": "Consolidated"
+      }
+    ]
+  }
+}

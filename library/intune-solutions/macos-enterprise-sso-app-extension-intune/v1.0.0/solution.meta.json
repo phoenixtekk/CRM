@@ -1,0 +1,41 @@
+{
+  "slug": "macos-enterprise-sso-app-extension-intune",
+  "title": "macOS Enterprise SSO App Extension (Extensible SSO for Apps & Browsers) via Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "MACSSOEXT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MACSSOEXT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-MACSSOEXT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-MACSSOEXT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "MACSSOEXT-Solution.pdf",
+    "MACSSOEXT-Scripts.zip"
+  ],
+  "hero": "MACSSOEXT-hero.png"
+}
+

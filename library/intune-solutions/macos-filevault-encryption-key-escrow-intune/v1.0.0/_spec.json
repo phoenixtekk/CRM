@@ -1,0 +1,82 @@
+{
+  "sol": "MACFV",
+  "slug": "macos-filevault-encryption-key-escrow-intune",
+  "title": "FileVault Full-Disk Encryption & Key Escrow/Recovery for macOS (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Encrypt every Mac and never lose a recovery key",
+  "problem": "FileVault protects data at rest &mdash; but only if it's enforced, escrowed, and recoverable. This solution deploys <strong>FileVault full-disk encryption via Microsoft Intune</strong> with proper <strong>recovery-key escrow</strong>, rotation, and recovery workflow, plus the <strong>SecureToken</strong> enablement that FileVault depends on &mdash; so data is protected and you can always recover a locked-out Mac, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how FileVault + SecureToken work on Apple Silicon/T2, personal vs institutional recovery keys, Intune escrow, and the recovery model.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Intune enrollment, disk-encryption policy, SecureToken/bootstrap-token, Entra groups, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to build the named FileVault disk-encryption policy, enable escrow, handle SecureToken/bootstrap token, validate key escrow, and run the recovery workflow, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; FileVault/escrow discovery, per-device encryption + key-escrow validation, an encryption coverage/recovery-key report, safe remediation of unencrypted/unescrowed devices, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (encrypted, key escrowed, recovery works; SecureToken issues) plus Best Practices for key rotation and recovery."
+  ],
+  "short": "Deploy <strong>FileVault full-disk encryption via Intune</strong> with recovery-key escrow, rotation, SecureToken enablement, and a proven recovery workflow &mdash; data protected, Macs always recoverable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy FileVault full-disk encryption via Intune with recovery-key escrow, rotation, SecureToken enablement, and a proven recovery workflow — data protected, Macs always recoverable.",
+  "meta_title": "FileVault Full-Disk Encryption & Key Escrow/Recovery for macOS (Intune)",
+  "meta_description": "Deploy FileVault via Microsoft Intune: disk-encryption policy, recovery-key escrow and rotation, SecureToken/bootstrap token, and recovery workflow for macOS. Self-guided steps and scripts.",
+  "bottom_line": "Every Mac encrypted with FileVault and every recovery key escrowed and recoverable &mdash; data protected at rest, no lock-outs you can't fix &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "FileVault Encryption",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Key Escrow via Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Recovery · SecureToken · Rotation",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DATA AT RISK",
+      "items": [
+        "Unencrypted Macs",
+        "Lost recovery keys",
+        "No escrow",
+        "SecureToken errors"
+      ]
+    },
+    "to": {
+      "label": "Encrypted + recoverable",
+      "stat": "Escrowed · rotatable"
+    },
+    "tagline": "ENCRYPT.  ESCROW.  RECOVER.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "FileVault",
+        "sub": "Full-disk"
+      },
+      {
+        "icon": "key",
+        "title": "Escrow",
+        "sub": "Recovery keys"
+      },
+      {
+        "icon": "shield",
+        "title": "SecureToken",
+        "sub": "Enabled"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "Encryption report"
+      }
+    ]
+  }
+}

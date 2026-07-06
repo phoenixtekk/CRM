@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Identity Hardening",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Lockouts & Password Spray",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Smart Lockout · MFA · SecureToken",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MAC-DRIVEN LOCKOUTS",
+    "items": [
+      "Stale saved creds",
+      "Failed sign-in storms",
+      "Spray detections",
+      "Legit users locked"
+    ]
+  },
+  "to": {
+    "label": "Hardened identity",
+    "stat": "Fewer lockouts"
+  },
+  "tagline": "FIND IT.  HARDEN IT.  STOP LOCKOUTS.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Smart Lockout",
+      "sub": "+ MFA"
+    },
+    {
+      "icon": "key",
+      "title": "Credential State",
+      "sub": "Cleaned"
+    },
+    {
+      "icon": "chart",
+      "title": "Exposure",
+      "sub": "Lockout report"
+    },
+    {
+      "icon": "gear",
+      "title": "Zero-Trust",
+      "sub": "Least privilege"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS + Intune",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Troubleshooting Toolkit",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Enrollment · SSO · SecureToken/FileVault",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STUCK MACS",
+    "items": [
+      "Enrollment stalls",
+      "SSO won't sign in",
+      "SecureToken errors",
+      "Post-enroll lock-outs"
+    ]
+  },
+  "to": {
+    "label": "Layered root-cause",
+    "stat": "Isolate the failure"
+  },
+  "tagline": "TRACE IT.  ISOLATE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Root-Cause Tree",
+      "sub": "By symptom"
+    },
+    {
+      "icon": "key",
+      "title": "SSO/Token",
+      "sub": "Sign-in/FileVault"
+    },
+    {
+      "icon": "device",
+      "title": "Enrollment",
+      "sub": "ADE/profiles"
+    },
+    {
+      "icon": "chart",
+      "title": "Report",
+      "sub": "Consolidated"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "MACBYOD",
+  "slug": "macos-byod-user-enrollment-conditional-access",
+  "title": "macOS BYOD Management — Account-Driven User Enrollment, App Protection & Conditional Access",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Secure company data on personal Macs without owning them",
+  "problem": "Personal Macs accessing company resources need protection without heavy-handed control over the user's device. This solution builds a <strong>macOS BYOD strategy</strong>: account-driven <strong>user enrollment</strong> for a lighter management footprint, Conditional Access that requires compliance/enrollment for access, and an honest treatment of what app protection can and can't do on macOS &mdash; so corporate data is protected on non-corporate Macs, deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; BYOD models for Macs (account-driven user enrollment vs device enrollment vs unmanaged + Conditional Access), what management footprint each carries, and the honest note that Intune App Protection Policies do <em>not</em> cover macOS apps the way they do iOS/Android &mdash; protection comes via MDM scope + Conditional Access.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Entra + Intune, account-driven enrollment prerequisites, Conditional Access, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to enable account-driven user enrollment, scope BYOD compliance, build the named Conditional Access policy (require compliant/enrolled Mac), assign to a pilot, validate, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; BYOD-readiness discovery, per-device enrollment/compliance validation, a BYOD access-posture report, safe remediation, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (personal Mac enrolls, compliant, CA allows) plus Best Practices for privacy and least footprint."
+  ],
+  "short": "Build a <strong>macOS BYOD strategy</strong> &mdash; account-driven user enrollment, Conditional Access that gates on compliance, and an honest app-protection model &mdash; to secure company data on personal Macs, pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a macOS BYOD strategy — account-driven user enrollment, Conditional Access that gates on compliance, and an honest app-protection model — to secure company data on personal Macs, pilot-first.",
+  "meta_title": "macOS BYOD Management — User Enrollment, App Protection & Conditional Access",
+  "meta_description": "Manage BYOD Macs with Intune: account-driven user enrollment, Conditional Access requiring compliance, and the real macOS app-protection model. Self-guided steps and scripts.",
+  "bottom_line": "Company data protected on personal Macs &mdash; the right enrollment model and Conditional Access, without over-managing the user's device &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS BYOD",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Enroll · Protect · Gate",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "User Enrollment · CA · App Protection",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PERSONAL MAC RISK",
+      "items": [
+        "Unmanaged access",
+        "Over-management",
+        "No CA gate",
+        "Privacy worries"
+      ]
+    },
+    "to": {
+      "label": "Right-sized BYOD",
+      "stat": "Data protected"
+    },
+    "tagline": "ENROLL LIGHT.  GATE ACCESS.  PROTECT.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "User Enroll",
+        "sub": "Account-driven"
+      },
+      {
+        "icon": "lock",
+        "title": "Conditional Access",
+        "sub": "Compliance gate"
+      },
+      {
+        "icon": "shield",
+        "title": "Protection",
+        "sub": "Honest model"
+      },
+      {
+        "icon": "chart",
+        "title": "Posture",
+        "sub": "Access report"
+      }
+    ]
+  }
+}

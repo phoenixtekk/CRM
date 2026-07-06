@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS App Deployment",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Apple VPP via Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "App Store · Enterprise · VPP",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL APP INSTALLS",
+    "items": [
+      "Unlicensed apps",
+      "No VPP sync",
+      "Stale versions",
+      "Hands-on installs"
+    ]
+  },
+  "to": {
+    "label": "VPP-licensed delivery",
+    "stat": "Store + enterprise"
+  },
+  "tagline": "CONNECT.  LICENSE.  DEPLOY.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Store + LOB",
+      "sub": "App Store/PKG"
+    },
+    {
+      "icon": "key",
+      "title": "VPP",
+      "sub": "Token/licenses"
+    },
+    {
+      "icon": "gear",
+      "title": "Updates",
+      "sub": "Kept current"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "App report"
+    }
+  ]
+}

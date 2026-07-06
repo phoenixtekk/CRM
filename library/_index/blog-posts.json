@@ -793,5 +793,55 @@
     "post_id": 12142,
     "status": "draft",
     "category_id": 411
+  },
+  "macos-endpoint-management-baseline-intune": {
+    "post_id": 12144,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-filevault-encryption-key-escrow-intune": {
+    "post_id": 12146,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-enterprise-sso-app-extension-intune": {
+    "post_id": 12148,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-app-deployment-vpp-intune": {
+    "post_id": 12150,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-byod-user-enrollment-conditional-access": {
+    "post_id": 12152,
+    "status": "draft",
+    "category_id": 411
+  },
+  "defender-for-endpoint-macos-onboarding-intune": {
+    "post_id": 12154,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-enrollment-sso-filevault-troubleshooting": {
+    "post_id": 12156,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-compliance-conditional-access-zero-trust": {
+    "post_id": 12158,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-identity-threat-account-lockout-hardening": {
+    "post_id": 12160,
+    "status": "draft",
+    "category_id": 411
+  },
+  "macos-management-runbooks-support-enablement": {
+    "post_id": 12162,
+    "status": "draft",
+    "category_id": 411
   }
 }

@@ -1,0 +1,82 @@
+{
+  "sol": "MACSSOEXT",
+  "slug": "macos-enterprise-sso-app-extension-intune",
+  "title": "macOS Enterprise SSO App Extension (Extensible SSO for Apps & Browsers) via Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T3 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Stop the password prompts in Mac apps and browsers",
+  "problem": "Users on managed Macs still get repeated sign-in prompts in apps and Safari because the <strong>Enterprise SSO app extension</strong> isn't deployed. This solution deploys the <strong>Microsoft Enterprise SSO plug-in as an Apple Extensible SSO app extension</strong> via Intune &mdash; delivering silent, shared authentication to Entra-secured apps and browsers across the device (distinct from Platform SSO device login) &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how Apple's Extensible SSO (redirect/credential types) and the Microsoft Enterprise SSO plug-in work for <em>apps and browsers</em>, and how this differs from Platform SSO device login.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (Intune enrollment, Company Portal/Authenticator, Entra config, Safari/app support, a pilot group) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact steps to build the named Extensible SSO app-extension configuration profile, set app bundle IDs / URLs, deploy, validate silent SSO, then pilot and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; SSO-extension discovery, per-device applied-state validation, an SSO coverage report, safe remediation of missing/mis-scoped profiles, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (extension active, apps/browsers SSO silently) plus Best Practices for app/URL scoping."
+  ],
+  "short": "Deploy the <strong>Microsoft Enterprise SSO plug-in as an Extensible SSO app extension</strong> via Intune &mdash; silent shared auth to Entra-secured apps and browsers on managed Macs (not device login) &mdash; pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy the Microsoft Enterprise SSO plug-in as an Extensible SSO app extension via Intune — silent shared auth to Entra-secured apps and browsers on managed Macs (not device login) — pilot-first.",
+  "meta_title": "macOS Enterprise SSO App Extension (Extensible SSO) via Intune",
+  "meta_description": "Deploy the Microsoft Enterprise SSO plug-in as an Apple Extensible SSO app extension via Intune for silent SSO to Entra-secured apps and browsers on macOS. Self-guided steps and scripts.",
+  "bottom_line": "Silent, shared sign-in to Entra apps and browsers across every managed Mac &mdash; the Enterprise SSO app extension deployed and proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "macOS Enterprise SSO",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "App Extension via Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Extensible SSO · Apps · Browsers",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "PROMPT FATIGUE",
+      "items": [
+        "Repeated sign-ins",
+        "No app SSO",
+        "Safari re-auth",
+        "Manual creds"
+      ]
+    },
+    "to": {
+      "label": "Silent shared SSO",
+      "stat": "Apps + browsers"
+    },
+    "tagline": "DEPLOY IT.  SHARE IT.  SILENCE PROMPTS.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "SSO Extension",
+        "sub": "Enterprise plug-in"
+      },
+      {
+        "icon": "device",
+        "title": "Apps/Browsers",
+        "sub": "Extensible SSO"
+      },
+      {
+        "icon": "gear",
+        "title": "Scoping",
+        "sub": "Bundle IDs/URLs"
+      },
+      {
+        "icon": "chart",
+        "title": "Coverage",
+        "sub": "SSO report"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sol": "MACMDE",
+  "slug": "defender-for-endpoint-macos-onboarding-intune",
+  "title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "author_notes": [
+    "Effort tier: T4 (macOS + Microsoft Intune/Entra; configuration/identity/security work, live-fleet care).",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; anything uncertain flagged, not invented."
+  ],
+  "hook": "Onboard every Mac to Defender the way macOS actually requires",
+  "problem": "Deploying <strong>Microsoft Defender for Endpoint on macOS</strong> is not a one-click app push &mdash; it needs the system-extension, full-disk-access, network-filter, and background-services profiles delivered <em>before</em> onboarding, or it silently fails. This solution deploys and onboards MDE for macOS through <strong>Microsoft Intune</strong> correctly &mdash; the required config profiles, the onboarding package, and health validation &mdash; deployed pilot-first and rollback-ready.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the MDE-for-macOS deployment model: system extensions, full-disk access (PPPC/TCC), network filter, background service management, and the onboarding blob delivered via Intune.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites (MDE licensing, Intune enrollment, the required config profiles, onboarding package, a pilot) with how to <em>verify</em>/<em>implement</em> each.",
+    "<strong>Implementation Guide</strong> &mdash; exact ordered steps to deploy the named system-extension / full-disk-access / network-filter profiles FIRST, then the onboarding profile, assign to a pilot, validate MDE health, and expand.",
+    "<strong>5 PowerShell scripts</strong> &mdash; MDE-readiness discovery, per-device onboarding + profile validation, an MDE health/coverage report, safe remediation of missing profiles, and a target-group builder.",
+    "<strong>Testing &amp; Troubleshooting Guides</strong> (profiles applied, onboarded, healthy) plus Best Practices for extension approval order."
+  ],
+  "short": "Deploy and onboard <strong>Microsoft Defender for Endpoint on macOS</strong> via Intune correctly &mdash; system-extension, full-disk-access, and network-filter profiles before the onboarding blob &mdash; pilot-first. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and onboard Microsoft Defender for Endpoint on macOS via Intune correctly — system-extension, full-disk-access, and network-filter profiles before the onboarding blob — pilot-first.",
+  "meta_title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+  "meta_description": "Deploy Microsoft Defender for Endpoint on macOS with Intune: system-extension, full-disk-access (PPPC), network-filter profiles, onboarding package, and health validation. Self-guided steps and scripts.",
+  "bottom_line": "Every Mac protected by Defender for Endpoint &mdash; the required profiles in the right order and a clean onboarding &mdash; proven on a pilot before you scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Defender for Endpoint",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "macOS Onboarding · Intune",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "System Ext · FDA · Network Filter",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SILENT MDE FAILURE",
+      "items": [
+        "Missing extensions",
+        "No full-disk access",
+        "Onboard-before-profiles",
+        "Unhealthy agents"
+      ]
+    },
+    "to": {
+      "label": "Correct onboarding",
+      "stat": "Healthy on every Mac"
+    },
+    "tagline": "PROFILE FIRST.  ONBOARD.  VERIFY.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "MDE macOS",
+        "sub": "Onboarded"
+      },
+      {
+        "icon": "gear",
+        "title": "Extensions",
+        "sub": "System/FDA"
+      },
+      {
+        "icon": "lock",
+        "title": "Network Filter",
+        "sub": "Approved"
+      },
+      {
+        "icon": "chart",
+        "title": "Health",
+        "sub": "Coverage report"
+      }
+    ]
+  }
+}

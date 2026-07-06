@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "macOS Enterprise SSO",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "App Extension via Intune",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Extensible SSO · Apps · Browsers",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PROMPT FATIGUE",
+    "items": [
+      "Repeated sign-ins",
+      "No app SSO",
+      "Safari re-auth",
+      "Manual creds"
+    ]
+  },
+  "to": {
+    "label": "Silent shared SSO",
+    "stat": "Apps + browsers"
+  },
+  "tagline": "DEPLOY IT.  SHARE IT.  SILENCE PROMPTS.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SSO Extension",
+      "sub": "Enterprise plug-in"
+    },
+    {
+      "icon": "device",
+      "title": "Apps/Browsers",
+      "sub": "Extensible SSO"
+    },
+    {
+      "icon": "gear",
+      "title": "Scoping",
+      "sub": "Bundle IDs/URLs"
+    },
+    {
+      "icon": "chart",
+      "title": "Coverage",
+      "sub": "SSO report"
+    }
+  ]
+}

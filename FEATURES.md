@@ -185,7 +185,19 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | **Government (GCC High) editions (2026-07-03)** | | | |
 | 32 sovereign-cloud editions of the Microsoft-cloud solutions — separate `<slug>-gcc-high` products, GCC High / Azure Government / US Gov Graph, doc-cited Commercial-vs-GCC-High parity gaps | `*-gcc-high` | same 3-tier as parent | ✅ published (store + wiki + Dolibarr) |
 
-Total commercial catalog value: **$435,410** (158 solutions, all published — incl. 32 Government (GCC High) editions).
+| **macOS + Intune wave (2026-07-06)** | | | |
+| macOS Endpoint Management Baseline in Microsoft Intune | `macos-endpoint-management-baseline-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Intune) |
+| FileVault Full-Disk Encryption & Key Escrow/Recovery for macOS (Intune) | `macos-filevault-encryption-key-escrow-intune` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| macOS Enterprise SSO App Extension (Extensible SSO) via Intune | `macos-enterprise-sso-app-extension-intune` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| macOS App Deployment & Apple VPP with Intune | `macos-app-deployment-vpp-intune` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| macOS BYOD — User Enrollment, App Protection & Conditional Access | `macos-byod-user-enrollment-conditional-access` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Intune) |
+| Microsoft Defender for Endpoint for macOS — Onboarding via Intune | `defender-for-endpoint-macos-onboarding-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Intune) |
+| macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit | `macos-enrollment-sso-filevault-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
+| macOS Compliance & Conditional Access for Zero-Trust Access | `macos-compliance-conditional-access-zero-trust` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| macOS Identity-Threat & Account-Lockout Hardening | `macos-identity-threat-account-lockout-hardening` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Security) |
+| macOS Management Runbooks & IT-Support Enablement | `macos-management-runbooks-support-enablement` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
+
+Total commercial catalog value: **$464,355** (169 solutions, all published — incl. 32 Government (GCC High) editions).
 
 **Government (GCC High) editions (2026-07-03):** for every solution whose setup materially differs on a US
 sovereign tenant, a **separate `<slug>-gcc-high` product** ("<Title> — Government (GCC High)") was authored

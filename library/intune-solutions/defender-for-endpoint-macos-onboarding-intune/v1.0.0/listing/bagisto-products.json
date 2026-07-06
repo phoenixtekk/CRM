@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "defender-for-endpoint-macos-onboarding-intune",
+    "title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MACMDE-COMM-001",
+      "name": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Deploy and onboard <strong>Microsoft Defender for Endpoint on macOS</strong> via Intune correctly &mdash; system-extension, full-disk-access, and network-filter profiles before the onboarding blob &mdash; pilot-first. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Onboard every Mac to Defender the way macOS actually requires</h3><p>Deploying <strong>Microsoft Defender for Endpoint on macOS</strong> is not a one-click app push &mdash; it needs the system-extension, full-disk-access, network-filter, and background-services profiles delivered <em>before</em> onboarding, or it silently fails. This solution deploys and onboards MDE for macOS through <strong>Microsoft Intune</strong> correctly &mdash; the required config profiles, the onboarding package, and health validation &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the MDE-for-macOS deployment model: system extensions, full-disk access (PPPC/TCC), network filter, background service management, and the onboarding blob delivered via Intune.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (MDE licensing, Intune enrollment, the required config profiles, onboarding package, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to deploy the named system-extension / full-disk-access / network-filter profiles FIRST, then the onboarding profile, assign to a pilot, validate MDE health, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; MDE-readiness discovery, per-device onboarding + profile validation, an MDE health/coverage report, safe remediation of missing profiles, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (profiles applied, onboarded, healthy) plus Best Practices for extension approval order.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Every Mac protected by Defender for Endpoint &mdash; the required profiles in the right order and a clean onboarding &mdash; proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACMDE-Discovery.ps1</code> &mdash; MDE-for-macOS deployment readiness (tenant/device, management plane, Graph)</li><li><code>MACMDE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted MDE-for-macOS deployment (management plane, Graph)</li><li><code>MACMDE-Report.ps1</code> &mdash; fleet MDE-for-macOS posture + drift via Microsoft Graph (profiles, app, onboarding)</li><li><code>MACMDE-Set-ScopeTargeting.ps1</code> &mdash; safely widen the MDE-for-macOS target scope during Expand</li><li><code>MACMDE-Validation.ps1</code> &mdash; per-device MDE-for-macOS onboarding readiness check (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+      "meta_description": "Deploy Microsoft Defender for Endpoint on macOS with Intune: system-extension, full-disk-access (PPPC), network-filter profiles, onboarding package, and health validation. Self-guided steps and scripts.",
+      "url_key": "defender-for-endpoint-macos-onboarding-intune-commercial",
+      "image": "MACMDE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACMDE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACMDE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACMDE-NPO-001",
+      "name": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Deploy and onboard Microsoft Defender for Endpoint on macOS via Intune correctly — system-extension, full-disk-access, and network-filter profiles before the onboarding blob — pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Onboard every Mac to Defender the way macOS actually requires</h3><p>Deploying <strong>Microsoft Defender for Endpoint on macOS</strong> is not a one-click app push &mdash; it needs the system-extension, full-disk-access, network-filter, and background-services profiles delivered <em>before</em> onboarding, or it silently fails. This solution deploys and onboards MDE for macOS through <strong>Microsoft Intune</strong> correctly &mdash; the required config profiles, the onboarding package, and health validation &mdash; deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the MDE-for-macOS deployment model: system extensions, full-disk access (PPPC/TCC), network filter, background service management, and the onboarding blob delivered via Intune.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (MDE licensing, Intune enrollment, the required config profiles, onboarding package, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to deploy the named system-extension / full-disk-access / network-filter profiles FIRST, then the onboarding profile, assign to a pilot, validate MDE health, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; MDE-readiness discovery, per-device onboarding + profile validation, an MDE health/coverage report, safe remediation of missing profiles, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (profiles applied, onboarded, healthy) plus Best Practices for extension approval order.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACMDE-Discovery.ps1</code> &mdash; MDE-for-macOS deployment readiness (tenant/device, management plane, Graph)</li><li><code>MACMDE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted MDE-for-macOS deployment (management plane, Graph)</li><li><code>MACMDE-Report.ps1</code> &mdash; fleet MDE-for-macOS posture + drift via Microsoft Graph (profiles, app, onboarding)</li><li><code>MACMDE-Set-ScopeTargeting.ps1</code> &mdash; safely widen the MDE-for-macOS target scope during Expand</li><li><code>MACMDE-Validation.ps1</code> &mdash; per-device MDE-for-macOS onboarding readiness check (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy Microsoft Defender for Endpoint on macOS with Intune: system-extension, full-disk-access (PPPC), network-filter profiles, onboarding package, and health validation. Self-guided steps and scripts.",
+      "url_key": "defender-for-endpoint-macos-onboarding-intune-nonprofit",
+      "image": "MACMDE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACMDE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACMDE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MACMDE-GOV-001",
+      "name": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Deploy and onboard Microsoft Defender for Endpoint on macOS via Intune correctly — system-extension, full-disk-access, and network-filter profiles before the onboarding blob — pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Onboard every Mac to Defender the way macOS actually requires</h3><p>Deploying <strong>Microsoft Defender for Endpoint on macOS</strong> is not a one-click app push &mdash; it needs the system-extension, full-disk-access, network-filter, and background-services profiles delivered <em>before</em> onboarding, or it silently fails. This solution deploys and onboards MDE for macOS through <strong>Microsoft Intune</strong> correctly &mdash; the required config profiles, the onboarding package, and health validation &mdash; deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the MDE-for-macOS deployment model: system extensions, full-disk access (PPPC/TCC), network filter, background service management, and the onboarding blob delivered via Intune.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites (MDE licensing, Intune enrollment, the required config profiles, onboarding package, a pilot) with how to <em>verify</em>/<em>implement</em> each.</li><li><strong>Implementation Guide</strong> &mdash; exact ordered steps to deploy the named system-extension / full-disk-access / network-filter profiles FIRST, then the onboarding profile, assign to a pilot, validate MDE health, and expand.</li><li><strong>5 PowerShell scripts</strong> &mdash; MDE-readiness discovery, per-device onboarding + profile validation, an MDE health/coverage report, safe remediation of missing profiles, and a target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> (profiles applied, onboarded, healthy) plus Best Practices for extension approval order.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MACMDE-Discovery.ps1</code> &mdash; MDE-for-macOS deployment readiness (tenant/device, management plane, Graph)</li><li><code>MACMDE-Remediation.ps1</code> &mdash; safely reapply/repair a drifted MDE-for-macOS deployment (management plane, Graph)</li><li><code>MACMDE-Report.ps1</code> &mdash; fleet MDE-for-macOS posture + drift via Microsoft Graph (profiles, app, onboarding)</li><li><code>MACMDE-Set-ScopeTargeting.ps1</code> &mdash; safely widen the MDE-for-macOS target scope during Expand</li><li><code>MACMDE-Validation.ps1</code> &mdash; per-device MDE-for-macOS onboarding readiness check (management plane, Graph)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy Microsoft Defender for Endpoint on macOS with Intune: system-extension, full-disk-access (PPPC), network-filter profiles, onboarding package, and health validation. Self-guided steps and scripts.",
+      "url_key": "defender-for-endpoint-macos-onboarding-intune-government",
+      "image": "MACMDE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MACMDE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MACMDE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
