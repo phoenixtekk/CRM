@@ -1,0 +1,41 @@
+{
+  "slug": "active-directory-rid-group-provisioning-capacity-assessment",
+  "title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "sol_code": "RIDCAP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-03",
+  "updated": "2026-07-03",
+  "published_at": "2026-07-03",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (AD architecture capacity assessment + authorization-design review; read-only diagnostics + methodology).",
+    "White-label, vendor-neutral AD architecture methodology; no customer names or customer-specific numbers."
+  ],
+  "products": [
+    {
+      "sku": "PTK-RIDCAP-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-RIDCAP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-RIDCAP-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "RIDCAP-Solution.pdf",
+    "RIDCAP-Scripts.zip"
+  ],
+  "hero": "RIDCAP-hero.png"
+}
+

@@ -1948,7 +1948,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../azure-solutions/azure-security-baseline-governance/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.1
+          "kb": 17.3
         },
         {
           "name": "hero.json",
@@ -2284,7 +2284,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../azure-solutions/azure-virtual-desktop-remote-access/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.2
+          "kb": 16.4
         },
         {
           "name": "hero.json",
@@ -2786,7 +2786,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../azure-solutions/power-platform-secrets-azure-key-vault/v1.0.0/listing/bagisto-products.json",
-          "kb": 18.4
+          "kb": 19.6
         },
         {
           "name": "hero.json",
@@ -3122,7 +3122,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../azure-solutions/windows-365-cloud-pc-deployment/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.0
+          "kb": 16.2
         },
         {
           "name": "hero.json",
@@ -3624,7 +3624,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/enterprise-app-service-principal-governance/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -3961,7 +3961,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/entra-id-governance-pim-access-reviews/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -4297,7 +4297,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.3
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -4639,7 +4639,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/listing/bagisto-products.json",
-          "kb": 18.8
+          "kb": 20.1
         },
         {
           "name": "hero.json",
@@ -4975,7 +4975,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.0
+          "kb": 17.2
         },
         {
           "name": "hero.json",
@@ -6136,7 +6136,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../healthcare-solutions/hipaa-hitrust-endpoint-compliance-remediation/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.7
+          "kb": 18.0
         },
         {
           "name": "hero.json",
@@ -6667,6 +6667,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../healthcare-solutions/windows-11-healthcare-endpoint-baseline/v1.0.0/deliverables/W11HC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+    "slug": "active-directory-rid-group-provisioning-capacity-assessment",
+    "category": "Infrastructure",
+    "category_slug": "infrastructure",
+    "sol_code": "RIDCAP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-03",
+    "updated": "2026-07-03",
+    "published_at": "2026-07-03",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-RIDCAP-COMM-001",
+      "PTK-RIDCAP-NPO-001",
+      "PTK-RIDCAP-GOV-001"
+    ],
+    "deliverables": [
+      "RIDCAP-Solution.pdf",
+      "RIDCAP-Scripts.zip"
+    ],
+    "rel_path": "library\\infrastructure\\active-directory-rid-group-provisioning-capacity-assessment\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-infrastructure.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/source/global-requirements-infrastructure.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "RIDCAP-Discovery.ps1",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/scripts/RIDCAP-Discovery.ps1",
+          "kb": 2.9
+        },
+        {
+          "name": "RIDCAP-LifecycleCleanup.ps1",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/scripts/RIDCAP-LifecycleCleanup.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "RIDCAP-Report.ps1",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/scripts/RIDCAP-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "RIDCAP-TokenExposure.ps1",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/scripts/RIDCAP-TokenExposure.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "RIDCAP-Validation.ps1",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/scripts/RIDCAP-Validation.ps1",
+          "kb": 4.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "RIDCAP-Complete-Solution.zip",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-Complete-Solution.zip",
+          "kb": 103.1
+        },
+        {
+          "name": "RIDCAP-hero.png",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-hero.png",
+          "kb": 424.0
+        },
+        {
+          "name": "RIDCAP-hero.svg",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "RIDCAP-Scripts.zip",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-Scripts.zip",
+          "kb": 9.0
+        },
+        {
+          "name": "RIDCAP-Solution.docx",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-Solution.docx",
+          "kb": 56.6
+        },
+        {
+          "name": "RIDCAP-Solution.pdf",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-Solution.pdf",
+          "kb": 56.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../infrastructure/active-directory-rid-group-provisioning-capacity-assessment/v1.0.0/deliverables/RIDCAP-hero.png",
     "product_count": 3
   },
   {
@@ -8125,7 +8291,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../infrastructure/universal-print-deployment-migration/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.3
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -9123,7 +9289,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/cloud-first-autopilot-zero-touch-provisioning/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.6
+          "kb": 17.8
         },
         {
           "name": "hero.json",
@@ -9459,7 +9625,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/conditional-access-integration/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.6
+          "kb": 16.8
         },
         {
           "name": "hero.json",
@@ -10291,7 +10457,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/device-compliance-policies/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.0
+          "kb": 16.1
         },
         {
           "name": "hero.json",
@@ -10798,7 +10964,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/disa-stig-compliance-windows-10-11-intune/v1.0.0/listing/bagisto-products.json",
-          "kb": 17.4
+          "kb": 18.6
         },
         {
           "name": "hero.json",
@@ -12472,7 +12638,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-rbac-multi-admin-governance/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.8
+          "kb": 17.0
         },
         {
           "name": "hero.json",
@@ -12975,7 +13141,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-compliance-failure-diagnostics/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.9
+          "kb": 16.1
         },
         {
           "name": "hero.json",
@@ -13312,7 +13478,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/intune-custom-compliance-configuration-items/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -14479,7 +14645,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/defender-for-endpoint-integration/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.3
+          "kb": 16.5
         },
         {
           "name": "hero.json",
@@ -14816,7 +14982,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.2
+          "kb": 17.4
         },
         {
           "name": "hero.json",
@@ -15153,7 +15319,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/mam-app-protection-policies-byod-m365/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.7
+          "kb": 17.9
         },
         {
           "name": "hero.json",
@@ -15986,7 +16152,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/secure-mobile-access-sharepoint-online-mam/v1.0.0/listing/bagisto-products.json",
-          "kb": 18.6
+          "kb": 19.8
         },
         {
           "name": "hero.json",
@@ -16487,7 +16653,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../intune-solutions/windows-autopilot/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.6
+          "kb": 15.7
         },
         {
           "name": "hero.json",
@@ -17483,7 +17649,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../managed/m365-azure-incident-response-runbook/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.7
+          "kb": 16.9
         },
         {
           "name": "hero.json",
@@ -19141,7 +19307,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../migrations/m365-exchange-tenant-to-tenant-migration/v1.0.0/listing/bagisto-products.json",
-          "kb": 14.9
+          "kb": 16.1
         },
         {
           "name": "hero.json",
@@ -22788,7 +22954,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../network/m365-endpoint-allowlist-egress-management/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.1
+          "kb": 17.3
         },
         {
           "name": "hero.json",
@@ -24446,7 +24612,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../security/cloud-pki-integration-intune/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -24783,7 +24949,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../security/continuous-compliance-audit-evidence-intune/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.9
+          "kb": 17.1
         },
         {
           "name": "hero.json",
@@ -25120,7 +25286,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../security/microsoft-365-copilot-secure-adoption-governance/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -25457,7 +25623,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../security/microsoft-365-security-baseline-audit-readiness/v1.0.0/listing/bagisto-products.json",
-          "kb": 16.4
+          "kb": 17.6
         },
         {
           "name": "hero.json",
@@ -25794,7 +25960,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../security/microsoft-purview-dlp-sensitivity-labels-retention/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.9
+          "kb": 17.1
         },
         {
           "name": "hero.json",
@@ -26130,7 +26296,7 @@
         {
           "name": "bagisto-products.json",
           "href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel/v1.0.0/listing/bagisto-products.json",
-          "kb": 15.8
+          "kb": 17.0
         },
         {
           "name": "hero.json",

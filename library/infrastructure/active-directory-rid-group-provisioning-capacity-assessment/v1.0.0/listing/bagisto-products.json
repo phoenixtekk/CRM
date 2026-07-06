@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "active-directory-rid-group-provisioning-capacity-assessment",
+    "title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+    "category_path": [
+      "Infrastructure"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-RIDCAP-COMM-001",
+      "name": "Active Directory RID & Group-Provisioning Capacity Assessment — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "A repeatable <strong>Active Directory capacity assessment</strong> for per-project group-provisioning models &mdash; measure real RID consumption, project the pool lifetime, and evaluate the risks that actually matter (token bloat, sprawl, lifecycle) with an AGDLP/RBAC design review. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Prove your AD group-provisioning model scales — before you turn it on</h3><p>Automated provisioning that creates several Active Directory security groups per project (read/write/privileged) can quietly threaten directory scalability &mdash; and teams reach for the wrong worry. This assessment answers the real question: <strong>is the proposed group-provisioning model sustainable long-term?</strong> It measures true RID-pool consumption and projects its lifetime, then evaluates the risks that actually bite at scale &mdash; Kerberos token bloat, group sprawl and lifecycle debt, replication and administrative overhead &mdash; and reviews the authorization architecture (AGDLP, RBAC, nesting) against Microsoft best practices, so you approve or redesign with evidence, not guesswork.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Assessment Overview</strong> &mdash; how RIDs, the RID Master, and the per-domain pool actually work (why deleted objects don't return RIDs), what really drives consumption, and the decision this assessment supports (an architectural go/no-go with conditions).</li><li><strong>Inputs & Requirements</strong> &mdash; what you need to run it (AD read access, RID Master health, the provisioning rate and group-per-project count) with how to verify each.</li><li><strong>Assessment Methodology</strong> &mdash; measure current RID consumption, project the pool lifetime (app-only and blended-org), evaluate the non-RID risks (token bloat, sprawl/lifecycle, replication/GC, backup, admin), and review the authorization model (AGDLP vs. flatten, RBAC/nesting to bound object growth).</li><li><strong>5 PowerShell scripts</strong> &mdash; RID-pool consumption &amp; RID Master health, project-group growth &amp; orphan report, Kerberos token-size exposure for high-membership principals, AGDLP/nesting validator, and a lifecycle-cleanup preview (safe, read-only by default).</li><li><strong>Recommendations, Guardrails &amp; a reusable Assessment Report template</strong> &mdash; conditions-of-approval (lifecycle automation, dedicated OU + naming standard, ownership metadata, RID/token/orphan monitoring), plus Testing/Troubleshooting and field-proven Best Practices.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>An evidence-based go/no-go on your AD group-provisioning model &mdash; RID lifetime projected, the real risks (token bloat, sprawl, lifecycle) assessed, and a scalable design confirmed &mdash; with a reusable report and scripts you keep.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>RIDCAP-Discovery.ps1</code> &mdash; Report RID-pool consumption, remaining capacity, and RID Master health</li><li><code>RIDCAP-LifecycleCleanup.ps1</code> &mdash; Preview the disable/stage/delete of orphaned project groups</li><li><code>RIDCAP-Report.ps1</code> &mdash; Project-group growth & orphan report plus a projected RID lifetime</li><li><code>RIDCAP-TokenExposure.ps1</code> &mdash; Kerberos token-size / group-SID-count exposure for busy principals</li><li><code>RIDCAP-Validation.ps1</code> &mdash; Validate the group-provisioning guardrails against Active Directory</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+      "meta_description": "Validate an AD per-project group-provisioning model: measure RID-pool consumption, project pool lifetime, and assess token bloat, group sprawl, lifecycle and AGDLP/RBAC design. Self-guided methodology + PowerShell scripts.",
+      "url_key": "active-directory-rid-group-provisioning-capacity-assessment-commercial",
+      "image": "RIDCAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "RIDCAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "RIDCAP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-RIDCAP-NPO-001",
+      "name": "Active Directory RID & Group-Provisioning Capacity Assessment — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>A repeatable Active Directory capacity assessment for per-project group-provisioning models — measure real RID consumption, project the pool lifetime, and evaluate the risks that actually matter (token bloat, sprawl, lifecycle) with an AGDLP/RBAC design review. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Prove your AD group-provisioning model scales — before you turn it on</h3><p>Automated provisioning that creates several Active Directory security groups per project (read/write/privileged) can quietly threaten directory scalability &mdash; and teams reach for the wrong worry. This assessment answers the real question: <strong>is the proposed group-provisioning model sustainable long-term?</strong> It measures true RID-pool consumption and projects its lifetime, then evaluates the risks that actually bite at scale &mdash; Kerberos token bloat, group sprawl and lifecycle debt, replication and administrative overhead &mdash; and reviews the authorization architecture (AGDLP, RBAC, nesting) against Microsoft best practices, so you approve or redesign with evidence, not guesswork.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Assessment Overview</strong> &mdash; how RIDs, the RID Master, and the per-domain pool actually work (why deleted objects don't return RIDs), what really drives consumption, and the decision this assessment supports (an architectural go/no-go with conditions).</li><li><strong>Inputs & Requirements</strong> &mdash; what you need to run it (AD read access, RID Master health, the provisioning rate and group-per-project count) with how to verify each.</li><li><strong>Assessment Methodology</strong> &mdash; measure current RID consumption, project the pool lifetime (app-only and blended-org), evaluate the non-RID risks (token bloat, sprawl/lifecycle, replication/GC, backup, admin), and review the authorization model (AGDLP vs. flatten, RBAC/nesting to bound object growth).</li><li><strong>5 PowerShell scripts</strong> &mdash; RID-pool consumption &amp; RID Master health, project-group growth &amp; orphan report, Kerberos token-size exposure for high-membership principals, AGDLP/nesting validator, and a lifecycle-cleanup preview (safe, read-only by default).</li><li><strong>Recommendations, Guardrails &amp; a reusable Assessment Report template</strong> &mdash; conditions-of-approval (lifecycle automation, dedicated OU + naming standard, ownership metadata, RID/token/orphan monitoring), plus Testing/Troubleshooting and field-proven Best Practices.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>RIDCAP-Discovery.ps1</code> &mdash; Report RID-pool consumption, remaining capacity, and RID Master health</li><li><code>RIDCAP-LifecycleCleanup.ps1</code> &mdash; Preview the disable/stage/delete of orphaned project groups</li><li><code>RIDCAP-Report.ps1</code> &mdash; Project-group growth & orphan report plus a projected RID lifetime</li><li><code>RIDCAP-TokenExposure.ps1</code> &mdash; Kerberos token-size / group-SID-count exposure for busy principals</li><li><code>RIDCAP-Validation.ps1</code> &mdash; Validate the group-provisioning guardrails against Active Directory</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Active Directory RID & Group-Provisioning Capacity Assessment — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Validate an AD per-project group-provisioning model: measure RID-pool consumption, project pool lifetime, and assess token bloat, group sprawl, lifecycle and AGDLP/RBAC design. Self-guided methodology + PowerShell scripts.",
+      "url_key": "active-directory-rid-group-provisioning-capacity-assessment-nonprofit",
+      "image": "RIDCAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "RIDCAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "RIDCAP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-RIDCAP-GOV-001",
+      "name": "Active Directory RID & Group-Provisioning Capacity Assessment — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>A repeatable Active Directory capacity assessment for per-project group-provisioning models — measure real RID consumption, project the pool lifetime, and evaluate the risks that actually matter (token bloat, sprawl, lifecycle) with an AGDLP/RBAC design review. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Prove your AD group-provisioning model scales — before you turn it on</h3><p>Automated provisioning that creates several Active Directory security groups per project (read/write/privileged) can quietly threaten directory scalability &mdash; and teams reach for the wrong worry. This assessment answers the real question: <strong>is the proposed group-provisioning model sustainable long-term?</strong> It measures true RID-pool consumption and projects its lifetime, then evaluates the risks that actually bite at scale &mdash; Kerberos token bloat, group sprawl and lifecycle debt, replication and administrative overhead &mdash; and reviews the authorization architecture (AGDLP, RBAC, nesting) against Microsoft best practices, so you approve or redesign with evidence, not guesswork.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Assessment Overview</strong> &mdash; how RIDs, the RID Master, and the per-domain pool actually work (why deleted objects don't return RIDs), what really drives consumption, and the decision this assessment supports (an architectural go/no-go with conditions).</li><li><strong>Inputs & Requirements</strong> &mdash; what you need to run it (AD read access, RID Master health, the provisioning rate and group-per-project count) with how to verify each.</li><li><strong>Assessment Methodology</strong> &mdash; measure current RID consumption, project the pool lifetime (app-only and blended-org), evaluate the non-RID risks (token bloat, sprawl/lifecycle, replication/GC, backup, admin), and review the authorization model (AGDLP vs. flatten, RBAC/nesting to bound object growth).</li><li><strong>5 PowerShell scripts</strong> &mdash; RID-pool consumption &amp; RID Master health, project-group growth &amp; orphan report, Kerberos token-size exposure for high-membership principals, AGDLP/nesting validator, and a lifecycle-cleanup preview (safe, read-only by default).</li><li><strong>Recommendations, Guardrails &amp; a reusable Assessment Report template</strong> &mdash; conditions-of-approval (lifecycle automation, dedicated OU + naming standard, ownership metadata, RID/token/orphan monitoring), plus Testing/Troubleshooting and field-proven Best Practices.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>RIDCAP-Discovery.ps1</code> &mdash; Report RID-pool consumption, remaining capacity, and RID Master health</li><li><code>RIDCAP-LifecycleCleanup.ps1</code> &mdash; Preview the disable/stage/delete of orphaned project groups</li><li><code>RIDCAP-Report.ps1</code> &mdash; Project-group growth & orphan report plus a projected RID lifetime</li><li><code>RIDCAP-TokenExposure.ps1</code> &mdash; Kerberos token-size / group-SID-count exposure for busy principals</li><li><code>RIDCAP-Validation.ps1</code> &mdash; Validate the group-provisioning guardrails against Active Directory</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Active Directory RID & Group-Provisioning Capacity Assessment — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Validate an AD per-project group-provisioning model: measure RID-pool consumption, project pool lifetime, and assess token bloat, group sprawl, lifecycle and AGDLP/RBAC design. Self-guided methodology + PowerShell scripts.",
+      "url_key": "active-directory-rid-group-provisioning-capacity-assessment-government",
+      "image": "RIDCAP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "RIDCAP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "RIDCAP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

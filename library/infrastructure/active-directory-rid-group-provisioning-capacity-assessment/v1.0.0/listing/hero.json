@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AD RID & Group Provisioning",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Capacity Assessment",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "RID · Token Bloat · AGDLP · Lifecycle",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GUESSWORK GO/NO-GO",
+    "items": [
+      "“Will we run out of RIDs?”",
+      "Wrong risk focus",
+      "No projection",
+      "Sprawl unmanaged"
+    ]
+  },
+  "to": {
+    "label": "Evidence-based decision",
+    "stat": "Projected · assessed · approved"
+  },
+  "tagline": "MEASURE IT.  PROJECT IT.  APPROVE IT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "RID Lifetime",
+      "sub": "Projected"
+    },
+    {
+      "icon": "shield",
+      "title": "Token Bloat",
+      "sub": "Real risk"
+    },
+    {
+      "icon": "key",
+      "title": "AGDLP/RBAC",
+      "sub": "Design review"
+    },
+    {
+      "icon": "gear",
+      "title": "Lifecycle",
+      "sub": "Sprawl control"
+    }
+  ]
+}

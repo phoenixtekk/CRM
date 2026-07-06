@@ -1,0 +1,43 @@
+{
+  "sol": "RIDCAP",
+  "slug": "active-directory-rid-group-provisioning-capacity-assessment",
+  "title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+  "category": "Infrastructure",
+  "category_slug": "infrastructure",
+  "commercial_price": 2495.0,
+  "date": "2026-07-03",
+  "author_notes": [
+    "Effort tier: T3 (AD architecture capacity assessment + authorization-design review; read-only diagnostics + methodology).",
+    "White-label, vendor-neutral AD architecture methodology; no customer names or customer-specific numbers."
+  ],
+  "hook": "Prove your AD group-provisioning model scales — before you turn it on",
+  "problem": "Automated provisioning that creates several Active Directory security groups per project (read/write/privileged) can quietly threaten directory scalability &mdash; and teams reach for the wrong worry. This assessment answers the real question: <strong>is the proposed group-provisioning model sustainable long-term?</strong> It measures true RID-pool consumption and projects its lifetime, then evaluates the risks that actually bite at scale &mdash; Kerberos token bloat, group sprawl and lifecycle debt, replication and administrative overhead &mdash; and reviews the authorization architecture (AGDLP, RBAC, nesting) against Microsoft best practices, so you approve or redesign with evidence, not guesswork.",
+  "whats_inside": [
+    "<strong>Assessment Overview</strong> &mdash; how RIDs, the RID Master, and the per-domain pool actually work (why deleted objects don't return RIDs), what really drives consumption, and the decision this assessment supports (an architectural go/no-go with conditions).",
+    "<strong>Inputs & Requirements</strong> &mdash; what you need to run it (AD read access, RID Master health, the provisioning rate and group-per-project count) with how to verify each.",
+    "<strong>Assessment Methodology</strong> &mdash; measure current RID consumption, project the pool lifetime (app-only and blended-org), evaluate the non-RID risks (token bloat, sprawl/lifecycle, replication/GC, backup, admin), and review the authorization model (AGDLP vs. flatten, RBAC/nesting to bound object growth).",
+    "<strong>5 PowerShell scripts</strong> &mdash; RID-pool consumption &amp; RID Master health, project-group growth &amp; orphan report, Kerberos token-size exposure for high-membership principals, AGDLP/nesting validator, and a lifecycle-cleanup preview (safe, read-only by default).",
+    "<strong>Recommendations, Guardrails &amp; a reusable Assessment Report template</strong> &mdash; conditions-of-approval (lifecycle automation, dedicated OU + naming standard, ownership metadata, RID/token/orphan monitoring), plus Testing/Troubleshooting and field-proven Best Practices."
+  ],
+  "short": "A repeatable <strong>Active Directory capacity assessment</strong> for per-project group-provisioning models &mdash; measure real RID consumption, project the pool lifetime, and evaluate the risks that actually matter (token bloat, sprawl, lifecycle) with an AGDLP/RBAC design review. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A repeatable Active Directory capacity assessment for per-project group-provisioning models — measure real RID consumption, project the pool lifetime, and evaluate the risks that actually matter (token bloat, sprawl, lifecycle) with an AGDLP/RBAC design review.",
+  "meta_title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+  "meta_description": "Validate an AD per-project group-provisioning model: measure RID-pool consumption, project pool lifetime, and assess token bloat, group sprawl, lifecycle and AGDLP/RBAC design. Self-guided methodology + PowerShell scripts.",
+  "bottom_line": "An evidence-based go/no-go on your AD group-provisioning model &mdash; RID lifetime projected, the real risks (token bloat, sprawl, lifecycle) assessed, and a scalable design confirmed &mdash; with a reusable report and scripts you keep.",
+  "hero": {
+    "title_lines": [
+      {"text": "AD RID & Group Provisioning", "color": "white", "size": "main"},
+      {"text": "Capacity Assessment", "color": "green", "size": "main"},
+      {"text": "RID · Token Bloat · AGDLP · Lifecycle", "color": "blue", "size": "sub"}
+    ],
+    "from": {"label": "GUESSWORK GO/NO-GO", "items": ["“Will we run out of RIDs?”", "Wrong risk focus", "No projection", "Sprawl unmanaged"]},
+    "to": {"label": "Evidence-based decision", "stat": "Projected · assessed · approved"},
+    "tagline": "MEASURE IT.  PROJECT IT.  APPROVE IT.",
+    "benefits": [
+      {"icon": "chart", "title": "RID Lifetime", "sub": "Projected"},
+      {"icon": "shield", "title": "Token Bloat", "sub": "Real risk"},
+      {"icon": "key", "title": "AGDLP/RBAC", "sub": "Design review"},
+      {"icon": "gear", "title": "Lifecycle", "sub": "Sprawl control"}
+    ]
+  }
+}

@@ -788,5 +788,10 @@
     "post_id": 12133,
     "status": "draft",
     "category_id": 411
+  },
+  "active-directory-rid-group-provisioning-capacity-assessment": {
+    "post_id": 12142,
+    "status": "draft",
+    "category_id": 411
   }
 }
