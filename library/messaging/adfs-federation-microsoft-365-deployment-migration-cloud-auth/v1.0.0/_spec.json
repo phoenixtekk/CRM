@@ -1,0 +1,83 @@
+{
+  "sol": "ADFSM365",
+  "slug": "adfs-federation-microsoft-365-deployment-migration-cloud-auth",
+  "title": "ADFS Federation for Microsoft 365 — Deployment, Troubleshooting & Migration to Cloud Auth",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Run ADFS SSO for Microsoft 365 — or retire it to cloud auth cleanly",
+  "problem": "Many enterprises still sign in to Microsoft 365 through <strong>ADFS</strong> &mdash; and it's a single point of failure that's often better replaced by cloud authentication. This solution covers both: deploy and <strong>troubleshoot ADFS federation</strong> (claims rules, token-signing certs, WAP proxy, endpoints), and &mdash; when you're ready &mdash; <strong>migrate to managed authentication</strong> (Password Hash Sync or Pass-through Auth with Seamless SSO, staged rollout) and decommission ADFS &mdash; so M365 sign-in is reliable and, ideally, simpler.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; ADFS federation for M365 (claims, certs, WAP), its failure modes, and the managed-auth alternatives (PHS/PTA + Seamless SSO) with the staged-migration model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (ADFS/WAP + AD, Azure AD Connect, Global Admin, certificates, pilot group).",
+    "<strong>Implementation Guide</strong> &mdash; validate/repair ADFS (claims rules, token-signing cert rollover, endpoints, WAP), OR run the staged conversion to PHS/PTA + Seamless SSO (staged rollout, verify, convert domains) and decommission ADFS &mdash; pilot-first with rollback.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (federated/managed sign-in works, cert health, staged rollout verified) plus Best Practices for resilient M365 authentication."
+  ],
+  "short": "Deploy/troubleshoot <strong>ADFS federation for Microsoft 365</strong> (claims, certs, WAP) and, when ready, <strong>migrate to managed auth</strong> (PHS/PTA + Seamless SSO, staged) and decommission ADFS &mdash; so M365 sign-in is reliable and simpler. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy/troubleshoot ADFS federation for Microsoft 365 (claims, certs, WAP) and, when ready, migrate to managed auth (PHS/PTA + Seamless SSO, staged) and decommission ADFS — so M365 sign-in is reliable and simpler.",
+  "meta_title": "ADFS Federation for Microsoft 365 — Deployment, Troubleshooting & Migration to Cloud Auth",
+  "meta_description": "Run and troubleshoot ADFS federation for Microsoft 365 (claims rules, token-signing certificates, WAP proxy, endpoints) and migrate to managed authentication (Password Hash Sync / Pass-through Auth + Seamless SSO) with staged rollout and ADFS decommission. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Microsoft 365 sign-in made reliable &mdash; ADFS federation healthy and diagnosable, or cleanly retired to managed cloud auth with staged rollout &mdash; fewer moving parts, fewer outages.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "ADFS for Microsoft 365",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Federation & Cloud-Auth Migration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Claims · Certs · PHS/PTA · Seamless SSO",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "FRAGILE FEDERATION",
+      "items": [
+        "ADFS single-point",
+        "Cert expiry outages",
+        "Claims errors",
+        "On-prem dependency"
+      ]
+    },
+    "to": {
+      "label": "Reliable sign-in",
+      "stat": "Federated or managed"
+    },
+    "tagline": "DIAGNOSE.  CONVERT.  RETIRE.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Federation",
+        "sub": "Claims/certs"
+      },
+      {
+        "icon": "cloud",
+        "title": "Managed Auth",
+        "sub": "PHS/PTA"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "Seamless SSO",
+        "sub": "Staged"
+      },
+      {
+        "icon": "shield",
+        "title": "Decommission",
+        "sub": "ADFS"
+      }
+    ]
+  }
+}

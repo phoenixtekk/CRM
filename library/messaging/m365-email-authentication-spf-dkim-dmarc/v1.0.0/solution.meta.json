@@ -1,0 +1,41 @@
+{
+  "slug": "m365-email-authentication-spf-dkim-dmarc",
+  "title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "sol_code": "M365AUTH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-M365AUTH-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-M365AUTH-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-M365AUTH-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "M365AUTH-Solution.pdf",
+    "M365AUTH-Scripts.zip"
+  ],
+  "hero": "M365AUTH-hero.png"
+}
+

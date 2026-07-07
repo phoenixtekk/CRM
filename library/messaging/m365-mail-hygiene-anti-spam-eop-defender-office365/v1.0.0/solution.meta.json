@@ -1,0 +1,41 @@
+{
+  "slug": "m365-mail-hygiene-anti-spam-eop-defender-office365",
+  "title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "sol_code": "EOPHYG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EOPHYG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-EOPHYG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-EOPHYG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "EOPHYG-Solution.pdf",
+    "EOPHYG-Scripts.zip"
+  ],
+  "hero": "EOPHYG-hero.png"
+}
+

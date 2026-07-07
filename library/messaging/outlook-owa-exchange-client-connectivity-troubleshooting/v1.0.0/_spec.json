@@ -1,0 +1,83 @@
+{
+  "sol": "OUTLOOKDX",
+  "slug": "outlook-owa-exchange-client-connectivity-troubleshooting",
+  "title": "Outlook / OWA / Exchange Client Connectivity Troubleshooting Toolkit",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Diagnose and fix Outlook, OWA, and mobile mail connectivity fast",
+  "problem": "&ldquo;Outlook won't connect&rdquo; is one of the highest-volume messaging tickets &mdash; and without a method it's guesswork. This solution is a layered <strong>client-connectivity troubleshooting toolkit</strong> for Exchange Online / hybrid: <strong>Autodiscover</strong> flow, MAPI-over-HTTP / EWS / ActiveSync endpoints, authentication (modern auth, conditional access), profile and cached-mode issues, OWA, and mobile &mdash; a decision tree from symptom to root cause with the exact tests (Test-* cmdlets, Remote Connectivity Analyzer, message headers) &mdash; so client issues resolve on first contact.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the client-connectivity model: Autodiscover, protocol endpoints (MAPI/HTTP, EWS, ActiveSync, OWA), modern auth / conditional access, and the layered diagnostic method.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO/hybrid, DNS/Autodiscover, admin + test accounts, EXO PowerShell / RCA access).",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom&rarr;root-cause decision tree (can't set up profile, disconnects, auth loops, free/busy, OWA/mobile) with the exact tests and remediations at each node &mdash; each check named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (Autodiscover resolves, protocols connect, auth succeeds) plus Best Practices for reducing client-connectivity ticket volume."
+  ],
+  "short": "A layered <strong>Outlook/OWA/Exchange client-connectivity troubleshooting toolkit</strong> &mdash; Autodiscover, MAPI/HTTP/EWS/ActiveSync, modern auth/CA, profiles, OWA and mobile &mdash; a symptom-to-root-cause decision tree with exact tests, so client issues resolve on first contact. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A layered Outlook/OWA/Exchange client-connectivity troubleshooting toolkit — Autodiscover, MAPI/HTTP/EWS/ActiveSync, modern auth/CA, profiles, OWA and mobile — a symptom-to-root-cause decision tree with exact tests, so client issues resolve on first contact.",
+  "meta_title": "Outlook / OWA / Exchange Client Connectivity Troubleshooting Toolkit",
+  "meta_description": "Troubleshoot Outlook, OWA, and mobile mail connectivity for Exchange Online / hybrid: Autodiscover, MAPI-over-HTTP/EWS/ActiveSync endpoints, modern auth and conditional access, profile/cached-mode issues, with a symptom-to-root-cause decision tree and exact tests (Test-* cmdlets, Remote Connectivity Analyzer). Self-guided steps and PowerShell tools.",
+  "bottom_line": "The highest-volume mail tickets resolved on first contact &mdash; Autodiscover, protocols, and auth diagnosed by a repeatable decision tree with exact tests &mdash; less guesswork, faster fixes, happier users.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Outlook · OWA · Mobile",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Connectivity Troubleshooting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Autodiscover · Protocols · Auth",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OUTLOOK WON'T CONNECT",
+      "items": [
+        "Guesswork",
+        "Autodiscover fails",
+        "Auth loops",
+        "High ticket volume"
+      ]
+    },
+    "to": {
+      "label": "First-contact fixes",
+      "stat": "Diagnosed · fast"
+    },
+    "tagline": "REPRODUCE.  ISOLATE.  RESOLVE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Autodiscover",
+        "sub": "Flow"
+      },
+      {
+        "icon": "gear",
+        "title": "Protocols",
+        "sub": "MAPI/EWS"
+      },
+      {
+        "icon": "key",
+        "title": "Auth",
+        "sub": "Modern/CA"
+      },
+      {
+        "icon": "chart",
+        "title": "Decision Tree",
+        "sub": "Root-cause"
+      }
+    ]
+  }
+}

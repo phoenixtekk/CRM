@@ -1,0 +1,83 @@
+{
+  "sol": "EXOMAIL",
+  "slug": "exchange-online-hybrid-mail-flow-connectors-routing",
+  "title": "Exchange Online & Hybrid Mail Flow — Architecture, Connectors & Routing",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Design and troubleshoot Exchange/M365 hybrid mail flow with confidence",
+  "problem": "In an Exchange/Microsoft 365 <strong>hybrid</strong> environment, mail flow breaks in ways that are hard to trace &mdash; wrong connectors, centralized-transport surprises, and routing loops. This solution maps the <strong>hybrid mail-flow architecture</strong> end to end: the connector types (inbound/outbound, on-prem&harr;EXO hybrid, partner) and when to use each, accepted domains and routing, transport rules, centralized mail transport decisions, and a layered <strong>mail-flow troubleshooting</strong> method (message trace, headers, queues) &mdash; so mail routes correctly and issues are diagnosed fast.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the hybrid mail-flow model: connector types and their purpose, accepted domains, routing topologies, centralized transport, and the troubleshooting method.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + hybrid Exchange/AD, admin roles, DNS/MX, EXO PowerShell, pilot mail flow).",
+    "<strong>Implementation Guide</strong> &mdash; design/validate the connectors, set accepted domains + routing, decide centralized transport, apply transport rules, and run the layered mail-flow diagnostic (message trace &rarr; headers &rarr; queues) &mdash; pilot-first, each connector/rule named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (mail routes correctly inbound/outbound/internal, no loops, trace clean) plus Best Practices for resilient hybrid mail flow."
+  ],
+  "short": "Map and troubleshoot <strong>Exchange/M365 hybrid mail flow</strong> &mdash; connector types + when to use each, accepted domains + routing, centralized transport, transport rules, and a layered message-trace/headers/queues diagnostic &mdash; so mail routes correctly and issues are found fast. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Map and troubleshoot Exchange/M365 hybrid mail flow — connector types + when to use each, accepted domains + routing, centralized transport, transport rules, and a layered message-trace/headers/queues diagnostic — so mail routes correctly and issues are found fast.",
+  "meta_title": "Exchange Online & Hybrid Mail Flow — Architecture, Connectors & Routing",
+  "meta_description": "Design and troubleshoot Exchange Online / Exchange hybrid mail flow: connector types (inbound/outbound/hybrid/partner), accepted domains and routing, centralized transport, transport rules, and a layered message-trace/headers/queues troubleshooting method. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Hybrid mail flow that routes correctly and is diagnosable &mdash; connectors right, routing understood, transport rules controlled, and a repeatable trace-to-root-cause method &mdash; no more mystery mail loss.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Exchange & Hybrid",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Mail Flow & Connectors",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Connectors · Routing · Transport · Trace",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MAIL FLOW MYSTERY",
+      "items": [
+        "Wrong connectors",
+        "Routing loops",
+        "Silent mail loss",
+        "Hard to trace"
+      ]
+    },
+    "to": {
+      "label": "Routed & diagnosable",
+      "stat": "Correct · traceable"
+    },
+    "tagline": "CONNECT.  ROUTE.  TRACE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Connectors",
+        "sub": "Right type"
+      },
+      {
+        "icon": "cloud",
+        "title": "Routing",
+        "sub": "Hybrid"
+      },
+      {
+        "icon": "shield",
+        "title": "Transport",
+        "sub": "Rules"
+      },
+      {
+        "icon": "chart",
+        "title": "Trace",
+        "sub": "Root-cause"
+      }
+    ]
+  }
+}

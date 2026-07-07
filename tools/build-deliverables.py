@@ -27,6 +27,7 @@ SOURCE_ORDER = [
     "global-requirements-gcp.md",
     "global-requirements-oracle.md",
     "global-requirements-synthetic.md",
+    "global-requirements-messaging.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",

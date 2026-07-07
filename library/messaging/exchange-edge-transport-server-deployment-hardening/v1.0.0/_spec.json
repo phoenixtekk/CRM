@@ -1,0 +1,83 @@
+{
+  "sol": "EXOEDGE",
+  "slug": "exchange-edge-transport-server-deployment-hardening",
+  "title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Deploy and harden the Exchange Edge Transport role the right way",
+  "problem": "The <strong>Exchange Edge Transport</strong> server sits in the perimeter to handle inbound/outbound SMTP and a first layer of hygiene &mdash; and misconfigured, it becomes an open relay or a mail-flow bottleneck. This solution deploys and hardens Edge: subscribe it to the Exchange organization (EdgeSync), configure send/receive connectors and accepted domains, apply anti-spam/agent and connection-filter settings, harden the OS/TLS posture, and validate secure mail flow &mdash; so the perimeter transport is correct, secure, and monitored.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Edge Transport role in a hybrid perimeter: EdgeSync, connectors, transport agents/anti-spam, TLS, and how it complements cloud hygiene.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (on-prem Exchange org + Edge host, network/firewall/DNS, certificates, admin access).",
+    "<strong>Implementation Guide</strong> &mdash; install the Edge role, create + import the Edge Subscription (EdgeSync), configure send/receive connectors + accepted domains, apply anti-spam/connection filtering, harden OS/TLS, and validate secure inbound/outbound flow &mdash; pilot-first, each object named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (EdgeSync healthy, no open relay, TLS enforced, mail flows) plus Best Practices for a secure, maintainable Edge tier."
+  ],
+  "short": "Deploy and harden the <strong>Exchange Edge Transport</strong> role &mdash; EdgeSync subscription, connectors + accepted domains, anti-spam/connection filtering, OS/TLS hardening, and secure mail-flow validation &mdash; so perimeter transport is correct and secure. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and harden the Exchange Edge Transport role — EdgeSync subscription, connectors + accepted domains, anti-spam/connection filtering, OS/TLS hardening, and secure mail-flow validation — so perimeter transport is correct and secure.",
+  "meta_title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+  "meta_description": "Deploy and harden the Exchange Edge Transport server: EdgeSync subscription, send/receive connectors and accepted domains, anti-spam and connection filtering, OS/TLS hardening, and secure mail-flow validation. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A perimeter Edge Transport tier that's correct and secure &mdash; EdgeSync healthy, no open relay, TLS enforced, mail flowing &mdash; the hardened front door to your messaging estate.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Exchange Edge Transport",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deployment & Hardening",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "EdgeSync · Connectors · TLS · Anti-Spam",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "EXPOSED PERIMETER",
+      "items": [
+        "Open-relay risk",
+        "No EdgeSync",
+        "Weak TLS",
+        "Bottleneck"
+      ]
+    },
+    "to": {
+      "label": "Hardened Edge",
+      "stat": "Secure · validated"
+    },
+    "tagline": "SUBSCRIBE.  HARDEN.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "EdgeSync",
+        "sub": "Subscribed"
+      },
+      {
+        "icon": "gear",
+        "title": "Connectors",
+        "sub": "Scoped"
+      },
+      {
+        "icon": "lock",
+        "title": "TLS",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "chart",
+        "title": "Anti-Spam",
+        "sub": "Filtered"
+      }
+    ]
+  }
+}

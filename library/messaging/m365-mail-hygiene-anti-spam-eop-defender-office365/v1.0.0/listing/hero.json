@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 Mail Hygiene",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "EOP / Defender for Office 365",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Anti-Spam · Anti-Phish · Safe Links",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LEAKY HYGIENE",
+    "items": [
+      "Phish gets through",
+      "Good mail quarantined",
+      "Default policies",
+      "No tuning"
+    ]
+  },
+  "to": {
+    "label": "Tuned hygiene",
+    "stat": "Blocked · low-FP"
+  },
+  "tagline": "BASELINE.  TUNE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "EOP",
+      "sub": "Anti-spam"
+    },
+    {
+      "icon": "lock",
+      "title": "Defender",
+      "sub": "Anti-phish"
+    },
+    {
+      "icon": "gear",
+      "title": "Quarantine",
+      "sub": "Policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Tuning",
+      "sub": "Low-FP"
+    }
+  ]
+}

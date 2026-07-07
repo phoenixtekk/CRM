@@ -1,0 +1,83 @@
+{
+  "sol": "EOPHYG",
+  "slug": "m365-mail-hygiene-anti-spam-eop-defender-office365",
+  "title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Tune M365 mail hygiene so threats stop and good mail flows",
+  "problem": "Default mail hygiene lets phishing through and quarantines legitimate mail &mdash; both erode trust. This solution configures and tunes <strong>Microsoft 365 mail hygiene</strong>: Exchange Online Protection (EOP) anti-spam, anti-malware, and connection/spoof filtering, plus <strong>Defender for Office 365</strong> anti-phishing, Safe Links, and Safe Attachments where licensed &mdash; with quarantine policy, allow/block management, and the recommended (preset/Standard-Strict) baselines &mdash; so threats are blocked and false positives are minimized.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the hygiene stack: EOP anti-spam/malware/spoof, Defender for Office 365 (anti-phish, Safe Links/Attachments), preset security policies, and quarantine.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + EOP/Defender for Office 365 licensing, admin roles, DNS/auth, pilot group).",
+    "<strong>Implementation Guide</strong> &mdash; apply the baseline (preset or Standard/Strict), tune anti-spam/malware/anti-phish, configure Safe Links/Attachments, set quarantine + allow/block policy, and validate with test messages &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (threats blocked, false-positive rate low, quarantine reviewed) plus Best Practices for ongoing hygiene tuning and reporting."
+  ],
+  "short": "Configure and tune <strong>Microsoft 365 mail hygiene</strong> &mdash; EOP anti-spam/malware/spoof + Defender for Office 365 anti-phish/Safe Links/Safe Attachments, preset baselines, and quarantine/allow-block policy &mdash; so threats are blocked and false positives minimized. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure and tune Microsoft 365 mail hygiene — EOP anti-spam/malware/spoof + Defender for Office 365 anti-phish/Safe Links/Safe Attachments, preset baselines, and quarantine/allow-block policy — so threats are blocked and false positives minimized.",
+  "meta_title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+  "meta_description": "Configure and tune Microsoft 365 mail hygiene: Exchange Online Protection (EOP) anti-spam/malware/spoof filtering plus Defender for Office 365 anti-phishing, Safe Links and Safe Attachments, preset security baselines, and quarantine/allow-block policy. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Mail hygiene that blocks threats and passes good mail &mdash; EOP and Defender for Office 365 tuned to a proven baseline, quarantine governed, false positives down &mdash; trust restored.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 Mail Hygiene",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "EOP / Defender for Office 365",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Anti-Spam · Anti-Phish · Safe Links",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LEAKY HYGIENE",
+      "items": [
+        "Phish gets through",
+        "Good mail quarantined",
+        "Default policies",
+        "No tuning"
+      ]
+    },
+    "to": {
+      "label": "Tuned hygiene",
+      "stat": "Blocked · low-FP"
+    },
+    "tagline": "BASELINE.  TUNE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "EOP",
+        "sub": "Anti-spam"
+      },
+      {
+        "icon": "lock",
+        "title": "Defender",
+        "sub": "Anti-phish"
+      },
+      {
+        "icon": "gear",
+        "title": "Quarantine",
+        "sub": "Policy"
+      },
+      {
+        "icon": "chart",
+        "title": "Tuning",
+        "sub": "Low-FP"
+      }
+    ]
+  }
+}

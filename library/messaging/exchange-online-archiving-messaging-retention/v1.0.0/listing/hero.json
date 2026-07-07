@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Exchange Online Archiving",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Messaging Retention",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Archive Mailboxes · EOA · MRM · Holds",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MAILBOX BLOAT",
+    "items": [
+      "Full mailboxes",
+      "PST sprawl",
+      "No holds",
+      "Litigation risk"
+    ]
+  },
+  "to": {
+    "label": "Archived & held",
+    "stat": "Controlled · discoverable"
+  },
+  "tagline": "ARCHIVE.  TAG.  HOLD.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Archive",
+      "sub": "Auto-expand"
+    },
+    {
+      "icon": "gear",
+      "title": "MRM Tags",
+      "sub": "Move-to-archive"
+    },
+    {
+      "icon": "lock",
+      "title": "Holds",
+      "sub": "Litigation"
+    },
+    {
+      "icon": "chart",
+      "title": "PST Import",
+      "sub": "Ingested"
+    }
+  ]
+}

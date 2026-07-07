@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "exchange-edge-transport-server-deployment-hardening",
+    "title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+    "category_path": [
+      "Messaging"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-EXOEDGE-COMM-001",
+      "name": "Exchange Edge Transport Server Deployment & Hardening (Hybrid) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Deploy and harden the <strong>Exchange Edge Transport</strong> role &mdash; EdgeSync subscription, connectors + accepted domains, anti-spam/connection filtering, OS/TLS hardening, and secure mail-flow validation &mdash; so perimeter transport is correct and secure. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Deploy and harden the Exchange Edge Transport role the right way</h3><p>The <strong>Exchange Edge Transport</strong> server sits in the perimeter to handle inbound/outbound SMTP and a first layer of hygiene &mdash; and misconfigured, it becomes an open relay or a mail-flow bottleneck. This solution deploys and hardens Edge: subscribe it to the Exchange organization (EdgeSync), configure send/receive connectors and accepted domains, apply anti-spam/agent and connection-filter settings, harden the OS/TLS posture, and validate secure mail flow &mdash; so the perimeter transport is correct, secure, and monitored.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Edge Transport role in a hybrid perimeter: EdgeSync, connectors, transport agents/anti-spam, TLS, and how it complements cloud hygiene.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (on-prem Exchange org + Edge host, network/firewall/DNS, certificates, admin access).</li><li><strong>Implementation Guide</strong> &mdash; install the Edge role, create + import the Edge Subscription (EdgeSync), configure send/receive connectors + accepted domains, apply anti-spam/connection filtering, harden OS/TLS, and validate secure inbound/outbound flow &mdash; pilot-first, each object named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (EdgeSync healthy, no open relay, TLS enforced, mail flows) plus Best Practices for a secure, maintainable Edge tier.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A perimeter Edge Transport tier that's correct and secure &mdash; EdgeSync healthy, no open relay, TLS enforced, mail flowing &mdash; the hardened front door to your messaging estate.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-AntiSpamReport.ps1</code> &mdash; Read-only anti-spam / connection-filter posture report for the Edge Transport server</li><li><code>Get-EdgeReadiness.ps1</code> &mdash; Read-only readiness/discovery for an Edge Transport deployment (host, AD LDS, ports, DNS, EdgeSync)</li><li><code>Get-EdgeScopeHealth.ps1</code> &mdash; Scope/health helper — consolidated read-only Edge health: EdgeSync, connectors, queues, cert expiry</li><li><code>Set-EdgeConfig.ps1</code> &mdash; EdgeSync / connector setup helper — reports current state and stages changes with -WhatIf (safe by default)</li><li><code>Test-OpenRelay.ps1</code> &mdash; Read-only open-relay + TLS posture validator for the Edge SMTP listener (Gate C)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+      "meta_description": "Deploy and harden the Exchange Edge Transport server: EdgeSync subscription, send/receive connectors and accepted domains, anti-spam and connection filtering, OS/TLS hardening, and secure mail-flow validation. Self-guided steps and PowerShell tools.",
+      "url_key": "exchange-edge-transport-server-deployment-hardening-commercial",
+      "image": "EXOEDGE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EXOEDGE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EXOEDGE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EXOEDGE-NPO-001",
+      "name": "Exchange Edge Transport Server Deployment & Hardening (Hybrid) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Deploy and harden the Exchange Edge Transport role — EdgeSync subscription, connectors + accepted domains, anti-spam/connection filtering, OS/TLS hardening, and secure mail-flow validation — so perimeter transport is correct and secure. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Deploy and harden the Exchange Edge Transport role the right way</h3><p>The <strong>Exchange Edge Transport</strong> server sits in the perimeter to handle inbound/outbound SMTP and a first layer of hygiene &mdash; and misconfigured, it becomes an open relay or a mail-flow bottleneck. This solution deploys and hardens Edge: subscribe it to the Exchange organization (EdgeSync), configure send/receive connectors and accepted domains, apply anti-spam/agent and connection-filter settings, harden the OS/TLS posture, and validate secure mail flow &mdash; so the perimeter transport is correct, secure, and monitored.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Edge Transport role in a hybrid perimeter: EdgeSync, connectors, transport agents/anti-spam, TLS, and how it complements cloud hygiene.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (on-prem Exchange org + Edge host, network/firewall/DNS, certificates, admin access).</li><li><strong>Implementation Guide</strong> &mdash; install the Edge role, create + import the Edge Subscription (EdgeSync), configure send/receive connectors + accepted domains, apply anti-spam/connection filtering, harden OS/TLS, and validate secure inbound/outbound flow &mdash; pilot-first, each object named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (EdgeSync healthy, no open relay, TLS enforced, mail flows) plus Best Practices for a secure, maintainable Edge tier.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-AntiSpamReport.ps1</code> &mdash; Read-only anti-spam / connection-filter posture report for the Edge Transport server</li><li><code>Get-EdgeReadiness.ps1</code> &mdash; Read-only readiness/discovery for an Edge Transport deployment (host, AD LDS, ports, DNS, EdgeSync)</li><li><code>Get-EdgeScopeHealth.ps1</code> &mdash; Scope/health helper — consolidated read-only Edge health: EdgeSync, connectors, queues, cert expiry</li><li><code>Set-EdgeConfig.ps1</code> &mdash; EdgeSync / connector setup helper — reports current state and stages changes with -WhatIf (safe by default)</li><li><code>Test-OpenRelay.ps1</code> &mdash; Read-only open-relay + TLS posture validator for the Edge SMTP listener (Gate C)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy and harden the Exchange Edge Transport server: EdgeSync subscription, send/receive connectors and accepted domains, anti-spam and connection filtering, OS/TLS hardening, and secure mail-flow validation. Self-guided steps and PowerShell tools.",
+      "url_key": "exchange-edge-transport-server-deployment-hardening-nonprofit",
+      "image": "EXOEDGE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EXOEDGE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EXOEDGE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EXOEDGE-GOV-001",
+      "name": "Exchange Edge Transport Server Deployment & Hardening (Hybrid) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Deploy and harden the Exchange Edge Transport role — EdgeSync subscription, connectors + accepted domains, anti-spam/connection filtering, OS/TLS hardening, and secure mail-flow validation — so perimeter transport is correct and secure. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Deploy and harden the Exchange Edge Transport role the right way</h3><p>The <strong>Exchange Edge Transport</strong> server sits in the perimeter to handle inbound/outbound SMTP and a first layer of hygiene &mdash; and misconfigured, it becomes an open relay or a mail-flow bottleneck. This solution deploys and hardens Edge: subscribe it to the Exchange organization (EdgeSync), configure send/receive connectors and accepted domains, apply anti-spam/agent and connection-filter settings, harden the OS/TLS posture, and validate secure mail flow &mdash; so the perimeter transport is correct, secure, and monitored.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Edge Transport role in a hybrid perimeter: EdgeSync, connectors, transport agents/anti-spam, TLS, and how it complements cloud hygiene.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (on-prem Exchange org + Edge host, network/firewall/DNS, certificates, admin access).</li><li><strong>Implementation Guide</strong> &mdash; install the Edge role, create + import the Edge Subscription (EdgeSync), configure send/receive connectors + accepted domains, apply anti-spam/connection filtering, harden OS/TLS, and validate secure inbound/outbound flow &mdash; pilot-first, each object named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (EdgeSync healthy, no open relay, TLS enforced, mail flows) plus Best Practices for a secure, maintainable Edge tier.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-AntiSpamReport.ps1</code> &mdash; Read-only anti-spam / connection-filter posture report for the Edge Transport server</li><li><code>Get-EdgeReadiness.ps1</code> &mdash; Read-only readiness/discovery for an Edge Transport deployment (host, AD LDS, ports, DNS, EdgeSync)</li><li><code>Get-EdgeScopeHealth.ps1</code> &mdash; Scope/health helper — consolidated read-only Edge health: EdgeSync, connectors, queues, cert expiry</li><li><code>Set-EdgeConfig.ps1</code> &mdash; EdgeSync / connector setup helper — reports current state and stages changes with -WhatIf (safe by default)</li><li><code>Test-OpenRelay.ps1</code> &mdash; Read-only open-relay + TLS posture validator for the Edge SMTP listener (Gate C)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy and harden the Exchange Edge Transport server: EdgeSync subscription, send/receive connectors and accepted domains, anti-spam and connection filtering, OS/TLS hardening, and secure mail-flow validation. Self-guided steps and PowerShell tools.",
+      "url_key": "exchange-edge-transport-server-deployment-hardening-government",
+      "image": "EXOEDGE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EXOEDGE-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EXOEDGE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

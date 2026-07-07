@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Exchange Edge Transport",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deployment & Hardening",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "EdgeSync · Connectors · TLS · Anti-Spam",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "EXPOSED PERIMETER",
+    "items": [
+      "Open-relay risk",
+      "No EdgeSync",
+      "Weak TLS",
+      "Bottleneck"
+    ]
+  },
+  "to": {
+    "label": "Hardened Edge",
+    "stat": "Secure · validated"
+  },
+  "tagline": "SUBSCRIBE.  HARDEN.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "EdgeSync",
+      "sub": "Subscribed"
+    },
+    {
+      "icon": "gear",
+      "title": "Connectors",
+      "sub": "Scoped"
+    },
+    {
+      "icon": "lock",
+      "title": "TLS",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "chart",
+      "title": "Anti-Spam",
+      "sub": "Filtered"
+    }
+  ]
+}

@@ -26327,6 +26327,1334 @@
     "product_count": 3
   },
   {
+    "title": "ADFS Federation for Microsoft 365 — Deployment, Troubleshooting & Migration to Cloud Auth",
+    "slug": "adfs-federation-microsoft-365-deployment-migration-cloud-auth",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "ADFSM365",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ADFSM365-COMM-001",
+      "PTK-ADFSM365-NPO-001",
+      "PTK-ADFSM365-GOV-001"
+    ],
+    "deliverables": [
+      "ADFSM365-Solution.pdf",
+      "ADFSM365-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\adfs-federation-microsoft-365-deployment-migration-cloud-auth\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/02-requirements.md",
+          "kb": 8.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/03-implementation.md",
+          "kb": 12.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-M365FederationAssessment.ps1",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/scripts/Get-M365FederationAssessment.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "Get-M365SignInMethodReport.ps1",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/scripts/Get-M365SignInMethodReport.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "Invoke-DomainConversionPlan.ps1",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/scripts/Invoke-DomainConversionPlan.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "Invoke-TokenSigningCertRollover.ps1",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/scripts/Invoke-TokenSigningCertRollover.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "Test-CloudAuthSignIn.ps1",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/scripts/Test-CloudAuthSignIn.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ADFSM365-Complete-Solution.zip",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-Complete-Solution.zip",
+          "kb": 111.6
+        },
+        {
+          "name": "ADFSM365-hero.png",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-hero.png",
+          "kb": 491.5
+        },
+        {
+          "name": "ADFSM365-hero.svg",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ADFSM365-Scripts.zip",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "ADFSM365-Solution.docx",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-Solution.docx",
+          "kb": 58.7
+        },
+        {
+          "name": "ADFSM365-Solution.pdf",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-Solution.pdf",
+          "kb": 64.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/adfs-federation-microsoft-365-deployment-migration-cloud-auth/v1.0.0/deliverables/ADFSM365-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+    "slug": "exchange-edge-transport-server-deployment-hardening",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "EXOEDGE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-EXOEDGE-COMM-001",
+      "PTK-EXOEDGE-NPO-001",
+      "PTK-EXOEDGE-GOV-001"
+    ],
+    "deliverables": [
+      "EXOEDGE-Solution.pdf",
+      "EXOEDGE-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\exchange-edge-transport-server-deployment-hardening\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/03-implementation.md",
+          "kb": 11.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-AntiSpamReport.ps1",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/scripts/Get-AntiSpamReport.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "Get-EdgeReadiness.ps1",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/scripts/Get-EdgeReadiness.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "Get-EdgeScopeHealth.ps1",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/scripts/Get-EdgeScopeHealth.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "Set-EdgeConfig.ps1",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/scripts/Set-EdgeConfig.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "Test-OpenRelay.ps1",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/scripts/Test-OpenRelay.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EXOEDGE-Complete-Solution.zip",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-Complete-Solution.zip",
+          "kb": 110.8
+        },
+        {
+          "name": "EXOEDGE-hero.png",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-hero.png",
+          "kb": 432.6
+        },
+        {
+          "name": "EXOEDGE-hero.svg",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "EXOEDGE-Scripts.zip",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "EXOEDGE-Solution.docx",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "EXOEDGE-Solution.pdf",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-Solution.pdf",
+          "kb": 63.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/exchange-edge-transport-server-deployment-hardening/v1.0.0/deliverables/EXOEDGE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Exchange Online & Hybrid Mail Flow — Architecture, Connectors & Routing",
+    "slug": "exchange-online-hybrid-mail-flow-connectors-routing",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "EXOMAIL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-EXOMAIL-COMM-001",
+      "PTK-EXOMAIL-NPO-001",
+      "PTK-EXOMAIL-GOV-001"
+    ],
+    "deliverables": [
+      "EXOMAIL-Solution.pdf",
+      "EXOMAIL-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\exchange-online-hybrid-mail-flow-connectors-routing\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/03-implementation.md",
+          "kb": 9.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-MailFlowTraceHelper.ps1",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/scripts/Get-MailFlowTraceHelper.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "Invoke-MailFlowDiscovery.ps1",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/scripts/Invoke-MailFlowDiscovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "New-MailFlowHealthReport.ps1",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/scripts/New-MailFlowHealthReport.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "Set-MailFlowConfiguration.ps1",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/scripts/Set-MailFlowConfiguration.ps1",
+          "kb": 7.4
+        },
+        {
+          "name": "Test-MailFlowValidation.ps1",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/scripts/Test-MailFlowValidation.ps1",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EXOMAIL-Complete-Solution.zip",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-Complete-Solution.zip",
+          "kb": 112.9
+        },
+        {
+          "name": "EXOMAIL-hero.png",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-hero.png",
+          "kb": 441.1
+        },
+        {
+          "name": "EXOMAIL-hero.svg",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "EXOMAIL-Scripts.zip",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "EXOMAIL-Solution.docx",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-Solution.docx",
+          "kb": 58.5
+        },
+        {
+          "name": "EXOMAIL-Solution.pdf",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-Solution.pdf",
+          "kb": 63.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/exchange-online-hybrid-mail-flow-connectors-routing/v1.0.0/deliverables/EXOMAIL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Exchange Online Archiving & Messaging Retention (Archive Mailboxes, EOA & Holds)",
+    "slug": "exchange-online-archiving-messaging-retention",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "EXOARCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-EXOARCH-COMM-001",
+      "PTK-EXOARCH-NPO-001",
+      "PTK-EXOARCH-GOV-001"
+    ],
+    "deliverables": [
+      "EXOARCH-Solution.pdf",
+      "EXOARCH-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\exchange-online-archiving-messaging-retention\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EXOARCH-Discovery.ps1",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/scripts/EXOARCH-Discovery.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "EXOARCH-EnableArchive.ps1",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/scripts/EXOARCH-EnableArchive.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "EXOARCH-Set-Holds.ps1",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/scripts/EXOARCH-Set-Holds.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "EXOARCH-Set-MrmPolicy.ps1",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/scripts/EXOARCH-Set-MrmPolicy.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "EXOARCH-Validation.ps1",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/scripts/EXOARCH-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EXOARCH-Complete-Solution.zip",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-Complete-Solution.zip",
+          "kb": 104.2
+        },
+        {
+          "name": "EXOARCH-hero.png",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-hero.png",
+          "kb": 454.4
+        },
+        {
+          "name": "EXOARCH-hero.svg",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "EXOARCH-Scripts.zip",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-Scripts.zip",
+          "kb": 8.7
+        },
+        {
+          "name": "EXOARCH-Solution.docx",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-Solution.docx",
+          "kb": 56.5
+        },
+        {
+          "name": "EXOARCH-Solution.pdf",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-Solution.pdf",
+          "kb": 58.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/exchange-online-archiving-messaging-retention/v1.0.0/deliverables/EXOARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+    "slug": "m365-email-authentication-spf-dkim-dmarc",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "M365AUTH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-M365AUTH-COMM-001",
+      "PTK-M365AUTH-NPO-001",
+      "PTK-M365AUTH-GOV-001"
+    ],
+    "deliverables": [
+      "M365AUTH-Solution.pdf",
+      "M365AUTH-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\m365-email-authentication-spf-dkim-dmarc\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/02-requirements.md",
+          "kb": 8.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/03-implementation.md",
+          "kb": 10.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-EmailAuthPosture.ps1",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/scripts/Get-EmailAuthPosture.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "Get-SpfLookupHealth.ps1",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/scripts/Get-SpfLookupHealth.ps1",
+          "kb": 3.0
+        },
+        {
+          "name": "Invoke-DmarcReportAnalysis.ps1",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/scripts/Invoke-DmarcReportAnalysis.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "Set-DkimSigning.ps1",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/scripts/Set-DkimSigning.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "Test-EmailAuthAlignment.ps1",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/scripts/Test-EmailAuthAlignment.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "M365AUTH-Complete-Solution.zip",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-Complete-Solution.zip",
+          "kb": 106.4
+        },
+        {
+          "name": "M365AUTH-hero.png",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-hero.png",
+          "kb": 457.2
+        },
+        {
+          "name": "M365AUTH-hero.svg",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "M365AUTH-Scripts.zip",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-Scripts.zip",
+          "kb": 8.7
+        },
+        {
+          "name": "M365AUTH-Solution.docx",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "M365AUTH-Solution.pdf",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-Solution.pdf",
+          "kb": 59.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/m365-email-authentication-spf-dkim-dmarc/v1.0.0/deliverables/M365AUTH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+    "slug": "m365-mail-hygiene-anti-spam-eop-defender-office365",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "EOPHYG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-EOPHYG-COMM-001",
+      "PTK-EOPHYG-NPO-001",
+      "PTK-EOPHYG-GOV-001"
+    ],
+    "deliverables": [
+      "EOPHYG-Solution.pdf",
+      "EOPHYG-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\m365-mail-hygiene-anti-spam-eop-defender-office365\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/03-implementation.md",
+          "kb": 11.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-MailHygieneAssessment.ps1",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/scripts/Get-MailHygieneAssessment.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "Get-MailHygieneScopeHealth.ps1",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/scripts/Get-MailHygieneScopeHealth.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "Get-QuarantineAndAllowBlockReport.ps1",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/scripts/Get-QuarantineAndAllowBlockReport.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "Set-MailHygieneBaseline.ps1",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/scripts/Set-MailHygieneBaseline.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "Test-MailHygienePolicy.ps1",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/scripts/Test-MailHygienePolicy.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EOPHYG-Complete-Solution.zip",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-Complete-Solution.zip",
+          "kb": 107.8
+        },
+        {
+          "name": "EOPHYG-hero.png",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-hero.png",
+          "kb": 401.5
+        },
+        {
+          "name": "EOPHYG-hero.svg",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "EOPHYG-Scripts.zip",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "EOPHYG-Solution.docx",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-Solution.docx",
+          "kb": 57.7
+        },
+        {
+          "name": "EOPHYG-Solution.pdf",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-Solution.pdf",
+          "kb": 60.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/m365-mail-hygiene-anti-spam-eop-defender-office365/v1.0.0/deliverables/EOPHYG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Messaging Support Operations — ITIL Incident & Problem Management Runbook",
+    "slug": "m365-messaging-support-operations-itil-incident-problem-runbook",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "MSGOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MSGOPS-COMM-001",
+      "PTK-MSGOPS-NPO-001",
+      "PTK-MSGOPS-GOV-001"
+    ],
+    "deliverables": [
+      "MSGOPS-Solution.pdf",
+      "MSGOPS-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\m365-messaging-support-operations-itil-incident-problem-runbook\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/03-implementation.md",
+          "kb": 14.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Find-RecurringMessagingIncidents.ps1",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/scripts/Find-RecurringMessagingIncidents.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "Get-MessagingSlaMetricsReport.ps1",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/scripts/Get-MessagingSlaMetricsReport.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "Get-ServiceHealthTriage.ps1",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/scripts/Get-ServiceHealthTriage.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "New-MessagingRunbookConfig.ps1",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/scripts/New-MessagingRunbookConfig.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "Test-MailboxMailFlowHealth.ps1",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/scripts/Test-MailboxMailFlowHealth.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MSGOPS-Complete-Solution.zip",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-Complete-Solution.zip",
+          "kb": 118.7
+        },
+        {
+          "name": "MSGOPS-hero.png",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-hero.png",
+          "kb": 485.9
+        },
+        {
+          "name": "MSGOPS-hero.svg",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "MSGOPS-Scripts.zip",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "MSGOPS-Solution.docx",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-Solution.docx",
+          "kb": 61.3
+        },
+        {
+          "name": "MSGOPS-Solution.pdf",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-Solution.pdf",
+          "kb": 70.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/m365-messaging-support-operations-itil-incident-problem-runbook/v1.0.0/deliverables/MSGOPS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Outlook / OWA / Exchange Client Connectivity Troubleshooting Toolkit",
+    "slug": "outlook-owa-exchange-client-connectivity-troubleshooting",
+    "category": "Messaging",
+    "category_slug": "messaging",
+    "sol_code": "OUTLOOKDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-OUTLOOKDX-COMM-001",
+      "PTK-OUTLOOKDX-NPO-001",
+      "PTK-OUTLOOKDX-GOV-001"
+    ],
+    "deliverables": [
+      "OUTLOOKDX-Solution.pdf",
+      "OUTLOOKDX-Scripts.zip"
+    ],
+    "rel_path": "library\\messaging\\outlook-owa-exchange-client-connectivity-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 14.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-messaging.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/source/global-requirements-messaging.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-ClientConnectivityAssessment.ps1",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/scripts/Get-ClientConnectivityAssessment.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "Get-ClientConnectivityScope.ps1",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/scripts/Get-ClientConnectivityScope.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "Set-MailboxProtocolAccess.ps1",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/scripts/Set-MailboxProtocolAccess.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "Test-AutodiscoverEndpoints.ps1",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/scripts/Test-AutodiscoverEndpoints.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "Test-ModernAuthConditionalAccess.ps1",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/scripts/Test-ModernAuthConditionalAccess.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OUTLOOKDX-Complete-Solution.zip",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-Complete-Solution.zip",
+          "kb": 112.7
+        },
+        {
+          "name": "OUTLOOKDX-hero.png",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-hero.png",
+          "kb": 496.9
+        },
+        {
+          "name": "OUTLOOKDX-hero.svg",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "OUTLOOKDX-Scripts.zip",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-Scripts.zip",
+          "kb": 9.0
+        },
+        {
+          "name": "OUTLOOKDX-Solution.docx",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-Solution.docx",
+          "kb": 59.9
+        },
+        {
+          "name": "OUTLOOKDX-Solution.pdf",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-Solution.pdf",
+          "kb": 65.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../messaging/outlook-owa-exchange-client-connectivity-troubleshooting/v1.0.0/deliverables/OUTLOOKDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "AppLocker to WDAC (App Control for Business) Migration",
     "slug": "applocker-to-wdac-app-control-migration",
     "category": "Migrations",

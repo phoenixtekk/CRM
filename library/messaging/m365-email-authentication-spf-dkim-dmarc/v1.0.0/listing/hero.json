@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 Email Authentication",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SPF · DKIM · DMARC",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Authenticate · Align · Enforce",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SPOOFABLE DOMAIN",
+    "items": [
+      "No DKIM",
+      "Weak SPF",
+      "No DMARC",
+      "Spam folder"
+    ]
+  },
+  "to": {
+    "label": "Authenticated domain",
+    "stat": "Aligned · enforced"
+  },
+  "tagline": "PUBLISH.  SIGN.  ENFORCE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SPF",
+      "sub": "Scoped"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "DKIM",
+      "sub": "Signing"
+    },
+    {
+      "icon": "shield",
+      "title": "DMARC",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "chart",
+      "title": "Reports",
+      "sub": "Reviewed"
+    }
+  ]
+}

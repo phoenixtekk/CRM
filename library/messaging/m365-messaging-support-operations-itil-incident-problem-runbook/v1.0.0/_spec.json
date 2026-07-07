@@ -1,0 +1,83 @@
+{
+  "sol": "MSGOPS",
+  "slug": "m365-messaging-support-operations-itil-incident-problem-runbook",
+  "title": "Microsoft 365 Messaging Support Operations — ITIL Incident & Problem Management Runbook",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Run L2–L4 Microsoft 365 messaging support to SLA with ITIL discipline",
+  "problem": "A messaging support team lives or dies by <strong>consistent operations</strong> &mdash; SLAs met, escalations clean, root causes fixed, and knowledge captured. This solution is the messaging-specific <strong>support-operations runbook</strong>: L2/L3/L4 responsibilities and escalation, <strong>ITIL incident and problem management</strong> for mail issues, on-call, service-availability handling, First-Call-Resolution/CSAT and reopen-reduction practices, and knowledge-base + coaching workflows &mdash; so the team delivers to SLA with a positive customer experience. (Scoped to messaging support ops &mdash; distinct from a general desktop-support runbook or security incident response.)",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the messaging support operating model: L2&ndash;L4 roles + escalation, ITIL incident/problem management for mail, on-call, SLA/FCR/CSAT, and KB/coaching.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (a ticketing/ITSM tool + SLAs, messaging admin access for the team, on-call rota, KB platform).",
+    "<strong>Implementation Guide</strong> &mdash; define L2&ndash;L4 responsibilities + escalation paths, stand up incident and problem management for messaging, wire on-call + service-availability handling, set the FCR/CSAT/reopen practices, and operate KB + coaching &mdash; each runbook named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Runbook Library + validation gates</strong> (SLAs tracked, problems closed with root cause, KB current) plus Best Practices for a high-CSAT messaging support practice."
+  ],
+  "short": "A messaging-specific <strong>support-operations runbook</strong> &mdash; L2&ndash;L4 roles + escalation, ITIL incident &amp; problem management for mail, on-call, SLA/FCR/CSAT practices, and KB/coaching &mdash; so the team delivers to SLA with a positive customer experience. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A messaging-specific support-operations runbook — L2–L4 roles + escalation, ITIL incident & problem management for mail, on-call, SLA/FCR/CSAT practices, and KB/coaching — so the team delivers to SLA with a positive customer experience.",
+  "meta_title": "Microsoft 365 Messaging Support Operations — ITIL Incident & Problem Management Runbook",
+  "meta_description": "Run Microsoft 365 messaging support to SLA: L2–L4 responsibilities and escalation, ITIL incident and problem management for mail issues, on-call and service-availability handling, First-Call-Resolution/CSAT and reopen-reduction practices, and knowledge-base + coaching workflows. Scoped to messaging support ops. Self-guided framework and PowerShell tools.",
+  "bottom_line": "A messaging support team that delivers to SLA with high CSAT &mdash; L2–L4 escalation clean, incidents and problems managed to root cause, knowledge captured &mdash; consistent operations, not firefighting.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 Messaging",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Support Operations (ITIL)",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "L2–L4 · Incident/Problem · SLA · CSAT",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "INCONSISTENT SUPPORT",
+      "items": [
+        "Missed SLAs",
+        "Messy escalation",
+        "Repeat incidents",
+        "Low CSAT"
+      ]
+    },
+    "to": {
+      "label": "Operations to SLA",
+      "stat": "Root-caused · high-CSAT"
+    },
+    "tagline": "TRIAGE.  RESOLVE.  IMPROVE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Incident",
+        "sub": "L2–L4"
+      },
+      {
+        "icon": "shield",
+        "title": "Problem",
+        "sub": "Root cause"
+      },
+      {
+        "icon": "chart",
+        "title": "SLA/CSAT",
+        "sub": "FCR"
+      },
+      {
+        "icon": "users",
+        "title": "KB/Coach",
+        "sub": "Knowledge"
+      }
+    ]
+  }
+}

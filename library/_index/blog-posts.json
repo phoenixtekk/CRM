@@ -1163,5 +1163,45 @@
     "post_id": 12290,
     "status": "draft",
     "category_id": 411
+  },
+  "exchange-online-hybrid-mail-flow-connectors-routing": {
+    "post_id": 12292,
+    "status": "draft",
+    "category_id": 411
+  },
+  "exchange-edge-transport-server-deployment-hardening": {
+    "post_id": 12294,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-mail-hygiene-anti-spam-eop-defender-office365": {
+    "post_id": 12296,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-email-authentication-spf-dkim-dmarc": {
+    "post_id": 12298,
+    "status": "draft",
+    "category_id": 411
+  },
+  "adfs-federation-microsoft-365-deployment-migration-cloud-auth": {
+    "post_id": 12300,
+    "status": "draft",
+    "category_id": 411
+  },
+  "exchange-online-archiving-messaging-retention": {
+    "post_id": 12302,
+    "status": "draft",
+    "category_id": 411
+  },
+  "outlook-owa-exchange-client-connectivity-troubleshooting": {
+    "post_id": 12304,
+    "status": "draft",
+    "category_id": 411
+  },
+  "m365-messaging-support-operations-itil-incident-problem-runbook": {
+    "post_id": 12306,
+    "status": "draft",
+    "category_id": 411
   }
 }

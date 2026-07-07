@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "M365 Messaging",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Support Operations (ITIL)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "L2–L4 · Incident/Problem · SLA · CSAT",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INCONSISTENT SUPPORT",
+    "items": [
+      "Missed SLAs",
+      "Messy escalation",
+      "Repeat incidents",
+      "Low CSAT"
+    ]
+  },
+  "to": {
+    "label": "Operations to SLA",
+    "stat": "Root-caused · high-CSAT"
+  },
+  "tagline": "TRIAGE.  RESOLVE.  IMPROVE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Incident",
+      "sub": "L2–L4"
+    },
+    {
+      "icon": "shield",
+      "title": "Problem",
+      "sub": "Root cause"
+    },
+    {
+      "icon": "chart",
+      "title": "SLA/CSAT",
+      "sub": "FCR"
+    },
+    {
+      "icon": "users",
+      "title": "KB/Coach",
+      "sub": "Knowledge"
+    }
+  ]
+}

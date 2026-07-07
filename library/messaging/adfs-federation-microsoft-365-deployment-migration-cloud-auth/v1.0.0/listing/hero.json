@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "ADFS for Microsoft 365",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Federation & Cloud-Auth Migration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Claims · Certs · PHS/PTA · Seamless SSO",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FRAGILE FEDERATION",
+    "items": [
+      "ADFS single-point",
+      "Cert expiry outages",
+      "Claims errors",
+      "On-prem dependency"
+    ]
+  },
+  "to": {
+    "label": "Reliable sign-in",
+    "stat": "Federated or managed"
+  },
+  "tagline": "DIAGNOSE.  CONVERT.  RETIRE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Federation",
+      "sub": "Claims/certs"
+    },
+    {
+      "icon": "cloud",
+      "title": "Managed Auth",
+      "sub": "PHS/PTA"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Seamless SSO",
+      "sub": "Staged"
+    },
+    {
+      "icon": "shield",
+      "title": "Decommission",
+      "sub": "ADFS"
+    }
+  ]
+}

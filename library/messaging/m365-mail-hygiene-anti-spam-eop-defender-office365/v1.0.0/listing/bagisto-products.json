@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "m365-mail-hygiene-anti-spam-eop-defender-office365",
+    "title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+    "category_path": [
+      "Messaging"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-EOPHYG-COMM-001",
+      "name": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365 — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Configure and tune <strong>Microsoft 365 mail hygiene</strong> &mdash; EOP anti-spam/malware/spoof + Defender for Office 365 anti-phish/Safe Links/Safe Attachments, preset baselines, and quarantine/allow-block policy &mdash; so threats are blocked and false positives minimized. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Tune M365 mail hygiene so threats stop and good mail flows</h3><p>Default mail hygiene lets phishing through and quarantines legitimate mail &mdash; both erode trust. This solution configures and tunes <strong>Microsoft 365 mail hygiene</strong>: Exchange Online Protection (EOP) anti-spam, anti-malware, and connection/spoof filtering, plus <strong>Defender for Office 365</strong> anti-phishing, Safe Links, and Safe Attachments where licensed &mdash; with quarantine policy, allow/block management, and the recommended (preset/Standard-Strict) baselines &mdash; so threats are blocked and false positives are minimized.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the hygiene stack: EOP anti-spam/malware/spoof, Defender for Office 365 (anti-phish, Safe Links/Attachments), preset security policies, and quarantine.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + EOP/Defender for Office 365 licensing, admin roles, DNS/auth, pilot group).</li><li><strong>Implementation Guide</strong> &mdash; apply the baseline (preset or Standard/Strict), tune anti-spam/malware/anti-phish, configure Safe Links/Attachments, set quarantine + allow/block policy, and validate with test messages &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (threats blocked, false-positive rate low, quarantine reviewed) plus Best Practices for ongoing hygiene tuning and reporting.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Mail hygiene that blocks threats and passes good mail &mdash; EOP and Defender for Office 365 tuned to a proven baseline, quarantine governed, false positives down &mdash; trust restored.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-MailHygieneAssessment.ps1</code> &mdash; Read-only assessment of the Microsoft 365 mail hygiene posture (EOP + Defender for Office 365)</li><li><code>Get-MailHygieneScopeHealth.ps1</code> &mdash; Read-only scope/health helper: resolves which hygiene policy applies to a user (policy precedence),</li><li><code>Get-QuarantineAndAllowBlockReport.ps1</code> &mdash; Read-only reporting: quarantine review, Tenant Allow/Block List review (incl. stale/expiring</li><li><code>Set-MailHygieneBaseline.ps1</code> &mdash; Configuration helper to apply/tune the mail-hygiene baseline. SAFE BY DEFAULT: dry-run (-WhatIf)</li><li><code>Test-MailHygienePolicy.ps1</code> &mdash; Read-only validation of the mail-hygiene baseline: policy presence/scope, quarantine actions,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+      "meta_description": "Configure and tune Microsoft 365 mail hygiene: Exchange Online Protection (EOP) anti-spam/malware/spoof filtering plus Defender for Office 365 anti-phishing, Safe Links and Safe Attachments, preset security baselines, and quarantine/allow-block policy. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-mail-hygiene-anti-spam-eop-defender-office365-commercial",
+      "image": "EOPHYG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EOPHYG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EOPHYG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EOPHYG-NPO-001",
+      "name": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365 — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Configure and tune Microsoft 365 mail hygiene — EOP anti-spam/malware/spoof + Defender for Office 365 anti-phish/Safe Links/Safe Attachments, preset baselines, and quarantine/allow-block policy — so threats are blocked and false positives minimized. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Tune M365 mail hygiene so threats stop and good mail flows</h3><p>Default mail hygiene lets phishing through and quarantines legitimate mail &mdash; both erode trust. This solution configures and tunes <strong>Microsoft 365 mail hygiene</strong>: Exchange Online Protection (EOP) anti-spam, anti-malware, and connection/spoof filtering, plus <strong>Defender for Office 365</strong> anti-phishing, Safe Links, and Safe Attachments where licensed &mdash; with quarantine policy, allow/block management, and the recommended (preset/Standard-Strict) baselines &mdash; so threats are blocked and false positives are minimized.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the hygiene stack: EOP anti-spam/malware/spoof, Defender for Office 365 (anti-phish, Safe Links/Attachments), preset security policies, and quarantine.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + EOP/Defender for Office 365 licensing, admin roles, DNS/auth, pilot group).</li><li><strong>Implementation Guide</strong> &mdash; apply the baseline (preset or Standard/Strict), tune anti-spam/malware/anti-phish, configure Safe Links/Attachments, set quarantine + allow/block policy, and validate with test messages &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (threats blocked, false-positive rate low, quarantine reviewed) plus Best Practices for ongoing hygiene tuning and reporting.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-MailHygieneAssessment.ps1</code> &mdash; Read-only assessment of the Microsoft 365 mail hygiene posture (EOP + Defender for Office 365)</li><li><code>Get-MailHygieneScopeHealth.ps1</code> &mdash; Read-only scope/health helper: resolves which hygiene policy applies to a user (policy precedence),</li><li><code>Get-QuarantineAndAllowBlockReport.ps1</code> &mdash; Read-only reporting: quarantine review, Tenant Allow/Block List review (incl. stale/expiring</li><li><code>Set-MailHygieneBaseline.ps1</code> &mdash; Configuration helper to apply/tune the mail-hygiene baseline. SAFE BY DEFAULT: dry-run (-WhatIf)</li><li><code>Test-MailHygienePolicy.ps1</code> &mdash; Read-only validation of the mail-hygiene baseline: policy presence/scope, quarantine actions,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365 — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Configure and tune Microsoft 365 mail hygiene: Exchange Online Protection (EOP) anti-spam/malware/spoof filtering plus Defender for Office 365 anti-phishing, Safe Links and Safe Attachments, preset security baselines, and quarantine/allow-block policy. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-mail-hygiene-anti-spam-eop-defender-office365-nonprofit",
+      "image": "EOPHYG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EOPHYG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EOPHYG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EOPHYG-GOV-001",
+      "name": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365 — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Configure and tune Microsoft 365 mail hygiene — EOP anti-spam/malware/spoof + Defender for Office 365 anti-phish/Safe Links/Safe Attachments, preset baselines, and quarantine/allow-block policy — so threats are blocked and false positives minimized. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Tune M365 mail hygiene so threats stop and good mail flows</h3><p>Default mail hygiene lets phishing through and quarantines legitimate mail &mdash; both erode trust. This solution configures and tunes <strong>Microsoft 365 mail hygiene</strong>: Exchange Online Protection (EOP) anti-spam, anti-malware, and connection/spoof filtering, plus <strong>Defender for Office 365</strong> anti-phishing, Safe Links, and Safe Attachments where licensed &mdash; with quarantine policy, allow/block management, and the recommended (preset/Standard-Strict) baselines &mdash; so threats are blocked and false positives are minimized.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the hygiene stack: EOP anti-spam/malware/spoof, Defender for Office 365 (anti-phish, Safe Links/Attachments), preset security policies, and quarantine.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + EOP/Defender for Office 365 licensing, admin roles, DNS/auth, pilot group).</li><li><strong>Implementation Guide</strong> &mdash; apply the baseline (preset or Standard/Strict), tune anti-spam/malware/anti-phish, configure Safe Links/Attachments, set quarantine + allow/block policy, and validate with test messages &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (threats blocked, false-positive rate low, quarantine reviewed) plus Best Practices for ongoing hygiene tuning and reporting.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-MailHygieneAssessment.ps1</code> &mdash; Read-only assessment of the Microsoft 365 mail hygiene posture (EOP + Defender for Office 365)</li><li><code>Get-MailHygieneScopeHealth.ps1</code> &mdash; Read-only scope/health helper: resolves which hygiene policy applies to a user (policy precedence),</li><li><code>Get-QuarantineAndAllowBlockReport.ps1</code> &mdash; Read-only reporting: quarantine review, Tenant Allow/Block List review (incl. stale/expiring</li><li><code>Set-MailHygieneBaseline.ps1</code> &mdash; Configuration helper to apply/tune the mail-hygiene baseline. SAFE BY DEFAULT: dry-run (-WhatIf)</li><li><code>Test-MailHygienePolicy.ps1</code> &mdash; Read-only validation of the mail-hygiene baseline: policy presence/scope, quarantine actions,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365 — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Configure and tune Microsoft 365 mail hygiene: Exchange Online Protection (EOP) anti-spam/malware/spoof filtering plus Defender for Office 365 anti-phishing, Safe Links and Safe Attachments, preset security baselines, and quarantine/allow-block policy. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-mail-hygiene-anti-spam-eop-defender-office365-government",
+      "image": "EOPHYG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "EOPHYG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "EOPHYG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

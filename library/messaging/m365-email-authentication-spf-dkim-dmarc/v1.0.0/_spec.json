@@ -1,0 +1,83 @@
+{
+  "sol": "M365AUTH",
+  "slug": "m365-email-authentication-spf-dkim-dmarc",
+  "title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Authenticate your Microsoft 365 mail and stop domain spoofing",
+  "problem": "If your domain isn't authenticated, attackers spoof it and your legitimate mail lands in spam. This solution implements <strong>email authentication</strong> for Microsoft 365: publish and scope <strong>SPF</strong>, enable <strong>DKIM</strong> signing in Exchange Online (and for on-prem/hybrid senders), and roll <strong>DMARC</strong> from monitor to enforcement (p=none &rarr; quarantine &rarr; reject) using aggregate reports &mdash; plus alignment for third-party senders &mdash; so your domain is protected and deliverable.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; SPF/DKIM/DMARC and alignment, the EXO DKIM model, third-party sender handling, and the monitor&rarr;enforce journey.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + accepted domains, DNS control, inventory of legitimate senders, admin roles).",
+    "<strong>Implementation Guide</strong> &mdash; inventory senders, publish/scope SPF, enable DKIM signing, publish DMARC at p=none, review aggregate reports, then move to quarantine and reject &mdash; pilot-first, without breaking legitimate senders.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (SPF/DKIM pass, DMARC aligned, reports reviewed before enforcement) plus Best Practices for safely reaching p=reject."
+  ],
+  "short": "Implement <strong>SPF, DKIM &amp; DMARC</strong> for Microsoft 365 &mdash; scope SPF, enable EXO DKIM signing, roll DMARC monitor&rarr;quarantine&rarr;reject on aggregate reports, and align third-party senders &mdash; so your domain can't be spoofed and stays deliverable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement SPF, DKIM & DMARC for Microsoft 365 — scope SPF, enable EXO DKIM signing, roll DMARC monitor→quarantine→reject on aggregate reports, and align third-party senders — so your domain can't be spoofed and stays deliverable.",
+  "meta_title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+  "meta_description": "Implement email authentication for Microsoft 365: publish and scope SPF, enable DKIM signing in Exchange Online, and roll DMARC from monitor to enforcement (p=none→quarantine→reject) using aggregate reports, with third-party sender alignment. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A Microsoft 365 domain that can't be spoofed and lands in the inbox &mdash; SPF scoped, DKIM signing on, DMARC enforced on real report data, third-party senders aligned &mdash; authenticated and deliverable.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "M365 Email Authentication",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "SPF · DKIM · DMARC",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Authenticate · Align · Enforce",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SPOOFABLE DOMAIN",
+      "items": [
+        "No DKIM",
+        "Weak SPF",
+        "No DMARC",
+        "Spam folder"
+      ]
+    },
+    "to": {
+      "label": "Authenticated domain",
+      "stat": "Aligned · enforced"
+    },
+    "tagline": "PUBLISH.  SIGN.  ENFORCE.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "SPF",
+        "sub": "Scoped"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "DKIM",
+        "sub": "Signing"
+      },
+      {
+        "icon": "shield",
+        "title": "DMARC",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "chart",
+        "title": "Reports",
+        "sub": "Reviewed"
+      }
+    ]
+  }
+}

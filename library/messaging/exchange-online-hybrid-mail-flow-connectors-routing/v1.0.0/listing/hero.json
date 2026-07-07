@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Exchange & Hybrid",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Mail Flow & Connectors",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Connectors · Routing · Transport · Trace",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MAIL FLOW MYSTERY",
+    "items": [
+      "Wrong connectors",
+      "Routing loops",
+      "Silent mail loss",
+      "Hard to trace"
+    ]
+  },
+  "to": {
+    "label": "Routed & diagnosable",
+    "stat": "Correct · traceable"
+  },
+  "tagline": "CONNECT.  ROUTE.  TRACE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Connectors",
+      "sub": "Right type"
+    },
+    {
+      "icon": "cloud",
+      "title": "Routing",
+      "sub": "Hybrid"
+    },
+    {
+      "icon": "shield",
+      "title": "Transport",
+      "sub": "Rules"
+    },
+    {
+      "icon": "chart",
+      "title": "Trace",
+      "sub": "Root-cause"
+    }
+  ]
+}

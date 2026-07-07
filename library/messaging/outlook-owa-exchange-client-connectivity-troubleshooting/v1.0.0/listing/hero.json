@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Outlook · OWA · Mobile",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Connectivity Troubleshooting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Autodiscover · Protocols · Auth",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OUTLOOK WON'T CONNECT",
+    "items": [
+      "Guesswork",
+      "Autodiscover fails",
+      "Auth loops",
+      "High ticket volume"
+    ]
+  },
+  "to": {
+    "label": "First-contact fixes",
+    "stat": "Diagnosed · fast"
+  },
+  "tagline": "REPRODUCE.  ISOLATE.  RESOLVE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Autodiscover",
+      "sub": "Flow"
+    },
+    {
+      "icon": "gear",
+      "title": "Protocols",
+      "sub": "MAPI/EWS"
+    },
+    {
+      "icon": "key",
+      "title": "Auth",
+      "sub": "Modern/CA"
+    },
+    {
+      "icon": "chart",
+      "title": "Decision Tree",
+      "sub": "Root-cause"
+    }
+  ]
+}

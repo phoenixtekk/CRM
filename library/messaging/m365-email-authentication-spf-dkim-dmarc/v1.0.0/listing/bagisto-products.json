@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "m365-email-authentication-spf-dkim-dmarc",
+    "title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+    "category_path": [
+      "Messaging"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-M365AUTH-COMM-001",
+      "name": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Implement <strong>SPF, DKIM &amp; DMARC</strong> for Microsoft 365 &mdash; scope SPF, enable EXO DKIM signing, roll DMARC monitor&rarr;quarantine&rarr;reject on aggregate reports, and align third-party senders &mdash; so your domain can't be spoofed and stays deliverable. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Authenticate your Microsoft 365 mail and stop domain spoofing</h3><p>If your domain isn't authenticated, attackers spoof it and your legitimate mail lands in spam. This solution implements <strong>email authentication</strong> for Microsoft 365: publish and scope <strong>SPF</strong>, enable <strong>DKIM</strong> signing in Exchange Online (and for on-prem/hybrid senders), and roll <strong>DMARC</strong> from monitor to enforcement (p=none &rarr; quarantine &rarr; reject) using aggregate reports &mdash; plus alignment for third-party senders &mdash; so your domain is protected and deliverable.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPF/DKIM/DMARC and alignment, the EXO DKIM model, third-party sender handling, and the monitor&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + accepted domains, DNS control, inventory of legitimate senders, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; inventory senders, publish/scope SPF, enable DKIM signing, publish DMARC at p=none, review aggregate reports, then move to quarantine and reject &mdash; pilot-first, without breaking legitimate senders.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (SPF/DKIM pass, DMARC aligned, reports reviewed before enforcement) plus Best Practices for safely reaching p=reject.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A Microsoft 365 domain that can't be spoofed and lands in the inbox &mdash; SPF scoped, DKIM signing on, DMARC enforced on real report data, third-party senders aligned &mdash; authenticated and deliverable.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-EmailAuthPosture.ps1</code> &mdash; Read-only email-authentication posture discovery across all Exchange Online accepted domains</li><li><code>Get-SpfLookupHealth.ps1</code> &mdash; SPF scope/health helper — read-only; recursively resolves an SPF record, counts the real DNS lookups</li><li><code>Invoke-DmarcReportAnalysis.ps1</code> &mdash; Parse and analyze DMARC aggregate (RUA) reports — read-only; summarizes each sending source and</li><li><code>Set-DkimSigning.ps1</code> &mdash; Enable or rotate Exchange Online DKIM signing for accepted domains — SAFE BY DEFAULT (dry-run /</li><li><code>Test-EmailAuthAlignment.ps1</code> &mdash; Validation report for email authentication — read-only; checks SPF scope, DKIM validity, and DMARC</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+      "meta_description": "Implement email authentication for Microsoft 365: publish and scope SPF, enable DKIM signing in Exchange Online, and roll DMARC from monitor to enforcement (p=none→quarantine→reject) using aggregate reports, with third-party sender alignment. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-email-authentication-spf-dkim-dmarc-commercial",
+      "image": "M365AUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365AUTH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "M365AUTH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-M365AUTH-NPO-001",
+      "name": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Implement SPF, DKIM & DMARC for Microsoft 365 — scope SPF, enable EXO DKIM signing, roll DMARC monitor→quarantine→reject on aggregate reports, and align third-party senders — so your domain can't be spoofed and stays deliverable. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Authenticate your Microsoft 365 mail and stop domain spoofing</h3><p>If your domain isn't authenticated, attackers spoof it and your legitimate mail lands in spam. This solution implements <strong>email authentication</strong> for Microsoft 365: publish and scope <strong>SPF</strong>, enable <strong>DKIM</strong> signing in Exchange Online (and for on-prem/hybrid senders), and roll <strong>DMARC</strong> from monitor to enforcement (p=none &rarr; quarantine &rarr; reject) using aggregate reports &mdash; plus alignment for third-party senders &mdash; so your domain is protected and deliverable.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPF/DKIM/DMARC and alignment, the EXO DKIM model, third-party sender handling, and the monitor&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + accepted domains, DNS control, inventory of legitimate senders, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; inventory senders, publish/scope SPF, enable DKIM signing, publish DMARC at p=none, review aggregate reports, then move to quarantine and reject &mdash; pilot-first, without breaking legitimate senders.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (SPF/DKIM pass, DMARC aligned, reports reviewed before enforcement) plus Best Practices for safely reaching p=reject.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-EmailAuthPosture.ps1</code> &mdash; Read-only email-authentication posture discovery across all Exchange Online accepted domains</li><li><code>Get-SpfLookupHealth.ps1</code> &mdash; SPF scope/health helper — read-only; recursively resolves an SPF record, counts the real DNS lookups</li><li><code>Invoke-DmarcReportAnalysis.ps1</code> &mdash; Parse and analyze DMARC aggregate (RUA) reports — read-only; summarizes each sending source and</li><li><code>Set-DkimSigning.ps1</code> &mdash; Enable or rotate Exchange Online DKIM signing for accepted domains — SAFE BY DEFAULT (dry-run /</li><li><code>Test-EmailAuthAlignment.ps1</code> &mdash; Validation report for email authentication — read-only; checks SPF scope, DKIM validity, and DMARC</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Implement email authentication for Microsoft 365: publish and scope SPF, enable DKIM signing in Exchange Online, and roll DMARC from monitor to enforcement (p=none→quarantine→reject) using aggregate reports, with third-party sender alignment. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-email-authentication-spf-dkim-dmarc-nonprofit",
+      "image": "M365AUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365AUTH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "M365AUTH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-M365AUTH-GOV-001",
+      "name": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Implement SPF, DKIM & DMARC for Microsoft 365 — scope SPF, enable EXO DKIM signing, roll DMARC monitor→quarantine→reject on aggregate reports, and align third-party senders — so your domain can't be spoofed and stays deliverable. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Authenticate your Microsoft 365 mail and stop domain spoofing</h3><p>If your domain isn't authenticated, attackers spoof it and your legitimate mail lands in spam. This solution implements <strong>email authentication</strong> for Microsoft 365: publish and scope <strong>SPF</strong>, enable <strong>DKIM</strong> signing in Exchange Online (and for on-prem/hybrid senders), and roll <strong>DMARC</strong> from monitor to enforcement (p=none &rarr; quarantine &rarr; reject) using aggregate reports &mdash; plus alignment for third-party senders &mdash; so your domain is protected and deliverable.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPF/DKIM/DMARC and alignment, the EXO DKIM model, third-party sender handling, and the monitor&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + accepted domains, DNS control, inventory of legitimate senders, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; inventory senders, publish/scope SPF, enable DKIM signing, publish DMARC at p=none, review aggregate reports, then move to quarantine and reject &mdash; pilot-first, without breaking legitimate senders.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (SPF/DKIM pass, DMARC aligned, reports reviewed before enforcement) plus Best Practices for safely reaching p=reject.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-EmailAuthPosture.ps1</code> &mdash; Read-only email-authentication posture discovery across all Exchange Online accepted domains</li><li><code>Get-SpfLookupHealth.ps1</code> &mdash; SPF scope/health helper — read-only; recursively resolves an SPF record, counts the real DNS lookups</li><li><code>Invoke-DmarcReportAnalysis.ps1</code> &mdash; Parse and analyze DMARC aggregate (RUA) reports — read-only; summarizes each sending source and</li><li><code>Set-DkimSigning.ps1</code> &mdash; Enable or rotate Exchange Online DKIM signing for accepted domains — SAFE BY DEFAULT (dry-run /</li><li><code>Test-EmailAuthAlignment.ps1</code> &mdash; Validation report for email authentication — read-only; checks SPF scope, DKIM validity, and DMARC</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Implement email authentication for Microsoft 365: publish and scope SPF, enable DKIM signing in Exchange Online, and roll DMARC from monitor to enforcement (p=none→quarantine→reject) using aggregate reports, with third-party sender alignment. Self-guided steps and PowerShell tools.",
+      "url_key": "m365-email-authentication-spf-dkim-dmarc-government",
+      "image": "M365AUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365AUTH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "M365AUTH-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

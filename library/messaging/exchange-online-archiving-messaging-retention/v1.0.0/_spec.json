@@ -1,0 +1,83 @@
+{
+  "sol": "EXOARCH",
+  "slug": "exchange-online-archiving-messaging-retention",
+  "title": "Exchange Online Archiving & Messaging Retention (Archive Mailboxes, EOA & Holds)",
+  "category": "Messaging",
+  "category_slug": "messaging",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-messaging.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Exchange/M365 messaging operations).",
+    "Exchange admin center / M365 admin center / Exchange Online PowerShell (EXO V3) / Microsoft Graph and on-prem Exchange Server + AD authored at exact detail from Microsoft public docs; version-/plan-dependent behavior (Exchange Server CU, EOP vs Defender for Office 365 plan, EOA/auto-expanding archive availability, Commercial vs Government cloud) cited or flagged 'verify in your tenant/version', never invented. Third-party hygiene/archiving/gateway tools at the pattern level. Automation is PowerShell (EXO PowerShell / Graph) — no hardcoded credentials or secrets in code. No client names."
+  ],
+  "hook": "Give mailboxes archiving and holds without the mailbox bloat",
+  "problem": "Growing mailboxes, PST sprawl, and litigation exposure all point to <strong>mailbox archiving</strong>. This solution implements <strong>Exchange Online Archiving</strong> specifically: enable archive mailboxes and <strong>auto-expanding archive</strong>, move-to-archive via archive/retention tags (MRM), import PSTs to the archive, and apply <strong>litigation hold and in-place/eDiscovery holds</strong> where required &mdash; so mailbox size is controlled and messaging data is preserved and discoverable. (Scoped to email archiving/holds; broader Purview DLP/labels/retention is a separate concern.)",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; archive mailboxes + auto-expanding archive, MRM archive/retention tags &amp; policies, PST import, and litigation/in-place hold &mdash; and how this differs from Purview DLP/sensitivity-label work.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (EXO + archiving-capable licensing, admin roles, PST source if any, legal/records stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; enable archive mailboxes + auto-expanding archive, build MRM archive/retention tags and a policy, import PSTs to the archive, and apply litigation/in-place holds &mdash; pilot-first, each policy/tag named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Exchange Online PowerShell (EXO V3) / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (archives provisioned, move-to-archive working, holds enforced) plus Best Practices; legal-hold determinations deferred to legal/records."
+  ],
+  "short": "Implement <strong>Exchange Online Archiving</strong> specifically &mdash; archive mailboxes + auto-expanding archive, MRM archive/retention tags, PST import, and litigation/in-place holds &mdash; so mailbox size is controlled and messaging data is preserved and discoverable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Exchange Online Archiving specifically — archive mailboxes + auto-expanding archive, MRM archive/retention tags, PST import, and litigation/in-place holds — so mailbox size is controlled and messaging data is preserved and discoverable.",
+  "meta_title": "Exchange Online Archiving & Messaging Retention (Archive Mailboxes, EOA & Holds)",
+  "meta_description": "Implement Exchange Online Archiving: enable archive mailboxes and auto-expanding archive, MRM archive/retention tags and policy, PST import to archive, and litigation/in-place holds. Scoped to email archiving/holds (distinct from Purview DLP/labels). Self-guided steps and PowerShell tools; legal-hold determinations deferred to legal.",
+  "bottom_line": "Mailbox bloat controlled and messaging data preserved &mdash; archive mailboxes and auto-expanding archive on, move-to-archive tags working, PSTs ingested, holds enforced &mdash; discoverable and defensible.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Exchange Online Archiving",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Messaging Retention",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Archive Mailboxes · EOA · MRM · Holds",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MAILBOX BLOAT",
+      "items": [
+        "Full mailboxes",
+        "PST sprawl",
+        "No holds",
+        "Litigation risk"
+      ]
+    },
+    "to": {
+      "label": "Archived & held",
+      "stat": "Controlled · discoverable"
+    },
+    "tagline": "ARCHIVE.  TAG.  HOLD.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Archive",
+        "sub": "Auto-expand"
+      },
+      {
+        "icon": "gear",
+        "title": "MRM Tags",
+        "sub": "Move-to-archive"
+      },
+      {
+        "icon": "lock",
+        "title": "Holds",
+        "sub": "Litigation"
+      },
+      {
+        "icon": "chart",
+        "title": "PST Import",
+        "sub": "Ingested"
+      }
+    ]
+  }
+}
