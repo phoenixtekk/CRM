@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "OneDrive for Business",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deployment & Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "KFM · Sync Controls · Offboarding",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED ONEDRIVE",
+    "items": [
+      "Data loss risk",
+      "No KFM",
+      "Uncontrolled sync",
+      "Messy offboarding"
+    ]
+  },
+  "to": {
+    "label": "Governed OneDrive",
+    "stat": "Protected · synced"
+  },
+  "tagline": "DEPLOY.  REDIRECT.  GOVERN.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Client",
+      "sub": "Silent"
+    },
+    {
+      "icon": "gear",
+      "title": "KFM",
+      "sub": "Redirect"
+    },
+    {
+      "icon": "shield",
+      "title": "Sync",
+      "sub": "Controlled"
+    },
+    {
+      "icon": "lock",
+      "title": "Offboard",
+      "sub": "Retained"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSAPPS",
+  "slug": "microsoft-teams-apps-integration-governance",
+  "title": "Microsoft Teams Apps & Integration Governance",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Govern which apps and bots run inside Microsoft Teams",
+  "problem": "Every app added to Teams gains access to collaboration data &mdash; ungoverned, it's an unmanaged supply chain. This solution governs <strong>Teams apps and integrations</strong>: app permission and setup policies, org-wide allow/block and pinning, custom/line-of-business and third-party app management, admin consent and Graph-permission review, and an app-vetting workflow &mdash; so only trusted, useful apps are available.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the app-governance model: app permission + setup policies, allow/block + pinning, custom/LOB vs third-party, consent/permission review, and vetting.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams admin roles, app catalog, security/governance stakeholders, risk criteria).",
+    "<strong>Implementation Guide</strong> &mdash; set app permission + setup policies, configure allow/block + pinning, manage custom/LOB uploads, review consent/Graph permissions, and wire an app-vetting workflow &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (only vetted apps available, risky permissions reviewed) plus Best Practices for ongoing app governance."
+  ],
+  "short": "Govern <strong>Teams apps &amp; integrations</strong> &mdash; app permission/setup policies, allow/block + pinning, custom/LOB + third-party management, consent/permission review, and a vetting workflow &mdash; so only trusted apps run in Teams. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Govern Teams apps & integrations — app permission/setup policies, allow/block + pinning, custom/LOB + third-party management, consent/permission review, and a vetting workflow — so only trusted apps run in Teams.",
+  "meta_title": "Microsoft Teams Apps & Integration Governance",
+  "meta_description": "Govern Microsoft Teams apps and integrations: app permission and setup policies, org-wide allow/block and pinning, custom/line-of-business and third-party app management, admin consent and Graph-permission review, and an app-vetting workflow. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Only trusted, useful apps in Teams &mdash; permission and setup policies set, risky apps blocked, consent reviewed, new apps vetted &mdash; the collaboration supply chain governed.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Teams Apps",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Integration Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Policies · Allow/Block · Consent",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED APPS",
+      "items": [
+        "Any app allowed",
+        "Risky permissions",
+        "No vetting",
+        "Data exposure"
+      ]
+    },
+    "to": {
+      "label": "Governed apps",
+      "stat": "Vetted · scoped"
+    },
+    "tagline": "POLICY.  VET.  REVIEW.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Policies",
+        "sub": "Permission/setup"
+      },
+      {
+        "icon": "shield",
+        "title": "Allow/Block",
+        "sub": "Pinning"
+      },
+      {
+        "icon": "lock",
+        "title": "Consent",
+        "sub": "Reviewed"
+      },
+      {
+        "icon": "chart",
+        "title": "Vetting",
+        "sub": "Workflow"
+      }
+    ]
+  }
+}

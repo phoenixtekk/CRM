@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSCOMP",
+  "slug": "microsoft-teams-security-compliance-information-barriers-retention",
+  "title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Apply the Teams-specific security and compliance controls",
+  "problem": "Teams carries chats, channel messages, and files that need compliance controls &mdash; and the Teams-specific ones are easy to miss. This solution applies <strong>Teams security &amp; compliance</strong>: <strong>information barriers</strong> (segment groups that can't communicate), Teams retention policies (chat/channel), Teams DLP, and communication-compliance touchpoints &mdash; scoped to what's specific to Teams, referencing the broader Purview program rather than duplicating it.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Teams-specific controls: information barriers, Teams retention (chat/channel), Teams DLP, and how they relate to the org-wide Purview program.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, existing Purview retention/DLP posture, compliance stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; define + apply information-barrier policies (segments/associations), set Teams chat/channel retention, configure Teams DLP, and validate &mdash; pilot-first, each policy named; records/legal determinations deferred to compliance.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (barriers enforced, retention applied, DLP effective in Teams) plus Best Practices; broader DLP/labels handled by the Purview program."
+  ],
+  "short": "Apply the <strong>Teams-specific security &amp; compliance</strong> controls &mdash; information barriers, Teams chat/channel retention, and Teams DLP &mdash; scoped to Teams and aligned to your Purview program. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Apply the Teams-specific security & compliance controls — information barriers, Teams chat/channel retention, and Teams DLP — scoped to Teams and aligned to your Purview program.",
+  "meta_title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+  "meta_description": "Apply Microsoft Teams security and compliance controls: information barriers (segment groups), Teams chat/channel retention policies, and Teams DLP. Scoped to Teams-specific controls, referencing the broader Purview program. Self-guided steps and PowerShell tools; records/legal determinations deferred to compliance.",
+  "bottom_line": "Teams brought under compliance &mdash; information barriers enforced, chat/channel retention applied, Teams DLP effective &mdash; the Teams-specific controls closed, aligned to Purview.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Teams Security",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Compliance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Info Barriers · Retention · DLP",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "TEAMS COMPLIANCE GAP",
+      "items": [
+        "No barriers",
+        "Chat unretained",
+        "No Teams DLP",
+        "Missed controls"
+      ]
+    },
+    "to": {
+      "label": "Teams compliant",
+      "stat": "Barriers · retained"
+    },
+    "tagline": "SEGMENT.  RETAIN.  PROTECT.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Barriers",
+        "sub": "Segments"
+      },
+      {
+        "icon": "cloud",
+        "title": "Retention",
+        "sub": "Chat/channel"
+      },
+      {
+        "icon": "lock",
+        "title": "DLP",
+        "sub": "Teams"
+      },
+      {
+        "icon": "chart",
+        "title": "Validate",
+        "sub": "Enforced"
+      }
+    ]
+  }
+}

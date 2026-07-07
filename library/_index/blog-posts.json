@@ -1203,5 +1203,80 @@
     "post_id": 12306,
     "status": "draft",
     "category_id": 411
+  },
+  "m365-purview-ediscovery-administration": {
+    "post_id": 12308,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-governance-lifecycle-management": {
+    "post_id": 12310,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-meetings-webinars-policy-configuration": {
+    "post_id": 12312,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-external-guest-access-governance": {
+    "post_id": 12314,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-phone-calling-plans-operator-connect": {
+    "post_id": 12316,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-apps-integration-governance": {
+    "post_id": 12318,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-rooms-deployment-management": {
+    "post_id": 12320,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-teams-security-compliance-information-barriers-retention": {
+    "post_id": 12322,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-online-architecture-site-provisioning-governance": {
+    "post_id": 12324,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-online-external-sharing-access-governance": {
+    "post_id": 12326,
+    "status": "draft",
+    "category_id": 411
+  },
+  "onedrive-for-business-deployment-governance": {
+    "post_id": 12328,
+    "status": "draft",
+    "category_id": 411
+  },
+  "file-share-on-prem-sharepoint-to-sharepoint-online-migration": {
+    "post_id": 12330,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-online-permissions-access-management": {
+    "post_id": 12332,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-online-search-information-architecture": {
+    "post_id": 12334,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sharepoint-online-records-retention-information-governance": {
+    "post_id": 12336,
+    "status": "draft",
+    "category_id": 411
   }
 }

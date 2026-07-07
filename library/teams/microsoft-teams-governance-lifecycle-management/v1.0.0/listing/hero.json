@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Teams",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Governance & Lifecycle",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Creation · Naming · Expiration · Archival",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TEAMS SPRAWL",
+    "items": [
+      "Uncontrolled creation",
+      "Duplicate teams",
+      "Orphaned owners",
+      "Stale data"
+    ]
+  },
+  "to": {
+    "label": "Governed Teams",
+    "stat": "Named · lifecycle-managed"
+  },
+  "tagline": "CONTROL.  CLASSIFY.  EXPIRE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Creation",
+      "sub": "Request model"
+    },
+    {
+      "icon": "gear",
+      "title": "Naming",
+      "sub": "Classified"
+    },
+    {
+      "icon": "shield",
+      "title": "Ownership",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "cloud",
+      "title": "Lifecycle",
+      "sub": "Expire/archive"
+    }
+  ]
+}

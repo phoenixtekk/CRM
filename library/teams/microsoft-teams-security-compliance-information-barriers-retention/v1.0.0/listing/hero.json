@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams Security",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Compliance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Info Barriers · Retention · DLP",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TEAMS COMPLIANCE GAP",
+    "items": [
+      "No barriers",
+      "Chat unretained",
+      "No Teams DLP",
+      "Missed controls"
+    ]
+  },
+  "to": {
+    "label": "Teams compliant",
+    "stat": "Barriers · retained"
+  },
+  "tagline": "SEGMENT.  RETAIN.  PROTECT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Barriers",
+      "sub": "Segments"
+    },
+    {
+      "icon": "cloud",
+      "title": "Retention",
+      "sub": "Chat/channel"
+    },
+    {
+      "icon": "lock",
+      "title": "DLP",
+      "sub": "Teams"
+    },
+    {
+      "icon": "chart",
+      "title": "Validate",
+      "sub": "Enforced"
+    }
+  ]
+}

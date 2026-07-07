@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint External",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Sharing & Access Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Links · Domains · Guests · Exposure",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHARING LEAKAGE",
+    "items": [
+      "Anyone-links",
+      "No expiration",
+      "Any domain",
+      "Exposure blind"
+    ]
+  },
+  "to": {
+    "label": "Governed sharing",
+    "stat": "Scoped · auditable"
+  },
+  "tagline": "SCOPE.  EXPIRE.  REPORT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Sharing",
+      "sub": "Tenant/site"
+    },
+    {
+      "icon": "gear",
+      "title": "Links",
+      "sub": "Expire"
+    },
+    {
+      "icon": "shield",
+      "title": "Domains",
+      "sub": "Allow/block"
+    },
+    {
+      "icon": "chart",
+      "title": "Exposure",
+      "sub": "Reported"
+    }
+  ]
+}

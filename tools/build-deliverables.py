@@ -28,6 +28,8 @@ SOURCE_ORDER = [
     "global-requirements-oracle.md",
     "global-requirements-synthetic.md",
     "global-requirements-messaging.md",
+    "global-requirements-teams.md",
+    "global-requirements-sharepoint.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",

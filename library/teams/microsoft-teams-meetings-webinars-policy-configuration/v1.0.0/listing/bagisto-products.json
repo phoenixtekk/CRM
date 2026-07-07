@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-teams-meetings-webinars-policy-configuration",
+    "title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+    "category_path": [
+      "Teams"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-TEAMSMTG-COMM-001",
+      "name": "Microsoft Teams Meetings, Webinars & Policy Configuration — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Configure <strong>Teams meetings &amp; webinars</strong> &mdash; meeting policies (lobby/recording/roles), webinars/town halls, templates + sensitivity, and group-based assignment &mdash; so meetings are secure and consistent. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Configure Teams meetings and webinars for a secure, consistent experience</h3><p>Default meeting settings leave lobby, recording, and external-join controls inconsistent &mdash; a security and experience gap. This solution configures <strong>Teams meetings and webinars</strong>: meeting policies (lobby, recording/transcription, presenter roles), live events/webinars/town halls, meeting templates and sensitivity, and policy assignment by group &mdash; so meetings are secure, consistent, and fit-for-purpose.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the meeting model: meeting policies, webinars/town halls, templates + sensitivity, recording/transcription, and policy assignment.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams licensing incl. Premium where used, admin roles, groups, compliance stance).</li><li><strong>Implementation Guide</strong> &mdash; design + apply meeting policies, configure webinars/town halls, build meeting templates + sensitivity, set recording/transcription policy, and assign by group &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (policies applied by group, lobby/recording correct) plus Best Practices for consistent, secure meetings.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Teams meetings secure and consistent &mdash; lobby, recording, and roles set by policy, webinars/town halls configured, templates applied &mdash; fit-for-purpose across the org.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSMTG-AssignmentReport.ps1</code> &mdash; Scope/health helper (SAFE BY DEFAULT - reports unless -AssignGroup ... -Commit): reports group policy</li><li><code>TEAMSMTG-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Meeting Posture - Teams - Discovery\" snapshot of Teams meeting</li><li><code>TEAMSMTG-Set-EventsAndTemplates.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams events</li><li><code>TEAMSMTG-Set-MeetingPolicy.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams</li><li><code>TEAMSMTG-Validation.ps1</code> &mdash; Validation (READ-ONLY): pass/fail check that the named meeting policies exist and match the design, the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+      "meta_description": "Configure Microsoft Teams meetings and webinars: meeting policies (lobby, recording/transcription, presenter roles), webinars/town halls, meeting templates and sensitivity, and policy assignment by group. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-meetings-webinars-policy-configuration-commercial",
+      "image": "TEAMSMTG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSMTG-NPO-001",
+      "name": "Microsoft Teams Meetings, Webinars & Policy Configuration — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Configure Teams meetings & webinars — meeting policies (lobby/recording/roles), webinars/town halls, templates + sensitivity, and group-based assignment — so meetings are secure and consistent. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Configure Teams meetings and webinars for a secure, consistent experience</h3><p>Default meeting settings leave lobby, recording, and external-join controls inconsistent &mdash; a security and experience gap. This solution configures <strong>Teams meetings and webinars</strong>: meeting policies (lobby, recording/transcription, presenter roles), live events/webinars/town halls, meeting templates and sensitivity, and policy assignment by group &mdash; so meetings are secure, consistent, and fit-for-purpose.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the meeting model: meeting policies, webinars/town halls, templates + sensitivity, recording/transcription, and policy assignment.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams licensing incl. Premium where used, admin roles, groups, compliance stance).</li><li><strong>Implementation Guide</strong> &mdash; design + apply meeting policies, configure webinars/town halls, build meeting templates + sensitivity, set recording/transcription policy, and assign by group &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (policies applied by group, lobby/recording correct) plus Best Practices for consistent, secure meetings.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSMTG-AssignmentReport.ps1</code> &mdash; Scope/health helper (SAFE BY DEFAULT - reports unless -AssignGroup ... -Commit): reports group policy</li><li><code>TEAMSMTG-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Meeting Posture - Teams - Discovery\" snapshot of Teams meeting</li><li><code>TEAMSMTG-Set-EventsAndTemplates.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams events</li><li><code>TEAMSMTG-Set-MeetingPolicy.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams</li><li><code>TEAMSMTG-Validation.ps1</code> &mdash; Validation (READ-ONLY): pass/fail check that the named meeting policies exist and match the design, the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Meetings, Webinars & Policy Configuration — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Configure Microsoft Teams meetings and webinars: meeting policies (lobby, recording/transcription, presenter roles), webinars/town halls, meeting templates and sensitivity, and policy assignment by group. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-meetings-webinars-policy-configuration-nonprofit",
+      "image": "TEAMSMTG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSMTG-GOV-001",
+      "name": "Microsoft Teams Meetings, Webinars & Policy Configuration — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Configure Teams meetings & webinars — meeting policies (lobby/recording/roles), webinars/town halls, templates + sensitivity, and group-based assignment — so meetings are secure and consistent. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Configure Teams meetings and webinars for a secure, consistent experience</h3><p>Default meeting settings leave lobby, recording, and external-join controls inconsistent &mdash; a security and experience gap. This solution configures <strong>Teams meetings and webinars</strong>: meeting policies (lobby, recording/transcription, presenter roles), live events/webinars/town halls, meeting templates and sensitivity, and policy assignment by group &mdash; so meetings are secure, consistent, and fit-for-purpose.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the meeting model: meeting policies, webinars/town halls, templates + sensitivity, recording/transcription, and policy assignment.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams licensing incl. Premium where used, admin roles, groups, compliance stance).</li><li><strong>Implementation Guide</strong> &mdash; design + apply meeting policies, configure webinars/town halls, build meeting templates + sensitivity, set recording/transcription policy, and assign by group &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (policies applied by group, lobby/recording correct) plus Best Practices for consistent, secure meetings.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSMTG-AssignmentReport.ps1</code> &mdash; Scope/health helper (SAFE BY DEFAULT - reports unless -AssignGroup ... -Commit): reports group policy</li><li><code>TEAMSMTG-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Meeting Posture - Teams - Discovery\" snapshot of Teams meeting</li><li><code>TEAMSMTG-Set-EventsAndTemplates.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams events</li><li><code>TEAMSMTG-Set-MeetingPolicy.ps1</code> &mdash; Configuration (SAFE BY DEFAULT - preview unless -Commit): idempotently creates/updates the Teams</li><li><code>TEAMSMTG-Validation.ps1</code> &mdash; Validation (READ-ONLY): pass/fail check that the named meeting policies exist and match the design, the</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Meetings, Webinars & Policy Configuration — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Configure Microsoft Teams meetings and webinars: meeting policies (lobby, recording/transcription, presenter roles), webinars/town halls, meeting templates and sensitivity, and policy assignment by group. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-meetings-webinars-policy-configuration-government",
+      "image": "TEAMSMTG-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSMTG-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

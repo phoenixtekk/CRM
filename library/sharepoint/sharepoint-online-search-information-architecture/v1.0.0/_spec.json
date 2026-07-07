@@ -1,0 +1,83 @@
+{
+  "sol": "SPOSEARCH",
+  "slug": "sharepoint-online-search-information-architecture",
+  "title": "SharePoint Online Search & Information Architecture",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Make SharePoint content findable with search and information architecture",
+  "problem": "If users can't find content, SharePoint fails &mdash; and search only works on a sound information architecture. This solution tunes <strong>SPO search and IA</strong>: managed metadata and site columns/content types, search schema (managed properties, mappings), result sources and verticals, promoted results, and the Microsoft Search experience &mdash; so the right content surfaces fast across the tenant.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; how SPO/Microsoft Search works: crawling, the search schema (crawled&rarr;managed properties), result sources/verticals, promoted results, and the IA that feeds it.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin/search admin, taxonomy/content-type owners, IA baseline, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; establish metadata/content types, configure the search schema + managed properties, set result sources/verticals + promoted results, tune the Microsoft Search experience, and validate findability &mdash; pilot-first, each artifact named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (key content findable, metadata driving results, verticals working) plus Best Practices for sustained findability."
+  ],
+  "short": "Tune <strong>SharePoint Online search &amp; information architecture</strong> &mdash; managed metadata/content types, search schema + managed properties, result sources/verticals, promoted results, and Microsoft Search &mdash; so content surfaces fast. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Tune SharePoint Online search & information architecture — managed metadata/content types, search schema + managed properties, result sources/verticals, promoted results, and Microsoft Search — so content surfaces fast.",
+  "meta_title": "SharePoint Online Search & Information Architecture",
+  "meta_description": "Improve SharePoint Online findability: managed metadata and content types, search schema (crawled/managed properties and mappings), result sources and verticals, promoted results, and the Microsoft Search experience. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Content that's actually findable &mdash; metadata and content types in place, search schema tuned, verticals and promoted results configured &mdash; users find the right thing fast.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SharePoint Search",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Information Architecture",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Metadata · Schema · Verticals",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "CAN'T FIND ANYTHING",
+      "items": [
+        "No metadata",
+        "Untuned schema",
+        "No verticals",
+        "Poor results"
+      ]
+    },
+    "to": {
+      "label": "Findable content",
+      "stat": "Tuned · surfaced"
+    },
+    "tagline": "STRUCTURE.  MAP.  SURFACE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Metadata",
+        "sub": "Content types"
+      },
+      {
+        "icon": "gear",
+        "title": "Schema",
+        "sub": "Managed props"
+      },
+      {
+        "icon": "cloud",
+        "title": "Verticals",
+        "sub": "Sources"
+      },
+      {
+        "icon": "shield",
+        "title": "Promoted",
+        "sub": "Results"
+      }
+    ]
+  }
+}

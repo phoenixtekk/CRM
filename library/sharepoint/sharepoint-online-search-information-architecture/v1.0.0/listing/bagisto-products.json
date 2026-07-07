@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "sharepoint-online-search-information-architecture",
+    "title": "SharePoint Online Search & Information Architecture",
+    "category_path": [
+      "SharePoint"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SPOSEARCH-COMM-001",
+      "name": "SharePoint Online Search & Information Architecture — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Tune <strong>SharePoint Online search &amp; information architecture</strong> &mdash; managed metadata/content types, search schema + managed properties, result sources/verticals, promoted results, and Microsoft Search &mdash; so content surfaces fast. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Make SharePoint content findable with search and information architecture</h3><p>If users can't find content, SharePoint fails &mdash; and search only works on a sound information architecture. This solution tunes <strong>SPO search and IA</strong>: managed metadata and site columns/content types, search schema (managed properties, mappings), result sources and verticals, promoted results, and the Microsoft Search experience &mdash; so the right content surfaces fast across the tenant.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how SPO/Microsoft Search works: crawling, the search schema (crawled&rarr;managed properties), result sources/verticals, promoted results, and the IA that feeds it.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin/search admin, taxonomy/content-type owners, IA baseline, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; establish metadata/content types, configure the search schema + managed properties, set result sources/verticals + promoted results, tune the Microsoft Search experience, and validate findability &mdash; pilot-first, each artifact named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (key content findable, metadata driving results, verticals working) plus Best Practices for sustained findability.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Content that's actually findable &mdash; metadata and content types in place, search schema tuned, verticals and promoted results configured &mdash; users find the right thing fast.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SearchHealthScope.ps1</code> &mdash; Report search & IA health/coverage across a set of sites: which carry the standard content types and</li><li><code>Get-SearchIAAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online search & IA baseline: term sets, published content</li><li><code>Set-ManagedPropertyMapping.ps1</code> &mdash; Map crawled properties to refinable managed properties (alias + queryable/retrievable/refinable</li><li><code>Set-SearchSourceVertical.ps1</code> &mdash; Configure a scoped result source and record the intended vertical + promoted-result/bookmark set</li><li><code>Test-Findability.ps1</code> &mdash; Validate findability by running representative test queries and checking each returns its expected</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Search & Information Architecture",
+      "meta_description": "Improve SharePoint Online findability: managed metadata and content types, search schema (crawled/managed properties and mappings), result sources and verticals, promoted results, and the Microsoft Search experience. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-search-information-architecture-commercial",
+      "image": "SPOSEARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOSEARCH-NPO-001",
+      "name": "SharePoint Online Search & Information Architecture — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Tune SharePoint Online search & information architecture — managed metadata/content types, search schema + managed properties, result sources/verticals, promoted results, and Microsoft Search — so content surfaces fast. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Make SharePoint content findable with search and information architecture</h3><p>If users can't find content, SharePoint fails &mdash; and search only works on a sound information architecture. This solution tunes <strong>SPO search and IA</strong>: managed metadata and site columns/content types, search schema (managed properties, mappings), result sources and verticals, promoted results, and the Microsoft Search experience &mdash; so the right content surfaces fast across the tenant.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how SPO/Microsoft Search works: crawling, the search schema (crawled&rarr;managed properties), result sources/verticals, promoted results, and the IA that feeds it.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin/search admin, taxonomy/content-type owners, IA baseline, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; establish metadata/content types, configure the search schema + managed properties, set result sources/verticals + promoted results, tune the Microsoft Search experience, and validate findability &mdash; pilot-first, each artifact named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (key content findable, metadata driving results, verticals working) plus Best Practices for sustained findability.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SearchHealthScope.ps1</code> &mdash; Report search & IA health/coverage across a set of sites: which carry the standard content types and</li><li><code>Get-SearchIAAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online search & IA baseline: term sets, published content</li><li><code>Set-ManagedPropertyMapping.ps1</code> &mdash; Map crawled properties to refinable managed properties (alias + queryable/retrievable/refinable</li><li><code>Set-SearchSourceVertical.ps1</code> &mdash; Configure a scoped result source and record the intended vertical + promoted-result/bookmark set</li><li><code>Test-Findability.ps1</code> &mdash; Validate findability by running representative test queries and checking each returns its expected</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Search & Information Architecture — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Improve SharePoint Online findability: managed metadata and content types, search schema (crawled/managed properties and mappings), result sources and verticals, promoted results, and the Microsoft Search experience. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-search-information-architecture-nonprofit",
+      "image": "SPOSEARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOSEARCH-GOV-001",
+      "name": "SharePoint Online Search & Information Architecture — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Tune SharePoint Online search & information architecture — managed metadata/content types, search schema + managed properties, result sources/verticals, promoted results, and Microsoft Search — so content surfaces fast. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Make SharePoint content findable with search and information architecture</h3><p>If users can't find content, SharePoint fails &mdash; and search only works on a sound information architecture. This solution tunes <strong>SPO search and IA</strong>: managed metadata and site columns/content types, search schema (managed properties, mappings), result sources and verticals, promoted results, and the Microsoft Search experience &mdash; so the right content surfaces fast across the tenant.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; how SPO/Microsoft Search works: crawling, the search schema (crawled&rarr;managed properties), result sources/verticals, promoted results, and the IA that feeds it.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin/search admin, taxonomy/content-type owners, IA baseline, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; establish metadata/content types, configure the search schema + managed properties, set result sources/verticals + promoted results, tune the Microsoft Search experience, and validate findability &mdash; pilot-first, each artifact named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (key content findable, metadata driving results, verticals working) plus Best Practices for sustained findability.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SearchHealthScope.ps1</code> &mdash; Report search & IA health/coverage across a set of sites: which carry the standard content types and</li><li><code>Get-SearchIAAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online search & IA baseline: term sets, published content</li><li><code>Set-ManagedPropertyMapping.ps1</code> &mdash; Map crawled properties to refinable managed properties (alias + queryable/retrievable/refinable</li><li><code>Set-SearchSourceVertical.ps1</code> &mdash; Configure a scoped result source and record the intended vertical + promoted-result/bookmark set</li><li><code>Test-Findability.ps1</code> &mdash; Validate findability by running representative test queries and checking each returns its expected</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Search & Information Architecture — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Improve SharePoint Online findability: managed metadata and content types, search schema (crawled/managed properties and mappings), result sources and verticals, promoted results, and the Microsoft Search experience. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-search-information-architecture-government",
+      "image": "SPOSEARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOSEARCH-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

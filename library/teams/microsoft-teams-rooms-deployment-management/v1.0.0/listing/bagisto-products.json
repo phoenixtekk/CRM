@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-teams-rooms-deployment-management",
+    "title": "Microsoft Teams Rooms Deployment & Management",
+    "category_path": [
+      "Teams"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-TEAMSROOMS-COMM-001",
+      "name": "Microsoft Teams Rooms Deployment & Management — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Deploy and manage <strong>Microsoft Teams Rooms</strong> &mdash; resource accounts + licensing, device config + room policies, Pro management-portal monitoring/updates, peripheral standards, and health validation &mdash; so rooms are reliable and centrally managed. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Deploy and manage Microsoft Teams Rooms that just work</h3><p>Meeting rooms fail when Teams Rooms devices aren't deployed and managed to a standard. This solution covers <strong>Teams Rooms</strong> end to end: resource-account and licensing setup, device configuration and meeting-room policies, the <strong>Teams Rooms Pro management</strong> portal for monitoring/updates, peripheral and front-of-room standards, and health/validation &mdash; so rooms are reliable, consistent, and centrally managed.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams Rooms model: resource accounts + licensing (Pro/Basic), device config, room policies, the Pro management portal, and peripherals.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams Rooms licensing, certified hardware, resource mailboxes, network, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; create + configure resource accounts, license and enroll devices, apply room/meeting policies, onboard to the Pro management portal (monitoring/updates), set peripheral standards, and validate a pilot room &mdash; pilot-first, each account/room named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (rooms join reliably, managed centrally, health green) plus Best Practices for a fleet of consistent rooms.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Meeting rooms that just work &mdash; resource accounts and devices configured to a standard, managed from the Pro portal, health monitored &mdash; consistent, reliable, centrally run.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSROOMS-Discovery.ps1</code> &mdash; TEAMSROOMS-Discovery — Read-only assessment of Microsoft Teams Rooms readiness:</li><li><code>TEAMSROOMS-HealthReport.ps1</code> &mdash; TEAMSROOMS-HealthReport — Produce a fleet health/inventory report for Microsoft</li><li><code>TEAMSROOMS-Set-ResourceAccount.ps1</code> &mdash; TEAMSROOMS-Set-ResourceAccount — Create and configure a Microsoft Teams Rooms</li><li><code>TEAMSROOMS-Set-RoomPolicy.ps1</code> &mdash; TEAMSROOMS-Set-RoomPolicy — Apply the Teams Rooms calendar-processing standard</li><li><code>TEAMSROOMS-Validation.ps1</code> &mdash; TEAMSROOMS-Validation — Validate one or more Teams Rooms resource accounts against</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Rooms Deployment & Management",
+      "meta_description": "Deploy and manage Microsoft Teams Rooms: resource-account and licensing setup, device configuration and meeting-room policies, Teams Rooms Pro management portal (monitoring/updates), peripheral and front-of-room standards, and health validation. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-rooms-deployment-management-commercial",
+      "image": "TEAMSROOMS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSROOMS-NPO-001",
+      "name": "Microsoft Teams Rooms Deployment & Management — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Deploy and manage Microsoft Teams Rooms — resource accounts + licensing, device config + room policies, Pro management-portal monitoring/updates, peripheral standards, and health validation — so rooms are reliable and centrally managed. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Deploy and manage Microsoft Teams Rooms that just work</h3><p>Meeting rooms fail when Teams Rooms devices aren't deployed and managed to a standard. This solution covers <strong>Teams Rooms</strong> end to end: resource-account and licensing setup, device configuration and meeting-room policies, the <strong>Teams Rooms Pro management</strong> portal for monitoring/updates, peripheral and front-of-room standards, and health/validation &mdash; so rooms are reliable, consistent, and centrally managed.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams Rooms model: resource accounts + licensing (Pro/Basic), device config, room policies, the Pro management portal, and peripherals.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams Rooms licensing, certified hardware, resource mailboxes, network, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; create + configure resource accounts, license and enroll devices, apply room/meeting policies, onboard to the Pro management portal (monitoring/updates), set peripheral standards, and validate a pilot room &mdash; pilot-first, each account/room named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (rooms join reliably, managed centrally, health green) plus Best Practices for a fleet of consistent rooms.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSROOMS-Discovery.ps1</code> &mdash; TEAMSROOMS-Discovery — Read-only assessment of Microsoft Teams Rooms readiness:</li><li><code>TEAMSROOMS-HealthReport.ps1</code> &mdash; TEAMSROOMS-HealthReport — Produce a fleet health/inventory report for Microsoft</li><li><code>TEAMSROOMS-Set-ResourceAccount.ps1</code> &mdash; TEAMSROOMS-Set-ResourceAccount — Create and configure a Microsoft Teams Rooms</li><li><code>TEAMSROOMS-Set-RoomPolicy.ps1</code> &mdash; TEAMSROOMS-Set-RoomPolicy — Apply the Teams Rooms calendar-processing standard</li><li><code>TEAMSROOMS-Validation.ps1</code> &mdash; TEAMSROOMS-Validation — Validate one or more Teams Rooms resource accounts against</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Rooms Deployment & Management — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy and manage Microsoft Teams Rooms: resource-account and licensing setup, device configuration and meeting-room policies, Teams Rooms Pro management portal (monitoring/updates), peripheral and front-of-room standards, and health validation. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-rooms-deployment-management-nonprofit",
+      "image": "TEAMSROOMS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSROOMS-GOV-001",
+      "name": "Microsoft Teams Rooms Deployment & Management — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Deploy and manage Microsoft Teams Rooms — resource accounts + licensing, device config + room policies, Pro management-portal monitoring/updates, peripheral standards, and health validation — so rooms are reliable and centrally managed. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Deploy and manage Microsoft Teams Rooms that just work</h3><p>Meeting rooms fail when Teams Rooms devices aren't deployed and managed to a standard. This solution covers <strong>Teams Rooms</strong> end to end: resource-account and licensing setup, device configuration and meeting-room policies, the <strong>Teams Rooms Pro management</strong> portal for monitoring/updates, peripheral and front-of-room standards, and health/validation &mdash; so rooms are reliable, consistent, and centrally managed.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams Rooms model: resource accounts + licensing (Pro/Basic), device config, room policies, the Pro management portal, and peripherals.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams Rooms licensing, certified hardware, resource mailboxes, network, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; create + configure resource accounts, license and enroll devices, apply room/meeting policies, onboard to the Pro management portal (monitoring/updates), set peripheral standards, and validate a pilot room &mdash; pilot-first, each account/room named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (rooms join reliably, managed centrally, health green) plus Best Practices for a fleet of consistent rooms.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSROOMS-Discovery.ps1</code> &mdash; TEAMSROOMS-Discovery — Read-only assessment of Microsoft Teams Rooms readiness:</li><li><code>TEAMSROOMS-HealthReport.ps1</code> &mdash; TEAMSROOMS-HealthReport — Produce a fleet health/inventory report for Microsoft</li><li><code>TEAMSROOMS-Set-ResourceAccount.ps1</code> &mdash; TEAMSROOMS-Set-ResourceAccount — Create and configure a Microsoft Teams Rooms</li><li><code>TEAMSROOMS-Set-RoomPolicy.ps1</code> &mdash; TEAMSROOMS-Set-RoomPolicy — Apply the Teams Rooms calendar-processing standard</li><li><code>TEAMSROOMS-Validation.ps1</code> &mdash; TEAMSROOMS-Validation — Validate one or more Teams Rooms resource accounts against</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Rooms Deployment & Management — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy and manage Microsoft Teams Rooms: resource-account and licensing setup, device configuration and meeting-room policies, Teams Rooms Pro management portal (monitoring/updates), peripheral and front-of-room standards, and health validation. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-rooms-deployment-management-government",
+      "image": "TEAMSROOMS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSROOMS-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

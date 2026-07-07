@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "sharepoint-online-records-retention-information-governance",
+    "title": "SharePoint Online Records, Retention & Information Governance",
+    "category_path": [
+      "SharePoint"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SPORECS-COMM-001",
+      "name": "SharePoint Online Records, Retention & Information Governance — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Apply <strong>SharePoint records &amp; retention</strong> &mdash; retention labels/policies, records declaration + in-place records, and defensible disposition &mdash; scoped to SPO content and aligned to your Purview program. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Apply records and retention governance to SharePoint content</h3><p>SharePoint content has to be retained &mdash; and disposed &mdash; per policy, or it becomes liability. This solution applies <strong>records and retention</strong> to SPO (scoped to SharePoint content, aligned to the broader Purview program): retention labels and policies for sites/libraries, records declaration and the records-management/disposition workflow, in-place records, and defensible disposition &mdash; so SharePoint content is retained, declared, and disposed on schedule.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPO records/retention: retention labels + policies, records declaration + in-place records, disposition review, and alignment to the org Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, records schedule from records/legal, existing Purview posture).</li><li><strong>Implementation Guide</strong> &mdash; map the retention/records schedule to labels + policies, apply to sites/libraries, configure records declaration + disposition review, and validate &mdash; pilot-first; the records schedule itself and legal determinations come from records/legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (labels applied, records declared, disposition working) plus Best Practices; determinations deferred to records/legal, broader program to Purview.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>SharePoint content retained, declared, and disposed on schedule &mdash; labels and policies applied, records declared, disposition defensible &mdash; liability turned into governed information.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Apply-SpoRetentionLabels.ps1</code> &mdash; Create/verify retention labels and policies and stage default library labels (dry-run by default)</li><li><code>Assess-SpoRetentionPosture.ps1</code> &mdash; Read-only discovery of SharePoint Online retention/records posture across in-scope sites</li><li><code>Get-SpoRecordsComplianceReport.ps1</code> &mdash; Compile a SharePoint records/retention compliance report (read-only)</li><li><code>Resolve-SpoRecordsScope.ps1</code> &mdash; Resolve the records/retention scope and check module/connection/plan health (read-only)</li><li><code>Set-SpoRecordsDisposition.ps1</code> &mdash; Configure/validate record + regulatory-record labels and disposition-review wiring (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Records, Retention & Information Governance",
+      "meta_description": "Apply records and retention governance to SharePoint Online: retention labels and policies for sites/libraries, records declaration and in-place records, disposition review, and defensible disposition. Scoped to SharePoint content, aligned to the broader Purview program. Self-guided steps and PowerShell tools; records schedule and legal determinations deferred to records/legal.",
+      "url_key": "sharepoint-online-records-retention-information-governance-commercial",
+      "image": "SPORECS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPORECS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPORECS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPORECS-NPO-001",
+      "name": "SharePoint Online Records, Retention & Information Governance — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Apply SharePoint records & retention — retention labels/policies, records declaration + in-place records, and defensible disposition — scoped to SPO content and aligned to your Purview program. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Apply records and retention governance to SharePoint content</h3><p>SharePoint content has to be retained &mdash; and disposed &mdash; per policy, or it becomes liability. This solution applies <strong>records and retention</strong> to SPO (scoped to SharePoint content, aligned to the broader Purview program): retention labels and policies for sites/libraries, records declaration and the records-management/disposition workflow, in-place records, and defensible disposition &mdash; so SharePoint content is retained, declared, and disposed on schedule.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPO records/retention: retention labels + policies, records declaration + in-place records, disposition review, and alignment to the org Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, records schedule from records/legal, existing Purview posture).</li><li><strong>Implementation Guide</strong> &mdash; map the retention/records schedule to labels + policies, apply to sites/libraries, configure records declaration + disposition review, and validate &mdash; pilot-first; the records schedule itself and legal determinations come from records/legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (labels applied, records declared, disposition working) plus Best Practices; determinations deferred to records/legal, broader program to Purview.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Apply-SpoRetentionLabels.ps1</code> &mdash; Create/verify retention labels and policies and stage default library labels (dry-run by default)</li><li><code>Assess-SpoRetentionPosture.ps1</code> &mdash; Read-only discovery of SharePoint Online retention/records posture across in-scope sites</li><li><code>Get-SpoRecordsComplianceReport.ps1</code> &mdash; Compile a SharePoint records/retention compliance report (read-only)</li><li><code>Resolve-SpoRecordsScope.ps1</code> &mdash; Resolve the records/retention scope and check module/connection/plan health (read-only)</li><li><code>Set-SpoRecordsDisposition.ps1</code> &mdash; Configure/validate record + regulatory-record labels and disposition-review wiring (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Records, Retention & Information Governance — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Apply records and retention governance to SharePoint Online: retention labels and policies for sites/libraries, records declaration and in-place records, disposition review, and defensible disposition. Scoped to SharePoint content, aligned to the broader Purview program. Self-guided steps and PowerShell tools; records schedule and legal determinations deferred to records/legal.",
+      "url_key": "sharepoint-online-records-retention-information-governance-nonprofit",
+      "image": "SPORECS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPORECS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPORECS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPORECS-GOV-001",
+      "name": "SharePoint Online Records, Retention & Information Governance — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Apply SharePoint records & retention — retention labels/policies, records declaration + in-place records, and defensible disposition — scoped to SPO content and aligned to your Purview program. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Apply records and retention governance to SharePoint content</h3><p>SharePoint content has to be retained &mdash; and disposed &mdash; per policy, or it becomes liability. This solution applies <strong>records and retention</strong> to SPO (scoped to SharePoint content, aligned to the broader Purview program): retention labels and policies for sites/libraries, records declaration and the records-management/disposition workflow, in-place records, and defensible disposition &mdash; so SharePoint content is retained, declared, and disposed on schedule.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; SPO records/retention: retention labels + policies, records declaration + in-place records, disposition review, and alignment to the org Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, records schedule from records/legal, existing Purview posture).</li><li><strong>Implementation Guide</strong> &mdash; map the retention/records schedule to labels + policies, apply to sites/libraries, configure records declaration + disposition review, and validate &mdash; pilot-first; the records schedule itself and legal determinations come from records/legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (labels applied, records declared, disposition working) plus Best Practices; determinations deferred to records/legal, broader program to Purview.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Apply-SpoRetentionLabels.ps1</code> &mdash; Create/verify retention labels and policies and stage default library labels (dry-run by default)</li><li><code>Assess-SpoRetentionPosture.ps1</code> &mdash; Read-only discovery of SharePoint Online retention/records posture across in-scope sites</li><li><code>Get-SpoRecordsComplianceReport.ps1</code> &mdash; Compile a SharePoint records/retention compliance report (read-only)</li><li><code>Resolve-SpoRecordsScope.ps1</code> &mdash; Resolve the records/retention scope and check module/connection/plan health (read-only)</li><li><code>Set-SpoRecordsDisposition.ps1</code> &mdash; Configure/validate record + regulatory-record labels and disposition-review wiring (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Records, Retention & Information Governance — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Apply records and retention governance to SharePoint Online: retention labels and policies for sites/libraries, records declaration and in-place records, disposition review, and defensible disposition. Scoped to SharePoint content, aligned to the broader Purview program. Self-guided steps and PowerShell tools; records schedule and legal determinations deferred to records/legal.",
+      "url_key": "sharepoint-online-records-retention-information-governance-government",
+      "image": "SPORECS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPORECS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPORECS-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint Online",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Architecture & Provisioning",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Hubs · Templates · Taxonomy · Lifecycle",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SITE SPRAWL",
+    "items": [
+      "Ungoverned sites",
+      "No templates",
+      "No taxonomy",
+      "Can't navigate"
+    ]
+  },
+  "to": {
+    "label": "Governed architecture",
+    "stat": "Consistent · findable"
+  },
+  "tagline": "STRUCTURE.  PROVISION.  TAG.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Hubs/Sites",
+      "sub": "Structure"
+    },
+    {
+      "icon": "gear",
+      "title": "Provisioning",
+      "sub": "Templates"
+    },
+    {
+      "icon": "chart",
+      "title": "Taxonomy",
+      "sub": "Metadata"
+    },
+    {
+      "icon": "shield",
+      "title": "Lifecycle",
+      "sub": "Governed"
+    }
+  ]
+}

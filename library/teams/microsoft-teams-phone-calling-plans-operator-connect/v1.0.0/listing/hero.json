@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams Phone",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Calling Plans & Operator Connect",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Numbers · Voice Routing · E911",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO ENTERPRISE VOICE",
+    "items": [
+      "Wrong PSTN path",
+      "Number chaos",
+      "E911 gaps",
+      "No queues"
+    ]
+  },
+  "to": {
+    "label": "Reliable calling",
+    "stat": "Assigned · validated"
+  },
+  "tagline": "LICENSE.  NUMBER.  ROUTE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "PSTN",
+      "sub": "Plans/OC"
+    },
+    {
+      "icon": "key",
+      "title": "Numbers",
+      "sub": "Assigned"
+    },
+    {
+      "icon": "shield",
+      "title": "E911",
+      "sub": "Correct"
+    },
+    {
+      "icon": "gear",
+      "title": "Queues",
+      "sub": "Attendants"
+    }
+  ]
+}

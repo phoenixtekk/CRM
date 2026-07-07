@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSGOV",
+  "slug": "microsoft-teams-governance-lifecycle-management",
+  "title": "Microsoft Teams Governance & Lifecycle Management",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Stop Teams sprawl with real governance and lifecycle control",
+  "problem": "Uncontrolled team/channel creation turns Microsoft Teams into sprawl &mdash; duplicate teams, orphaned owners, and stale data. This solution establishes <strong>Teams governance and lifecycle</strong>: a creation/request model, naming and classification policy, membership/ownership standards, <strong>expiration and retention</strong> (M365 Groups expiration + retention), archival, and reporting &mdash; so collaboration scales without chaos.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the governance model: creation control, naming/classification, ownership, expiration/retention/archival, and reporting.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams + M365 Groups, admin roles, group source of truth, governance stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; set the creation/request model, apply naming + classification, set ownership standards, enable group expiration + retention + archival, and stand up governance reporting &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (creation controlled, naming enforced, stale teams handled) plus Best Practices for durable Teams governance."
+  ],
+  "short": "Establish <strong>Teams governance &amp; lifecycle</strong> &mdash; creation control, naming/classification, ownership, expiration/retention/archival, and reporting &mdash; so collaboration scales without sprawl. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish Teams governance & lifecycle — creation control, naming/classification, ownership, expiration/retention/archival, and reporting — so collaboration scales without sprawl.",
+  "meta_title": "Microsoft Teams Governance & Lifecycle Management",
+  "meta_description": "Govern Microsoft Teams: team/channel creation control, naming and classification policy, ownership standards, M365 Groups expiration and retention, archival, and governance reporting. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Teams that scale without chaos &mdash; creation governed, named and classified, ownership enforced, stale teams expired or archived &mdash; collaboration under control.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Microsoft Teams",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Governance & Lifecycle",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Creation · Naming · Expiration · Archival",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "TEAMS SPRAWL",
+      "items": [
+        "Uncontrolled creation",
+        "Duplicate teams",
+        "Orphaned owners",
+        "Stale data"
+      ]
+    },
+    "to": {
+      "label": "Governed Teams",
+      "stat": "Named · lifecycle-managed"
+    },
+    "tagline": "CONTROL.  CLASSIFY.  EXPIRE.",
+    "benefits": [
+      {
+        "icon": "users",
+        "title": "Creation",
+        "sub": "Request model"
+      },
+      {
+        "icon": "gear",
+        "title": "Naming",
+        "sub": "Classified"
+      },
+      {
+        "icon": "shield",
+        "title": "Ownership",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "cloud",
+        "title": "Lifecycle",
+        "sub": "Expire/archive"
+      }
+    ]
+  }
+}

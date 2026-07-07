@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "File Share & On-Prem SP",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "→ SharePoint Online Migration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Assess · Map · Pre-Stage/Delta",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LIFT-AND-SHIFT MESS",
+    "items": [
+      "Broken permissions",
+      "Path-length fails",
+      "No target IA",
+      "Unvalidated"
+    ]
+  },
+  "to": {
+    "label": "Clean migration",
+    "stat": "Mapped · validated"
+  },
+  "tagline": "ASSESS.  MAP.  MIGRATE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Assess",
+      "sub": "Remediate"
+    },
+    {
+      "icon": "cloud",
+      "title": "Target IA",
+      "sub": "Mapped"
+    },
+    {
+      "icon": "gear",
+      "title": "Migrate",
+      "sub": "Pre-stage/delta"
+    },
+    {
+      "icon": "shield",
+      "title": "Permissions",
+      "sub": "Validated"
+    }
+  ]
+}

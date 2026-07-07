@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint Permissions",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Access Management",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Groups · Levels · Inheritance · Reviews",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PERMISSION TANGLE",
+    "items": [
+      "Broken inheritance",
+      "Unique-perms sprawl",
+      "Over-shared",
+      "No audit"
+    ]
+  },
+  "to": {
+    "label": "Governed access",
+    "stat": "Group-based · audited"
+  },
+  "tagline": "MODEL.  REMEDIATE.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Groups",
+      "sub": "Group-based"
+    },
+    {
+      "icon": "gear",
+      "title": "Levels",
+      "sub": "Standard"
+    },
+    {
+      "icon": "shield",
+      "title": "Inheritance",
+      "sub": "Remediated"
+    },
+    {
+      "icon": "chart",
+      "title": "Reviews",
+      "sub": "Access"
+    }
+  ]
+}

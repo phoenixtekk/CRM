@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "sharepoint-online-architecture-site-provisioning-governance",
+    "title": "SharePoint Online Architecture & Site Provisioning Governance",
+    "category_path": [
+      "SharePoint"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SPOARCH-COMM-001",
+      "name": "SharePoint Online Architecture & Site Provisioning Governance — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Design the <strong>SharePoint Online architecture &amp; provisioning governance</strong> &mdash; hub/site structure, site templates, a request&rarr;approve&rarr;provision process with naming, taxonomy, and lifecycle &mdash; so sites are consistent and governed. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Design a SharePoint Online architecture that stays organized as it grows</h3><p>Without an architecture, SharePoint Online becomes thousands of ungoverned sites nobody can navigate. This solution designs the <strong>SPO information architecture and provisioning governance</strong>: hub-and-site structure, site types and templates, a <strong>provisioning process</strong> (request &rarr; approve &rarr; provision) with naming, metadata/taxonomy (managed metadata), and lifecycle &mdash; so sites are consistent, findable, and governed from creation.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the IA + provisioning model: hubs/sites, site types + templates, provisioning workflow, naming, taxonomy, and lifecycle.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, taxonomy owners, provisioning tooling, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design the hub/site structure, define site templates, build the provisioning process (PnP templates + approval) with naming + metadata, and set lifecycle &mdash; pilot-first, each hub/site/template named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (sites provisioned to standard, hubs associated, taxonomy applied) plus Best Practices for a governed, navigable SPO estate.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A SharePoint estate that stays organized as it grows &mdash; hubs and sites structured, provisioned to a standard, named and tagged, lifecycle-governed &mdash; consistent and findable.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SPOGovernanceComplianceReport.ps1</code> &mdash; Read-only governance compliance report for the SPO architecture / provisioning standard</li><li><code>Get-SPOScopeConfig.ps1</code> &mdash; Read-only scope/health helper: verifies the toolchain, connection, and governance settings</li><li><code>Invoke-SPOArchitectureAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online estate for an architecture/provisioning assessment</li><li><code>New-SPOSiteFromTemplate.ps1</code> &mdash; Provision a SharePoint Online site from a PnP template, named + hub-associated + tagged</li><li><code>Set-SPOHubAndMetadata.ps1</code> &mdash; Associate an existing SPO site to its hub and apply naming/metadata to bring it into compliance</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Architecture & Site Provisioning Governance",
+      "meta_description": "Architect SharePoint Online: hub-and-site structure, site types and templates, a provisioning process (request→approve→provision) with naming, managed-metadata taxonomy, and lifecycle governance. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-architecture-site-provisioning-governance-commercial",
+      "image": "SPOARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOARCH-NPO-001",
+      "name": "SharePoint Online Architecture & Site Provisioning Governance — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Design the SharePoint Online architecture & provisioning governance — hub/site structure, site templates, a request→approve→provision process with naming, taxonomy, and lifecycle — so sites are consistent and governed. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Design a SharePoint Online architecture that stays organized as it grows</h3><p>Without an architecture, SharePoint Online becomes thousands of ungoverned sites nobody can navigate. This solution designs the <strong>SPO information architecture and provisioning governance</strong>: hub-and-site structure, site types and templates, a <strong>provisioning process</strong> (request &rarr; approve &rarr; provision) with naming, metadata/taxonomy (managed metadata), and lifecycle &mdash; so sites are consistent, findable, and governed from creation.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the IA + provisioning model: hubs/sites, site types + templates, provisioning workflow, naming, taxonomy, and lifecycle.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, taxonomy owners, provisioning tooling, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design the hub/site structure, define site templates, build the provisioning process (PnP templates + approval) with naming + metadata, and set lifecycle &mdash; pilot-first, each hub/site/template named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (sites provisioned to standard, hubs associated, taxonomy applied) plus Best Practices for a governed, navigable SPO estate.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SPOGovernanceComplianceReport.ps1</code> &mdash; Read-only governance compliance report for the SPO architecture / provisioning standard</li><li><code>Get-SPOScopeConfig.ps1</code> &mdash; Read-only scope/health helper: verifies the toolchain, connection, and governance settings</li><li><code>Invoke-SPOArchitectureAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online estate for an architecture/provisioning assessment</li><li><code>New-SPOSiteFromTemplate.ps1</code> &mdash; Provision a SharePoint Online site from a PnP template, named + hub-associated + tagged</li><li><code>Set-SPOHubAndMetadata.ps1</code> &mdash; Associate an existing SPO site to its hub and apply naming/metadata to bring it into compliance</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Architecture & Site Provisioning Governance — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Architect SharePoint Online: hub-and-site structure, site types and templates, a provisioning process (request→approve→provision) with naming, managed-metadata taxonomy, and lifecycle governance. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-architecture-site-provisioning-governance-nonprofit",
+      "image": "SPOARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOARCH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOARCH-GOV-001",
+      "name": "SharePoint Online Architecture & Site Provisioning Governance — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Design the SharePoint Online architecture & provisioning governance — hub/site structure, site templates, a request→approve→provision process with naming, taxonomy, and lifecycle — so sites are consistent and governed. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Design a SharePoint Online architecture that stays organized as it grows</h3><p>Without an architecture, SharePoint Online becomes thousands of ungoverned sites nobody can navigate. This solution designs the <strong>SPO information architecture and provisioning governance</strong>: hub-and-site structure, site types and templates, a <strong>provisioning process</strong> (request &rarr; approve &rarr; provision) with naming, metadata/taxonomy (managed metadata), and lifecycle &mdash; so sites are consistent, findable, and governed from creation.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the IA + provisioning model: hubs/sites, site types + templates, provisioning workflow, naming, taxonomy, and lifecycle.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, taxonomy owners, provisioning tooling, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design the hub/site structure, define site templates, build the provisioning process (PnP templates + approval) with naming + metadata, and set lifecycle &mdash; pilot-first, each hub/site/template named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (sites provisioned to standard, hubs associated, taxonomy applied) plus Best Practices for a governed, navigable SPO estate.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-SPOGovernanceComplianceReport.ps1</code> &mdash; Read-only governance compliance report for the SPO architecture / provisioning standard</li><li><code>Get-SPOScopeConfig.ps1</code> &mdash; Read-only scope/health helper: verifies the toolchain, connection, and governance settings</li><li><code>Invoke-SPOArchitectureAssessment.ps1</code> &mdash; Read-only discovery of the SharePoint Online estate for an architecture/provisioning assessment</li><li><code>New-SPOSiteFromTemplate.ps1</code> &mdash; Provision a SharePoint Online site from a PnP template, named + hub-associated + tagged</li><li><code>Set-SPOHubAndMetadata.ps1</code> &mdash; Associate an existing SPO site to its hub and apply naming/metadata to bring it into compliance</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Architecture & Site Provisioning Governance — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Architect SharePoint Online: hub-and-site structure, site types and templates, a provisioning process (request→approve→provision) with naming, managed-metadata taxonomy, and lifecycle governance. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-architecture-site-provisioning-governance-government",
+      "image": "SPOARCH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOARCH-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOARCH-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-teams-meetings-webinars-policy-configuration",
+  "title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+  "category": "Teams",
+  "category_slug": "teams",
+  "sol_code": "TEAMSMTG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "products": [
+    {
+      "sku": "PTK-TEAMSMTG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-TEAMSMTG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-TEAMSMTG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "TEAMSMTG-Solution.pdf",
+    "TEAMSMTG-Scripts.zip"
+  ],
+  "hero": "TEAMSMTG-hero.png"
+}
+

@@ -1,0 +1,83 @@
+{
+  "sol": "SPOARCH",
+  "slug": "sharepoint-online-architecture-site-provisioning-governance",
+  "title": "SharePoint Online Architecture & Site Provisioning Governance",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Design a SharePoint Online architecture that stays organized as it grows",
+  "problem": "Without an architecture, SharePoint Online becomes thousands of ungoverned sites nobody can navigate. This solution designs the <strong>SPO information architecture and provisioning governance</strong>: hub-and-site structure, site types and templates, a <strong>provisioning process</strong> (request &rarr; approve &rarr; provision) with naming, metadata/taxonomy (managed metadata), and lifecycle &mdash; so sites are consistent, findable, and governed from creation.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the IA + provisioning model: hubs/sites, site types + templates, provisioning workflow, naming, taxonomy, and lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, taxonomy owners, provisioning tooling, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; design the hub/site structure, define site templates, build the provisioning process (PnP templates + approval) with naming + metadata, and set lifecycle &mdash; pilot-first, each hub/site/template named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (sites provisioned to standard, hubs associated, taxonomy applied) plus Best Practices for a governed, navigable SPO estate."
+  ],
+  "short": "Design the <strong>SharePoint Online architecture &amp; provisioning governance</strong> &mdash; hub/site structure, site templates, a request&rarr;approve&rarr;provision process with naming, taxonomy, and lifecycle &mdash; so sites are consistent and governed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design the SharePoint Online architecture & provisioning governance — hub/site structure, site templates, a request→approve→provision process with naming, taxonomy, and lifecycle — so sites are consistent and governed.",
+  "meta_title": "SharePoint Online Architecture & Site Provisioning Governance",
+  "meta_description": "Architect SharePoint Online: hub-and-site structure, site types and templates, a provisioning process (request→approve→provision) with naming, managed-metadata taxonomy, and lifecycle governance. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A SharePoint estate that stays organized as it grows &mdash; hubs and sites structured, provisioned to a standard, named and tagged, lifecycle-governed &mdash; consistent and findable.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SharePoint Online",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Architecture & Provisioning",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Hubs · Templates · Taxonomy · Lifecycle",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SITE SPRAWL",
+      "items": [
+        "Ungoverned sites",
+        "No templates",
+        "No taxonomy",
+        "Can't navigate"
+      ]
+    },
+    "to": {
+      "label": "Governed architecture",
+      "stat": "Consistent · findable"
+    },
+    "tagline": "STRUCTURE.  PROVISION.  TAG.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Hubs/Sites",
+        "sub": "Structure"
+      },
+      {
+        "icon": "gear",
+        "title": "Provisioning",
+        "sub": "Templates"
+      },
+      {
+        "icon": "chart",
+        "title": "Taxonomy",
+        "sub": "Metadata"
+      },
+      {
+        "icon": "shield",
+        "title": "Lifecycle",
+        "sub": "Governed"
+      }
+    ]
+  }
+}

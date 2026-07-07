@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams External",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Guest Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Federation · Guests · Shared Channels",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED EXTERNAL",
+    "items": [
+      "Data leakage",
+      "Stale guests",
+      "Any domain",
+      "No reviews"
+    ]
+  },
+  "to": {
+    "label": "Governed external",
+    "stat": "Scoped · reviewed"
+  },
+  "tagline": "SCOPE.  ALLOW/BLOCK.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "External",
+      "sub": "Federation"
+    },
+    {
+      "icon": "users",
+      "title": "Guests",
+      "sub": "Reviewed"
+    },
+    {
+      "icon": "cloud",
+      "title": "Shared Ch.",
+      "sub": "B2B connect"
+    },
+    {
+      "icon": "shield",
+      "title": "Sensitivity",
+      "sub": "Applied"
+    }
+  ]
+}

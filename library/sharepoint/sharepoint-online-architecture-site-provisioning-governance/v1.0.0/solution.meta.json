@@ -1,0 +1,41 @@
+{
+  "slug": "sharepoint-online-architecture-site-provisioning-governance",
+  "title": "SharePoint Online Architecture & Site Provisioning Governance",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "sol_code": "SPOARCH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SPOARCH-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SPOARCH-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SPOARCH-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SPOARCH-Solution.pdf",
+    "SPOARCH-Scripts.zip"
+  ],
+  "hero": "SPOARCH-hero.png"
+}
+

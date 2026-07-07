@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams Meetings",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Webinars & Policies",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Lobby · Recording · Templates",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DEFAULT MEETINGS",
+    "items": [
+      "Inconsistent lobby",
+      "Recording gaps",
+      "No templates",
+      "Ad-hoc policy"
+    ]
+  },
+  "to": {
+    "label": "Consistent meetings",
+    "stat": "Secure · templated"
+  },
+  "tagline": "POLICY.  TEMPLATE.  ASSIGN.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Policies",
+      "sub": "Lobby/record"
+    },
+    {
+      "icon": "users",
+      "title": "Webinars",
+      "sub": "Town halls"
+    },
+    {
+      "icon": "gear",
+      "title": "Templates",
+      "sub": "Sensitivity"
+    },
+    {
+      "icon": "shield",
+      "title": "Assign",
+      "sub": "By group"
+    }
+  ]
+}

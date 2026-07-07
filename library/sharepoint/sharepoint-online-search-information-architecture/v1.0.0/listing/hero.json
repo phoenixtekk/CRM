@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint Search",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Information Architecture",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Metadata · Schema · Verticals",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CAN'T FIND ANYTHING",
+    "items": [
+      "No metadata",
+      "Untuned schema",
+      "No verticals",
+      "Poor results"
+    ]
+  },
+  "to": {
+    "label": "Findable content",
+    "stat": "Tuned · surfaced"
+  },
+  "tagline": "STRUCTURE.  MAP.  SURFACE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Metadata",
+      "sub": "Content types"
+    },
+    {
+      "icon": "gear",
+      "title": "Schema",
+      "sub": "Managed props"
+    },
+    {
+      "icon": "cloud",
+      "title": "Verticals",
+      "sub": "Sources"
+    },
+    {
+      "icon": "shield",
+      "title": "Promoted",
+      "sub": "Results"
+    }
+  ]
+}

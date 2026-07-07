@@ -1,0 +1,83 @@
+{
+  "sol": "SPOEXT",
+  "slug": "sharepoint-online-external-sharing-access-governance",
+  "title": "SharePoint Online External Sharing & Access Governance",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Control external sharing in SharePoint and OneDrive without blocking work",
+  "problem": "External sharing in SharePoint/OneDrive drives collaboration and data leakage in equal measure. This solution governs <strong>external sharing and access</strong>: tenant and site-level sharing settings, sharing-link defaults and expiration, allow/block domains, sensitivity-label-driven controls, guest access and access reviews, and reporting on external exposure &mdash; so sharing is enabled but controlled and auditable.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the sharing model: tenant vs site sharing, link types + defaults + expiration, allow/block, sensitivity-driven controls, guests, and exposure reporting.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin + Entra, data-classification/sensitivity posture, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; set tenant + site sharing, link defaults + expiration, allow/block domains, sensitivity-driven controls, guest access reviews, and stand up external-exposure reporting &mdash; pilot-first, each setting named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (sharing scoped to policy, external exposure visible, stale access reviewed) plus Best Practices for safe external sharing."
+  ],
+  "short": "Govern <strong>SharePoint/OneDrive external sharing &amp; access</strong> &mdash; tenant + site settings, link defaults/expiration, allow/block domains, sensitivity controls, guest reviews, and exposure reporting &mdash; so sharing is enabled but controlled. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Govern SharePoint/OneDrive external sharing & access — tenant + site settings, link defaults/expiration, allow/block domains, sensitivity controls, guest reviews, and exposure reporting — so sharing is enabled but controlled.",
+  "meta_title": "SharePoint Online External Sharing & Access Governance",
+  "meta_description": "Govern external sharing and access in SharePoint Online and OneDrive: tenant and site-level sharing settings, sharing-link defaults and expiration, allow/block domains, sensitivity-label controls, guest access reviews, and external-exposure reporting. Self-guided steps and PowerShell tools.",
+  "bottom_line": "External sharing enabled and controlled &mdash; tenant and site settings scoped, links defaulted and expiring, exposure reported, stale access reviewed &mdash; collaboration without leakage.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SharePoint External",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Sharing & Access Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Links · Domains · Guests · Exposure",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SHARING LEAKAGE",
+      "items": [
+        "Anyone-links",
+        "No expiration",
+        "Any domain",
+        "Exposure blind"
+      ]
+    },
+    "to": {
+      "label": "Governed sharing",
+      "stat": "Scoped · auditable"
+    },
+    "tagline": "SCOPE.  EXPIRE.  REPORT.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "Sharing",
+        "sub": "Tenant/site"
+      },
+      {
+        "icon": "gear",
+        "title": "Links",
+        "sub": "Expire"
+      },
+      {
+        "icon": "shield",
+        "title": "Domains",
+        "sub": "Allow/block"
+      },
+      {
+        "icon": "chart",
+        "title": "Exposure",
+        "sub": "Reported"
+      }
+    ]
+  }
+}

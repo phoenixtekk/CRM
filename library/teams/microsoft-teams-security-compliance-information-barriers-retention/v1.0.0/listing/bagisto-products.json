@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-teams-security-compliance-information-barriers-retention",
+    "title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+    "category_path": [
+      "Teams"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-TEAMSCOMP-COMM-001",
+      "name": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Apply the <strong>Teams-specific security &amp; compliance</strong> controls &mdash; information barriers, Teams chat/channel retention, and Teams DLP &mdash; scoped to Teams and aligned to your Purview program. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Apply the Teams-specific security and compliance controls</h3><p>Teams carries chats, channel messages, and files that need compliance controls &mdash; and the Teams-specific ones are easy to miss. This solution applies <strong>Teams security &amp; compliance</strong>: <strong>information barriers</strong> (segment groups that can't communicate), Teams retention policies (chat/channel), Teams DLP, and communication-compliance touchpoints &mdash; scoped to what's specific to Teams, referencing the broader Purview program rather than duplicating it.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams-specific controls: information barriers, Teams retention (chat/channel), Teams DLP, and how they relate to the org-wide Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, existing Purview retention/DLP posture, compliance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define + apply information-barrier policies (segments/associations), set Teams chat/channel retention, configure Teams DLP, and validate &mdash; pilot-first, each policy named; records/legal determinations deferred to compliance.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (barriers enforced, retention applied, DLP effective in Teams) plus Best Practices; broader DLP/labels handled by the Purview program.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Teams brought under compliance &mdash; information barriers enforced, chat/channel retention applied, Teams DLP effective &mdash; the Teams-specific controls closed, aligned to Purview.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSCOMP-Assessment.ps1</code> &mdash; Read-only assessment of the Teams-specific compliance posture (information barriers, Teams retention, Teams DLP)</li><li><code>TEAMSCOMP-Configure-InformationBarriers.ps1</code> &mdash; Information-barrier segment + policy config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-Configure-RetentionDlp.ps1</code> &mdash; Teams retention + Teams DLP config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-ScopeHelper.ps1</code> &mdash; Scope / health helper (read-only): previews IB segment scope and checks IB prerequisites before application</li><li><code>TEAMSCOMP-Validation.ps1</code> &mdash; Compliance-control validation report (read-only): checks the expected named artifacts and states</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+      "meta_description": "Apply Microsoft Teams security and compliance controls: information barriers (segment groups), Teams chat/channel retention policies, and Teams DLP. Scoped to Teams-specific controls, referencing the broader Purview program. Self-guided steps and PowerShell tools; records/legal determinations deferred to compliance.",
+      "url_key": "microsoft-teams-security-compliance-information-barriers-retention-commercial",
+      "image": "TEAMSCOMP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSCOMP-NPO-001",
+      "name": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Apply the Teams-specific security & compliance controls — information barriers, Teams chat/channel retention, and Teams DLP — scoped to Teams and aligned to your Purview program. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Apply the Teams-specific security and compliance controls</h3><p>Teams carries chats, channel messages, and files that need compliance controls &mdash; and the Teams-specific ones are easy to miss. This solution applies <strong>Teams security &amp; compliance</strong>: <strong>information barriers</strong> (segment groups that can't communicate), Teams retention policies (chat/channel), Teams DLP, and communication-compliance touchpoints &mdash; scoped to what's specific to Teams, referencing the broader Purview program rather than duplicating it.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams-specific controls: information barriers, Teams retention (chat/channel), Teams DLP, and how they relate to the org-wide Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, existing Purview retention/DLP posture, compliance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define + apply information-barrier policies (segments/associations), set Teams chat/channel retention, configure Teams DLP, and validate &mdash; pilot-first, each policy named; records/legal determinations deferred to compliance.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (barriers enforced, retention applied, DLP effective in Teams) plus Best Practices; broader DLP/labels handled by the Purview program.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSCOMP-Assessment.ps1</code> &mdash; Read-only assessment of the Teams-specific compliance posture (information barriers, Teams retention, Teams DLP)</li><li><code>TEAMSCOMP-Configure-InformationBarriers.ps1</code> &mdash; Information-barrier segment + policy config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-Configure-RetentionDlp.ps1</code> &mdash; Teams retention + Teams DLP config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-ScopeHelper.ps1</code> &mdash; Scope / health helper (read-only): previews IB segment scope and checks IB prerequisites before application</li><li><code>TEAMSCOMP-Validation.ps1</code> &mdash; Compliance-control validation report (read-only): checks the expected named artifacts and states</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Apply Microsoft Teams security and compliance controls: information barriers (segment groups), Teams chat/channel retention policies, and Teams DLP. Scoped to Teams-specific controls, referencing the broader Purview program. Self-guided steps and PowerShell tools; records/legal determinations deferred to compliance.",
+      "url_key": "microsoft-teams-security-compliance-information-barriers-retention-nonprofit",
+      "image": "TEAMSCOMP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSCOMP-GOV-001",
+      "name": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Apply the Teams-specific security & compliance controls — information barriers, Teams chat/channel retention, and Teams DLP — scoped to Teams and aligned to your Purview program. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Apply the Teams-specific security and compliance controls</h3><p>Teams carries chats, channel messages, and files that need compliance controls &mdash; and the Teams-specific ones are easy to miss. This solution applies <strong>Teams security &amp; compliance</strong>: <strong>information barriers</strong> (segment groups that can't communicate), Teams retention policies (chat/channel), Teams DLP, and communication-compliance touchpoints &mdash; scoped to what's specific to Teams, referencing the broader Purview program rather than duplicating it.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Teams-specific controls: information barriers, Teams retention (chat/channel), Teams DLP, and how they relate to the org-wide Purview program.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, existing Purview retention/DLP posture, compliance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define + apply information-barrier policies (segments/associations), set Teams chat/channel retention, configure Teams DLP, and validate &mdash; pilot-first, each policy named; records/legal determinations deferred to compliance.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (barriers enforced, retention applied, DLP effective in Teams) plus Best Practices; broader DLP/labels handled by the Purview program.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>TEAMSCOMP-Assessment.ps1</code> &mdash; Read-only assessment of the Teams-specific compliance posture (information barriers, Teams retention, Teams DLP)</li><li><code>TEAMSCOMP-Configure-InformationBarriers.ps1</code> &mdash; Information-barrier segment + policy config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-Configure-RetentionDlp.ps1</code> &mdash; Teams retention + Teams DLP config helper (dry-run / -WhatIf by default; writes only with -Commit)</li><li><code>TEAMSCOMP-ScopeHelper.ps1</code> &mdash; Scope / health helper (read-only): previews IB segment scope and checks IB prerequisites before application</li><li><code>TEAMSCOMP-Validation.ps1</code> &mdash; Compliance-control validation report (read-only): checks the expected named artifacts and states</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Apply Microsoft Teams security and compliance controls: information barriers (segment groups), Teams chat/channel retention policies, and Teams DLP. Scoped to Teams-specific controls, referencing the broader Purview program. Self-guided steps and PowerShell tools; records/legal determinations deferred to compliance.",
+      "url_key": "microsoft-teams-security-compliance-information-barriers-retention-government",
+      "image": "TEAMSCOMP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSCOMP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

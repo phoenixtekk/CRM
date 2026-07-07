@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SharePoint Records",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Retention & Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Labels · Records · Disposition",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED CONTENT",
+    "items": [
+      "No retention",
+      "No records",
+      "Never disposed",
+      "Liability"
+    ]
+  },
+  "to": {
+    "label": "Governed records",
+    "stat": "Retained · disposed"
+  },
+  "tagline": "LABEL.  DECLARE.  DISPOSE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Retention",
+      "sub": "Labels"
+    },
+    {
+      "icon": "lock",
+      "title": "Records",
+      "sub": "Declared"
+    },
+    {
+      "icon": "gear",
+      "title": "Disposition",
+      "sub": "Reviewed"
+    },
+    {
+      "icon": "shield",
+      "title": "Defensible",
+      "sub": "On schedule"
+    }
+  ]
+}

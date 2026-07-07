@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-teams-external-guest-access-governance",
+    "title": "Microsoft Teams External Access & Guest Governance",
+    "category_path": [
+      "Teams"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-TEAMSEXT-COMM-001",
+      "name": "Microsoft Teams External Access & Guest Governance — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Govern <strong>Teams external access &amp; guests</strong> &mdash; external/guest/shared-channel settings, allow/block domains, guest access reviews + expiration, and sensitivity &mdash; so external collaboration is enabled and controlled. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Let people collaborate externally in Teams — safely and on policy</h3><p>External and guest collaboration in Teams is powerful and risky &mdash; ungoverned, it leaks data and accumulates stale guests. This solution governs <strong>external access and guests</strong>: external access (federation) vs guest access, allow/block domains, guest entitlement and access reviews (Entra), shared channels (B2B direct connect), and sensitivity/expiration &mdash; so external collaboration is enabled and controlled.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; external access vs guest access vs shared channels (B2B direct connect), allow/block, guest lifecycle, and sensitivity.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams + Entra External ID, admin roles, cross-tenant access settings, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure external/guest/shared-channel settings, set allow/block domains + cross-tenant access, wire guest access reviews + expiration, and apply sensitivity &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (external scoped to policy, stale guests reviewed, shared channels controlled) plus Best Practices for safe external collaboration.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>External collaboration in Teams, enabled and safe &mdash; external/guest/shared-channel scoped to policy, domains controlled, stale guests reviewed out &mdash; open but governed.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-TeamsExternalExposureReport.ps1</code> &mdash; Read-only external-exposure report: guests, inactivity, and non-approved domains, exported to CSV</li><li><code>Get-TeamsExternalGuestPosture.ps1</code> &mdash; Read-only discovery of Teams external-access, guest, and shared-channel posture (no changes made)</li><li><code>New-GuestAccessReview.ps1</code> &mdash; Create a recurring Entra access review of guests with auto-remove (expiration) - dry-run by default</li><li><code>Set-TeamsExternalGuestConfig.ps1</code> &mdash; Configure Teams external-access, guest, and shared-channel settings (dry-run by default; -Commit to apply)</li><li><code>Test-TeamsExternalGuestBaseline.ps1</code> &mdash; Validate live external/guest/shared-channel posture against a target baseline (read-only PASS/FAIL)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams External Access & Guest Governance",
+      "meta_description": "Govern external and guest access in Microsoft Teams: external access (federation) vs guest access vs shared channels (B2B direct connect), allow/block domains, cross-tenant access settings, guest access reviews and expiration, and sensitivity. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-external-guest-access-governance-commercial",
+      "image": "TEAMSEXT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSEXT-NPO-001",
+      "name": "Microsoft Teams External Access & Guest Governance — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Govern Teams external access & guests — external/guest/shared-channel settings, allow/block domains, guest access reviews + expiration, and sensitivity — so external collaboration is enabled and controlled. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Let people collaborate externally in Teams — safely and on policy</h3><p>External and guest collaboration in Teams is powerful and risky &mdash; ungoverned, it leaks data and accumulates stale guests. This solution governs <strong>external access and guests</strong>: external access (federation) vs guest access, allow/block domains, guest entitlement and access reviews (Entra), shared channels (B2B direct connect), and sensitivity/expiration &mdash; so external collaboration is enabled and controlled.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; external access vs guest access vs shared channels (B2B direct connect), allow/block, guest lifecycle, and sensitivity.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams + Entra External ID, admin roles, cross-tenant access settings, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure external/guest/shared-channel settings, set allow/block domains + cross-tenant access, wire guest access reviews + expiration, and apply sensitivity &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (external scoped to policy, stale guests reviewed, shared channels controlled) plus Best Practices for safe external collaboration.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-TeamsExternalExposureReport.ps1</code> &mdash; Read-only external-exposure report: guests, inactivity, and non-approved domains, exported to CSV</li><li><code>Get-TeamsExternalGuestPosture.ps1</code> &mdash; Read-only discovery of Teams external-access, guest, and shared-channel posture (no changes made)</li><li><code>New-GuestAccessReview.ps1</code> &mdash; Create a recurring Entra access review of guests with auto-remove (expiration) - dry-run by default</li><li><code>Set-TeamsExternalGuestConfig.ps1</code> &mdash; Configure Teams external-access, guest, and shared-channel settings (dry-run by default; -Commit to apply)</li><li><code>Test-TeamsExternalGuestBaseline.ps1</code> &mdash; Validate live external/guest/shared-channel posture against a target baseline (read-only PASS/FAIL)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams External Access & Guest Governance — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Govern external and guest access in Microsoft Teams: external access (federation) vs guest access vs shared channels (B2B direct connect), allow/block domains, cross-tenant access settings, guest access reviews and expiration, and sensitivity. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-external-guest-access-governance-nonprofit",
+      "image": "TEAMSEXT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-TEAMSEXT-GOV-001",
+      "name": "Microsoft Teams External Access & Guest Governance — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Govern Teams external access & guests — external/guest/shared-channel settings, allow/block domains, guest access reviews + expiration, and sensitivity — so external collaboration is enabled and controlled. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Let people collaborate externally in Teams — safely and on policy</h3><p>External and guest collaboration in Teams is powerful and risky &mdash; ungoverned, it leaks data and accumulates stale guests. This solution governs <strong>external access and guests</strong>: external access (federation) vs guest access, allow/block domains, guest entitlement and access reviews (Entra), shared channels (B2B direct connect), and sensitivity/expiration &mdash; so external collaboration is enabled and controlled.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; external access vs guest access vs shared channels (B2B direct connect), allow/block, guest lifecycle, and sensitivity.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams + Entra External ID, admin roles, cross-tenant access settings, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure external/guest/shared-channel settings, set allow/block domains + cross-tenant access, wire guest access reviews + expiration, and apply sensitivity &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (external scoped to policy, stale guests reviewed, shared channels controlled) plus Best Practices for safe external collaboration.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Get-TeamsExternalExposureReport.ps1</code> &mdash; Read-only external-exposure report: guests, inactivity, and non-approved domains, exported to CSV</li><li><code>Get-TeamsExternalGuestPosture.ps1</code> &mdash; Read-only discovery of Teams external-access, guest, and shared-channel posture (no changes made)</li><li><code>New-GuestAccessReview.ps1</code> &mdash; Create a recurring Entra access review of guests with auto-remove (expiration) - dry-run by default</li><li><code>Set-TeamsExternalGuestConfig.ps1</code> &mdash; Configure Teams external-access, guest, and shared-channel settings (dry-run by default; -Commit to apply)</li><li><code>Test-TeamsExternalGuestBaseline.ps1</code> &mdash; Validate live external/guest/shared-channel posture against a target baseline (read-only PASS/FAIL)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Teams External Access & Guest Governance — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Govern external and guest access in Microsoft Teams: external access (federation) vs guest access vs shared channels (B2B direct connect), allow/block domains, cross-tenant access settings, guest access reviews and expiration, and sensitivity. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-teams-external-guest-access-governance-government",
+      "image": "TEAMSEXT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "TEAMSEXT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

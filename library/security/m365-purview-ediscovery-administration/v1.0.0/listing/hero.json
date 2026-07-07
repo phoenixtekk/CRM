@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Purview eDiscovery",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Content Search · Holds · Export",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Cases · Custodians · Review Sets",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AD-HOC SEARCH",
+    "items": [
+      "Not defensible",
+      "No case/hold",
+      "Manual export",
+      "Legal risk"
+    ]
+  },
+  "to": {
+    "label": "Defensible eDiscovery",
+    "stat": "Repeatable · complete"
+  },
+  "tagline": "SEARCH.  HOLD.  EXPORT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Content Search",
+      "sub": "KQL"
+    },
+    {
+      "icon": "lock",
+      "title": "Holds",
+      "sub": "Custodians"
+    },
+    {
+      "icon": "gear",
+      "title": "Review Sets",
+      "sub": "Analytics"
+    },
+    {
+      "icon": "shield",
+      "title": "Export",
+      "sub": "Defensible"
+    }
+  ]
+}

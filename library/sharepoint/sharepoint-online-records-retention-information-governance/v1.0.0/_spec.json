@@ -1,0 +1,83 @@
+{
+  "sol": "SPORECS",
+  "slug": "sharepoint-online-records-retention-information-governance",
+  "title": "SharePoint Online Records, Retention & Information Governance",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Apply records and retention governance to SharePoint content",
+  "problem": "SharePoint content has to be retained &mdash; and disposed &mdash; per policy, or it becomes liability. This solution applies <strong>records and retention</strong> to SPO (scoped to SharePoint content, aligned to the broader Purview program): retention labels and policies for sites/libraries, records declaration and the records-management/disposition workflow, in-place records, and defensible disposition &mdash; so SharePoint content is retained, declared, and disposed on schedule.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; SPO records/retention: retention labels + policies, records declaration + in-place records, disposition review, and alignment to the org Purview program.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (compliance licensing, roles, records schedule from records/legal, existing Purview posture).",
+    "<strong>Implementation Guide</strong> &mdash; map the retention/records schedule to labels + policies, apply to sites/libraries, configure records declaration + disposition review, and validate &mdash; pilot-first; the records schedule itself and legal determinations come from records/legal.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (labels applied, records declared, disposition working) plus Best Practices; determinations deferred to records/legal, broader program to Purview."
+  ],
+  "short": "Apply <strong>SharePoint records &amp; retention</strong> &mdash; retention labels/policies, records declaration + in-place records, and defensible disposition &mdash; scoped to SPO content and aligned to your Purview program. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Apply SharePoint records & retention — retention labels/policies, records declaration + in-place records, and defensible disposition — scoped to SPO content and aligned to your Purview program.",
+  "meta_title": "SharePoint Online Records, Retention & Information Governance",
+  "meta_description": "Apply records and retention governance to SharePoint Online: retention labels and policies for sites/libraries, records declaration and in-place records, disposition review, and defensible disposition. Scoped to SharePoint content, aligned to the broader Purview program. Self-guided steps and PowerShell tools; records schedule and legal determinations deferred to records/legal.",
+  "bottom_line": "SharePoint content retained, declared, and disposed on schedule &mdash; labels and policies applied, records declared, disposition defensible &mdash; liability turned into governed information.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "SharePoint Records",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Retention & Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Labels · Records · Disposition",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED CONTENT",
+      "items": [
+        "No retention",
+        "No records",
+        "Never disposed",
+        "Liability"
+      ]
+    },
+    "to": {
+      "label": "Governed records",
+      "stat": "Retained · disposed"
+    },
+    "tagline": "LABEL.  DECLARE.  DISPOSE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Retention",
+        "sub": "Labels"
+      },
+      {
+        "icon": "lock",
+        "title": "Records",
+        "sub": "Declared"
+      },
+      {
+        "icon": "gear",
+        "title": "Disposition",
+        "sub": "Reviewed"
+      },
+      {
+        "icon": "shield",
+        "title": "Defensible",
+        "sub": "On schedule"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "SPOMIG",
+  "slug": "file-share-on-prem-sharepoint-to-sharepoint-online-migration",
+  "title": "File-Share & On-Prem SharePoint → SharePoint Online Migration",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Migrate file shares and on-prem SharePoint into SharePoint Online cleanly",
+  "problem": "Legacy file servers and on-prem SharePoint farms are cost and risk &mdash; but lifting-and-shifting them badly recreates the mess in the cloud. This solution runs the <strong>migration to SharePoint Online</strong>: assessment and remediation (permissions, path length, unsupported content), target IA mapping, <strong>Migration Manager / SharePoint Migration Tool</strong> execution with pre-stage and delta, permission mapping, and post-migration validation &mdash; so content lands organized and governed. (On-prem/file-share source &rarr; SPO; distinct from any SPO&rarr;other-platform migration.)",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the migration model: assessment/remediation, target IA mapping, tool options (Migration Manager / SPMT / third-party), pre-stage/delta, permissions, validation.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (source access (file shares / on-prem SP), SPO admin + target IA, migration tooling, pilot scope).",
+    "<strong>Implementation Guide</strong> &mdash; assess + remediate source, map to target IA, configure the migration tool, run pre-stage + delta with permission mapping, and validate &mdash; pilot-first; deep tool internals deferred to Microsoft/vendor docs.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (content + permissions migrated, delta clean, target governed) plus Best Practices for a clean cutover."
+  ],
+  "short": "Migrate <strong>file shares &amp; on-prem SharePoint to SharePoint Online</strong> &mdash; assessment/remediation, target IA mapping, Migration Manager/SPMT pre-stage + delta, permission mapping, and validation &mdash; so content lands organized and governed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Migrate file shares & on-prem SharePoint to SharePoint Online — assessment/remediation, target IA mapping, Migration Manager/SPMT pre-stage + delta, permission mapping, and validation — so content lands organized and governed.",
+  "meta_title": "File-Share & On-Prem SharePoint → SharePoint Online Migration",
+  "meta_description": "Migrate file shares and on-premises SharePoint to SharePoint Online: source assessment and remediation (permissions, path length, unsupported content), target information-architecture mapping, Migration Manager / SharePoint Migration Tool pre-stage and delta, permission mapping, and post-migration validation. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Legacy content moved to SPO the right way &mdash; assessed and remediated, mapped to a governed target IA, migrated with permissions and validated &mdash; organized, not a cloud repeat of the mess.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "File Share & On-Prem SP",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "→ SharePoint Online Migration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Assess · Map · Pre-Stage/Delta",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LIFT-AND-SHIFT MESS",
+      "items": [
+        "Broken permissions",
+        "Path-length fails",
+        "No target IA",
+        "Unvalidated"
+      ]
+    },
+    "to": {
+      "label": "Clean migration",
+      "stat": "Mapped · validated"
+    },
+    "tagline": "ASSESS.  MAP.  MIGRATE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Assess",
+        "sub": "Remediate"
+      },
+      {
+        "icon": "cloud",
+        "title": "Target IA",
+        "sub": "Mapped"
+      },
+      {
+        "icon": "gear",
+        "title": "Migrate",
+        "sub": "Pre-stage/delta"
+      },
+      {
+        "icon": "shield",
+        "title": "Permissions",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

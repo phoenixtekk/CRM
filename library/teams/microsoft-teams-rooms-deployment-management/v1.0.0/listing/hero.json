@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Teams Rooms",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deployment & Management",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Resource Accounts · Pro Portal · Health",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ROOMS THAT FAIL",
+    "items": [
+      "Inconsistent config",
+      "No central mgmt",
+      "Peripheral issues",
+      "Join failures"
+    ]
+  },
+  "to": {
+    "label": "Reliable rooms",
+    "stat": "Standardized · managed"
+  },
+  "tagline": "PROVISION.  ENROLL.  MONITOR.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Resource Acct",
+      "sub": "Licensed"
+    },
+    {
+      "icon": "gear",
+      "title": "Device Config",
+      "sub": "Policies"
+    },
+    {
+      "icon": "cloud",
+      "title": "Pro Portal",
+      "sub": "Updates"
+    },
+    {
+      "icon": "chart",
+      "title": "Health",
+      "sub": "Monitored"
+    }
+  ]
+}

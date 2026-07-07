@@ -37467,6 +37467,167 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export",
+    "slug": "m365-purview-ediscovery-administration",
+    "category": "Security",
+    "category_slug": "security",
+    "sol_code": "MSEDISC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MSEDISC-COMM-001",
+      "PTK-MSEDISC-NPO-001",
+      "PTK-MSEDISC-GOV-001"
+    ],
+    "deliverables": [
+      "MSEDISC-Solution.pdf",
+      "MSEDISC-Scripts.zip"
+    ],
+    "rel_path": "library\\security\\m365-purview-ediscovery-administration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/03-implementation.md",
+          "kb": 8.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MSEDISC-CaseHold.ps1",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/scripts/MSEDISC-CaseHold.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "MSEDISC-Discovery.ps1",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/scripts/MSEDISC-Discovery.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "MSEDISC-Report.ps1",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/scripts/MSEDISC-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "MSEDISC-Scope.ps1",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/scripts/MSEDISC-Scope.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "MSEDISC-Search.ps1",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/scripts/MSEDISC-Search.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MSEDISC-Complete-Solution.zip",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-Complete-Solution.zip",
+          "kb": 95.7
+        },
+        {
+          "name": "MSEDISC-hero.png",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-hero.png",
+          "kb": 404.4
+        },
+        {
+          "name": "MSEDISC-hero.svg",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MSEDISC-Scripts.zip",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-Scripts.zip",
+          "kb": 8.5
+        },
+        {
+          "name": "MSEDISC-Solution.docx",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-Solution.docx",
+          "kb": 54.1
+        },
+        {
+          "name": "MSEDISC-Solution.pdf",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-Solution.pdf",
+          "kb": 49.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../security/m365-purview-ediscovery-administration/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 8,
+    "hero_href": "../security/m365-purview-ediscovery-administration/v1.0.0/deliverables/MSEDISC-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
     "slug": "microsoft-365-security-baseline-audit-readiness",
     "category": "Security",
@@ -38474,6 +38635,1168 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "File-Share & On-Prem SharePoint → SharePoint Online Migration",
+    "slug": "file-share-on-prem-sharepoint-to-sharepoint-online-migration",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPOMIG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SPOMIG-COMM-001",
+      "PTK-SPOMIG-NPO-001",
+      "PTK-SPOMIG-GOV-001"
+    ],
+    "deliverables": [
+      "SPOMIG-Solution.pdf",
+      "SPOMIG-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\file-share-on-prem-sharepoint-to-sharepoint-online-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/03-implementation.md",
+          "kb": 8.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/05-testing.md",
+          "kb": 5.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SPOMIG-Assessment.ps1",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/scripts/SPOMIG-Assessment.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "SPOMIG-PermissionMap.ps1",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/scripts/SPOMIG-PermissionMap.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "SPOMIG-ScopeHealth.ps1",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/scripts/SPOMIG-ScopeHealth.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "SPOMIG-TaskBuilder.ps1",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/scripts/SPOMIG-TaskBuilder.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "SPOMIG-Validation.ps1",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/scripts/SPOMIG-Validation.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPOMIG-Complete-Solution.zip",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-Complete-Solution.zip",
+          "kb": 109.1
+        },
+        {
+          "name": "SPOMIG-hero.png",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-hero.png",
+          "kb": 464.9
+        },
+        {
+          "name": "SPOMIG-hero.svg",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SPOMIG-Scripts.zip",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "SPOMIG-Solution.docx",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-Solution.docx",
+          "kb": 57.5
+        },
+        {
+          "name": "SPOMIG-Solution.pdf",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-Solution.pdf",
+          "kb": 62.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/file-share-on-prem-sharepoint-to-sharepoint-online-migration/v1.0.0/deliverables/SPOMIG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "OneDrive for Business Deployment & Governance",
+    "slug": "onedrive-for-business-deployment-governance",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "ODFBGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ODFBGOV-COMM-001",
+      "PTK-ODFBGOV-NPO-001",
+      "PTK-ODFBGOV-GOV-001"
+    ],
+    "deliverables": [
+      "ODFBGOV-Solution.pdf",
+      "ODFBGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\onedrive-for-business-deployment-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/03-implementation.md",
+          "kb": 13.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ODFBGOV-Configure.ps1",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/scripts/ODFBGOV-Configure.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "ODFBGOV-Discovery.ps1",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/scripts/ODFBGOV-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "ODFBGOV-Report.ps1",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/scripts/ODFBGOV-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "ODFBGOV-Set-OffboardingAccess.ps1",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/scripts/ODFBGOV-Set-OffboardingAccess.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "ODFBGOV-Set-Scope.ps1",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/scripts/ODFBGOV-Set-Scope.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ODFBGOV-Complete-Solution.zip",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-Complete-Solution.zip",
+          "kb": 118.4
+        },
+        {
+          "name": "ODFBGOV-hero.png",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-hero.png",
+          "kb": 468.2
+        },
+        {
+          "name": "ODFBGOV-hero.svg",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ODFBGOV-Scripts.zip",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "ODFBGOV-Solution.docx",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-Solution.docx",
+          "kb": 60.4
+        },
+        {
+          "name": "ODFBGOV-Solution.pdf",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-Solution.pdf",
+          "kb": 71.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/onedrive-for-business-deployment-governance/v1.0.0/deliverables/ODFBGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online Architecture & Site Provisioning Governance",
+    "slug": "sharepoint-online-architecture-site-provisioning-governance",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPOARCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SPOARCH-COMM-001",
+      "PTK-SPOARCH-NPO-001",
+      "PTK-SPOARCH-GOV-001"
+    ],
+    "deliverables": [
+      "SPOARCH-Solution.pdf",
+      "SPOARCH-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\sharepoint-online-architecture-site-provisioning-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/03-implementation.md",
+          "kb": 13.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-SPOGovernanceComplianceReport.ps1",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/scripts/Get-SPOGovernanceComplianceReport.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "Get-SPOScopeConfig.ps1",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/scripts/Get-SPOScopeConfig.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "Invoke-SPOArchitectureAssessment.ps1",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/scripts/Invoke-SPOArchitectureAssessment.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "New-SPOSiteFromTemplate.ps1",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/scripts/New-SPOSiteFromTemplate.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "Set-SPOHubAndMetadata.ps1",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/scripts/Set-SPOHubAndMetadata.ps1",
+          "kb": 2.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPOARCH-Complete-Solution.zip",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-Complete-Solution.zip",
+          "kb": 109.5
+        },
+        {
+          "name": "SPOARCH-hero.png",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-hero.png",
+          "kb": 445.4
+        },
+        {
+          "name": "SPOARCH-hero.svg",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SPOARCH-Scripts.zip",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-Scripts.zip",
+          "kb": 8.6
+        },
+        {
+          "name": "SPOARCH-Solution.docx",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-Solution.docx",
+          "kb": 58.7
+        },
+        {
+          "name": "SPOARCH-Solution.pdf",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-Solution.pdf",
+          "kb": 63.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/sharepoint-online-architecture-site-provisioning-governance/v1.0.0/deliverables/SPOARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online External Sharing & Access Governance",
+    "slug": "sharepoint-online-external-sharing-access-governance",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPOEXT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SPOEXT-COMM-001",
+      "PTK-SPOEXT-NPO-001",
+      "PTK-SPOEXT-GOV-001"
+    ],
+    "deliverables": [
+      "SPOEXT-Solution.pdf",
+      "SPOEXT-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\sharepoint-online-external-sharing-access-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 12.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/02-requirements.md",
+          "kb": 9.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/03-implementation.md",
+          "kb": 13.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/05-testing.md",
+          "kb": 6.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SPOEXT-Discovery.ps1",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/scripts/SPOEXT-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "SPOEXT-ExposureReport.ps1",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/scripts/SPOEXT-ExposureReport.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "SPOEXT-Scope.ps1",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/scripts/SPOEXT-Scope.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "SPOEXT-Set-Sharing.ps1",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/scripts/SPOEXT-Set-Sharing.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "SPOEXT-Validation.ps1",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/scripts/SPOEXT-Validation.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPOEXT-Complete-Solution.zip",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-Complete-Solution.zip",
+          "kb": 118.0
+        },
+        {
+          "name": "SPOEXT-hero.png",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-hero.png",
+          "kb": 465.3
+        },
+        {
+          "name": "SPOEXT-hero.svg",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SPOEXT-Scripts.zip",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "SPOEXT-Solution.docx",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-Solution.docx",
+          "kb": 61.1
+        },
+        {
+          "name": "SPOEXT-Solution.pdf",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-Solution.pdf",
+          "kb": 69.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/sharepoint-online-external-sharing-access-governance/v1.0.0/deliverables/SPOEXT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online Permissions & Access Management",
+    "slug": "sharepoint-online-permissions-access-management",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPOPERM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SPOPERM-COMM-001",
+      "PTK-SPOPERM-NPO-001",
+      "PTK-SPOPERM-GOV-001"
+    ],
+    "deliverables": [
+      "SPOPERM-Solution.pdf",
+      "SPOPERM-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\sharepoint-online-permissions-access-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/03-implementation.md",
+          "kb": 11.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SPOPERM-AccessReview.ps1",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/scripts/SPOPERM-AccessReview.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "SPOPERM-Discovery.ps1",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/scripts/SPOPERM-Discovery.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "SPOPERM-Remediate-GroupAccess.ps1",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/scripts/SPOPERM-Remediate-GroupAccess.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "SPOPERM-Reset-Inheritance.ps1",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/scripts/SPOPERM-Reset-Inheritance.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "SPOPERM-Scope.ps1",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/scripts/SPOPERM-Scope.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPOPERM-Complete-Solution.zip",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-Complete-Solution.zip",
+          "kb": 115.7
+        },
+        {
+          "name": "SPOPERM-hero.png",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-hero.png",
+          "kb": 487.6
+        },
+        {
+          "name": "SPOPERM-hero.svg",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SPOPERM-Scripts.zip",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-Scripts.zip",
+          "kb": 12.0
+        },
+        {
+          "name": "SPOPERM-Solution.docx",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-Solution.docx",
+          "kb": 59.2
+        },
+        {
+          "name": "SPOPERM-Solution.pdf",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-Solution.pdf",
+          "kb": 66.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/sharepoint-online-permissions-access-management/v1.0.0/deliverables/SPOPERM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online Records, Retention & Information Governance",
+    "slug": "sharepoint-online-records-retention-information-governance",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPORECS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SPORECS-COMM-001",
+      "PTK-SPORECS-NPO-001",
+      "PTK-SPORECS-GOV-001"
+    ],
+    "deliverables": [
+      "SPORECS-Solution.pdf",
+      "SPORECS-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\sharepoint-online-records-retention-information-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/03-implementation.md",
+          "kb": 13.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/05-testing.md",
+          "kb": 5.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Apply-SpoRetentionLabels.ps1",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/scripts/Apply-SpoRetentionLabels.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "Assess-SpoRetentionPosture.ps1",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/scripts/Assess-SpoRetentionPosture.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "Get-SpoRecordsComplianceReport.ps1",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/scripts/Get-SpoRecordsComplianceReport.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "Resolve-SpoRecordsScope.ps1",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/scripts/Resolve-SpoRecordsScope.ps1",
+          "kb": 2.9
+        },
+        {
+          "name": "Set-SpoRecordsDisposition.ps1",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/scripts/Set-SpoRecordsDisposition.ps1",
+          "kb": 3.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPORECS-Complete-Solution.zip",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-Complete-Solution.zip",
+          "kb": 108.7
+        },
+        {
+          "name": "SPORECS-hero.png",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-hero.png",
+          "kb": 451.9
+        },
+        {
+          "name": "SPORECS-hero.svg",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SPORECS-Scripts.zip",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-Scripts.zip",
+          "kb": 8.5
+        },
+        {
+          "name": "SPORECS-Solution.docx",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "SPORECS-Solution.pdf",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-Solution.pdf",
+          "kb": 62.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/sharepoint-online-records-retention-information-governance/v1.0.0/deliverables/SPORECS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SharePoint Online Search & Information Architecture",
+    "slug": "sharepoint-online-search-information-architecture",
+    "category": "SharePoint",
+    "category_slug": "sharepoint",
+    "sol_code": "SPOSEARCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SPOSEARCH-COMM-001",
+      "PTK-SPOSEARCH-NPO-001",
+      "PTK-SPOSEARCH-GOV-001"
+    ],
+    "deliverables": [
+      "SPOSEARCH-Solution.pdf",
+      "SPOSEARCH-Scripts.zip"
+    ],
+    "rel_path": "library\\sharepoint\\sharepoint-online-search-information-architecture\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/03-implementation.md",
+          "kb": 14.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-sharepoint.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/source/global-requirements-sharepoint.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-SearchHealthScope.ps1",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/scripts/Get-SearchHealthScope.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "Get-SearchIAAssessment.ps1",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/scripts/Get-SearchIAAssessment.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "Set-ManagedPropertyMapping.ps1",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/scripts/Set-ManagedPropertyMapping.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "Set-SearchSourceVertical.ps1",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/scripts/Set-SearchSourceVertical.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "Test-Findability.ps1",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/scripts/Test-Findability.ps1",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SPOSEARCH-Complete-Solution.zip",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-Complete-Solution.zip",
+          "kb": 110.7
+        },
+        {
+          "name": "SPOSEARCH-hero.png",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-hero.png",
+          "kb": 475.5
+        },
+        {
+          "name": "SPOSEARCH-hero.svg",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SPOSEARCH-Scripts.zip",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-Scripts.zip",
+          "kb": 9.1
+        },
+        {
+          "name": "SPOSEARCH-Solution.docx",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-Solution.docx",
+          "kb": 58.4
+        },
+        {
+          "name": "SPOSEARCH-Solution.pdf",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-Solution.pdf",
+          "kb": 64.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sharepoint/sharepoint-online-search-information-architecture/v1.0.0/deliverables/SPOSEARCH-hero.png",
     "product_count": 3
   },
   {
@@ -40139,6 +41462,1168 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../synthetic/synthetic-data-subfunction-standup-quality-engineering/v1.0.0/deliverables/SYNFUNC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Apps & Integration Governance",
+    "slug": "microsoft-teams-apps-integration-governance",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSAPPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-TEAMSAPPS-COMM-001",
+      "PTK-TEAMSAPPS-NPO-001",
+      "PTK-TEAMSAPPS-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSAPPS-Solution.pdf",
+      "TEAMSAPPS-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-apps-integration-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/02-requirements.md",
+          "kb": 6.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/03-implementation.md",
+          "kb": 7.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TEAMSAPPS-Configure.ps1",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/scripts/TEAMSAPPS-Configure.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "TEAMSAPPS-ConsentReport.ps1",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/scripts/TEAMSAPPS-ConsentReport.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "TEAMSAPPS-Discovery.ps1",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/scripts/TEAMSAPPS-Discovery.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "TEAMSAPPS-Set-ScopeTargeting.ps1",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/scripts/TEAMSAPPS-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "TEAMSAPPS-Validation.ps1",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/scripts/TEAMSAPPS-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSAPPS-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-Complete-Solution.zip",
+          "kb": 102.8
+        },
+        {
+          "name": "TEAMSAPPS-hero.png",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-hero.png",
+          "kb": 462.3
+        },
+        {
+          "name": "TEAMSAPPS-hero.svg",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "TEAMSAPPS-Scripts.zip",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "TEAMSAPPS-Solution.docx",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-Solution.docx",
+          "kb": 55.0
+        },
+        {
+          "name": "TEAMSAPPS-Solution.pdf",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-Solution.pdf",
+          "kb": 57.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-apps-integration-governance/v1.0.0/deliverables/TEAMSAPPS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams External Access & Guest Governance",
+    "slug": "microsoft-teams-external-guest-access-governance",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSEXT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-TEAMSEXT-COMM-001",
+      "PTK-TEAMSEXT-NPO-001",
+      "PTK-TEAMSEXT-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSEXT-Solution.pdf",
+      "TEAMSEXT-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-external-guest-access-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/02-requirements.md",
+          "kb": 5.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-TeamsExternalExposureReport.ps1",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/scripts/Get-TeamsExternalExposureReport.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "Get-TeamsExternalGuestPosture.ps1",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/scripts/Get-TeamsExternalGuestPosture.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "New-GuestAccessReview.ps1",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/scripts/New-GuestAccessReview.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "Set-TeamsExternalGuestConfig.ps1",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/scripts/Set-TeamsExternalGuestConfig.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "Test-TeamsExternalGuestBaseline.ps1",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/scripts/Test-TeamsExternalGuestBaseline.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSEXT-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-Complete-Solution.zip",
+          "kb": 96.4
+        },
+        {
+          "name": "TEAMSEXT-hero.png",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-hero.png",
+          "kb": 449.6
+        },
+        {
+          "name": "TEAMSEXT-hero.svg",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "TEAMSEXT-Scripts.zip",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-Scripts.zip",
+          "kb": 8.7
+        },
+        {
+          "name": "TEAMSEXT-Solution.docx",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-Solution.docx",
+          "kb": 53.9
+        },
+        {
+          "name": "TEAMSEXT-Solution.pdf",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-Solution.pdf",
+          "kb": 51.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-external-guest-access-governance/v1.0.0/deliverables/TEAMSEXT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Governance & Lifecycle Management",
+    "slug": "microsoft-teams-governance-lifecycle-management",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-TEAMSGOV-COMM-001",
+      "PTK-TEAMSGOV-NPO-001",
+      "PTK-TEAMSGOV-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSGOV-Solution.pdf",
+      "TEAMSGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-governance-lifecycle-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/03-implementation.md",
+          "kb": 9.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Get-TeamsGovernanceInventory.ps1",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/scripts/Get-TeamsGovernanceInventory.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "Get-TeamsGovernanceReport.ps1",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/scripts/Get-TeamsGovernanceReport.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "Set-TeamsCreationNamingPolicy.ps1",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/scripts/Set-TeamsCreationNamingPolicy.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "Set-TeamsLifecyclePolicy.ps1",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/scripts/Set-TeamsLifecyclePolicy.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "Test-TeamsGovernanceReadiness.ps1",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/scripts/Test-TeamsGovernanceReadiness.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSGOV-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-Complete-Solution.zip",
+          "kb": 103.2
+        },
+        {
+          "name": "TEAMSGOV-hero.png",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-hero.png",
+          "kb": 409.0
+        },
+        {
+          "name": "TEAMSGOV-hero.svg",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "TEAMSGOV-Scripts.zip",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-Scripts.zip",
+          "kb": 10.7
+        },
+        {
+          "name": "TEAMSGOV-Solution.docx",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-Solution.docx",
+          "kb": 55.6
+        },
+        {
+          "name": "TEAMSGOV-Solution.pdf",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-Solution.pdf",
+          "kb": 55.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/README.md",
+          "kb": 0.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-governance-lifecycle-management/v1.0.0/deliverables/TEAMSGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+    "slug": "microsoft-teams-meetings-webinars-policy-configuration",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSMTG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-TEAMSMTG-COMM-001",
+      "PTK-TEAMSMTG-NPO-001",
+      "PTK-TEAMSMTG-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSMTG-Solution.pdf",
+      "TEAMSMTG-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-meetings-webinars-policy-configuration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/03-implementation.md",
+          "kb": 12.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TEAMSMTG-AssignmentReport.ps1",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/scripts/TEAMSMTG-AssignmentReport.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "TEAMSMTG-Discovery.ps1",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/scripts/TEAMSMTG-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "TEAMSMTG-Set-EventsAndTemplates.ps1",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/scripts/TEAMSMTG-Set-EventsAndTemplates.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "TEAMSMTG-Set-MeetingPolicy.ps1",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/scripts/TEAMSMTG-Set-MeetingPolicy.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "TEAMSMTG-Validation.ps1",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/scripts/TEAMSMTG-Validation.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSMTG-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-Complete-Solution.zip",
+          "kb": 116.0
+        },
+        {
+          "name": "TEAMSMTG-hero.png",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-hero.png",
+          "kb": 439.9
+        },
+        {
+          "name": "TEAMSMTG-hero.svg",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "TEAMSMTG-Scripts.zip",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-Scripts.zip",
+          "kb": 10.2
+        },
+        {
+          "name": "TEAMSMTG-Solution.docx",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-Solution.docx",
+          "kb": 59.6
+        },
+        {
+          "name": "TEAMSMTG-Solution.pdf",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-Solution.pdf",
+          "kb": 68.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-meetings-webinars-policy-configuration/v1.0.0/deliverables/TEAMSMTG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Phone Enablement — Calling Plans & Operator Connect",
+    "slug": "microsoft-teams-phone-calling-plans-operator-connect",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSPHONE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-TEAMSPHONE-COMM-001",
+      "PTK-TEAMSPHONE-NPO-001",
+      "PTK-TEAMSPHONE-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSPHONE-Solution.pdf",
+      "TEAMSPHONE-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-phone-calling-plans-operator-connect\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/03-implementation.md",
+          "kb": 10.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/05-testing.md",
+          "kb": 5.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/07-best-practices.md",
+          "kb": 5.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TEAMSPHONE-Discovery.ps1",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/scripts/TEAMSPHONE-Discovery.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "TEAMSPHONE-Scope.ps1",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/scripts/TEAMSPHONE-Scope.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "TEAMSPHONE-Set-NumbersAndPolicy.ps1",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/scripts/TEAMSPHONE-Set-NumbersAndPolicy.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "TEAMSPHONE-Set-VoiceApps.ps1",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/scripts/TEAMSPHONE-Set-VoiceApps.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "TEAMSPHONE-Validation.ps1",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/scripts/TEAMSPHONE-Validation.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSPHONE-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-Complete-Solution.zip",
+          "kb": 118.1
+        },
+        {
+          "name": "TEAMSPHONE-hero.png",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-hero.png",
+          "kb": 465.2
+        },
+        {
+          "name": "TEAMSPHONE-hero.svg",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "TEAMSPHONE-Scripts.zip",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-Scripts.zip",
+          "kb": 9.5
+        },
+        {
+          "name": "TEAMSPHONE-Solution.docx",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-Solution.docx",
+          "kb": 60.2
+        },
+        {
+          "name": "TEAMSPHONE-Solution.pdf",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-Solution.pdf",
+          "kb": 72.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-phone-calling-plans-operator-connect/v1.0.0/deliverables/TEAMSPHONE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Rooms Deployment & Management",
+    "slug": "microsoft-teams-rooms-deployment-management",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSROOMS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-TEAMSROOMS-COMM-001",
+      "PTK-TEAMSROOMS-NPO-001",
+      "PTK-TEAMSROOMS-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSROOMS-Solution.pdf",
+      "TEAMSROOMS-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-rooms-deployment-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/03-implementation.md",
+          "kb": 11.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TEAMSROOMS-Discovery.ps1",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/scripts/TEAMSROOMS-Discovery.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "TEAMSROOMS-HealthReport.ps1",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/scripts/TEAMSROOMS-HealthReport.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "TEAMSROOMS-Set-ResourceAccount.ps1",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/scripts/TEAMSROOMS-Set-ResourceAccount.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "TEAMSROOMS-Set-RoomPolicy.ps1",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/scripts/TEAMSROOMS-Set-RoomPolicy.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "TEAMSROOMS-Validation.ps1",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/scripts/TEAMSROOMS-Validation.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSROOMS-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-Complete-Solution.zip",
+          "kb": 109.3
+        },
+        {
+          "name": "TEAMSROOMS-hero.png",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-hero.png",
+          "kb": 479.9
+        },
+        {
+          "name": "TEAMSROOMS-hero.svg",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "TEAMSROOMS-Scripts.zip",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-Scripts.zip",
+          "kb": 11.1
+        },
+        {
+          "name": "TEAMSROOMS-Solution.docx",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-Solution.docx",
+          "kb": 57.0
+        },
+        {
+          "name": "TEAMSROOMS-Solution.pdf",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-Solution.pdf",
+          "kb": 61.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-rooms-deployment-management/v1.0.0/deliverables/TEAMSROOMS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+    "slug": "microsoft-teams-security-compliance-information-barriers-retention",
+    "category": "Teams",
+    "category_slug": "teams",
+    "sol_code": "TEAMSCOMP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-TEAMSCOMP-COMM-001",
+      "PTK-TEAMSCOMP-NPO-001",
+      "PTK-TEAMSCOMP-GOV-001"
+    ],
+    "deliverables": [
+      "TEAMSCOMP-Solution.pdf",
+      "TEAMSCOMP-Scripts.zip"
+    ],
+    "rel_path": "library\\teams\\microsoft-teams-security-compliance-information-barriers-retention\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/03-implementation.md",
+          "kb": 10.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-teams.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/source/global-requirements-teams.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TEAMSCOMP-Assessment.ps1",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/scripts/TEAMSCOMP-Assessment.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "TEAMSCOMP-Configure-InformationBarriers.ps1",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/scripts/TEAMSCOMP-Configure-InformationBarriers.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "TEAMSCOMP-Configure-RetentionDlp.ps1",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/scripts/TEAMSCOMP-Configure-RetentionDlp.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "TEAMSCOMP-ScopeHelper.ps1",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/scripts/TEAMSCOMP-ScopeHelper.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "TEAMSCOMP-Validation.ps1",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/scripts/TEAMSCOMP-Validation.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TEAMSCOMP-Complete-Solution.zip",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-Complete-Solution.zip",
+          "kb": 101.3
+        },
+        {
+          "name": "TEAMSCOMP-hero.png",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-hero.png",
+          "kb": 434.5
+        },
+        {
+          "name": "TEAMSCOMP-hero.svg",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "TEAMSCOMP-Scripts.zip",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-Scripts.zip",
+          "kb": 9.0
+        },
+        {
+          "name": "TEAMSCOMP-Solution.docx",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-Solution.docx",
+          "kb": 55.4
+        },
+        {
+          "name": "TEAMSCOMP-Solution.pdf",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-Solution.pdf",
+          "kb": 55.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../teams/microsoft-teams-security-compliance-information-barriers-retention/v1.0.0/deliverables/TEAMSCOMP-hero.png",
     "product_count": 3
   }
 ]

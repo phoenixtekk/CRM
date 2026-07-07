@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSROOMS",
+  "slug": "microsoft-teams-rooms-deployment-management",
+  "title": "Microsoft Teams Rooms Deployment & Management",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Deploy and manage Microsoft Teams Rooms that just work",
+  "problem": "Meeting rooms fail when Teams Rooms devices aren't deployed and managed to a standard. This solution covers <strong>Teams Rooms</strong> end to end: resource-account and licensing setup, device configuration and meeting-room policies, the <strong>Teams Rooms Pro management</strong> portal for monitoring/updates, peripheral and front-of-room standards, and health/validation &mdash; so rooms are reliable, consistent, and centrally managed.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Teams Rooms model: resource accounts + licensing (Pro/Basic), device config, room policies, the Pro management portal, and peripherals.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams Rooms licensing, certified hardware, resource mailboxes, network, admin roles).",
+    "<strong>Implementation Guide</strong> &mdash; create + configure resource accounts, license and enroll devices, apply room/meeting policies, onboard to the Pro management portal (monitoring/updates), set peripheral standards, and validate a pilot room &mdash; pilot-first, each account/room named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (rooms join reliably, managed centrally, health green) plus Best Practices for a fleet of consistent rooms."
+  ],
+  "short": "Deploy and manage <strong>Microsoft Teams Rooms</strong> &mdash; resource accounts + licensing, device config + room policies, Pro management-portal monitoring/updates, peripheral standards, and health validation &mdash; so rooms are reliable and centrally managed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and manage Microsoft Teams Rooms — resource accounts + licensing, device config + room policies, Pro management-portal monitoring/updates, peripheral standards, and health validation — so rooms are reliable and centrally managed.",
+  "meta_title": "Microsoft Teams Rooms Deployment & Management",
+  "meta_description": "Deploy and manage Microsoft Teams Rooms: resource-account and licensing setup, device configuration and meeting-room policies, Teams Rooms Pro management portal (monitoring/updates), peripheral and front-of-room standards, and health validation. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Meeting rooms that just work &mdash; resource accounts and devices configured to a standard, managed from the Pro portal, health monitored &mdash; consistent, reliable, centrally run.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Microsoft Teams Rooms",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deployment & Management",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Resource Accounts · Pro Portal · Health",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ROOMS THAT FAIL",
+      "items": [
+        "Inconsistent config",
+        "No central mgmt",
+        "Peripheral issues",
+        "Join failures"
+      ]
+    },
+    "to": {
+      "label": "Reliable rooms",
+      "stat": "Standardized · managed"
+    },
+    "tagline": "PROVISION.  ENROLL.  MONITOR.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Resource Acct",
+        "sub": "Licensed"
+      },
+      {
+        "icon": "gear",
+        "title": "Device Config",
+        "sub": "Policies"
+      },
+      {
+        "icon": "cloud",
+        "title": "Pro Portal",
+        "sub": "Updates"
+      },
+      {
+        "icon": "chart",
+        "title": "Health",
+        "sub": "Monitored"
+      }
+    ]
+  }
+}

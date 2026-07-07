@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "sharepoint-online-permissions-access-management",
+    "title": "SharePoint Online Permissions & Access Management",
+    "category_path": [
+      "SharePoint"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SPOPERM-COMM-001",
+      "name": "SharePoint Online Permissions & Access Management — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Establish a <strong>SharePoint permissions &amp; access model</strong> &mdash; group-based access, standard permission levels, controlled unique-permissions/broken-inheritance, access reviews, and reporting &mdash; so access is intentional and auditable. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Get SharePoint permissions under control — no more broken inheritance</h3><p>SharePoint permissions rot into a tangle of broken inheritance, unique permissions, and over-shared sites nobody can audit. This solution establishes a <strong>permissions and access model</strong>: group-based access (SharePoint groups + Entra/M365 groups), a standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting &mdash; so who-can-see-what is intentional and auditable.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the permission model: SharePoint groups vs Entra/M365 groups, permission levels, inheritance vs unique permissions, access reviews, and reporting.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, IA/site structure, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define the group-based model + permission levels, remediate broken inheritance/unique permissions, wire site-access reviews, and stand up access reporting &mdash; pilot-first, each group/level named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (access group-based, inheritance intact where intended, over-share reduced) plus Best Practices for durable permission hygiene.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>SharePoint access made intentional and auditable &mdash; group-based, standard permission levels, broken inheritance remediated, reviews running &mdash; the permission tangle untangled.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SPOPERM-AccessReview.ps1</code> &mdash; Reporting / access review (READ-ONLY): produces \"Access Report - SPO - Report\" -- a who-has-access</li><li><code>SPOPERM-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Permission Audit - SPO - Discovery\" baseline for a site --</li><li><code>SPOPERM-Remediate-GroupAccess.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): moves a site to GROUP-BASED access -- ensures the standard</li><li><code>SPOPERM-Reset-Inheritance.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): resets scopes with BROKEN INHERITANCE back to inherit --</li><li><code>SPOPERM-Scope.ps1</code> &mdash; Scope / health helper (READ-ONLY): pre-flight check that the toolchain, sign-in, roles, and site scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Permissions & Access Management",
+      "meta_description": "Manage SharePoint Online permissions and access: group-based access (SharePoint groups + Entra/M365 groups), standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-permissions-access-management-commercial",
+      "image": "SPOPERM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOPERM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOPERM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOPERM-NPO-001",
+      "name": "SharePoint Online Permissions & Access Management — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Establish a SharePoint permissions & access model — group-based access, standard permission levels, controlled unique-permissions/broken-inheritance, access reviews, and reporting — so access is intentional and auditable. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Get SharePoint permissions under control — no more broken inheritance</h3><p>SharePoint permissions rot into a tangle of broken inheritance, unique permissions, and over-shared sites nobody can audit. This solution establishes a <strong>permissions and access model</strong>: group-based access (SharePoint groups + Entra/M365 groups), a standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting &mdash; so who-can-see-what is intentional and auditable.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the permission model: SharePoint groups vs Entra/M365 groups, permission levels, inheritance vs unique permissions, access reviews, and reporting.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, IA/site structure, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define the group-based model + permission levels, remediate broken inheritance/unique permissions, wire site-access reviews, and stand up access reporting &mdash; pilot-first, each group/level named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (access group-based, inheritance intact where intended, over-share reduced) plus Best Practices for durable permission hygiene.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SPOPERM-AccessReview.ps1</code> &mdash; Reporting / access review (READ-ONLY): produces \"Access Report - SPO - Report\" -- a who-has-access</li><li><code>SPOPERM-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Permission Audit - SPO - Discovery\" baseline for a site --</li><li><code>SPOPERM-Remediate-GroupAccess.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): moves a site to GROUP-BASED access -- ensures the standard</li><li><code>SPOPERM-Reset-Inheritance.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): resets scopes with BROKEN INHERITANCE back to inherit --</li><li><code>SPOPERM-Scope.ps1</code> &mdash; Scope / health helper (READ-ONLY): pre-flight check that the toolchain, sign-in, roles, and site scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Permissions & Access Management — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Manage SharePoint Online permissions and access: group-based access (SharePoint groups + Entra/M365 groups), standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-permissions-access-management-nonprofit",
+      "image": "SPOPERM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOPERM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOPERM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SPOPERM-GOV-001",
+      "name": "SharePoint Online Permissions & Access Management — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Establish a SharePoint permissions & access model — group-based access, standard permission levels, controlled unique-permissions/broken-inheritance, access reviews, and reporting — so access is intentional and auditable. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Get SharePoint permissions under control — no more broken inheritance</h3><p>SharePoint permissions rot into a tangle of broken inheritance, unique permissions, and over-shared sites nobody can audit. This solution establishes a <strong>permissions and access model</strong>: group-based access (SharePoint groups + Entra/M365 groups), a standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting &mdash; so who-can-see-what is intentional and auditable.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the permission model: SharePoint groups vs Entra/M365 groups, permission levels, inheritance vs unique permissions, access reviews, and reporting.</li><li><strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO admin, group source of truth, IA/site structure, governance stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define the group-based model + permission levels, remediate broken inheritance/unique permissions, wire site-access reviews, and stand up access reporting &mdash; pilot-first, each group/level named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (access group-based, inheritance intact where intended, over-share reduced) plus Best Practices for durable permission hygiene.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SPOPERM-AccessReview.ps1</code> &mdash; Reporting / access review (READ-ONLY): produces \"Access Report - SPO - Report\" -- a who-has-access</li><li><code>SPOPERM-Discovery.ps1</code> &mdash; Discovery (READ-ONLY): produces the \"Permission Audit - SPO - Discovery\" baseline for a site --</li><li><code>SPOPERM-Remediate-GroupAccess.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): moves a site to GROUP-BASED access -- ensures the standard</li><li><code>SPOPERM-Reset-Inheritance.ps1</code> &mdash; Remediation (SAFE BY DEFAULT / -WhatIf): resets scopes with BROKEN INHERITANCE back to inherit --</li><li><code>SPOPERM-Scope.ps1</code> &mdash; Scope / health helper (READ-ONLY): pre-flight check that the toolchain, sign-in, roles, and site scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SharePoint Online Permissions & Access Management — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Manage SharePoint Online permissions and access: group-based access (SharePoint groups + Entra/M365 groups), standard permission-level model, controlling unique permissions and broken inheritance, site-access reviews, and access reporting. Self-guided steps and PowerShell tools.",
+      "url_key": "sharepoint-online-permissions-access-management-government",
+      "image": "SPOPERM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "SPOPERM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "SPOPERM-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

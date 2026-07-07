@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSMTG",
+  "slug": "microsoft-teams-meetings-webinars-policy-configuration",
+  "title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Configure Teams meetings and webinars for a secure, consistent experience",
+  "problem": "Default meeting settings leave lobby, recording, and external-join controls inconsistent &mdash; a security and experience gap. This solution configures <strong>Teams meetings and webinars</strong>: meeting policies (lobby, recording/transcription, presenter roles), live events/webinars/town halls, meeting templates and sensitivity, and policy assignment by group &mdash; so meetings are secure, consistent, and fit-for-purpose.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the meeting model: meeting policies, webinars/town halls, templates + sensitivity, recording/transcription, and policy assignment.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams licensing incl. Premium where used, admin roles, groups, compliance stance).",
+    "<strong>Implementation Guide</strong> &mdash; design + apply meeting policies, configure webinars/town halls, build meeting templates + sensitivity, set recording/transcription policy, and assign by group &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (policies applied by group, lobby/recording correct) plus Best Practices for consistent, secure meetings."
+  ],
+  "short": "Configure <strong>Teams meetings &amp; webinars</strong> &mdash; meeting policies (lobby/recording/roles), webinars/town halls, templates + sensitivity, and group-based assignment &mdash; so meetings are secure and consistent. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Configure Teams meetings & webinars — meeting policies (lobby/recording/roles), webinars/town halls, templates + sensitivity, and group-based assignment — so meetings are secure and consistent.",
+  "meta_title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+  "meta_description": "Configure Microsoft Teams meetings and webinars: meeting policies (lobby, recording/transcription, presenter roles), webinars/town halls, meeting templates and sensitivity, and policy assignment by group. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Teams meetings secure and consistent &mdash; lobby, recording, and roles set by policy, webinars/town halls configured, templates applied &mdash; fit-for-purpose across the org.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Teams Meetings",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Webinars & Policies",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Lobby · Recording · Templates",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DEFAULT MEETINGS",
+      "items": [
+        "Inconsistent lobby",
+        "Recording gaps",
+        "No templates",
+        "Ad-hoc policy"
+      ]
+    },
+    "to": {
+      "label": "Consistent meetings",
+      "stat": "Secure · templated"
+    },
+    "tagline": "POLICY.  TEMPLATE.  ASSIGN.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Policies",
+        "sub": "Lobby/record"
+      },
+      {
+        "icon": "users",
+        "title": "Webinars",
+        "sub": "Town halls"
+      },
+      {
+        "icon": "gear",
+        "title": "Templates",
+        "sub": "Sensitivity"
+      },
+      {
+        "icon": "shield",
+        "title": "Assign",
+        "sub": "By group"
+      }
+    ]
+  }
+}

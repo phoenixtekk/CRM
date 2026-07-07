@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Teams Apps",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Integration Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Policies · Allow/Block · Consent",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED APPS",
+    "items": [
+      "Any app allowed",
+      "Risky permissions",
+      "No vetting",
+      "Data exposure"
+    ]
+  },
+  "to": {
+    "label": "Governed apps",
+    "stat": "Vetted · scoped"
+  },
+  "tagline": "POLICY.  VET.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Policies",
+      "sub": "Permission/setup"
+    },
+    {
+      "icon": "shield",
+      "title": "Allow/Block",
+      "sub": "Pinning"
+    },
+    {
+      "icon": "lock",
+      "title": "Consent",
+      "sub": "Reviewed"
+    },
+    {
+      "icon": "chart",
+      "title": "Vetting",
+      "sub": "Workflow"
+    }
+  ]
+}

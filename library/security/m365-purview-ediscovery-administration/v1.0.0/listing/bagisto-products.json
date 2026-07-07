@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "m365-purview-ediscovery-administration",
+    "title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export",
+    "category_path": [
+      "Security"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MSEDISC-COMM-001",
+      "name": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Operate <strong>Microsoft Purview eDiscovery</strong> &mdash; Content Search, Standard cases + holds, and Premium custodians/review sets/analytics/export &mdash; a defensible, repeatable workflow across Exchange, SharePoint, OneDrive and Teams. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Run Microsoft 365 eDiscovery end to end — search, hold, review, export</h3><p>Legal and investigation requests demand defensible <strong>eDiscovery</strong> across Exchange, SharePoint, OneDrive, and Teams &mdash; and ad-hoc content searches don't hold up. This solution operates <strong>Microsoft Purview eDiscovery</strong>: Content Search and keyword/condition query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export &mdash; with a defensible, repeatable workflow. (Scoped to eDiscovery/search/hold/export &mdash; distinct from Purview DLP, sensitivity labels, and retention.)</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the eDiscovery model: Content Search vs Standard vs Premium, cases, holds/custodians, review sets, analytics, and export &mdash; and how it differs from Purview DLP/labels/retention.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing for Standard/Premium, eDiscovery Manager/Admin roles, in-scope workloads, legal stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design searches (KQL, conditions), create cases + holds/custodians, build and review a review set, run analytics/de-dup, and export defensibly &mdash; pilot-first, each case/search named; determinations deferred to legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance / Graph PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (search scoped, holds effective, export complete + defensible) plus Best Practices; legal/records determinations deferred to legal.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>eDiscovery run defensibly and repeatably &mdash; searches scoped, holds effective, review sets analyzed, exports complete &mdash; across all M365 workloads, ready for legal.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MSEDISC-CaseHold.ps1</code> &mdash; create the case and a named case hold (dry-run by default)</li><li><code>MSEDISC-Discovery.ps1</code> &mdash; read-only eDiscovery posture, readiness, and role check</li><li><code>MSEDISC-Report.ps1</code> &mdash; search / hold / export status report (read-only evidence pack)</li><li><code>MSEDISC-Scope.ps1</code> &mdash; eDiscovery scope/config helper: compliance boundary + named-object check (dry-run by default)</li><li><code>MSEDISC-Search.ps1</code> &mdash; build and run a scoped Content Search (dry-run by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Holds & Export",
+      "meta_description": "Administer Microsoft Purview eDiscovery: Content Search and KQL query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export. Scoped to eDiscovery (distinct from Purview DLP/labels/retention). Self-guided steps and PowerShell tools.",
+      "url_key": "m365-purview-ediscovery-administration-commercial",
+      "image": "MSEDISC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MSEDISC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MSEDISC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MSEDISC-NPO-001",
+      "name": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Operate Microsoft Purview eDiscovery — Content Search, Standard cases + holds, and Premium custodians/review sets/analytics/export — a defensible, repeatable workflow across Exchange, SharePoint, OneDrive and Teams. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Run Microsoft 365 eDiscovery end to end — search, hold, review, export</h3><p>Legal and investigation requests demand defensible <strong>eDiscovery</strong> across Exchange, SharePoint, OneDrive, and Teams &mdash; and ad-hoc content searches don't hold up. This solution operates <strong>Microsoft Purview eDiscovery</strong>: Content Search and keyword/condition query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export &mdash; with a defensible, repeatable workflow. (Scoped to eDiscovery/search/hold/export &mdash; distinct from Purview DLP, sensitivity labels, and retention.)</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the eDiscovery model: Content Search vs Standard vs Premium, cases, holds/custodians, review sets, analytics, and export &mdash; and how it differs from Purview DLP/labels/retention.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing for Standard/Premium, eDiscovery Manager/Admin roles, in-scope workloads, legal stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design searches (KQL, conditions), create cases + holds/custodians, build and review a review set, run analytics/de-dup, and export defensibly &mdash; pilot-first, each case/search named; determinations deferred to legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance / Graph PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (search scoped, holds effective, export complete + defensible) plus Best Practices; legal/records determinations deferred to legal.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MSEDISC-CaseHold.ps1</code> &mdash; create the case and a named case hold (dry-run by default)</li><li><code>MSEDISC-Discovery.ps1</code> &mdash; read-only eDiscovery posture, readiness, and role check</li><li><code>MSEDISC-Report.ps1</code> &mdash; search / hold / export status report (read-only evidence pack)</li><li><code>MSEDISC-Scope.ps1</code> &mdash; eDiscovery scope/config helper: compliance boundary + named-object check (dry-run by default)</li><li><code>MSEDISC-Search.ps1</code> &mdash; build and run a scoped Content Search (dry-run by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Holds & Export — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Administer Microsoft Purview eDiscovery: Content Search and KQL query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export. Scoped to eDiscovery (distinct from Purview DLP/labels/retention). Self-guided steps and PowerShell tools.",
+      "url_key": "m365-purview-ediscovery-administration-nonprofit",
+      "image": "MSEDISC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MSEDISC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MSEDISC-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MSEDISC-GOV-001",
+      "name": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Operate Microsoft Purview eDiscovery — Content Search, Standard cases + holds, and Premium custodians/review sets/analytics/export — a defensible, repeatable workflow across Exchange, SharePoint, OneDrive and Teams. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Run Microsoft 365 eDiscovery end to end — search, hold, review, export</h3><p>Legal and investigation requests demand defensible <strong>eDiscovery</strong> across Exchange, SharePoint, OneDrive, and Teams &mdash; and ad-hoc content searches don't hold up. This solution operates <strong>Microsoft Purview eDiscovery</strong>: Content Search and keyword/condition query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export &mdash; with a defensible, repeatable workflow. (Scoped to eDiscovery/search/hold/export &mdash; distinct from Purview DLP, sensitivity labels, and retention.)</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the eDiscovery model: Content Search vs Standard vs Premium, cases, holds/custodians, review sets, analytics, and export &mdash; and how it differs from Purview DLP/labels/retention.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing for Standard/Premium, eDiscovery Manager/Admin roles, in-scope workloads, legal stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; design searches (KQL, conditions), create cases + holds/custodians, build and review a review set, run analytics/de-dup, and export defensibly &mdash; pilot-first, each case/search named; determinations deferred to legal.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance / Graph PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (search scoped, holds effective, export complete + defensible) plus Best Practices; legal/records determinations deferred to legal.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MSEDISC-CaseHold.ps1</code> &mdash; create the case and a named case hold (dry-run by default)</li><li><code>MSEDISC-Discovery.ps1</code> &mdash; read-only eDiscovery posture, readiness, and role check</li><li><code>MSEDISC-Report.ps1</code> &mdash; search / hold / export status report (read-only evidence pack)</li><li><code>MSEDISC-Scope.ps1</code> &mdash; eDiscovery scope/config helper: compliance boundary + named-object check (dry-run by default)</li><li><code>MSEDISC-Search.ps1</code> &mdash; build and run a scoped Content Search (dry-run by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Holds & Export — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Administer Microsoft Purview eDiscovery: Content Search and KQL query design, eDiscovery (Standard) cases and holds, and eDiscovery (Premium) custodians, review sets, analytics/de-duplication, and export. Scoped to eDiscovery (distinct from Purview DLP/labels/retention). Self-guided steps and PowerShell tools.",
+      "url_key": "m365-purview-ediscovery-administration-government",
+      "image": "MSEDISC-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "MSEDISC-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "MSEDISC-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

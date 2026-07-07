@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-teams-governance-lifecycle-management",
+  "title": "Microsoft Teams Governance & Lifecycle Management",
+  "category": "Teams",
+  "category_slug": "teams",
+  "sol_code": "TEAMSGOV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "products": [
+    {
+      "sku": "PTK-TEAMSGOV-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-TEAMSGOV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-TEAMSGOV-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "TEAMSGOV-Solution.pdf",
+    "TEAMSGOV-Scripts.zip"
+  ],
+  "hero": "TEAMSGOV-hero.png"
+}
+

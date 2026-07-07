@@ -1,0 +1,13 @@
+# 7. Best Practices — Microsoft Teams Apps & Integration Governance
+
+- **Govern the permissions, not just the icons.** The risk in a Teams app is the Graph permissions it holds. Review `Consent Review – Teams Apps – Report` on every cycle and treat a new high-risk grant (mail, files, directory, full-access) as an event, not a footnote.
+- **Default to a curated allow list.** Allowing "all apps except a block list" is a losing race against the store. Allow only vetted apps for most users; expand the list deliberately through the vetting workflow.
+- **Always dry-run before you change a policy.** Run `TEAMSAPPS-Configure.ps1 -WhatIf` and `TEAMSAPPS-Set-ScopeTargeting.ps1 -WhatIf` first — `-WhatIf` is the default for a reason. Committing is a separate, deliberate step.
+- **Pilot before Global, every time.** Assign tightened policies to `App Governance Pilot – Users – Pilot` first; a blocked app disappearing from a user's app bar is high-impact. Prove it on a tolerant group, then expand.
+- **Vet objectively, on documented criteria.** Approve apps against `App Vetting Register – Apps – AllStages` (publisher, Microsoft 365 Certification / Publisher Attestation, requested permissions, data residency) — not on a case-by-case hunch.
+- **Control custom/LOB uploads deliberately.** Sideloaded apps ship with whatever permissions their developer requested. Permit uploads only where needed, gate LOB publishing to the tenant catalog behind the vetting workflow, and keep the org-wide custom-apps setting off for populations that don't need it.
+- **Keep a rollback ready.** Reset a population to the Global (Org-wide default) policies or re-Allow a specific app on the Manage apps page. Because you piloted first, a broad rollback should be rare — but the path stays documented.
+- **Separate the technical method from the risk decision.** You provide the inventory and risk flags; whether a permission is *acceptable* is your security/app-governance stakeholders' call. Don't approve risky consent unilaterally.
+- **Reserve Global Admin for consent grants.** Do day-to-day app governance as Teams Administrator; use Global Administrator only to grant/revoke tenant-wide admin consent — least privilege throughout.
+- **Verify plan- and cloud-dependent behavior in your tenant.** Store-app availability, portal URLs, and the exact PowerShell/Graph parity for org-wide toggles differ by cloud (Commercial vs GCC/GCC High/DoD) and drift between module versions — confirm before scripting, never assume.
+- **Make it recurring, not a one-off.** A one-time cleanup regresses as the store, user requests, and LOB versions change. Schedule the read-only `Discovery → ConsentReport → Validation` chain monthly and route new apps through the register.

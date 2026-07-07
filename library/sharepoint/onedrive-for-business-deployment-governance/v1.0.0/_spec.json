@@ -1,0 +1,83 @@
+{
+  "sol": "ODFBGOV",
+  "slug": "onedrive-for-business-deployment-governance",
+  "title": "OneDrive for Business Deployment & Governance",
+  "category": "SharePoint",
+  "category_slug": "sharepoint",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-sharepoint.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 SharePoint administration).",
+    "SharePoint Online Management Shell / PnP PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Deploy OneDrive for Business with sync, KFM, and governance done right",
+  "problem": "OneDrive is where users' files live &mdash; deployed carelessly it means data loss, uncontrolled sync, and sharing risk. This solution deploys and governs <strong>OneDrive for Business</strong>: client deployment and silent config, <strong>Known Folder Move (KFM)</strong>, sync controls (allow/block, restricted domains), storage and retention, sharing alignment, and offboarding/data-retention on departure &mdash; so user data is protected, synced, and governed.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the OneDrive model: client deployment + silent sign-in, KFM, sync controls, storage/retention, sharing, and offboarding.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (SPO/OneDrive admin, client-deployment channel (Intune/GPO), storage/retention policy, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; deploy + silently configure the client, enable KFM, set sync controls (allow/block, restricted domains), set storage + retention, align sharing, and define offboarding/data-retention &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic SharePoint Online Management Shell / PnP PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (client deployed, KFM redirecting, sync controlled, offboarding works) plus Best Practices for OneDrive governance."
+  ],
+  "short": "Deploy and govern <strong>OneDrive for Business</strong> &mdash; client deployment + silent config, Known Folder Move, sync controls, storage/retention, sharing alignment, and offboarding &mdash; so user data is protected and governed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and govern OneDrive for Business — client deployment + silent config, Known Folder Move, sync controls, storage/retention, sharing alignment, and offboarding — so user data is protected and governed.",
+  "meta_title": "OneDrive for Business Deployment & Governance",
+  "meta_description": "Deploy and govern OneDrive for Business: client deployment and silent configuration, Known Folder Move (KFM), sync controls (allow/block, restricted domains), storage and retention, sharing alignment, and offboarding/data-retention. Self-guided steps and PowerShell tools.",
+  "bottom_line": "User files protected, synced, and governed &mdash; OneDrive deployed silently, Known Folders redirected, sync controlled, offboarding handled &mdash; no more data loss on a lost laptop.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "OneDrive for Business",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deployment & Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "KFM · Sync Controls · Offboarding",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED ONEDRIVE",
+      "items": [
+        "Data loss risk",
+        "No KFM",
+        "Uncontrolled sync",
+        "Messy offboarding"
+      ]
+    },
+    "to": {
+      "label": "Governed OneDrive",
+      "stat": "Protected · synced"
+    },
+    "tagline": "DEPLOY.  REDIRECT.  GOVERN.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Client",
+        "sub": "Silent"
+      },
+      {
+        "icon": "gear",
+        "title": "KFM",
+        "sub": "Redirect"
+      },
+      {
+        "icon": "shield",
+        "title": "Sync",
+        "sub": "Controlled"
+      },
+      {
+        "icon": "lock",
+        "title": "Offboard",
+        "sub": "Retained"
+      }
+    ]
+  }
+}

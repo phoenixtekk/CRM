@@ -1,0 +1,83 @@
+{
+  "sol": "TEAMSEXT",
+  "slug": "microsoft-teams-external-guest-access-governance",
+  "title": "Microsoft Teams External Access & Guest Governance",
+  "category": "Teams",
+  "category_slug": "teams",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-teams.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft 365 Teams administration).",
+    "MicrosoftTeams PowerShell and the M365 admin center authored at exact detail from Microsoft public docs; plan-/version-dependent behavior (licensing/plan tiers, Premium features, Commercial vs Government cloud URLs like *.office365.us) cited or flagged 'verify in your tenant', never invented. Third-party devices/apps/tools at the pattern level. Automation is PowerShell — no hardcoded credentials or secrets in code. No client names. Compliance/legal determinations (records schedules, legal holds, info-barrier policy) deferred to compliance/legal."
+  ],
+  "hook": "Let people collaborate externally in Teams — safely and on policy",
+  "problem": "External and guest collaboration in Teams is powerful and risky &mdash; ungoverned, it leaks data and accumulates stale guests. This solution governs <strong>external access and guests</strong>: external access (federation) vs guest access, allow/block domains, guest entitlement and access reviews (Entra), shared channels (B2B direct connect), and sensitivity/expiration &mdash; so external collaboration is enabled and controlled.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; external access vs guest access vs shared channels (B2B direct connect), allow/block, guest lifecycle, and sensitivity.",
+    "<strong>Requirements Guide</strong> &mdash; prerequisites with how to <em>verify</em>/<em>implement</em> (Teams + Entra External ID, admin roles, cross-tenant access settings, governance stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; configure external/guest/shared-channel settings, set allow/block domains + cross-tenant access, wire guest access reviews + expiration, and apply sensitivity &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic MicrosoftTeams PowerShell / Microsoft Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (external scoped to policy, stale guests reviewed, shared channels controlled) plus Best Practices for safe external collaboration."
+  ],
+  "short": "Govern <strong>Teams external access &amp; guests</strong> &mdash; external/guest/shared-channel settings, allow/block domains, guest access reviews + expiration, and sensitivity &mdash; so external collaboration is enabled and controlled. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Govern Teams external access & guests — external/guest/shared-channel settings, allow/block domains, guest access reviews + expiration, and sensitivity — so external collaboration is enabled and controlled.",
+  "meta_title": "Microsoft Teams External Access & Guest Governance",
+  "meta_description": "Govern external and guest access in Microsoft Teams: external access (federation) vs guest access vs shared channels (B2B direct connect), allow/block domains, cross-tenant access settings, guest access reviews and expiration, and sensitivity. Self-guided steps and PowerShell tools.",
+  "bottom_line": "External collaboration in Teams, enabled and safe &mdash; external/guest/shared-channel scoped to policy, domains controlled, stale guests reviewed out &mdash; open but governed.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Teams External",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Guest Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Federation · Guests · Shared Channels",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED EXTERNAL",
+      "items": [
+        "Data leakage",
+        "Stale guests",
+        "Any domain",
+        "No reviews"
+      ]
+    },
+    "to": {
+      "label": "Governed external",
+      "stat": "Scoped · reviewed"
+    },
+    "tagline": "SCOPE.  ALLOW/BLOCK.  REVIEW.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "External",
+        "sub": "Federation"
+      },
+      {
+        "icon": "users",
+        "title": "Guests",
+        "sub": "Reviewed"
+      },
+      {
+        "icon": "cloud",
+        "title": "Shared Ch.",
+        "sub": "B2B connect"
+      },
+      {
+        "icon": "shield",
+        "title": "Sensitivity",
+        "sub": "Applied"
+      }
+    ]
+  }
+}
