@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Workspace",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Day-2 Admin & Operations",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "OU Design · Policy · Runbooks · Monitoring",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GO-LIVE FIREFIGHTING",
+    "items": [
+      "No ops model",
+      "Ad-hoc OU/policy",
+      "No monitoring",
+      "No runbooks"
+    ]
+  },
+  "to": {
+    "label": "Owned operations",
+    "stat": "Repeatable · auditable"
+  },
+  "tagline": "STRUCTURE.  MONITOR.  RUN.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "OU Design",
+      "sub": "Policy inherit"
+    },
+    {
+      "icon": "gear",
+      "title": "Runbooks",
+      "sub": "SOPs"
+    },
+    {
+      "icon": "chart",
+      "title": "Monitoring",
+      "sub": "Health checks"
+    },
+    {
+      "icon": "shield",
+      "title": "Change Ctrl",
+      "sub": "Drift detect"
+    }
+  ]
+}

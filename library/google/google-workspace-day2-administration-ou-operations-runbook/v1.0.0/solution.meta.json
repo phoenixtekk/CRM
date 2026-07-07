@@ -1,0 +1,41 @@
+{
+  "slug": "google-workspace-day2-administration-ou-operations-runbook",
+  "title": "Google Workspace Day-2 Administration & Operations Runbook (OU Design, Policy Governance & Runbooks)",
+  "category": "Google",
+  "category_slug": "google",
+  "sol_code": "GWDAY2",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace administration/governance/compliance).",
+    "Google Admin console / Cloud Identity authored at exact detail from Google public docs; version-/preview-dependent behavior flagged 'verify in your tenant', never invented. Regulatory/compliance INTERPRETATION (CMMC assessment outcomes, NIST 800-171 applicability, ITAR/DFARS determinations, C3PAO assessment scheduling) is deferred to the organization's compliance/legal/assessor — the solution provides the technical control mapping, configuration method, and evidence, not the certification determination. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GWDAY2-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-GWDAY2-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-GWDAY2-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "GWDAY2-Solution.pdf",
+    "GWDAY2-Scripts.zip"
+  ],
+  "hero": "GWDAY2-hero.png"
+}
+

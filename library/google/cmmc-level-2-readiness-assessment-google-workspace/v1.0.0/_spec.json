@@ -1,0 +1,83 @@
+{
+  "sol": "GWCMMC",
+  "slug": "cmmc-level-2-readiness-assessment-google-workspace",
+  "title": "CMMC Level 2 Readiness & Assessment Prep on Google Workspace (NIST SP 800-171)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace administration/governance/compliance).",
+    "Google Admin console / Cloud Identity authored at exact detail from Google public docs; version-/preview-dependent behavior flagged 'verify in your tenant', never invented. Regulatory/compliance INTERPRETATION (CMMC assessment outcomes, NIST 800-171 applicability, ITAR/DFARS determinations, C3PAO assessment scheduling) is deferred to the organization's compliance/legal/assessor — the solution provides the technical control mapping, configuration method, and evidence, not the certification determination. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Get Google Workspace ready for CMMC Level 2 assessment",
+  "problem": "Defense-supply-chain organizations handling CUI on Google Workspace must meet <strong>CMMC Level 2</strong> &mdash; the 110 <strong>NIST SP 800-171</strong> controls &mdash; and be ready for a C3PAO assessment. This solution is the readiness playbook: map the applicable NIST 800-171 controls to Google Workspace capabilities (Assured Controls, access, DLP, logging, encryption), configure and evidence them, define the CUI boundary, and build the <strong>SSP and POA&amp;M</strong> &mdash; so the tenant is configured, evidenced, and assessment-ready. Certification determinations stay with your assessor/compliance team.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; CMMC L2 and the NIST 800-171 control families, the CUI boundary on Google Workspace, Assured Controls / GCC enablement, and the SSP/POA&amp;M/evidence model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace edition supporting Assured Controls/GCC, CUI scope, compliance/assessor stakeholders, data map).",
+    "<strong>Implementation Guide</strong> &mdash; define the CUI boundary, map NIST 800-171 controls to Workspace configuration, apply and evidence the controls (access, DLP, logging, encryption, MFA), and build the SSP + POA&amp;M &mdash; pilot-first; assessment/certification determinations deferred to the C3PAO/compliance.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or operations helper, a validation/report generator, a policy/health or control check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (controls configured + evidenced, SSP/POA&amp;M complete, boundary enforced) plus Best Practices; NIST 800-171 references cited, assessment outcomes not asserted."
+  ],
+  "short": "Get Google Workspace <strong>CMMC Level 2 assessment-ready</strong> &mdash; NIST SP 800-171 control mapping, CUI boundary, Assured Controls/GCC configuration + evidence, and the SSP &amp; POA&amp;M &mdash; so the tenant is configured, evidenced, and ready for a C3PAO. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Get Google Workspace CMMC Level 2 assessment-ready — NIST SP 800-171 control mapping, CUI boundary, Assured Controls/GCC configuration + evidence, and the SSP & POA&M — so the tenant is configured, evidenced, and ready for a C3PAO.",
+  "meta_title": "CMMC Level 2 Readiness & Assessment Prep on Google Workspace (NIST SP 800-171)",
+  "meta_description": "Prepare Google Workspace for CMMC Level 2: NIST SP 800-171 control mapping, CUI boundary, Assured Controls/GCC configuration and evidence, and SSP + POA&M development for C3PAO assessment. Self-guided steps and Python tools; certification determinations deferred to assessor/compliance.",
+  "bottom_line": "Google Workspace configured, evidenced, and CMMC Level 2 assessment-ready &mdash; NIST 800-171 controls mapped and applied, CUI boundary enforced, SSP and POA&M in hand &mdash; the certification call stays with your assessor.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "CMMC Level 2 Readiness",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "on Google Workspace",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "NIST 800-171 · CUI · SSP · POA&M",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "NOT ASSESSMENT-READY",
+      "items": [
+        "Controls unmapped",
+        "No CUI boundary",
+        "No SSP/POA&M",
+        "No evidence"
+      ]
+    },
+    "to": {
+      "label": "Assessment-ready",
+      "stat": "Configured · evidenced"
+    },
+    "tagline": "MAP.  CONFIGURE.  EVIDENCE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "800-171",
+        "sub": "Mapped"
+      },
+      {
+        "icon": "lock",
+        "title": "CUI Boundary",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "chart",
+        "title": "SSP/POA&M",
+        "sub": "Built"
+      },
+      {
+        "icon": "key",
+        "title": "Controls",
+        "sub": "Evidenced"
+      }
+    ]
+  }
+}

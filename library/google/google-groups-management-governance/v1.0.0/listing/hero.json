@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Groups",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Management & Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Types · Lifecycle · Membership · Security",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GROUP SPRAWL",
+    "items": [
+      "Stale groups",
+      "Over-permissioned",
+      "External exposure",
+      "No lifecycle"
+    ]
+  },
+  "to": {
+    "label": "Governed Groups",
+    "stat": "Intentional · auditable"
+  },
+  "tagline": "TYPE.  GOVERN.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Types",
+      "sub": "Naming"
+    },
+    {
+      "icon": "gear",
+      "title": "Lifecycle",
+      "sub": "Review/retire"
+    },
+    {
+      "icon": "lock",
+      "title": "Membership",
+      "sub": "Scoped"
+    },
+    {
+      "icon": "shield",
+      "title": "Security",
+      "sub": "Dynamic/sec"
+    }
+  ]
+}

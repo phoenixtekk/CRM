@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "CMMC Level 2 Readiness",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "on Google Workspace",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "NIST 800-171 · CUI · SSP · POA&M",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NOT ASSESSMENT-READY",
+    "items": [
+      "Controls unmapped",
+      "No CUI boundary",
+      "No SSP/POA&M",
+      "No evidence"
+    ]
+  },
+  "to": {
+    "label": "Assessment-ready",
+    "stat": "Configured · evidenced"
+  },
+  "tagline": "MAP.  CONFIGURE.  EVIDENCE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "800-171",
+      "sub": "Mapped"
+    },
+    {
+      "icon": "lock",
+      "title": "CUI Boundary",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "chart",
+      "title": "SSP/POA&M",
+      "sub": "Built"
+    },
+    {
+      "icon": "key",
+      "title": "Controls",
+      "sub": "Evidenced"
+    }
+  ]
+}

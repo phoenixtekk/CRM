@@ -1148,5 +1148,20 @@
     "post_id": 12284,
     "status": "draft",
     "category_id": 411
+  },
+  "google-workspace-day2-administration-ou-operations-runbook": {
+    "post_id": 12286,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-groups-management-governance": {
+    "post_id": 12288,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cmmc-level-2-readiness-assessment-google-workspace": {
+    "post_id": 12290,
+    "status": "draft",
+    "category_id": 411
   }
 }

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "google-groups-management-governance",
+    "title": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWGROUPS-COMM-001",
+      "name": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Establish <strong>Google Groups management &amp; governance</strong> &mdash; types/naming, lifecycle (request&rarr;approve&rarr;review&rarr;retire), membership/ownership, dynamic + security groups, external/posting policy, and access-settings hygiene &mdash; so Groups are intentional, least-exposed, and auditable. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Get Google Groups under a real management and governance model</h3><p>Google Groups quietly control mail distribution, access, and collaboration &mdash; and left unmanaged they become a sprawl of stale, over-permissioned, externally-exposed groups. This solution establishes <strong>Groups management &amp; governance</strong>: group types and naming, the lifecycle (request &rarr; approve &rarr; review &rarr; retire), membership and ownership models, dynamic groups, security groups, external-membership and posting policy, and access-settings hygiene &mdash; so Groups are intentional, least-exposed, and auditable.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (Admin SDK / APIs).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Groups model: types &amp; naming, lifecycle, membership/ownership, dynamic vs security groups, external/posting policy, and access-settings governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, identity/HR source for membership, naming standard, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define types/naming + lifecycle, set membership/ownership and dynamic/security-group models, apply external-membership + posting + access-settings policy, and stand up review/retirement &mdash; pilot-first, each group/policy named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or operations helper, a validation/report generator, a policy/health or control check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (naming/policy enforced, no stale/orphaned groups, external exposure scoped) plus Best Practices for keeping Groups governed as they grow.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Google Groups made intentional and auditable &mdash; typed and named to standard, lifecycle-governed, membership and external exposure scoped, no stale or orphaned groups &mdash; control restored.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>groups_inventory_hygiene_assessment.py</code> &mdash; read-only Groups estate + hygiene baseline (Stage 0)</li><li><code>groups_lifecycle_review_report.py</code> &mdash; owner-attested lifecycle/review report generator (read-only)</li><li><code>groups_membership_external_policy_checker.py</code> &mdash; external-membership & posting/access policy gate (read-only)</li><li><code>groups_naming_type_validator.py</code> &mdash; naming-convention & type-policy conformance gate (read-only)</li><li><code>groups_settings_policy_helper.py</code> &mdash; Groups settings/ownership config helper + baseline check (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security)",
+      "meta_description": "Govern Google Groups: group types and naming, lifecycle (request→approve→review→retire), membership/ownership models, dynamic and security groups, external-membership and posting policy, and access-settings hygiene. Self-guided steps and Python tools.",
+      "url_key": "google-groups-management-governance-commercial",
+      "image": "GWGROUPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWGROUPS-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWGROUPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWGROUPS-NPO-001",
+      "name": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Establish Google Groups management & governance — types/naming, lifecycle (request→approve→review→retire), membership/ownership, dynamic + security groups, external/posting policy, and access-settings hygiene — so Groups are intentional, least-exposed, and auditable. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Get Google Groups under a real management and governance model</h3><p>Google Groups quietly control mail distribution, access, and collaboration &mdash; and left unmanaged they become a sprawl of stale, over-permissioned, externally-exposed groups. This solution establishes <strong>Groups management &amp; governance</strong>: group types and naming, the lifecycle (request &rarr; approve &rarr; review &rarr; retire), membership and ownership models, dynamic groups, security groups, external-membership and posting policy, and access-settings hygiene &mdash; so Groups are intentional, least-exposed, and auditable.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Groups model: types &amp; naming, lifecycle, membership/ownership, dynamic vs security groups, external/posting policy, and access-settings governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, identity/HR source for membership, naming standard, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define types/naming + lifecycle, set membership/ownership and dynamic/security-group models, apply external-membership + posting + access-settings policy, and stand up review/retirement &mdash; pilot-first, each group/policy named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or operations helper, a validation/report generator, a policy/health or control check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (naming/policy enforced, no stale/orphaned groups, external exposure scoped) plus Best Practices for keeping Groups governed as they grow.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>groups_inventory_hygiene_assessment.py</code> &mdash; read-only Groups estate + hygiene baseline (Stage 0)</li><li><code>groups_lifecycle_review_report.py</code> &mdash; owner-attested lifecycle/review report generator (read-only)</li><li><code>groups_membership_external_policy_checker.py</code> &mdash; external-membership & posting/access policy gate (read-only)</li><li><code>groups_naming_type_validator.py</code> &mdash; naming-convention & type-policy conformance gate (read-only)</li><li><code>groups_settings_policy_helper.py</code> &mdash; Groups settings/ownership config helper + baseline check (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Govern Google Groups: group types and naming, lifecycle (request→approve→review→retire), membership/ownership models, dynamic and security groups, external-membership and posting policy, and access-settings hygiene. Self-guided steps and Python tools.",
+      "url_key": "google-groups-management-governance-nonprofit",
+      "image": "GWGROUPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWGROUPS-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWGROUPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWGROUPS-GOV-001",
+      "name": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Establish Google Groups management & governance — types/naming, lifecycle (request→approve→review→retire), membership/ownership, dynamic + security groups, external/posting policy, and access-settings hygiene — so Groups are intentional, least-exposed, and auditable. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Get Google Groups under a real management and governance model</h3><p>Google Groups quietly control mail distribution, access, and collaboration &mdash; and left unmanaged they become a sprawl of stale, over-permissioned, externally-exposed groups. This solution establishes <strong>Groups management &amp; governance</strong>: group types and naming, the lifecycle (request &rarr; approve &rarr; review &rarr; retire), membership and ownership models, dynamic groups, security groups, external-membership and posting policy, and access-settings hygiene &mdash; so Groups are intentional, least-exposed, and auditable.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Groups model: types &amp; naming, lifecycle, membership/ownership, dynamic vs security groups, external/posting policy, and access-settings governance.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, identity/HR source for membership, naming standard, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define types/naming + lifecycle, set membership/ownership and dynamic/security-group models, apply external-membership + posting + access-settings policy, and stand up review/retirement &mdash; pilot-first, each group/policy named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or operations helper, a validation/report generator, a policy/health or control check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (naming/policy enforced, no stale/orphaned groups, external exposure scoped) plus Best Practices for keeping Groups governed as they grow.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>groups_inventory_hygiene_assessment.py</code> &mdash; read-only Groups estate + hygiene baseline (Stage 0)</li><li><code>groups_lifecycle_review_report.py</code> &mdash; owner-attested lifecycle/review report generator (read-only)</li><li><code>groups_membership_external_policy_checker.py</code> &mdash; external-membership & posting/access policy gate (read-only)</li><li><code>groups_naming_type_validator.py</code> &mdash; naming-convention & type-policy conformance gate (read-only)</li><li><code>groups_settings_policy_helper.py</code> &mdash; Groups settings/ownership config helper + baseline check (dry-run default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Govern Google Groups: group types and naming, lifecycle (request→approve→review→retire), membership/ownership models, dynamic and security groups, external-membership and posting policy, and access-settings hygiene. Self-guided steps and Python tools.",
+      "url_key": "google-groups-management-governance-government",
+      "image": "GWGROUPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWGROUPS-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWGROUPS-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
