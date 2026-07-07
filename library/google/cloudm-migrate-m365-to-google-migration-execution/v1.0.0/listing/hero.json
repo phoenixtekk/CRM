@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "CloudM Migrate",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "M365 → Google Execution",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Platform · Profiles · Scan/Delta",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNPLANNED CUTOVER",
+    "items": [
+      "No profile design",
+      "Connection errors",
+      "Delta chaos",
+      "Unvalidated"
+    ]
+  },
+  "to": {
+    "label": "Reliable migration",
+    "stat": "Pre-staged · validated"
+  },
+  "tagline": "CONNECT.  PRE-STAGE.  CUTOVER.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Platform",
+      "sub": "Connections"
+    },
+    {
+      "icon": "gear",
+      "title": "Profile",
+      "sub": "User list"
+    },
+    {
+      "icon": "chart",
+      "title": "Passes",
+      "sub": "Scan/delta"
+    },
+    {
+      "icon": "shield",
+      "title": "Validation",
+      "sub": "Post-move"
+    }
+  ]
+}

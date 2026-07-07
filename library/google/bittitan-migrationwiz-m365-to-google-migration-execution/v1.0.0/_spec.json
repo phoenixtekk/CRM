@@ -1,0 +1,83 @@
+{
+  "sol": "BITTITAN",
+  "slug": "bittitan-migrationwiz-m365-to-google-migration-execution",
+  "title": "BitTitan MigrationWiz — M365 → Google Migration Execution",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Execute M365→Google migrations with BitTitan MigrationWiz",
+  "problem": "Many enterprises run their M365&rarr;Google move on <strong>BitTitan MigrationWiz</strong> &mdash; a SaaS migration platform for mail, documents, and collaboration. This solution is the MigrationWiz execution playbook: set up the project and endpoints (M365 + Google), deploy the Device Management Agent where needed, configure mail/document/Teams-to-Chat projects, run pre-stage and delta passes with throttling, and validate &mdash; so migrations run predictably at enterprise scale.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the MigrationWiz model (projects, endpoints, agents, pre-stage/delta passes), where it fits vs native tools, and the wave approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (MigrationWiz account + licensing, M365 + Google admin access/app registrations, endpoints, pilot scope).",
+    "<strong>Implementation Guide</strong> &mdash; create project + endpoints, configure mail/document/Teams projects, run pre-stage + delta passes with throttling, validate, then scale waves &mdash; pilot-first; MigrationWiz console internals + licensing deferred to BitTitan docs, procedure and sequencing given.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (pilot passes complete, delta clean, errors triaged) plus Best Practices for pre-stage/delta cutover sequencing."
+  ],
+  "short": "Execute M365&rarr;Google with <strong>BitTitan MigrationWiz</strong> &mdash; projects + endpoints, mail/document/Teams migrations, pre-stage and delta passes with throttling, and validation &mdash; so migrations run predictably at scale. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Execute M365→Google with BitTitan MigrationWiz — projects + endpoints, mail/document/Teams migrations, pre-stage and delta passes with throttling, and validation — so migrations run predictably at scale.",
+  "meta_title": "BitTitan MigrationWiz — M365 → Google Migration Execution",
+  "meta_description": "Execute enterprise M365→Google migrations with BitTitan MigrationWiz: projects and endpoints, mail/document/Teams migrations, pre-stage and delta passes with throttling, and post-migration validation. Self-guided steps and Python tools; console internals deferred to BitTitan docs.",
+  "bottom_line": "M365→Google migrations executed predictably on MigrationWiz &mdash; projects and endpoints set, pre-stage and delta passes run and validated &mdash; enterprise scale without surprises.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "BitTitan MigrationWiz",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "M365 → Google Execution",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Projects · Endpoints · Pre-Stage/Delta",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNPLANNED CUTOVER",
+      "items": [
+        "No project design",
+        "Endpoint errors",
+        "Delta chaos",
+        "Unvalidated"
+      ]
+    },
+    "to": {
+      "label": "Predictable migration",
+      "stat": "Pre-staged · validated"
+    },
+    "tagline": "PROJECT.  PRE-STAGE.  CUTOVER.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Endpoints",
+        "sub": "M365/Google"
+      },
+      {
+        "icon": "gear",
+        "title": "Projects",
+        "sub": "Mail/docs"
+      },
+      {
+        "icon": "chart",
+        "title": "Passes",
+        "sub": "Pre-stage/delta"
+      },
+      {
+        "icon": "shield",
+        "title": "Validation",
+        "sub": "Post-move"
+      }
+    ]
+  }
+}

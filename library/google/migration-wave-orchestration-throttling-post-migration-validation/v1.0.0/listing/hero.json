@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Migration Wave Orchestration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Throttling & Validation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Waves · Limits · Cutover · Validate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CHAOTIC CUTOVER",
+    "items": [
+      "Unbatched waves",
+      "Throttling hits",
+      "No validation",
+      "Firefighting"
+    ]
+  },
+  "to": {
+    "label": "Cutover on rails",
+    "stat": "Sequenced · evidenced"
+  },
+  "tagline": "WAVE.  THROTTLE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Waves",
+      "sub": "Batched"
+    },
+    {
+      "icon": "chart",
+      "title": "Throttling",
+      "sub": "API limits"
+    },
+    {
+      "icon": "shield",
+      "title": "Validation",
+      "sub": "Post-move"
+    },
+    {
+      "icon": "users",
+      "title": "Hypercare",
+      "sub": "Triage"
+    }
+  ]
+}

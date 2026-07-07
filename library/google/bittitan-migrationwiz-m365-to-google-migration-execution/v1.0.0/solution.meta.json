@@ -1,0 +1,41 @@
+{
+  "slug": "bittitan-migrationwiz-m365-to-google-migration-execution",
+  "title": "BitTitan MigrationWiz — M365 → Google Migration Execution",
+  "category": "Google",
+  "category_slug": "google",
+  "sol_code": "BITTITAN",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "products": [
+    {
+      "sku": "PTK-BITTITAN-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-BITTITAN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-BITTITAN-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "BITTITAN-Solution.pdf",
+    "BITTITAN-Scripts.zip"
+  ],
+  "hero": "BITTITAN-hero.png"
+}
+

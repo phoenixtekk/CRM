@@ -1,0 +1,83 @@
+{
+  "sol": "GWMAIL",
+  "slug": "gmail-mail-flow-routing-email-authentication-compliance",
+  "title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Get Gmail mail flow, routing, and email authentication right",
+  "problem": "Mail that silently lands in spam, spoofed domains, and compliance gaps trace back to <strong>mail flow, routing, and authentication</strong> that were never designed. This solution configures Gmail's enterprise mail plane end to end: inbound/outbound routing and hosts, split/dual delivery for coexistence, <strong>SPF, DKIM, and DMARC</strong> (monitor &rarr; enforce), content-compliance and routing rules, and attachment/spam controls &mdash; so mail is deliverable, authenticated, and compliant.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Gmail mail plane: routing/hosts, split &amp; dual delivery, SPF/DKIM/DMARC, content-compliance/routing rules, and the enforcement journey.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, DNS control for the domains, coexistence source if any, compliance policy).",
+    "<strong>Implementation Guide</strong> &mdash; configure routing/hosts, set up SPF/DKIM and DMARC (p=none &rarr; quarantine &rarr; reject with report review), build content-compliance + routing rules, and tune spam/attachment controls &mdash; pilot-first, each rule named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (auth passing, DMARC aligned, rules routing correctly) plus Best Practices for safely moving DMARC to enforcement without breaking legitimate senders."
+  ],
+  "short": "Design and configure the <strong>Gmail mail plane</strong> &mdash; routing/hosts, split/dual delivery, SPF/DKIM/DMARC (monitor&rarr;enforce), content-compliance and routing rules, spam/attachment controls &mdash; so mail is deliverable, authenticated, and compliant. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design and configure the Gmail mail plane — routing/hosts, split/dual delivery, SPF/DKIM/DMARC (monitor→enforce), content-compliance and routing rules, spam/attachment controls — so mail is deliverable, authenticated, and compliant.",
+  "meta_title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC)",
+  "meta_description": "Configure Gmail enterprise mail flow: inbound/outbound routing and hosts, split/dual delivery for coexistence, SPF/DKIM/DMARC (monitor to enforce), content-compliance and routing rules, and spam/attachment controls. Self-guided steps and Python tools.",
+  "bottom_line": "Gmail mail flow designed, not accidental &mdash; routing correct, SPF/DKIM/DMARC enforced with reporting, compliance rules in place &mdash; deliverable, authenticated, and audit-ready email.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Gmail Mail Flow & Routing",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "SPF · DKIM · DMARC",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Routing · Auth · Compliance Rules",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ACCIDENTAL MAIL PLANE",
+      "items": [
+        "Spam/deliverability",
+        "Spoofable domain",
+        "No DMARC",
+        "Ad-hoc routing"
+      ]
+    },
+    "to": {
+      "label": "Designed mail flow",
+      "stat": "Authenticated · compliant"
+    },
+    "tagline": "ROUTE.  AUTHENTICATE.  ENFORCE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Routing",
+        "sub": "Split/dual"
+      },
+      {
+        "icon": "key",
+        "title": "SPF/DKIM",
+        "sub": "Signed"
+      },
+      {
+        "icon": "shield",
+        "title": "DMARC",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "chart",
+        "title": "Compliance",
+        "sub": "Rules"
+      }
+    ]
+  }
+}

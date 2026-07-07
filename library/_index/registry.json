@@ -5677,6 +5677,172 @@
     "product_count": 3
   },
   {
+    "title": "BitTitan MigrationWiz — M365 → Google Migration Execution",
+    "slug": "bittitan-migrationwiz-m365-to-google-migration-execution",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "BITTITAN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-BITTITAN-COMM-001",
+      "PTK-BITTITAN-NPO-001",
+      "PTK-BITTITAN-GOV-001"
+    ],
+    "deliverables": [
+      "BITTITAN-Solution.pdf",
+      "BITTITAN-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\bittitan-migrationwiz-m365-to-google-migration-execution\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/02-requirements.md",
+          "kb": 10.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/03-implementation.md",
+          "kb": 9.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "btw-config-helper.py",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/scripts/btw-config-helper.py",
+          "kb": 6.5
+        },
+        {
+          "name": "btw-postmigration-validation.py",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/scripts/btw-postmigration-validation.py",
+          "kb": 7.6
+        },
+        {
+          "name": "btw-project-mapping-builder.py",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/scripts/btw-project-mapping-builder.py",
+          "kb": 6.4
+        },
+        {
+          "name": "btw-readiness-assessment.py",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/scripts/btw-readiness-assessment.py",
+          "kb": 7.0
+        },
+        {
+          "name": "btw-wave-planner.py",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/scripts/btw-wave-planner.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "BITTITAN-Complete-Solution.zip",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-Complete-Solution.zip",
+          "kb": 116.7
+        },
+        {
+          "name": "BITTITAN-hero.png",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-hero.png",
+          "kb": 436.7
+        },
+        {
+          "name": "BITTITAN-hero.svg",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "BITTITAN-Scripts.zip",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-Scripts.zip",
+          "kb": 13.4
+        },
+        {
+          "name": "BITTITAN-Solution.docx",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "BITTITAN-Solution.pdf",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-Solution.pdf",
+          "kb": 66.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/bittitan-migrationwiz-m365-to-google-migration-execution/v1.0.0/deliverables/BITTITAN-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory (SSO at Scale)",
     "slug": "cloud-identity-enterprise-idp-saml-app-integration",
     "category": "Google",
@@ -5840,6 +6006,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "CloudM Migrate — M365 → Google Migration Execution",
+    "slug": "cloudm-migrate-m365-to-google-migration-execution",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "CLOUDM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CLOUDM-COMM-001",
+      "PTK-CLOUDM-NPO-001",
+      "PTK-CLOUDM-GOV-001"
+    ],
+    "deliverables": [
+      "CLOUDM-Solution.pdf",
+      "CLOUDM-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\cloudm-migrate-m365-to-google-migration-execution\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/03-implementation.md",
+          "kb": 6.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "assess-migration-readiness.py",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/scripts/assess-migration-readiness.py",
+          "kb": 6.9
+        },
+        {
+          "name": "build-migration-userlist.py",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/scripts/build-migration-userlist.py",
+          "kb": 6.8
+        },
+        {
+          "name": "check-migration-health.py",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/scripts/check-migration-health.py",
+          "kb": 5.8
+        },
+        {
+          "name": "plan-migration-waves.py",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/scripts/plan-migration-waves.py",
+          "kb": 6.2
+        },
+        {
+          "name": "validate-migration-report.py",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/scripts/validate-migration-report.py",
+          "kb": 7.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CLOUDM-Complete-Solution.zip",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-Complete-Solution.zip",
+          "kb": 105.0
+        },
+        {
+          "name": "CLOUDM-hero.png",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-hero.png",
+          "kb": 422.2
+        },
+        {
+          "name": "CLOUDM-hero.svg",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CLOUDM-Scripts.zip",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-Scripts.zip",
+          "kb": 13.5
+        },
+        {
+          "name": "CLOUDM-Solution.docx",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-Solution.docx",
+          "kb": 55.0
+        },
+        {
+          "name": "CLOUDM-Solution.pdf",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-Solution.pdf",
+          "kb": 55.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/cloudm-migrate-m365-to-google-migration-execution/v1.0.0/deliverables/CLOUDM-hero.png",
     "product_count": 3
   },
   {
@@ -7005,6 +7337,172 @@
     "product_count": 3
   },
   {
+    "title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance",
+    "slug": "gmail-mail-flow-routing-email-authentication-compliance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMAIL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWMAIL-COMM-001",
+      "PTK-GWMAIL-NPO-001",
+      "PTK-GWMAIL-GOV-001"
+    ],
+    "deliverables": [
+      "GWMAIL-Solution.pdf",
+      "GWMAIL-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\gmail-mail-flow-routing-email-authentication-compliance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/02-requirements.md",
+          "kb": 7.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/03-implementation.md",
+          "kb": 9.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "dmarc_policy_planner.py",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/scripts/dmarc_policy_planner.py",
+          "kb": 4.3
+        },
+        {
+          "name": "dmarc_rua_analyzer.py",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/scripts/dmarc_rua_analyzer.py",
+          "kb": 5.7
+        },
+        {
+          "name": "mailauth_validate.py",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/scripts/mailauth_validate.py",
+          "kb": 5.3
+        },
+        {
+          "name": "mailplane_config_export.py",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/scripts/mailplane_config_export.py",
+          "kb": 6.3
+        },
+        {
+          "name": "mailplane_dns_audit.py",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/scripts/mailplane_dns_audit.py",
+          "kb": 7.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMAIL-Complete-Solution.zip",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-Complete-Solution.zip",
+          "kb": 104.0
+        },
+        {
+          "name": "GWMAIL-hero.png",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-hero.png",
+          "kb": 414.9
+        },
+        {
+          "name": "GWMAIL-hero.svg",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWMAIL-Scripts.zip",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "GWMAIL-Solution.docx",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-Solution.docx",
+          "kb": 56.0
+        },
+        {
+          "name": "GWMAIL-Solution.pdf",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-Solution.pdf",
+          "kb": 54.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/gmail-mail-flow-routing-email-authentication-compliance/v1.0.0/deliverables/GWMAIL-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Google Cloud FinOps — Billing, Budgets & Cost Governance",
     "slug": "google-cloud-finops-billing-cost-governance",
     "category": "Google",
@@ -7845,6 +8343,338 @@
     "product_count": 3
   },
   {
+    "title": "Google Drive & Shared Drives Architecture, Permissions & Governance",
+    "slug": "google-drive-shared-drives-architecture-permissions-governance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWDRIVEGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWDRIVEGOV-COMM-001",
+      "PTK-GWDRIVEGOV-NPO-001",
+      "PTK-GWDRIVEGOV-GOV-001"
+    ],
+    "deliverables": [
+      "GWDRIVEGOV-Solution.pdf",
+      "GWDRIVEGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-drive-shared-drives-architecture-permissions-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "drive_governance_config_helper.py",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/scripts/drive_governance_config_helper.py",
+          "kb": 6.0
+        },
+        {
+          "name": "drive_governance_report.py",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/scripts/drive_governance_report.py",
+          "kb": 6.3
+        },
+        {
+          "name": "drive_sharing_exposure_assessment.py",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/scripts/drive_sharing_exposure_assessment.py",
+          "kb": 6.3
+        },
+        {
+          "name": "external_sharing_policy_validator.py",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/scripts/external_sharing_policy_validator.py",
+          "kb": 5.1
+        },
+        {
+          "name": "shared_drive_provisioner.py",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/scripts/shared_drive_provisioner.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWDRIVEGOV-Complete-Solution.zip",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-Complete-Solution.zip",
+          "kb": 106.7
+        },
+        {
+          "name": "GWDRIVEGOV-hero.png",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-hero.png",
+          "kb": 460.8
+        },
+        {
+          "name": "GWDRIVEGOV-hero.svg",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GWDRIVEGOV-Scripts.zip",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-Scripts.zip",
+          "kb": 12.7
+        },
+        {
+          "name": "GWDRIVEGOV-Solution.docx",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-Solution.docx",
+          "kb": 56.1
+        },
+        {
+          "name": "GWDRIVEGOV-Solution.pdf",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-Solution.pdf",
+          "kb": 56.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-drive-shared-drives-architecture-permissions-governance/v1.0.0/deliverables/GWDRIVEGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Meet & Chat Enterprise Collaboration Design & Configuration",
+    "slug": "google-meet-chat-enterprise-collaboration-design",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMEETCHAT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GWMEETCHAT-COMM-001",
+      "PTK-GWMEETCHAT-NPO-001",
+      "PTK-GWMEETCHAT-GOV-001"
+    ],
+    "deliverables": [
+      "GWMEETCHAT-Solution.pdf",
+      "GWMEETCHAT-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-meet-chat-enterprise-collaboration-design\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "external_retention_policy_validator.py",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/scripts/external_retention_policy_validator.py",
+          "kb": 4.4
+        },
+        {
+          "name": "meet_chat_policy_health_check.py",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/scripts/meet_chat_policy_health_check.py",
+          "kb": 4.9
+        },
+        {
+          "name": "meet_chat_settings_assessment.py",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/scripts/meet_chat_settings_assessment.py",
+          "kb": 6.0
+        },
+        {
+          "name": "meet_chat_settings_config_helper.py",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/scripts/meet_chat_settings_config_helper.py",
+          "kb": 6.8
+        },
+        {
+          "name": "meet_chat_usage_report.py",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/scripts/meet_chat_usage_report.py",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMEETCHAT-Complete-Solution.zip",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-Complete-Solution.zip",
+          "kb": 104.9
+        },
+        {
+          "name": "GWMEETCHAT-hero.png",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-hero.png",
+          "kb": 498.4
+        },
+        {
+          "name": "GWMEETCHAT-hero.svg",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "GWMEETCHAT-Scripts.zip",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "GWMEETCHAT-Solution.docx",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "GWMEETCHAT-Solution.pdf",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-Solution.pdf",
+          "kb": 57.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-meet-chat-enterprise-collaboration-design/v1.0.0/deliverables/GWMEETCHAT-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
     "slug": "google-workspace-gemini-target-architecture-blueprint",
     "category": "Google",
@@ -8008,6 +8838,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Workspace Admin SDK & API Automation / Reporting Toolkit",
+    "slug": "google-workspace-admin-sdk-api-automation-reporting-toolkit",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWADMINSDK",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GWADMINSDK-COMM-001",
+      "PTK-GWADMINSDK-NPO-001",
+      "PTK-GWADMINSDK-GOV-001"
+    ],
+    "deliverables": [
+      "GWADMINSDK-Solution.pdf",
+      "GWADMINSDK-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-admin-sdk-api-automation-reporting-toolkit\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/02-requirements.md",
+          "kb": 5.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/03-implementation.md",
+          "kb": 7.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/05-testing.md",
+          "kb": 4.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "gwsdk_auth_scope_validator.py",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/scripts/gwsdk_auth_scope_validator.py",
+          "kb": 6.3
+        },
+        {
+          "name": "gwsdk_provision_users.py",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/scripts/gwsdk_provision_users.py",
+          "kb": 9.5
+        },
+        {
+          "name": "gwsdk_schedule_config_helper.py",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/scripts/gwsdk_schedule_config_helper.py",
+          "kb": 5.6
+        },
+        {
+          "name": "gwsdk_sharing_audit_report.py",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/scripts/gwsdk_sharing_audit_report.py",
+          "kb": 8.3
+        },
+        {
+          "name": "gwsdk_tenant_discovery.py",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/scripts/gwsdk_tenant_discovery.py",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWADMINSDK-Complete-Solution.zip",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-Complete-Solution.zip",
+          "kb": 100.9
+        },
+        {
+          "name": "GWADMINSDK-hero.png",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-hero.png",
+          "kb": 467.6
+        },
+        {
+          "name": "GWADMINSDK-hero.svg",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWADMINSDK-Scripts.zip",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-Scripts.zip",
+          "kb": 13.9
+        },
+        {
+          "name": "GWADMINSDK-Solution.docx",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-Solution.docx",
+          "kb": 53.7
+        },
+        {
+          "name": "GWADMINSDK-Solution.pdf",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-Solution.pdf",
+          "kb": 50.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-admin-sdk-api-automation-reporting-toolkit/v1.0.0/deliverables/GWADMINSDK-hero.png",
     "product_count": 3
   },
   {
@@ -8177,6 +9173,172 @@
     "product_count": 3
   },
   {
+    "title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+    "slug": "google-workspace-migrate-deployment-large-scale-execution",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMIGRATE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWMIGRATE-COMM-001",
+      "PTK-GWMIGRATE-NPO-001",
+      "PTK-GWMIGRATE-GOV-001"
+    ],
+    "deliverables": [
+      "GWMIGRATE-Solution.pdf",
+      "GWMIGRATE-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-migrate-deployment-large-scale-execution\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/03-implementation.md",
+          "kb": 8.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "connection-mapping-generator.py",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/scripts/connection-mapping-generator.py",
+          "kb": 7.5
+        },
+        {
+          "name": "migration-health-check.py",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/scripts/migration-health-check.py",
+          "kb": 4.8
+        },
+        {
+          "name": "node-sizing-assessment.py",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/scripts/node-sizing-assessment.py",
+          "kb": 6.4
+        },
+        {
+          "name": "post-migration-validation.py",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/scripts/post-migration-validation.py",
+          "kb": 5.4
+        },
+        {
+          "name": "wave-batch-builder.py",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/scripts/wave-batch-builder.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMIGRATE-Complete-Solution.zip",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-Complete-Solution.zip",
+          "kb": 103.8
+        },
+        {
+          "name": "GWMIGRATE-hero.png",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-hero.png",
+          "kb": 409.6
+        },
+        {
+          "name": "GWMIGRATE-hero.svg",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GWMIGRATE-Scripts.zip",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-Scripts.zip",
+          "kb": 11.9
+        },
+        {
+          "name": "GWMIGRATE-Solution.docx",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-Solution.docx",
+          "kb": 55.1
+        },
+        {
+          "name": "GWMIGRATE-Solution.pdf",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-Solution.pdf",
+          "kb": 55.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-migrate-deployment-large-scale-execution/v1.0.0/deliverables/GWMIGRATE-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Google Workspace Security Baseline, DLP & Context-Aware Access (CAA)",
     "slug": "google-workspace-security-baseline-dlp-caa",
     "category": "Google",
@@ -8340,6 +9502,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/google-workspace-security-baseline-dlp-caa/v1.0.0/deliverables/GWSEC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "GWMME — Google Workspace Migration for Microsoft Exchange — Implementation",
+    "slug": "gwmme-google-workspace-migration-microsoft-exchange-implementation",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMME",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GWMME-COMM-001",
+      "PTK-GWMME-NPO-001",
+      "PTK-GWMME-GOV-001"
+    ],
+    "deliverables": [
+      "GWMME-Solution.pdf",
+      "GWMME-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\gwmme-google-workspace-migration-microsoft-exchange-implementation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "gwmme_batch_planner.py",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/scripts/gwmme_batch_planner.py",
+          "kb": 4.8
+        },
+        {
+          "name": "gwmme_config_helper.py",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/scripts/gwmme_config_helper.py",
+          "kb": 6.1
+        },
+        {
+          "name": "gwmme_discovery.py",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/scripts/gwmme_discovery.py",
+          "kb": 6.9
+        },
+        {
+          "name": "gwmme_prereq_validator.py",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/scripts/gwmme_prereq_validator.py",
+          "kb": 5.8
+        },
+        {
+          "name": "gwmme_validation_report.py",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/scripts/gwmme_validation_report.py",
+          "kb": 7.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMME-Complete-Solution.zip",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-Complete-Solution.zip",
+          "kb": 106.5
+        },
+        {
+          "name": "GWMME-hero.png",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-hero.png",
+          "kb": 400.2
+        },
+        {
+          "name": "GWMME-hero.svg",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWMME-Scripts.zip",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-Scripts.zip",
+          "kb": 12.2
+        },
+        {
+          "name": "GWMME-Solution.docx",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-Solution.docx",
+          "kb": 55.8
+        },
+        {
+          "name": "GWMME-Solution.pdf",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-Solution.pdf",
+          "kb": 57.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/gwmme-google-workspace-migration-microsoft-exchange-implementation/v1.0.0/deliverables/GWMME-hero.png",
     "product_count": 3
   },
   {
@@ -9004,6 +10332,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Migration Wave Orchestration, Throttling Management & Post-Migration Validation",
+    "slug": "migration-wave-orchestration-throttling-post-migration-validation",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWMIGOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWMIGOPS-COMM-001",
+      "PTK-GWMIGOPS-NPO-001",
+      "PTK-GWMIGOPS-GOV-001"
+    ],
+    "deliverables": [
+      "GWMIGOPS-Solution.pdf",
+      "GWMIGOPS-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\migration-wave-orchestration-throttling-post-migration-validation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "cutover-readiness.py",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/scripts/cutover-readiness.py",
+          "kb": 6.2
+        },
+        {
+          "name": "discovery-profile.py",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/scripts/discovery-profile.py",
+          "kb": 7.0
+        },
+        {
+          "name": "throttle-planner.py",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/scripts/throttle-planner.py",
+          "kb": 7.4
+        },
+        {
+          "name": "validate-migration.py",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/scripts/validate-migration.py",
+          "kb": 10.4
+        },
+        {
+          "name": "wave-batcher.py",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/scripts/wave-batcher.py",
+          "kb": 7.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWMIGOPS-Complete-Solution.zip",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-Complete-Solution.zip",
+          "kb": 116.6
+        },
+        {
+          "name": "GWMIGOPS-hero.png",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-hero.png",
+          "kb": 433.5
+        },
+        {
+          "name": "GWMIGOPS-hero.svg",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GWMIGOPS-Scripts.zip",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-Scripts.zip",
+          "kb": 14.7
+        },
+        {
+          "name": "GWMIGOPS-Solution.docx",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-Solution.docx",
+          "kb": 58.9
+        },
+        {
+          "name": "GWMIGOPS-Solution.pdf",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-Solution.pdf",
+          "kb": 64.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/migration-wave-orchestration-throttling-post-migration-validation/v1.0.0/deliverables/GWMIGOPS-hero.png",
     "product_count": 3
   },
   {

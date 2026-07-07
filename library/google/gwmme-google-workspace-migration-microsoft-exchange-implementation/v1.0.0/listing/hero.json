@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "GWMME",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Exchange → Gmail Migration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Configure · Map · Batch · Validate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MAIL MOVE RISK",
+    "items": [
+      "Wrong permissions",
+      "No batching plan",
+      "Throttling hits",
+      "Incomplete data"
+    ]
+  },
+  "to": {
+    "label": "Complete mailboxes",
+    "stat": "Batched · validated"
+  },
+  "tagline": "CONFIGURE.  MAP.  BATCH.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "GWMME",
+      "sub": "Configured"
+    },
+    {
+      "icon": "key",
+      "title": "Access",
+      "sub": "Service acct"
+    },
+    {
+      "icon": "chart",
+      "title": "Batches",
+      "sub": "Throttle-aware"
+    },
+    {
+      "icon": "shield",
+      "title": "Validation",
+      "sub": "Complete"
+    }
+  ]
+}

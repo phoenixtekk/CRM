@@ -1,0 +1,83 @@
+{
+  "sol": "CLOUDM",
+  "slug": "cloudm-migrate-m365-to-google-migration-execution",
+  "title": "CloudM Migrate — M365 → Google Migration Execution",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Execute M365→Google migrations with CloudM Migrate",
+  "problem": "<strong>CloudM Migrate</strong> is a common third-party engine for moving mail, files, and collaboration from Microsoft 365 to Google Workspace at scale. This solution is the CloudM execution playbook: configure the platform (hosted or self-hosted), connect M365 and Google, build the migration profile and user list, run scan/pre-stage and full/delta passes with throttling, and validate &mdash; so migrations complete reliably with minimal disruption.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the CloudM Migrate model (platform, connections, profiles, scan/pre-stage/delta), where it fits vs native + other tools, and the wave approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (CloudM platform + licensing, M365 + Google admin access/app registrations, user data, pilot scope).",
+    "<strong>Implementation Guide</strong> &mdash; configure the platform + connections, build the migration profile + user list, run scan/pre-stage + full/delta with throttling, validate, then scale waves &mdash; pilot-first; CloudM console internals + licensing deferred to CloudM docs, procedure and sequencing given.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (pilot complete, delta clean, errors triaged) plus Best Practices for reliable cutover sequencing."
+  ],
+  "short": "Execute M365&rarr;Google with <strong>CloudM Migrate</strong> &mdash; platform + connections, migration profile/user list, scan/pre-stage and full/delta passes with throttling, and validation &mdash; so migrations complete reliably. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Execute M365→Google with CloudM Migrate — platform + connections, migration profile/user list, scan/pre-stage and full/delta passes with throttling, and validation — so migrations complete reliably.",
+  "meta_title": "CloudM Migrate — M365 → Google Migration Execution",
+  "meta_description": "Execute enterprise M365→Google migrations with CloudM Migrate: platform and connections, migration profile and user list, scan/pre-stage and full/delta passes with throttling, and post-migration validation. Self-guided steps and Python tools; console internals deferred to CloudM docs.",
+  "bottom_line": "M365→Google migrations completed reliably on CloudM &mdash; platform connected, profiles built, pre-stage and delta passes run and validated &mdash; minimal disruption at scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "CloudM Migrate",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "M365 → Google Execution",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Platform · Profiles · Scan/Delta",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNPLANNED CUTOVER",
+      "items": [
+        "No profile design",
+        "Connection errors",
+        "Delta chaos",
+        "Unvalidated"
+      ]
+    },
+    "to": {
+      "label": "Reliable migration",
+      "stat": "Pre-staged · validated"
+    },
+    "tagline": "CONNECT.  PRE-STAGE.  CUTOVER.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Platform",
+        "sub": "Connections"
+      },
+      {
+        "icon": "gear",
+        "title": "Profile",
+        "sub": "User list"
+      },
+      {
+        "icon": "chart",
+        "title": "Passes",
+        "sub": "Scan/delta"
+      },
+      {
+        "icon": "shield",
+        "title": "Validation",
+        "sub": "Post-move"
+      }
+    ]
+  }
+}

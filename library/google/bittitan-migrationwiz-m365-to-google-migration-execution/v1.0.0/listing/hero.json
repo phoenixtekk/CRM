@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "BitTitan MigrationWiz",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "M365 → Google Execution",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Projects · Endpoints · Pre-Stage/Delta",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNPLANNED CUTOVER",
+    "items": [
+      "No project design",
+      "Endpoint errors",
+      "Delta chaos",
+      "Unvalidated"
+    ]
+  },
+  "to": {
+    "label": "Predictable migration",
+    "stat": "Pre-staged · validated"
+  },
+  "tagline": "PROJECT.  PRE-STAGE.  CUTOVER.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Endpoints",
+      "sub": "M365/Google"
+    },
+    {
+      "icon": "gear",
+      "title": "Projects",
+      "sub": "Mail/docs"
+    },
+    {
+      "icon": "chart",
+      "title": "Passes",
+      "sub": "Pre-stage/delta"
+    },
+    {
+      "icon": "shield",
+      "title": "Validation",
+      "sub": "Post-move"
+    }
+  ]
+}

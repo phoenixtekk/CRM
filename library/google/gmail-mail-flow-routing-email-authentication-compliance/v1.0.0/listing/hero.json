@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Gmail Mail Flow & Routing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SPF · DKIM · DMARC",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Routing · Auth · Compliance Rules",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ACCIDENTAL MAIL PLANE",
+    "items": [
+      "Spam/deliverability",
+      "Spoofable domain",
+      "No DMARC",
+      "Ad-hoc routing"
+    ]
+  },
+  "to": {
+    "label": "Designed mail flow",
+    "stat": "Authenticated · compliant"
+  },
+  "tagline": "ROUTE.  AUTHENTICATE.  ENFORCE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Routing",
+      "sub": "Split/dual"
+    },
+    {
+      "icon": "key",
+      "title": "SPF/DKIM",
+      "sub": "Signed"
+    },
+    {
+      "icon": "shield",
+      "title": "DMARC",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "chart",
+      "title": "Compliance",
+      "sub": "Rules"
+    }
+  ]
+}

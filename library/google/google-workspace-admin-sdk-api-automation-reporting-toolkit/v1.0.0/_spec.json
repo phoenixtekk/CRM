@@ -1,0 +1,83 @@
+{
+  "sol": "GWADMINSDK",
+  "slug": "google-workspace-admin-sdk-api-automation-reporting-toolkit",
+  "title": "Google Workspace Admin SDK & API Automation / Reporting Toolkit",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Automate and report on Google Workspace with the Admin SDK and APIs",
+  "problem": "Manual admin work and screenshot &lsquo;reports&rsquo; don&rsquo;t scale in a large Workspace tenant. This solution builds an <strong>Admin SDK &amp; API automation/reporting toolkit</strong>: a secure service identity (OAuth / domain-wide delegation done right), authenticated Python against the Directory, Reports, Drive, and Groups APIs, reusable automation and reporting patterns (provisioning, license, sharing, and audit reports), and a scheduling model &mdash; so administration and evidence are automated, repeatable, and auditable.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the automation model: auth (OAuth / domain-wide delegation, least-scope), the key APIs (Directory/Reports/Drive/Groups), reusable patterns, and scheduling.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace super-admin, a project + service identity, least-privilege scopes, Python toolchain).",
+    "<strong>Implementation Guide</strong> &mdash; set up the service identity + least-scope auth, build authenticated API access, implement automation + reporting patterns, and schedule them &mdash; pilot-first; no keys in code (use a secured credential/ADC).",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (auth least-scope, reports accurate, automation idempotent) plus Best Practices for secure, maintainable Workspace automation."
+  ],
+  "short": "Build a <strong>Google Workspace Admin SDK &amp; API automation/reporting toolkit</strong> &mdash; secure least-scope auth, Python against Directory/Reports/Drive/Groups, reusable automation + reporting patterns, and scheduling &mdash; so administration and evidence are automated and auditable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a Google Workspace Admin SDK & API automation/reporting toolkit — secure least-scope auth, Python against Directory/Reports/Drive/Groups, reusable automation + reporting patterns, and scheduling — so administration and evidence are automated and auditable.",
+  "meta_title": "Google Workspace Admin SDK & API Automation / Reporting Toolkit",
+  "meta_description": "Automate and report on Google Workspace with the Admin SDK and APIs: secure least-scope auth (OAuth / domain-wide delegation), Python against Directory/Reports/Drive/Groups, reusable automation and reporting patterns, and scheduling. Self-guided steps and Python tools; no keys in code.",
+  "bottom_line": "Workspace administration and reporting automated, repeatable, and auditable &mdash; secure least-scope API access, reusable provisioning/license/sharing/audit reports, scheduled &mdash; no more manual screenshots.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Workspace Admin SDK",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Automation & Reporting",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "APIs · Least-Scope · Scheduled",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MANUAL ADMIN",
+      "items": [
+        "Screenshot reports",
+        "No automation",
+        "Broad scopes",
+        "Not repeatable"
+      ]
+    },
+    "to": {
+      "label": "Automated & auditable",
+      "stat": "Least-scope · scheduled"
+    },
+    "tagline": "AUTHENTICATE.  AUTOMATE.  REPORT.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Auth",
+        "sub": "Least-scope"
+      },
+      {
+        "icon": "gear",
+        "title": "Automation",
+        "sub": "Patterns"
+      },
+      {
+        "icon": "chart",
+        "title": "Reporting",
+        "sub": "Audit-ready"
+      },
+      {
+        "icon": "cloud",
+        "title": "Scheduled",
+        "sub": "Repeatable"
+      }
+    ]
+  }
+}

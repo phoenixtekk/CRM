@@ -1,0 +1,83 @@
+{
+  "sol": "GWMIGOPS",
+  "slug": "migration-wave-orchestration-throttling-post-migration-validation",
+  "title": "Migration Wave Orchestration, Throttling Management & Post-Migration Validation",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Run migration cutovers on rails — waved, throttled, and validated",
+  "problem": "A migration <em>plan</em> isn't a migration <em>execution</em>. This solution is the tool-agnostic <strong>cutover operations</strong> layer that sits over whatever engine you use: batch users into waves, manage throttling and API limits (Microsoft &amp; Google), sequence pre-stage &rarr; delta &rarr; cutover, run <strong>post-migration validation</strong> (item counts, permissions, mail flow, delegates), and drive hypercare issue triage &mdash; so cutovers finish clean with evidence, not surprises.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the cutover-ops model: wave batching, throttling/API-limit management, pre-stage/delta/cutover sequencing, validation, and hypercare &mdash; tool-agnostic.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (a chosen migration engine, M365 + Google admin access, user/wave data, validation criteria, hypercare team).",
+    "<strong>Implementation Guide</strong> &mdash; build wave batches, set throttling/limit strategy, sequence pre-stage/delta/cutover, run post-migration validation, and operate hypercare triage &mdash; pilot-first, each wave named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (waves cut over clean, validation passes, issues triaged within SLA) plus Best Practices for throttling and cutover sequencing."
+  ],
+  "short": "Run migration <strong>cutover operations</strong> tool-agnostically &mdash; wave batching, throttling/API-limit management, pre-stage/delta/cutover sequencing, post-migration validation, and hypercare triage &mdash; so cutovers finish clean with evidence. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Run migration cutover operations tool-agnostically — wave batching, throttling/API-limit management, pre-stage/delta/cutover sequencing, post-migration validation, and hypercare triage — so cutovers finish clean with evidence.",
+  "meta_title": "Migration Wave Orchestration, Throttling & Post-Migration Validation",
+  "meta_description": "Operate M365→Google migration cutovers: wave batching, throttling and API-limit management (Microsoft + Google), pre-stage/delta/cutover sequencing, post-migration validation (counts, permissions, mail flow, delegates), and hypercare triage. Self-guided framework and Python tools.",
+  "bottom_line": "Cutovers run on rails &mdash; users waved, throttling managed, pre-stage/delta/cutover sequenced, and every migration validated with evidence &mdash; clean finishes, not surprises.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Migration Wave Orchestration",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Throttling & Validation",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Waves · Limits · Cutover · Validate",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "CHAOTIC CUTOVER",
+      "items": [
+        "Unbatched waves",
+        "Throttling hits",
+        "No validation",
+        "Firefighting"
+      ]
+    },
+    "to": {
+      "label": "Cutover on rails",
+      "stat": "Sequenced · evidenced"
+    },
+    "tagline": "WAVE.  THROTTLE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Waves",
+        "sub": "Batched"
+      },
+      {
+        "icon": "chart",
+        "title": "Throttling",
+        "sub": "API limits"
+      },
+      {
+        "icon": "shield",
+        "title": "Validation",
+        "sub": "Post-move"
+      },
+      {
+        "icon": "users",
+        "title": "Hypercare",
+        "sub": "Triage"
+      }
+    ]
+  }
+}

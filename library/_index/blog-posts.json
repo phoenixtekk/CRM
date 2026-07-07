@@ -1103,5 +1103,50 @@
     "post_id": 12266,
     "status": "draft",
     "category_id": 411
+  },
+  "gmail-mail-flow-routing-email-authentication-compliance": {
+    "post_id": 12268,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-drive-shared-drives-architecture-permissions-governance": {
+    "post_id": 12270,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-meet-chat-enterprise-collaboration-design": {
+    "post_id": 12272,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-migrate-deployment-large-scale-execution": {
+    "post_id": 12274,
+    "status": "draft",
+    "category_id": 411
+  },
+  "gwmme-google-workspace-migration-microsoft-exchange-implementation": {
+    "post_id": 12276,
+    "status": "draft",
+    "category_id": 411
+  },
+  "bittitan-migrationwiz-m365-to-google-migration-execution": {
+    "post_id": 12278,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloudm-migrate-m365-to-google-migration-execution": {
+    "post_id": 12280,
+    "status": "draft",
+    "category_id": 411
+  },
+  "migration-wave-orchestration-throttling-post-migration-validation": {
+    "post_id": 12282,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-admin-sdk-api-automation-reporting-toolkit": {
+    "post_id": 12284,
+    "status": "draft",
+    "category_id": 411
   }
 }

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "google-workspace-migrate-deployment-large-scale-execution",
+    "title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWMIGRATE-COMM-001",
+      "name": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Deploy and execute with <strong>Google Workspace Migrate</strong> &mdash; node platform, M365 + Google connections, mappings/bridges, throttled migration waves, and validation &mdash; so large-scale file and mail migrations run reliably. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Run large-scale M365→Google migrations with Google Workspace Migrate</h3><p>For enterprise-scale file and mailbox moves, <strong>Google Workspace Migrate</strong> is Google's native large-scale tool &mdash; but it needs node infrastructure, connections, and mappings designed correctly. This solution is the deployment + execution playbook: stand up the Migrate platform (nodes/database), connect Microsoft 365 and Google, build mappings and bridges, run scoped migration <strong>waves with throttling</strong>, and validate results &mdash; so SharePoint/OneDrive and mail move at scale, reliably.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (Admin SDK / APIs).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Google Workspace Migrate architecture (nodes, database, connections, mappings/bridges), where it fits vs other tools, and the wave model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (node infrastructure sizing, M365 + Google admin access/scopes, network, pilot scope).</li><li><strong>Implementation Guide</strong> &mdash; deploy the platform, configure connections + mappings, run a pilot wave with throttling, validate, then scale waves &mdash; pilot-first; tool-console internals deferred to Google's Migrate docs, procedure and sequencing given.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (pilot migrated + validated, throttling stable, error rate within threshold) plus Best Practices for large-scale wave execution.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Enterprise-scale migrations executed on Google's native tool &mdash; Migrate platform deployed, connections and mappings built, waves throttled and validated &mdash; reliable at scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>connection-mapping-generator.py</code> &mdash; build & validate the mapping CSVs and identity bridge for Google Workspace Migrate</li><li><code>migration-health-check.py</code> &mdash; check connection health and watch a running wave for throughput/throttling</li><li><code>node-sizing-assessment.py</code> &mdash; inventory the Microsoft 365 source and recommend Google Workspace Migrate node count</li><li><code>post-migration-validation.py</code> &mdash; validate a migrated wave against the source baseline (counts, permissions, mail)</li><li><code>wave-batch-builder.py</code> &mdash; group in-scope users/sites into migration waves and compute a throttling plan</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+      "meta_description": "Deploy and run Google Workspace Migrate for enterprise M365→Google migrations: node platform, M365/Google connections, mappings and bridges, throttled migration waves, and post-migration validation. Self-guided steps and Python tools; tool-console internals deferred to Google docs.",
+      "url_key": "google-workspace-migrate-deployment-large-scale-execution-commercial",
+      "image": "GWMIGRATE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWMIGRATE-NPO-001",
+      "name": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Deploy and execute with Google Workspace Migrate — node platform, M365 + Google connections, mappings/bridges, throttled migration waves, and validation — so large-scale file and mail migrations run reliably. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Run large-scale M365→Google migrations with Google Workspace Migrate</h3><p>For enterprise-scale file and mailbox moves, <strong>Google Workspace Migrate</strong> is Google's native large-scale tool &mdash; but it needs node infrastructure, connections, and mappings designed correctly. This solution is the deployment + execution playbook: stand up the Migrate platform (nodes/database), connect Microsoft 365 and Google, build mappings and bridges, run scoped migration <strong>waves with throttling</strong>, and validate results &mdash; so SharePoint/OneDrive and mail move at scale, reliably.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Google Workspace Migrate architecture (nodes, database, connections, mappings/bridges), where it fits vs other tools, and the wave model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (node infrastructure sizing, M365 + Google admin access/scopes, network, pilot scope).</li><li><strong>Implementation Guide</strong> &mdash; deploy the platform, configure connections + mappings, run a pilot wave with throttling, validate, then scale waves &mdash; pilot-first; tool-console internals deferred to Google's Migrate docs, procedure and sequencing given.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (pilot migrated + validated, throttling stable, error rate within threshold) plus Best Practices for large-scale wave execution.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>connection-mapping-generator.py</code> &mdash; build & validate the mapping CSVs and identity bridge for Google Workspace Migrate</li><li><code>migration-health-check.py</code> &mdash; check connection health and watch a running wave for throughput/throttling</li><li><code>node-sizing-assessment.py</code> &mdash; inventory the Microsoft 365 source and recommend Google Workspace Migrate node count</li><li><code>post-migration-validation.py</code> &mdash; validate a migrated wave against the source baseline (counts, permissions, mail)</li><li><code>wave-batch-builder.py</code> &mdash; group in-scope users/sites into migration waves and compute a throttling plan</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy and run Google Workspace Migrate for enterprise M365→Google migrations: node platform, M365/Google connections, mappings and bridges, throttled migration waves, and post-migration validation. Self-guided steps and Python tools; tool-console internals deferred to Google docs.",
+      "url_key": "google-workspace-migrate-deployment-large-scale-execution-nonprofit",
+      "image": "GWMIGRATE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWMIGRATE-GOV-001",
+      "name": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Deploy and execute with Google Workspace Migrate — node platform, M365 + Google connections, mappings/bridges, throttled migration waves, and validation — so large-scale file and mail migrations run reliably. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Run large-scale M365→Google migrations with Google Workspace Migrate</h3><p>For enterprise-scale file and mailbox moves, <strong>Google Workspace Migrate</strong> is Google's native large-scale tool &mdash; but it needs node infrastructure, connections, and mappings designed correctly. This solution is the deployment + execution playbook: stand up the Migrate platform (nodes/database), connect Microsoft 365 and Google, build mappings and bridges, run scoped migration <strong>waves with throttling</strong>, and validate results &mdash; so SharePoint/OneDrive and mail move at scale, reliably.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Google Workspace Migrate architecture (nodes, database, connections, mappings/bridges), where it fits vs other tools, and the wave model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (node infrastructure sizing, M365 + Google admin access/scopes, network, pilot scope).</li><li><strong>Implementation Guide</strong> &mdash; deploy the platform, configure connections + mappings, run a pilot wave with throttling, validate, then scale waves &mdash; pilot-first; tool-console internals deferred to Google's Migrate docs, procedure and sequencing given.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (pilot migrated + validated, throttling stable, error rate within threshold) plus Best Practices for large-scale wave execution.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>connection-mapping-generator.py</code> &mdash; build & validate the mapping CSVs and identity bridge for Google Workspace Migrate</li><li><code>migration-health-check.py</code> &mdash; check connection health and watch a running wave for throughput/throttling</li><li><code>node-sizing-assessment.py</code> &mdash; inventory the Microsoft 365 source and recommend Google Workspace Migrate node count</li><li><code>post-migration-validation.py</code> &mdash; validate a migrated wave against the source baseline (counts, permissions, mail)</li><li><code>wave-batch-builder.py</code> &mdash; group in-scope users/sites into migration waves and compute a throttling plan</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy and run Google Workspace Migrate for enterprise M365→Google migrations: node platform, M365/Google connections, mappings and bridges, throttled migration waves, and post-migration validation. Self-guided steps and Python tools; tool-console internals deferred to Google docs.",
+      "url_key": "google-workspace-migrate-deployment-large-scale-execution-government",
+      "image": "GWMIGRATE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMIGRATE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "GWDRIVEGOV",
+  "slug": "google-drive-shared-drives-architecture-permissions-governance",
+  "title": "Google Drive & Shared Drives Architecture, Permissions & Governance",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Design Drive and Shared Drives so sharing stays under control",
+  "problem": "Left ungoverned, Google Drive becomes a sprawl of over-shared files and orphaned ownership. This solution designs the <strong>Drive &amp; Shared Drives architecture</strong>: a Shared Drives taxonomy and naming model, membership/role design, external-sharing and link-sharing policy, target-audience and trust rules, DLP-aligned sharing controls, and ownership/lifecycle governance &mdash; so collaboration is easy but data stays where it belongs.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Drive model: My Drive vs Shared Drives, taxonomy, roles/membership, external + link-sharing policy, target audiences, and governance/lifecycle.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, groups source of truth, data-classification/DLP policy, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; define the Shared Drives taxonomy + naming, set membership/role model, configure external/link-sharing + target audiences, align DLP sharing controls, and stand up ownership/lifecycle governance &mdash; pilot-first, each drive/policy named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (sharing scoped to policy, no orphaned ownership, governance reporting) plus Best Practices for keeping Drive governed as it grows."
+  ],
+  "short": "Design the <strong>Google Drive &amp; Shared Drives architecture</strong> &mdash; taxonomy, membership/role model, external/link-sharing policy, target audiences, DLP-aligned controls, and ownership/lifecycle governance &mdash; so collaboration is easy and data stays controlled. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design the Google Drive & Shared Drives architecture — taxonomy, membership/role model, external/link-sharing policy, target audiences, DLP-aligned controls, and ownership/lifecycle governance — so collaboration is easy and data stays controlled.",
+  "meta_title": "Google Drive & Shared Drives Architecture, Permissions & Governance",
+  "meta_description": "Architect Google Drive and Shared Drives: taxonomy and naming, membership/role model, external and link-sharing policy, target audiences, DLP-aligned sharing controls, and ownership/lifecycle governance. Self-guided steps and Python tools.",
+  "bottom_line": "Drive collaboration that stays under control &mdash; a clear Shared Drives taxonomy, scoped sharing, DLP-aligned controls, and governed ownership &mdash; easy to use, safe by design.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Drive & Shared Drives",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Architecture & Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Taxonomy · Sharing · Lifecycle",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DRIVE SPRAWL",
+      "items": [
+        "Over-sharing",
+        "Orphaned owners",
+        "No taxonomy",
+        "External leakage"
+      ]
+    },
+    "to": {
+      "label": "Governed Drive",
+      "stat": "Scoped · controlled"
+    },
+    "tagline": "STRUCTURE.  SCOPE.  GOVERN.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Taxonomy",
+        "sub": "Shared Drives"
+      },
+      {
+        "icon": "users",
+        "title": "Membership",
+        "sub": "Roles"
+      },
+      {
+        "icon": "lock",
+        "title": "Sharing",
+        "sub": "Scoped"
+      },
+      {
+        "icon": "shield",
+        "title": "Lifecycle",
+        "sub": "Governed"
+      }
+    ]
+  }
+}

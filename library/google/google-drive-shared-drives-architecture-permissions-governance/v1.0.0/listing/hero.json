@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Drive & Shared Drives",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Architecture & Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Taxonomy · Sharing · Lifecycle",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DRIVE SPRAWL",
+    "items": [
+      "Over-sharing",
+      "Orphaned owners",
+      "No taxonomy",
+      "External leakage"
+    ]
+  },
+  "to": {
+    "label": "Governed Drive",
+    "stat": "Scoped · controlled"
+  },
+  "tagline": "STRUCTURE.  SCOPE.  GOVERN.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Taxonomy",
+      "sub": "Shared Drives"
+    },
+    {
+      "icon": "users",
+      "title": "Membership",
+      "sub": "Roles"
+    },
+    {
+      "icon": "lock",
+      "title": "Sharing",
+      "sub": "Scoped"
+    },
+    {
+      "icon": "shield",
+      "title": "Lifecycle",
+      "sub": "Governed"
+    }
+  ]
+}

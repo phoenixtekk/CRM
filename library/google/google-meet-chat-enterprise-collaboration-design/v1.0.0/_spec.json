@@ -1,0 +1,83 @@
+{
+  "sol": "GWMEETCHAT",
+  "slug": "google-meet-chat-enterprise-collaboration-design",
+  "title": "Google Meet & Chat Enterprise Collaboration Design & Configuration",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Configure Meet and Chat for secure, well-governed collaboration",
+  "problem": "Meet and Chat rolled out on defaults leave meeting-safety, external-access, and space-governance gaps. This solution designs the <strong>Meet &amp; Chat collaboration model</strong>: Meet safety and host controls, recording/transcription and storage policy, external participant rules, Chat spaces architecture, external chat and file-sharing policy, history/retention, and app/bot governance &mdash; so real-time collaboration is productive and controlled.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Meet + Chat model: meeting safety/host controls, recording/storage, external access, Chat spaces + governance, history/retention, and bot/app policy.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, groups/OUs, retention/compliance policy, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; configure Meet safety/host + recording policy, set external participant rules, design Chat spaces + external/file policy, set history/retention, and govern apps/bots &mdash; pilot-first, each policy named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (controls enforced by OU/group, external access scoped, retention applied) plus Best Practices for scaling collaboration governance."
+  ],
+  "short": "Design and configure <strong>Google Meet &amp; Chat</strong> for the enterprise &mdash; meeting safety/host controls, recording/retention, external-access rules, Chat spaces architecture, and app/bot governance &mdash; so real-time collaboration is productive and controlled. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design and configure Google Meet & Chat for the enterprise — meeting safety/host controls, recording/retention, external-access rules, Chat spaces architecture, and app/bot governance — so real-time collaboration is productive and controlled.",
+  "meta_title": "Google Meet & Chat Enterprise Collaboration Design & Configuration",
+  "meta_description": "Configure Google Meet and Chat for the enterprise: meeting safety and host controls, recording/transcription and storage policy, external-participant rules, Chat spaces architecture, history/retention, and app/bot governance. Self-guided steps and Python tools.",
+  "bottom_line": "Meet and Chat configured for productive, governed collaboration &mdash; meetings safe, recordings and history retained to policy, external access scoped, spaces and bots governed.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Meet & Chat",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Collaboration Design",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Safety · External · Spaces · Retention",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DEFAULT ROLLOUT",
+      "items": [
+        "Meeting-safety gaps",
+        "Uncontrolled external",
+        "No space governance",
+        "Retention gaps"
+      ]
+    },
+    "to": {
+      "label": "Governed collaboration",
+      "stat": "Productive · controlled"
+    },
+    "tagline": "CONFIGURE.  SCOPE.  GOVERN.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Meet",
+        "sub": "Safety/host"
+      },
+      {
+        "icon": "users",
+        "title": "Chat Spaces",
+        "sub": "Architecture"
+      },
+      {
+        "icon": "lock",
+        "title": "External",
+        "sub": "Scoped"
+      },
+      {
+        "icon": "shield",
+        "title": "Retention",
+        "sub": "Applied"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Workspace Migrate",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deployment & Execution",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Nodes · Mappings · Waves · Throttling",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SCALE MIGRATION RISK",
+    "items": [
+      "Tool not deployed",
+      "No mappings",
+      "Throttling unknown",
+      "Unvalidated"
+    ]
+  },
+  "to": {
+    "label": "Reliable at scale",
+    "stat": "Waved · validated"
+  },
+  "tagline": "DEPLOY.  MAP.  WAVE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Platform",
+      "sub": "Nodes/DB"
+    },
+    {
+      "icon": "gear",
+      "title": "Mappings",
+      "sub": "Bridges"
+    },
+    {
+      "icon": "chart",
+      "title": "Waves",
+      "sub": "Throttled"
+    },
+    {
+      "icon": "shield",
+      "title": "Validation",
+      "sub": "Post-move"
+    }
+  ]
+}

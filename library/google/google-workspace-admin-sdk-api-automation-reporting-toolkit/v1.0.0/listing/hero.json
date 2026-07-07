@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Workspace Admin SDK",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Automation & Reporting",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "APIs · Least-Scope · Scheduled",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL ADMIN",
+    "items": [
+      "Screenshot reports",
+      "No automation",
+      "Broad scopes",
+      "Not repeatable"
+    ]
+  },
+  "to": {
+    "label": "Automated & auditable",
+    "stat": "Least-scope · scheduled"
+  },
+  "tagline": "AUTHENTICATE.  AUTOMATE.  REPORT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Auth",
+      "sub": "Least-scope"
+    },
+    {
+      "icon": "gear",
+      "title": "Automation",
+      "sub": "Patterns"
+    },
+    {
+      "icon": "chart",
+      "title": "Reporting",
+      "sub": "Audit-ready"
+    },
+    {
+      "icon": "cloud",
+      "title": "Scheduled",
+      "sub": "Repeatable"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "GWMIGRATE",
+  "slug": "google-workspace-migrate-deployment-large-scale-execution",
+  "title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Run large-scale M365→Google migrations with Google Workspace Migrate",
+  "problem": "For enterprise-scale file and mailbox moves, <strong>Google Workspace Migrate</strong> is Google's native large-scale tool &mdash; but it needs node infrastructure, connections, and mappings designed correctly. This solution is the deployment + execution playbook: stand up the Migrate platform (nodes/database), connect Microsoft 365 and Google, build mappings and bridges, run scoped migration <strong>waves with throttling</strong>, and validate results &mdash; so SharePoint/OneDrive and mail move at scale, reliably.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Google Workspace Migrate architecture (nodes, database, connections, mappings/bridges), where it fits vs other tools, and the wave model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (node infrastructure sizing, M365 + Google admin access/scopes, network, pilot scope).",
+    "<strong>Implementation Guide</strong> &mdash; deploy the platform, configure connections + mappings, run a pilot wave with throttling, validate, then scale waves &mdash; pilot-first; tool-console internals deferred to Google's Migrate docs, procedure and sequencing given.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (pilot migrated + validated, throttling stable, error rate within threshold) plus Best Practices for large-scale wave execution."
+  ],
+  "short": "Deploy and execute with <strong>Google Workspace Migrate</strong> &mdash; node platform, M365 + Google connections, mappings/bridges, throttled migration waves, and validation &mdash; so large-scale file and mail migrations run reliably. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy and execute with Google Workspace Migrate — node platform, M365 + Google connections, mappings/bridges, throttled migration waves, and validation — so large-scale file and mail migrations run reliably.",
+  "meta_title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+  "meta_description": "Deploy and run Google Workspace Migrate for enterprise M365→Google migrations: node platform, M365/Google connections, mappings and bridges, throttled migration waves, and post-migration validation. Self-guided steps and Python tools; tool-console internals deferred to Google docs.",
+  "bottom_line": "Enterprise-scale migrations executed on Google's native tool &mdash; Migrate platform deployed, connections and mappings built, waves throttled and validated &mdash; reliable at scale.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Workspace Migrate",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deployment & Execution",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Nodes · Mappings · Waves · Throttling",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SCALE MIGRATION RISK",
+      "items": [
+        "Tool not deployed",
+        "No mappings",
+        "Throttling unknown",
+        "Unvalidated"
+      ]
+    },
+    "to": {
+      "label": "Reliable at scale",
+      "stat": "Waved · validated"
+    },
+    "tagline": "DEPLOY.  MAP.  WAVE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Platform",
+        "sub": "Nodes/DB"
+      },
+      {
+        "icon": "gear",
+        "title": "Mappings",
+        "sub": "Bridges"
+      },
+      {
+        "icon": "chart",
+        "title": "Waves",
+        "sub": "Throttled"
+      },
+      {
+        "icon": "shield",
+        "title": "Validation",
+        "sub": "Post-move"
+      }
+    ]
+  }
+}

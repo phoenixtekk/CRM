@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "gmail-mail-flow-routing-email-authentication-compliance",
+    "title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWMAIL-COMM-001",
+      "name": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Design and configure the <strong>Gmail mail plane</strong> &mdash; routing/hosts, split/dual delivery, SPF/DKIM/DMARC (monitor&rarr;enforce), content-compliance and routing rules, spam/attachment controls &mdash; so mail is deliverable, authenticated, and compliant. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Get Gmail mail flow, routing, and email authentication right</h3><p>Mail that silently lands in spam, spoofed domains, and compliance gaps trace back to <strong>mail flow, routing, and authentication</strong> that were never designed. This solution configures Gmail's enterprise mail plane end to end: inbound/outbound routing and hosts, split/dual delivery for coexistence, <strong>SPF, DKIM, and DMARC</strong> (monitor &rarr; enforce), content-compliance and routing rules, and attachment/spam controls &mdash; so mail is deliverable, authenticated, and compliant.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (Admin SDK / APIs).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gmail mail plane: routing/hosts, split &amp; dual delivery, SPF/DKIM/DMARC, content-compliance/routing rules, and the enforcement journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, DNS control for the domains, coexistence source if any, compliance policy).</li><li><strong>Implementation Guide</strong> &mdash; configure routing/hosts, set up SPF/DKIM and DMARC (p=none &rarr; quarantine &rarr; reject with report review), build content-compliance + routing rules, and tune spam/attachment controls &mdash; pilot-first, each rule named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (auth passing, DMARC aligned, rules routing correctly) plus Best Practices for safely moving DMARC to enforcement without breaking legitimate senders.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Gmail mail flow designed, not accidental &mdash; routing correct, SPF/DKIM/DMARC enforced with reporting, compliance rules in place &mdash; deliverable, authenticated, and audit-ready email.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>dmarc_policy_planner.py</code> &mdash; Plan the next safe DMARC record (monitor->quarantine->reject) as a dry-run</li><li><code>dmarc_rua_analyzer.py</code> &mdash; Parse DMARC aggregate (RUA) reports and summarize sender alignment (read-only)</li><li><code>mailauth_validate.py</code> &mdash; Validate SPF / DKIM / DMARC records for a domain and produce a pass/fail report</li><li><code>mailplane_config_export.py</code> &mdash; Export & validate Gmail routing/domain config via the Admin SDK (read-only)</li><li><code>mailplane_dns_audit.py</code> &mdash; Audit MX / SPF / DKIM / DMARC DNS posture for a set of domains (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC)",
+      "meta_description": "Configure Gmail enterprise mail flow: inbound/outbound routing and hosts, split/dual delivery for coexistence, SPF/DKIM/DMARC (monitor to enforce), content-compliance and routing rules, and spam/attachment controls. Self-guided steps and Python tools.",
+      "url_key": "gmail-mail-flow-routing-email-authentication-compliance-commercial",
+      "image": "GWMAIL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMAIL-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMAIL-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWMAIL-NPO-001",
+      "name": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Design and configure the Gmail mail plane — routing/hosts, split/dual delivery, SPF/DKIM/DMARC (monitor→enforce), content-compliance and routing rules, spam/attachment controls — so mail is deliverable, authenticated, and compliant. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Get Gmail mail flow, routing, and email authentication right</h3><p>Mail that silently lands in spam, spoofed domains, and compliance gaps trace back to <strong>mail flow, routing, and authentication</strong> that were never designed. This solution configures Gmail's enterprise mail plane end to end: inbound/outbound routing and hosts, split/dual delivery for coexistence, <strong>SPF, DKIM, and DMARC</strong> (monitor &rarr; enforce), content-compliance and routing rules, and attachment/spam controls &mdash; so mail is deliverable, authenticated, and compliant.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gmail mail plane: routing/hosts, split &amp; dual delivery, SPF/DKIM/DMARC, content-compliance/routing rules, and the enforcement journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, DNS control for the domains, coexistence source if any, compliance policy).</li><li><strong>Implementation Guide</strong> &mdash; configure routing/hosts, set up SPF/DKIM and DMARC (p=none &rarr; quarantine &rarr; reject with report review), build content-compliance + routing rules, and tune spam/attachment controls &mdash; pilot-first, each rule named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (auth passing, DMARC aligned, rules routing correctly) plus Best Practices for safely moving DMARC to enforcement without breaking legitimate senders.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>dmarc_policy_planner.py</code> &mdash; Plan the next safe DMARC record (monitor->quarantine->reject) as a dry-run</li><li><code>dmarc_rua_analyzer.py</code> &mdash; Parse DMARC aggregate (RUA) reports and summarize sender alignment (read-only)</li><li><code>mailauth_validate.py</code> &mdash; Validate SPF / DKIM / DMARC records for a domain and produce a pass/fail report</li><li><code>mailplane_config_export.py</code> &mdash; Export & validate Gmail routing/domain config via the Admin SDK (read-only)</li><li><code>mailplane_dns_audit.py</code> &mdash; Audit MX / SPF / DKIM / DMARC DNS posture for a set of domains (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Configure Gmail enterprise mail flow: inbound/outbound routing and hosts, split/dual delivery for coexistence, SPF/DKIM/DMARC (monitor to enforce), content-compliance and routing rules, and spam/attachment controls. Self-guided steps and Python tools.",
+      "url_key": "gmail-mail-flow-routing-email-authentication-compliance-nonprofit",
+      "image": "GWMAIL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMAIL-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMAIL-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWMAIL-GOV-001",
+      "name": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Design and configure the Gmail mail plane — routing/hosts, split/dual delivery, SPF/DKIM/DMARC (monitor→enforce), content-compliance and routing rules, spam/attachment controls — so mail is deliverable, authenticated, and compliant. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Get Gmail mail flow, routing, and email authentication right</h3><p>Mail that silently lands in spam, spoofed domains, and compliance gaps trace back to <strong>mail flow, routing, and authentication</strong> that were never designed. This solution configures Gmail's enterprise mail plane end to end: inbound/outbound routing and hosts, split/dual delivery for coexistence, <strong>SPF, DKIM, and DMARC</strong> (monitor &rarr; enforce), content-compliance and routing rules, and attachment/spam controls &mdash; so mail is deliverable, authenticated, and compliant.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Gmail mail plane: routing/hosts, split &amp; dual delivery, SPF/DKIM/DMARC, content-compliance/routing rules, and the enforcement journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + super-admin, DNS control for the domains, coexistence source if any, compliance policy).</li><li><strong>Implementation Guide</strong> &mdash; configure routing/hosts, set up SPF/DKIM and DMARC (p=none &rarr; quarantine &rarr; reject with report review), build content-compliance + routing rules, and tune spam/attachment controls &mdash; pilot-first, each rule named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (auth passing, DMARC aligned, rules routing correctly) plus Best Practices for safely moving DMARC to enforcement without breaking legitimate senders.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>dmarc_policy_planner.py</code> &mdash; Plan the next safe DMARC record (monitor->quarantine->reject) as a dry-run</li><li><code>dmarc_rua_analyzer.py</code> &mdash; Parse DMARC aggregate (RUA) reports and summarize sender alignment (read-only)</li><li><code>mailauth_validate.py</code> &mdash; Validate SPF / DKIM / DMARC records for a domain and produce a pass/fail report</li><li><code>mailplane_config_export.py</code> &mdash; Export & validate Gmail routing/domain config via the Admin SDK (read-only)</li><li><code>mailplane_dns_audit.py</code> &mdash; Audit MX / SPF / DKIM / DMARC DNS posture for a set of domains (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Configure Gmail enterprise mail flow: inbound/outbound routing and hosts, split/dual delivery for coexistence, SPF/DKIM/DMARC (monitor to enforce), content-compliance and routing rules, and spam/attachment controls. Self-guided steps and Python tools.",
+      "url_key": "gmail-mail-flow-routing-email-authentication-compliance-government",
+      "image": "GWMAIL-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWMAIL-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWMAIL-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

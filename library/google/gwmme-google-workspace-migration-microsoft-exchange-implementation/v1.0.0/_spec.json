@@ -1,0 +1,83 @@
+{
+  "sol": "GWMME",
+  "slug": "gwmme-google-workspace-migration-microsoft-exchange-implementation",
+  "title": "GWMME — Google Workspace Migration for Microsoft Exchange — Implementation",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Workspace migration/architecture).",
+    "Google Admin console / Cloud Identity and the Microsoft/Entra side authored at exact detail from the vendors' public docs. Third-party and Google-native MIGRATION TOOLS (Google Workspace Migrate, GWMME, BitTitan MigrationWiz, CloudM) are covered at the procedural playbook level — deep tool-console internals, licensing, and support are deferred to each vendor's own documentation, never invented; version-/preview-dependent behavior flagged 'verify for your version'. Gemini features flagged 'verify in your tenant'. Automation is Python (Admin SDK / APIs). No client names. No secrets/keys in code."
+  ],
+  "hook": "Migrate Exchange mail to Gmail with GWMME the right way",
+  "problem": "For mail-focused moves, <strong>Google Workspace Migration for Microsoft Exchange (GWMME)</strong> pulls mail, calendar, and contacts from Exchange/M365 into Gmail &mdash; but it needs the right service account, permissions, and batching. This solution is the GWMME implementation playbook: install and configure GWMME, grant the required Exchange/M365 access, build a mapping/CSV, run batched migrations with throttling awareness, and validate mail/calendar/contacts &mdash; so mailbox data lands complete.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what GWMME migrates (mail/calendar/contacts), where it fits vs Workspace Migrate and third-party tools, and its batch model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (GWMME host, Exchange/M365 access + service account, Google access, mapping data, pilot scope).",
+    "<strong>Implementation Guide</strong> &mdash; install/configure GWMME, grant access, build the mapping/CSV, run a pilot batch, validate, then scale batches &mdash; pilot-first; tool internals deferred to Google's GWMME docs, procedure and sequencing given.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or orchestration helper, a validation/report generator, a policy/health check, and a scope/config helper &mdash; authentic Google Workspace Admin SDK / API automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (pilot mailboxes complete, calendar/contacts intact, errors triaged) plus Best Practices for reliable batch execution."
+  ],
+  "short": "Implement <strong>GWMME</strong> for Exchange&rarr;Gmail migration &mdash; install/configure, grant access, build mappings, run batched throttled migrations, and validate mail/calendar/contacts &mdash; so mailbox data lands complete. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement GWMME for Exchange→Gmail migration — install/configure, grant access, build mappings, run batched throttled migrations, and validate mail/calendar/contacts — so mailbox data lands complete.",
+  "meta_title": "GWMME — Google Workspace Migration for Microsoft Exchange — Implementation",
+  "meta_description": "Implement Google Workspace Migration for Microsoft Exchange (GWMME): install/configure, Exchange/M365 access and service account, mapping/CSV, batched throttled migrations, and mail/calendar/contacts validation. Self-guided steps and Python tools; tool internals deferred to Google docs.",
+  "bottom_line": "Exchange mailboxes moved to Gmail complete and intact &mdash; GWMME configured, access granted, batches run and validated &mdash; mail, calendar, and contacts all land.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "GWMME",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Exchange → Gmail Migration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Configure · Map · Batch · Validate",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "MAIL MOVE RISK",
+      "items": [
+        "Wrong permissions",
+        "No batching plan",
+        "Throttling hits",
+        "Incomplete data"
+      ]
+    },
+    "to": {
+      "label": "Complete mailboxes",
+      "stat": "Batched · validated"
+    },
+    "tagline": "CONFIGURE.  MAP.  BATCH.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "GWMME",
+        "sub": "Configured"
+      },
+      {
+        "icon": "key",
+        "title": "Access",
+        "sub": "Service acct"
+      },
+      {
+        "icon": "chart",
+        "title": "Batches",
+        "sub": "Throttle-aware"
+      },
+      {
+        "icon": "shield",
+        "title": "Validation",
+        "sub": "Complete"
+      }
+    ]
+  }
+}

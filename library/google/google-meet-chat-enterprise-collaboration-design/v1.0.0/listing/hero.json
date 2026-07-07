@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Meet & Chat",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Collaboration Design",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Safety · External · Spaces · Retention",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DEFAULT ROLLOUT",
+    "items": [
+      "Meeting-safety gaps",
+      "Uncontrolled external",
+      "No space governance",
+      "Retention gaps"
+    ]
+  },
+  "to": {
+    "label": "Governed collaboration",
+    "stat": "Productive · controlled"
+  },
+  "tagline": "CONFIGURE.  SCOPE.  GOVERN.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Meet",
+      "sub": "Safety/host"
+    },
+    {
+      "icon": "users",
+      "title": "Chat Spaces",
+      "sub": "Architecture"
+    },
+    {
+      "icon": "lock",
+      "title": "External",
+      "sub": "Scoped"
+    },
+    {
+      "icon": "shield",
+      "title": "Retention",
+      "sub": "Applied"
+    }
+  ]
+}
