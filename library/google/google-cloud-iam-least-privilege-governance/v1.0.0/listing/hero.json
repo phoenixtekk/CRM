@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Cloud IAM",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Least-Privilege Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Roles · Service Accounts · WIF",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OVER-PRIVILEGED",
+    "items": [
+      "Broad Owner grants",
+      "Exported SA keys",
+      "Role sprawl",
+      "No review"
+    ]
+  },
+  "to": {
+    "label": "Least privilege",
+    "stat": "Intentional · audited"
+  },
+  "tagline": "MODEL.  BIND.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Roles",
+      "sub": "Least-privilege"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "WIF",
+      "sub": "No keys"
+    },
+    {
+      "icon": "users",
+      "title": "Groups",
+      "sub": "Group-based"
+    },
+    {
+      "icon": "shield",
+      "title": "Review",
+      "sub": "Recurring"
+    }
+  ]
+}

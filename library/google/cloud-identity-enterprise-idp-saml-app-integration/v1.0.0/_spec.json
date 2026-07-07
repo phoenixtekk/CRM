@@ -1,0 +1,83 @@
+{
+  "sol": "CISAML",
+  "slug": "cloud-identity-enterprise-idp-saml-app-integration",
+  "title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory (SSO at Scale)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Make Google the single sign-on identity provider for your SaaS estate",
+  "problem": "In a Google-first enterprise, <strong>Cloud Identity / Google Workspace becomes the IdP</strong> for hundreds of SaaS apps &mdash; but onboarding each SAML/OIDC app one-off is slow and inconsistent. This solution builds a repeatable <strong>SAML app-integration factory</strong>: a standard onboarding pattern (SAML &amp; OIDC), auto-provisioning where supported, group-based app assignment, and a catalog/runbook &mdash; so new apps are federated to Google SSO fast, consistently, and securely.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; Google as IdP: SAML vs OIDC, the app catalog, auto-provisioning, group-based assignment, and the repeatable onboarding pattern.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Cloud Identity/Workspace tenant + super-admin, groups source of truth, per-app admin access).",
+    "<strong>Implementation Guide</strong> &mdash; define the onboarding pattern, integrate a pilot set of SAML/OIDC apps, wire auto-provisioning + group-based assignment, and publish the catalog/runbook &mdash; then scale the factory.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (SSO works, provisioning correct, assignment group-driven) plus Best Practices for a consistent, auditable app-integration program."
+  ],
+  "short": "Build a <strong>SAML app-integration factory</strong> with Cloud Identity/Workspace as IdP &mdash; a repeatable SAML/OIDC onboarding pattern, auto-provisioning, group-based assignment, and a catalog &mdash; so the SaaS estate federates to Google SSO fast and consistently. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build a SAML app-integration factory with Cloud Identity/Workspace as IdP — a repeatable SAML/OIDC onboarding pattern, auto-provisioning, group-based assignment, and a catalog — so the SaaS estate federates to Google SSO fast and consistently.",
+  "meta_title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory",
+  "meta_description": "Make Google Cloud Identity/Workspace the enterprise IdP: a repeatable SAML/OIDC app-onboarding factory, auto-provisioning, group-based assignment, and an app catalog for SSO at scale. Self-guided steps and Python tools.",
+  "bottom_line": "Google as the single sign-on IdP for the whole SaaS estate &mdash; apps onboarded by a repeatable factory, provisioned and assigned by group &mdash; fast, consistent, auditable.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Cloud Identity as IdP",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "SAML App Integration Factory",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "SAML/OIDC · Provisioning · At Scale",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "ONE-OFF SSO",
+      "items": [
+        "Slow onboarding",
+        "Inconsistent",
+        "Manual provisioning",
+        "No catalog"
+      ]
+    },
+    "to": {
+      "label": "SSO factory",
+      "stat": "Fast · consistent"
+    },
+    "tagline": "PATTERN.  FEDERATE.  SCALE.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "SAML/OIDC",
+        "sub": "Standard"
+      },
+      {
+        "icon": "users",
+        "title": "Assignment",
+        "sub": "Group-based"
+      },
+      {
+        "icon": "gear",
+        "title": "Provisioning",
+        "sub": "Automated"
+      },
+      {
+        "icon": "cloud",
+        "title": "Catalog",
+        "sub": "Repeatable"
+      }
+    ]
+  }
+}

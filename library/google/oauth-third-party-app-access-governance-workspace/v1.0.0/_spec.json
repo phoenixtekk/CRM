@@ -1,0 +1,83 @@
+{
+  "sol": "GWOAUTH",
+  "slug": "oauth-third-party-app-access-governance-workspace",
+  "title": "OAuth & Third-Party App Access Governance for Google Workspace",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Control which third-party apps can touch your Google data",
+  "problem": "Every user who clicks &ldquo;Allow&rdquo; on a third-party app grants it OAuth access to Google data &mdash; a huge, mostly invisible attack surface. This solution establishes <strong>OAuth &amp; app-access governance</strong>: inventory connected apps and their scopes, set <strong>API access control</strong> (trusted/limited/blocked, Marketplace allowlisting, unverified-app blocking), review high-risk scopes and tokens, and stand up an app-vetting/approval workflow &mdash; so only trusted apps reach your data.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the OAuth risk model: scopes, connected apps, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, and the vetting flow.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace super-admin, security/governance stakeholders, risk criteria).",
+    "<strong>Implementation Guide</strong> &mdash; inventory connected apps + scopes, classify by risk, configure API access control + Marketplace allowlist + unverified-app block, wire an app-approval workflow, and revoke risky grants &mdash; pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (high-risk scopes controlled, unverified apps blocked, approvals enforced) plus Best Practices for ongoing app-access hygiene."
+  ],
+  "short": "Establish <strong>OAuth &amp; third-party app-access governance</strong> for Google Workspace &mdash; app/scope inventory, API access control (trusted/limited/blocked, Marketplace allowlist, unverified-app block), token review, and an app-vetting workflow &mdash; so only trusted apps reach your data. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish OAuth & third-party app-access governance for Google Workspace — app/scope inventory, API access control (trusted/limited/blocked, Marketplace allowlist, unverified-app block), token review, and an app-vetting workflow — so only trusted apps reach your data.",
+  "meta_title": "OAuth & Third-Party App Access Governance for Google Workspace",
+  "meta_description": "Govern OAuth and third-party app access in Google Workspace: connected-app and scope inventory, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, token review, and an app-vetting workflow. Self-guided steps and Python tools.",
+  "bottom_line": "The invisible OAuth attack surface brought under control &mdash; connected apps inventoried, risky scopes governed, unverified apps blocked, approvals enforced &mdash; only trusted apps touch your data.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "OAuth & Third-Party App",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Access Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Scopes · Allowlist · Vetting",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OPEN OAUTH SURFACE",
+      "items": [
+        "Any app allowed",
+        "Scopes unseen",
+        "No vetting",
+        "Token risk"
+      ]
+    },
+    "to": {
+      "label": "Governed access",
+      "stat": "Only trusted apps"
+    },
+    "tagline": "INVENTORY.  CONTROL.  VET.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "Scopes",
+        "sub": "Inventoried"
+      },
+      {
+        "icon": "shield",
+        "title": "Access Control",
+        "sub": "Allowlist"
+      },
+      {
+        "icon": "gear",
+        "title": "Vetting",
+        "sub": "Approval"
+      },
+      {
+        "icon": "key",
+        "title": "Tokens",
+        "sub": "Reviewed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "sol": "GCPBCE",
+  "slug": "beyondcorp-enterprise-zero-trust-access",
+  "title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-gcp.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Replace VPN trust with identity- and context-aware zero-trust access",
+  "problem": "Network location is not identity &mdash; a device inside the VPN isn't automatically trustworthy. This solution implements <strong>BeyondCorp Enterprise</strong> zero-trust access: <strong>Access Context Manager</strong> access levels (identity + device + context), <strong>Identity-Aware Proxy (IAP)</strong> in front of web apps and VMs, context-aware access bindings, and device-trust signals &mdash; so access is granted per-request on who and what, not where, with no VPN.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the zero-trust model: Access Context Manager access levels, Identity-Aware Proxy, context-aware access, device signals, and how it relates to Workspace Context-Aware Access.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, Cloud Identity, target apps/VMs, device signal source, admin roles).",
+    "<strong>Implementation Guide</strong> &mdash; define access levels, front a pilot app/VM with IAP, bind context-aware access, add device-trust signals, and validate deny/allow &mdash; then expand and retire VPN paths, pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (access granted on identity+context, denied otherwise, VPN path retired) plus Best Practices for expanding zero-trust coverage."
+  ],
+  "short": "Implement <strong>BeyondCorp Enterprise</strong> zero-trust access &mdash; Access Context Manager access levels, Identity-Aware Proxy for apps/VMs, context-aware bindings, and device-trust signals &mdash; so access is granted on who and what, not where, with no VPN. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement BeyondCorp Enterprise zero-trust access — Access Context Manager access levels, Identity-Aware Proxy for apps/VMs, context-aware bindings, and device-trust signals — so access is granted on who and what, not where, with no VPN.",
+  "meta_title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+  "meta_description": "Implement BeyondCorp Enterprise zero-trust access: Access Context Manager access levels, Identity-Aware Proxy (IAP) for web apps and VMs, context-aware access bindings, and device-trust signals — VPN-less access by identity and context. Self-guided steps and Python/gcloud tools.",
+  "bottom_line": "Access granted on identity and context, not network location &mdash; apps and VMs behind Identity-Aware Proxy, context-aware levels enforced, VPN trust retired &mdash; true zero trust.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "BeyondCorp Enterprise",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Zero-Trust Access",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "IAP · Access Levels · Device Trust",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "VPN = TRUST",
+      "items": [
+        "Location-based trust",
+        "VPN exposure",
+        "No context",
+        "Flat access"
+      ]
+    },
+    "to": {
+      "label": "Zero trust",
+      "stat": "Identity + context"
+    },
+    "tagline": "LEVEL.  PROXY.  TRUST-CHECK.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Access Levels",
+        "sub": "Context"
+      },
+      {
+        "icon": "lock",
+        "title": "IAP",
+        "sub": "In front"
+      },
+      {
+        "icon": "device",
+        "title": "Device Trust",
+        "sub": "Signals"
+      },
+      {
+        "icon": "key",
+        "title": "Per-Request",
+        "sub": "No VPN"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Cloud Network",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& VPC Service Controls",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Shared VPC · Private Access · Perimeters",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FLAT & PUBLIC",
+    "items": [
+      "Public API access",
+      "No perimeter",
+      "Exfil risk",
+      "Ad-hoc firewall"
+    ]
+  },
+  "to": {
+    "label": "Private & bounded",
+    "stat": "Perimeter-enforced"
+  },
+  "tagline": "CONNECT.  PRIVATIZE.  PERIMETER.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Shared VPC",
+      "sub": "Topology"
+    },
+    {
+      "icon": "lock",
+      "title": "Private Access",
+      "sub": "No public"
+    },
+    {
+      "icon": "shield",
+      "title": "VPC-SC",
+      "sub": "Perimeters"
+    },
+    {
+      "icon": "gear",
+      "title": "Egress",
+      "sub": "Controlled"
+    }
+  ]
+}

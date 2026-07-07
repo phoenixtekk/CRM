@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft 365 Tenant",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Decommission & Retirement",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Disposition · Wind-Down · Closure",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LINGERING TENANT",
+    "items": [
+      "Paying for both",
+      "Orphaned data",
+      "Legal-hold risk",
+      "Stale integrations"
+    ]
+  },
+  "to": {
+    "label": "Clean exit",
+    "stat": "Auditable closure"
+  },
+  "tagline": "VERIFY.  DISPOSE.  CLOSE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Completeness",
+      "sub": "Verified"
+    },
+    {
+      "icon": "lock",
+      "title": "Disposition",
+      "sub": "+ legal hold"
+    },
+    {
+      "icon": "gear",
+      "title": "Wind-Down",
+      "sub": "License/app"
+    },
+    {
+      "icon": "cloud",
+      "title": "Closure",
+      "sub": "Formal"
+    }
+  ]
+}

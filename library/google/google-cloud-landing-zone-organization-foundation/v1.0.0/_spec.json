@@ -1,0 +1,83 @@
+{
+  "sol": "GCPLZ",
+  "slug": "google-cloud-landing-zone-organization-foundation",
+  "title": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 4995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-gcp.md",
+  "author_notes": [
+    "Effort tier: T5 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Stand up an enterprise-grade Google Cloud foundation the right way",
+  "problem": "Moving real workloads to <strong>Google Cloud Platform</strong> without a foundation creates sprawl, inconsistent security, and cost you can't attribute. This solution builds the <strong>landing zone</strong>: the resource hierarchy (Organization &rarr; folders &rarr; projects), org policies, a least-privilege IAM baseline, centralized logging/monitoring, a shared network pattern, and naming/labeling &mdash; the secure, governed platform every later workload lands on.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the landing-zone reference: resource hierarchy, org policies, IAM baseline, logging/billing/network shape, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, org-admin access, billing, gcloud/IaC toolchain, hierarchy &amp; naming design).",
+    "<strong>Implementation Guide</strong> &mdash; build the folder/project hierarchy, apply org-policy guardrails, set the IAM baseline and groups, wire centralized audit logging + billing export, and stand up the shared-network landing pattern &mdash; pilot-first, each artifact named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (hierarchy, guardrails enforced, logging flowing) plus Best Practices for extending the landing zone as workloads onboard."
+  ],
+  "short": "Build an enterprise <strong>Google Cloud landing zone</strong> &mdash; resource hierarchy, org policies, least-privilege IAM baseline, centralized logging, shared network, naming/labeling &mdash; the governed foundation every GCP workload lands on. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Build an enterprise Google Cloud landing zone — resource hierarchy, org policies, least-privilege IAM baseline, centralized logging, shared network, naming/labeling — the governed foundation every GCP workload lands on.",
+  "meta_title": "Google Cloud Platform Landing Zone & Organization Foundation",
+  "meta_description": "Build an enterprise GCP landing zone: resource hierarchy (Organization/folders/projects), org policies, least-privilege IAM baseline, centralized logging, shared network, and naming/labeling. Self-guided steps and Python/gcloud tools.",
+  "bottom_line": "A secure, governed Google Cloud foundation &mdash; hierarchy, guardrails, IAM, logging, and network in place &mdash; so every workload lands consistent, attributable, and compliant.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Cloud",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Landing Zone & Foundation",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Hierarchy · Org Policy · IAM · Network",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED GCP",
+      "items": [
+        "Project sprawl",
+        "No guardrails",
+        "Inconsistent IAM",
+        "Cost blind"
+      ]
+    },
+    "to": {
+      "label": "Governed foundation",
+      "stat": "Secure · attributable"
+    },
+    "tagline": "HIERARCHY.  GUARDRAILS.  LAND.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Hierarchy",
+        "sub": "Org/folder/project"
+      },
+      {
+        "icon": "shield",
+        "title": "Org Policy",
+        "sub": "Guardrails"
+      },
+      {
+        "icon": "key",
+        "title": "IAM Baseline",
+        "sub": "Least-privilege"
+      },
+      {
+        "icon": "chart",
+        "title": "Logging",
+        "sub": "Centralized"
+      }
+    ]
+  }
+}

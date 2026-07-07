@@ -1,0 +1,41 @@
+{
+  "slug": "google-workspace-adoption-change-management-training",
+  "title": "Google Workspace Adoption, Change Management & Training Program (Enterprise)",
+  "category": "Google",
+  "category_slug": "google",
+  "sol_code": "GWADOPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GWADOPT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-GWADOPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-GWADOPT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "GWADOPT-Solution.pdf",
+    "GWADOPT-Scripts.zip"
+  ],
+  "hero": "GWADOPT-hero.png"
+}
+

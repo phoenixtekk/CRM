@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Cloud FinOps",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Billing & Cost Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Export · Budgets · Showback · Savings",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SURPRISE BILLS",
+    "items": [
+      "No attribution",
+      "No budgets",
+      "Waste unseen",
+      "No owner"
+    ]
+  },
+  "to": {
+    "label": "Governed spend",
+    "stat": "Visible · attributable"
+  },
+  "tagline": "EXPORT.  ATTRIBUTE.  OPTIMIZE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Export",
+      "sub": "BigQuery"
+    },
+    {
+      "icon": "gear",
+      "title": "Budgets",
+      "sub": "Alerts"
+    },
+    {
+      "icon": "cloud",
+      "title": "Attribution",
+      "sub": "Labels"
+    },
+    {
+      "icon": "shield",
+      "title": "Savings",
+      "sub": "CUD/rightsize"
+    }
+  ]
+}

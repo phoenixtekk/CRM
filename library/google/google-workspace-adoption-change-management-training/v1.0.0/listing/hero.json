@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Workspace",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Adoption & Change Mgmt",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Champions · Training · Hypercare · Metrics",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TECH-ONLY MOVE",
+    "items": [
+      "Users resist",
+      "No training",
+      "Low usage",
+      "No metrics"
+    ]
+  },
+  "to": {
+    "label": "Real adoption",
+    "stat": "Trained · measured"
+  },
+  "tagline": "ENGAGE.  TRAIN.  REINFORCE.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Champions",
+      "sub": "Network"
+    },
+    {
+      "icon": "gear",
+      "title": "Training",
+      "sub": "Role-based"
+    },
+    {
+      "icon": "shield",
+      "title": "Hypercare",
+      "sub": "Floorwalk"
+    },
+    {
+      "icon": "chart",
+      "title": "Adoption",
+      "sub": "Measured"
+    }
+  ]
+}

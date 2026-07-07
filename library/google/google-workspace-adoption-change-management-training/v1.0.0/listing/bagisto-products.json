@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "google-workspace-adoption-change-management-training",
+    "title": "Google Workspace Adoption, Change Management & Training Program (Enterprise)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWADOPT-COMM-001",
+      "name": "Google Workspace Adoption, Change Management & Training Program (Enterprise) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Run the <strong>adoption, change-management &amp; training program</strong> for a Google Workspace transformation &mdash; champions, an OCM plan, role-based training (incl. Gemini where licensed), hypercare, and adoption metrics &mdash; so a 150k-user move actually sticks. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Turn a Google Workspace cutover into real, measured adoption</h3><p>A technically flawless migration still fails if 150,000 users don't change how they work. This solution is the <strong>adoption, change-management &amp; training program</strong>: stakeholder and champion networks, an OCM plan (awareness &rarr; training &rarr; reinforcement), role-based learning paths (Gmail/Drive/Docs/Meet/Chat, and Gemini where licensed), a support/floorwalker model for hypercare, and adoption metrics &mdash; the human side that makes the M365&rarr;Google move actually stick.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (gcloud / Cloud Client Libraries).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OCM model: stakeholders, champions, the awareness&rarr;training&rarr;reinforcement arc, role-based paths, hypercare, and adoption measurement.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration/rollout plan, exec sponsorship, comms channels, training capacity, metrics source).</li><li><strong>Implementation Guide</strong> &mdash; build the champion network, run the comms/awareness campaign, deliver role-based training, stand up hypercare/floorwalking, and track adoption &mdash; wave-aligned to the migration, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (training delivered, hypercare staffed, adoption metrics trending up) plus Best Practices for sustaining adoption post-cutover.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A Google Workspace move that sticks &mdash; champions engaged, users trained by role, hypercare staffed, adoption measured and climbing &mdash; the human side of a 150k-user transformation done right.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>adoption_config_check.py</code> &mdash; verify the adoption-measurement setup is present and SAFE (read-only)</li><li><code>adoption_metrics_report.py</code> &mdash; pull Google Workspace adoption/usage metrics (read-only) and trend them</li><li><code>champion_roster_planner.py</code> &mdash; build wave-aligned champion cohorts and check coverage ratio</li><li><code>hypercare_theme_analyzer.py</code> &mdash; rank hypercare ticket themes and check floorwalker staffing</li><li><code>training_completion_tracker.py</code> &mdash; compute per-role training completion and apply the go-live gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Adoption, Change Management & Training Program",
+      "meta_description": "Drive Google Workspace adoption at enterprise scale: champion networks, an organizational-change-management plan, role-based training (Gmail/Drive/Docs/Meet/Chat + Gemini where licensed), hypercare/floorwalking, and adoption metrics. Self-guided framework and Python tools.",
+      "url_key": "google-workspace-adoption-change-management-training-commercial",
+      "image": "GWADOPT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWADOPT-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWADOPT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWADOPT-NPO-001",
+      "name": "Google Workspace Adoption, Change Management & Training Program (Enterprise) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Run the adoption, change-management & training program for a Google Workspace transformation — champions, an OCM plan, role-based training (incl. Gemini where licensed), hypercare, and adoption metrics — so a 150k-user move actually sticks. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Turn a Google Workspace cutover into real, measured adoption</h3><p>A technically flawless migration still fails if 150,000 users don't change how they work. This solution is the <strong>adoption, change-management &amp; training program</strong>: stakeholder and champion networks, an OCM plan (awareness &rarr; training &rarr; reinforcement), role-based learning paths (Gmail/Drive/Docs/Meet/Chat, and Gemini where licensed), a support/floorwalker model for hypercare, and adoption metrics &mdash; the human side that makes the M365&rarr;Google move actually stick.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OCM model: stakeholders, champions, the awareness&rarr;training&rarr;reinforcement arc, role-based paths, hypercare, and adoption measurement.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration/rollout plan, exec sponsorship, comms channels, training capacity, metrics source).</li><li><strong>Implementation Guide</strong> &mdash; build the champion network, run the comms/awareness campaign, deliver role-based training, stand up hypercare/floorwalking, and track adoption &mdash; wave-aligned to the migration, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (training delivered, hypercare staffed, adoption metrics trending up) plus Best Practices for sustaining adoption post-cutover.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>adoption_config_check.py</code> &mdash; verify the adoption-measurement setup is present and SAFE (read-only)</li><li><code>adoption_metrics_report.py</code> &mdash; pull Google Workspace adoption/usage metrics (read-only) and trend them</li><li><code>champion_roster_planner.py</code> &mdash; build wave-aligned champion cohorts and check coverage ratio</li><li><code>hypercare_theme_analyzer.py</code> &mdash; rank hypercare ticket themes and check floorwalker staffing</li><li><code>training_completion_tracker.py</code> &mdash; compute per-role training completion and apply the go-live gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Adoption, Change Management & Training Program — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Drive Google Workspace adoption at enterprise scale: champion networks, an organizational-change-management plan, role-based training (Gmail/Drive/Docs/Meet/Chat + Gemini where licensed), hypercare/floorwalking, and adoption metrics. Self-guided framework and Python tools.",
+      "url_key": "google-workspace-adoption-change-management-training-nonprofit",
+      "image": "GWADOPT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWADOPT-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWADOPT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWADOPT-GOV-001",
+      "name": "Google Workspace Adoption, Change Management & Training Program (Enterprise) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Run the adoption, change-management & training program for a Google Workspace transformation — champions, an OCM plan, role-based training (incl. Gemini where licensed), hypercare, and adoption metrics — so a 150k-user move actually sticks. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Turn a Google Workspace cutover into real, measured adoption</h3><p>A technically flawless migration still fails if 150,000 users don't change how they work. This solution is the <strong>adoption, change-management &amp; training program</strong>: stakeholder and champion networks, an OCM plan (awareness &rarr; training &rarr; reinforcement), role-based learning paths (Gmail/Drive/Docs/Meet/Chat, and Gemini where licensed), a support/floorwalker model for hypercare, and adoption metrics &mdash; the human side that makes the M365&rarr;Google move actually stick.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OCM model: stakeholders, champions, the awareness&rarr;training&rarr;reinforcement arc, role-based paths, hypercare, and adoption measurement.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration/rollout plan, exec sponsorship, comms channels, training capacity, metrics source).</li><li><strong>Implementation Guide</strong> &mdash; build the champion network, run the comms/awareness campaign, deliver role-based training, stand up hypercare/floorwalking, and track adoption &mdash; wave-aligned to the migration, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (training delivered, hypercare staffed, adoption metrics trending up) plus Best Practices for sustaining adoption post-cutover.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>adoption_config_check.py</code> &mdash; verify the adoption-measurement setup is present and SAFE (read-only)</li><li><code>adoption_metrics_report.py</code> &mdash; pull Google Workspace adoption/usage metrics (read-only) and trend them</li><li><code>champion_roster_planner.py</code> &mdash; build wave-aligned champion cohorts and check coverage ratio</li><li><code>hypercare_theme_analyzer.py</code> &mdash; rank hypercare ticket themes and check floorwalker staffing</li><li><code>training_completion_tracker.py</code> &mdash; compute per-role training completion and apply the go-live gate</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Workspace Adoption, Change Management & Training Program — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Drive Google Workspace adoption at enterprise scale: champion networks, an organizational-change-management plan, role-based training (Gmail/Drive/Docs/Meet/Chat + Gemini where licensed), hypercare/floorwalking, and adoption metrics. Self-guided framework and Python tools.",
+      "url_key": "google-workspace-adoption-change-management-training-government",
+      "image": "GWADOPT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWADOPT-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWADOPT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

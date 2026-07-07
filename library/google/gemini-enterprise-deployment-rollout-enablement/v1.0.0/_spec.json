@@ -1,0 +1,83 @@
+{
+  "sol": "GEMDEP",
+  "slug": "gemini-enterprise-deployment-rollout-enablement",
+  "title": "Gemini Enterprise Deployment & Rollout — Licensing, Enablement & Feature Configuration",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Roll Gemini Enterprise out to the workforce — enabled, configured, and adopted",
+  "problem": "Buying Gemini licenses isn't a rollout. This solution is the hands-on <strong>Gemini Enterprise deployment &amp; rollout</strong>: licensing and assignment, enabling and configuring features in the Admin console (Gemini in Workspace apps, Gems, NotebookLM Enterprise where available), a phased enablement plan by OU/group, user readiness and training, and adoption measurement &mdash; the deployment complement to the governance and connector work, so the workforce actually uses it safely.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what Gemini Enterprise delivers, the licensing/feature surface, the phased-rollout model, and how deployment relates to the separate governance and connector solutions.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace tenant + Gemini/AI licensing, admin access, pilot OU/group, governance guardrails in place).",
+    "<strong>Implementation Guide</strong> &mdash; assign licensing, enable + configure features by OU/group, run a pilot cohort, deliver readiness/training, and measure adoption &mdash; phased, pilot-first; preview features flagged &lsquo;verify in your tenant&rsquo;.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (features enabled for the right groups, pilot adopted, guardrails respected) plus Best Practices for scaling adoption."
+  ],
+  "short": "Deploy <strong>Gemini Enterprise</strong> to the workforce &mdash; licensing/assignment, Admin-console feature enablement (Gemini in Workspace, Gems, NotebookLM Enterprise where available), phased rollout by OU/group, training, and adoption measurement &mdash; the hands-on complement to governance. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deploy Gemini Enterprise to the workforce — licensing/assignment, Admin-console feature enablement (Gemini in Workspace, Gems, NotebookLM Enterprise where available), phased rollout by OU/group, training, and adoption measurement — the hands-on complement to governance.",
+  "meta_title": "Gemini Enterprise Deployment & Rollout — Licensing, Enablement & Adoption",
+  "meta_description": "Deploy and roll out Gemini Enterprise: licensing/assignment, Admin-console feature enablement (Gemini in Workspace apps, Gems, NotebookLM Enterprise where available), phased rollout by OU/group, user training, and adoption measurement. Self-guided steps and Python tools; preview features flagged to verify.",
+  "bottom_line": "Gemini Enterprise actually deployed and adopted &mdash; licensed, feature-configured, rolled out in phases, and measured &mdash; the hands-on complement to the governance and connector work.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Gemini Enterprise",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Deployment & Rollout",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Licensing · Enablement · Adoption",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LICENSES ≠ ROLLOUT",
+      "items": [
+        "Bought, not enabled",
+        "No phasing",
+        "Low adoption",
+        "No training"
+      ]
+    },
+    "to": {
+      "label": "Deployed & adopted",
+      "stat": "Phased · measured"
+    },
+    "tagline": "LICENSE.  ENABLE.  ADOPT.",
+    "benefits": [
+      {
+        "icon": "chip",
+        "title": "Enablement",
+        "sub": "Admin console"
+      },
+      {
+        "icon": "users",
+        "title": "Rollout",
+        "sub": "By OU/group"
+      },
+      {
+        "icon": "chart",
+        "title": "Adoption",
+        "sub": "Measured"
+      },
+      {
+        "icon": "gear",
+        "title": "Training",
+        "sub": "Readiness"
+      }
+    ]
+  }
+}

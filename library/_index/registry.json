@@ -5511,6 +5511,338 @@
     "product_count": 3
   },
   {
+    "title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+    "slug": "beyondcorp-enterprise-zero-trust-access",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPBCE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GCPBCE-COMM-001",
+      "PTK-GCPBCE-NPO-001",
+      "PTK-GCPBCE-GOV-001"
+    ],
+    "deliverables": [
+      "GCPBCE-Solution.pdf",
+      "GCPBCE-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\beyondcorp-enterprise-zero-trust-access\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/03-implementation.md",
+          "kb": 9.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "bce_access_assessment.py",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/scripts/bce_access_assessment.py",
+          "kb": 6.2
+        },
+        {
+          "name": "bce_iap_enable_helper.py",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/scripts/bce_iap_enable_helper.py",
+          "kb": 6.9
+        },
+        {
+          "name": "bce_policy_guardrail_check.py",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/scripts/bce_policy_guardrail_check.py",
+          "kb": 6.2
+        },
+        {
+          "name": "bce_scope_config_helper.py",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/scripts/bce_scope_config_helper.py",
+          "kb": 9.2
+        },
+        {
+          "name": "bce_zerotrust_validation_report.py",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/scripts/bce_zerotrust_validation_report.py",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPBCE-Complete-Solution.zip",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-Complete-Solution.zip",
+          "kb": 110.8
+        },
+        {
+          "name": "GCPBCE-hero.png",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-hero.png",
+          "kb": 457.1
+        },
+        {
+          "name": "GCPBCE-hero.svg",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GCPBCE-Scripts.zip",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-Scripts.zip",
+          "kb": 13.7
+        },
+        {
+          "name": "GCPBCE-Solution.docx",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-Solution.docx",
+          "kb": 56.9
+        },
+        {
+          "name": "GCPBCE-Solution.pdf",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-Solution.pdf",
+          "kb": 60.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/beyondcorp-enterprise-zero-trust-access/v1.0.0/deliverables/GCPBCE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory (SSO at Scale)",
+    "slug": "cloud-identity-enterprise-idp-saml-app-integration",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "CISAML",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CISAML-COMM-001",
+      "PTK-CISAML-NPO-001",
+      "PTK-CISAML-GOV-001"
+    ],
+    "deliverables": [
+      "CISAML-Solution.pdf",
+      "CISAML-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\cloud-identity-enterprise-idp-saml-app-integration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/02-requirements.md",
+          "kb": 7.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/03-implementation.md",
+          "kb": 10.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "assignment_guardrail_check.py",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/scripts/assignment_guardrail_check.py",
+          "kb": 5.9
+        },
+        {
+          "name": "catalog_config_helper.py",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/scripts/catalog_config_helper.py",
+          "kb": 5.4
+        },
+        {
+          "name": "saml_app_onboarding_helper.py",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/scripts/saml_app_onboarding_helper.py",
+          "kb": 7.3
+        },
+        {
+          "name": "sso_readiness_assessment.py",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/scripts/sso_readiness_assessment.py",
+          "kb": 6.7
+        },
+        {
+          "name": "sso_validation_report.py",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/scripts/sso_validation_report.py",
+          "kb": 7.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CISAML-Complete-Solution.zip",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-Complete-Solution.zip",
+          "kb": 108.6
+        },
+        {
+          "name": "CISAML-hero.png",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-hero.png",
+          "kb": 462.7
+        },
+        {
+          "name": "CISAML-hero.svg",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CISAML-Scripts.zip",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-Scripts.zip",
+          "kb": 13.4
+        },
+        {
+          "name": "CISAML-Solution.docx",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-Solution.docx",
+          "kb": 56.2
+        },
+        {
+          "name": "CISAML-Solution.pdf",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-Solution.pdf",
+          "kb": 58.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/cloud-identity-enterprise-idp-saml-app-integration/v1.0.0/deliverables/CISAML-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
     "slug": "collaboration-ai-platform-consolidation-strategy",
     "category": "Google",
@@ -6507,6 +6839,1012 @@
     "product_count": 3
   },
   {
+    "title": "Gemini Enterprise Deployment & Rollout — Licensing, Enablement & Feature Configuration",
+    "slug": "gemini-enterprise-deployment-rollout-enablement",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GEMDEP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GEMDEP-COMM-001",
+      "PTK-GEMDEP-NPO-001",
+      "PTK-GEMDEP-GOV-001"
+    ],
+    "deliverables": [
+      "GEMDEP-Solution.pdf",
+      "GEMDEP-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\gemini-enterprise-deployment-rollout-enablement\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/02-requirements.md",
+          "kb": 6.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/03-implementation.md",
+          "kb": 8.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "gemini_adoption_report.py",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/scripts/gemini_adoption_report.py",
+          "kb": 8.8
+        },
+        {
+          "name": "gemini_feature_enablement.py",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/scripts/gemini_feature_enablement.py",
+          "kb": 10.5
+        },
+        {
+          "name": "gemini_guardrail_precheck.py",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/scripts/gemini_guardrail_precheck.py",
+          "kb": 5.3
+        },
+        {
+          "name": "gemini_license_readiness.py",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/scripts/gemini_license_readiness.py",
+          "kb": 8.1
+        },
+        {
+          "name": "gemini_rollout_wave_planner.py",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/scripts/gemini_rollout_wave_planner.py",
+          "kb": 7.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GEMDEP-Complete-Solution.zip",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-Complete-Solution.zip",
+          "kb": 103.4
+        },
+        {
+          "name": "GEMDEP-hero.png",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-hero.png",
+          "kb": 459.8
+        },
+        {
+          "name": "GEMDEP-hero.svg",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GEMDEP-Scripts.zip",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-Scripts.zip",
+          "kb": 14.8
+        },
+        {
+          "name": "GEMDEP-Solution.docx",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-Solution.docx",
+          "kb": 53.8
+        },
+        {
+          "name": "GEMDEP-Solution.pdf",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-Solution.pdf",
+          "kb": 52.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/gemini-enterprise-deployment-rollout-enablement/v1.0.0/deliverables/GEMDEP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Cloud FinOps — Billing, Budgets & Cost Governance",
+    "slug": "google-cloud-finops-billing-cost-governance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPFIN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GCPFIN-COMM-001",
+      "PTK-GCPFIN-NPO-001",
+      "PTK-GCPFIN-GOV-001"
+    ],
+    "deliverables": [
+      "GCPFIN-Solution.pdf",
+      "GCPFIN-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-cloud-finops-billing-cost-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/03-implementation.md",
+          "kb": 11.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "finops-budget-provisioner.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-budget-provisioner.py",
+          "kb": 5.7
+        },
+        {
+          "name": "finops-discovery.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-discovery.py",
+          "kb": 5.6
+        },
+        {
+          "name": "finops-guardrail-check.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-guardrail-check.py",
+          "kb": 5.4
+        },
+        {
+          "name": "finops-report.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-report.py",
+          "kb": 5.9
+        },
+        {
+          "name": "finops-savings-analyzer.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-savings-analyzer.py",
+          "kb": 5.6
+        },
+        {
+          "name": "finops-scope-helper.py",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/scripts/finops-scope-helper.py",
+          "kb": 5.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPFIN-Complete-Solution.zip",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-Complete-Solution.zip",
+          "kb": 113.3
+        },
+        {
+          "name": "GCPFIN-hero.png",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-hero.png",
+          "kb": 454.1
+        },
+        {
+          "name": "GCPFIN-hero.svg",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "GCPFIN-Scripts.zip",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-Scripts.zip",
+          "kb": 13.9
+        },
+        {
+          "name": "GCPFIN-Solution.docx",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "GCPFIN-Solution.pdf",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-Solution.pdf",
+          "kb": 61.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-cloud-finops-billing-cost-governance/v1.0.0/deliverables/GCPFIN-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Cloud IAM & Least-Privilege Governance (Roles, Service Accounts, Workload Identity)",
+    "slug": "google-cloud-iam-least-privilege-governance",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPIAM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GCPIAM-COMM-001",
+      "PTK-GCPIAM-NPO-001",
+      "PTK-GCPIAM-GOV-001"
+    ],
+    "deliverables": [
+      "GCPIAM-Solution.pdf",
+      "GCPIAM-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-cloud-iam-least-privilege-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/03-implementation.md",
+          "kb": 10.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GCPIAM-Assess.py",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/scripts/GCPIAM-Assess.py",
+          "kb": 5.6
+        },
+        {
+          "name": "GCPIAM-PolicyCheck.py",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/scripts/GCPIAM-PolicyCheck.py",
+          "kb": 7.0
+        },
+        {
+          "name": "GCPIAM-Review.py",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/scripts/GCPIAM-Review.py",
+          "kb": 4.9
+        },
+        {
+          "name": "GCPIAM-RoleDesigner.py",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/scripts/GCPIAM-RoleDesigner.py",
+          "kb": 4.1
+        },
+        {
+          "name": "GCPIAM-WIFSetup.py",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/scripts/GCPIAM-WIFSetup.py",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPIAM-Complete-Solution.zip",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-Complete-Solution.zip",
+          "kb": 110.6
+        },
+        {
+          "name": "GCPIAM-hero.png",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-hero.png",
+          "kb": 437.6
+        },
+        {
+          "name": "GCPIAM-hero.svg",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GCPIAM-Scripts.zip",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "GCPIAM-Solution.docx",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-Solution.docx",
+          "kb": 57.8
+        },
+        {
+          "name": "GCPIAM-Solution.pdf",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-Solution.pdf",
+          "kb": 62.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-cloud-iam-least-privilege-governance/v1.0.0/deliverables/GCPIAM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Cloud Network Architecture & VPC Service Controls (Shared VPC, Private Access, Perimeters)",
+    "slug": "google-cloud-network-architecture-vpc-service-controls",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPNET",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GCPNET-COMM-001",
+      "PTK-GCPNET-NPO-001",
+      "PTK-GCPNET-GOV-001"
+    ],
+    "deliverables": [
+      "GCPNET-Solution.pdf",
+      "GCPNET-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-cloud-network-architecture-vpc-service-controls\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/03-implementation.md",
+          "kb": 10.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "gcpnet_config_helper.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_config_helper.py",
+          "kb": 5.3
+        },
+        {
+          "name": "gcpnet_network_assessment.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_network_assessment.py",
+          "kb": 5.3
+        },
+        {
+          "name": "gcpnet_perimeter_report.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_perimeter_report.py",
+          "kb": 5.5
+        },
+        {
+          "name": "gcpnet_private_access_validate.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_private_access_validate.py",
+          "kb": 4.6
+        },
+        {
+          "name": "gcpnet_shared_vpc_provision.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_shared_vpc_provision.py",
+          "kb": 4.1
+        },
+        {
+          "name": "gcpnet_vpcsc_perimeter_build.py",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/scripts/gcpnet_vpcsc_perimeter_build.py",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPNET-Complete-Solution.zip",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-Complete-Solution.zip",
+          "kb": 109.5
+        },
+        {
+          "name": "GCPNET-hero.png",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-hero.png",
+          "kb": 473.0
+        },
+        {
+          "name": "GCPNET-hero.svg",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GCPNET-Scripts.zip",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-Scripts.zip",
+          "kb": 13.1
+        },
+        {
+          "name": "GCPNET-Solution.docx",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-Solution.docx",
+          "kb": 56.8
+        },
+        {
+          "name": "GCPNET-Solution.pdf",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-Solution.pdf",
+          "kb": 59.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-cloud-network-architecture-vpc-service-controls/v1.0.0/deliverables/GCPNET-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise)",
+    "slug": "google-cloud-landing-zone-organization-foundation",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPLZ",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-GCPLZ-COMM-001",
+      "PTK-GCPLZ-NPO-001",
+      "PTK-GCPLZ-GOV-001"
+    ],
+    "deliverables": [
+      "GCPLZ-Solution.pdf",
+      "GCPLZ-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-cloud-landing-zone-organization-foundation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/03-implementation.md",
+          "kb": 11.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/07-best-practices.md",
+          "kb": 4.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "gcp_hierarchy_provisioner.py",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/scripts/gcp_hierarchy_provisioner.py",
+          "kb": 5.3
+        },
+        {
+          "name": "gcp_landing_zone_validate.py",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/scripts/gcp_landing_zone_validate.py",
+          "kb": 7.5
+        },
+        {
+          "name": "gcp_naming_label_helper.py",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/scripts/gcp_naming_label_helper.py",
+          "kb": 6.0
+        },
+        {
+          "name": "gcp_org_assessment.py",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/scripts/gcp_org_assessment.py",
+          "kb": 4.6
+        },
+        {
+          "name": "gcp_org_policy_guardrails.py",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/scripts/gcp_org_policy_guardrails.py",
+          "kb": 5.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPLZ-Complete-Solution.zip",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-Complete-Solution.zip",
+          "kb": 113.3
+        },
+        {
+          "name": "GCPLZ-hero.png",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-hero.png",
+          "kb": 441.2
+        },
+        {
+          "name": "GCPLZ-hero.svg",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GCPLZ-Scripts.zip",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-Scripts.zip",
+          "kb": 12.1
+        },
+        {
+          "name": "GCPLZ-Solution.docx",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-Solution.docx",
+          "kb": 58.7
+        },
+        {
+          "name": "GCPLZ-Solution.pdf",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-Solution.pdf",
+          "kb": 63.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-cloud-landing-zone-organization-foundation/v1.0.0/deliverables/GCPLZ-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Cloud Security Command Center — Posture & Threat Management",
+    "slug": "google-cloud-security-command-center-posture-threat",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GCPSCC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GCPSCC-COMM-001",
+      "PTK-GCPSCC-NPO-001",
+      "PTK-GCPSCC-GOV-001"
+    ],
+    "deliverables": [
+      "GCPSCC-Solution.pdf",
+      "GCPSCC-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-cloud-security-command-center-posture-threat\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-gcp.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/source/global-requirements-gcp.md",
+          "kb": 6.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "scc_coverage_assessment.py",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/scripts/scc_coverage_assessment.py",
+          "kb": 5.1
+        },
+        {
+          "name": "scc_notify_export_setup.py",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/scripts/scc_notify_export_setup.py",
+          "kb": 5.1
+        },
+        {
+          "name": "scc_posture_check.py",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/scripts/scc_posture_check.py",
+          "kb": 5.0
+        },
+        {
+          "name": "scc_scope_config_helper.py",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/scripts/scc_scope_config_helper.py",
+          "kb": 5.8
+        },
+        {
+          "name": "scc_triage_sla_report.py",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/scripts/scc_triage_sla_report.py",
+          "kb": 7.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GCPSCC-Complete-Solution.zip",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-Complete-Solution.zip",
+          "kb": 104.5
+        },
+        {
+          "name": "GCPSCC-hero.png",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-hero.png",
+          "kb": 462.8
+        },
+        {
+          "name": "GCPSCC-hero.svg",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GCPSCC-Scripts.zip",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "GCPSCC-Solution.docx",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-Solution.docx",
+          "kb": 55.6
+        },
+        {
+          "name": "GCPSCC-Solution.pdf",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-Solution.pdf",
+          "kb": 56.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-cloud-security-command-center-posture-threat/v1.0.0/deliverables/GCPSCC-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
     "slug": "google-workspace-gemini-target-architecture-blueprint",
     "category": "Google",
@@ -6670,6 +8008,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/google-workspace-gemini-target-architecture-blueprint/v1.0.0/deliverables/GWARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Workspace Adoption, Change Management & Training Program (Enterprise)",
+    "slug": "google-workspace-adoption-change-management-training",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWADOPT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GWADOPT-COMM-001",
+      "PTK-GWADOPT-NPO-001",
+      "PTK-GWADOPT-GOV-001"
+    ],
+    "deliverables": [
+      "GWADOPT-Solution.pdf",
+      "GWADOPT-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\google-workspace-adoption-change-management-training\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/03-implementation.md",
+          "kb": 8.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "adoption_config_check.py",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/scripts/adoption_config_check.py",
+          "kb": 4.2
+        },
+        {
+          "name": "adoption_metrics_report.py",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/scripts/adoption_metrics_report.py",
+          "kb": 6.7
+        },
+        {
+          "name": "champion_roster_planner.py",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/scripts/champion_roster_planner.py",
+          "kb": 4.2
+        },
+        {
+          "name": "hypercare_theme_analyzer.py",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/scripts/hypercare_theme_analyzer.py",
+          "kb": 4.6
+        },
+        {
+          "name": "training_completion_tracker.py",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/scripts/training_completion_tracker.py",
+          "kb": 4.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWADOPT-Complete-Solution.zip",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-Complete-Solution.zip",
+          "kb": 102.6
+        },
+        {
+          "name": "GWADOPT-hero.png",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-hero.png",
+          "kb": 469.2
+        },
+        {
+          "name": "GWADOPT-hero.svg",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GWADOPT-Scripts.zip",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-Scripts.zip",
+          "kb": 10.5
+        },
+        {
+          "name": "GWADOPT-Solution.docx",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-Solution.docx",
+          "kb": 55.6
+        },
+        {
+          "name": "GWADOPT-Solution.pdf",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-Solution.pdf",
+          "kb": 54.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/google-workspace-adoption-change-management-training/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/google-workspace-adoption-change-management-training/v1.0.0/deliverables/GWADOPT-hero.png",
     "product_count": 3
   },
   {
@@ -7171,6 +8675,172 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+    "slug": "microsoft-365-tenant-decommission-retirement",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "M365DECOM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-M365DECOM-COMM-001",
+      "PTK-M365DECOM-NPO-001",
+      "PTK-M365DECOM-GOV-001"
+    ],
+    "deliverables": [
+      "M365DECOM-Solution.pdf",
+      "M365DECOM-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\microsoft-365-tenant-decommission-retirement\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/03-implementation.md",
+          "kb": 12.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "decommission_report.py",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/scripts/decommission_report.py",
+          "kb": 8.6
+        },
+        {
+          "name": "inventory_app_and_orphans.py",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/scripts/inventory_app_and_orphans.py",
+          "kb": 11.1
+        },
+        {
+          "name": "license_winddown_helper.py",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/scripts/license_winddown_helper.py",
+          "kb": 7.9
+        },
+        {
+          "name": "map_dns_integration.py",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/scripts/map_dns_integration.py",
+          "kb": 8.7
+        },
+        {
+          "name": "verify_migration_completeness.py",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/scripts/verify_migration_completeness.py",
+          "kb": 8.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "M365DECOM-Complete-Solution.zip",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-Complete-Solution.zip",
+          "kb": 117.1
+        },
+        {
+          "name": "M365DECOM-hero.png",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-hero.png",
+          "kb": 480.8
+        },
+        {
+          "name": "M365DECOM-hero.svg",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "M365DECOM-Scripts.zip",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-Scripts.zip",
+          "kb": 17.2
+        },
+        {
+          "name": "M365DECOM-Solution.docx",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "M365DECOM-Solution.pdf",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-Solution.pdf",
+          "kb": 61.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/microsoft-365-tenant-decommission-retirement/v1.0.0/deliverables/M365DECOM-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Teams → Google Chat & Meet Migration & Coexistence",
     "slug": "teams-to-google-chat-meet-migration",
     "category": "Google",
@@ -7334,6 +9004,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../google/teams-to-google-chat-meet-migration/v1.0.0/deliverables/GWCHAT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "OAuth & Third-Party App Access Governance for Google Workspace",
+    "slug": "oauth-third-party-app-access-governance-workspace",
+    "category": "Google",
+    "category_slug": "google",
+    "sol_code": "GWOAUTH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-06",
+    "updated": "2026-07-06",
+    "published_at": "2026-07-06",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-GWOAUTH-COMM-001",
+      "PTK-GWOAUTH-NPO-001",
+      "PTK-GWOAUTH-GOV-001"
+    ],
+    "deliverables": [
+      "GWOAUTH-Solution.pdf",
+      "GWOAUTH-Scripts.zip"
+    ],
+    "rel_path": "library\\google\\oauth-third-party-app-access-governance-workspace\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/03-implementation.md",
+          "kb": 8.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-google.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/source/global-requirements-google.md",
+          "kb": 5.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "api-access-control-helper.py",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/scripts/api-access-control-helper.py",
+          "kb": 5.1
+        },
+        {
+          "name": "app-access-validation.py",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/scripts/app-access-validation.py",
+          "kb": 5.4
+        },
+        {
+          "name": "oauth-app-inventory.py",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/scripts/oauth-app-inventory.py",
+          "kb": 7.6
+        },
+        {
+          "name": "risky-grant-revoker.py",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/scripts/risky-grant-revoker.py",
+          "kb": 5.2
+        },
+        {
+          "name": "scope-config-helper.py",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/scripts/scope-config-helper.py",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GWOAUTH-Complete-Solution.zip",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-Complete-Solution.zip",
+          "kb": 100.8
+        },
+        {
+          "name": "GWOAUTH-hero.png",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-hero.png",
+          "kb": 447.0
+        },
+        {
+          "name": "GWOAUTH-hero.svg",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "GWOAUTH-Scripts.zip",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "GWOAUTH-Solution.docx",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-Solution.docx",
+          "kb": 54.3
+        },
+        {
+          "name": "GWOAUTH-Solution.pdf",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-Solution.pdf",
+          "kb": 52.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../google/oauth-third-party-app-access-governance-workspace/v1.0.0/deliverables/GWOAUTH-hero.png",
     "product_count": 3
   },
   {

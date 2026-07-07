@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Cloud",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Landing Zone & Foundation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Hierarchy · Org Policy · IAM · Network",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED GCP",
+    "items": [
+      "Project sprawl",
+      "No guardrails",
+      "Inconsistent IAM",
+      "Cost blind"
+    ]
+  },
+  "to": {
+    "label": "Governed foundation",
+    "stat": "Secure · attributable"
+  },
+  "tagline": "HIERARCHY.  GUARDRAILS.  LAND.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Hierarchy",
+      "sub": "Org/folder/project"
+    },
+    {
+      "icon": "shield",
+      "title": "Org Policy",
+      "sub": "Guardrails"
+    },
+    {
+      "icon": "key",
+      "title": "IAM Baseline",
+      "sub": "Least-privilege"
+    },
+    {
+      "icon": "chart",
+      "title": "Logging",
+      "sub": "Centralized"
+    }
+  ]
+}

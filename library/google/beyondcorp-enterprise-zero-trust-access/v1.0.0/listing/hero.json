@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "BeyondCorp Enterprise",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Zero-Trust Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "IAP · Access Levels · Device Trust",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "VPN = TRUST",
+    "items": [
+      "Location-based trust",
+      "VPN exposure",
+      "No context",
+      "Flat access"
+    ]
+  },
+  "to": {
+    "label": "Zero trust",
+    "stat": "Identity + context"
+  },
+  "tagline": "LEVEL.  PROXY.  TRUST-CHECK.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Access Levels",
+      "sub": "Context"
+    },
+    {
+      "icon": "lock",
+      "title": "IAP",
+      "sub": "In front"
+    },
+    {
+      "icon": "device",
+      "title": "Device Trust",
+      "sub": "Signals"
+    },
+    {
+      "icon": "key",
+      "title": "Per-Request",
+      "sub": "No VPN"
+    }
+  ]
+}

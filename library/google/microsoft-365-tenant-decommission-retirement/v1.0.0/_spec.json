@@ -1,0 +1,83 @@
+{
+  "sol": "M365DECOM",
+  "slug": "microsoft-365-tenant-decommission-retirement",
+  "title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-google.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Cleanly retire the Microsoft 365 tenant after the move to Google",
+  "problem": "Once users are live on Google Workspace, the old <strong>Microsoft 365 tenant</strong> is cost, risk, and orphaned data &mdash; but pulling the plug carelessly loses records or breaks lingering integrations. This solution is the <strong>decommission &amp; retirement runbook</strong>: verify migration completeness, handle data disposition and legal-hold/eDiscovery obligations, wind down licensing and Entra app registrations, re-point or remove DNS/integrations, and formally close the tenant &mdash; a clean, auditable exit.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the retirement model: completeness verification, data disposition vs retention/legal hold, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration signed off, M365/Entra admin access, legal/records stakeholders, DNS control).",
+    "<strong>Implementation Guide</strong> &mdash; verify completeness, export/dispose data under the retention policy, decommission licensing + Entra app registrations, re-point/remove DNS + integrations, and execute formal tenant closure &mdash; staged with rollback windows.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (nothing orphaned, obligations met, closure evidenced) plus Best Practices for a clean, auditable exit; legal-hold determinations deferred to legal/records."
+  ],
+  "short": "Cleanly retire the old <strong>Microsoft 365 tenant</strong> after the Google move &mdash; completeness verification, data disposition + legal-hold handling, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure &mdash; an auditable exit. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Cleanly retire the old Microsoft 365 tenant after the Google move — completeness verification, data disposition + legal-hold handling, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure — an auditable exit.",
+  "meta_title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+  "meta_description": "Cleanly decommission a Microsoft 365 tenant after migrating to Google Workspace: migration-completeness verification, data disposition and legal-hold handling, licensing wind-down, Entra app cleanup, DNS/integration cutover, and formal tenant closure. Self-guided steps and Python tools; legal-hold determinations deferred to legal.",
+  "bottom_line": "The retired Microsoft 365 tenant closed cleanly and auditably &mdash; nothing orphaned, records obligations met, licensing and identity wound down &mdash; the cost and risk gone for good.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Microsoft 365 Tenant",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Decommission & Retirement",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Disposition · Wind-Down · Closure",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "LINGERING TENANT",
+      "items": [
+        "Paying for both",
+        "Orphaned data",
+        "Legal-hold risk",
+        "Stale integrations"
+      ]
+    },
+    "to": {
+      "label": "Clean exit",
+      "stat": "Auditable closure"
+    },
+    "tagline": "VERIFY.  DISPOSE.  CLOSE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Completeness",
+        "sub": "Verified"
+      },
+      {
+        "icon": "lock",
+        "title": "Disposition",
+        "sub": "+ legal hold"
+      },
+      {
+        "icon": "gear",
+        "title": "Wind-Down",
+        "sub": "License/app"
+      },
+      {
+        "icon": "cloud",
+        "title": "Closure",
+        "sub": "Formal"
+      }
+    ]
+  }
+}

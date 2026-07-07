@@ -1,0 +1,83 @@
+{
+  "sol": "GCPFIN",
+  "slug": "google-cloud-finops-billing-cost-governance",
+  "title": "Google Cloud FinOps — Billing, Budgets & Cost Governance",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2495.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-gcp.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Make Google Cloud (and Workspace) spend visible, attributable, and controlled",
+  "problem": "Cloud spend without FinOps becomes a surprise bill nobody owns. This solution establishes <strong>FinOps for Google Cloud</strong>: billing export to BigQuery, cost attribution by folder/project/label, budgets and alerts, committed-use and rightsizing opportunities, and showback/chargeback dashboards &mdash; extendable to Workspace and Gemini licensing &mdash; so every dollar is visible, attributable, and governed.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the FinOps model: billing export, cost attribution (labels/hierarchy), budgets/alerts, optimization levers (CUD/rightsizing), and showback/chargeback.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (billing account + admin, hierarchy/labeling, BigQuery for export, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; enable billing export to BigQuery, build attribution + dashboards, set budgets/alerts, identify CUD/rightsizing savings, and stand up a showback cadence &mdash; pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (spend attributable, budgets alerting, savings identified) plus Best Practices for an ongoing FinOps operating rhythm."
+  ],
+  "short": "Establish <strong>FinOps for Google Cloud</strong> &mdash; billing export, cost attribution by hierarchy/label, budgets/alerts, rightsizing/CUD savings, and showback dashboards (extendable to Workspace/Gemini licensing) &mdash; so spend is visible and governed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish FinOps for Google Cloud — billing export, cost attribution by hierarchy/label, budgets/alerts, rightsizing/CUD savings, and showback dashboards (extendable to Workspace/Gemini licensing) — so spend is visible and governed.",
+  "meta_title": "Google Cloud FinOps — Billing, Budgets & Cost Governance",
+  "meta_description": "Stand up FinOps on Google Cloud: billing export to BigQuery, cost attribution by folder/project/label, budgets and alerts, committed-use/rightsizing savings, and showback/chargeback dashboards. Self-guided steps and Python/gcloud tools.",
+  "bottom_line": "Google Cloud (and Workspace/Gemini) spend made visible, attributable, and controlled &mdash; budgets alerting, savings identified, showback in place &mdash; no more surprise bills.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Cloud FinOps",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Billing & Cost Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Export · Budgets · Showback · Savings",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SURPRISE BILLS",
+      "items": [
+        "No attribution",
+        "No budgets",
+        "Waste unseen",
+        "No owner"
+      ]
+    },
+    "to": {
+      "label": "Governed spend",
+      "stat": "Visible · attributable"
+    },
+    "tagline": "EXPORT.  ATTRIBUTE.  OPTIMIZE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Export",
+        "sub": "BigQuery"
+      },
+      {
+        "icon": "gear",
+        "title": "Budgets",
+        "sub": "Alerts"
+      },
+      {
+        "icon": "cloud",
+        "title": "Attribution",
+        "sub": "Labels"
+      },
+      {
+        "icon": "shield",
+        "title": "Savings",
+        "sub": "CUD/rightsize"
+      }
+    ]
+  }
+}

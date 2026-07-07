@@ -1,0 +1,83 @@
+{
+  "sol": "GCPIAM",
+  "slug": "google-cloud-iam-least-privilege-governance",
+  "title": "Google Cloud IAM & Least-Privilege Governance (Roles, Service Accounts, Workload Identity)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-gcp.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Get Google Cloud access under least-privilege control",
+  "problem": "Broad <strong>Owner</strong> grants, unmanaged service-account keys, and role sprawl are the most common Google Cloud security findings. This solution establishes <strong>Cloud IAM governance</strong>: a least-privilege role model (predefined vs custom), disciplined service-account and <strong>Workload Identity Federation</strong> use (kill exported keys), group-based access, org-policy IAM guardrails, and recurring access review &mdash; so who-can-do-what is intentional and auditable.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the IAM model: principals, predefined vs custom roles, service accounts &amp; Workload Identity Federation, group-based access, and the guardrails/review approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization/hierarchy, org-admin access, groups source of truth, gcloud toolchain).",
+    "<strong>Implementation Guide</strong> &mdash; design the role model, replace SA keys with Workload Identity Federation, set group-based bindings at the right hierarchy level, apply IAM-restricting org policies, and stand up an access-review cadence &mdash; pilot-first.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (no broad Owner, no exported keys, bindings reviewed) plus Best Practices for durable least-privilege."
+  ],
+  "short": "Establish <strong>Google Cloud IAM governance</strong> &mdash; least-privilege role model, Workload Identity Federation (no exported keys), group-based access, org-policy guardrails, and access review &mdash; so cloud access is intentional and auditable. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Establish Google Cloud IAM governance — least-privilege role model, Workload Identity Federation (no exported keys), group-based access, org-policy guardrails, and access review — so cloud access is intentional and auditable.",
+  "meta_title": "Google Cloud IAM & Least-Privilege Governance",
+  "meta_description": "Govern Google Cloud IAM: least-privilege role model (predefined vs custom), service accounts and Workload Identity Federation, group-based access, org-policy guardrails, and access reviews. Self-guided steps and Python/gcloud tools.",
+  "bottom_line": "Google Cloud access under least-privilege control &mdash; role sprawl tamed, exported keys eliminated, bindings reviewed &mdash; intentional and auditable across the organization.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Cloud IAM",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Least-Privilege Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Roles · Service Accounts · WIF",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "OVER-PRIVILEGED",
+      "items": [
+        "Broad Owner grants",
+        "Exported SA keys",
+        "Role sprawl",
+        "No review"
+      ]
+    },
+    "to": {
+      "label": "Least privilege",
+      "stat": "Intentional · audited"
+    },
+    "tagline": "MODEL.  BIND.  REVIEW.",
+    "benefits": [
+      {
+        "icon": "key",
+        "title": "Roles",
+        "sub": "Least-privilege"
+      },
+      {
+        "icon": "fingerprint",
+        "title": "WIF",
+        "sub": "No keys"
+      },
+      {
+        "icon": "users",
+        "title": "Groups",
+        "sub": "Group-based"
+      },
+      {
+        "icon": "shield",
+        "title": "Review",
+        "sub": "Recurring"
+      }
+    ]
+  }
+}

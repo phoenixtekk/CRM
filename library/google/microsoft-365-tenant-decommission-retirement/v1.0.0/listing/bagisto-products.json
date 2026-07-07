@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-365-tenant-decommission-retirement",
+    "title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-M365DECOM-COMM-001",
+      "name": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "Cleanly retire the old <strong>Microsoft 365 tenant</strong> after the Google move &mdash; completeness verification, data disposition + legal-hold handling, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure &mdash; an auditable exit. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Cleanly retire the Microsoft 365 tenant after the move to Google</h3><p>Once users are live on Google Workspace, the old <strong>Microsoft 365 tenant</strong> is cost, risk, and orphaned data &mdash; but pulling the plug carelessly loses records or breaks lingering integrations. This solution is the <strong>decommission &amp; retirement runbook</strong>: verify migration completeness, handle data disposition and legal-hold/eDiscovery obligations, wind down licensing and Entra app registrations, re-point or remove DNS/integrations, and formally close the tenant &mdash; a clean, auditable exit.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (gcloud / Cloud Client Libraries).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the retirement model: completeness verification, data disposition vs retention/legal hold, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration signed off, M365/Entra admin access, legal/records stakeholders, DNS control).</li><li><strong>Implementation Guide</strong> &mdash; verify completeness, export/dispose data under the retention policy, decommission licensing + Entra app registrations, re-point/remove DNS + integrations, and execute formal tenant closure &mdash; staged with rollback windows.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (nothing orphaned, obligations met, closure evidenced) plus Best Practices for a clean, auditable exit; legal-hold determinations deferred to legal/records.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The retired Microsoft 365 tenant closed cleanly and auditably &mdash; nothing orphaned, records obligations met, licensing and identity wound down &mdash; the cost and risk gone for good.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>decommission_report.py</code> &mdash; pre-closure guardrail check + closure evidence pack (read-only)</li><li><code>inventory_app_and_orphans.py</code> &mdash; inventory Entra apps/SPs/credentials + orphaned identities (read-only)</li><li><code>license_winddown_helper.py</code> &mdash; model and reclaim M365 license assignments (dry-run by default)</li><li><code>map_dns_integration.py</code> &mdash; map & classify each domain's DNS + integration ties to the M365 tenant (read-only)</li><li><code>verify_migration_completeness.py</code> &mdash; reconcile M365 residuals against a migration baseline (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+      "meta_description": "Cleanly decommission a Microsoft 365 tenant after migrating to Google Workspace: migration-completeness verification, data disposition and legal-hold handling, licensing wind-down, Entra app cleanup, DNS/integration cutover, and formal tenant closure. Self-guided steps and Python tools; legal-hold determinations deferred to legal.",
+      "url_key": "microsoft-365-tenant-decommission-retirement-commercial",
+      "image": "M365DECOM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365DECOM-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "M365DECOM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-M365DECOM-NPO-001",
+      "name": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Cleanly retire the old Microsoft 365 tenant after the Google move — completeness verification, data disposition + legal-hold handling, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure — an auditable exit. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Cleanly retire the Microsoft 365 tenant after the move to Google</h3><p>Once users are live on Google Workspace, the old <strong>Microsoft 365 tenant</strong> is cost, risk, and orphaned data &mdash; but pulling the plug carelessly loses records or breaks lingering integrations. This solution is the <strong>decommission &amp; retirement runbook</strong>: verify migration completeness, handle data disposition and legal-hold/eDiscovery obligations, wind down licensing and Entra app registrations, re-point or remove DNS/integrations, and formally close the tenant &mdash; a clean, auditable exit.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the retirement model: completeness verification, data disposition vs retention/legal hold, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration signed off, M365/Entra admin access, legal/records stakeholders, DNS control).</li><li><strong>Implementation Guide</strong> &mdash; verify completeness, export/dispose data under the retention policy, decommission licensing + Entra app registrations, re-point/remove DNS + integrations, and execute formal tenant closure &mdash; staged with rollback windows.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (nothing orphaned, obligations met, closure evidenced) plus Best Practices for a clean, auditable exit; legal-hold determinations deferred to legal/records.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>decommission_report.py</code> &mdash; pre-closure guardrail check + closure evidence pack (read-only)</li><li><code>inventory_app_and_orphans.py</code> &mdash; inventory Entra apps/SPs/credentials + orphaned identities (read-only)</li><li><code>license_winddown_helper.py</code> &mdash; model and reclaim M365 license assignments (dry-run by default)</li><li><code>map_dns_integration.py</code> &mdash; map & classify each domain's DNS + integration ties to the M365 tenant (read-only)</li><li><code>verify_migration_completeness.py</code> &mdash; reconcile M365 residuals against a migration baseline (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Cleanly decommission a Microsoft 365 tenant after migrating to Google Workspace: migration-completeness verification, data disposition and legal-hold handling, licensing wind-down, Entra app cleanup, DNS/integration cutover, and formal tenant closure. Self-guided steps and Python tools; legal-hold determinations deferred to legal.",
+      "url_key": "microsoft-365-tenant-decommission-retirement-nonprofit",
+      "image": "M365DECOM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365DECOM-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "M365DECOM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-M365DECOM-GOV-001",
+      "name": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Cleanly retire the old Microsoft 365 tenant after the Google move — completeness verification, data disposition + legal-hold handling, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure — an auditable exit. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Cleanly retire the Microsoft 365 tenant after the move to Google</h3><p>Once users are live on Google Workspace, the old <strong>Microsoft 365 tenant</strong> is cost, risk, and orphaned data &mdash; but pulling the plug carelessly loses records or breaks lingering integrations. This solution is the <strong>decommission &amp; retirement runbook</strong>: verify migration completeness, handle data disposition and legal-hold/eDiscovery obligations, wind down licensing and Entra app registrations, re-point or remove DNS/integrations, and formally close the tenant &mdash; a clean, auditable exit.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the retirement model: completeness verification, data disposition vs retention/legal hold, licensing wind-down, identity/app cleanup, DNS/integration cutover, and formal closure.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (migration signed off, M365/Entra admin access, legal/records stakeholders, DNS control).</li><li><strong>Implementation Guide</strong> &mdash; verify completeness, export/dispose data under the retention policy, decommission licensing + Entra app registrations, re-point/remove DNS + integrations, and execute formal tenant closure &mdash; staged with rollback windows.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (nothing orphaned, obligations met, closure evidenced) plus Best Practices for a clean, auditable exit; legal-hold determinations deferred to legal/records.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>decommission_report.py</code> &mdash; pre-closure guardrail check + closure evidence pack (read-only)</li><li><code>inventory_app_and_orphans.py</code> &mdash; inventory Entra apps/SPs/credentials + orphaned identities (read-only)</li><li><code>license_winddown_helper.py</code> &mdash; model and reclaim M365 license assignments (dry-run by default)</li><li><code>map_dns_integration.py</code> &mdash; map & classify each domain's DNS + integration ties to the M365 tenant (read-only)</li><li><code>verify_migration_completeness.py</code> &mdash; reconcile M365 residuals against a migration baseline (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Cleanly decommission a Microsoft 365 tenant after migrating to Google Workspace: migration-completeness verification, data disposition and legal-hold handling, licensing wind-down, Entra app cleanup, DNS/integration cutover, and formal tenant closure. Self-guided steps and Python tools; legal-hold determinations deferred to legal.",
+      "url_key": "microsoft-365-tenant-decommission-retirement-government",
+      "image": "M365DECOM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "M365DECOM-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "M365DECOM-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

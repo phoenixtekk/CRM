@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "google-cloud-landing-zone-organization-foundation",
+    "title": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise)",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GCPLZ-COMM-001",
+      "name": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 4995.0,
+      "short_description": "Build an enterprise <strong>Google Cloud landing zone</strong> &mdash; resource hierarchy, org policies, least-privilege IAM baseline, centralized logging, shared network, naming/labeling &mdash; the governed foundation every GCP workload lands on. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Stand up an enterprise-grade Google Cloud foundation the right way</h3><p>Moving real workloads to <strong>Google Cloud Platform</strong> without a foundation creates sprawl, inconsistent security, and cost you can't attribute. This solution builds the <strong>landing zone</strong>: the resource hierarchy (Organization &rarr; folders &rarr; projects), org policies, a least-privilege IAM baseline, centralized logging/monitoring, a shared network pattern, and naming/labeling &mdash; the secure, governed platform every later workload lands on.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (gcloud / Cloud Client Libraries).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the landing-zone reference: resource hierarchy, org policies, IAM baseline, logging/billing/network shape, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, org-admin access, billing, gcloud/IaC toolchain, hierarchy &amp; naming design).</li><li><strong>Implementation Guide</strong> &mdash; build the folder/project hierarchy, apply org-policy guardrails, set the IAM baseline and groups, wire centralized audit logging + billing export, and stand up the shared-network landing pattern &mdash; pilot-first, each artifact named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (hierarchy, guardrails enforced, logging flowing) plus Best Practices for extending the landing zone as workloads onboard.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A secure, governed Google Cloud foundation &mdash; hierarchy, guardrails, IAM, logging, and network in place &mdash; so every workload lands consistent, attributable, and compliant.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>gcp_hierarchy_provisioner.py</code> &mdash; create the landing-zone folder/project hierarchy from a plan</li><li><code>gcp_landing_zone_validate.py</code> &mdash; validate the landing-zone gates and emit an HTML report</li><li><code>gcp_naming_label_helper.py</code> &mdash; emit and validate the landing-zone naming/labeling standard</li><li><code>gcp_org_assessment.py</code> &mdash; read-only inventory of a Google Cloud Organization's foundation state</li><li><code>gcp_org_policy_guardrails.py</code> &mdash; apply the \"Org Policy Baseline - Org - v1\" guardrail set to a scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Cloud Platform Landing Zone & Organization Foundation",
+      "meta_description": "Build an enterprise GCP landing zone: resource hierarchy (Organization/folders/projects), org policies, least-privilege IAM baseline, centralized logging, shared network, and naming/labeling. Self-guided steps and Python/gcloud tools.",
+      "url_key": "google-cloud-landing-zone-organization-foundation-commercial",
+      "image": "GCPLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPLZ-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPLZ-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GCPLZ-NPO-001",
+      "name": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 2997.0,
+      "short_description": "<p>Build an enterprise Google Cloud landing zone — resource hierarchy, org policies, least-privilege IAM baseline, centralized logging, shared network, naming/labeling — the governed foundation every GCP workload lands on. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stand up an enterprise-grade Google Cloud foundation the right way</h3><p>Moving real workloads to <strong>Google Cloud Platform</strong> without a foundation creates sprawl, inconsistent security, and cost you can't attribute. This solution builds the <strong>landing zone</strong>: the resource hierarchy (Organization &rarr; folders &rarr; projects), org policies, a least-privilege IAM baseline, centralized logging/monitoring, a shared network pattern, and naming/labeling &mdash; the secure, governed platform every later workload lands on.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the landing-zone reference: resource hierarchy, org policies, IAM baseline, logging/billing/network shape, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, org-admin access, billing, gcloud/IaC toolchain, hierarchy &amp; naming design).</li><li><strong>Implementation Guide</strong> &mdash; build the folder/project hierarchy, apply org-policy guardrails, set the IAM baseline and groups, wire centralized audit logging + billing export, and stand up the shared-network landing pattern &mdash; pilot-first, each artifact named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (hierarchy, guardrails enforced, logging flowing) plus Best Practices for extending the landing zone as workloads onboard.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>gcp_hierarchy_provisioner.py</code> &mdash; create the landing-zone folder/project hierarchy from a plan</li><li><code>gcp_landing_zone_validate.py</code> &mdash; validate the landing-zone gates and emit an HTML report</li><li><code>gcp_naming_label_helper.py</code> &mdash; emit and validate the landing-zone naming/labeling standard</li><li><code>gcp_org_assessment.py</code> &mdash; read-only inventory of a Google Cloud Organization's foundation state</li><li><code>gcp_org_policy_guardrails.py</code> &mdash; apply the \"Org Policy Baseline - Org - v1\" guardrail set to a scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Cloud Platform Landing Zone & Organization Foundation — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Build an enterprise GCP landing zone: resource hierarchy (Organization/folders/projects), org policies, least-privilege IAM baseline, centralized logging, shared network, and naming/labeling. Self-guided steps and Python/gcloud tools.",
+      "url_key": "google-cloud-landing-zone-organization-foundation-nonprofit",
+      "image": "GCPLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPLZ-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPLZ-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GCPLZ-GOV-001",
+      "name": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 4245.75,
+      "short_description": "<p>Build an enterprise Google Cloud landing zone — resource hierarchy, org policies, least-privilege IAM baseline, centralized logging, shared network, naming/labeling — the governed foundation every GCP workload lands on. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stand up an enterprise-grade Google Cloud foundation the right way</h3><p>Moving real workloads to <strong>Google Cloud Platform</strong> without a foundation creates sprawl, inconsistent security, and cost you can't attribute. This solution builds the <strong>landing zone</strong>: the resource hierarchy (Organization &rarr; folders &rarr; projects), org policies, a least-privilege IAM baseline, centralized logging/monitoring, a shared network pattern, and naming/labeling &mdash; the secure, governed platform every later workload lands on.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the landing-zone reference: resource hierarchy, org policies, IAM baseline, logging/billing/network shape, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, org-admin access, billing, gcloud/IaC toolchain, hierarchy &amp; naming design).</li><li><strong>Implementation Guide</strong> &mdash; build the folder/project hierarchy, apply org-policy guardrails, set the IAM baseline and groups, wire centralized audit logging + billing export, and stand up the shared-network landing pattern &mdash; pilot-first, each artifact named.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (hierarchy, guardrails enforced, logging flowing) plus Best Practices for extending the landing zone as workloads onboard.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>gcp_hierarchy_provisioner.py</code> &mdash; create the landing-zone folder/project hierarchy from a plan</li><li><code>gcp_landing_zone_validate.py</code> &mdash; validate the landing-zone gates and emit an HTML report</li><li><code>gcp_naming_label_helper.py</code> &mdash; emit and validate the landing-zone naming/labeling standard</li><li><code>gcp_org_assessment.py</code> &mdash; read-only inventory of a Google Cloud Organization's foundation state</li><li><code>gcp_org_policy_guardrails.py</code> &mdash; apply the \"Org Policy Baseline - Org - v1\" guardrail set to a scope</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Google Cloud Platform Landing Zone & Organization Foundation — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Build an enterprise GCP landing zone: resource hierarchy (Organization/folders/projects), org policies, least-privilege IAM baseline, centralized logging, shared network, and naming/labeling. Self-guided steps and Python/gcloud tools.",
+      "url_key": "google-cloud-landing-zone-organization-foundation-government",
+      "image": "GCPLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPLZ-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPLZ-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

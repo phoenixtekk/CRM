@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Gemini Enterprise",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deployment & Rollout",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Licensing · Enablement · Adoption",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "LICENSES ≠ ROLLOUT",
+    "items": [
+      "Bought, not enabled",
+      "No phasing",
+      "Low adoption",
+      "No training"
+    ]
+  },
+  "to": {
+    "label": "Deployed & adopted",
+    "stat": "Phased · measured"
+  },
+  "tagline": "LICENSE.  ENABLE.  ADOPT.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Enablement",
+      "sub": "Admin console"
+    },
+    {
+      "icon": "users",
+      "title": "Rollout",
+      "sub": "By OU/group"
+    },
+    {
+      "icon": "chart",
+      "title": "Adoption",
+      "sub": "Measured"
+    },
+    {
+      "icon": "gear",
+      "title": "Training",
+      "sub": "Readiness"
+    }
+  ]
+}

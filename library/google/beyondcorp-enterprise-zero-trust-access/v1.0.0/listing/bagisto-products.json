@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "beyondcorp-enterprise-zero-trust-access",
+    "title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GCPBCE-COMM-001",
+      "name": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Implement <strong>BeyondCorp Enterprise</strong> zero-trust access &mdash; Access Context Manager access levels, Identity-Aware Proxy for apps/VMs, context-aware bindings, and device-trust signals &mdash; so access is granted on who and what, not where, with no VPN. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Replace VPN trust with identity- and context-aware zero-trust access</h3><p>Network location is not identity &mdash; a device inside the VPN isn't automatically trustworthy. This solution implements <strong>BeyondCorp Enterprise</strong> zero-trust access: <strong>Access Context Manager</strong> access levels (identity + device + context), <strong>Identity-Aware Proxy (IAP)</strong> in front of web apps and VMs, context-aware access bindings, and device-trust signals &mdash; so access is granted per-request on who and what, not where, with no VPN.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (gcloud / Cloud Client Libraries).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the zero-trust model: Access Context Manager access levels, Identity-Aware Proxy, context-aware access, device signals, and how it relates to Workspace Context-Aware Access.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, Cloud Identity, target apps/VMs, device signal source, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; define access levels, front a pilot app/VM with IAP, bind context-aware access, add device-trust signals, and validate deny/allow &mdash; then expand and retire VPN paths, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (access granted on identity+context, denied otherwise, VPN path retired) plus Best Practices for expanding zero-trust coverage.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Access granted on identity and context, not network location &mdash; apps and VMs behind Identity-Aware Proxy, context-aware levels enforced, VPN trust retired &mdash; true zero trust.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>bce_access_assessment.py</code> &mdash; read-only BeyondCorp Enterprise zero-trust readiness assessment</li><li><code>bce_iap_enable_helper.py</code> &mdash; enable Identity-Aware Proxy for a web app or a VM (SSH), dry-run by default</li><li><code>bce_policy_guardrail_check.py</code> &mdash; zero-trust guardrail / posture check (read-only gate)</li><li><code>bce_scope_config_helper.py</code> &mdash; build access levels (dry-run) OR export the zero-trust scope inventory</li><li><code>bce_zerotrust_validation_report.py</code> &mdash; deny/allow validation report for an IAP-protected resource</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+      "meta_description": "Implement BeyondCorp Enterprise zero-trust access: Access Context Manager access levels, Identity-Aware Proxy (IAP) for web apps and VMs, context-aware access bindings, and device-trust signals — VPN-less access by identity and context. Self-guided steps and Python/gcloud tools.",
+      "url_key": "beyondcorp-enterprise-zero-trust-access-commercial",
+      "image": "GCPBCE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPBCE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPBCE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GCPBCE-NPO-001",
+      "name": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Implement BeyondCorp Enterprise zero-trust access — Access Context Manager access levels, Identity-Aware Proxy for apps/VMs, context-aware bindings, and device-trust signals — so access is granted on who and what, not where, with no VPN. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Replace VPN trust with identity- and context-aware zero-trust access</h3><p>Network location is not identity &mdash; a device inside the VPN isn't automatically trustworthy. This solution implements <strong>BeyondCorp Enterprise</strong> zero-trust access: <strong>Access Context Manager</strong> access levels (identity + device + context), <strong>Identity-Aware Proxy (IAP)</strong> in front of web apps and VMs, context-aware access bindings, and device-trust signals &mdash; so access is granted per-request on who and what, not where, with no VPN.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the zero-trust model: Access Context Manager access levels, Identity-Aware Proxy, context-aware access, device signals, and how it relates to Workspace Context-Aware Access.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, Cloud Identity, target apps/VMs, device signal source, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; define access levels, front a pilot app/VM with IAP, bind context-aware access, add device-trust signals, and validate deny/allow &mdash; then expand and retire VPN paths, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (access granted on identity+context, denied otherwise, VPN path retired) plus Best Practices for expanding zero-trust coverage.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>bce_access_assessment.py</code> &mdash; read-only BeyondCorp Enterprise zero-trust readiness assessment</li><li><code>bce_iap_enable_helper.py</code> &mdash; enable Identity-Aware Proxy for a web app or a VM (SSH), dry-run by default</li><li><code>bce_policy_guardrail_check.py</code> &mdash; zero-trust guardrail / posture check (read-only gate)</li><li><code>bce_scope_config_helper.py</code> &mdash; build access levels (dry-run) OR export the zero-trust scope inventory</li><li><code>bce_zerotrust_validation_report.py</code> &mdash; deny/allow validation report for an IAP-protected resource</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Implement BeyondCorp Enterprise zero-trust access: Access Context Manager access levels, Identity-Aware Proxy (IAP) for web apps and VMs, context-aware access bindings, and device-trust signals — VPN-less access by identity and context. Self-guided steps and Python/gcloud tools.",
+      "url_key": "beyondcorp-enterprise-zero-trust-access-nonprofit",
+      "image": "GCPBCE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPBCE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPBCE-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GCPBCE-GOV-001",
+      "name": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Implement BeyondCorp Enterprise zero-trust access — Access Context Manager access levels, Identity-Aware Proxy for apps/VMs, context-aware bindings, and device-trust signals — so access is granted on who and what, not where, with no VPN. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Replace VPN trust with identity- and context-aware zero-trust access</h3><p>Network location is not identity &mdash; a device inside the VPN isn't automatically trustworthy. This solution implements <strong>BeyondCorp Enterprise</strong> zero-trust access: <strong>Access Context Manager</strong> access levels (identity + device + context), <strong>Identity-Aware Proxy (IAP)</strong> in front of web apps and VMs, context-aware access bindings, and device-trust signals &mdash; so access is granted per-request on who and what, not where, with no VPN.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the zero-trust model: Access Context Manager access levels, Identity-Aware Proxy, context-aware access, device signals, and how it relates to Workspace Context-Aware Access.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization, Cloud Identity, target apps/VMs, device signal source, admin roles).</li><li><strong>Implementation Guide</strong> &mdash; define access levels, front a pilot app/VM with IAP, bind context-aware access, add device-trust signals, and validate deny/allow &mdash; then expand and retire VPN paths, pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (access granted on identity+context, denied otherwise, VPN path retired) plus Best Practices for expanding zero-trust coverage.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>bce_access_assessment.py</code> &mdash; read-only BeyondCorp Enterprise zero-trust readiness assessment</li><li><code>bce_iap_enable_helper.py</code> &mdash; enable Identity-Aware Proxy for a web app or a VM (SSH), dry-run by default</li><li><code>bce_policy_guardrail_check.py</code> &mdash; zero-trust guardrail / posture check (read-only gate)</li><li><code>bce_scope_config_helper.py</code> &mdash; build access levels (dry-run) OR export the zero-trust scope inventory</li><li><code>bce_zerotrust_validation_report.py</code> &mdash; deny/allow validation report for an IAP-protected resource</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Implement BeyondCorp Enterprise zero-trust access: Access Context Manager access levels, Identity-Aware Proxy (IAP) for web apps and VMs, context-aware access bindings, and device-trust signals — VPN-less access by identity and context. Self-guided steps and Python/gcloud tools.",
+      "url_key": "beyondcorp-enterprise-zero-trust-access-government",
+      "image": "GCPBCE-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GCPBCE-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GCPBCE-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

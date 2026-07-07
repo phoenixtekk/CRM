@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "oauth-third-party-app-access-governance-workspace",
+    "title": "OAuth & Third-Party App Access Governance for Google Workspace",
+    "category_path": [
+      "Google"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-GWOAUTH-COMM-001",
+      "name": "OAuth & Third-Party App Access Governance for Google Workspace — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Establish <strong>OAuth &amp; third-party app-access governance</strong> for Google Workspace &mdash; app/scope inventory, API access control (trusted/limited/blocked, Marketplace allowlist, unverified-app block), token review, and an app-vetting workflow &mdash; so only trusted apps reach your data. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Control which third-party apps can touch your Google data</h3><p>Every user who clicks &ldquo;Allow&rdquo; on a third-party app grants it OAuth access to Google data &mdash; a huge, mostly invisible attack surface. This solution establishes <strong>OAuth &amp; app-access governance</strong>: inventory connected apps and their scopes, set <strong>API access control</strong> (trusted/limited/blocked, Marketplace allowlisting, unverified-app blocking), review high-risk scopes and tokens, and stand up an app-vetting/approval workflow &mdash; so only trusted apps reach your data.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run Python (gcloud / Cloud Client Libraries).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OAuth risk model: scopes, connected apps, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, and the vetting flow.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace super-admin, security/governance stakeholders, risk criteria).</li><li><strong>Implementation Guide</strong> &mdash; inventory connected apps + scopes, classify by risk, configure API access control + Marketplace allowlist + unverified-app block, wire an app-approval workflow, and revoke risky grants &mdash; pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (high-risk scopes controlled, unverified apps blocked, approvals enforced) plus Best Practices for ongoing app-access hygiene.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The invisible OAuth attack surface brought under control &mdash; connected apps inventoried, risky scopes governed, unverified apps blocked, approvals enforced &mdash; only trusted apps touch your data.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>api-access-control-helper.py</code> &mdash; plan/preview Trusted/Limited/Blocked app access-control changes</li><li><code>app-access-validation.py</code> &mdash; validate the three OAuth governance gates + emit the review packet</li><li><code>oauth-app-inventory.py</code> &mdash; inventory connected third-party OAuth apps + scopes for Google Workspace</li><li><code>risky-grant-revoker.py</code> &mdash; revoke high-risk standing OAuth grants (Token Revocation runbook)</li><li><code>scope-config-helper.py</code> &mdash; build/validate the OAuth scope-sensitivity reference used for risk scoring</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "OAuth & Third-Party App Access Governance for Google Workspace",
+      "meta_description": "Govern OAuth and third-party app access in Google Workspace: connected-app and scope inventory, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, token review, and an app-vetting workflow. Self-guided steps and Python tools.",
+      "url_key": "oauth-third-party-app-access-governance-workspace-commercial",
+      "image": "GWOAUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWOAUTH-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWOAUTH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWOAUTH-NPO-001",
+      "name": "OAuth & Third-Party App Access Governance for Google Workspace — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Establish OAuth & third-party app-access governance for Google Workspace — app/scope inventory, API access control (trusted/limited/blocked, Marketplace allowlist, unverified-app block), token review, and an app-vetting workflow — so only trusted apps reach your data. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Control which third-party apps can touch your Google data</h3><p>Every user who clicks &ldquo;Allow&rdquo; on a third-party app grants it OAuth access to Google data &mdash; a huge, mostly invisible attack surface. This solution establishes <strong>OAuth &amp; app-access governance</strong>: inventory connected apps and their scopes, set <strong>API access control</strong> (trusted/limited/blocked, Marketplace allowlisting, unverified-app blocking), review high-risk scopes and tokens, and stand up an app-vetting/approval workflow &mdash; so only trusted apps reach your data.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OAuth risk model: scopes, connected apps, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, and the vetting flow.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace super-admin, security/governance stakeholders, risk criteria).</li><li><strong>Implementation Guide</strong> &mdash; inventory connected apps + scopes, classify by risk, configure API access control + Marketplace allowlist + unverified-app block, wire an app-approval workflow, and revoke risky grants &mdash; pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (high-risk scopes controlled, unverified apps blocked, approvals enforced) plus Best Practices for ongoing app-access hygiene.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>api-access-control-helper.py</code> &mdash; plan/preview Trusted/Limited/Blocked app access-control changes</li><li><code>app-access-validation.py</code> &mdash; validate the three OAuth governance gates + emit the review packet</li><li><code>oauth-app-inventory.py</code> &mdash; inventory connected third-party OAuth apps + scopes for Google Workspace</li><li><code>risky-grant-revoker.py</code> &mdash; revoke high-risk standing OAuth grants (Token Revocation runbook)</li><li><code>scope-config-helper.py</code> &mdash; build/validate the OAuth scope-sensitivity reference used for risk scoring</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "OAuth & Third-Party App Access Governance for Google Workspace — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Govern OAuth and third-party app access in Google Workspace: connected-app and scope inventory, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, token review, and an app-vetting workflow. Self-guided steps and Python tools.",
+      "url_key": "oauth-third-party-app-access-governance-workspace-nonprofit",
+      "image": "GWOAUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWOAUTH-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWOAUTH-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-GWOAUTH-GOV-001",
+      "name": "OAuth & Third-Party App Access Governance for Google Workspace — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Establish OAuth & third-party app-access governance for Google Workspace — app/scope inventory, API access control (trusted/limited/blocked, Marketplace allowlist, unverified-app block), token review, and an app-vetting workflow — so only trusted apps reach your data. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Control which third-party apps can touch your Google data</h3><p>Every user who clicks &ldquo;Allow&rdquo; on a third-party app grants it OAuth access to Google data &mdash; a huge, mostly invisible attack surface. This solution establishes <strong>OAuth &amp; app-access governance</strong>: inventory connected apps and their scopes, set <strong>API access control</strong> (trusted/limited/blocked, Marketplace allowlisting, unverified-app blocking), review high-risk scopes and tokens, and stand up an app-vetting/approval workflow &mdash; so only trusted apps reach your data.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the OAuth risk model: scopes, connected apps, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, and the vetting flow.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Workspace super-admin, security/governance stakeholders, risk criteria).</li><li><strong>Implementation Guide</strong> &mdash; inventory connected apps + scopes, classify by risk, configure API access control + Marketplace allowlist + unverified-app block, wire an app-approval workflow, and revoke risky grants &mdash; pilot-first.</li><li><strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).</li><li><strong>Validation gates</strong> (high-risk scopes controlled, unverified apps blocked, approvals enforced) plus Best Practices for ongoing app-access hygiene.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>api-access-control-helper.py</code> &mdash; plan/preview Trusted/Limited/Blocked app access-control changes</li><li><code>app-access-validation.py</code> &mdash; validate the three OAuth governance gates + emit the review packet</li><li><code>oauth-app-inventory.py</code> &mdash; inventory connected third-party OAuth apps + scopes for Google Workspace</li><li><code>risky-grant-revoker.py</code> &mdash; revoke high-risk standing OAuth grants (Token Revocation runbook)</li><li><code>scope-config-helper.py</code> &mdash; build/validate the OAuth scope-sensitivity reference used for risk scoring</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all Python scripts and tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "OAuth & Third-Party App Access Governance for Google Workspace — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Govern OAuth and third-party app access in Google Workspace: connected-app and scope inventory, API access control (trusted/limited/blocked), Marketplace allowlisting, unverified-app blocking, token review, and an app-vetting workflow. Self-guided steps and Python tools.",
+      "url_key": "oauth-third-party-app-access-governance-workspace-government",
+      "image": "GWOAUTH-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "GWOAUTH-Solution.pdf"
+        },
+        {
+          "title": "Python Scripts / Automation (ZIP)",
+          "source_type": "file",
+          "source": "GWOAUTH-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cloud-identity-enterprise-idp-saml-app-integration",
+  "title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory (SSO at Scale)",
+  "category": "Google",
+  "category_slug": "google",
+  "sol_code": "CISAML",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-06",
+  "updated": "2026-07-06",
+  "published_at": "2026-07-06",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CISAML-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CISAML-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CISAML-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CISAML-Solution.pdf",
+    "CISAML-Scripts.zip"
+  ],
+  "hero": "CISAML-hero.png"
+}
+

@@ -1048,5 +1048,60 @@
     "post_id": 12244,
     "status": "draft",
     "category_id": 411
+  },
+  "google-cloud-landing-zone-organization-foundation": {
+    "post_id": 12246,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-cloud-iam-least-privilege-governance": {
+    "post_id": 12248,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-cloud-network-architecture-vpc-service-controls": {
+    "post_id": 12250,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-cloud-security-command-center-posture-threat": {
+    "post_id": 12252,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-cloud-finops-billing-cost-governance": {
+    "post_id": 12254,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloud-identity-enterprise-idp-saml-app-integration": {
+    "post_id": 12256,
+    "status": "draft",
+    "category_id": 411
+  },
+  "oauth-third-party-app-access-governance-workspace": {
+    "post_id": 12258,
+    "status": "draft",
+    "category_id": 411
+  },
+  "beyondcorp-enterprise-zero-trust-access": {
+    "post_id": 12260,
+    "status": "draft",
+    "category_id": 411
+  },
+  "gemini-enterprise-deployment-rollout-enablement": {
+    "post_id": 12262,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-tenant-decommission-retirement": {
+    "post_id": 12264,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-adoption-change-management-training": {
+    "post_id": 12266,
+    "status": "draft",
+    "category_id": 411
   }
 }

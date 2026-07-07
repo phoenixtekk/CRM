@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "OAuth & Third-Party App",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Access Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Scopes · Allowlist · Vetting",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OPEN OAUTH SURFACE",
+    "items": [
+      "Any app allowed",
+      "Scopes unseen",
+      "No vetting",
+      "Token risk"
+    ]
+  },
+  "to": {
+    "label": "Governed access",
+    "stat": "Only trusted apps"
+  },
+  "tagline": "INVENTORY.  CONTROL.  VET.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Scopes",
+      "sub": "Inventoried"
+    },
+    {
+      "icon": "shield",
+      "title": "Access Control",
+      "sub": "Allowlist"
+    },
+    {
+      "icon": "gear",
+      "title": "Vetting",
+      "sub": "Approval"
+    },
+    {
+      "icon": "key",
+      "title": "Tokens",
+      "sub": "Reviewed"
+    }
+  ]
+}

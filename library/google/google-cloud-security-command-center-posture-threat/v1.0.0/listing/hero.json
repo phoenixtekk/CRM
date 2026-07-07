@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Security Command Center",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Posture & Threat Mgmt",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Findings · Triage · SLA · SIEM",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND TO RISK",
+    "items": [
+      "No central view",
+      "Misconfig unseen",
+      "Threats missed",
+      "No triage"
+    ]
+  },
+  "to": {
+    "label": "Continuous visibility",
+    "stat": "Findings worked"
+  },
+  "tagline": "SURFACE.  TRIAGE.  REMEDIATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Posture",
+      "sub": "Misconfig"
+    },
+    {
+      "icon": "chart",
+      "title": "Threats",
+      "sub": "Detected"
+    },
+    {
+      "icon": "gear",
+      "title": "Triage",
+      "sub": "Owned + SLA"
+    },
+    {
+      "icon": "cloud",
+      "title": "SIEM",
+      "sub": "Exported"
+    }
+  ]
+}

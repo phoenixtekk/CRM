@@ -1,0 +1,83 @@
+{
+  "sol": "GCPNET",
+  "slug": "google-cloud-network-architecture-vpc-service-controls",
+  "title": "Google Cloud Network Architecture & VPC Service Controls (Shared VPC, Private Access, Perimeters)",
+  "category": "Google",
+  "category_slug": "google",
+  "commercial_price": 2995.0,
+  "date": "2026-07-06",
+  "gr_file": "global-requirements-gcp.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Google Cloud / identity / Gemini enablement).",
+    "Google Cloud Console / gcloud / Cloud Identity / Google Admin authored at exact detail from Google public docs; version- or preview-dependent capabilities (SCC tiers, BeyondCorp features, org-policy constraints, VPC-SC behaviors, Gemini Enterprise features) cited or flagged 'verify in your organization', never invented. IaC (Terraform / Cloud Foundation Toolkit) at the pattern level. Automation is Python (gcloud / Cloud Client Libraries) — no hardcoded credentials, no committed service-account keys, no secrets in code. No client names."
+  ],
+  "hook": "Design a secure Google Cloud network with data-exfiltration perimeters",
+  "problem": "A flat, default Google Cloud network with public API access is an exfiltration risk and a compliance gap. This solution designs the <strong>enterprise network</strong>: a <strong>Shared VPC</strong> topology, private connectivity (Private Google Access / Private Service Connect), hybrid connectivity patterns, firewall/egress policy, and <strong>VPC Service Controls</strong> perimeters that stop data from leaving trusted boundaries &mdash; so workloads reach Google APIs privately and data stays inside the perimeter.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the network reference: Shared VPC, private access, hybrid connectivity, firewall/egress model, and VPC Service Controls perimeter design.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Organization/landing zone, network admin roles, connectivity, gcloud toolchain).",
+    "<strong>Implementation Guide</strong> &mdash; build the Shared VPC + subnets, enable private access, apply firewall/egress policy, and design + enforce VPC Service Controls perimeters (dry-run first) &mdash; pilot-first, each artifact named.",
+    "<strong>5 Python tools</strong> &mdash; assessment/discovery, a configuration or provisioning helper, a validation/report generator, a policy/guardrail check, and a scope/config helper &mdash; authentic gcloud / Cloud Client Library automation (read-only or dry-run by default; no credentials or keys in code).",
+    "<strong>Validation gates</strong> (private access works, perimeter blocks exfiltration in dry-run then enforced) plus Best Practices for evolving perimeters safely."
+  ],
+  "short": "Design a secure <strong>Google Cloud network</strong> &mdash; Shared VPC, private API access, firewall/egress policy, and VPC Service Controls perimeters that stop data exfiltration &mdash; so workloads connect privately and data stays inside trusted boundaries. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Design a secure Google Cloud network — Shared VPC, private API access, firewall/egress policy, and VPC Service Controls perimeters that stop data exfiltration — so workloads connect privately and data stays inside trusted boundaries.",
+  "meta_title": "Google Cloud Network Architecture & VPC Service Controls",
+  "meta_description": "Design an enterprise Google Cloud network: Shared VPC, Private Google Access / Private Service Connect, firewall/egress policy, and VPC Service Controls perimeters against data exfiltration. Self-guided steps and Python/gcloud tools.",
+  "bottom_line": "A Google Cloud network that connects workloads privately and holds data inside enforced perimeters &mdash; exfiltration paths closed, access least-exposed &mdash; safe by design.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Cloud Network",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& VPC Service Controls",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Shared VPC · Private Access · Perimeters",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "FLAT & PUBLIC",
+      "items": [
+        "Public API access",
+        "No perimeter",
+        "Exfil risk",
+        "Ad-hoc firewall"
+      ]
+    },
+    "to": {
+      "label": "Private & bounded",
+      "stat": "Perimeter-enforced"
+    },
+    "tagline": "CONNECT.  PRIVATIZE.  PERIMETER.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Shared VPC",
+        "sub": "Topology"
+      },
+      {
+        "icon": "lock",
+        "title": "Private Access",
+        "sub": "No public"
+      },
+      {
+        "icon": "shield",
+        "title": "VPC-SC",
+        "sub": "Perimeters"
+      },
+      {
+        "icon": "gear",
+        "title": "Egress",
+        "sub": "Controlled"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cloud Identity as IdP",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "SAML App Integration Factory",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "SAML/OIDC · Provisioning · At Scale",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ONE-OFF SSO",
+    "items": [
+      "Slow onboarding",
+      "Inconsistent",
+      "Manual provisioning",
+      "No catalog"
+    ]
+  },
+  "to": {
+    "label": "SSO factory",
+    "stat": "Fast · consistent"
+  },
+  "tagline": "PATTERN.  FEDERATE.  SCALE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SAML/OIDC",
+      "sub": "Standard"
+    },
+    {
+      "icon": "users",
+      "title": "Assignment",
+      "sub": "Group-based"
+    },
+    {
+      "icon": "gear",
+      "title": "Provisioning",
+      "sub": "Automated"
+    },
+    {
+      "icon": "cloud",
+      "title": "Catalog",
+      "sub": "Repeatable"
+    }
+  ]
+}
