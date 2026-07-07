@@ -34,6 +34,10 @@
 param(
     [string] $GroupName        = "Clinical - Shared Devices",
     [string] $GroupTag         = "ClinicalShared",
+    # First-party 'Intune Provisioning Client' SP (aka 'Intune Autopilot ConfidentialClient'). For an
+    # ASSIGNED shared-device group (Windows Autopilot device preparation model), this SP must OWN the
+    # group or enrollment-time grouping leaves it empty. Matched by AppId, not display name.
+    [string] $ProvisioningClientAppId = "f1346770-5b25-470b-88bd-d5744ab7952c",
     [switch] $Apply,
     [switch] $ShowAssignmentPlan
 )
@@ -41,6 +45,24 @@ param(
 function Assert-Graph {
     if (-not (Get-MgContext)) {
         throw "Not connected to Microsoft Graph. Run Connect-MgGraph first (see .SYNOPSIS)."
+    }
+}
+
+function Test-ProvisioningClientOwner {
+    # READ-ONLY: report whether the Intune Provisioning Client SP owns the targeting group.
+    param([string]$GroupId, [string]$Name, [string]$AppId)
+    try {
+        $owners = Get-MgGroupOwner -GroupId $GroupId -All -ErrorAction Stop
+        $isOwner = $owners | Where-Object { $_.AdditionalProperties['appId'] -eq $AppId }
+        if ($isOwner) {
+            Write-Host "  OK  : Intune Provisioning Client (AppId $AppId) is an Owner of '$Name'." -ForegroundColor Green
+        } else {
+            Write-Host "  NOTE: Intune Provisioning Client (AppId $AppId) is NOT an Owner of '$Name'." -ForegroundColor Yellow
+            Write-Host "        For an ASSIGNED shared-device group, enrollment-time grouping needs this owner or the group stays empty at enrollment." -ForegroundColor Yellow
+            Write-Host "        Add it: Entra > Groups > '$Name' > Owners > Add owners, search by AppId $AppId (not the display name)."
+        }
+    } catch {
+        Write-Host "  NOTE: could not read owners of '$Name' ($($_.Exception.Message))." -ForegroundColor DarkGray
     }
 }
 
@@ -59,6 +81,10 @@ try {
     $existing = Get-MgGroup -Filter "displayName eq '$GroupName'" -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($existing) {
         Write-Host "Group '$GroupName' already exists (Id $($existing.Id)). No creation needed." -ForegroundColor Green
+        # READ-ONLY: if this is an Assigned group (Windows Autopilot device preparation model),
+        # report whether the Intune Provisioning Client SP owns it (enrollment-time grouping owner).
+        Write-Host "Enrollment-time grouping owner check:" -ForegroundColor Cyan
+        Test-ProvisioningClientOwner -GroupId $existing.Id -Name $GroupName -AppId $ProvisioningClientAppId
     }
     else {
         if ($PSCmdlet.ShouldProcess($GroupName, "Create dynamic security group with Autopilot-group-tag rule")) {

@@ -94,6 +94,24 @@ deployed apps require.
 **Implement:** Allow Microsoft's published Office 365/Intune ranges (and the apps' published endpoints)
 through proxy/firewall.
 
+## R11. Enrollment-time grouping owner for the shared group (Intune Provisioning Client as Owner)
+**Description:** When `iOS – Shared Devices` is an **Assigned** security group (the deterministic
+targeting model for the shared provisioning model), the **Intune Provisioning Client** first-party
+service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune
+Autopilot ConfidentialClient`** — must be an **Owner** of that group.
+**Why:** Enrollment-time device grouping adds each newly enrolled shared iPhone to the Assigned group
+by way of this principal *owning* the group. Without the owner the group stays **empty at enrollment**
+and **none of the shared-device lock-down (restrictions/kiosk/compliance) profiles or apps deploy**.
+This is the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies
+when a **security group targets** the shared devices; a Dynamic group instead relies on its membership
+rule and does not use this owner.
+**Verify:** Entra → **Groups → `iOS – Shared Devices` → Owners** lists the service principal — confirm
+by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which varies by tenant).
+Verify in your tenant before each pilot.
+**Implement:** Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by the AppId,
+and add it. (If the principal isn't present, open the Intune portal once as Global Administrator to
+provision it, then add it as owner.)
+
 ---
 ## Checklist
 - [ ] Apple MDM Push (APNs) certificate Active — `IOSLD-Discovery.ps1`
@@ -107,3 +125,4 @@ through proxy/firewall.
 - [ ] Supported iOS version on every iPhone
 - [ ] Network allows Microsoft (and app) endpoints
 - [ ] Pilot group(s) created (one shared + one corporate phone)
+- [ ] Intune Provisioning Client (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`) is an Owner of the Assigned `iOS – Shared Devices` group (R11)

@@ -40,6 +40,7 @@ specifics are deferred to Apple's official documentation.
 | Device asks for a primary user | Profile has user affinity | Use `iOS Shared – ADE – Pilot` with **Enroll without user affinity** |
 | Expecting Apple "Shared iPad" on iPhone | iPhones have no Shared iPad feature | Use no-affinity + restrictions + Managed Apple ID / shared app sign-in (see Overview / Section 4) |
 | Staff can't access the app | Shared sign-in not set up | Sign in to the relevant app/service with the Managed Apple ID or shared account |
+| `iOS Shared – Devices – Pilot` is **empty after enrollment**; no shared-device profiles or apps deploy | The group is **Assigned** but the **Intune Provisioning Client** SP (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner**, so enrollment-time device grouping can't populate it | Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners → Add owners**, search by that **AppId** (not the display name), then re-enroll a pilot device. Group must be **Assigned**, not Dynamic (same principal Windows Autopilot device preparation uses). If the SP is missing, open the Intune portal once as Global Administrator to provision it, then add it as owner |
 
 ## F. Apple connection (APNs / ADE token)
 | Symptom | Cause | Remediation |

@@ -52,6 +52,12 @@ clinical maintenance window. Objects referenced are the named ones from `03-impl
 **Diagnose:** Entra → **Groups →** `Clinical – Shared Devices` → **Members** (and **Dynamic membership rules**); compare against the device's group tag in **Windows Autopilot devices**; run **`CLINDEV-Report.ps1`** to see membership/profile coverage.
 **Fix:** Set the correct group tag on the device (Step 4 in `03-implementation.md`) or correct the dynamic rule; allow membership to process, then sync the device; re-run **`CLINDEV-Validation.ps1`**. Use **`CLINDEV-Set-SharedDeviceGroup.ps1`** to (re)create/verify the group rule.
 
+## I9 — Shared device group empty after enrollment (no shared-device profiles or apps deploy)
+**Symptoms:** `Clinical – Shared Devices` is **empty after devices provision**; none of the Shared PC / power / kiosk profiles or the clinical app baseline deploy, even though devices enrolled fine.
+**Likely cause:** The group is an **Assigned** security group (the Windows Autopilot device preparation targeting model) but the **Intune Provisioning Client** first-party service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner** of it, so enrollment-time device grouping can't populate it.
+**Diagnose:** Entra → **Groups → `Clinical – Shared Devices` → Owners**; confirm the service principal is listed by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`** (not the display name, which varies by tenant). (If you use the **Dynamic** group-tag model instead, this owner does not apply — see I8.)
+**Fix:** Entra → **Groups → `Clinical – Shared Devices` → Owners → Add owners**, search by that **AppId**, add it, then re-provision a pilot device. The group must be **Assigned**, not Dynamic, for this mechanism (the same principal Windows Autopilot device preparation uses). If the principal isn't present in the tenant, open the Intune portal once as Global Administrator to provision it, then add it as owner.
+
 ---
 ### Escalation
 If a device still fails after these steps, capture state with **`CLINDEV-Discovery.ps1`** and

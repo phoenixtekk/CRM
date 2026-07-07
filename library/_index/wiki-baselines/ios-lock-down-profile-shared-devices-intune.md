@@ -243,6 +243,24 @@ deployed apps require.
 **Implement:** Allow Microsoft's published Office 365/Intune ranges (and the apps' published endpoints)
 through proxy/firewall.
 
+## R11. Enrollment-time grouping owner for the shared group (Intune Provisioning Client as Owner)
+**Description:** When `iOS – Shared Devices` is an **Assigned** security group (the deterministic
+targeting model for the shared provisioning model), the **Intune Provisioning Client** first-party
+service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune
+Autopilot ConfidentialClient`** — must be an **Owner** of that group.
+**Why:** Enrollment-time device grouping adds each newly enrolled shared iPhone to the Assigned group
+by way of this principal *owning* the group. Without the owner the group stays **empty at enrollment**
+and **none of the shared-device lock-down (restrictions/kiosk/compliance) profiles or apps deploy**.
+This is the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies
+when a **security group targets** the shared devices; a Dynamic group instead relies on its membership
+rule and does not use this owner.
+**Verify:** Entra → **Groups → `iOS – Shared Devices` → Owners** lists the service principal — confirm
+by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which varies by tenant).
+Verify in your tenant before each pilot.
+**Implement:** Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by the AppId,
+and add it. (If the principal isn't present, open the Intune portal once as Global Administrator to
+provision it, then add it as owner.)
+
 ---
 ## Checklist
 - [ ] Apple MDM Push (APNs) certificate Active — `IOSLD-Discovery.ps1`
@@ -256,6 +274,7 @@ through proxy/firewall.
 - [ ] Supported iOS version on every iPhone
 - [ ] Network allows Microsoft (and app) endpoints
 - [ ] Pilot group(s) created (one shared + one corporate phone)
+- [ ] Intune Provisioning Client (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`) is an Owner of the Assigned `iOS – Shared Devices` group (R11)
 
 
 ---
@@ -396,6 +415,20 @@ Consoles used:
 > Prefer automation? Run **`IOSLD-Set-DeviceGroupTargeting.ps1`** to create **both** groups as
 > **dynamic device** groups whose rules match phones by their ADE **enrollment profile name** (Steps 4
 > and 5), so each phone joins the correct group automatically the moment it enrolls.
+
+> **Shared group targeted by a security group — make it Assigned and add the Intune Provisioning Client
+> as Owner (enrollment-time grouping).** For the **shared** provisioning model, when `iOS – Shared
+> Devices` is an **Assigned** security group (the deterministic model created in step 1 above), add the
+> **Intune Provisioning Client** first-party service principal — **AppId
+> `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune Autopilot
+> ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `iOS – Shared Devices` →
+> Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the display name, which
+> varies by tenant). Enrollment-time device grouping works by this principal *owning* the Assigned
+> group — without the owner the group stays **empty at enrollment** and **none of the shared-device
+> lock-down profiles or apps deploy**. The group must be **Assigned**, never Dynamic, for this
+> mechanism. This is the same first-party principal and mechanism Windows Autopilot device preparation
+> uses. **Verify the owner is present before each pilot.** *(If the principal isn't present in the
+> tenant, open the Intune portal once as Global Administrator to provision it, then add it as owner.)*
 
 ### Step 7. Assign serials to each enrollment profile
 1. In **ABM → Devices**, select the shared iPhone serials → **Edit MDM Server** → `Intune – iOS MDM`
@@ -606,6 +639,12 @@ Use `IOSLD-Discovery.ps1` for tenant readiness, `IOSLD-Validation.ps1` for a sin
 | App Store/Safari still available | Restrictions profile not assigned or device not supervised | Confirm `iOS Lock-Down – Shared – Restrictions` is assigned to `iOS – Shared Devices`; confirm **Supervised = Yes** (`IOSLD-Validation.ps1`); **Sync** |
 | Kiosk not pinning the app | App not installed before kiosk, or wrong bundle ID | Ensure the role app is **Required** and installed first; re-select it by exact bundle ID in `iOS Kiosk – Shared – Pilot`; **Sync** |
 | Profile shows Error | Device not checked in / not supervised | Confirm enrollment, group membership, and supervision; **Sync** |
+
+## B2. Shared device group empty after enrollment (no shared-device profiles or apps deploy)
+| Symptom | Cause | Remediation |
+|---|---|---|
+| `iOS – Shared Devices` is empty after phones enroll; no shared lock-down/kiosk/compliance profiles or apps deploy | The group is **Assigned** but the **Intune Provisioning Client** service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner** of it, so enrollment-time device grouping can't populate it | Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by that **AppId** (not the display name), then re-enroll a pilot device. The group must be **Assigned**, not Dynamic, for this mechanism (same principal Windows Autopilot device preparation uses). If the principal is missing, open the Intune portal once as Global Administrator to provision it, then add it as owner |
+| Using a **dynamic** shared group instead | Owner not applicable for dynamic groups | Confirm the membership rule matches the ADE **enrollment profile name** (Section A, "Phone in the wrong group") |
 
 ## C. Corporate baseline issues
 | Symptom | Cause | Remediation |

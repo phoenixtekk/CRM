@@ -1,6 +1,6 @@
 # Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune
 
-> **Version 1.0.0** · Category: Entra ID Solutions · Solution code: ABMPROV
+> **Version 1.0.0** · Category: Entra · Solution code: ABMPROV
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -262,6 +262,24 @@ driven enrollment until resolved.
 **How to implement if missing:** Run the conflict review in ABM (Implementation Step 4), notify
 affected users to change their personal Apple ID email, then re-check before expanding.
 
+## 2.10 Enrollment-time grouping owner for the Shared device group (Intune Provisioning Client as Owner)
+**Description:** For the **Shared** (no-affinity) scenario, when `iOS Shared – Devices – Pilot` is an
+**Assigned** security group (the deterministic targeting model), the **Intune Provisioning Client**
+first-party service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as
+**`Intune Autopilot ConfidentialClient`** — must be an **Owner** of that group.
+**Why required:** Enrollment-time device grouping adds each newly enrolled shared iPhone to the
+Assigned group by way of this principal *owning* the group. Without the owner the group stays **empty
+at enrollment** and **none of the shared-device compliance/config profiles or apps deploy**. This is
+the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies only
+when a **security group targets** the shared devices; a Dynamic group instead relies on its membership
+rule and does not use this owner.
+**How to verify:** Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners** lists the service
+principal — confirm by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which
+varies by tenant). Verify in your tenant before each pilot.
+**How to implement if missing:** Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners → Add
+owners**, search by the AppId, and add it. (If the principal isn't present, open the Intune portal once
+as Global Administrator to provision it, then add it as owner.)
+
 ---
 ## Checklist
 - [ ] Intune + Entra ID P1+ licensing assigned (2.1)
@@ -273,6 +291,7 @@ affected users to change their personal Apple ID email, then re-check before exp
 - [ ] Target iPhones on a supported iOS version (2.7)
 - [ ] Provisioning + per-scenario scope groups created, incl. pilot (2.8)
 - [ ] Existing-Apple-ID conflict review planned (2.9)
+- [ ] Intune Provisioning Client (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`) is an Owner of the Assigned `iOS Shared – Devices – Pilot` group (2.10)
 
 
 ---
@@ -507,6 +526,21 @@ Consoles used:
 5. Staff identity on shared phones lives in the **Managed Apple ID / shared app sign-in**, not bound to
    a primary user. (iPhones have no Apple "Shared iPad" — see Overview.)
 
+> **Shared device group targeting — make `iOS Shared – Devices – Pilot` an Assigned group owned by the
+> Intune Provisioning Client (enrollment-time grouping).** For deterministic shared-device enrollment,
+> keep `iOS Shared – Devices – Pilot` (created in Step 1) an **Assigned** security group and add the
+> **Intune Provisioning Client** first-party service principal — **AppId
+> `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune Autopilot
+> ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `iOS Shared – Devices –
+> Pilot` → Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the display
+> name, which varies by tenant). Enrollment-time device grouping works by this principal *owning* the
+> Assigned group — without the owner the group stays **empty at enrollment** and **none of the
+> shared-device profiles (e.g. `iOS Shared – Compliance – Pilot`) or apps deploy**. The group must be
+> **Assigned**, never Dynamic, for this mechanism. This is the same first-party principal and mechanism
+> Windows Autopilot device preparation uses. **Verify the owner is present before each pilot.** *(If the
+> principal isn't present in the tenant, open the Intune portal once as Global Administrator to
+> provision it, then add it as owner.)*
+
 ### Step 12 — Compliance policies per model
 1. Intune → **Devices → Compliance → Create policy → iOS/iPadOS**; create one each:
    `iOS COD – Compliance – Pilot`, `iOS BYOD – Compliance – Pilot`, `iOS Shared – Compliance – Pilot`.
@@ -660,6 +694,7 @@ specifics are deferred to Apple's official documentation.
 | Device asks for a primary user | Profile has user affinity | Use `iOS Shared – ADE – Pilot` with **Enroll without user affinity** |
 | Expecting Apple "Shared iPad" on iPhone | iPhones have no Shared iPad feature | Use no-affinity + restrictions + Managed Apple ID / shared app sign-in (see Overview / Section 4) |
 | Staff can't access the app | Shared sign-in not set up | Sign in to the relevant app/service with the Managed Apple ID or shared account |
+| `iOS Shared – Devices – Pilot` is **empty after enrollment**; no shared-device profiles or apps deploy | The group is **Assigned** but the **Intune Provisioning Client** SP (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner**, so enrollment-time device grouping can't populate it | Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners → Add owners**, search by that **AppId** (not the display name), then re-enroll a pilot device. Group must be **Assigned**, not Dynamic (same principal Windows Autopilot device preparation uses). If the SP is missing, open the Intune portal once as Global Administrator to provision it, then add it as owner |
 
 ## F. Apple connection (APNs / ADE token)
 | Symptom | Cause | Remediation |

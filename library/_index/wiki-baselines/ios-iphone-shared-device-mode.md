@@ -216,6 +216,24 @@ calling/media endpoints.
 **Implement:** Allow Microsoft's published Office 365/Intune ranges and Cisco Webex's published
 network requirements through proxy/firewall.
 
+## R11. Enrollment-time grouping owner (Intune Provisioning Client owns the Assigned shared group)
+**Description:** When `iOS – Shared Devices` is an **Assigned** security group (the deterministic
+targeting model), the **Intune Provisioning Client** first-party service principal — **AppId
+`f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`** —
+must be an **Owner** of that group.
+**Why:** Enrollment-time device grouping adds each newly enrolled shared iPhone to the Assigned group
+by way of this principal *owning* the group. Without the owner the group stays **empty at enrollment**
+and **none of the shared-device kiosk/restrictions/compliance profiles or the Cisco Webex app deploy**.
+This is the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies
+when a **security group targets** the shared devices; a Dynamic group instead relies on its membership
+rule and does not use this owner.
+**Verify:** Entra → **Groups → `iOS – Shared Devices` → Owners** lists the service principal — confirm
+by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which varies by tenant).
+Verify in your tenant before each pilot.
+**Implement:** Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by the AppId,
+and add it. (If the principal isn't present, open the Intune portal once as Global Administrator to
+provision it, then add it as owner.)
+
 
 ---
 
@@ -337,6 +355,20 @@ Consoles used:
 > Prefer automation? Run **`IOSSDM-Set-SharedDeviceTargeting.ps1`** to create a **dynamic device**
 > group whose rule matches the shared iPhones by their ADE **enrollment profile name** (Step 7), so a
 > phone joins `iOS – Shared Devices` automatically the moment it enrolls.
+
+> **Most reliable targeting — an Assigned group owned by the Intune Provisioning Client (enrollment-time
+> grouping).** A dynamic group is convenient, but for **deterministic** shared-device enrollment make
+> `iOS – Shared Devices` an **Assigned** security group and add the **Intune Provisioning Client**
+> first-party service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants
+> displayed as **`Intune Autopilot ConfidentialClient`** — as an **Owner** of the group. In Entra:
+> **Groups → `iOS – Shared Devices` → Owners → Add owners**, and search by that **AppId** (match by
+> AppId, **not** the display name, which varies by tenant). Enrollment-time device grouping works by
+> this principal *owning* the Assigned group — without the owner the group stays **empty at enrollment**
+> and **none of the shared-device profiles or apps deploy**. The group must be **Assigned**, never
+> Dynamic, for this mechanism. This is the same first-party principal and mechanism Windows Autopilot
+> device preparation uses. **Verify the owner is present before each pilot.** *(If the principal isn't
+> present in the tenant, open the Intune portal once as Global Administrator to provision it, then add
+> it as owner.)*
 
 ---
 
@@ -572,6 +604,20 @@ installed.
 - **Restrictions too tight.** Confirm `iOS Shared – Restrictions – Pilot` did not disable cellular/Wi-Fi
   or the microphone.
 - **Webex calling service.** Confirm the calling plan/licensing is active in Webex Control Hub.
+
+## Shared device group is empty after enrollment (no shared-device profiles or apps deploy)
+- **Missing group owner (Assigned group).** If `iOS – Shared Devices` is an **Assigned** security
+  group, enrollment-time device grouping only populates it when the **Intune Provisioning Client**
+  service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune
+  Autopilot ConfidentialClient`**) is an **Owner** of the group. Without the owner the group stays
+  **empty at enrollment** and none of the kiosk/restrictions/compliance profiles or the Cisco Webex app
+  deploy. Add it: Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by that
+  **AppId** (match by AppId, not the display name), then re-enroll a pilot device. The group must be
+  **Assigned**, never Dynamic, for this mechanism (the same principal Windows Autopilot device
+  preparation uses). *(If the principal isn't present, open the Intune portal once as Global
+  Administrator to provision it, then add it as owner.)*
+- **Using a dynamic group instead?** Then this owner does not apply — confirm the membership rule
+  matches the ADE **enrollment profile name** (see "The device isn't in the shared group" above).
 
 ## Enrollment fails at Setup Assistant
 - **APNs/ADE token lapsed.** Renew the **Apple MDM Push certificate** (R3) and the **ADE token** (R4) —

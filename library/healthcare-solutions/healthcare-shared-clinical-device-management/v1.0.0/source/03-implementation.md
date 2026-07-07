@@ -42,6 +42,21 @@ later steps and in the testing/troubleshooting guides. Do not skip the prerequis
    (or match enrollment profile name). Click **Save**.
 4. Click **Create**. (You can also create this group, and optionally pre-stage profile/app assignments, with **`CLINDEV-Set-SharedDeviceGroup.ps1 -WhatIf`** then `-Apply`.)
 
+> **Most reliable targeting — an Assigned group owned by the Intune Provisioning Client (enrollment-time
+> device grouping).** The dynamic group tag above is convenient, but for **deterministic**
+> shared-device enrollment (the **Windows Autopilot device preparation** model), make `Clinical – Shared
+> Devices` an **Assigned** security group and add the **Intune Provisioning Client** first-party service
+> principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune
+> Autopilot ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `Clinical –
+> Shared Devices` → Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the
+> display name, which varies by tenant). Enrollment-time device grouping works by this principal
+> *owning* the Assigned group — without the owner the group stays **empty at enrollment** and **none of
+> the Shared PC / power / kiosk profiles or the clinical app baseline deploy**. The group must be
+> **Assigned**, never Dynamic, for this mechanism. This is the same first-party principal and mechanism
+> Windows Autopilot device preparation uses. **Verify the owner is present before each pilot.** *(If the
+> principal isn't present in the tenant, open the Intune portal once as Global Administrator to
+> provision it, then add it as owner.)*
+
 ## Step 3 — Create the pilot group (Entra)
 1. In **Identity → Groups → All groups → New group**: Security, name `Clinical – Shared Devices – Pilot`, **Membership type:** Assigned.
 2. **Members → Add members →** add the **test device(s)** (one of each type — WOW, kiosk, tablet, nurse-station PC). Click **Create**.

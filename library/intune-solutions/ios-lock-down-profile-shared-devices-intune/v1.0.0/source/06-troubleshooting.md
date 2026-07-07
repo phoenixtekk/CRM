@@ -17,6 +17,12 @@ Use `IOSLD-Discovery.ps1` for tenant readiness, `IOSLD-Validation.ps1` for a sin
 | Kiosk not pinning the app | App not installed before kiosk, or wrong bundle ID | Ensure the role app is **Required** and installed first; re-select it by exact bundle ID in `iOS Kiosk – Shared – Pilot`; **Sync** |
 | Profile shows Error | Device not checked in / not supervised | Confirm enrollment, group membership, and supervision; **Sync** |
 
+## B2. Shared device group empty after enrollment (no shared-device profiles or apps deploy)
+| Symptom | Cause | Remediation |
+|---|---|---|
+| `iOS – Shared Devices` is empty after phones enroll; no shared lock-down/kiosk/compliance profiles or apps deploy | The group is **Assigned** but the **Intune Provisioning Client** service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner** of it, so enrollment-time device grouping can't populate it | Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by that **AppId** (not the display name), then re-enroll a pilot device. The group must be **Assigned**, not Dynamic, for this mechanism (same principal Windows Autopilot device preparation uses). If the principal is missing, open the Intune portal once as Global Administrator to provision it, then add it as owner |
+| Using a **dynamic** shared group instead | Owner not applicable for dynamic groups | Confirm the membership rule matches the ADE **enrollment profile name** (Section A, "Phone in the wrong group") |
+
 ## C. Corporate baseline issues
 | Symptom | Cause | Remediation |
 |---|---|---|

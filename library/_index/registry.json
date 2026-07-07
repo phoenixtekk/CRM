@@ -4509,7 +4509,7 @@
     "version": "1.0.0",
     "status": "published",
     "created": "2026-06-30",
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "published_at": "2026-06-30",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
@@ -4533,17 +4533,17 @@
         {
           "name": "02-requirements.md",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/source/02-requirements.md",
-          "kb": 7.2
+          "kb": 8.9
         },
         {
           "name": "03-implementation.md",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/source/03-implementation.md",
-          "kb": 13.3
+          "kb": 14.6
         },
         {
           "name": "04-enrollment-scenarios.md",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/source/04-enrollment-scenarios.md",
-          "kb": 5.8
+          "kb": 6.5
         },
         {
           "name": "05-testing.md",
@@ -4553,7 +4553,7 @@
         {
           "name": "06-troubleshooting.md",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/source/06-troubleshooting.md",
-          "kb": 5.3
+          "kb": 6.0
         },
         {
           "name": "07-best-practices.md",
@@ -4595,7 +4595,7 @@
         {
           "name": "ABMPROV-Set-ScopeTargeting.ps1",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/scripts/ABMPROV-Set-ScopeTargeting.ps1",
-          "kb": 5.5
+          "kb": 7.1
         },
         {
           "name": "ABMPROV-Validation.ps1",
@@ -4607,7 +4607,7 @@
         {
           "name": "ABMPROV-Complete-Solution.zip",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/deliverables/ABMPROV-Complete-Solution.zip",
-          "kb": 109.3
+          "kb": 114.9
         },
         {
           "name": "ABMPROV-hero.png",
@@ -4622,17 +4622,17 @@
         {
           "name": "ABMPROV-Scripts.zip",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/deliverables/ABMPROV-Scripts.zip",
-          "kb": 10.9
+          "kb": 11.4
         },
         {
           "name": "ABMPROV-Solution.docx",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/deliverables/ABMPROV-Solution.docx",
-          "kb": 55.9
+          "kb": 57.5
         },
         {
           "name": "ABMPROV-Solution.pdf",
           "href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune/v1.0.0/deliverables/ABMPROV-Solution.pdf",
-          "kb": 63.5
+          "kb": 68.1
         }
       ],
       "Listing": [
@@ -12497,7 +12497,7 @@
     "version": "1.0.0",
     "status": "published",
     "created": "2026-06-27",
-    "updated": "2026-06-27",
+    "updated": "2026-07-07",
     "published_at": "2026-06-27",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
@@ -12520,12 +12520,12 @@
         {
           "name": "02-requirements.md",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/source/02-requirements.md",
-          "kb": 8.4
+          "kb": 10.1
         },
         {
           "name": "03-implementation.md",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/source/03-implementation.md",
-          "kb": 14.3
+          "kb": 15.7
         },
         {
           "name": "05-testing.md",
@@ -12535,7 +12535,7 @@
         {
           "name": "06-troubleshooting.md",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/source/06-troubleshooting.md",
-          "kb": 8.4
+          "kb": 9.8
         },
         {
           "name": "07-best-practices.md",
@@ -12577,7 +12577,7 @@
         {
           "name": "CLINDEV-Set-SharedDeviceGroup.ps1",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/scripts/CLINDEV-Set-SharedDeviceGroup.ps1",
-          "kb": 4.9
+          "kb": 6.7
         },
         {
           "name": "CLINDEV-Validation.ps1",
@@ -12589,7 +12589,7 @@
         {
           "name": "CLINDEV-Complete-Solution.zip",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/deliverables/CLINDEV-Complete-Solution.zip",
-          "kb": 106.1
+          "kb": 110.6
         },
         {
           "name": "CLINDEV-hero.png",
@@ -12604,17 +12604,17 @@
         {
           "name": "CLINDEV-Scripts.zip",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/deliverables/CLINDEV-Scripts.zip",
-          "kb": 9.7
+          "kb": 10.2
         },
         {
           "name": "CLINDEV-Solution.docx",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/deliverables/CLINDEV-Solution.docx",
-          "kb": 56.6
+          "kb": 57.9
         },
         {
           "name": "CLINDEV-Solution.pdf",
           "href": "../healthcare-solutions/healthcare-shared-clinical-device-management/v1.0.0/deliverables/CLINDEV-Solution.pdf",
-          "kb": 59.7
+          "kb": 63.2
         }
       ],
       "Listing": [
@@ -19490,7 +19490,7 @@
     "version": "1.0.0",
     "status": "published",
     "created": "2026-06-30",
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "published_at": "2026-06-30",
     "commercial": 2495.0,
     "nonprofit": 1497.0,
@@ -19514,12 +19514,12 @@
         {
           "name": "02-requirements.md",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/source/02-requirements.md",
-          "kb": 6.7
+          "kb": 8.3
         },
         {
           "name": "03-implementation.md",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/source/03-implementation.md",
-          "kb": 12.7
+          "kb": 14.0
         },
         {
           "name": "04-use-and-login.md",
@@ -19534,7 +19534,7 @@
         {
           "name": "06-troubleshooting.md",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/source/06-troubleshooting.md",
-          "kb": 4.1
+          "kb": 5.2
         },
         {
           "name": "07-best-practices.md",
@@ -19576,7 +19576,7 @@
         {
           "name": "IOSLD-Set-DeviceGroupTargeting.ps1",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/scripts/IOSLD-Set-DeviceGroupTargeting.ps1",
-          "kb": 4.1
+          "kb": 6.0
         },
         {
           "name": "IOSLD-Validation.ps1",
@@ -19588,7 +19588,7 @@
         {
           "name": "IOSLD-Complete-Solution.zip",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Complete-Solution.zip",
-          "kb": 107.5
+          "kb": 111.9
         },
         {
           "name": "IOSLD-hero.png",
@@ -19603,17 +19603,17 @@
         {
           "name": "IOSLD-Scripts.zip",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Scripts.zip",
-          "kb": 9.6
+          "kb": 10.2
         },
         {
           "name": "IOSLD-Solution.docx",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Solution.docx",
-          "kb": 56.6
+          "kb": 58.0
         },
         {
           "name": "IOSLD-Solution.pdf",
           "href": "../intune-solutions/ios-lock-down-profile-shared-devices-intune/v1.0.0/deliverables/IOSLD-Solution.pdf",
-          "kb": 62.1
+          "kb": 65.4
         }
       ],
       "Listing": [
@@ -21169,7 +21169,7 @@
     "version": "1.0.0",
     "status": "published",
     "created": "2026-06-23",
-    "updated": "2026-06-25",
+    "updated": "2026-07-07",
     "published_at": "2026-06-23",
     "commercial": 1995.0,
     "nonprofit": 1197.0,
@@ -21192,12 +21192,12 @@
         {
           "name": "02-requirements.md",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/source/02-requirements.md",
-          "kb": 5.2
+          "kb": 6.6
         },
         {
           "name": "03-implementation.md",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/source/03-implementation.md",
-          "kb": 10.6
+          "kb": 11.9
         },
         {
           "name": "05-testing.md",
@@ -21207,7 +21207,7 @@
         {
           "name": "06-troubleshooting.md",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/source/06-troubleshooting.md",
-          "kb": 3.6
+          "kb": 4.8
         },
         {
           "name": "07-best-practices.md",
@@ -21249,7 +21249,7 @@
         {
           "name": "IOSSDM-Set-SharedDeviceTargeting.ps1",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/scripts/IOSSDM-Set-SharedDeviceTargeting.ps1",
-          "kb": 3.0
+          "kb": 4.6
         },
         {
           "name": "IOSSDM-Validation.ps1",
@@ -21261,7 +21261,7 @@
         {
           "name": "IOSSDM-Complete-Solution.zip",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Complete-Solution.zip",
-          "kb": 92.3
+          "kb": 96.8
         },
         {
           "name": "IOSSDM-hero.png",
@@ -21276,17 +21276,17 @@
         {
           "name": "IOSSDM-Scripts.zip",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Scripts.zip",
-          "kb": 7.9
+          "kb": 8.4
         },
         {
           "name": "IOSSDM-Solution.docx",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Solution.docx",
-          "kb": 52.7
+          "kb": 54.1
         },
         {
           "name": "IOSSDM-Solution.pdf",
           "href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-Solution.pdf",
-          "kb": 48.6
+          "kb": 52.2
         },
         {
           "name": "IOSSDM-wiki.md",

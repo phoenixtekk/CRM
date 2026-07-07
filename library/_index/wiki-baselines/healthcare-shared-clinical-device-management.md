@@ -187,6 +187,12 @@ rollback) are in `global-requirements-healthcare-solutions.md`.
 **Verify:** Confirm cart battery runtime against shift length; confirm reader model; confirm the PC's power profile can keep the device awake on battery.
 **Implement-if-missing:** Procure/replace cart batteries; add badge readers; standardize the cart/PC pairing so power settings apply uniformly.
 
+## R12 — Enrollment-time grouping owner (Intune Provisioning Client owns the Assigned shared group)
+**Description:** When `Clinical – Shared Devices` is an **Assigned** security group (the deterministic **Windows Autopilot device preparation** targeting model), the **Intune Provisioning Client** first-party service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`** — must be an **Owner** of that group.
+**Why:** Enrollment-time device grouping adds each newly provisioned shared clinical device to the Assigned group by way of this principal *owning* the group. Without the owner the group stays **empty at enrollment** and **none of the Shared PC / power / kiosk profiles or the clinical app baseline deploy**. This is the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies when a **security group targets** the shared devices; a Dynamic (group-tag) group instead relies on its membership rule and does not use this owner.
+**Verify:** Microsoft Entra admin center → **Identity → Groups → `Clinical – Shared Devices` → Owners** lists the service principal — confirm by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which varies by tenant). Verify in your tenant before each pilot.
+**Implement-if-missing:** Entra → **Groups → `Clinical – Shared Devices` → Owners → Add owners**, search by the AppId, and add it. (If the principal isn't present, open the Intune portal once as Global Administrator to provision it, then add it as owner.)
+
 ---
 ## Checklist
 - [ ] R1 Intune licensing assigned
@@ -200,6 +206,7 @@ rollback) are in `global-requirements-healthcare-solutions.md`.
 - [ ] R9 Network to Microsoft + clinical endpoints verified
 - [ ] R10 Imprivata present (only if using tap hand-off)
 - [ ] R11 Cart hardware (battery / reader / mount) ready
+- [ ] R12 Intune Provisioning Client (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`) is an Owner of the Assigned `Clinical – Shared Devices` group
 
 
 ---
@@ -311,6 +318,21 @@ later steps and in the testing/troubleshooting guides. Do not skip the prerequis
    `(device.devicePhysicalIds -any (_ -contains "[OrderID]:ClinicalShared"))`
    (or match enrollment profile name). Click **Save**.
 4. Click **Create**. (You can also create this group, and optionally pre-stage profile/app assignments, with **`CLINDEV-Set-SharedDeviceGroup.ps1 -WhatIf`** then `-Apply`.)
+
+> **Most reliable targeting — an Assigned group owned by the Intune Provisioning Client (enrollment-time
+> device grouping).** The dynamic group tag above is convenient, but for **deterministic**
+> shared-device enrollment (the **Windows Autopilot device preparation** model), make `Clinical – Shared
+> Devices` an **Assigned** security group and add the **Intune Provisioning Client** first-party service
+> principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune
+> Autopilot ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `Clinical –
+> Shared Devices` → Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the
+> display name, which varies by tenant). Enrollment-time device grouping works by this principal
+> *owning* the Assigned group — without the owner the group stays **empty at enrollment** and **none of
+> the Shared PC / power / kiosk profiles or the clinical app baseline deploy**. The group must be
+> **Assigned**, never Dynamic, for this mechanism. This is the same first-party principal and mechanism
+> Windows Autopilot device preparation uses. **Verify the owner is present before each pilot.** *(If the
+> principal isn't present in the tenant, open the Intune portal once as Global Administrator to
+> provision it, then add it as owner.)*
 
 ## Step 3 — Create the pilot group (Entra)
 1. In **Identity → Groups → All groups → New group**: Security, name `Clinical – Shared Devices – Pilot`, **Membership type:** Assigned.
@@ -557,6 +579,12 @@ clinical maintenance window. Objects referenced are the named ones from `03-impl
 **Likely cause:** Missing or wrong Autopilot **group tag** so the dynamic rule doesn't match; dynamic-group membership still processing; rule logic doesn't match the device's attributes.
 **Diagnose:** Entra → **Groups →** `Clinical – Shared Devices` → **Members** (and **Dynamic membership rules**); compare against the device's group tag in **Windows Autopilot devices**; run **`CLINDEV-Report.ps1`** to see membership/profile coverage.
 **Fix:** Set the correct group tag on the device (Step 4 in `03-implementation.md`) or correct the dynamic rule; allow membership to process, then sync the device; re-run **`CLINDEV-Validation.ps1`**. Use **`CLINDEV-Set-SharedDeviceGroup.ps1`** to (re)create/verify the group rule.
+
+## I9 — Shared device group empty after enrollment (no shared-device profiles or apps deploy)
+**Symptoms:** `Clinical – Shared Devices` is **empty after devices provision**; none of the Shared PC / power / kiosk profiles or the clinical app baseline deploy, even though devices enrolled fine.
+**Likely cause:** The group is an **Assigned** security group (the Windows Autopilot device preparation targeting model) but the **Intune Provisioning Client** first-party service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune Autopilot ConfidentialClient`**) is **not an Owner** of it, so enrollment-time device grouping can't populate it.
+**Diagnose:** Entra → **Groups → `Clinical – Shared Devices` → Owners**; confirm the service principal is listed by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`** (not the display name, which varies by tenant). (If you use the **Dynamic** group-tag model instead, this owner does not apply — see I8.)
+**Fix:** Entra → **Groups → `Clinical – Shared Devices` → Owners → Add owners**, search by that **AppId**, add it, then re-provision a pilot device. The group must be **Assigned**, not Dynamic, for this mechanism (the same principal Windows Autopilot device preparation uses). If the principal isn't present in the tenant, open the Intune portal once as Global Administrator to provision it, then add it as owner.
 
 ---
 ### Escalation

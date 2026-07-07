@@ -43,6 +43,20 @@ installed.
   or the microphone.
 - **Webex calling service.** Confirm the calling plan/licensing is active in Webex Control Hub.
 
+## Shared device group is empty after enrollment (no shared-device profiles or apps deploy)
+- **Missing group owner (Assigned group).** If `iOS – Shared Devices` is an **Assigned** security
+  group, enrollment-time device grouping only populates it when the **Intune Provisioning Client**
+  service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune
+  Autopilot ConfidentialClient`**) is an **Owner** of the group. Without the owner the group stays
+  **empty at enrollment** and none of the kiosk/restrictions/compliance profiles or the Cisco Webex app
+  deploy. Add it: Entra → **Groups → `iOS – Shared Devices` → Owners → Add owners**, search by that
+  **AppId** (match by AppId, not the display name), then re-enroll a pilot device. The group must be
+  **Assigned**, never Dynamic, for this mechanism (the same principal Windows Autopilot device
+  preparation uses). *(If the principal isn't present, open the Intune portal once as Global
+  Administrator to provision it, then add it as owner.)*
+- **Using a dynamic group instead?** Then this owner does not apply — confirm the membership rule
+  matches the ADE **enrollment profile name** (see "The device isn't in the shared group" above).
+
 ## Enrollment fails at Setup Assistant
 - **APNs/ADE token lapsed.** Renew the **Apple MDM Push certificate** (R3) and the **ADE token** (R4) —
   an expired token blocks all iOS enrollment.

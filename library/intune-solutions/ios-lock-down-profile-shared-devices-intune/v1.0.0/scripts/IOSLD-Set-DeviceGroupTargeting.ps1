@@ -33,11 +33,34 @@ param(
     [string]$SharedEnrollmentProfileName  = 'iOS Shared – ADE – Pilot',
     [string]$CorpEnrollmentProfileName    = 'iOS Corporate – ADE – Pilot',
     [string]$SharedMailNickname           = 'ios-shared-devices',
-    [string]$CorpMailNickname             = 'ios-corporate-devices'
+    [string]$CorpMailNickname             = 'ios-corporate-devices',
+    # First-party 'Intune Provisioning Client' SP (aka 'Intune Autopilot ConfidentialClient'). For an
+    # ASSIGNED shared-device group, this SP must OWN the group or enrollment-time grouping leaves it
+    # empty. Matched by AppId, not display name.
+    [string]$ProvisioningClientAppId      = 'f1346770-5b25-470b-88bd-d5744ab7952c'
 )
 
 $ErrorActionPreference = 'Stop'
 Connect-MgGraph -Scopes 'Group.ReadWrite.All' | Out-Null
+
+function Test-ProvisioningClientOwner {
+    # READ-ONLY: report whether the Intune Provisioning Client SP owns the shared targeting group.
+    param([string]$Name, [string]$AppId)
+    try {
+        $grp = (Invoke-MgGraphRequest -Method GET -Uri ("https://graph.microsoft.com/v1.0/groups?`$filter=displayName eq '{0}'" -f $Name.Replace("'","''"))).value | Select-Object -First 1
+        if (-not $grp) { Write-Host "  NOTE: group '$Name' not found — owner check skipped." -ForegroundColor DarkGray; return }
+        $owners = (Invoke-MgGraphRequest -Method GET -Uri "https://graph.microsoft.com/v1.0/groups/$($grp.id)/owners").value
+        if ($owners | Where-Object { $_.appId -eq $AppId }) {
+            Write-Host "  OK  : Intune Provisioning Client (AppId $AppId) is an Owner of '$Name'." -ForegroundColor Green
+        } else {
+            Write-Host "  NOTE: Intune Provisioning Client (AppId $AppId) is NOT an Owner of '$Name'." -ForegroundColor Yellow
+            Write-Host "        For an ASSIGNED shared-device group, enrollment-time grouping needs this owner or the group stays empty at enrollment." -ForegroundColor Yellow
+            Write-Host "        Add it: Entra > Groups > '$Name' > Owners > Add owners, search by AppId $AppId (not the display name)."
+        }
+    } catch {
+        Write-Host "  NOTE: could not read owners of '$Name' ($($_.Exception.Message))." -ForegroundColor DarkGray
+    }
+}
 
 function New-DynamicDeviceGroup($GroupName, $MailNickname, $EnrollmentProfileName, $Description) {
     $existing = (Invoke-MgGraphRequest -Method GET -Uri ("https://graph.microsoft.com/v1.0/groups?`$filter=displayName eq '{0}'" -f $GroupName.Replace("'","''"))).value
@@ -68,6 +91,9 @@ function New-DynamicDeviceGroup($GroupName, $MailNickname, $EnrollmentProfileNam
 New-DynamicDeviceGroup $SharedGroupName    $SharedMailNickname $SharedEnrollmentProfileName 'Dynamic group of shared, no-user-affinity, locked-down iOS iPhones. Managed by the IOSLD solution.'
 New-DynamicDeviceGroup $CorporateGroupName $CorpMailNickname   $CorpEnrollmentProfileName   'Dynamic group of corporate, user-affinity iOS iPhones (lighter baseline). Managed by the IOSLD solution.'
 
+Write-Host ''
+Write-Host 'Enrollment-time grouping owner check (shared group):' -ForegroundColor Cyan
+Test-ProvisioningClientOwner -Name $SharedGroupName -AppId $ProvisioningClientAppId
 Write-Host ''
 Write-Host 'Next: assign the lock-down (restrictions + optional kiosk) profiles to the shared group,'
 Write-Host 'and the corporate baseline profile + corporate apps to the corporate group.'

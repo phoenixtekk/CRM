@@ -163,6 +163,21 @@ Consoles used:
 5. Staff identity on shared phones lives in the **Managed Apple ID / shared app sign-in**, not bound to
    a primary user. (iPhones have no Apple "Shared iPad" — see Overview.)
 
+> **Shared device group targeting — make `iOS Shared – Devices – Pilot` an Assigned group owned by the
+> Intune Provisioning Client (enrollment-time grouping).** For deterministic shared-device enrollment,
+> keep `iOS Shared – Devices – Pilot` (created in Step 1) an **Assigned** security group and add the
+> **Intune Provisioning Client** first-party service principal — **AppId
+> `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune Autopilot
+> ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `iOS Shared – Devices –
+> Pilot` → Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the display
+> name, which varies by tenant). Enrollment-time device grouping works by this principal *owning* the
+> Assigned group — without the owner the group stays **empty at enrollment** and **none of the
+> shared-device profiles (e.g. `iOS Shared – Compliance – Pilot`) or apps deploy**. The group must be
+> **Assigned**, never Dynamic, for this mechanism. This is the same first-party principal and mechanism
+> Windows Autopilot device preparation uses. **Verify the owner is present before each pilot.** *(If the
+> principal isn't present in the tenant, open the Intune portal once as Global Administrator to
+> provision it, then add it as owner.)*
+
 ### Step 12 — Compliance policies per model
 1. Intune → **Devices → Compliance → Create policy → iOS/iPadOS**; create one each:
    `iOS COD – Compliance – Pilot`, `iOS BYOD – Compliance – Pilot`, `iOS Shared – Compliance – Pilot`.

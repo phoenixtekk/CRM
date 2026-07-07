@@ -28,6 +28,18 @@
 <!-- (none yet) -->
 
 ### Naming & objects
+- [2026-07-07] (intune-solutions · enrollment-time-grouping) **When a solution targets devices via an
+  Entra security group AT ENROLLMENT — Windows Autopilot AND iOS/iPadOS ADE / shared-device (no user
+  affinity) — the group must be ASSIGNED (not Dynamic) and the Intune Provisioning Client first-party
+  service principal (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`, in many tenants displayed as `Intune
+  Autopilot ConfidentialClient`) must be an OWNER of that group.** Enrollment-time device grouping works
+  by this principal *owning* the assigned group; without the owner the group stays empty at enrollment
+  and nothing (profiles/apps) deploys. Always: name the group, state it is **Assigned**, add the step to
+  set the SP as **Owner** (Entra → Groups → <group> → Owners → Add owners → search by **AppId**, not the
+  display name which varies), add the matching prerequisite (verify SP is owner) and the troubleshooting
+  entry (symptom: "device group empty after enrollment / nothing deploys" → add the SP as owner). Flag it
+  tenant-verifiable (name varies; provision the SP by opening the Intune portal once as Global Admin if
+  absent). — from owner field validation (shared iOS device enrollment) + `windows-autopilot-gcc-high`
 - [2026-06-25] (intune-solutions · store-app) When a step adds an app from the **iOS/iPadOS (or
   managed Google Play) store**, identify it by its **exact store publisher name and bundle/package
   ID**, and disambiguate it from similarly-named apps. Don't write just "search **Webex** (publisher

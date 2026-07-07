@@ -31,6 +31,10 @@ param(
     [string]$SharedGroup            = 'iOS Shared - Devices - Pilot',
     [string[]]$ProvisioningPilotMembers = @(),
     [string[]]$ByodMembers              = @(),
+    # First-party 'Intune Provisioning Client' SP (aka 'Intune Autopilot ConfidentialClient'). For an
+    # ASSIGNED Shared device group, this SP must OWN the group or enrollment-time grouping leaves it
+    # empty. Matched by AppId, not display name.
+    [string]$ProvisioningClientAppId    = 'f1346770-5b25-470b-88bd-d5744ab7952c',
     [switch]$Apply
 )
 
@@ -90,7 +94,25 @@ Write-Host "`n-- Per-scenario enrollment groups --" -ForegroundColor Cyan
 $null = Ensure-Group $CodGroup
 $bg = Ensure-Group $ByodGroup
 Add-Members $bg $ByodMembers
-$null = Ensure-Group $SharedGroup
+$sg = Ensure-Group $SharedGroup
+
+# READ-ONLY: for the ASSIGNED Shared device group, report whether the Intune Provisioning Client SP
+# owns it (enrollment-time device grouping needs this owner or the group stays empty at enrollment).
+if ($sg) {
+    Write-Host "`n-- Enrollment-time grouping owner check (Shared device group) --" -ForegroundColor Cyan
+    try {
+        $owners = (Invoke-MgGraphRequest -Method GET -Uri "/v1.0/groups/$($sg.id)/owners").value
+        if ($owners | Where-Object { $_.appId -eq $ProvisioningClientAppId }) {
+            Write-Host ("  OK  : Intune Provisioning Client (AppId {0}) is an Owner of '{1}'." -f $ProvisioningClientAppId, $SharedGroup) -ForegroundColor Green
+        } else {
+            Write-Host ("  NOTE: Intune Provisioning Client (AppId {0}) is NOT an Owner of '{1}'." -f $ProvisioningClientAppId, $SharedGroup) -ForegroundColor Yellow
+            Write-Host "        For an ASSIGNED shared-device group, enrollment-time grouping needs this owner or the group stays empty at enrollment." -ForegroundColor Yellow
+            Write-Host ("        Add it: Entra > Groups > '{0}' > Owners > Add owners, search by AppId {1} (not the display name)." -f $SharedGroup, $ProvisioningClientAppId)
+        }
+    } catch {
+        Write-Host ("  NOTE: could not read owners of '{0}' ({1})." -f $SharedGroup, $_.Exception.Message) -ForegroundColor DarkGray
+    }
+}
 
 Write-Host "`nNote: COD and Shared groups hold DEVICES; the BYOD group holds USERS (account-driven User Enrollment)." -ForegroundColor DarkGray
 Write-Host "Next: assign the provisioning group to the Apple Business Manager app (ABMPROV-Remediation.ps1); federate ABM in the ABM console (deferred to Apple docs)." -ForegroundColor DarkGray

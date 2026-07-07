@@ -79,6 +79,20 @@ Consoles used:
 > **dynamic device** groups whose rules match phones by their ADE **enrollment profile name** (Steps 4
 > and 5), so each phone joins the correct group automatically the moment it enrolls.
 
+> **Shared group targeted by a security group — make it Assigned and add the Intune Provisioning Client
+> as Owner (enrollment-time grouping).** For the **shared** provisioning model, when `iOS – Shared
+> Devices` is an **Assigned** security group (the deterministic model created in step 1 above), add the
+> **Intune Provisioning Client** first-party service principal — **AppId
+> `f1346770-5b25-470b-88bd-d5744ab7952c`**, in many tenants displayed as **`Intune Autopilot
+> ConfidentialClient`** — as an **Owner** of the group. In Entra: **Groups → `iOS – Shared Devices` →
+> Owners → Add owners**, and search by that **AppId** (match by AppId, **not** the display name, which
+> varies by tenant). Enrollment-time device grouping works by this principal *owning* the Assigned
+> group — without the owner the group stays **empty at enrollment** and **none of the shared-device
+> lock-down profiles or apps deploy**. The group must be **Assigned**, never Dynamic, for this
+> mechanism. This is the same first-party principal and mechanism Windows Autopilot device preparation
+> uses. **Verify the owner is present before each pilot.** *(If the principal isn't present in the
+> tenant, open the Intune portal once as Global Administrator to provision it, then add it as owner.)*
+
 ### Step 7. Assign serials to each enrollment profile
 1. In **ABM → Devices**, select the shared iPhone serials → **Edit MDM Server** → `Intune – iOS MDM`
    → **Confirm**. Do the same for the corporate serials.

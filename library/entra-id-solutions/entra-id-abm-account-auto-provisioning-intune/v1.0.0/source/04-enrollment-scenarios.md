@@ -76,6 +76,14 @@ device.
 - Staff identity is **not** the device login; it is the **Managed Apple ID / shared app sign-in** used
   inside the relevant managed app or service.
 
+> **Targeting note (Assigned group + owner):** When `iOS Shared – Devices – Pilot` is an **Assigned**
+> security group, enrollment-time device grouping only populates it if the **Intune Provisioning
+> Client** service principal (**AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as **`Intune
+> Autopilot ConfidentialClient`**) is an **Owner** of the group — otherwise the group stays empty at
+> enrollment and no shared-device profiles/apps deploy. Match by **AppId**, not the display name, and
+> verify in your tenant. See Implementation Step 11 and Requirement 2.10. The group must be **Assigned**,
+> never Dynamic, for this mechanism (the same principal Windows Autopilot device preparation uses).
+
 **End-user sign-in experience:** The phone is already set up and locked down — no per-user device
 sign-in. A staff member picks it up and **signs in to the relevant app/service** (with a Managed Apple
 ID or a shared account) to do their task, then hands it on. The device itself stays generic.

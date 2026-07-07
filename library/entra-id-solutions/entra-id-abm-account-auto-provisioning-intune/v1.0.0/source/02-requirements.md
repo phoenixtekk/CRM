@@ -101,6 +101,24 @@ driven enrollment until resolved.
 **How to implement if missing:** Run the conflict review in ABM (Implementation Step 4), notify
 affected users to change their personal Apple ID email, then re-check before expanding.
 
+## 2.10 Enrollment-time grouping owner for the Shared device group (Intune Provisioning Client as Owner)
+**Description:** For the **Shared** (no-affinity) scenario, when `iOS Shared – Devices – Pilot` is an
+**Assigned** security group (the deterministic targeting model), the **Intune Provisioning Client**
+first-party service principal — **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, often shown as
+**`Intune Autopilot ConfidentialClient`** — must be an **Owner** of that group.
+**Why required:** Enrollment-time device grouping adds each newly enrolled shared iPhone to the
+Assigned group by way of this principal *owning* the group. Without the owner the group stays **empty
+at enrollment** and **none of the shared-device compliance/config profiles or apps deploy**. This is
+the same first-party principal and mechanism Windows Autopilot device preparation uses. Applies only
+when a **security group targets** the shared devices; a Dynamic group instead relies on its membership
+rule and does not use this owner.
+**How to verify:** Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners** lists the service
+principal — confirm by **AppId `f1346770-5b25-470b-88bd-d5744ab7952c`**, not the display name (which
+varies by tenant). Verify in your tenant before each pilot.
+**How to implement if missing:** Entra → **Groups → `iOS Shared – Devices – Pilot` → Owners → Add
+owners**, search by the AppId, and add it. (If the principal isn't present, open the Intune portal once
+as Global Administrator to provision it, then add it as owner.)
+
 ---
 ## Checklist
 - [ ] Intune + Entra ID P1+ licensing assigned (2.1)
@@ -112,3 +130,4 @@ affected users to change their personal Apple ID email, then re-check before exp
 - [ ] Target iPhones on a supported iOS version (2.7)
 - [ ] Provisioning + per-scenario scope groups created, incl. pilot (2.8)
 - [ ] Existing-Apple-ID conflict review planned (2.9)
+- [ ] Intune Provisioning Client (AppId `f1346770-5b25-470b-88bd-d5744ab7952c`) is an Owner of the Assigned `iOS Shared – Devices – Pilot` group (2.10)
