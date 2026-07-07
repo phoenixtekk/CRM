@@ -1,0 +1,41 @@
+{
+  "slug": "intune-enrollment-time-device-grouping-troubleshooting",
+  "title": "Intune Enrollment-Time Device Grouping — Prerequisites, Setup & Troubleshooting (Autopilot Device Preparation + Apple ADE)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ETDG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (cross-platform enrollment diagnostic + setup; Graph/RBAC depth).",
+    "Intune/Entra admin center + Microsoft Graph authored at exact detail from Microsoft public docs. KEY FACT (field-validated): Enrollment-Time Grouping requires the Intune Provisioning Client first-party service principal (AppId f1346770-5b25-470b-88bd-d5744ab7952c, in some tenants displayed 'Intune Autopilot ConfidentialClient' — match by AppId, name varies) to be an OWNER of an ASSIGNED, cloud-only Security group; without it, saving the enrollment policy fails with 'Unable to save device group ... the Intune Provisioning Client application is not an owner'. Microsoft documents this for Windows Autopilot device preparation; Apple ADE exposes the same Device Group option and uses the same backend but is barely documented for Apple — cite that gap, do not invent Apple-specific Microsoft docs that don't exist. The Azure Activity Log AuthorizationFailed / microsoft.insights/eventtypes/values/read errors seen in the portal are an UNRELATED red herring (Azure Monitor Reader-access, not Intune). Version/preview-dependent (Enrollment Time Grouping is newer) — flag 'verify in your tenant'. Automation is PowerShell (Microsoft Graph). No client names, no real tenant/admin identifiers. No secrets in code."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ETDG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ETDG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ETDG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ETDG-Solution.pdf",
+    "ETDG-Scripts.zip"
+  ],
+  "hero": "ETDG-hero.png"
+}
+

@@ -20996,6 +20996,172 @@
     "product_count": 3
   },
   {
+    "title": "Intune Enrollment-Time Device Grouping — Prerequisites, Setup & Troubleshooting (Autopilot Device Preparation + Apple ADE)",
+    "slug": "intune-enrollment-time-device-grouping-troubleshooting",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ETDG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ETDG-COMM-001",
+      "PTK-ETDG-NPO-001",
+      "PTK-ETDG-GOV-001"
+    ],
+    "deliverables": [
+      "ETDG-Solution.pdf",
+      "ETDG-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-enrollment-time-device-grouping-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ETDG-Assess-GroupReadiness.ps1",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/scripts/ETDG-Assess-GroupReadiness.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "ETDG-Config.ps1",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/scripts/ETDG-Config.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "ETDG-Get-DiagnosticReport.ps1",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/scripts/ETDG-Get-DiagnosticReport.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "ETDG-Set-ProvisioningClientOwner.ps1",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/scripts/ETDG-Set-ProvisioningClientOwner.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ETDG-Test-EnrollmentGroupPrereqs.ps1",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/scripts/ETDG-Test-EnrollmentGroupPrereqs.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ETDG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-Complete-Solution.zip",
+          "kb": 108.0
+        },
+        {
+          "name": "ETDG-hero.png",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-hero.png",
+          "kb": 482.5
+        },
+        {
+          "name": "ETDG-hero.svg",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ETDG-Scripts.zip",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "ETDG-Solution.docx",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-Solution.docx",
+          "kb": 56.6
+        },
+        {
+          "name": "ETDG-Solution.pdf",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-Solution.pdf",
+          "kb": 59.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 22.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-enrollment-time-device-grouping-troubleshooting/v1.0.0/deliverables/ETDG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Intune Win32 Application Packaging & Deployment",
     "slug": "intune-win32-app-packaging-deployment",
     "category": "Intune",

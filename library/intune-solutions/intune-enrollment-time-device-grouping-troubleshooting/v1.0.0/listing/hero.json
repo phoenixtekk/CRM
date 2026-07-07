@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enrollment-Time",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Device Grouping",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Provisioning-Client Owner · Prereqs · Diagnostics",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FAILS ON SAVE",
+    "items": [
+      "\"Not an owner\" error",
+      "Group won't commit",
+      "Azure-log noise",
+      "No Apple docs"
+    ]
+  },
+  "to": {
+    "label": "Saves & populates",
+    "stat": "Root-caused · fixed"
+  },
+  "tagline": "OWN THE GROUP.  MEET PREREQS.  DIAGNOSE.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "SP Owner",
+      "sub": "AppId match"
+    },
+    {
+      "icon": "shield",
+      "title": "Prereqs",
+      "sub": "Assigned/cloud"
+    },
+    {
+      "icon": "chart",
+      "title": "Diagnostics",
+      "sub": "Error → cause"
+    },
+    {
+      "icon": "device",
+      "title": "Win + Apple",
+      "sub": "Same backend"
+    }
+  ]
+}
