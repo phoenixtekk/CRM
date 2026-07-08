@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Custom DLP Policy Development",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Custom · Conditions · Tuning",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GAP / RISK",
+    "items": [
+      "Generic policy",
+      "False positives",
+      "No fit",
+      "Untuned"
+    ]
+  },
+  "to": {
+    "label": "Tailored",
+    "stat": "Configured · validated"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Configured",
+      "sub": "To policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Piloted",
+      "sub": "Simulation"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "lock",
+      "title": "Defensible",
+      "sub": "Evidenced"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Regulatory & Immutable Records + F",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Immutable · File Plan",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GAP / RISK",
+    "items": [
+      "Mutable records",
+      "No file plan",
+      "Reg gap",
+      "Audit risk"
+    ]
+  },
+  "to": {
+    "label": "Locked",
+    "stat": "Configured · validated"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Configured",
+      "sub": "To policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Piloted",
+      "sub": "Simulation"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "lock",
+      "title": "Defensible",
+      "sub": "Evidenced"
+    }
+  ]
+}

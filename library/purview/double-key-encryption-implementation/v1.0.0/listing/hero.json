@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Double Key Encryption (DKE) Implem",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "DKE · Customer Key",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GAP / RISK",
+    "items": [
+      "Single key",
+      "No customer control",
+      "Ultra-sensitive gap",
+      "Sovereignty"
+    ]
+  },
+  "to": {
+    "label": "Double-keyed",
+    "stat": "Configured · validated"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Configured",
+      "sub": "To policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Piloted",
+      "sub": "Simulation"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "lock",
+      "title": "Defensible",
+      "sub": "Evidenced"
+    }
+  ]
+}

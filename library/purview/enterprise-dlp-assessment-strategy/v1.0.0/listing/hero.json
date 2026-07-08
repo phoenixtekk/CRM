@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enterprise DLP Assessment & Strate",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Discovery · Priorities · Roadmap",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GAP / RISK",
+    "items": [
+      "No data map",
+      "Policy noise",
+      "Unknown exposure",
+      "No plan"
+    ]
+  },
+  "to": {
+    "label": "Assessed",
+    "stat": "Configured · validated"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Configured",
+      "sub": "To policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Piloted",
+      "sub": "Simulation"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "lock",
+      "title": "Defensible",
+      "sub": "Evidenced"
+    }
+  ]
+}

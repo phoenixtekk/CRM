@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "purview-sox-compliance-program",
+    "title": "Microsoft Purview SOX Compliance Program",
+    "category_path": [
+      "Purview"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CMPSOX-COMM-001",
+      "name": "Microsoft Purview SOX Compliance Program — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Meet SOX with a Purview-backed program in Microsoft Purview &mdash; a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3><h3>Meet SOX with a Purview-backed program in Microsoft Purview</h3></h3><p><p>SOX obligations need mapped controls + evidence in Purview. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: a SOX-aligned Purview program: control mapping, configured controls, and audit evidence &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure a SOX-aligned Purview program: control mapping, configured controls, and audit evidence; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Meet SOX with a Purview-backed program &mdash; delivered, validated, and defensible in Microsoft Purview.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVSOX-ConfigureControls.ps1</code> &mdash; create/update the SOX Purview controls; DLP in SIMULATION first (-WhatIf default)</li><li><code>PURVSOX-Discovery.ps1</code> &mdash; inventory the SOX-relevant Purview control state (read-only)</li><li><code>PURVSOX-EvidenceReport.ps1</code> &mdash; produce the SOX control-to-evidence scorecard and run the three evidence runbooks (read-only)</li><li><code>PURVSOX-Scope.ps1</code> &mdash; SOX program readiness/health: connectivity, roles + SoD, licensing, Compliance Manager reach (read-only)</li><li><code>PURVSOX-Validate.ps1</code> &mdash; confirm each SOX Purview control exists and is in its expected state (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview SOX Compliance Program",
+      "meta_description": "Meet SOX with a Purview-backed program in Microsoft Purview — a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "purview-sox-compliance-program-commercial",
+      "image": "CMPSOX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CMPSOX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CMPSOX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CMPSOX-NPO-001",
+      "name": "Microsoft Purview SOX Compliance Program — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Meet SOX with a Purview-backed program in Microsoft Purview — a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3><h3>Meet SOX with a Purview-backed program in Microsoft Purview</h3></h3><p><p>SOX obligations need mapped controls + evidence in Purview. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: a SOX-aligned Purview program: control mapping, configured controls, and audit evidence &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure a SOX-aligned Purview program: control mapping, configured controls, and audit evidence; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVSOX-ConfigureControls.ps1</code> &mdash; create/update the SOX Purview controls; DLP in SIMULATION first (-WhatIf default)</li><li><code>PURVSOX-Discovery.ps1</code> &mdash; inventory the SOX-relevant Purview control state (read-only)</li><li><code>PURVSOX-EvidenceReport.ps1</code> &mdash; produce the SOX control-to-evidence scorecard and run the three evidence runbooks (read-only)</li><li><code>PURVSOX-Scope.ps1</code> &mdash; SOX program readiness/health: connectivity, roles + SoD, licensing, Compliance Manager reach (read-only)</li><li><code>PURVSOX-Validate.ps1</code> &mdash; confirm each SOX Purview control exists and is in its expected state (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview SOX Compliance Program — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Meet SOX with a Purview-backed program in Microsoft Purview — a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "purview-sox-compliance-program-nonprofit",
+      "image": "CMPSOX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CMPSOX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CMPSOX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CMPSOX-GOV-001",
+      "name": "Microsoft Purview SOX Compliance Program — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Meet SOX with a Purview-backed program in Microsoft Purview — a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3><h3>Meet SOX with a Purview-backed program in Microsoft Purview</h3></h3><p><p>SOX obligations need mapped controls + evidence in Purview. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: a SOX-aligned Purview program: control mapping, configured controls, and audit evidence &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure a SOX-aligned Purview program: control mapping, configured controls, and audit evidence; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVSOX-ConfigureControls.ps1</code> &mdash; create/update the SOX Purview controls; DLP in SIMULATION first (-WhatIf default)</li><li><code>PURVSOX-Discovery.ps1</code> &mdash; inventory the SOX-relevant Purview control state (read-only)</li><li><code>PURVSOX-EvidenceReport.ps1</code> &mdash; produce the SOX control-to-evidence scorecard and run the three evidence runbooks (read-only)</li><li><code>PURVSOX-Scope.ps1</code> &mdash; SOX program readiness/health: connectivity, roles + SoD, licensing, Compliance Manager reach (read-only)</li><li><code>PURVSOX-Validate.ps1</code> &mdash; confirm each SOX Purview control exists and is in its expected state (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview SOX Compliance Program — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Meet SOX with a Purview-backed program in Microsoft Purview — a SOX-aligned Purview program: control mapping, configured controls, and audit evidence, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "purview-sox-compliance-program-government",
+      "image": "CMPSOX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "CMPSOX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "CMPSOX-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

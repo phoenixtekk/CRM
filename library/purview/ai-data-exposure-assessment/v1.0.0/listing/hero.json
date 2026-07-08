@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Data-Exposure Assessment",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Exposure · Scope · Risk",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GAP / RISK",
+    "items": [
+      "Unknown exposure",
+      "No baseline",
+      "Over-share",
+      "Blind"
+    ]
+  },
+  "to": {
+    "label": "Quantified",
+    "stat": "Configured · validated"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Configured",
+      "sub": "To policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Piloted",
+      "sub": "Simulation"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated",
+      "sub": "Pass/fail"
+    },
+    {
+      "icon": "lock",
+      "title": "Defensible",
+      "sub": "Evidenced"
+    }
+  ]
+}

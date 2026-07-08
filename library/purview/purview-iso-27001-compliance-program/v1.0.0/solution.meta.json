@@ -1,0 +1,41 @@
+{
+  "slug": "purview-iso-27001-compliance-program",
+  "title": "Microsoft Purview ISO 27001 Compliance Program",
+  "category": "Purview",
+  "category_slug": "purview",
+  "sol_code": "CMPISO27001",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal evolves — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations deferred to compliance/records/privacy/legal; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CMPISO27001-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CMPISO27001-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CMPISO27001-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CMPISO27001-Solution.pdf",
+    "CMPISO27001-Scripts.zip"
+  ],
+  "hero": "CMPISO27001-hero.png"
+}
+

@@ -1,0 +1,83 @@
+{
+  "sol": "IPMIG",
+  "slug": "sensitivity-label-migration-project",
+  "title": "Sensitivity Label Migration Project — Microsoft Purview",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T3 (Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal evolves — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations deferred to compliance/records/privacy/legal; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets. No client names."
+  ],
+  "hook": "<h3>Migrate legacy labels/classifications cleanly in Microsoft Purview</h3>",
+  "problem": "<p>Legacy or third-party labels must map to Purview. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: mapping and migrating legacy/third-party classifications to Purview sensitivity labels, with reclassification &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p>",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; configure mapping and migrating legacy/third-party classifications to Purview sensitivity labels, with reclassification; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions."
+  ],
+  "short": "Migrate legacy labels/classifications cleanly in Microsoft Purview &mdash; mapping and migrating legacy/third-party classifications to Purview sensitivity labels, with reclassification, piloted and validated. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Migrate legacy labels/classifications cleanly in Microsoft Purview — mapping and migrating legacy/third-party classifications to Purview sensitivity labels, with reclassification, piloted and validated.",
+  "meta_title": "Sensitivity Label Migration Project — Microsoft Purview",
+  "meta_description": "Migrate legacy labels/classifications cleanly in Microsoft Purview — mapping and migrating legacy/third-party classifications to Purview sensitivity labels, with reclassification, piloted and validated. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Migrate legacy labels/classifications cleanly &mdash; delivered, validated, and defensible in Microsoft Purview.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Sensitivity Label Migration Projec",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft Purview",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Mapping · Reclassify",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "GAP / RISK",
+      "items": [
+        "Legacy labels",
+        "Third-party lock-in",
+        "No mapping",
+        "Reclassify risk"
+      ]
+    },
+    "to": {
+      "label": "Migrated",
+      "stat": "Configured · validated"
+    },
+    "tagline": "ASSESS.  CONFIGURE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Configured",
+        "sub": "To policy"
+      },
+      {
+        "icon": "chart",
+        "title": "Piloted",
+        "sub": "Simulation"
+      },
+      {
+        "icon": "gear",
+        "title": "Validated",
+        "sub": "Pass/fail"
+      },
+      {
+        "icon": "lock",
+        "title": "Defensible",
+        "sub": "Evidenced"
+      }
+    ]
+  }
+}

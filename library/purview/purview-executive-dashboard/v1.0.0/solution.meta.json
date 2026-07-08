@@ -1,0 +1,41 @@
+{
+  "slug": "purview-executive-dashboard",
+  "title": "Microsoft Purview Executive Dashboard",
+  "category": "Purview",
+  "category_slug": "purview",
+  "sol_code": "OPSEXEC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal evolves — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations deferred to compliance/records/privacy/legal; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OPSEXEC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-OPSEXEC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-OPSEXEC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "OPSEXEC-Solution.pdf",
+    "OPSEXEC-Scripts.zip"
+  ],
+  "hero": "OPSEXEC-hero.png"
+}
+

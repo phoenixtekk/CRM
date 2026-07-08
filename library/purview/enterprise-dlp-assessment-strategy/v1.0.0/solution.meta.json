@@ -1,0 +1,41 @@
+{
+  "slug": "enterprise-dlp-assessment-strategy",
+  "title": "Enterprise DLP Assessment & Strategy — Microsoft Purview",
+  "category": "Purview",
+  "category_slug": "purview",
+  "sol_code": "DLPASSESS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal evolves — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations deferred to compliance/records/privacy/legal; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DLPASSESS-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-DLPASSESS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-DLPASSESS-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "DLPASSESS-Solution.pdf",
+    "DLPASSESS-Scripts.zip"
+  ],
+  "hero": "DLPASSESS-hero.png"
+}
+

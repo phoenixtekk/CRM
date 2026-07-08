@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "clipboard-screen-capture-protection",
+    "title": "Clipboard & Screen-Capture Protection — Microsoft Purview",
+    "category_path": [
+      "Purview"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-DLPCLIP-COMM-001",
+      "name": "Clipboard & Screen-Capture Protection — Microsoft Purview — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 1995.0,
+      "short_description": "Stop copy-paste and screenshot exfiltration in Microsoft Purview &mdash; clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3><h3>Stop copy-paste and screenshot exfiltration in Microsoft Purview</h3></h3><p><p>Copy-paste and screenshots bypass file controls. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: clipboard + screen-capture restrictions for sensitive content on endpoints &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure clipboard + screen-capture restrictions for sensitive content on endpoints; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Stop copy-paste and screenshot exfiltration &mdash; delivered, validated, and defensible in Microsoft Purview.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DLPCLIP-Configure.ps1</code> &mdash; build the Endpoint DLP policy + clipboard & screen-capture rule IN SIMULATION (-WhatIf by default; -Commit to write)</li><li><code>DLPCLIP-Discovery.ps1</code> &mdash; inventory Endpoint DLP settings + DLP policies covering clipboard & screen-capture (read-only)</li><li><code>DLPCLIP-Report.ps1</code> &mdash; roll up policy modes and export clipboard/screen-capture DLP match & block events to CSV (read-only)</li><li><code>DLPCLIP-ScopeHealth.ps1</code> &mdash; report device onboarding + Endpoint DLP feature/licensing readiness for clipboard & screen-capture controls (read-only)</li><li><code>DLPCLIP-Validate.ps1</code> &mdash; run the clipboard/screen-capture Endpoint DLP configuration gates (policy, Devices location, mode, scope, restrictions) read-only</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clipboard & Screen-Capture Protection — Microsoft Purview",
+      "meta_description": "Stop copy-paste and screenshot exfiltration in Microsoft Purview — clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "clipboard-screen-capture-protection-commercial",
+      "image": "DLPCLIP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DLPCLIP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DLPCLIP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DLPCLIP-NPO-001",
+      "name": "Clipboard & Screen-Capture Protection — Microsoft Purview — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1197.0,
+      "short_description": "<p>Stop copy-paste and screenshot exfiltration in Microsoft Purview — clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3><h3>Stop copy-paste and screenshot exfiltration in Microsoft Purview</h3></h3><p><p>Copy-paste and screenshots bypass file controls. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: clipboard + screen-capture restrictions for sensitive content on endpoints &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure clipboard + screen-capture restrictions for sensitive content on endpoints; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DLPCLIP-Configure.ps1</code> &mdash; build the Endpoint DLP policy + clipboard & screen-capture rule IN SIMULATION (-WhatIf by default; -Commit to write)</li><li><code>DLPCLIP-Discovery.ps1</code> &mdash; inventory Endpoint DLP settings + DLP policies covering clipboard & screen-capture (read-only)</li><li><code>DLPCLIP-Report.ps1</code> &mdash; roll up policy modes and export clipboard/screen-capture DLP match & block events to CSV (read-only)</li><li><code>DLPCLIP-ScopeHealth.ps1</code> &mdash; report device onboarding + Endpoint DLP feature/licensing readiness for clipboard & screen-capture controls (read-only)</li><li><code>DLPCLIP-Validate.ps1</code> &mdash; run the clipboard/screen-capture Endpoint DLP configuration gates (policy, Devices location, mode, scope, restrictions) read-only</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clipboard & Screen-Capture Protection — Microsoft Purview — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Stop copy-paste and screenshot exfiltration in Microsoft Purview — clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "clipboard-screen-capture-protection-nonprofit",
+      "image": "DLPCLIP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DLPCLIP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DLPCLIP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DLPCLIP-GOV-001",
+      "name": "Clipboard & Screen-Capture Protection — Microsoft Purview — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 1695.75,
+      "short_description": "<p>Stop copy-paste and screenshot exfiltration in Microsoft Purview — clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3><h3>Stop copy-paste and screenshot exfiltration in Microsoft Purview</h3></h3><p><p>Copy-paste and screenshots bypass file controls. Left unaddressed, this is a compliance gap and a data-risk exposure. This solution delivers it end to end in Microsoft Purview: clipboard + screen-capture restrictions for sensitive content on endpoints &mdash; configured, piloted in <strong>simulation/test</strong> where applicable, validated, and operable &mdash; so the capability is in place and defensible.</p></p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; what this delivers, how it works in Purview, and the Assess&rarr;Design&rarr;Configure&rarr;Pilot(simulate)&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview/compliance licensing, least-privilege roles, in-scope data, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; configure clipboard + screen-capture restrictions for sensitive content on endpoints; pilot in simulation/test first, validate, then enforce/expand &mdash; each policy/label/object named, with pass/fail gates + rollback.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation (simulation/-WhatIf first), Validation, Reporting, and a scope/health helper &mdash; Security &amp; Compliance PowerShell / Microsoft Graph (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Testing/validation gates + Best Practices</strong>; regulatory/records/legal determinations deferred to the relevant governance functions.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DLPCLIP-Configure.ps1</code> &mdash; build the Endpoint DLP policy + clipboard & screen-capture rule IN SIMULATION (-WhatIf by default; -Commit to write)</li><li><code>DLPCLIP-Discovery.ps1</code> &mdash; inventory Endpoint DLP settings + DLP policies covering clipboard & screen-capture (read-only)</li><li><code>DLPCLIP-Report.ps1</code> &mdash; roll up policy modes and export clipboard/screen-capture DLP match & block events to CSV (read-only)</li><li><code>DLPCLIP-ScopeHealth.ps1</code> &mdash; report device onboarding + Endpoint DLP feature/licensing readiness for clipboard & screen-capture controls (read-only)</li><li><code>DLPCLIP-Validate.ps1</code> &mdash; run the clipboard/screen-capture Endpoint DLP configuration gates (policy, Devices location, mode, scope, restrictions) read-only</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Clipboard & Screen-Capture Protection — Microsoft Purview — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Stop copy-paste and screenshot exfiltration in Microsoft Purview — clipboard + screen-capture restrictions for sensitive content on endpoints, piloted and validated. Self-guided steps and PowerShell tools.",
+      "url_key": "clipboard-screen-capture-protection-government",
+      "image": "DLPCLIP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "DLPCLIP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "DLPCLIP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}
