@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Enable Microsoft", "color": "white", "size": "main" },
+    { "text": "Intune", "color": "green", "size": "main" },
+    { "text": "Quick-Start · Free Preview", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "NO DEVICE MANAGEMENT", "items": ["Intune not enabled", "No MDM authority", "No enrollment", "Devices unmanaged"] },
+  "to": { "label": "Functioning Intune", "stat": "Enrolled · Compliant · Managed" },
+  "tagline": "SIMPLE.  FAST.  FREE.",
+  "benefits": [
+    { "icon": "cloud", "title": "New or Existing", "sub": "Any M365 tenant" },
+    { "icon": "device", "title": "Windows + iOS", "sub": "Enroll both, end to end" },
+    { "icon": "gear", "title": "Sensible Defaults", "sub": "Baseline in under an hour" },
+    { "icon": "key", "title": "Free Preview", "sub": "See the full catalog" }
+  ]
+}

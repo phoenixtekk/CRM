@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Pre-Logon VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Diagnostics Toolkit",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "PLAP / SBL + Device Tunnel · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GUESSWORK & TICKETS",
+    "items": [
+      "PLAP option missing",
+      "Tunnel won't come up",
+      "Cert errors",
+      "Hours per ticket"
+    ]
+  },
+  "to": {
+    "label": "Structured diagnosis",
+    "stat": "Collect · Check · Fix"
+  },
+  "tagline": "COLLECT.  CHECK.  FIX.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "5 Tools",
+      "sub": "Collect + checks"
+    },
+    {
+      "icon": "lock",
+      "title": "PLAP + Tunnel",
+      "sub": "Both mechanisms"
+    },
+    {
+      "icon": "key",
+      "title": "Cert Checks",
+      "sub": "EKU + chain"
+    },
+    {
+      "icon": "chart",
+      "title": "Intune Audit",
+      "sub": "Scope + assign"
+    }
+  ]
+}

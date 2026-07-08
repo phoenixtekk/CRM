@@ -1,0 +1,43 @@
+{
+  "slug": "always-on-vpn-device-tunnel-pre-logon-intune",
+  "title": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "AOVDT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "Effort tier: T4 (Always On VPN device tunnel; IKEv2 machine-cert auth; ProfileXML via custom OMA-URI in SYSTEM/device context; VPN gateway head-end + PKI certificate lifecycle; higher risk/irreversible logon-path ops).",
+    "Includes the certificate-lifecycle section (proposed product #6) folded in rather than sold standalone.",
+    "VPN gateway (RRAS / Azure VPN Gateway) internals deferred to Microsoft docs."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AOVDT-COMM-001",
+      "audience": "commercial",
+      "price": 3295.0
+    },
+    {
+      "sku": "PTK-AOVDT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1977.0
+    },
+    {
+      "sku": "PTK-AOVDT-GOV-001",
+      "audience": "government",
+      "price": 2800.75
+    }
+  ],
+  "deliverables": [
+    "AOVDT-Solution.pdf",
+    "AOVDT-Scripts.zip"
+  ],
+  "hero": "AOVDT-hero.png",
+  "wiki_path": "solutions/network/always-on-vpn-device-tunnel-pre-logon-intune"
+}

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "pre-logon-vpn-plap-sbl-diagnostics-toolkit",
+    "title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit",
+    "category_path": [
+      "Network"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PLAPDX-COMM-001",
+      "name": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "A structured <strong>diagnostic workflow and read-only tools</strong> for pre-logon VPN failures &mdash; isolate a missing precondition across <strong>both</strong> Cisco Start Before Logon (SBL/PLAP) and the Windows Always On VPN device tunnel in minutes. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Find why pre-logon VPN isn't working — fast</h3><p>When the <strong>Network sign-in</strong> tile never appears, the <strong>device tunnel</strong> silently never connects, or authentication is rejected, the fault hides among a handful of strict preconditions &mdash; and there are <strong>two different mechanisms</strong> that fail for different reasons. This toolkit gives you a <strong>structured diagnostic workflow and read-only PowerShell tools</strong> that isolate the missing precondition &mdash; for <strong>both</strong> Cisco Start Before Logon (SBL/PLAP) and the Windows Always On VPN device tunnel &mdash; in minutes instead of guessing. A self-guided troubleshooting playbook you keep and reuse on every incident.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; the failing precondition named for you, in a fixed check order, so the first FAIL is the whole reason.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every incident.</li><li><strong>Tested</strong> &mdash; a diagnostic workflow (<strong>Collect &rarr; Analyze &rarr; Remediate &rarr; Verify</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the two pre-logon mechanisms and every precondition each needs: the SBL module + <code>vpnplap64.dll</code> PLAP provider + <code>UseStartBeforeLogon</code>; the device tunnel's SKU/join, single-tunnel, IKEv2, machine-cert, and AlwaysOn rules.</li><li><strong>Requirements Guide</strong> &mdash; the device access, admin rights, and Intune/Graph read access to diagnose, each with how to <em>verify</em> it.</li><li><strong>Diagnostic Workflow</strong> &mdash; the ordered Collect &rarr; Analyze &rarr; Remediate &rarr; Verify process and a symptom &rarr; tool map that sends you straight to the right check.</li><li><strong>5 PowerShell diagnostic tools</strong> &mdash; a master collector plus focused checks for SBL/PLAP, the device tunnel, the certificate, and the Intune object/scope audit. All read-only.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> &mdash; gates that prove the tool reports a known-good device healthy and a known-bad device's true fault, plus a comprehensive symptom &rarr; cause &rarr; fix matrix covering both mechanisms.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each incident feels familiar and low-risk &mdash; buy once, reuse the playbook for the next outage and the next project.</p><h4>The bottom line</h4><p>The missing precondition behind a broken pre-logon VPN &mdash; SBL/PLAP or device tunnel &mdash; isolated in minutes, with read-only tools you keep and reuse on every incident.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click toolkit: solution overview, requirements, the diagnostic workflow, testing, the symptom &rarr; cause &rarr; fix matrix, and best practices.</li><li><strong>PowerShell Diagnostic Tools (ZIP)</strong> &mdash; 5 ready-to-run, read-only tools (one master collector plus four focused checks &mdash; nothing is modified on the device, tenant, or gateway):<ul><li><code>PLAPDX-Check-Certificate.ps1</code> &mdash; machine-certificate deep-check for pre-logon VPN authentication</li><li><code>PLAPDX-Check-DeviceTunnel.ps1</code> &mdash; focused Windows Always On VPN device-tunnel precondition check</li><li><code>PLAPDX-Check-Intune.ps1</code> &mdash; confirm the pre-logon VPN Intune objects exist, are assigned, and are correctly scoped</li><li><code>PLAPDX-Check-PlapSbl.ps1</code> &mdash; focused Cisco Start Before Logon (SBL/PLAP) precondition check on this device</li><li><code>PLAPDX-Collect-Diagnostics.ps1</code> &mdash; on-device master collector for pre-logon VPN (SBL/PLAP + device tunnel)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit",
+      "meta_description": "Troubleshoot pre-logon VPN failures — Cisco Start Before Logon (SBL/PLAP) and the Windows Always On VPN device tunnel — with a diagnostic workflow and read-only tools: module, vpnplap64.dll, UseStartBeforeLogon, SKU/join, IKEv2, machine cert. Self-guided (gateway specifics deferred to vendor docs).",
+      "url_key": "pre-logon-vpn-plap-sbl-diagnostics-toolkit-commercial",
+      "image": "PLAPDX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PLAPDX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Diagnostic Tools (ZIP)",
+          "source_type": "file",
+          "source": "PLAPDX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PLAPDX-NPO-001",
+      "name": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>A structured diagnostic workflow and read-only tools for pre-logon VPN failures — isolate a missing precondition across both Cisco SBL/PLAP and the Windows device tunnel in minutes. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Find why pre-logon VPN isn't working — fast</h3><p>When the <strong>Network sign-in</strong> tile never appears, the <strong>device tunnel</strong> silently never connects, or authentication is rejected, the fault hides among a handful of strict preconditions &mdash; and there are <strong>two different mechanisms</strong> that fail for different reasons. This toolkit gives you a <strong>structured diagnostic workflow and read-only PowerShell tools</strong> that isolate the missing precondition &mdash; for <strong>both</strong> Cisco Start Before Logon (SBL/PLAP) and the Windows Always On VPN device tunnel &mdash; in minutes instead of guessing. A self-guided troubleshooting playbook you keep and reuse on every incident.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested tools, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the two pre-logon mechanisms and every precondition each needs: the SBL module + <code>vpnplap64.dll</code> PLAP provider + <code>UseStartBeforeLogon</code>; the device tunnel's SKU/join, single-tunnel, IKEv2, machine-cert, and AlwaysOn rules.</li><li><strong>Requirements Guide</strong> &mdash; the device access, admin rights, and Intune/Graph read access to diagnose, each with how to <em>verify</em> it.</li><li><strong>Diagnostic Workflow</strong> &mdash; the ordered Collect &rarr; Analyze &rarr; Remediate &rarr; Verify process and a symptom &rarr; tool map that sends you straight to the right check.</li><li><strong>5 PowerShell diagnostic tools</strong> &mdash; a master collector plus focused checks for SBL/PLAP, the device tunnel, the certificate, and the Intune object/scope audit. All read-only.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> &mdash; gates that prove the tool reports a known-good device healthy and a known-bad device's true fault, plus a comprehensive symptom &rarr; cause &rarr; fix matrix covering both mechanisms.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click toolkit: solution overview, requirements, the diagnostic workflow, testing, the symptom &rarr; cause &rarr; fix matrix, and best practices.</li><li><strong>PowerShell Diagnostic Tools (ZIP)</strong> &mdash; 5 ready-to-run, read-only tools (one master collector plus four focused checks &mdash; nothing is modified on the device, tenant, or gateway):<ul><li><code>PLAPDX-Check-Certificate.ps1</code> &mdash; machine-certificate deep-check for pre-logon VPN authentication</li><li><code>PLAPDX-Check-DeviceTunnel.ps1</code> &mdash; focused Windows Always On VPN device-tunnel precondition check</li><li><code>PLAPDX-Check-Intune.ps1</code> &mdash; confirm the pre-logon VPN Intune objects exist, are assigned, and are correctly scoped</li><li><code>PLAPDX-Check-PlapSbl.ps1</code> &mdash; focused Cisco Start Before Logon (SBL/PLAP) precondition check on this device</li><li><code>PLAPDX-Collect-Diagnostics.ps1</code> &mdash; on-device master collector for pre-logon VPN (SBL/PLAP + device tunnel)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Troubleshoot pre-logon VPN failures — Cisco SBL/PLAP and the Windows Always On VPN device tunnel — with a diagnostic workflow and read-only tools. Self-guided (gateway specifics deferred to vendor docs).",
+      "url_key": "pre-logon-vpn-plap-sbl-diagnostics-toolkit-nonprofit",
+      "image": "PLAPDX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PLAPDX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Diagnostic Tools (ZIP)",
+          "source_type": "file",
+          "source": "PLAPDX-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PLAPDX-GOV-001",
+      "name": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>A structured diagnostic workflow and read-only tools for pre-logon VPN failures — isolate a missing precondition across both Cisco SBL/PLAP and the Windows device tunnel in minutes. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Find why pre-logon VPN isn't working — fast</h3><p>When the <strong>Network sign-in</strong> tile never appears, the <strong>device tunnel</strong> silently never connects, or authentication is rejected, the fault hides among a handful of strict preconditions &mdash; and there are <strong>two different mechanisms</strong> that fail for different reasons. This toolkit gives you a <strong>structured diagnostic workflow and read-only PowerShell tools</strong> that isolate the missing precondition &mdash; for <strong>both</strong> Cisco Start Before Logon (SBL/PLAP) and the Windows Always On VPN device tunnel &mdash; in minutes instead of guessing. A self-guided troubleshooting playbook you keep and reuse on every incident.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the two pre-logon mechanisms and every precondition each needs: the SBL module + <code>vpnplap64.dll</code> PLAP provider + <code>UseStartBeforeLogon</code>; the device tunnel's SKU/join, single-tunnel, IKEv2, machine-cert, and AlwaysOn rules.</li><li><strong>Requirements Guide</strong> &mdash; the device access, admin rights, and Intune/Graph read access to diagnose, each with how to <em>verify</em> it.</li><li><strong>Diagnostic Workflow</strong> &mdash; the ordered Collect &rarr; Analyze &rarr; Remediate &rarr; Verify process and a symptom &rarr; tool map that sends you straight to the right check.</li><li><strong>5 PowerShell diagnostic tools</strong> &mdash; a master collector plus focused checks for SBL/PLAP, the device tunnel, the certificate, and the Intune object/scope audit. All read-only.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> &mdash; gates that prove the tool reports a known-good device healthy and a known-bad device's true fault, plus a comprehensive symptom &rarr; cause &rarr; fix matrix covering both mechanisms.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click toolkit: solution overview, requirements, the diagnostic workflow, testing, the symptom &rarr; cause &rarr; fix matrix, and best practices.</li><li><strong>PowerShell Diagnostic Tools (ZIP)</strong> &mdash; 5 ready-to-run, read-only tools (one master collector plus four focused checks &mdash; nothing is modified on the device, tenant, or gateway):<ul><li><code>PLAPDX-Check-Certificate.ps1</code> &mdash; machine-certificate deep-check for pre-logon VPN authentication</li><li><code>PLAPDX-Check-DeviceTunnel.ps1</code> &mdash; focused Windows Always On VPN device-tunnel precondition check</li><li><code>PLAPDX-Check-Intune.ps1</code> &mdash; confirm the pre-logon VPN Intune objects exist, are assigned, and are correctly scoped</li><li><code>PLAPDX-Check-PlapSbl.ps1</code> &mdash; focused Cisco Start Before Logon (SBL/PLAP) precondition check on this device</li><li><code>PLAPDX-Collect-Diagnostics.ps1</code> &mdash; on-device master collector for pre-logon VPN (SBL/PLAP + device tunnel)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell tools in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Troubleshoot pre-logon VPN failures — Cisco SBL/PLAP and the Windows Always On VPN device tunnel — with a diagnostic workflow and read-only tools. Self-guided (gateway specifics deferred to vendor docs).",
+      "url_key": "pre-logon-vpn-plap-sbl-diagnostics-toolkit-government",
+      "image": "PLAPDX-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PLAPDX-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Diagnostic Tools (ZIP)",
+          "source_type": "file",
+          "source": "PLAPDX-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

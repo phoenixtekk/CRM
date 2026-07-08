@@ -1,0 +1,33 @@
+{
+  "slug": "enable-microsoft-intune-quickstart",
+  "title": "Enable Microsoft Intune — Quick-Start (New or Existing Tenant)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ITSTART",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "lead_gen": true,
+  "free": true,
+  "wiki_gated": false,
+  "wiki_path": "Intune/enable-microsoft-intune-quickstart",
+  "author_notes": [
+    "Free lead-gen preview product. Single $0 downloadable (no NPO/GOV tiers). Wiki page must be PUBLIC/ungated (do not run wiki-access-sync gating for this slug). Purpose: show prospects the house style + enable a working Intune (Windows + iOS BYOD). ABM (corporate zero-touch iOS) is pointed out to the paid catalog solution 'entra-id-abm-account-auto-provisioning-intune', not reproduced here."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ITSTART-FREE-001",
+      "audience": "free",
+      "price": 0.0
+    }
+  ],
+  "deliverables": [
+    "ITSTART-Complete-Solution.zip"
+  ],
+  "hero": "ITSTART-hero.png"
+}
+

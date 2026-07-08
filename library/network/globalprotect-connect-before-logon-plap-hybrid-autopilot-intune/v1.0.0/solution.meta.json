@@ -1,0 +1,43 @@
+{
+  "slug": "globalprotect-connect-before-logon-plap-hybrid-autopilot-intune",
+  "title": "GlobalProtect Connect Before Logon (PLAP) for Hybrid Azure AD Join Autopilot via Microsoft Intune — Deployment, Registration & Reboot-Sequencing Troubleshooting",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "GPPLAP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 — the most complex of the pre-logon VPN line: GlobalProtect PLAP deployment + Hybrid Azure AD Join Autopilot ESP sequencing + deep failure-mode diagnostics (unzip/0x87D30067, reboot orchestration, execution context, GP service readiness, Win10-vs-Win11) + IME/agent log capture.",
+    "Distinct from the Cisco SBL/PLAP product — this is Palo Alto GlobalProtect Connect Before Logon in the Autopilot hybrid-join, user-initiated-VPN scenario (customer moved off Always On VPN after a security incident).",
+    "Palo Alto GlobalProtect portal/gateway + app internals deferred to Palo Alto docs."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-GPPLAP-COMM-001",
+      "audience": "commercial",
+      "price": 3495.0
+    },
+    {
+      "sku": "PTK-GPPLAP-NPO-001",
+      "audience": "nonprofit",
+      "price": 2097.0
+    },
+    {
+      "sku": "PTK-GPPLAP-GOV-001",
+      "audience": "government",
+      "price": 2970.75
+    }
+  ],
+  "deliverables": [
+    "GPPLAP-Solution.pdf",
+    "GPPLAP-Scripts.zip"
+  ],
+  "hero": "GPPLAP-hero.png",
+  "wiki_path": "solutions/network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune"
+}

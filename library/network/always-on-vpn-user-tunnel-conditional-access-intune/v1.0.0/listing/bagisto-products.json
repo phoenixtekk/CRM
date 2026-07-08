@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "always-on-vpn-user-tunnel-conditional-access-intune",
+    "title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune",
+    "category_path": [
+      "Network"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AOVUT-COMM-001",
+      "name": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2795.0,
+      "short_description": "Deploy the <strong>Windows Always On VPN user tunnel</strong> to every enrolled Windows device with <strong>Microsoft Intune</strong> and gate access with Entra <strong>Conditional Access</strong> &mdash; sign in, auto-connect (IKEv2/SSTP), stay compliant. Deployed pilot-first and rollback-ready. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>An always-on, compliance-gated VPN tunnel for every managed Windows device</h3><p>Remote workers need a VPN that just works &mdash; always on, no manual reconnecting &mdash; and access over it must be limited to trusted, healthy devices. This solution deploys the <strong>Windows Always On VPN user tunnel</strong> through <strong>Microsoft Intune</strong> (IKEv2 with SSTP fallback, user-certificate auth) and gates corporate access with Entra <strong>Conditional Access</strong>, so the tunnel auto-connects when the user signs in and only a compliant or hybrid-joined device reaches corporate resources through it. Deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; user tunnel vs. device tunnel, the profile-plus-certificate-plus-policy model, IKEv2/SSTP + Always On, and where this fits vs. the companion device-tunnel product (which owns the full certificate lifecycle).</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrolled Windows devices, Entra user groups, a VPN head-end/RRAS or Azure VPN Gateway, a lean user-cert SCEP path + trusted root, Conditional Access availability, a device compliance policy) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted root, the user SCEP certificate, the VPN template profile, and the Conditional Access policy, assign to a named pilot user group, then validate, pilot, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery (incl. the Conditional Access policy), on-device tunnel + user-cert validation, a coverage report, safe remediation of errored devices, and a user target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>An always-on, compliance-gated VPN user tunnel on every managed Windows device &mdash; delivered from Intune, enforced by Conditional Access, and proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVUT-Discovery.ps1</code> &mdash; Always On VPN user-tunnel + Conditional Access deployment-readiness discovery across Entra + Intune</li><li><code>AOVUT-Remediation.ps1</code> &mdash; safely fix errored user-tunnel profiles / missing profile assignments</li><li><code>AOVUT-Report.ps1</code> &mdash; Always On VPN user tunnel + user certificate coverage report across the fleet</li><li><code>AOVUT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra USER group(s)</li><li><code>AOVUT-Validation.ps1</code> &mdash; confirm the Always On VPN user tunnel + user certificate are applied on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune",
+      "meta_description": "Deploy the Windows Always On VPN user tunnel with Microsoft Intune and gate access with Entra Conditional Access (IKEv2/SSTP, user-cert auth). Self-guided, tested steps and scripts (VPN gateway specifics deferred to vendor docs).",
+      "url_key": "always-on-vpn-user-tunnel-conditional-access-intune-commercial",
+      "image": "AOVUT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVUT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVUT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AOVUT-NPO-001",
+      "name": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1677.0,
+      "short_description": "<p>Deploy the Windows Always On VPN user tunnel with Microsoft Intune and gate access with Entra Conditional Access (IKEv2/SSTP, user-cert auth) — sign in, auto-connect, stay compliant, pilot-first. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>An always-on, compliance-gated VPN tunnel for every managed Windows device</h3><p>Remote workers need a VPN that just works &mdash; always on, no manual reconnecting &mdash; and access over it must be limited to trusted, healthy devices. This solution deploys the <strong>Windows Always On VPN user tunnel</strong> through <strong>Microsoft Intune</strong> (IKEv2 with SSTP fallback, user-certificate auth) and gates corporate access with Entra <strong>Conditional Access</strong>, so the tunnel auto-connects when the user signs in and only a compliant or hybrid-joined device reaches corporate resources through it. Deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; user tunnel vs. device tunnel, the profile-plus-certificate-plus-policy model, IKEv2/SSTP + Always On, and where this fits vs. the companion device-tunnel product (which owns the full certificate lifecycle).</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrolled Windows devices, Entra user groups, a VPN head-end/RRAS or Azure VPN Gateway, a lean user-cert SCEP path + trusted root, Conditional Access availability, a device compliance policy) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted root, the user SCEP certificate, the VPN template profile, and the Conditional Access policy, assign to a named pilot user group, then validate, pilot, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery (incl. the Conditional Access policy), on-device tunnel + user-cert validation, a coverage report, safe remediation of errored devices, and a user target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVUT-Discovery.ps1</code> &mdash; Always On VPN user-tunnel + Conditional Access deployment-readiness discovery across Entra + Intune</li><li><code>AOVUT-Remediation.ps1</code> &mdash; safely fix errored user-tunnel profiles / missing profile assignments</li><li><code>AOVUT-Report.ps1</code> &mdash; Always On VPN user tunnel + user certificate coverage report across the fleet</li><li><code>AOVUT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra USER group(s)</li><li><code>AOVUT-Validation.ps1</code> &mdash; confirm the Always On VPN user tunnel + user certificate are applied on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy the Windows Always On VPN user tunnel with Microsoft Intune and gate access with Entra Conditional Access (IKEv2/SSTP). Self-guided, tested steps and scripts (VPN gateway specifics deferred to vendor docs).",
+      "url_key": "always-on-vpn-user-tunnel-conditional-access-intune-nonprofit",
+      "image": "AOVUT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVUT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVUT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AOVUT-GOV-001",
+      "name": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2375.75,
+      "short_description": "<p>Deploy the Windows Always On VPN user tunnel with Microsoft Intune and gate access with Entra Conditional Access (IKEv2/SSTP, user-cert auth) — sign in, auto-connect, stay compliant, pilot-first. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>An always-on, compliance-gated VPN tunnel for every managed Windows device</h3><p>Remote workers need a VPN that just works &mdash; always on, no manual reconnecting &mdash; and access over it must be limited to trusted, healthy devices. This solution deploys the <strong>Windows Always On VPN user tunnel</strong> through <strong>Microsoft Intune</strong> (IKEv2 with SSTP fallback, user-certificate auth) and gates corporate access with Entra <strong>Conditional Access</strong>, so the tunnel auto-connects when the user signs in and only a compliant or hybrid-joined device reaches corporate resources through it. Deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; user tunnel vs. device tunnel, the profile-plus-certificate-plus-policy model, IKEv2/SSTP + Always On, and where this fits vs. the companion device-tunnel product (which owns the full certificate lifecycle).</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrolled Windows devices, Entra user groups, a VPN head-end/RRAS or Azure VPN Gateway, a lean user-cert SCEP path + trusted root, Conditional Access availability, a device compliance policy) with how to <em>verify</em> and how to <em>implement</em> each if missing. Government (GCC/GCC High) portal endpoints are noted.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps to build the trusted root, the user SCEP certificate, the VPN template profile, and the Conditional Access policy, assign to a named pilot user group, then validate, pilot, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery (incl. the Conditional Access policy), on-device tunnel + user-cert validation, a coverage report, safe remediation of errored devices, and a user target-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVUT-Discovery.ps1</code> &mdash; Always On VPN user-tunnel + Conditional Access deployment-readiness discovery across Entra + Intune</li><li><code>AOVUT-Remediation.ps1</code> &mdash; safely fix errored user-tunnel profiles / missing profile assignments</li><li><code>AOVUT-Report.ps1</code> &mdash; Always On VPN user tunnel + user certificate coverage report across the fleet</li><li><code>AOVUT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra USER group(s)</li><li><code>AOVUT-Validation.ps1</code> &mdash; confirm the Always On VPN user tunnel + user certificate are applied on THIS device</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy the Windows Always On VPN user tunnel with Microsoft Intune and gate access with Entra Conditional Access (IKEv2/SSTP). Self-guided, tested steps and scripts (VPN gateway specifics deferred to vendor docs).",
+      "url_key": "always-on-vpn-user-tunnel-conditional-access-intune-government",
+      "image": "AOVUT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVUT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVUT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

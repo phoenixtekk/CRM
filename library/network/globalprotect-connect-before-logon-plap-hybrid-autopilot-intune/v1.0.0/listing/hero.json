@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "GlobalProtect PLAP",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Connect Before Logon",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Hybrid Autopilot · via Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALLED DEPLOYMENT",
+    "items": [
+      "\"Unzipping\" install error",
+      "PLAP won't register",
+      "No sign-in tile",
+      "Reboot breaks ESP"
+    ]
+  },
+  "to": {
+    "label": "Provisioned & pre-logon ready",
+    "stat": "CBL tile at first logon"
+  },
+  "tagline": "INSTALL.  REGISTER.  CONNECT BEFORE LOGON.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "CBL / PLAP",
+      "sub": "GlobalProtect 5.2+"
+    },
+    {
+      "icon": "gear",
+      "title": "Autopilot ESP",
+      "sub": "Blocking app + 3010"
+    },
+    {
+      "icon": "chart",
+      "title": "Log Capture",
+      "sub": "IME + Autopilot"
+    },
+    {
+      "icon": "key",
+      "title": "Registered",
+      "sub": "PanGPS -registerplap"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Always On VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "User Tunnel + CA",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "IKEv2/SSTP · Conditional Access · Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL / UNGATED VPN",
+    "items": [
+      "Users reconnect manually",
+      "No compliance gate",
+      "Split-tunnel drift",
+      "No MFA at tunnel"
+    ]
+  },
+  "to": {
+    "label": "Always-on, compliance-gated",
+    "stat": "Auto-connect · CA enforced"
+  },
+  "tagline": "SIGN IN.  AUTO-CONNECT.  STAY COMPLIANT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Always On",
+      "sub": "User tunnel"
+    },
+    {
+      "icon": "shield",
+      "title": "Conditional Access",
+      "sub": "Compliance-gated"
+    },
+    {
+      "icon": "key",
+      "title": "User Cert",
+      "sub": "SCEP auth"
+    },
+    {
+      "icon": "cloud",
+      "title": "Intune VPN",
+      "sub": "Template deploy"
+    }
+  ]
+}

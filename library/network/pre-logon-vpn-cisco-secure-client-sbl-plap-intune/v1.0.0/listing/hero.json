@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Pre-Logon VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Cisco SBL / PLAP",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Start Before Windows Logon · via Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AFTER-LOGON VPN ONLY",
+    "items": [
+      "No first remote logon",
+      "Password resets fail off-net",
+      "No GPO at logon",
+      "No DC reachability"
+    ]
+  },
+  "to": {
+    "label": "Tunnel up BEFORE logon",
+    "stat": "Connect at the logon screen"
+  },
+  "tagline": "AUTHENTICATE FIRST.  THEN SIGN IN.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Pre-Logon Auth",
+      "sub": "Device cert"
+    },
+    {
+      "icon": "lock",
+      "title": "SBL / PLAP",
+      "sub": "Credential provider"
+    },
+    {
+      "icon": "cloud",
+      "title": "Intune Deploy",
+      "sub": "Win32 + profile"
+    },
+    {
+      "icon": "users",
+      "title": "First Logon",
+      "sub": "Off-network"
+    }
+  ]
+}

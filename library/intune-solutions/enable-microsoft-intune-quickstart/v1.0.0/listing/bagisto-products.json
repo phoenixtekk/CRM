@@ -1,0 +1,32 @@
+{
+  "solution": {
+    "slug": "enable-microsoft-intune-quickstart",
+    "title": "Enable Microsoft Intune — Quick-Start (New or Existing Tenant)",
+    "category_path": [
+      "Intune"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ITSTART-FREE-001",
+      "name": "Enable Microsoft Intune — Quick-Start (New or Existing Tenant) — Free Preview",
+      "type": "downloadable",
+      "audience": "free",
+      "price": 0.0,
+      "short_description": "<p><strong>Free.</strong> Get Microsoft Intune up and running — new tenant or existing — and enroll a Windows PC and an iPhone. A complete, click-by-click preview of what every solution in this catalog delivers.</p>",
+      "description": "<h3>Stand up a working Microsoft Intune — free</h3><p>Turning on device management shouldn't take a consultant or a week of trial and error. This free Quick-Start takes you from <strong>no device management</strong> to a <strong>functioning Microsoft Intune</strong> in a single short session &mdash; whether you're standing up a <strong>brand-new Microsoft 365 tenant</strong> or <strong>enabling Intune for the first time in an existing one</strong>. When you finish, Intune is your enrollment authority, the sensible defaults are in place, and you can enroll and manage a <strong>Windows PC</strong> and an <strong>iPhone</strong> end to end.</p><h4>A real preview of the whole catalog</h4><p>This is a genuinely useful deliverable <em>and</em> a free preview of how every paid solution is built. Same click-by-click house style, same tested PowerShell, same pilot-first method &mdash; so you know exactly what to expect before you ever buy.</p><ul><li><strong>Simpler</strong> &mdash; exact navigation in the right order, written for a novice admin. Every object you create is named and reused through testing and troubleshooting.</li><li><strong>Faster</strong> &mdash; the smallest correct set of steps to a working Intune, not an exhaustive tome. Under an hour of tenant-side work.</li><li><strong>Proven</strong> &mdash; a pilot-first path (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with read-only scripts that verify the tenant and score the enablement PASS/FAIL.</li></ul><h4>What you'll accomplish</h4><ul><li>Confirm licensing and set <strong>Intune as the MDM authority</strong>.</li><li>Add the <strong>Apple MDM push certificate</strong> so iPhones and iPads can enroll.</li><li>Turn on <strong>automatic Windows enrollment</strong> for Entra-joined PCs.</li><li>Apply a <strong>minimal baseline</strong> (one compliance policy per platform, one config profile).</li><li><strong>Enroll a Windows device and an iPhone</strong> and confirm both check in and report compliant.</li></ul><h4>Where the boundary is &mdash; and where to go next</h4><p>Personal/BYOD iPhone enrollment works with only the Intune-side steps here. <strong>Corporate, zero-touch iPhone enrollment (Automated Device Enrollment)</strong> additionally requires <strong>Apple Business Manager</strong> &mdash; an Apple portal outside Intune. This guide shows exactly where ABM fits and points you to the dedicated catalog solution, <em>&ldquo;Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune,&rdquo;</em> which walks Apple Business Manager setup end to end. Once Intune is live, the catalog continues in the same style: Windows Autopilot, Conditional Access, compliance at scale, and app deployment.</p><h4>The bottom line</h4><p>In one session you get a real, working Intune managing Windows and iOS &mdash; and a clear, no-obligation look at how every solution in this catalog is delivered. Start here, then expand when you're ready.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ITSTART-Compliance-Check.ps1</code> &mdash; summarizes baseline compliance-policy assignments and device state</li><li><code>ITSTART-Discovery.ps1</code> &mdash; reports Intune enablement readiness for the tenant</li><li><code>ITSTART-Enrollment-Readiness.ps1</code> &mdash; checks whether a specific user can enroll a device</li><li><code>ITSTART-Report.ps1</code> &mdash; lists enrolled devices with platform, ownership, management, and compliance</li><li><code>ITSTART-Validate.ps1</code> &mdash; scores the Intune enablement against the Quick-Start success criteria</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered free as a single Complete Solution Package: this guide as a Word document and PDF, plus all five PowerShell scripts &mdash; yours to keep.</em></p>",
+      "meta_title": "Enable Microsoft Intune — Free Quick-Start (New or Existing Tenant)",
+      "meta_description": "Free, click-by-click guide to enable Microsoft Intune from scratch — set the MDM authority, add the Apple push certificate, turn on Windows auto-enrollment, and enroll a Windows PC and an iPhone. A preview of the full solution catalog.",
+      "url_key": "enable-microsoft-intune-quickstart-free",
+      "image": "ITSTART-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ITSTART-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

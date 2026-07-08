@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Always On VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Device Tunnel",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Connect BEFORE user logon · via Intune",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "USER-TUNNEL ONLY",
+    "items": [
+      "Nothing before logon",
+      "First logon fails off-net",
+      "No boot-time DC access",
+      "No pre-logon password reset"
+    ]
+  },
+  "to": {
+    "label": "Machine online at boot",
+    "stat": "Device tunnel before sign-in"
+  },
+  "tagline": "BOOT.  CONNECT.  THEN SIGN IN.",
+  "benefits": [
+    {
+      "icon": "chip",
+      "title": "Device Tunnel",
+      "sub": "IKEv2 machine cert"
+    },
+    {
+      "icon": "key",
+      "title": "Machine Cert",
+      "sub": "SCEP lifecycle"
+    },
+    {
+      "icon": "cloud",
+      "title": "Intune ProfileXML",
+      "sub": "Custom OMA-URI"
+    },
+    {
+      "icon": "device",
+      "title": "Boot-Time",
+      "sub": "Before logon"
+    }
+  ]
+}

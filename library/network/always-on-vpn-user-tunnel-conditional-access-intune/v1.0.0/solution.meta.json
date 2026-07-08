@@ -1,0 +1,43 @@
+{
+  "slug": "always-on-vpn-user-tunnel-conditional-access-intune",
+  "title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "AOVUT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (Always On VPN user tunnel via Intune VPN template; user certificate auth + Entra Conditional Access integration + trusted-network detection/split tunnel; single-tunnel scope, companion to the device-tunnel product).",
+    "Certificate lifecycle is covered in depth by the companion device-tunnel product; here the user-certificate profile is configured leanly and cross-referenced, not re-taught.",
+    "VPN gateway internals deferred to Microsoft docs."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AOVUT-COMM-001",
+      "audience": "commercial",
+      "price": 2795.0
+    },
+    {
+      "sku": "PTK-AOVUT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1677.0
+    },
+    {
+      "sku": "PTK-AOVUT-GOV-001",
+      "audience": "government",
+      "price": 2375.75
+    }
+  ],
+  "deliverables": [
+    "AOVUT-Solution.pdf",
+    "AOVUT-Scripts.zip"
+  ],
+  "hero": "AOVUT-hero.png",
+  "gov_variant": false,
+  "wiki_path": "solutions/network/always-on-vpn-user-tunnel-conditional-access-intune"
+}

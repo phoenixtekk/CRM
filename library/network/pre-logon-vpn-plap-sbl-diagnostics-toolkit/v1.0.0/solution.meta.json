@@ -1,0 +1,43 @@
+{
+  "slug": "pre-logon-vpn-plap-sbl-diagnostics-toolkit",
+  "title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "PLAPDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (diagnostics toolkit — script-heavy; parity with the existing Cisco ISE VPN diagnostics toolkit at the same price).",
+    "Covers BOTH pre-logon approaches: Cisco Start Before Logon (SBL/PLAP) and Windows Always On VPN device tunnel.",
+    "Vendor head-end internals deferred to vendor docs."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-PLAPDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PLAPDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PLAPDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PLAPDX-Solution.pdf",
+    "PLAPDX-Scripts.zip"
+  ],
+  "hero": "PLAPDX-hero.png",
+  "wiki_path": "solutions/network/pre-logon-vpn-plap-sbl-diagnostics-toolkit"
+}

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "always-on-vpn-device-tunnel-pre-logon-intune",
+    "title": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune",
+    "category_path": [
+      "Network"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AOVDT-COMM-001",
+      "name": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 3295.0,
+      "short_description": "Deploy the Windows <strong>Always On VPN device tunnel</strong> &mdash; machine-context, <strong>IKEv2</strong>, machine-certificate auth &mdash; through <strong>Microsoft Intune</strong> so the corporate network is reachable <strong>before any user signs in</strong>. First logon off-network, off-net password changes, and pre-logon DC access, the Microsoft-native way. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Connect the machine to the corporate network BEFORE anyone logs on</h3><p>Remote Windows devices need the corporate network <em>at the logon screen</em> &mdash; for a brand-new user's first logon with no cached credentials, for off-network password changes, and for group policy, logon scripts, and domain-controller reachability before a user is present. This solution deploys the Microsoft-native <strong>Always On VPN device tunnel</strong> (machine-context, <strong>IKEv2</strong>, machine-certificate authentication) through <strong>Microsoft Intune</strong> as a Custom OMA-URI ProfileXML in device context &mdash; the built-in alternative to third-party Start-Before-Logon add-ons, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates, including the decisive <em>pre-logon</em> test.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why a device tunnel (pre-logon, IKEv2-only, machine-cert-only, one profile per device), how it's delivered via a Custom OMA-URI ProfileXML in device context, and where Intune ends and the VPN gateway head-end begins.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrollment, supported Windows edition/join type, the VPN head-end, SCEP/PKCS PKI, root CA + gateway server cert, connection parameters) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps including the folded-in <strong>certificate lifecycle</strong> (Trusted Root CA then SCEP machine certificate), authoring the ProfileXML, building the Custom OMA-URI profile assigned to a <strong>device</strong> group, then pilot, validate, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery, on-device pre-logon validation, a profile + certificate coverage report, safe remediation, and a pilot device-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>The corporate network reachable before anyone signs in, on every managed Windows device &mdash; delivered from Intune with a Microsoft-native IKEv2 device tunnel and machine-certificate auth, and proven on a pilot before you scale.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVDT-Discovery.ps1</code> &mdash; Always On VPN device-tunnel deployment-readiness discovery across Entra + Intune</li><li><code>AOVDT-Validation.ps1</code> &mdash; confirm the device-tunnel profile + machine certificate are present on THIS device</li><li><code>AOVDT-Report.ps1</code> &mdash; Always On VPN device-tunnel + certificate coverage report across the fleet</li><li><code>AOVDT-Remediation.ps1</code> &mdash; safely fix errored profiles / missing device-group assignments</li><li><code>AOVDT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra device group(s)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN Device Tunnel (Pre-Logon, IKEv2) via Microsoft Intune",
+      "meta_description": "Deploy the Windows Always On VPN device tunnel (IKEv2, machine-certificate auth) via Microsoft Intune so the corporate network is reachable before user logon. Self-guided, tested steps and scripts (VPN gateway head-end deferred to Microsoft docs).",
+      "url_key": "always-on-vpn-device-tunnel-pre-logon-intune-commercial",
+      "image": "AOVDT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVDT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVDT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AOVDT-NPO-001",
+      "name": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1977.0,
+      "short_description": "<p>Deploy the Windows Always On VPN device tunnel (IKEv2, machine-certificate auth) via Microsoft Intune so the corporate network is reachable before user logon &mdash; pilot-first, Microsoft-native. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Connect the machine to the corporate network BEFORE anyone logs on</h3><p>Remote Windows devices need the corporate network <em>at the logon screen</em> &mdash; for a brand-new user's first logon with no cached credentials, for off-network password changes, and for group policy, logon scripts, and domain-controller reachability before a user is present. This solution deploys the Microsoft-native <strong>Always On VPN device tunnel</strong> (machine-context, <strong>IKEv2</strong>, machine-certificate authentication) through <strong>Microsoft Intune</strong> as a Custom OMA-URI ProfileXML in device context &mdash; the built-in alternative to third-party Start-Before-Logon add-ons, deployed pilot-first and rollback-ready.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why a device tunnel (pre-logon, IKEv2-only, machine-cert-only, one profile per device), how it's delivered via a Custom OMA-URI ProfileXML in device context, and where Intune ends and the VPN gateway head-end begins.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrollment, supported Windows edition/join type, the VPN head-end, SCEP/PKCS PKI, root CA + gateway server cert, connection parameters) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps including the folded-in <strong>certificate lifecycle</strong> (Trusted Root CA then SCEP machine certificate), authoring the ProfileXML, building the Custom OMA-URI profile assigned to a <strong>device</strong> group, then pilot, validate, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery, on-device pre-logon validation, a profile + certificate coverage report, safe remediation, and a pilot device-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVDT-Discovery.ps1</code> &mdash; Always On VPN device-tunnel deployment-readiness discovery across Entra + Intune</li><li><code>AOVDT-Validation.ps1</code> &mdash; confirm the device-tunnel profile + machine certificate are present on THIS device</li><li><code>AOVDT-Report.ps1</code> &mdash; Always On VPN device-tunnel + certificate coverage report across the fleet</li><li><code>AOVDT-Remediation.ps1</code> &mdash; safely fix errored profiles / missing device-group assignments</li><li><code>AOVDT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra device group(s)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN Device Tunnel (Pre-Logon, IKEv2) via Microsoft Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploy the Windows Always On VPN device tunnel (IKEv2, machine-certificate auth) via Microsoft Intune, reachable before user logon. Self-guided, tested steps and scripts (VPN gateway head-end deferred to Microsoft docs).",
+      "url_key": "always-on-vpn-device-tunnel-pre-logon-intune-nonprofit",
+      "image": "AOVDT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVDT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVDT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AOVDT-GOV-001",
+      "name": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2800.75,
+      "short_description": "<p>Deploy the Windows Always On VPN device tunnel (IKEv2, machine-certificate auth) via Microsoft Intune so the corporate network is reachable before user logon &mdash; pilot-first, Microsoft-native. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Connect the machine to the corporate network BEFORE anyone logs on</h3><p>Remote Windows devices need the corporate network <em>at the logon screen</em> &mdash; for a brand-new user's first logon with no cached credentials, for off-network password changes, and for group policy, logon scripts, and domain-controller reachability before a user is present. This solution deploys the Microsoft-native <strong>Always On VPN device tunnel</strong> (machine-context, <strong>IKEv2</strong>, machine-certificate authentication) through <strong>Microsoft Intune</strong> as a Custom OMA-URI ProfileXML in device context &mdash; the built-in alternative to third-party Start-Before-Logon add-ons, deployed pilot-first and rollback-ready.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies. Government (GCC / GCC High) tenants use the <code>.us</code> admin portals — verify each step for GCC High per Microsoft's US Government documentation.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; why a device tunnel (pre-logon, IKEv2-only, machine-cert-only, one profile per device), how it's delivered via a Custom OMA-URI ProfileXML in device context, and where Intune ends and the VPN gateway head-end begins.</li><li><strong>Requirements Guide</strong> &mdash; every prerequisite (Intune licensing + enrollment, supported Windows edition/join type, the VPN head-end, SCEP/PKCS PKI, root CA + gateway server cert, connection parameters) with how to <em>verify</em> and how to <em>implement</em> each if missing.</li><li><strong>Implementation Guide</strong> &mdash; exact, ordered steps including the folded-in <strong>certificate lifecycle</strong> (Trusted Root CA then SCEP machine certificate), authoring the ProfileXML, building the Custom OMA-URI profile assigned to a <strong>device</strong> group, then pilot, validate, and expand fleet-wide.</li><li><strong>5 PowerShell scripts</strong> &mdash; deployment-readiness discovery, on-device pre-logon validation, a profile + certificate coverage report, safe remediation, and a pilot device-group builder.</li><li><strong>Testing &amp; Troubleshooting Guides</strong> with explicit pass/fail gates, plus field-proven Best Practices for the assign-once, repeat-everywhere model.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AOVDT-Discovery.ps1</code> &mdash; Always On VPN device-tunnel deployment-readiness discovery across Entra + Intune</li><li><code>AOVDT-Validation.ps1</code> &mdash; confirm the device-tunnel profile + machine certificate are present on THIS device</li><li><code>AOVDT-Report.ps1</code> &mdash; Always On VPN device-tunnel + certificate coverage report across the fleet</li><li><code>AOVDT-Remediation.ps1</code> &mdash; safely fix errored profiles / missing device-group assignments</li><li><code>AOVDT-Set-ScopeTargeting.ps1</code> &mdash; create/populate the pilot (and production) Entra device group(s)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Windows Always On VPN Device Tunnel (Pre-Logon, IKEv2) via Microsoft Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploy the Windows Always On VPN device tunnel (IKEv2, machine-certificate auth) via Microsoft Intune, reachable before user logon. Self-guided, tested steps and scripts (VPN gateway head-end deferred to Microsoft docs).",
+      "url_key": "always-on-vpn-device-tunnel-pre-logon-intune-government",
+      "image": "AOVDT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "AOVDT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "AOVDT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

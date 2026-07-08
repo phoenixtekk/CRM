@@ -19642,6 +19642,172 @@
     "product_count": 3
   },
   {
+    "title": "Enable Microsoft Intune — Quick-Start (New or Existing Tenant)",
+    "slug": "enable-microsoft-intune-quickstart",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ITSTART",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 0.0,
+    "nonprofit": 0.0,
+    "skus": "PTK-ITSTART-FREE-001",
+    "deliverables": [
+      "ITSTART-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\enable-microsoft-intune-quickstart\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/03-implementation.md",
+          "kb": 6.8
+        },
+        {
+          "name": "04-enrollment-scenarios.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/04-enrollment-scenarios.md",
+          "kb": 4.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ITSTART-Compliance-Check.ps1",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/scripts/ITSTART-Compliance-Check.ps1",
+          "kb": 2.8
+        },
+        {
+          "name": "ITSTART-Discovery.ps1",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/scripts/ITSTART-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "ITSTART-Enrollment-Readiness.ps1",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/scripts/ITSTART-Enrollment-Readiness.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "ITSTART-Report.ps1",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/scripts/ITSTART-Report.ps1",
+          "kb": 2.1
+        },
+        {
+          "name": "ITSTART-Validate.ps1",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/scripts/ITSTART-Validate.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ITSTART-Complete-Solution.zip",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-Complete-Solution.zip",
+          "kb": 97.1
+        },
+        {
+          "name": "ITSTART-hero.png",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-hero.png",
+          "kb": 432.2
+        },
+        {
+          "name": "ITSTART-hero.svg",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "ITSTART-Scripts.zip",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-Scripts.zip",
+          "kb": 7.5
+        },
+        {
+          "name": "ITSTART-Solution.docx",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-Solution.docx",
+          "kb": 54.1
+        },
+        {
+          "name": "ITSTART-Solution.pdf",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-Solution.pdf",
+          "kb": 54.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/listing/bagisto-products.json",
+          "kb": 5.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/listing/hero.json",
+          "kb": 0.8
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/listing/sales-content.md",
+          "kb": 0.9
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/README.md",
+          "kb": 1.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/enable-microsoft-intune-quickstart/v1.0.0/deliverables/ITSTART-hero.png",
+    "product_count": 1
+  },
+  {
     "title": "Endpoint Privilege Management (EPM)",
     "slug": "endpoint-privilege-management",
     "category": "Intune",
@@ -33455,6 +33621,172 @@
     "product_count": 3
   },
   {
+    "title": "GlobalProtect Connect Before Logon (PLAP) for Hybrid Azure AD Join Autopilot via Microsoft Intune — Deployment, Registration & Reboot-Sequencing Troubleshooting",
+    "slug": "globalprotect-connect-before-logon-plap-hybrid-autopilot-intune",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "GPPLAP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 3495.0,
+    "nonprofit": 2097.0,
+    "skus": [
+      "PTK-GPPLAP-COMM-001",
+      "PTK-GPPLAP-NPO-001",
+      "PTK-GPPLAP-GOV-001"
+    ],
+    "deliverables": [
+      "GPPLAP-Solution.pdf",
+      "GPPLAP-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\globalprotect-connect-before-logon-plap-hybrid-autopilot-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 13.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/02-requirements.md",
+          "kb": 15.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/03-implementation.md",
+          "kb": 16.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/05-testing.md",
+          "kb": 8.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 13.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 6.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/executive-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GPPLAP-Collect-Logs.ps1",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/scripts/GPPLAP-Collect-Logs.ps1",
+          "kb": 9.1
+        },
+        {
+          "name": "GPPLAP-Discovery.ps1",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/scripts/GPPLAP-Discovery.ps1",
+          "kb": 9.7
+        },
+        {
+          "name": "GPPLAP-Report.ps1",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/scripts/GPPLAP-Report.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "GPPLAP-Set-ScopeTargeting.ps1",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/scripts/GPPLAP-Set-ScopeTargeting.ps1",
+          "kb": 9.6
+        },
+        {
+          "name": "GPPLAP-Validation.ps1",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/scripts/GPPLAP-Validation.ps1",
+          "kb": 6.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GPPLAP-Complete-Solution.zip",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-Complete-Solution.zip",
+          "kb": 154.2
+        },
+        {
+          "name": "GPPLAP-hero.png",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-hero.png",
+          "kb": 425.9
+        },
+        {
+          "name": "GPPLAP-hero.svg",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "GPPLAP-Scripts.zip",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-Scripts.zip",
+          "kb": 14.5
+        },
+        {
+          "name": "GPPLAP-Solution.docx",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-Solution.docx",
+          "kb": 70.9
+        },
+        {
+          "name": "GPPLAP-Solution.pdf",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-Solution.pdf",
+          "kb": 99.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 20.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.7
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune/v1.0.0/deliverables/GPPLAP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
     "slug": "m365-endpoint-allowlist-egress-management",
     "category": "Network",
@@ -34452,6 +34784,509 @@
     "product_count": 3
   },
   {
+    "title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit",
+    "slug": "pre-logon-vpn-plap-sbl-diagnostics-toolkit",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "PLAPDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PLAPDX-COMM-001",
+      "PTK-PLAPDX-NPO-001",
+      "PTK-PLAPDX-GOV-001"
+    ],
+    "deliverables": [
+      "PLAPDX-Solution.pdf",
+      "PLAPDX-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\pre-logon-vpn-plap-sbl-diagnostics-toolkit\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/03-implementation.md",
+          "kb": 8.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/05-testing.md",
+          "kb": 5.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/06-troubleshooting.md",
+          "kb": 10.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/07-best-practices.md",
+          "kb": 5.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PLAPDX-Check-Certificate.ps1",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/scripts/PLAPDX-Check-Certificate.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "PLAPDX-Check-DeviceTunnel.ps1",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/scripts/PLAPDX-Check-DeviceTunnel.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "PLAPDX-Check-Intune.ps1",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/scripts/PLAPDX-Check-Intune.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "PLAPDX-Check-PlapSbl.ps1",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/scripts/PLAPDX-Check-PlapSbl.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "PLAPDX-Collect-Diagnostics.ps1",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/scripts/PLAPDX-Collect-Diagnostics.ps1",
+          "kb": 8.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PLAPDX-Complete-Solution.zip",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-Complete-Solution.zip",
+          "kb": 118.9
+        },
+        {
+          "name": "PLAPDX-hero.png",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-hero.png",
+          "kb": 407.1
+        },
+        {
+          "name": "PLAPDX-hero.svg",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "PLAPDX-Scripts.zip",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-Scripts.zip",
+          "kb": 12.9
+        },
+        {
+          "name": "PLAPDX-Solution.docx",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-Solution.docx",
+          "kb": 59.5
+        },
+        {
+          "name": "PLAPDX-Solution.pdf",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-Solution.pdf",
+          "kb": 68.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/pre-logon-vpn-plap-sbl-diagnostics-toolkit/v1.0.0/deliverables/PLAPDX-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Pre-Logon VPN Connectivity with Cisco Secure Client Start Before Logon (SBL/PLAP) via Microsoft Intune",
+    "slug": "pre-logon-vpn-cisco-secure-client-sbl-plap-intune",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "SBLVPN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 3195.0,
+    "nonprofit": 1917.0,
+    "skus": [
+      "PTK-SBLVPN-COMM-001",
+      "PTK-SBLVPN-NPO-001",
+      "PTK-SBLVPN-GOV-001"
+    ],
+    "deliverables": [
+      "SBLVPN-Solution.pdf",
+      "SBLVPN-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\pre-logon-vpn-cisco-secure-client-sbl-plap-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/02-requirements.md",
+          "kb": 13.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/03-implementation.md",
+          "kb": 13.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/05-testing.md",
+          "kb": 7.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 5.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SBLVPN-Discovery.ps1",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/scripts/SBLVPN-Discovery.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "SBLVPN-Remediation.ps1",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/scripts/SBLVPN-Remediation.ps1",
+          "kb": 8.5
+        },
+        {
+          "name": "SBLVPN-Report.ps1",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/scripts/SBLVPN-Report.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "SBLVPN-Set-ScopeTargeting.ps1",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/scripts/SBLVPN-Set-ScopeTargeting.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "SBLVPN-Validation.ps1",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/scripts/SBLVPN-Validation.ps1",
+          "kb": 7.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SBLVPN-Complete-Solution.zip",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-Complete-Solution.zip",
+          "kb": 130.0
+        },
+        {
+          "name": "SBLVPN-hero.png",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-hero.png",
+          "kb": 459.4
+        },
+        {
+          "name": "SBLVPN-hero.svg",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SBLVPN-Scripts.zip",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-Scripts.zip",
+          "kb": 12.6
+        },
+        {
+          "name": "SBLVPN-Solution.docx",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-Solution.docx",
+          "kb": 62.8
+        },
+        {
+          "name": "SBLVPN-Solution.pdf",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-Solution.pdf",
+          "kb": 80.0
+        },
+        {
+          "name": "SBLVPN-wiki.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-wiki.md",
+          "kb": 72.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 7,
+    "doc_count": 9,
+    "hero_href": "../network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune/v1.0.0/deliverables/SBLVPN-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Pre-Logon VPN for Cloud & Hybrid-Joined Devices — First-Time Off-Network Sign-In & Password Reset",
+    "slug": "pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "PREVPN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PREVPN-COMM-001",
+      "PTK-PREVPN-NPO-001",
+      "PTK-PREVPN-GOV-001"
+    ],
+    "deliverables": [
+      "PREVPN-Solution.pdf",
+      "PREVPN-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/02-requirements.md",
+          "kb": 10.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/05-testing.md",
+          "kb": 6.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PREVPN-Discovery.ps1",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/scripts/PREVPN-Discovery.ps1",
+          "kb": 8.5
+        },
+        {
+          "name": "PREVPN-Remediation.ps1",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/scripts/PREVPN-Remediation.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "PREVPN-Report.ps1",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/scripts/PREVPN-Report.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "PREVPN-Set-ScopeTargeting.ps1",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/scripts/PREVPN-Set-ScopeTargeting.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "PREVPN-Validation.ps1",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/scripts/PREVPN-Validation.ps1",
+          "kb": 6.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PREVPN-Complete-Solution.zip",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-Complete-Solution.zip",
+          "kb": 123.3
+        },
+        {
+          "name": "PREVPN-hero.png",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-hero.png",
+          "kb": 484.3
+        },
+        {
+          "name": "PREVPN-hero.svg",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "PREVPN-Scripts.zip",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-Scripts.zip",
+          "kb": 13.4
+        },
+        {
+          "name": "PREVPN-Solution.docx",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-Solution.docx",
+          "kb": 60.3
+        },
+        {
+          "name": "PREVPN-Solution.pdf",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-Solution.pdf",
+          "kb": 73.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/listing/sales-content.md",
+          "kb": 0.7
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join/v1.0.0/deliverables/PREVPN-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "SASE / SSE Architecture & Design Blueprint",
     "slug": "sase-sse-architecture-design-blueprint",
     "category": "Network",
@@ -34779,6 +35614,338 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../network/netskope-ssl-tls-inspection-decryption/v1.0.0/deliverables/NSSSL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune",
+    "slug": "always-on-vpn-device-tunnel-pre-logon-intune",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "AOVDT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 3295.0,
+    "nonprofit": 1977.0,
+    "skus": [
+      "PTK-AOVDT-COMM-001",
+      "PTK-AOVDT-NPO-001",
+      "PTK-AOVDT-GOV-001"
+    ],
+    "deliverables": [
+      "AOVDT-Solution.pdf",
+      "AOVDT-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\always-on-vpn-device-tunnel-pre-logon-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/02-requirements.md",
+          "kb": 10.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/03-implementation.md",
+          "kb": 13.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 5.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AOVDT-Discovery.ps1",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/scripts/AOVDT-Discovery.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "AOVDT-Remediation.ps1",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/scripts/AOVDT-Remediation.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "AOVDT-Report.ps1",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/scripts/AOVDT-Report.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "AOVDT-Set-ScopeTargeting.ps1",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/scripts/AOVDT-Set-ScopeTargeting.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "AOVDT-Validation.ps1",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/scripts/AOVDT-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AOVDT-Complete-Solution.zip",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-Complete-Solution.zip",
+          "kb": 122.5
+        },
+        {
+          "name": "AOVDT-hero.png",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-hero.png",
+          "kb": 444.0
+        },
+        {
+          "name": "AOVDT-hero.svg",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AOVDT-Scripts.zip",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "AOVDT-Solution.docx",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-Solution.docx",
+          "kb": 60.9
+        },
+        {
+          "name": "AOVDT-Solution.pdf",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-Solution.pdf",
+          "kb": 73.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/always-on-vpn-device-tunnel-pre-logon-intune/v1.0.0/deliverables/AOVDT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune",
+    "slug": "always-on-vpn-user-tunnel-conditional-access-intune",
+    "category": "Network",
+    "category_slug": "network",
+    "sol_code": "AOVUT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-08",
+    "updated": "2026-07-08",
+    "published_at": "2026-07-08",
+    "commercial": 2795.0,
+    "nonprofit": 1677.0,
+    "skus": [
+      "PTK-AOVUT-COMM-001",
+      "PTK-AOVUT-NPO-001",
+      "PTK-AOVUT-GOV-001"
+    ],
+    "deliverables": [
+      "AOVUT-Solution.pdf",
+      "AOVUT-Scripts.zip"
+    ],
+    "rel_path": "library\\network\\always-on-vpn-user-tunnel-conditional-access-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/02-requirements.md",
+          "kb": 11.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/03-implementation.md",
+          "kb": 11.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/05-testing.md",
+          "kb": 6.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 5.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-network.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/source/global-requirements-network.md",
+          "kb": 3.7
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AOVUT-Discovery.ps1",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/scripts/AOVUT-Discovery.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "AOVUT-Remediation.ps1",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/scripts/AOVUT-Remediation.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "AOVUT-Report.ps1",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/scripts/AOVUT-Report.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "AOVUT-Set-ScopeTargeting.ps1",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/scripts/AOVUT-Set-ScopeTargeting.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "AOVUT-Validation.ps1",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/scripts/AOVUT-Validation.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AOVUT-Complete-Solution.zip",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-Complete-Solution.zip",
+          "kb": 121.6
+        },
+        {
+          "name": "AOVUT-hero.png",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-hero.png",
+          "kb": 459.6
+        },
+        {
+          "name": "AOVUT-hero.svg",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "AOVUT-Scripts.zip",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "AOVUT-Solution.docx",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-Solution.docx",
+          "kb": 60.5
+        },
+        {
+          "name": "AOVUT-Solution.pdf",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-Solution.pdf",
+          "kb": 73.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../network/always-on-vpn-user-tunnel-conditional-access-intune/v1.0.0/deliverables/AOVUT-hero.png",
     "product_count": 3
   },
   {

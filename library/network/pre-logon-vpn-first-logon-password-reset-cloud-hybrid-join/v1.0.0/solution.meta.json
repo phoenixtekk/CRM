@@ -1,0 +1,42 @@
+{
+  "slug": "pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join",
+  "title": "Pre-Logon VPN for Cloud & Hybrid-Joined Devices — First-Time Off-Network Sign-In & Password Reset",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "PREVPN",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (design + decision + scenario/validation product sitting ABOVE the two pre-logon deployment products; less new tooling, more architecture/decision + off-network first-logon & password-reset scenario coverage).",
+    "Scoped to the DECISION + SCENARIO + VALIDATION gap — it does NOT re-teach the full PLAP/SBL or device-tunnel deployments (those are separate products); it references them by their object-naming conventions and covers when-to-use-which, cached-credential behavior, off-network password reset, DC reachability, and break-glass."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-PREVPN-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-PREVPN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-PREVPN-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "PREVPN-Solution.pdf",
+    "PREVPN-Scripts.zip"
+  ],
+  "hero": "PREVPN-hero.png",
+  "wiki_path": "solutions/network/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join"
+}

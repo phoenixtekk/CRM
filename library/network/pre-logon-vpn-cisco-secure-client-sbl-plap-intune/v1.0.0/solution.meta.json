@@ -1,0 +1,43 @@
+{
+  "slug": "pre-logon-vpn-cisco-secure-client-sbl-plap-intune",
+  "title": "Pre-Logon VPN Connectivity with Cisco Secure Client Start Before Logon (SBL/PLAP) via Microsoft Intune",
+  "category": "Network",
+  "category_slug": "network",
+  "sol_code": "SBLVPN",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-08",
+  "updated": "2026-07-08",
+  "published_at": "2026-07-08",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (Cisco Secure Client + Intune + the Start Before Logon PLAP credential-provider module + certificate lifecycle for pre-logon; Windows-only but higher complexity than base client deploy; live-access/logon risk).",
+    "Includes the certificate-lifecycle section (proposed product #6) folded in rather than sold standalone.",
+    "Cisco head-end / VPN Profile Editor internals deferred to Cisco docs."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-SBLVPN-COMM-001",
+      "audience": "commercial",
+      "price": 3195.0
+    },
+    {
+      "sku": "PTK-SBLVPN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1917.0
+    },
+    {
+      "sku": "PTK-SBLVPN-GOV-001",
+      "audience": "government",
+      "price": 2715.75
+    }
+  ],
+  "deliverables": [
+    "SBLVPN-Solution.pdf",
+    "SBLVPN-Scripts.zip"
+  ],
+  "hero": "SBLVPN-hero.png",
+  "wiki_path": "solutions/network/pre-logon-vpn-cisco-secure-client-sbl-plap-intune"
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Pre-Logon VPN",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "First Logon + Reset",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Off-Network Sign-In · Password Reset",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STUCK OFF-NETWORK",
+    "items": [
+      "New user can't first-logon",
+      "Expired password, no DC",
+      "Cached creds missing",
+      "Help-desk ships laptops"
+    ]
+  },
+  "to": {
+    "label": "Sign in from anywhere",
+    "stat": "First logon · off the network"
+  },
+  "tagline": "CHOOSE.  CONNECT.  SIGN IN.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "First Logon",
+      "sub": "No cached creds"
+    },
+    {
+      "icon": "key",
+      "title": "Password Reset",
+      "sub": "Reaches a DC"
+    },
+    {
+      "icon": "gear",
+      "title": "Decision Matrix",
+      "sub": "PLAP vs tunnel"
+    },
+    {
+      "icon": "chart",
+      "title": "Readiness",
+      "sub": "Join-type report"
+    }
+  ]
+}
