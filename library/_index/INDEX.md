@@ -304,6 +304,8 @@
 |---|---|---|---|---|---|---|---|
 | Implementing Microsoft Purview — Foundation, Roles & Onboarding | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVIMP-COMM-001<br>PTK-PURVIMP-NPO-001<br>PTK-PURVIMP-GOV-001 | 2026-07-07 | `library\purview\implementing-microsoft-purview-foundation-roles-onboarding\v1.0.0` |
 | Managing Microsoft Purview Going Forward — Operations & Governance | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVOPS-COMM-001<br>PTK-PURVOPS-NPO-001<br>PTK-PURVOPS-GOV-001 | 2026-07-07 | `library\purview\managing-microsoft-purview-operations-governance\v1.0.0` |
+| Microsoft Purview — DLP, Sensitivity Labels & Retention | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVIEW-COMM-001<br>PTK-PURVIEW-NPO-001<br>PTK-PURVIEW-GOV-001 | 2026-07-07 | `library\purview\microsoft-purview-dlp-sensitivity-labels-retention\v1.0.0` |
+| Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVIEWG-COMM-001<br>PTK-PURVIEWG-NPO-001<br>PTK-PURVIEWG-GOV-001 | 2026-07-07 | `library\purview\microsoft-purview-dlp-sensitivity-labels-retention-gcc-high\v1.0.0` |
 | Microsoft Purview Audit (Standard & Premium) — Unified Audit Log & Investigations | 1.0.0 | published | $2,495.00 | $1,497.00 | PTK-PURVAUDIT-COMM-001<br>PTK-PURVAUDIT-NPO-001<br>PTK-PURVAUDIT-GOV-001 | 2026-07-07 | `library\purview\microsoft-purview-audit-standard-premium-investigations\v1.0.0` |
 | Microsoft Purview Communication Compliance | 1.0.0 | published | $2,495.00 | $1,497.00 | PTK-PURVCC-COMM-001<br>PTK-PURVCC-NPO-001<br>PTK-PURVCC-GOV-001 | 2026-07-07 | `library\purview\microsoft-purview-communication-compliance\v1.0.0` |
 | Microsoft Purview Data Governance — Data Map, Scanning & Unified Catalog | 1.0.0 | published | $4,995.00 | $2,997.00 | PTK-PURVGOV-COMM-001<br>PTK-PURVGOV-NPO-001<br>PTK-PURVGOV-GOV-001 | 2026-07-07 | `library\purview\microsoft-purview-data-governance-data-map-catalog\v1.0.0` |
@@ -328,8 +330,6 @@
 | Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-MSEDISC-COMM-001<br>PTK-MSEDISC-NPO-001<br>PTK-MSEDISC-GOV-001 | 2026-07-07 | `library\security\m365-purview-ediscovery-administration\v1.0.0` |
 | Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-M365SEC-COMM-001<br>PTK-M365SEC-NPO-001<br>PTK-M365SEC-GOV-001 | 2026-07-01 | `library\security\microsoft-365-security-baseline-audit-readiness\v1.0.0` |
 | Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager) — Government (GCC High) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-M365SECG-COMM-001<br>PTK-M365SECG-NPO-001<br>PTK-M365SECG-GOV-001 | 2026-07-01 | `library\security\microsoft-365-security-baseline-audit-readiness-gcc-high\v1.0.0` |
-| Microsoft Purview — DLP, Sensitivity Labels & Retention | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVIEW-COMM-001<br>PTK-PURVIEW-NPO-001<br>PTK-PURVIEW-GOV-001 | 2026-07-01 | `library\security\microsoft-purview-dlp-sensitivity-labels-retention\v1.0.0` |
-| Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-PURVIEWG-COMM-001<br>PTK-PURVIEWG-NPO-001<br>PTK-PURVIEWG-GOV-001 | 2026-07-01 | `library\security\microsoft-purview-dlp-sensitivity-labels-retention-gcc-high\v1.0.0` |
 
 ## Sentinel Solutions
 

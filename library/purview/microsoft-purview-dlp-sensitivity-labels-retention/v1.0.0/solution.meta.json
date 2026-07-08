@@ -1,13 +1,13 @@
 {
   "slug": "microsoft-purview-dlp-sensitivity-labels-retention",
   "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention",
-  "category": "Security",
-  "category_slug": "security",
+  "category": "Purview",
+  "category_slug": "purview",
   "sol_code": "PURVIEW",
   "version": "1.0.0",
   "status": "published",
   "created": "2026-07-01",
-  "updated": "2026-07-01",
+  "updated": "2026-07-07",
   "published_at": "2026-07-01",
   "version_directive": "New",
   "branding": "off",
@@ -38,5 +38,3 @@
   ],
   "hero": "PURVIEW-hero.png"
 }
-
-

@@ -3,7 +3,7 @@
     "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
     "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
     "category_path": [
-      "Security"
+      "Purview"
     ],
     "version": "1.0.0"
   },

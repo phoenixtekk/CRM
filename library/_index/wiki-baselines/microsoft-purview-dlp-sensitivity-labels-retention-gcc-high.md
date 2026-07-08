@@ -1,6 +1,6 @@
 # Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)
 
-> **Version 1.0.0** · Category: Security · Solution code: PURVIEWG
+> **Version 1.0.0** · Category: Purview · Solution code: PURVIEWG
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 

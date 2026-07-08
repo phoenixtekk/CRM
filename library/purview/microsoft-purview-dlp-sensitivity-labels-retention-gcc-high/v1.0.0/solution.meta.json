@@ -1,13 +1,13 @@
 {
   "slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
   "title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
-  "category": "Security",
-  "category_slug": "security",
+  "category": "Purview",
+  "category_slug": "purview",
   "sol_code": "PURVIEWG",
   "version": "1.0.0",
   "status": "published",
   "created": "2026-07-01",
-  "updated": "2026-07-01",
+  "updated": "2026-07-07",
   "published_at": "2026-07-01",
   "version_directive": "New",
   "branding": "off",
@@ -38,4 +38,3 @@
   ],
   "hero": "PURVIEWG-hero.png"
 }
-
