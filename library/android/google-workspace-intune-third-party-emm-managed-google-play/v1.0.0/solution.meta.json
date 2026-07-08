@@ -1,0 +1,41 @@
+{
+  "slug": "google-workspace-intune-third-party-emm-managed-google-play",
+  "title": "Google Workspace ↔ Intune Third-Party EMM Integration for Managed Google Play",
+  "category": "Android",
+  "category_slug": "android",
+  "sol_code": "ANDROIDGW",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ANDROIDGW-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ANDROIDGW-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ANDROIDGW-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ANDROIDGW-Solution.pdf",
+    "ANDROIDGW-Scripts.zip"
+  ],
+  "hero": "ANDROIDGW-hero.png"
+}
+

@@ -1,0 +1,83 @@
+{
+  "sol": "AMAPIMIG",
+  "slug": "intune-android-management-api-amapi-migration",
+  "title": "Intune Android Management API (AMAPI) Migration — Legacy Play EMM API → AMAPI",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Migrate Intune Android management to the Android Management API (AMAPI) cleanly",
+  "problem": "Microsoft is moving Intune Android Enterprise management from the legacy <strong>Play EMM API</strong> to the <strong>Android Management API (AMAPI)</strong> &mdash; and teams need to know the migration approach, the <strong>end-user impact</strong>, and whether devices <strong>re-enroll</strong>. This solution is the AMAPI migration playbook: assess your current Android estate and enrollment models, plan the wave, execute the migration (including the newer <strong>web / account-driven enrollment</strong> path), validate account add and app delivery, and handle the common post-migration failures &mdash; with every version-specific behavior verified against current Microsoft guidance, not assumed.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; what AMAPI is, how it differs from the legacy Play EMM API, the enrollment methods affected (incl. web/account-driven), and the end-user / re-enrollment impact model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise, the managed Google Play binding, admin roles, a pilot fleet, endpoints).",
+    "<strong>Assessment & Migration Guide</strong> &mdash; inventory current management + enrollment models, plan the migration wave, execute (with the web/account-driven enrollment method), validate, and expand &mdash; pilot-first; re-enrollment and behavior flagged 'verify against current Microsoft guidance'.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (migrated devices manage under AMAPI, accounts add, apps deliver) plus Best Practices for a low-disruption migration and post-migration troubleshooting pointers."
+  ],
+  "short": "The <strong>AMAPI migration</strong> playbook &mdash; assess the Android estate, plan the wave, migrate off the legacy Play EMM API to the Android Management API (incl. web/account-driven enrollment), validate, and handle end-user + re-enrollment impact &mdash; verified against current Microsoft guidance. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "The AMAPI migration playbook — assess the Android estate, plan the wave, migrate off the legacy Play EMM API to the Android Management API (incl. web/account-driven enrollment), validate, and handle end-user + re-enrollment impact — verified against current Microsoft guidance.",
+  "meta_title": "Intune Android Management API (AMAPI) Migration — Legacy Play EMM → AMAPI",
+  "meta_description": "Migrate Microsoft Intune Android Enterprise management from the legacy Play EMM API to the Android Management API (AMAPI): assessment, wave planning, execution (including web/account-driven enrollment), validation, and end-user/re-enrollment impact. Version-specific behavior verified against current Microsoft guidance. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Intune Android management moved to AMAPI with eyes open &mdash; the estate assessed, the wave planned, migration executed and validated, and end-user + re-enrollment impact understood &mdash; low-disruption and current.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android Management API",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "(AMAPI) Migration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Legacy Play EMM → AMAPI · Impact",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "AMAPI UNKNOWN",
+      "items": [
+        "Legacy API sunset",
+        "Re-enroll unclear",
+        "End-user impact",
+        "No plan"
+      ]
+    },
+    "to": {
+      "label": "Migrated to AMAPI",
+      "stat": "Planned · validated"
+    },
+    "tagline": "ASSESS.  MIGRATE.  VALIDATE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Assess",
+        "sub": "Estate"
+      },
+      {
+        "icon": "cloud",
+        "title": "Migrate",
+        "sub": "→ AMAPI"
+      },
+      {
+        "icon": "users",
+        "title": "Impact",
+        "sub": "End-user"
+      },
+      {
+        "icon": "shield",
+        "title": "Validate",
+        "sub": "Managed"
+      }
+    ]
+  }
+}

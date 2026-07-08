@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Purview Audit",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Standard & Premium",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Unified Log · Retention · Investigations",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO AUDIT TRAIL",
+    "items": [
+      "Logging off",
+      "Short retention",
+      "Missing events",
+      "Blind incidents"
+    ]
+  },
+  "to": {
+    "label": "Investigation-ready",
+    "stat": "Captured · retained"
+  },
+  "tagline": "ENABLE.  RETAIN.  INVESTIGATE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Unified Log",
+      "sub": "On"
+    },
+    {
+      "icon": "cloud",
+      "title": "Premium",
+      "sub": "High-value"
+    },
+    {
+      "icon": "gear",
+      "title": "Retention",
+      "sub": "Policies"
+    },
+    {
+      "icon": "shield",
+      "title": "Investigate",
+      "sub": "Runbooks"
+    }
+  ]
+}

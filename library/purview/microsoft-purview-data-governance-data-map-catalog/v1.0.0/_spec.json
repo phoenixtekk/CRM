@@ -1,0 +1,83 @@
+{
+  "sol": "PURVGOV",
+  "slug": "microsoft-purview-data-governance-data-map-catalog",
+  "title": "Microsoft Purview Data Governance — Data Map, Scanning & Unified Catalog",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 4995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T5 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Map, classify, and govern the data estate — not just M365",
+  "problem": "Beyond M365, your data lives in databases, data lakes, and clouds &mdash; ungoverned and unclassified. This flagship solution implements <strong>Microsoft Purview Data Governance</strong>: build the <strong>Data Map</strong> (register sources across Azure, multicloud, and on-prem), run <strong>scanning + classification</strong>, curate the <strong>Unified Catalog</strong> (data products, glossary, ownership), establish data-quality and governance domains, and wire lineage &mdash; so the whole data estate is discoverable, classified, and governed, not just Microsoft 365.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Data Map, scanning + classification, the Unified Catalog (data products, glossary, domains, ownership), lineage, and how it complements M365 Purview.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Purview Data Governance licensing/setup, roles/domains, source credentials + network, data owners).",
+    "<strong>Implementation Guide</strong> &mdash; stand up the account/domains + roles, register + scan sources, curate the catalog (glossary, classifications, data products, ownership), wire lineage + data quality, and expand across the estate &mdash; pilot-first, each domain/source named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (sources scanned + classified, catalog curated, ownership assigned) plus Best Practices for a governed, discoverable data estate."
+  ],
+  "short": "Implement <strong>Purview Data Governance</strong> &mdash; the Data Map, scanning + classification, the Unified Catalog (glossary, data products, domains, ownership), and lineage &mdash; so the whole data estate (not just M365) is discoverable, classified, and governed. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Purview Data Governance — the Data Map, scanning + classification, the Unified Catalog (glossary, data products, domains, ownership), and lineage — so the whole data estate (not just M365) is discoverable, classified, and governed.",
+  "meta_title": "Microsoft Purview Data Governance — Data Map, Scanning & Unified Catalog",
+  "meta_description": "Implement Microsoft Purview Data Governance: build the Data Map (register Azure, multicloud, and on-prem sources), run scanning and classification, curate the Unified Catalog (data products, glossary, governance domains, ownership), and wire lineage and data quality across the data estate. Self-guided steps and PowerShell tools.",
+  "bottom_line": "The whole data estate governed &mdash; sources mapped and scanned, data classified, the catalog curated with owners and glossary, lineage wired &mdash; discoverable and governed far beyond Microsoft 365.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Purview Data Governance",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Data Map · Scan · Catalog",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Register · Classify · Unified Catalog",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNGOVERNED ESTATE",
+      "items": [
+        "Data unmapped",
+        "Unclassified",
+        "No catalog",
+        "No ownership"
+      ]
+    },
+    "to": {
+      "label": "Governed estate",
+      "stat": "Mapped · cataloged"
+    },
+    "tagline": "MAP.  SCAN.  CATALOG.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Data Map",
+        "sub": "Sources"
+      },
+      {
+        "icon": "chart",
+        "title": "Scanning",
+        "sub": "Classify"
+      },
+      {
+        "icon": "gear",
+        "title": "Catalog",
+        "sub": "Glossary"
+      },
+      {
+        "icon": "users",
+        "title": "Domains",
+        "sub": "Ownership"
+      }
+    ]
+  }
+}

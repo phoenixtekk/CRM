@@ -1,0 +1,83 @@
+{
+  "sol": "ANDROIDENT",
+  "slug": "android-enterprise-connection-managed-google-play-setup-intune",
+  "title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Stand up Android Enterprise in Intune — the right binding and enrollment profiles",
+  "problem": "Android management in Intune starts with one thing done correctly: the <strong>managed Google Play</strong> binding and the enrollment model. Get it wrong and nothing enrolls. This solution connects Intune to <strong>managed Google Play</strong> (the account-enterprise model for tenants without Google Workspace), then stands up the <strong>enrollment profiles</strong> &mdash; personally-owned <strong>work profile</strong> (BYOD), <strong>fully managed</strong>, <strong>corporate-owned work profile</strong>, and <strong>dedicated/COSU</strong> &mdash; with the enrollment restrictions, so the right devices enroll the right way.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the managed Google Play binding, the four Android Enterprise enrollment models and when to use each, and the Assess&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise licensing, admin roles, the binding-model decision, network endpoints).",
+    "<strong>Implementation Guide</strong> &mdash; connect managed Google Play, configure enrollment restrictions + platform settings, create the enrollment profiles for each model, and validate a pilot enrollment &mdash; pilot-first, each profile named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (binding healthy, each enrollment model works, restrictions enforced) plus Best Practices for a clean Android Enterprise foundation."
+  ],
+  "short": "Connect Intune to <strong>managed Google Play</strong> and stand up the Android Enterprise <strong>enrollment profiles</strong> (work profile, fully managed, corporate-owned work profile, dedicated/COSU) with enrollment restrictions &mdash; the foundation the rest of Android management builds on. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Connect Intune to managed Google Play and stand up the Android Enterprise enrollment profiles (work profile, fully managed, corporate-owned work profile, dedicated/COSU) with enrollment restrictions — the Android management foundation.",
+  "meta_title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+  "meta_description": "Set up Android Enterprise in Microsoft Intune: connect managed Google Play (account enterprise), configure enrollment restrictions, and create enrollment profiles for personally-owned work profile (BYOD), fully managed, corporate-owned work profile, and dedicated/COSU. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A correct Android Enterprise foundation in Intune &mdash; managed Google Play bound, enrollment models configured, restrictions enforced &mdash; so devices enroll the right way and everything else works.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android Enterprise",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "& Managed Google Play Setup",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Binding · Work Profile · Fully Managed · COSU",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "NOTHING ENROLLS",
+      "items": [
+        "No Play binding",
+        "Wrong model",
+        "No restrictions",
+        "Enroll failures"
+      ]
+    },
+    "to": {
+      "label": "Android foundation",
+      "stat": "Bound · enrolling"
+    },
+    "tagline": "BIND.  PROFILE.  ENROLL.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Managed Play",
+        "sub": "Bound"
+      },
+      {
+        "icon": "device",
+        "title": "Profiles",
+        "sub": "4 models"
+      },
+      {
+        "icon": "shield",
+        "title": "Restrictions",
+        "sub": "Enforced"
+      },
+      {
+        "icon": "gear",
+        "title": "Pilot",
+        "sub": "Validated"
+      }
+    ]
+  }
+}

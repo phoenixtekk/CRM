@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "managing-microsoft-purview-operations-governance",
+    "title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+    "category_path": [
+      "Purview"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PURVOPS-COMM-001",
+      "name": "Managing Microsoft Purview Going Forward — Operations & Governance — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Run Microsoft Purview as an <strong>operated program</strong> &mdash; policy lifecycle, Compliance Manager cadence, alert triage + reporting, role/access reviews, change control, and KPI dashboards &mdash; so Purview stays effective and defensible over time. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Run Microsoft Purview as an operated, measured compliance program</h3><p>Turning Purview on is the start; <strong>running it</strong> is where value (or drift) happens. This solution is the Purview <strong>operating model</strong>: a policy lifecycle (design&rarr;simulate&rarr;enforce&rarr;review), <strong>Compliance Manager</strong> improvement-action cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic <strong>role and access reviews</strong>, change control, and the KPIs/dashboards that prove the program is healthy &mdash; so Purview stays effective, tuned, and defensible over time.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview operating model: policy lifecycle, Compliance Manager cadence, alerting/triage, reporting, role reviews, and change control.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (an implemented Purview foundation, roles, reporting data sources, governance stakeholders).</li><li><strong>Operating Guide</strong> &mdash; stand up the policy lifecycle + change control, run the Compliance Manager improvement cadence, wire alert triage + reporting, schedule role/access reviews, and operate the KPI dashboards &mdash; each runbook named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Runbook Library + validation gates</strong> (policies reviewed, alerts triaged, roles reviewed, KPIs trending) plus Best Practices for a durable, measured Purview program.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Microsoft Purview run as a living program &mdash; policies reviewed on a cadence, alerts triaged, roles reviewed, and KPIs proving health &mdash; effective, tuned, and defensible year over year.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVOPS-Discovery.ps1</code> &mdash; read-only Purview policy inventory + drift/health assessment across DLP, sensitivity labels, auto-labeling, and retention. Makes no changes</li><li><code>PURVOPS-KpiReport.ps1</code> &mdash; read-only program-health KPI dashboard from live Purview telemetry plus a Compliance Manager improvement-actions export. Makes no changes</li><li><code>PURVOPS-Remediation.ps1</code> &mdash; change-controlled Purview ops/config helper: promote a piloted policy to enforce, or roll it back. -WhatIf by DEFAULT; writes only with -Commit</li><li><code>PURVOPS-Report.ps1</code> &mdash; read-only alert/incident rollup across DLP, insider risk, information-protection, and audit from the Microsoft Graph security API. Makes no changes</li><li><code>PURVOPS-Validation.ps1</code> &mdash; read-only Purview role & access review: enumerate compliance role groups + members and diff against an approved baseline. Makes no changes</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+      "meta_description": "Operate Microsoft Purview going forward: policy lifecycle (design/simulate/enforce/review), Compliance Manager improvement cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic role and access reviews, change control, and KPI dashboards. Self-guided framework and PowerShell tools.",
+      "url_key": "managing-microsoft-purview-operations-governance-commercial",
+      "image": "PURVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVOPS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVOPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVOPS-NPO-001",
+      "name": "Managing Microsoft Purview Going Forward — Operations & Governance — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Run Microsoft Purview as an operated program — policy lifecycle, Compliance Manager cadence, alert triage + reporting, role/access reviews, change control, and KPI dashboards — so Purview stays effective and defensible over time. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Run Microsoft Purview as an operated, measured compliance program</h3><p>Turning Purview on is the start; <strong>running it</strong> is where value (or drift) happens. This solution is the Purview <strong>operating model</strong>: a policy lifecycle (design&rarr;simulate&rarr;enforce&rarr;review), <strong>Compliance Manager</strong> improvement-action cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic <strong>role and access reviews</strong>, change control, and the KPIs/dashboards that prove the program is healthy &mdash; so Purview stays effective, tuned, and defensible over time.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview operating model: policy lifecycle, Compliance Manager cadence, alerting/triage, reporting, role reviews, and change control.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (an implemented Purview foundation, roles, reporting data sources, governance stakeholders).</li><li><strong>Operating Guide</strong> &mdash; stand up the policy lifecycle + change control, run the Compliance Manager improvement cadence, wire alert triage + reporting, schedule role/access reviews, and operate the KPI dashboards &mdash; each runbook named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Runbook Library + validation gates</strong> (policies reviewed, alerts triaged, roles reviewed, KPIs trending) plus Best Practices for a durable, measured Purview program.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVOPS-Discovery.ps1</code> &mdash; read-only Purview policy inventory + drift/health assessment across DLP, sensitivity labels, auto-labeling, and retention. Makes no changes</li><li><code>PURVOPS-KpiReport.ps1</code> &mdash; read-only program-health KPI dashboard from live Purview telemetry plus a Compliance Manager improvement-actions export. Makes no changes</li><li><code>PURVOPS-Remediation.ps1</code> &mdash; change-controlled Purview ops/config helper: promote a piloted policy to enforce, or roll it back. -WhatIf by DEFAULT; writes only with -Commit</li><li><code>PURVOPS-Report.ps1</code> &mdash; read-only alert/incident rollup across DLP, insider risk, information-protection, and audit from the Microsoft Graph security API. Makes no changes</li><li><code>PURVOPS-Validation.ps1</code> &mdash; read-only Purview role & access review: enumerate compliance role groups + members and diff against an approved baseline. Makes no changes</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Managing Microsoft Purview Going Forward — Operations & Governance — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Operate Microsoft Purview going forward: policy lifecycle (design/simulate/enforce/review), Compliance Manager improvement cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic role and access reviews, change control, and KPI dashboards. Self-guided framework and PowerShell tools.",
+      "url_key": "managing-microsoft-purview-operations-governance-nonprofit",
+      "image": "PURVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVOPS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVOPS-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVOPS-GOV-001",
+      "name": "Managing Microsoft Purview Going Forward — Operations & Governance — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Run Microsoft Purview as an operated program — policy lifecycle, Compliance Manager cadence, alert triage + reporting, role/access reviews, change control, and KPI dashboards — so Purview stays effective and defensible over time. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Run Microsoft Purview as an operated, measured compliance program</h3><p>Turning Purview on is the start; <strong>running it</strong> is where value (or drift) happens. This solution is the Purview <strong>operating model</strong>: a policy lifecycle (design&rarr;simulate&rarr;enforce&rarr;review), <strong>Compliance Manager</strong> improvement-action cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic <strong>role and access reviews</strong>, change control, and the KPIs/dashboards that prove the program is healthy &mdash; so Purview stays effective, tuned, and defensible over time.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the Purview operating model: policy lifecycle, Compliance Manager cadence, alerting/triage, reporting, role reviews, and change control.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (an implemented Purview foundation, roles, reporting data sources, governance stakeholders).</li><li><strong>Operating Guide</strong> &mdash; stand up the policy lifecycle + change control, run the Compliance Manager improvement cadence, wire alert triage + reporting, schedule role/access reviews, and operate the KPI dashboards &mdash; each runbook named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Runbook Library + validation gates</strong> (policies reviewed, alerts triaged, roles reviewed, KPIs trending) plus Best Practices for a durable, measured Purview program.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVOPS-Discovery.ps1</code> &mdash; read-only Purview policy inventory + drift/health assessment across DLP, sensitivity labels, auto-labeling, and retention. Makes no changes</li><li><code>PURVOPS-KpiReport.ps1</code> &mdash; read-only program-health KPI dashboard from live Purview telemetry plus a Compliance Manager improvement-actions export. Makes no changes</li><li><code>PURVOPS-Remediation.ps1</code> &mdash; change-controlled Purview ops/config helper: promote a piloted policy to enforce, or roll it back. -WhatIf by DEFAULT; writes only with -Commit</li><li><code>PURVOPS-Report.ps1</code> &mdash; read-only alert/incident rollup across DLP, insider risk, information-protection, and audit from the Microsoft Graph security API. Makes no changes</li><li><code>PURVOPS-Validation.ps1</code> &mdash; read-only Purview role & access review: enumerate compliance role groups + members and diff against an approved baseline. Makes no changes</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Managing Microsoft Purview Going Forward — Operations & Governance — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Operate Microsoft Purview going forward: policy lifecycle (design/simulate/enforce/review), Compliance Manager improvement cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic role and access reviews, change control, and KPI dashboards. Self-guided framework and PowerShell tools.",
+      "url_key": "managing-microsoft-purview-operations-governance-government",
+      "image": "PURVOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVOPS-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVOPS-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-purview-data-loss-prevention-endpoint-cloud-email",
+    "title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+    "category_path": [
+      "Purview"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PURVDLP-COMM-001",
+      "name": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Implement <strong>Purview DLP</strong> across endpoint, cloud, and email &mdash; sensitive info types + classifiers, policies for Exchange/SPO/OneDrive/Teams/Endpoint (simulated first), policy tips, and incident handling &mdash; so leaks are blocked with minimal false positives. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Stop sensitive data leaving — across endpoints, cloud, and email</h3><p>Sensitive data walks out through email, cloud sharing, and USB/print on endpoints. This solution implements <strong>Purview DLP</strong> across the estate: <strong>sensitive information types</strong> (built-in, custom, EDM, trainable classifiers), DLP policies for <strong>Exchange, SharePoint, OneDrive, Teams, and Endpoint (devices)</strong>, policy tips + user overrides, incident/alert handling, and tuning &mdash; all piloted in <strong>simulation</strong> before enforcement, so leaks are blocked with minimal false positives.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the DLP model: sensitive info types + classifiers, policy locations (email/cloud/Teams/Endpoint), policy tips/overrides, and the simulate&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance for endpoint DLP, roles, onboarded devices, classification, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define sensitive info types/classifiers, build DLP policies per location in <strong>simulation</strong>, tune false positives, add policy tips + overrides, wire incident handling, then enforce &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (leaks blocked, false-positive rate low, incidents handled) plus Best Practices for ongoing DLP tuning across endpoint/cloud/email.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Sensitive data kept in &mdash; DLP across email, cloud, Teams, and endpoints, proven in simulation, tuned for low false positives, incidents handled &mdash; leaks blocked without blocking the business.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDLP-Config.ps1</code> &mdash; DLP policy configuration helper that creates/updates a policy in SIMULATION mode (-WhatIf by default)</li><li><code>PURVDLP-Discovery.ps1</code> &mdash; read-only Microsoft Purview DLP posture + sensitive-info-type coverage assessment</li><li><code>PURVDLP-EndpointReadiness.ps1</code> &mdash; read-only Endpoint-DLP onboarding/readiness checker</li><li><code>PURVDLP-Report.ps1</code> &mdash; read-only DLP match / false-positive tuning report from the unified audit log</li><li><code>PURVDLP-Set-Scope.ps1</code> &mdash; DLP policy scope/config helper: report and (with -Commit) set the pilot-ring scope (-WhatIf by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+      "meta_description": "Implement Microsoft Purview DLP: sensitive information types (built-in, custom, EDM, trainable classifiers), DLP policies across Exchange, SharePoint, OneDrive, Teams and Endpoint (devices), policy tips and overrides, incident handling, and tuning — simulated before enforcement. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-purview-data-loss-prevention-endpoint-cloud-email-commercial",
+      "image": "PURVDLP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDLP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDLP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVDLP-NPO-001",
+      "name": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Implement Purview DLP across endpoint, cloud, and email — sensitive info types + classifiers, policies for Exchange/SPO/OneDrive/Teams/Endpoint (simulated first), policy tips, and incident handling — so leaks are blocked with minimal false positives. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stop sensitive data leaving — across endpoints, cloud, and email</h3><p>Sensitive data walks out through email, cloud sharing, and USB/print on endpoints. This solution implements <strong>Purview DLP</strong> across the estate: <strong>sensitive information types</strong> (built-in, custom, EDM, trainable classifiers), DLP policies for <strong>Exchange, SharePoint, OneDrive, Teams, and Endpoint (devices)</strong>, policy tips + user overrides, incident/alert handling, and tuning &mdash; all piloted in <strong>simulation</strong> before enforcement, so leaks are blocked with minimal false positives.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the DLP model: sensitive info types + classifiers, policy locations (email/cloud/Teams/Endpoint), policy tips/overrides, and the simulate&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance for endpoint DLP, roles, onboarded devices, classification, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define sensitive info types/classifiers, build DLP policies per location in <strong>simulation</strong>, tune false positives, add policy tips + overrides, wire incident handling, then enforce &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (leaks blocked, false-positive rate low, incidents handled) plus Best Practices for ongoing DLP tuning across endpoint/cloud/email.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDLP-Config.ps1</code> &mdash; DLP policy configuration helper that creates/updates a policy in SIMULATION mode (-WhatIf by default)</li><li><code>PURVDLP-Discovery.ps1</code> &mdash; read-only Microsoft Purview DLP posture + sensitive-info-type coverage assessment</li><li><code>PURVDLP-EndpointReadiness.ps1</code> &mdash; read-only Endpoint-DLP onboarding/readiness checker</li><li><code>PURVDLP-Report.ps1</code> &mdash; read-only DLP match / false-positive tuning report from the unified audit log</li><li><code>PURVDLP-Set-Scope.ps1</code> &mdash; DLP policy scope/config helper: report and (with -Commit) set the pilot-ring scope (-WhatIf by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Implement Microsoft Purview DLP: sensitive information types (built-in, custom, EDM, trainable classifiers), DLP policies across Exchange, SharePoint, OneDrive, Teams and Endpoint (devices), policy tips and overrides, incident handling, and tuning — simulated before enforcement. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-purview-data-loss-prevention-endpoint-cloud-email-nonprofit",
+      "image": "PURVDLP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDLP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDLP-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVDLP-GOV-001",
+      "name": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Implement Purview DLP across endpoint, cloud, and email — sensitive info types + classifiers, policies for Exchange/SPO/OneDrive/Teams/Endpoint (simulated first), policy tips, and incident handling — so leaks are blocked with minimal false positives. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stop sensitive data leaving — across endpoints, cloud, and email</h3><p>Sensitive data walks out through email, cloud sharing, and USB/print on endpoints. This solution implements <strong>Purview DLP</strong> across the estate: <strong>sensitive information types</strong> (built-in, custom, EDM, trainable classifiers), DLP policies for <strong>Exchange, SharePoint, OneDrive, Teams, and Endpoint (devices)</strong>, policy tips + user overrides, incident/alert handling, and tuning &mdash; all piloted in <strong>simulation</strong> before enforcement, so leaks are blocked with minimal false positives.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the DLP model: sensitive info types + classifiers, policy locations (email/cloud/Teams/Endpoint), policy tips/overrides, and the simulate&rarr;enforce journey.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance for endpoint DLP, roles, onboarded devices, classification, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; define sensitive info types/classifiers, build DLP policies per location in <strong>simulation</strong>, tune false positives, add policy tips + overrides, wire incident handling, then enforce &mdash; pilot-first, each policy named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (leaks blocked, false-positive rate low, incidents handled) plus Best Practices for ongoing DLP tuning across endpoint/cloud/email.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDLP-Config.ps1</code> &mdash; DLP policy configuration helper that creates/updates a policy in SIMULATION mode (-WhatIf by default)</li><li><code>PURVDLP-Discovery.ps1</code> &mdash; read-only Microsoft Purview DLP posture + sensitive-info-type coverage assessment</li><li><code>PURVDLP-EndpointReadiness.ps1</code> &mdash; read-only Endpoint-DLP onboarding/readiness checker</li><li><code>PURVDLP-Report.ps1</code> &mdash; read-only DLP match / false-positive tuning report from the unified audit log</li><li><code>PURVDLP-Set-Scope.ps1</code> &mdash; DLP policy scope/config helper: report and (with -Commit) set the pilot-ring scope (-WhatIf by default)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Implement Microsoft Purview DLP: sensitive information types (built-in, custom, EDM, trainable classifiers), DLP policies across Exchange, SharePoint, OneDrive, Teams and Endpoint (devices), policy tips and overrides, incident handling, and tuning — simulated before enforcement. Self-guided steps and PowerShell tools.",
+      "url_key": "microsoft-purview-data-loss-prevention-endpoint-cloud-email-government",
+      "image": "PURVDLP-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDLP-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDLP-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

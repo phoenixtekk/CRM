@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Managing Microsoft Purview",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Operations & Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Policy Lifecycle · Cadence · KPIs",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SET & FORGOT",
+    "items": [
+      "Policy drift",
+      "No cadence",
+      "Alerts ignored",
+      "Stale roles"
+    ]
+  },
+  "to": {
+    "label": "Operated program",
+    "stat": "Tuned · measured"
+  },
+  "tagline": "REVIEW.  TRIAGE.  IMPROVE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Lifecycle",
+      "sub": "Policies"
+    },
+    {
+      "icon": "chart",
+      "title": "Cadence",
+      "sub": "Compliance Mgr"
+    },
+    {
+      "icon": "shield",
+      "title": "Reviews",
+      "sub": "Roles/access"
+    },
+    {
+      "icon": "cloud",
+      "title": "KPIs",
+      "sub": "Dashboards"
+    }
+  ]
+}

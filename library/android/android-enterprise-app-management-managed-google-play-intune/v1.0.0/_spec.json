@@ -1,0 +1,83 @@
+{
+  "sol": "ANDROIDAPP",
+  "slug": "android-enterprise-app-management-managed-google-play-intune",
+  "title": "Android Enterprise App Management via Managed Google Play (Intune)",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Deliver and manage Android apps through managed Google Play",
+  "problem": "On Android Enterprise, apps flow through <strong>managed Google Play</strong> &mdash; and doing it well means the right app types, configs, and update control. This solution covers Android <strong>app management</strong> in Intune: approving and assigning <strong>store, private (LOB), and web apps</strong> via managed Google Play, <strong>managed app configuration</strong>, app protection policies, update/track control, and per-enrollment-model assignment &mdash; so users get the apps they need, configured and controlled.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; app types on managed Google Play (store/private/web), managed configuration, protection, and update-track control across enrollment models.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise + managed Google Play binding, admin roles, app sources).",
+    "<strong>Implementation Guide</strong> &mdash; approve + assign store/private/web apps, apply managed configurations + app protection, set update tracks, and target by enrollment model / group &mdash; pilot-first, each app/config named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (apps deliver, configs apply, updates controlled) plus Best Practices for a governed managed Google Play app catalog."
+  ],
+  "short": "Deliver and manage Android apps through <strong>managed Google Play</strong> in Intune &mdash; store/private/web apps, managed configuration, app protection, and update-track control across enrollment models &mdash; so users get apps configured and controlled. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Deliver and manage Android apps through managed Google Play in Intune — store/private/web apps, managed configuration, app protection, and update-track control across enrollment models — so users get apps configured and controlled.",
+  "meta_title": "Android Enterprise App Management via Managed Google Play (Intune)",
+  "meta_description": "Manage Android apps via managed Google Play in Microsoft Intune: approve and assign store, private (LOB), and web apps, apply managed app configuration and app protection policies, control update tracks, and target by enrollment model. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Android apps delivered right &mdash; store, private, and web apps approved and assigned, configured, protected, and update-controlled through managed Google Play &mdash; users equipped, IT in control.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android App Management",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "via Managed Google Play",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Store · Private · Web · Config",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "APP CHAOS",
+      "items": [
+        "Ad-hoc apps",
+        "No config",
+        "Uncontrolled updates",
+        "Wrong targeting"
+      ]
+    },
+    "to": {
+      "label": "Governed apps",
+      "stat": "Configured · controlled"
+    },
+    "tagline": "APPROVE.  CONFIGURE.  ASSIGN.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "App Types",
+        "sub": "Store/priv/web"
+      },
+      {
+        "icon": "gear",
+        "title": "Config",
+        "sub": "Managed"
+      },
+      {
+        "icon": "shield",
+        "title": "Protection",
+        "sub": "App policy"
+      },
+      {
+        "icon": "chart",
+        "title": "Updates",
+        "sub": "Tracks"
+      }
+    ]
+  }
+}

@@ -1,5 +1,1001 @@
 [
   {
+    "title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
+    "slug": "android-dedicated-cosu-kiosk-device-enrollment-management-intune",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "ANDROIDCOSU",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ANDROIDCOSU-COMM-001",
+      "PTK-ANDROIDCOSU-NPO-001",
+      "PTK-ANDROIDCOSU-GOV-001"
+    ],
+    "deliverables": [
+      "ANDROIDCOSU-Solution.pdf",
+      "ANDROIDCOSU-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\android-dedicated-cosu-kiosk-device-enrollment-management-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/02-requirements.md",
+          "kb": 9.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "COSU-Discovery.ps1",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/scripts/COSU-Discovery.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "COSU-Report.ps1",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/scripts/COSU-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "COSU-Set-Configuration.ps1",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/scripts/COSU-Set-Configuration.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "COSU-Set-ScopeTargeting.ps1",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/scripts/COSU-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "COSU-Validation.ps1",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/scripts/COSU-Validation.ps1",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ANDROIDCOSU-Complete-Solution.zip",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-Complete-Solution.zip",
+          "kb": 112.4
+        },
+        {
+          "name": "ANDROIDCOSU-hero.png",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-hero.png",
+          "kb": 417.8
+        },
+        {
+          "name": "ANDROIDCOSU-hero.svg",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ANDROIDCOSU-Scripts.zip",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-Scripts.zip",
+          "kb": 10.7
+        },
+        {
+          "name": "ANDROIDCOSU-Solution.docx",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-Solution.docx",
+          "kb": 57.9
+        },
+        {
+          "name": "ANDROIDCOSU-Solution.pdf",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-Solution.pdf",
+          "kb": 65.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/android-dedicated-cosu-kiosk-device-enrollment-management-intune/v1.0.0/deliverables/ANDROIDCOSU-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Android Enterprise App Management via Managed Google Play (Intune)",
+    "slug": "android-enterprise-app-management-managed-google-play-intune",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "ANDROIDAPP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ANDROIDAPP-COMM-001",
+      "PTK-ANDROIDAPP-NPO-001",
+      "PTK-ANDROIDAPP-GOV-001"
+    ],
+    "deliverables": [
+      "ANDROIDAPP-Solution.pdf",
+      "ANDROIDAPP-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\android-enterprise-app-management-managed-google-play-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/03-implementation.md",
+          "kb": 7.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ANDROIDAPP-AppProtection.ps1",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/scripts/ANDROIDAPP-AppProtection.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "ANDROIDAPP-AssignConfig.ps1",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/scripts/ANDROIDAPP-AssignConfig.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "ANDROIDAPP-Discovery.ps1",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/scripts/ANDROIDAPP-Discovery.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "ANDROIDAPP-Scope.ps1",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/scripts/ANDROIDAPP-Scope.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "ANDROIDAPP-Validation.ps1",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/scripts/ANDROIDAPP-Validation.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ANDROIDAPP-Complete-Solution.zip",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-Complete-Solution.zip",
+          "kb": 102.1
+        },
+        {
+          "name": "ANDROIDAPP-hero.png",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-hero.png",
+          "kb": 467.1
+        },
+        {
+          "name": "ANDROIDAPP-hero.svg",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "ANDROIDAPP-Scripts.zip",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "ANDROIDAPP-Solution.docx",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-Solution.docx",
+          "kb": 54.9
+        },
+        {
+          "name": "ANDROIDAPP-Solution.pdf",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-Solution.pdf",
+          "kb": 57.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/android-enterprise-app-management-managed-google-play-intune/v1.0.0/deliverables/ANDROIDAPP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+    "slug": "android-enterprise-connection-managed-google-play-setup-intune",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "ANDROIDENT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ANDROIDENT-COMM-001",
+      "PTK-ANDROIDENT-NPO-001",
+      "PTK-ANDROIDENT-GOV-001"
+    ],
+    "deliverables": [
+      "ANDROIDENT-Solution.pdf",
+      "ANDROIDENT-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\android-enterprise-connection-managed-google-play-setup-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/03-implementation.md",
+          "kb": 11.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ANDROIDENT-Discovery.ps1",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/scripts/ANDROIDENT-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "ANDROIDENT-New-EnrollmentProfile.ps1",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/scripts/ANDROIDENT-New-EnrollmentProfile.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "ANDROIDENT-Report.ps1",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/scripts/ANDROIDENT-Report.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "ANDROIDENT-Set-EnrollmentRestrictions.ps1",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/scripts/ANDROIDENT-Set-EnrollmentRestrictions.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "ANDROIDENT-Set-ScopeTargeting.ps1",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/scripts/ANDROIDENT-Set-ScopeTargeting.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ANDROIDENT-Complete-Solution.zip",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-Complete-Solution.zip",
+          "kb": 113.1
+        },
+        {
+          "name": "ANDROIDENT-hero.png",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-hero.png",
+          "kb": 413.2
+        },
+        {
+          "name": "ANDROIDENT-hero.svg",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ANDROIDENT-Scripts.zip",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-Scripts.zip",
+          "kb": 10.6
+        },
+        {
+          "name": "ANDROIDENT-Solution.docx",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-Solution.docx",
+          "kb": 57.2
+        },
+        {
+          "name": "ANDROIDENT-Solution.pdf",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-Solution.pdf",
+          "kb": 67.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/android-enterprise-connection-managed-google-play-setup-intune/v1.0.0/deliverables/ANDROIDENT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Android Enterprise Enrollment Troubleshooting — Managed Google Play, Web Enrollment & \"Can't Add a Google Account\" (AMAPI)",
+    "slug": "android-enterprise-enrollment-troubleshooting-google-account-amapi",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "ANDROIDDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ANDROIDDX-COMM-001",
+      "PTK-ANDROIDDX-NPO-001",
+      "PTK-ANDROIDDX-GOV-001"
+    ],
+    "deliverables": [
+      "ANDROIDDX-Solution.pdf",
+      "ANDROIDDX-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\android-enterprise-enrollment-troubleshooting-google-account-amapi\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/02-requirements.md",
+          "kb": 7.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/03-implementation.md",
+          "kb": 15.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ANDROIDDX-BindingHealth.ps1",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/scripts/ANDROIDDX-BindingHealth.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ANDROIDDX-DiagnosticReport.ps1",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/scripts/ANDROIDDX-DiagnosticReport.ps1",
+          "kb": 7.1
+        },
+        {
+          "name": "ANDROIDDX-EndpointReachability.ps1",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/scripts/ANDROIDDX-EndpointReachability.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "ANDROIDDX-EnrollmentReadiness.ps1",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/scripts/ANDROIDDX-EnrollmentReadiness.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "ANDROIDDX-Set-ScopeTargeting.ps1",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/scripts/ANDROIDDX-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ANDROIDDX-Complete-Solution.zip",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-Complete-Solution.zip",
+          "kb": 128.3
+        },
+        {
+          "name": "ANDROIDDX-hero.png",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-hero.png",
+          "kb": 463.1
+        },
+        {
+          "name": "ANDROIDDX-hero.svg",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ANDROIDDX-Scripts.zip",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "ANDROIDDX-Solution.docx",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-Solution.docx",
+          "kb": 61.5
+        },
+        {
+          "name": "ANDROIDDX-Solution.pdf",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-Solution.pdf",
+          "kb": 80.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/listing/sales-content.md",
+          "kb": 0.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/android-enterprise-enrollment-troubleshooting-google-account-amapi/v1.0.0/deliverables/ANDROIDDX-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Google Workspace ↔ Intune Third-Party EMM Integration for Managed Google Play",
+    "slug": "google-workspace-intune-third-party-emm-managed-google-play",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "ANDROIDGW",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ANDROIDGW-COMM-001",
+      "PTK-ANDROIDGW-NPO-001",
+      "PTK-ANDROIDGW-GOV-001"
+    ],
+    "deliverables": [
+      "ANDROIDGW-Solution.pdf",
+      "ANDROIDGW-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\google-workspace-intune-third-party-emm-managed-google-play\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/02-requirements.md",
+          "kb": 8.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/03-implementation.md",
+          "kb": 9.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ANDROIDGW-DeviceImpact.ps1",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/scripts/ANDROIDGW-DeviceImpact.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "ANDROIDGW-Discovery.ps1",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/scripts/ANDROIDGW-Discovery.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "ANDROIDGW-Readiness.ps1",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/scripts/ANDROIDGW-Readiness.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "ANDROIDGW-Set-Scope.ps1",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/scripts/ANDROIDGW-Set-Scope.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "ANDROIDGW-Validation.ps1",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/scripts/ANDROIDGW-Validation.ps1",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ANDROIDGW-Complete-Solution.zip",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-Complete-Solution.zip",
+          "kb": 121.8
+        },
+        {
+          "name": "ANDROIDGW-hero.png",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-hero.png",
+          "kb": 456.7
+        },
+        {
+          "name": "ANDROIDGW-hero.svg",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ANDROIDGW-Scripts.zip",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-Scripts.zip",
+          "kb": 12.2
+        },
+        {
+          "name": "ANDROIDGW-Solution.docx",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-Solution.docx",
+          "kb": 59.1
+        },
+        {
+          "name": "ANDROIDGW-Solution.pdf",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-Solution.pdf",
+          "kb": 75.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/google-workspace-intune-third-party-emm-managed-google-play/v1.0.0/deliverables/ANDROIDGW-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Android Management API (AMAPI) Migration — Legacy Play EMM API → AMAPI",
+    "slug": "intune-android-management-api-amapi-migration",
+    "category": "Android",
+    "category_slug": "android",
+    "sol_code": "AMAPIMIG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AMAPIMIG-COMM-001",
+      "PTK-AMAPIMIG-NPO-001",
+      "PTK-AMAPIMIG-GOV-001"
+    ],
+    "deliverables": [
+      "AMAPIMIG-Solution.pdf",
+      "AMAPIMIG-Scripts.zip"
+    ],
+    "rel_path": "library\\android\\intune-android-management-api-amapi-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/02-requirements.md",
+          "kb": 8.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-android.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/source/global-requirements-android.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AMAPIMIG-Assess-AndroidEstate.ps1",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/scripts/AMAPIMIG-Assess-AndroidEstate.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "AMAPIMIG-Config.ps1",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/scripts/AMAPIMIG-Config.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "AMAPIMIG-Get-PostMigrationValidation.ps1",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/scripts/AMAPIMIG-Get-PostMigrationValidation.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "AMAPIMIG-New-MigrationWavePlan.ps1",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/scripts/AMAPIMIG-New-MigrationWavePlan.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "AMAPIMIG-Test-WebEnrollmentReadiness.ps1",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/scripts/AMAPIMIG-Test-WebEnrollmentReadiness.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AMAPIMIG-Complete-Solution.zip",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-Complete-Solution.zip",
+          "kb": 106.8
+        },
+        {
+          "name": "AMAPIMIG-hero.png",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-hero.png",
+          "kb": 439.4
+        },
+        {
+          "name": "AMAPIMIG-hero.svg",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AMAPIMIG-Scripts.zip",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-Scripts.zip",
+          "kb": 11.3
+        },
+        {
+          "name": "AMAPIMIG-Solution.docx",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-Solution.docx",
+          "kb": 55.9
+        },
+        {
+          "name": "AMAPIMIG-Solution.pdf",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-Solution.pdf",
+          "kb": 58.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../android/intune-android-management-api-amapi-migration/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../android/intune-android-management-api-amapi-migration/v1.0.0/deliverables/AMAPIMIG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
     "slug": "adobe-creative-cloud-enterprise-license-management",
     "category": "Asset Mgt",
@@ -36287,6 +37283,1666 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../oracle/oracle-weblogic-14c-c2m-install-configure/v1.0.0/deliverables/OWLS14C-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Implementing Microsoft Purview — Foundation, Roles & Onboarding",
+    "slug": "implementing-microsoft-purview-foundation-roles-onboarding",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVIMP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVIMP-COMM-001",
+      "PTK-PURVIMP-NPO-001",
+      "PTK-PURVIMP-GOV-001"
+    ],
+    "deliverables": [
+      "PURVIMP-Solution.pdf",
+      "PURVIMP-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\implementing-microsoft-purview-foundation-roles-onboarding\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/03-implementation.md",
+          "kb": 8.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVIMP-Assess-Readiness.ps1",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/scripts/PURVIMP-Assess-Readiness.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "PURVIMP-Enable-CoreServices.ps1",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/scripts/PURVIMP-Enable-CoreServices.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "PURVIMP-Report-ComplianceBaseline.ps1",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/scripts/PURVIMP-Report-ComplianceBaseline.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "PURVIMP-Scope-Config.ps1",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/scripts/PURVIMP-Scope-Config.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "PURVIMP-Set-RoleGroups.ps1",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/scripts/PURVIMP-Set-RoleGroups.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVIMP-Complete-Solution.zip",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-Complete-Solution.zip",
+          "kb": 111.8
+        },
+        {
+          "name": "PURVIMP-hero.png",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-hero.png",
+          "kb": 434.5
+        },
+        {
+          "name": "PURVIMP-hero.svg",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "PURVIMP-Scripts.zip",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "PURVIMP-Solution.docx",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-Solution.docx",
+          "kb": 57.1
+        },
+        {
+          "name": "PURVIMP-Solution.pdf",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-Solution.pdf",
+          "kb": 65.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/implementing-microsoft-purview-foundation-roles-onboarding/v1.0.0/deliverables/PURVIMP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+    "slug": "managing-microsoft-purview-operations-governance",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVOPS-COMM-001",
+      "PTK-PURVOPS-NPO-001",
+      "PTK-PURVOPS-GOV-001"
+    ],
+    "deliverables": [
+      "PURVOPS-Solution.pdf",
+      "PURVOPS-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\managing-microsoft-purview-operations-governance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/07-best-practices.md",
+          "kb": 5.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVOPS-Discovery.ps1",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/scripts/PURVOPS-Discovery.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVOPS-KpiReport.ps1",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/scripts/PURVOPS-KpiReport.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "PURVOPS-Remediation.ps1",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/scripts/PURVOPS-Remediation.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "PURVOPS-Report.ps1",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/scripts/PURVOPS-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "PURVOPS-Validation.ps1",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/scripts/PURVOPS-Validation.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVOPS-Complete-Solution.zip",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-Complete-Solution.zip",
+          "kb": 124.7
+        },
+        {
+          "name": "PURVOPS-hero.png",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-hero.png",
+          "kb": 460.5
+        },
+        {
+          "name": "PURVOPS-hero.svg",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVOPS-Scripts.zip",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "PURVOPS-Solution.docx",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-Solution.docx",
+          "kb": 61.1
+        },
+        {
+          "name": "PURVOPS-Solution.pdf",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-Solution.pdf",
+          "kb": 76.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/managing-microsoft-purview-operations-governance/v1.0.0/deliverables/PURVOPS-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Audit (Standard & Premium) — Unified Audit Log & Investigations",
+    "slug": "microsoft-purview-audit-standard-premium-investigations",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVAUDIT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PURVAUDIT-COMM-001",
+      "PTK-PURVAUDIT-NPO-001",
+      "PTK-PURVAUDIT-GOV-001"
+    ],
+    "deliverables": [
+      "PURVAUDIT-Solution.pdf",
+      "PURVAUDIT-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-audit-standard-premium-investigations\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVAUDIT-Discovery.ps1",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/scripts/PURVAUDIT-Discovery.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "PURVAUDIT-Export.ps1",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/scripts/PURVAUDIT-Export.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "PURVAUDIT-Report.ps1",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/scripts/PURVAUDIT-Report.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "PURVAUDIT-Search.ps1",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/scripts/PURVAUDIT-Search.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "PURVAUDIT-Set-RetentionPolicy.ps1",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/scripts/PURVAUDIT-Set-RetentionPolicy.ps1",
+          "kb": 6.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVAUDIT-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-Complete-Solution.zip",
+          "kb": 119.1
+        },
+        {
+          "name": "PURVAUDIT-hero.png",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-hero.png",
+          "kb": 413.4
+        },
+        {
+          "name": "PURVAUDIT-hero.svg",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVAUDIT-Scripts.zip",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "PURVAUDIT-Solution.docx",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-Solution.docx",
+          "kb": 59.6
+        },
+        {
+          "name": "PURVAUDIT-Solution.pdf",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-Solution.pdf",
+          "kb": 70.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-audit-standard-premium-investigations/v1.0.0/deliverables/PURVAUDIT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Communication Compliance",
+    "slug": "microsoft-purview-communication-compliance",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVCC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PURVCC-COMM-001",
+      "PTK-PURVCC-NPO-001",
+      "PTK-PURVCC-GOV-001"
+    ],
+    "deliverables": [
+      "PURVCC-Solution.pdf",
+      "PURVCC-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-communication-compliance\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/03-implementation.md",
+          "kb": 9.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/executive-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVCC-Configuration.ps1",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/scripts/PURVCC-Configuration.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "PURVCC-Discovery.ps1",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/scripts/PURVCC-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "PURVCC-Report.ps1",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/scripts/PURVCC-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "PURVCC-ReviewerWorkflow.ps1",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/scripts/PURVCC-ReviewerWorkflow.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "PURVCC-Set-Scope.ps1",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/scripts/PURVCC-Set-Scope.ps1",
+          "kb": 5.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVCC-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-Complete-Solution.zip",
+          "kb": 117.6
+        },
+        {
+          "name": "PURVCC-hero.png",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-hero.png",
+          "kb": 404.7
+        },
+        {
+          "name": "PURVCC-hero.svg",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVCC-Scripts.zip",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-Scripts.zip",
+          "kb": 11.1
+        },
+        {
+          "name": "PURVCC-Solution.docx",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-Solution.docx",
+          "kb": 59.5
+        },
+        {
+          "name": "PURVCC-Solution.pdf",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-Solution.pdf",
+          "kb": 69.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-communication-compliance/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-communication-compliance/v1.0.0/deliverables/PURVCC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Data Governance — Data Map, Scanning & Unified Catalog",
+    "slug": "microsoft-purview-data-governance-data-map-catalog",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-PURVGOV-COMM-001",
+      "PTK-PURVGOV-NPO-001",
+      "PTK-PURVGOV-GOV-001"
+    ],
+    "deliverables": [
+      "PURVGOV-Solution.pdf",
+      "PURVGOV-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-data-governance-data-map-catalog\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/03-implementation.md",
+          "kb": 7.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/05-testing.md",
+          "kb": 3.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVGOV-Curate-Catalog.ps1",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/scripts/PURVGOV-Curate-Catalog.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "PURVGOV-Discovery.ps1",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/scripts/PURVGOV-Discovery.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "PURVGOV-Register-Source.ps1",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/scripts/PURVGOV-Register-Source.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVGOV-Report.ps1",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/scripts/PURVGOV-Report.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "PURVGOV-Set-Scope.ps1",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/scripts/PURVGOV-Set-Scope.ps1",
+          "kb": 3.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVGOV-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-Complete-Solution.zip",
+          "kb": 106.5
+        },
+        {
+          "name": "PURVGOV-hero.png",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-hero.png",
+          "kb": 432.6
+        },
+        {
+          "name": "PURVGOV-hero.svg",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVGOV-Scripts.zip",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "PURVGOV-Solution.docx",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "PURVGOV-Solution.pdf",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-Solution.pdf",
+          "kb": 60.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-data-governance-data-map-catalog/v1.0.0/deliverables/PURVGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Data Lifecycle & Records Management",
+    "slug": "microsoft-purview-data-lifecycle-records-management",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVDLM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVDLM-COMM-001",
+      "PTK-PURVDLM-NPO-001",
+      "PTK-PURVDLM-GOV-001"
+    ],
+    "deliverables": [
+      "PURVDLM-Solution.pdf",
+      "PURVDLM-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-data-lifecycle-records-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 15.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/02-requirements.md",
+          "kb": 9.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/03-implementation.md",
+          "kb": 12.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/07-best-practices.md",
+          "kb": 5.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "Assess-RetentionRecordsPosture.ps1",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/scripts/Assess-RetentionRecordsPosture.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "Get-RetentionDispositionReport.ps1",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/scripts/Get-RetentionDispositionReport.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "Resolve-RetentionScope.ps1",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/scripts/Resolve-RetentionScope.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "Set-RecordsFilePlanDisposition.ps1",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/scripts/Set-RecordsFilePlanDisposition.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "Set-RetentionPolicyAndLabels.ps1",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/scripts/Set-RetentionPolicyAndLabels.ps1",
+          "kb": 7.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVDLM-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-Complete-Solution.zip",
+          "kb": 119.7
+        },
+        {
+          "name": "PURVDLM-hero.png",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-hero.png",
+          "kb": 421.6
+        },
+        {
+          "name": "PURVDLM-hero.svg",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVDLM-Scripts.zip",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-Scripts.zip",
+          "kb": 11.1
+        },
+        {
+          "name": "PURVDLM-Solution.docx",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-Solution.docx",
+          "kb": 61.7
+        },
+        {
+          "name": "PURVDLM-Solution.pdf",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-Solution.pdf",
+          "kb": 69.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-data-lifecycle-records-management/v1.0.0/deliverables/PURVDLM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+    "slug": "microsoft-purview-data-loss-prevention-endpoint-cloud-email",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVDLP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVDLP-COMM-001",
+      "PTK-PURVDLP-NPO-001",
+      "PTK-PURVDLP-GOV-001"
+    ],
+    "deliverables": [
+      "PURVDLP-Solution.pdf",
+      "PURVDLP-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-data-loss-prevention-endpoint-cloud-email\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/03-implementation.md",
+          "kb": 11.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/05-testing.md",
+          "kb": 5.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVDLP-Config.ps1",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/scripts/PURVDLP-Config.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "PURVDLP-Discovery.ps1",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/scripts/PURVDLP-Discovery.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "PURVDLP-EndpointReadiness.ps1",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/scripts/PURVDLP-EndpointReadiness.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "PURVDLP-Report.ps1",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/scripts/PURVDLP-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "PURVDLP-Set-Scope.ps1",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/scripts/PURVDLP-Set-Scope.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVDLP-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-Complete-Solution.zip",
+          "kb": 125.2
+        },
+        {
+          "name": "PURVDLP-hero.png",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-hero.png",
+          "kb": 435.8
+        },
+        {
+          "name": "PURVDLP-hero.svg",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "PURVDLP-Scripts.zip",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "PURVDLP-Solution.docx",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-Solution.docx",
+          "kb": 62.4
+        },
+        {
+          "name": "PURVDLP-Solution.pdf",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-Solution.pdf",
+          "kb": 77.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-data-loss-prevention-endpoint-cloud-email/v1.0.0/deliverables/PURVDLP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+    "slug": "microsoft-purview-data-security-posture-management-dspm-ai",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVDSPM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVDSPM-COMM-001",
+      "PTK-PURVDSPM-NPO-001",
+      "PTK-PURVDSPM-GOV-001"
+    ],
+    "deliverables": [
+      "PURVDSPM-Solution.pdf",
+      "PURVDSPM-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-data-security-posture-management-dspm-ai\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVDSPM-AIExposure.ps1",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/scripts/PURVDSPM-AIExposure.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "PURVDSPM-Discovery.ps1",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/scripts/PURVDSPM-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "PURVDSPM-Reduce-Oversharing.ps1",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/scripts/PURVDSPM-Reduce-Oversharing.ps1",
+          "kb": 9.2
+        },
+        {
+          "name": "PURVDSPM-ScopeConfig.ps1",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/scripts/PURVDSPM-ScopeConfig.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "PURVDSPM-Tracker.ps1",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/scripts/PURVDSPM-Tracker.ps1",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVDSPM-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-Complete-Solution.zip",
+          "kb": 109.0
+        },
+        {
+          "name": "PURVDSPM-hero.png",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-hero.png",
+          "kb": 412.6
+        },
+        {
+          "name": "PURVDSPM-hero.svg",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVDSPM-Scripts.zip",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-Scripts.zip",
+          "kb": 11.2
+        },
+        {
+          "name": "PURVDSPM-Solution.docx",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-Solution.docx",
+          "kb": 56.0
+        },
+        {
+          "name": "PURVDSPM-Solution.pdf",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-Solution.pdf",
+          "kb": 62.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-data-security-posture-management-dspm-ai/v1.0.0/deliverables/PURVDSPM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Insider Risk Management",
+    "slug": "microsoft-purview-insider-risk-management",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVIRM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVIRM-COMM-001",
+      "PTK-PURVIRM-NPO-001",
+      "PTK-PURVIRM-GOV-001"
+    ],
+    "deliverables": [
+      "PURVIRM-Solution.pdf",
+      "PURVIRM-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-insider-risk-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/02-requirements.md",
+          "kb": 10.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/03-implementation.md",
+          "kb": 11.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/05-testing.md",
+          "kb": 6.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/07-best-practices.md",
+          "kb": 4.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/executive-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVIRM-Discovery.ps1",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/scripts/PURVIRM-Discovery.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "PURVIRM-Report.ps1",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/scripts/PURVIRM-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "PURVIRM-Set-PolicyFromTemplate.ps1",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/scripts/PURVIRM-Set-PolicyFromTemplate.ps1",
+          "kb": 8.0
+        },
+        {
+          "name": "PURVIRM-Set-Scope.ps1",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/scripts/PURVIRM-Set-Scope.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "PURVIRM-Test-Readiness.ps1",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/scripts/PURVIRM-Test-Readiness.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVIRM-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-Complete-Solution.zip",
+          "kb": 126.2
+        },
+        {
+          "name": "PURVIRM-hero.png",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-hero.png",
+          "kb": 443.0
+        },
+        {
+          "name": "PURVIRM-hero.svg",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "PURVIRM-Scripts.zip",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-Scripts.zip",
+          "kb": 11.9
+        },
+        {
+          "name": "PURVIRM-Solution.docx",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-Solution.docx",
+          "kb": 63.1
+        },
+        {
+          "name": "PURVIRM-Solution.pdf",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-Solution.pdf",
+          "kb": 75.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-insider-risk-management/v1.0.0/deliverables/PURVIRM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Purview Sensitivity & Retention Labels — Implementation",
+    "slug": "microsoft-purview-sensitivity-retention-labels-implementation",
+    "category": "Purview",
+    "category_slug": "purview",
+    "sol_code": "PURVLABEL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-07",
+    "updated": "2026-07-07",
+    "published_at": "2026-07-07",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-PURVLABEL-COMM-001",
+      "PTK-PURVLABEL-NPO-001",
+      "PTK-PURVLABEL-GOV-001"
+    ],
+    "deliverables": [
+      "PURVLABEL-Solution.pdf",
+      "PURVLABEL-Scripts.zip"
+    ],
+    "rel_path": "library\\purview\\microsoft-purview-sensitivity-retention-labels-implementation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/03-implementation.md",
+          "kb": 10.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/05-testing.md",
+          "kb": 6.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/07-best-practices.md",
+          "kb": 5.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-purview.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/source/global-requirements-purview.md",
+          "kb": 5.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PURVLABEL-Discovery.ps1",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/scripts/PURVLABEL-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "PURVLABEL-RetentionConfig.ps1",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/scripts/PURVLABEL-RetentionConfig.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "PURVLABEL-SensitivityConfig.ps1",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/scripts/PURVLABEL-SensitivityConfig.ps1",
+          "kb": 10.1
+        },
+        {
+          "name": "PURVLABEL-SimulationReport.ps1",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/scripts/PURVLABEL-SimulationReport.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "PURVLABEL-Validation.ps1",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/scripts/PURVLABEL-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PURVLABEL-Complete-Solution.zip",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-Complete-Solution.zip",
+          "kb": 110.9
+        },
+        {
+          "name": "PURVLABEL-hero.png",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-hero.png",
+          "kb": 400.2
+        },
+        {
+          "name": "PURVLABEL-hero.svg",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "PURVLABEL-Scripts.zip",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "PURVLABEL-Solution.docx",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-Solution.docx",
+          "kb": 56.9
+        },
+        {
+          "name": "PURVLABEL-Solution.pdf",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-Solution.pdf",
+          "kb": 63.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../purview/microsoft-purview-sensitivity-retention-labels-implementation/v1.0.0/deliverables/PURVLABEL-hero.png",
     "product_count": 3
   },
   {

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Android Enterprise Enrollment Troubleshooting — Managed Google Play, Web Enrollment &amp; "Can't Add a Google Account" (AMAPI) — product hero</title><desc id="d">Android marketing banner.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="770" cy="480" rx="640" ry="400" fill="url(#glow)"/>
+<g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M1060 272 H880 L910 322 H790"/><path d="M70 902 H250 L280 872 H430"/><path d="M70 215 H250 L280 255 H360"/><path d="M70 981 H250 L280 941 H400"/><path d="M1160 1010 H1060 L1090 960 H970"/><path d="M1160 1023 H1060 L1090 993 H1010"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="880" cy="272" r="5"/><circle cx="910" cy="322" r="5"/><circle cx="250" cy="902" r="5"/><circle cx="280" cy="872" r="5"/><circle cx="250" cy="215" r="5"/><circle cx="280" cy="255" r="5"/><circle cx="250" cy="981" r="5"/><circle cx="280" cy="941" r="5"/><circle cx="1060" cy="1010" r="5"/><circle cx="1090" cy="960" r="5"/><circle cx="1060" cy="1023" r="5"/><circle cx="1090" cy="993" r="5"/></g>
+<g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+<text x="600" y="170" font-size="112" fill="#ffffff" font-weight="800">Android Enrollment</text>
+<text x="600" y="285" font-size="87" fill="#5cc24a" font-weight="800">Troubleshooting (AMAPI)</text>
+<text x="600" y="400" font-size="50" fill="#2f95d6" font-weight="700">Can't-Add-Account · Web Enroll · Dev↔Prod</text>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="70" y="430" width="370" height="300" rx="18" fill="#ffffff" opacity="0.05"/><rect x="70" y="430" width="370" height="300" rx="18" fill="none" stroke="#1f4a7a" stroke-width="2"/><text x="255" y="478" text-anchor="middle" font-size="30" font-weight="700" fill="#cfe0f2" letter-spacing="2">WON'T ENROLL</text><g font-size="26" fill="#d7e3f1">
+<g><circle cx="120" cy="540" r="14" fill="#c0392b"/><path d="M114 534 l12 12 M126 534 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="549">No Google account</text></g>
+<g><circle cx="120" cy="595" r="14" fill="#c0392b"/><path d="M114 589 l12 12 M126 589 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="604">Dev works, prod fails</text></g>
+<g><circle cx="120" cy="650" r="14" fill="#c0392b"/><path d="M114 644 l12 12 M126 644 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="659">Endpoint blocks</text></g>
+<g><circle cx="120" cy="705" r="14" fill="#c0392b"/><path d="M114 699 l12 12 M126 699 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="714">Post-AMAPI breakage</text></g>
+</g></g>
+<polygon points="460,545 560,545 560,515 620,580 560,645 560,615 460,615" fill="url(#arrow)"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="660" y="430" width="470" height="300" rx="18" fill="#ffffff" opacity="0.06"/><rect x="660" y="430" width="470" height="300" rx="18" fill="none" stroke="#2f95d6" stroke-width="2"/><g transform="translate(700,470)"><path d="M14 34 a22 22 0 0 1 6 -43 a26 26 0 0 1 49 -6 a20 20 0 0 1 8 49 z" fill="#eaf3fc"/></g><text x="800" y="500" font-size="30" font-weight="700" fill="#ffffff">Enrolling</text><g transform="translate(820,540)"><path d="M75 6 L130 26 V70 C130 110 105 138 75 150 C45 138 20 110 20 70 V26 Z" fill="#13355c" stroke="#54c14a" stroke-width="4"/><path d="M50 78 L70 100 L104 56" fill="none" stroke="#5cc24a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g><text x="690" y="700" font-size="27" font-weight="700" fill="#9fe39a">Root-caused · fixed</text></g>
+<text x="600" y="800" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#9fc4e6" letter-spacing="8">REPRODUCE.  ISOLATE.  RESOLVE.</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(165,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><rect x="-24" y="-18" width="48" height="32" rx="3" fill="none" stroke="#9fc4e6" stroke-width="4"/><path d="M-30 22 h60" stroke="#9fc4e6" stroke-width="4"/></g>
+<g transform="translate(455,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><path d="M-20 12 a16 16 0 0 1 4 -31 a19 19 0 0 1 36 -4 a15 15 0 0 1 6 35 z" fill="none" stroke="#56b0e6" stroke-width="4"/></g>
+<g transform="translate(745,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><circle r="10" fill="none" stroke="#9fc4e6" stroke-width="4"/><g stroke="#9fc4e6" stroke-width="4"><path d="M0 -26 v10 M0 26 v-10 M-26 0 h10 M26 0 h-10 M-18 -18 l7 7 M18 18 l-7 -7 M18 -18 l-7 7 M-18 18 l7 -7"/></g></g>
+<g transform="translate(1035,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><g stroke="#5cc24a" stroke-width="5" stroke-linecap="round"><path d="M-22 20 v-8 M-7 20 v-20 M8 20 v-12 M23 20 v-28"/></g></g>
+<g font-size="29" font-weight="700" fill="#ffffff">
+<text x="165" y="995">Account Add</text>
+<text x="455" y="995">Binding</text>
+<text x="745" y="995">Endpoints</text>
+<text x="1035" y="995">Decision Tree</text>
+</g><g font-size="23" fill="#9fb6cf">
+<text x="165" y="1030">Flow</text>
+<text x="455" y="1030">Health</text>
+<text x="745" y="1030">Reachable</text>
+<text x="1035" y="1030">Root-cause</text>
+</g></g>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">Android</text>
+</svg>

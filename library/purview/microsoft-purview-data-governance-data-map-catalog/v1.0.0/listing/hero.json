@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Purview Data Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Data Map · Scan · Catalog",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Register · Classify · Unified Catalog",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED ESTATE",
+    "items": [
+      "Data unmapped",
+      "Unclassified",
+      "No catalog",
+      "No ownership"
+    ]
+  },
+  "to": {
+    "label": "Governed estate",
+    "stat": "Mapped · cataloged"
+  },
+  "tagline": "MAP.  SCAN.  CATALOG.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Data Map",
+      "sub": "Sources"
+    },
+    {
+      "icon": "chart",
+      "title": "Scanning",
+      "sub": "Classify"
+    },
+    {
+      "icon": "gear",
+      "title": "Catalog",
+      "sub": "Glossary"
+    },
+    {
+      "icon": "users",
+      "title": "Domains",
+      "sub": "Ownership"
+    }
+  ]
+}

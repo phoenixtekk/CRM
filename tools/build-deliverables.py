@@ -30,6 +30,8 @@ SOURCE_ORDER = [
     "global-requirements-messaging.md",
     "global-requirements-teams.md",
     "global-requirements-sharepoint.md",
+    "global-requirements-android.md",
+    "global-requirements-purview.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",

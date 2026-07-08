@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Google Workspace",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "↔ Intune EMM Integration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Third-Party EMM · Re-Enroll Impact",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY TO ENABLE",
+    "items": [
+      "Re-enroll fear",
+      "Two binding models",
+      "Identity confusion",
+      "No impact read"
+    ]
+  },
+  "to": {
+    "label": "Confident integration",
+    "stat": "Assessed · active"
+  },
+  "tagline": "INTEGRATE.  ASSESS.  ENABLE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Google Admin",
+      "sub": "3rd-party EMM"
+    },
+    {
+      "icon": "gear",
+      "title": "Intune Side",
+      "sub": "Delegated"
+    },
+    {
+      "icon": "users",
+      "title": "Identity",
+      "sub": "Account model"
+    },
+    {
+      "icon": "shield",
+      "title": "Impact",
+      "sub": "Re-enroll?"
+    }
+  ]
+}

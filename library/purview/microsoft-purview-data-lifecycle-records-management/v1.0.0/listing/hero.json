@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Data Lifecycle &",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Records Management",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Retention · Records · Disposition",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "KEEP-EVERYTHING",
+    "items": [
+      "No retention",
+      "No records",
+      "Never disposed",
+      "Liability"
+    ]
+  },
+  "to": {
+    "label": "On-schedule",
+    "stat": "Defensible · disposed"
+  },
+  "tagline": "RETAIN.  DECLARE.  DISPOSE.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Retention",
+      "sub": "Policies"
+    },
+    {
+      "icon": "lock",
+      "title": "Records",
+      "sub": "File plan"
+    },
+    {
+      "icon": "gear",
+      "title": "Disposition",
+      "sub": "Reviewed"
+    },
+    {
+      "icon": "shield",
+      "title": "Defensible",
+      "sub": "On schedule"
+    }
+  ]
+}

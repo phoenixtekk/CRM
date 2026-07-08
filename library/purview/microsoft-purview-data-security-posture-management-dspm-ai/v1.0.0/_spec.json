@@ -1,0 +1,83 @@
+{
+  "sol": "PURVDSPM",
+  "slug": "microsoft-purview-data-security-posture-management-dspm-ai",
+  "title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "See and reduce your data-security risk — including AI/Copilot exposure",
+  "problem": "You can't reduce data risk you can't see &mdash; and generative AI (Copilot) makes over-shared, unlabeled data newly dangerous. This solution implements <strong>Data Security Posture Management (DSPM)</strong> in Purview: the DSPM overview and recommendations, surfacing <strong>sensitive-data risk</strong> across the estate, and <strong>DSPM for AI</strong> &mdash; visibility into what AI/Copilot can access, prompts/responses touching sensitive data, and the policies to reduce oversharing before and during AI adoption &mdash; so data-security posture is measured and improved.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; DSPM (posture, recommendations, sensitive-data risk) and DSPM for AI (Copilot/AI data-access visibility, sensitive prompts/responses, oversharing controls).",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing, DSPM roles, labels/DLP foundation, Copilot/AI in scope, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; enable DSPM, review posture + act on recommendations, turn on DSPM for AI, assess AI data-access + oversharing, and apply reduction policies (labels/DLP/access) &mdash; pilot-first, each action named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (risk surfaced, recommendations actioned, AI oversharing reduced) plus Best Practices for continuous posture improvement; AI-feature availability flagged to verify."
+  ],
+  "short": "Implement <strong>Data Security Posture Management (DSPM &amp; DSPM for AI)</strong> &mdash; surface sensitive-data risk, act on recommendations, and get visibility + controls over what Copilot/AI can access &mdash; so data-security posture is measured and improved. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Data Security Posture Management (DSPM & DSPM for AI) — surface sensitive-data risk, act on recommendations, and get visibility + controls over what Copilot/AI can access — so data-security posture is measured and improved.",
+  "meta_title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+  "meta_description": "Implement Microsoft Purview Data Security Posture Management: DSPM posture and recommendations, sensitive-data risk across the estate, and DSPM for AI (visibility into Copilot/AI data access, sensitive prompts/responses, and oversharing-reduction policies). Self-guided steps and PowerShell tools; AI-feature availability verified in tenant.",
+  "bottom_line": "Data-security risk made visible and reduced &mdash; posture measured, recommendations actioned, and Copilot/AI oversharing surfaced and controlled &mdash; safer data before and during AI adoption.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Data Security Posture",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Management (DSPM & AI)",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Posture · Risk · Copilot/AI Exposure",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNSEEN DATA RISK",
+      "items": [
+        "Oversharing",
+        "Unlabeled data",
+        "AI exposure",
+        "No posture"
+      ]
+    },
+    "to": {
+      "label": "Posture measured",
+      "stat": "Surfaced · reduced"
+    },
+    "tagline": "SURFACE.  ACT.  REDUCE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Posture",
+        "sub": "DSPM"
+      },
+      {
+        "icon": "shield",
+        "title": "Risk",
+        "sub": "Sensitive"
+      },
+      {
+        "icon": "chip",
+        "title": "DSPM for AI",
+        "sub": "Copilot"
+      },
+      {
+        "icon": "lock",
+        "title": "Reduce",
+        "sub": "Oversharing"
+      }
+    ]
+  }
+}

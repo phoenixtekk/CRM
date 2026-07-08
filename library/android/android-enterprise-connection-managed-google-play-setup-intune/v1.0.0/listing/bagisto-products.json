@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "android-enterprise-connection-managed-google-play-setup-intune",
+    "title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+    "category_path": [
+      "Android"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ANDROIDENT-COMM-001",
+      "name": "Android Enterprise Connection & Managed Google Play Setup in Intune — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Connect Intune to <strong>managed Google Play</strong> and stand up the Android Enterprise <strong>enrollment profiles</strong> (work profile, fully managed, corporate-owned work profile, dedicated/COSU) with enrollment restrictions &mdash; the foundation the rest of Android management builds on. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>Stand up Android Enterprise in Intune — the right binding and enrollment profiles</h3><p>Android management in Intune starts with one thing done correctly: the <strong>managed Google Play</strong> binding and the enrollment model. Get it wrong and nothing enrolls. This solution connects Intune to <strong>managed Google Play</strong> (the account-enterprise model for tenants without Google Workspace), then stands up the <strong>enrollment profiles</strong> &mdash; personally-owned <strong>work profile</strong> (BYOD), <strong>fully managed</strong>, <strong>corporate-owned work profile</strong>, and <strong>dedicated/COSU</strong> &mdash; with the enrollment restrictions, so the right devices enroll the right way.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the managed Google Play binding, the four Android Enterprise enrollment models and when to use each, and the Assess&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise licensing, admin roles, the binding-model decision, network endpoints).</li><li><strong>Implementation Guide</strong> &mdash; connect managed Google Play, configure enrollment restrictions + platform settings, create the enrollment profiles for each model, and validate a pilot enrollment &mdash; pilot-first, each profile named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (binding healthy, each enrollment model works, restrictions enforced) plus Best Practices for a clean Android Enterprise foundation.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A correct Android Enterprise foundation in Intune &mdash; managed Google Play bound, enrollment models configured, restrictions enforced &mdash; so devices enroll the right way and everything else works.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ANDROIDENT-Discovery.ps1</code> &mdash; assess the managed Google Play connection + Android enrollment config (read-only)</li><li><code>ANDROIDENT-New-EnrollmentProfile.ps1</code> &mdash; create a corporate-owned Android Enterprise enrollment profile (default -WhatIf)</li><li><code>ANDROIDENT-Report.ps1</code> &mdash; Android Enterprise readiness + per-model enrollment coverage (read-only)</li><li><code>ANDROIDENT-Set-EnrollmentRestrictions.ps1</code> &mdash; set the Android enrollment platform restriction (default -WhatIf)</li><li><code>ANDROIDENT-Set-ScopeTargeting.ps1</code> &mdash; build the pilot/prod + per-model scope groups (default -WhatIf)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+      "meta_description": "Set up Android Enterprise in Microsoft Intune: connect managed Google Play (account enterprise), configure enrollment restrictions, and create enrollment profiles for personally-owned work profile (BYOD), fully managed, corporate-owned work profile, and dedicated/COSU. Self-guided steps and PowerShell tools.",
+      "url_key": "android-enterprise-connection-managed-google-play-setup-intune-commercial",
+      "image": "ANDROIDENT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ANDROIDENT-NPO-001",
+      "name": "Android Enterprise Connection & Managed Google Play Setup in Intune — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Connect Intune to managed Google Play and stand up the Android Enterprise enrollment profiles (work profile, fully managed, corporate-owned work profile, dedicated/COSU) with enrollment restrictions — the Android management foundation. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stand up Android Enterprise in Intune — the right binding and enrollment profiles</h3><p>Android management in Intune starts with one thing done correctly: the <strong>managed Google Play</strong> binding and the enrollment model. Get it wrong and nothing enrolls. This solution connects Intune to <strong>managed Google Play</strong> (the account-enterprise model for tenants without Google Workspace), then stands up the <strong>enrollment profiles</strong> &mdash; personally-owned <strong>work profile</strong> (BYOD), <strong>fully managed</strong>, <strong>corporate-owned work profile</strong>, and <strong>dedicated/COSU</strong> &mdash; with the enrollment restrictions, so the right devices enroll the right way.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the managed Google Play binding, the four Android Enterprise enrollment models and when to use each, and the Assess&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise licensing, admin roles, the binding-model decision, network endpoints).</li><li><strong>Implementation Guide</strong> &mdash; connect managed Google Play, configure enrollment restrictions + platform settings, create the enrollment profiles for each model, and validate a pilot enrollment &mdash; pilot-first, each profile named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (binding healthy, each enrollment model works, restrictions enforced) plus Best Practices for a clean Android Enterprise foundation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ANDROIDENT-Discovery.ps1</code> &mdash; assess the managed Google Play connection + Android enrollment config (read-only)</li><li><code>ANDROIDENT-New-EnrollmentProfile.ps1</code> &mdash; create a corporate-owned Android Enterprise enrollment profile (default -WhatIf)</li><li><code>ANDROIDENT-Report.ps1</code> &mdash; Android Enterprise readiness + per-model enrollment coverage (read-only)</li><li><code>ANDROIDENT-Set-EnrollmentRestrictions.ps1</code> &mdash; set the Android enrollment platform restriction (default -WhatIf)</li><li><code>ANDROIDENT-Set-ScopeTargeting.ps1</code> &mdash; build the pilot/prod + per-model scope groups (default -WhatIf)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Android Enterprise Connection & Managed Google Play Setup in Intune — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Set up Android Enterprise in Microsoft Intune: connect managed Google Play (account enterprise), configure enrollment restrictions, and create enrollment profiles for personally-owned work profile (BYOD), fully managed, corporate-owned work profile, and dedicated/COSU. Self-guided steps and PowerShell tools.",
+      "url_key": "android-enterprise-connection-managed-google-play-setup-intune-nonprofit",
+      "image": "ANDROIDENT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ANDROIDENT-GOV-001",
+      "name": "Android Enterprise Connection & Managed Google Play Setup in Intune — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Connect Intune to managed Google Play and stand up the Android Enterprise enrollment profiles (work profile, fully managed, corporate-owned work profile, dedicated/COSU) with enrollment restrictions — the Android management foundation. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stand up Android Enterprise in Intune — the right binding and enrollment profiles</h3><p>Android management in Intune starts with one thing done correctly: the <strong>managed Google Play</strong> binding and the enrollment model. Get it wrong and nothing enrolls. This solution connects Intune to <strong>managed Google Play</strong> (the account-enterprise model for tenants without Google Workspace), then stands up the <strong>enrollment profiles</strong> &mdash; personally-owned <strong>work profile</strong> (BYOD), <strong>fully managed</strong>, <strong>corporate-owned work profile</strong>, and <strong>dedicated/COSU</strong> &mdash; with the enrollment restrictions, so the right devices enroll the right way.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; the managed Google Play binding, the four Android Enterprise enrollment models and when to use each, and the Assess&rarr;Configure&rarr;Pilot&rarr;Validate&rarr;Expand model.</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise licensing, admin roles, the binding-model decision, network endpoints).</li><li><strong>Implementation Guide</strong> &mdash; connect managed Google Play, configure enrollment restrictions + platform settings, create the enrollment profiles for each model, and validate a pilot enrollment &mdash; pilot-first, each profile named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (binding healthy, each enrollment model works, restrictions enforced) plus Best Practices for a clean Android Enterprise foundation.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ANDROIDENT-Discovery.ps1</code> &mdash; assess the managed Google Play connection + Android enrollment config (read-only)</li><li><code>ANDROIDENT-New-EnrollmentProfile.ps1</code> &mdash; create a corporate-owned Android Enterprise enrollment profile (default -WhatIf)</li><li><code>ANDROIDENT-Report.ps1</code> &mdash; Android Enterprise readiness + per-model enrollment coverage (read-only)</li><li><code>ANDROIDENT-Set-EnrollmentRestrictions.ps1</code> &mdash; set the Android enrollment platform restriction (default -WhatIf)</li><li><code>ANDROIDENT-Set-ScopeTargeting.ps1</code> &mdash; build the pilot/prod + per-model scope groups (default -WhatIf)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Android Enterprise Connection & Managed Google Play Setup in Intune — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Set up Android Enterprise in Microsoft Intune: connect managed Google Play (account enterprise), configure enrollment restrictions, and create enrollment profiles for personally-owned work profile (BYOD), fully managed, corporate-owned work profile, and dedicated/COSU. Self-guided steps and PowerShell tools.",
+      "url_key": "android-enterprise-connection-managed-google-play-setup-intune-government",
+      "image": "ANDROIDENT-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "ANDROIDENT-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

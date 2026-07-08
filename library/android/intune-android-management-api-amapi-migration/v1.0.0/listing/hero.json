@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android Management API",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "(AMAPI) Migration",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Legacy Play EMM → AMAPI · Impact",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AMAPI UNKNOWN",
+    "items": [
+      "Legacy API sunset",
+      "Re-enroll unclear",
+      "End-user impact",
+      "No plan"
+    ]
+  },
+  "to": {
+    "label": "Migrated to AMAPI",
+    "stat": "Planned · validated"
+  },
+  "tagline": "ASSESS.  MIGRATE.  VALIDATE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Assess",
+      "sub": "Estate"
+    },
+    {
+      "icon": "cloud",
+      "title": "Migrate",
+      "sub": "→ AMAPI"
+    },
+    {
+      "icon": "users",
+      "title": "Impact",
+      "sub": "End-user"
+    },
+    {
+      "icon": "shield",
+      "title": "Validate",
+      "sub": "Managed"
+    }
+  ]
+}

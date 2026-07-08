@@ -1,0 +1,83 @@
+{
+  "sol": "ANDROIDGW",
+  "slug": "google-workspace-intune-third-party-emm-managed-google-play",
+  "title": "Google Workspace ↔ Intune Third-Party EMM Integration for Managed Google Play",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Integrate Google Workspace with Intune as third-party EMM — without surprise re-enrollments",
+  "problem": "If your users have <strong>Google Workspace / Cloud Identity</strong> accounts, connecting managed Google Play to Intune is a <strong>different integration</strong> than the standard account-enterprise bind &mdash; and teams rightly worry it will <strong>re-enroll existing devices</strong>. This solution walks the Google Workspace ↔ Intune <strong>third-party EMM</strong> integration end to end: the Google Admin console side (enable a third-party Android EMM provider), the Intune side, the identity/account model, and a clear read on <strong>enrollment/re-enrollment impact</strong> and end-user experience &mdash; so you enable it confidently.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Google Workspace ↔ Intune third-party EMM model (vs the account-enterprise bind), how managed Google Play is delegated, and the identity/account implications.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Google Workspace/Cloud Identity super-admin, Intune admin, the binding-model decision, endpoints).",
+    "<strong>Implementation Guide</strong> &mdash; configure the Google Admin console third-party EMM integration, complete the Intune side, validate account add + app delivery, and assess <strong>re-enrollment / end-user impact</strong> before broad rollout &mdash; pilot-first; re-enrollment behavior verified against current Microsoft/Google guidance, not assumed.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (integration active, accounts add, existing devices behave as expected) plus Best Practices; enrollment-impact claims flagged to verify in your tenant."
+  ],
+  "short": "Integrate <strong>Google Workspace / Cloud Identity with Intune as third-party EMM</strong> for managed Google Play &mdash; the Google Admin console + Intune configuration, the identity model, and a clear read on <strong>re-enrollment / end-user impact</strong> &mdash; so you enable it confidently. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Integrate Google Workspace / Cloud Identity with Intune as third-party EMM for managed Google Play — the Google Admin console + Intune configuration, the identity model, and a clear read on re-enrollment / end-user impact — so you enable it confidently.",
+  "meta_title": "Google Workspace ↔ Intune Third-Party EMM Integration for Managed Google Play",
+  "meta_description": "Integrate Google Workspace / Cloud Identity with Microsoft Intune as a third-party Android EMM for managed Google Play: the Google Admin console third-party integration, the Intune side, the identity/account model, and an assessment of re-enrollment and end-user impact (verified against current guidance). Self-guided steps and PowerShell tools.",
+  "bottom_line": "Managed Google Play delegated to Intune for your Google Workspace org &mdash; integration active, accounts adding, and the re-enrollment question answered before you flip the switch &mdash; enabled with confidence.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Google Workspace",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "↔ Intune EMM Integration",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Third-Party EMM · Re-Enroll Impact",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "RISKY TO ENABLE",
+      "items": [
+        "Re-enroll fear",
+        "Two binding models",
+        "Identity confusion",
+        "No impact read"
+      ]
+    },
+    "to": {
+      "label": "Confident integration",
+      "stat": "Assessed · active"
+    },
+    "tagline": "INTEGRATE.  ASSESS.  ENABLE.",
+    "benefits": [
+      {
+        "icon": "cloud",
+        "title": "Google Admin",
+        "sub": "3rd-party EMM"
+      },
+      {
+        "icon": "gear",
+        "title": "Intune Side",
+        "sub": "Delegated"
+      },
+      {
+        "icon": "users",
+        "title": "Identity",
+        "sub": "Account model"
+      },
+      {
+        "icon": "shield",
+        "title": "Impact",
+        "sub": "Re-enroll?"
+      }
+    ]
+  }
+}

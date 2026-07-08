@@ -1,0 +1,83 @@
+{
+  "sol": "PURVCC",
+  "slug": "microsoft-purview-communication-compliance",
+  "title": "Microsoft Purview Communication Compliance",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Detect policy-violating communications — responsibly and at scale",
+  "problem": "Regulated and sensitive workplaces must monitor communications for harassment, regulatory breaches, and data leaks &mdash; without turning into surveillance. This solution implements <strong>Communication Compliance</strong> in Purview: policies across <strong>Teams, Exchange, and connected channels</strong>, classifiers and conditions, reviewer workflows and remediation, and the <strong>privacy/role-separation guardrails</strong> &mdash; configured with HR/legal so violations are surfaced and handled responsibly.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; Communication Compliance policies, classifiers/conditions, the reviewer/remediation workflow, scope, and the privacy + role-separation model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance, the Communication Compliance roles + separation, HR/legal stakeholders, channels).",
+    "<strong>Implementation Guide</strong> &mdash; configure privacy + roles, build policies with classifiers/conditions in a pilot scope, set the reviewer workflow + remediation, tune, and expand &mdash; pilot-first; outcomes deferred to HR/legal.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (policies detecting, reviewers actioning, privacy controls on) plus Best Practices for responsible, tuned monitoring."
+  ],
+  "short": "Implement <strong>Communication Compliance</strong> &mdash; policies across Teams/Exchange/channels, classifiers/conditions, reviewer + remediation workflows, and privacy/role-separation guardrails &mdash; so violations surface and are handled responsibly. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Communication Compliance — policies across Teams/Exchange/channels, classifiers/conditions, reviewer + remediation workflows, and privacy/role-separation guardrails — so violations surface and are handled responsibly.",
+  "meta_title": "Microsoft Purview Communication Compliance",
+  "meta_description": "Implement Microsoft Purview Communication Compliance: policies across Teams, Exchange and connected channels, classifiers and conditions, reviewer and remediation workflows, and privacy/role-separation guardrails — for responsible detection of harassment, regulatory, and data-leak violations. Self-guided steps and PowerShell tools; outcomes deferred to HR/legal.",
+  "bottom_line": "Communication risk surfaced responsibly &mdash; policies tuned to real violations, reviewers actioning, privacy and role separation enforced &mdash; oversight without surveillance, HR/legal in control.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Communication",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Compliance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Policies · Reviewers · Privacy",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNMONITORED COMMS",
+      "items": [
+        "Harassment/leaks",
+        "Regulatory breach",
+        "No reviewer flow",
+        "Privacy risk"
+      ]
+    },
+    "to": {
+      "label": "Responsible oversight",
+      "stat": "Tuned · guarded"
+    },
+    "tagline": "POLICY.  DETECT.  REVIEW.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Policies",
+        "sub": "Classifiers"
+      },
+      {
+        "icon": "users",
+        "title": "Reviewers",
+        "sub": "Workflow"
+      },
+      {
+        "icon": "gear",
+        "title": "Remediate",
+        "sub": "Actioned"
+      },
+      {
+        "icon": "lock",
+        "title": "Privacy",
+        "sub": "Separation"
+      }
+    ]
+  }
+}

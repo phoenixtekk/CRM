@@ -1,0 +1,83 @@
+{
+  "sol": "PURVIRM",
+  "slug": "microsoft-purview-insider-risk-management",
+  "title": "Microsoft Purview Insider Risk Management",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Detect and manage insider risk — with privacy and HR/legal guardrails",
+  "problem": "The riskiest data movement often comes from inside &mdash; departing employees, inadvertent leaks, policy violations. This solution implements <strong>Insider Risk Management</strong> in Purview: the policy templates (data theft by departing users, leaks, policy violations), <strong>indicators and triggers</strong>, the connectors (HR, physical access) where used, alert triage and <strong>case management</strong>, and the <strong>privacy guardrails</strong> (pseudonymization, role separation) &mdash; configured with HR/legal so insider risk is detected and handled responsibly.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; Insider Risk policy templates, indicators/triggers, connectors, alerts&rarr;cases, the privacy-by-design controls, and the HR/legal engagement model.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance, the Insider Risk roles + strict role separation, HR/legal/privacy stakeholders, connectors).",
+    "<strong>Implementation Guide</strong> &mdash; configure privacy settings + roles, build policies from templates, set indicators/triggers, wire connectors, tune alerts, and operate case management &mdash; pilot-first; case actions/HR outcomes deferred to HR/legal.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (policies detecting, alerts triaged, privacy controls on) plus Best Practices; investigative and disciplinary determinations remain with HR/legal."
+  ],
+  "short": "Implement <strong>Insider Risk Management</strong> &mdash; policy templates, indicators/triggers, connectors, alert triage + case management, and the privacy guardrails &mdash; so insider risk is detected and handled responsibly with HR/legal. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Insider Risk Management — policy templates, indicators/triggers, connectors, alert triage + case management, and the privacy guardrails — so insider risk is detected and handled responsibly with HR/legal.",
+  "meta_title": "Microsoft Purview Insider Risk Management",
+  "meta_description": "Implement Microsoft Purview Insider Risk Management: policy templates (data theft by departing users, leaks, policy violations), indicators and triggers, HR/physical connectors, alert triage and case management, and privacy guardrails (pseudonymization, role separation). Self-guided steps and PowerShell tools; investigative/HR determinations deferred to HR/legal.",
+  "bottom_line": "Insider risk detected and handled responsibly &mdash; policies tuned, alerts triaged into cases, privacy-by-design enforced, HR/legal in the loop &mdash; the inside threat managed without overreach.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Insider Risk",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Management",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Policies · Indicators · Cases · Privacy",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "BLIND TO INSIDERS",
+      "items": [
+        "Departing-user theft",
+        "Inadvertent leaks",
+        "No cases",
+        "Privacy risk"
+      ]
+    },
+    "to": {
+      "label": "Insider risk managed",
+      "stat": "Detected · guarded"
+    },
+    "tagline": "CONFIGURE.  DETECT.  INVESTIGATE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Policies",
+        "sub": "Templates"
+      },
+      {
+        "icon": "chart",
+        "title": "Indicators",
+        "sub": "Triggers"
+      },
+      {
+        "icon": "gear",
+        "title": "Cases",
+        "sub": "Triage"
+      },
+      {
+        "icon": "lock",
+        "title": "Privacy",
+        "sub": "Guardrails"
+      }
+    ]
+  }
+}

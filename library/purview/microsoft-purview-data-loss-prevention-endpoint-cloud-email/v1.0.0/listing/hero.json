@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Purview DLP",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Endpoint · Cloud · Email",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Info Types · Policies · Simulate→Enforce",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DATA WALKS OUT",
+    "items": [
+      "No DLP",
+      "Leaks via email/USB",
+      "False positives",
+      "No incidents"
+    ]
+  },
+  "to": {
+    "label": "Leaks blocked",
+    "stat": "Simulated · tuned"
+  },
+  "tagline": "CLASSIFY.  SIMULATE.  ENFORCE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Info Types",
+      "sub": "Classifiers"
+    },
+    {
+      "icon": "lock",
+      "title": "Policies",
+      "sub": "All locations"
+    },
+    {
+      "icon": "chart",
+      "title": "Simulate",
+      "sub": "Low-FP"
+    },
+    {
+      "icon": "gear",
+      "title": "Incidents",
+      "sub": "Handled"
+    }
+  ]
+}

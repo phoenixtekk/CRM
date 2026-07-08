@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Communication",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Compliance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Policies · Reviewers · Privacy",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNMONITORED COMMS",
+    "items": [
+      "Harassment/leaks",
+      "Regulatory breach",
+      "No reviewer flow",
+      "Privacy risk"
+    ]
+  },
+  "to": {
+    "label": "Responsible oversight",
+    "stat": "Tuned · guarded"
+  },
+  "tagline": "POLICY.  DETECT.  REVIEW.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Policies",
+      "sub": "Classifiers"
+    },
+    {
+      "icon": "users",
+      "title": "Reviewers",
+      "sub": "Workflow"
+    },
+    {
+      "icon": "gear",
+      "title": "Remediate",
+      "sub": "Actioned"
+    },
+    {
+      "icon": "lock",
+      "title": "Privacy",
+      "sub": "Separation"
+    }
+  ]
+}

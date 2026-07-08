@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Data Security Posture",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Management (DSPM & AI)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Posture · Risk · Copilot/AI Exposure",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNSEEN DATA RISK",
+    "items": [
+      "Oversharing",
+      "Unlabeled data",
+      "AI exposure",
+      "No posture"
+    ]
+  },
+  "to": {
+    "label": "Posture measured",
+    "stat": "Surfaced · reduced"
+  },
+  "tagline": "SURFACE.  ACT.  REDUCE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Posture",
+      "sub": "DSPM"
+    },
+    {
+      "icon": "shield",
+      "title": "Risk",
+      "sub": "Sensitive"
+    },
+    {
+      "icon": "chip",
+      "title": "DSPM for AI",
+      "sub": "Copilot"
+    },
+    {
+      "icon": "lock",
+      "title": "Reduce",
+      "sub": "Oversharing"
+    }
+  ]
+}

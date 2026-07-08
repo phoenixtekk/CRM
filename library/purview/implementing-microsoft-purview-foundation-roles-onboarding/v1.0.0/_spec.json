@@ -1,0 +1,83 @@
+{
+  "sol": "PURVIMP",
+  "slug": "implementing-microsoft-purview-foundation-roles-onboarding",
+  "title": "Implementing Microsoft Purview — Foundation, Roles & Onboarding",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Stand up Microsoft Purview the right way — foundation, roles, and onboarding",
+  "problem": "Microsoft Purview is powerful and sprawling &mdash; and most orgs turn on pieces ad hoc without a foundation. This solution <strong>implements Purview</strong> properly: enable and organize the <strong>Purview portal</strong>, establish the <strong>role groups and RBAC</strong> (least-privilege for compliance/records/insider-risk/eDiscovery/audit), turn on the core data services (Content &amp; Activity Explorer, unified audit), baseline <strong>Compliance Manager</strong>, connect the in-scope workloads, and set the operating foundation the rest of the Purview capabilities build on.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Purview portal and capability map, the role/RBAC model, the core data services (Content/Activity Explorer, audit), Compliance Manager, and the phased-adoption approach.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (compliance licensing E3/E5, admin roles, in-scope workloads, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; organize the portal, establish role groups + least-privilege RBAC, enable Content/Activity Explorer + unified audit, baseline Compliance Manager, connect workloads, and validate the foundation &mdash; pilot-first, each role/scope named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (roles scoped, data services on, Compliance Manager baselined) plus Best Practices + a capability-adoption roadmap; licensing dependencies flagged to verify."
+  ],
+  "short": "<strong>Implement Microsoft Purview</strong> properly &mdash; the portal, least-privilege role/RBAC model, core data services (Content/Activity Explorer, unified audit), Compliance Manager baseline, and workload connections &mdash; the foundation the rest of Purview builds on. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Microsoft Purview properly — the portal, least-privilege role/RBAC model, core data services (Content/Activity Explorer, unified audit), Compliance Manager baseline, and workload connections — the foundation the rest of Purview builds on.",
+  "meta_title": "Implementing Microsoft Purview — Foundation, Roles & Onboarding",
+  "meta_description": "Implement Microsoft Purview: organize the Purview portal, establish least-privilege role groups and RBAC, enable core data services (Content and Activity Explorer, unified audit), baseline Compliance Manager, and connect in-scope workloads. The foundation for the full Purview capability set. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A Microsoft Purview foundation done right &mdash; portal organized, roles least-privileged, core services on, Compliance Manager baselined &mdash; so every Purview capability you add lands on solid ground.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Implementing",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Microsoft Purview",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Foundation · Roles/RBAC · Onboarding",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "AD-HOC PURVIEW",
+      "items": [
+        "No foundation",
+        "Broad roles",
+        "Services off",
+        "No baseline"
+      ]
+    },
+    "to": {
+      "label": "Solid foundation",
+      "stat": "Scoped · baselined"
+    },
+    "tagline": "ORGANIZE.  SCOPE.  BASELINE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Portal",
+        "sub": "Organized"
+      },
+      {
+        "icon": "key",
+        "title": "RBAC",
+        "sub": "Least-priv"
+      },
+      {
+        "icon": "chart",
+        "title": "Services",
+        "sub": "Explorer/audit"
+      },
+      {
+        "icon": "gear",
+        "title": "Compliance Mgr",
+        "sub": "Baselined"
+      }
+    ]
+  }
+}

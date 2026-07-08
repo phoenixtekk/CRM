@@ -1,0 +1,83 @@
+{
+  "sol": "PURVAUDIT",
+  "slug": "microsoft-purview-audit-standard-premium-investigations",
+  "title": "Microsoft Purview Audit (Standard & Premium) — Unified Audit Log & Investigations",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Turn on and use Purview Audit for real investigations",
+  "problem": "When something happens, you need the audit trail &mdash; and most orgs discover too late that it wasn't configured. This solution implements <strong>Purview Audit</strong>: ensure <strong>unified audit logging</strong> is on, understand <strong>Standard vs Premium</strong> (retention, high-value events like MailItemsAccessed, longer retention policies), build <strong>audit search + investigation</strong> workflows, wire retention policies and SIEM export, and validate you can answer the questions an incident will ask &mdash; before it asks them.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; unified audit log, Audit Standard vs Premium (events, retention, high-value logs), search/investigation, retention policies, and SIEM export.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing for Premium, Audit roles, SIEM/export targets, retention requirements).",
+    "<strong>Implementation Guide</strong> &mdash; confirm/enable unified audit, configure Audit Premium + retention policies, build search + investigation runbooks, wire export, and validate an investigation scenario &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (auditing on, high-value events captured, investigations answerable) plus Best Practices for investigation-ready auditing."
+  ],
+  "short": "Implement <strong>Purview Audit</strong> &mdash; unified audit logging on, Standard vs Premium understood, retention policies + SIEM export configured, and search/investigation runbooks &mdash; so you can answer what an incident asks. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Purview Audit — unified audit logging on, Standard vs Premium understood, retention policies + SIEM export configured, and search/investigation runbooks — so you can answer what an incident asks.",
+  "meta_title": "Microsoft Purview Audit (Standard & Premium) — Unified Audit Log & Investigations",
+  "meta_description": "Implement Microsoft Purview Audit: ensure unified audit logging is enabled, configure Audit Premium (high-value events, longer retention policies), build audit search and investigation runbooks, and wire SIEM export — so audit trails are investigation-ready. Self-guided steps and PowerShell tools.",
+  "bottom_line": "An audit trail ready before you need it &mdash; unified logging on, high-value events captured and retained, investigation runbooks in hand &mdash; so an incident finds answers, not gaps.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Purview Audit",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Standard & Premium",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Unified Log · Retention · Investigations",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "NO AUDIT TRAIL",
+      "items": [
+        "Logging off",
+        "Short retention",
+        "Missing events",
+        "Blind incidents"
+      ]
+    },
+    "to": {
+      "label": "Investigation-ready",
+      "stat": "Captured · retained"
+    },
+    "tagline": "ENABLE.  RETAIN.  INVESTIGATE.",
+    "benefits": [
+      {
+        "icon": "chart",
+        "title": "Unified Log",
+        "sub": "On"
+      },
+      {
+        "icon": "cloud",
+        "title": "Premium",
+        "sub": "High-value"
+      },
+      {
+        "icon": "gear",
+        "title": "Retention",
+        "sub": "Policies"
+      },
+      {
+        "icon": "shield",
+        "title": "Investigate",
+        "sub": "Runbooks"
+      }
+    ]
+  }
+}

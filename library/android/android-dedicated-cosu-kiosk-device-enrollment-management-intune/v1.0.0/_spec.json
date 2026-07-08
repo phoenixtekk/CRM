@@ -1,0 +1,83 @@
+{
+  "sol": "ANDROIDCOSU",
+  "slug": "android-dedicated-cosu-kiosk-device-enrollment-management-intune",
+  "title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Deploy locked-down Android dedicated/kiosk devices at scale",
+  "problem": "Frontline, warehouse, retail, and clinical <strong>dedicated Android devices</strong> need to boot straight into one app or a curated set &mdash; no personal use, no wandering. This solution stands up Android <strong>dedicated (COSU)</strong> devices in Intune: enrollment via <strong>token / QR / NFC / zero-touch</strong>, the <strong>kiosk</strong> profile (single-app or multi-app), device restrictions, managed Google Play app delivery, and remote management &mdash; so a fleet of purpose-built devices deploys consistently and stays locked down.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the dedicated/COSU model, enrollment methods (token/QR/NFC/zero-touch), single- vs multi-app kiosk, and the OEM/rugged considerations at pattern level.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise + managed Google Play, admin roles, device hardware, network).",
+    "<strong>Implementation Guide</strong> &mdash; create the dedicated enrollment profile, build the kiosk (single/multi-app) + restrictions, assign managed Google Play apps, enroll via the chosen method, and validate the locked-down experience &mdash; pilot-first, each profile named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (devices boot to kiosk, only allowed apps, remote-manageable) plus Best Practices for a scalable dedicated-device fleet."
+  ],
+  "short": "Stand up Android <strong>dedicated (COSU) / kiosk</strong> devices in Intune &mdash; token/QR/NFC/zero-touch enrollment, single/multi-app kiosk, restrictions, managed Google Play apps, and remote management &mdash; so purpose-built devices deploy consistently and stay locked down. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Stand up Android dedicated (COSU) / kiosk devices in Intune — token/QR/NFC/zero-touch enrollment, single/multi-app kiosk, restrictions, managed Google Play apps, and remote management — so purpose-built devices deploy consistently and stay locked down.",
+  "meta_title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
+  "meta_description": "Deploy Android dedicated (COSU) / kiosk devices in Microsoft Intune: enrollment via token/QR/NFC/zero-touch, single-app and multi-app kiosk profiles, device restrictions, managed Google Play app delivery, and remote management. Self-guided steps and PowerShell tools.",
+  "bottom_line": "A fleet of purpose-built Android devices that boot straight to the job &mdash; enrolled at scale, locked to their apps, remotely managed &mdash; consistent and tamper-resistant.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android Dedicated (COSU)",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Kiosk Enrollment & Management",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Token/QR/NFC · Single/Multi-App Kiosk",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNLOCKED DEVICES",
+      "items": [
+        "Personal use",
+        "Inconsistent setup",
+        "No kiosk lock",
+        "Hard to scale"
+      ]
+    },
+    "to": {
+      "label": "Locked-down fleet",
+      "stat": "Kiosk · managed"
+    },
+    "tagline": "ENROLL.  LOCK.  MANAGE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Enrollment",
+        "sub": "Token/QR/NFC"
+      },
+      {
+        "icon": "lock",
+        "title": "Kiosk",
+        "sub": "Single/multi"
+      },
+      {
+        "icon": "shield",
+        "title": "Restrictions",
+        "sub": "Locked"
+      },
+      {
+        "icon": "cloud",
+        "title": "Apps",
+        "sub": "Managed Play"
+      }
+    ]
+  }
+}

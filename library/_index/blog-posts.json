@@ -1283,5 +1283,85 @@
     "post_id": 12339,
     "status": "draft",
     "category_id": 411
+  },
+  "android-enterprise-connection-managed-google-play-setup-intune": {
+    "post_id": 12341,
+    "status": "draft",
+    "category_id": 411
+  },
+  "google-workspace-intune-third-party-emm-managed-google-play": {
+    "post_id": 12343,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-android-management-api-amapi-migration": {
+    "post_id": 12345,
+    "status": "draft",
+    "category_id": 411
+  },
+  "android-enterprise-enrollment-troubleshooting-google-account-amapi": {
+    "post_id": 12347,
+    "status": "draft",
+    "category_id": 411
+  },
+  "android-dedicated-cosu-kiosk-device-enrollment-management-intune": {
+    "post_id": 12349,
+    "status": "draft",
+    "category_id": 411
+  },
+  "android-enterprise-app-management-managed-google-play-intune": {
+    "post_id": 12351,
+    "status": "draft",
+    "category_id": 411
+  },
+  "implementing-microsoft-purview-foundation-roles-onboarding": {
+    "post_id": 12353,
+    "status": "draft",
+    "category_id": 411
+  },
+  "managing-microsoft-purview-operations-governance": {
+    "post_id": 12355,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-sensitivity-retention-labels-implementation": {
+    "post_id": 12357,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-data-loss-prevention-endpoint-cloud-email": {
+    "post_id": 12359,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-data-lifecycle-records-management": {
+    "post_id": 12361,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-insider-risk-management": {
+    "post_id": 12363,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-communication-compliance": {
+    "post_id": 12365,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-audit-standard-premium-investigations": {
+    "post_id": 12367,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-data-security-posture-management-dspm-ai": {
+    "post_id": 12369,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-purview-data-governance-data-map-catalog": {
+    "post_id": 12371,
+    "status": "draft",
+    "category_id": 411
   }
 }

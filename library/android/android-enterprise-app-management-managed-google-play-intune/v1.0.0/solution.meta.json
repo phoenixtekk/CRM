@@ -1,0 +1,41 @@
+{
+  "slug": "android-enterprise-app-management-managed-google-play-intune",
+  "title": "Android Enterprise App Management via Managed Google Play (Intune)",
+  "category": "Android",
+  "category_slug": "android",
+  "sol_code": "ANDROIDAPP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ANDROIDAPP-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ANDROIDAPP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ANDROIDAPP-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ANDROIDAPP-Solution.pdf",
+    "ANDROIDAPP-Scripts.zip"
+  ],
+  "hero": "ANDROIDAPP-hero.png"
+}
+

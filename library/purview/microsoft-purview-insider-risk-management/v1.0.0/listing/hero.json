@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Insider Risk",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Management",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Policies · Indicators · Cases · Privacy",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND TO INSIDERS",
+    "items": [
+      "Departing-user theft",
+      "Inadvertent leaks",
+      "No cases",
+      "Privacy risk"
+    ]
+  },
+  "to": {
+    "label": "Insider risk managed",
+    "stat": "Detected · guarded"
+  },
+  "tagline": "CONFIGURE.  DETECT.  INVESTIGATE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Policies",
+      "sub": "Templates"
+    },
+    {
+      "icon": "chart",
+      "title": "Indicators",
+      "sub": "Triggers"
+    },
+    {
+      "icon": "gear",
+      "title": "Cases",
+      "sub": "Triage"
+    },
+    {
+      "icon": "lock",
+      "title": "Privacy",
+      "sub": "Guardrails"
+    }
+  ]
+}

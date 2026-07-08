@@ -1,0 +1,83 @@
+{
+  "sol": "PURVOPS",
+  "slug": "managing-microsoft-purview-operations-governance",
+  "title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Run Microsoft Purview as an operated, measured compliance program",
+  "problem": "Turning Purview on is the start; <strong>running it</strong> is where value (or drift) happens. This solution is the Purview <strong>operating model</strong>: a policy lifecycle (design&rarr;simulate&rarr;enforce&rarr;review), <strong>Compliance Manager</strong> improvement-action cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic <strong>role and access reviews</strong>, change control, and the KPIs/dashboards that prove the program is healthy &mdash; so Purview stays effective, tuned, and defensible over time.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the Purview operating model: policy lifecycle, Compliance Manager cadence, alerting/triage, reporting, role reviews, and change control.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (an implemented Purview foundation, roles, reporting data sources, governance stakeholders).",
+    "<strong>Operating Guide</strong> &mdash; stand up the policy lifecycle + change control, run the Compliance Manager improvement cadence, wire alert triage + reporting, schedule role/access reviews, and operate the KPI dashboards &mdash; each runbook named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Runbook Library + validation gates</strong> (policies reviewed, alerts triaged, roles reviewed, KPIs trending) plus Best Practices for a durable, measured Purview program."
+  ],
+  "short": "Run Microsoft Purview as an <strong>operated program</strong> &mdash; policy lifecycle, Compliance Manager cadence, alert triage + reporting, role/access reviews, change control, and KPI dashboards &mdash; so Purview stays effective and defensible over time. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Run Microsoft Purview as an operated program — policy lifecycle, Compliance Manager cadence, alert triage + reporting, role/access reviews, change control, and KPI dashboards — so Purview stays effective and defensible over time.",
+  "meta_title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+  "meta_description": "Operate Microsoft Purview going forward: policy lifecycle (design/simulate/enforce/review), Compliance Manager improvement cadence, alert triage and reporting across DLP/labels/insider-risk/audit, periodic role and access reviews, change control, and KPI dashboards. Self-guided framework and PowerShell tools.",
+  "bottom_line": "Microsoft Purview run as a living program &mdash; policies reviewed on a cadence, alerts triaged, roles reviewed, and KPIs proving health &mdash; effective, tuned, and defensible year over year.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Managing Microsoft Purview",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Operations & Governance",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Policy Lifecycle · Cadence · KPIs",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "SET & FORGOT",
+      "items": [
+        "Policy drift",
+        "No cadence",
+        "Alerts ignored",
+        "Stale roles"
+      ]
+    },
+    "to": {
+      "label": "Operated program",
+      "stat": "Tuned · measured"
+    },
+    "tagline": "REVIEW.  TRIAGE.  IMPROVE.",
+    "benefits": [
+      {
+        "icon": "gear",
+        "title": "Lifecycle",
+        "sub": "Policies"
+      },
+      {
+        "icon": "chart",
+        "title": "Cadence",
+        "sub": "Compliance Mgr"
+      },
+      {
+        "icon": "shield",
+        "title": "Reviews",
+        "sub": "Roles/access"
+      },
+      {
+        "icon": "cloud",
+        "title": "KPIs",
+        "sub": "Dashboards"
+      }
+    ]
+  }
+}

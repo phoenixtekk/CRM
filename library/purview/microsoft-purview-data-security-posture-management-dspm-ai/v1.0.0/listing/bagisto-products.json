@@ -1,0 +1,87 @@
+{
+  "solution": {
+    "slug": "microsoft-purview-data-security-posture-management-dspm-ai",
+    "title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+    "category_path": [
+      "Purview"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-PURVDSPM-COMM-001",
+      "name": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "Implement <strong>Data Security Posture Management (DSPM &amp; DSPM for AI)</strong> &mdash; surface sensitive-data risk, act on recommendations, and get visibility + controls over what Copilot/AI can access &mdash; so data-security posture is measured and improved. Self-guided, tested, a fraction of consulting cost.",
+      "description": "<h3>See and reduce your data-security risk — including AI/Copilot exposure</h3><p>You can't reduce data risk you can't see &mdash; and generative AI (Copilot) makes over-shared, unlabeled data newly dangerous. This solution implements <strong>Data Security Posture Management (DSPM)</strong> in Purview: the DSPM overview and recommendations, surfacing <strong>sensitive-data risk</strong> across the estate, and <strong>DSPM for AI</strong> &mdash; visibility into what AI/Copilot can access, prompts/responses touching sensitive data, and the policies to reduce oversharing before and during AI adoption &mdash; so data-security posture is measured and improved.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; DSPM (posture, recommendations, sensitive-data risk) and DSPM for AI (Copilot/AI data-access visibility, sensitive prompts/responses, oversharing controls).</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing, DSPM roles, labels/DLP foundation, Copilot/AI in scope, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; enable DSPM, review posture + act on recommendations, turn on DSPM for AI, assess AI data-access + oversharing, and apply reduction policies (labels/DLP/access) &mdash; pilot-first, each action named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (risk surfaced, recommendations actioned, AI oversharing reduced) plus Best Practices for continuous posture improvement; AI-feature availability flagged to verify.</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Data-security risk made visible and reduced &mdash; posture measured, recommendations actioned, and Copilot/AI oversharing surfaced and controlled &mdash; safer data before and during AI adoption.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDSPM-AIExposure.ps1</code> &mdash; report AI/Copilot interaction activity and SharePoint/OneDrive oversharing (read-only)</li><li><code>PURVDSPM-Discovery.ps1</code> &mdash; inventory the controls that feed DSPM posture (read-only)</li><li><code>PURVDSPM-Reduce-Oversharing.ps1</code> &mdash; create/adjust oversharing-reduction controls, pilot-in-simulation-first (SAFE: -WhatIf by default)</li><li><code>PURVDSPM-ScopeConfig.ps1</code> &mdash; confirm DSPM scope, sign-in, auditing, and the features that feed posture (read-only)</li><li><code>PURVDSPM-Tracker.ps1</code> &mdash; snapshot DSPM recommendations and reduction-policy states for tracking (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+      "meta_description": "Implement Microsoft Purview Data Security Posture Management: DSPM posture and recommendations, sensitive-data risk across the estate, and DSPM for AI (visibility into Copilot/AI data access, sensitive prompts/responses, and oversharing-reduction policies). Self-guided steps and PowerShell tools; AI-feature availability verified in tenant.",
+      "url_key": "microsoft-purview-data-security-posture-management-dspm-ai-commercial",
+      "image": "PURVDSPM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDSPM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDSPM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVDSPM-NPO-001",
+      "name": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Implement Data Security Posture Management (DSPM & DSPM for AI) — surface sensitive-data risk, act on recommendations, and get visibility + controls over what Copilot/AI can access — so data-security posture is measured and improved. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>See and reduce your data-security risk — including AI/Copilot exposure</h3><p>You can't reduce data risk you can't see &mdash; and generative AI (Copilot) makes over-shared, unlabeled data newly dangerous. This solution implements <strong>Data Security Posture Management (DSPM)</strong> in Purview: the DSPM overview and recommendations, surfacing <strong>sensitive-data risk</strong> across the estate, and <strong>DSPM for AI</strong> &mdash; visibility into what AI/Copilot can access, prompts/responses touching sensitive data, and the policies to reduce oversharing before and during AI adoption &mdash; so data-security posture is measured and improved.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; DSPM (posture, recommendations, sensitive-data risk) and DSPM for AI (Copilot/AI data-access visibility, sensitive prompts/responses, oversharing controls).</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing, DSPM roles, labels/DLP foundation, Copilot/AI in scope, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; enable DSPM, review posture + act on recommendations, turn on DSPM for AI, assess AI data-access + oversharing, and apply reduction policies (labels/DLP/access) &mdash; pilot-first, each action named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (risk surfaced, recommendations actioned, AI oversharing reduced) plus Best Practices for continuous posture improvement; AI-feature availability flagged to verify.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDSPM-AIExposure.ps1</code> &mdash; report AI/Copilot interaction activity and SharePoint/OneDrive oversharing (read-only)</li><li><code>PURVDSPM-Discovery.ps1</code> &mdash; inventory the controls that feed DSPM posture (read-only)</li><li><code>PURVDSPM-Reduce-Oversharing.ps1</code> &mdash; create/adjust oversharing-reduction controls, pilot-in-simulation-first (SAFE: -WhatIf by default)</li><li><code>PURVDSPM-ScopeConfig.ps1</code> &mdash; confirm DSPM scope, sign-in, auditing, and the features that feed posture (read-only)</li><li><code>PURVDSPM-Tracker.ps1</code> &mdash; snapshot DSPM recommendations and reduction-policy states for tracking (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Implement Microsoft Purview Data Security Posture Management: DSPM posture and recommendations, sensitive-data risk across the estate, and DSPM for AI (visibility into Copilot/AI data access, sensitive prompts/responses, and oversharing-reduction policies). Self-guided steps and PowerShell tools; AI-feature availability verified in tenant.",
+      "url_key": "microsoft-purview-data-security-posture-management-dspm-ai-nonprofit",
+      "image": "PURVDSPM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDSPM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDSPM-Scripts.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-PURVDSPM-GOV-001",
+      "name": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Implement Data Security Posture Management (DSPM & DSPM for AI) — surface sensitive-data risk, act on recommendations, and get visibility + controls over what Copilot/AI can access — so data-security posture is measured and improved. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>See and reduce your data-security risk — including AI/Copilot exposure</h3><p>You can't reduce data risk you can't see &mdash; and generative AI (Copilot) makes over-shared, unlabeled data newly dangerous. This solution implements <strong>Data Security Posture Management (DSPM)</strong> in Purview: the DSPM overview and recommendations, surfacing <strong>sensitive-data risk</strong> across the estate, and <strong>DSPM for AI</strong> &mdash; visibility into what AI/Copilot can access, prompts/responses touching sensitive data, and the policies to reduce oversharing before and during AI adoption &mdash; so data-security posture is measured and improved.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li><strong>Solution Overview</strong> &mdash; DSPM (posture, recommendations, sensitive-data risk) and DSPM for AI (Copilot/AI data-access visibility, sensitive prompts/responses, oversharing controls).</li><li><strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (licensing, DSPM roles, labels/DLP foundation, Copilot/AI in scope, stakeholders).</li><li><strong>Implementation Guide</strong> &mdash; enable DSPM, review posture + act on recommendations, turn on DSPM for AI, assess AI data-access + oversharing, and apply reduction policies (labels/DLP/access) &mdash; pilot-first, each action named.</li><li><strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).</li><li><strong>Validation gates</strong> (risk surfaced, recommendations actioned, AI oversharing reduced) plus Best Practices for continuous posture improvement; AI-feature availability flagged to verify.</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>PURVDSPM-AIExposure.ps1</code> &mdash; report AI/Copilot interaction activity and SharePoint/OneDrive oversharing (read-only)</li><li><code>PURVDSPM-Discovery.ps1</code> &mdash; inventory the controls that feed DSPM posture (read-only)</li><li><code>PURVDSPM-Reduce-Oversharing.ps1</code> &mdash; create/adjust oversharing-reduction controls, pilot-in-simulation-first (SAFE: -WhatIf by default)</li><li><code>PURVDSPM-ScopeConfig.ps1</code> &mdash; confirm DSPM scope, sign-in, auditing, and the features that feed posture (read-only)</li><li><code>PURVDSPM-Tracker.ps1</code> &mdash; snapshot DSPM recommendations and reduction-policy states for tracking (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Implement Microsoft Purview Data Security Posture Management: DSPM posture and recommendations, sensitive-data risk across the estate, and DSPM for AI (visibility into Copilot/AI data access, sensitive prompts/responses, and oversharing-reduction policies). Self-guided steps and PowerShell tools; AI-feature availability verified in tenant.",
+      "url_key": "microsoft-purview-data-security-posture-management-dspm-ai-government",
+      "image": "PURVDSPM-hero.png",
+      "downloads": [
+        {
+          "title": "Implementation Guide (PDF)",
+          "source_type": "file",
+          "source": "PURVDSPM-Solution.pdf"
+        },
+        {
+          "title": "PowerShell Scripts (ZIP)",
+          "source_type": "file",
+          "source": "PURVDSPM-Scripts.zip"
+        }
+      ]
+    }
+  ]
+}

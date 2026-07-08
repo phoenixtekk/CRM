@@ -1,0 +1,83 @@
+{
+  "sol": "PURVDLP",
+  "slug": "microsoft-purview-data-loss-prevention-endpoint-cloud-email",
+  "title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Stop sensitive data leaving — across endpoints, cloud, and email",
+  "problem": "Sensitive data walks out through email, cloud sharing, and USB/print on endpoints. This solution implements <strong>Purview DLP</strong> across the estate: <strong>sensitive information types</strong> (built-in, custom, EDM, trainable classifiers), DLP policies for <strong>Exchange, SharePoint, OneDrive, Teams, and Endpoint (devices)</strong>, policy tips + user overrides, incident/alert handling, and tuning &mdash; all piloted in <strong>simulation</strong> before enforcement, so leaks are blocked with minimal false positives.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the DLP model: sensitive info types + classifiers, policy locations (email/cloud/Teams/Endpoint), policy tips/overrides, and the simulate&rarr;enforce journey.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance for endpoint DLP, roles, onboarded devices, classification, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; define sensitive info types/classifiers, build DLP policies per location in <strong>simulation</strong>, tune false positives, add policy tips + overrides, wire incident handling, then enforce &mdash; pilot-first, each policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (leaks blocked, false-positive rate low, incidents handled) plus Best Practices for ongoing DLP tuning across endpoint/cloud/email."
+  ],
+  "short": "Implement <strong>Purview DLP</strong> across endpoint, cloud, and email &mdash; sensitive info types + classifiers, policies for Exchange/SPO/OneDrive/Teams/Endpoint (simulated first), policy tips, and incident handling &mdash; so leaks are blocked with minimal false positives. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement Purview DLP across endpoint, cloud, and email — sensitive info types + classifiers, policies for Exchange/SPO/OneDrive/Teams/Endpoint (simulated first), policy tips, and incident handling — so leaks are blocked with minimal false positives.",
+  "meta_title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+  "meta_description": "Implement Microsoft Purview DLP: sensitive information types (built-in, custom, EDM, trainable classifiers), DLP policies across Exchange, SharePoint, OneDrive, Teams and Endpoint (devices), policy tips and overrides, incident handling, and tuning — simulated before enforcement. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Sensitive data kept in &mdash; DLP across email, cloud, Teams, and endpoints, proven in simulation, tuned for low false positives, incidents handled &mdash; leaks blocked without blocking the business.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Purview DLP",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Endpoint · Cloud · Email",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Info Types · Policies · Simulate→Enforce",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "DATA WALKS OUT",
+      "items": [
+        "No DLP",
+        "Leaks via email/USB",
+        "False positives",
+        "No incidents"
+      ]
+    },
+    "to": {
+      "label": "Leaks blocked",
+      "stat": "Simulated · tuned"
+    },
+    "tagline": "CLASSIFY.  SIMULATE.  ENFORCE.",
+    "benefits": [
+      {
+        "icon": "shield",
+        "title": "Info Types",
+        "sub": "Classifiers"
+      },
+      {
+        "icon": "lock",
+        "title": "Policies",
+        "sub": "All locations"
+      },
+      {
+        "icon": "chart",
+        "title": "Simulate",
+        "sub": "Low-FP"
+      },
+      {
+        "icon": "gear",
+        "title": "Incidents",
+        "sub": "Handled"
+      }
+    ]
+  }
+}

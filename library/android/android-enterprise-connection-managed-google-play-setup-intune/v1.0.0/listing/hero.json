@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android Enterprise",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Managed Google Play Setup",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Binding · Work Profile · Fully Managed · COSU",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NOTHING ENROLLS",
+    "items": [
+      "No Play binding",
+      "Wrong model",
+      "No restrictions",
+      "Enroll failures"
+    ]
+  },
+  "to": {
+    "label": "Android foundation",
+    "stat": "Bound · enrolling"
+  },
+  "tagline": "BIND.  PROFILE.  ENROLL.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Managed Play",
+      "sub": "Bound"
+    },
+    {
+      "icon": "device",
+      "title": "Profiles",
+      "sub": "4 models"
+    },
+    {
+      "icon": "shield",
+      "title": "Restrictions",
+      "sub": "Enforced"
+    },
+    {
+      "icon": "gear",
+      "title": "Pilot",
+      "sub": "Validated"
+    }
+  ]
+}

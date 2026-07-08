@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android App Management",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "via Managed Google Play",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Store · Private · Web · Config",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "APP CHAOS",
+    "items": [
+      "Ad-hoc apps",
+      "No config",
+      "Uncontrolled updates",
+      "Wrong targeting"
+    ]
+  },
+  "to": {
+    "label": "Governed apps",
+    "stat": "Configured · controlled"
+  },
+  "tagline": "APPROVE.  CONFIGURE.  ASSIGN.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "App Types",
+      "sub": "Store/priv/web"
+    },
+    {
+      "icon": "gear",
+      "title": "Config",
+      "sub": "Managed"
+    },
+    {
+      "icon": "shield",
+      "title": "Protection",
+      "sub": "App policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Updates",
+      "sub": "Tracks"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Sensitivity & Retention",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Labels — Implementation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Taxonomy · Protection · Auto-Label",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNLABELED CONTENT",
+    "items": [
+      "No taxonomy",
+      "No protection",
+      "No retention",
+      "User backlash"
+    ]
+  },
+  "to": {
+    "label": "Classified & governed",
+    "stat": "Protected · retained"
+  },
+  "tagline": "DESIGN.  PUBLISH.  AUTO-LABEL.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Sensitivity",
+      "sub": "Protection"
+    },
+    {
+      "icon": "gear",
+      "title": "Taxonomy",
+      "sub": "Published"
+    },
+    {
+      "icon": "chart",
+      "title": "Auto-Label",
+      "sub": "Simulated"
+    },
+    {
+      "icon": "cloud",
+      "title": "Retention",
+      "sub": "Adaptive scope"
+    }
+  ]
+}

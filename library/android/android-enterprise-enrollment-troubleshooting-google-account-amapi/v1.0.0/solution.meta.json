@@ -1,0 +1,41 @@
+{
+  "slug": "android-enterprise-enrollment-troubleshooting-google-account-amapi",
+  "title": "Android Enterprise Enrollment Troubleshooting — Managed Google Play, Web Enrollment & \"Can't Add a Google Account\" (AMAPI)",
+  "category": "Android",
+  "category_slug": "android",
+  "sol_code": "ANDROIDDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-07",
+  "updated": "2026-07-07",
+  "published_at": "2026-07-07",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ANDROIDDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ANDROIDDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ANDROIDDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ANDROIDDX-Solution.pdf",
+    "ANDROIDDX-Scripts.zip"
+  ],
+  "hero": "ANDROIDDX-hero.png"
+}
+

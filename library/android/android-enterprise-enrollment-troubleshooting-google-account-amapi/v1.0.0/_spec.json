@@ -1,0 +1,83 @@
+{
+  "sol": "ANDROIDDX",
+  "slug": "android-enterprise-enrollment-troubleshooting-google-account-amapi",
+  "title": "Android Enterprise Enrollment Troubleshooting — Managed Google Play, Web Enrollment & \"Can't Add a Google Account\" (AMAPI)",
+  "category": "Android",
+  "category_slug": "android",
+  "commercial_price": 2495.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-android.md",
+  "author_notes": [
+    "Effort tier: T3 (enterprise Microsoft Android implementation).",
+    "Intune admin center / Microsoft Graph / managed Google Play / Google Admin console authored at exact detail from Microsoft & Google public docs. The Android Management API (AMAPI) transition, web/account-driven enrollment, and whether a change triggers device RE-ENROLLMENT are actively evolving — cited or flagged 'verify against current Microsoft guidance / your tenant', never asserted from memory or invented. OEM (Samsung Knox/Zebra) + third-party apps at the pattern level. Automation is PowerShell (Graph); no hardcoded credentials/secrets. No client names."
+  ],
+  "hook": "Fix Android enrollment failures — especially \"can't add a Google account\"",
+  "problem": "Android Enterprise enrollment fails in maddening ways: the device won't <strong>add a Google account</strong> to Gmail or the device, <strong>web / account-driven enrollment</strong> works in dev but not prod, or enrollment stalls after an <strong>AMAPI</strong> migration. This solution is a layered <strong>enrollment diagnostic playbook</strong>: the managed Google Play binding health, the enrollment-method path, network/endpoint reachability, identity and account-add flow, dev-vs-prod configuration differences, and post-AMAPI-migration issues &mdash; a symptom&rarr;root-cause tree that gets devices enrolling and accounts adding.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; the enrollment moving parts (managed Google Play binding, enrollment method, network endpoints, identity/account add, AMAPI vs legacy) and the diagnostic method.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (Intune + Android Enterprise, admin roles, a reproducible test device, network visibility).",
+    "<strong>Diagnostic Playbook</strong> &mdash; a symptom&rarr;root-cause decision tree: <em>can't add a Google account</em>, web/account-driven enrollment works in dev but fails in prod, binding/connector errors, endpoint/proxy blocks, and post-AMAPI-migration failures &mdash; with the exact checks and fixes at each node.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Microsoft Graph / Intune automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (device enrolls, Google account adds, apps deliver) plus Best Practices for reducing enrollment-failure ticket volume; version-specific AMAPI behavior flagged to verify."
+  ],
+  "short": "A layered <strong>Android Enterprise enrollment troubleshooting</strong> playbook &mdash; managed Google Play binding, enrollment-method path, endpoints, the <em>can't-add-a-Google-account</em> failure, dev-vs-prod differences, and post-AMAPI issues &mdash; a symptom-to-root-cause tree that gets devices enrolling. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "A layered Android Enterprise enrollment troubleshooting playbook — managed Google Play binding, enrollment-method path, endpoints, the can't-add-a-Google-account failure, dev-vs-prod differences, and post-AMAPI issues — a symptom-to-root-cause tree that gets devices enrolling.",
+  "meta_title": "Android Enterprise Enrollment Troubleshooting — \"Can't Add a Google Account\" & AMAPI",
+  "meta_description": "Troubleshoot Android Enterprise enrollment in Intune: managed Google Play binding health, enrollment-method path, network/endpoint reachability, the 'can't add a Google account' failure, web/account-driven enrollment dev-vs-prod differences, and post-AMAPI-migration issues — a symptom-to-root-cause decision tree. Self-guided steps and PowerShell tools.",
+  "bottom_line": "Android enrollments that stall &mdash; accounts that won't add, dev-works-prod-fails, post-AMAPI breakage &mdash; diagnosed by a repeatable decision tree to root cause, so devices enroll and Google accounts add.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Android Enrollment",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Troubleshooting (AMAPI)",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Can't-Add-Account · Web Enroll · Dev↔Prod",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "WON'T ENROLL",
+      "items": [
+        "No Google account",
+        "Dev works, prod fails",
+        "Endpoint blocks",
+        "Post-AMAPI breakage"
+      ]
+    },
+    "to": {
+      "label": "Enrolling",
+      "stat": "Root-caused · fixed"
+    },
+    "tagline": "REPRODUCE.  ISOLATE.  RESOLVE.",
+    "benefits": [
+      {
+        "icon": "device",
+        "title": "Account Add",
+        "sub": "Flow"
+      },
+      {
+        "icon": "cloud",
+        "title": "Binding",
+        "sub": "Health"
+      },
+      {
+        "icon": "gear",
+        "title": "Endpoints",
+        "sub": "Reachable"
+      },
+      {
+        "icon": "chart",
+        "title": "Decision Tree",
+        "sub": "Root-cause"
+      }
+    ]
+  }
+}

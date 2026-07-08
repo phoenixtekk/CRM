@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Implementing",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Microsoft Purview",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Foundation · Roles/RBAC · Onboarding",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AD-HOC PURVIEW",
+    "items": [
+      "No foundation",
+      "Broad roles",
+      "Services off",
+      "No baseline"
+    ]
+  },
+  "to": {
+    "label": "Solid foundation",
+    "stat": "Scoped · baselined"
+  },
+  "tagline": "ORGANIZE.  SCOPE.  BASELINE.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Portal",
+      "sub": "Organized"
+    },
+    {
+      "icon": "key",
+      "title": "RBAC",
+      "sub": "Least-priv"
+    },
+    {
+      "icon": "chart",
+      "title": "Services",
+      "sub": "Explorer/audit"
+    },
+    {
+      "icon": "gear",
+      "title": "Compliance Mgr",
+      "sub": "Baselined"
+    }
+  ]
+}

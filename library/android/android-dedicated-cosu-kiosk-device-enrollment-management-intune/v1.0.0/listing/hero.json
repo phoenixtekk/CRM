@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android Dedicated (COSU)",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Kiosk Enrollment & Management",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Token/QR/NFC · Single/Multi-App Kiosk",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNLOCKED DEVICES",
+    "items": [
+      "Personal use",
+      "Inconsistent setup",
+      "No kiosk lock",
+      "Hard to scale"
+    ]
+  },
+  "to": {
+    "label": "Locked-down fleet",
+    "stat": "Kiosk · managed"
+  },
+  "tagline": "ENROLL.  LOCK.  MANAGE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Enrollment",
+      "sub": "Token/QR/NFC"
+    },
+    {
+      "icon": "lock",
+      "title": "Kiosk",
+      "sub": "Single/multi"
+    },
+    {
+      "icon": "shield",
+      "title": "Restrictions",
+      "sub": "Locked"
+    },
+    {
+      "icon": "cloud",
+      "title": "Apps",
+      "sub": "Managed Play"
+    }
+  ]
+}

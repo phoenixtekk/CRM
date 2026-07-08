@@ -1,0 +1,83 @@
+{
+  "sol": "PURVLABEL",
+  "slug": "microsoft-purview-sensitivity-retention-labels-implementation",
+  "title": "Microsoft Purview Sensitivity & Retention Labels — Implementation",
+  "category": "Purview",
+  "category_slug": "purview",
+  "commercial_price": 2995.0,
+  "date": "2026-07-07",
+  "gr_file": "global-requirements-purview.md",
+  "author_notes": [
+    "Effort tier: T4 (enterprise Microsoft Purview implementation).",
+    "Microsoft Purview portal / Security & Compliance PowerShell / Graph authored at exact detail from Microsoft public docs; Purview features are heavily licensing-/plan-dependent (E5 / E5 Compliance; some preview) and the portal is evolving — availability + paths cited or flagged 'verify your licensing/tenant', never invented. Regulatory/records/legal determinations (retention schedules, file plans, legal holds, insider-risk case actions) deferred to compliance/records/privacy/legal — solutions give the technical method + evidence, not the determination; policies piloted in simulation/test before enforcement. Automation is PowerShell (S&C PowerShell / Graph); no secrets in code. No client names."
+  ],
+  "hook": "Implement sensitivity and retention labels that actually protect and govern content",
+  "problem": "Labels are how Purview classifies, protects, and governs content &mdash; but a bad taxonomy or careless auto-labeling breaks user trust fast. This solution <strong>implements sensitivity and retention labels</strong> end to end: a workable <strong>label taxonomy</strong>, <strong>sensitivity labels</strong> with protection (encryption, marking, access), publishing policies, <strong>auto-labeling</strong> (client and service-side), and <strong>retention labels</strong> + label policies with adaptive scopes &mdash; piloted in simulation before enforcement, so content is classified and governed without disrupting users.",
+  "whats_inside": [
+    "<strong>Solution Overview</strong> &mdash; sensitivity vs retention labels, taxonomy design, protection options, publishing, client vs service-side auto-labeling, and adaptive scopes.",
+    "<strong>Requirements Guide</strong> &mdash; each prerequisite with how to <em>verify</em>/<em>implement</em> (E5/E5 Compliance for auto-labeling, roles, classification scheme, stakeholders).",
+    "<strong>Implementation Guide</strong> &mdash; design the taxonomy, build + publish sensitivity labels (protection/marking), configure auto-labeling in <strong>simulation</strong> first, build retention labels + policies with adaptive scopes, validate, then enforce &mdash; pilot-first, each label/policy named.",
+    "<strong>5 PowerShell scripts</strong> &mdash; Discovery, Configuration/Remediation, Validation, Reporting, and a scope/health helper &mdash; authentic Security & Compliance PowerShell / Graph automation (read-only or -WhatIf by default; no credentials in code).",
+    "<strong>Validation gates</strong> (labels published, auto-label simulated then enforced, retention applied) plus Best Practices; records determinations deferred to records/legal."
+  ],
+  "short": "Implement <strong>sensitivity &amp; retention labels</strong> &mdash; taxonomy, sensitivity labels with protection + publishing, auto-labeling (simulated first), and retention labels + policies with adaptive scopes &mdash; so content is classified and governed without disrupting users. Self-guided, tested, a fraction of consulting cost.",
+  "short_plain": "Implement sensitivity & retention labels — taxonomy, sensitivity labels with protection + publishing, auto-labeling (simulated first), and retention labels + policies with adaptive scopes — so content is classified and governed without disrupting users.",
+  "meta_title": "Microsoft Purview Sensitivity & Retention Labels — Implementation",
+  "meta_description": "Implement Microsoft Purview sensitivity and retention labels: label taxonomy, sensitivity labels with protection (encryption/marking/access) and publishing policies, client and service-side auto-labeling (simulation first), and retention labels and policies with adaptive scopes. Self-guided steps and PowerShell tools; records determinations deferred to records/legal.",
+  "bottom_line": "Content classified and governed by design &mdash; a sound label taxonomy, sensitivity protection published, auto-labeling proven in simulation, retention labels applied by adaptive scope &mdash; protection without the user revolt.",
+  "hero": {
+    "title_lines": [
+      {
+        "text": "Sensitivity & Retention",
+        "color": "white",
+        "size": "main"
+      },
+      {
+        "text": "Labels — Implementation",
+        "color": "green",
+        "size": "main"
+      },
+      {
+        "text": "Taxonomy · Protection · Auto-Label",
+        "color": "blue",
+        "size": "sub"
+      }
+    ],
+    "from": {
+      "label": "UNLABELED CONTENT",
+      "items": [
+        "No taxonomy",
+        "No protection",
+        "No retention",
+        "User backlash"
+      ]
+    },
+    "to": {
+      "label": "Classified & governed",
+      "stat": "Protected · retained"
+    },
+    "tagline": "DESIGN.  PUBLISH.  AUTO-LABEL.",
+    "benefits": [
+      {
+        "icon": "lock",
+        "title": "Sensitivity",
+        "sub": "Protection"
+      },
+      {
+        "icon": "gear",
+        "title": "Taxonomy",
+        "sub": "Published"
+      },
+      {
+        "icon": "chart",
+        "title": "Auto-Label",
+        "sub": "Simulated"
+      },
+      {
+        "icon": "cloud",
+        "title": "Retention",
+        "sub": "Adaptive scope"
+      }
+    ]
+  }
+}

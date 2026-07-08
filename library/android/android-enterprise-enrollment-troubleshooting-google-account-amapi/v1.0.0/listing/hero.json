@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Android Enrollment",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Troubleshooting (AMAPI)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Can't-Add-Account · Web Enroll · Dev↔Prod",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "WON'T ENROLL",
+    "items": [
+      "No Google account",
+      "Dev works, prod fails",
+      "Endpoint blocks",
+      "Post-AMAPI breakage"
+    ]
+  },
+  "to": {
+    "label": "Enrolling",
+    "stat": "Root-caused · fixed"
+  },
+  "tagline": "REPRODUCE.  ISOLATE.  RESOLVE.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Account Add",
+      "sub": "Flow"
+    },
+    {
+      "icon": "cloud",
+      "title": "Binding",
+      "sub": "Health"
+    },
+    {
+      "icon": "gear",
+      "title": "Endpoints",
+      "sub": "Reachable"
+    },
+    {
+      "icon": "chart",
+      "title": "Decision Tree",
+      "sub": "Root-cause"
+    }
+  ]
+}
