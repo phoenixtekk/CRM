@@ -3,7 +3,7 @@
 Run these tests after implementation and on a cadence thereafter. Each test has a **procedure**, a
 **pass** signal, and a **fail** signal. Two conditions are **expected states, not failures** and are
 called out explicitly: an **empty/baseline estate** (little is classified yet) and **ingestion lag**
-(audit just enabled). The automated gate is **`CLSREPORT-Validation.ps1`**; the manual tests confirm the
+(audit just enabled). The automated gate is **`CLSREPORT-Validate.ps1`**; the manual tests confirm the
 portal experience.
 
 > **Golden rule:** this solution reports; it does not classify. A low coverage number is a **finding to
@@ -21,11 +21,11 @@ portal experience.
 - **Procedure:** `Get-AdminAuditLogConfig | Select UnifiedAuditLogIngestionEnabled`, or read the
   Discovery output.
 - **Pass:** `True`.
-- **Fail:** `False` → enable via `CLSREPORT-Set-Reporting.ps1 -EnableAudit -Commit` (change-controlled),
+- **Fail:** `False` → enable via `CLSREPORT-Configure.ps1 -EnableAudit -Commit` (change-controlled),
   then re-test after the pipeline populates.
 
 ## Test 3 — Least-privilege role membership is correct
-- **Procedure:** `CLSREPORT-Validation.ps1` (or `Get-RoleGroupMember "Content Explorer List Viewer"` and
+- **Procedure:** `CLSREPORT-Validate.ps1` (or `Get-RoleGroupMember "Content Explorer List Viewer"` and
   `... "Content Explorer Content Viewer"`).
 - **Pass:** The intended analysts are in **List Viewer**; only the **minimal approved set** is in
   **Content Viewer**; no broad/unexpected members.
@@ -65,7 +65,7 @@ portal experience.
   refreshed.
 
 ## Test 8 — Scheduled refresh + health check
-- **Procedure:** Confirm the scheduled `CLSREPORT-Report.ps1` and `CLSREPORT-Scope-Health.ps1` runs
+- **Procedure:** Confirm the scheduled `CLSREPORT-Report.ps1` and `CLSREPORT-ScopeHealth.ps1` runs
   produced fresh output and no drift/lag alerts.
 - **Pass:** Fresh exports on cadence; health check clean (no unexpected Content Viewer members, audit
   current, tag inventory stable).

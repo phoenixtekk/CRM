@@ -13,7 +13,7 @@ are an Endpoint DLP capability (Global Requirement 1).
 **Why:** Without the right plan the **Devices** location and the browser/domain restriction settings are
 not available; the policy cannot be enforced.
 **Verify:** M365 admin center → `Billing → Licenses` shows the E5/compliance SKU; run
-`DLPBROWSER-Assess-Readiness.ps1` — it reads `subscribedSkus` via Graph and flags whether an Endpoint
+`DLPBROWSER-Discovery.ps1` — it reads `subscribedSkus` via Graph and flags whether an Endpoint
 DLP–bearing SKU is present. Confirm **Data Loss Prevention → Endpoint DLP settings** is visible in the
 Purview portal (verify path).
 **Implement:** Assign/purchase the required licensing before configuring. Where it is not licensed,
@@ -37,7 +37,7 @@ Security & Compliance PowerShell, which hosts the `*-DlpCompliancePolicy` / `*-D
 admin account (Global Requirement 3).
 **Why:** Assessment, policy authoring/validation, and reporting run through these.
 **Verify:** `Get-Module -ListAvailable ExchangeOnlineManagement, Microsoft.Graph.Authentication`;
-`Connect-IPPSSession` and `Connect-MgGraph` both succeed. `DLPBROWSER-Assess-Readiness.ps1` installs
+`Connect-IPPSSession` and `Connect-MgGraph` both succeed. `DLPBROWSER-Discovery.ps1` installs
 missing modules and reports connectivity.
 **Implement:** `Install-Module ExchangeOnlineManagement -Scope CurrentUser` and
 `Install-Module Microsoft.Graph -Scope CurrentUser`; confirm modern-auth sign-in.
@@ -49,7 +49,7 @@ missing modules and reports connectivity.
 are required.
 **Why:** The readiness and device-health scripts read licensing and managed-device data through Graph;
 keeping to read scopes matches the safe-by-default posture.
-**Verify:** Run `DLPBROWSER-Get-EndpointHealth.ps1` (read-only) — it connects with the read scopes and
+**Verify:** Run `DLPBROWSER-ScopeHealth.ps1` (read-only) — it connects with the read scopes and
 reports if consent is missing.
 **Implement:** Consent at first `Connect-MgGraph`; if admin consent is required, a Global Administrator
 approves the scopes once in Entra (`Identity → Applications → Enterprise applications`).
@@ -61,7 +61,7 @@ DLP (and therefore browser DLP) can see or control it (Global Requirement 4).
 **Why:** Browser & network DLP is enforced on **onboarded devices** only — an un-onboarded device is
 invisible to the policy.
 **Verify:** Purview portal → `Settings → Device onboarding` (verify path) shows onboarded devices; run
-`DLPBROWSER-Get-EndpointHealth.ps1` — it reports managed-device counts and onboarding readiness signals.
+`DLPBROWSER-ScopeHealth.ps1` — it reports managed-device counts and onboarding readiness signals.
 **Implement:** Onboard the pilot-ring devices first (portal → Device onboarding; script/GPO/Intune per
 Microsoft's onboarding method). Roll out broadly only after the pilot validates.
 
@@ -73,7 +73,7 @@ extension needed). This is what lets Purview inspect browser upload activity.
 without it those browsers are effectively blind and should be treated via the **unallowed browsers**
 control.
 **Verify:** On a pilot device, confirm the extension is installed and enabled in Chrome/Firefox
-(`chrome://extensions` / Firefox add-ons); `DLPBROWSER-Get-EndpointHealth.ps1` reports the extension as a
+(`chrome://extensions` / Firefox add-ons); `DLPBROWSER-ScopeHealth.ps1` reports the extension as a
 readiness checklist item (deployment is enterprise-managed, verify in your MDM/GPO).
 **Implement:** Deploy the extension via **Group Policy / Intune / enterprise browser management** per
 Microsoft's guidance (Purview portal → Endpoint DLP settings references the extension). Verify the
@@ -99,7 +99,7 @@ file-sharing/SaaS domains — that will populate the **sensitive service domain 
 **Why:** The domain group is what the upload restriction acts on; an incomplete list leaves egress paths
 uncontrolled.
 **Verify:** Review egress signals (Activity Explorer, and any Defender for Cloud Apps / proxy discovery)
-to see where uploads actually go; `DLPBROWSER-Report-Activity.ps1` summarizes recent endpoint egress
+to see where uploads actually go; `DLPBROWSER-Report.ps1` summarizes recent endpoint egress
 from the audit log to inform the list.
 **Implement:** Compile the domain list with security/stakeholders; enter it as a sensitive service domain
 group in Purview portal → **Endpoint DLP settings → Browser and domain restrictions to sensitive data**

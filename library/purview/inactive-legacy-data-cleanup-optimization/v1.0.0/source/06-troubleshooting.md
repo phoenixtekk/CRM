@@ -55,7 +55,7 @@ not enforce deletion** — troubleshoot before, not after, content is removed.
 
 **The hold inventory looks incomplete.**
 - Litigation-hold enumeration needs **Exchange Online** connected (`Connect-ExchangeOnline`) — if it is not,
-  `DLCCLEAN-Discovery.ps1` / `-Validate.ps1` say so and skip that class. Connect it for a complete check.
+  `DLCCLEAN-Discovery.ps1` / `-DLCCLEAN-Validate.ps1` say so and skip that class. Connect it for a complete check.
 - eDiscovery **case holds** need `Get-CaseHoldPolicy` (Records/eDiscovery role). Confirm your role and re-run.
 - If any hold state is **uncertain**, treat it as held and **stop** until legal confirms (Req 2.4).
 

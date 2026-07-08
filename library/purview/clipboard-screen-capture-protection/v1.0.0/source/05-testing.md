@@ -66,7 +66,7 @@ evidence trail (and SIEM forward, if used) is present.
 |---|---|---|
 | S1 | Nothing enforced outside the ring | Users/devices **outside** `DLP Pilot Ring – Stage1` experience no clipboard/screen-capture blocking during pilot. |
 | S2 | Instant rollback | Setting the enforced policy back to **simulation mode** immediately removes enforcement with no data change (verify a previously-blocked copy/screenshot now only simulates). |
-| S3 | Scripts are safe-by-default | `DLPCLIP-Config.ps1` / `DLPCLIP-Set-Scope.ps1` run **without** `-Commit` make no change (`-WhatIf` output only); discovery/validate/report scripts are read-only. |
+| S3 | Scripts are safe-by-default | `DLPCLIP-Configure.ps1` / `DLPCLIP-ScopeHealth.ps1` run **without** `-Commit` make no change (`-WhatIf` output only); discovery/validate/report scripts are read-only. |
 
 ---
 

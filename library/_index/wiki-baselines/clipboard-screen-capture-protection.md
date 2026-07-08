@@ -258,7 +258,7 @@ if missing**.
   and reporting. Onboarding is the non-negotiable prerequisite for clipboard/screen-capture control.
 - **How to verify:** **Purview portal → Settings → Device onboarding → Devices** shows onboarded devices;
   confirm target devices appear and are reporting. Confirm each device meets the minimum OS build documented
-  by Microsoft for the clipboard/screen-capture activities. Script #3 (`DLPCLIP-EndpointReadiness.ps1`)
+  by Microsoft for the clipboard/screen-capture activities. Script #3 (`DLPCLIP-Discovery.ps1`)
   surfaces the readiness signals.
 - **How to implement if missing:** Onboard devices via the Purview device-onboarding package, Intune, or Group
   Policy; confirm the minimum OS build and any required AV/agent state per Microsoft docs before scoping the
@@ -526,7 +526,7 @@ device activity, with **no** enforcement and (optionally) with policy tips shown
     `TestWithoutNotifications`.
 12. **Verify with the config helper** (delivered script #2, `-WhatIf` by default):
     ```powershell
-    .\DLPCLIP-Config.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
+    .\DLPCLIP-Configure.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
         -SensitiveTypes 'Credit Card Number' -MinCount 1 -Confidence High -WhatIf
     ```
     The helper previews the `New-DlpCompliancePolicy` / `New-DlpComplianceRule` calls (Devices location,
@@ -579,7 +579,7 @@ with true positives (sensitive-content copy/screenshot) still detected.
 17. **Scope to the pilot ring.** Set `DLP Pilot Ring – Stage1` (users) and the pilot devices as the
     **included** scope on the policy (all other users/devices excluded for now):
     ```powershell
-    .\DLPCLIP-Set-Scope.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
+    .\DLPCLIP-ScopeHealth.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
         -IncludeGroup 'DLP Pilot Ring - Stage1' -WhatIf
     ```
 18. **Move the ring to enforcement.** Change **Policy mode** from *simulation* to **Turn it on / Enforce**.
@@ -703,7 +703,7 @@ evidence trail (and SIEM forward, if used) is present.
 |---|---|---|
 | S1 | Nothing enforced outside the ring | Users/devices **outside** `DLP Pilot Ring – Stage1` experience no clipboard/screen-capture blocking during pilot. |
 | S2 | Instant rollback | Setting the enforced policy back to **simulation mode** immediately removes enforcement with no data change (verify a previously-blocked copy/screenshot now only simulates). |
-| S3 | Scripts are safe-by-default | `DLPCLIP-Config.ps1` / `DLPCLIP-Set-Scope.ps1` run **without** `-Commit` make no change (`-WhatIf` output only); discovery/validate/report scripts are read-only. |
+| S3 | Scripts are safe-by-default | `DLPCLIP-Configure.ps1` / `DLPCLIP-ScopeHealth.ps1` run **without** `-Commit` make no change (`-WhatIf` output only); discovery/validate/report scripts are read-only. |
 
 ---
 

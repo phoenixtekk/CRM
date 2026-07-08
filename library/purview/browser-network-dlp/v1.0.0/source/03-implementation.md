@@ -17,11 +17,11 @@ and are reused verbatim.
 > **simulation/test** and tuned before Warn/Block enforcement.
 
 ## Step 1 — Assess the tenant (Assess)
-1. Run `DLPBROWSER-Assess-Readiness.ps1 -CsvPath .\DlpBrowserReadiness.csv`. Read-only, it captures:
+1. Run `DLPBROWSER-Discovery.ps1 -CsvPath .\DlpBrowserReadiness.csv`. Read-only, it captures:
    whether an **Endpoint DLP–bearing SKU** is present (E5 / E5 Compliance / E5 IP&G), existing
    **Devices-scoped DLP policies** and their **mode** (enabled vs test/simulation), and S&C
    PowerShell + Graph connectivity. It writes `Browser & Network DLP – Egress – Assess`.
-2. Run `DLPBROWSER-Get-EndpointHealth.ps1 -CsvPath .\EndpointHealth.csv` to record **device onboarding**
+2. Run `DLPBROWSER-ScopeHealth.ps1 -CsvPath .\EndpointHealth.csv` to record **device onboarding**
    readiness and the **browser-extension** checklist for the pilot ring.
 3. **Pass/fail:** you can state that Endpoint DLP is available on the plan, how many devices are
    onboard-ready, and whether any Devices DLP policy already exists (to avoid conflicts).
@@ -31,7 +31,7 @@ and are reused verbatim.
    an upload "sensitive" (Requirement 2.7). Record them.
 2. Compile the **destination list** for `Unsanctioned & Personal Cloud – Domain Group` — personal cloud
    storage and unsanctioned file-sharing/SaaS domains (Requirement 2.8). Use
-   `DLPBROWSER-Report-Activity.ps1` to see where uploads actually go today.
+   `DLPBROWSER-Report.ps1` to see where uploads actually go today.
 3. Decide the **unallowed browsers** stance (which browsers to steer users away from where the extension
    isn't present) and the **action ladder** per destination group: **Audit** first (simulation),
    then **Warn** (block with override + business justification), then **Block** for the highest-risk
@@ -42,7 +42,7 @@ and are reused verbatim.
 
 ## Step 3 — Confirm onboarding and browser coverage (Configure)
 1. Ensure the pilot-ring devices are **onboarded to Purview**: Purview portal → `Settings → Device
-   onboarding` (verify path). Re-run `DLPBROWSER-Get-EndpointHealth.ps1` until the ring reports onboarded.
+   onboarding` (verify path). Re-run `DLPBROWSER-ScopeHealth.ps1` until the ring reports onboarded.
 2. Deploy the **Microsoft Purview browser extension** to **Chrome** and **Firefox** on the ring (Group
    Policy / Intune / enterprise browser management, per Microsoft's guidance). **Microsoft Edge** uses
    its **native** integration — no extension. Verify the extension is enabled on a pilot device.
@@ -63,12 +63,12 @@ and are reused verbatim.
    the unallowed-browsers list matches the design.
 
 ## Step 5 — Author the DLP policy in simulation/test mode (Configure, pilot-first)
-1. Dry-run first: `DLPBROWSER-New-DlpPolicy.ps1 -WhatIf`. With `-WhatIf` (the default) it makes **no
+1. Dry-run first: `DLPBROWSER-Configure.ps1 -WhatIf`. With `-WhatIf` (the default) it makes **no
    changes** — it prints the exact `New-DlpCompliancePolicy` / `New-DlpComplianceRule` it *would* run,
    including the policy name `Browser & Network DLP – Devices – Pilot`, the **Devices** location scoped
    to the pilot ring, the rule `Restrict Upload to Unsanctioned Domains – Rule` conditioned on your
    labels/SITs, and the **test mode**.
-2. Create in simulation: `DLPBROWSER-New-DlpPolicy.ps1 -Commit -Mode TestWithoutNotifications
+2. Create in simulation: `DLPBROWSER-Configure.ps1 -Commit -Mode TestWithoutNotifications
    -Sits '<SIT names>'` (or `-SensitivityLabels '<label GUIDs>'`). The policy is created **in test mode**
    — it evaluates and records matches but **does not block or notify** users. The endpoint upload
    restriction is realized through the domain group's action (Step 4) once the policy scopes it; keep the
@@ -85,8 +85,8 @@ and are reused verbatim.
    attempt an upload of sensitive test content to a domain in the group.
 2. Review what the policy **would have** acted on: Purview portal → the policy's **simulation/overview**
    (verify path) and `Data classification → Activity explorer`; run
-   `DLPBROWSER-Test-Validation.ps1` to confirm the policy mode, rules, and match counts, and
-   `DLPBROWSER-Report-Activity.ps1` to summarize endpoint egress events.
+   `DLPBROWSER-Validate.ps1` to confirm the policy mode, rules, and match counts, and
+   `DLPBROWSER-Report.ps1` to summarize endpoint egress events.
 3. **Tune:** adjust the domain group membership, the labels/SITs condition, and the action ladder to
    remove false positives and cover missed destinations. Re-run until the simulation matches the intent.
 4. **Pass/fail:** simulation shows the expected uploads matched with an acceptable false-positive rate;
@@ -105,11 +105,11 @@ and are reused verbatim.
 1. Escalate the action ladder: in Endpoint DLP settings, move the domain group's upload action from
    **Audit** to **Warn (block with override)**, and to **Block** for the highest-risk destinations, per
    the approved design. Move the policy from test to enforce:
-   `DLPBROWSER-New-DlpPolicy.ps1 -Enforce` (wraps `Set-DlpCompliancePolicy -Mode Enable`) — dry-run
+   `DLPBROWSER-Configure.ps1 -Enforce` (wraps `Set-DlpCompliancePolicy -Mode Enable`) — dry-run
    `-WhatIf` first.
 2. **Broaden device scope** from the pilot ring to the full onboarded set in stages, re-validating at
    each ring.
-3. Keep evidence flowing — `DLPBROWSER-Report-Activity.ps1` on a schedule — and hand off adjacent lanes
+3. Keep evidence flowing — `DLPBROWSER-Report.ps1` on a schedule — and hand off adjacent lanes
    (USB/removable media, print, clipboard/screen capture, Exchange/SharePoint/OneDrive/Teams DLP, cloud
    apps via Defender for Cloud Apps) to their dedicated solutions.
 

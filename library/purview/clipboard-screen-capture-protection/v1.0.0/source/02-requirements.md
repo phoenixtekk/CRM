@@ -48,7 +48,7 @@ if missing**.
   and reporting. Onboarding is the non-negotiable prerequisite for clipboard/screen-capture control.
 - **How to verify:** **Purview portal → Settings → Device onboarding → Devices** shows onboarded devices;
   confirm target devices appear and are reporting. Confirm each device meets the minimum OS build documented
-  by Microsoft for the clipboard/screen-capture activities. Script #3 (`DLPCLIP-EndpointReadiness.ps1`)
+  by Microsoft for the clipboard/screen-capture activities. Script #3 (`DLPCLIP-Discovery.ps1`)
   surfaces the readiness signals.
 - **How to implement if missing:** Onboard devices via the Purview device-onboarding package, Intune, or Group
   Policy; confirm the minimum OS build and any required AV/agent state per Microsoft docs before scoping the

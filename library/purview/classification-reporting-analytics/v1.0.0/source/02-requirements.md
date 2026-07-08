@@ -41,7 +41,7 @@ PowerShell) shows membership of the two role groups; `CLSREPORT-Discovery.ps1` r
 **How to implement if missing:** Add the analyst group (or named individuals) to the least-privilege
 role group under change control — **`Content Explorer List Viewer`** for coverage reporting, and
 **`Content Explorer Content Viewer`** only for those who must inspect the sensitive items. Handled by
-`CLSREPORT-Set-Reporting.ps1` (`-WhatIf` first).
+`CLSREPORT-Configure.ps1` (`-WhatIf` first).
 
 ## 2.3 A named reporting-analyst group and role separation
 **Description:** An Entra security group **`Purview Classification Reporting - Analysts`** that holds the
@@ -64,7 +64,7 @@ reporting is empty or partial.
 PowerShell) returns **True**; a `Search-UnifiedAuditLog` for a recent window returns rows.
 `CLSREPORT-Discovery.ps1` reports the ingestion state.
 **How to implement if missing:** Enable it (`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled
-$true`) under change control — surfaced by `CLSREPORT-Set-Reporting.ps1` (`-Commit` gated). Allow time
+$true`) under change control — surfaced by `CLSREPORT-Configure.ps1` (`-Commit` gated). Allow time
 for the pipeline to backfill before judging coverage.
 
 ## 2.5 Existing classification signal to report on (in-scope data — category GR4)
@@ -74,7 +74,7 @@ workloads (Exchange, SharePoint, OneDrive, Teams), for the explorers to have any
 **Why required:** Reporting is only as rich as the classification underneath it; a tenant with no
 published labels or SIT detections will show near-empty explorers.
 **How to verify:** `Get-Label`, `Get-ComplianceTag`, `Get-DlpSensitiveInformationType` return the
-expected inventory; Content Explorer shows non-zero counts. `CLSREPORT-Scope-Health.ps1` inventories
+expected inventory; Content Explorer shows non-zero counts. `CLSREPORT-ScopeHealth.ps1` inventories
 what is available to report on.
 **How to implement if missing:** Classification design/roll-out is a **separate** solution — this one
 reports on the result. If the estate is largely unclassified, note that the coverage numbers are a
@@ -90,7 +90,7 @@ approved.
 **How to verify:** A named pilot scope and approver exist; the initial role grant targets a small pilot
 analyst set before the full group.
 **How to implement if missing:** Define the pilot scope and change window before running
-`CLSREPORT-Set-Reporting.ps1 -Commit`.
+`CLSREPORT-Configure.ps1 -Commit`.
 
 ## 2.7 PowerShell toolchain — S&C PowerShell + Exchange Online + Graph (category GR3)
 **Description:** A workstation with the **ExchangeOnlineManagement** module (provides both

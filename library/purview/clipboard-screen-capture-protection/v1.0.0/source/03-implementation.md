@@ -103,7 +103,7 @@ device activity, with **no** enforcement and (optionally) with policy tips shown
     `TestWithoutNotifications`.
 12. **Verify with the config helper** (delivered script #2, `-WhatIf` by default):
     ```powershell
-    .\DLPCLIP-Config.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
+    .\DLPCLIP-Configure.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
         -SensitiveTypes 'Credit Card Number' -MinCount 1 -Confidence High -WhatIf
     ```
     The helper previews the `New-DlpCompliancePolicy` / `New-DlpComplianceRule` calls (Devices location,
@@ -156,7 +156,7 @@ with true positives (sensitive-content copy/screenshot) still detected.
 17. **Scope to the pilot ring.** Set `DLP Pilot Ring – Stage1` (users) and the pilot devices as the
     **included** scope on the policy (all other users/devices excluded for now):
     ```powershell
-    .\DLPCLIP-Set-Scope.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
+    .\DLPCLIP-ScopeHealth.ps1 -PolicyName 'DLP - Endpoint Clipboard+Screen - Simulation' `
         -IncludeGroup 'DLP Pilot Ring - Stage1' -WhatIf
     ```
 18. **Move the ring to enforcement.** Change **Policy mode** from *simulation* to **Turn it on / Enforce**.

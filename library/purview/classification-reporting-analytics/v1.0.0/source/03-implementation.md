@@ -46,7 +46,7 @@ Consoles used:
    (Requirements 2.4 / 2.5) before expecting meaningful reports.
 
 ### Step 2 — Confirm the classification signal to report on
-1. Run **`CLSREPORT-Scope-Health.ps1`**. It lists the **published** sensitivity labels (`Get-Label`),
+1. Run **`CLSREPORT-ScopeHealth.ps1`**. It lists the **published** sensitivity labels (`Get-Label`),
    retention labels (`Get-ComplianceTag`), and SITs (`Get-DlpSensitiveInformationType`) — the tag set
    Content Explorer can break down by — and flags health signals (audit lag, empty inventory).
 2. **Pass/fail gate:** a non-empty inventory of tags to report on, or an explicit note that the estate is
@@ -77,14 +77,14 @@ Consoles used:
 ## Phase 3 — Configure (governed; pilot first)
 
 ### Step 5 — Enable unified audit log ingestion (if not already on)
-1. Preview first: **`CLSREPORT-Set-Reporting.ps1 -EnableAudit -WhatIf`** — shows the intended change.
-2. When approved under change control: **`CLSREPORT-Set-Reporting.ps1 -EnableAudit -Commit`**. This runs
+1. Preview first: **`CLSREPORT-Configure.ps1 -EnableAudit -WhatIf`** — shows the intended change.
+2. When approved under change control: **`CLSREPORT-Configure.ps1 -EnableAudit -Commit`**. This runs
    `Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`.
 3. **Pass/fail gate:** `Get-AdminAuditLogConfig` shows **True**. Allow the pipeline time to populate
    before judging activity coverage.
 
 ### Step 6 — Grant the scoped Content Explorer viewer roles (pilot subset)
-1. Preview: **`CLSREPORT-Set-Reporting.ps1 -GrantListViewer -Members <pilot analysts> -WhatIf`** and, for
+1. Preview: **`CLSREPORT-Configure.ps1 -GrantListViewer -Members <pilot analysts> -WhatIf`** and, for
    those who need content, **`-GrantContentViewer -Members <minimal set> -WhatIf`**.
 2. When approved: re-run with **`-Commit`**. This calls `Add-RoleGroupMember -Identity "Content Explorer
    List Viewer"` (and `"Content Explorer Content Viewer"`) for the named members.
@@ -116,7 +116,7 @@ Consoles used:
 2. Load the CSVs into the chosen dashboard (Excel workbook or Power BI). Confirm the two views render.
 
 ### Step 9 — Validate against pass/fail gates
-1. Run **`CLSREPORT-Validation.ps1`**. It checks and reports PASS/FAIL for:
+1. Run **`CLSREPORT-Validate.ps1`**. It checks and reports PASS/FAIL for:
    - audit ingestion **enabled**;
    - the pilot analysts present in the intended role group(s), Content Viewer minimal;
    - Content Explorer export returns **≥ 1** item for at least one tag (or an explicit "baseline / empty
@@ -131,14 +131,14 @@ Consoles used:
 ## Phase 5 — Expand & Operate
 
 ### Step 10 — Expand to the full analyst audience
-1. Re-run **`CLSREPORT-Set-Reporting.ps1 -GrantListViewer -Members <full analyst group> -Commit`** (and
+1. Re-run **`CLSREPORT-Configure.ps1 -GrantListViewer -Members <full analyst group> -Commit`** (and
    Content Viewer only for the minimal approved set) to move from the pilot subset to the full
    **`Purview Classification Reporting - Analysts`** audience.
 2. **Pass/fail gate:** `Get-RoleGroupMember` matches the approved audience; no unintended broad grants.
 
 ### Step 11 — Schedule the reports and health checks
 1. Schedule **`CLSREPORT-Report.ps1`** (e.g. weekly) to refresh `.\CLSREPORT-out` for the dashboard.
-2. Schedule **`CLSREPORT-Scope-Health.ps1`** (e.g. weekly) to catch **role-group drift** (unexpected new
+2. Schedule **`CLSREPORT-ScopeHealth.ps1`** (e.g. weekly) to catch **role-group drift** (unexpected new
    members of Content Viewer), **audit lag**, and **new/removed labels** that change the report shape.
 3. Review with compliance/records/privacy on a cadence. **Determinations** arising from the reports
    (e.g. "this content must be relabeled/retained/investigated") are **routed to the owning governance

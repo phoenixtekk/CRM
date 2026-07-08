@@ -159,7 +159,7 @@ with true positives (sensitive-content print) still detected and sanctioned corp
 17. **Scope to the pilot ring.** Set `DLP Pilot Ring – Stage1` (users) and the pilot devices as the
     **included** scope on the policy (all other users/devices excluded for now):
     ```powershell
-    .\DLPPRINT-Set-Scope.ps1 -PolicyName 'DLP - Endpoint Print - Simulation' `
+    .\DLPPRINT-EndpointReadiness.ps1 -PolicyName 'DLP - Endpoint Print - Simulation' `
         -IncludeGroup 'DLP Pilot Ring - Stage1' -WhatIf
     ```
     > *(The scope helper is delivered as part of the config/remediation tool — `DLPPRINT-Config.ps1

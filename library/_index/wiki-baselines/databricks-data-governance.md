@@ -182,7 +182,7 @@ subscription, reachable at its data-plane endpoint `https://<account>.purview.az
 **Why:** The Databricks workspace is registered, scanned, and cataloged **inside** this account; without
 it there is nothing to register the lakehouse into (extends Global Requirement 1 to the governance side).
 **Verify:** In the **Purview portal** confirm the account/catalog loads and the **Data Map** is present;
-`DGDBX-ScopeHealth.ps1` confirms the account endpoint is reachable and a data-plane token is obtainable.
+`DGDBX-Set-Scope.ps1` confirms the account endpoint is reachable and a data-plane token is obtainable.
 **Implement:** Provision a Purview (Data Governance) account (Azure portal / `Az.Purview`) under change
 control. **Verify the current provisioning model and pricing** — Data Governance is Azure-metered /
 consumption-based (pay-as-you-go) — against Microsoft's documentation before creating it.
@@ -197,7 +197,7 @@ actions (Global Requirement 2).
 role groups; registering the workspace, running the scan, and editing catalog assets each require the
 matching role at the right collection.
 **Verify:** Purview portal → **Data Map → Collections → `Lakehouse – DGDBX – Pilot` → Role assignments**
-(verify path) shows your account in the required roles; `DGDBX-ScopeHealth.ps1` reports the collections
+(verify path) shows your account in the required roles; `DGDBX-Set-Scope.ps1` reports the collections
 your token can enumerate.
 **Implement:** Assign the least-privilege data-plane roles at the pilot collection first, root-collection
 admin only where genuinely required, under change control.
@@ -210,7 +210,7 @@ data-plane token** via `Get-AzAccessToken -ResourceUrl 'https://purview.azure.ne
 **Why:** The provided scripts read and (with `-Commit`) register/scan Databricks through the documented
 Purview data-plane REST APIs, authenticated with an Entra ID token — no credentials in code.
 **Verify:** `Get-Module -ListAvailable Az.Accounts, Az.Purview`; `Connect-AzAccount` succeeds and
-`Get-AzAccessToken -ResourceUrl 'https://purview.azure.net'` returns a token. `DGDBX-ScopeHealth.ps1`
+`Get-AzAccessToken -ResourceUrl 'https://purview.azure.net'` returns a token. `DGDBX-Set-Scope.ps1`
 confirms connectivity.
 **Implement:** `Install-Module Az.Accounts, Az.Purview -Scope CurrentUser`; sign in with a modern-auth
 admin; **verify the current data-plane resource URL / `api-version` values** in Microsoft's docs.
@@ -239,7 +239,7 @@ Microsoft's documented pattern keeps the secret in Key Vault and never in a scri
 **no secret is ever placed in code here**.
 **Verify:** The Key Vault connection exists in Purview (**Management → Credentials / Key Vault
 connections**, verify path) and the credential resolves; the Databricks identity can read the in-scope
-catalogs. `DGDBX-ScopeHealth.ps1` confirms a named Key Vault connection is present (it never reads the
+catalogs. `DGDBX-Set-Scope.ps1` confirms a named Key Vault connection is present (it never reads the
 secret value).
 **Implement:** Create the Key Vault connection and store the Databricks secret; grant the scan identity
 least-privilege metadata read in Databricks (Unity Catalog grants / workspace ACLs) before scanning.
@@ -251,7 +251,7 @@ line-of-sight for a **VNet-injected / Private Link** workspace.
 **Why:** The scan connects from the IR to the workspace; a private workspace is unreachable from the
 managed IR, so the scan fails or times out without a SHIR that can route to it.
 **Verify:** Confirm the workspace's network posture (public vs. private) with the Databricks/network
-admins; if private, a SHIR (`SHIR – DGDBX`) is installed and shows **running**. `DGDBX-ScopeHealth.ps1`
+admins; if private, a SHIR (`SHIR – DGDBX`) is installed and shows **running**. `DGDBX-Set-Scope.ps1`
 reports whether a self-hosted IR is registered when one is required.
 **Implement:** Install and register a SHIR on an in-network host for a private workspace; otherwise the
 Azure managed IR is used. **Verify current IR requirements for the connector** in Microsoft's docs.

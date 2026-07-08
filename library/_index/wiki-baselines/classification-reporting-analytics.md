@@ -196,7 +196,7 @@ PowerShell) shows membership of the two role groups; `CLSREPORT-Discovery.ps1` r
 **How to implement if missing:** Add the analyst group (or named individuals) to the least-privilege
 role group under change control — **`Content Explorer List Viewer`** for coverage reporting, and
 **`Content Explorer Content Viewer`** only for those who must inspect the sensitive items. Handled by
-`CLSREPORT-Set-Reporting.ps1` (`-WhatIf` first).
+`CLSREPORT-Configure.ps1` (`-WhatIf` first).
 
 ## 2.3 A named reporting-analyst group and role separation
 **Description:** An Entra security group **`Purview Classification Reporting - Analysts`** that holds the
@@ -219,7 +219,7 @@ reporting is empty or partial.
 PowerShell) returns **True**; a `Search-UnifiedAuditLog` for a recent window returns rows.
 `CLSREPORT-Discovery.ps1` reports the ingestion state.
 **How to implement if missing:** Enable it (`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled
-$true`) under change control — surfaced by `CLSREPORT-Set-Reporting.ps1` (`-Commit` gated). Allow time
+$true`) under change control — surfaced by `CLSREPORT-Configure.ps1` (`-Commit` gated). Allow time
 for the pipeline to backfill before judging coverage.
 
 ## 2.5 Existing classification signal to report on (in-scope data — category GR4)
@@ -229,7 +229,7 @@ workloads (Exchange, SharePoint, OneDrive, Teams), for the explorers to have any
 **Why required:** Reporting is only as rich as the classification underneath it; a tenant with no
 published labels or SIT detections will show near-empty explorers.
 **How to verify:** `Get-Label`, `Get-ComplianceTag`, `Get-DlpSensitiveInformationType` return the
-expected inventory; Content Explorer shows non-zero counts. `CLSREPORT-Scope-Health.ps1` inventories
+expected inventory; Content Explorer shows non-zero counts. `CLSREPORT-ScopeHealth.ps1` inventories
 what is available to report on.
 **How to implement if missing:** Classification design/roll-out is a **separate** solution — this one
 reports on the result. If the estate is largely unclassified, note that the coverage numbers are a
@@ -245,7 +245,7 @@ approved.
 **How to verify:** A named pilot scope and approver exist; the initial role grant targets a small pilot
 analyst set before the full group.
 **How to implement if missing:** Define the pilot scope and change window before running
-`CLSREPORT-Set-Reporting.ps1 -Commit`.
+`CLSREPORT-Configure.ps1 -Commit`.
 
 ## 2.7 PowerShell toolchain — S&C PowerShell + Exchange Online + Graph (category GR3)
 **Description:** A workstation with the **ExchangeOnlineManagement** module (provides both
@@ -394,7 +394,7 @@ Consoles used:
    (Requirements 2.4 / 2.5) before expecting meaningful reports.
 
 ### Step 2 — Confirm the classification signal to report on
-1. Run **`CLSREPORT-Scope-Health.ps1`**. It lists the **published** sensitivity labels (`Get-Label`),
+1. Run **`CLSREPORT-ScopeHealth.ps1`**. It lists the **published** sensitivity labels (`Get-Label`),
    retention labels (`Get-ComplianceTag`), and SITs (`Get-DlpSensitiveInformationType`) — the tag set
    Content Explorer can break down by — and flags health signals (audit lag, empty inventory).
 2. **Pass/fail gate:** a non-empty inventory of tags to report on, or an explicit note that the estate is
@@ -425,14 +425,14 @@ Consoles used:
 ## Phase 3 — Configure (governed; pilot first)
 
 ### Step 5 — Enable unified audit log ingestion (if not already on)
-1. Preview first: **`CLSREPORT-Set-Reporting.ps1 -EnableAudit -WhatIf`** — shows the intended change.
-2. When approved under change control: **`CLSREPORT-Set-Reporting.ps1 -EnableAudit -Commit`**. This runs
+1. Preview first: **`CLSREPORT-Configure.ps1 -EnableAudit -WhatIf`** — shows the intended change.
+2. When approved under change control: **`CLSREPORT-Configure.ps1 -EnableAudit -Commit`**. This runs
    `Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`.
 3. **Pass/fail gate:** `Get-AdminAuditLogConfig` shows **True**. Allow the pipeline time to populate
    before judging activity coverage.
 
 ### Step 6 — Grant the scoped Content Explorer viewer roles (pilot subset)
-1. Preview: **`CLSREPORT-Set-Reporting.ps1 -GrantListViewer -Members <pilot analysts> -WhatIf`** and, for
+1. Preview: **`CLSREPORT-Configure.ps1 -GrantListViewer -Members <pilot analysts> -WhatIf`** and, for
    those who need content, **`-GrantContentViewer -Members <minimal set> -WhatIf`**.
 2. When approved: re-run with **`-Commit`**. This calls `Add-RoleGroupMember -Identity "Content Explorer
    List Viewer"` (and `"Content Explorer Content Viewer"`) for the named members.
@@ -464,7 +464,7 @@ Consoles used:
 2. Load the CSVs into the chosen dashboard (Excel workbook or Power BI). Confirm the two views render.
 
 ### Step 9 — Validate against pass/fail gates
-1. Run **`CLSREPORT-Validation.ps1`**. It checks and reports PASS/FAIL for:
+1. Run **`CLSREPORT-Validate.ps1`**. It checks and reports PASS/FAIL for:
    - audit ingestion **enabled**;
    - the pilot analysts present in the intended role group(s), Content Viewer minimal;
    - Content Explorer export returns **≥ 1** item for at least one tag (or an explicit "baseline / empty
@@ -479,14 +479,14 @@ Consoles used:
 ## Phase 5 — Expand & Operate
 
 ### Step 10 — Expand to the full analyst audience
-1. Re-run **`CLSREPORT-Set-Reporting.ps1 -GrantListViewer -Members <full analyst group> -Commit`** (and
+1. Re-run **`CLSREPORT-Configure.ps1 -GrantListViewer -Members <full analyst group> -Commit`** (and
    Content Viewer only for the minimal approved set) to move from the pilot subset to the full
    **`Purview Classification Reporting - Analysts`** audience.
 2. **Pass/fail gate:** `Get-RoleGroupMember` matches the approved audience; no unintended broad grants.
 
 ### Step 11 — Schedule the reports and health checks
 1. Schedule **`CLSREPORT-Report.ps1`** (e.g. weekly) to refresh `.\CLSREPORT-out` for the dashboard.
-2. Schedule **`CLSREPORT-Scope-Health.ps1`** (e.g. weekly) to catch **role-group drift** (unexpected new
+2. Schedule **`CLSREPORT-ScopeHealth.ps1`** (e.g. weekly) to catch **role-group drift** (unexpected new
    members of Content Viewer), **audit lag**, and **new/removed labels** that change the report shape.
 3. Review with compliance/records/privacy on a cadence. **Determinations** arising from the reports
    (e.g. "this content must be relabeled/retained/investigated") are **routed to the owning governance
@@ -501,7 +501,7 @@ Consoles used:
 Run these tests after implementation and on a cadence thereafter. Each test has a **procedure**, a
 **pass** signal, and a **fail** signal. Two conditions are **expected states, not failures** and are
 called out explicitly: an **empty/baseline estate** (little is classified yet) and **ingestion lag**
-(audit just enabled). The automated gate is **`CLSREPORT-Validation.ps1`**; the manual tests confirm the
+(audit just enabled). The automated gate is **`CLSREPORT-Validate.ps1`**; the manual tests confirm the
 portal experience.
 
 > **Golden rule:** this solution reports; it does not classify. A low coverage number is a **finding to
@@ -519,11 +519,11 @@ portal experience.
 - **Procedure:** `Get-AdminAuditLogConfig | Select UnifiedAuditLogIngestionEnabled`, or read the
   Discovery output.
 - **Pass:** `True`.
-- **Fail:** `False` → enable via `CLSREPORT-Set-Reporting.ps1 -EnableAudit -Commit` (change-controlled),
+- **Fail:** `False` → enable via `CLSREPORT-Configure.ps1 -EnableAudit -Commit` (change-controlled),
   then re-test after the pipeline populates.
 
 ## Test 3 — Least-privilege role membership is correct
-- **Procedure:** `CLSREPORT-Validation.ps1` (or `Get-RoleGroupMember "Content Explorer List Viewer"` and
+- **Procedure:** `CLSREPORT-Validate.ps1` (or `Get-RoleGroupMember "Content Explorer List Viewer"` and
   `... "Content Explorer Content Viewer"`).
 - **Pass:** The intended analysts are in **List Viewer**; only the **minimal approved set** is in
   **Content Viewer**; no broad/unexpected members.
@@ -563,7 +563,7 @@ portal experience.
   refreshed.
 
 ## Test 8 — Scheduled refresh + health check
-- **Procedure:** Confirm the scheduled `CLSREPORT-Report.ps1` and `CLSREPORT-Scope-Health.ps1` runs
+- **Procedure:** Confirm the scheduled `CLSREPORT-Report.ps1` and `CLSREPORT-ScopeHealth.ps1` runs
   produced fresh output and no drift/lag alerts.
 - **Pass:** Fresh exports on cadence; health check clean (no unexpected Content Viewer members, audit
   current, tag inventory stable).

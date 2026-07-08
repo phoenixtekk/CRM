@@ -17,15 +17,15 @@ the provided scripts automate the read-only ones.
 ## Test 2 — Client-side auto-labeling recommends correctly
 - **How:** as a **pilot** user, create a document/email containing content that matches the rule (e.g. test data with the configured SIT). Observe whether the label is **recommended**.
 - **Pass:** the intended label is recommended for matching content and **not** for clearly non-matching content; the user is prompted (not silently overridden).
-- **Fail:** over- or under-recommending → tune the label's client-side auto-labeling conditions (`Set-Label` via `IPAUTO-AutoLabelConfig.ps1 -ClientSide ... -Commit`) and re-test.
+- **Fail:** over- or under-recommending → tune the label's client-side auto-labeling conditions (`Set-Label` via `IPAUTO-Configure.ps1 -ClientSide ... -Commit`) and re-test.
 
 ## Test 3 — Service-side policy is created in simulation (not enforcing)
-- **How:** `IPAUTO-SimulationReport.ps1 -PolicyName "AutoLabel Sim - Confidential - SPO+ODB"` (and the Exchange policy); confirm **Mode** is a `TestWithout/WithNotifications` (simulation) value, not `Enable`.
+- **How:** `IPAUTO-Report.ps1 -PolicyName "AutoLabel Sim - Confidential - SPO+ODB"` (and the Exchange policy); confirm **Mode** is a `TestWithout/WithNotifications` (simulation) value, not `Enable`.
 - **Pass:** each policy is in **simulation**, has begun scanning its in-scope locations, and has **labeled nothing**.
-- **Fail:** a policy is already `Enable` before sign-off → return it to simulation (`IPAUTO-AutoLabelConfig.ps1 -ServiceSide ... -BackToSimulation -Commit`) and investigate why.
+- **Fail:** a policy is already `Enable` before sign-off → return it to simulation (`IPAUTO-Configure.ps1 -ServiceSide ... -BackToSimulation -Commit`) and investigate why.
 
 ## Test 4 — Simulation has scanned and produced a match set
-- **How:** `IPAUTO-SimulationReport.ps1 -PolicyName "AutoLabel Sim - Confidential - SPO+ODB"`; check scan/deployment status and the matched-items pointer.
+- **How:** `IPAUTO-Report.ps1 -PolicyName "AutoLabel Sim - Confidential - SPO+ODB"`; check scan/deployment status and the matched-items pointer.
 - **Pass:** the simulation has progressed and there is a reviewable match set (what *would* be labeled).
 - **Fail:** no results yet → allow scan time (service-side scanning is not instant and is subject to limits — **verify limits for your tenant**); confirm the in-scope locations actually contain matching content.
 
@@ -40,7 +40,7 @@ the provided scripts automate the read-only ones.
 - **Fail:** unexpected override/no-op → adjust the behavior setting (**verify the setting in your tenant**), re-simulate, re-review.
 
 ## Test 7 — Enforcement on the pilot subset matches the accepted simulation
-- **How:** after enforcing on the pilot locations (Step 7), run `IPAUTO-SimulationReport.ps1` and `IPAUTO-Reporting.ps1` and spot-check newly labeled items on those locations.
+- **How:** after enforcing on the pilot locations (Step 7), run `IPAUTO-Report.ps1` and `IPAUTO-Report.ps1` and spot-check newly labeled items on those locations.
 - **Pass:** enforced labels on the pilot subset match what simulation predicted; no unexpected encryption or content marking on user content.
 - **Fail:** divergence or surprise protection → roll the policy back to simulation (`-BackToSimulation -Commit`) and investigate before expanding.
 
@@ -50,12 +50,12 @@ the provided scripts automate the read-only ones.
 - **Fail:** wrong locations or a distribution error → correct the scope (`-Enforce -Locations ...`) or investigate the distribution status; re-check.
 
 ## Test 9 — Tenant-wide labeling coverage is climbing (at scale)
-- **How:** after expanding to `All` (Step 8), run `IPAUTO-Reporting.ps1` on a cadence to report labeled-item activity/coverage.
+- **How:** after expanding to `All` (Step 8), run `IPAUTO-Report.ps1` on a cadence to report labeled-item activity/coverage.
 - **Pass:** the volume of auto-applied labels grows and stabilizes across workloads, consistent with the accepted simulation precision — content is being labeled **without the user**.
 - **Fail:** flat/zero coverage → confirm enforcement mode, locations, and that matching content exists; re-check scan limits for your tenant.
 
 ## Test 10 — Rollback works
-- **How:** on a test policy, run `IPAUTO-AutoLabelConfig.ps1 -ServiceSide -PolicyName "<name>" -BackToSimulation -Commit`.
+- **How:** on a test policy, run `IPAUTO-Configure.ps1 -ServiceSide -PolicyName "<name>" -BackToSimulation -Commit`.
 - **Pass:** the policy returns to simulation and stops labeling; existing labels already applied remain (auto-labeling does not un-label on rollback) — confirm this is understood.
 - **Fail:** policy stays enforcing → verify the `Set-AutoSensitivityLabelPolicy -Mode` change and role/permissions.
 

@@ -37885,7 +37885,7 @@
         {
           "name": "IPAUTO-Complete-Solution.zip",
           "href": "../purview/automatic-sensitivity-labeling-at-scale/v1.0.0/deliverables/IPAUTO-Complete-Solution.zip",
-          "kb": 119.7
+          "kb": 119.6
         },
         {
           "name": "IPAUTO-hero.png",
@@ -37905,7 +37905,7 @@
         {
           "name": "IPAUTO-Solution.docx",
           "href": "../purview/automatic-sensitivity-labeling-at-scale/v1.0.0/deliverables/IPAUTO-Solution.docx",
-          "kb": 59.0
+          "kb": 58.9
         },
         {
           "name": "IPAUTO-Solution.pdf",
@@ -38314,7 +38314,7 @@
         {
           "name": "02-requirements.md",
           "href": "../purview/browser-network-dlp/v1.0.0/source/02-requirements.md",
-          "kb": 9.4
+          "kb": 9.5
         },
         {
           "name": "03-implementation.md",
@@ -38383,7 +38383,7 @@
         {
           "name": "DLPBROWSER-Complete-Solution.zip",
           "href": "../purview/browser-network-dlp/v1.0.0/deliverables/DLPBROWSER-Complete-Solution.zip",
-          "kb": 132.1
+          "kb": 131.7
         },
         {
           "name": "DLPBROWSER-hero.png",
@@ -38403,12 +38403,12 @@
         {
           "name": "DLPBROWSER-Solution.docx",
           "href": "../purview/browser-network-dlp/v1.0.0/deliverables/DLPBROWSER-Solution.docx",
-          "kb": 63.2
+          "kb": 63.1
         },
         {
           "name": "DLPBROWSER-Solution.pdf",
           "href": "../purview/browser-network-dlp/v1.0.0/deliverables/DLPBROWSER-Solution.pdf",
-          "kb": 81.4
+          "kb": 80.7
         }
       ],
       "Listing": [
@@ -38812,17 +38812,17 @@
         {
           "name": "02-requirements.md",
           "href": "../purview/classification-reporting-analytics/v1.0.0/source/02-requirements.md",
-          "kb": 7.7
+          "kb": 7.8
         },
         {
           "name": "03-implementation.md",
           "href": "../purview/classification-reporting-analytics/v1.0.0/source/03-implementation.md",
-          "kb": 9.0
+          "kb": 9.2
         },
         {
           "name": "05-testing.md",
           "href": "../purview/classification-reporting-analytics/v1.0.0/source/05-testing.md",
-          "kb": 4.9
+          "kb": 5.0
         },
         {
           "name": "06-troubleshooting.md",
@@ -38978,17 +38978,17 @@
         {
           "name": "02-requirements.md",
           "href": "../purview/clipboard-screen-capture-protection/v1.0.0/source/02-requirements.md",
-          "kb": 9.6
+          "kb": 9.7
         },
         {
           "name": "03-implementation.md",
           "href": "../purview/clipboard-screen-capture-protection/v1.0.0/source/03-implementation.md",
-          "kb": 13.8
+          "kb": 14.0
         },
         {
           "name": "05-testing.md",
           "href": "../purview/clipboard-screen-capture-protection/v1.0.0/source/05-testing.md",
-          "kb": 7.5
+          "kb": 7.6
         },
         {
           "name": "06-troubleshooting.md",
@@ -39067,7 +39067,7 @@
         {
           "name": "DLPCLIP-Solution.docx",
           "href": "../purview/clipboard-screen-capture-protection/v1.0.0/deliverables/DLPCLIP-Solution.docx",
-          "kb": 67.2
+          "kb": 67.1
         },
         {
           "name": "DLPCLIP-Solution.pdf",
@@ -40804,7 +40804,7 @@
         {
           "name": "02-requirements.md",
           "href": "../purview/databricks-data-governance/v1.0.0/source/02-requirements.md",
-          "kb": 10.3
+          "kb": 10.4
         },
         {
           "name": "03-implementation.md",
@@ -44129,22 +44129,22 @@
         {
           "name": "03-implementation.md",
           "href": "../purview/inactive-legacy-data-cleanup-optimization/v1.0.0/source/03-implementation.md",
-          "kb": 14.4
+          "kb": 14.6
         },
         {
           "name": "05-testing.md",
           "href": "../purview/inactive-legacy-data-cleanup-optimization/v1.0.0/source/05-testing.md",
-          "kb": 6.7
+          "kb": 6.8
         },
         {
           "name": "06-troubleshooting.md",
           "href": "../purview/inactive-legacy-data-cleanup-optimization/v1.0.0/source/06-troubleshooting.md",
-          "kb": 8.3
+          "kb": 8.4
         },
         {
           "name": "07-best-practices.md",
           "href": "../purview/inactive-legacy-data-cleanup-optimization/v1.0.0/source/07-best-practices.md",
-          "kb": 5.5
+          "kb": 5.6
         },
         {
           "name": "08-deliverables-summary.md",
@@ -53264,7 +53264,7 @@
         {
           "name": "03-implementation.md",
           "href": "../purview/print-dlp/v1.0.0/source/03-implementation.md",
-          "kb": 14.7
+          "kb": 14.9
         },
         {
           "name": "05-testing.md",
