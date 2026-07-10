@@ -1,0 +1,41 @@
+{
+  "slug": "entra-passwordless-passkey-fido2-rollout-gcc-high",
+  "title": "Passwordless & Passkey (FIDO2) Rollout for Microsoft Entra — Government (GCC High)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTPASSKEYG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Entra line. Graph/PowerShell. Passkey feature availability flagged verify.",
+    "GCC High edition forked from 'entra-passwordless-passkey-fido2-rollout'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTPASSKEYG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTPASSKEYG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTPASSKEYG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTPASSKEYG-Complete-Solution.zip"
+  ],
+  "hero": "ENTPASSKEYG-hero.png",
+  "gcc_high": true
+}
+

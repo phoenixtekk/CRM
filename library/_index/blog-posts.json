@@ -2033,5 +2033,45 @@
     "post_id": 12647,
     "status": "draft",
     "category_id": 411
+  },
+  "deploy-microsoft-sentinel-workspace-connectors-gcc-high": {
+    "post_id": 12649,
+    "status": "draft",
+    "category_id": 411
+  },
+  "soc-onboarding-sentinel-defender-xdr-gcc-high": {
+    "post_id": 12651,
+    "status": "draft",
+    "category_id": 411
+  },
+  "threat-hunting-kql-defender-xdr-sentinel-gcc-high": {
+    "post_id": 12653,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-xdr-deployment-unified-onboarding-gcc-high": {
+    "post_id": 12655,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-cloud-cspm-secure-score-gcc-high": {
+    "post_id": 12657,
+    "status": "draft",
+    "category_id": 411
+  },
+  "zero-trust-conditional-access-baseline-gcc-high": {
+    "post_id": 12659,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-privileged-identity-management-pim-gcc-high": {
+    "post_id": 12661,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-passwordless-passkey-fido2-rollout-gcc-high": {
+    "post_id": 12663,
+    "status": "draft",
+    "category_id": 411
   }
 }

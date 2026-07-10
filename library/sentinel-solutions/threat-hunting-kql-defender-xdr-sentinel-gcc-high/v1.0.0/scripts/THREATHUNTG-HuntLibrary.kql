@@ -1,0 +1,195 @@
+// =====================================================================================================
+//  THREATHUNTG-HuntLibrary.kql  —  "Hunt Library - Tenant - Main"
+//  A MITRE ATT&CK-aligned, REUSABLE KQL threat-hunting library for Microsoft Defender XDR advanced
+//  hunting and Microsoft Sentinel.
+//
+//  HOW TO USE
+//    * Each hunt is delimited by a header block: name, hypothesis, MITRE tactic/technique, the TARGET
+//      SURFACE (Defender XDR advanced hunting vs Microsoft Sentinel Logs), and a PROMOTION note.
+//    * Run a hunt on its target surface (GCC High / US Gov cloud):
+//        - Defender XDR:  security.microsoft.us -> Hunting -> Advanced hunting  (schema uses `Timestamp`)
+//        - Sentinel:      portal.azure.us (Azure Government) -> Microsoft Sentinel -> Logs  (uses `TimeGenerated`)
+//      Or run the whole library in one pass, read-only, with THREATHUNTG-RunHuntLibrary.ps1
+//      (connect first: Connect-MgGraph -Environment USGov ; Connect-AzAccount -Environment AzureUSGovernment).
+//    * Save each hunt as a reusable query and TAG it to the technique (that tag is the coverage map).
+//
+//  READ-ONLY BOUNDARY
+//    These are hunting queries. They FIND; they never ACT. Response actions (isolate, disable, purge,
+//    escalate) belong to the reactive "M365 & Azure Incident Response & Escalation Runbook" — hand off
+//    a confirmed finding as an incident; do NOT respond from a hunt.
+//
+//  VERIFY IN YOUR TENANT  (GCC High / DoD)
+//    Advanced-hunting SCHEMA (table/column names), ~30-day RETENTION, per-query ROW/TIME LIMITS, and
+//    which Defender pillars/tables exist can differ by cloud (Commercial vs GCC High vs DoD IL5) and
+//    license — GCC High/DoD OFTEN LAG commercial. Confirm columns by hovering the table in advanced
+//    hunting, and VERIFY table/feature availability against current Microsoft Government documentation.
+//    Tune thresholds to your environment — the defaults are starting points, not truth.
+//
+//  White-label. No credentials. No response actions.
+// =====================================================================================================
+
+
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-LOLBins-Devices-Pilot
+//  HYPOTHESIS:  An attacker is executing code through a built-in "living-off-the-land" binary (LOLBin)
+//               to blend in with normal admin activity. Unusual command lines on these binaries will
+//               surface it.
+//  MITRE:       T1059 Command and Scripting Interpreter  (Tactic: Execution)
+//  SURFACE:     Defender XDR advanced hunting  (DeviceProcessEvents)
+//  PROMOTE:     If a specific LOLBin+pattern reliably indicates abuse in your environment, promote to a
+//               Defender custom detection rule "CD-LOLBins-Devices-Prod".
+// -----------------------------------------------------------------------------------------------------
+let lookback = 14d;
+let lolbins = dynamic(["mshta.exe","rundll32.exe","regsvr32.exe","wmic.exe","cscript.exe","wscript.exe",
+                       "certutil.exe","bitsadmin.exe","installutil.exe","msbuild.exe","hh.exe"]);
+let suspicious = dynamic(["http","://","-enc","frombase64","downloadstring","invoke-","javascript:",
+                          "scrobj","-nop","-w hidden","iex","bypass"]);
+DeviceProcessEvents
+| where Timestamp > ago(lookback)
+| where FileName in~ (lolbins)
+| extend Cmd = tolower(ProcessCommandLine)
+| where isnotempty(Cmd)
+| where Cmd has_any (suspicious)
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine,
+          InitiatingProcessFileName, InitiatingProcessCommandLine, SHA256
+| sort by Timestamp desc
+
+
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-RareParentChild-Devices-Pilot
+//  HYPOTHESIS:  A masquerading or injected process is spawning children it normally never would (e.g.
+//               a productivity app spawning a shell). Rare parent->child pairs surface the anomaly.
+//  MITRE:       T1055 Process Injection / T1036 Masquerading  (Tactic: Defense Evasion)
+//  SURFACE:     Defender XDR advanced hunting  (DeviceProcessEvents)
+//  PROMOTE:     Turn a confirmed-malicious pair (e.g. winword.exe -> powershell.exe) into a targeted
+//               custom detection "CD-RareParentChild-Devices-Prod".
+// -----------------------------------------------------------------------------------------------------
+let lookback = 14d;
+let officeApps = dynamic(["winword.exe","excel.exe","powerpnt.exe","outlook.exe","onenote.exe"]);
+let shells = dynamic(["powershell.exe","pwsh.exe","cmd.exe","wscript.exe","cscript.exe","mshta.exe","bash.exe"]);
+DeviceProcessEvents
+| where Timestamp > ago(lookback)
+| where InitiatingProcessFileName in~ (officeApps)
+| where FileName in~ (shells)
+| summarize Occurrences = count(), Devices = dcount(DeviceName),
+            SampleCmd = any(ProcessCommandLine), FirstSeen = min(Timestamp), LastSeen = max(Timestamp)
+        by InitiatingProcessFileName, FileName
+// Rare pairs across few devices are the interesting ones; tune the thresholds to your fleet size.
+| where Devices <= 5
+| sort by Occurrences asc
+
+
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-InboxRules-M365-Pilot
+//  HYPOTHESIS:  A compromised mailbox has an inbox rule that auto-forwards or hides mail (data theft /
+//               defense evasion). New or edited rules that forward externally or delete/move messages
+//               surface it.
+//  MITRE:       T1114 Email Collection / T1564.008 Email Hiding Rules  (Tactic: Collection)
+//  SURFACE:     Defender XDR advanced hunting (CloudAppEvents)  ——  Sentinel variant below.
+//  PROMOTE:     Promote to a scheduled analytics rule "Rule-InboxRules-M365-Prod" (Sentinel) or a
+//               custom detection; alert on external-forward rule creation.
+// -----------------------------------------------------------------------------------------------------
+let lookback = 14d;
+CloudAppEvents
+| where Timestamp > ago(lookback)
+| where ActionType in~ ("New-InboxRule","Set-InboxRule","UpdateInboxRules")
+| extend Raw = tostring(RawEventData)
+| extend HasForward = Raw has_any ("ForwardTo","ForwardAsAttachmentTo","RedirectTo")
+| extend HasHide    = Raw has_any ("DeleteMessage","MoveToFolder","MarkAsRead")
+| where HasForward or HasHide
+| project Timestamp, AccountDisplayName, AccountId, ActionType,
+          Forwarding = HasForward, Hiding = HasHide, IPAddress, Raw
+| sort by Timestamp desc
+//
+//  --- Sentinel variant (run in Sentinel Logs; OfficeActivity must be ingested) ---
+//  OfficeActivity
+//  | where TimeGenerated > ago(14d)
+//  | where Operation in~ ("New-InboxRule","Set-InboxRule","UpdateInboxRules")
+//  | where Parameters has_any ("ForwardTo","RedirectTo","ForwardAsAttachmentTo","DeleteMessage","MoveToFolder")
+//  | project TimeGenerated, UserId, Operation, ClientIP, Parameters
+//  | sort by TimeGenerated desc
+
+
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-RareServiceSignin-Entra-Pilot
+//  HYPOTHESIS:  A service / non-interactive account (which should sign in from a stable, small set of
+//               locations) is authenticating from a country or IP it never has — a sign of credential
+//               abuse.
+//  MITRE:       T1078 Valid Accounts  (Tactic: Initial Access / Persistence / Privilege Escalation)
+//  SURFACE:     Microsoft Sentinel  (SigninLogs)   [uses `TimeGenerated`]
+//  PROMOTE:     Promote to a scheduled analytics rule "Rule-RareServiceSignin-Entra-Prod"; start in
+//               low-impact posture and tune in the Analytics-Rules solution before it creates incidents.
+// -----------------------------------------------------------------------------------------------------
+let baselineWindow = 30d;
+let recentWindow = 1d;
+// Known locations per user over the baseline (excluding the most recent day):
+let baseline =
+    SigninLogs
+    | where TimeGenerated between (ago(baselineWindow) .. ago(recentWindow))
+    | extend Country = tostring(LocationDetails.countryOrRegion)
+    | summarize KnownCountries = make_set(Country) by UserPrincipalName;
+SigninLogs
+| where TimeGenerated > ago(recentWindow)
+| where ResultType == 0            // successful sign-ins only
+| extend Country = tostring(LocationDetails.countryOrRegion)
+// Heuristic for service/non-interactive accounts — adapt the naming pattern to your tenant:
+| where UserPrincipalName has_any ("svc","service","automation","daemon","-sa","noreply")
+      or AppDisplayName has "Service"
+| join kind=leftouter baseline on UserPrincipalName
+| where isnotempty(Country) and KnownCountries !has Country
+| project TimeGenerated, UserPrincipalName, Country, IPAddress, AppDisplayName,
+          ClientAppUsed, KnownCountries
+| sort by TimeGenerated desc
+
+
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-BeaconEgress-Network-Pilot
+//  HYPOTHESIS:  An implant is beaconing to a command-and-control server at a regular interval to a
+//               destination few other devices contact. Low-variance connection timing to a rare remote
+//               endpoint surfaces it.
+//  MITRE:       T1071 Application Layer Protocol  (Tactic: Command and Control)
+//  SURFACE:     Defender XDR advanced hunting  (DeviceNetworkEvents)
+//  PROMOTE:     Confirmed C2 destinations feed threat-intel / a custom detection
+//               "CD-BeaconEgress-Network-Prod"; hand the active infection to the IR runbook.
+// -----------------------------------------------------------------------------------------------------
+let lookback = 7d;
+let minConnections = 20;      // enough samples to judge regularity — tune to your environment
+DeviceNetworkEvents
+| where Timestamp > ago(lookback)
+| where isnotempty(RemoteUrl) or isnotempty(RemoteIP)
+| where RemotePort in (80, 443, 8080, 8443)
+| extend Dest = iff(isnotempty(RemoteUrl), tostring(RemoteUrl), tostring(RemoteIP))
+| order by DeviceName, Dest, Timestamp asc
+| serialize
+| extend PrevTs = prev(Timestamp), PrevDest = prev(Dest), PrevDevice = prev(DeviceName)
+| where Dest == PrevDest and DeviceName == PrevDevice
+| extend DeltaSec = datetime_diff('second', Timestamp, PrevTs)
+| where DeltaSec > 0
+| summarize Connections = count(), Devices = dcount(DeviceName),
+            AvgIntervalSec = avg(DeltaSec), StdevIntervalSec = stdev(DeltaSec),
+            FirstSeen = min(Timestamp), LastSeen = max(Timestamp)
+        by Dest
+| where Connections >= minConnections
+// Low jitter relative to the interval = regular beacon; rare destination = few devices.
+| extend JitterRatio = round(StdevIntervalSec / (AvgIntervalSec + 1), 3)
+| where JitterRatio < 0.25 and Devices <= 3
+| project Dest, Connections, Devices, AvgIntervalSec = round(AvgIntervalSec,1), JitterRatio,
+          FirstSeen, LastSeen
+| sort by JitterRatio asc
+
+
+// =====================================================================================================
+//  TEMPLATE — copy this block to add a new hunt to the library, then tag it to a technique.
+// -----------------------------------------------------------------------------------------------------
+//  HUNT:        Hunt-<Name>-<Scope>-Pilot
+//  HYPOTHESIS:  <If technique X is happening, this query surfaces it because ...>
+//  MITRE:       T#### <Technique>  (Tactic: <Tactic>)
+//  SURFACE:     <Defender XDR advanced hunting (Timestamp) | Microsoft Sentinel Logs (TimeGenerated)>
+//  PROMOTE:     <Rule-<Name>-<Scope>-Prod (Sentinel) | CD-<Name>-<Scope>-Prod (Defender)>
+// -----------------------------------------------------------------------------------------------------
+//  <TableName>
+//  | where Timestamp > ago(14d)
+//  | where <your predicate>
+//  | summarize ... by ...
+//  | sort by ...
+// =====================================================================================================

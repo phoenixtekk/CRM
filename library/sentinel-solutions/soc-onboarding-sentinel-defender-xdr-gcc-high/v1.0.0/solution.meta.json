@@ -1,0 +1,41 @@
+{
+  "slug": "soc-onboarding-sentinel-defender-xdr-gcc-high",
+  "title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High)",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SOCXDRG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line + Defender XDR. PowerShell/Graph. IR determinations deferred to the SOC.",
+    "GCC High edition forked from 'soc-onboarding-sentinel-defender-xdr'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SOCXDRG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SOCXDRG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SOCXDRG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SOCXDRG-Complete-Solution.zip"
+  ],
+  "hero": "SOCXDRG-hero.png",
+  "gcc_high": true
+}
+

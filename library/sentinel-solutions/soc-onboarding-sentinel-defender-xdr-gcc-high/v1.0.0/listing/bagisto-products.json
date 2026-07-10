@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "soc-onboarding-sentinel-defender-xdr-gcc-high",
+    "title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High)",
+    "category_path": [
+      "Sentinel Solutions"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-SOCXDRG-COMM-001",
+      "name": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list.</p>",
+      "description": "<h3>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list.</h3><p>Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, unifies the incident queue, aligns severity and ownership, and gives analysts one triage workflow across identity, endpoint, email, and cloud.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Defender XDR ↔ Sentinel integration and incident sync</li><li>Unified incident queue with de-duplication and correlation</li><li>Severity, priority, and ownership alignment across both</li><li>Analyst triage workflow and shift/hand-off runbook</li><li>RBAC and workspace scoping for the SOC team</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A single, correlated incident queue that ends console-hopping and speeds every investigation.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SOCXDRG-Discovery.ps1</code> &mdash; readiness for unifying Microsoft Sentinel + Defender XDR incidents</li><li><code>SOCXDRG-IncidentQueue.ps1</code> &mdash; incident-queue health across severity, owner, and tags</li><li><code>SOCXDRG-Report.ps1</code> &mdash; duplicate-rule status and the open-incident shift hand-off list</li><li><code>SOCXDRG-Set-SocRbacScope.ps1</code> &mdash; report and (optionally) apply the scoped SOC RBAC on the workspace</li><li><code>SOCXDRG-Validate.ps1</code> &mdash; confirm the Defender XDR connector is connected and incidents are arriving</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents",
+      "meta_description": "Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, ",
+      "url_key": "soc-onboarding-sentinel-defender-xdr-gcc-high-commercial",
+      "image": "SOCXDRG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "SOCXDRG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SOCXDRG-NPO-001",
+      "name": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list.</h3><p>Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, unifies the incident queue, aligns severity and ownership, and gives analysts one triage workflow across identity, endpoint, email, and cloud.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Defender XDR ↔ Sentinel integration and incident sync</li><li>Unified incident queue with de-duplication and correlation</li><li>Severity, priority, and ownership alignment across both</li><li>Analyst triage workflow and shift/hand-off runbook</li><li>RBAC and workspace scoping for the SOC team</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SOCXDRG-Discovery.ps1</code> &mdash; readiness for unifying Microsoft Sentinel + Defender XDR incidents</li><li><code>SOCXDRG-IncidentQueue.ps1</code> &mdash; incident-queue health across severity, owner, and tags</li><li><code>SOCXDRG-Report.ps1</code> &mdash; duplicate-rule status and the open-incident shift hand-off list</li><li><code>SOCXDRG-Set-SocRbacScope.ps1</code> &mdash; report and (optionally) apply the scoped SOC RBAC on the workspace</li><li><code>SOCXDRG-Validate.ps1</code> &mdash; confirm the Defender XDR connector is connected and incidents are arriving</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, ",
+      "url_key": "soc-onboarding-sentinel-defender-xdr-gcc-high-nonprofit",
+      "image": "SOCXDRG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "SOCXDRG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-SOCXDRG-GOV-001",
+      "name": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>One incident queue for the whole SOC — unify Microsoft Sentinel and Defender XDR so analysts work one prioritized list.</h3><p>Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, unifies the incident queue, aligns severity and ownership, and gives analysts one triage workflow across identity, endpoint, email, and cloud.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Defender XDR ↔ Sentinel integration and incident sync</li><li>Unified incident queue with de-duplication and correlation</li><li>Severity, priority, and ownership alignment across both</li><li>Analyst triage workflow and shift/hand-off runbook</li><li>RBAC and workspace scoping for the SOC team</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>SOCXDRG-Discovery.ps1</code> &mdash; readiness for unifying Microsoft Sentinel + Defender XDR incidents</li><li><code>SOCXDRG-IncidentQueue.ps1</code> &mdash; incident-queue health across severity, owner, and tags</li><li><code>SOCXDRG-Report.ps1</code> &mdash; duplicate-rule status and the open-incident shift hand-off list</li><li><code>SOCXDRG-Set-SocRbacScope.ps1</code> &mdash; report and (optionally) apply the scoped SOC RBAC on the workspace</li><li><code>SOCXDRG-Validate.ps1</code> &mdash; confirm the Defender XDR connector is connected and incidents are arriving</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Running Sentinel and Defender XDR as two consoles means duplicated incidents and missed correlation. This solution connects Defender XDR to Sentinel, ",
+      "url_key": "soc-onboarding-sentinel-defender-xdr-gcc-high-government",
+      "image": "SOCXDRG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "SOCXDRG-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

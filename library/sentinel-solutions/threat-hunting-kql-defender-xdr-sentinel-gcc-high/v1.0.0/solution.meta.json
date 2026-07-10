@@ -1,0 +1,41 @@
+{
+  "slug": "threat-hunting-kql-defender-xdr-sentinel-gcc-high",
+  "title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel — Government (GCC High)",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "THREATHUNTG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel category. PowerShell (Graph/Defender runHuntingQuery) + KQL hunt library. GAP-DEDUPED: the existing 'M365 & Azure Incident Response & Escalation Runbook' covers *reactive IR/escalation* — this is *proactive threat hunting*. Cross-references it for the incident hand-off. Advanced-hunting schema/limits flagged verify.",
+    "GCC High edition forked from 'threat-hunting-kql-defender-xdr-sentinel'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-THREATHUNTG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-THREATHUNTG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-THREATHUNTG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "THREATHUNTG-Complete-Solution.zip"
+  ],
+  "hero": "THREATHUNTG-hero.png",
+  "gcc_high": true
+}
+

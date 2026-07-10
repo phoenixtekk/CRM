@@ -6632,6 +6632,176 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High)",
+    "slug": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "DEFCSPMG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-DEFCSPMG-COMM-001",
+      "PTK-DEFCSPMG-NPO-001",
+      "PTK-DEFCSPMG-GOV-001"
+    ],
+    "deliverables": [
+      "DEFCSPMG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\microsoft-defender-for-cloud-cspm-secure-score-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.4
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DEFCSPMG-Discovery.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/scripts/DEFCSPMG-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "DEFCSPMG-Enable-CSPM.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/scripts/DEFCSPMG-Enable-CSPM.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "DEFCSPMG-Hunt.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/scripts/DEFCSPMG-Hunt.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "DEFCSPMG-Report.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/scripts/DEFCSPMG-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "DEFCSPMG-Validate.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/scripts/DEFCSPMG-Validate.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DEFCSPMG-Complete-Solution.zip",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-Complete-Solution.zip",
+          "kb": 108.5
+        },
+        {
+          "name": "DEFCSPMG-hero.png",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-hero.png",
+          "kb": 445.7
+        },
+        {
+          "name": "DEFCSPMG-hero.svg",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "DEFCSPMG-Scripts.zip",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-Scripts.zip",
+          "kb": 9.4
+        },
+        {
+          "name": "DEFCSPMG-Solution.docx",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-Solution.docx",
+          "kb": 56.3
+        },
+        {
+          "name": "DEFCSPMG-Solution.pdf",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-Solution.pdf",
+          "kb": 63.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../defender/microsoft-defender-for-cloud-cspm-secure-score-gcc-high/v1.0.0/deliverables/DEFCSPMG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Defender XDR Deployment & Unified Onboarding",
     "slug": "microsoft-defender-xdr-deployment-unified-onboarding",
     "category": "Defender",
@@ -6794,6 +6964,176 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Defender XDR Deployment & Unified Onboarding — Government (GCC High)",
+    "slug": "microsoft-defender-xdr-deployment-unified-onboarding-gcc-high",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "DEFXDRG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-DEFXDRG-COMM-001",
+      "PTK-DEFXDRG-NPO-001",
+      "PTK-DEFXDRG-GOV-001"
+    ],
+    "deliverables": [
+      "DEFXDRG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\microsoft-defender-xdr-deployment-unified-onboarding-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.0
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DEFXDRG-Discovery.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/scripts/DEFXDRG-Discovery.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "DEFXDRG-Hunt.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/scripts/DEFXDRG-Hunt.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "DEFXDRG-Onboard-DeviceRing.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/scripts/DEFXDRG-Onboard-DeviceRing.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "DEFXDRG-Report.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/scripts/DEFXDRG-Report.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "DEFXDRG-Validate.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/scripts/DEFXDRG-Validate.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DEFXDRG-Complete-Solution.zip",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-Complete-Solution.zip",
+          "kb": 118.6
+        },
+        {
+          "name": "DEFXDRG-hero.png",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-hero.png",
+          "kb": 444.2
+        },
+        {
+          "name": "DEFXDRG-hero.svg",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "DEFXDRG-Scripts.zip",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-Scripts.zip",
+          "kb": 10.9
+        },
+        {
+          "name": "DEFXDRG-Solution.docx",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-Solution.docx",
+          "kb": 58.8
+        },
+        {
+          "name": "DEFXDRG-Solution.pdf",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-Solution.pdf",
+          "kb": 72.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding-gcc-high/v1.0.0/deliverables/DEFXDRG-hero.png",
     "product_count": 3
   },
   {
@@ -8296,6 +8636,176 @@
     "product_count": 3
   },
   {
+    "title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High)",
+    "slug": "entra-privileged-identity-management-pim-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTPIMG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTPIMG-COMM-001",
+      "PTK-ENTPIMG-NPO-001",
+      "PTK-ENTPIMG-GOV-001"
+    ],
+    "deliverables": [
+      "ENTPIMG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-privileged-identity-management-pim-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 7.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 2.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 6.6
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTPIMG-Alerting.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/scripts/ENTPIMG-Alerting.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "ENTPIMG-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/scripts/ENTPIMG-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "ENTPIMG-Report.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/scripts/ENTPIMG-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENTPIMG-Set-EligibleAssignments.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/scripts/ENTPIMG-Set-EligibleAssignments.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "ENTPIMG-Validate.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/scripts/ENTPIMG-Validate.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTPIMG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-Complete-Solution.zip",
+          "kb": 111.9
+        },
+        {
+          "name": "ENTPIMG-hero.png",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-hero.png",
+          "kb": 454.8
+        },
+        {
+          "name": "ENTPIMG-hero.svg",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTPIMG-Scripts.zip",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "ENTPIMG-Solution.docx",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-Solution.docx",
+          "kb": 57.3
+        },
+        {
+          "name": "ENTPIMG-Solution.pdf",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-Solution.pdf",
+          "kb": 66.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Hybrid Identity with Active Directory & Microsoft Entra Connect",
     "slug": "hybrid-identity-ad-entra-connect",
     "category": "Entra",
@@ -9305,6 +9815,176 @@
     "product_count": 3
   },
   {
+    "title": "Passwordless & Passkey (FIDO2) Rollout for Microsoft Entra — Government (GCC High)",
+    "slug": "entra-passwordless-passkey-fido2-rollout-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTPASSKEYG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTPASSKEYG-COMM-001",
+      "PTK-ENTPASSKEYG-NPO-001",
+      "PTK-ENTPASSKEYG-GOV-001"
+    ],
+    "deliverables": [
+      "ENTPASSKEYG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-passwordless-passkey-fido2-rollout-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.4
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTPASSKEYG-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/scripts/ENTPASSKEYG-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ENTPASSKEYG-Report.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/scripts/ENTPASSKEYG-Report.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "ENTPASSKEYG-Set-MethodsPolicy.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/scripts/ENTPASSKEYG-Set-MethodsPolicy.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "ENTPASSKEYG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/scripts/ENTPASSKEYG-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENTPASSKEYG-Validate.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/scripts/ENTPASSKEYG-Validate.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTPASSKEYG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-Complete-Solution.zip",
+          "kb": 118.5
+        },
+        {
+          "name": "ENTPASSKEYG-hero.png",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-hero.png",
+          "kb": 453.4
+        },
+        {
+          "name": "ENTPASSKEYG-hero.svg",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTPASSKEYG-Scripts.zip",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-Scripts.zip",
+          "kb": 9.3
+        },
+        {
+          "name": "ENTPASSKEYG-Solution.docx",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-Solution.docx",
+          "kb": 59.5
+        },
+        {
+          "name": "ENTPASSKEYG-Solution.pdf",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-Solution.pdf",
+          "kb": 73.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout-gcc-high/v1.0.0/deliverables/ENTPASSKEYG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
     "slug": "passwordless-fido2-phishing-resistant-mfa",
     "category": "Entra",
@@ -9641,6 +10321,172 @@
     "product_count": 3
   },
   {
+    "title": "Troubleshooting Microsoft Entra Connect Cloud Sync — Users Skipped / Not Provisioned to Entra (JoinNotFound, Scoping, Config & Quarantine)",
+    "slug": "entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "CLDSYNCDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CLDSYNCDX-COMM-001",
+      "PTK-CLDSYNCDX-NPO-001",
+      "PTK-CLDSYNCDX-GOV-001"
+    ],
+    "deliverables": [
+      "CLDSYNCDX-Solution.pdf",
+      "CLDSYNCDX-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 9.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 10.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 7.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 16.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CLDSYNCDX-Check-Agent.ps1",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/scripts/CLDSYNCDX-Check-Agent.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "CLDSYNCDX-Check-Provisioning.ps1",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/scripts/CLDSYNCDX-Check-Provisioning.ps1",
+          "kb": 8.3
+        },
+        {
+          "name": "CLDSYNCDX-Collect-Diagnostics.ps1",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/scripts/CLDSYNCDX-Collect-Diagnostics.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "CLDSYNCDX-Get-ProvisioningLog.ps1",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/scripts/CLDSYNCDX-Get-ProvisioningLog.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "CLDSYNCDX-Test-Object.ps1",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/scripts/CLDSYNCDX-Test-Object.ps1",
+          "kb": 7.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CLDSYNCDX-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-Complete-Solution.zip",
+          "kb": 132.5
+        },
+        {
+          "name": "CLDSYNCDX-hero.png",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-hero.png",
+          "kb": 467.9
+        },
+        {
+          "name": "CLDSYNCDX-hero.svg",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CLDSYNCDX-Scripts.zip",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-Scripts.zip",
+          "kb": 13.2
+        },
+        {
+          "name": "CLDSYNCDX-Solution.docx",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-Solution.docx",
+          "kb": 64.2
+        },
+        {
+          "name": "CLDSYNCDX-Solution.pdf",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-Solution.pdf",
+          "kb": 80.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 19.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/README.md",
+          "kb": 1.2
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting/v1.0.0/deliverables/CLDSYNCDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Zero Trust Architecture — Conditional Access Baseline & Rollout",
     "slug": "zero-trust-conditional-access-baseline",
     "category": "Entra",
@@ -9803,6 +10649,176 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Zero Trust Architecture — Conditional Access Baseline & Rollout — Government (GCC High)",
+    "slug": "zero-trust-conditional-access-baseline-gcc-high",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTZTCAG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTZTCAG-COMM-001",
+      "PTK-ENTZTCAG-NPO-001",
+      "PTK-ENTZTCAG-GOV-001"
+    ],
+    "deliverables": [
+      "ENTZTCAG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\zero-trust-conditional-access-baseline-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.3
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTZTCAG-Discovery.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/scripts/ENTZTCAG-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ENTZTCAG-Report.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/scripts/ENTZTCAG-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ENTZTCAG-Set-Baseline.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/scripts/ENTZTCAG-Set-Baseline.ps1",
+          "kb": 8.0
+        },
+        {
+          "name": "ENTZTCAG-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/scripts/ENTZTCAG-Set-ScopeTargeting.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "ENTZTCAG-Validate.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/scripts/ENTZTCAG-Validate.ps1",
+          "kb": 4.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTZTCAG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-Complete-Solution.zip",
+          "kb": 123.4
+        },
+        {
+          "name": "ENTZTCAG-hero.png",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-hero.png",
+          "kb": 408.7
+        },
+        {
+          "name": "ENTZTCAG-hero.svg",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ENTZTCAG-Scripts.zip",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "ENTZTCAG-Solution.docx",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-Solution.docx",
+          "kb": 60.8
+        },
+        {
+          "name": "ENTZTCAG-Solution.pdf",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-Solution.pdf",
+          "kb": 75.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../entra-id-solutions/zero-trust-conditional-access-baseline-gcc-high/v1.0.0/deliverables/ENTZTCAG-hero.png",
     "product_count": 3
   },
   {
@@ -63681,6 +64697,176 @@
     "product_count": 3
   },
   {
+    "title": "Deploy Microsoft Sentinel — Workspace, Data Connectors & Ingestion — Government (GCC High)",
+    "slug": "deploy-microsoft-sentinel-workspace-connectors-gcc-high",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTDEPG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SENTDEPG-COMM-001",
+      "PTK-SENTDEPG-NPO-001",
+      "PTK-SENTDEPG-GOV-001"
+    ],
+    "deliverables": [
+      "SENTDEPG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\deploy-microsoft-sentinel-workspace-connectors-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 9.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 14.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 5.5
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.0
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTDEPG-Discovery.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/scripts/SENTDEPG-Discovery.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "SENTDEPG-Report.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/scripts/SENTDEPG-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "SENTDEPG-Set-Diagnostics.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/scripts/SENTDEPG-Set-Diagnostics.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "SENTDEPG-Set-Retention.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/scripts/SENTDEPG-Set-Retention.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "SENTDEPG-Validate.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/scripts/SENTDEPG-Validate.ps1",
+          "kb": 6.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTDEPG-Complete-Solution.zip",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-Complete-Solution.zip",
+          "kb": 136.8
+        },
+        {
+          "name": "SENTDEPG-hero.png",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-hero.png",
+          "kb": 507.1
+        },
+        {
+          "name": "SENTDEPG-hero.svg",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "SENTDEPG-Scripts.zip",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "SENTDEPG-Solution.docx",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-Solution.docx",
+          "kb": 66.7
+        },
+        {
+          "name": "SENTDEPG-Solution.pdf",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-Solution.pdf",
+          "kb": 85.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 13.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors-gcc-high/v1.0.0/deliverables/SENTDEPG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
     "slug": "entra-intune-audit-telemetry-sentinel",
     "category": "Sentinel Solutions",
@@ -64677,6 +65863,176 @@
     "product_count": 3
   },
   {
+    "title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents — Government (GCC High)",
+    "slug": "soc-onboarding-sentinel-defender-xdr-gcc-high",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SOCXDRG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SOCXDRG-COMM-001",
+      "PTK-SOCXDRG-NPO-001",
+      "PTK-SOCXDRG-GOV-001"
+    ],
+    "deliverables": [
+      "SOCXDRG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\soc-onboarding-sentinel-defender-xdr-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.8
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SOCXDRG-Discovery.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/scripts/SOCXDRG-Discovery.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "SOCXDRG-IncidentQueue.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/scripts/SOCXDRG-IncidentQueue.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "SOCXDRG-Report.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/scripts/SOCXDRG-Report.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "SOCXDRG-Set-SocRbacScope.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/scripts/SOCXDRG-Set-SocRbacScope.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "SOCXDRG-Validate.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/scripts/SOCXDRG-Validate.ps1",
+          "kb": 3.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SOCXDRG-Complete-Solution.zip",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-Complete-Solution.zip",
+          "kb": 109.6
+        },
+        {
+          "name": "SOCXDRG-hero.png",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-hero.png",
+          "kb": 429.2
+        },
+        {
+          "name": "SOCXDRG-hero.svg",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SOCXDRG-Scripts.zip",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-Scripts.zip",
+          "kb": 7.7
+        },
+        {
+          "name": "SOCXDRG-Solution.docx",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-Solution.docx",
+          "kb": 57.5
+        },
+        {
+          "name": "SOCXDRG-Solution.pdf",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-Solution.pdf",
+          "kb": 66.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr-gcc-high/v1.0.0/deliverables/SOCXDRG-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel",
     "slug": "threat-hunting-kql-defender-xdr-sentinel",
     "category": "Sentinel Solutions",
@@ -64839,6 +66195,176 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel — Government (GCC High)",
+    "slug": "threat-hunting-kql-defender-xdr-sentinel-gcc-high",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "THREATHUNTG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-THREATHUNTG-COMM-001",
+      "PTK-THREATHUNTG-NPO-001",
+      "PTK-THREATHUNTG-GOV-001"
+    ],
+    "deliverables": [
+      "THREATHUNTG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\threat-hunting-kql-defender-xdr-sentinel-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 13.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 6.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 4.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 7.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 6.3
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 7.3
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "THREATHUNTG-Discovery.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/scripts/THREATHUNTG-Discovery.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "THREATHUNTG-HuntLibrary.kql",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/scripts/THREATHUNTG-HuntLibrary.kql",
+          "kb": 11.8
+        },
+        {
+          "name": "THREATHUNTG-Report.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/scripts/THREATHUNTG-Report.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "THREATHUNTG-RunHuntLibrary.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/scripts/THREATHUNTG-RunHuntLibrary.ps1",
+          "kb": 8.1
+        },
+        {
+          "name": "THREATHUNTG-Validate.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/scripts/THREATHUNTG-Validate.ps1",
+          "kb": 8.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "THREATHUNTG-Complete-Solution.zip",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-Complete-Solution.zip",
+          "kb": 146.3
+        },
+        {
+          "name": "THREATHUNTG-hero.png",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-hero.png",
+          "kb": 444.7
+        },
+        {
+          "name": "THREATHUNTG-hero.svg",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "THREATHUNTG-Scripts.zip",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-Scripts.zip",
+          "kb": 15.7
+        },
+        {
+          "name": "THREATHUNTG-Solution.docx",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-Solution.docx",
+          "kb": 68.1
+        },
+        {
+          "name": "THREATHUNTG-Solution.pdf",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-Solution.pdf",
+          "kb": 90.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel-gcc-high/v1.0.0/deliverables/THREATHUNTG-hero.png",
     "product_count": 3
   },
   {

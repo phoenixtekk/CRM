@@ -1,0 +1,41 @@
+{
+  "slug": "entra-privileged-identity-management-pim-gcc-high",
+  "title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTPIMG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Entra line. PowerShell/Graph. Requires Entra ID P2 — flagged verify. Break-glass guidance included.",
+    "GCC High edition forked from 'entra-privileged-identity-management-pim'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTPIMG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTPIMG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTPIMG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTPIMG-Complete-Solution.zip"
+  ],
+  "hero": "ENTPIMG-hero.png",
+  "gcc_high": true
+}
+

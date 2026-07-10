@@ -59,14 +59,32 @@ JoinNotFound is the *result*; the sections below are the *causes*. Work them in 
 **Symptom:** No users are provisioning; it isn't limited to one object. `CLDSYNCDX-Check-
 Provisioning.ps1` shows the job or org state.
 
-1. **The configuration is not Enabled.** A configuration that was created but left disabled never runs
+1. **⭐ Stale watermark after an earlier quarantine or after a fix — the #1 "healthy but creates
+   nothing" cause.** If the job **was quarantined earlier** (or the tenant domain finished verifying
+   *after* the first cycle, or scope/mapping changed), cloud sync already **saw and parked** those
+   objects and advanced its **watermark** past them. Now that the job is **Healthy**, those users are no
+   longer **"newly discovered"** — so **every** account re-evaluates to **JoinNotFound** and nothing is
+   created. **Clearing the quarantine does NOT fix this** — it doesn't re-open already-seen objects (and
+   if it's not currently quarantined, *Clear quarantine* is greyed out entirely). **Fix:** on the
+   configuration/agent page, click **Restart sync** — a *full* restart that resets **watermarks +
+   escrows + quarantine**, so every in-scope object is re-discovered as new. Graph equivalent:
+   `POST /servicePrincipals/{spId}/synchronization/jobs/{jobId}/restart` resetting
+   `Watermarks,Escrows,Quarantine`. Then re-run **Provision on demand** on one user → expect
+   **action = Create**. (This is the classic pattern when someone reports "it was quarantined earlier,
+   now it shows OK, but the same JoinNotFound appears for all users.")
+2. **The configuration is not Enabled.** A configuration that was created but left disabled never runs
    the scheduled cycle. **Fix:** enable `Cloud Sync – AD to Entra – Configuration`.
-2. **The synchronization job is quarantined.** If calls to the target consistently fail (commonly bad
+3. **The synchronization job is quarantined.** If calls to the target consistently fail (commonly bad
    admin credentials for the agent, or a persistent tenant-side error), the job is **quarantined** and
    nothing exports. `CLDSYNCDX-Check-Provisioning.ps1` reports the quarantine and its reason/escrow.
    **Fix:** resolve the underlying auth failure (e.g. `Repair-AADCloudSyncToolsAccount`), then
-   **clear quarantine / restart** the job. Clearing quarantine without fixing the cause just
-   re-quarantines.
+   **Restart sync** (not just *Clear quarantine* — see cause 1). Clearing quarantine without fixing the
+   underlying error just re-quarantines.
+4. **New-tenant domain move — verify the domain first.** If you moved a custom domain from an old tenant
+   into this new tenant (removing it from the old one), confirm it is **Verified** in the new tenant
+   (**Entra ID → Settings → Domain names**) *before* expecting creates — users' UPN suffix must be a
+   verified domain at evaluation time. If it verified only after the first (parked) cycle, do the
+   **Restart sync** in cause 1 so the now-valid users are re-discovered.
 3. **An object-deletion threshold is blocking the run.** In **Connect + cloud sync coexistence** (both
    exporting to one tenant), Entra's accidental-deletion-prevention threshold can block the export.
    **Fix:** investigate why the run wants to change that many objects, then

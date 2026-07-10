@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Threat Hunting",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "with KQL",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Hypothesize · Hunt · Detect · Gov GCC High",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ALERT-ONLY SOC",
+    "items": [
+      "Reactive only",
+      "Adversary moved first",
+      "No hunt library",
+      "Findings lost"
+    ]
+  },
+  "to": {
+    "label": "Proactive Hunting",
+    "stat": "MITRE · Reusable · Detections"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Hunt Library",
+      "sub": "MITRE-aligned KQL"
+    },
+    {
+      "icon": "shield",
+      "title": "Hypothesis-Driven",
+      "sub": "Find the unseen"
+    },
+    {
+      "icon": "gear",
+      "title": "Hunt → Detection",
+      "sub": "Promote wins"
+    },
+    {
+      "icon": "key",
+      "title": "Documented",
+      "sub": "Bookmarks + workflow"
+    }
+  ]
+}

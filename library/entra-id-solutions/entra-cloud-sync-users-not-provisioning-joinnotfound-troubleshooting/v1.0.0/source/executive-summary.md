@@ -1,6 +1,6 @@
 # Executive Summary — Troubleshooting Microsoft Entra Connect Cloud Sync (Users Skipped / JoinNotFound)
 
-Workplace Marketplace · Entra ID Solutions
+Entra ID Solutions · Cloud Sync Diagnostics
 
 You set up **Microsoft Entra Connect cloud sync** to synchronize on-premises Active Directory users
 into Microsoft Entra ID. It looks configured, the agent looks healthy — but **no accounts are being

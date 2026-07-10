@@ -1,0 +1,41 @@
+{
+  "slug": "deploy-microsoft-sentinel-workspace-connectors-gcc-high",
+  "title": "Deploy Microsoft Sentinel — Workspace, Data Connectors & Ingestion — Government (GCC High)",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SENTDEPG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line (Dice SIEM demand). PowerShell/Az + KQL. Vendor connector internals deferred to Microsoft docs; licensing/preview flagged verify.",
+    "GCC High edition forked from 'deploy-microsoft-sentinel-workspace-connectors'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SENTDEPG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SENTDEPG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SENTDEPG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SENTDEPG-Complete-Solution.zip"
+  ],
+  "hero": "SENTDEPG-hero.png",
+  "gcc_high": true
+}
+

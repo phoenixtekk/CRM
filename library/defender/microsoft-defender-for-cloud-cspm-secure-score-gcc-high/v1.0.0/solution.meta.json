@@ -1,0 +1,41 @@
+{
+  "slug": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high",
+  "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High)",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "DEFCSPMG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Defender category. PowerShell/Az + KQL. Defender CSPM/plan pricing flagged verify; regulatory determinations deferred to compliance.",
+    "GCC High edition forked from 'microsoft-defender-for-cloud-cspm-secure-score'. Adapt for national cloud (login.microsoftonline.us / graph.microsoft.us / portal.azure.us / *.microsoft.us gov portals), feature-parity gaps, and FedRAMP High / DoD IL4-5 / CMMC context. Same 3-tier pricing as the commercial edition."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DEFCSPMG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-DEFCSPMG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-DEFCSPMG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "DEFCSPMG-Complete-Solution.zip"
+  ],
+  "hero": "DEFCSPMG-hero.png",
+  "gcc_high": true
+}
+

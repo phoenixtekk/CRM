@@ -317,6 +317,70 @@
 ]
 },
 {
+"slug": "aws-iam-identity-center-entra-sso-federation",
+"title": "AWS IAM Identity Center + Microsoft Entra SSO Federation",
+"category": "AWS",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/aws-iam-identity-center-entra-sso-federation-commercial",
+"keywords": [
+"aws",
+"awssso",
+"center",
+"entra",
+"federation",
+"iam",
+"identity",
+"microsoft",
+"sso"
+]
+},
+{
+"slug": "aws-landing-zone-organizations-baseline",
+"title": "AWS Landing Zone & Organizations Baseline",
+"category": "AWS",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/aws-landing-zone-organizations-baseline-commercial",
+"keywords": [
+"aws",
+"awslz",
+"baseline",
+"landing",
+"organizations",
+"zone"
+]
+},
+{
+"slug": "aws-security-hub-guardduty-enablement",
+"title": "AWS Security Hub & GuardDuty Enablement",
+"category": "AWS",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/aws-security-hub-guardduty-enablement-commercial",
+"keywords": [
+"aws",
+"awssec",
+"enablement",
+"guardduty",
+"hub",
+"security"
+]
+},
+{
+"slug": "azure-kubernetes-service-aks-secure-baseline",
+"title": "Azure Kubernetes Service (AKS) Secure Baseline",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-kubernetes-service-aks-secure-baseline-commercial",
+"keywords": [
+"aks",
+"akssec",
+"azure",
+"baseline",
+"kubernetes",
+"secure",
+"service"
+]
+},
+{
 "slug": "azure-security-baseline-governance",
 "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
 "category": "Azure",
@@ -355,6 +419,22 @@
 "privilege",
 "secure",
 "security"
+]
+},
+{
+"slug": "azure-virtual-desktop-deployment-golden-image-fslogix",
+"title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-virtual-desktop-deployment-golden-image-fslogix-commercial",
+"keywords": [
+"avddep",
+"azure",
+"desktop",
+"fslogix",
+"golden",
+"image",
+"virtual"
 ]
 },
 {
@@ -488,6 +568,21 @@
 ]
 },
 {
+"slug": "azure-backup-site-recovery-deployment-configuration",
+"title": "Azure Backup & Site Recovery — Deployment & Configuration",
+"category": "Backup & DR Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-backup-site-recovery-deployment-configuration-commercial",
+"keywords": [
+"azure",
+"backup",
+"bckdr",
+"dr",
+"recovery",
+"site"
+]
+},
+{
 "slug": "backup-validation-recoverability-assurance",
 "title": "Backup Validation & Recoverability Assurance Program",
 "category": "Backup & DR Solutions",
@@ -567,6 +662,75 @@
 "remediation",
 "secure",
 "sharepoint"
+]
+},
+{
+"slug": "microsoft-fabric-power-bi-governance-administration",
+"title": "Microsoft Fabric & Power BI Governance & Administration",
+"category": "Data",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-fabric-power-bi-governance-administration-commercial",
+"keywords": [
+"administration",
+"bi",
+"data",
+"fabgov",
+"fabric",
+"governance",
+"microsoft",
+"power"
+]
+},
+{
+"slug": "defender-office-365-p2-threat-explorer-attack-sim-air",
+"title": "Defender for Office 365 (Plan 2) — Threat Explorer, Attack Simulation & Automated Investigation",
+"category": "Defender",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/defender-office-365-p2-threat-explorer-attack-sim-air-commercial",
+"keywords": [
+"365",
+"attack",
+"automated",
+"defender",
+"defmdop2",
+"explorer",
+"investigation",
+"office",
+"plan",
+"simulation",
+"threat"
+]
+},
+{
+"slug": "microsoft-defender-for-cloud-cspm-secure-score",
+"title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation",
+"category": "Defender",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-defender-for-cloud-cspm-secure-score-commercial",
+"keywords": [
+"cloud",
+"cspm",
+"defcspm",
+"defender",
+"microsoft",
+"remediation",
+"score",
+"secure"
+]
+},
+{
+"slug": "microsoft-defender-xdr-deployment-unified-onboarding",
+"title": "Microsoft Defender XDR Deployment & Unified Onboarding",
+"category": "Defender",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-defender-xdr-deployment-unified-onboarding-commercial",
+"keywords": [
+"defender",
+"defxdr",
+"microsoft",
+"onboarding",
+"unified",
+"xdr"
 ]
 },
 {
@@ -885,6 +1049,30 @@
 "phishing",
 "resistant",
 "security"
+]
+},
+{
+"slug": "entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting",
+"title": "Troubleshooting Microsoft Entra Connect Cloud Sync — Users Skipped / Not Provisioned to Entra (JoinNotFound, Scoping, Config & Quarantine)",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting-commercial",
+"keywords": [
+"cldsyncdx",
+"cloud",
+"config",
+"connect",
+"entra",
+"joinnotfound",
+"microsoft",
+"not",
+"provisioned",
+"quarantine",
+"scoping",
+"skipped",
+"sync",
+"troubleshooting",
+"users"
 ]
 },
 {
@@ -4141,6 +4329,39 @@
 ]
 },
 {
+"slug": "azure-monitor-log-analytics-foundation-dashboards",
+"title": "Azure Monitor & Log Analytics — Foundation, Alerts & Dashboards",
+"category": "Observability",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/azure-monitor-log-analytics-foundation-dashboards-commercial",
+"keywords": [
+"alerts",
+"analytics",
+"azure",
+"dashboards",
+"foundation",
+"log",
+"monitor",
+"obsazmon",
+"observability"
+]
+},
+{
+"slug": "datadog-deployment-hybrid-cloud-estates",
+"title": "Datadog Deployment for Hybrid & Cloud Estates",
+"category": "Observability",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/datadog-deployment-hybrid-cloud-estates-commercial",
+"keywords": [
+"cloud",
+"datadog",
+"estates",
+"hybrid",
+"obsddog",
+"observability"
+]
+},
+{
 "slug": "oracle-c2m-coherence-jms-iws-configuration",
 "title": "C2M Coherence Clusters, JMS Queues & Inbound Web Services (IWS) Configuration",
 "category": "Oracle",
@@ -6524,6 +6745,23 @@
 "soc",
 "socxdr",
 "unified",
+"xdr"
+]
+},
+{
+"slug": "threat-hunting-kql-defender-xdr-sentinel",
+"title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel",
+"category": "Sentinel Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/threat-hunting-kql-defender-xdr-sentinel-commercial",
+"keywords": [
+"defender",
+"hunting",
+"kql",
+"microsoft",
+"sentinel",
+"threat",
+"threathunt",
 "xdr"
 ]
 },

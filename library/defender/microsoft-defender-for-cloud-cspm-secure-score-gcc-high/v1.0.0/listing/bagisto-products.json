@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high",
+    "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High)",
+    "category_path": [
+      "Defender"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-DEFCSPMG-COMM-001",
+      "name": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter.</p>",
+      "description": "<h3>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter.</h3><p>Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (foundational + Defender CSPM), turns on agentless scanning and the regulatory-compliance dashboard, and gives you a prioritized remediation program to drive Secure Score up across Azure — and AWS/GCP via connectors.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Enable Defender for Cloud + Defender CSPM and the Secure Score model</li><li>Agentless machine scanning and the regulatory-compliance dashboard</li><li>Prioritized recommendation remediation (attack paths, risk hunting)</li><li>Multicloud connectors for AWS and GCP (posture, high-level)</li><li>Governance rules, exemptions, and continuous export to workbooks</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A continuous, prioritized view of cloud posture — and a remediation cadence that measurably raises Secure Score instead of a static audit.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DEFCSPMG-Discovery.ps1</code> &mdash; read-only posture discovery for Microsoft Defender for Cloud: plan</li><li><code>DEFCSPMG-Enable-CSPM.ps1</code> &mdash; enable the Defender CSPM (CloudPosture) plan on a subscription</li><li><code>DEFCSPMG-Hunt.ps1</code> &mdash; query Defender for Cloud recommendations and attack paths via Azure Resource</li><li><code>DEFCSPMG-Report.ps1</code> &mdash; Secure Score + top recommendations report with drift versus a saved</li><li><code>DEFCSPMG-Validate.ps1</code> &mdash; confirm Defender CSPM, agentless scanning, provider registration,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation",
+      "meta_description": "Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (found",
+      "url_key": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high-commercial",
+      "image": "DEFCSPMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "DEFCSPMG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DEFCSPMG-NPO-001",
+      "name": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter.</h3><p>Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (foundational + Defender CSPM), turns on agentless scanning and the regulatory-compliance dashboard, and gives you a prioritized remediation program to drive Secure Score up across Azure — and AWS/GCP via connectors.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Enable Defender for Cloud + Defender CSPM and the Secure Score model</li><li>Agentless machine scanning and the regulatory-compliance dashboard</li><li>Prioritized recommendation remediation (attack paths, risk hunting)</li><li>Multicloud connectors for AWS and GCP (posture, high-level)</li><li>Governance rules, exemptions, and continuous export to workbooks</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DEFCSPMG-Discovery.ps1</code> &mdash; read-only posture discovery for Microsoft Defender for Cloud: plan</li><li><code>DEFCSPMG-Enable-CSPM.ps1</code> &mdash; enable the Defender CSPM (CloudPosture) plan on a subscription</li><li><code>DEFCSPMG-Hunt.ps1</code> &mdash; query Defender for Cloud recommendations and attack paths via Azure Resource</li><li><code>DEFCSPMG-Report.ps1</code> &mdash; Secure Score + top recommendations report with drift versus a saved</li><li><code>DEFCSPMG-Validate.ps1</code> &mdash; confirm Defender CSPM, agentless scanning, provider registration,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (found",
+      "url_key": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high-nonprofit",
+      "image": "DEFCSPMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "DEFCSPMG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-DEFCSPMG-GOV-001",
+      "name": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>See and fix your cloud security posture — enable Defender for Cloud, work the Secure Score, and remediate the recommendations that matter.</h3><p>Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (foundational + Defender CSPM), turns on agentless scanning and the regulatory-compliance dashboard, and gives you a prioritized remediation program to drive Secure Score up across Azure — and AWS/GCP via connectors.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Enable Defender for Cloud + Defender CSPM and the Secure Score model</li><li>Agentless machine scanning and the regulatory-compliance dashboard</li><li>Prioritized recommendation remediation (attack paths, risk hunting)</li><li>Multicloud connectors for AWS and GCP (posture, high-level)</li><li>Governance rules, exemptions, and continuous export to workbooks</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>DEFCSPMG-Discovery.ps1</code> &mdash; read-only posture discovery for Microsoft Defender for Cloud: plan</li><li><code>DEFCSPMG-Enable-CSPM.ps1</code> &mdash; enable the Defender CSPM (CloudPosture) plan on a subscription</li><li><code>DEFCSPMG-Hunt.ps1</code> &mdash; query Defender for Cloud recommendations and attack paths via Azure Resource</li><li><code>DEFCSPMG-Report.ps1</code> &mdash; Secure Score + top recommendations report with drift versus a saved</li><li><code>DEFCSPMG-Validate.ps1</code> &mdash; confirm Defender CSPM, agentless scanning, provider registration,</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Cloud misconfiguration is the #1 breach cause, and most teams have no continuous view of it. This solution enables Microsoft Defender for Cloud (found",
+      "url_key": "microsoft-defender-for-cloud-cspm-secure-score-gcc-high-government",
+      "image": "DEFCSPMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "DEFCSPMG-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -52,7 +52,15 @@
 <!-- (none yet) -->
 
 ## Entra ID Solutions
-<!-- (none yet) -->
+- [2026-07-10] (entra-id-solutions · cloud-sync) **Entra Connect *cloud sync* "JoinNotFound / users skipped
+  / nothing created" is most often a STALE WATERMARK, not a per-user problem — and *Clear quarantine* is
+  NOT the fix.** When a job was quarantined earlier (or the domain verified late, or scope changed), cloud
+  sync already "saw" and parked the objects and advanced its watermark; once Healthy again they are no
+  longer "newly discovered," so every account re-evaluates to JoinNotFound. The fix is **Restart sync**
+  (full — resets Watermarks+Escrows+Quarantine, Graph `…/synchronization/jobs/{id}/restart`), then re-run
+  Provision on demand → action=Create. Also: on-demand IGNORES scoping but still respects the watermark,
+  so on-demand skipping ≠ a scope problem. For new-tenant domain-move cases, verify the moved domain
+  first. — from live validation (cloud sync follow-up) / `entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting`
 
 ## Defender Solutions
 <!-- (none yet) -->

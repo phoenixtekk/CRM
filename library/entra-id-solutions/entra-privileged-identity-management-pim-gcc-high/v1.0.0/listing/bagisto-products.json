@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "entra-privileged-identity-management-pim-gcc-high",
+    "title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High)",
+    "category_path": [
+      "Entra"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ENTPIMG-COMM-001",
+      "name": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "<p>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles.</p>",
+      "description": "<h3>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles.</h3><p>Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activated just-in-time with approval, MFA, and justification, time-bound, and fully audited — closing the biggest identity risk in the tenant.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Role discovery — who holds standing privileged access today</li><li>PIM for Entra roles and Azure resource roles (eligible assignments)</li><li>Activation policy — MFA, approval, justification, max duration</li><li>Access reviews for privileged roles and break-glass account design</li><li>Alerting and audit for privileged activations</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>Zero standing privilege — every admin action is just-in-time, approved, time-bound, and auditable.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTPIMG-Alerting.ps1</code> &mdash; verify break-glass protection and report PIM alert posture</li><li><code>ENTPIMG-Discovery.ps1</code> &mdash; inventory standing (active) privileged role assignments in Microsoft Entra</li><li><code>ENTPIMG-Report.ps1</code> &mdash; activation/audit and access-review report for privileged roles</li><li><code>ENTPIMG-Set-EligibleAssignments.ps1</code> &mdash; safely remove standing (active) role assignments once an</li><li><code>ENTPIMG-Validate.ps1</code> &mdash; confirm the PIM activation policy on privileged Entra roles</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin",
+      "meta_description": "Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activate",
+      "url_key": "entra-privileged-identity-management-pim-gcc-high-commercial",
+      "image": "ENTPIMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTPIMG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTPIMG-NPO-001",
+      "name": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles.</h3><p>Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activated just-in-time with approval, MFA, and justification, time-bound, and fully audited — closing the biggest identity risk in the tenant.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Role discovery — who holds standing privileged access today</li><li>PIM for Entra roles and Azure resource roles (eligible assignments)</li><li>Activation policy — MFA, approval, justification, max duration</li><li>Access reviews for privileged roles and break-glass account design</li><li>Alerting and audit for privileged activations</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTPIMG-Alerting.ps1</code> &mdash; verify break-glass protection and report PIM alert posture</li><li><code>ENTPIMG-Discovery.ps1</code> &mdash; inventory standing (active) privileged role assignments in Microsoft Entra</li><li><code>ENTPIMG-Report.ps1</code> &mdash; activation/audit and access-review report for privileged roles</li><li><code>ENTPIMG-Set-EligibleAssignments.ps1</code> &mdash; safely remove standing (active) role assignments once an</li><li><code>ENTPIMG-Validate.ps1</code> &mdash; confirm the PIM activation policy on privileged Entra roles</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activate",
+      "url_key": "entra-privileged-identity-management-pim-gcc-high-nonprofit",
+      "image": "ENTPIMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTPIMG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTPIMG-GOV-001",
+      "name": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government (GCC High) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Eliminate standing admin access — Entra PIM for just-in-time, approval-based, time-bound privileged roles.</h3><p>Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activated just-in-time with approval, MFA, and justification, time-bound, and fully audited — closing the biggest identity risk in the tenant.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Role discovery — who holds standing privileged access today</li><li>PIM for Entra roles and Azure resource roles (eligible assignments)</li><li>Activation policy — MFA, approval, justification, max duration</li><li>Access reviews for privileged roles and break-glass account design</li><li>Alerting and audit for privileged activations</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTPIMG-Alerting.ps1</code> &mdash; verify break-glass protection and report PIM alert posture</li><li><code>ENTPIMG-Discovery.ps1</code> &mdash; inventory standing (active) privileged role assignments in Microsoft Entra</li><li><code>ENTPIMG-Report.ps1</code> &mdash; activation/audit and access-review report for privileged roles</li><li><code>ENTPIMG-Set-EligibleAssignments.ps1</code> &mdash; safely remove standing (active) role assignments once an</li><li><code>ENTPIMG-Validate.ps1</code> &mdash; confirm the PIM activation policy on privileged Entra roles</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Permanent Global Admins are the breach that hasn't happened yet. This solution deploys Entra PIM so privileged roles are eligible-not-active, activate",
+      "url_key": "entra-privileged-identity-management-pim-gcc-high-government",
+      "image": "ENTPIMG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTPIMG-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Defender for Cloud",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "CSPM & Secure Score",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Posture · Prioritize · Remediate · Gov GCC High",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND POSTURE",
+    "items": [
+      "Misconfigs unseen",
+      "No score",
+      "Audit-only",
+      "No remediation"
+    ]
+  },
+  "to": {
+    "label": "Managed Posture",
+    "stat": "Scored · Prioritized · Fixed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "CSPM On",
+      "sub": "Agentless scan"
+    },
+    {
+      "icon": "chart",
+      "title": "Secure Score",
+      "sub": "Track & raise"
+    },
+    {
+      "icon": "shield",
+      "title": "Attack Paths",
+      "sub": "Risk-prioritized"
+    },
+    {
+      "icon": "gear",
+      "title": "Multicloud",
+      "sub": "AWS/GCP connectors"
+    }
+  ]
+}
