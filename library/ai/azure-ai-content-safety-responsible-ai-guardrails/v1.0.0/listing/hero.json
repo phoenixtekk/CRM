@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Content Safety",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Guardrails",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Moderate · Shield · Review",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGUARDED AI",
+    "items": [
+      "Harmful output",
+      "Jailbreakable",
+      "Hallucinations",
+      "No RAI process"
+    ]
+  },
+  "to": {
+    "label": "Guardrailed AI",
+    "stat": "Moderated · Shielded · Reviewed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Content Safety",
+      "sub": "Text/image moderation"
+    },
+    {
+      "icon": "lock",
+      "title": "Prompt Shields",
+      "sub": "Anti-jailbreak"
+    },
+    {
+      "icon": "chart",
+      "title": "Groundedness",
+      "sub": "Hallucination check"
+    },
+    {
+      "icon": "users",
+      "title": "Responsible-AI",
+      "sub": "Review + red-team"
+    }
+  ]
+}

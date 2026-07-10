@@ -42,6 +42,7 @@ SOURCE_ORDER = [
     "global-requirements-azure-solutions.md",
     "global-requirements-backup-dr-solutions.md",
     "global-requirements-data.md",
+    "global-requirements-ai.md",
     "gcc-high-parity-notes.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",

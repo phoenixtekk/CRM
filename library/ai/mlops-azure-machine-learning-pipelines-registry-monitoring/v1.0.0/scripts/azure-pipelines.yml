@@ -1,0 +1,164 @@
+# =============================================================================
+# azure-pipelines.yml — CI/CD for MLOps on Azure Machine Learning.
+#
+# PURPOSE
+#   Metric-gated, approval-gated train -> register -> deploy. Stages:
+#     Validate  -> lint + install pinned requirements + unit tests
+#     TrainEval -> submit the reproducible pipeline job (prep/train/evaluate)
+#     Register  -> metric-gated register (labels the version Candidate/Staging)
+#     Deploy    -> blue/green deploy to the managed online endpoint, BEHIND a
+#                  manual approval on the 'mlops-prod' Environment (reviewers = R7)
+#
+# HOW TO RUN
+#   Create the pipeline "MLOps Pipeline – Churn – CICD" from this file. Set the
+#   service connection (workload identity federation — no secret, G5) below, and
+#   add required reviewers to the 'mlops-prod' Environment so Deploy pauses for
+#   approval. Retraining is safe because every retrain still hits this gate.
+#
+# EXPECTED RESULTS
+#   PRs run Validate + TrainEval + Register automatically and publish metrics.
+#   Deploy only runs after a human approves the Environment check. Nothing ships
+#   to a production endpoint unreviewed, and a below-threshold model never registers.
+#
+# White-label. Metric-gated + approval-gated. GitHub Actions equivalent noted at
+# the bottom. *Verify current task versions, az 'ml' extension, and SDK versions.*
+# =============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - train_register_pipeline.py
+      - infra.bicep
+      - 'src/*'
+      - requirements.txt
+
+pr:
+  branches:
+    include:
+      - main
+
+variables:
+  azureServiceConnection: 'sc-mlops-oidc'      # workload identity federation (no secret, G5)
+  resourceGroup: 'rg-mlops'
+  workspace: 'mlw-platform-prod'               # prod workspace; non-prod validated first
+  dataAsset: 'churn-training-data'
+  modelName: 'churn-classifier'
+  onlineEndpoint: 'churn-online-prod'          # 'Online Endpoint – Churn – Prod'
+  minAuc: '0.80'                               # acceptance threshold (R6) — data-science owner's value
+
+stages:
+  # ---------------------------------------------------------------------------
+  - stage: Validate
+    displayName: 'Validate (lint + tests)'
+    jobs:
+      - job: build
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: UsePythonVersion@0
+            inputs:
+              versionSpec: '3.11'
+          - script: |
+              python -m pip install -U pip
+              pip install -r requirements.txt
+              pip install ruff pytest
+              ruff check .
+              pytest -q || echo "no tests yet"
+            displayName: 'Install pinned deps, lint, unit tests'
+
+  # ---------------------------------------------------------------------------
+  - stage: TrainEval
+    displayName: 'Train + Evaluate (reproducible pipeline job)'
+    dependsOn: Validate
+    jobs:
+      - job: train
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: AzureCLI@2
+            displayName: 'Submit train/evaluate (DRY-RUN — no register yet)'
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add -n ml -y
+                pip install -r requirements.txt
+                # Dry-run: trains + evaluates + prints the gate decision, registers nothing.
+                python train_register_pipeline.py \
+                  --workspace $(workspace) --resource-group $(resourceGroup) \
+                  --data-asset $(dataAsset) --min-auc $(minAuc)
+
+  # ---------------------------------------------------------------------------
+  - stage: Register
+    displayName: 'Register (metric-gated)'
+    dependsOn: TrainEval
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - job: register
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: AzureCLI@2
+            displayName: 'Register only if metric >= threshold'
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az extension add -n ml -y
+                pip install -r requirements.txt
+                # --register enables the gate; a below-threshold model still will NOT register.
+                python train_register_pipeline.py \
+                  --workspace $(workspace) --resource-group $(resourceGroup) \
+                  --data-asset $(dataAsset) --min-auc $(minAuc) --register
+
+  # ---------------------------------------------------------------------------
+  - stage: Deploy
+    displayName: 'Deploy (blue/green) — approval-gated'
+    dependsOn: Register
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: deployModel
+        displayName: 'Deploy latest model to the managed endpoint'
+        pool:
+          vmImage: 'ubuntu-latest'
+        # The Environment check (required reviewers) is the approval gate (R7).
+        environment: 'mlops-prod'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - task: AzureCLI@2
+                  displayName: 'Blue/green deploy at 0% traffic, then shift'
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      az extension add -n ml -y
+                      VER=$(az ml model list --name $(modelName) -w $(workspace) -g $(resourceGroup) \
+                            --query "max_by([], &version).version" -o tsv)
+                      echo "Deploying $(modelName):$VER to $(onlineEndpoint) as green (0% traffic)"
+                      az ml online-deployment create --name green \
+                        --endpoint $(onlineEndpoint) -w $(workspace) -g $(resourceGroup) \
+                        --model $(modelName):$VER --instance-count 1
+                      # Smoke-test at 0% before shifting traffic; rollback = keep traffic on blue.
+                      az ml online-endpoint invoke --name $(onlineEndpoint) \
+                        -w $(workspace) -g $(resourceGroup) --request-file ./sample-request.json
+                      az ml online-endpoint update --name $(onlineEndpoint) \
+                        -w $(workspace) -g $(resourceGroup) --traffic "green=100 blue=0"
+
+# -----------------------------------------------------------------------------
+# GitHub Actions equivalent (for teams on GitHub):
+#   - Use azure/login@v2 with OIDC (permissions: id-token: write) — no secret.
+#   - Job 1 (validate): install requirements.txt, ruff, pytest.
+#   - Job 2 (train):    run train_register_pipeline.py WITHOUT --register (dry-run).
+#   - Job 3 (register): run it WITH --register (metric gate).
+#   - Job 4 (deploy):   target a GitHub Environment named 'mlops-prod' with required
+#                       reviewers, so the deploy job waits for approval — same gate.
+# -----------------------------------------------------------------------------

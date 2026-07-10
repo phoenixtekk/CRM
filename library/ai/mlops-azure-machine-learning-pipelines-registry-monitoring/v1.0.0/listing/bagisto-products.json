@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "mlops-azure-machine-learning-pipelines-registry-monitoring",
+    "title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring",
+    "category_path": [
+      "AI"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AIMLOPS-COMM-001",
+      "name": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production.</p>",
+      "description": "<h3>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production.</h3><p>Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learning: reproducible training pipelines, a versioned model registry, CI/CD for train→register→deploy, managed online/batch endpoints, and monitoring for data drift and model performance — with approval gates before production.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Python, IaC &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Azure ML workspace, compute, and environment management (as code)</li><li>Reproducible training + evaluation pipelines (Azure ML / MLflow)</li><li>Model registry with versioning, lineage, and stage promotion</li><li>CI/CD (GitHub Actions / Azure DevOps) train→register→deploy with approvals</li><li>Managed endpoints + data-drift & performance monitoring with alerts</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>An MLOps foundation where every model is reproducible, versioned, approved, and monitored in production — not a notebook copied by hand.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 3 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIMLOPS-Discovery.ps1</code> &mdash; read-only inventory of the Azure ML estate before standing up MLOps</li><li><code>AIMLOPS-Validate.ps1</code> &mdash; read-only validation + posture report for the Azure ML MLOps loop</li><li><code>train_register_pipeline.py</code> &mdash; reproducible train -> evaluate -> (gated) register</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring",
+      "meta_description": "Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learni",
+      "url_key": "mlops-azure-machine-learning-pipelines-registry-monitoring-commercial",
+      "image": "AIMLOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIMLOPS-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AIMLOPS-NPO-001",
+      "name": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production.</h3><p>Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learning: reproducible training pipelines, a versioned model registry, CI/CD for train→register→deploy, managed online/batch endpoints, and monitoring for data drift and model performance — with approval gates before production.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Azure ML workspace, compute, and environment management (as code)</li><li>Reproducible training + evaluation pipelines (Azure ML / MLflow)</li><li>Model registry with versioning, lineage, and stage promotion</li><li>CI/CD (GitHub Actions / Azure DevOps) train→register→deploy with approvals</li><li>Managed endpoints + data-drift & performance monitoring with alerts</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 3 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIMLOPS-Discovery.ps1</code> &mdash; read-only inventory of the Azure ML estate before standing up MLOps</li><li><code>AIMLOPS-Validate.ps1</code> &mdash; read-only validation + posture report for the Azure ML MLOps loop</li><li><code>train_register_pipeline.py</code> &mdash; reproducible train -> evaluate -> (gated) register</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learni",
+      "url_key": "mlops-azure-machine-learning-pipelines-registry-monitoring-nonprofit",
+      "image": "AIMLOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIMLOPS-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AIMLOPS-GOV-001",
+      "name": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Ship and operate ML like software — Azure ML pipelines, a model registry, CI/CD, and drift/performance monitoring in production.</h3><p>Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learning: reproducible training pipelines, a versioned model registry, CI/CD for train→register→deploy, managed online/batch endpoints, and monitoring for data drift and model performance — with approval gates before production.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Azure ML workspace, compute, and environment management (as code)</li><li>Reproducible training + evaluation pipelines (Azure ML / MLflow)</li><li>Model registry with versioning, lineage, and stage promotion</li><li>CI/CD (GitHub Actions / Azure DevOps) train→register→deploy with approvals</li><li>Managed endpoints + data-drift & performance monitoring with alerts</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 3 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIMLOPS-Discovery.ps1</code> &mdash; read-only inventory of the Azure ML estate before standing up MLOps</li><li><code>AIMLOPS-Validate.ps1</code> &mdash; read-only validation + posture report for the Azure ML MLOps loop</li><li><code>train_register_pipeline.py</code> &mdash; reproducible train -> evaluate -> (gated) register</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Models built in notebooks and copied to prod by hand can't be reproduced, retrained, or trusted. This solution stands up MLOps on Azure Machine Learni",
+      "url_key": "mlops-azure-machine-learning-pipelines-registry-monitoring-government",
+      "image": "AIMLOPS-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIMLOPS-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

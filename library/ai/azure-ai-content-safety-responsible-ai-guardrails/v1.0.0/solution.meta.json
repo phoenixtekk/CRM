@@ -1,0 +1,39 @@
+{
+  "slug": "azure-ai-content-safety-responsible-ai-guardrails",
+  "title": "Azure AI Content Safety & Responsible-AI Guardrails",
+  "category": "AI",
+  "category_slug": "ai",
+  "sol_code": "AISAFETY",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AI category. Python (azure-ai-contentsafety SDK) + integration samples. GAP-DEDUPED: distinct from Purview AI governance (which governs M365 Copilot) — this is content-safety guardrails for *custom* AI apps. Preview features flagged verify; acceptable-content/RAI policy determinations deferred to the customer's legal/trust & safety."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AISAFETY-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AISAFETY-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AISAFETY-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AISAFETY-Complete-Solution.zip"
+  ],
+  "hero": "AISAFETY-hero.png"
+}
+

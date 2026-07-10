@@ -1,0 +1,39 @@
+{
+  "slug": "mlops-azure-machine-learning-pipelines-registry-monitoring",
+  "title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring",
+  "category": "AI",
+  "category_slug": "ai",
+  "sol_code": "AIMLOPS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AI category. Python (azure-ai-ml SDK v2, MLflow) + YAML pipelines + Bicep. Deploy/retrain approval-gated. Feature/SDK versions flagged verify; model-acceptance decisions deferred to the data-science owner."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AIMLOPS-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-AIMLOPS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-AIMLOPS-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "AIMLOPS-Complete-Solution.zip"
+  ],
+  "hero": "AIMLOPS-hero.png"
+}
+

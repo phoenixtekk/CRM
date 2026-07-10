@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "enterprise-rag-platform-azure-ai-search-private-data",
+    "title": "Enterprise RAG Platform on Azure (AI Search + Private Data)",
+    "category_path": [
+      "AI"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AIRAG-COMM-001",
+      "name": "Enterprise RAG Platform on Azure (AI Search + Private Data) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval.</p>",
+      "description": "<h3>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval.</h3><p>A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solution builds an enterprise RAG platform: data ingestion and chunking, embeddings, an Azure AI Search index with hybrid + semantic ranking, permission-trimmed (security-filtered) retrieval, and an orchestration layer that grounds Azure OpenAI on your private content with citations.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Python, IaC &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Data ingestion, chunking, and embedding pipeline (as code)</li><li>Azure AI Search index — hybrid search + semantic ranking + vector</li><li>Permission-trimmed / security-filtered retrieval (respect source ACLs)</li><li>Orchestration (grounded prompts, citations, evaluation) via prompt flow</li><li>Evaluation harness (groundedness, relevance) and monitoring</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A RAG platform that answers from your data with citations — and never returns content a user isn't allowed to see.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIRAG-Discovery.py</code> &mdash; read-only readiness check for an enterprise RAG deployment on Azure</li><li><code>AIRAG-Ingest.py</code> &mdash; build the permission-trimmed index, then chunk + embed + load private data</li><li><code>AIRAG-Report.py</code> &mdash; posture report for the Enterprise RAG Platform on Azure</li><li><code>AIRAG-Validate.py</code> &mdash; validate the RAG platform, incl. the PERMISSION-TRIMMING negative test</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise RAG Platform on Azure (AI Search + Private Data)",
+      "meta_description": "A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solutio",
+      "url_key": "enterprise-rag-platform-azure-ai-search-private-data-commercial",
+      "image": "AIRAG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIRAG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AIRAG-NPO-001",
+      "name": "Enterprise RAG Platform on Azure (AI Search + Private Data) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval.</h3><p>A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solution builds an enterprise RAG platform: data ingestion and chunking, embeddings, an Azure AI Search index with hybrid + semantic ranking, permission-trimmed (security-filtered) retrieval, and an orchestration layer that grounds Azure OpenAI on your private content with citations.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Data ingestion, chunking, and embedding pipeline (as code)</li><li>Azure AI Search index — hybrid search + semantic ranking + vector</li><li>Permission-trimmed / security-filtered retrieval (respect source ACLs)</li><li>Orchestration (grounded prompts, citations, evaluation) via prompt flow</li><li>Evaluation harness (groundedness, relevance) and monitoring</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIRAG-Discovery.py</code> &mdash; read-only readiness check for an enterprise RAG deployment on Azure</li><li><code>AIRAG-Ingest.py</code> &mdash; build the permission-trimmed index, then chunk + embed + load private data</li><li><code>AIRAG-Report.py</code> &mdash; posture report for the Enterprise RAG Platform on Azure</li><li><code>AIRAG-Validate.py</code> &mdash; validate the RAG platform, incl. the PERMISSION-TRIMMING negative test</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise RAG Platform on Azure (AI Search + Private Data) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solutio",
+      "url_key": "enterprise-rag-platform-azure-ai-search-private-data-nonprofit",
+      "image": "AIRAG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIRAG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AIRAG-GOV-001",
+      "name": "Enterprise RAG Platform on Azure (AI Search + Private Data) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Ground AI on your own data — a secure Retrieval-Augmented Generation platform with Azure AI Search, chunking, and permission-trimmed retrieval.</h3><p>A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solution builds an enterprise RAG platform: data ingestion and chunking, embeddings, an Azure AI Search index with hybrid + semantic ranking, permission-trimmed (security-filtered) retrieval, and an orchestration layer that grounds Azure OpenAI on your private content with citations.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Data ingestion, chunking, and embedding pipeline (as code)</li><li>Azure AI Search index — hybrid search + semantic ranking + vector</li><li>Permission-trimmed / security-filtered retrieval (respect source ACLs)</li><li>Orchestration (grounded prompts, citations, evaluation) via prompt flow</li><li>Evaluation harness (groundedness, relevance) and monitoring</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AIRAG-Discovery.py</code> &mdash; read-only readiness check for an enterprise RAG deployment on Azure</li><li><code>AIRAG-Ingest.py</code> &mdash; build the permission-trimmed index, then chunk + embed + load private data</li><li><code>AIRAG-Report.py</code> &mdash; posture report for the Enterprise RAG Platform on Azure</li><li><code>AIRAG-Validate.py</code> &mdash; validate the RAG platform, incl. the PERMISSION-TRIMMING negative test</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enterprise RAG Platform on Azure (AI Search + Private Data) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. A chatbot that hallucinates because it can't see your data is worthless; one that leaks data because it ignores permissions is dangerous. This solutio",
+      "url_key": "enterprise-rag-platform-azure-ai-search-private-data-government",
+      "image": "AIRAG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AIRAG-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

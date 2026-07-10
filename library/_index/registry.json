@@ -1,5 +1,840 @@
 [
   {
+    "title": "AI Landing Zone & Governance (Private Networking, Content Safety, Cost)",
+    "slug": "ai-landing-zone-governance-private-networking-cost",
+    "category": "AI",
+    "category_slug": "ai",
+    "sol_code": "AILZ",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AILZ-COMM-001",
+      "PTK-AILZ-NPO-001",
+      "PTK-AILZ-GOV-001"
+    ],
+    "deliverables": [
+      "AILZ-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\ai\\ai-landing-zone-governance-private-networking-cost\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/03-implementation.md",
+          "kb": 12.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/05-testing.md",
+          "kb": 7.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/07-best-practices.md",
+          "kb": 5.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 7.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/executive-summary.md",
+          "kb": 5.6
+        },
+        {
+          "name": "global-requirements-ai.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/source/global-requirements-ai.md",
+          "kb": 5.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AILZ-Discovery.ps1",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/scripts/AILZ-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "AILZ-Report.ps1",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/scripts/AILZ-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "AILZ-Validate.ps1",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/scripts/AILZ-Validate.ps1",
+          "kb": 9.2
+        },
+        {
+          "name": "azure-pipelines.yml",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/scripts/azure-pipelines.yml",
+          "kb": 6.9
+        },
+        {
+          "name": "main.tf",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/scripts/main.tf",
+          "kb": 19.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AILZ-Complete-Solution.zip",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-Complete-Solution.zip",
+          "kb": 137.3
+        },
+        {
+          "name": "AILZ-hero.png",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-hero.png",
+          "kb": 422.6
+        },
+        {
+          "name": "AILZ-hero.svg",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "AILZ-Scripts.zip",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-Scripts.zip",
+          "kb": 15.3
+        },
+        {
+          "name": "AILZ-Solution.docx",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-Solution.docx",
+          "kb": 65.2
+        },
+        {
+          "name": "AILZ-Solution.pdf",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-Solution.pdf",
+          "kb": 83.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../ai/ai-landing-zone-governance-private-networking-cost/v1.0.0/deliverables/AILZ-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure AI Content Safety & Responsible-AI Guardrails",
+    "slug": "azure-ai-content-safety-responsible-ai-guardrails",
+    "category": "AI",
+    "category_slug": "ai",
+    "sol_code": "AISAFETY",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AISAFETY-COMM-001",
+      "PTK-AISAFETY-NPO-001",
+      "PTK-AISAFETY-GOV-001"
+    ],
+    "deliverables": [
+      "AISAFETY-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\ai\\azure-ai-content-safety-responsible-ai-guardrails\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/02-requirements.md",
+          "kb": 7.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/executive-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "global-requirements-ai.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/source/global-requirements-ai.md",
+          "kb": 5.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AISAFETY-Blocklist.py",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/AISAFETY-Blocklist.py",
+          "kb": 4.9
+        },
+        {
+          "name": "AISAFETY-Discovery.py",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/AISAFETY-Discovery.py",
+          "kb": 5.4
+        },
+        {
+          "name": "AISAFETY-Report.py",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/AISAFETY-Report.py",
+          "kb": 7.0
+        },
+        {
+          "name": "AISAFETY-SafetyFilter.py",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/AISAFETY-SafetyFilter.py",
+          "kb": 11.8
+        },
+        {
+          "name": "AISAFETY-Validate.py",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/AISAFETY-Validate.py",
+          "kb": 5.7
+        },
+        {
+          "name": "report.json",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/scripts/report.json",
+          "kb": 1.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AISAFETY-Complete-Solution.zip",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-Complete-Solution.zip",
+          "kb": 115.0
+        },
+        {
+          "name": "AISAFETY-hero.png",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-hero.png",
+          "kb": 432.5
+        },
+        {
+          "name": "AISAFETY-hero.svg",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AISAFETY-Scripts.zip",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-Scripts.zip",
+          "kb": 13.3
+        },
+        {
+          "name": "AISAFETY-Solution.docx",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "AISAFETY-Solution.pdf",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-Solution.pdf",
+          "kb": 64.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../ai/azure-ai-content-safety-responsible-ai-guardrails/v1.0.0/deliverables/AISAFETY-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure AI Foundry & Azure OpenAI — Secure Enterprise Deployment",
+    "slug": "azure-ai-foundry-openai-secure-enterprise-deployment",
+    "category": "AI",
+    "category_slug": "ai",
+    "sol_code": "AIFOUNDRY",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AIFOUNDRY-COMM-001",
+      "PTK-AIFOUNDRY-NPO-001",
+      "PTK-AIFOUNDRY-GOV-001"
+    ],
+    "deliverables": [
+      "AIFOUNDRY-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\ai\\azure-ai-foundry-openai-secure-enterprise-deployment\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/03-implementation.md",
+          "kb": 11.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/05-testing.md",
+          "kb": 5.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/07-best-practices.md",
+          "kb": 5.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/executive-summary.md",
+          "kb": 4.5
+        },
+        {
+          "name": "global-requirements-ai.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/source/global-requirements-ai.md",
+          "kb": 5.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AIFOUNDRY-Discovery.ps1",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/AIFOUNDRY-Discovery.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "AIFOUNDRY-main.bicep",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/AIFOUNDRY-main.bicep",
+          "kb": 9.8
+        },
+        {
+          "name": "AIFOUNDRY-ModelSmokeTest.py",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/AIFOUNDRY-ModelSmokeTest.py",
+          "kb": 6.0
+        },
+        {
+          "name": "AIFOUNDRY-Report.ps1",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/AIFOUNDRY-Report.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "AIFOUNDRY-Validate.py",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/AIFOUNDRY-Validate.py",
+          "kb": 6.4
+        },
+        {
+          "name": "requirements.txt",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/scripts/requirements.txt",
+          "kb": 0.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AIFOUNDRY-Complete-Solution.zip",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-Complete-Solution.zip",
+          "kb": 123.5
+        },
+        {
+          "name": "AIFOUNDRY-hero.png",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-hero.png",
+          "kb": 447.6
+        },
+        {
+          "name": "AIFOUNDRY-hero.svg",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AIFOUNDRY-Scripts.zip",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-Scripts.zip",
+          "kb": 12.8
+        },
+        {
+          "name": "AIFOUNDRY-Solution.docx",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-Solution.docx",
+          "kb": 62.0
+        },
+        {
+          "name": "AIFOUNDRY-Solution.pdf",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-Solution.pdf",
+          "kb": 71.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 6,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../ai/azure-ai-foundry-openai-secure-enterprise-deployment/v1.0.0/deliverables/AIFOUNDRY-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enterprise RAG Platform on Azure (AI Search + Private Data)",
+    "slug": "enterprise-rag-platform-azure-ai-search-private-data",
+    "category": "AI",
+    "category_slug": "ai",
+    "sol_code": "AIRAG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AIRAG-COMM-001",
+      "PTK-AIRAG-NPO-001",
+      "PTK-AIRAG-GOV-001"
+    ],
+    "deliverables": [
+      "AIRAG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\ai\\enterprise-rag-platform-azure-ai-search-private-data\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/02-requirements.md",
+          "kb": 8.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-ai.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/source/global-requirements-ai.md",
+          "kb": 5.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AIRAG-Discovery.py",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/scripts/AIRAG-Discovery.py",
+          "kb": 7.3
+        },
+        {
+          "name": "AIRAG-infra.bicep",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/scripts/AIRAG-infra.bicep",
+          "kb": 7.9
+        },
+        {
+          "name": "AIRAG-Ingest.py",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/scripts/AIRAG-Ingest.py",
+          "kb": 11.9
+        },
+        {
+          "name": "AIRAG-Report.py",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/scripts/AIRAG-Report.py",
+          "kb": 5.6
+        },
+        {
+          "name": "AIRAG-Validate.py",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/scripts/AIRAG-Validate.py",
+          "kb": 9.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AIRAG-Complete-Solution.zip",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-Complete-Solution.zip",
+          "kb": 119.9
+        },
+        {
+          "name": "AIRAG-hero.png",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-hero.png",
+          "kb": 399.9
+        },
+        {
+          "name": "AIRAG-hero.svg",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AIRAG-Scripts.zip",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-Scripts.zip",
+          "kb": 15.2
+        },
+        {
+          "name": "AIRAG-Solution.docx",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-Solution.docx",
+          "kb": 59.8
+        },
+        {
+          "name": "AIRAG-Solution.pdf",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-Solution.pdf",
+          "kb": 66.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../ai/enterprise-rag-platform-azure-ai-search-private-data/v1.0.0/deliverables/AIRAG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "MLOps on Azure Machine Learning — Pipelines, Registry & Monitoring",
+    "slug": "mlops-azure-machine-learning-pipelines-registry-monitoring",
+    "category": "AI",
+    "category_slug": "ai",
+    "sol_code": "AIMLOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AIMLOPS-COMM-001",
+      "PTK-AIMLOPS-NPO-001",
+      "PTK-AIMLOPS-GOV-001"
+    ],
+    "deliverables": [
+      "AIMLOPS-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\ai\\mlops-azure-machine-learning-pipelines-registry-monitoring\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/03-implementation.md",
+          "kb": 11.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-ai.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/source/global-requirements-ai.md",
+          "kb": 5.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AIMLOPS-Discovery.ps1",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/scripts/AIMLOPS-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "AIMLOPS-Validate.ps1",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/scripts/AIMLOPS-Validate.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "azure-pipelines.yml",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/scripts/azure-pipelines.yml",
+          "kb": 7.2
+        },
+        {
+          "name": "infra.bicep",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/scripts/infra.bicep",
+          "kb": 6.7
+        },
+        {
+          "name": "train_register_pipeline.py",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/scripts/train_register_pipeline.py",
+          "kb": 9.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AIMLOPS-Complete-Solution.zip",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-Complete-Solution.zip",
+          "kb": 117.6
+        },
+        {
+          "name": "AIMLOPS-hero.png",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-hero.png",
+          "kb": 402.7
+        },
+        {
+          "name": "AIMLOPS-hero.svg",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AIMLOPS-Scripts.zip",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-Scripts.zip",
+          "kb": 12.7
+        },
+        {
+          "name": "AIMLOPS-Solution.docx",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-Solution.docx",
+          "kb": 60.3
+        },
+        {
+          "name": "AIMLOPS-Solution.pdf",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-Solution.pdf",
+          "kb": 65.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../ai/mlops-azure-machine-learning-pipelines-registry-monitoring/v1.0.0/deliverables/AIMLOPS-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
     "slug": "android-dedicated-cosu-kiosk-device-enrollment-management-intune",
     "category": "Android",

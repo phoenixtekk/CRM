@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "azure-ai-content-safety-responsible-ai-guardrails",
+    "title": "Azure AI Content Safety & Responsible-AI Guardrails",
+    "category_path": [
+      "AI"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AISAFETY-COMM-001",
+      "name": "Azure AI Content Safety & Responsible-AI Guardrails — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "<p>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process.</p>",
+      "description": "<h3>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process.</h3><p>A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution adds guardrails: Azure AI Content Safety (text/image moderation, prompt shields against jailbreak/injection, protected-material and groundedness detection), a blocklist and severity policy, and a responsible-AI review and red-team process integrated into the app lifecycle.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Python, IaC &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Azure AI Content Safety — text/image moderation with severity thresholds</li><li>Prompt Shields (jailbreak / indirect prompt-injection) and blocklists</li><li>Groundedness detection and protected-material checks</li><li>Integration pattern (pre/post-generation filtering) for your AI apps</li><li>Responsible-AI review, red-team prompts, and an incident/appeal process</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>AI apps with real guardrails — harmful content blocked, jailbreaks shielded, groundedness checked, and a responsible-AI process behind it.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AISAFETY-Blocklist.py</code> &mdash; safe manager for the custom Content Safety blocklist (preview by default)</li><li><code>AISAFETY-Discovery.py</code> &mdash; read-only inventory of custom AI apps and their current safety posture</li><li><code>AISAFETY-Report.py</code> &mdash; read-only moderation-posture report over the red-team and benign prompt sets</li><li><code>AISAFETY-SafetyFilter.py</code> &mdash; the reusable pre/post-generation guardrail for your AI apps</li><li><code>AISAFETY-Validate.py</code> &mdash; read-only check that the guardrail configuration is correctly wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure AI Content Safety & Responsible-AI Guardrails",
+      "meta_description": "A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution ",
+      "url_key": "azure-ai-content-safety-responsible-ai-guardrails-commercial",
+      "image": "AISAFETY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AISAFETY-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AISAFETY-NPO-001",
+      "name": "Azure AI Content Safety & Responsible-AI Guardrails — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process.</h3><p>A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution adds guardrails: Azure AI Content Safety (text/image moderation, prompt shields against jailbreak/injection, protected-material and groundedness detection), a blocklist and severity policy, and a responsible-AI review and red-team process integrated into the app lifecycle.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Azure AI Content Safety — text/image moderation with severity thresholds</li><li>Prompt Shields (jailbreak / indirect prompt-injection) and blocklists</li><li>Groundedness detection and protected-material checks</li><li>Integration pattern (pre/post-generation filtering) for your AI apps</li><li>Responsible-AI review, red-team prompts, and an incident/appeal process</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AISAFETY-Blocklist.py</code> &mdash; safe manager for the custom Content Safety blocklist (preview by default)</li><li><code>AISAFETY-Discovery.py</code> &mdash; read-only inventory of custom AI apps and their current safety posture</li><li><code>AISAFETY-Report.py</code> &mdash; read-only moderation-posture report over the red-team and benign prompt sets</li><li><code>AISAFETY-SafetyFilter.py</code> &mdash; the reusable pre/post-generation guardrail for your AI apps</li><li><code>AISAFETY-Validate.py</code> &mdash; read-only check that the guardrail configuration is correctly wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure AI Content Safety & Responsible-AI Guardrails — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution ",
+      "url_key": "azure-ai-content-safety-responsible-ai-guardrails-nonprofit",
+      "image": "AISAFETY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AISAFETY-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AISAFETY-GOV-001",
+      "name": "Azure AI Content Safety & Responsible-AI Guardrails — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Put guardrails around your AI apps — Azure AI Content Safety, prompt-shield, groundedness checks, and a responsible-AI review process.</h3><p>A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution adds guardrails: Azure AI Content Safety (text/image moderation, prompt shields against jailbreak/injection, protected-material and groundedness detection), a blocklist and severity policy, and a responsible-AI review and red-team process integrated into the app lifecycle.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Azure AI Content Safety — text/image moderation with severity thresholds</li><li>Prompt Shields (jailbreak / indirect prompt-injection) and blocklists</li><li>Groundedness detection and protected-material checks</li><li>Integration pattern (pre/post-generation filtering) for your AI apps</li><li>Responsible-AI review, red-team prompts, and an incident/appeal process</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AISAFETY-Blocklist.py</code> &mdash; safe manager for the custom Content Safety blocklist (preview by default)</li><li><code>AISAFETY-Discovery.py</code> &mdash; read-only inventory of custom AI apps and their current safety posture</li><li><code>AISAFETY-Report.py</code> &mdash; read-only moderation-posture report over the red-team and benign prompt sets</li><li><code>AISAFETY-SafetyFilter.py</code> &mdash; the reusable pre/post-generation guardrail for your AI apps</li><li><code>AISAFETY-Validate.py</code> &mdash; read-only check that the guardrail configuration is correctly wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure AI Content Safety & Responsible-AI Guardrails — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. A custom AI app with no safety layer can emit harmful content, be jailbroken, or hallucinate confidently — a brand and compliance risk. This solution ",
+      "url_key": "azure-ai-content-safety-responsible-ai-guardrails-government",
+      "image": "AISAFETY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AISAFETY-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

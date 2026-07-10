@@ -1,0 +1,7 @@
+# Python dependencies for the AIFOUNDRY validation and smoke-test scripts.
+# Pin to versions verified against your tenant — the Azure AI SDKs move fast (*verify current*).
+azure-identity
+azure-mgmt-cognitiveservices
+azure-mgmt-authorization
+azure-mgmt-monitor
+openai

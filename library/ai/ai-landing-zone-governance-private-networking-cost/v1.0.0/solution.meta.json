@@ -1,0 +1,39 @@
+{
+  "slug": "ai-landing-zone-governance-private-networking-cost",
+  "title": "AI Landing Zone & Governance (Private Networking, Content Safety, Cost)",
+  "category": "AI",
+  "category_slug": "ai",
+  "sol_code": "AILZ",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AI category. Terraform/Bicep (.tf/.bicep) + Az/PowerShell + YAML pipeline. Everything plan/what-if-first, non-prod-first. Policy/feature availability flagged verify; AI-use policy deferred to the customer."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AILZ-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-AILZ-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-AILZ-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "AILZ-Complete-Solution.zip"
+  ],
+  "hero": "AILZ-hero.png"
+}
+

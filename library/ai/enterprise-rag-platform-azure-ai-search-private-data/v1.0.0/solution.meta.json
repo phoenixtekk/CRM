@@ -1,0 +1,39 @@
+{
+  "slug": "enterprise-rag-platform-azure-ai-search-private-data",
+  "title": "Enterprise RAG Platform on Azure (AI Search + Private Data)",
+  "category": "AI",
+  "category_slug": "ai",
+  "sol_code": "AIRAG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AI category. Python (azure-search-documents, openai, promptflow) + Bicep. Permission-trimming/security-filtering emphasized (data-leak risk). Preview features + pricing flagged verify; data-classification determinations deferred to compliance."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AIRAG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-AIRAG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-AIRAG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "AIRAG-Complete-Solution.zip"
+  ],
+  "hero": "AIRAG-hero.png"
+}
+

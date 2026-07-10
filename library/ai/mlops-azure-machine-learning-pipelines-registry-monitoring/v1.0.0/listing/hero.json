@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "MLOps on",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Azure ML",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Pipeline · Register · Monitor",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NOTEBOOK OPS",
+    "items": [
+      "Not reproducible",
+      "Manual deploy",
+      "No registry",
+      "No drift alerts"
+    ]
+  },
+  "to": {
+    "label": "Production MLOps",
+    "stat": "Versioned · CI/CD · Monitored"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Pipelines",
+      "sub": "Reproducible train"
+    },
+    {
+      "icon": "cloud",
+      "title": "Model Registry",
+      "sub": "Versioned + lineage"
+    },
+    {
+      "icon": "chart",
+      "title": "CI/CD Deploy",
+      "sub": "Approval-gated"
+    },
+    {
+      "icon": "shield",
+      "title": "Drift Monitoring",
+      "sub": "Perf alerts"
+    }
+  ]
+}

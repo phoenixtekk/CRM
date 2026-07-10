@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure AI Foundry",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Azure OpenAI",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Private · Keyless · Governed",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AI",
+    "items": [
+      "Public endpoint",
+      "Shared keys",
+      "No quota",
+      "Bill shock"
+    ]
+  },
+  "to": {
+    "label": "Secure AI Platform",
+    "stat": "Private · Managed · Monitored"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "AI Foundry",
+      "sub": "Hub + project"
+    },
+    {
+      "icon": "shield",
+      "title": "Private + Keyless",
+      "sub": "Managed identity"
+    },
+    {
+      "icon": "gear",
+      "title": "Quota Mgmt",
+      "sub": "TPM + rate limits"
+    },
+    {
+      "icon": "chart",
+      "title": "Monitored",
+      "sub": "Cost + usage"
+    }
+  ]
+}

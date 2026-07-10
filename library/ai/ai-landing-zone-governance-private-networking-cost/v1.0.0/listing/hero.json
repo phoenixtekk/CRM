@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Landing Zone",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Network · Guardrails · Cost",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AI SPRAWL",
+    "items": [
+      "Per-team networking",
+      "No guardrails",
+      "No safety default",
+      "Unmanaged cost"
+    ]
+  },
+  "to": {
+    "label": "Governed AI Zone",
+    "stat": "Private · Guardrailed · Budgeted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Private Network",
+      "sub": "Endpoints for AI"
+    },
+    {
+      "icon": "shield",
+      "title": "Policy Guardrails",
+      "sub": "Models/regions"
+    },
+    {
+      "icon": "gear",
+      "title": "Safety Defaults",
+      "sub": "Responsible-AI"
+    },
+    {
+      "icon": "chart",
+      "title": "Cost Controls",
+      "sub": "Budgets + quota"
+    }
+  ]
+}

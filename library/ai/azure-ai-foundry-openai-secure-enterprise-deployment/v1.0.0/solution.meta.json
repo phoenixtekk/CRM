@@ -1,0 +1,39 @@
+{
+  "slug": "azure-ai-foundry-openai-secure-enterprise-deployment",
+  "title": "Azure AI Foundry & Azure OpenAI — Secure Enterprise Deployment",
+  "category": "AI",
+  "category_slug": "ai",
+  "sol_code": "AIFOUNDRY",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AI category. Automation = Python (azure-ai / openai SDK) + Bicep/Terraform for infra + Az/PowerShell helpers. GAP-DEDUPED: existing Copilot + Purview-AI cover M365-Copilot *governance* — this is *building/operating custom AI* on Azure OpenAI. Model/preview availability + region + pricing flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AIFOUNDRY-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-AIFOUNDRY-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-AIFOUNDRY-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "AIFOUNDRY-Complete-Solution.zip"
+  ],
+  "hero": "AIFOUNDRY-hero.png"
+}
+

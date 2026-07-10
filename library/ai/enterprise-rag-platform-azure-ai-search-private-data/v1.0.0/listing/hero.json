@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enterprise RAG",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "on Azure",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Ground · Retrieve · Cite",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HALLUCINATE / LEAK",
+    "items": [
+      "No grounding",
+      "Ignores ACLs",
+      "No citations",
+      "Untrusted answers"
+    ]
+  },
+  "to": {
+    "label": "Grounded RAG",
+    "stat": "Cited · Permission-trimmed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "AI Search",
+      "sub": "Hybrid + vector"
+    },
+    {
+      "icon": "lock",
+      "title": "Permission-Trimmed",
+      "sub": "Respect ACLs"
+    },
+    {
+      "icon": "key",
+      "title": "Citations",
+      "sub": "Grounded answers"
+    },
+    {
+      "icon": "gear",
+      "title": "Evaluated",
+      "sub": "Groundedness score"
+    }
+  ]
+}

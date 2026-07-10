@@ -2073,5 +2073,30 @@
     "post_id": 12663,
     "status": "draft",
     "category_id": 411
+  },
+  "azure-ai-foundry-openai-secure-enterprise-deployment": {
+    "post_id": 12665,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-rag-platform-azure-ai-search-private-data": {
+    "post_id": 12667,
+    "status": "draft",
+    "category_id": 411
+  },
+  "mlops-azure-machine-learning-pipelines-registry-monitoring": {
+    "post_id": 12669,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ai-landing-zone-governance-private-networking-cost": {
+    "post_id": 12671,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-ai-content-safety-responsible-ai-guardrails": {
+    "post_id": 12673,
+    "status": "draft",
+    "category_id": 411
   }
 }

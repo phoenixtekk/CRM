@@ -1,0 +1,166 @@
+###############################################################################
+# azure-pipelines.yml — AI Landing Zone & Governance (plan/what-if-first pipeline)
+#
+# PURPOSE
+#   The ONLY sanctioned way to apply main.tf. Runs Terraform PLAN first (changes
+#   nothing), then requires a HUMAN APPROVAL (Environment check) before APPLY,
+#   and targets a NON-PRODUCTION scope first. Authenticates to Azure via WORKLOAD
+#   IDENTITY FEDERATION (OIDC) — no client secret. A read-only validate stage runs
+#   AILZ-Validate.ps1 after apply.
+#
+# HOW TO RUN
+#   - Create an Azure Resource Manager service connection using WORKLOAD IDENTITY
+#     FEDERATION (OIDC) named per $(azureServiceConnection).
+#   - Create an Environment named 'ailz-nonprod' with a required-approvals check
+#     (this is the approval gate that guards Apply). For production, add an
+#     'ailz-prod' environment with its own approvers and run against prod vars.
+#   - Provide the remote-state backend config (R6) as pipeline variables/backend.
+#
+# EXPECTED RESULTS
+#   Plan artifact published for review -> manual approval -> apply -> validate.
+#   Apply cannot run without the Environment approval. Nothing applies on a PR.
+#
+# NOTES
+#   White-label. Plan/what-if-first, non-prod-first, approval-gated. No secrets in
+#   this file. VERIFY task versions, provider versions, and cloud (Commercial vs
+#   GCC/GCC-High) endpoints before use.
+###############################################################################
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - scripts/main.tf
+
+pr:
+  branches:
+    include:
+      - main
+  # PRs run PLAN ONLY (see condition on the Apply stage) — never apply.
+
+variables:
+  azureServiceConnection: "sc-ailz-oidc"   # ARM service connection (OIDC / workload identity federation)
+  terraformVersion: "1.7.5"                # VERIFY current version
+  workingDirectory: "$(System.DefaultWorkingDirectory)/scripts"
+  environmentName: "ailz-nonprod"          # Environment carrying the approval check
+
+stages:
+  # ---------------------------------------------------------------------------
+  - stage: Validate_Static
+    displayName: "Lint + Static Validation"
+    jobs:
+      - job: fmt_validate
+        displayName: "terraform fmt/validate"
+        pool: { vmImage: "ubuntu-latest" }
+        steps:
+          - task: TerraformInstaller@1
+            inputs: { terraformVersion: "$(terraformVersion)" }
+          - script: |
+              set -euo pipefail
+              cd "$(workingDirectory)"
+              terraform fmt -check -recursive
+            displayName: "terraform fmt -check"
+          - task: TerraformTaskV4@4
+            displayName: "terraform init (remote state)"
+            inputs:
+              provider: "azurerm"
+              command: "init"
+              workingDirectory: "$(workingDirectory)"
+              backendServiceArm: "$(azureServiceConnection)"
+          - task: TerraformTaskV4@4
+            displayName: "terraform validate"
+            inputs:
+              provider: "azurerm"
+              command: "validate"
+              workingDirectory: "$(workingDirectory)"
+
+  # ---------------------------------------------------------------------------
+  - stage: Plan
+    displayName: "Terraform Plan (changes nothing)"
+    dependsOn: Validate_Static
+    jobs:
+      - job: plan
+        displayName: "terraform plan -> artifact"
+        pool: { vmImage: "ubuntu-latest" }
+        steps:
+          - task: TerraformInstaller@1
+            inputs: { terraformVersion: "$(terraformVersion)" }
+          - task: TerraformTaskV4@4
+            displayName: "terraform init"
+            inputs:
+              provider: "azurerm"
+              command: "init"
+              workingDirectory: "$(workingDirectory)"
+              backendServiceArm: "$(azureServiceConnection)"
+          - task: TerraformTaskV4@4
+            displayName: "terraform plan (out=ailz.plan)"
+            inputs:
+              provider: "azurerm"
+              command: "plan"
+              workingDirectory: "$(workingDirectory)"
+              environmentServiceNameAzureRM: "$(azureServiceConnection)"
+              commandOptions: "-out=ailz.plan -input=false"
+          - publish: "$(workingDirectory)/ailz.plan"
+            artifact: "ailz-plan"
+            displayName: "Publish plan for review + approval"
+
+  # ---------------------------------------------------------------------------
+  - stage: Apply
+    displayName: "Terraform Apply (APPROVAL-GATED, non-prod)"
+    dependsOn: Plan
+    # NEVER apply on a PR — only on the protected branch after review.
+    condition: and(succeeded(), eq(variables['Build.Reason'], 'IndividualCI'), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: apply
+        displayName: "Apply the reviewed plan"
+        pool: { vmImage: "ubuntu-latest" }
+        # The Environment's required-approval check is the HUMAN GATE. Apply will
+        # not start until an approver signs off in Azure DevOps.
+        environment: "$(environmentName)"
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: current
+                  artifact: "ailz-plan"
+                - task: TerraformInstaller@1
+                  inputs: { terraformVersion: "$(terraformVersion)" }
+                - task: TerraformTaskV4@4
+                  displayName: "terraform init"
+                  inputs:
+                    provider: "azurerm"
+                    command: "init"
+                    workingDirectory: "$(workingDirectory)"
+                    backendServiceArm: "$(azureServiceConnection)"
+                - task: TerraformTaskV4@4
+                  displayName: "terraform apply (reviewed plan only)"
+                  inputs:
+                    provider: "azurerm"
+                    command: "apply"
+                    workingDirectory: "$(workingDirectory)"
+                    environmentServiceNameAzureRM: "$(azureServiceConnection)"
+                    commandOptions: "$(Pipeline.Workspace)/ailz-plan/ailz.plan"
+
+  # ---------------------------------------------------------------------------
+  - stage: Validate_Posture
+    displayName: "Post-apply validation (read-only gates)"
+    dependsOn: Apply
+    condition: succeeded()
+    jobs:
+      - job: gates
+        displayName: "AILZ-Validate.ps1"
+        pool: { vmImage: "windows-latest" }
+        steps:
+          - task: AzurePowerShell@5
+            displayName: "Run landing-zone validation gates"
+            inputs:
+              azureSubscription: "$(azureServiceConnection)"
+              ScriptType: "FilePath"
+              ScriptPath: "$(workingDirectory)/AILZ-Validate.ps1"
+              ScriptArguments: "-SubscriptionId $(pilotSubscriptionId)"
+              azurePowerShellVersion: "LatestVersion"
+          # NOTE: guardrails are assigned in AUDIT (DoNotEnforce) mode by main.tf.
+          # Flipping them to enforce is a SEPARATE, reviewed change (Phase 4) —
+          # never enforced automatically by this pipeline.
