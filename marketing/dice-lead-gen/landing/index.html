@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workplace Marketplace — Click-to-Implement Microsoft & Cloud Solutions</title>
+<meta name="description" content="380+ productized Microsoft Intune, Entra, Purview, Defender, Azure & networking solutions. Fixed price, unlimited devices, built in a day. Engage the catalog instead of hiring.">
+<style>
+  :root{
+    --bg:#0b1220; --bg2:#0f1a2e; --card:#141f36; --card2:#18243f; --ink:#eaf0fb; --mut:#9fb0cd;
+    --line:#243350; --brand:#3b82f6; --brand2:#22c55e; --accent:#38bdf8; --radius:16px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink); background:radial-gradient(1200px 600px at 15% -5%,#16233f 0%,var(--bg) 55%) no-repeat,var(--bg);
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin-bottom:18px;background:rgba(56,189,248,.06)}
+  header.hero{padding:64px 0 26px}
+  h1{font-size:clamp(30px,5vw,52px);line-height:1.06;margin:0 0 14px;font-weight:800;letter-spacing:-.02em}
+  h1 .g{background:linear-gradient(92deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:clamp(16px,2.2vw,20px);color:var(--mut);max-width:680px;margin:0 0 22px}
+  .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+  .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;border-radius:12px;padding:13px 20px;border:1px solid transparent;cursor:pointer;font-size:15px}
+  .btn.primary{background:linear-gradient(92deg,var(--brand),#2563eb);color:#fff;box-shadow:0 8px 24px rgba(37,99,235,.35)}
+  .btn.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+  .btn:hover{transform:translateY(-1px)}
+  .stats{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;color:var(--mut);font-size:14px}
+  .stats b{color:var(--ink);font-size:22px;display:block;font-weight:800}
+  .grid2{display:grid;grid-template-columns:1.4fr .9fr;gap:26px;align-items:start;padding:18px 0 60px}
+  @media(max-width:920px){.grid2{grid-template-columns:1fr}}
+  section h2{font-size:22px;margin:34px 0 14px;font-weight:800;letter-spacing:-.01em}
+  .cats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media(max-width:720px){.cats{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:440px){.cats{grid-template-columns:1fr}}
+  .cat{display:block;background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);
+    border-radius:var(--radius);padding:15px 15px 13px;transition:.15s}
+  .cat:hover{border-color:var(--brand);transform:translateY(-2px)}
+  .cat .n{font-weight:700;font-size:15px;margin-bottom:3px}
+  .cat .c{color:var(--accent);font-size:12px;font-weight:700}
+  .cat .d{color:var(--mut);font-size:12.5px;margin-top:6px}
+  /* ---- intake form panel ---- */
+  .panel{position:sticky;top:20px;background:linear-gradient(180deg,#0f1b31,#0d1526);border:1px solid var(--line);
+    border-radius:22px;padding:22px;box-shadow:0 24px 60px rgba(0,0,0,.45)}
+  .panel .banner{font-weight:800;font-size:18px;line-height:1.25;margin-bottom:4px}
+  .panel .banner .g{background:linear-gradient(92deg,var(--brand2),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .panel .bsub{color:var(--mut);font-size:13px;margin-bottom:16px}
+  .field{margin-bottom:12px}
+  .field label{display:block;font-size:12.5px;color:var(--mut);margin-bottom:6px;font-weight:600}
+  .field input[type=text],.field input[type=email]{width:100%;background:#0b1424;border:1px solid var(--line);
+    color:var(--ink);border-radius:12px;padding:12px 13px;font-size:14px;outline:none}
+  .field input:focus{border-color:var(--brand)}
+  /* the AI chatbox */
+  .chatbox-label{display:block;font-size:12.5px;color:var(--mut);margin:4px 0 6px;font-weight:600}
+  .chatbox{position:relative;background:#0b1424;border:1px solid var(--line);border-radius:30px;padding:14px 16px 52px}
+  .chatbox:focus-within{border-color:var(--brand2);box-shadow:0 0 0 3px rgba(34,197,94,.14)}
+  .chatbox textarea{width:100%;min-height:74px;resize:vertical;background:transparent;border:0;outline:none;
+    color:var(--ink);font-size:14px;font-family:inherit}
+  .chatbox textarea::placeholder{color:#5f769a}
+  .chatbox.filled .hint{display:none}
+  .chatbox .hint{position:absolute;left:16px;right:56px;bottom:14px;color:#64769a;font-size:11.5px;pointer-events:none}
+  .chatbox .send{position:absolute;right:10px;bottom:10px;width:34px;height:34px;border-radius:50%;border:0;cursor:pointer;
+    background:linear-gradient(92deg,var(--brand2),#16a34a);color:#fff;font-size:16px;display:flex;align-items:center;justify-content:center}
+  .send:hover{transform:scale(1.05)}
+  .hp{position:absolute;left:-9999px;opacity:0}
+  .foot{font-size:11.5px;color:#64769a;margin-top:12px}
+  .ok{display:none;text-align:center;padding:26px 8px}
+  .ok .big{font-size:34px}
+  .ok h3{margin:8px 0 4px;font-size:19px}
+  .ok p{color:var(--mut);font-size:13.5px;margin:0}
+  .err{display:none;color:#fca5a5;font-size:12.5px;margin-top:8px}
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-size:13px;text-align:center}
+  footer a{color:var(--accent)}
+  @media (prefers-color-scheme: light){
+    :root{--bg:#f4f7fc;--bg2:#eef3fb;--card:#ffffff;--card2:#f7faff;--ink:#0f1b31;--mut:#4a5a76;--line:#dbe4f0}
+    body{background:radial-gradient(1200px 600px at 15% -5%,#e6eefb 0%,var(--bg) 55%) no-repeat,var(--bg)}
+    .panel{background:linear-gradient(180deg,#ffffff,#f5f9ff);box-shadow:0 18px 46px rgba(20,40,80,.12)}
+    .chatbox,.field input[type=text],.field input[type=email]{background:#f3f7fd}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <span class="eyebrow">Workplace Marketplace · Click-to-Implement</span>
+    <h1>Don't hire a headcount.<br><span class="g">Deploy a catalog.</span></h1>
+    <p class="sub">380+ productized Microsoft &amp; cloud solutions — Intune, Entra, Purview, Defender,
+      Sentinel, Azure &amp; networking — each delivered as click-by-click docs plus tested automation.
+      One fixed price. Unlimited devices. Commercial &amp; Government (GCC High). <b>Built in a day.</b></p>
+    <div class="cta-row">
+      <a class="btn primary" id="browseBtn" href="https://workplace.phoenixtekk.com">Browse all solutions →</a>
+      <a class="btn ghost" href="/create">Ask for a custom build</a>
+    </div>
+    <div class="stats">
+      <div><b>380+</b>Productized solutions</div>
+      <div><b>1&nbsp;day</b>Custom build turnaround</div>
+      <div><b>Fixed</b>Price · unlimited devices</div>
+      <div><b>GCC High</b>Government variants</div>
+    </div>
+  </header>
+
+  <div class="grid2">
+    <section>
+      <h2>Pick your domain — jump straight to the products</h2>
+      <div class="cats" id="cats"></div>
+
+      <h2>Why engage the catalog instead of hiring?</h2>
+      <div class="cats">
+        <div class="cat"><div class="n">Same-day outcomes</div><div class="d">No 6–12 week search, no ramp. Buy and implement today.</div></div>
+        <div class="cat"><div class="n">One fixed price</div><div class="d">Not an open day-rate meter. Reuse on every rollout free.</div></div>
+        <div class="cat"><div class="n">Pilot-first &amp; safe</div><div class="d">Assess → Pilot → Validate → Expand, with rollback.</div></div>
+      </div>
+    </section>
+
+    <!-- ===== Intake / "ask for it" form ===== -->
+    <aside class="panel" id="ask">
+      <form id="leadForm" novalidate>
+        <div class="banner">Can't find what you need?<br><span class="g">Ask for it — we'll build it in 1 day.</span></div>
+        <div class="bsub">Tell us the outcome. We'll reply with the solution (or build it fast).</div>
+
+        <div class="field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Doe">
+        </div>
+        <div class="field">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@company.com">
+        </div>
+
+        <span class="chatbox-label">Describe the solution you want</span>
+        <div class="chatbox">
+          <textarea id="ask_text" name="description" rows="3" aria-label="Describe the solution you want"></textarea>
+          <span class="hint" id="hint">e.g. "I want to enroll iOS Shared iPhones, COD and BYOD devices using ADE with MFA enforcement for Enrollment"</span>
+          <button type="submit" class="send" title="Send" aria-label="Send">➤</button>
+        </div>
+
+        <!-- honeypot (spam trap) -->
+        <input class="hp" type="text" name="company_website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <!-- hidden attribution fields, filled by JS -->
+        <input type="hidden" name="src" id="f_src">
+        <input type="hidden" name="utm_source" id="f_utm_source">
+        <input type="hidden" name="utm_medium" id="f_utm_medium">
+        <input type="hidden" name="utm_campaign" id="f_utm_campaign">
+        <input type="hidden" name="referrer" id="f_ref">
+        <input type="hidden" name="landing_ts" id="f_ts">
+
+        <div class="err" id="err">Please add your email and a short description.</div>
+        <div class="foot">We reply within 1 business day with the solution — a <b>click-by-click implementation guide (PDF)</b> plus <b>tested scripts</b> (we productize the setup, not custom software). No spam, ever.</div>
+      </form>
+      <div class="ok" id="ok">
+        <div class="big">✅</div>
+        <h3>Got it — request received.</h3>
+        <p>We'll email you within 1 business day. Meanwhile, browse the catalog above.</p>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<footer class="wrap">
+  Phoenixtekk Workplace Marketplace · <a href="https://workplace.phoenixtekk.com">workplace.phoenixtekk.com</a>
+  · admin@phoenixtekk.com · Commercial &amp; Government (GCC High)
+</footer>
+
+<script>
+(function(){
+  // ---- endpoint (same folder). Change if deployed elsewhere. ----
+  var ENDPOINT = "lead-endpoint.php";
+  var STORE = "https://workplace.phoenixtekk.com";
+
+  // ---- attribution: read UTM + ?src=<board> ----
+  var q = new URLSearchParams(location.search);
+  var src = q.get('src') || q.get('utm_source') || 'direct';
+  function set(id,v){ var e=document.getElementById(id); if(e) e.value=v||''; }
+  set('f_src', src);
+  set('f_utm_source', q.get('utm_source')||src);
+  set('f_utm_medium', q.get('utm_medium')||'jobpost');
+  set('f_utm_campaign', q.get('utm_campaign')||'leadgen');
+  set('f_ref', document.referrer||'');
+  set('f_ts', new Date().toISOString());
+
+  // carry ?src through to the store links so store-side analytics see the board too
+  document.querySelectorAll('a[href^="'+STORE+'"]').forEach(function(a){
+    var u=new URL(a.href); u.searchParams.set('src',src); a.href=u.toString();
+  });
+
+  // ---- pageview beacon: log the arrival (source/referrer/UA/ts) even without a submit ----
+  try{
+    var pv = JSON.stringify({type:'pageview', src:src,
+      utm_source:q.get('utm_source')||src, utm_medium:q.get('utm_medium')||'', utm_campaign:q.get('utm_campaign')||'',
+      referrer:document.referrer||'', path:location.pathname+location.search, ts:new Date().toISOString()});
+    if(navigator.sendBeacon){ navigator.sendBeacon(ENDPOINT, new Blob([pv],{type:'application/json'})); }
+    else { fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:pv,keepalive:true}).catch(function(){}); }
+  }catch(e){}
+
+  // ---- category grid (curated) ----
+  var CATS=[
+    ['Microsoft Intune','60+ solutions','Autopilot · Hybrid Join · Conditional Access · WDAC · ASR · BitLocker','Intune'],
+    ['Microsoft Purview','110+ solutions','DLP · Sensitivity Labels · Insider Risk · eDiscovery · Retention','Purview'],
+    ['Entra ID / Identity','Identity','PIM · Access Reviews · Entitlement Mgmt · Hybrid Identity','Entra'],
+    ['Security · Defender · Sentinel','Zero Trust','Baselines · Defender for Endpoint · Sentinel Ops','Defender'],
+    ['Networking / VPN','20+ solutions','Always On VPN · GlobalProtect/Cisco PLAP · ZTNA · Netskope · ISE','VPN'],
+    ['Migrations','20+ solutions','Tenant-to-tenant · SCCM → Intune · VPN client migrations','Migration'],
+    ['Teams · SharePoint · Exchange','Collaboration','Teams Phone · SharePoint governance · Exchange Online','Teams'],
+    ['Google · Oracle · Healthcare','Beyond Microsoft','Google Workspace · Oracle · HIPAA clinical endpoints','Healthcare'],
+    ['Government (GCC High)','Public sector','GCC / GCC High variants across the catalog','GCC High']
+  ];
+  var el=document.getElementById('cats');
+  CATS.forEach(function(c){
+    var a=document.createElement('a'); a.className='cat';
+    a.href=STORE+'/search?query='+encodeURIComponent(c[3])+'&src='+encodeURIComponent(src);
+    a.innerHTML='<div class="c">'+c[1]+'</div><div class="n">'+c[0]+'</div><div class="d">'+c[2]+'</div>';
+    el.appendChild(a);
+  });
+
+  // ---- hide the example hint once the user starts typing ----
+  var ta=document.getElementById('ask_text');
+  ta.addEventListener('input', function(){
+    ta.parentNode.classList.toggle('filled', ta.value.length>0);
+  });
+
+  // ---- form submit ----
+  var form=document.getElementById('leadForm'), ok=document.getElementById('ok'), err=document.getElementById('err');
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    err.style.display='none';
+    var email=document.getElementById('email').value.trim();
+    var desc=document.getElementById('ask_text').value.trim();
+    if(!email || email.indexOf('@')<1 || desc.length<4){ err.style.display='block'; return; }
+    var fd=new FormData(form); var payload={type:'lead'};
+    fd.forEach(function(v,k){ payload[k]=v; });
+    var btn=form.querySelector('.send'); btn.disabled=true; btn.textContent='…';
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){ return r.ok? r : Promise.reject(); })
+      .then(function(){ form.style.display='none'; ok.style.display='block'; })
+      .catch(function(){ err.textContent='Something went wrong — email admin@phoenixtekk.com and we’ll jump on it.'; err.style.display='block'; btn.disabled=false; btn.textContent='➤'; });
+  });
+})();
+</script>
+</body>
+</html>

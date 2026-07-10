@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Deploy Microsoft",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Sentinel",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Workspace · Connectors · Ingestion",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND SOC",
+    "items": [
+      "No SIEM",
+      "Scattered logs",
+      "No detections",
+      "Alert chaos"
+    ]
+  },
+  "to": {
+    "label": "Microsoft Sentinel",
+    "stat": "Governed · Connected · Cost-aware"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Right-Sized Workspace",
+      "sub": "RBAC + retention"
+    },
+    {
+      "icon": "chart",
+      "title": "High-Value Connectors",
+      "sub": "Entra/Defender/O365"
+    },
+    {
+      "icon": "gear",
+      "title": "Ingestion Control",
+      "sub": "DCRs cut noise"
+    },
+    {
+      "icon": "shield",
+      "title": "Detection-Ready",
+      "sub": "Foundation for rules"
+    }
+  ]
+}

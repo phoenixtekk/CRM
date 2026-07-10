@@ -1,0 +1,39 @@
+{
+  "slug": "soc-onboarding-sentinel-defender-xdr",
+  "title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SOCXDR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line + Defender XDR. PowerShell/Graph. IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SOCXDR-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SOCXDR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SOCXDR-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SOCXDR-Complete-Solution.zip"
+  ],
+  "hero": "SOCXDR-hero.png"
+}
+

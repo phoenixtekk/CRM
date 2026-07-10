@@ -4487,6 +4487,1161 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft 365 Copilot Adoption & Change-Management Program",
+    "slug": "copilot-adoption-change-management",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "CPLTADOPT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-CPLTADOPT-COMM-001",
+      "PTK-CPLTADOPT-NPO-001",
+      "PTK-CPLTADOPT-GOV-001"
+    ],
+    "deliverables": [
+      "CPLTADOPT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\copilot-adoption-change-management\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/02-requirements.md",
+          "kb": 5.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/03-implementation.md",
+          "kb": 5.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/05-testing.md",
+          "kb": 2.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPLTADOPT-ChampionsRoster.ps1",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/scripts/CPLTADOPT-ChampionsRoster.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "CPLTADOPT-Discovery.ps1",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/scripts/CPLTADOPT-Discovery.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "CPLTADOPT-LicenseOptimization.ps1",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/scripts/CPLTADOPT-LicenseOptimization.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "CPLTADOPT-Report.ps1",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/scripts/CPLTADOPT-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "CPLTADOPT-Validate.ps1",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/scripts/CPLTADOPT-Validate.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPLTADOPT-Complete-Solution.zip",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-Complete-Solution.zip",
+          "kb": 95.9
+        },
+        {
+          "name": "CPLTADOPT-hero.png",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-hero.png",
+          "kb": 452.4
+        },
+        {
+          "name": "CPLTADOPT-hero.svg",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "CPLTADOPT-Scripts.zip",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "CPLTADOPT-Solution.docx",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-Solution.docx",
+          "kb": 52.5
+        },
+        {
+          "name": "CPLTADOPT-Solution.pdf",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-Solution.pdf",
+          "kb": 50.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/copilot-adoption-change-management/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/copilot-adoption-change-management/v1.0.0/deliverables/CPLTADOPT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Copilot Data Governance & DLP Guardrails",
+    "slug": "copilot-data-governance-dlp-guardrails",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "CPLTGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CPLTGOV-COMM-001",
+      "PTK-CPLTGOV-NPO-001",
+      "PTK-CPLTGOV-GOV-001"
+    ],
+    "deliverables": [
+      "CPLTGOV-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\copilot-data-governance-dlp-guardrails\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/03-implementation.md",
+          "kb": 10.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPLTGOV-AuditSearch.ps1",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/scripts/CPLTGOV-AuditSearch.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "CPLTGOV-Discovery.ps1",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/scripts/CPLTGOV-Discovery.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "CPLTGOV-Guardrails.ps1",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/scripts/CPLTGOV-Guardrails.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "CPLTGOV-Report.ps1",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/scripts/CPLTGOV-Report.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "CPLTGOV-Validate.ps1",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/scripts/CPLTGOV-Validate.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPLTGOV-Complete-Solution.zip",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-Complete-Solution.zip",
+          "kb": 98.6
+        },
+        {
+          "name": "CPLTGOV-hero.png",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-hero.png",
+          "kb": 428.0
+        },
+        {
+          "name": "CPLTGOV-hero.svg",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "CPLTGOV-Scripts.zip",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-Scripts.zip",
+          "kb": 10.1
+        },
+        {
+          "name": "CPLTGOV-Solution.docx",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-Solution.docx",
+          "kb": 53.4
+        },
+        {
+          "name": "CPLTGOV-Solution.pdf",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-Solution.pdf",
+          "kb": 53.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/copilot-data-governance-dlp-guardrails/v1.0.0/deliverables/CPLTGOV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft 365 Copilot Readiness Assessment & Deployment",
+    "slug": "microsoft-365-copilot-readiness-deployment",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "CPLTREADY",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CPLTREADY-COMM-001",
+      "PTK-CPLTREADY-NPO-001",
+      "PTK-CPLTREADY-GOV-001"
+    ],
+    "deliverables": [
+      "CPLTREADY-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\microsoft-365-copilot-readiness-deployment\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/03-implementation.md",
+          "kb": 6.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/05-testing.md",
+          "kb": 2.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPLTREADY-AssignLicenses.ps1",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/scripts/CPLTREADY-AssignLicenses.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "CPLTREADY-Discovery.ps1",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/scripts/CPLTREADY-Discovery.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "CPLTREADY-OversharingScan.ps1",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/scripts/CPLTREADY-OversharingScan.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "CPLTREADY-Report.ps1",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/scripts/CPLTREADY-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "CPLTREADY-Validate.ps1",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/scripts/CPLTREADY-Validate.ps1",
+          "kb": 3.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPLTREADY-Complete-Solution.zip",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-Complete-Solution.zip",
+          "kb": 91.9
+        },
+        {
+          "name": "CPLTREADY-hero.png",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-hero.png",
+          "kb": 468.9
+        },
+        {
+          "name": "CPLTREADY-hero.svg",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "CPLTREADY-Scripts.zip",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-Scripts.zip",
+          "kb": 8.7
+        },
+        {
+          "name": "CPLTREADY-Solution.docx",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-Solution.docx",
+          "kb": 51.0
+        },
+        {
+          "name": "CPLTREADY-Solution.pdf",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-Solution.pdf",
+          "kb": 49.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Secure Microsoft 365 Copilot — Oversharing & SharePoint Permissions Remediation",
+    "slug": "copilot-oversharing-sharepoint-remediation",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "CPLTSHARE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-CPLTSHARE-COMM-001",
+      "PTK-CPLTSHARE-NPO-001",
+      "PTK-CPLTSHARE-GOV-001"
+    ],
+    "deliverables": [
+      "CPLTSHARE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\copilot-oversharing-sharepoint-remediation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/03-implementation.md",
+          "kb": 11.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPLTSHARE-AccessReview.ps1",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/scripts/CPLTSHARE-AccessReview.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "CPLTSHARE-Discovery.ps1",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/scripts/CPLTSHARE-Discovery.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "CPLTSHARE-Remediation.ps1",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/scripts/CPLTSHARE-Remediation.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "CPLTSHARE-Report.ps1",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/scripts/CPLTSHARE-Report.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "CPLTSHARE-Validate.ps1",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/scripts/CPLTSHARE-Validate.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPLTSHARE-Complete-Solution.zip",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-Complete-Solution.zip",
+          "kb": 104.2
+        },
+        {
+          "name": "CPLTSHARE-hero.png",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-hero.png",
+          "kb": 436.0
+        },
+        {
+          "name": "CPLTSHARE-hero.svg",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "CPLTSHARE-Scripts.zip",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "CPLTSHARE-Solution.docx",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-Solution.docx",
+          "kb": 55.0
+        },
+        {
+          "name": "CPLTSHARE-Solution.pdf",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-Solution.pdf",
+          "kb": 57.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure Landing Zone with Bicep",
+    "slug": "azure-landing-zone-bicep",
+    "category": "DevOps",
+    "category_slug": "devops",
+    "sol_code": "IACBICEP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-IACBICEP-COMM-001",
+      "PTK-IACBICEP-NPO-001",
+      "PTK-IACBICEP-GOV-001"
+    ],
+    "deliverables": [
+      "IACBICEP-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\devops\\azure-landing-zone-bicep\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/02-requirements.md",
+          "kb": 5.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/03-implementation.md",
+          "kb": 8.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-devops.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/source/global-requirements-devops.md",
+          "kb": 4.4
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "azure-pipelines.yml",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/scripts/azure-pipelines.yml",
+          "kb": 5.1
+        },
+        {
+          "name": "IACBICEP-Discovery.ps1",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/scripts/IACBICEP-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "IACBICEP-Report.ps1",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/scripts/IACBICEP-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "IACBICEP-Validate.ps1",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/scripts/IACBICEP-Validate.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "main.bicep",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/scripts/main.bicep",
+          "kb": 7.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IACBICEP-Complete-Solution.zip",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-Complete-Solution.zip",
+          "kb": 100.1
+        },
+        {
+          "name": "IACBICEP-hero.png",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-hero.png",
+          "kb": 465.1
+        },
+        {
+          "name": "IACBICEP-hero.svg",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "IACBICEP-Scripts.zip",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-Scripts.zip",
+          "kb": 9.3
+        },
+        {
+          "name": "IACBICEP-Solution.docx",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-Solution.docx",
+          "kb": 55.1
+        },
+        {
+          "name": "IACBICEP-Solution.pdf",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-Solution.pdf",
+          "kb": 53.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/listing/sales-content.md",
+          "kb": 0.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../devops/azure-landing-zone-bicep/v1.0.0/solution.meta.json",
+          "kb": 0.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../devops/azure-landing-zone-bicep/v1.0.0/deliverables/IACBICEP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure Landing Zone with Terraform",
+    "slug": "azure-landing-zone-terraform",
+    "category": "DevOps",
+    "category_slug": "devops",
+    "sol_code": "IACTF",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-IACTF-COMM-001",
+      "PTK-IACTF-NPO-001",
+      "PTK-IACTF-GOV-001"
+    ],
+    "deliverables": [
+      "IACTF-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\devops\\azure-landing-zone-terraform\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/02-requirements.md",
+          "kb": 6.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/03-implementation.md",
+          "kb": 7.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/executive-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "global-requirements-devops.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/source/global-requirements-devops.md",
+          "kb": 4.4
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "azure-pipelines.yml",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/scripts/azure-pipelines.yml",
+          "kb": 8.1
+        },
+        {
+          "name": "IACTF-Discovery.ps1",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/scripts/IACTF-Discovery.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "IACTF-Report.ps1",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/scripts/IACTF-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "IACTF-Validate.ps1",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/scripts/IACTF-Validate.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "main.tf",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/scripts/main.tf",
+          "kb": 12.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IACTF-Complete-Solution.zip",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-Complete-Solution.zip",
+          "kb": 110.1
+        },
+        {
+          "name": "IACTF-hero.png",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-hero.png",
+          "kb": 422.3
+        },
+        {
+          "name": "IACTF-hero.svg",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "IACTF-Scripts.zip",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "IACTF-Solution.docx",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-Solution.docx",
+          "kb": 57.5
+        },
+        {
+          "name": "IACTF-Solution.pdf",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-Solution.pdf",
+          "kb": 61.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/listing/sales-content.md",
+          "kb": 0.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../devops/azure-landing-zone-terraform/v1.0.0/solution.meta.json",
+          "kb": 0.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../devops/azure-landing-zone-terraform/v1.0.0/deliverables/IACTF-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune-as-Code — Policy Management via Graph & Terraform (CI/CD)",
+    "slug": "intune-as-code-graph-terraform-cicd",
+    "category": "DevOps",
+    "category_slug": "devops",
+    "sol_code": "IACINTUNE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-IACINTUNE-COMM-001",
+      "PTK-IACINTUNE-NPO-001",
+      "PTK-IACINTUNE-GOV-001"
+    ],
+    "deliverables": [
+      "IACINTUNE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\devops\\intune-as-code-graph-terraform-cicd\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/02-requirements.md",
+          "kb": 6.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/03-implementation.md",
+          "kb": 7.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-devops.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/source/global-requirements-devops.md",
+          "kb": 4.4
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "azure-pipelines.yml",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/scripts/azure-pipelines.yml",
+          "kb": 5.0
+        },
+        {
+          "name": "IACINTUNE-Discovery.ps1",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/scripts/IACINTUNE-Discovery.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "IACINTUNE-Report.ps1",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/scripts/IACINTUNE-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "IACINTUNE-Validate.ps1",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/scripts/IACINTUNE-Validate.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "main.tf",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/scripts/main.tf",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IACINTUNE-Complete-Solution.zip",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-Complete-Solution.zip",
+          "kb": 99.7
+        },
+        {
+          "name": "IACINTUNE-hero.png",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-hero.png",
+          "kb": 405.3
+        },
+        {
+          "name": "IACINTUNE-hero.svg",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "IACINTUNE-Scripts.zip",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-Scripts.zip",
+          "kb": 9.5
+        },
+        {
+          "name": "IACINTUNE-Solution.docx",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-Solution.docx",
+          "kb": 54.7
+        },
+        {
+          "name": "IACINTUNE-Solution.pdf",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-Solution.pdf",
+          "kb": 53.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../devops/intune-as-code-graph-terraform-cicd/v1.0.0/deliverables/IACINTUNE-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
     "slug": "enterprise-app-service-principal-governance",
     "category": "Entra",
@@ -4824,6 +5979,171 @@
     "product_count": 3
   },
   {
+    "title": "Entra ID Governance — Access Reviews & Entitlement Management",
+    "slug": "entra-id-governance-access-reviews-entitlement",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTIGA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTIGA-COMM-001",
+      "PTK-ENTIGA-NPO-001",
+      "PTK-ENTIGA-GOV-001"
+    ],
+    "deliverables": [
+      "ENTIGA-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-id-governance-access-reviews-entitlement\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/03-implementation.md",
+          "kb": 10.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTIGA-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/scripts/ENTIGA-Discovery.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "ENTIGA-GuestReview.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/scripts/ENTIGA-GuestReview.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "ENTIGA-Lifecycle.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/scripts/ENTIGA-Lifecycle.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "ENTIGA-Report.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/scripts/ENTIGA-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENTIGA-Validate.ps1",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/scripts/ENTIGA-Validate.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTIGA-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-Complete-Solution.zip",
+          "kb": 109.9
+        },
+        {
+          "name": "ENTIGA-hero.png",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-hero.png",
+          "kb": 444.3
+        },
+        {
+          "name": "ENTIGA-hero.svg",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "ENTIGA-Scripts.zip",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "ENTIGA-Solution.docx",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "ENTIGA-Solution.pdf",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-Solution.pdf",
+          "kb": 62.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-id-governance-access-reviews-entitlement/v1.0.0/deliverables/ENTIGA-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
     "slug": "entra-id-governance-pim-access-reviews",
     "category": "Entra",
@@ -5158,6 +6478,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/entra-id-governance-pim-access-reviews-gcc-high/v1.0.0/deliverables/IGAG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin",
+    "slug": "entra-privileged-identity-management-pim",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTPIM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTPIM-COMM-001",
+      "PTK-ENTPIM-NPO-001",
+      "PTK-ENTPIM-GOV-001"
+    ],
+    "deliverables": [
+      "ENTPIM-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-privileged-identity-management-pim\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/02-requirements.md",
+          "kb": 6.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/03-implementation.md",
+          "kb": 7.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/05-testing.md",
+          "kb": 2.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTPIM-Alerting.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/scripts/ENTPIM-Alerting.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "ENTPIM-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/scripts/ENTPIM-Discovery.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "ENTPIM-Report.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/scripts/ENTPIM-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "ENTPIM-Set-EligibleAssignments.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/scripts/ENTPIM-Set-EligibleAssignments.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "ENTPIM-Validate.ps1",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/scripts/ENTPIM-Validate.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTPIM-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-Complete-Solution.zip",
+          "kb": 97.5
+        },
+        {
+          "name": "ENTPIM-hero.png",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-hero.png",
+          "kb": 438.1
+        },
+        {
+          "name": "ENTPIM-hero.svg",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ENTPIM-Scripts.zip",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-Scripts.zip",
+          "kb": 9.6
+        },
+        {
+          "name": "ENTPIM-Solution.docx",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-Solution.docx",
+          "kb": 53.2
+        },
+        {
+          "name": "ENTPIM-Solution.pdf",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-Solution.pdf",
+          "kb": 52.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-privileged-identity-management-pim/v1.0.0/deliverables/ENTPIM-hero.png",
     "product_count": 3
   },
   {
@@ -5839,6 +7324,171 @@
     "product_count": 3
   },
   {
+    "title": "Passwordless & Passkey (FIDO2) Rollout for Microsoft Entra",
+    "slug": "entra-passwordless-passkey-fido2-rollout",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTPASSKEY",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTPASSKEY-COMM-001",
+      "PTK-ENTPASSKEY-NPO-001",
+      "PTK-ENTPASSKEY-GOV-001"
+    ],
+    "deliverables": [
+      "ENTPASSKEY-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-passwordless-passkey-fido2-rollout\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/03-implementation.md",
+          "kb": 8.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTPASSKEY-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/scripts/ENTPASSKEY-Discovery.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "ENTPASSKEY-Report.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/scripts/ENTPASSKEY-Report.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "ENTPASSKEY-Set-MethodsPolicy.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/scripts/ENTPASSKEY-Set-MethodsPolicy.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "ENTPASSKEY-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/scripts/ENTPASSKEY-Set-ScopeTargeting.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "ENTPASSKEY-Validate.ps1",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/scripts/ENTPASSKEY-Validate.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTPASSKEY-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-Complete-Solution.zip",
+          "kb": 101.0
+        },
+        {
+          "name": "ENTPASSKEY-hero.png",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-hero.png",
+          "kb": 421.5
+        },
+        {
+          "name": "ENTPASSKEY-hero.svg",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ENTPASSKEY-Scripts.zip",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-Scripts.zip",
+          "kb": 8.6
+        },
+        {
+          "name": "ENTPASSKEY-Solution.docx",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-Solution.docx",
+          "kb": 54.6
+        },
+        {
+          "name": "ENTPASSKEY-Solution.pdf",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-Solution.pdf",
+          "kb": 57.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-passwordless-passkey-fido2-rollout/v1.0.0/deliverables/ENTPASSKEY-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
     "slug": "passwordless-fido2-phishing-resistant-mfa",
     "category": "Entra",
@@ -6172,6 +7822,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Zero Trust Architecture — Conditional Access Baseline & Rollout",
+    "slug": "zero-trust-conditional-access-baseline",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTZTCA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTZTCA-COMM-001",
+      "PTK-ENTZTCA-NPO-001",
+      "PTK-ENTZTCA-GOV-001"
+    ],
+    "deliverables": [
+      "ENTZTCA-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\zero-trust-conditional-access-baseline\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/02-requirements.md",
+          "kb": 6.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/03-implementation.md",
+          "kb": 8.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTZTCA-Discovery.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/scripts/ENTZTCA-Discovery.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "ENTZTCA-Report.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/scripts/ENTZTCA-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "ENTZTCA-Set-Baseline.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/scripts/ENTZTCA-Set-Baseline.ps1",
+          "kb": 7.6
+        },
+        {
+          "name": "ENTZTCA-Set-ScopeTargeting.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/scripts/ENTZTCA-Set-ScopeTargeting.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENTZTCA-Validate.ps1",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/scripts/ENTZTCA-Validate.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTZTCA-Complete-Solution.zip",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-Complete-Solution.zip",
+          "kb": 104.7
+        },
+        {
+          "name": "ENTZTCA-hero.png",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-hero.png",
+          "kb": 430.9
+        },
+        {
+          "name": "ENTZTCA-hero.svg",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ENTZTCA-Scripts.zip",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "ENTZTCA-Solution.docx",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "ENTZTCA-Solution.pdf",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-Solution.pdf",
+          "kb": 58.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/zero-trust-conditional-access-baseline/v1.0.0/deliverables/ENTZTCA-hero.png",
     "product_count": 3
   },
   {
@@ -59555,6 +61370,171 @@
     "product_count": 3
   },
   {
+    "title": "Deploy Microsoft Sentinel — Workspace, Data Connectors & Ingestion",
+    "slug": "deploy-microsoft-sentinel-workspace-connectors",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTDEP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SENTDEP-COMM-001",
+      "PTK-SENTDEP-NPO-001",
+      "PTK-SENTDEP-GOV-001"
+    ],
+    "deliverables": [
+      "SENTDEP-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\deploy-microsoft-sentinel-workspace-connectors\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/03-implementation.md",
+          "kb": 13.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/05-testing.md",
+          "kb": 5.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/executive-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTDEP-Discovery.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/scripts/SENTDEP-Discovery.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "SENTDEP-Report.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/scripts/SENTDEP-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "SENTDEP-Set-Diagnostics.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/scripts/SENTDEP-Set-Diagnostics.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "SENTDEP-Set-Retention.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/scripts/SENTDEP-Set-Retention.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "SENTDEP-Validate.ps1",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/scripts/SENTDEP-Validate.ps1",
+          "kb": 6.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTDEP-Complete-Solution.zip",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-Complete-Solution.zip",
+          "kb": 122.7
+        },
+        {
+          "name": "SENTDEP-hero.png",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-hero.png",
+          "kb": 491.1
+        },
+        {
+          "name": "SENTDEP-hero.svg",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SENTDEP-Scripts.zip",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-Scripts.zip",
+          "kb": 11.6
+        },
+        {
+          "name": "SENTDEP-Solution.docx",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-Solution.docx",
+          "kb": 61.8
+        },
+        {
+          "name": "SENTDEP-Solution.pdf",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-Solution.pdf",
+          "kb": 73.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/deploy-microsoft-sentinel-workspace-connectors/v1.0.0/deliverables/SENTDEP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
     "slug": "entra-intune-audit-telemetry-sentinel",
     "category": "Sentinel Solutions",
@@ -59888,6 +61868,666 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../sentinel-solutions/entra-intune-audit-telemetry-sentinel-gcc-high/v1.0.0/deliverables/SENTLOGG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Sentinel Analytics Rules & MITRE ATT&CK Detection Coverage",
+    "slug": "sentinel-analytics-rules-mitre-attack-coverage",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTRULE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SENTRULE-COMM-001",
+      "PTK-SENTRULE-NPO-001",
+      "PTK-SENTRULE-GOV-001"
+    ],
+    "deliverables": [
+      "SENTRULE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\sentinel-analytics-rules-mitre-attack-coverage\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/executive-summary.md",
+          "kb": 4.6
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTRULE-Coverage.ps1",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/scripts/SENTRULE-Coverage.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "SENTRULE-Discovery.ps1",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/scripts/SENTRULE-Discovery.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "SENTRULE-Export.ps1",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/scripts/SENTRULE-Export.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "SENTRULE-Report.ps1",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/scripts/SENTRULE-Report.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "SENTRULE-Validate.ps1",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/scripts/SENTRULE-Validate.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTRULE-Complete-Solution.zip",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-Complete-Solution.zip",
+          "kb": 112.6
+        },
+        {
+          "name": "SENTRULE-hero.png",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-hero.png",
+          "kb": 439.8
+        },
+        {
+          "name": "SENTRULE-hero.svg",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "SENTRULE-Scripts.zip",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "SENTRULE-Solution.docx",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-Solution.docx",
+          "kb": 58.6
+        },
+        {
+          "name": "SENTRULE-Solution.pdf",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-Solution.pdf",
+          "kb": 65.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/sentinel-analytics-rules-mitre-attack-coverage/v1.0.0/deliverables/SENTRULE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Sentinel Cost & Data-Tier Optimization",
+    "slug": "sentinel-cost-data-tier-optimization",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTCOST",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-SENTCOST-COMM-001",
+      "PTK-SENTCOST-NPO-001",
+      "PTK-SENTCOST-GOV-001"
+    ],
+    "deliverables": [
+      "SENTCOST-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\sentinel-cost-data-tier-optimization\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/02-requirements.md",
+          "kb": 6.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/03-implementation.md",
+          "kb": 6.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/05-testing.md",
+          "kb": 2.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTCOST-Audit.ps1",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/scripts/SENTCOST-Audit.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "SENTCOST-Forecast.ps1",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/scripts/SENTCOST-Forecast.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "SENTCOST-Set-TableRetention.ps1",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/scripts/SENTCOST-Set-TableRetention.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "SENTCOST-Tiering.ps1",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/scripts/SENTCOST-Tiering.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "SENTCOST-Validate.ps1",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/scripts/SENTCOST-Validate.ps1",
+          "kb": 3.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTCOST-Complete-Solution.zip",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-Complete-Solution.zip",
+          "kb": 98.2
+        },
+        {
+          "name": "SENTCOST-hero.png",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-hero.png",
+          "kb": 462.8
+        },
+        {
+          "name": "SENTCOST-hero.svg",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SENTCOST-Scripts.zip",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-Scripts.zip",
+          "kb": 8.0
+        },
+        {
+          "name": "SENTCOST-Solution.docx",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-Solution.docx",
+          "kb": 54.1
+        },
+        {
+          "name": "SENTCOST-Solution.pdf",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-Solution.pdf",
+          "kb": 54.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/listing/sales-content.md",
+          "kb": 0.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/solution.meta.json",
+          "kb": 0.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/sentinel-cost-data-tier-optimization/v1.0.0/deliverables/SENTCOST-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Sentinel SOAR — Automation Rules & Playbooks (Logic Apps)",
+    "slug": "sentinel-soar-automation-playbooks",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SENTSOAR",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-SENTSOAR-COMM-001",
+      "PTK-SENTSOAR-NPO-001",
+      "PTK-SENTSOAR-GOV-001"
+    ],
+    "deliverables": [
+      "SENTSOAR-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\sentinel-soar-automation-playbooks\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/02-requirements.md",
+          "kb": 8.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/03-implementation.md",
+          "kb": 11.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SENTSOAR-Discovery.ps1",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/scripts/SENTSOAR-Discovery.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "SENTSOAR-Report.ps1",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/scripts/SENTSOAR-Report.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "SENTSOAR-Set-PlaybookIdentity.ps1",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/scripts/SENTSOAR-Set-PlaybookIdentity.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "SENTSOAR-SimulateResponse.ps1",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/scripts/SENTSOAR-SimulateResponse.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "SENTSOAR-Validate.ps1",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/scripts/SENTSOAR-Validate.ps1",
+          "kb": 3.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SENTSOAR-Complete-Solution.zip",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-Complete-Solution.zip",
+          "kb": 104.9
+        },
+        {
+          "name": "SENTSOAR-hero.png",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-hero.png",
+          "kb": 411.1
+        },
+        {
+          "name": "SENTSOAR-hero.svg",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "SENTSOAR-Scripts.zip",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-Scripts.zip",
+          "kb": 8.1
+        },
+        {
+          "name": "SENTSOAR-Solution.docx",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-Solution.docx",
+          "kb": 56.4
+        },
+        {
+          "name": "SENTSOAR-Solution.pdf",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-Solution.pdf",
+          "kb": 60.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/sentinel-soar-automation-playbooks/v1.0.0/deliverables/SENTSOAR-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents",
+    "slug": "soc-onboarding-sentinel-defender-xdr",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "SOCXDR",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-09",
+    "updated": "2026-07-09",
+    "published_at": "2026-07-09",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SOCXDR-COMM-001",
+      "PTK-SOCXDR-NPO-001",
+      "PTK-SOCXDR-GOV-001"
+    ],
+    "deliverables": [
+      "SOCXDR-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\soc-onboarding-sentinel-defender-xdr\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/02-requirements.md",
+          "kb": 6.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/03-implementation.md",
+          "kb": 8.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SOCXDR-Discovery.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/scripts/SOCXDR-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "SOCXDR-IncidentQueue.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/scripts/SOCXDR-IncidentQueue.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "SOCXDR-Report.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/scripts/SOCXDR-Report.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "SOCXDR-Set-SocRbacScope.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/scripts/SOCXDR-Set-SocRbacScope.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "SOCXDR-Validate.ps1",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/scripts/SOCXDR-Validate.ps1",
+          "kb": 3.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SOCXDR-Complete-Solution.zip",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-Complete-Solution.zip",
+          "kb": 94.0
+        },
+        {
+          "name": "SOCXDR-hero.png",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-hero.png",
+          "kb": 464.7
+        },
+        {
+          "name": "SOCXDR-hero.svg",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "SOCXDR-Scripts.zip",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-Scripts.zip",
+          "kb": 7.4
+        },
+        {
+          "name": "SOCXDR-Solution.docx",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-Solution.docx",
+          "kb": 52.8
+        },
+        {
+          "name": "SOCXDR-Solution.pdf",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-Solution.pdf",
+          "kb": 51.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-hero.png",
     "product_count": 3
   },
   {

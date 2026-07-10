@@ -1,0 +1,130 @@
+# =============================================================================
+# azure-pipelines.yml — CI/CD for the Azure Landing Zone (Bicep).
+#
+# PURPOSE
+#   What-if-first, approval-gated delivery of main.bicep. Stages:
+#     Validate  -> lint + build the Bicep
+#     WhatIf    -> management-group what-if, published as the change preview
+#     Deploy    -> deployment-stack apply, BEHIND a manual approval on the
+#                  'landing-zone-prod' Environment (required reviewers = R7)
+#
+# HOW TO RUN
+#   Create the pipeline "Landing Zone Pipeline – Platform – CICD" from this file.
+#   Set the service connection (workload identity federation — no secret, G4) in
+#   the variables below, and add required reviewers to the 'landing-zone-prod'
+#   Environment so the Deploy stage pauses for approval.
+#
+# EXPECTED RESULTS
+#   PRs run Validate + WhatIf automatically; the preview is attached. Deploy only
+#   runs after a human approves the Environment check. Nothing applies unreviewed.
+#
+# White-label. Plan/what-if first, approval-gated. GitHub Actions equivalent noted
+# at the bottom. *Verify current task versions and az CLI availability on the agent.*
+# =============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - main.bicep
+      - 'parameters/*'
+
+pr:
+  branches:
+    include:
+      - main
+
+variables:
+  azureServiceConnection: 'sc-landing-zone-oidc'   # workload identity federation (no secret)
+  managementGroupId: 'alz'
+  location: 'eastus'
+  templateFile: 'main.bicep'
+  prodParams: 'parameters/main.prod.bicepparam'
+
+stages:
+  # ---------------------------------------------------------------------------
+  - stage: Validate
+    displayName: 'Validate (lint + build)'
+    jobs:
+      - job: build
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: AzureCLI@2
+            displayName: 'az bicep build'
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az bicep build --file $(templateFile)
+                az bicep lint --file $(templateFile)
+
+  # ---------------------------------------------------------------------------
+  - stage: WhatIf
+    displayName: 'What-If (change preview)'
+    dependsOn: Validate
+    jobs:
+      - job: whatif
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: AzureCLI@2
+            displayName: 'Management-group what-if'
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                echo "### What-if preview (no changes applied) ###"
+                az deployment mg what-if \
+                  --management-group-id $(managementGroupId) \
+                  --location $(location) \
+                  --template-file $(templateFile) \
+                  --parameters $(prodParams) \
+                  --parameters deployHierarchy=true deployPolicy=true policyEffect=Audit
+
+  # ---------------------------------------------------------------------------
+  - stage: Deploy
+    displayName: 'Deploy (deployment stack) — approval-gated'
+    dependsOn: WhatIf
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: deployStack
+        displayName: 'Deploy landing-zone stack'
+        pool:
+          vmImage: 'ubuntu-latest'
+        # The Environment check (required reviewers) is the approval gate (R7).
+        environment: 'landing-zone-prod'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - task: AzureCLI@2
+                  displayName: 'az stack mg create (idempotent, rollback-capable)'
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      az stack mg create \
+                        --name "alz-stack – Platform – Prod" \
+                        --management-group-id $(managementGroupId) \
+                        --location $(location) \
+                        --template-file $(templateFile) \
+                        --parameters $(prodParams) \
+                        --parameters deployHierarchy=true deployPolicy=true policyEffect=Audit \
+                        --deny-settings-mode denyDelete \
+                        --action-on-unmanage detachAll \
+                        --yes
+
+# -----------------------------------------------------------------------------
+# GitHub Actions equivalent (for teams on GitHub):
+#   - Use azure/login@v2 with OIDC (permissions: id-token: write).
+#   - Job 1 runs `az bicep build` + `az deployment mg what-if`.
+#   - Job 2 (deploy) targets a GitHub Environment named 'landing-zone-prod' with
+#     required reviewers, so the deploy job waits for approval — same gate as above.
+# -----------------------------------------------------------------------------

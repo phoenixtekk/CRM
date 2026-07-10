@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Secure Copilot",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "No Oversharing",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Discover · Remediate · Verify",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "OVERSHARED",
+    "items": [
+      "'Everyone' links",
+      "Broad sites",
+      "Stale access",
+      "Copilot leaks"
+    ]
+  },
+  "to": {
+    "label": "Access-Corrected",
+    "stat": "Scoped · Labeled · Verified"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Find Oversharing",
+      "sub": "Broad-access audit"
+    },
+    {
+      "icon": "lock",
+      "title": "SAM + RCD",
+      "sub": "Restrict discovery"
+    },
+    {
+      "icon": "key",
+      "title": "Remediate",
+      "sub": "Fix permissions"
+    },
+    {
+      "icon": "chart",
+      "title": "Verify",
+      "sub": "Copilot respects it"
+    }
+  ]
+}

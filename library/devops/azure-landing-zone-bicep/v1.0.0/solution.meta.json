@@ -1,0 +1,39 @@
+{
+  "slug": "azure-landing-zone-bicep",
+  "title": "Azure Landing Zone with Bicep",
+  "category": "DevOps",
+  "category_slug": "devops",
+  "sol_code": "IACBICEP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW DevOps category. Bicep (.bicep) + PowerShell + YAML pipelines. Feature/API versions flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IACBICEP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-IACBICEP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-IACBICEP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "IACBICEP-Complete-Solution.zip"
+  ],
+  "hero": "IACBICEP-hero.png"
+}
+

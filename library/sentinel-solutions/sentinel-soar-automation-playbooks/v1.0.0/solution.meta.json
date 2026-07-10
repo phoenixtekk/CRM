@@ -1,0 +1,39 @@
+{
+  "slug": "sentinel-soar-automation-playbooks",
+  "title": "Microsoft Sentinel SOAR — Automation Rules & Playbooks (Logic Apps)",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SENTSOAR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line. Logic Apps + PowerShell. Disruptive actions approval-gated/simulate-first."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SENTSOAR-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-SENTSOAR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-SENTSOAR-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "SENTSOAR-Complete-Solution.zip"
+  ],
+  "hero": "SENTSOAR-hero.png"
+}
+

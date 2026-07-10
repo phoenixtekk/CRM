@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-365-copilot-readiness-deployment",
+  "title": "Microsoft 365 Copilot Readiness Assessment & Deployment",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "CPLTREADY",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Copilot category. PowerShell/Graph. Copilot licensing/preview flagged verify; AI-use policy deferred to the customer."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CPLTREADY-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CPLTREADY-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CPLTREADY-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CPLTREADY-Complete-Solution.zip"
+  ],
+  "hero": "CPLTREADY-hero.png"
+}
+

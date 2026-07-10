@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "microsoft-365-copilot-readiness-deployment",
+    "title": "Microsoft 365 Copilot Readiness Assessment & Deployment",
+    "category_path": [
+      "Copilot"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-CPLTREADY-COMM-001",
+      "name": "Microsoft 365 Copilot Readiness Assessment & Deployment — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "<p>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot.</p>",
+      "description": "<h3>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot.</h3><p>Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the blockers, licenses and assigns Copilot, and runs a measured pilot so leadership sees value before a broad rollout.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Readiness assessment — licensing, Entra, network, data hygiene, prerequisites</li><li>Blocker remediation plan (identity, oversharing, unsupported configs)</li><li>License assignment and Copilot enablement</li><li>Pilot cohort design with success metrics</li><li>Rollout waves and a value-measurement dashboard</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A Copilot rollout that's ready, safe, and measured — not a permissions incident waiting to happen.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CPLTREADY-AssignLicenses.ps1</code> &mdash; assign the Microsoft 365 Copilot SKU to the cohort/wave group members</li><li><code>CPLTREADY-Discovery.ps1</code> &mdash; Microsoft 365 Copilot readiness discovery for the scorecard</li><li><code>CPLTREADY-OversharingScan.ps1</code> &mdash; data-hygiene scan for broadly shared content (AI-exposure risk)</li><li><code>CPLTREADY-Report.ps1</code> &mdash; readiness-and-adoption report for the Copilot rollout</li><li><code>CPLTREADY-Validate.ps1</code> &mdash; pre-enablement validation of Copilot readiness for the cohort/wave</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Copilot Readiness Assessment & Deployment",
+      "meta_description": "Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the",
+      "url_key": "microsoft-365-copilot-readiness-deployment-commercial",
+      "image": "CPLTREADY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "CPLTREADY-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CPLTREADY-NPO-001",
+      "name": "Microsoft 365 Copilot Readiness Assessment & Deployment — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot.</h3><p>Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the blockers, licenses and assigns Copilot, and runs a measured pilot so leadership sees value before a broad rollout.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Readiness assessment — licensing, Entra, network, data hygiene, prerequisites</li><li>Blocker remediation plan (identity, oversharing, unsupported configs)</li><li>License assignment and Copilot enablement</li><li>Pilot cohort design with success metrics</li><li>Rollout waves and a value-measurement dashboard</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CPLTREADY-AssignLicenses.ps1</code> &mdash; assign the Microsoft 365 Copilot SKU to the cohort/wave group members</li><li><code>CPLTREADY-Discovery.ps1</code> &mdash; Microsoft 365 Copilot readiness discovery for the scorecard</li><li><code>CPLTREADY-OversharingScan.ps1</code> &mdash; data-hygiene scan for broadly shared content (AI-exposure risk)</li><li><code>CPLTREADY-Report.ps1</code> &mdash; readiness-and-adoption report for the Copilot rollout</li><li><code>CPLTREADY-Validate.ps1</code> &mdash; pre-enablement validation of Copilot readiness for the cohort/wave</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Copilot Readiness Assessment & Deployment — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the",
+      "url_key": "microsoft-365-copilot-readiness-deployment-nonprofit",
+      "image": "CPLTREADY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "CPLTREADY-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-CPLTREADY-GOV-001",
+      "name": "Microsoft 365 Copilot Readiness Assessment & Deployment — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Roll out Microsoft 365 Copilot safely — assess readiness, fix the blockers, license and deploy, and prove value with a pilot.</h3><p>Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the blockers, licenses and assigns Copilot, and runs a measured pilot so leadership sees value before a broad rollout.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Readiness assessment — licensing, Entra, network, data hygiene, prerequisites</li><li>Blocker remediation plan (identity, oversharing, unsupported configs)</li><li>License assignment and Copilot enablement</li><li>Pilot cohort design with success metrics</li><li>Rollout waves and a value-measurement dashboard</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>CPLTREADY-AssignLicenses.ps1</code> &mdash; assign the Microsoft 365 Copilot SKU to the cohort/wave group members</li><li><code>CPLTREADY-Discovery.ps1</code> &mdash; Microsoft 365 Copilot readiness discovery for the scorecard</li><li><code>CPLTREADY-OversharingScan.ps1</code> &mdash; data-hygiene scan for broadly shared content (AI-exposure risk)</li><li><code>CPLTREADY-Report.ps1</code> &mdash; readiness-and-adoption report for the Copilot rollout</li><li><code>CPLTREADY-Validate.ps1</code> &mdash; pre-enablement validation of Copilot readiness for the cohort/wave</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft 365 Copilot Readiness Assessment & Deployment — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Copilot inherits every permission and oversharing problem your tenant already has. This solution assesses technical and data readiness, remediates the",
+      "url_key": "microsoft-365-copilot-readiness-deployment-government",
+      "image": "CPLTREADY-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "CPLTREADY-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+[
+{
+"title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/android-dedicated-cosu-kiosk-device-enrollment-management-intune-commercial",
+"blurb": "Android Enterprise enrollment & management."
+},
+{
+"title": "Android Enterprise App Management via Managed Google Play (Intune)",
+"category": "Android",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/android-enterprise-app-management-managed-google-play-intune-commercial",
+"blurb": "Android Enterprise enrollment & management."
+},
+{
+"title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/android-enterprise-connection-managed-google-play-setup-intune-commercial",
+"blurb": "Android Enterprise enrollment & management."
+},
+{
+"title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/adobe-creative-cloud-enterprise-license-management-commercial",
+"blurb": "IT asset & lifecycle management."
+},
+{
+"title": "Microsoft 365 License Optimization & Reharvesting",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-license-optimization-reharvesting-commercial",
+"blurb": "IT asset & lifecycle management."
+},
+{
+"title": "Microsoft Licensing Cost Governance — EA, CSP & True-Up Readiness",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-licensing-cost-governance-ea-csp-commercial",
+"blurb": "IT asset & lifecycle management."
+},
+{
+"title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-security-baseline-governance-commercial",
+"blurb": "Cloud architecture, security & governance."
+},
+{
+"title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Government (GCC High)",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-security-baseline-governance-gcc-high-commercial",
+"blurb": "Cloud architecture, security & governance."
+},
+{
+"title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
+"category": "Azure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/azure-virtual-desktop-remote-access-commercial",
+"blurb": "Cloud architecture, security & governance."
+},
+{
+"title": "Backup Validation & Recoverability Assurance Program",
+"category": "Backup & DR Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/backup-validation-recoverability-assurance-commercial",
+"blurb": "Backup & DR Solutions solution — click-to-implement docs + scripts."
+},
+{
+"title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-app-service-principal-governance-commercial",
+"blurb": "Identity governance — PIM, Access Reviews, Hybrid Identity."
+},
+{
+"title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions) — Government (GCC High)",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-app-service-principal-governance-gcc-high-commercial",
+"blurb": "Identity governance — PIM, Access Reviews, Hybrid Identity."
+},
+{
+"title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-governance-pim-access-reviews-commercial",
+"blurb": "Identity governance — PIM, Access Reviews, Hybrid Identity."
+},
+{
+"title": "Apps Script & AppSheet Work-Transformation Governance",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/apps-script-appsheet-work-transformation-governance-commercial",
+"blurb": "Google Workspace administration & security."
+},
+{
+"title": "Architecture & Design Review Board (ARB) Governance Framework for a Workspace Transformation",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-transformation-arb-governance-framework-commercial",
+"blurb": "Google Workspace administration & security."
+},
+{
+"title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/beyondcorp-enterprise-zero-trust-access-commercial",
+"blurb": "Google Workspace administration & security."
+},
+{
+"title": "Clinical Endpoint Logon & Profile Performance Optimization (FSLogix)",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/clinical-endpoint-logon-profile-optimization-commercial",
+"blurb": "HIPAA-aligned clinical endpoint solutions."
+},
+{
+"title": "Epic Clinical Workstation Standardization & Peripheral Configuration with Microsoft Intune",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/epic-clinical-workstation-standardization-commercial",
+"blurb": "HIPAA-aligned clinical endpoint solutions."
+},
+{
+"title": "Epic Go-Live & Command Center Endpoint Readiness Playbook",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/epic-go-live-command-center-readiness-commercial",
+"blurb": "HIPAA-aligned clinical endpoint solutions."
+},
+{
+"title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/active-directory-rid-group-provisioning-capacity-assessment-commercial",
+"blurb": "Core infrastructure build & operations."
+},
+{
+"title": "Endpoint Health & Digital Experience Monitoring",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-health-experience-monitoring-commercial",
+"blurb": "Core infrastructure build & operations."
+},
+{
+"title": "Endpoint Imaging, Inventory & Hardware Lifecycle Management",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-imaging-inventory-lifecycle-commercial",
+"blurb": "Core infrastructure build & operations."
+},
+{
+"title": "Application Control (WDAC)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/application-control-wdac-commercial",
+"blurb": "Endpoint management, Autopilot, compliance & app deployment."
+},
+{
+"title": "Attack Surface Reduction (ASR) Rules",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/attack-surface-reduction-rules-commercial",
+"blurb": "Endpoint management, Autopilot, compliance & app deployment."
+},
+{
+"title": "BitLocker Drive Encryption",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/bitlocker-drive-encryption-commercial",
+"blurb": "Endpoint management, Autopilot, compliance & app deployment."
+},
+{
+"title": "M365 & Azure Incident Response & Escalation Runbook",
+"category": "Managed",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/m365-azure-incident-response-runbook-commercial",
+"blurb": "MSP operations — PSA/RMM, patch, incident mgmt."
+},
+{
+"title": "M365 & Azure Incident Response & Escalation Runbook — Government (GCC High)",
+"category": "Managed",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/m365-azure-incident-response-runbook-gcc-high-commercial",
+"blurb": "MSP operations — PSA/RMM, patch, incident mgmt."
+},
+{
+"title": "MSP Tool Stack Design & Standup — PSA, RMM & Patch Management",
+"category": "Managed",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/msp-tool-stack-psa-rmm-patch-commercial",
+"blurb": "MSP operations — PSA/RMM, patch, incident mgmt."
+},
+{
+"title": "ADFS Federation for Microsoft 365 — Deployment, Troubleshooting & Migration to Cloud Auth",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/adfs-federation-microsoft-365-deployment-migration-cloud-auth-commercial",
+"blurb": "Exchange Online mail flow, security & compliance."
+},
+{
+"title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+"category": "Messaging",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/exchange-edge-transport-server-deployment-hardening-commercial",
+"blurb": "Exchange Online mail flow, security & compliance."
+},
+{
+"title": "Exchange Online & Hybrid Mail Flow — Architecture, Connectors & Routing",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/exchange-online-hybrid-mail-flow-connectors-routing-commercial",
+"blurb": "Exchange Online mail flow, security & compliance."
+},
+{
+"title": "AppLocker to WDAC (App Control for Business) Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/applocker-to-wdac-app-control-migration-commercial",
+"blurb": "Tenant-to-tenant & platform migrations, done safely."
+},
+{
+"title": "Commercial-to-GCC High Microsoft 365 & Azure Migration Program (Exchange, SharePoint, Teams, AVD)",
+"category": "Migrations",
+"price": 5995.0,
+"link": "https://workplace.phoenixtekk.com/commercial-to-gcc-high-migration-program-commercial",
+"blurb": "Tenant-to-tenant & platform migrations, done safely."
+},
+{
+"title": "Configuration Manager and Intune Co-Management Enablement",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sccm-intune-co-management-enablement-commercial",
+"blurb": "Tenant-to-tenant & platform migrations, done safely."
+},
+{
+"title": "CASB & Cloud App Control with Netskope",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/casb-cloud-app-control-netskope-commercial",
+"blurb": "Secure connectivity — VPN, ZTNA, pre-logon, SASE."
+},
+{
+"title": "Cisco ISE 802.1X Certificate Authentication for Wi-Fi & Wired via Intune",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cisco-ise-8021x-certificate-wifi-wired-intune-commercial",
+"blurb": "Secure connectivity — VPN, ZTNA, pre-logon, SASE."
+}
+]

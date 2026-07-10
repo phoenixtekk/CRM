@@ -1,0 +1,39 @@
+{
+  "slug": "deploy-microsoft-sentinel-workspace-connectors",
+  "title": "Deploy Microsoft Sentinel — Workspace, Data Connectors & Ingestion",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SENTDEP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line (Dice SIEM demand). PowerShell/Az + KQL. Vendor connector internals deferred to Microsoft docs; licensing/preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SENTDEP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SENTDEP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SENTDEP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SENTDEP-Complete-Solution.zip"
+  ],
+  "hero": "SENTDEP-hero.png"
+}
+

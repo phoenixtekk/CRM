@@ -1,0 +1,39 @@
+{
+  "slug": "sentinel-cost-data-tier-optimization",
+  "title": "Microsoft Sentinel Cost & Data-Tier Optimization",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SENTCOST",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line. KQL + Az. Pricing/tier availability flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SENTCOST-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-SENTCOST-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-SENTCOST-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "SENTCOST-Complete-Solution.zip"
+  ],
+  "hero": "SENTCOST-hero.png"
+}
+

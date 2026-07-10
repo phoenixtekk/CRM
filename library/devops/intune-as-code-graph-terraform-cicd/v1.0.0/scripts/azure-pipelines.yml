@@ -1,0 +1,128 @@
+# =============================================================================
+# azure-pipelines.yml — CI/CD for Intune-as-Code (Terraform + Graph).
+#
+# PURPOSE
+#   Plan-first, approval-gated delivery of the Intune Terraform. Stages:
+#     Validate -> terraform fmt + validate
+#     Plan     -> terraform plan against the target workspace, published as the
+#                 change preview on the PR
+#     Apply    -> pre-apply BACKUP, then terraform apply, BEHIND a manual approval
+#                 on the 'intune-prod' Environment (required reviewers = R7)
+#
+# HOW TO RUN
+#   Create the pipeline "Intune-as-Code Pipeline – Endpoint – CICD" from this file.
+#   Set the service connection (workload identity federation / app credential from
+#   the secret store — never in code) and add required reviewers to the
+#   'intune-prod' Environment so Apply pauses for approval.
+#
+# EXPECTED RESULTS
+#   PRs run Validate + Plan automatically; the plan is attached. Apply only runs
+#   after approval, and always takes a backup first. Nothing applies unreviewed.
+#
+# White-label. Plan-first, approval-gated, backup-before-apply. GitHub Actions
+# equivalent noted at the bottom. *Verify current task/provider/module versions.*
+# =============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - '*.tf'
+      - 'scripts/*'
+
+pr:
+  branches:
+    include:
+      - main
+
+variables:
+  azureServiceConnection: 'sc-intune-oidc'   # workload identity federation (no secret)
+  devWorkspace: 'intune – Dev – Workspace'
+  prodWorkspace: 'intune – Prod – Workspace'
+  backupPath: '$(Build.ArtifactStagingDirectory)/backups'
+
+stages:
+  # ---------------------------------------------------------------------------
+  - stage: Validate
+    displayName: 'Validate (fmt + validate)'
+    jobs:
+      - job: validate
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - script: |
+              terraform init -input=false
+              terraform fmt -check
+              terraform validate -no-color
+            displayName: 'terraform init / fmt / validate'
+
+  # ---------------------------------------------------------------------------
+  - stage: Plan
+    displayName: 'Plan (change preview)'
+    dependsOn: Validate
+    jobs:
+      - job: plan
+        pool:
+          vmImage: 'ubuntu-latest'
+        steps:
+          - task: AzureCLI@2
+            displayName: 'terraform plan'
+            inputs:
+              azureSubscription: $(azureServiceConnection)
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                terraform init -input=false
+                terraform workspace select "$(prodWorkspace)" || terraform workspace new "$(prodWorkspace)"
+                echo "### terraform plan (no changes applied) ###"
+                terraform plan -no-color -input=false -out tfplan
+          - publish: tfplan
+            artifact: tfplan
+
+  # ---------------------------------------------------------------------------
+  - stage: Apply
+    displayName: 'Apply — backup + approval-gated'
+    dependsOn: Plan
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: apply
+        displayName: 'Backup then terraform apply'
+        pool:
+          vmImage: 'ubuntu-latest'
+        # The Environment check (required reviewers) is the approval gate (R7).
+        environment: 'intune-prod'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - task: AzureCLI@2
+                  displayName: 'Pre-apply backup (rollback point)'
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: pscore
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      ./scripts/IACINTUNE-Report.ps1 -Backup -OutputPath "$(backupPath)"
+                - download: current
+                  artifact: tfplan
+                - task: AzureCLI@2
+                  displayName: 'terraform apply (approved plan)'
+                  inputs:
+                    azureSubscription: $(azureServiceConnection)
+                    scriptType: bash
+                    scriptLocation: inlineScript
+                    inlineScript: |
+                      terraform init -input=false
+                      terraform workspace select "$(prodWorkspace)"
+                      terraform apply -input=false "$(Pipeline.Workspace)/tfplan/tfplan"
+
+# -----------------------------------------------------------------------------
+# GitHub Actions equivalent (for teams on GitHub):
+#   - Use azure/login@v2 with OIDC (permissions: id-token: write).
+#   - Job 1: terraform fmt/validate/plan, upload the plan as an artifact.
+#   - Job 2 (apply): environment 'intune-prod' with required reviewers so the job
+#     waits for approval; run the backup step, then terraform apply the saved plan.
+# -----------------------------------------------------------------------------

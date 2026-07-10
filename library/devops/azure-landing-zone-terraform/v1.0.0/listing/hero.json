@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Landing Zone",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "with Terraform",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "IaC · Policy · Network",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CLICK-OPS",
+    "items": [
+      "Manual portal",
+      "Config drift",
+      "No guardrails",
+      "Not repeatable"
+    ]
+  },
+  "to": {
+    "label": "Landing Zone as Code",
+    "stat": "Versioned · Governed · Repeatable"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Mgmt Groups",
+      "sub": "Subscription vending"
+    },
+    {
+      "icon": "shield",
+      "title": "Policy as Code",
+      "sub": "Guardrails"
+    },
+    {
+      "icon": "gear",
+      "title": "CI/CD Apply",
+      "sub": "Plan → approve"
+    },
+    {
+      "icon": "chart",
+      "title": "Drift Detection",
+      "sub": "Stays in state"
+    }
+  ]
+}

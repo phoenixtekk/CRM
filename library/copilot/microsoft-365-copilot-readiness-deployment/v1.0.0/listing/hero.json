@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft 365",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Copilot",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Readiness · Deploy · Pilot",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "COPILOT RISK",
+    "items": [
+      "Oversharing",
+      "Not licensed",
+      "No pilot",
+      "Unproven value"
+    ]
+  },
+  "to": {
+    "label": "Copilot Ready",
+    "stat": "Assessed · Deployed · Measured"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Readiness Score",
+      "sub": "Find the blockers"
+    },
+    {
+      "icon": "lock",
+      "title": "Safe Rollout",
+      "sub": "Fix oversharing first"
+    },
+    {
+      "icon": "users",
+      "title": "Pilot Cohort",
+      "sub": "Prove value"
+    },
+    {
+      "icon": "cloud",
+      "title": "Licensed & Live",
+      "sub": "Deployed in waves"
+    }
+  ]
+}

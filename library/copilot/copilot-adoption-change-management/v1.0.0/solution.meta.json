@@ -1,0 +1,39 @@
+{
+  "slug": "copilot-adoption-change-management",
+  "title": "Microsoft 365 Copilot Adoption & Change-Management Program",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "CPLTADOPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Copilot category. Change-management program (non-technical deliverable). Usage-report availability flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CPLTADOPT-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-CPLTADOPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-CPLTADOPT-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "CPLTADOPT-Complete-Solution.zip"
+  ],
+  "hero": "CPLTADOPT-hero.png"
+}
+

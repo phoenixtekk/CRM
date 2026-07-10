@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "ID Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Access Reviews",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Request · Review · Revoke",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ACCESS SPRAWL",
+    "items": [
+      "Guests forever",
+      "Role creep",
+      "Failed audits",
+      "Manual reviews"
+    ]
+  },
+  "to": {
+    "label": "Governed Access",
+    "stat": "Reviewed · Time-bound · Audited"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Access Packages",
+      "sub": "Request & approve"
+    },
+    {
+      "icon": "chart",
+      "title": "Access Reviews",
+      "sub": "Recurring recert"
+    },
+    {
+      "icon": "gear",
+      "title": "Lifecycle Workflows",
+      "sub": "JML automation"
+    },
+    {
+      "icon": "key",
+      "title": "Guest Governance",
+      "sub": "Time-bound"
+    }
+  ]
+}

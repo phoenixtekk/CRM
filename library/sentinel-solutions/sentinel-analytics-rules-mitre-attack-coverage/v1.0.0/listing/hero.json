@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Sentinel Analytics",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Rules & MITRE",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Detections · Coverage · Tuning",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NOISY SIEM",
+    "items": [
+      "Untuned rules",
+      "False positives",
+      "Coverage gaps",
+      "Ignored alerts"
+    ]
+  },
+  "to": {
+    "label": "ATT&CK-Mapped",
+    "stat": "Tuned · Mapped · Trusted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "ATT&CK Coverage",
+      "sub": "Map the gaps"
+    },
+    {
+      "icon": "chart",
+      "title": "Tuned Rules",
+      "sub": "Fewer false alarms"
+    },
+    {
+      "icon": "gear",
+      "title": "Detection-as-Code",
+      "sub": "Versioned & reusable"
+    },
+    {
+      "icon": "key",
+      "title": "Enrichment",
+      "sub": "Context on alerts"
+    }
+  ]
+}

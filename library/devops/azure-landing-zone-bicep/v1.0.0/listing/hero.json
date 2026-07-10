@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Landing Zone",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "with Bicep",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "IaC · Policy · Native",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CLICK-OPS",
+    "items": [
+      "Manual portal",
+      "Config drift",
+      "No guardrails",
+      "Not repeatable"
+    ]
+  },
+  "to": {
+    "label": "Landing Zone as Code",
+    "stat": "Bicep · Governed · Native"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Mgmt Groups",
+      "sub": "Native hierarchy"
+    },
+    {
+      "icon": "shield",
+      "title": "Policy as Bicep",
+      "sub": "Guardrails"
+    },
+    {
+      "icon": "gear",
+      "title": "Deployment Stacks",
+      "sub": "What-if → deploy"
+    },
+    {
+      "icon": "chart",
+      "title": "Repeatable",
+      "sub": "No drift"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "copilot-data-governance-dlp-guardrails",
+  "title": "Microsoft 365 Copilot Data Governance & DLP Guardrails",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "CPLTGOV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Copilot category. Purview + Graph. DLP-for-Copilot/preview flagged verify; classification determinations deferred to compliance."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CPLTGOV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CPLTGOV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CPLTGOV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CPLTGOV-Complete-Solution.zip"
+  ],
+  "hero": "CPLTGOV-hero.png"
+}
+

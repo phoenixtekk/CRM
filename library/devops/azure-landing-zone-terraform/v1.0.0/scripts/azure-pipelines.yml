@@ -1,0 +1,197 @@
+# =============================================================================
+# azure-pipelines.yml — Azure Landing Zone (Terraform) CI/CD — white-label reference
+#
+# PURPOSE
+#   Deploys the landing-zone Terraform through an auditable, plan-before-apply pipeline:
+#     Stage 1  Validate  — fmt + init + validate + `terraform plan` (what-if), published as an artifact
+#     Stage 2  Apply     — downloads the SAME plan and applies it, GATED by a manual approval
+#     Scheduled run       — `terraform plan -detailed-exitcode` for DRIFT DETECTION (fails on drift)
+#
+# HOW IT WORKS / HOW TO RUN
+#   - PR / CI trigger runs Validate only (plan, no apply) so reviewers see the what-if in the PR.
+#   - Merge to main runs Validate then Apply; Apply waits on the 'prod-landingzone' Environment's
+#     manual-approval check (configure the approver in Pipelines > Environments).
+#   - A daily schedule runs the Drift stage; a non-empty plan (exit 2) fails the build to surface drift.
+#   - Auth is WORKLOAD IDENTITY FEDERATION (OIDC) via the service connection — NO stored secret.
+#
+# EXPECTED RESULTS
+#   Validate publishes 'tfplan'. Apply applies ONLY after approval. Drift run is green when state==code.
+#
+# NOTES
+#   White-label — DevOps / IaC. Plan-first, approval-gated. No secrets in this file.
+#   *** Pin the Terraform version and the service-connection name to your environment (flagged verify). ***
+# =============================================================================
+
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - "**/*.tf"
+      - azure-pipelines.yml
+
+pr:
+  branches:
+    include:
+      - main
+
+# Daily drift-detection run (adjust cron to your window).
+schedules:
+  - cron: "0 6 * * *"
+    displayName: Daily drift detection
+    branches:
+      include:
+        - main
+    always: true
+
+variables:
+  TF_VERSION: "1.9.5"                 # verify: pin to your supported Terraform version
+  AZURE_SERVICE_CONNECTION: "sc-iactf-oidc"  # federated (OIDC) service connection — no secret
+  TF_WORKING_DIR: "$(System.DefaultWorkingDirectory)"
+  BACKEND_RG: "rg-iactf-tfstate"
+  BACKEND_SA: "stiactftfstate"       # verify: append your unique suffix
+  BACKEND_CONTAINER: "tfstate"
+  BACKEND_KEY: "landingzone.tfstate"
+
+stages:
+  # ---------------------------------------------------------------------------
+  - stage: Validate
+    displayName: "Validate + Plan (what-if)"
+    jobs:
+      - job: plan
+        displayName: "terraform fmt / validate / plan"
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+          - task: TerraformInstaller@1
+            displayName: "Install pinned Terraform"
+            inputs:
+              terraformVersion: $(TF_VERSION)
+
+          - task: AzureCLI@2
+            displayName: "terraform init + validate + plan (OIDC auth, no apply)"
+            inputs:
+              azureSubscription: $(AZURE_SERVICE_CONNECTION)
+              scriptType: bash
+              addSpnToEnvironment: true   # exposes OIDC token env vars to Terraform
+              workingDirectory: $(TF_WORKING_DIR)
+              inlineScript: |
+                set -euo pipefail
+                export ARM_USE_OIDC=true
+                export ARM_CLIENT_ID="$servicePrincipalId"
+                export ARM_OIDC_TOKEN="$idToken"
+                export ARM_TENANT_ID="$tenantId"
+
+                terraform init -input=false \
+                  -backend-config="resource_group_name=$(BACKEND_RG)" \
+                  -backend-config="storage_account_name=$(BACKEND_SA)" \
+                  -backend-config="container_name=$(BACKEND_CONTAINER)" \
+                  -backend-config="key=$(BACKEND_KEY)"
+
+                terraform fmt -check
+                terraform validate
+                # -detailed-exitcode: 0=no change, 2=changes, 1=error. Do not fail on 2 here (that's the plan).
+                terraform plan -input=false -out=tfplan -detailed-exitcode || [ $? -eq 2 ]
+
+          - task: PublishPipelineArtifact@1
+            displayName: "Publish plan artifact"
+            inputs:
+              targetPath: "$(TF_WORKING_DIR)/tfplan"
+              artifact: tfplan
+
+  # ---------------------------------------------------------------------------
+  - stage: Apply
+    displayName: "Apply (approval-gated)"
+    dependsOn: Validate
+    # Only apply on main (not on PRs), and only after Validate succeeds.
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+    jobs:
+      - deployment: apply
+        displayName: "terraform apply (the reviewed plan)"
+        pool:
+          vmImage: ubuntu-latest
+        # The 'prod-landingzone' Environment carries the MANUAL APPROVAL check — apply waits for it.
+        environment: prod-landingzone
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: TerraformInstaller@1
+                  inputs:
+                    terraformVersion: $(TF_VERSION)
+
+                - download: current
+                  artifact: tfplan
+
+                - task: AzureCLI@2
+                  displayName: "terraform apply the approved plan"
+                  inputs:
+                    azureSubscription: $(AZURE_SERVICE_CONNECTION)
+                    scriptType: bash
+                    addSpnToEnvironment: true
+                    workingDirectory: $(TF_WORKING_DIR)
+                    inlineScript: |
+                      set -euo pipefail
+                      export ARM_USE_OIDC=true
+                      export ARM_CLIENT_ID="$servicePrincipalId"
+                      export ARM_OIDC_TOKEN="$idToken"
+                      export ARM_TENANT_ID="$tenantId"
+
+                      terraform init -input=false \
+                        -backend-config="resource_group_name=$(BACKEND_RG)" \
+                        -backend-config="storage_account_name=$(BACKEND_SA)" \
+                        -backend-config="container_name=$(BACKEND_CONTAINER)" \
+                        -backend-config="key=$(BACKEND_KEY)"
+
+                      # Apply ONLY the plan reviewed/approved in the Validate stage — no fresh plan here.
+                      terraform apply -input=false "$(Pipeline.Workspace)/tfplan/tfplan"
+
+  # ---------------------------------------------------------------------------
+  - stage: DriftDetection
+    displayName: "Drift detection (scheduled)"
+    dependsOn: []   # runs independently
+    condition: eq(variables['Build.Reason'], 'Schedule')
+    jobs:
+      - job: drift
+        displayName: "terraform plan -detailed-exitcode (fail on drift)"
+        pool:
+          vmImage: ubuntu-latest
+        steps:
+          - task: TerraformInstaller@1
+            inputs:
+              terraformVersion: $(TF_VERSION)
+
+          - task: AzureCLI@2
+            displayName: "Detect drift (fails the build if state != code)"
+            inputs:
+              azureSubscription: $(AZURE_SERVICE_CONNECTION)
+              scriptType: bash
+              addSpnToEnvironment: true
+              workingDirectory: $(TF_WORKING_DIR)
+              inlineScript: |
+                set -euo pipefail
+                export ARM_USE_OIDC=true
+                export ARM_CLIENT_ID="$servicePrincipalId"
+                export ARM_OIDC_TOKEN="$idToken"
+                export ARM_TENANT_ID="$tenantId"
+
+                terraform init -input=false \
+                  -backend-config="resource_group_name=$(BACKEND_RG)" \
+                  -backend-config="storage_account_name=$(BACKEND_SA)" \
+                  -backend-config="container_name=$(BACKEND_CONTAINER)" \
+                  -backend-config="key=$(BACKEND_KEY)"
+
+                set +e
+                terraform plan -input=false -detailed-exitcode
+                CODE=$?
+                set -e
+                if [ $CODE -eq 2 ]; then
+                  echo "##vso[task.logissue type=error]Drift detected — deployed state differs from code. Reconcile by re-applying the code (not the portal)."
+                  exit 1
+                elif [ $CODE -eq 1 ]; then
+                  echo "##vso[task.logissue type=error]terraform plan errored during drift check."
+                  exit 1
+                else
+                  echo "No drift — state matches code."
+                fi

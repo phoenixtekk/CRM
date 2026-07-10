@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra PIM",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Just-in-Time Admin",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Eligible · Approved · Audited",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STANDING ADMIN",
+    "items": [
+      "Permanent GAs",
+      "No approval",
+      "No time limit",
+      "Breach risk"
+    ]
+  },
+  "to": {
+    "label": "Just-in-Time",
+    "stat": "Eligible · JIT · Audited"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "No Standing Access",
+      "sub": "Eligible, not active"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "JIT + MFA",
+      "sub": "Approve to activate"
+    },
+    {
+      "icon": "gear",
+      "title": "Time-Bound",
+      "sub": "Auto-expire"
+    },
+    {
+      "icon": "chart",
+      "title": "Audited",
+      "sub": "Every activation"
+    }
+  ]
+}

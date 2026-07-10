@@ -1,0 +1,39 @@
+{
+  "slug": "entra-id-governance-access-reviews-entitlement",
+  "title": "Entra ID Governance — Access Reviews & Entitlement Management",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTIGA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Entra line. Graph/PowerShell. Requires Entra ID Governance/P2 — flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTIGA-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTIGA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTIGA-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTIGA-Complete-Solution.zip"
+  ],
+  "hero": "ENTIGA-hero.png"
+}
+

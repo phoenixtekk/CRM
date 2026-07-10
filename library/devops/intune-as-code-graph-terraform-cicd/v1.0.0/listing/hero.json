@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Intune-as-Code",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Graph + Terraform",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Git · CI/CD · Promote",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CLICK-MANAGED",
+    "items": [
+      "Config drift",
+      "No review",
+      "No backup",
+      "Risky changes"
+    ]
+  },
+  "to": {
+    "label": "Intune as Code",
+    "stat": "Versioned · Reviewed · Promoted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Policy as Code",
+      "sub": "Graph/Terraform"
+    },
+    {
+      "icon": "cloud",
+      "title": "Git-Backed",
+      "sub": "Versioned config"
+    },
+    {
+      "icon": "chart",
+      "title": "CI/CD Deploy",
+      "sub": "Dev → prod"
+    },
+    {
+      "icon": "key",
+      "title": "Backup/Restore",
+      "sub": "Safe changes"
+    }
+  ]
+}

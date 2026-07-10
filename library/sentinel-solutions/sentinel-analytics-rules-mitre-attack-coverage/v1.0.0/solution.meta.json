@@ -1,0 +1,39 @@
+{
+  "slug": "sentinel-analytics-rules-mitre-attack-coverage",
+  "title": "Microsoft Sentinel Analytics Rules & MITRE ATT&CK Detection Coverage",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "SENTRULE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel line. KQL + PowerShell. MITRE mapping guidance; regulatory determinations deferred."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SENTRULE-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-SENTRULE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-SENTRULE-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "SENTRULE-Complete-Solution.zip"
+  ],
+  "hero": "SENTRULE-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Sentinel Cost",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Optimization",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Tier · Filter · Forecast",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RUNAWAY BILL",
+    "items": [
+      "Unmanaged ingest",
+      "Pay-per-noise",
+      "No forecast",
+      "Budget shock"
+    ]
+  },
+  "to": {
+    "label": "Cost-Optimized",
+    "stat": "Tiered · Filtered · Forecast"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Ingestion Audit",
+      "sub": "Find the cost"
+    },
+    {
+      "icon": "gear",
+      "title": "Table Tiering",
+      "sub": "Basic vs Analytics"
+    },
+    {
+      "icon": "cloud",
+      "title": "DCR Filtering",
+      "sub": "Drop noise"
+    },
+    {
+      "icon": "key",
+      "title": "Commitment Tiers",
+      "sub": "Pay less"
+    }
+  ]
+}

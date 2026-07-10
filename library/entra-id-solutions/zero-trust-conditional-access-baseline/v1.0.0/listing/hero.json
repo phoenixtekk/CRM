@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Zero Trust",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Conditional Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Personas · Test · Rollout",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FLAT ACCESS",
+    "items": [
+      "No Zero Trust",
+      "Weak MFA",
+      "No device trust",
+      "Lockout risk"
+    ]
+  },
+  "to": {
+    "label": "Zero Trust CA",
+    "stat": "Least-privilege · Safe"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Persona Baseline",
+      "sub": "Least-privilege"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Risk-Based",
+      "sub": "Adaptive access"
+    },
+    {
+      "icon": "gear",
+      "title": "Report-Only First",
+      "sub": "No lockouts"
+    },
+    {
+      "icon": "key",
+      "title": "Break-Glass",
+      "sub": "Safe rollout"
+    }
+  ]
+}

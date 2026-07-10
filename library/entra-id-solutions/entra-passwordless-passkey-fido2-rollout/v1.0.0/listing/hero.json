@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Passwordless",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Passkeys",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "FIDO2 · Phishing-Resistant",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PASSWORD RISK",
+    "items": [
+      "Phishable MFA",
+      "Password reuse",
+      "Reset tickets",
+      "Account takeover"
+    ]
+  },
+  "to": {
+    "label": "Passwordless",
+    "stat": "FIDO2 · Passkey · Resistant"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "Passkeys",
+      "sub": "Device-bound"
+    },
+    {
+      "icon": "key",
+      "title": "FIDO2 Keys",
+      "sub": "Hardware-backed"
+    },
+    {
+      "icon": "shield",
+      "title": "Phishing-Resistant",
+      "sub": "CA-enforced"
+    },
+    {
+      "icon": "users",
+      "title": "Registration",
+      "sub": "Campaign & onboarding"
+    }
+  ]
+}

@@ -1888,5 +1888,85 @@
     "post_id": 12589,
     "status": "draft",
     "category_id": 411
+  },
+  "deploy-microsoft-sentinel-workspace-connectors": {
+    "post_id": 12591,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sentinel-analytics-rules-mitre-attack-coverage": {
+    "post_id": 12593,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sentinel-soar-automation-playbooks": {
+    "post_id": 12595,
+    "status": "draft",
+    "category_id": 411
+  },
+  "sentinel-cost-data-tier-optimization": {
+    "post_id": 12597,
+    "status": "draft",
+    "category_id": 411
+  },
+  "soc-onboarding-sentinel-defender-xdr": {
+    "post_id": 12599,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-365-copilot-readiness-deployment": {
+    "post_id": 12601,
+    "status": "draft",
+    "category_id": 411
+  },
+  "copilot-oversharing-sharepoint-remediation": {
+    "post_id": 12603,
+    "status": "draft",
+    "category_id": 411
+  },
+  "copilot-data-governance-dlp-guardrails": {
+    "post_id": 12605,
+    "status": "draft",
+    "category_id": 411
+  },
+  "copilot-adoption-change-management": {
+    "post_id": 12607,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-privileged-identity-management-pim": {
+    "post_id": 12609,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-passwordless-passkey-fido2-rollout": {
+    "post_id": 12611,
+    "status": "draft",
+    "category_id": 411
+  },
+  "zero-trust-conditional-access-baseline": {
+    "post_id": 12613,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-id-governance-access-reviews-entitlement": {
+    "post_id": 12615,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-landing-zone-terraform": {
+    "post_id": 12617,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-landing-zone-bicep": {
+    "post_id": 12619,
+    "status": "draft",
+    "category_id": 411
+  },
+  "intune-as-code-graph-terraform-cicd": {
+    "post_id": 12621,
+    "status": "draft",
+    "category_id": 411
   }
 }

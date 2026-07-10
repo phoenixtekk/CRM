@@ -110,7 +110,7 @@ def main():
             "products": [{"sku": f"PTK-{sol}-COMM-001", "audience": "commercial", "price": c},
                          {"sku": f"PTK-{sol}-NPO-001", "audience": "nonprofit", "price": n},
                          {"sku": f"PTK-{sol}-GOV-001", "audience": "government", "price": g}],
-            "deliverables": [pdf, zipf], "hero": hero}
+            "deliverables": [bundle], "hero": hero}
     (vdir / "solution.meta.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (vdir / "listing" / "hero.json").write_text(json.dumps(s["hero"], indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     (vdir.parent / "LATEST.txt").write_text("v1.0.0\n", encoding="utf-8")

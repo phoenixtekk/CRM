@@ -1,0 +1,6640 @@
+[
+{
+"slug": "android-dedicated-cosu-kiosk-device-enrollment-management-intune",
+"title": "Android Dedicated (COSU) / Kiosk Device Enrollment & Management in Intune",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/android-dedicated-cosu-kiosk-device-enrollment-management-intune-commercial",
+"keywords": [
+"android",
+"androidcosu",
+"cosu",
+"dedicated",
+"device",
+"enrollment",
+"intune",
+"kiosk"
+]
+},
+{
+"slug": "android-enterprise-app-management-managed-google-play-intune",
+"title": "Android Enterprise App Management via Managed Google Play (Intune)",
+"category": "Android",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/android-enterprise-app-management-managed-google-play-intune-commercial",
+"keywords": [
+"android",
+"androidapp",
+"app",
+"enterprise",
+"google",
+"intune",
+"managed",
+"play"
+]
+},
+{
+"slug": "android-enterprise-connection-managed-google-play-setup-intune",
+"title": "Android Enterprise Connection & Managed Google Play Setup in Intune",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/android-enterprise-connection-managed-google-play-setup-intune-commercial",
+"keywords": [
+"android",
+"androident",
+"connection",
+"enterprise",
+"google",
+"intune",
+"managed",
+"play"
+]
+},
+{
+"slug": "android-enterprise-enrollment-troubleshooting-google-account-amapi",
+"title": "Android Enterprise Enrollment Troubleshooting — Managed Google Play, Web Enrollment & \"Can't Add a Google Account\" (AMAPI)",
+"category": "Android",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/android-enterprise-enrollment-troubleshooting-google-account-amapi-commercial",
+"keywords": [
+"account",
+"add",
+"amapi",
+"android",
+"androiddx",
+"enrollment",
+"enterprise",
+"google",
+"managed",
+"play",
+"troubleshooting",
+"web"
+]
+},
+{
+"slug": "google-workspace-intune-third-party-emm-managed-google-play",
+"title": "Google Workspace ↔ Intune Third-Party EMM Integration for Managed Google Play",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-intune-third-party-emm-managed-google-play-commercial",
+"keywords": [
+"android",
+"androidgw",
+"emm",
+"google",
+"integration",
+"intune",
+"managed",
+"party",
+"play",
+"third",
+"workspace"
+]
+},
+{
+"slug": "intune-android-management-api-amapi-migration",
+"title": "Intune Android Management API (AMAPI) Migration — Legacy Play EMM API → AMAPI",
+"category": "Android",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/intune-android-management-api-amapi-migration-commercial",
+"keywords": [
+"amapi",
+"amapimig",
+"android",
+"api",
+"emm",
+"intune",
+"legacy",
+"migration",
+"play"
+]
+},
+{
+"slug": "adobe-creative-cloud-enterprise-license-management",
+"title": "Adobe Creative Cloud for Enterprise License Management (Admin Console)",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/adobe-creative-cloud-enterprise-license-management-commercial",
+"keywords": [
+"admin",
+"adobe",
+"adobelic",
+"asset",
+"cloud",
+"console",
+"creative",
+"enterprise",
+"license",
+"mgt"
+]
+},
+{
+"slug": "microsoft-365-license-optimization-reharvesting",
+"title": "Microsoft 365 License Optimization & Reharvesting",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-license-optimization-reharvesting-commercial",
+"keywords": [
+"365",
+"asset",
+"license",
+"m365lic",
+"mgt",
+"microsoft",
+"optimization",
+"reharvesting"
+]
+},
+{
+"slug": "microsoft-licensing-cost-governance-ea-csp",
+"title": "Microsoft Licensing Cost Governance — EA, CSP & True-Up Readiness",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-licensing-cost-governance-ea-csp-commercial",
+"keywords": [
+"asset",
+"cost",
+"csp",
+"ea",
+"governance",
+"licensing",
+"mgt",
+"microsoft",
+"mslicgov",
+"readiness",
+"true",
+"up"
+]
+},
+{
+"slug": "saas-application-discovery-license-rightsizing",
+"title": "SaaS Application Discovery & License Right-Sizing",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/saas-application-discovery-license-rightsizing-commercial",
+"keywords": [
+"application",
+"asset",
+"discovery",
+"license",
+"mgt",
+"right",
+"saas",
+"saaslic",
+"sizing"
+]
+},
+{
+"slug": "servicenow-sam-request-fulfillment-reclamation",
+"title": "ServiceNow SAM — Request Fulfillment & License Reclamation Workflow",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/servicenow-sam-request-fulfillment-reclamation-commercial",
+"keywords": [
+"asset",
+"fulfillment",
+"license",
+"mgt",
+"reclamation",
+"request",
+"sam",
+"servicenow",
+"snowsam",
+"workflow"
+]
+},
+{
+"slug": "software-asset-management-program-standup",
+"title": "Software Asset Management (SAM) Program Standup & Governance",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/software-asset-management-program-standup-commercial",
+"keywords": [
+"asset",
+"governance",
+"mgt",
+"program",
+"sam",
+"samprog",
+"software",
+"standup"
+]
+},
+{
+"slug": "software-discovery-entitlement-reconciliation",
+"title": "Software Discovery & Entitlement Reconciliation (SCCM / Intune / Flexera)",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/software-discovery-entitlement-reconciliation-commercial",
+"keywords": [
+"asset",
+"discovery",
+"entitlement",
+"flexera",
+"intune",
+"mgt",
+"reconciliation",
+"sccm",
+"software",
+"swdisc"
+]
+},
+{
+"slug": "software-license-compliance-audit-defense",
+"title": "Software License Compliance & Audit-Defense (Effective License Position)",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/software-license-compliance-audit-defense-commercial",
+"keywords": [
+"asset",
+"audit",
+"compliance",
+"defense",
+"effective",
+"liccomp",
+"license",
+"mgt",
+"position",
+"software"
+]
+},
+{
+"slug": "software-license-usage-cost-dashboards-powerbi",
+"title": "Software License Usage Reporting & Cost Dashboards (Power BI)",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/software-license-usage-cost-dashboards-powerbi-commercial",
+"keywords": [
+"asset",
+"bi",
+"cost",
+"dashboards",
+"license",
+"licrpt",
+"mgt",
+"power",
+"reporting",
+"software",
+"usage"
+]
+},
+{
+"slug": "software-renewals-contracts-oem-tracking",
+"title": "Software Renewals, Contracts & OEM Bundle Tracking",
+"category": "Asset Mgt",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/software-renewals-contracts-oem-tracking-commercial",
+"keywords": [
+"asset",
+"bundle",
+"contracts",
+"mgt",
+"oem",
+"renewals",
+"software",
+"swrenew",
+"tracking"
+]
+},
+{
+"slug": "tier1-publisher-license-audit-risk",
+"title": "Tier-1 Publisher License & Audit-Risk Management (Oracle / IBM / SAP)",
+"category": "Asset Mgt",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/tier1-publisher-license-audit-risk-commercial",
+"keywords": [
+"asset",
+"audit",
+"ibm",
+"license",
+"mgt",
+"oracle",
+"publisher",
+"risk",
+"sap",
+"tier",
+"tier1lic"
+]
+},
+{
+"slug": "azure-security-baseline-governance",
+"title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-security-baseline-governance-commercial",
+"keywords": [
+"azsec",
+"azure",
+"baseline",
+"config",
+"governance",
+"guardrails",
+"least",
+"privilege",
+"secure",
+"security"
+]
+},
+{
+"slug": "azure-security-baseline-governance-gcc-high",
+"title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails) — Government (GCC High)",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-security-baseline-governance-gcc-high-commercial",
+"keywords": [
+"azsecg",
+"azure",
+"baseline",
+"config",
+"gcc",
+"governance",
+"government",
+"guardrails",
+"high",
+"least",
+"privilege",
+"secure",
+"security"
+]
+},
+{
+"slug": "azure-virtual-desktop-remote-access",
+"title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients)",
+"category": "Azure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/azure-virtual-desktop-remote-access-commercial",
+"keywords": [
+"access",
+"avd",
+"azure",
+"clients",
+"desktop",
+"macos",
+"remote",
+"virtual",
+"windows"
+]
+},
+{
+"slug": "azure-virtual-desktop-remote-access-gcc-high",
+"title": "Azure Virtual Desktop Remote Access (Windows & macOS Clients) — Government (GCC High)",
+"category": "Azure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/azure-virtual-desktop-remote-access-gcc-high-commercial",
+"keywords": [
+"access",
+"avdg",
+"azure",
+"clients",
+"desktop",
+"gcc",
+"government",
+"high",
+"macos",
+"remote",
+"virtual",
+"windows"
+]
+},
+{
+"slug": "teams-phone-direct-routing-sbc-audiocodes",
+"title": "Microsoft Teams Phone Direct Routing with Session Border Controller (AudioCodes) Integration",
+"category": "Azure",
+"price": 3495.0,
+"link": "https://workplace.phoenixtekk.com/teams-phone-direct-routing-sbc-audiocodes-commercial",
+"keywords": [
+"audiocodes",
+"azure",
+"border",
+"controller",
+"direct",
+"integration",
+"microsoft",
+"phone",
+"routing",
+"session",
+"teams",
+"teamssbc"
+]
+},
+{
+"slug": "power-platform-secrets-azure-key-vault",
+"title": "Standardize Power Platform Secrets in Azure Key Vault",
+"category": "Azure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/power-platform-secrets-azure-key-vault-commercial",
+"keywords": [
+"azure",
+"key",
+"platform",
+"power",
+"ppkv",
+"secrets",
+"standardize",
+"vault"
+]
+},
+{
+"slug": "power-platform-secrets-azure-key-vault-gcc-high",
+"title": "Standardize Power Platform Secrets in Azure Key Vault — Government (GCC High)",
+"category": "Azure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/power-platform-secrets-azure-key-vault-gcc-high-commercial",
+"keywords": [
+"azure",
+"gcc",
+"government",
+"high",
+"key",
+"platform",
+"power",
+"ppkvg",
+"secrets",
+"standardize",
+"vault"
+]
+},
+{
+"slug": "windows-365-cloud-pc-deployment",
+"title": "Windows 365 Cloud PC Deployment & Management",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/windows-365-cloud-pc-deployment-commercial",
+"keywords": [
+"365",
+"azure",
+"cloud",
+"pc",
+"w365",
+"windows"
+]
+},
+{
+"slug": "windows-365-cloud-pc-deployment-gcc-high",
+"title": "Windows 365 Cloud PC Deployment & Management — Government (GCC High)",
+"category": "Azure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/windows-365-cloud-pc-deployment-gcc-high-commercial",
+"keywords": [
+"365",
+"azure",
+"cloud",
+"gcc",
+"government",
+"high",
+"pc",
+"w365g",
+"windows"
+]
+},
+{
+"slug": "backup-validation-recoverability-assurance",
+"title": "Backup Validation & Recoverability Assurance Program",
+"category": "Backup & DR Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/backup-validation-recoverability-assurance-commercial",
+"keywords": [
+"assurance",
+"backup",
+"backupval",
+"dr",
+"program",
+"recoverability",
+"validation"
+]
+},
+{
+"slug": "enterprise-app-service-principal-governance",
+"title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-app-service-principal-governance-commercial",
+"keywords": [
+"api",
+"app",
+"appgov",
+"enterprise",
+"entra",
+"governance",
+"permissions",
+"principal",
+"registrations",
+"service"
+]
+},
+{
+"slug": "enterprise-app-service-principal-governance-gcc-high",
+"title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions) — Government (GCC High)",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-app-service-principal-governance-gcc-high-commercial",
+"keywords": [
+"api",
+"app",
+"appgovg",
+"enterprise",
+"entra",
+"gcc",
+"governance",
+"government",
+"high",
+"permissions",
+"principal",
+"registrations",
+"service"
+]
+},
+{
+"slug": "entra-id-governance-pim-access-reviews",
+"title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-governance-pim-access-reviews-commercial",
+"keywords": [
+"access",
+"entitlement",
+"entra",
+"governance",
+"id",
+"iga",
+"pim",
+"reviews"
+]
+},
+{
+"slug": "entra-id-governance-pim-access-reviews-gcc-high",
+"title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management — Government (GCC High)",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-governance-pim-access-reviews-gcc-high-commercial",
+"keywords": [
+"access",
+"entitlement",
+"entra",
+"gcc",
+"governance",
+"government",
+"high",
+"id",
+"igag",
+"pim",
+"reviews"
+]
+},
+{
+"slug": "hybrid-identity-ad-entra-connect",
+"title": "Hybrid Identity with Active Directory & Microsoft Entra Connect",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/hybrid-identity-ad-entra-connect-commercial",
+"keywords": [
+"active",
+"connect",
+"directory",
+"entra",
+"hybid",
+"hybrid",
+"identity",
+"microsoft"
+]
+},
+{
+"slug": "hybrid-identity-ad-entra-connect-gcc-high",
+"title": "Hybrid Identity with Active Directory & Microsoft Entra Connect — Government (GCC High)",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/hybrid-identity-ad-entra-connect-gcc-high-commercial",
+"keywords": [
+"active",
+"connect",
+"directory",
+"entra",
+"gcc",
+"government",
+"high",
+"hybidg",
+"hybrid",
+"identity",
+"microsoft"
+]
+},
+{
+"slug": "entra-id-abm-account-auto-provisioning-intune",
+"title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-abm-account-auto-provisioning-intune-commercial",
+"keywords": [
+"abm",
+"abmprov",
+"account",
+"auto",
+"entra",
+"id",
+"integration",
+"intune",
+"microsoft",
+"provisioning"
+]
+},
+{
+"slug": "entra-id-abm-account-auto-provisioning-intune-gcc-high",
+"title": "Implement Entra ID Integration with ABM for Account Auto Provisioning for Microsoft Intune — Government (GCC High)",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-abm-account-auto-provisioning-intune-gcc-high-commercial",
+"keywords": [
+"abm",
+"abmprovg",
+"account",
+"auto",
+"entra",
+"gcc",
+"government",
+"high",
+"id",
+"integration",
+"intune",
+"microsoft",
+"provisioning"
+]
+},
+{
+"slug": "passwordless-fido2-phishing-resistant-mfa",
+"title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/passwordless-fido2-phishing-resistant-mfa-commercial",
+"keywords": [
+"entra",
+"fido2",
+"keys",
+"mfa",
+"passwordless",
+"phishing",
+"resistant",
+"security"
+]
+},
+{
+"slug": "passwordless-fido2-phishing-resistant-mfa-gcc-high",
+"title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys — Government (GCC High)",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/passwordless-fido2-phishing-resistant-mfa-gcc-high-commercial",
+"keywords": [
+"entra",
+"fido2",
+"fido2g",
+"gcc",
+"government",
+"high",
+"keys",
+"mfa",
+"passwordless",
+"phishing",
+"resistant",
+"security"
+]
+},
+{
+"slug": "apps-script-appsheet-work-transformation-governance",
+"title": "Apps Script & AppSheet Work-Transformation Governance",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/apps-script-appsheet-work-transformation-governance-commercial",
+"keywords": [
+"apps",
+"appsheet",
+"google",
+"governance",
+"gwauto",
+"script",
+"transformation",
+"work"
+]
+},
+{
+"slug": "workspace-transformation-arb-governance-framework",
+"title": "Architecture & Design Review Board (ARB) Governance Framework for a Workspace Transformation",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-transformation-arb-governance-framework-commercial",
+"keywords": [
+"arb",
+"architecture",
+"board",
+"design",
+"framework",
+"google",
+"governance",
+"gwarb",
+"review",
+"transformation",
+"workspace"
+]
+},
+{
+"slug": "beyondcorp-enterprise-zero-trust-access",
+"title": "BeyondCorp Enterprise — Zero-Trust Access for Apps & Google Cloud",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/beyondcorp-enterprise-zero-trust-access-commercial",
+"keywords": [
+"access",
+"apps",
+"beyondcorp",
+"cloud",
+"enterprise",
+"gcpbce",
+"google",
+"trust",
+"zero"
+]
+},
+{
+"slug": "bittitan-migrationwiz-m365-to-google-migration-execution",
+"title": "BitTitan MigrationWiz — M365 → Google Migration Execution",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/bittitan-migrationwiz-m365-to-google-migration-execution-commercial",
+"keywords": [
+"bittitan",
+"execution",
+"google",
+"m365",
+"migration",
+"migrationwiz"
+]
+},
+{
+"slug": "cloud-identity-enterprise-idp-saml-app-integration",
+"title": "Cloud Identity as Enterprise IdP — SAML App Integration Factory (SSO at Scale)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloud-identity-enterprise-idp-saml-app-integration-commercial",
+"keywords": [
+"app",
+"cisaml",
+"cloud",
+"enterprise",
+"factory",
+"google",
+"identity",
+"idp",
+"integration",
+"saml",
+"scale",
+"sso"
+]
+},
+{
+"slug": "cloudm-migrate-m365-to-google-migration-execution",
+"title": "CloudM Migrate — M365 → Google Migration Execution",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloudm-migrate-m365-to-google-migration-execution-commercial",
+"keywords": [
+"cloudm",
+"execution",
+"google",
+"m365",
+"migrate",
+"migration"
+]
+},
+{
+"slug": "cmmc-level-2-readiness-assessment-google-workspace",
+"title": "CMMC Level 2 Readiness & Assessment Prep on Google Workspace (NIST SP 800-171)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cmmc-level-2-readiness-assessment-google-workspace-commercial",
+"keywords": [
+"171",
+"800",
+"assessment",
+"cmmc",
+"google",
+"gwcmmc",
+"level",
+"nist",
+"prep",
+"readiness",
+"sp",
+"workspace"
+]
+},
+{
+"slug": "collaboration-ai-platform-consolidation-strategy",
+"title": "Collaboration & AI Platform Consolidation Strategy & Roadmap",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/collaboration-ai-platform-consolidation-strategy-commercial",
+"keywords": [
+"ai",
+"collaboration",
+"consolidation",
+"google",
+"gwconsol",
+"platform",
+"roadmap",
+"strategy"
+]
+},
+{
+"slug": "enterprise-integration-patterns-entra-google-thirdparty",
+"title": "Enterprise Integration Patterns — Entra ID ↔ Google + M365 Coexistence + Third-Party Apps",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-integration-patterns-entra-google-thirdparty-commercial",
+"keywords": [
+"apps",
+"coexistence",
+"enterprise",
+"entra",
+"google",
+"gwinteg",
+"id",
+"integration",
+"m365",
+"party",
+"patterns",
+"third"
+]
+},
+{
+"slug": "entra-id-google-cloud-identity-sso-provisioning",
+"title": "Entra ID ↔ Google Cloud Identity — SSO Federation & Provisioning (GCDS / SCIM)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-google-cloud-identity-sso-provisioning-commercial",
+"keywords": [
+"cloud",
+"entra",
+"federation",
+"gcds",
+"google",
+"gwsso",
+"id",
+"identity",
+"provisioning",
+"scim",
+"sso"
+]
+},
+{
+"slug": "exchange-online-to-gmail-migration",
+"title": "Exchange Online → Gmail Migration (Mail, Calendar, Contacts)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/exchange-online-to-gmail-migration-commercial",
+"keywords": [
+"calendar",
+"contacts",
+"exchange",
+"gmail",
+"google",
+"gwgmail",
+"mail",
+"migration",
+"online"
+]
+},
+{
+"slug": "gemini-connector-strategy-agent-development-framework",
+"title": "Gemini Connector Strategy & Agent Development Framework",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/gemini-connector-strategy-agent-development-framework-commercial",
+"keywords": [
+"agent",
+"connector",
+"development",
+"framework",
+"gemconn",
+"gemini",
+"google",
+"strategy"
+]
+},
+{
+"slug": "gemini-enterprise-secure-adoption-governance",
+"title": "Gemini Enterprise — Secure Adoption, Guardrails & Data-Access Boundaries",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/gemini-enterprise-secure-adoption-governance-commercial",
+"keywords": [
+"access",
+"adoption",
+"boundaries",
+"data",
+"enterprise",
+"gemgov",
+"gemini",
+"google",
+"guardrails",
+"secure"
+]
+},
+{
+"slug": "gemini-enterprise-deployment-rollout-enablement",
+"title": "Gemini Enterprise Deployment & Rollout — Licensing, Enablement & Feature Configuration",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/gemini-enterprise-deployment-rollout-enablement-commercial",
+"keywords": [
+"enablement",
+"enterprise",
+"feature",
+"gemdep",
+"gemini",
+"google",
+"licensing",
+"rollout"
+]
+},
+{
+"slug": "gmail-mail-flow-routing-email-authentication-compliance",
+"title": "Gmail Mail Flow, Routing & Email Authentication (SPF/DKIM/DMARC) & Compliance",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/gmail-mail-flow-routing-email-authentication-compliance-commercial",
+"keywords": [
+"authentication",
+"compliance",
+"dkim",
+"dmarc",
+"email",
+"flow",
+"gmail",
+"google",
+"gwmail",
+"mail",
+"routing",
+"spf"
+]
+},
+{
+"slug": "google-cloud-finops-billing-cost-governance",
+"title": "Google Cloud FinOps — Billing, Budgets & Cost Governance",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-finops-billing-cost-governance-commercial",
+"keywords": [
+"billing",
+"budgets",
+"cloud",
+"cost",
+"finops",
+"gcpfin",
+"google",
+"governance"
+]
+},
+{
+"slug": "google-cloud-iam-least-privilege-governance",
+"title": "Google Cloud IAM & Least-Privilege Governance (Roles, Service Accounts, Workload Identity)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-iam-least-privilege-governance-commercial",
+"keywords": [
+"accounts",
+"cloud",
+"gcpiam",
+"google",
+"governance",
+"iam",
+"identity",
+"least",
+"privilege",
+"roles",
+"service",
+"workload"
+]
+},
+{
+"slug": "google-cloud-network-architecture-vpc-service-controls",
+"title": "Google Cloud Network Architecture & VPC Service Controls (Shared VPC, Private Access, Perimeters)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-network-architecture-vpc-service-controls-commercial",
+"keywords": [
+"access",
+"architecture",
+"cloud",
+"controls",
+"gcpnet",
+"google",
+"network",
+"perimeters",
+"private",
+"service",
+"shared",
+"vpc"
+]
+},
+{
+"slug": "google-cloud-landing-zone-organization-foundation",
+"title": "Google Cloud Platform Landing Zone & Organization Foundation (Enterprise)",
+"category": "Google",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-landing-zone-organization-foundation-commercial",
+"keywords": [
+"cloud",
+"enterprise",
+"foundation",
+"gcplz",
+"google",
+"landing",
+"organization",
+"platform",
+"zone"
+]
+},
+{
+"slug": "google-cloud-security-command-center-posture-threat",
+"title": "Google Cloud Security Command Center — Posture & Threat Management",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-security-command-center-posture-threat-commercial",
+"keywords": [
+"center",
+"cloud",
+"command",
+"gcpscc",
+"google",
+"posture",
+"security",
+"threat"
+]
+},
+{
+"slug": "google-drive-shared-drives-architecture-permissions-governance",
+"title": "Google Drive & Shared Drives Architecture, Permissions & Governance",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-drive-shared-drives-architecture-permissions-governance-commercial",
+"keywords": [
+"architecture",
+"drive",
+"drives",
+"google",
+"governance",
+"gwdrivegov",
+"permissions",
+"shared"
+]
+},
+{
+"slug": "google-groups-management-governance",
+"title": "Google Groups Management & Governance (Types, Lifecycle, Membership & Security)",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/google-groups-management-governance-commercial",
+"keywords": [
+"google",
+"governance",
+"groups",
+"gwgroups",
+"lifecycle",
+"membership",
+"security",
+"types"
+]
+},
+{
+"slug": "google-meet-chat-enterprise-collaboration-design",
+"title": "Google Meet & Chat Enterprise Collaboration Design & Configuration",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/google-meet-chat-enterprise-collaboration-design-commercial",
+"keywords": [
+"chat",
+"collaboration",
+"design",
+"enterprise",
+"google",
+"gwmeetchat",
+"meet"
+]
+},
+{
+"slug": "google-workspace-gemini-target-architecture-blueprint",
+"title": "Google Workspace + Gemini Enterprise Target Architecture Blueprint (Enterprise/150k+)",
+"category": "Google",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-gemini-target-architecture-blueprint-commercial",
+"keywords": [
+"150k",
+"architecture",
+"blueprint",
+"enterprise",
+"gemini",
+"google",
+"gwarch",
+"target",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-admin-sdk-api-automation-reporting-toolkit",
+"title": "Google Workspace Admin SDK & API Automation / Reporting Toolkit",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-admin-sdk-api-automation-reporting-toolkit-commercial",
+"keywords": [
+"admin",
+"api",
+"automation",
+"google",
+"gwadminsdk",
+"reporting",
+"sdk",
+"toolkit",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-adoption-change-management-training",
+"title": "Google Workspace Adoption, Change Management & Training Program (Enterprise)",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-adoption-change-management-training-commercial",
+"keywords": [
+"adoption",
+"change",
+"enterprise",
+"google",
+"gwadopt",
+"program",
+"training",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-day2-administration-ou-operations-runbook",
+"title": "Google Workspace Day-2 Administration & Operations Runbook (OU Design, Policy Governance & Runbooks)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-day2-administration-ou-operations-runbook-commercial",
+"keywords": [
+"administration",
+"day",
+"design",
+"google",
+"governance",
+"gwday2",
+"operations",
+"ou",
+"policy",
+"runbook",
+"runbooks",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-migrate-deployment-large-scale-execution",
+"title": "Google Workspace Migrate — Deployment & Large-Scale Migration Execution",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-migrate-deployment-large-scale-execution-commercial",
+"keywords": [
+"execution",
+"google",
+"gwmigrate",
+"large",
+"migrate",
+"migration",
+"scale",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-security-baseline-dlp-caa",
+"title": "Google Workspace Security Baseline, DLP & Context-Aware Access (CAA)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-security-baseline-dlp-caa-commercial",
+"keywords": [
+"access",
+"aware",
+"baseline",
+"caa",
+"context",
+"dlp",
+"google",
+"gwsec",
+"security",
+"workspace"
+]
+},
+{
+"slug": "gwmme-google-workspace-migration-microsoft-exchange-implementation",
+"title": "GWMME — Google Workspace Migration for Microsoft Exchange — Implementation",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/gwmme-google-workspace-migration-microsoft-exchange-implementation-commercial",
+"keywords": [
+"exchange",
+"google",
+"gwmme",
+"microsoft",
+"migration",
+"workspace"
+]
+},
+{
+"slug": "m365-to-google-workspace-migration-program",
+"title": "Microsoft 365 → Google Workspace Migration Program & Wave Plan (Enterprise/150k+)",
+"category": "Google",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/m365-to-google-workspace-migration-program-commercial",
+"keywords": [
+"150k",
+"365",
+"enterprise",
+"google",
+"gwmigprog",
+"microsoft",
+"migration",
+"plan",
+"program",
+"wave",
+"workspace"
+]
+},
+{
+"slug": "m365-google-workspace-coexistence",
+"title": "Microsoft 365 ↔ Google Workspace Coexistence (Mail Routing, Free/Busy, Directory Sync)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-google-workspace-coexistence-commercial",
+"keywords": [
+"365",
+"busy",
+"coexistence",
+"directory",
+"free",
+"google",
+"gwcoex",
+"mail",
+"microsoft",
+"routing",
+"sync",
+"workspace"
+]
+},
+{
+"slug": "microsoft-365-tenant-decommission-retirement",
+"title": "Microsoft 365 Tenant Decommission & Retirement (Post-Migration)",
+"category": "Google",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-tenant-decommission-retirement-commercial",
+"keywords": [
+"365",
+"decommission",
+"google",
+"m365decom",
+"microsoft",
+"migration",
+"post",
+"retirement",
+"tenant"
+]
+},
+{
+"slug": "teams-to-google-chat-meet-migration",
+"title": "Microsoft Teams → Google Chat & Meet Migration & Coexistence",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/teams-to-google-chat-meet-migration-commercial",
+"keywords": [
+"chat",
+"coexistence",
+"google",
+"gwchat",
+"meet",
+"microsoft",
+"migration",
+"teams"
+]
+},
+{
+"slug": "migration-wave-orchestration-throttling-post-migration-validation",
+"title": "Migration Wave Orchestration, Throttling Management & Post-Migration Validation",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/migration-wave-orchestration-throttling-post-migration-validation-commercial",
+"keywords": [
+"google",
+"gwmigops",
+"migration",
+"orchestration",
+"post",
+"throttling",
+"validation",
+"wave"
+]
+},
+{
+"slug": "oauth-third-party-app-access-governance-workspace",
+"title": "OAuth & Third-Party App Access Governance for Google Workspace",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oauth-third-party-app-access-governance-workspace-commercial",
+"keywords": [
+"access",
+"app",
+"google",
+"governance",
+"gwoauth",
+"oauth",
+"party",
+"third",
+"workspace"
+]
+},
+{
+"slug": "google-workspace-assured-controls-itar-dfars",
+"title": "Regulated Google Workspace — Assured Controls, ITAR & DFARS Compliance",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-workspace-assured-controls-itar-dfars-commercial",
+"keywords": [
+"assured",
+"compliance",
+"controls",
+"dfars",
+"google",
+"gwreg",
+"itar",
+"regulated",
+"workspace"
+]
+},
+{
+"slug": "sharepoint-onedrive-to-google-drive-migration",
+"title": "SharePoint Online & OneDrive → Google Drive / Shared Drives Migration",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-onedrive-to-google-drive-migration-commercial",
+"keywords": [
+"drive",
+"drives",
+"google",
+"gwdrive",
+"migration",
+"onedrive",
+"online",
+"shared",
+"sharepoint"
+]
+},
+{
+"slug": "google-vault-purview-coexistence-ediscovery",
+"title": "Vault ↔ Purview Coexistence — eDiscovery, Legal Hold & Retention",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-vault-purview-coexistence-ediscovery-commercial",
+"keywords": [
+"coexistence",
+"ediscovery",
+"google",
+"gwvault",
+"hold",
+"legal",
+"purview",
+"retention",
+"vault"
+]
+},
+{
+"slug": "workspace-vendor-technical-governance-anti-lock-in",
+"title": "Vendor Technical Governance & Anti-Lock-In Playbook (Google + Systems Integrators)",
+"category": "Google",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-vendor-technical-governance-anti-lock-in-commercial",
+"keywords": [
+"anti",
+"google",
+"governance",
+"gwvend",
+"integrators",
+"lock",
+"playbook",
+"systems",
+"technical",
+"vendor"
+]
+},
+{
+"slug": "clinical-endpoint-logon-profile-optimization",
+"title": "Clinical Endpoint Logon & Profile Performance Optimization (FSLogix)",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/clinical-endpoint-logon-profile-optimization-commercial",
+"keywords": [
+"clinical",
+"clinlogon",
+"endpoint",
+"fslogix",
+"healthcare",
+"logon",
+"optimization",
+"performance",
+"profile"
+]
+},
+{
+"slug": "epic-clinical-workstation-standardization",
+"title": "Epic Clinical Workstation Standardization & Peripheral Configuration with Microsoft Intune",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/epic-clinical-workstation-standardization-commercial",
+"keywords": [
+"clinical",
+"epic",
+"epicws",
+"healthcare",
+"intune",
+"microsoft",
+"peripheral",
+"standardization",
+"workstation"
+]
+},
+{
+"slug": "epic-go-live-command-center-readiness",
+"title": "Epic Go-Live & Command Center Endpoint Readiness Playbook",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/epic-go-live-command-center-readiness-commercial",
+"keywords": [
+"center",
+"command",
+"endpoint",
+"epic",
+"epicgolive",
+"go",
+"healthcare",
+"live",
+"playbook",
+"readiness"
+]
+},
+{
+"slug": "epic-hyperdrive-client-deployment-lifecycle",
+"title": "Epic Hyperdrive & Hyperspace Client Deployment & Lifecycle Management with Microsoft Intune",
+"category": "Healthcare Solutions",
+"price": 3495.0,
+"link": "https://workplace.phoenixtekk.com/epic-hyperdrive-client-deployment-lifecycle-commercial",
+"keywords": [
+"client",
+"epic",
+"epicclient",
+"healthcare",
+"hyperdrive",
+"hyperspace",
+"intune",
+"lifecycle",
+"microsoft"
+]
+},
+{
+"slug": "healthcare-shared-clinical-device-management",
+"title": "Healthcare Shared Clinical Device Management — WOWs, Kiosks & Tablets in Microsoft Intune",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/healthcare-shared-clinical-device-management-commercial",
+"keywords": [
+"clindev",
+"clinical",
+"device",
+"healthcare",
+"intune",
+"kiosks",
+"microsoft",
+"shared",
+"tablets",
+"wows"
+]
+},
+{
+"slug": "hipaa-hitrust-endpoint-compliance-remediation",
+"title": "HIPAA & HITRUST Endpoint Compliance & Vulnerability Remediation (Intune + Defender)",
+"category": "Healthcare Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/hipaa-hitrust-endpoint-compliance-remediation-commercial",
+"keywords": [
+"compliance",
+"defender",
+"endpoint",
+"healthcare",
+"hipaa",
+"hipaacomp",
+"hitrust",
+"intune",
+"remediation",
+"vulnerability"
+]
+},
+{
+"slug": "hipaa-hitrust-endpoint-compliance-remediation-gcc-high",
+"title": "HIPAA & HITRUST Endpoint Compliance & Vulnerability Remediation (Intune + Defender) — Government (GCC High)",
+"category": "Healthcare Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/hipaa-hitrust-endpoint-compliance-remediation-gcc-high-commercial",
+"keywords": [
+"compliance",
+"defender",
+"endpoint",
+"gcc",
+"government",
+"healthcare",
+"high",
+"hipaa",
+"hipaacompg",
+"hitrust",
+"intune",
+"remediation",
+"vulnerability"
+]
+},
+{
+"slug": "imprivata-sso-badge-tap-epcs-clinical-endpoints",
+"title": "Imprivata SSO, Badge-Tap & EPCS Integration for Clinical Endpoints",
+"category": "Healthcare Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/imprivata-sso-badge-tap-epcs-clinical-endpoints-commercial",
+"keywords": [
+"badge",
+"clinical",
+"endpoints",
+"epcs",
+"healthcare",
+"imprivata",
+"integration",
+"sso",
+"tap"
+]
+},
+{
+"slug": "windows-11-healthcare-endpoint-baseline",
+"title": "Windows 11 Healthcare Endpoint Baseline (Intune)",
+"category": "Healthcare Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-11-healthcare-endpoint-baseline-commercial",
+"keywords": [
+"11",
+"baseline",
+"endpoint",
+"healthcare",
+"intune",
+"w11hc",
+"windows"
+]
+},
+{
+"slug": "active-directory-rid-group-provisioning-capacity-assessment",
+"title": "Active Directory RID & Group-Provisioning Capacity Assessment",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/active-directory-rid-group-provisioning-capacity-assessment-commercial",
+"keywords": [
+"active",
+"assessment",
+"capacity",
+"directory",
+"group",
+"infrastructure",
+"provisioning",
+"rid",
+"ridcap"
+]
+},
+{
+"slug": "endpoint-health-experience-monitoring",
+"title": "Endpoint Health & Digital Experience Monitoring",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-health-experience-monitoring-commercial",
+"keywords": [
+"digital",
+"ehem",
+"endpoint",
+"experience",
+"health",
+"infrastructure",
+"monitoring"
+]
+},
+{
+"slug": "endpoint-imaging-inventory-lifecycle",
+"title": "Endpoint Imaging, Inventory & Hardware Lifecycle Management",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-imaging-inventory-lifecycle-commercial",
+"keywords": [
+"endpoint",
+"hardware",
+"imaging",
+"imglife",
+"infrastructure",
+"inventory",
+"lifecycle"
+]
+},
+{
+"slug": "endpoint-powershell-deployment-automation",
+"title": "Endpoint PowerShell Deployment & Patch Automation Toolkit",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-powershell-deployment-automation-commercial",
+"keywords": [
+"automation",
+"endpoint",
+"infrastructure",
+"patch",
+"powershell",
+"psauto",
+"toolkit"
+]
+},
+{
+"slug": "endpoint-reporting-dashboards",
+"title": "Endpoint Reporting & Dashboards for Intune and Configuration Manager",
+"category": "Infrastructure",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-reporting-dashboards-commercial",
+"keywords": [
+"dashboards",
+"endpoint",
+"eprpt",
+"infrastructure",
+"intune",
+"manager",
+"reporting"
+]
+},
+{
+"slug": "enterprise-desktop-support-runbook-intune",
+"title": "Enterprise Desktop Support Runbook Library for Intune-Managed Windows",
+"category": "Infrastructure",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-desktop-support-runbook-intune-commercial",
+"keywords": [
+"desksup",
+"desktop",
+"enterprise",
+"infrastructure",
+"intune",
+"library",
+"managed",
+"runbook",
+"support",
+"windows"
+]
+},
+{
+"slug": "voip-softphone-endpoint-support",
+"title": "Enterprise VOIP / Softphone Endpoint Support & Troubleshooting",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/voip-softphone-endpoint-support-commercial",
+"keywords": [
+"endpoint",
+"enterprise",
+"infrastructure",
+"softphone",
+"support",
+"troubleshooting",
+"voip",
+"voipsup"
+]
+},
+{
+"slug": "macos-enrollment-sso-filevault-troubleshooting",
+"title": "macOS Enrollment, SSO & FileVault Troubleshooting & Diagnostics Toolkit",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-enrollment-sso-filevault-troubleshooting-commercial",
+"keywords": [
+"diagnostics",
+"enrollment",
+"filevault",
+"infrastructure",
+"macdx",
+"macos",
+"sso",
+"toolkit",
+"troubleshooting"
+]
+},
+{
+"slug": "macos-management-runbooks-support-enablement",
+"title": "macOS Management Runbooks & IT-Support Enablement (Intune)",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-management-runbooks-support-enablement-commercial",
+"keywords": [
+"enablement",
+"infrastructure",
+"intune",
+"macos",
+"macrun",
+"runbooks",
+"support"
+]
+},
+{
+"slug": "new-site-endpoint-rollout-playbook",
+"title": "New-Site Endpoint Rollout Playbook",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/new-site-endpoint-rollout-playbook-commercial",
+"keywords": [
+"endpoint",
+"infrastructure",
+"new",
+"newsite",
+"playbook",
+"rollout",
+"site"
+]
+},
+{
+"slug": "sccm-task-sequence-troubleshooting-status-messages",
+"title": "SCCM Task Sequence Troubleshooting & Status Message Analysis",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sccm-task-sequence-troubleshooting-status-messages-commercial",
+"keywords": [
+"analysis",
+"infrastructure",
+"message",
+"sccm",
+"sccmts",
+"sequence",
+"status",
+"task",
+"troubleshooting"
+]
+},
+{
+"slug": "universal-print-deployment-migration",
+"title": "Universal Print Deployment & Print-Server Retirement",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/universal-print-deployment-migration-commercial",
+"keywords": [
+"infrastructure",
+"print",
+"retirement",
+"server",
+"universal",
+"uprt"
+]
+},
+{
+"slug": "universal-print-deployment-migration-gcc-high",
+"title": "Universal Print Deployment & Print-Server Retirement — Government (GCC High)",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/universal-print-deployment-migration-gcc-high-commercial",
+"keywords": [
+"gcc",
+"government",
+"high",
+"infrastructure",
+"print",
+"retirement",
+"server",
+"universal",
+"uprtg"
+]
+},
+{
+"slug": "windows-endpoint-performance-reliability-troubleshooting",
+"title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
+"category": "Infrastructure",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-endpoint-performance-reliability-troubleshooting-commercial",
+"keywords": [
+"boot",
+"crash",
+"disk",
+"endpoint",
+"infrastructure",
+"performance",
+"profile",
+"reliability",
+"troubleshooting",
+"windows",
+"winperf"
+]
+},
+{
+"slug": "application-control-wdac",
+"title": "Application Control (WDAC)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/application-control-wdac-commercial",
+"keywords": [
+"application",
+"control",
+"intune",
+"wdac"
+]
+},
+{
+"slug": "attack-surface-reduction-rules",
+"title": "Attack Surface Reduction (ASR) Rules",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/attack-surface-reduction-rules-commercial",
+"keywords": [
+"asr",
+"attack",
+"intune",
+"reduction",
+"rules",
+"surface"
+]
+},
+{
+"slug": "bitlocker-drive-encryption",
+"title": "BitLocker Drive Encryption",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/bitlocker-drive-encryption-commercial",
+"keywords": [
+"bitlk",
+"bitlocker",
+"drive",
+"encryption",
+"intune"
+]
+},
+{
+"slug": "cloud-first-autopilot-zero-touch-provisioning",
+"title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloud-first-autopilot-zero-touch-provisioning-commercial",
+"keywords": [
+"autopilot",
+"cfap",
+"cloud",
+"domain",
+"entra",
+"first",
+"intune",
+"join",
+"later",
+"optional",
+"provisioning",
+"touch",
+"zero"
+]
+},
+{
+"slug": "cloud-first-autopilot-zero-touch-provisioning-gcc-high",
+"title": "Cloud-First Autopilot Zero-Touch Provisioning (Entra Join, Optional Later Domain Join) — Government (GCC High)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloud-first-autopilot-zero-touch-provisioning-gcc-high-commercial",
+"keywords": [
+"autopilot",
+"cfapg",
+"cloud",
+"domain",
+"entra",
+"first",
+"gcc",
+"government",
+"high",
+"intune",
+"join",
+"later",
+"optional",
+"provisioning",
+"touch",
+"zero"
+]
+},
+{
+"slug": "conditional-access-integration",
+"title": "Conditional Access Integration",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/conditional-access-integration-commercial",
+"keywords": [
+"access",
+"cai",
+"conditional",
+"integration",
+"intune"
+]
+},
+{
+"slug": "conditional-access-integration-gcc-high",
+"title": "Conditional Access Integration — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/conditional-access-integration-gcc-high-commercial",
+"keywords": [
+"access",
+"caig",
+"conditional",
+"gcc",
+"government",
+"high",
+"integration",
+"intune"
+]
+},
+{
+"slug": "sccm-cloud-management-gateway-setup",
+"title": "Configuration Manager Cloud Management Gateway (CMG) Setup & Operations",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sccm-cloud-management-gateway-setup-commercial",
+"keywords": [
+"cloud",
+"cmg",
+"gateway",
+"intune",
+"manager",
+"operations"
+]
+},
+{
+"slug": "cod-and-byod-device-management",
+"title": "Corporate-Owned (COD) & BYOD Device Management",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cod-and-byod-device-management-commercial",
+"keywords": [
+"byod",
+"cod",
+"codbyod",
+"corporate",
+"device",
+"intune",
+"owned"
+]
+},
+{
+"slug": "deploy-third-party-pfx-certificate-mobile-intune",
+"title": "Deploy a Third-Party PFX Certificate to Mobile Devices for App Use with Microsoft Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/deploy-third-party-pfx-certificate-mobile-intune-commercial",
+"keywords": [
+"app",
+"certificate",
+"devices",
+"intune",
+"microsoft",
+"mobile",
+"party",
+"pfx",
+"pfxmob",
+"third"
+]
+},
+{
+"slug": "device-compliance-policies",
+"title": "Device Compliance Policies",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/device-compliance-policies-commercial",
+"keywords": [
+"compliance",
+"dcp",
+"device",
+"intune",
+"policies"
+]
+},
+{
+"slug": "device-compliance-policies-gcc-high",
+"title": "Device Compliance Policies — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/device-compliance-policies-gcc-high-commercial",
+"keywords": [
+"compliance",
+"dcpg",
+"device",
+"gcc",
+"government",
+"high",
+"intune",
+"policies"
+]
+},
+{
+"slug": "device-enrollment-identity-asset-inventory",
+"title": "Device Enrollment, Identity Association & Asset Inventory (Intune)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/device-enrollment-identity-asset-inventory-commercial",
+"keywords": [
+"asset",
+"association",
+"device",
+"enrollid",
+"enrollment",
+"identity",
+"intune",
+"inventory"
+]
+},
+{
+"slug": "disa-stig-compliance-windows-10-11-intune",
+"title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/disa-stig-compliance-windows-10-11-intune-commercial",
+"keywords": [
+"10",
+"11",
+"compliance",
+"disa",
+"intune",
+"microsoft",
+"stig",
+"windows"
+]
+},
+{
+"slug": "disa-stig-compliance-windows-10-11-intune-gcc-high",
+"title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune — Government (GCC High)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/disa-stig-compliance-windows-10-11-intune-gcc-high-commercial",
+"keywords": [
+"10",
+"11",
+"compliance",
+"disa",
+"gcc",
+"government",
+"high",
+"intune",
+"microsoft",
+"stig",
+"stigg",
+"windows"
+]
+},
+{
+"slug": "cod-byod-dual-device-sso",
+"title": "Dual-Device (Personal + Corporate) Management with Single Sign-On in Microsoft Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cod-byod-dual-device-sso-commercial",
+"keywords": [
+"corporate",
+"device",
+"dual",
+"dualdev",
+"intune",
+"microsoft",
+"personal",
+"sign",
+"single"
+]
+},
+{
+"slug": "cod-byod-iphone-dual-device-sso",
+"title": "Dual-Device iPhone (Personal + Corporate iOS) Management with Single Sign-On in Microsoft Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cod-byod-iphone-dual-device-sso-commercial",
+"keywords": [
+"corporate",
+"device",
+"dual",
+"intune",
+"ios",
+"iosdd",
+"iphone",
+"microsoft",
+"personal",
+"sign",
+"single"
+]
+},
+{
+"slug": "intune-dynamic-device-targeting-groups-filters",
+"title": "Dynamic Device Targeting in Intune — Dynamic Groups & Filters",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-dynamic-device-targeting-groups-filters-commercial",
+"keywords": [
+"device",
+"dynamic",
+"dyntgt",
+"filters",
+"groups",
+"intune",
+"targeting"
+]
+},
+{
+"slug": "enable-microsoft-intune-quickstart",
+"title": "Enable Microsoft Intune — Quick-Start (New or Existing Tenant)",
+"category": "Intune",
+"price": 0.0,
+"link": "https://workplace.phoenixtekk.com/enable-microsoft-intune-quickstart-commercial",
+"keywords": [
+"existing",
+"intune",
+"itstart",
+"microsoft",
+"new",
+"quick",
+"start",
+"tenant"
+]
+},
+{
+"slug": "endpoint-privilege-management",
+"title": "Endpoint Privilege Management (EPM)",
+"category": "Intune",
+"price": 1495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-privilege-management-commercial",
+"keywords": [
+"endpoint",
+"epm",
+"intune",
+"privilege"
+]
+},
+{
+"slug": "endpoint-security-baselines",
+"title": "Endpoint Security Baselines",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-security-baselines-commercial",
+"keywords": [
+"baselines",
+"endpoint",
+"esb",
+"intune",
+"security"
+]
+},
+{
+"slug": "macos-filevault-encryption-key-escrow-intune",
+"title": "FileVault Full-Disk Encryption & Key Escrow/Recovery for macOS (Intune)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-filevault-encryption-key-escrow-intune-commercial",
+"keywords": [
+"disk",
+"encryption",
+"escrow",
+"filevault",
+"full",
+"intune",
+"key",
+"macfv",
+"macos",
+"recovery"
+]
+},
+{
+"slug": "cis-benchmarks-macos-intune",
+"title": "Implement & Manage CIS Benchmarks for macOS Devices for Microsoft Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cis-benchmarks-macos-intune-commercial",
+"keywords": [
+"benchmarks",
+"cis",
+"cismac",
+"devices",
+"intune",
+"macos",
+"microsoft"
+]
+},
+{
+"slug": "cis-benchmarks-windows-11-intune",
+"title": "Implement & Manage CIS Benchmarks for Windows 11 Devices for Microsoft Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cis-benchmarks-windows-11-intune-commercial",
+"keywords": [
+"11",
+"benchmarks",
+"cis",
+"cis11",
+"devices",
+"intune",
+"microsoft",
+"windows"
+]
+},
+{
+"slug": "ios-lock-down-profile-shared-devices-intune",
+"title": "Implement iOS Lock Down Profile for iOS iPhones in Microsoft Intune for Shared Devices",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ios-lock-down-profile-shared-devices-intune-commercial",
+"keywords": [
+"devices",
+"down",
+"intune",
+"ios",
+"iosld",
+"iphones",
+"lock",
+"microsoft",
+"profile",
+"shared"
+]
+},
+{
+"slug": "intune-rbac-multi-admin-governance",
+"title": "Intune Administrative Governance — RBAC & Multi-Admin Approval",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-rbac-multi-admin-governance-commercial",
+"keywords": [
+"admin",
+"administrative",
+"approval",
+"governance",
+"intune",
+"multi",
+"rbac",
+"rbacgov"
+]
+},
+{
+"slug": "intune-rbac-multi-admin-governance-gcc-high",
+"title": "Intune Administrative Governance — RBAC & Multi-Admin Approval — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-rbac-multi-admin-governance-gcc-high-commercial",
+"keywords": [
+"admin",
+"administrative",
+"approval",
+"gcc",
+"governance",
+"government",
+"high",
+"intune",
+"multi",
+"rbac",
+"rbacgovg"
+]
+},
+{
+"slug": "intune-app-deployment-troubleshooting",
+"title": "Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-app-deployment-troubleshooting-commercial",
+"keywords": [
+"app",
+"failure",
+"intappdx",
+"intune",
+"lob",
+"remediation",
+"store",
+"troubleshooting",
+"win32"
+]
+},
+{
+"slug": "intune-compliance-failure-diagnostics",
+"title": "Intune Compliance-Failure Diagnostics & Remediation",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-compliance-failure-diagnostics-commercial",
+"keywords": [
+"compliance",
+"diagnostics",
+"failure",
+"intcompdx",
+"intune",
+"remediation"
+]
+},
+{
+"slug": "intune-compliance-failure-diagnostics-gcc-high",
+"title": "Intune Compliance-Failure Diagnostics & Remediation — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-compliance-failure-diagnostics-gcc-high-commercial",
+"keywords": [
+"compliance",
+"diagnostics",
+"failure",
+"gcc",
+"government",
+"high",
+"intcompdxg",
+"intune",
+"remediation"
+]
+},
+{
+"slug": "intune-custom-compliance-configuration-items",
+"title": "Intune Custom Compliance & Configuration Items (Scripted)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-custom-compliance-configuration-items-commercial",
+"keywords": [
+"compliance",
+"custcomp",
+"custom",
+"intune",
+"items",
+"scripted"
+]
+},
+{
+"slug": "intune-custom-compliance-configuration-items-gcc-high",
+"title": "Intune Custom Compliance & Configuration Items (Scripted) — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-custom-compliance-configuration-items-gcc-high-commercial",
+"keywords": [
+"compliance",
+"custcompg",
+"custom",
+"gcc",
+"government",
+"high",
+"intune",
+"items",
+"scripted"
+]
+},
+{
+"slug": "intune-configuration-policy-troubleshooting",
+"title": "Intune Device Configuration & Policy Troubleshooting Toolkit",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-configuration-policy-troubleshooting-commercial",
+"keywords": [
+"device",
+"intcfg",
+"intune",
+"policy",
+"toolkit",
+"troubleshooting"
+]
+},
+{
+"slug": "intune-enrollment-time-device-grouping-troubleshooting",
+"title": "Intune Enrollment-Time Device Grouping — Prerequisites, Setup & Troubleshooting (Autopilot Device Preparation + Apple ADE)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-enrollment-time-device-grouping-troubleshooting-commercial",
+"keywords": [
+"ade",
+"apple",
+"autopilot",
+"device",
+"enrollment",
+"etdg",
+"grouping",
+"intune",
+"preparation",
+"prerequisites",
+"time",
+"troubleshooting"
+]
+},
+{
+"slug": "intune-win32-app-packaging-deployment",
+"title": "Intune Win32 Application Packaging & Deployment",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-win32-app-packaging-deployment-commercial",
+"keywords": [
+"application",
+"intune",
+"packaging",
+"win32"
+]
+},
+{
+"slug": "ios-iphone-shared-device-mode",
+"title": "iOS iPhone Shared Device Mode (Lockdown) with WebEx Calling in Microsoft Intune",
+"category": "Intune",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/ios-iphone-shared-device-mode-commercial",
+"keywords": [
+"calling",
+"device",
+"intune",
+"ios",
+"iossdm",
+"iphone",
+"lockdown",
+"microsoft",
+"mode",
+"shared",
+"webex"
+]
+},
+{
+"slug": "macos-app-deployment-vpp-intune",
+"title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-app-deployment-vpp-intune-commercial",
+"keywords": [
+"app",
+"apple",
+"apps",
+"enterprise",
+"intune",
+"macos",
+"macvpp",
+"microsoft",
+"store",
+"vpp"
+]
+},
+{
+"slug": "macos-ade-with-sso",
+"title": "macOS Automated Device Enrollment with SSO",
+"category": "Intune",
+"price": 1695.0,
+"link": "https://workplace.phoenixtekk.com/macos-ade-with-sso-commercial",
+"keywords": [
+"ademac",
+"automated",
+"device",
+"enrollment",
+"intune",
+"macos",
+"sso"
+]
+},
+{
+"slug": "macos-ade-with-sso-jamf-pro",
+"title": "macOS Automated Device Enrollment with SSO (Jamf Pro + Intune)",
+"category": "Intune",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/macos-ade-with-sso-jamf-pro-commercial",
+"keywords": [
+"automated",
+"device",
+"enrollment",
+"intune",
+"jamf",
+"jamfade",
+"macos",
+"pro",
+"sso"
+]
+},
+{
+"slug": "macos-byod-user-enrollment-conditional-access",
+"title": "macOS BYOD Management — Account-Driven User Enrollment, App Protection & Conditional Access",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/macos-byod-user-enrollment-conditional-access-commercial",
+"keywords": [
+"access",
+"account",
+"app",
+"byod",
+"conditional",
+"driven",
+"enrollment",
+"intune",
+"macbyod",
+"macos",
+"protection",
+"user"
+]
+},
+{
+"slug": "macos-compliance-conditional-access-zero-trust",
+"title": "macOS Compliance & Conditional Access for Zero-Trust Access",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-compliance-conditional-access-zero-trust-commercial",
+"keywords": [
+"access",
+"compliance",
+"conditional",
+"intune",
+"macca",
+"macos",
+"trust",
+"zero"
+]
+},
+{
+"slug": "macos-endpoint-management-baseline-intune",
+"title": "macOS Endpoint Management Baseline in Microsoft Intune",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/macos-endpoint-management-baseline-intune-commercial",
+"keywords": [
+"baseline",
+"endpoint",
+"intune",
+"macbase",
+"macos",
+"microsoft"
+]
+},
+{
+"slug": "macos-enterprise-sso-app-extension-intune",
+"title": "macOS Enterprise SSO App Extension (Extensible SSO for Apps & Browsers) via Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-enterprise-sso-app-extension-intune-commercial",
+"keywords": [
+"app",
+"apps",
+"browsers",
+"enterprise",
+"extensible",
+"extension",
+"intune",
+"macos",
+"macssoext",
+"sso"
+]
+},
+{
+"slug": "defender-for-endpoint-macos-onboarding-intune",
+"title": "Microsoft Defender for Endpoint for macOS — Deployment & Onboarding via Intune",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/defender-for-endpoint-macos-onboarding-intune-commercial",
+"keywords": [
+"defender",
+"endpoint",
+"intune",
+"macmde",
+"macos",
+"microsoft",
+"onboarding"
+]
+},
+{
+"slug": "defender-for-endpoint-integration",
+"title": "Microsoft Defender for Endpoint Integration",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/defender-for-endpoint-integration-commercial",
+"keywords": [
+"defender",
+"endpoint",
+"integration",
+"intune",
+"mde",
+"microsoft"
+]
+},
+{
+"slug": "defender-for-endpoint-integration-gcc-high",
+"title": "Microsoft Defender for Endpoint Integration — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/defender-for-endpoint-integration-gcc-high-commercial",
+"keywords": [
+"defender",
+"endpoint",
+"gcc",
+"government",
+"high",
+"integration",
+"intune",
+"mdeg",
+"microsoft"
+]
+},
+{
+"slug": "microsoft-tunnel-for-mam-intranet-access",
+"title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-tunnel-for-mam-intranet-access-commercial",
+"keywords": [
+"access",
+"intranet",
+"intune",
+"mam",
+"microsoft",
+"mobile",
+"resources",
+"tunmam",
+"tunnel"
+]
+},
+{
+"slug": "microsoft-tunnel-for-mam-intranet-access-gcc-high",
+"title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources — Government (GCC High)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-tunnel-for-mam-intranet-access-gcc-high-commercial",
+"keywords": [
+"access",
+"gcc",
+"government",
+"high",
+"intranet",
+"intune",
+"mam",
+"microsoft",
+"mobile",
+"resources",
+"tunmamg",
+"tunnel"
+]
+},
+{
+"slug": "mam-app-protection-policies-byod-m365",
+"title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/mam-app-protection-policies-byod-m365-commercial",
+"keywords": [
+"365",
+"app",
+"application",
+"apps",
+"byod",
+"intune",
+"mam",
+"mamapp",
+"microsoft",
+"mobile",
+"policies",
+"protection"
+]
+},
+{
+"slug": "mam-app-protection-policies-byod-m365-gcc-high",
+"title": "Mobile Application Management (MAM) App Protection Policies for BYOD (Microsoft 365 Apps) — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/mam-app-protection-policies-byod-m365-gcc-high-commercial",
+"keywords": [
+"365",
+"app",
+"application",
+"apps",
+"byod",
+"gcc",
+"government",
+"high",
+"intune",
+"mam",
+"mamappg",
+"microsoft",
+"mobile",
+"policies",
+"protection"
+]
+},
+{
+"slug": "onedrive-for-business",
+"title": "OneDrive for Business",
+"category": "Intune",
+"price": 1495.0,
+"link": "https://workplace.phoenixtekk.com/onedrive-for-business-commercial",
+"keywords": [
+"business",
+"intune",
+"odfb",
+"onedrive"
+]
+},
+{
+"slug": "peripheral-driver-device-control-intune",
+"title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/peripheral-driver-device-control-intune-commercial",
+"keywords": [
+"control",
+"desktops",
+"device",
+"driver",
+"enterprise",
+"intune",
+"peridev",
+"peripheral"
+]
+},
+{
+"slug": "remote-help",
+"title": "Remote Help",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/remote-help-commercial",
+"keywords": [
+"help",
+"intune",
+"remote",
+"rhelp"
+]
+},
+{
+"slug": "secure-mobile-access-sharepoint-online-mam",
+"title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/secure-mobile-access-sharepoint-online-mam-commercial",
+"keywords": [
+"access",
+"app",
+"conditional",
+"intune",
+"mam",
+"mobile",
+"online",
+"protection",
+"secure",
+"sharepoint",
+"spmam",
+"under"
+]
+},
+{
+"slug": "secure-mobile-access-sharepoint-online-mam-gcc-high",
+"title": "Secure Mobile Access to SharePoint Online under MAM (App Protection + Conditional Access) — Government (GCC High)",
+"category": "Intune",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/secure-mobile-access-sharepoint-online-mam-gcc-high-commercial",
+"keywords": [
+"access",
+"app",
+"conditional",
+"gcc",
+"government",
+"high",
+"intune",
+"mam",
+"mobile",
+"online",
+"protection",
+"secure",
+"sharepoint",
+"spmamg",
+"under"
+]
+},
+{
+"slug": "third-party-app-patching-intune",
+"title": "Third-Party Application Patching with Intune",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/third-party-app-patching-intune-commercial",
+"keywords": [
+"application",
+"intune",
+"party",
+"patching",
+"third",
+"tpp"
+]
+},
+{
+"slug": "windows-autopilot",
+"title": "Windows Autopilot",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-autopilot-commercial",
+"keywords": [
+"autopilot",
+"intune",
+"wap",
+"windows"
+]
+},
+{
+"slug": "windows-autopilot-gcc-high",
+"title": "Windows Autopilot — Government (GCC High)",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-autopilot-gcc-high-commercial",
+"keywords": [
+"autopilot",
+"gcc",
+"government",
+"high",
+"intune",
+"wapg",
+"windows"
+]
+},
+{
+"slug": "windows-firewall-management",
+"title": "Windows Firewall Management",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-firewall-management-commercial",
+"keywords": [
+"firewall",
+"intune",
+"wfm",
+"windows"
+]
+},
+{
+"slug": "windows-hello-for-business",
+"title": "Windows Hello for Business",
+"category": "Intune",
+"price": 1495.0,
+"link": "https://workplace.phoenixtekk.com/windows-hello-for-business-commercial",
+"keywords": [
+"business",
+"hello",
+"intune",
+"whfb",
+"windows"
+]
+},
+{
+"slug": "windows-updates-for-business",
+"title": "Windows Updates for Business",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-updates-for-business-commercial",
+"keywords": [
+"business",
+"intune",
+"updates",
+"windows",
+"wufb"
+]
+},
+{
+"slug": "wsus-to-wufb-patch-modernization",
+"title": "WSUS to Windows Update for Business Patch Modernization",
+"category": "Intune",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/wsus-to-wufb-patch-modernization-commercial",
+"keywords": [
+"business",
+"intune",
+"modernization",
+"patch",
+"update",
+"windows",
+"wsus",
+"wsusm"
+]
+},
+{
+"slug": "m365-azure-incident-response-runbook",
+"title": "M365 & Azure Incident Response & Escalation Runbook",
+"category": "Managed",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/m365-azure-incident-response-runbook-commercial",
+"keywords": [
+"azure",
+"escalation",
+"incident",
+"m365",
+"managed",
+"response",
+"runbook"
+]
+},
+{
+"slug": "m365-azure-incident-response-runbook-gcc-high",
+"title": "M365 & Azure Incident Response & Escalation Runbook — Government (GCC High)",
+"category": "Managed",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/m365-azure-incident-response-runbook-gcc-high-commercial",
+"keywords": [
+"azure",
+"escalation",
+"gcc",
+"government",
+"high",
+"incident",
+"incidentg",
+"m365",
+"managed",
+"response",
+"runbook"
+]
+},
+{
+"slug": "msp-tool-stack-psa-rmm-patch",
+"title": "MSP Tool Stack Design & Standup — PSA, RMM & Patch Management",
+"category": "Managed",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/msp-tool-stack-psa-rmm-patch-commercial",
+"keywords": [
+"design",
+"managed",
+"msp",
+"mspstack",
+"patch",
+"psa",
+"rmm",
+"stack",
+"standup",
+"tool"
+]
+},
+{
+"slug": "rmm-monitoring-alert-tuning",
+"title": "RMM Monitoring & Alert Tuning — Noise Reduction & Actionable Alerting",
+"category": "Managed",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/rmm-monitoring-alert-tuning-commercial",
+"keywords": [
+"actionable",
+"alert",
+"alerting",
+"managed",
+"monitoring",
+"noise",
+"reduction",
+"rmm",
+"rmmtune",
+"tuning"
+]
+},
+{
+"slug": "adfs-federation-microsoft-365-deployment-migration-cloud-auth",
+"title": "ADFS Federation for Microsoft 365 — Deployment, Troubleshooting & Migration to Cloud Auth",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/adfs-federation-microsoft-365-deployment-migration-cloud-auth-commercial",
+"keywords": [
+"365",
+"adfs",
+"adfsm365",
+"auth",
+"cloud",
+"federation",
+"messaging",
+"microsoft",
+"migration",
+"troubleshooting"
+]
+},
+{
+"slug": "exchange-edge-transport-server-deployment-hardening",
+"title": "Exchange Edge Transport Server Deployment & Hardening (Hybrid)",
+"category": "Messaging",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/exchange-edge-transport-server-deployment-hardening-commercial",
+"keywords": [
+"edge",
+"exchange",
+"exoedge",
+"hardening",
+"hybrid",
+"messaging",
+"server",
+"transport"
+]
+},
+{
+"slug": "exchange-online-hybrid-mail-flow-connectors-routing",
+"title": "Exchange Online & Hybrid Mail Flow — Architecture, Connectors & Routing",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/exchange-online-hybrid-mail-flow-connectors-routing-commercial",
+"keywords": [
+"architecture",
+"connectors",
+"exchange",
+"exomail",
+"flow",
+"hybrid",
+"mail",
+"messaging",
+"online",
+"routing"
+]
+},
+{
+"slug": "exchange-online-archiving-messaging-retention",
+"title": "Exchange Online Archiving & Messaging Retention (Archive Mailboxes, EOA & Holds)",
+"category": "Messaging",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/exchange-online-archiving-messaging-retention-commercial",
+"keywords": [
+"archive",
+"archiving",
+"eoa",
+"exchange",
+"exoarch",
+"holds",
+"mailboxes",
+"messaging",
+"online",
+"retention"
+]
+},
+{
+"slug": "m365-email-authentication-spf-dkim-dmarc",
+"title": "Microsoft 365 Email Authentication — SPF, DKIM & DMARC",
+"category": "Messaging",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/m365-email-authentication-spf-dkim-dmarc-commercial",
+"keywords": [
+"365",
+"authentication",
+"dkim",
+"dmarc",
+"email",
+"m365auth",
+"messaging",
+"microsoft",
+"spf"
+]
+},
+{
+"slug": "m365-mail-hygiene-anti-spam-eop-defender-office365",
+"title": "Microsoft 365 Mail Hygiene & Anti-Spam — EOP / Defender for Office 365",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-mail-hygiene-anti-spam-eop-defender-office365-commercial",
+"keywords": [
+"365",
+"anti",
+"defender",
+"eop",
+"eophyg",
+"hygiene",
+"mail",
+"messaging",
+"microsoft",
+"office",
+"spam"
+]
+},
+{
+"slug": "m365-messaging-support-operations-itil-incident-problem-runbook",
+"title": "Microsoft 365 Messaging Support Operations — ITIL Incident & Problem Management Runbook",
+"category": "Messaging",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-messaging-support-operations-itil-incident-problem-runbook-commercial",
+"keywords": [
+"365",
+"incident",
+"itil",
+"messaging",
+"microsoft",
+"msgops",
+"operations",
+"problem",
+"runbook",
+"support"
+]
+},
+{
+"slug": "outlook-owa-exchange-client-connectivity-troubleshooting",
+"title": "Outlook / OWA / Exchange Client Connectivity Troubleshooting Toolkit",
+"category": "Messaging",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/outlook-owa-exchange-client-connectivity-troubleshooting-commercial",
+"keywords": [
+"client",
+"connectivity",
+"exchange",
+"messaging",
+"outlook",
+"outlookdx",
+"owa",
+"toolkit",
+"troubleshooting"
+]
+},
+{
+"slug": "applocker-to-wdac-app-control-migration",
+"title": "AppLocker to WDAC (App Control for Business) Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/applocker-to-wdac-app-control-migration-commercial",
+"keywords": [
+"app",
+"applocker",
+"business",
+"control",
+"migration",
+"migrations",
+"wdac",
+"wdacmig"
+]
+},
+{
+"slug": "commercial-to-gcc-high-migration-program",
+"title": "Commercial-to-GCC High Microsoft 365 & Azure Migration Program (Exchange, SharePoint, Teams, AVD)",
+"category": "Migrations",
+"price": 5995.0,
+"link": "https://workplace.phoenixtekk.com/commercial-to-gcc-high-migration-program-commercial",
+"keywords": [
+"365",
+"avd",
+"azure",
+"commercial",
+"exchange",
+"gcc",
+"gcchigh",
+"high",
+"microsoft",
+"migration",
+"migrations",
+"program",
+"sharepoint",
+"teams"
+]
+},
+{
+"slug": "sccm-intune-co-management-enablement",
+"title": "Configuration Manager and Intune Co-Management Enablement",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sccm-intune-co-management-enablement-commercial",
+"keywords": [
+"co",
+"comgmt",
+"enablement",
+"intune",
+"manager",
+"migrations"
+]
+},
+{
+"slug": "gpo-rationalization-cleanup-group-policy-analytics",
+"title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+"category": "Migrations",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/gpo-rationalization-cleanup-group-policy-analytics-commercial",
+"keywords": [
+"analytics",
+"cleanup",
+"gpo",
+"gporat",
+"group",
+"migrations",
+"policy",
+"rationalization"
+]
+},
+{
+"slug": "group-policy-to-intune-settings-migration",
+"title": "Group Policy to Intune Settings Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/group-policy-to-intune-settings-migration-commercial",
+"keywords": [
+"gpom",
+"group",
+"intune",
+"migration",
+"migrations",
+"policy",
+"settings"
+]
+},
+{
+"slug": "mdm-migration-readiness-assessment-wave-planning",
+"title": "MDM Migration Readiness Assessment & Wave Planning",
+"category": "Migrations",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/mdm-migration-readiness-assessment-wave-planning-commercial",
+"keywords": [
+"assessment",
+"mdm",
+"mdmrdy",
+"migration",
+"migrations",
+"planning",
+"readiness",
+"wave"
+]
+},
+{
+"slug": "m365-exchange-tenant-to-tenant-migration",
+"title": "Microsoft 365 Exchange Online Tenant-to-Tenant Migration (1:1 Domains)",
+"category": "Migrations",
+"price": 3495.0,
+"link": "https://workplace.phoenixtekk.com/m365-exchange-tenant-to-tenant-migration-commercial",
+"keywords": [
+"365",
+"domains",
+"exchange",
+"exomig",
+"microsoft",
+"migration",
+"migrations",
+"online",
+"tenant"
+]
+},
+{
+"slug": "m365-exchange-tenant-to-tenant-migration-gcc-high",
+"title": "Microsoft 365 Exchange Online Tenant-to-Tenant Migration (1:1 Domains) — Government (GCC High)",
+"category": "Migrations",
+"price": 3495.0,
+"link": "https://workplace.phoenixtekk.com/m365-exchange-tenant-to-tenant-migration-gcc-high-commercial",
+"keywords": [
+"365",
+"domains",
+"exchange",
+"exomigg",
+"gcc",
+"government",
+"high",
+"microsoft",
+"migration",
+"migrations",
+"online",
+"tenant"
+]
+},
+{
+"slug": "cisco-vpn-client-sccm-gpo-to-intune-migration",
+"title": "Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune",
+"category": "Migrations",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cisco-vpn-client-sccm-gpo-to-intune-migration-commercial",
+"keywords": [
+"cisco",
+"client",
+"cvpnmig",
+"from",
+"gpo",
+"intune",
+"migrating",
+"migrations",
+"sccm",
+"vpn"
+]
+},
+{
+"slug": "phased-gpo-to-intune-transition-program",
+"title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/phased-gpo-to-intune-transition-program-commercial",
+"keywords": [
+"gpo",
+"gpoprog",
+"intune",
+"migrations",
+"phased",
+"program",
+"roadmap",
+"sequencing",
+"transition"
+]
+},
+{
+"slug": "sccm-application-migration-to-intune-win32",
+"title": "SCCM Application Migration to Intune Win32 (Repackaging)",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sccm-application-migration-to-intune-win32-commercial",
+"keywords": [
+"application",
+"intune",
+"migration",
+"migrations",
+"repackaging",
+"sccm",
+"sccmapp",
+"win32"
+]
+},
+{
+"slug": "windows-firewall-gpo-to-intune-migration",
+"title": "Windows Firewall GPO to Intune Migration",
+"category": "Migrations",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/windows-firewall-gpo-to-intune-migration-commercial",
+"keywords": [
+"firewall",
+"fwmig",
+"gpo",
+"intune",
+"migration",
+"migrations",
+"windows"
+]
+},
+{
+"slug": "workspace-one-to-intune-android-device-migration",
+"title": "Workspace ONE to Intune — Android Enterprise Device Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-android-device-migration-commercial",
+"keywords": [
+"android",
+"device",
+"enterprise",
+"intune",
+"migration",
+"migrations",
+"one",
+"workspace",
+"ws1droid"
+]
+},
+{
+"slug": "workspace-one-to-intune-ios-device-migration",
+"title": "Workspace ONE to Intune — iOS/iPadOS Device Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-ios-device-migration-commercial",
+"keywords": [
+"device",
+"intune",
+"ios",
+"ipados",
+"migration",
+"migrations",
+"one",
+"workspace",
+"ws1ios"
+]
+},
+{
+"slug": "workspace-one-to-intune-macos-device-migration",
+"title": "Workspace ONE to Intune — macOS Device Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-macos-device-migration-commercial",
+"keywords": [
+"device",
+"intune",
+"macos",
+"migration",
+"migrations",
+"one",
+"workspace",
+"ws1mac"
+]
+},
+{
+"slug": "workspace-one-to-intune-policy-compliance-translation",
+"title": "Workspace ONE to Intune — Policy & Compliance Translation",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-policy-compliance-translation-commercial",
+"keywords": [
+"compliance",
+"intune",
+"migrations",
+"one",
+"policy",
+"translation",
+"workspace",
+"ws1pol"
+]
+},
+{
+"slug": "workspace-one-to-intune-windows-device-migration",
+"title": "Workspace ONE to Intune — Windows Device Migration",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-windows-device-migration-commercial",
+"keywords": [
+"device",
+"intune",
+"migration",
+"migrations",
+"one",
+"windows",
+"workspace",
+"ws1win"
+]
+},
+{
+"slug": "workspace-one-to-intune-application-rebuild",
+"title": "Workspace ONE to Intune Application Rebuild & Repackaging",
+"category": "Migrations",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-application-rebuild-commercial",
+"keywords": [
+"application",
+"intune",
+"migrations",
+"one",
+"rebuild",
+"repackaging",
+"workspace",
+"ws1app"
+]
+},
+{
+"slug": "workspace-one-to-intune-coexistence-cutover-runbook",
+"title": "Workspace ONE to Intune Coexistence & Cutover Runbook",
+"category": "Migrations",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-coexistence-cutover-runbook-commercial",
+"keywords": [
+"coexistence",
+"cutover",
+"intune",
+"migrations",
+"one",
+"runbook",
+"workspace",
+"ws1coex"
+]
+},
+{
+"slug": "workspace-one-to-intune-migration-program",
+"title": "Workspace ONE to Microsoft Intune Migration Program",
+"category": "Migrations",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/workspace-one-to-intune-migration-program-commercial",
+"keywords": [
+"intune",
+"microsoft",
+"migration",
+"migrations",
+"one",
+"program",
+"workspace",
+"ws1prog"
+]
+},
+{
+"slug": "casb-cloud-app-control-netskope",
+"title": "CASB & Cloud App Control with Netskope",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/casb-cloud-app-control-netskope-commercial",
+"keywords": [
+"app",
+"casb",
+"cloud",
+"control",
+"netskope",
+"network",
+"nscasb"
+]
+},
+{
+"slug": "cisco-ise-8021x-certificate-wifi-wired-intune",
+"title": "Cisco ISE 802.1X Certificate Authentication for Wi-Fi & Wired via Intune",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cisco-ise-8021x-certificate-wifi-wired-intune-commercial",
+"keywords": [
+"1x",
+"802",
+"authentication",
+"certificate",
+"cisco",
+"fi",
+"intune",
+"ise",
+"ise8021x",
+"network",
+"wi",
+"wired"
+]
+},
+{
+"slug": "cisco-ise-intune-compliance-posture-integration",
+"title": "Cisco ISE Device Compliance & Posture Integration with Intune (MDM Compliance Connector)",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cisco-ise-intune-compliance-posture-integration-commercial",
+"keywords": [
+"cisco",
+"compliance",
+"connector",
+"device",
+"integration",
+"intune",
+"ise",
+"isepost",
+"mdm",
+"network",
+"posture"
+]
+},
+{
+"slug": "cisco-ise-vpn-intune-diagnostics-toolkit",
+"title": "Cisco ISE VPN + Intune Troubleshooting & Diagnostics Toolkit",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cisco-ise-vpn-intune-diagnostics-toolkit-commercial",
+"keywords": [
+"cisco",
+"cisediag",
+"diagnostics",
+"intune",
+"ise",
+"network",
+"toolkit",
+"troubleshooting",
+"vpn"
+]
+},
+{
+"slug": "cisco-secure-client-vpn-deployment-intune",
+"title": "Cisco Secure Client (AnyConnect) VPN Deployment via Microsoft Intune",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cisco-secure-client-vpn-deployment-intune-commercial",
+"keywords": [
+"anyconnect",
+"cisco",
+"client",
+"cscvpn",
+"intune",
+"microsoft",
+"network",
+"secure",
+"vpn"
+]
+},
+{
+"slug": "cisco-per-app-vpn-mobile-intune",
+"title": "Cisco Secure Client Per-App VPN for Managed Mobile Devices (iOS/Android) via Intune",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cisco-per-app-vpn-mobile-intune-commercial",
+"keywords": [
+"android",
+"app",
+"cisco",
+"client",
+"cpavpn",
+"devices",
+"intune",
+"ios",
+"managed",
+"mobile",
+"network",
+"secure",
+"vpn"
+]
+},
+{
+"slug": "endpoint-network-connectivity-troubleshooting",
+"title": "Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering)",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-network-connectivity-troubleshooting-commercial",
+"keywords": [
+"connectivity",
+"dns",
+"endpoint",
+"filtering",
+"ip",
+"netdx",
+"network",
+"port",
+"proxy",
+"toolkit",
+"troubleshooting",
+"url",
+"vpn"
+]
+},
+{
+"slug": "forcepoint-neo-to-netskope-migration",
+"title": "Forcepoint Neo to Netskope Migration (Legacy Web Filtering)",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/forcepoint-neo-to-netskope-migration-commercial",
+"keywords": [
+"filtering",
+"forcepoint",
+"legacy",
+"migration",
+"neo",
+"netskope",
+"network",
+"nsmig",
+"web"
+]
+},
+{
+"slug": "globalprotect-connect-before-logon-plap-hybrid-autopilot-intune",
+"title": "GlobalProtect Connect Before Logon (PLAP) for Hybrid Azure AD Join Autopilot via Microsoft Intune — Deployment, Registration & Reboot-Sequencing Troubleshooting",
+"category": "Network",
+"price": 3495.0,
+"link": "https://workplace.phoenixtekk.com/globalprotect-connect-before-logon-plap-hybrid-autopilot-intune-commercial",
+"keywords": [
+"ad",
+"autopilot",
+"azure",
+"before",
+"connect",
+"globalprotect",
+"gpplap",
+"hybrid",
+"intune",
+"join",
+"logon",
+"microsoft",
+"network",
+"plap",
+"reboot",
+"registration",
+"sequencing",
+"troubleshooting"
+]
+},
+{
+"slug": "m365-endpoint-allowlist-egress-management",
+"title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-endpoint-allowlist-egress-management-commercial",
+"keywords": [
+"365",
+"allow",
+"egress",
+"endpoints",
+"filtering",
+"intune",
+"ip",
+"list",
+"microsoft",
+"network",
+"port",
+"url"
+]
+},
+{
+"slug": "m365-endpoint-allowlist-egress-management-gcc-high",
+"title": "IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints — Government (GCC High)",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-endpoint-allowlist-egress-management-gcc-high-commercial",
+"keywords": [
+"365",
+"allow",
+"egress",
+"egressg",
+"endpoints",
+"filtering",
+"gcc",
+"government",
+"high",
+"intune",
+"ip",
+"list",
+"microsoft",
+"network",
+"port",
+"url"
+]
+},
+{
+"slug": "netskope-entra-sso-identity-policy",
+"title": "Netskope + Entra ID SSO & Identity-Based Policy Enforcement",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/netskope-entra-sso-identity-policy-commercial",
+"keywords": [
+"based",
+"enforcement",
+"entra",
+"id",
+"identity",
+"netskope",
+"network",
+"nssso",
+"policy",
+"sso"
+]
+},
+{
+"slug": "netskope-client-deployment-traffic-steering-intune",
+"title": "Netskope Client Deployment & Traffic Steering at Scale (Intune)",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/netskope-client-deployment-traffic-steering-intune-commercial",
+"keywords": [
+"client",
+"intune",
+"netskope",
+"network",
+"nsclient",
+"scale",
+"steering",
+"traffic"
+]
+},
+{
+"slug": "netskope-client-troubleshooting-diagnostics-toolkit",
+"title": "Netskope Client Troubleshooting & Diagnostics Toolkit",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/netskope-client-troubleshooting-diagnostics-toolkit-commercial",
+"keywords": [
+"client",
+"diagnostics",
+"netskope",
+"network",
+"nsdiag",
+"toolkit",
+"troubleshooting"
+]
+},
+{
+"slug": "netskope-secure-web-gateway-deployment",
+"title": "Netskope Secure Web Gateway (SWG) Deployment & Web Filtering",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/netskope-secure-web-gateway-deployment-commercial",
+"keywords": [
+"filtering",
+"gateway",
+"netskope",
+"network",
+"nsswg",
+"secure",
+"swg",
+"web"
+]
+},
+{
+"slug": "pre-logon-vpn-plap-sbl-diagnostics-toolkit",
+"title": "Pre-Logon VPN (PLAP / Start Before Logon) Troubleshooting & Diagnostics Toolkit",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/pre-logon-vpn-plap-sbl-diagnostics-toolkit-commercial",
+"keywords": [
+"before",
+"diagnostics",
+"logon",
+"network",
+"plap",
+"plapdx",
+"pre",
+"start",
+"toolkit",
+"troubleshooting",
+"vpn"
+]
+},
+{
+"slug": "pre-logon-vpn-cisco-secure-client-sbl-plap-intune",
+"title": "Pre-Logon VPN Connectivity with Cisco Secure Client Start Before Logon (SBL/PLAP) via Microsoft Intune",
+"category": "Network",
+"price": 3195.0,
+"link": "https://workplace.phoenixtekk.com/pre-logon-vpn-cisco-secure-client-sbl-plap-intune-commercial",
+"keywords": [
+"before",
+"cisco",
+"client",
+"connectivity",
+"intune",
+"logon",
+"microsoft",
+"network",
+"plap",
+"pre",
+"sbl",
+"sblvpn",
+"secure",
+"start",
+"vpn"
+]
+},
+{
+"slug": "pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join",
+"title": "Pre-Logon VPN for Cloud & Hybrid-Joined Devices — First-Time Off-Network Sign-In & Password Reset",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/pre-logon-vpn-first-logon-password-reset-cloud-hybrid-join-commercial",
+"keywords": [
+"cloud",
+"devices",
+"first",
+"hybrid",
+"joined",
+"logon",
+"network",
+"off",
+"password",
+"pre",
+"prevpn",
+"reset",
+"sign",
+"time",
+"vpn"
+]
+},
+{
+"slug": "sase-sse-architecture-design-blueprint",
+"title": "SASE / SSE Architecture & Design Blueprint",
+"category": "Network",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/sase-sse-architecture-design-blueprint-commercial",
+"keywords": [
+"architecture",
+"blueprint",
+"design",
+"network",
+"sase",
+"sse"
+]
+},
+{
+"slug": "netskope-ssl-tls-inspection-decryption",
+"title": "SSL/TLS Inspection & Decryption Rollout (Netskope)",
+"category": "Network",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/netskope-ssl-tls-inspection-decryption-commercial",
+"keywords": [
+"decryption",
+"inspection",
+"netskope",
+"network",
+"nsssl",
+"rollout",
+"ssl",
+"tls"
+]
+},
+{
+"slug": "always-on-vpn-device-tunnel-pre-logon-intune",
+"title": "Windows Always On VPN — Device Tunnel Before User Logon (IKEv2, Machine-Certificate Auth) via Intune",
+"category": "Network",
+"price": 3295.0,
+"link": "https://workplace.phoenixtekk.com/always-on-vpn-device-tunnel-pre-logon-intune-commercial",
+"keywords": [
+"always",
+"aovdt",
+"auth",
+"before",
+"certificate",
+"device",
+"ikev2",
+"intune",
+"logon",
+"machine",
+"network",
+"tunnel",
+"user",
+"vpn",
+"windows"
+]
+},
+{
+"slug": "always-on-vpn-user-tunnel-conditional-access-intune",
+"title": "Windows Always On VPN — User Tunnel with Conditional Access (IKEv2/SSTP) via Intune",
+"category": "Network",
+"price": 2795.0,
+"link": "https://workplace.phoenixtekk.com/always-on-vpn-user-tunnel-conditional-access-intune-commercial",
+"keywords": [
+"access",
+"always",
+"aovut",
+"conditional",
+"ikev2",
+"intune",
+"network",
+"sstp",
+"tunnel",
+"user",
+"vpn",
+"windows"
+]
+},
+{
+"slug": "ztna-netskope-private-access-vpn-replacement",
+"title": "Zero Trust Network Access (ZTNA) with Netskope Private Access — VPN Replacement",
+"category": "Network",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/ztna-netskope-private-access-vpn-replacement-commercial",
+"keywords": [
+"access",
+"netskope",
+"network",
+"nsztna",
+"private",
+"replacement",
+"trust",
+"vpn",
+"zero",
+"ztna"
+]
+},
+{
+"slug": "oracle-c2m-coherence-jms-iws-configuration",
+"title": "C2M Coherence Clusters, JMS Queues & Inbound Web Services (IWS) Configuration",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-coherence-jms-iws-configuration-commercial",
+"keywords": [
+"c2m",
+"clusters",
+"coherence",
+"inbound",
+"iws",
+"jms",
+"oc2mruntime",
+"oracle",
+"queues",
+"services",
+"web"
+]
+},
+{
+"slug": "oracle-c2m-weblogic-patching-upgrade-runbook",
+"title": "Oracle C2M & WebLogic Patching & Upgrade Runbook (to 25.4)",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-weblogic-patching-upgrade-runbook-commercial",
+"keywords": [
+"25",
+"c2m",
+"oc2mpatch",
+"oracle",
+"patching",
+"runbook",
+"upgrade",
+"weblogic"
+]
+},
+{
+"slug": "oracle-c2m-batch-scheduling-management",
+"title": "Oracle C2M Batch Scheduling & Thread-Pool Management",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-batch-scheduling-management-commercial",
+"keywords": [
+"batch",
+"c2m",
+"oc2mbatch",
+"oracle",
+"pool",
+"scheduling",
+"thread"
+]
+},
+{
+"slug": "oracle-c2m-devops-release-management-cicd",
+"title": "Oracle C2M DevOps Release Management & CI/CD Automation",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-devops-release-management-cicd-commercial",
+"keywords": [
+"automation",
+"c2m",
+"cd",
+"ci",
+"devops",
+"oc2mdevops",
+"oracle",
+"release"
+]
+},
+{
+"slug": "oracle-c2m-environment-migration-code-promotion",
+"title": "Oracle C2M Environment Migration & Code Promotion (Dev → QA → Prod)",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-environment-migration-code-promotion-commercial",
+"keywords": [
+"c2m",
+"code",
+"dev",
+"environment",
+"migration",
+"oc2mmig",
+"oracle",
+"prod",
+"promotion",
+"qa"
+]
+},
+{
+"slug": "oracle-c2m-hypercare-production-support-runbook",
+"title": "Oracle C2M Hypercare & Production Support Runbook (Go-Live Readiness)",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-hypercare-production-support-runbook-commercial",
+"keywords": [
+"c2m",
+"go",
+"hypercare",
+"live",
+"oc2mhyper",
+"oracle",
+"production",
+"readiness",
+"runbook",
+"support"
+]
+},
+{
+"slug": "oracle-c2m-log-analysis-health-monitoring",
+"title": "Oracle C2M Log Analysis & Health Monitoring (SLO Assurance)",
+"category": "Oracle",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-log-analysis-health-monitoring-commercial",
+"keywords": [
+"analysis",
+"assurance",
+"c2m",
+"health",
+"log",
+"monitoring",
+"oc2mlog",
+"oracle",
+"slo"
+]
+},
+{
+"slug": "oracle-c2m-dynatrace-monitoring-alerting",
+"title": "Oracle C2M Monitoring & Alerting with Dynatrace",
+"category": "Oracle",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-dynatrace-monitoring-alerting-commercial",
+"keywords": [
+"alerting",
+"c2m",
+"dynatrace",
+"monitoring",
+"oc2mdyna",
+"oracle"
+]
+},
+{
+"slug": "oracle-c2m-performance-tuning-optimization",
+"title": "Oracle C2M Performance Tuning & Resource Optimization",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-performance-tuning-optimization-commercial",
+"keywords": [
+"c2m",
+"oc2mperf",
+"optimization",
+"oracle",
+"performance",
+"resource",
+"tuning"
+]
+},
+{
+"slug": "oracle-c2m-sso-ssl-keystore-configuration",
+"title": "Oracle C2M SSO, SSL & Certificate/Keystore Configuration",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-sso-ssl-keystore-configuration-commercial",
+"keywords": [
+"c2m",
+"certificate",
+"keystore",
+"oc2msec",
+"oracle",
+"ssl",
+"sso"
+]
+},
+{
+"slug": "oracle-c2m-troubleshooting-rca-toolkit",
+"title": "Oracle C2M Troubleshooting & Root-Cause Analysis Toolkit",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-troubleshooting-rca-toolkit-commercial",
+"keywords": [
+"analysis",
+"c2m",
+"cause",
+"oc2mrca",
+"oracle",
+"root",
+"toolkit",
+"troubleshooting"
+]
+},
+{
+"slug": "oracle-c2m-installation-environment-build",
+"title": "Oracle Customer to Meter (C2M) Installation & Multi-Environment Build (Dev/Test/Prod)",
+"category": "Oracle",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-c2m-installation-environment-build-commercial",
+"keywords": [
+"c2m",
+"customer",
+"dev",
+"environment",
+"installation",
+"meter",
+"multi",
+"oc2minst",
+"oracle",
+"prod",
+"test"
+]
+},
+{
+"slug": "oracle-soa-integration-for-c2m",
+"title": "Oracle SOA Integration for C2M (Web Services & APIs)",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-soa-integration-for-c2m-commercial",
+"keywords": [
+"apis",
+"c2m",
+"integration",
+"oracle",
+"osoac2m",
+"services",
+"soa",
+"web"
+]
+},
+{
+"slug": "oracle-weblogic-14c-c2m-install-configure",
+"title": "Oracle WebLogic 14c for C2M — Install, Configure & Domain Setup",
+"category": "Oracle",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-weblogic-14c-c2m-install-configure-commercial",
+"keywords": [
+"14c",
+"c2m",
+"domain",
+"install",
+"oracle",
+"owls14c",
+"weblogic"
+]
+},
+{
+"slug": "adaptive-protection-implementation",
+"title": "Adaptive Protection Implementation — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/adaptive-protection-implementation-commercial",
+"keywords": [
+"adaptive",
+"adprot",
+"microsoft",
+"protection",
+"purview"
+]
+},
+{
+"slug": "ai-data-exposure-assessment",
+"title": "AI Data-Exposure Assessment — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ai-data-exposure-assessment-commercial",
+"keywords": [
+"ai",
+"aiexpose",
+"assessment",
+"data",
+"exposure",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "ai-prompt-response-governance-monitoring",
+"title": "AI Prompt/Response Governance & Usage Monitoring — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ai-prompt-response-governance-monitoring-commercial",
+"keywords": [
+"ai",
+"aiprompt",
+"governance",
+"microsoft",
+"monitoring",
+"prompt",
+"purview",
+"response",
+"usage"
+]
+},
+{
+"slug": "automatic-sensitivity-labeling-at-scale",
+"title": "Automatic Sensitivity Labeling at Scale — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/automatic-sensitivity-labeling-at-scale-commercial",
+"keywords": [
+"automatic",
+"ipauto",
+"labeling",
+"microsoft",
+"purview",
+"scale",
+"sensitivity"
+]
+},
+{
+"slug": "aws-data-source-governance",
+"title": "AWS Data-Source Governance (S3/RDS) — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/aws-data-source-governance-commercial",
+"keywords": [
+"aws",
+"data",
+"dgaws",
+"governance",
+"microsoft",
+"purview",
+"rds",
+"s3",
+"source"
+]
+},
+{
+"slug": "azure-rms-aip-to-built-in-labeling-migration",
+"title": "Azure RMS / AIP → Built-in Unified Labeling Migration — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-rms-aip-to-built-in-labeling-migration-commercial",
+"keywords": [
+"aip",
+"azure",
+"built",
+"iprmsmig",
+"labeling",
+"microsoft",
+"migration",
+"purview",
+"rms",
+"unified"
+]
+},
+{
+"slug": "browser-network-dlp",
+"title": "Browser & Network DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/browser-network-dlp-commercial",
+"keywords": [
+"browser",
+"dlp",
+"dlpbrowser",
+"microsoft",
+"network",
+"purview"
+]
+},
+{
+"slug": "business-glossary-stewardship-program",
+"title": "Business Glossary & Stewardship Program — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/business-glossary-stewardship-program-commercial",
+"keywords": [
+"business",
+"dggloss",
+"glossary",
+"microsoft",
+"program",
+"purview",
+"stewardship"
+]
+},
+{
+"slug": "cjis-dlp-pack",
+"title": "CJIS DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cjis-dlp-pack-commercial",
+"keywords": [
+"cjis",
+"dlp",
+"dlpcjis",
+"microsoft",
+"pack",
+"purview"
+]
+},
+{
+"slug": "classification-reporting-analytics",
+"title": "Classification Reporting & Analytics — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/classification-reporting-analytics-commercial",
+"keywords": [
+"analytics",
+"classification",
+"clsreport",
+"microsoft",
+"purview",
+"reporting"
+]
+},
+{
+"slug": "clipboard-screen-capture-protection",
+"title": "Clipboard & Screen-Capture Protection — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/clipboard-screen-capture-protection-commercial",
+"keywords": [
+"capture",
+"clipboard",
+"dlpclip",
+"microsoft",
+"protection",
+"purview",
+"screen"
+]
+},
+{
+"slug": "cloud-app-dlp-defender-cloud-apps",
+"title": "Cloud-App DLP (Defender for Cloud Apps) — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cloud-app-dlp-defender-cloud-apps-commercial",
+"keywords": [
+"app",
+"apps",
+"cloud",
+"defender",
+"dlp",
+"dlpcloud",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "cmmc-cui-dlp-pack",
+"title": "CMMC / CUI DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/cmmc-cui-dlp-pack-commercial",
+"keywords": [
+"cmmc",
+"cui",
+"dlp",
+"dlpcmmc",
+"microsoft",
+"pack",
+"purview"
+]
+},
+{
+"slug": "container-labeling-teams-groups-sites",
+"title": "Container Labeling (Teams, Groups & Sites) — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/container-labeling-teams-groups-sites-commercial",
+"keywords": [
+"container",
+"groups",
+"ipcont",
+"labeling",
+"microsoft",
+"purview",
+"sites",
+"teams"
+]
+},
+{
+"slug": "custom-dlp-policy-development",
+"title": "Custom DLP Policy Development — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/custom-dlp-policy-development-commercial",
+"keywords": [
+"custom",
+"development",
+"dlp",
+"dlpcustom",
+"microsoft",
+"policy",
+"purview"
+]
+},
+{
+"slug": "custom-sensitive-information-types",
+"title": "Custom Sensitive Information Types — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/custom-sensitive-information-types-commercial",
+"keywords": [
+"clscustom",
+"custom",
+"information",
+"microsoft",
+"purview",
+"sensitive",
+"types"
+]
+},
+{
+"slug": "data-archiving-strategy",
+"title": "Data Archiving Strategy — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/data-archiving-strategy-commercial",
+"keywords": [
+"archiving",
+"data",
+"dlcarch",
+"microsoft",
+"purview",
+"strategy"
+]
+},
+{
+"slug": "data-classification-framework-strategy",
+"title": "Data Classification Framework & Strategy — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/data-classification-framework-strategy-commercial",
+"keywords": [
+"classification",
+"clsframe",
+"data",
+"framework",
+"microsoft",
+"purview",
+"strategy"
+]
+},
+{
+"slug": "data-estate-insights-quality",
+"title": "Data Estate Insights & Data Quality — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/data-estate-insights-quality-commercial",
+"keywords": [
+"data",
+"dginsight",
+"estate",
+"insights",
+"microsoft",
+"purview",
+"quality"
+]
+},
+{
+"slug": "data-lineage-implementation",
+"title": "Data Lineage Implementation — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/data-lineage-implementation-commercial",
+"keywords": [
+"data",
+"dgline",
+"lineage",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "data-owner-steward-framework",
+"title": "Data-Owner & Steward Framework — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/data-owner-steward-framework-commercial",
+"keywords": [
+"data",
+"dgsteward",
+"framework",
+"microsoft",
+"owner",
+"purview",
+"steward"
+]
+},
+{
+"slug": "databricks-data-governance",
+"title": "Databricks Data Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/databricks-data-governance-commercial",
+"keywords": [
+"data",
+"databricks",
+"dgdbx",
+"governance",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "departing-employee-monitoring-quickstart",
+"title": "Departing-Employee Data-Theft Monitoring Quickstart — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/departing-employee-monitoring-quickstart-commercial",
+"keywords": [
+"data",
+"departing",
+"employee",
+"irmdepart",
+"microsoft",
+"monitoring",
+"purview",
+"quickstart",
+"theft"
+]
+},
+{
+"slug": "disposition-review-program",
+"title": "Disposition Review Program — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/disposition-review-program-commercial",
+"keywords": [
+"disposition",
+"dlcdispo",
+"microsoft",
+"program",
+"purview",
+"review"
+]
+},
+{
+"slug": "document-fingerprinting",
+"title": "Document Fingerprinting — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/document-fingerprinting-commercial",
+"keywords": [
+"clsfinger",
+"document",
+"fingerprinting",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "double-key-encryption-implementation",
+"title": "Double Key Encryption (DKE) Implementation — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/double-key-encryption-implementation-commercial",
+"keywords": [
+"dke",
+"double",
+"encryption",
+"ipdke",
+"key",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "ediscovery-readiness-assessment",
+"title": "eDiscovery Readiness Assessment — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ediscovery-readiness-assessment-commercial",
+"keywords": [
+"assessment",
+"ediscovery",
+"edready",
+"microsoft",
+"purview",
+"readiness"
+]
+},
+{
+"slug": "endpoint-dlp-macos",
+"title": "Endpoint DLP for macOS — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-dlp-macos-commercial",
+"keywords": [
+"dlp",
+"dlpmac",
+"endpoint",
+"macos",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "endpoint-dlp-windows",
+"title": "Endpoint DLP for Windows — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/endpoint-dlp-windows-commercial",
+"keywords": [
+"dlp",
+"dlpwin",
+"endpoint",
+"microsoft",
+"purview",
+"windows"
+]
+},
+{
+"slug": "enterprise-dlp-assessment-strategy",
+"title": "Enterprise DLP Assessment & Strategy — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/enterprise-dlp-assessment-strategy-commercial",
+"keywords": [
+"assessment",
+"dlp",
+"dlpassess",
+"enterprise",
+"microsoft",
+"purview",
+"strategy"
+]
+},
+{
+"slug": "event-based-retention",
+"title": "Event-Based Retention — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/event-based-retention-commercial",
+"keywords": [
+"based",
+"dlcevent",
+"event",
+"microsoft",
+"purview",
+"retention"
+]
+},
+{
+"slug": "exact-data-match-edm-configuration",
+"title": "Exact Data Match (EDM) Configuration — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/exact-data-match-edm-configuration-commercial",
+"keywords": [
+"clsedm",
+"data",
+"edm",
+"exact",
+"match",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "exchange-lifecycle-policies",
+"title": "Exchange Lifecycle Policies — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/exchange-lifecycle-policies-commercial",
+"keywords": [
+"dlcexo",
+"exchange",
+"lifecycle",
+"microsoft",
+"policies",
+"purview"
+]
+},
+{
+"slug": "exchange-online-dlp",
+"title": "Exchange Online DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/exchange-online-dlp-commercial",
+"keywords": [
+"dlp",
+"dlpexo",
+"exchange",
+"microsoft",
+"online",
+"purview"
+]
+},
+{
+"slug": "ferpa-dlp-pack",
+"title": "FERPA DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ferpa-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlpferpa",
+"ferpa",
+"microsoft",
+"pack",
+"purview"
+]
+},
+{
+"slug": "financial-glba-sox-dlp-pack",
+"title": "Financial (GLBA/SOX) DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/financial-glba-sox-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlpfin",
+"financial",
+"glba",
+"microsoft",
+"pack",
+"purview",
+"sox"
+]
+},
+{
+"slug": "financial-finra-communications-compliance",
+"title": "Financial / FINRA Communications Compliance — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/financial-finra-communications-compliance-commercial",
+"keywords": [
+"ccfin",
+"communications",
+"compliance",
+"financial",
+"finra",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "gdpr-pii-dlp-pack",
+"title": "GDPR / PII DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/gdpr-pii-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlpgdpr",
+"gdpr",
+"microsoft",
+"pack",
+"pii",
+"purview"
+]
+},
+{
+"slug": "google-cloud-data-source-governance",
+"title": "Google Cloud Data-Source Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/google-cloud-data-source-governance-commercial",
+"keywords": [
+"cloud",
+"data",
+"dggcp",
+"google",
+"governance",
+"microsoft",
+"purview",
+"source"
+]
+},
+{
+"slug": "hipaa-phi-dlp-pack",
+"title": "HIPAA / PHI DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/hipaa-phi-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlphipaa",
+"hipaa",
+"microsoft",
+"pack",
+"phi",
+"purview"
+]
+},
+{
+"slug": "implementing-microsoft-purview-foundation-roles-onboarding",
+"title": "Implementing Microsoft Purview — Foundation, Roles & Onboarding",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/implementing-microsoft-purview-foundation-roles-onboarding-commercial",
+"keywords": [
+"foundation",
+"implementing",
+"microsoft",
+"onboarding",
+"purview",
+"purvimp",
+"roles"
+]
+},
+{
+"slug": "inactive-legacy-data-cleanup-optimization",
+"title": "Inactive & Legacy Data Cleanup & Storage Optimization — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/inactive-legacy-data-cleanup-optimization-commercial",
+"keywords": [
+"cleanup",
+"data",
+"dlcclean",
+"inactive",
+"legacy",
+"microsoft",
+"optimization",
+"purview",
+"storage"
+]
+},
+{
+"slug": "information-protection-assessment-readiness",
+"title": "Information Protection Assessment & Readiness — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/information-protection-assessment-readiness-commercial",
+"keywords": [
+"assessment",
+"information",
+"ipassess",
+"microsoft",
+"protection",
+"purview",
+"readiness"
+]
+},
+{
+"slug": "insider-risk-readiness-assessment",
+"title": "Insider Risk Readiness Assessment — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/insider-risk-readiness-assessment-commercial",
+"keywords": [
+"assessment",
+"insider",
+"irmassess",
+"microsoft",
+"purview",
+"readiness",
+"risk"
+]
+},
+{
+"slug": "itar-dlp-pack",
+"title": "ITAR DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/itar-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlpitar",
+"itar",
+"microsoft",
+"pack",
+"purview"
+]
+},
+{
+"slug": "legal-hold-custodian-program",
+"title": "Legal-Hold & Custodian Management Program — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/legal-hold-custodian-program-commercial",
+"keywords": [
+"custodian",
+"edhold",
+"hold",
+"legal",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "managing-microsoft-purview-operations-governance",
+"title": "Managing Microsoft Purview Going Forward — Operations & Governance",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/managing-microsoft-purview-operations-governance-commercial",
+"keywords": [
+"forward",
+"going",
+"governance",
+"managing",
+"microsoft",
+"operations",
+"purview",
+"purvops"
+]
+},
+{
+"slug": "mandatory-vs-recommended-labeling-design",
+"title": "Mandatory vs Recommended Labeling Policy Design — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/mandatory-vs-recommended-labeling-design-commercial",
+"keywords": [
+"design",
+"ipmanrec",
+"labeling",
+"mandatory",
+"microsoft",
+"policy",
+"purview",
+"recommended",
+"vs"
+]
+},
+{
+"slug": "copilot-data-protection-readiness",
+"title": "Microsoft 365 Copilot Data-Protection Readiness — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/copilot-data-protection-readiness-commercial",
+"keywords": [
+"365",
+"aicopilot",
+"copilot",
+"data",
+"microsoft",
+"protection",
+"purview",
+"readiness"
+]
+},
+{
+"slug": "microsoft-purview-dlp-sensitivity-labels-retention",
+"title": "Microsoft Purview — DLP, Sensitivity Labels & Retention",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-dlp-sensitivity-labels-retention-commercial",
+"keywords": [
+"dlp",
+"labels",
+"microsoft",
+"purview",
+"retention",
+"sensitivity"
+]
+},
+{
+"slug": "microsoft-purview-dlp-sensitivity-labels-retention-gcc-high",
+"title": "Microsoft Purview — DLP, Sensitivity Labels & Retention (Government / GCC High)",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-dlp-sensitivity-labels-retention-gcc-high-commercial",
+"keywords": [
+"dlp",
+"gcc",
+"government",
+"high",
+"labels",
+"microsoft",
+"purview",
+"purviewg",
+"retention",
+"sensitivity"
+]
+},
+{
+"slug": "purview-administrator-training",
+"title": "Microsoft Purview Administrator Training",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-administrator-training-commercial",
+"keywords": [
+"administrator",
+"microsoft",
+"opstrain",
+"purview",
+"training"
+]
+},
+{
+"slug": "purview-adoption-program",
+"title": "Microsoft Purview Adoption Program",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-adoption-program-commercial",
+"keywords": [
+"adoption",
+"microsoft",
+"opsadopt",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-architecture-design",
+"title": "Microsoft Purview Architecture & Design",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-architecture-design-commercial",
+"keywords": [
+"architecture",
+"design",
+"microsoft",
+"opsarch",
+"purview"
+]
+},
+{
+"slug": "microsoft-purview-audit-standard-premium-investigations",
+"title": "Microsoft Purview Audit (Standard & Premium) — Unified Audit Log & Investigations",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-audit-standard-premium-investigations-commercial",
+"keywords": [
+"audit",
+"investigations",
+"log",
+"microsoft",
+"premium",
+"purvaudit",
+"purview",
+"standard",
+"unified"
+]
+},
+{
+"slug": "purview-automation-framework",
+"title": "Microsoft Purview Automation Framework",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-automation-framework-commercial",
+"keywords": [
+"automation",
+"framework",
+"microsoft",
+"opsauto",
+"purview"
+]
+},
+{
+"slug": "purview-center-of-excellence",
+"title": "Microsoft Purview Center of Excellence",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-center-of-excellence-commercial",
+"keywords": [
+"center",
+"excellence",
+"microsoft",
+"opscoe",
+"purview"
+]
+},
+{
+"slug": "purview-cjis-compliance-program",
+"title": "Microsoft Purview CJIS Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-cjis-compliance-program-commercial",
+"keywords": [
+"cjis",
+"cmpcjis",
+"compliance",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-cmmc-compliance-program",
+"title": "Microsoft Purview CMMC Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-cmmc-compliance-program-commercial",
+"keywords": [
+"cmmc",
+"cmpcmmc",
+"compliance",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "microsoft-purview-communication-compliance",
+"title": "Microsoft Purview Communication Compliance",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-communication-compliance-commercial",
+"keywords": [
+"communication",
+"compliance",
+"microsoft",
+"purvcc",
+"purview"
+]
+},
+{
+"slug": "compliance-manager-implementation",
+"title": "Microsoft Purview Compliance Manager Implementation",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/compliance-manager-implementation-commercial",
+"keywords": [
+"cmpmgr",
+"compliance",
+"manager",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "microsoft-purview-data-governance-data-map-catalog",
+"title": "Microsoft Purview Data Governance — Data Map, Scanning & Unified Catalog",
+"category": "Purview",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-data-governance-data-map-catalog-commercial",
+"keywords": [
+"catalog",
+"data",
+"governance",
+"map",
+"microsoft",
+"purvgov",
+"purview",
+"scanning",
+"unified"
+]
+},
+{
+"slug": "microsoft-purview-data-lifecycle-records-management",
+"title": "Microsoft Purview Data Lifecycle & Records Management",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-data-lifecycle-records-management-commercial",
+"keywords": [
+"data",
+"lifecycle",
+"microsoft",
+"purvdlm",
+"purview",
+"records"
+]
+},
+{
+"slug": "microsoft-purview-data-loss-prevention-endpoint-cloud-email",
+"title": "Microsoft Purview Data Loss Prevention (DLP) — Endpoint, Cloud & Email",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-data-loss-prevention-endpoint-cloud-email-commercial",
+"keywords": [
+"cloud",
+"data",
+"dlp",
+"email",
+"endpoint",
+"loss",
+"microsoft",
+"prevention",
+"purvdlp",
+"purview"
+]
+},
+{
+"slug": "microsoft-purview-data-security-posture-management-dspm-ai",
+"title": "Microsoft Purview Data Security Posture Management (DSPM & DSPM for AI)",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-data-security-posture-management-dspm-ai-commercial",
+"keywords": [
+"ai",
+"data",
+"dspm",
+"microsoft",
+"posture",
+"purvdspm",
+"purview",
+"security"
+]
+},
+{
+"slug": "purview-executive-dashboard",
+"title": "Microsoft Purview Executive Dashboard",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-executive-dashboard-commercial",
+"keywords": [
+"dashboard",
+"executive",
+"microsoft",
+"opsexec",
+"purview"
+]
+},
+{
+"slug": "purview-fedramp-compliance-program",
+"title": "Microsoft Purview FedRAMP Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-fedramp-compliance-program-commercial",
+"keywords": [
+"cmpfedramp",
+"compliance",
+"fedramp",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-ferpa-compliance-program",
+"title": "Microsoft Purview FERPA Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-ferpa-compliance-program-commercial",
+"keywords": [
+"cmpferpa",
+"compliance",
+"ferpa",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-finra-sec-compliance-program",
+"title": "Microsoft Purview FINRA/SEC Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-finra-sec-compliance-program-commercial",
+"keywords": [
+"cmpfinra",
+"compliance",
+"finra",
+"microsoft",
+"program",
+"purview",
+"sec"
+]
+},
+{
+"slug": "purview-for-education",
+"title": "Microsoft Purview for Education",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-education-commercial",
+"keywords": [
+"education",
+"indedu",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-for-financial-services",
+"title": "Microsoft Purview for Financial Services",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-financial-services-commercial",
+"keywords": [
+"financial",
+"indfin",
+"microsoft",
+"purview",
+"services"
+]
+},
+{
+"slug": "purview-for-government",
+"title": "Microsoft Purview for Government",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-government-commercial",
+"keywords": [
+"government",
+"indgov",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-for-healthcare",
+"title": "Microsoft Purview for Healthcare",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-healthcare-commercial",
+"keywords": [
+"healthcare",
+"indhealth",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-for-legal",
+"title": "Microsoft Purview for Legal",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-legal-commercial",
+"keywords": [
+"indlegal",
+"legal",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-for-manufacturing",
+"title": "Microsoft Purview for Manufacturing",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-manufacturing-commercial",
+"keywords": [
+"indmfg",
+"manufacturing",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-for-retail",
+"title": "Microsoft Purview for Retail",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-for-retail-commercial",
+"keywords": [
+"indretail",
+"microsoft",
+"purview",
+"retail"
+]
+},
+{
+"slug": "purview-gdpr-compliance-program",
+"title": "Microsoft Purview GDPR Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-gdpr-compliance-program-commercial",
+"keywords": [
+"cmpgdpr",
+"compliance",
+"gdpr",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-health-check",
+"title": "Microsoft Purview Health Check",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-health-check-commercial",
+"keywords": [
+"check",
+"health",
+"microsoft",
+"opshealth",
+"purview"
+]
+},
+{
+"slug": "purview-hipaa-compliance-program",
+"title": "Microsoft Purview HIPAA Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-hipaa-compliance-program-commercial",
+"keywords": [
+"cmphipaa",
+"compliance",
+"hipaa",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "microsoft-purview-insider-risk-management",
+"title": "Microsoft Purview Insider Risk Management",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-insider-risk-management-commercial",
+"keywords": [
+"insider",
+"microsoft",
+"purview",
+"purvirm",
+"risk"
+]
+},
+{
+"slug": "purview-iso-27001-compliance-program",
+"title": "Microsoft Purview ISO 27001 Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-iso-27001-compliance-program-commercial",
+"keywords": [
+"27001",
+"cmpiso27001",
+"compliance",
+"iso",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-iso-27701-compliance-program",
+"title": "Microsoft Purview ISO 27701 Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-iso-27701-compliance-program-commercial",
+"keywords": [
+"27701",
+"cmpiso27701",
+"compliance",
+"iso",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-itar-compliance-program",
+"title": "Microsoft Purview ITAR Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-itar-compliance-program-commercial",
+"keywords": [
+"cmpitar",
+"compliance",
+"itar",
+"microsoft",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-managed-service",
+"title": "Microsoft Purview Managed Service",
+"category": "Purview",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/purview-managed-service-commercial",
+"keywords": [
+"managed",
+"microsoft",
+"opsmanaged",
+"purview",
+"service"
+]
+},
+{
+"slug": "purview-maturity-assessment",
+"title": "Microsoft Purview Maturity Assessment",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-maturity-assessment-commercial",
+"keywords": [
+"assessment",
+"maturity",
+"microsoft",
+"opsmat",
+"purview"
+]
+},
+{
+"slug": "purview-nist-800-53-compliance-program",
+"title": "Microsoft Purview NIST 800-53 Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-nist-800-53-compliance-program-commercial",
+"keywords": [
+"53",
+"800",
+"cmpnist",
+"compliance",
+"microsoft",
+"nist",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-optimization-tuneup",
+"title": "Microsoft Purview Optimization & Tune-Up",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-optimization-tuneup-commercial",
+"keywords": [
+"microsoft",
+"opsopt",
+"optimization",
+"purview",
+"tune",
+"up"
+]
+},
+{
+"slug": "purview-pci-dss-compliance-program",
+"title": "Microsoft Purview PCI-DSS Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-pci-dss-compliance-program-commercial",
+"keywords": [
+"cmppci",
+"compliance",
+"dss",
+"microsoft",
+"pci",
+"program",
+"purview"
+]
+},
+{
+"slug": "purview-reporting-power-bi-framework",
+"title": "Microsoft Purview Reporting & Power BI Framework",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-reporting-power-bi-framework-commercial",
+"keywords": [
+"bi",
+"framework",
+"microsoft",
+"opsreport",
+"power",
+"purview",
+"reporting"
+]
+},
+{
+"slug": "microsoft-purview-sensitivity-retention-labels-implementation",
+"title": "Microsoft Purview Sensitivity & Retention Labels — Implementation",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-purview-sensitivity-retention-labels-implementation-commercial",
+"keywords": [
+"labels",
+"microsoft",
+"purview",
+"purvlabel",
+"retention",
+"sensitivity"
+]
+},
+{
+"slug": "purview-sox-compliance-program",
+"title": "Microsoft Purview SOX Compliance Program",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-sox-compliance-program-commercial",
+"keywords": [
+"cmpsox",
+"compliance",
+"microsoft",
+"program",
+"purview",
+"sox"
+]
+},
+{
+"slug": "purview-tenant-assessment",
+"title": "Microsoft Purview Tenant Assessment",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-tenant-assessment-commercial",
+"keywords": [
+"assessment",
+"microsoft",
+"opsassess",
+"purview",
+"tenant"
+]
+},
+{
+"slug": "office-pdf-rights-protection-rms",
+"title": "Office & PDF Rights Protection (RMS/IRM) — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/office-pdf-rights-protection-rms-commercial",
+"keywords": [
+"iprms",
+"irm",
+"microsoft",
+"office",
+"pdf",
+"protection",
+"purview",
+"rights",
+"rms"
+]
+},
+{
+"slug": "onedrive-dlp",
+"title": "OneDrive DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/onedrive-dlp-commercial",
+"keywords": [
+"dlp",
+"dlpod",
+"microsoft",
+"onedrive",
+"purview"
+]
+},
+{
+"slug": "oracle-data-governance",
+"title": "Oracle Data Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/oracle-data-governance-commercial",
+"keywords": [
+"data",
+"dgoracle",
+"governance",
+"microsoft",
+"oracle",
+"purview"
+]
+},
+{
+"slug": "pci-dss-dlp-pack",
+"title": "PCI-DSS DLP Pack — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/pci-dss-dlp-pack-commercial",
+"keywords": [
+"dlp",
+"dlppci",
+"dss",
+"microsoft",
+"pack",
+"pci",
+"purview"
+]
+},
+{
+"slug": "print-dlp",
+"title": "Print DLP — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/print-dlp-commercial",
+"keywords": [
+"dlp",
+"dlpprint",
+"microsoft",
+"print",
+"purview"
+]
+},
+{
+"slug": "purview-ai-hub-governance",
+"title": "Purview AI Hub Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/purview-ai-hub-governance-commercial",
+"keywords": [
+"ai",
+"aihub",
+"governance",
+"hub",
+"microsoft",
+"purview"
+]
+},
+{
+"slug": "purview-audit-siem-integration",
+"title": "Purview Audit → SIEM Integration — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-audit-siem-integration-commercial",
+"keywords": [
+"audit",
+"audsiem",
+"integration",
+"microsoft",
+"purview",
+"siem"
+]
+},
+{
+"slug": "purview-message-encryption-implementation",
+"title": "Purview Message Encryption (OME) Implementation — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/purview-message-encryption-implementation-commercial",
+"keywords": [
+"encryption",
+"ipome",
+"message",
+"microsoft",
+"ome",
+"purview"
+]
+},
+{
+"slug": "regulatory-immutable-records-file-plan",
+"title": "Regulatory & Immutable Records + File Plan — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/regulatory-immutable-records-file-plan-commercial",
+"keywords": [
+"dlcreg",
+"file",
+"immutable",
+"microsoft",
+"plan",
+"purview",
+"records",
+"regulatory"
+]
+},
+{
+"slug": "regulatory-assessment-framework",
+"title": "Regulatory Assessment Framework — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/regulatory-assessment-framework-commercial",
+"keywords": [
+"assessment",
+"cmpframe",
+"framework",
+"microsoft",
+"purview",
+"regulatory"
+]
+},
+{
+"slug": "risk-compliance-dashboard",
+"title": "Risk & Compliance Dashboard — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/risk-compliance-dashboard-commercial",
+"keywords": [
+"cmpdash",
+"compliance",
+"dashboard",
+"microsoft",
+"purview",
+"risk"
+]
+},
+{
+"slug": "sap-data-governance",
+"title": "SAP Data Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sap-data-governance-commercial",
+"keywords": [
+"data",
+"dgsap",
+"governance",
+"microsoft",
+"purview",
+"sap"
+]
+},
+{
+"slug": "sensitive-information-types-implementation",
+"title": "Sensitive Information Types Implementation — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sensitive-information-types-implementation-commercial",
+"keywords": [
+"clssit",
+"information",
+"microsoft",
+"purview",
+"sensitive",
+"types"
+]
+},
+{
+"slug": "sensitivity-label-migration-project",
+"title": "Sensitivity Label Migration Project — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sensitivity-label-migration-project-commercial",
+"keywords": [
+"ipmig",
+"label",
+"microsoft",
+"migration",
+"project",
+"purview",
+"sensitivity"
+]
+},
+{
+"slug": "sensitivity-label-taxonomy-design",
+"title": "Sensitivity Label Taxonomy Design — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sensitivity-label-taxonomy-design-commercial",
+"keywords": [
+"design",
+"iptax",
+"label",
+"microsoft",
+"purview",
+"sensitivity",
+"taxonomy"
+]
+},
+{
+"slug": "sensitivity-labeling-for-meetings",
+"title": "Sensitivity Labeling for Meetings — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/sensitivity-labeling-for-meetings-commercial",
+"keywords": [
+"ipmeet",
+"labeling",
+"meetings",
+"microsoft",
+"purview",
+"sensitivity"
+]
+},
+{
+"slug": "sensitivity-labeling-power-bi-fabric",
+"title": "Sensitivity Labeling for Power BI & Microsoft Fabric — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sensitivity-labeling-power-bi-fabric-commercial",
+"keywords": [
+"bi",
+"fabric",
+"ippbi",
+"labeling",
+"microsoft",
+"power",
+"purview",
+"sensitivity"
+]
+},
+{
+"slug": "sharepoint-onedrive-lifecycle-policies",
+"title": "SharePoint & OneDrive Lifecycle Policies — Microsoft Purview",
+"category": "Purview",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-onedrive-lifecycle-policies-commercial",
+"keywords": [
+"dlcspo",
+"lifecycle",
+"microsoft",
+"onedrive",
+"policies",
+"purview",
+"sharepoint"
+]
+},
+{
+"slug": "sharepoint-online-dlp",
+"title": "SharePoint Online DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-dlp-commercial",
+"keywords": [
+"dlp",
+"dlpspo",
+"microsoft",
+"online",
+"purview",
+"sharepoint"
+]
+},
+{
+"slug": "snowflake-data-governance",
+"title": "Snowflake Data Governance — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/snowflake-data-governance-commercial",
+"keywords": [
+"data",
+"dgsnow",
+"governance",
+"microsoft",
+"purview",
+"snowflake"
+]
+},
+{
+"slug": "source-code-ip-protection-dlp",
+"title": "Source-Code & IP Protection DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/source-code-ip-protection-dlp-commercial",
+"keywords": [
+"code",
+"dlp",
+"dlpcode",
+"ip",
+"microsoft",
+"protection",
+"purview",
+"source"
+]
+},
+{
+"slug": "teams-dlp",
+"title": "Teams Chat & Channel DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/teams-dlp-commercial",
+"keywords": [
+"channel",
+"chat",
+"dlp",
+"dlpteams",
+"microsoft",
+"purview",
+"teams"
+]
+},
+{
+"slug": "trainable-classifiers",
+"title": "Trainable Classifiers — Microsoft Purview",
+"category": "Purview",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/trainable-classifiers-commercial",
+"keywords": [
+"classifiers",
+"clstrain",
+"microsoft",
+"purview",
+"trainable"
+]
+},
+{
+"slug": "usb-removable-media-dlp",
+"title": "USB & Removable-Media DLP — Microsoft Purview",
+"category": "Purview",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/usb-removable-media-dlp-commercial",
+"keywords": [
+"dlp",
+"dlpusb",
+"media",
+"microsoft",
+"purview",
+"removable",
+"usb"
+]
+},
+{
+"slug": "cisco-ise-certificate-vpn-authentication-intune",
+"title": "Certificate-Based VPN Authentication for Cisco ISE with Intune (SCEP/PKCS)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cisco-ise-certificate-vpn-authentication-intune-commercial",
+"keywords": [
+"authentication",
+"based",
+"certificate",
+"cisco",
+"cisecert",
+"intune",
+"ise",
+"pkcs",
+"scep",
+"security",
+"vpn"
+]
+},
+{
+"slug": "cloud-pki-integration-intune",
+"title": "Cloud PKI Integration with Intune (Certificate Management Modernization)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloud-pki-integration-intune-commercial",
+"keywords": [
+"certificate",
+"cloud",
+"cpki",
+"integration",
+"intune",
+"modernization",
+"pki",
+"security"
+]
+},
+{
+"slug": "cloud-pki-integration-intune-gcc-high",
+"title": "Cloud PKI Integration with Intune (Certificate Management Modernization) — Government (GCC High)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/cloud-pki-integration-intune-gcc-high-commercial",
+"keywords": [
+"certificate",
+"cloud",
+"cpkig",
+"gcc",
+"government",
+"high",
+"integration",
+"intune",
+"modernization",
+"pki",
+"security"
+]
+},
+{
+"slug": "continuous-compliance-audit-evidence-intune",
+"title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/continuous-compliance-audit-evidence-intune-commercial",
+"keywords": [
+"audit",
+"automation",
+"ccaudit",
+"cis",
+"compliance",
+"continuous",
+"entra",
+"evidence",
+"intune",
+"monitoring",
+"security",
+"stig"
+]
+},
+{
+"slug": "continuous-compliance-audit-evidence-intune-gcc-high",
+"title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra) — Government (GCC High)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/continuous-compliance-audit-evidence-intune-gcc-high-commercial",
+"keywords": [
+"audit",
+"automation",
+"ccauditg",
+"cis",
+"compliance",
+"continuous",
+"entra",
+"evidence",
+"gcc",
+"government",
+"high",
+"intune",
+"monitoring",
+"security",
+"stig"
+]
+},
+{
+"slug": "macos-identity-threat-account-lockout-hardening",
+"title": "macOS Identity-Threat & Account-Lockout Hardening (Password Spray, Smart Lockout, SecureToken)",
+"category": "Security",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/macos-identity-threat-account-lockout-hardening-commercial",
+"keywords": [
+"account",
+"hardening",
+"identity",
+"lockout",
+"maclock",
+"macos",
+"password",
+"securetoken",
+"security",
+"smart",
+"spray",
+"threat"
+]
+},
+{
+"slug": "microsoft-365-copilot-secure-adoption-governance",
+"title": "Microsoft 365 Copilot Secure Adoption & Governance",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-copilot-secure-adoption-governance-commercial",
+"keywords": [
+"365",
+"adoption",
+"copilot",
+"governance",
+"microsoft",
+"secure",
+"security"
+]
+},
+{
+"slug": "microsoft-365-copilot-secure-adoption-governance-gcc-high",
+"title": "Microsoft 365 Copilot Secure Adoption & Governance — Government (GCC High)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-copilot-secure-adoption-governance-gcc-high-commercial",
+"keywords": [
+"365",
+"adoption",
+"copilot",
+"copilotg",
+"gcc",
+"governance",
+"government",
+"high",
+"microsoft",
+"secure",
+"security"
+]
+},
+{
+"slug": "m365-purview-ediscovery-administration",
+"title": "Microsoft 365 Purview eDiscovery Administration — Content Search, Cases, Holds & Export",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/m365-purview-ediscovery-administration-commercial",
+"keywords": [
+"365",
+"administration",
+"cases",
+"content",
+"ediscovery",
+"export",
+"holds",
+"microsoft",
+"msedisc",
+"purview",
+"search",
+"security"
+]
+},
+{
+"slug": "microsoft-365-security-baseline-audit-readiness",
+"title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-security-baseline-audit-readiness-commercial",
+"keywords": [
+"365",
+"audit",
+"baseline",
+"compliance",
+"m365sec",
+"manager",
+"microsoft",
+"readiness",
+"score",
+"secure",
+"security"
+]
+},
+{
+"slug": "microsoft-365-security-baseline-audit-readiness-gcc-high",
+"title": "Microsoft 365 Security Baseline & Audit Readiness (Secure Score / Compliance Manager) — Government (GCC High)",
+"category": "Security",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-security-baseline-audit-readiness-gcc-high-commercial",
+"keywords": [
+"365",
+"audit",
+"baseline",
+"compliance",
+"gcc",
+"government",
+"high",
+"m365secg",
+"manager",
+"microsoft",
+"readiness",
+"score",
+"secure",
+"security"
+]
+},
+{
+"slug": "entra-intune-audit-telemetry-sentinel",
+"title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
+"category": "Sentinel Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-intune-audit-telemetry-sentinel-commercial",
+"keywords": [
+"audit",
+"entra",
+"id",
+"intune",
+"microsoft",
+"sentinel",
+"sentlog",
+"telemetry"
+]
+},
+{
+"slug": "entra-intune-audit-telemetry-sentinel-gcc-high",
+"title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel — Government (GCC High)",
+"category": "Sentinel Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-intune-audit-telemetry-sentinel-gcc-high-commercial",
+"keywords": [
+"audit",
+"entra",
+"gcc",
+"government",
+"high",
+"id",
+"intune",
+"microsoft",
+"sentinel",
+"sentlogg",
+"telemetry"
+]
+},
+{
+"slug": "file-share-on-prem-sharepoint-to-sharepoint-online-migration",
+"title": "File-Share & On-Prem SharePoint → SharePoint Online Migration",
+"category": "SharePoint",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/file-share-on-prem-sharepoint-to-sharepoint-online-migration-commercial",
+"keywords": [
+"file",
+"migration",
+"online",
+"prem",
+"share",
+"sharepoint",
+"spomig"
+]
+},
+{
+"slug": "onedrive-for-business-deployment-governance",
+"title": "OneDrive for Business Deployment & Governance",
+"category": "SharePoint",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/onedrive-for-business-deployment-governance-commercial",
+"keywords": [
+"business",
+"governance",
+"odfbgov",
+"onedrive",
+"sharepoint"
+]
+},
+{
+"slug": "sharepoint-online-architecture-site-provisioning-governance",
+"title": "SharePoint Online Architecture & Site Provisioning Governance",
+"category": "SharePoint",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-architecture-site-provisioning-governance-commercial",
+"keywords": [
+"architecture",
+"governance",
+"online",
+"provisioning",
+"sharepoint",
+"site",
+"spoarch"
+]
+},
+{
+"slug": "sharepoint-online-external-sharing-access-governance",
+"title": "SharePoint Online External Sharing & Access Governance",
+"category": "SharePoint",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-external-sharing-access-governance-commercial",
+"keywords": [
+"access",
+"external",
+"governance",
+"online",
+"sharepoint",
+"sharing",
+"spoext"
+]
+},
+{
+"slug": "sharepoint-online-permissions-access-management",
+"title": "SharePoint Online Permissions & Access Management",
+"category": "SharePoint",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-permissions-access-management-commercial",
+"keywords": [
+"access",
+"online",
+"permissions",
+"sharepoint",
+"spoperm"
+]
+},
+{
+"slug": "sharepoint-online-records-retention-information-governance",
+"title": "SharePoint Online Records, Retention & Information Governance",
+"category": "SharePoint",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-records-retention-information-governance-commercial",
+"keywords": [
+"governance",
+"information",
+"online",
+"records",
+"retention",
+"sharepoint",
+"sporecs"
+]
+},
+{
+"slug": "sharepoint-online-search-information-architecture",
+"title": "SharePoint Online Search & Information Architecture",
+"category": "SharePoint",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sharepoint-online-search-information-architecture-commercial",
+"keywords": [
+"architecture",
+"information",
+"online",
+"search",
+"sharepoint",
+"sposearch"
+]
+},
+{
+"slug": "ai-delivery-pods-squads-quality-kpi-framework",
+"title": "AI Delivery Pods/Squads & Engineering-Quality KPI Framework",
+"category": "Synthetic",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/ai-delivery-pods-squads-quality-kpi-framework-commercial",
+"keywords": [
+"ai",
+"aikpi",
+"delivery",
+"engineering",
+"framework",
+"kpi",
+"pods",
+"quality",
+"squads",
+"synthetic"
+]
+},
+{
+"slug": "ai-model-testing-scenario-evaluation-harness",
+"title": "AI Model Testing & Scenario-Based Evaluation Harness (Safe Pre-Production)",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/ai-model-testing-scenario-evaluation-harness-commercial",
+"keywords": [
+"ai",
+"aitest",
+"based",
+"evaluation",
+"harness",
+"model",
+"pre",
+"production",
+"safe",
+"scenario",
+"synthetic",
+"testing"
+]
+},
+{
+"slug": "clinical-synthetic-data-generation-harness",
+"title": "Clinical Synthetic Data Generation Harness (Realistic, Privacy-Conscious EHR Data)",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/clinical-synthetic-data-generation-harness-commercial",
+"keywords": [
+"clinical",
+"conscious",
+"data",
+"ehr",
+"generation",
+"harness",
+"privacy",
+"realistic",
+"synclin",
+"synthetic"
+]
+},
+{
+"slug": "digital-twin-synthetic-data-vendor-integration-framework",
+"title": "Digital-Twin & Synthetic-Data Partner/Vendor Integration Framework",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/digital-twin-synthetic-data-vendor-integration-framework-commercial",
+"keywords": [
+"data",
+"digital",
+"framework",
+"integration",
+"partner",
+"synthetic",
+"synvend",
+"twin",
+"vendor"
+]
+},
+{
+"slug": "hospital-twin-simulated-environment-ai-testing",
+"title": "Hospital Twin — Simulated Hospital Environment for AI Solution Testing",
+"category": "Synthetic",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/hospital-twin-simulated-environment-ai-testing-commercial",
+"keywords": [
+"ai",
+"environment",
+"hospital",
+"hosptwin",
+"simulated",
+"synthetic",
+"testing",
+"twin"
+]
+},
+{
+"slug": "multimodal-clinical-synthetic-data",
+"title": "Multi-Modal Clinical Synthetic Data (Structured + Clinical Notes + Vitals Time-Series)",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/multimodal-clinical-synthetic-data-commercial",
+"keywords": [
+"clinical",
+"data",
+"modal",
+"multi",
+"notes",
+"series",
+"structured",
+"synmulti",
+"synthetic",
+"time",
+"vitals"
+]
+},
+{
+"slug": "privacy-conscious-synthetic-test-environments-deidentification",
+"title": "Privacy-Conscious Synthetic Test Environments — De-Identification & Re-ID Risk",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/privacy-conscious-synthetic-test-environments-deidentification-commercial",
+"keywords": [
+"conscious",
+"de",
+"environments",
+"id",
+"identification",
+"privacy",
+"re",
+"risk",
+"synpriv",
+"synthetic",
+"test"
+]
+},
+{
+"slug": "synthetic-data-fidelity-validation-asset-library",
+"title": "Synthetic Data Fidelity & Validation Asset Library",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/synthetic-data-fidelity-validation-asset-library-commercial",
+"keywords": [
+"asset",
+"data",
+"fidelity",
+"library",
+"synfid",
+"synthetic",
+"validation"
+]
+},
+{
+"slug": "synthetic-data-governance-regulated-healthcare",
+"title": "Synthetic Data Governance for Regulated Healthcare (HIPAA/HITRUST + Enterprise Data Governance)",
+"category": "Synthetic",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/synthetic-data-governance-regulated-healthcare-commercial",
+"keywords": [
+"data",
+"enterprise",
+"governance",
+"healthcare",
+"hipaa",
+"hitrust",
+"regulated",
+"syngov",
+"synthetic"
+]
+},
+{
+"slug": "synthetic-data-subfunction-standup-quality-engineering",
+"title": "Synthetic Data Sub-Function Standup for Quality Engineering (Operating Model, Pods & KPIs)",
+"category": "Synthetic",
+"price": 4995.0,
+"link": "https://workplace.phoenixtekk.com/synthetic-data-subfunction-standup-quality-engineering-commercial",
+"keywords": [
+"data",
+"engineering",
+"function",
+"kpis",
+"model",
+"operating",
+"pods",
+"quality",
+"standup",
+"sub",
+"synfunc",
+"synthetic"
+]
+},
+{
+"slug": "microsoft-teams-apps-integration-governance",
+"title": "Microsoft Teams Apps & Integration Governance",
+"category": "Teams",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-apps-integration-governance-commercial",
+"keywords": [
+"apps",
+"governance",
+"integration",
+"microsoft",
+"teams",
+"teamsapps"
+]
+},
+{
+"slug": "microsoft-teams-external-guest-access-governance",
+"title": "Microsoft Teams External Access & Guest Governance",
+"category": "Teams",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-external-guest-access-governance-commercial",
+"keywords": [
+"access",
+"external",
+"governance",
+"guest",
+"microsoft",
+"teams",
+"teamsext"
+]
+},
+{
+"slug": "microsoft-teams-governance-lifecycle-management",
+"title": "Microsoft Teams Governance & Lifecycle Management",
+"category": "Teams",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-governance-lifecycle-management-commercial",
+"keywords": [
+"governance",
+"lifecycle",
+"microsoft",
+"teams",
+"teamsgov"
+]
+},
+{
+"slug": "microsoft-teams-meetings-webinars-policy-configuration",
+"title": "Microsoft Teams Meetings, Webinars & Policy Configuration",
+"category": "Teams",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-meetings-webinars-policy-configuration-commercial",
+"keywords": [
+"meetings",
+"microsoft",
+"policy",
+"teams",
+"teamsmtg",
+"webinars"
+]
+},
+{
+"slug": "microsoft-teams-phone-calling-plans-operator-connect",
+"title": "Microsoft Teams Phone Enablement — Calling Plans & Operator Connect",
+"category": "Teams",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-phone-calling-plans-operator-connect-commercial",
+"keywords": [
+"calling",
+"connect",
+"enablement",
+"microsoft",
+"operator",
+"phone",
+"plans",
+"teams",
+"teamsphone"
+]
+},
+{
+"slug": "microsoft-teams-rooms-deployment-management",
+"title": "Microsoft Teams Rooms Deployment & Management",
+"category": "Teams",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-rooms-deployment-management-commercial",
+"keywords": [
+"microsoft",
+"rooms",
+"teams",
+"teamsrooms"
+]
+},
+{
+"slug": "microsoft-teams-security-compliance-information-barriers-retention",
+"title": "Microsoft Teams Security & Compliance — Information Barriers, Retention & DLP",
+"category": "Teams",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-teams-security-compliance-information-barriers-retention-commercial",
+"keywords": [
+"barriers",
+"compliance",
+"dlp",
+"information",
+"microsoft",
+"retention",
+"security",
+"teams",
+"teamscomp"
+]
+}
+]

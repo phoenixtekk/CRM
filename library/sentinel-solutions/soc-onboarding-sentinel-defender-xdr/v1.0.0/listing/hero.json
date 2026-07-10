@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "SOC Onboarding",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Sentinel + XDR",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Unified · Correlated · Fast",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TWO CONSOLES",
+    "items": [
+      "Duplicate incidents",
+      "No correlation",
+      "Console-hopping",
+      "Missed links"
+    ]
+  },
+  "to": {
+    "label": "Unified SOC Queue",
+    "stat": "One list · Correlated"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Unified Queue",
+      "sub": "One incident list"
+    },
+    {
+      "icon": "chart",
+      "title": "Correlation",
+      "sub": "Identity→endpoint→email"
+    },
+    {
+      "icon": "users",
+      "title": "Analyst Workflow",
+      "sub": "Triage & hand-off"
+    },
+    {
+      "icon": "gear",
+      "title": "Aligned Severity",
+      "sub": "One priority scheme"
+    }
+  ]
+}

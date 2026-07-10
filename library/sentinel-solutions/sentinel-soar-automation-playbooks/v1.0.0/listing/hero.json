@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Sentinel SOAR",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Playbooks",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Automate · Enrich · Respond",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL SOC",
+    "items": [
+      "Analyst toil",
+      "Slow triage",
+      "Missed SLAs",
+      "Burnout"
+    ]
+  },
+  "to": {
+    "label": "Automated Response",
+    "stat": "Triaged · Enriched · Fast"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Automation Rules",
+      "sub": "Auto-triage"
+    },
+    {
+      "icon": "cloud",
+      "title": "Logic App Playbooks",
+      "sub": "Enrich & notify"
+    },
+    {
+      "icon": "lock",
+      "title": "Approval-Gated",
+      "sub": "Safe response actions"
+    },
+    {
+      "icon": "chart",
+      "title": "Faster MTTR",
+      "sub": "Machine-speed"
+    }
+  ]
+}

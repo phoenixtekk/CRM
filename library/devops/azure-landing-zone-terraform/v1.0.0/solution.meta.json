@@ -1,0 +1,39 @@
+{
+  "slug": "azure-landing-zone-terraform",
+  "title": "Azure Landing Zone with Terraform",
+  "category": "DevOps",
+  "category_slug": "devops",
+  "sol_code": "IACTF",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW DevOps category. Terraform (.tf) + PowerShell + YAML pipelines. Provider/module versions flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-IACTF-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-IACTF-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-IACTF-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "IACTF-Complete-Solution.zip"
+  ],
+  "hero": "IACTF-hero.png"
+}
+

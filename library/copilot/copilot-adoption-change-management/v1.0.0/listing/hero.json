@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Copilot Adoption",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Change Mgmt",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Champions · Train · Measure",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SHELFWARE",
+    "items": [
+      "Licensed, unused",
+      "No champions",
+      "No training",
+      "No ROI"
+    ]
+  },
+  "to": {
+    "label": "Daily Habit",
+    "stat": "Adopted · Trained · Measured"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Champions",
+      "sub": "Peer-led adoption"
+    },
+    {
+      "icon": "chart",
+      "title": "Use-Case Catalog",
+      "sub": "Role-based value"
+    },
+    {
+      "icon": "gear",
+      "title": "Training Cadence",
+      "sub": "Enablement comms"
+    },
+    {
+      "icon": "key",
+      "title": "Usage Analytics",
+      "sub": "Prove ROI"
+    }
+  ]
+}

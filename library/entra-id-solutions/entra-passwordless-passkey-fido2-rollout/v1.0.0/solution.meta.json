@@ -1,0 +1,39 @@
+{
+  "slug": "entra-passwordless-passkey-fido2-rollout",
+  "title": "Passwordless & Passkey (FIDO2) Rollout for Microsoft Entra",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTPASSKEY",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-09",
+  "updated": "2026-07-09",
+  "published_at": "2026-07-09",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Entra line. Graph/PowerShell. Passkey feature availability flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTPASSKEY-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTPASSKEY-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTPASSKEY-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTPASSKEY-Complete-Solution.zip"
+  ],
+  "hero": "ENTPASSKEY-hero.png"
+}
+

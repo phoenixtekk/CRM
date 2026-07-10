@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Copilot Governance",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Labels & DLP",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Govern · Restrict · Audit",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AI",
+    "items": [
+      "No labels",
+      "No DLP",
+      "Sensitive in AI",
+      "No audit"
+    ]
+  },
+  "to": {
+    "label": "Governed Copilot",
+    "stat": "Labeled · Guardrailed · Audited"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Sensitivity Labels",
+      "sub": "Scope AI access"
+    },
+    {
+      "icon": "shield",
+      "title": "DLP for Copilot",
+      "sub": "Block sensitive"
+    },
+    {
+      "icon": "chart",
+      "title": "Audit Trail",
+      "sub": "eDiscovery-ready"
+    },
+    {
+      "icon": "gear",
+      "title": "Simulate First",
+      "sub": "Before enforce"
+    }
+  ]
+}

@@ -32,6 +32,10 @@ SOURCE_ORDER = [
     "global-requirements-sharepoint.md",
     "global-requirements-android.md",
     "global-requirements-purview.md",
+    "global-requirements-copilot.md",
+    "global-requirements-devops.md",
+    "global-requirements-sentinel-solutions.md",
+    "global-requirements-entra-id-solutions.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",
@@ -123,7 +127,7 @@ def strip_inline(s):
     return s.replace("**", "").replace("`", "")
 
 
-SCRIPT_EXTS = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst")
+SCRIPT_EXTS = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst", "*.tf", "*.bicep", "*.yml", "*.yaml")
 
 
 def script_files(d):

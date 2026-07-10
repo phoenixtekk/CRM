@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create a Solution — Phoenixtekk Workplace Marketplace</title>
+<meta name="description" content="Describe the Microsoft or cloud outcome you need. We check our 380+ solution catalog instantly — and build anything new, typically within a day.">
+<style>
+  :root{
+    --bg:#070d18; --card:#111d34; --ink:#eef3fc; --mut:#9db0d0; --line:#233350;
+    --brand:#3b82f6; --brand2:#22c55e; --accent:#38bdf8;
+  }
+  *{box-sizing:border-box} html,body{margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);
+    background:
+      radial-gradient(900px 500px at 80% -10%, rgba(56,189,248,.18), transparent 60%),
+      radial-gradient(900px 520px at 12% 8%, rgba(34,197,94,.14), transparent 55%),
+      var(--bg);
+    min-height:100vh; -webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  /* top bar */
+  .top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em}
+  .brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:inline-block;box-shadow:0 6px 18px rgba(59,130,246,.4)}
+  .brand small{display:block;font-weight:600;font-size:11px;color:var(--mut);letter-spacing:.14em;text-transform:uppercase}
+  .signin{font-size:13px;color:var(--ink);border:1px solid var(--line);padding:8px 14px;border-radius:10px}
+  .signin:hover{border-color:var(--brand)}
+  /* hero */
+  .hero{text-align:center;padding:52px 0 8px}
+  .eyebrow{display:inline-block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);
+    border:1px solid var(--line);border-radius:999px;padding:6px 14px;margin-bottom:20px;background:rgba(56,189,248,.06)}
+  h1{font-size:clamp(32px,6vw,58px);line-height:1.03;margin:0 0 16px;font-weight:800;letter-spacing:-.025em}
+  h1 .g{background:linear-gradient(92deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lede{font-size:clamp(16px,2.3vw,20px);color:var(--mut);max-width:640px;margin:0 auto 30px}
+  /* chatbox */
+  .box{max-width:720px;margin:0 auto}
+  .emailrow{margin-bottom:12px}
+  .emailrow input{width:100%;background:#0d1830;border:1px solid var(--line);color:var(--ink);border-radius:14px;padding:13px 15px;font-size:14px;outline:none}
+  .emailrow input:focus{border-color:var(--brand)}
+  .chatbox{position:relative;background:#0d1830;border:1px solid var(--line);border-radius:30px;padding:20px 20px 60px;
+    box-shadow:0 30px 80px rgba(0,0,0,.5)}
+  .chatbox:focus-within{border-color:var(--brand2);box-shadow:0 0 0 3px rgba(34,197,94,.16),0 30px 80px rgba(0,0,0,.5)}
+  .chatbox .cap{font-size:12.5px;color:var(--accent);font-weight:700;letter-spacing:.03em;margin-bottom:8px}
+  .chatbox textarea{width:100%;min-height:96px;resize:vertical;background:transparent;border:0;outline:none;color:var(--ink);font-size:16px;line-height:1.5;font-family:inherit}
+  .chatbox textarea::placeholder{color:#5f769a}
+  .chatbox .hint{position:absolute;left:20px;right:70px;bottom:20px;color:#5b6f92;font-size:12.5px;pointer-events:none}
+  .chatbox.filled .hint{display:none}
+  .chatbox .send{position:absolute;right:14px;bottom:14px;width:44px;height:44px;border-radius:50%;border:0;cursor:pointer;
+    background:linear-gradient(135deg,var(--brand2),#16a34a);color:#fff;font-size:19px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(34,197,94,.4)}
+  .send:hover{transform:scale(1.06)} .send:disabled{opacity:.6;cursor:default}
+  .hp{position:absolute;left:-9999px}
+  /* tier note */
+  .tier{max-width:720px;margin:16px auto 0;display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;
+    font-size:13px;color:var(--mut)}
+  .tier b{color:var(--ink)} .tier .pill{border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+  /* results */
+  .results{max-width:720px;margin:26px auto 0;display:none}
+  .status{background:#0e1830;border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin-bottom:14px}
+  .status h3{margin:0 0 4px;font-size:16px} .status p{margin:0;color:var(--mut);font-size:13.5px}
+  .match{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);
+    border-radius:14px;padding:13px 15px;margin-bottom:10px}
+  .match:hover{border-color:var(--brand)}
+  .match .t{font-weight:700;font-size:14px} .match .c{color:var(--accent);font-size:12px}
+  .match .price{color:var(--mut);font-size:12px}
+  .match .go{background:linear-gradient(92deg,var(--brand),#2563eb);color:#fff;border-radius:10px;padding:8px 13px;font-weight:700;font-size:13px;white-space:nowrap}
+  .err{display:none;color:#fca5a5;font-size:13px;margin-top:10px;text-align:center}
+  /* what-you-get clarifier */
+  .whatis{max-width:640px;margin:0 auto 26px;font-size:13.5px;color:var(--mut);background:rgba(56,189,248,.06);
+    border:1px solid var(--line);border-radius:12px;padding:11px 15px}
+  .whatis b{color:var(--ink)}
+  /* signed-in banner */
+  .signedin{display:none;max-width:720px;margin:14px auto 0;font-size:13px;color:#bff0cf;background:rgba(34,197,94,.10);
+    border:1px solid rgba(34,197,94,.35);border-radius:12px;padding:10px 14px;text-align:center}
+  /* rotating featured cards */
+  .featwrap{max-width:720px;margin:34px auto 0}
+  .feathead{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .feathead h2{font-size:15px;margin:0;font-weight:700;color:var(--ink)}
+  .feathead .shuffle{font-size:12.5px;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:5px 11px;cursor:pointer;background:transparent}
+  .feathead .shuffle:hover{border-color:var(--brand)}
+  .featgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media(max-width:560px){.featgrid{grid-template-columns:1fr}}
+  .fcard{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;transition:.15s}
+  .fcard:hover{border-color:var(--brand);transform:translateY(-2px)}
+  .fcard .fc{color:var(--accent);font-size:11.5px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .fcard .ft{font-weight:700;font-size:13.5px;margin:4px 0 3px;line-height:1.3}
+  .fcard .fb{color:var(--mut);font-size:12px} .fcard .fp{color:var(--mut);font-size:12px;margin-top:6px}
+  footer{border-top:1px solid var(--line);margin-top:56px;padding:24px 0;color:var(--mut);font-size:13px;text-align:center}
+  footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="brand" href="https://workplace.phoenixtekk.com"><span class="dot"></span><span>PHOENIXTEKK<small>Workplace Marketplace</small></span></a>
+    <a class="signin" id="signin" href="https://workplace.phoenixtekk.com/customer/login">Sign in →</a>
+  </div>
+
+  <section class="hero">
+    <span class="eyebrow">Solution Generator</span>
+    <h1>Describe it.<br><span class="g">We'll build it.</span></h1>
+    <p class="lede">Tell us the Microsoft or cloud outcome you need. We check our 380+ ready-to-deploy
+      solutions instantly — and if it's new, we build it, typically within a day.</p>
+    <div class="whatis">💡 <b>What "we build it" means:</b> we create the complete <b>click-by-click
+      implementation documentation</b> (Word/PDF guide) plus <b>tested PowerShell scripts</b> — a
+      productized solution your team follows to deploy it. We productize the <em>setup</em>; we don't write custom software.</div>
+
+    <div class="box">
+      <form id="genForm" novalidate>
+        <div class="emailrow">
+          <input type="email" id="email" name="email" autocomplete="email" placeholder="Work email (so we can send your solution)">
+        </div>
+        <div class="chatbox">
+          <div class="cap">DESCRIBE THE SOLUTION YOU WANT</div>
+          <textarea id="ask" name="ask" aria-label="Describe the solution you want"></textarea>
+          <span class="hint" id="hint">e.g. "I want to enroll iOS Shared iPhones, COD and BYOD devices using ADE with MFA enforcement for Enrollment"</span>
+          <button type="submit" class="send" id="send" title="Generate" aria-label="Generate">➤</button>
+        </div>
+        <input class="hp" type="text" name="company_website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="src" id="f_src"><input type="hidden" name="utm_source" id="f_utm">
+      </form>
+
+      <div class="signedin" id="signedin"></div>
+      <div class="tier">
+        <span class="pill" id="tierPill">Free preview</span>
+        <span id="tierMsg">Sign in as a customer for <b>priority builds</b>, <b>Commercial/NPO/GCC-High options</b>, <b>saved history</b> &amp; <b>downloads</b>.</span>
+      </div>
+
+      <div class="results" id="results"></div>
+      <div class="err" id="err"></div>
+
+      <div class="featwrap" id="featwrap" style="display:none">
+        <div class="feathead">
+          <h2>Popular ready-to-deploy solutions</h2>
+          <button type="button" class="shuffle" id="shuffle">↻ Show me others</button>
+        </div>
+        <div class="featgrid" id="featgrid"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="wrap">
+  Phoenixtekk Workplace Marketplace · <a href="https://workplace.phoenixtekk.com">workplace.phoenixtekk.com</a>
+  · admin@phoenixtekk.com · Commercial &amp; Government (GCC High)
+</footer>
+
+<script>
+(function(){
+  var ENDPOINT="create-endpoint.php", STORE="https://workplace.phoenixtekk.com";
+  var q=new URLSearchParams(location.search), src=q.get('src')||q.get('utm_source')||'create';
+  document.getElementById('f_src').value=src; document.getElementById('f_utm').value=q.get('utm_source')||src;
+
+  // beacon the arrival
+  try{ var pv=JSON.stringify({type:'pageview',src:src,path:'/create',referrer:document.referrer||'',ts:new Date().toISOString()});
+    if(navigator.sendBeacon) navigator.sendBeacon(ENDPOINT,new Blob([pv],{type:'application/json'})); }catch(e){}
+
+  // ---- v2: detect a REAL logged-in store customer via /api/me (session cookie) ----
+  var authToken='';
+  fetch('/api/me',{credentials:'same-origin',headers:{'Accept':'application/json'}})
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(m){
+      if(m&&m.authenticated){
+        authToken=m.token||'';
+        var em=document.getElementById('email'); if(m.email){ em.value=m.email; em.readOnly=true; }
+        document.getElementById('tierPill').textContent='Customer · priority';
+        document.getElementById('tierPill').style.borderColor='#22c55e';
+        document.getElementById('tierMsg').innerHTML='You have <b>priority builds</b>, <b>Commercial/NPO/GCC-High options</b>, saved history &amp; downloads.';
+        var si=document.getElementById('signedin'); si.innerHTML='✅ Signed in as <b>'+em.value+'</b> — customer tier active.'; si.style.display='block';
+        var so=document.getElementById('signin'); if(so){ so.textContent='My account →'; so.href='https://workplace.phoenixtekk.com/customer/account/profile'; }
+      }
+    }).catch(function(){});
+
+  // ---- rotating featured cards (different set each visit) ----
+  var POOL=[];
+  function shuffle(a){ for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i];a[i]=a[j];a[j]=t; } return a; }
+  function pickDiverse(pool,n){ var seen={},out=[],rest=[]; shuffle(pool.slice()).forEach(function(c){ if(out.length<n&&!seen[c.category]){ seen[c.category]=1; out.push(c);} else rest.push(c); }); while(out.length<n&&rest.length) out.push(rest.shift()); return out; }
+  function renderFeatured(){
+    if(!POOL.length) return;
+    var pick=pickDiverse(POOL,4), g=document.getElementById('featgrid'); g.innerHTML='';
+    pick.forEach(function(c){
+      var a=document.createElement('a'); a.className='fcard'; a.target='_blank'; a.rel='noopener';
+      a.href=c.link+'?src='+encodeURIComponent(src);
+      a.innerHTML='<div class="fc">'+esc(c.category)+'</div><div class="ft">'+esc(c.title)+'</div>'+
+                  '<div class="fb">'+esc(c.blurb||'')+'</div>'+(c.price?'<div class="fp">from $'+c.price+'</div>':'');
+      g.appendChild(a);
+    });
+    document.getElementById('featwrap').style.display='block';
+  }
+  fetch('featured.json').then(function(r){return r.ok?r.json():[];}).then(function(d){ POOL=d||[]; renderFeatured(); }).catch(function(){});
+  document.getElementById('shuffle').addEventListener('click',renderFeatured);
+
+  var ta=document.getElementById('ask');
+  ta.addEventListener('input',function(){ ta.parentNode.classList.toggle('filled',ta.value.length>0); });
+
+  var form=document.getElementById('genForm'), results=document.getElementById('results'), err=document.getElementById('err'),
+      send=document.getElementById('send'), tierPill=document.getElementById('tierPill'), tierMsg=document.getElementById('tierMsg');
+
+  function esc(s){ return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+  form.addEventListener('submit',function(ev){
+    ev.preventDefault(); err.style.display='none';
+    var email=document.getElementById('email').value.trim(), ask=ta.value.trim();
+    if(!email||email.indexOf('@')<1||ask.length<6){ err.textContent='Add your work email and a short description of what you need.'; err.style.display='block'; return; }
+    // client-side soft cap (server enforces the real limit): anon browsers get a gentle nudge
+    if(!authToken){
+      var day=new Date().toISOString().slice(0,10), kc='wm_create_'+day;
+      var n=parseInt(localStorage.getItem(kc)||'0',10);
+      if(n>=3){ err.textContent='You have reached today’s free preview limit. Sign in as a customer for more, or email admin@phoenixtekk.com.'; err.style.display='block'; return; }
+      localStorage.setItem(kc,String(n+1));
+    }
+    send.disabled=true; send.textContent='…';
+    var fd=new FormData(form), payload={type:'generate'}; fd.forEach(function(v,k){payload[k]=v;});
+    if(authToken) payload.token=authToken;
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+      .then(function(r){return r.json();})
+      .then(function(d){
+        send.disabled=false; send.textContent='➤';
+        if(!d||!d.ok){ err.textContent=(d&&d.error)||'Something went wrong — email admin@phoenixtekk.com.'; err.style.display='block'; return; }
+        if(d.tier==='customer'){ tierPill.textContent='Customer · priority'; tierPill.style.borderColor='#22c55e'; tierMsg.innerHTML='Priority build queued to your account. You can request tier &amp; GCC-High variants.'; }
+        var html='';
+        var covered=d.matches&&d.matches.length;
+        html+='<div class="status"><h3>'+(covered?'We may already have this ✅':'Great — this looks new 🚀')+'</h3>'+
+              '<p>'+(covered?'Closest matches from the catalog are below. If none fit, your request is queued — we build new solutions in ~1 day and email you the listing.':'Your request is queued. We build new solutions typically within 1 business day and email you the listing at '+esc(email)+'.')+'</p></div>';
+        if(covered){
+          d.matches.forEach(function(m){
+            html+='<a class="match" href="'+esc(m.link)+'?src='+encodeURIComponent(src)+'" target="_blank" rel="noopener">'+
+                  '<div><div class="c">'+esc(m.category)+'</div><div class="t">'+esc(m.title)+'</div>'+
+                  (m.price?'<div class="price">from $'+m.price+'</div>':'')+'</div>'+
+                  '<span class="go">View →</span></a>';
+          });
+        }
+        results.innerHTML=html; results.style.display='block';
+        form.querySelector('.chatbox').style.opacity='.6';
+      })
+      .catch(function(){ send.disabled=false; send.textContent='➤'; err.textContent='Network error — email admin@phoenixtekk.com and we’ll jump on it.'; err.style.display='block'; });
+  });
+})();
+</script>
+</body>
+</html>
