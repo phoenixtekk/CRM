@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-fabric-power-bi-governance-administration",
+  "title": "Microsoft Fabric & Power BI Governance & Administration",
+  "category": "Data",
+  "category_slug": "data",
+  "sol_code": "FABGOV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Data category. PowerShell (MicrosoftPowerBIMgmt / Fabric admin) + REST admin API. GAP-DEDUPED: existing Purview solutions cover *sensitivity labeling* + *Purview reporting* for Power BI/Fabric — this is platform *administration/governance* (tenant settings, capacities, workspaces, pipelines). Fabric feature/preview flagged verify; data-classification determinations deferred to compliance."
+  ],
+  "products": [
+    {
+      "sku": "PTK-FABGOV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-FABGOV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-FABGOV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "FABGOV-Complete-Solution.zip"
+  ],
+  "hero": "FABGOV-hero.png"
+}
+

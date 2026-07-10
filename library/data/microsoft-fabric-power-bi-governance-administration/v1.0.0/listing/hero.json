@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Fabric & Power BI",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Tenant · Capacity · Lifecycle",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "ANALYTICS SPRAWL",
+    "items": [
+      "Uncontrolled workspaces",
+      "Over-shared reports",
+      "Mystery spend",
+      "No lifecycle"
+    ]
+  },
+  "to": {
+    "label": "Governed Platform",
+    "stat": "Controlled · Monitored · Pipelined"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Tenant Baseline",
+      "sub": "Sharing/export control"
+    },
+    {
+      "icon": "chart",
+      "title": "Capacity Mgmt",
+      "sub": "Monitor spend"
+    },
+    {
+      "icon": "users",
+      "title": "Workspace Model",
+      "sub": "Roles & access"
+    },
+    {
+      "icon": "cloud",
+      "title": "Deployment Pipelines",
+      "sub": "Dev→prod"
+    }
+  ]
+}

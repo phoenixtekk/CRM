@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "azure-virtual-desktop-deployment-golden-image-fslogix",
+    "title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix",
+    "category_path": [
+      "Azure"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AVDDEP-COMM-001",
+      "name": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost.</p>",
+      "description": "<h3>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost.</h3><p>Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and workspaces, a versioned golden image (with an image-build pipeline), FSLogix profile containers on Azure Files/NetApp, app groups and RBAC, and scaling plans that shut idle hosts down.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Host pools, workspaces, and application groups with RBAC</li><li>Golden image build + versioning (Azure Compute Gallery / image pipeline)</li><li>FSLogix profile containers on Azure Files or NetApp Files</li><li>Session-host deployment (Bicep/Terraform) and drain/patch workflow</li><li>Autoscale scaling plans and cost controls</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A repeatable, cost-controlled AVD estate with consistent golden images and roaming profiles — not hand-built snowflake hosts.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AVDDEP-Discovery.ps1</code> &mdash; Inventory the AVD build estate: Compute Gallery images, host pools, session hosts, FSLogix storage, and scaling plans</li><li><code>AVDDEP-Maintenance.ps1</code> &mdash; Safe drain-and-patch workflow: preview (default) or apply drain mode on session hosts ahead of an image-version replacement</li><li><code>AVDDEP-Report.ps1</code> &mdash; Produce an inventory/cost-posture report of the AVD deployment estate (images, hosts, drain status, scaling schedules, VM sizing)</li><li><code>AVDDEP-Validate.ps1</code> &mdash; Validate the built AVD estate against the deployment gates (image provenance, host health, FSLogix, RBAC, scaling)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix",
+      "meta_description": "Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and wo",
+      "url_key": "azure-virtual-desktop-deployment-golden-image-fslogix-commercial",
+      "image": "AVDDEP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AVDDEP-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AVDDEP-NPO-001",
+      "name": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost.</h3><p>Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and workspaces, a versioned golden image (with an image-build pipeline), FSLogix profile containers on Azure Files/NetApp, app groups and RBAC, and scaling plans that shut idle hosts down.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Host pools, workspaces, and application groups with RBAC</li><li>Golden image build + versioning (Azure Compute Gallery / image pipeline)</li><li>FSLogix profile containers on Azure Files or NetApp Files</li><li>Session-host deployment (Bicep/Terraform) and drain/patch workflow</li><li>Autoscale scaling plans and cost controls</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AVDDEP-Discovery.ps1</code> &mdash; Inventory the AVD build estate: Compute Gallery images, host pools, session hosts, FSLogix storage, and scaling plans</li><li><code>AVDDEP-Maintenance.ps1</code> &mdash; Safe drain-and-patch workflow: preview (default) or apply drain mode on session hosts ahead of an image-version replacement</li><li><code>AVDDEP-Report.ps1</code> &mdash; Produce an inventory/cost-posture report of the AVD deployment estate (images, hosts, drain status, scaling schedules, VM sizing)</li><li><code>AVDDEP-Validate.ps1</code> &mdash; Validate the built AVD estate against the deployment gates (image provenance, host health, FSLogix, RBAC, scaling)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and wo",
+      "url_key": "azure-virtual-desktop-deployment-golden-image-fslogix-nonprofit",
+      "image": "AVDDEP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AVDDEP-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AVDDEP-GOV-001",
+      "name": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Stand up Azure Virtual Desktop the right way — host pools, a golden image, FSLogix profiles, and autoscale that controls cost.</h3><p>Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and workspaces, a versioned golden image (with an image-build pipeline), FSLogix profile containers on Azure Files/NetApp, app groups and RBAC, and scaling plans that shut idle hosts down.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Host pools, workspaces, and application groups with RBAC</li><li>Golden image build + versioning (Azure Compute Gallery / image pipeline)</li><li>FSLogix profile containers on Azure Files or NetApp Files</li><li>Session-host deployment (Bicep/Terraform) and drain/patch workflow</li><li>Autoscale scaling plans and cost controls</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AVDDEP-Discovery.ps1</code> &mdash; Inventory the AVD build estate: Compute Gallery images, host pools, session hosts, FSLogix storage, and scaling plans</li><li><code>AVDDEP-Maintenance.ps1</code> &mdash; Safe drain-and-patch workflow: preview (default) or apply drain mode on session hosts ahead of an image-version replacement</li><li><code>AVDDEP-Report.ps1</code> &mdash; Produce an inventory/cost-posture report of the AVD deployment estate (images, hosts, drain status, scaling schedules, VM sizing)</li><li><code>AVDDEP-Validate.ps1</code> &mdash; Validate the built AVD estate against the deployment gates (image provenance, host health, FSLogix, RBAC, scaling)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Deploying AVD by hand produces snowflake session hosts, roaming-profile pain, and a runaway bill. This solution builds AVD properly: host pools and wo",
+      "url_key": "azure-virtual-desktop-deployment-golden-image-fslogix-government",
+      "image": "AVDDEP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AVDDEP-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

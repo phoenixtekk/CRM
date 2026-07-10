@@ -39,6 +39,9 @@ SOURCE_ORDER = [
     "global-requirements-defender.md",
     "global-requirements-aws.md",
     "global-requirements-observability.md",
+    "global-requirements-azure-solutions.md",
+    "global-requirements-backup-dr-solutions.md",
+    "global-requirements-data.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",
     "04-use-and-login.md",
@@ -130,7 +133,7 @@ def strip_inline(s):
     return s.replace("**", "").replace("`", "")
 
 
-SCRIPT_EXTS = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst", "*.tf", "*.bicep", "*.yml", "*.yaml")
+SCRIPT_EXTS = ("*.ps1", "*.sh", "*.py", "*.sql", "*.wlst", "*.tf", "*.bicep", "*.yml", "*.yaml", "*.kql")
 
 
 def script_files(d):

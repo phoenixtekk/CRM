@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Backup",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Site Recovery",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Protect · Replicate · Failover",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HOPE-AS-DR",
+    "items": [
+      "Unprotected VMs",
+      "No policies",
+      "No replication",
+      "Untested failover"
+    ]
+  },
+  "to": {
+    "label": "Provable DR",
+    "stat": "Backed up · Replicated · Tested"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Backup Vaults",
+      "sub": "Soft delete + immutable"
+    },
+    {
+      "icon": "gear",
+      "title": "Backup Policies",
+      "sub": "VM/Files/SQL"
+    },
+    {
+      "icon": "cloud",
+      "title": "Site Recovery",
+      "sub": "Replication"
+    },
+    {
+      "icon": "shield",
+      "title": "Test Failover",
+      "sub": "RPO/RTO proven"
+    }
+  ]
+}

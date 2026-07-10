@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Virtual Desktop",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deploy & Image",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Host Pools · FSLogix · Autoscale",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SNOWFLAKE VDI",
+    "items": [
+      "Hand-built hosts",
+      "Profile pain",
+      "No autoscale",
+      "Runaway cost"
+    ]
+  },
+  "to": {
+    "label": "Managed AVD",
+    "stat": "Imaged · Profiled · Scaled"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "device",
+      "title": "Host Pools",
+      "sub": "Workspaces + RBAC"
+    },
+    {
+      "icon": "chip",
+      "title": "Golden Image",
+      "sub": "Versioned build"
+    },
+    {
+      "icon": "cloud",
+      "title": "FSLogix",
+      "sub": "Roaming profiles"
+    },
+    {
+      "icon": "gear",
+      "title": "Autoscale",
+      "sub": "Cost control"
+    }
+  ]
+}

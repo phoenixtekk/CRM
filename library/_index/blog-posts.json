@@ -2008,5 +2008,30 @@
     "post_id": 12637,
     "status": "draft",
     "category_id": 411
+  },
+  "azure-virtual-desktop-deployment-golden-image-fslogix": {
+    "post_id": 12639,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-kubernetes-service-aks-secure-baseline": {
+    "post_id": 12641,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-fabric-power-bi-governance-administration": {
+    "post_id": 12643,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-backup-site-recovery-deployment-configuration": {
+    "post_id": 12645,
+    "status": "draft",
+    "category_id": 411
+  },
+  "threat-hunting-kql-defender-xdr-sentinel": {
+    "post_id": 12647,
+    "status": "draft",
+    "category_id": 411
   }
 }

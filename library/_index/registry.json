@@ -3306,6 +3306,171 @@
     "product_count": 3
   },
   {
+    "title": "Azure Kubernetes Service (AKS) Secure Baseline",
+    "slug": "azure-kubernetes-service-aks-secure-baseline",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "AKSSEC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AKSSEC-COMM-001",
+      "PTK-AKSSEC-NPO-001",
+      "PTK-AKSSEC-GOV-001"
+    ],
+    "deliverables": [
+      "AKSSEC-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\azure-kubernetes-service-aks-secure-baseline\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/03-implementation.md",
+          "kb": 8.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/07-best-practices.md",
+          "kb": 3.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AKSSEC-baseline.yaml",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/scripts/AKSSEC-baseline.yaml",
+          "kb": 4.3
+        },
+        {
+          "name": "AKSSEC-Discovery.ps1",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/scripts/AKSSEC-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "AKSSEC-main.tf",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/scripts/AKSSEC-main.tf",
+          "kb": 7.5
+        },
+        {
+          "name": "AKSSEC-Report.ps1",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/scripts/AKSSEC-Report.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "AKSSEC-Validate.ps1",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/scripts/AKSSEC-Validate.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AKSSEC-Complete-Solution.zip",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-Complete-Solution.zip",
+          "kb": 103.0
+        },
+        {
+          "name": "AKSSEC-hero.png",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-hero.png",
+          "kb": 476.3
+        },
+        {
+          "name": "AKSSEC-hero.svg",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AKSSEC-Scripts.zip",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "AKSSEC-Solution.docx",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-Solution.docx",
+          "kb": 55.3
+        },
+        {
+          "name": "AKSSEC-Solution.pdf",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-Solution.pdf",
+          "kb": 56.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/azure-kubernetes-service-aks-secure-baseline/v1.0.0/deliverables/AKSSEC-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
     "slug": "azure-security-baseline-governance",
     "category": "Azure",
@@ -3640,6 +3805,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../azure-solutions/azure-security-baseline-governance-gcc-high/v1.0.0/deliverables/AZSECG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure Virtual Desktop — Deployment, Golden Image & FSLogix",
+    "slug": "azure-virtual-desktop-deployment-golden-image-fslogix",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "AVDDEP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AVDDEP-COMM-001",
+      "PTK-AVDDEP-NPO-001",
+      "PTK-AVDDEP-GOV-001"
+    ],
+    "deliverables": [
+      "AVDDEP-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\azure-virtual-desktop-deployment-golden-image-fslogix\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/02-requirements.md",
+          "kb": 7.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/03-implementation.md",
+          "kb": 9.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/05-testing.md",
+          "kb": 4.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AVDDEP-Discovery.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/scripts/AVDDEP-Discovery.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "AVDDEP-Maintenance.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/scripts/AVDDEP-Maintenance.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "AVDDEP-Report.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/scripts/AVDDEP-Report.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "AVDDEP-SessionHosts.bicep",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/scripts/AVDDEP-SessionHosts.bicep",
+          "kb": 7.7
+        },
+        {
+          "name": "AVDDEP-Validate.ps1",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/scripts/AVDDEP-Validate.ps1",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AVDDEP-Complete-Solution.zip",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-Complete-Solution.zip",
+          "kb": 110.6
+        },
+        {
+          "name": "AVDDEP-hero.png",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-hero.png",
+          "kb": 441.5
+        },
+        {
+          "name": "AVDDEP-hero.svg",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AVDDEP-Scripts.zip",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "AVDDEP-Solution.docx",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "AVDDEP-Solution.pdf",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-Solution.pdf",
+          "kb": 62.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/azure-virtual-desktop-deployment-golden-image-fslogix/v1.0.0/deliverables/AVDDEP-hero.png",
     "product_count": 3
   },
   {
@@ -4817,6 +5147,171 @@
     "product_count": 3
   },
   {
+    "title": "Azure Backup & Site Recovery — Deployment & Configuration",
+    "slug": "azure-backup-site-recovery-deployment-configuration",
+    "category": "Backup & DR Solutions",
+    "category_slug": "backup-dr-solutions",
+    "sol_code": "BCKDR",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-BCKDR-COMM-001",
+      "PTK-BCKDR-NPO-001",
+      "PTK-BCKDR-GOV-001"
+    ],
+    "deliverables": [
+      "BCKDR-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\backup-dr-solutions\\azure-backup-site-recovery-deployment-configuration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/03-implementation.md",
+          "kb": 10.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/executive-summary.md",
+          "kb": 4.7
+        },
+        {
+          "name": "global-requirements-backup-dr-solutions.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/source/global-requirements-backup-dr-solutions.md",
+          "kb": 4.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "BCKDR-Deploy.bicep",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/scripts/BCKDR-Deploy.bicep",
+          "kb": 5.9
+        },
+        {
+          "name": "BCKDR-Discovery.ps1",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/scripts/BCKDR-Discovery.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "BCKDR-EnableProtection.ps1",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/scripts/BCKDR-EnableProtection.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "BCKDR-Report.ps1",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/scripts/BCKDR-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "BCKDR-Validate.ps1",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/scripts/BCKDR-Validate.ps1",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "BCKDR-Complete-Solution.zip",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-Complete-Solution.zip",
+          "kb": 108.7
+        },
+        {
+          "name": "BCKDR-hero.png",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-hero.png",
+          "kb": 415.5
+        },
+        {
+          "name": "BCKDR-hero.svg",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "BCKDR-Scripts.zip",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-Scripts.zip",
+          "kb": 10.1
+        },
+        {
+          "name": "BCKDR-Solution.docx",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "BCKDR-Solution.pdf",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-Solution.pdf",
+          "kb": 60.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../backup-dr-solutions/azure-backup-site-recovery-deployment-configuration/v1.0.0/deliverables/BCKDR-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Backup Validation & Recoverability Assurance Program",
     "slug": "backup-validation-recoverability-assurance",
     "category": "Backup & DR Solutions",
@@ -5639,6 +6134,171 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../copilot/copilot-oversharing-sharepoint-remediation/v1.0.0/deliverables/CPLTSHARE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Fabric & Power BI Governance & Administration",
+    "slug": "microsoft-fabric-power-bi-governance-administration",
+    "category": "Data",
+    "category_slug": "data",
+    "sol_code": "FABGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-FABGOV-COMM-001",
+      "PTK-FABGOV-NPO-001",
+      "PTK-FABGOV-GOV-001"
+    ],
+    "deliverables": [
+      "FABGOV-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\data\\microsoft-fabric-power-bi-governance-administration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/02-requirements.md",
+          "kb": 5.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-data.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/source/global-requirements-data.md",
+          "kb": 4.4
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "FABGOV-Discovery.ps1",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/scripts/FABGOV-Discovery.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "FABGOV-Report.ps1",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/scripts/FABGOV-Report.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "FABGOV-TenantSettings-Baseline.ps1",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/scripts/FABGOV-TenantSettings-Baseline.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "FABGOV-Validate.ps1",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/scripts/FABGOV-Validate.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "FABGOV-Workspace-Provision.ps1",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/scripts/FABGOV-Workspace-Provision.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "FABGOV-Complete-Solution.zip",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-Complete-Solution.zip",
+          "kb": 103.6
+        },
+        {
+          "name": "FABGOV-hero.png",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-hero.png",
+          "kb": 464.6
+        },
+        {
+          "name": "FABGOV-hero.svg",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "FABGOV-Scripts.zip",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-Scripts.zip",
+          "kb": 10.7
+        },
+        {
+          "name": "FABGOV-Solution.docx",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-Solution.docx",
+          "kb": 55.1
+        },
+        {
+          "name": "FABGOV-Solution.pdf",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-Solution.pdf",
+          "kb": 56.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../data/microsoft-fabric-power-bi-governance-administration/v1.0.0/deliverables/FABGOV-hero.png",
     "product_count": 3
   },
   {
@@ -39185,7 +39845,7 @@
         {
           "name": "OBSAZMON-Complete-Solution.zip",
           "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Complete-Solution.zip",
-          "kb": 108.2
+          "kb": 111.0
         },
         {
           "name": "OBSAZMON-hero.png",
@@ -39200,17 +39860,17 @@
         {
           "name": "OBSAZMON-Scripts.zip",
           "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Scripts.zip",
-          "kb": 7.8
+          "kb": 9.5
         },
         {
           "name": "OBSAZMON-Solution.docx",
           "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Solution.docx",
-          "kb": 58.4
+          "kb": 58.7
         },
         {
           "name": "OBSAZMON-Solution.pdf",
           "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Solution.pdf",
-          "kb": 62.0
+          "kb": 63.4
         }
       ],
       "Listing": [
@@ -64014,6 +64674,171 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../sentinel-solutions/soc-onboarding-sentinel-defender-xdr/v1.0.0/deliverables/SOCXDR-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel",
+    "slug": "threat-hunting-kql-defender-xdr-sentinel",
+    "category": "Sentinel Solutions",
+    "category_slug": "sentinel-solutions",
+    "sol_code": "THREATHUNT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-THREATHUNT-COMM-001",
+      "PTK-THREATHUNT-NPO-001",
+      "PTK-THREATHUNT-GOV-001"
+    ],
+    "deliverables": [
+      "THREATHUNT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\sentinel-solutions\\threat-hunting-kql-defender-xdr-sentinel\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/03-implementation.md",
+          "kb": 12.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/05-testing.md",
+          "kb": 6.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/07-best-practices.md",
+          "kb": 4.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/executive-summary.md",
+          "kb": 5.5
+        },
+        {
+          "name": "global-requirements-sentinel-solutions.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/source/global-requirements-sentinel-solutions.md",
+          "kb": 5.5
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "THREATHUNT-Discovery.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/scripts/THREATHUNT-Discovery.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "THREATHUNT-HuntLibrary.kql",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/scripts/THREATHUNT-HuntLibrary.kql",
+          "kb": 11.5
+        },
+        {
+          "name": "THREATHUNT-Report.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/scripts/THREATHUNT-Report.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "THREATHUNT-RunHuntLibrary.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/scripts/THREATHUNT-RunHuntLibrary.ps1",
+          "kb": 7.7
+        },
+        {
+          "name": "THREATHUNT-Validate.ps1",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/scripts/THREATHUNT-Validate.ps1",
+          "kb": 8.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "THREATHUNT-Complete-Solution.zip",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-Complete-Solution.zip",
+          "kb": 131.0
+        },
+        {
+          "name": "THREATHUNT-hero.png",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-hero.png",
+          "kb": 443.0
+        },
+        {
+          "name": "THREATHUNT-hero.svg",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "THREATHUNT-Scripts.zip",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-Scripts.zip",
+          "kb": 15.0
+        },
+        {
+          "name": "THREATHUNT-Solution.docx",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-Solution.docx",
+          "kb": 63.4
+        },
+        {
+          "name": "THREATHUNT-Solution.pdf",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-Solution.pdf",
+          "kb": 77.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../sentinel-solutions/threat-hunting-kql-defender-xdr-sentinel/v1.0.0/deliverables/THREATHUNT-hero.png",
     "product_count": 3
   },
   {

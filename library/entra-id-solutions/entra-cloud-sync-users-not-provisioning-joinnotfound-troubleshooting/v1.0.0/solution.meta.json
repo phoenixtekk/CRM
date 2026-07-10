@@ -1,0 +1,42 @@
+{
+  "slug": "entra-cloud-sync-users-not-provisioning-joinnotfound-troubleshooting",
+  "title": "Troubleshooting Microsoft Entra Connect Cloud Sync — Users Skipped / Not Provisioned to Entra (JoinNotFound, Scoping, Config & Quarantine)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "CLDSYNCDX",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 — diagnostics toolkit for a specific, high-frequency cloud sync failure (users skipped / JoinNotFound / not provisioned).",
+    "Distinct from the Hybrid Identity (Connect Sync) and Source Anchor products — this is Entra Connect CLOUD SYNC (lightweight agent) provisioning troubleshooting.",
+    "AADCloudSyncTools + Graph provisioning logs; read-only diagnostics."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-CLDSYNCDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-CLDSYNCDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-CLDSYNCDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "CLDSYNCDX-Solution.pdf",
+    "CLDSYNCDX-Scripts.zip"
+  ],
+  "hero": "CLDSYNCDX-hero.png"
+}

@@ -1,0 +1,119 @@
+###############################################################################
+# AKSSEC-baseline.yaml — AKS Secure Baseline: Kubernetes RBAC + workload identity
+#
+# PURPOSE
+#   Apply the in-cluster secure baseline with kubectl:
+#     - namespace 'app-baseline'
+#     - LEAST-PRIVILEGE RBAC: map Entra groups (by object ID) to roles
+#         * admin group  -> scoped admin ClusterRoleBinding
+#         * developer group -> 'edit' RoleBinding in app-baseline ONLY (not cluster-admin)
+#     - workload-identity ServiceAccount 'wi-app-baseline' (secretless pod-to-Azure)
+#     - a sample workload showing the label that opts a pod into workload identity
+#
+# HOW TO RUN  (from a workstation ON the cluster's network — the API is private)
+#   az aks get-credentials -g <rg> -n <cluster>
+#   kubelogin convert-kubeconfig -l azurecli
+#   # 1) replace the <ADMIN_GROUP_OBJECT_ID> / <DEVELOPER_GROUP_OBJECT_ID> placeholders
+#   # 2) replace <WORKLOAD_IDENTITY_CLIENT_ID> with the terraform output value
+#   kubectl apply -f AKSSEC-baseline.yaml
+#
+# EXPECTED RESULTS
+#   The namespace, RBAC bindings, and workload-identity service account exist; the sample
+#   pod authenticates to Azure with a federated token and NO stored secret.
+#
+# NOTES
+#   White-label. Azure RBAC for Kubernetes must be enabled on the cluster (it is, via
+#   AKSSEC-main.tf). Gatekeeper/Azure Policy for Kubernetes constraints are assigned from
+#   the Azure portal (Implementation Step 6), not from this file. Verify workload-identity
+#   GA status and annotation keys for your cluster version.
+###############################################################################
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: app-baseline
+  labels:
+    # Enforce Pod Security admission at namespace level (defense in depth alongside Gatekeeper).
+    # verify supported labels/levels for your cluster version.
+    pod-security.kubernetes.io/enforce: baseline
+    pod-security.kubernetes.io/audit: restricted
+    pod-security.kubernetes.io/warn: restricted
+---
+# --- Admin group -> scoped cluster admin (bind the Entra GROUP object id, not people) ---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: aks-admins-baseline-prod
+subjects:
+  - apiGroup: rbac.authorization.k8s.io
+    kind: Group
+    name: "<ADMIN_GROUP_OBJECT_ID>"   # Entra object id of 'AKS Admins - Baseline - Prod'
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+---
+# --- Developer group -> 'edit' in app-baseline ONLY (least privilege; NOT cluster-admin) ---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: aks-developers-baseline-prod
+  namespace: app-baseline
+subjects:
+  - apiGroup: rbac.authorization.k8s.io
+    kind: Group
+    name: "<DEVELOPER_GROUP_OBJECT_ID>" # Entra object id of 'AKS Developers - Baseline - Prod'
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: edit
+---
+# --- Workload-identity service account (secretless pod-to-Azure auth) ---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: wi-app-baseline
+  namespace: app-baseline
+  annotations:
+    # Client id of the user-assigned managed identity (terraform output workload_identity_client_id)
+    azure.workload.identity/client-id: "<WORKLOAD_IDENTITY_CLIENT_ID>"
+---
+# --- Sample workload: opts into workload identity, runs non-root, no stored secret ---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-secretless
+  namespace: app-baseline
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sample-secretless
+  template:
+    metadata:
+      labels:
+        app: sample-secretless
+        azure.workload.identity/use: "true"   # <-- opts the pod into workload identity
+    spec:
+      serviceAccountName: wi-app-baseline
+      securityContext:
+        runAsNonRoot: true
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: app
+          image: mcr.microsoft.com/azure-cli:latest   # replace with your app image from an approved registry
+          command: ["sleep", "3600"]
+          securityContext:
+            allowPrivilegeEscalation: false
+            privileged: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          resources:
+            requests:
+              cpu: "50m"
+              memory: "64Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"

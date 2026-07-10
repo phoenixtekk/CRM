@@ -1,0 +1,39 @@
+{
+  "slug": "threat-hunting-kql-defender-xdr-sentinel",
+  "title": "Threat Hunting with KQL — Microsoft Defender XDR & Sentinel",
+  "category": "Sentinel Solutions",
+  "category_slug": "sentinel-solutions",
+  "sol_code": "THREATHUNT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Sentinel category. PowerShell (Graph/Defender runHuntingQuery) + KQL hunt library. GAP-DEDUPED: the existing 'M365 & Azure Incident Response & Escalation Runbook' covers *reactive IR/escalation* — this is *proactive threat hunting*. Cross-references it for the incident hand-off. Advanced-hunting schema/limits flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-THREATHUNT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-THREATHUNT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-THREATHUNT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "THREATHUNT-Complete-Solution.zip"
+  ],
+  "hero": "THREATHUNT-hero.png"
+}
+

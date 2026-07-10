@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AKS Secure",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Baseline",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Private · RBAC · Policy",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SOFT-TARGET CLUSTER",
+    "items": [
+      "Public API",
+      "Broad RBAC",
+      "No policy",
+      "Secrets in env"
+    ]
+  },
+  "to": {
+    "label": "Hardened AKS",
+    "stat": "Private · Guardrailed · Scanned"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Private Cluster",
+      "sub": "No public API"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Workload Identity",
+      "sub": "Secretless"
+    },
+    {
+      "icon": "gear",
+      "title": "Policy Guardrails",
+      "sub": "Gatekeeper"
+    },
+    {
+      "icon": "chart",
+      "title": "Defender",
+      "sub": "Container scanning"
+    }
+  ]
+}

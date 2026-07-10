@@ -1,0 +1,39 @@
+{
+  "slug": "azure-backup-site-recovery-deployment-configuration",
+  "title": "Azure Backup & Site Recovery — Deployment & Configuration",
+  "category": "Backup & DR Solutions",
+  "category_slug": "backup-dr-solutions",
+  "sol_code": "BCKDR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Backup & DR Solutions category. PowerShell/Az + Bicep. GAP-DEDUPED: the existing 'backup-validation-recoverability-assurance' covers *validating/testing* recoverability — this covers *deploying/configuring* Azure Backup + ASR. Feature/pricing flagged verify; RPO/RTO targets are the customer's business decision."
+  ],
+  "products": [
+    {
+      "sku": "PTK-BCKDR-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-BCKDR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-BCKDR-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "BCKDR-Complete-Solution.zip"
+  ],
+  "hero": "BCKDR-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Cloud Sync",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Users Not Provisioning",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "JoinNotFound · Skipped · Fixed",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SKIPPED / JOINNOTFOUND",
+    "items": [
+      "No accounts created",
+      "\"User was skipped\"",
+      "Scope or config gap",
+      "Old sync leftovers"
+    ]
+  },
+  "to": {
+    "label": "Provisioned & verified",
+    "stat": "Action = Create"
+  },
+  "tagline": "COLLECT.  CHECK.  FIX.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "5 Diagnostic Tools",
+      "sub": "Collect + checks"
+    },
+    {
+      "icon": "chart",
+      "title": "Provisioning Logs",
+      "sub": "Read the real reason"
+    },
+    {
+      "icon": "cloud",
+      "title": "Cloud Sync",
+      "sub": "Agent + job health"
+    },
+    {
+      "icon": "users",
+      "title": "Scope & Match",
+      "sub": "Why it skips"
+    }
+  ]
+}
