@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Source Anchor",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "mS-DS-ConsistencyGuid",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Domain Consolidation · Entra Connect",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "objectGUID ANCHOR",
+    "items": [
+      "Breaks on migration",
+      "Duplicate Entra accounts",
+      "Orphaned identities",
+      "Lost mailbox/licenses"
+    ]
+  },
+  "to": {
+    "label": "Preserved across the move",
+    "stat": "Hard-match survives migration"
+  },
+  "tagline": "SWITCH IT.  STAMP IT.  MIGRATE SAFELY.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Consistency GUID",
+      "sub": "Preserved anchor"
+    },
+    {
+      "icon": "users",
+      "title": "Hard Match",
+      "sub": "No duplicates"
+    },
+    {
+      "icon": "gear",
+      "title": "Quest ODM",
+      "sub": "Attribute stamped"
+    },
+    {
+      "icon": "shield",
+      "title": "Safe Cutover",
+      "sub": "Backup + gates"
+    }
+  ]
+}

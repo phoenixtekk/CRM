@@ -1,0 +1,43 @@
+{
+  "slug": "entra-connect-source-anchor-msds-consistencyguid-domain-consolidation",
+  "title": "Migrating the Microsoft Entra Connect Source Anchor to mS-DS-ConsistencyGuid for AD Domain Consolidation & Cross-Forest Migration (Quest On Demand Migration)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "SRCANCHOR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T4 — identity-critical migration enabler: switch the Entra Connect source anchor on an existing objectGUID deployment; precondition + permission checks; coordination with Quest ODM attribute stamping; high risk (breaks the AD↔Entra link if done wrong), effectively one-way.",
+    "Scoped to the GAP (source-anchor migration for domain consolidation) — does NOT re-teach general Entra Connect/hybrid-identity setup (that's the companion Hybrid Identity product).",
+    "Quest ODM console internals deferred to Quest docs."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-SRCANCHOR-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SRCANCHOR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SRCANCHOR-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SRCANCHOR-Solution.pdf",
+    "SRCANCHOR-Scripts.zip"
+  ],
+  "hero": "SRCANCHOR-hero.png",
+  "wiki_path": "solutions/entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation"
+}

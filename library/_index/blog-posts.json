@@ -1968,5 +1968,45 @@
     "post_id": 12621,
     "status": "draft",
     "category_id": 411
+  },
+  "microsoft-defender-xdr-deployment-unified-onboarding": {
+    "post_id": 12623,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-cloud-cspm-secure-score": {
+    "post_id": 12625,
+    "status": "draft",
+    "category_id": 411
+  },
+  "defender-office-365-p2-threat-explorer-attack-sim-air": {
+    "post_id": 12627,
+    "status": "draft",
+    "category_id": 411
+  },
+  "aws-landing-zone-organizations-baseline": {
+    "post_id": 12629,
+    "status": "draft",
+    "category_id": 411
+  },
+  "aws-iam-identity-center-entra-sso-federation": {
+    "post_id": 12631,
+    "status": "draft",
+    "category_id": 411
+  },
+  "aws-security-hub-guardduty-enablement": {
+    "post_id": 12633,
+    "status": "draft",
+    "category_id": 411
+  },
+  "azure-monitor-log-analytics-foundation-dashboards": {
+    "post_id": 12635,
+    "status": "draft",
+    "category_id": 411
+  },
+  "datadog-deployment-hybrid-cloud-estates": {
+    "post_id": 12637,
+    "status": "draft",
+    "category_id": 411
   }
 }

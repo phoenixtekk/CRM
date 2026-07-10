@@ -504,6 +504,120 @@
 ]
 },
 {
+"slug": "copilot-adoption-change-management",
+"title": "Microsoft 365 Copilot Adoption & Change-Management Program",
+"category": "Copilot",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/copilot-adoption-change-management-commercial",
+"keywords": [
+"365",
+"adoption",
+"change",
+"copilot",
+"cpltadopt",
+"microsoft",
+"program"
+]
+},
+{
+"slug": "copilot-data-governance-dlp-guardrails",
+"title": "Microsoft 365 Copilot Data Governance & DLP Guardrails",
+"category": "Copilot",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/copilot-data-governance-dlp-guardrails-commercial",
+"keywords": [
+"365",
+"copilot",
+"cpltgov",
+"data",
+"dlp",
+"governance",
+"guardrails",
+"microsoft"
+]
+},
+{
+"slug": "microsoft-365-copilot-readiness-deployment",
+"title": "Microsoft 365 Copilot Readiness Assessment & Deployment",
+"category": "Copilot",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/microsoft-365-copilot-readiness-deployment-commercial",
+"keywords": [
+"365",
+"assessment",
+"copilot",
+"cpltready",
+"microsoft",
+"readiness"
+]
+},
+{
+"slug": "copilot-oversharing-sharepoint-remediation",
+"title": "Secure Microsoft 365 Copilot — Oversharing & SharePoint Permissions Remediation",
+"category": "Copilot",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/copilot-oversharing-sharepoint-remediation-commercial",
+"keywords": [
+"365",
+"copilot",
+"cpltshare",
+"microsoft",
+"oversharing",
+"permissions",
+"remediation",
+"secure",
+"sharepoint"
+]
+},
+{
+"slug": "azure-landing-zone-bicep",
+"title": "Azure Landing Zone with Bicep",
+"category": "DevOps",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-landing-zone-bicep-commercial",
+"keywords": [
+"azure",
+"bicep",
+"devops",
+"iacbicep",
+"landing",
+"zone"
+]
+},
+{
+"slug": "azure-landing-zone-terraform",
+"title": "Azure Landing Zone with Terraform",
+"category": "DevOps",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/azure-landing-zone-terraform-commercial",
+"keywords": [
+"azure",
+"devops",
+"iactf",
+"landing",
+"terraform",
+"zone"
+]
+},
+{
+"slug": "intune-as-code-graph-terraform-cicd",
+"title": "Intune-as-Code — Policy Management via Graph & Terraform (CI/CD)",
+"category": "DevOps",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/intune-as-code-graph-terraform-cicd-commercial",
+"keywords": [
+"cd",
+"ci",
+"code",
+"devops",
+"graph",
+"iacintune",
+"intune",
+"policy",
+"terraform"
+]
+},
+{
 "slug": "enterprise-app-service-principal-governance",
 "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
 "category": "Entra",
@@ -545,6 +659,22 @@
 ]
 },
 {
+"slug": "entra-id-governance-access-reviews-entitlement",
+"title": "Entra ID Governance — Access Reviews & Entitlement Management",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-id-governance-access-reviews-entitlement-commercial",
+"keywords": [
+"access",
+"entiga",
+"entitlement",
+"entra",
+"governance",
+"id",
+"reviews"
+]
+},
+{
 "slug": "entra-id-governance-pim-access-reviews",
 "title": "Entra ID Governance — PIM, Access Reviews & Entitlement Management",
 "category": "Entra",
@@ -579,6 +709,23 @@
 "igag",
 "pim",
 "reviews"
+]
+},
+{
+"slug": "entra-privileged-identity-management-pim",
+"title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-privileged-identity-management-pim-commercial",
+"keywords": [
+"admin",
+"entpim",
+"entra",
+"identity",
+"just",
+"pim",
+"privileged",
+"time"
 ]
 },
 {
@@ -660,6 +807,49 @@
 ]
 },
 {
+"slug": "entra-connect-source-anchor-msds-consistencyguid-domain-consolidation",
+"title": "Migrating the Microsoft Entra Connect Source Anchor to mS-DS-ConsistencyGuid for AD Domain Consolidation & Cross-Forest Migration (Quest On Demand Migration)",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation-commercial",
+"keywords": [
+"ad",
+"anchor",
+"connect",
+"consistencyguid",
+"consolidation",
+"cross",
+"demand",
+"domain",
+"ds",
+"entra",
+"forest",
+"microsoft",
+"migrating",
+"migration",
+"ms",
+"quest",
+"source",
+"srcanchor"
+]
+},
+{
+"slug": "entra-passwordless-passkey-fido2-rollout",
+"title": "Passwordless & Passkey (FIDO2) Rollout for Microsoft Entra",
+"category": "Entra",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/entra-passwordless-passkey-fido2-rollout-commercial",
+"keywords": [
+"entpasskey",
+"entra",
+"fido2",
+"microsoft",
+"passkey",
+"passwordless",
+"rollout"
+]
+},
+{
 "slug": "passwordless-fido2-phishing-resistant-mfa",
 "title": "Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys",
 "category": "Entra",
@@ -695,6 +885,24 @@
 "phishing",
 "resistant",
 "security"
+]
+},
+{
+"slug": "zero-trust-conditional-access-baseline",
+"title": "Zero Trust Architecture — Conditional Access Baseline & Rollout",
+"category": "Entra",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/zero-trust-conditional-access-baseline-commercial",
+"keywords": [
+"access",
+"architecture",
+"baseline",
+"conditional",
+"entra",
+"entztca",
+"rollout",
+"trust",
+"zero"
 ]
 },
 {
@@ -6196,6 +6404,22 @@
 ]
 },
 {
+"slug": "deploy-microsoft-sentinel-workspace-connectors",
+"title": "Deploy Microsoft Sentinel — Workspace, Data Connectors & Ingestion",
+"category": "Sentinel Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/deploy-microsoft-sentinel-workspace-connectors-commercial",
+"keywords": [
+"connectors",
+"data",
+"ingestion",
+"microsoft",
+"sentdep",
+"sentinel",
+"workspace"
+]
+},
+{
 "slug": "entra-intune-audit-telemetry-sentinel",
 "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
 "category": "Sentinel Solutions",
@@ -6230,6 +6454,77 @@
 "sentinel",
 "sentlogg",
 "telemetry"
+]
+},
+{
+"slug": "sentinel-analytics-rules-mitre-attack-coverage",
+"title": "Microsoft Sentinel Analytics Rules & MITRE ATT&CK Detection Coverage",
+"category": "Sentinel Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sentinel-analytics-rules-mitre-attack-coverage-commercial",
+"keywords": [
+"analytics",
+"att",
+"ck",
+"coverage",
+"detection",
+"microsoft",
+"mitre",
+"rules",
+"sentinel",
+"sentrule"
+]
+},
+{
+"slug": "sentinel-cost-data-tier-optimization",
+"title": "Microsoft Sentinel Cost & Data-Tier Optimization",
+"category": "Sentinel Solutions",
+"price": 1995.0,
+"link": "https://workplace.phoenixtekk.com/sentinel-cost-data-tier-optimization-commercial",
+"keywords": [
+"cost",
+"data",
+"microsoft",
+"optimization",
+"sentcost",
+"sentinel",
+"tier"
+]
+},
+{
+"slug": "sentinel-soar-automation-playbooks",
+"title": "Microsoft Sentinel SOAR — Automation Rules & Playbooks (Logic Apps)",
+"category": "Sentinel Solutions",
+"price": 2495.0,
+"link": "https://workplace.phoenixtekk.com/sentinel-soar-automation-playbooks-commercial",
+"keywords": [
+"apps",
+"automation",
+"logic",
+"microsoft",
+"playbooks",
+"rules",
+"sentinel",
+"sentsoar",
+"soar"
+]
+},
+{
+"slug": "soc-onboarding-sentinel-defender-xdr",
+"title": "SOC Onboarding — Microsoft Sentinel + Defender XDR Unified Incidents",
+"category": "Sentinel Solutions",
+"price": 2995.0,
+"link": "https://workplace.phoenixtekk.com/soc-onboarding-sentinel-defender-xdr-commercial",
+"keywords": [
+"defender",
+"incidents",
+"microsoft",
+"onboarding",
+"sentinel",
+"soc",
+"socxdr",
+"unified",
+"xdr"
 ]
 },
 {

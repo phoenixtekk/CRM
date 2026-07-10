@@ -1,0 +1,39 @@
+{
+  "slug": "aws-landing-zone-organizations-baseline",
+  "title": "AWS Landing Zone & Organizations Baseline",
+  "category": "AWS",
+  "category_slug": "aws",
+  "sol_code": "AWSLZ",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AWS category. Automation = Terraform (.tf) + AWS CLI (.sh) + optional AWS Tools for PowerShell. AWS console/service internals deferred to AWS docs; feature/pricing flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AWSLZ-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-AWSLZ-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-AWSLZ-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "AWSLZ-Complete-Solution.zip"
+  ],
+  "hero": "AWSLZ-hero.png"
+}
+

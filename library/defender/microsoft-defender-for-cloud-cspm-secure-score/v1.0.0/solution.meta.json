@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-cloud-cspm-secure-score",
+  "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "DEFCSPM",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Defender category. PowerShell/Az + KQL. Defender CSPM/plan pricing flagged verify; regulatory determinations deferred to compliance."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DEFCSPM-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-DEFCSPM-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-DEFCSPM-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "DEFCSPM-Complete-Solution.zip"
+  ],
+  "hero": "DEFCSPM-hero.png"
+}
+

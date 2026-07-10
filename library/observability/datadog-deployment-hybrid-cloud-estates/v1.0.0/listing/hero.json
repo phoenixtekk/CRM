@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Datadog",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Hybrid & Cloud",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Agents · Integrate · Monitor",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FRAGMENTED VIEW",
+    "items": [
+      "Per-cloud silos",
+      "No single pane",
+      "Hand-clicked",
+      "No SLOs"
+    ]
+  },
+  "to": {
+    "label": "Unified Observability",
+    "stat": "Agents · Dashboards · SLOs"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Agent Rollout",
+      "sub": "Hybrid + cloud"
+    },
+    {
+      "icon": "chart",
+      "title": "Integrations",
+      "sub": "Azure/AWS/K8s"
+    },
+    {
+      "icon": "device",
+      "title": "Dashboards + SLOs",
+      "sub": "One pane"
+    },
+    {
+      "icon": "gear",
+      "title": "As Code",
+      "sub": "Terraform-managed"
+    }
+  ]
+}

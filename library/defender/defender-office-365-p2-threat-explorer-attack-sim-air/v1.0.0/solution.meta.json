@@ -1,0 +1,39 @@
+{
+  "slug": "defender-office-365-p2-threat-explorer-attack-sim-air",
+  "title": "Defender for Office 365 (Plan 2) — Threat Explorer, Attack Simulation & Automated Investigation",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "DEFMDOP2",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Defender category. PowerShell (Graph/EXO Security & Compliance) + KQL. GAP-DEDUPED: the existing messaging solution 'm365-mail-hygiene-anti-spam-eop-defender-office365' covers EOP/MDO *prevention/hygiene*; this covers MDO P2 *detection/investigation/response* (Explorer/AttackSim/AIR). Requires MDO Plan 2 — flag verify. Remediation approval-gated."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DEFMDOP2-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-DEFMDOP2-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-DEFMDOP2-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "DEFMDOP2-Complete-Solution.zip"
+  ],
+  "hero": "DEFMDOP2-hero.png"
+}
+

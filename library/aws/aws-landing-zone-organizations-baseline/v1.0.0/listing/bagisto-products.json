@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "aws-landing-zone-organizations-baseline",
+    "title": "AWS Landing Zone & Organizations Baseline",
+    "category_path": [
+      "AWS"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AWSLZ-COMM-001",
+      "name": "AWS Landing Zone & Organizations Baseline — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one.</p>",
+      "description": "<h3>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one.</h3><p>A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-account foundation — AWS Organizations with an OU structure, a landing zone (Control Tower or Terraform), service control policies (SCPs), centralized CloudTrail/Config logging, and account-baseline guardrails.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Terraform, CLI &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>AWS Organizations + OU hierarchy and account structure</li><li>Landing zone (Control Tower or Terraform) with account vending</li><li>Service Control Policies (SCPs) as preventive guardrails</li><li>Centralized CloudTrail, AWS Config, and a log-archive account</li><li>Account baseline (IAM password policy, default encryption, regions)</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A governed, multi-account AWS foundation with guardrails and centralized logging — repeatable account vending instead of click-ops sprawl.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSLZ-Deploy.sh</code> &mdash; plan-first, approval-gated Terraform wrapper for the landing zone</li><li><code>AWSLZ-Discovery.sh</code> &mdash; inventory current AWS Organizations / landing-zone state (read-only)</li><li><code>AWSLZ-Report.sh</code> &mdash; posture report: accounts by OU, SCP attachments, logging, baseline (read-only)</li><li><code>AWSLZ-Validate.sh</code> &mdash; run the 05-testing pass/fail gates for the landing zone (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS Landing Zone & Organizations Baseline",
+      "meta_description": "A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-accoun",
+      "url_key": "aws-landing-zone-organizations-baseline-commercial",
+      "image": "AWSLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSLZ-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AWSLZ-NPO-001",
+      "name": "AWS Landing Zone & Organizations Baseline — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one.</h3><p>A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-account foundation — AWS Organizations with an OU structure, a landing zone (Control Tower or Terraform), service control policies (SCPs), centralized CloudTrail/Config logging, and account-baseline guardrails.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>AWS Organizations + OU hierarchy and account structure</li><li>Landing zone (Control Tower or Terraform) with account vending</li><li>Service Control Policies (SCPs) as preventive guardrails</li><li>Centralized CloudTrail, AWS Config, and a log-archive account</li><li>Account baseline (IAM password policy, default encryption, regions)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSLZ-Deploy.sh</code> &mdash; plan-first, approval-gated Terraform wrapper for the landing zone</li><li><code>AWSLZ-Discovery.sh</code> &mdash; inventory current AWS Organizations / landing-zone state (read-only)</li><li><code>AWSLZ-Report.sh</code> &mdash; posture report: accounts by OU, SCP attachments, logging, baseline (read-only)</li><li><code>AWSLZ-Validate.sh</code> &mdash; run the 05-testing pass/fail gates for the landing zone (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS Landing Zone & Organizations Baseline — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-accoun",
+      "url_key": "aws-landing-zone-organizations-baseline-nonprofit",
+      "image": "AWSLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSLZ-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AWSLZ-GOV-001",
+      "name": "AWS Landing Zone & Organizations Baseline — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Build a governed AWS foundation — multi-account Organizations, OUs, guardrails, and centralized logging done right from day one.</h3><p>A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-account foundation — AWS Organizations with an OU structure, a landing zone (Control Tower or Terraform), service control policies (SCPs), centralized CloudTrail/Config logging, and account-baseline guardrails.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>AWS Organizations + OU hierarchy and account structure</li><li>Landing zone (Control Tower or Terraform) with account vending</li><li>Service Control Policies (SCPs) as preventive guardrails</li><li>Centralized CloudTrail, AWS Config, and a log-archive account</li><li>Account baseline (IAM password policy, default encryption, regions)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSLZ-Deploy.sh</code> &mdash; plan-first, approval-gated Terraform wrapper for the landing zone</li><li><code>AWSLZ-Discovery.sh</code> &mdash; inventory current AWS Organizations / landing-zone state (read-only)</li><li><code>AWSLZ-Report.sh</code> &mdash; posture report: accounts by OU, SCP attachments, logging, baseline (read-only)</li><li><code>AWSLZ-Validate.sh</code> &mdash; run the 05-testing pass/fail gates for the landing zone (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS Landing Zone & Organizations Baseline — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. A single AWS account with root access everywhere is a breach and a billing surprise waiting to happen. This solution stands up a governed multi-accoun",
+      "url_key": "aws-landing-zone-organizations-baseline-government",
+      "image": "AWSLZ-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSLZ-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

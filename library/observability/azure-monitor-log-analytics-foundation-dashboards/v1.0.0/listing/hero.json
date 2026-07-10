@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Azure Monitor",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Log Analytics",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Collect · Alert · Visualize",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FLYING BLIND",
+    "items": [
+      "No telemetry",
+      "Outage-driven",
+      "No alerts",
+      "No dashboards"
+    ]
+  },
+  "to": {
+    "label": "Observed Estate",
+    "stat": "Collected · Alerted · Visualized"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Log Analytics",
+      "sub": "Designed workspace"
+    },
+    {
+      "icon": "gear",
+      "title": "Diagnostics at Scale",
+      "sub": "Policy-driven"
+    },
+    {
+      "icon": "chart",
+      "title": "Alerts + Actions",
+      "sub": "Routed to teams"
+    },
+    {
+      "icon": "device",
+      "title": "Workbooks",
+      "sub": "Ops dashboards"
+    }
+  ]
+}

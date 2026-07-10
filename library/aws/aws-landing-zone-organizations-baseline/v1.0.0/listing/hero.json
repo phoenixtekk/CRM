@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AWS Landing Zone",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Organizations",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "OUs · SCPs · Logging",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SINGLE ACCOUNT",
+    "items": [
+      "Root everywhere",
+      "No guardrails",
+      "No central logs",
+      "Billing surprises"
+    ]
+  },
+  "to": {
+    "label": "Governed Foundation",
+    "stat": "Multi-account · Guardrailed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Organizations",
+      "sub": "OU + vending"
+    },
+    {
+      "icon": "shield",
+      "title": "SCP Guardrails",
+      "sub": "Preventive"
+    },
+    {
+      "icon": "chart",
+      "title": "Central Logging",
+      "sub": "CloudTrail/Config"
+    },
+    {
+      "icon": "gear",
+      "title": "Account Baseline",
+      "sub": "Encryption/regions"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Security Hub",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& GuardDuty",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Detect · Aggregate · Respond",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AWS BLIND SPOTS",
+    "items": [
+      "No threat detection",
+      "No posture score",
+      "Per-account silos",
+      "Unseen findings"
+    ]
+  },
+  "to": {
+    "label": "Detected & Scored",
+    "stat": "GuardDuty · Hub · Actioned"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "GuardDuty",
+      "sub": "Threat detection"
+    },
+    {
+      "icon": "chart",
+      "title": "Security Hub",
+      "sub": "CIS/FSBP score"
+    },
+    {
+      "icon": "cloud",
+      "title": "Org-Wide",
+      "sub": "Delegated admin"
+    },
+    {
+      "icon": "gear",
+      "title": "Auto-Response",
+      "sub": "EventBridge"
+    }
+  ]
+}

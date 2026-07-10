@@ -2811,6 +2811,501 @@
     "product_count": 3
   },
   {
+    "title": "AWS IAM Identity Center + Microsoft Entra SSO Federation",
+    "slug": "aws-iam-identity-center-entra-sso-federation",
+    "category": "AWS",
+    "category_slug": "aws",
+    "sol_code": "AWSSSO",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AWSSSO-COMM-001",
+      "PTK-AWSSSO-NPO-001",
+      "PTK-AWSSSO-GOV-001"
+    ],
+    "deliverables": [
+      "AWSSSO-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\aws\\aws-iam-identity-center-entra-sso-federation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/03-implementation.md",
+          "kb": 10.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/05-testing.md",
+          "kb": 3.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-aws.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/source/global-requirements-aws.md",
+          "kb": 4.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AWSSSO-Discovery.sh",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/scripts/AWSSSO-Discovery.sh",
+          "kb": 3.9
+        },
+        {
+          "name": "AWSSSO-Entra-Provisioning.ps1",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/scripts/AWSSSO-Entra-Provisioning.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "AWSSSO-permission-sets.tf",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/scripts/AWSSSO-permission-sets.tf",
+          "kb": 9.6
+        },
+        {
+          "name": "AWSSSO-Report.sh",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/scripts/AWSSSO-Report.sh",
+          "kb": 3.6
+        },
+        {
+          "name": "AWSSSO-Validate.ps1",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/scripts/AWSSSO-Validate.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AWSSSO-Complete-Solution.zip",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-Complete-Solution.zip",
+          "kb": 101.5
+        },
+        {
+          "name": "AWSSSO-hero.png",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-hero.png",
+          "kb": 469.7
+        },
+        {
+          "name": "AWSSSO-hero.svg",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "AWSSSO-Scripts.zip",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-Scripts.zip",
+          "kb": 9.4
+        },
+        {
+          "name": "AWSSSO-Solution.docx",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-Solution.docx",
+          "kb": 55.4
+        },
+        {
+          "name": "AWSSSO-Solution.pdf",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-Solution.pdf",
+          "kb": 54.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../aws/aws-iam-identity-center-entra-sso-federation/v1.0.0/deliverables/AWSSSO-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "AWS Landing Zone & Organizations Baseline",
+    "slug": "aws-landing-zone-organizations-baseline",
+    "category": "AWS",
+    "category_slug": "aws",
+    "sol_code": "AWSLZ",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-AWSLZ-COMM-001",
+      "PTK-AWSLZ-NPO-001",
+      "PTK-AWSLZ-GOV-001"
+    ],
+    "deliverables": [
+      "AWSLZ-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\aws\\aws-landing-zone-organizations-baseline\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/03-implementation.md",
+          "kb": 7.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/05-testing.md",
+          "kb": 5.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/executive-summary.md",
+          "kb": 4.8
+        },
+        {
+          "name": "global-requirements-aws.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/source/global-requirements-aws.md",
+          "kb": 4.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AWSLZ-Deploy.sh",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/scripts/AWSLZ-Deploy.sh",
+          "kb": 3.3
+        },
+        {
+          "name": "AWSLZ-Discovery.sh",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/scripts/AWSLZ-Discovery.sh",
+          "kb": 3.1
+        },
+        {
+          "name": "AWSLZ-Report.sh",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/scripts/AWSLZ-Report.sh",
+          "kb": 3.6
+        },
+        {
+          "name": "AWSLZ-Validate.sh",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/scripts/AWSLZ-Validate.sh",
+          "kb": 5.0
+        },
+        {
+          "name": "main.tf",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/scripts/main.tf",
+          "kb": 12.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AWSLZ-Complete-Solution.zip",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-Complete-Solution.zip",
+          "kb": 112.7
+        },
+        {
+          "name": "AWSLZ-hero.png",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-hero.png",
+          "kb": 448.7
+        },
+        {
+          "name": "AWSLZ-hero.svg",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AWSLZ-Scripts.zip",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-Scripts.zip",
+          "kb": 10.6
+        },
+        {
+          "name": "AWSLZ-Solution.docx",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-Solution.docx",
+          "kb": 58.5
+        },
+        {
+          "name": "AWSLZ-Solution.pdf",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-Solution.pdf",
+          "kb": 65.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../aws/aws-landing-zone-organizations-baseline/v1.0.0/deliverables/AWSLZ-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "AWS Security Hub & GuardDuty Enablement",
+    "slug": "aws-security-hub-guardduty-enablement",
+    "category": "AWS",
+    "category_slug": "aws",
+    "sol_code": "AWSSEC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AWSSEC-COMM-001",
+      "PTK-AWSSEC-NPO-001",
+      "PTK-AWSSEC-GOV-001"
+    ],
+    "deliverables": [
+      "AWSSEC-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\aws\\aws-security-hub-guardduty-enablement\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/02-requirements.md",
+          "kb": 6.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/03-implementation.md",
+          "kb": 6.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-aws.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/source/global-requirements-aws.md",
+          "kb": 4.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AWSSEC-Discovery.sh",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/scripts/AWSSEC-Discovery.sh",
+          "kb": 3.5
+        },
+        {
+          "name": "AWSSEC-guardduty-securityhub.tf",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/scripts/AWSSEC-guardduty-securityhub.tf",
+          "kb": 4.5
+        },
+        {
+          "name": "AWSSEC-Report.sh",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/scripts/AWSSEC-Report.sh",
+          "kb": 3.1
+        },
+        {
+          "name": "AWSSEC-response.tf",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/scripts/AWSSEC-response.tf",
+          "kb": 6.2
+        },
+        {
+          "name": "AWSSEC-Validate.sh",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/scripts/AWSSEC-Validate.sh",
+          "kb": 3.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AWSSEC-Complete-Solution.zip",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-Complete-Solution.zip",
+          "kb": 94.0
+        },
+        {
+          "name": "AWSSEC-hero.png",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-hero.png",
+          "kb": 480.9
+        },
+        {
+          "name": "AWSSEC-hero.svg",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "AWSSEC-Scripts.zip",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-Scripts.zip",
+          "kb": 8.4
+        },
+        {
+          "name": "AWSSEC-Solution.docx",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-Solution.docx",
+          "kb": 52.9
+        },
+        {
+          "name": "AWSSEC-Solution.pdf",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-Solution.pdf",
+          "kb": 49.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/listing/sales-content.md",
+          "kb": 0.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/solution.meta.json",
+          "kb": 0.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../aws/aws-security-hub-guardduty-enablement/v1.0.0/deliverables/AWSSEC-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Azure Security Baseline & Governance (Least-Privilege, Secure Config, Guardrails)",
     "slug": "azure-security-baseline-governance",
     "category": "Azure",
@@ -5147,6 +5642,501 @@
     "product_count": 3
   },
   {
+    "title": "Defender for Office 365 (Plan 2) — Threat Explorer, Attack Simulation & Automated Investigation",
+    "slug": "defender-office-365-p2-threat-explorer-attack-sim-air",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "DEFMDOP2",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-DEFMDOP2-COMM-001",
+      "PTK-DEFMDOP2-NPO-001",
+      "PTK-DEFMDOP2-GOV-001"
+    ],
+    "deliverables": [
+      "DEFMDOP2-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\defender-office-365-p2-threat-explorer-attack-sim-air\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/03-implementation.md",
+          "kb": 10.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/executive-summary.md",
+          "kb": 5.0
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DEFMDOP2-Discovery.ps1",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/scripts/DEFMDOP2-Discovery.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "DEFMDOP2-Hunt.ps1",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/scripts/DEFMDOP2-Hunt.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "DEFMDOP2-Remediate.ps1",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/scripts/DEFMDOP2-Remediate.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "DEFMDOP2-Report.ps1",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/scripts/DEFMDOP2-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "DEFMDOP2-Validate.ps1",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/scripts/DEFMDOP2-Validate.ps1",
+          "kb": 5.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DEFMDOP2-Complete-Solution.zip",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-Complete-Solution.zip",
+          "kb": 117.5
+        },
+        {
+          "name": "DEFMDOP2-hero.png",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-hero.png",
+          "kb": 496.8
+        },
+        {
+          "name": "DEFMDOP2-hero.svg",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "DEFMDOP2-Scripts.zip",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-Scripts.zip",
+          "kb": 10.8
+        },
+        {
+          "name": "DEFMDOP2-Solution.docx",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-Solution.docx",
+          "kb": 59.7
+        },
+        {
+          "name": "DEFMDOP2-Solution.pdf",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-Solution.pdf",
+          "kb": 69.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/defender-office-365-p2-threat-explorer-attack-sim-air/v1.0.0/deliverables/DEFMDOP2-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation",
+    "slug": "microsoft-defender-for-cloud-cspm-secure-score",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "DEFCSPM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-DEFCSPM-COMM-001",
+      "PTK-DEFCSPM-NPO-001",
+      "PTK-DEFCSPM-GOV-001"
+    ],
+    "deliverables": [
+      "DEFCSPM-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\microsoft-defender-for-cloud-cspm-secure-score\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/03-implementation.md",
+          "kb": 6.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DEFCSPM-Discovery.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/scripts/DEFCSPM-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "DEFCSPM-Enable-CSPM.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/scripts/DEFCSPM-Enable-CSPM.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "DEFCSPM-Hunt.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/scripts/DEFCSPM-Hunt.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "DEFCSPM-Report.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/scripts/DEFCSPM-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "DEFCSPM-Validate.ps1",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/scripts/DEFCSPM-Validate.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DEFCSPM-Complete-Solution.zip",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-Complete-Solution.zip",
+          "kb": 94.7
+        },
+        {
+          "name": "DEFCSPM-hero.png",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-hero.png",
+          "kb": 471.8
+        },
+        {
+          "name": "DEFCSPM-hero.svg",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "DEFCSPM-Scripts.zip",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-Scripts.zip",
+          "kb": 8.9
+        },
+        {
+          "name": "DEFCSPM-Solution.docx",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-Solution.docx",
+          "kb": 52.3
+        },
+        {
+          "name": "DEFCSPM-Solution.pdf",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-Solution.pdf",
+          "kb": 51.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/microsoft-defender-for-cloud-cspm-secure-score/v1.0.0/deliverables/DEFCSPM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Defender XDR Deployment & Unified Onboarding",
+    "slug": "microsoft-defender-xdr-deployment-unified-onboarding",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "DEFXDR",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-DEFXDR-COMM-001",
+      "PTK-DEFXDR-NPO-001",
+      "PTK-DEFXDR-GOV-001"
+    ],
+    "deliverables": [
+      "DEFXDR-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\microsoft-defender-xdr-deployment-unified-onboarding\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/03-implementation.md",
+          "kb": 8.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DEFXDR-Discovery.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/scripts/DEFXDR-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "DEFXDR-Hunt.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/scripts/DEFXDR-Hunt.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "DEFXDR-Onboard-DeviceRing.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/scripts/DEFXDR-Onboard-DeviceRing.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "DEFXDR-Report.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/scripts/DEFXDR-Report.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "DEFXDR-Validate.ps1",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/scripts/DEFXDR-Validate.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DEFXDR-Complete-Solution.zip",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-Complete-Solution.zip",
+          "kb": 99.7
+        },
+        {
+          "name": "DEFXDR-hero.png",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-hero.png",
+          "kb": 457.9
+        },
+        {
+          "name": "DEFXDR-hero.svg",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "DEFXDR-Scripts.zip",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "DEFXDR-Solution.docx",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-Solution.docx",
+          "kb": 53.4
+        },
+        {
+          "name": "DEFXDR-Solution.pdf",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-Solution.pdf",
+          "kb": 55.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/microsoft-defender-xdr-deployment-unified-onboarding/v1.0.0/deliverables/DEFXDR-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Azure Landing Zone with Bicep",
     "slug": "azure-landing-zone-bicep",
     "category": "DevOps",
@@ -7321,6 +8311,172 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Migrating the Microsoft Entra Connect Source Anchor to mS-DS-ConsistencyGuid for AD Domain Consolidation & Cross-Forest Migration (Quest On Demand Migration)",
+    "slug": "entra-connect-source-anchor-msds-consistencyguid-domain-consolidation",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "SRCANCHOR",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SRCANCHOR-COMM-001",
+      "PTK-SRCANCHOR-NPO-001",
+      "PTK-SRCANCHOR-GOV-001"
+    ],
+    "deliverables": [
+      "SRCANCHOR-Solution.pdf",
+      "SRCANCHOR-Scripts.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-connect-source-anchor-msds-consistencyguid-domain-consolidation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/03-implementation.md",
+          "kb": 9.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/05-testing.md",
+          "kb": 3.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SRCANCHOR-Assess.ps1",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/scripts/SRCANCHOR-Assess.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "SRCANCHOR-Check-Permissions.ps1",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/scripts/SRCANCHOR-Check-Permissions.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "SRCANCHOR-Report.ps1",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/scripts/SRCANCHOR-Report.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "SRCANCHOR-Test-Preconditions.ps1",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/scripts/SRCANCHOR-Test-Preconditions.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "SRCANCHOR-Validate.ps1",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/scripts/SRCANCHOR-Validate.ps1",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SRCANCHOR-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-Complete-Solution.zip",
+          "kb": 102.0
+        },
+        {
+          "name": "SRCANCHOR-hero.png",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-hero.png",
+          "kb": 473.3
+        },
+        {
+          "name": "SRCANCHOR-hero.svg",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "SRCANCHOR-Scripts.zip",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-Scripts.zip",
+          "kb": 9.5
+        },
+        {
+          "name": "SRCANCHOR-Solution.docx",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-Solution.docx",
+          "kb": 53.3
+        },
+        {
+          "name": "SRCANCHOR-Solution.pdf",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-Solution.pdf",
+          "kb": 59.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/listing/bagisto-products.json",
+          "kb": 19.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/README.md",
+          "kb": 0.9
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-connect-source-anchor-msds-consistencyguid-domain-consolidation/v1.0.0/deliverables/SRCANCHOR-hero.png",
     "product_count": 3
   },
   {
@@ -37926,6 +39082,336 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../network/ztna-netskope-private-access-vpn-replacement/v1.0.0/deliverables/NSZTNA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Azure Monitor & Log Analytics — Foundation, Alerts & Dashboards",
+    "slug": "azure-monitor-log-analytics-foundation-dashboards",
+    "category": "Observability",
+    "category_slug": "observability",
+    "sol_code": "OBSAZMON",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-OBSAZMON-COMM-001",
+      "PTK-OBSAZMON-NPO-001",
+      "PTK-OBSAZMON-GOV-001"
+    ],
+    "deliverables": [
+      "OBSAZMON-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\observability\\azure-monitor-log-analytics-foundation-dashboards\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/02-requirements.md",
+          "kb": 6.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/executive-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "global-requirements-observability.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/source/global-requirements-observability.md",
+          "kb": 4.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "OBSAZMON-Discovery.ps1",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/scripts/OBSAZMON-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "OBSAZMON-Foundation.bicep",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/scripts/OBSAZMON-Foundation.bicep",
+          "kb": 6.0
+        },
+        {
+          "name": "OBSAZMON-Queries.kql",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/scripts/OBSAZMON-Queries.kql",
+          "kb": 3.7
+        },
+        {
+          "name": "OBSAZMON-Report.ps1",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/scripts/OBSAZMON-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "OBSAZMON-Validate.ps1",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/scripts/OBSAZMON-Validate.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OBSAZMON-Complete-Solution.zip",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Complete-Solution.zip",
+          "kb": 108.2
+        },
+        {
+          "name": "OBSAZMON-hero.png",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-hero.png",
+          "kb": 459.3
+        },
+        {
+          "name": "OBSAZMON-hero.svg",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "OBSAZMON-Scripts.zip",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Scripts.zip",
+          "kb": 7.8
+        },
+        {
+          "name": "OBSAZMON-Solution.docx",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Solution.docx",
+          "kb": 58.4
+        },
+        {
+          "name": "OBSAZMON-Solution.pdf",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-Solution.pdf",
+          "kb": 62.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/solution.meta.json",
+          "kb": 1.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../observability/azure-monitor-log-analytics-foundation-dashboards/v1.0.0/deliverables/OBSAZMON-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Datadog Deployment for Hybrid & Cloud Estates",
+    "slug": "datadog-deployment-hybrid-cloud-estates",
+    "category": "Observability",
+    "category_slug": "observability",
+    "sol_code": "OBSDDOG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-10",
+    "updated": "2026-07-10",
+    "published_at": "2026-07-10",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-OBSDDOG-COMM-001",
+      "PTK-OBSDDOG-NPO-001",
+      "PTK-OBSDDOG-GOV-001"
+    ],
+    "deliverables": [
+      "OBSDDOG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\observability\\datadog-deployment-hybrid-cloud-estates\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/03-implementation.md",
+          "kb": 7.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-observability.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/source/global-requirements-observability.md",
+          "kb": 4.0
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "install-datadog-agent.sh",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/scripts/install-datadog-agent.sh",
+          "kb": 3.4
+        },
+        {
+          "name": "Install-DatadogAgent.ps1",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/scripts/Install-DatadogAgent.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "main.tf",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/scripts/main.tf",
+          "kb": 7.7
+        },
+        {
+          "name": "OBSDDOG-Report.ps1",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/scripts/OBSDDOG-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "OBSDDOG-Validate.ps1",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/scripts/OBSDDOG-Validate.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "OBSDDOG-Complete-Solution.zip",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-Complete-Solution.zip",
+          "kb": 108.9
+        },
+        {
+          "name": "OBSDDOG-hero.png",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-hero.png",
+          "kb": 406.9
+        },
+        {
+          "name": "OBSDDOG-hero.svg",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "OBSDDOG-Scripts.zip",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "OBSDDOG-Solution.docx",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "OBSDDOG-Solution.pdf",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-Solution.pdf",
+          "kb": 60.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/solution.meta.json",
+          "kb": 1.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../observability/datadog-deployment-hybrid-cloud-estates/v1.0.0/deliverables/OBSDDOG-hero.png",
     "product_count": 3
   },
   {

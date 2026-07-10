@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "aws-iam-identity-center-entra-sso-federation",
+    "title": "AWS IAM Identity Center + Microsoft Entra SSO Federation",
+    "category_path": [
+      "AWS"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-AWSSSO-COMM-001",
+      "name": "AWS IAM Identity Center + Microsoft Entra SSO Federation — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "<p>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning.</p>",
+      "description": "<h3>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning.</h3><p>Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as the identity provider — SAML SSO plus SCIM auto-provisioning — and maps Entra groups to least-privilege permission sets across every AWS account.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Terraform, CLI &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>AWS IAM Identity Center enablement (org-wide) and delegated admin</li><li>Entra ID enterprise app: SAML SSO + SCIM user/group provisioning</li><li>Permission sets mapped to Entra groups (least privilege)</li><li>Multi-account access assignments and session controls</li><li>Break-glass and decommissioning of legacy IAM users</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>One Microsoft identity signing in to every AWS account with least-privilege, auto-provisioned access — no standalone IAM users to leak.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSSSO-Discovery.sh</code> &mdash; read-only discovery of the IAM Identity Center + legacy</li><li><code>AWSSSO-Entra-Provisioning.ps1</code> &mdash; GATED helper to create the Entra enterprise</li><li><code>AWSSSO-Report.sh</code> &mdash; read-only report of the group -> permission set -> account</li><li><code>AWSSSO-Validate.ps1</code> &mdash; read-only validation of the Entra ID side of the AWS</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS IAM Identity Center + Microsoft Entra SSO Federation",
+      "meta_description": "Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as th",
+      "url_key": "aws-iam-identity-center-entra-sso-federation-commercial",
+      "image": "AWSSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSSSO-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AWSSSO-NPO-001",
+      "name": "AWS IAM Identity Center + Microsoft Entra SSO Federation — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning.</h3><p>Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as the identity provider — SAML SSO plus SCIM auto-provisioning — and maps Entra groups to least-privilege permission sets across every AWS account.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>AWS IAM Identity Center enablement (org-wide) and delegated admin</li><li>Entra ID enterprise app: SAML SSO + SCIM user/group provisioning</li><li>Permission sets mapped to Entra groups (least privilege)</li><li>Multi-account access assignments and session controls</li><li>Break-glass and decommissioning of legacy IAM users</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSSSO-Discovery.sh</code> &mdash; read-only discovery of the IAM Identity Center + legacy</li><li><code>AWSSSO-Entra-Provisioning.ps1</code> &mdash; GATED helper to create the Entra enterprise</li><li><code>AWSSSO-Report.sh</code> &mdash; read-only report of the group -> permission set -> account</li><li><code>AWSSSO-Validate.ps1</code> &mdash; read-only validation of the Entra ID side of the AWS</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS IAM Identity Center + Microsoft Entra SSO Federation — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as th",
+      "url_key": "aws-iam-identity-center-entra-sso-federation-nonprofit",
+      "image": "AWSSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSSSO-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-AWSSSO-GOV-001",
+      "name": "AWS IAM Identity Center + Microsoft Entra SSO Federation — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Sign in to AWS with your Microsoft identities — federate AWS IAM Identity Center with Entra ID for SSO and automated user provisioning.</h3><p>Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as the identity provider — SAML SSO plus SCIM auto-provisioning — and maps Entra groups to least-privilege permission sets across every AWS account.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>AWS IAM Identity Center enablement (org-wide) and delegated admin</li><li>Entra ID enterprise app: SAML SSO + SCIM user/group provisioning</li><li>Permission sets mapped to Entra groups (least privilege)</li><li>Multi-account access assignments and session controls</li><li>Break-glass and decommissioning of legacy IAM users</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>AWSSSO-Discovery.sh</code> &mdash; read-only discovery of the IAM Identity Center + legacy</li><li><code>AWSSSO-Entra-Provisioning.ps1</code> &mdash; GATED helper to create the Entra enterprise</li><li><code>AWSSSO-Report.sh</code> &mdash; read-only report of the group -> permission set -> account</li><li><code>AWSSSO-Validate.ps1</code> &mdash; read-only validation of the Entra ID side of the AWS</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "AWS IAM Identity Center + Microsoft Entra SSO Federation — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Standalone IAM users in AWS mean unmanaged credentials and no lifecycle. This solution federates AWS IAM Identity Center with Microsoft Entra ID as th",
+      "url_key": "aws-iam-identity-center-entra-sso-federation-government",
+      "image": "AWSSSO-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "AWSSSO-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

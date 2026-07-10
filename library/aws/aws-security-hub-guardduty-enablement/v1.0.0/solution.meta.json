@@ -1,0 +1,39 @@
+{
+  "slug": "aws-security-hub-guardduty-enablement",
+  "title": "AWS Security Hub & GuardDuty Enablement",
+  "category": "AWS",
+  "category_slug": "aws",
+  "sol_code": "AWSSEC",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AWS category. Terraform (.tf) + AWS CLI (.sh). Standard/pricing flagged verify; response actions gated."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AWSSEC-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AWSSEC-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AWSSEC-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AWSSEC-Complete-Solution.zip"
+  ],
+  "hero": "AWSSEC-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "IAM Identity Center",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "+ Entra SSO",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Federate · Provision · Least-Privilege",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "IAM USER SPRAWL",
+    "items": [
+      "Standalone creds",
+      "No lifecycle",
+      "Per-account logins",
+      "No SSO"
+    ]
+  },
+  "to": {
+    "label": "Federated Access",
+    "stat": "SSO · SCIM · Scoped"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "Entra SSO",
+      "sub": "SAML sign-in"
+    },
+    {
+      "icon": "users",
+      "title": "SCIM Provisioning",
+      "sub": "Auto users/groups"
+    },
+    {
+      "icon": "key",
+      "title": "Permission Sets",
+      "sub": "Least-privilege"
+    },
+    {
+      "icon": "shield",
+      "title": "No IAM Users",
+      "sub": "Lifecycle-managed"
+    }
+  ]
+}

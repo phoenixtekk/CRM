@@ -1,0 +1,39 @@
+{
+  "slug": "aws-iam-identity-center-entra-sso-federation",
+  "title": "AWS IAM Identity Center + Microsoft Entra SSO Federation",
+  "category": "AWS",
+  "category_slug": "aws",
+  "sol_code": "AWSSSO",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW AWS category. Terraform (.tf) + AWS CLI (.sh) + PowerShell (Microsoft.Graph for the Entra side). Leverages the catalog's Entra strength. Feature availability flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AWSSSO-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AWSSSO-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AWSSSO-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AWSSSO-Complete-Solution.zip"
+  ],
+  "hero": "AWSSSO-hero.png"
+}
+

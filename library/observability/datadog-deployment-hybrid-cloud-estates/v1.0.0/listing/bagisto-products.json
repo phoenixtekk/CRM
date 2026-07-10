@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "datadog-deployment-hybrid-cloud-estates",
+    "title": "Datadog Deployment for Hybrid & Cloud Estates",
+    "category_path": [
+      "Observability"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-OBSDDOG-COMM-001",
+      "name": "Datadog Deployment for Hybrid & Cloud Estates — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2495.0,
+      "short_description": "<p>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything.</p>",
+      "description": "<h3>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything.</h3><p>Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent rollout (hybrid + cloud), cloud integrations (Azure/AWS/Kubernetes), curated dashboards, and monitors/alerting with sensible thresholds — managed as code so the observability stack is versioned and repeatable.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run automation (Terraform, CLI &amp; scripts).</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Datadog agent rollout (VMs, containers/Kubernetes, hybrid) as code</li><li>Cloud integrations — Azure, AWS, and Kubernetes metrics/logs</li><li>Curated dashboards and Service Level Objectives (SLOs)</li><li>Monitors and alerting with tuned thresholds and notification routing</li><li>Log pipelines and APM foundations, managed via Terraform</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>One pane of glass over Azure, AWS, and on-prem — deployed as versioned code, not a pile of hand-clicked monitors.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Install-DatadogAgent.ps1</code> &mdash; install/uninstall the Datadog Agent on Windows (white-label)</li><li><code>OBSDDOG-Report.ps1</code> &mdash; Datadog inventory/coverage report via the API (read-only)</li><li><code>OBSDDOG-Validate.ps1</code> &mdash; verify the Datadog deployment and that NO keys live in code (read-only)</li><li><code>install-datadog-agent.sh</code> &mdash; install/uninstall the Datadog Agent on Linux (white-label)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Datadog Deployment for Hybrid & Cloud Estates",
+      "meta_description": "Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent ro",
+      "url_key": "datadog-deployment-hybrid-cloud-estates-commercial",
+      "image": "OBSDDOG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "OBSDDOG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OBSDDOG-NPO-001",
+      "name": "Datadog Deployment for Hybrid & Cloud Estates — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1497.0,
+      "short_description": "<p>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything.</h3><p>Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent rollout (hybrid + cloud), cloud integrations (Azure/AWS/Kubernetes), curated dashboards, and monitors/alerting with sensible thresholds — managed as code so the observability stack is versioned and repeatable.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Datadog agent rollout (VMs, containers/Kubernetes, hybrid) as code</li><li>Cloud integrations — Azure, AWS, and Kubernetes metrics/logs</li><li>Curated dashboards and Service Level Objectives (SLOs)</li><li>Monitors and alerting with tuned thresholds and notification routing</li><li>Log pipelines and APM foundations, managed via Terraform</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Install-DatadogAgent.ps1</code> &mdash; install/uninstall the Datadog Agent on Windows (white-label)</li><li><code>OBSDDOG-Report.ps1</code> &mdash; Datadog inventory/coverage report via the API (read-only)</li><li><code>OBSDDOG-Validate.ps1</code> &mdash; verify the Datadog deployment and that NO keys live in code (read-only)</li><li><code>install-datadog-agent.sh</code> &mdash; install/uninstall the Datadog Agent on Linux (white-label)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Datadog Deployment for Hybrid & Cloud Estates — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent ro",
+      "url_key": "datadog-deployment-hybrid-cloud-estates-nonprofit",
+      "image": "OBSDDOG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "OBSDDOG-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-OBSDDOG-GOV-001",
+      "name": "Datadog Deployment for Hybrid & Cloud Estates — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2120.75,
+      "short_description": "<p>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Roll out Datadog across hybrid and multicloud — agents, integrations, dashboards, and monitors that give one pane of glass over everything.</h3><p>Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent rollout (hybrid + cloud), cloud integrations (Azure/AWS/Kubernetes), curated dashboards, and monitors/alerting with sensible thresholds — managed as code so the observability stack is versioned and repeatable.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Datadog agent rollout (VMs, containers/Kubernetes, hybrid) as code</li><li>Cloud integrations — Azure, AWS, and Kubernetes metrics/logs</li><li>Curated dashboards and Service Level Objectives (SLOs)</li><li>Monitors and alerting with tuned thresholds and notification routing</li><li>Log pipelines and APM foundations, managed via Terraform</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>Automation Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>Install-DatadogAgent.ps1</code> &mdash; install/uninstall the Datadog Agent on Windows (white-label)</li><li><code>OBSDDOG-Report.ps1</code> &mdash; Datadog inventory/coverage report via the API (read-only)</li><li><code>OBSDDOG-Validate.ps1</code> &mdash; verify the Datadog deployment and that NO keys live in code (read-only)</li><li><code>install-datadog-agent.sh</code> &mdash; install/uninstall the Datadog Agent on Linux (white-label)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Datadog Deployment for Hybrid & Cloud Estates — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Teams running Azure, AWS, and on-prem end up with fragmented monitoring and no single view. This solution deploys Datadog across the estate — agent ro",
+      "url_key": "datadog-deployment-hybrid-cloud-estates-government",
+      "image": "OBSDDOG-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "OBSDDOG-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

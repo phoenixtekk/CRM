@@ -1,0 +1,39 @@
+{
+  "slug": "datadog-deployment-hybrid-cloud-estates",
+  "title": "Datadog Deployment for Hybrid & Cloud Estates",
+  "category": "Observability",
+  "category_slug": "observability",
+  "sol_code": "OBSDDOG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Observability category. Terraform (datadog provider, .tf) + agent install scripts (.sh/.ps1). Datadog console/pricing internals deferred to Datadog docs; flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OBSDDOG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-OBSDDOG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-OBSDDOG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "OBSDDOG-Complete-Solution.zip"
+  ],
+  "hero": "OBSDDOG-hero.png"
+}
+

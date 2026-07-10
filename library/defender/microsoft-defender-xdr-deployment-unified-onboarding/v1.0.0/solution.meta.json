@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-xdr-deployment-unified-onboarding",
+  "title": "Microsoft Defender XDR Deployment & Unified Onboarding",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "DEFXDR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Defender category. PowerShell (Graph Security/Az) + KQL advanced hunting. Distinct from SOCXDR (which unifies XDR *with Sentinel*): this onboards the XDR suite itself. Licensing (E5/Defender plans) flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DEFXDR-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-DEFXDR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-DEFXDR-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "DEFXDR-Complete-Solution.zip"
+  ],
+  "hero": "DEFXDR-hero.png"
+}
+

@@ -1,0 +1,86 @@
+// ============================================================================
+// OBSAZMON-Queries.kql — curated KQL pack for the Azure Monitor foundation
+//
+// PURPOSE
+//   The Kusto queries used by the tests (05-testing), the ops workbook
+//   (OBSAZMON-Workbook-OpsOverview), and the executive dashboard
+//   (OBSAZMON-Dashboard-Exec). Run each in Monitor -> Logs against
+//   log-obsazmon-platform, or paste into a workbook query tile.
+//
+// HOW TO RUN
+//   Monitor -> Logs -> scope = log-obsazmon-platform -> paste a section -> Run.
+//   Adjust time ranges / thresholds to your SLOs before pinning.
+//
+// EXPECTED RESULTS
+//   Read-only queries. No data is modified. Empty results usually mean telemetry
+//   is not yet flowing (see 06-troubleshooting "No telemetry").
+//
+// NOTES
+//   White-label. Table/column names reflect current Azure Monitor schemas —
+//   VERIFY names against your workspace (schemas evolve).
+// ============================================================================
+
+// --- 1) Heartbeat / node liveness (Gate 1, Gate G3 heartbeat alert) ----------
+// Latest heartbeat per machine; anything old is a candidate "down" node.
+Heartbeat
+| summarize LastBeat = max(TimeGenerated) by Computer, ResourceId
+| extend MinutesSinceBeat = datetime_diff('minute', now(), LastBeat) * -1
+| order by MinutesSinceBeat desc
+
+// --- 2) Machines silent in the last 10 minutes (drives the heartbeat alert) --
+Heartbeat
+| summarize LastBeat = max(TimeGenerated) by Computer
+| where LastBeat < ago(10m)
+| project Computer, LastBeat
+
+// --- 3) VM performance — CPU (drives the CPU alert + workbook) ---------------
+// Requires VM insights / AMA perf collection.
+InsightsMetrics
+| where Namespace == "Processor" and Name == "UtilizationPercentage"
+| summarize AvgCPU = avg(Val), MaxCPU = max(Val) by Computer, bin(TimeGenerated, 5m)
+| order by TimeGenerated desc
+
+// --- 4) VM performance — available memory ------------------------------------
+InsightsMetrics
+| where Namespace == "Memory" and Name == "AvailableMB"
+| summarize AvgAvailMB = avg(Val) by Computer, bin(TimeGenerated, 5m)
+| order by TimeGenerated desc
+
+// --- 5) Resource-log volume by resource type (coverage sanity) ---------------
+// Confirms diagnostic settings are actually delivering resource logs.
+AzureDiagnostics
+| summarize Records = count() by ResourceProvider, Category, bin(TimeGenerated, 1h)
+| order by Records desc
+
+// --- 6) Azure Activity — recent administrative changes -----------------------
+AzureActivity
+| where TimeGenerated > ago(24h)
+| where CategoryValue == "Administrative"
+| summarize Count = count() by OperationNameValue, Caller, ActivityStatusValue
+| order by Count desc
+
+// --- 7) Fired alerts summary (workbook + exec dashboard) ---------------------
+// Requires alerts to be flowing to the workspace / Azure Monitor alerts.
+AlertsManagementResources
+| where type == "microsoft.alertsmanagement/alerts"
+| extend sev = tostring(properties.essentials.severity),
+         state = tostring(properties.essentials.alertState),
+         fired = todatetime(properties.essentials.startDateTime)
+| where fired > ago(7d)
+| summarize Count = count() by sev, state
+| order by sev asc
+// NOTE: query #7 targets Azure Resource Graph (alerts), not the LA workspace.
+
+// --- 8) Top ingesters (cost control — used by OBSAZMON-Report.ps1 too) -------
+Usage
+| where TimeGenerated > ago(24h)
+| where IsBillable == true
+| summarize BillableGB = round(sum(Quantity) / 1000, 3) by DataType
+| order by BillableGB desc
+
+// --- 9) Container insights — pod restarts (if AKS onboarded) ------------------
+KubePodInventory
+| where TimeGenerated > ago(1h)
+| summarize Restarts = max(PodRestartCount) by Namespace, Name = Name, ClusterName
+| where Restarts > 0
+| order by Restarts desc

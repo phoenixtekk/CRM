@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Defender",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "XDR Onboarding",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Endpoint · Identity · Email · Cloud",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SILOED DEFENDER",
+    "items": [
+      "4 point products",
+      "No correlation",
+      "Seams to slip through",
+      "Console sprawl"
+    ]
+  },
+  "to": {
+    "label": "Unified XDR",
+    "stat": "Correlated · One portal"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "4 Pillars Onboarded",
+      "sub": "MDE/MDI/MDO/MDCA"
+    },
+    {
+      "icon": "chart",
+      "title": "Cross-Domain",
+      "sub": "Correlated incidents"
+    },
+    {
+      "icon": "key",
+      "title": "Unified RBAC",
+      "sub": "One role model"
+    },
+    {
+      "icon": "gear",
+      "title": "Secure Score",
+      "sub": "Baseline posture"
+    }
+  ]
+}

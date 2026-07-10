@@ -19,8 +19,14 @@ The `/generate-solution` factory writes files, runs build tools, and is a heavy 
 So "auto-create" = **auto-triage + auto-queue + fast human/worker-gated build**, not an open firehose.
 
 ## Tiering — what a customer gets over an anonymous visitor
-Recognition v1 (shipped): the endpoint checks the requester's email against the store `customers`
-table. Recognized → tier `customer`; otherwise `anon`.
+**Recognition (SHIPPED — v2, spoof-proof):** tier is decided by a **real logged-in store session**, not
+a typed email. `/create` calls the store route **`/api/me`** (Laravel `web`/`customer` guard); if the
+visitor is a logged-in Bagisto customer it returns their identity plus a short-lived **HMAC-signed token**
+(secret `CREATE_TOKEN_SECRET`, server-only). `/create` passes that token to `create-endpoint.php`, which
+grants tier `customer` **only when the token's HMAC verifies and hasn't expired**. Typing someone else's
+email does **not** unlock customer perks (verified: a customer email with no token resolves to `anon`).
+> Superseded: the earlier v1 that matched the posted email against the `customers` table was removed —
+> it was guessable. The token mechanism replaces it.
 
 | Capability | Anonymous | **Customer (recognized email)** | Subscriber (future) |
 |---|---|---|---|
@@ -37,11 +43,17 @@ table. Recognized → tier `customer`; otherwise `anon`.
 *upsell is the build itself* — "sign in / create a free account to get it built, delivered to your
 account, with tier & GCC options." It converts browsers into store accounts.
 
-### Recognition v2 (recommended next)
-Replace email-recognition with a real **Bagisto customer session** so tier can't be guessed by typing
-someone's email: expose a tiny authenticated JSON route in the store (`/api/me`) that returns the
-logged-in customer id; `/create` calls it with credentials and unlocks customer features only on a real
-session. Keeps enumeration risk at zero.
+### Anti-abuse (SHIPPED)
+- **Spoof-proof tiering** via the signed `/api/me` token (above) — email alone can't claim customer tier.
+- **httpOnly `wm_c` cookie + IP rate caps** on both `/start` and `/create` endpoints (anon `/create`:
+  3/day per cookie AND per IP; leads: 5/10min). Honeypot field on every form. Client-side localStorage
+  soft cap for instant UX feedback.
+- Data (`create-queue.jsonl`, `leads.jsonl`) is stored **outside the web root**.
+
+### Next hardening (optional)
+- Email-verification (one-time code) before an anonymous build is queued, to stop throwaway-email spam.
+- A scope/profanity filter on the ask before it reaches the worker.
+- Token bound to a session-id claim so it can't be replayed from another browser.
 
 ## Improvements worth adding
 1. **Credits/quotas as monetization** — customers get N free builds/month; extra builds or rush SLA are

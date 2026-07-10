@@ -1,0 +1,39 @@
+{
+  "slug": "azure-monitor-log-analytics-foundation-dashboards",
+  "title": "Azure Monitor & Log Analytics — Foundation, Alerts & Dashboards",
+  "category": "Observability",
+  "category_slug": "observability",
+  "sol_code": "OBSAZMON",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-10",
+  "updated": "2026-07-10",
+  "published_at": "2026-07-10",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NEW Observability category. PowerShell/Az + Bicep + KQL. Distinct from Sentinel (security SIEM) — this is ops/platform observability. Feature/pricing flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-OBSAZMON-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-OBSAZMON-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-OBSAZMON-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "OBSAZMON-Complete-Solution.zip"
+  ],
+  "hero": "OBSAZMON-hero.png"
+}
+

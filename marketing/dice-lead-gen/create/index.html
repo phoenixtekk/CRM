@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Create a Solution — Phoenixtekk Workplace Marketplace</title>
 <meta name="description" content="Describe the Microsoft or cloud outcome you need. We check our 380+ solution catalog instantly — and build anything new, typically within a day.">
+<link rel="icon" type="image/png" href="/create/logo.png">
+<link rel="apple-touch-icon" href="/create/logo.png">
 <style>
   :root{
     --bg:#070d18; --card:#111d34; --ink:#eef3fc; --mut:#9db0d0; --line:#233350;
@@ -22,7 +24,7 @@
   /* top bar */
   .top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
   .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em}
-  .brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:inline-block;box-shadow:0 6px 18px rgba(59,130,246,.4)}
+  .brand .logo{width:30px;height:30px;border-radius:8px;display:inline-block;object-fit:cover;box-shadow:0 6px 18px rgba(59,130,246,.35)}
   .brand small{display:block;font-weight:600;font-size:11px;color:var(--mut);letter-spacing:.14em;text-transform:uppercase}
   .signin{font-size:13px;color:var(--ink);border:1px solid var(--line);padding:8px 14px;border-radius:10px}
   .signin:hover{border-color:var(--brand)}
@@ -92,7 +94,7 @@
 <body>
 <div class="wrap">
   <div class="top">
-    <a class="brand" href="https://workplace.phoenixtekk.com"><span class="dot"></span><span>PHOENIXTEKK<small>Workplace Marketplace</small></span></a>
+    <a class="brand" href="https://workplace.phoenixtekk.com"><img class="logo" src="/create/logo.png" alt="Phoenixtekk"><span>PHOENIXTEKK<small>Workplace Marketplace</small></span></a>
     <a class="signin" id="signin" href="https://workplace.phoenixtekk.com/customer/login">Sign in →</a>
   </div>
 

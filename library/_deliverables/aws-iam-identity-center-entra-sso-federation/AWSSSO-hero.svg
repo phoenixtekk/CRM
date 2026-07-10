@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">AWS IAM Identity Center + Microsoft Entra SSO Federation — product hero</title><desc id="d">AWS marketing banner.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#071226"/><stop offset="0.55" stop-color="#0c2748"/><stop offset="1" stop-color="#091a33"/></linearGradient><linearGradient id="arrow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f9e3a"/><stop offset="1" stop-color="#74d84c"/></linearGradient><radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2f95d6" stop-opacity="0.33"/><stop offset="1" stop-color="#2f95d6" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/><ellipse cx="770" cy="600" rx="600" ry="400" fill="url(#glow)"/>
+<g stroke="#3a6ea5" stroke-width="2" opacity="0.16" fill="none"><path d="M1160 183 H1060 L1090 233 H1010"/><path d="M40 317 H180 L210 347 H360"/><path d="M70 943 H210 L240 903 H360"/><path d="M1060 291 H920 L950 331 H830"/></g><g fill="#54a0e0" opacity="0.5"><circle cx="1060" cy="183" r="5"/><circle cx="1090" cy="233" r="5"/><circle cx="180" cy="317" r="5"/><circle cx="210" cy="347" r="5"/><circle cx="210" cy="943" r="5"/><circle cx="240" cy="903" r="5"/><circle cx="920" cy="291" r="5"/><circle cx="950" cy="331" r="5"/></g>
+<g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+<text x="600" y="170" font-size="106" fill="#ffffff" font-weight="800">IAM Identity Center</text>
+<text x="600" y="285" font-size="112" fill="#5cc24a" font-weight="800">+ Entra SSO</text>
+<text x="600" y="400" font-size="54" fill="#2f95d6" font-weight="700">Federate · Provision · Least-Privilege</text>
+</g>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="70" y="430" width="370" height="300" rx="18" fill="#ffffff" opacity="0.05"/><rect x="70" y="430" width="370" height="300" rx="18" fill="none" stroke="#1f4a7a" stroke-width="2"/><text x="255" y="478" text-anchor="middle" font-size="30" font-weight="700" fill="#cfe0f2" letter-spacing="2">IAM USER SPRAWL</text><g font-size="26" fill="#d7e3f1">
+<g><circle cx="120" cy="540" r="14" fill="#c0392b"/><path d="M114 534 l12 12 M126 534 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="549">Standalone creds</text></g>
+<g><circle cx="120" cy="595" r="14" fill="#c0392b"/><path d="M114 589 l12 12 M126 589 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="604">No lifecycle</text></g>
+<g><circle cx="120" cy="650" r="14" fill="#c0392b"/><path d="M114 644 l12 12 M126 644 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="659">Per-account logins</text></g>
+<g><circle cx="120" cy="705" r="14" fill="#c0392b"/><path d="M114 699 l12 12 M126 699 l-12 12" stroke="#fff" stroke-width="3"/><text x="150" y="714">No SSO</text></g>
+</g></g>
+<polygon points="460,545 560,545 560,515 620,580 560,645 560,615 460,615" fill="url(#arrow)"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="660" y="430" width="470" height="300" rx="18" fill="#ffffff" opacity="0.06"/><rect x="660" y="430" width="470" height="300" rx="18" fill="none" stroke="#2f95d6" stroke-width="2"/><g transform="translate(700,470)"><path d="M14 34 a22 22 0 0 1 6 -43 a26 26 0 0 1 49 -6 a20 20 0 0 1 8 49 z" fill="#eaf3fc"/></g><text x="800" y="500" font-size="30" font-weight="700" fill="#ffffff">Federated Access</text><g transform="translate(820,540)"><path d="M75 6 L130 26 V70 C130 110 105 138 75 150 C45 138 20 110 20 70 V26 Z" fill="#13355c" stroke="#54c14a" stroke-width="4"/><path d="M50 78 L70 100 L104 56" fill="none" stroke="#5cc24a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g><text x="690" y="700" font-size="27" font-weight="700" fill="#9fe39a">SSO · SCIM · Scoped</text></g>
+<text x="600" y="800" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#9fc4e6" letter-spacing="8">SECURE.  MODERN.  EFFICIENT.</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(165,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><g fill="none" stroke="#56b0e6" stroke-width="4" stroke-linecap="round"><path d="M-22 6 a22 26 0 0 1 44 0"/><path d="M-13 8 a13 17 0 0 1 26 0 v14"/><path d="M-4 9 a4 8 0 0 1 8 0 v18"/><path d="M-22 20 v6"/><path d="M22 18 v10"/></g></g>
+<g transform="translate(455,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><g fill="none" stroke="#56b0e6" stroke-width="4"><circle cx="-10" cy="-6" r="9"/><path d="M-26 22 a16 16 0 0 1 32 0"/><circle cx="16" cy="-2" r="7"/><path d="M8 22 a12 12 0 0 1 24 0"/></g></g>
+<g transform="translate(745,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><circle cx="-10" cy="-2" r="12" fill="none" stroke="#9fc4e6" stroke-width="4"/><path d="M-1 4 L22 27 M14 19 l6 -6 M20 25 l6 -6" stroke="#9fc4e6" stroke-width="4" fill="none"/></g>
+<g transform="translate(1035,905)"><circle r="46" fill="#10294a" stroke="#2f95d6" stroke-width="2.5"/><path d="M0 -26 L24 -16 V8 C24 26 13 38 0 44 C-13 38 -24 26 -24 8 V-16 Z" fill="none" stroke="#5cc24a" stroke-width="4"/><path d="M-12 4 L-2 16 L14 -8" fill="none" stroke="#5cc24a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g font-size="29" font-weight="700" fill="#ffffff">
+<text x="165" y="995">Entra SSO</text>
+<text x="455" y="995">SCIM Provisioning</text>
+<text x="745" y="995">Permission Sets</text>
+<text x="1035" y="995">No IAM Users</text>
+</g><g font-size="23" fill="#9fb6cf">
+<text x="165" y="1030">SAML sign-in</text>
+<text x="455" y="1030">Auto users/groups</text>
+<text x="745" y="1030">Least-privilege</text>
+<text x="1035" y="1030">Lifecycle-managed</text>
+</g></g>
+<line x1="120" y1="1105" x2="1080" y2="1105" stroke="#1f4a7a" stroke-width="2"/><text x="600" y="1150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#7f9cba" letter-spacing="1">AWS</text>
+</svg>

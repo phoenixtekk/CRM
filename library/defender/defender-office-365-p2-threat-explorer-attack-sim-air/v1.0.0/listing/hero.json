@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Defender for Office 365",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "P2 Detect & Respond",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Explore · Simulate · Auto-Respond",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "FILTER ONLY",
+    "items": [
+      "Spam blocked, then blind",
+      "No hunting",
+      "No user training",
+      "Manual cleanup"
+    ]
+  },
+  "to": {
+    "label": "Detect & Respond",
+    "stat": "Hunted · Trained · Auto-remediated"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Threat Explorer",
+      "sub": "Hunt post-delivery"
+    },
+    {
+      "icon": "users",
+      "title": "Attack Simulation",
+      "sub": "Train the users"
+    },
+    {
+      "icon": "gear",
+      "title": "AIR",
+      "sub": "Auto-investigate"
+    },
+    {
+      "icon": "shield",
+      "title": "ZAP + Remediate",
+      "sub": "Approval-gated"
+    }
+  ]
+}
