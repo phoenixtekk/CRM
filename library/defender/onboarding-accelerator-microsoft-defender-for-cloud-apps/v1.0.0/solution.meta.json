@@ -1,0 +1,39 @@
+{
+  "slug": "onboarding-accelerator-microsoft-defender-for-cloud-apps",
+  "title": "Onboarding Accelerator — Microsoft Defender for Cloud Apps",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MCAONB",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Onboarding Accelerator (engagement archetype = implementation). Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MCAONB-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-MCAONB-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-MCAONB-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "MCAONB-Complete-Solution.zip"
+  ],
+  "hero": "MCAONB-hero.png"
+}
+

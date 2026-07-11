@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Defender for Cloud",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Workload Protection",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Servers · Containers · Data",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "POSTURE ONLY",
+    "items": [
+      "Misconfig visible",
+      "But no runtime",
+      "Workloads exposed",
+      "No alerts"
+    ]
+  },
+  "to": {
+    "label": "Protected Workloads",
+    "stat": "Servers · Containers · DB"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Defender Servers",
+      "sub": "MDE-integrated"
+    },
+    {
+      "icon": "cloud",
+      "title": "Containers",
+      "sub": "AKS + registry"
+    },
+    {
+      "icon": "lock",
+      "title": "Databases",
+      "sub": "SQL/OSS/Cosmos"
+    },
+    {
+      "icon": "gear",
+      "title": "Tuned Alerts",
+      "sub": "Response flow"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Technical Blocker",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Mitigation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Defender for Cloud Apps",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STALLED ROLLOUT",
+    "items": [
+      "Onboarding stuck",
+      "Connectivity fail",
+      "License/permission",
+      "No diagnosis"
+    ]
+  },
+  "to": {
+    "label": "Unblocked",
+    "stat": "Diagnosed · Fixed · Verified"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Diagnostics",
+      "sub": "Pinpoint blocker"
+    },
+    {
+      "icon": "shield",
+      "title": "Targeted Fix",
+      "sub": "Common causes"
+    },
+    {
+      "icon": "chart",
+      "title": "Verified",
+      "sub": "Cleared"
+    },
+    {
+      "icon": "key",
+      "title": "Escalation",
+      "sub": "Support-ready"
+    }
+  ]
+}

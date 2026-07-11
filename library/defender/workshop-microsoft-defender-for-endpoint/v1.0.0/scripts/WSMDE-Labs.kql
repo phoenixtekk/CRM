@@ -1,0 +1,120 @@
+// =====================================================================================
+// WSMDE-Labs.kql — Microsoft Defender for Endpoint workshop: the guided-lab query pack.
+//
+// PURPOSE
+//   The runnable, progressive endpoint KQL library for the workshop. One labeled section
+//   per hunting lab (endpoint fundamentals, process->network correlation, per-device
+//   rollup, ASR audit events, logon anomalies) plus the capstone candidate. Core take-home
+//   artifact — keep it and grow it into your team's shared query library.
+// HOW TO RUN
+//   Paste one query block (below a "// Lab N" header) into:
+//     Microsoft Defender -> Hunting -> Advanced hunting
+//   Or run one read-only from PowerShell:  WSMDE-RunLab.ps1 -Lab <n>
+// EXPECTED RESULTS
+//   Each query returns a small, explainable result set. Columns/tables flagged // VERIFY
+//   may differ in your tenant/cloud — correct against Advanced hunting -> schema.
+// NOTES
+//   White-label. READ-ONLY — every query only reads endpoint telemetry; nothing here
+//   changes a device. Defender XDR tables use `Timestamp`. Table/column names and ASR rule
+//   GUIDs evolve and can differ by plan (P1/P2) and cloud — VERIFY in your tenant.
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 1 — Endpoint fundamentals: what is this device doing?
+// Concept: DeviceProcessEvents is the process-execution record. project/sort/take.
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine, InitiatingProcessFileName
+| sort by Timestamp desc
+| take 20
+
+
+// -------------------------------------------------------------------------------------
+// Lab 4a — Filtering: encoded PowerShell (living-off-the-land indicator)
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(7d)
+| where FileName =~ "powershell.exe"
+| where ProcessCommandLine has "-enc" or ProcessCommandLine has "-encodedcommand"
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 4b — Correlation: script host that then made an external network connection
+// Concept: join DeviceProcessEvents to DeviceNetworkEvents on DeviceId within a window.
+// -------------------------------------------------------------------------------------
+let scriptHosts = dynamic(["powershell.exe","cmd.exe","wscript.exe","cscript.exe","mshta.exe","rundll32.exe"]);
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName in~ (scriptHosts)
+| project ProcTime = Timestamp, DeviceId, DeviceName, AccountName, FileName, ProcessCommandLine
+| join kind=inner (
+    DeviceNetworkEvents
+    | where Timestamp > ago(24h)
+    | where RemoteIPType == "Public"                  // VERIFY column name
+    | project NetTime = Timestamp, DeviceId, RemoteIP, RemoteUrl, RemotePort
+  ) on DeviceId
+| where NetTime between (ProcTime .. (ProcTime + 5m))
+| project ProcTime, NetTime, DeviceName, AccountName, FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort
+| sort by ProcTime desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 4c — Aggregation: per-device script-host activity (fan-out / rollup)
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName in~ ("powershell.exe","wscript.exe","cscript.exe","mshta.exe","rundll32.exe")
+| summarize Runs = count(), DistinctCmds = dcount(ProcessCommandLine), Sample = make_set(ProcessCommandLine, 5) by DeviceName, FileName
+| sort by Runs desc
+| take 25
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5 — ASR audit events: what WOULD have been blocked (read the audit before enforcing)
+// Concept: ASR audit/block actions surface in DeviceEvents. Audit-first is the discipline.
+// -------------------------------------------------------------------------------------
+DeviceEvents
+| where Timestamp > ago(7d)
+| where ActionType startswith "Asr"                   // e.g. AsrPsexecWmiChildProcessAudited — VERIFY current ActionType names
+| project Timestamp, DeviceName, ActionType, FileName, FolderPath, InitiatingProcessFileName, InitiatingProcessCommandLine
+| summarize Events = count(), Devices = dcount(DeviceName), Sample = make_set(FileName, 5) by ActionType
+| sort by Events desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6-support — Logon anomalies (context for an investigation / capstone)
+// Concept: failed-then-succeeded interactive logons per device.
+// -------------------------------------------------------------------------------------
+DeviceLogonEvents
+| where Timestamp > ago(1d)
+| summarize Failed = countif(ActionType == "LogonFailed"),
+            Succeeded = countif(ActionType == "LogonSuccess")
+        by DeviceName, AccountName = tolower(AccountName), bin(Timestamp, 1h)
+| where Failed >= 10 and Succeeded >= 1
+| sort by Failed desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 8 — CAPSTONE CANDIDATE: script host -> outbound -> uncommon initiating parent
+// Tune to a SMALL, explainable result, then Create detection rule -> `Detect-MDELab-Pilot`
+// with response = ALERT ONLY. Project entity columns (DeviceId/DeviceName/AccountName).
+// -------------------------------------------------------------------------------------
+let lookback = 24h;
+let scriptHosts = dynamic(["powershell.exe","wscript.exe","cscript.exe","mshta.exe","rundll32.exe"]);
+DeviceProcessEvents
+| where Timestamp > ago(lookback)
+| where FileName in~ (scriptHosts)
+| where InitiatingProcessFileName !in~ ("explorer.exe","services.exe","svchost.exe")  // uncommon parent
+| join kind=inner (
+    DeviceNetworkEvents
+    | where Timestamp > ago(lookback)
+    | where RemoteIPType == "Public"                  // VERIFY column
+    | summarize Connections = count(), Dest = make_set(RemoteUrl, 5) by DeviceId
+  ) on DeviceId
+| where Connections > 0
+| project Timestamp, DeviceId, DeviceName, AccountName, FileName, InitiatingProcessFileName, ProcessCommandLine, Connections
+| sort by Timestamp desc

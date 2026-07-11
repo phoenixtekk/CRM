@@ -43,6 +43,7 @@ SOURCE_ORDER = [
     "global-requirements-backup-dr-solutions.md",
     "global-requirements-data.md",
     "global-requirements-ai.md",
+    "global-requirements-assessments.md",
     "gcc-high-parity-notes.md",
     "03-implementation.md",
     "04-maintenance-and-updates.md",

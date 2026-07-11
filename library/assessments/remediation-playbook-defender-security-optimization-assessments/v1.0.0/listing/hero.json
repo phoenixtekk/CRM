@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Remediation Playbook",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "for Defender SOA",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Fix · Verify · Re-score",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "REPORT GATHERS DUST",
+    "items": [
+      "Findings unfixed",
+      "No steps",
+      "No verification",
+      "Gaps persist"
+    ]
+  },
+  "to": {
+    "label": "Gaps Closed",
+    "stat": "Remediated · Verified · Re-scored"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Fix Playbook",
+      "sub": "Per finding"
+    },
+    {
+      "icon": "shield",
+      "title": "Pilot-First",
+      "sub": "-WhatIf gated"
+    },
+    {
+      "icon": "chart",
+      "title": "Re-Score",
+      "sub": "Prove closure"
+    },
+    {
+      "icon": "key",
+      "title": "Evidence",
+      "sub": "Change-tracked"
+    }
+  ]
+}

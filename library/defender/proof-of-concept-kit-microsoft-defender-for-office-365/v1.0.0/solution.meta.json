@@ -1,0 +1,39 @@
+{
+  "slug": "proof-of-concept-kit-microsoft-defender-for-office-365",
+  "title": "Proof-of-Concept Kit — Microsoft Defender for Office 365",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "POCMDO",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Proof-of-Concept Kit (reframed from 'Show Technical Ability' — a customer-runnable eval, not a sales motion). Test signal is benign/simulated only. Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-POCMDO-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-POCMDO-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-POCMDO-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "POCMDO-Complete-Solution.zip"
+  ],
+  "hero": "POCMDO-hero.png"
+}
+

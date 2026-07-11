@@ -1,0 +1,39 @@
+{
+  "slug": "workshop-microsoft-defender-for-identity",
+  "title": "Workshop — Microsoft Defender for Identity",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "WSMDI",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Workshop archetype (enablement/training deliverable). Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WSMDI-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-WSMDI-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-WSMDI-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "WSMDI-Complete-Solution.zip"
+  ],
+  "hero": "WSMDI-hero.png"
+}
+

@@ -1,0 +1,39 @@
+{
+  "slug": "security-optimization-assessment-microsoft-defender-suite",
+  "title": "Security Optimization Assessment — Microsoft Defender (Suite / XDR)",
+  "category": "Assessments",
+  "category_slug": "assessments",
+  "sol_code": "SOAXDR",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Security Optimization Assessment archetype (read-only score + findings). NEW Assessments category. Pairs with the Remediation Playbook (SOAREM). Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SOAXDR-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SOAXDR-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SOAXDR-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SOAXDR-Complete-Solution.zip"
+  ],
+  "hero": "SOAXDR-hero.png"
+}
+

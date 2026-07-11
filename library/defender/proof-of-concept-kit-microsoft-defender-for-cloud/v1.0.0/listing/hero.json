@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Proof-of-Concept Kit",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Defender for Cloud",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Pilot · Demonstrate · Score",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SLIDEWARE DECISION",
+    "items": [
+      "Deck, not proof",
+      "No test signal",
+      "Unclear value",
+      "Risky pilot"
+    ]
+  },
+  "to": {
+    "label": "Proven in Tenant",
+    "stat": "Piloted · Demonstrated · Scored"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Scoped Pilot",
+      "sub": "Safe ring"
+    },
+    {
+      "icon": "shield",
+      "title": "Test Signal",
+      "sub": "Benign triggers"
+    },
+    {
+      "icon": "chart",
+      "title": "Scorecard",
+      "sub": "Vs criteria"
+    },
+    {
+      "icon": "key",
+      "title": "Clean Teardown",
+      "sub": "Reversible"
+    }
+  ]
+}

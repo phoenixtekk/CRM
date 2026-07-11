@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Architecture Service",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Defender for Cloud",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Design · Scale · Govern",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AD-HOC ROLLOUT",
+    "items": [
+      "Inconsistent coverage",
+      "RBAC sprawl",
+      "No multicloud plan",
+      "Cost surprises"
+    ]
+  },
+  "to": {
+    "label": "Designed at Scale",
+    "stat": "Reference · Governed · Costed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Reference Design",
+      "sub": "MG/sub model"
+    },
+    {
+      "icon": "gear",
+      "title": "Plan Strategy",
+      "sub": "CSPM + workloads"
+    },
+    {
+      "icon": "shield",
+      "title": "RBAC + Govern",
+      "sub": "Clean model"
+    },
+    {
+      "icon": "chart",
+      "title": "Cost Model",
+      "sub": "Predictable"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-cloud-workload-protection-plans",
+  "title": "Microsoft Defender for Cloud — Workload Protection Plans (CWPP)",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDCWP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "MDC workload protection (CWPP) — complements existing DEFCSPM (posture). Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDCWP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-MDCWP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-MDCWP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "MDCWP-Complete-Solution.zip"
+  ],
+  "hero": "MDCWP-hero.png"
+}
+

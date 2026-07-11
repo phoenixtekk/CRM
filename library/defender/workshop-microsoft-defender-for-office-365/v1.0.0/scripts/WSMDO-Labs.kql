@@ -1,0 +1,89 @@
+// =====================================================================================
+// WSMDO-Labs.kql — Microsoft Defender for Office 365 workshop: the guided-lab query pack.
+//
+// PURPOSE
+//   The runnable, progressive email KQL library for the workshop. One labeled section per
+//   hunting lab (post-delivery clicks, sender/subject campaign, bad-attachment hash,
+//   delivered-then-detected) plus the capstone candidate. Core take-home artifact — keep it
+//   and grow it into your team's shared query library.
+// HOW TO RUN
+//   Paste one query block (below a "// Lab N" header) into:
+//     Microsoft Defender -> Hunting -> Advanced hunting
+//   Or run one read-only from PowerShell:  WSMDO-RunLab.ps1 -Lab <n>
+// EXPECTED RESULTS
+//   Each query returns a small, explainable result set. Tables/columns flagged // VERIFY
+//   may differ in your tenant/cloud — correct against Advanced hunting -> schema. Email
+//   tables require MDO Plan 2 (verify).
+// NOTES
+//   White-label. READ-ONLY — every query only reads email telemetry; nothing here changes a
+//   mailbox. Defender email tables use `Timestamp`. Table/column names evolve and can differ
+//   by plan (P1/P2) and cloud — VERIFY in your tenant.
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5a — Post-delivery URL clicks (the risk the prevention layer missed)
+// Concept: join click data to EmailUrlInfo + EmailEvents (delivered) on NetworkMessageId.
+// -------------------------------------------------------------------------------------
+let look = ago(7d);
+UrlClickInfo                                           // VERIFY table/column names for your tenant
+| where Timestamp > look
+| where ActionType == "ClickAllowed" or IsClickedThrough == 1
+| join kind=inner (EmailUrlInfo | where Timestamp > look) on NetworkMessageId
+| join kind=inner (EmailEvents | where Timestamp > look and DeliveryAction == "Delivered") on NetworkMessageId
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, Subject, Url, ThreatTypes, DeliveryLocation
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5b — Everyone who RECEIVED mail from a known-bad sender / subject indicator
+// Concept: filter EmailEvents to a campaign indicator (pass the indicator in the portal).
+// -------------------------------------------------------------------------------------
+EmailEvents
+| where Timestamp > ago(7d)
+| where SenderFromAddress =~ "badsender@contoso.com" or Subject has "urgent invoice"  // replace indicator
+| project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, Subject, DeliveryAction, DeliveryLocation, ThreatTypes
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5c — Recipients of an attachment matching a known-bad SHA256
+// Concept: join EmailAttachmentInfo to EmailEvents on NetworkMessageId.
+// -------------------------------------------------------------------------------------
+EmailAttachmentInfo
+| where Timestamp > ago(7d)
+| where SHA256 =~ "<replace-with-sha256>"
+| join kind=inner (EmailEvents | where Timestamp > ago(7d)) on NetworkMessageId
+| project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, Subject, FileName, SHA256, DeliveryLocation
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 8-support — Delivered-then-detected: mail delivered, later found malicious/phish
+// Concept: post-delivery threat picture (the value of the post-delivery half).
+// -------------------------------------------------------------------------------------
+EmailEvents
+| where Timestamp > ago(7d)
+| where DeliveryAction == "Delivered"
+| where ThreatTypes has "Phish" or ThreatTypes has "Malware"
+| summarize Messages = count(), Recipients = dcount(RecipientEmailAddress),
+            Senders = make_set(SenderFromAddress, 5) by bin(Timestamp, 1d), ThreatTypes
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 7 — CAPSTONE CANDIDATE: post-delivery clicks on delivered phish (detection candidate)
+// Tune to a SMALL, explainable result, then Create detection rule -> `Detect-MDOLab-Pilot`
+// with response = ALERT ONLY. Project entity columns the rule maps (RecipientEmailAddress, Url).
+// -------------------------------------------------------------------------------------
+let look = ago(1d);
+UrlClickInfo
+| where Timestamp > look
+| where ActionType == "ClickAllowed" or IsClickedThrough == 1
+| join kind=inner (
+    EmailEvents
+    | where Timestamp > look and DeliveryAction == "Delivered"
+    | where ThreatTypes has "Phish"
+  ) on NetworkMessageId
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, Subject, Url, ThreatTypes, DeliveryLocation
+| sort by Timestamp desc

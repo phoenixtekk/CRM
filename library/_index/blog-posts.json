@@ -2098,5 +2098,165 @@
     "post_id": 12673,
     "status": "draft",
     "category_id": 411
+  },
+  "onboarding-accelerator-microsoft-defender-for-identity": {
+    "post_id": 12675,
+    "status": "draft",
+    "category_id": 411
+  },
+  "onboarding-accelerator-microsoft-defender-for-cloud-apps": {
+    "post_id": 12677,
+    "status": "draft",
+    "category_id": 411
+  },
+  "onboarding-accelerator-microsoft-defender-for-endpoint": {
+    "post_id": 12679,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-cloud-workload-protection-plans": {
+    "post_id": 12681,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-defender-for-endpoint": {
+    "post_id": 12683,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-defender-for-office-365": {
+    "post_id": 12685,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-defender-for-identity": {
+    "post_id": 12687,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-defender-for-cloud-apps": {
+    "post_id": 12689,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-defender-for-cloud": {
+    "post_id": 12691,
+    "status": "draft",
+    "category_id": 411
+  },
+  "security-optimization-assessment-microsoft-defender-suite": {
+    "post_id": 12693,
+    "status": "draft",
+    "category_id": 411
+  },
+  "remediation-playbook-defender-security-optimization-assessments": {
+    "post_id": 12695,
+    "status": "draft",
+    "category_id": 411
+  },
+  "cloud-adoption-security-assessment": {
+    "post_id": 12697,
+    "status": "draft",
+    "category_id": 411
+  },
+  "ai-workload-security-assessment": {
+    "post_id": 12699,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-advanced-kql-for-secops": {
+    "post_id": 12701,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-microsoft-defender-for-endpoint": {
+    "post_id": 12703,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-microsoft-defender-for-office-365": {
+    "post_id": 12705,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-microsoft-defender-for-identity": {
+    "post_id": 12707,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-microsoft-defender-for-cloud-apps": {
+    "post_id": 12709,
+    "status": "draft",
+    "category_id": 411
+  },
+  "workshop-microsoft-defender-for-cloud": {
+    "post_id": 12711,
+    "status": "draft",
+    "category_id": 411
+  },
+  "solution-optimization-microsoft-defender-for-endpoint": {
+    "post_id": 12713,
+    "status": "draft",
+    "category_id": 411
+  },
+  "solution-optimization-endpoint-security-with-intune": {
+    "post_id": 12715,
+    "status": "draft",
+    "category_id": 411
+  },
+  "technical-blocker-mitigation-defender-for-endpoint": {
+    "post_id": 12717,
+    "status": "draft",
+    "category_id": 411
+  },
+  "technical-blocker-mitigation-defender-for-office-365": {
+    "post_id": 12719,
+    "status": "draft",
+    "category_id": 411
+  },
+  "technical-blocker-mitigation-defender-for-identity": {
+    "post_id": 12721,
+    "status": "draft",
+    "category_id": 411
+  },
+  "technical-blocker-mitigation-defender-for-cloud-apps": {
+    "post_id": 12723,
+    "status": "draft",
+    "category_id": 411
+  },
+  "technical-blocker-mitigation-defender-for-cloud": {
+    "post_id": 12725,
+    "status": "draft",
+    "category_id": 411
+  },
+  "architecture-service-microsoft-defender-for-cloud": {
+    "post_id": 12727,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proof-of-concept-kit-microsoft-defender-for-endpoint": {
+    "post_id": 12729,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proof-of-concept-kit-microsoft-defender-for-office-365": {
+    "post_id": 12731,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proof-of-concept-kit-microsoft-defender-for-identity": {
+    "post_id": 12733,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proof-of-concept-kit-microsoft-defender-for-cloud-apps": {
+    "post_id": 12735,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proof-of-concept-kit-microsoft-defender-for-cloud": {
+    "post_id": 12737,
+    "status": "draft",
+    "category_id": 411
   }
 }

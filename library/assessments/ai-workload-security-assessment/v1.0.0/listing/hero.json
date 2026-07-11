@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "AI Workload",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Security Assessment",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Azure AI · Risk · Govern",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AI RISK",
+    "items": [
+      "Public endpoints",
+      "Data leakage",
+      "Prompt injection",
+      "No RAI review"
+    ]
+  },
+  "to": {
+    "label": "AI Secured",
+    "stat": "Assessed · Isolated · Governed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "AI Attack Surface",
+      "sub": "Prompt/data risk"
+    },
+    {
+      "icon": "lock",
+      "title": "Isolation Review",
+      "sub": "Private + keyless"
+    },
+    {
+      "icon": "chart",
+      "title": "Scored",
+      "sub": "Prioritized gaps"
+    },
+    {
+      "icon": "gear",
+      "title": "RAI Governance",
+      "sub": "Content safety"
+    }
+  ]
+}

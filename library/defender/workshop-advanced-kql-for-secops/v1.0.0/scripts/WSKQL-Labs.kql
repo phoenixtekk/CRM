@@ -1,0 +1,162 @@
+// =====================================================================================
+// WSKQL-Labs.kql — Advanced KQL for SecOps: the guided-lab query pack.
+//
+// PURPOSE
+//   The runnable, progressive KQL library for the workshop. One labeled section per lab
+//   (fundamentals -> filtering -> aggregation -> joins -> cross-tool -> real hunt ->
+//   detection candidate -> workbook query) plus the capstone. This is the core take-home
+//   artifact — keep it and grow it into your team's shared query library.
+// HOW TO RUN
+//   Paste a single query (one contiguous block below a "// Lab N" header) into either:
+//     - Microsoft Defender:  security.microsoft.com -> Hunting -> Advanced hunting
+//     - Microsoft Sentinel:  Sentinel -> Logs
+//   Or run one read-only from PowerShell:  WSKQL-RunLab.ps1 -Lab <n>
+// EXPECTED RESULTS
+//   Each query returns a small, explainable result set. Where a table/column may differ in
+//   your tenant/cloud it is flagged // VERIFY — correct it against Advanced hunting -> schema.
+// NOTES
+//   White-label. READ-ONLY — every query only reads telemetry; nothing here changes the
+//   tenant. Defender XDR tables use the column `Timestamp`; Sentinel tables use
+//   `TimeGenerated`. Table/column names evolve — VERIFY current schema in your tenant.
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 1 — Fundamentals: tables and the tabular pipeline (Defender advanced hunting)
+// Concept: a query starts from a table and pipes rows through operators (where/project/sort/take).
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents                                   // VERIFY table exists in your tenant
+| where Timestamp > ago(24h)
+| project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine
+| sort by Timestamp desc
+| take 20
+
+
+// -------------------------------------------------------------------------------------
+// Lab 2 — Filtering and string operators
+// Concept: where with ==, =~ (case-insensitive), has (token) vs contains (substring), in, matches regex.
+// Task: PowerShell run with an encoded command — a classic living-off-the-land indicator.
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(24h)
+| where FileName =~ "powershell.exe"
+| where ProcessCommandLine has "-enc" or ProcessCommandLine has "-encodedcommand"
+| project Timestamp, DeviceName, AccountName, ProcessCommandLine, InitiatingProcessFileName
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 3a — Aggregation: per-entity rollup with summarize + dcount
+// Concept: summarize collapses rows into per-group signal. dcount = distinct count.
+// Task: devices talking to the most distinct destination IPs (fan-out can signal scanning/C2).
+// -------------------------------------------------------------------------------------
+DeviceNetworkEvents
+| where Timestamp > ago(1d)
+| where RemoteIPType == "Public"                      // VERIFY column name in your tenant
+| summarize DistinctRemoteIPs = dcount(RemoteIP), Sample = make_set(RemoteIP, 5) by DeviceName
+| sort by DistinctRemoteIPs desc
+| take 25
+
+
+// -------------------------------------------------------------------------------------
+// Lab 3b — Aggregation: time-bucketing with bin()
+// Concept: bin() groups a timestamp into fixed buckets — the shape of every time chart.
+// Task: logon volume per hour (spot an off-hours spike).
+// -------------------------------------------------------------------------------------
+IdentityLogonEvents                                   // VERIFY table exists in your tenant
+| where Timestamp > ago(7d)
+| summarize Logons = count() by bin(Timestamp, 1h), ActionType
+| sort by Timestamp asc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 4 — Joins: correlate two tables
+// Concept: join kind=inner/leftouter/leftanti on a shared key; filter the LEFT side first.
+// Task: processes on a host that then made an external network connection within the window.
+// -------------------------------------------------------------------------------------
+let suspiciousProcs =
+    DeviceProcessEvents
+    | where Timestamp > ago(24h)
+    | where FileName in~ ("powershell.exe","cmd.exe","wscript.exe","mshta.exe","rundll32.exe")
+    | project ProcTime = Timestamp, DeviceId, DeviceName, AccountName, FileName, ProcessCommandLine, InitiatingProcessId;
+suspiciousProcs
+| join kind=inner (
+    DeviceNetworkEvents
+    | where Timestamp > ago(24h)
+    | where RemoteIPType == "Public"                  // VERIFY column name
+    | project NetTime = Timestamp, DeviceId, RemoteIP, RemoteUrl, RemotePort
+  ) on DeviceId
+| where NetTime between (ProcTime .. (ProcTime + 5m)) // connection within 5 min of the process
+| project ProcTime, NetTime, DeviceName, AccountName, FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort
+| sort by ProcTime desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5a — Cross-tool: the hunt in DEFENDER advanced hunting (IdentityLogonEvents)
+// Concept: same language, Defender XDR schema. Note the column `Timestamp`.
+// Task: failed-then-succeeded logons for an account (possible password spray success).
+// -------------------------------------------------------------------------------------
+IdentityLogonEvents
+| where Timestamp > ago(1d)
+| summarize Failed = countif(ActionType == "LogonFailed"),
+            Succeeded = countif(ActionType == "LogonSuccess")
+        by AccountUpn = tolower(AccountUpn), bin(Timestamp, 1h)
+| where Failed >= 10 and Succeeded >= 1
+| sort by Failed desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5b — Cross-tool: the SAME question in SENTINEL (SigninLogs). Note `TimeGenerated`.
+// Concept: same language, different table + timestamp column. Choose the right surface.
+// -------------------------------------------------------------------------------------
+SigninLogs                                            // Sentinel workspace table — VERIFY
+| where TimeGenerated > ago(1d)
+| summarize Failed = countif(ResultType != 0),
+            Succeeded = countif(ResultType == 0)
+        by UserPrincipalName = tolower(UserPrincipalName), bin(TimeGenerated, 1h)
+| where Failed >= 10 and Succeeded >= 1
+| sort by Failed desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6 — A real hunting pattern (CAPSTONE CANDIDATE): script host -> outbound -> rare parent
+// Concept: chain filter + join + aggregation into a specific, explainable hunt.
+// Tune this until it returns a SMALL result you can justify, then promote it in Lab 7.
+// -------------------------------------------------------------------------------------
+let lookback = 24h;
+let scriptHosts = dynamic(["powershell.exe","wscript.exe","cscript.exe","mshta.exe","rundll32.exe"]);
+DeviceProcessEvents
+| where Timestamp > ago(lookback)
+| where FileName in~ (scriptHosts)
+| where isnotempty(InitiatingProcessFileName)
+| join kind=inner (
+    DeviceNetworkEvents
+    | where Timestamp > ago(lookback)
+    | where RemoteIPType == "Public"                  // VERIFY column
+    | summarize Connections = count(), Dest = make_set(RemoteUrl, 5) by DeviceId
+  ) on DeviceId
+| summarize Runs = count(), Cmds = make_set(ProcessCommandLine, 3), any(Dest)
+        by DeviceName, AccountName, FileName, InitiatingProcessFileName, Connections
+| where Connections > 0
+| sort by Runs desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 7 — From hunt to detection (alert-only)
+// This is the tuned Lab 6 query saved as a custom detection rule `Detect-KQLLab-Pilot`.
+// In Advanced hunting: run the tuned query -> Create detection rule -> response = ALERT ONLY.
+// The detection query must project the entity columns the rule maps (DeviceId/DeviceName/AccountName).
+// (No separate query here — reuse the tuned Lab 6 query. Keep it alert-only during the workshop.)
+
+
+// -------------------------------------------------------------------------------------
+// Lab 8 — Workbook query: the tile behind `Workbook-KQLLab-Pilot`
+// Concept: a saved aggregation bound to a workbook tile becomes a monitorable view.
+// Task: daily count of script-host executions per device — a time chart in the workbook.
+// -------------------------------------------------------------------------------------
+DeviceProcessEvents
+| where Timestamp > ago(14d)
+| where FileName in~ ("powershell.exe","wscript.exe","cscript.exe","mshta.exe","rundll32.exe")
+| summarize Executions = count() by bin(Timestamp, 1d), DeviceName
+| sort by Timestamp asc
+// Render: time chart, X = Timestamp, Y = Executions, series = DeviceName.

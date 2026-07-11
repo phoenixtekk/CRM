@@ -1,0 +1,86 @@
+// =====================================================================================
+// WSMDI-LabQueries.kql — Advanced-hunting KQL pack for the Defender for Identity workshop.
+//
+// PURPOSE      Sample, READ-ONLY hunting queries for Labs 2 (recon & lateral movement),
+//              3 (honeytoken), and 5 (investigation). Run in the Microsoft Defender portal:
+//              Hunting -> Advanced hunting. Save the marked queries under the names in the
+//              workshop runbook (03-implementation.md).
+// HOW TO RUN   Paste a section into the query editor and click Run. Adjust the time range
+//              (default lookbacks shown) and the placeholder values (contoso\ names) to your lab.
+// EXPECTED     Rows from the Identity* tables. These queries only READ telemetry; they change
+//              nothing. Table/column availability depends on your Defender for Identity plan —
+//              verify current schema in your tenant.
+// NOTE         White-label. Placeholders use contoso. Response actions are NOT taken here.
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 1 — RECON  (save as: Recon - Identity Lab - Pilot)
+// Account/SAM-R enumeration and directory query bursts often precede an attack.
+// -------------------------------------------------------------------------------------
+IdentityQueryEvents
+| where Timestamp > ago(7d)
+| where QueryType in ("AllGroups","User","Group","SAMR","DnsRecord")
+| summarize Queries = count(), DistinctTargets = dcount(QueryTarget) by AccountUpn, DeviceName, QueryType
+| where Queries > 25 or DistinctTargets > 25          // tune thresholds to your baseline
+| sort by Queries desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 2 — LATERAL MOVEMENT  (save as: LateralMovement - Identity Lab - Pilot)
+// Unusual logon patterns: one account authenticating to many devices in a short window.
+// -------------------------------------------------------------------------------------
+IdentityLogonEvents
+| where Timestamp > ago(24h)
+| where LogonType in ("Network","RemoteInteractive","Interactive")
+| where ActionType == "LogonSuccess"
+| summarize Devices = dcount(DeviceName), DeviceList = make_set(DeviceName, 25),
+            FirstSeen = min(Timestamp), LastSeen = max(Timestamp)
+        by AccountUpn
+| where Devices >= 5                                   // fan-out threshold — tune to your env
+| sort by Devices desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 3 — HONEYTOKEN ACTIVITY  (save as: Honeytoken - Identity Lab - Pilot)
+// A honeytoken should NEVER authenticate. Any hit here is high-fidelity. Replace the UPN.
+// -------------------------------------------------------------------------------------
+let Honeytoken = "svc-legacy-backup@contoso.com";      // the account tagged in Lab 3
+union IdentityLogonEvents, IdentityQueryEvents, IdentityDirectoryEvents
+| where Timestamp > ago(30d)
+| where AccountUpn =~ Honeytoken or TargetAccountUpn =~ Honeytoken
+| project Timestamp, ActionType, AccountUpn, TargetAccountUpn, DeviceName, IPAddress, ReportId
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 4 — SUSPICIOUS AUTH VOLUME (brute force / password spray indicators)
+// -------------------------------------------------------------------------------------
+IdentityLogonEvents
+| where Timestamp > ago(24h)
+| where ActionType == "LogonFailed"
+| summarize Failures = count(), Targets = dcount(AccountUpn) by IPAddress, DeviceName
+| where Failures > 20 or Targets > 10
+| sort by Failures desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 5 — INVESTIGATION: single-account 360 (Lab 5)
+// Pivot on one account across all identity tables to build the story.
+// -------------------------------------------------------------------------------------
+let Subject = "jsmith@contoso.com";                    // set to the account under investigation
+union IdentityLogonEvents, IdentityQueryEvents, IdentityDirectoryEvents
+| where Timestamp > ago(14d)
+| where AccountUpn =~ Subject or TargetAccountUpn =~ Subject
+| project Timestamp, TableName = Type, ActionType, AccountUpn, TargetAccountUpn,
+          DeviceName, IPAddress, AdditionalFields
+| sort by Timestamp asc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 6 — IDENTITY CONTEXT (enrich an account before you act)
+// -------------------------------------------------------------------------------------
+IdentityInfo
+| where AccountUpn =~ "jsmith@contoso.com"
+| project AccountUpn, AccountDisplayName, JobTitle, Department, IsAccountEnabled,
+          SidHistory, AssignedRoles, GroupMembership
