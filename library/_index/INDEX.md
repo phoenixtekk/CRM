@@ -107,6 +107,12 @@
 |---|---|---|---|---|---|---|---|
 | Architecture Service — Microsoft Defender for Cloud | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-ARCMDC-COMM-001<br>PTK-ARCMDC-NPO-001<br>PTK-ARCMDC-GOV-001 | 2026-07-11 | `library\defender\architecture-service-microsoft-defender-for-cloud\v1.0.0` |
 | Defender for Office 365 (Plan 2) — Threat Explorer, Attack Simulation & Automated Investigation | 1.0.0 | published | $2,495.00 | $1,497.00 | PTK-DEFMDOP2-COMM-001<br>PTK-DEFMDOP2-NPO-001<br>PTK-DEFMDOP2-GOV-001 | 2026-07-10 | `library\defender\defender-office-365-p2-threat-explorer-attack-sim-air\v1.0.0` |
+| Enablement Kit — Advanced KQL for SecOps | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSKQL-COMM-001<br>PTK-WSKQL-NPO-001<br>PTK-WSKQL-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-advanced-kql-for-secops\v1.0.0` |
+| Enablement Kit — Microsoft Defender for Cloud | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDC-COMM-001<br>PTK-WSMDC-NPO-001<br>PTK-WSMDC-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-microsoft-defender-for-cloud\v1.0.0` |
+| Enablement Kit — Microsoft Defender for Cloud Apps | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMCA-COMM-001<br>PTK-WSMCA-NPO-001<br>PTK-WSMCA-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-microsoft-defender-for-cloud-apps\v1.0.0` |
+| Enablement Kit — Microsoft Defender for Endpoint | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDE-COMM-001<br>PTK-WSMDE-NPO-001<br>PTK-WSMDE-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-microsoft-defender-for-endpoint\v1.0.0` |
+| Enablement Kit — Microsoft Defender for Identity | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDI-COMM-001<br>PTK-WSMDI-NPO-001<br>PTK-WSMDI-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-microsoft-defender-for-identity\v1.0.0` |
+| Enablement Kit — Microsoft Defender for Office 365 | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDO-COMM-001<br>PTK-WSMDO-NPO-001<br>PTK-WSMDO-GOV-001 | 2026-07-11 | `library\defender\enablement-kit-microsoft-defender-for-office-365\v1.0.0` |
 | Microsoft Defender for Cloud — CSPM & Secure Score Remediation | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-DEFCSPM-COMM-001<br>PTK-DEFCSPM-NPO-001<br>PTK-DEFCSPM-GOV-001 | 2026-07-10 | `library\defender\microsoft-defender-for-cloud-cspm-secure-score\v1.0.0` |
 | Microsoft Defender for Cloud — CSPM & Secure Score Remediation — Government (GCC High) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-DEFCSPMG-COMM-001<br>PTK-DEFCSPMG-NPO-001<br>PTK-DEFCSPMG-GOV-001 | 2026-07-10 | `library\defender\microsoft-defender-for-cloud-cspm-secure-score-gcc-high\v1.0.0` |
 | Microsoft Defender for Cloud — Workload Protection Plans (CWPP) | 1.0.0 | published | $2,995.00 | $1,797.00 | PTK-MDCWP-COMM-001<br>PTK-MDCWP-NPO-001<br>PTK-MDCWP-GOV-001 | 2026-07-11 | `library\defender\microsoft-defender-for-cloud-workload-protection-plans\v1.0.0` |
@@ -127,12 +133,6 @@
 | Technical Blocker Mitigation — Defender for Endpoint | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-TBMMDE-COMM-001<br>PTK-TBMMDE-NPO-001<br>PTK-TBMMDE-GOV-001 | 2026-07-11 | `library\defender\technical-blocker-mitigation-defender-for-endpoint\v1.0.0` |
 | Technical Blocker Mitigation — Defender for Identity | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-TBMMDI-COMM-001<br>PTK-TBMMDI-NPO-001<br>PTK-TBMMDI-GOV-001 | 2026-07-11 | `library\defender\technical-blocker-mitigation-defender-for-identity\v1.0.0` |
 | Technical Blocker Mitigation — Defender for Office 365 | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-TBMMDO-COMM-001<br>PTK-TBMMDO-NPO-001<br>PTK-TBMMDO-GOV-001 | 2026-07-11 | `library\defender\technical-blocker-mitigation-defender-for-office-365\v1.0.0` |
-| Workshop — Advanced KQL for SecOps | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSKQL-COMM-001<br>PTK-WSKQL-NPO-001<br>PTK-WSKQL-GOV-001 | 2026-07-11 | `library\defender\workshop-advanced-kql-for-secops\v1.0.0` |
-| Workshop — Microsoft Defender for Cloud | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDC-COMM-001<br>PTK-WSMDC-NPO-001<br>PTK-WSMDC-GOV-001 | 2026-07-11 | `library\defender\workshop-microsoft-defender-for-cloud\v1.0.0` |
-| Workshop — Microsoft Defender for Cloud Apps | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMCA-COMM-001<br>PTK-WSMCA-NPO-001<br>PTK-WSMCA-GOV-001 | 2026-07-11 | `library\defender\workshop-microsoft-defender-for-cloud-apps\v1.0.0` |
-| Workshop — Microsoft Defender for Endpoint | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDE-COMM-001<br>PTK-WSMDE-NPO-001<br>PTK-WSMDE-GOV-001 | 2026-07-11 | `library\defender\workshop-microsoft-defender-for-endpoint\v1.0.0` |
-| Workshop — Microsoft Defender for Identity | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDI-COMM-001<br>PTK-WSMDI-NPO-001<br>PTK-WSMDI-GOV-001 | 2026-07-11 | `library\defender\workshop-microsoft-defender-for-identity\v1.0.0` |
-| Workshop — Microsoft Defender for Office 365 | 1.0.0 | published | $1,995.00 | $1,197.00 | PTK-WSMDO-COMM-001<br>PTK-WSMDO-NPO-001<br>PTK-WSMDO-GOV-001 | 2026-07-11 | `library\defender\workshop-microsoft-defender-for-office-365\v1.0.0` |
 
 ## DevOps
 

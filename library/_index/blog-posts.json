@@ -2258,5 +2258,35 @@
     "post_id": 12737,
     "status": "draft",
     "category_id": 411
+  },
+  "enablement-kit-advanced-kql-for-secops": {
+    "post_id": 12739,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-defender-for-endpoint": {
+    "post_id": 12741,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-defender-for-office-365": {
+    "post_id": 12743,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-defender-for-identity": {
+    "post_id": 12745,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-defender-for-cloud-apps": {
+    "post_id": 12747,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-defender-for-cloud": {
+    "post_id": 12749,
+    "status": "draft",
+    "category_id": 411
   }
 }

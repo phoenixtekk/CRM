@@ -8952,6 +8952,996 @@
     "product_count": 3
   },
   {
+    "title": "Enablement Kit — Advanced KQL for SecOps",
+    "slug": "enablement-kit-advanced-kql-for-secops",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSKQL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSKQL-COMM-001",
+      "PTK-WSKQL-NPO-001",
+      "PTK-WSKQL-GOV-001"
+    ],
+    "deliverables": [
+      "WSKQL-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-advanced-kql-for-secops\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/02-requirements.md",
+          "kb": 6.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/03-implementation.md",
+          "kb": 9.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/executive-summary.md",
+          "kb": 4.8
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSKQL-Discovery.ps1",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Discovery.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "WSKQL-Labs.kql",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Labs.kql",
+          "kb": 8.9
+        },
+        {
+          "name": "WSKQL-Report.ps1",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "WSKQL-RunLab.ps1",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-RunLab.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "WSKQL-Validate.ps1",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Validate.ps1",
+          "kb": 6.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSKQL-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Complete-Solution.zip",
+          "kb": 112.1
+        },
+        {
+          "name": "WSKQL-hero.png",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.png",
+          "kb": 424.1
+        },
+        {
+          "name": "WSKQL-hero.svg",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "WSKQL-Scripts.zip",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Scripts.zip",
+          "kb": 11.5
+        },
+        {
+          "name": "WSKQL-Solution.docx",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Solution.docx",
+          "kb": 58.7
+        },
+        {
+          "name": "WSKQL-Solution.pdf",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Solution.pdf",
+          "kb": 62.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Defender for Cloud",
+    "slug": "enablement-kit-microsoft-defender-for-cloud",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSMDC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSMDC-COMM-001",
+      "PTK-WSMDC-NPO-001",
+      "PTK-WSMDC-GOV-001"
+    ],
+    "deliverables": [
+      "WSMDC-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-microsoft-defender-for-cloud\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/02-requirements.md",
+          "kb": 5.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/03-implementation.md",
+          "kb": 7.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/05-testing.md",
+          "kb": 3.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/executive-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSMDC-Discovery.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Discovery.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "WSMDC-LabQueries.kql",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-LabQueries.kql",
+          "kb": 4.9
+        },
+        {
+          "name": "WSMDC-Report.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Report.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "WSMDC-SecureScore-Lab.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-SecureScore-Lab.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "WSMDC-Validate.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Validate.ps1",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSMDC-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Complete-Solution.zip",
+          "kb": 96.0
+        },
+        {
+          "name": "WSMDC-hero.png",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.png",
+          "kb": 431.1
+        },
+        {
+          "name": "WSMDC-hero.svg",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "WSMDC-Scripts.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Scripts.zip",
+          "kb": 9.2
+        },
+        {
+          "name": "WSMDC-Solution.docx",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Solution.docx",
+          "kb": 53.3
+        },
+        {
+          "name": "WSMDC-Solution.pdf",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Solution.pdf",
+          "kb": 51.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Defender for Cloud Apps",
+    "slug": "enablement-kit-microsoft-defender-for-cloud-apps",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSMCA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSMCA-COMM-001",
+      "PTK-WSMCA-NPO-001",
+      "PTK-WSMCA-GOV-001"
+    ],
+    "deliverables": [
+      "WSMCA-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-microsoft-defender-for-cloud-apps\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/02-requirements.md",
+          "kb": 5.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/03-implementation.md",
+          "kb": 8.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/05-testing.md",
+          "kb": 3.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/executive-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSMCA-Discovery.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Discovery.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "WSMCA-LabQueries.kql",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-LabQueries.kql",
+          "kb": 4.7
+        },
+        {
+          "name": "WSMCA-OAuthApp-Lab.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-OAuthApp-Lab.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "WSMCA-Report.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Report.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "WSMCA-Validate.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Validate.ps1",
+          "kb": 3.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSMCA-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Complete-Solution.zip",
+          "kb": 95.5
+        },
+        {
+          "name": "WSMCA-hero.png",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.png",
+          "kb": 429.3
+        },
+        {
+          "name": "WSMCA-hero.svg",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "WSMCA-Scripts.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "WSMCA-Solution.docx",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Solution.docx",
+          "kb": 53.0
+        },
+        {
+          "name": "WSMCA-Solution.pdf",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Solution.pdf",
+          "kb": 50.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Defender for Endpoint",
+    "slug": "enablement-kit-microsoft-defender-for-endpoint",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSMDE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSMDE-COMM-001",
+      "PTK-WSMDE-NPO-001",
+      "PTK-WSMDE-GOV-001"
+    ],
+    "deliverables": [
+      "WSMDE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-microsoft-defender-for-endpoint\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/02-requirements.md",
+          "kb": 5.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/05-testing.md",
+          "kb": 5.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 5.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/executive-summary.md",
+          "kb": 4.8
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSMDE-Discovery.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Discovery.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "WSMDE-Labs.kql",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Labs.kql",
+          "kb": 6.5
+        },
+        {
+          "name": "WSMDE-Report.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Report.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "WSMDE-RunLab.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-RunLab.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "WSMDE-Validate.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Validate.ps1",
+          "kb": 5.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSMDE-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Complete-Solution.zip",
+          "kb": 109.6
+        },
+        {
+          "name": "WSMDE-hero.png",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.png",
+          "kb": 424.0
+        },
+        {
+          "name": "WSMDE-hero.svg",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "WSMDE-Scripts.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "WSMDE-Solution.docx",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Solution.docx",
+          "kb": 57.9
+        },
+        {
+          "name": "WSMDE-Solution.pdf",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Solution.pdf",
+          "kb": 62.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Defender for Identity",
+    "slug": "enablement-kit-microsoft-defender-for-identity",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSMDI",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSMDI-COMM-001",
+      "PTK-WSMDI-NPO-001",
+      "PTK-WSMDI-GOV-001"
+    ],
+    "deliverables": [
+      "WSMDI-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-microsoft-defender-for-identity\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/02-requirements.md",
+          "kb": 5.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/03-implementation.md",
+          "kb": 8.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/05-testing.md",
+          "kb": 3.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/07-best-practices.md",
+          "kb": 3.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSMDI-Discovery.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Discovery.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "WSMDI-Honeytoken-Lab.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Honeytoken-Lab.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "WSMDI-LabQueries.kql",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-LabQueries.kql",
+          "kb": 4.9
+        },
+        {
+          "name": "WSMDI-Report.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "WSMDI-Validate.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Validate.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSMDI-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Complete-Solution.zip",
+          "kb": 97.6
+        },
+        {
+          "name": "WSMDI-hero.png",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.png",
+          "kb": 454.2
+        },
+        {
+          "name": "WSMDI-hero.svg",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "WSMDI-Scripts.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Scripts.zip",
+          "kb": 9.6
+        },
+        {
+          "name": "WSMDI-Solution.docx",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Solution.docx",
+          "kb": 54.1
+        },
+        {
+          "name": "WSMDI-Solution.pdf",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Solution.pdf",
+          "kb": 51.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Defender for Office 365",
+    "slug": "enablement-kit-microsoft-defender-for-office-365",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "WSMDO",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-WSMDO-COMM-001",
+      "PTK-WSMDO-NPO-001",
+      "PTK-WSMDO-GOV-001"
+    ],
+    "deliverables": [
+      "WSMDO-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\enablement-kit-microsoft-defender-for-office-365\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/03-implementation.md",
+          "kb": 9.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/07-best-practices.md",
+          "kb": 4.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/executive-summary.md",
+          "kb": 4.8
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WSMDO-Discovery.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Discovery.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "WSMDO-Labs.kql",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Labs.kql",
+          "kb": 4.9
+        },
+        {
+          "name": "WSMDO-Report.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Report.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "WSMDO-RunLab.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-RunLab.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "WSMDO-Validate.ps1",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Validate.ps1",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WSMDO-Complete-Solution.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Complete-Solution.zip",
+          "kb": 113.8
+        },
+        {
+          "name": "WSMDO-hero.png",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.png",
+          "kb": 422.8
+        },
+        {
+          "name": "WSMDO-hero.svg",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "WSMDO-Scripts.zip",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "WSMDO-Solution.docx",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Solution.docx",
+          "kb": 59.1
+        },
+        {
+          "name": "WSMDO-Solution.pdf",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Solution.pdf",
+          "kb": 66.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/solution.meta.json",
+          "kb": 1.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/enablement-kit-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Defender for Cloud — CSPM & Secure Score Remediation",
     "slug": "microsoft-defender-for-cloud-cspm-secure-score",
     "category": "Defender",
@@ -12259,996 +13249,6 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../defender/technical-blocker-mitigation-defender-for-office-365/v1.0.0/deliverables/TBMMDO-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Advanced KQL for SecOps",
-    "slug": "workshop-advanced-kql-for-secops",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSKQL",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSKQL-COMM-001",
-      "PTK-WSKQL-NPO-001",
-      "PTK-WSKQL-GOV-001"
-    ],
-    "deliverables": [
-      "WSKQL-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-advanced-kql-for-secops\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.8
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/02-requirements.md",
-          "kb": 6.2
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/03-implementation.md",
-          "kb": 9.1
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/05-testing.md",
-          "kb": 5.3
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/06-troubleshooting.md",
-          "kb": 5.0
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/07-best-practices.md",
-          "kb": 3.8
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 5.3
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/executive-summary.md",
-          "kb": 4.8
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSKQL-Discovery.ps1",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Discovery.ps1",
-          "kb": 4.4
-        },
-        {
-          "name": "WSKQL-Labs.kql",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Labs.kql",
-          "kb": 8.9
-        },
-        {
-          "name": "WSKQL-Report.ps1",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Report.ps1",
-          "kb": 4.0
-        },
-        {
-          "name": "WSKQL-RunLab.ps1",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-RunLab.ps1",
-          "kb": 5.1
-        },
-        {
-          "name": "WSKQL-Validate.ps1",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/scripts/WSKQL-Validate.ps1",
-          "kb": 6.2
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSKQL-Complete-Solution.zip",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Complete-Solution.zip",
-          "kb": 112.2
-        },
-        {
-          "name": "WSKQL-hero.png",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.png",
-          "kb": 476.0
-        },
-        {
-          "name": "WSKQL-hero.svg",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.svg",
-          "kb": 5.9
-        },
-        {
-          "name": "WSKQL-Scripts.zip",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Scripts.zip",
-          "kb": 11.5
-        },
-        {
-          "name": "WSKQL-Solution.docx",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Solution.docx",
-          "kb": 58.7
-        },
-        {
-          "name": "WSKQL-Solution.pdf",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-Solution.pdf",
-          "kb": 62.7
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.8
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-advanced-kql-for-secops/v1.0.0/deliverables/WSKQL-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Microsoft Defender for Cloud",
-    "slug": "workshop-microsoft-defender-for-cloud",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSMDC",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSMDC-COMM-001",
-      "PTK-WSMDC-NPO-001",
-      "PTK-WSMDC-GOV-001"
-    ],
-    "deliverables": [
-      "WSMDC-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-microsoft-defender-for-cloud\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/01-solution-overview.md",
-          "kb": 5.8
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/02-requirements.md",
-          "kb": 5.3
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/03-implementation.md",
-          "kb": 7.4
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/05-testing.md",
-          "kb": 3.3
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/06-troubleshooting.md",
-          "kb": 4.5
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/07-best-practices.md",
-          "kb": 3.4
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 3.1
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/executive-summary.md",
-          "kb": 3.9
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSMDC-Discovery.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Discovery.ps1",
-          "kb": 5.7
-        },
-        {
-          "name": "WSMDC-LabQueries.kql",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-LabQueries.kql",
-          "kb": 4.9
-        },
-        {
-          "name": "WSMDC-Report.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Report.ps1",
-          "kb": 4.6
-        },
-        {
-          "name": "WSMDC-SecureScore-Lab.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-SecureScore-Lab.ps1",
-          "kb": 4.4
-        },
-        {
-          "name": "WSMDC-Validate.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/scripts/WSMDC-Validate.ps1",
-          "kb": 3.7
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSMDC-Complete-Solution.zip",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Complete-Solution.zip",
-          "kb": 95.6
-        },
-        {
-          "name": "WSMDC-hero.png",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.png",
-          "kb": 430.8
-        },
-        {
-          "name": "WSMDC-hero.svg",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.svg",
-          "kb": 5.9
-        },
-        {
-          "name": "WSMDC-Scripts.zip",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Scripts.zip",
-          "kb": 9.2
-        },
-        {
-          "name": "WSMDC-Solution.docx",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Solution.docx",
-          "kb": 53.2
-        },
-        {
-          "name": "WSMDC-Solution.pdf",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-Solution.pdf",
-          "kb": 50.3
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.0
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-microsoft-defender-for-cloud/v1.0.0/deliverables/WSMDC-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Microsoft Defender for Cloud Apps",
-    "slug": "workshop-microsoft-defender-for-cloud-apps",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSMCA",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSMCA-COMM-001",
-      "PTK-WSMCA-NPO-001",
-      "PTK-WSMCA-GOV-001"
-    ],
-    "deliverables": [
-      "WSMCA-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-microsoft-defender-for-cloud-apps\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/01-solution-overview.md",
-          "kb": 5.5
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/02-requirements.md",
-          "kb": 5.2
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/03-implementation.md",
-          "kb": 8.1
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/05-testing.md",
-          "kb": 3.1
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/06-troubleshooting.md",
-          "kb": 4.6
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/07-best-practices.md",
-          "kb": 3.3
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 3.1
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/executive-summary.md",
-          "kb": 3.7
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSMCA-Discovery.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Discovery.ps1",
-          "kb": 5.2
-        },
-        {
-          "name": "WSMCA-LabQueries.kql",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-LabQueries.kql",
-          "kb": 4.7
-        },
-        {
-          "name": "WSMCA-OAuthApp-Lab.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-OAuthApp-Lab.ps1",
-          "kb": 5.0
-        },
-        {
-          "name": "WSMCA-Report.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Report.ps1",
-          "kb": 4.9
-        },
-        {
-          "name": "WSMCA-Validate.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/scripts/WSMCA-Validate.ps1",
-          "kb": 3.7
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSMCA-Complete-Solution.zip",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Complete-Solution.zip",
-          "kb": 95.4
-        },
-        {
-          "name": "WSMCA-hero.png",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.png",
-          "kb": 402.7
-        },
-        {
-          "name": "WSMCA-hero.svg",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.svg",
-          "kb": 5.8
-        },
-        {
-          "name": "WSMCA-Scripts.zip",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Scripts.zip",
-          "kb": 9.7
-        },
-        {
-          "name": "WSMCA-Solution.docx",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Solution.docx",
-          "kb": 53.0
-        },
-        {
-          "name": "WSMCA-Solution.pdf",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-Solution.pdf",
-          "kb": 49.8
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.0
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-microsoft-defender-for-cloud-apps/v1.0.0/deliverables/WSMCA-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Microsoft Defender for Endpoint",
-    "slug": "workshop-microsoft-defender-for-endpoint",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSMDE",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSMDE-COMM-001",
-      "PTK-WSMDE-NPO-001",
-      "PTK-WSMDE-GOV-001"
-    ],
-    "deliverables": [
-      "WSMDE-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-microsoft-defender-for-endpoint\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.7
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/02-requirements.md",
-          "kb": 5.8
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/03-implementation.md",
-          "kb": 9.4
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/05-testing.md",
-          "kb": 5.3
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/06-troubleshooting.md",
-          "kb": 4.4
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/07-best-practices.md",
-          "kb": 3.7
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 5.2
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/executive-summary.md",
-          "kb": 4.8
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSMDE-Discovery.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Discovery.ps1",
-          "kb": 4.7
-        },
-        {
-          "name": "WSMDE-Labs.kql",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Labs.kql",
-          "kb": 6.5
-        },
-        {
-          "name": "WSMDE-Report.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Report.ps1",
-          "kb": 4.1
-        },
-        {
-          "name": "WSMDE-RunLab.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-RunLab.ps1",
-          "kb": 4.3
-        },
-        {
-          "name": "WSMDE-Validate.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/scripts/WSMDE-Validate.ps1",
-          "kb": 5.9
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSMDE-Complete-Solution.zip",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Complete-Solution.zip",
-          "kb": 109.3
-        },
-        {
-          "name": "WSMDE-hero.png",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.png",
-          "kb": 421.9
-        },
-        {
-          "name": "WSMDE-hero.svg",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.svg",
-          "kb": 6.0
-        },
-        {
-          "name": "WSMDE-Scripts.zip",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Scripts.zip",
-          "kb": 10.3
-        },
-        {
-          "name": "WSMDE-Solution.docx",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Solution.docx",
-          "kb": 57.9
-        },
-        {
-          "name": "WSMDE-Solution.pdf",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-Solution.pdf",
-          "kb": 61.6
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.0
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-microsoft-defender-for-endpoint/v1.0.0/deliverables/WSMDE-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Microsoft Defender for Identity",
-    "slug": "workshop-microsoft-defender-for-identity",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSMDI",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSMDI-COMM-001",
-      "PTK-WSMDI-NPO-001",
-      "PTK-WSMDI-GOV-001"
-    ],
-    "deliverables": [
-      "WSMDI-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-microsoft-defender-for-identity\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.1
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/02-requirements.md",
-          "kb": 5.6
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/03-implementation.md",
-          "kb": 8.6
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/05-testing.md",
-          "kb": 3.3
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/06-troubleshooting.md",
-          "kb": 4.5
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/07-best-practices.md",
-          "kb": 3.4
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 2.9
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/executive-summary.md",
-          "kb": 3.7
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSMDI-Discovery.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Discovery.ps1",
-          "kb": 5.7
-        },
-        {
-          "name": "WSMDI-Honeytoken-Lab.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Honeytoken-Lab.ps1",
-          "kb": 4.1
-        },
-        {
-          "name": "WSMDI-LabQueries.kql",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-LabQueries.kql",
-          "kb": 4.9
-        },
-        {
-          "name": "WSMDI-Report.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Report.ps1",
-          "kb": 4.5
-        },
-        {
-          "name": "WSMDI-Validate.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/scripts/WSMDI-Validate.ps1",
-          "kb": 3.6
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSMDI-Complete-Solution.zip",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Complete-Solution.zip",
-          "kb": 97.4
-        },
-        {
-          "name": "WSMDI-hero.png",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.png",
-          "kb": 434.1
-        },
-        {
-          "name": "WSMDI-hero.svg",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.svg",
-          "kb": 5.9
-        },
-        {
-          "name": "WSMDI-Scripts.zip",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Scripts.zip",
-          "kb": 9.6
-        },
-        {
-          "name": "WSMDI-Solution.docx",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Solution.docx",
-          "kb": 54.0
-        },
-        {
-          "name": "WSMDI-Solution.pdf",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-Solution.pdf",
-          "kb": 51.0
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.0
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-microsoft-defender-for-identity/v1.0.0/deliverables/WSMDI-hero.png",
-    "product_count": 3
-  },
-  {
-    "title": "Workshop — Microsoft Defender for Office 365",
-    "slug": "workshop-microsoft-defender-for-office-365",
-    "category": "Defender",
-    "category_slug": "defender",
-    "sol_code": "WSMDO",
-    "version": "1.0.0",
-    "status": "published",
-    "created": "2026-07-11",
-    "updated": "2026-07-11",
-    "published_at": "2026-07-11",
-    "commercial": 1995.0,
-    "nonprofit": 1197.0,
-    "skus": [
-      "PTK-WSMDO-COMM-001",
-      "PTK-WSMDO-NPO-001",
-      "PTK-WSMDO-GOV-001"
-    ],
-    "deliverables": [
-      "WSMDO-Complete-Solution.zip"
-    ],
-    "rel_path": "library\\defender\\workshop-microsoft-defender-for-office-365\\v1.0.0",
-    "groups": {
-      "Documentation": [
-        {
-          "name": "01-solution-overview.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/01-solution-overview.md",
-          "kb": 6.8
-        },
-        {
-          "name": "02-requirements.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/02-requirements.md",
-          "kb": 6.7
-        },
-        {
-          "name": "03-implementation.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/03-implementation.md",
-          "kb": 9.6
-        },
-        {
-          "name": "05-testing.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/05-testing.md",
-          "kb": 5.6
-        },
-        {
-          "name": "06-troubleshooting.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/06-troubleshooting.md",
-          "kb": 5.1
-        },
-        {
-          "name": "07-best-practices.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/07-best-practices.md",
-          "kb": 4.4
-        },
-        {
-          "name": "08-deliverables-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/08-deliverables-summary.md",
-          "kb": 6.1
-        },
-        {
-          "name": "executive-summary.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/executive-summary.md",
-          "kb": 4.8
-        },
-        {
-          "name": "global-requirements-defender.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/source/global-requirements-defender.md",
-          "kb": 4.2
-        }
-      ],
-      "PowerShell Scripts": [
-        {
-          "name": "WSMDO-Discovery.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Discovery.ps1",
-          "kb": 4.9
-        },
-        {
-          "name": "WSMDO-Labs.kql",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Labs.kql",
-          "kb": 4.9
-        },
-        {
-          "name": "WSMDO-Report.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Report.ps1",
-          "kb": 4.3
-        },
-        {
-          "name": "WSMDO-RunLab.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-RunLab.ps1",
-          "kb": 4.3
-        },
-        {
-          "name": "WSMDO-Validate.ps1",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/scripts/WSMDO-Validate.ps1",
-          "kb": 5.8
-        }
-      ],
-      "Deliverables": [
-        {
-          "name": "WSMDO-Complete-Solution.zip",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Complete-Solution.zip",
-          "kb": 113.7
-        },
-        {
-          "name": "WSMDO-hero.png",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.png",
-          "kb": 434.7
-        },
-        {
-          "name": "WSMDO-hero.svg",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.svg",
-          "kb": 5.8
-        },
-        {
-          "name": "WSMDO-Scripts.zip",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Scripts.zip",
-          "kb": 10.4
-        },
-        {
-          "name": "WSMDO-Solution.docx",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Solution.docx",
-          "kb": 59.1
-        },
-        {
-          "name": "WSMDO-Solution.pdf",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-Solution.pdf",
-          "kb": 66.1
-        }
-      ],
-      "Listing": [
-        {
-          "name": "bagisto-products.json",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/listing/bagisto-products.json",
-          "kb": 11.2
-        },
-        {
-          "name": "hero.json",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/listing/hero.json",
-          "kb": 1.0
-        },
-        {
-          "name": "sales-content.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/listing/sales-content.md",
-          "kb": 0.4
-        }
-      ],
-      "Overview": [
-        {
-          "name": "README.md",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/README.md",
-          "kb": 0.5
-        },
-        {
-          "name": "solution.meta.json",
-          "href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/solution.meta.json",
-          "kb": 1.2
-        }
-      ]
-    },
-    "script_count": 5,
-    "deliv_count": 6,
-    "doc_count": 9,
-    "hero_href": "../defender/workshop-microsoft-defender-for-office-365/v1.0.0/deliverables/WSMDO-hero.png",
     "product_count": 3
   },
   {
