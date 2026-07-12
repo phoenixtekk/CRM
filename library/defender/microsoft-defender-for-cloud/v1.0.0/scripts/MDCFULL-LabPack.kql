@@ -1,0 +1,108 @@
+// =====================================================================================
+// MDCFULL-LabPack.kql — Azure Resource Graph / KQL pack for the complete Microsoft Defender for
+// Cloud solution (enablement labs + workload-alert validation/hunting).
+//
+// PURPOSE      Sample, READ-ONLY queries for the Phase C labs — Lab 1 (Secure Score &
+//              recommendations), Lab 2 (workload-protection alerts), Lab 5 (remediation cadence &
+//              trend) — plus the Phase B/D workload-alert VALIDATION query. Run the ARG
+//              (securityresources) sections in the Azure portal -> Resource Graph Explorer. Run the
+//              Defender-alert sections in the Microsoft Defender portal -> Hunting -> Advanced hunting.
+//              Save the marked queries under the runbook names.
+// HOW TO RUN   Paste a section, click Run. Adjust the subscription scope / placeholders as needed.
+// EXPECTED     Rows describing posture and alerts. These queries only READ; they change nothing.
+//              ARG type/column availability can shift — verify current schema in your tenant.
+// NOTE         White-label. No remediation is applied here. Posture-remediation program = the
+//              CSPM & Secure Score Remediation solution (cross-reference, not duplicated here).
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 1 — RECOMMENDATIONS by impact  (ARG; save as: Recommendations - Cloud Lab - Pilot)
+// Unhealthy security assessments (recommendations), highest-severity first.
+// -------------------------------------------------------------------------------------
+securityresources
+| where type == "microsoft.security/assessments"
+| extend status = tostring(properties.status.code),
+         sev    = tostring(properties.metadata.severity),
+         name   = tostring(properties.displayName)
+| where status == "Unhealthy"
+| summarize UnhealthyResources = count() by name, sev
+| sort by sev asc, UnhealthyResources desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 2 — SECURE SCORE by control  (ARG)
+// Where the points are — control groups with the largest remaining gap.
+// -------------------------------------------------------------------------------------
+securityresources
+| where type == "microsoft.security/securescores/securescorecontrols"
+| extend control = tostring(properties.displayName),
+         current = toint(properties.score.current),
+         max     = toint(properties.score.max),
+         pct     = todouble(properties.score.percentage)
+| project control, current, max, pct
+| where max > 0
+| sort by (max - current) desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 3 — SECURITY ALERTS triage  (ARG; save as: Alerts-Triage - Cloud Lab - Pilot)
+// Active Defender for Cloud security alerts by severity.
+// -------------------------------------------------------------------------------------
+securityresources
+| where type == "microsoft.security/locations/alerts"
+| extend sev      = tostring(properties.severity),
+         alert    = tostring(properties.alertDisplayName),
+         state    = tostring(properties.status),
+         resource = tostring(properties.compromisedEntity),
+         time     = todatetime(properties.timeGeneratedUtc)
+| project time, alert, sev, state, resource
+| sort by time desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 4 — WORKLOAD-ALERT VALIDATION via Defender advanced hunting
+//             (save as: MDC Workload Alert Validation - Tenant - Validate)
+// Confirms Defender-for-Cloud alerts are streaming/queryable (Phase B Step B/validation, Phase D).
+// Run this one in the Microsoft Defender portal -> Advanced hunting.
+// -------------------------------------------------------------------------------------
+AlertInfo
+| where Timestamp > ago(7d)
+| where ServiceSource == "Microsoft Defender for Cloud"
+| project Timestamp, Title, Severity, Category, ServiceSource, AlertId
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 5 — UNHEALTHY RESOURCES for a recommendation (drill-down)
+// Replace the assessment display name with one from Section 1.
+// -------------------------------------------------------------------------------------
+securityresources
+| where type == "microsoft.security/assessments"
+| where tostring(properties.displayName) == "Storage accounts should restrict network access"
+| where tostring(properties.status.code) == "Unhealthy"
+| project resourceId = tostring(properties.resourceDetails.Id),
+          status = tostring(properties.status.code)
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 6 — SECURE SCORE overall (ARG; save as: SecureScore-Trend - Cloud Lab - Pilot)
+// Export this over time (continuous export / repeated runs) to build the trend.
+// -------------------------------------------------------------------------------------
+securityresources
+| where type == "microsoft.security/securescores"
+| extend current = toint(properties.score.current),
+         max     = toint(properties.score.max),
+         pct     = todouble(properties.score.percentage)
+| project subscriptionId, current, max, pct
+
+
+// -------------------------------------------------------------------------------------
+// SECTION 7 — CONTINUOUS-EXPORT SANITY (workspace SecurityAlert table)
+// Run in the central Log Analytics workspace (Logs) to confirm export is landing (Phase B Step B3).
+// -------------------------------------------------------------------------------------
+SecurityAlert
+| where TimeGenerated > ago(24h)
+| where ProductName has "Defender for Cloud" or ProductName has "Azure Security Center"
+| project TimeGenerated, AlertName, AlertSeverity, CompromisedEntity, ProductName
+| sort by TimeGenerated desc

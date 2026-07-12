@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "microsoft-defender-for-office-365",
+    "title": "Microsoft Defender for Office 365",
+    "category_path": [
+      "Defender"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MDOFULL-COMM-001",
+      "name": "Microsoft Defender for Office 365 — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 4995.0,
+      "short_description": "<p>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end.</p>",
+      "description": "<h3>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end.</h3><p>Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehensive solution takes MDO end to end: hands-on enablement labs (Threat Explorer, Attack Simulation, automated investigation/response, email hunting) and a guided proof-of-concept with benign test signal — cross-referencing the existing MDO Plan-2 implementation and the EOP/MDO mail-hygiene solutions for the config baseline, so this focuses on operating and proving the product.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A team-ready Defender for Office 365 operated for detection and response, with proven value — the enablement-and-prove lifecycle in one package.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDOFULL-Discovery.ps1</code> &mdash; inventory readiness to operate, enable, and prove Microsoft Defender for Office 365 (read-only)</li><li><code>MDOFULL-Report.ps1</code> &mdash; report cohort progress + per-lab data, and capture the PoC evidence scorecard (read-only)</li><li><code>MDOFULL-RunLab.ps1</code> &mdash; run a chosen email hunting-lab query from MDOFULL-Labs.kql read-only</li><li><code>MDOFULL-TestSignal.ps1</code> &mdash; generate (or tear down) BENIGN, simulated email test signal for the MDO proof of concept. -WhatIf-gated</li><li><code>MDOFULL-Validate.ps1</code> &mdash; run the MDO enable-and-prove pass/fail gates and score the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Office 365",
+      "meta_description": "Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehen",
+      "url_key": "microsoft-defender-for-office-365-commercial",
+      "image": "MDOFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDOFULL-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MDOFULL-NPO-001",
+      "name": "Microsoft Defender for Office 365 — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 2997.0,
+      "short_description": "<p>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end.</h3><p>Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehensive solution takes MDO end to end: hands-on enablement labs (Threat Explorer, Attack Simulation, automated investigation/response, email hunting) and a guided proof-of-concept with benign test signal — cross-referencing the existing MDO Plan-2 implementation and the EOP/MDO mail-hygiene solutions for the config baseline, so this focuses on operating and proving the product.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDOFULL-Discovery.ps1</code> &mdash; inventory readiness to operate, enable, and prove Microsoft Defender for Office 365 (read-only)</li><li><code>MDOFULL-Report.ps1</code> &mdash; report cohort progress + per-lab data, and capture the PoC evidence scorecard (read-only)</li><li><code>MDOFULL-RunLab.ps1</code> &mdash; run a chosen email hunting-lab query from MDOFULL-Labs.kql read-only</li><li><code>MDOFULL-TestSignal.ps1</code> &mdash; generate (or tear down) BENIGN, simulated email test signal for the MDO proof of concept. -WhatIf-gated</li><li><code>MDOFULL-Validate.ps1</code> &mdash; run the MDO enable-and-prove pass/fail gates and score the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Office 365 — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehen",
+      "url_key": "microsoft-defender-for-office-365-nonprofit",
+      "image": "MDOFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDOFULL-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MDOFULL-GOV-001",
+      "name": "Microsoft Defender for Office 365 — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 4245.75,
+      "short_description": "<p>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>The complete Microsoft Defender for Office 365 solution — enable your team on detect/hunt/respond and prove value, end to end.</h3><p>Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehensive solution takes MDO end to end: hands-on enablement labs (Threat Explorer, Attack Simulation, automated investigation/response, email hunting) and a guided proof-of-concept with benign test signal — cross-referencing the existing MDO Plan-2 implementation and the EOP/MDO mail-hygiene solutions for the config baseline, so this focuses on operating and proving the product.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDOFULL-Discovery.ps1</code> &mdash; inventory readiness to operate, enable, and prove Microsoft Defender for Office 365 (read-only)</li><li><code>MDOFULL-Report.ps1</code> &mdash; report cohort progress + per-lab data, and capture the PoC evidence scorecard (read-only)</li><li><code>MDOFULL-RunLab.ps1</code> &mdash; run a chosen email hunting-lab query from MDOFULL-Labs.kql read-only</li><li><code>MDOFULL-TestSignal.ps1</code> &mdash; generate (or tear down) BENIGN, simulated email test signal for the MDO proof of concept. -WhatIf-gated</li><li><code>MDOFULL-Validate.ps1</code> &mdash; run the MDO enable-and-prove pass/fail gates and score the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Office 365 — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Blocking spam is table stakes; the value of Defender for Office 365 is post-delivery detection, response, and a team that can drive it. This comprehen",
+      "url_key": "microsoft-defender-for-office-365-government",
+      "image": "MDOFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDOFULL-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

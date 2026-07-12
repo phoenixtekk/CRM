@@ -1,0 +1,125 @@
+// =====================================================================================
+// MDOFULL-Labs.kql — Microsoft Defender for Office 365 (Enable & Prove): the query pack.
+//
+// PURPOSE
+//   The runnable, progressive email KQL library. One labeled section per hunting lab
+//   (post-delivery clicks, sender/subject campaign, bad-attachment hash, delivered-then-
+//   detected), the capstone detection candidate, and the PoC benign-signal validation
+//   queries. Core take-home artifact — keep it and grow it into your team's shared library.
+// HOW TO RUN
+//   Paste one query block (below a "// Lab N" / "// PoC" header) into:
+//     Microsoft Defender -> Hunting -> Advanced hunting
+//   Or run one hunting lab read-only from PowerShell:  MDOFULL-RunLab.ps1 -Lab <n>
+//   The PoC validation blocks are also run by MDOFULL-Validate.ps1.
+// EXPECTED RESULTS
+//   Each query returns a small, explainable result set. Tables/columns flagged // VERIFY
+//   may differ in your tenant/cloud — correct against Advanced hunting -> schema. Email
+//   tables require MDO Plan 2 (verify).
+// NOTES
+//   White-label. READ-ONLY — every query only reads email telemetry; nothing here changes a
+//   mailbox. Defender email tables use `Timestamp`. Table/column names evolve and can differ
+//   by plan (P1/P2) and cloud — VERIFY in your tenant. All PoC signal is BENIGN (Attack
+//   Simulation / GTUBE / EICAR / benign test URL) tagged MDOFULL-TESTSIGNAL.
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5a — Post-delivery URL clicks (the risk the prevention layer missed)
+// Concept: join click data to EmailUrlInfo + EmailEvents (delivered) on NetworkMessageId.
+// -------------------------------------------------------------------------------------
+let look = ago(7d);
+UrlClickInfo                                           // VERIFY table/column names for your tenant
+| where Timestamp > look
+| where ActionType == "ClickAllowed" or IsClickedThrough == 1
+| join kind=inner (EmailUrlInfo | where Timestamp > look) on NetworkMessageId
+| join kind=inner (EmailEvents | where Timestamp > look and DeliveryAction == "Delivered") on NetworkMessageId
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, Subject, Url, ThreatTypes, DeliveryLocation
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5b — Everyone who RECEIVED mail from a known-bad sender / subject indicator
+// Concept: filter EmailEvents to a campaign indicator (pass the indicator in the portal).
+// -------------------------------------------------------------------------------------
+EmailEvents
+| where Timestamp > ago(7d)
+| where SenderFromAddress =~ "badsender@contoso.com" or Subject has "urgent invoice"  // replace indicator
+| project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, Subject, DeliveryAction, DeliveryLocation, ThreatTypes
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 5c — Recipients of an attachment matching a known-bad SHA256
+// Concept: join EmailAttachmentInfo to EmailEvents on NetworkMessageId.
+// -------------------------------------------------------------------------------------
+EmailAttachmentInfo
+| where Timestamp > ago(7d)
+| where SHA256 =~ "<replace-with-sha256>"
+| join kind=inner (EmailEvents | where Timestamp > ago(7d)) on NetworkMessageId
+| project Timestamp, NetworkMessageId, RecipientEmailAddress, SenderFromAddress, Subject, FileName, SHA256, DeliveryLocation
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 8-support — Delivered-then-detected: mail delivered, later found malicious/phish
+// Concept: post-delivery threat picture (the value of the post-delivery half).
+// -------------------------------------------------------------------------------------
+EmailEvents
+| where Timestamp > ago(7d)
+| where DeliveryAction == "Delivered"
+| where ThreatTypes has "Phish" or ThreatTypes has "Malware"
+| summarize Messages = count(), Recipients = dcount(RecipientEmailAddress),
+            Senders = make_set(SenderFromAddress, 5) by bin(Timestamp, 1d), ThreatTypes
+| sort by Timestamp desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 7 — CAPSTONE CANDIDATE: post-delivery clicks on delivered phish (detection candidate)
+// Tune to a SMALL, explainable result, then Create detection rule -> `Detect-MDOFULL-Pilot`
+// with response = ALERT ONLY. Project entity columns the rule maps (RecipientEmailAddress, Url).
+// -------------------------------------------------------------------------------------
+let look = ago(1d);
+UrlClickInfo
+| where Timestamp > look
+| where ActionType == "ClickAllowed" or IsClickedThrough == 1
+| join kind=inner (
+    EmailEvents
+    | where Timestamp > look and DeliveryAction == "Delivered"
+    | where ThreatTypes has "Phish"
+  ) on NetworkMessageId
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, Subject, Url, ThreatTypes, DeliveryLocation
+| sort by Timestamp desc
+
+
+// =====================================================================================
+// PoC VALIDATION — benign-signal detections (Track B). Confirm MDO actioned the benign
+// GTUBE / EICAR / Safe Links signal (tagged MDOFULL-TESTSIGNAL). All BENIGN. Read-only.
+// =====================================================================================
+
+// PoC-1 — Mail processed by MDO (the simulation / test messages were seen)
+EmailEvents
+| where Timestamp > ago(6h)
+| where Subject has "MDOFULL-TESTSIGNAL" or ThreatTypes != "" or DetectionMethods != ""
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, Subject, DeliveryAction, DeliveryLocation, ThreatTypes
+| sort by Timestamp desc
+
+// PoC-2 — Safe Links engaged (time-of-click rewriting/verdict on the benign test URL)
+UrlClickInfo                                           // VERIFY: may be UrlClickEvents in your cloud
+| where Timestamp > ago(6h)
+| project Timestamp, AccountUpn = RecipientEmailAddress, Url, ActionType
+| sort by Timestamp desc
+
+// PoC-3 — Safe Attachments saw the benign EICAR attachment
+EmailAttachmentInfo
+| where Timestamp > ago(6h)
+| where FileName has "eicar" or FileType != ""
+| join kind=inner (EmailEvents | where Timestamp > ago(6h)) on NetworkMessageId
+| project Timestamp, RecipientEmailAddress, Subject, FileName, SHA256, DeliveryAction, DeliveryLocation
+| sort by Timestamp desc
+
+// PoC-4 — Spam/phish handling (the benign GTUBE string was actioned per policy)
+EmailEvents
+| where Timestamp > ago(6h)
+| where ThreatTypes has_any ("Spam","Phish") or DeliveryAction has "Quarantine"
+| summarize Messages = count(), Recipients = dcount(RecipientEmailAddress) by DeliveryAction, ThreatTypes
+| sort by Messages desc

@@ -2288,5 +2288,40 @@
     "post_id": 12749,
     "status": "draft",
     "category_id": 411
+  },
+  "microsoft-defender-for-endpoint": {
+    "post_id": 12751,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-identity": {
+    "post_id": 12753,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-cloud-apps": {
+    "post_id": 12755,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-office-365": {
+    "post_id": 12757,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-defender-for-cloud": {
+    "post_id": 12759,
+    "status": "draft",
+    "category_id": 411
+  },
+  "advanced-kql-for-secops": {
+    "post_id": 12761,
+    "status": "draft",
+    "category_id": 411
+  },
+  "endpoint-security-optimization-with-intune": {
+    "post_id": 12763,
+    "status": "draft",
+    "category_id": 411
   }
 }

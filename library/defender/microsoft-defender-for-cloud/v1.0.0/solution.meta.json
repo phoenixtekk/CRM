@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-cloud",
+  "title": "Microsoft Defender for Cloud",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDCFULL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "COMPREHENSIVE product-named solution (merge of MDC workload-protection+architecture+enablement+PoC; Blocker & Assessment excluded). CSPM/Secure Score is the existing DEFCSPM solution — cross-reference, don't duplicate. PowerShell/Az + KQL + Bicep (reference architecture); -WhatIf-gated; plan/pricing flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDCFULL-COMM-001",
+      "audience": "commercial",
+      "price": 6995.0
+    },
+    {
+      "sku": "PTK-MDCFULL-NPO-001",
+      "audience": "nonprofit",
+      "price": 4197.0
+    },
+    {
+      "sku": "PTK-MDCFULL-GOV-001",
+      "audience": "government",
+      "price": 5945.75
+    }
+  ],
+  "deliverables": [
+    "MDCFULL-Complete-Solution.zip"
+  ],
+  "hero": "MDCFULL-hero.png"
+}
+

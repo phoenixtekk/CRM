@@ -1,0 +1,41 @@
+{
+  "slug": "advanced-kql-for-secops",
+  "title": "Advanced KQL for SecOps",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "WSKQL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Guide archetype (enablement/training deliverable). Cross-references the existing DEFXDR unified-onboarding, DEFCSPM, DEFMDOP2, EOP/MDO hygiene, Cloud-App-DLP, SOCXDR and THREATHUNT solutions rather than duplicating them (gap-only). PowerShell (Graph Security / Az / Defender) + KQL. Licensing/plan/preview facts flagged verify; response actions approval-gated; regulatory/IR determinations deferred to the SOC."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WSKQL-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-WSKQL-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-WSKQL-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "WSKQL-Complete-Solution.zip"
+  ],
+  "hero": "WSKQL-hero.png"
+}
+
+
+

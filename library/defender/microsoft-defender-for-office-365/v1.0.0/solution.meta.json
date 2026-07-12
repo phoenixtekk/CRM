@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-office-365",
+  "title": "Microsoft Defender for Office 365",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDOFULL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "COMPREHENSIVE product-named solution (merge of MDO enablement+PoC; Blocker & Assessment excluded). Onboarding/config is the existing EOP-hygiene + DEFMDOP2 solutions — cross-reference, don't duplicate. PowerShell (Graph/EXO) + KQL; -WhatIf-gated; MDO P2 flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDOFULL-COMM-001",
+      "audience": "commercial",
+      "price": 4995.0
+    },
+    {
+      "sku": "PTK-MDOFULL-NPO-001",
+      "audience": "nonprofit",
+      "price": 2997.0
+    },
+    {
+      "sku": "PTK-MDOFULL-GOV-001",
+      "audience": "government",
+      "price": 4245.75
+    }
+  ],
+  "deliverables": [
+    "MDOFULL-Complete-Solution.zip"
+  ],
+  "hero": "MDOFULL-hero.png"
+}
+

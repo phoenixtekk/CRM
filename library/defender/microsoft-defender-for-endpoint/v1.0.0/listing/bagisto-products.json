@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "microsoft-defender-for-endpoint",
+    "title": "Microsoft Defender for Endpoint",
+    "category_path": [
+      "Defender"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-MDEFULL-COMM-001",
+      "name": "Microsoft Defender for Endpoint — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 6995.0,
+      "short_description": "<p>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end.</p>",
+      "description": "<h3>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end.</h3><p>Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full onboarding (Windows/macOS/Linux, EDR block mode, ASR, tamper protection, web filtering, device groups/RBAC, live response, vulnerability management), operational optimization (tune ASR audit→block, cut false positives, expand coverage), hands-on team enablement labs, and a guided proof-of-concept — one product, the whole lifecycle.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A fully deployed, tuned, team-ready Defender for Endpoint that demonstrably works — the entire lifecycle in one comprehensive package.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 7 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDEFULL-Discovery.ps1</code> &mdash; read-only lifecycle readiness for Microsoft Defender for Endpoint</li><li><code>MDEFULL-Hunt.ps1</code> &mdash; read-only KQL advanced-hunting for the Defender for Endpoint lifecycle:</li><li><code>MDEFULL-PoC.ps1</code> &mdash; the guided Microsoft Defender for Endpoint proof-of-concept in one script</li><li><code>MDEFULL-PromoteASR.ps1</code> &mdash; promote audit-vetted ASR rules from audit to BLOCK on the pilot ring</li><li><code>MDEFULL-Report.ps1</code> &mdash; coverage + ASR-audit + noise + TVM exposure report for Defender for Endpoint,</li><li><code>MDEFULL-RunLab.ps1</code> &mdash; run a chosen endpoint hunting-lab query from MDEFULL-Labs.kql read-only</li><li><code>MDEFULL-Validate.ps1</code> &mdash; targeted validation across the Defender for Endpoint lifecycle</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint",
+      "meta_description": "Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full on",
+      "url_key": "microsoft-defender-for-endpoint-commercial",
+      "image": "MDEFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDEFULL-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MDEFULL-NPO-001",
+      "name": "Microsoft Defender for Endpoint — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 4197.0,
+      "short_description": "<p>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end.</h3><p>Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full onboarding (Windows/macOS/Linux, EDR block mode, ASR, tamper protection, web filtering, device groups/RBAC, live response, vulnerability management), operational optimization (tune ASR audit→block, cut false positives, expand coverage), hands-on team enablement labs, and a guided proof-of-concept — one product, the whole lifecycle.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 7 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDEFULL-Discovery.ps1</code> &mdash; read-only lifecycle readiness for Microsoft Defender for Endpoint</li><li><code>MDEFULL-Hunt.ps1</code> &mdash; read-only KQL advanced-hunting for the Defender for Endpoint lifecycle:</li><li><code>MDEFULL-PoC.ps1</code> &mdash; the guided Microsoft Defender for Endpoint proof-of-concept in one script</li><li><code>MDEFULL-PromoteASR.ps1</code> &mdash; promote audit-vetted ASR rules from audit to BLOCK on the pilot ring</li><li><code>MDEFULL-Report.ps1</code> &mdash; coverage + ASR-audit + noise + TVM exposure report for Defender for Endpoint,</li><li><code>MDEFULL-RunLab.ps1</code> &mdash; run a chosen endpoint hunting-lab query from MDEFULL-Labs.kql read-only</li><li><code>MDEFULL-Validate.ps1</code> &mdash; targeted validation across the Defender for Endpoint lifecycle</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full on",
+      "url_key": "microsoft-defender-for-endpoint-nonprofit",
+      "image": "MDEFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDEFULL-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-MDEFULL-GOV-001",
+      "name": "Microsoft Defender for Endpoint — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 5945.75,
+      "short_description": "<p>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>The complete Microsoft Defender for Endpoint solution — deploy, operate, optimize, enable your team, and prove value, end to end.</h3><p>Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full onboarding (Windows/macOS/Linux, EDR block mode, ASR, tamper protection, web filtering, device groups/RBAC, live response, vulnerability management), operational optimization (tune ASR audit→block, cut false positives, expand coverage), hands-on team enablement labs, and a guided proof-of-concept — one product, the whole lifecycle.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>End-to-end deployment & onboarding (config, coverage, pilot-first rollout)</li><li>Operations & optimization — tune, reduce noise, expand coverage, harden policy</li><li>Hands-on enablement labs to upskill your admins/SOC on the product</li><li>A guided proof-of-concept / pilot with benign test signal to prove value</li><li>Read-only discovery, validation & reporting scripts (PowerShell + KQL)</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 7 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>MDEFULL-Discovery.ps1</code> &mdash; read-only lifecycle readiness for Microsoft Defender for Endpoint</li><li><code>MDEFULL-Hunt.ps1</code> &mdash; read-only KQL advanced-hunting for the Defender for Endpoint lifecycle:</li><li><code>MDEFULL-PoC.ps1</code> &mdash; the guided Microsoft Defender for Endpoint proof-of-concept in one script</li><li><code>MDEFULL-PromoteASR.ps1</code> &mdash; promote audit-vetted ASR rules from audit to BLOCK on the pilot ring</li><li><code>MDEFULL-Report.ps1</code> &mdash; coverage + ASR-audit + noise + TVM exposure report for Defender for Endpoint,</li><li><code>MDEFULL-RunLab.ps1</code> &mdash; run a chosen endpoint hunting-lab query from MDEFULL-Labs.kql read-only</li><li><code>MDEFULL-Validate.ps1</code> &mdash; targeted validation across the Defender for Endpoint lifecycle</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Microsoft Defender for Endpoint — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Most teams stand up Defender for Endpoint halfway, never tune it, and never upskill the SOC. This comprehensive solution takes MDE end to end: full on",
+      "url_key": "microsoft-defender-for-endpoint-government",
+      "image": "MDEFULL-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "MDEFULL-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

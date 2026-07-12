@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Defender",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "for Cloud Apps",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Connect · Govern · Enable · Prove",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PIECEMEAL",
+    "items": [
+      "Half-deployed",
+      "Untuned",
+      "Team guessing",
+      "Value unproven"
+    ]
+  },
+  "to": {
+    "label": "Defender for Cloud Apps",
+    "stat": "End-to-end CASB"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Deploy Right",
+      "sub": "Onboard + config"
+    },
+    {
+      "icon": "gear",
+      "title": "Operate & Optimize",
+      "sub": "Tune + expand"
+    },
+    {
+      "icon": "users",
+      "title": "Enable the Team",
+      "sub": "Hands-on labs"
+    },
+    {
+      "icon": "chart",
+      "title": "Prove Value",
+      "sub": "Guided pilot"
+    }
+  ]
+}

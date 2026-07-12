@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-identity",
+  "title": "Microsoft Defender for Identity",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDIFULL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "COMPREHENSIVE product-named solution (merge of MDI onboarding+enablement+PoC; Blocker & Assessment excluded). Cross-references DEFXDR/SOCXDR/THREATHUNT. PowerShell (Graph Security/Az) + KQL; -WhatIf-gated; licensing/preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDIFULL-COMM-001",
+      "audience": "commercial",
+      "price": 5995.0
+    },
+    {
+      "sku": "PTK-MDIFULL-NPO-001",
+      "audience": "nonprofit",
+      "price": 3597.0
+    },
+    {
+      "sku": "PTK-MDIFULL-GOV-001",
+      "audience": "government",
+      "price": 5095.75
+    }
+  ],
+  "deliverables": [
+    "MDIFULL-Complete-Solution.zip"
+  ],
+  "hero": "MDIFULL-hero.png"
+}
+

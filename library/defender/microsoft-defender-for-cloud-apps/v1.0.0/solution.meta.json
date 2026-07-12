@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-cloud-apps",
+  "title": "Microsoft Defender for Cloud Apps",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDCAFULL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "COMPREHENSIVE product-named solution (merge of MDCA onboarding+enablement+PoC; Blocker & Assessment excluded). Cross-references the existing Cloud-App-DLP (Purview) solution + DEFXDR. PowerShell (Graph Security) + KQL; -WhatIf-gated; licensing/preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDCAFULL-COMM-001",
+      "audience": "commercial",
+      "price": 5995.0
+    },
+    {
+      "sku": "PTK-MDCAFULL-NPO-001",
+      "audience": "nonprofit",
+      "price": 3597.0
+    },
+    {
+      "sku": "PTK-MDCAFULL-GOV-001",
+      "audience": "government",
+      "price": 5095.75
+    }
+  ],
+  "deliverables": [
+    "MDCAFULL-Complete-Solution.zip"
+  ],
+  "hero": "MDCAFULL-hero.png"
+}
+

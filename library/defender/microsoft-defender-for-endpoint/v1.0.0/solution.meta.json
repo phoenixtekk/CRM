@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-defender-for-endpoint",
+  "title": "Microsoft Defender for Endpoint",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDEFULL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "COMPREHENSIVE product-named solution (merge of the MDE onboarding+optimization+enablement+PoC archetypes; Blocker & Assessment intentionally excluded per owner). Cross-references existing 'Defender for Endpoint Integration' (Intune), macOS onboarding, DEFXDR, SOCXDR, THREATHUNT. PowerShell (Graph Security/Az/Defender) + KQL; change scripts -WhatIf-gated; licensing/preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDEFULL-COMM-001",
+      "audience": "commercial",
+      "price": 6995.0
+    },
+    {
+      "sku": "PTK-MDEFULL-NPO-001",
+      "audience": "nonprofit",
+      "price": 4197.0
+    },
+    {
+      "sku": "PTK-MDEFULL-GOV-001",
+      "audience": "government",
+      "price": 5945.75
+    }
+  ],
+  "deliverables": [
+    "MDEFULL-Complete-Solution.zip"
+  ],
+  "hero": "MDEFULL-hero.png"
+}
+
