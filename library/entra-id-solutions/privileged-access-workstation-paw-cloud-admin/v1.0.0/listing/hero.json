@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Privileged Access",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Workstation (PAW)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Isolate · Harden · Enforce",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "DIRTY ADMIN PC",
+    "items": [
+      "Email + admin same PC",
+      "Browsing risk",
+      "No isolation",
+      "Token theft"
+    ]
+  },
+  "to": {
+    "label": "Clean Admin Plane",
+    "stat": "Hardened · Isolated · CA-enforced"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Hardened PAW",
+      "sub": "Intune-managed"
+    },
+    {
+      "icon": "lock",
+      "title": "Isolation",
+      "sub": "No email/web"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "CA-Enforced",
+      "sub": "Compliant device only"
+    },
+    {
+      "icon": "key",
+      "title": "PIM + JIT",
+      "sub": "From clean device"
+    }
+  ]
+}

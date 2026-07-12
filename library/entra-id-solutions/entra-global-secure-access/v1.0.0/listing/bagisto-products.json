@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "entra-global-secure-access",
+    "title": "Entra Global Secure Access (Internet & Private Access)",
+    "category_path": [
+      "Entra"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ENTGSA-COMM-001",
+      "name": "Entra Global Secure Access (Internet & Private Access) — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged.</p>",
+      "description": "<h3>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged.</h3><p>VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service Edge) replaces that: deploy the client and connectors, secure Microsoft/Internet/Private Access traffic profiles, tie access to Conditional Access and Continuous Access Evaluation, and get per-app private access without a VPN.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>GSA client rollout + Private Access connectors (as code where possible)</li><li>Traffic profiles — Microsoft, Internet Access (SWG), Private Access (ZTNA)</li><li>Per-app private access (replace VPN) with segmented, identity-based access</li><li>Conditional Access + Continuous Access Evaluation integration</li><li>Logging/monitoring and a pilot-first, staged rollout</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A working SSE on Entra — VPN-less private app access, inspected internet/SaaS traffic, all identity-conditioned and logged.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTGSA-ConnectorHealth.ps1</code> &mdash; report Private Access connector groups and connector health (read-only)</li><li><code>ENTGSA-Discovery.ps1</code> &mdash; inventory Entra Global Secure Access configuration (read-only, Microsoft Graph)</li><li><code>ENTGSA-Report.ps1</code> &mdash; export Global Secure Access traffic evidence via KQL against Log Analytics (read-only)</li><li><code>ENTGSA-TrafficLogs.ps1</code> &mdash; focused KQL for GSA blocked/denied flows and Private Access outcomes (read-only)</li><li><code>ENTGSA-Validate.ps1</code> &mdash; validate the named GSA objects from 03-implementation are present and wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Global Secure Access (Internet & Private Access)",
+      "meta_description": "VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service E",
+      "url_key": "entra-global-secure-access-commercial",
+      "image": "ENTGSA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTGSA-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTGSA-NPO-001",
+      "name": "Entra Global Secure Access (Internet & Private Access) — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged.</h3><p>VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service Edge) replaces that: deploy the client and connectors, secure Microsoft/Internet/Private Access traffic profiles, tie access to Conditional Access and Continuous Access Evaluation, and get per-app private access without a VPN.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>GSA client rollout + Private Access connectors (as code where possible)</li><li>Traffic profiles — Microsoft, Internet Access (SWG), Private Access (ZTNA)</li><li>Per-app private access (replace VPN) with segmented, identity-based access</li><li>Conditional Access + Continuous Access Evaluation integration</li><li>Logging/monitoring and a pilot-first, staged rollout</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTGSA-ConnectorHealth.ps1</code> &mdash; report Private Access connector groups and connector health (read-only)</li><li><code>ENTGSA-Discovery.ps1</code> &mdash; inventory Entra Global Secure Access configuration (read-only, Microsoft Graph)</li><li><code>ENTGSA-Report.ps1</code> &mdash; export Global Secure Access traffic evidence via KQL against Log Analytics (read-only)</li><li><code>ENTGSA-TrafficLogs.ps1</code> &mdash; focused KQL for GSA blocked/denied flows and Private Access outcomes (read-only)</li><li><code>ENTGSA-Validate.ps1</code> &mdash; validate the named GSA objects from 03-implementation are present and wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Global Secure Access (Internet & Private Access) — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service E",
+      "url_key": "entra-global-secure-access-nonprofit",
+      "image": "ENTGSA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTGSA-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTGSA-GOV-001",
+      "name": "Entra Global Secure Access (Internet & Private Access) — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Deliver Microsoft's SSE — secure access to internet, SaaS, and private apps through Entra Global Secure Access, identity-conditioned and logged.</h3><p>VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service Edge) replaces that: deploy the client and connectors, secure Microsoft/Internet/Private Access traffic profiles, tie access to Conditional Access and Continuous Access Evaluation, and get per-app private access without a VPN.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>GSA client rollout + Private Access connectors (as code where possible)</li><li>Traffic profiles — Microsoft, Internet Access (SWG), Private Access (ZTNA)</li><li>Per-app private access (replace VPN) with segmented, identity-based access</li><li>Conditional Access + Continuous Access Evaluation integration</li><li>Logging/monitoring and a pilot-first, staged rollout</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTGSA-ConnectorHealth.ps1</code> &mdash; report Private Access connector groups and connector health (read-only)</li><li><code>ENTGSA-Discovery.ps1</code> &mdash; inventory Entra Global Secure Access configuration (read-only, Microsoft Graph)</li><li><code>ENTGSA-Report.ps1</code> &mdash; export Global Secure Access traffic evidence via KQL against Log Analytics (read-only)</li><li><code>ENTGSA-TrafficLogs.ps1</code> &mdash; focused KQL for GSA blocked/denied flows and Private Access outcomes (read-only)</li><li><code>ENTGSA-Validate.ps1</code> &mdash; validate the named GSA objects from 03-implementation are present and wired</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Global Secure Access (Internet & Private Access) — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. VPNs backhaul traffic and expose flat network access; unmanaged SaaS and internet use go uninspected. Global Secure Access (Entra's Security Service E",
+      "url_key": "entra-global-secure-access-government",
+      "image": "ENTGSA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTGSA-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

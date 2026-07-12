@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Migrate & Protect",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Applications · Entra",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "AD FS → Entra · Proxy · CA",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STRANDED APPS",
+    "items": [
+      "AD FS sprawl",
+      "On-prem only",
+      "Bespoke SSO",
+      "Unprotected"
+    ]
+  },
+  "to": {
+    "label": "Entra-Protected Apps",
+    "stat": "Migrated · Published · Conditional"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "AD FS Migration",
+      "sub": "Staged cutover"
+    },
+    {
+      "icon": "cloud",
+      "title": "App Proxy",
+      "sub": "Publish on-prem"
+    },
+    {
+      "icon": "shield",
+      "title": "Conditional Access",
+      "sub": "Protect every app"
+    },
+    {
+      "icon": "users",
+      "title": "Provisioning",
+      "sub": "SCIM"
+    }
+  ]
+}

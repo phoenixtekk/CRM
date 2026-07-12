@@ -1,0 +1,39 @@
+{
+  "slug": "entra-global-secure-access",
+  "title": "Entra Global Secure Access (Internet & Private Access)",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTGSA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Product-named (merges the GSA onboarding+enablement engagement items). GSA feature/preview flagged verify. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTGSA-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ENTGSA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ENTGSA-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ENTGSA-Complete-Solution.zip"
+  ],
+  "hero": "ENTGSA-hero.png"
+}
+

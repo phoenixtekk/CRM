@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-entra-secure-cloud-identity-reference-architecture",
+  "title": "Microsoft Entra — Secure Cloud Identity Reference Architecture",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTARCH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Product-named (was 'Architecture Service'). A design/reference-architecture product (decision record + roadmap); cross-references the implementation products it points to. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTARCH-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ENTARCH-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ENTARCH-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ENTARCH-Complete-Solution.zip"
+  ],
+  "hero": "ENTARCH-hero.png"
+}
+

@@ -1,0 +1,87 @@
+// =====================================================================================
+// EKHYBID-Signals.kql — Hybrid Identity signal pack (READ-ONLY analysis)
+// -------------------------------------------------------------------------------------
+// PURPOSE
+//   Kusto (KQL) queries to run in Log Analytics / Microsoft Sentinel Logs to analyze the
+//   hybrid-identity posture from Entra sign-in / audit logs: sign-ins by authentication
+//   method (PHS/PTA/federation), hybrid-join device sign-ins, and sync / auth errors.
+// HOW TO RUN
+//   Requires Entra Diagnostic settings exporting SigninLogs / AuditLogs to a Log Analytics
+//   workspace (verify in your tenant). Open the workspace (or Sentinel) -> Logs, paste ONE
+//   query block, adjust the time range, and Run. All queries are read-only.
+// EXPECTED RESULTS
+//   Rows summarizing each signal (or a clean empty result). Nothing is modified.
+// NOTES
+//   White-label. Read-only. Table/column names reflect the current Entra log schema — verify
+//   in your tenant, as Microsoft evolves it.
+// =====================================================================================
+
+// -------------------------------------------------------------------------------------
+// Q1. Sign-ins by authentication method detail (PHS / PTA / Federation shape; last 14 days)
+//     Interactive sign-ins; inspect AuthenticationDetails for the method that validated.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where ResultType == 0
+| extend Detail = tostring(todynamic(AuthenticationDetails))
+| extend AuthMethodShape = case(
+        Detail has "Federation" or Detail has "AD FS" or Detail has "federated", "Federation (AD FS)",
+        Detail has "Password Hash" or Detail has "PasswordHash",               "Password Hash Sync (PHS)",
+        Detail has "Pass-through" or Detail has "PassThrough",                  "Pass-through Auth (PTA)",
+        "Other / cloud")
+| summarize SignIns = count(), Users = dcount(UserPrincipalName) by AuthMethodShape
+| order by SignIns desc
+
+// -------------------------------------------------------------------------------------
+// Q2. Seamless SSO usage hint (last 14 days)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| extend Detail = tostring(todynamic(AuthenticationDetails))
+| where Detail has "Seamless" or Detail has "SSO"
+| summarize SeamlessSSO = count() by bin(TimeGenerated, 1d)
+| order by TimeGenerated asc
+
+// -------------------------------------------------------------------------------------
+// Q3. Hybrid-join device sign-ins (last 14 days)
+//     DeviceDetail carries trust type / join info for the device used.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where ResultType == 0
+| extend Dev = todynamic(DeviceDetail)
+| extend TrustType = tostring(Dev.trustType)
+| summarize SignIns = count(), Devices = dcount(tostring(Dev.deviceId)) by TrustType
+| order by SignIns desc
+// TrustType "ServerAD" ~ Microsoft Entra hybrid joined; "AzureAD" ~ Entra joined; "Workplace" ~ registered.
+
+// -------------------------------------------------------------------------------------
+// Q4. Federated / hybrid authentication failures (last 7 days) — top error codes
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where ResultType != 0
+| summarize Failures = count(), Users = dcount(UserPrincipalName) by ResultType, ResultDescription
+| order by Failures desc
+| take 25
+
+// -------------------------------------------------------------------------------------
+// Q5. Directory-sync / hybrid audit events (last 7 days) — from AuditLogs
+// -------------------------------------------------------------------------------------
+AuditLogs
+| where TimeGenerated > ago(7d)
+| where LoggedByService has_any ("Core Directory","DirectorySync","Account Provisioning") or OperationName has_any ("sync","Federation","domain")
+| project TimeGenerated, OperationName, LoggedByService, Result, InitiatedBy
+| order by TimeGenerated desc
+| take 100
+
+// -------------------------------------------------------------------------------------
+// Q6. Users signing in with a non-routable / onmicrosoft UPN fallback (last 14 days)
+//     Replace the suffix with your tenant's initial domain to spot UPN-hygiene gaps.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where UserPrincipalName endswith ".onmicrosoft.com"
+| summarize SignIns = count() by UserPrincipalName
+| order by SignIns desc
+| take 50

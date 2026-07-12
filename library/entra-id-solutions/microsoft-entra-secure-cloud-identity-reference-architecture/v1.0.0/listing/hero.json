@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Secure Cloud",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Identity Architecture",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Design · Blueprint · Roadmap",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "AD-HOC IDENTITY",
+    "items": [
+      "No blueprint",
+      "RBAC sprawl",
+      "No ZT design",
+      "Rework"
+    ]
+  },
+  "to": {
+    "label": "Designed Identity",
+    "stat": "Blueprinted · Governed · Roadmapped"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Topology",
+      "sub": "Tenant + model"
+    },
+    {
+      "icon": "shield",
+      "title": "Zero Trust Design",
+      "sub": "CA + IP blueprint"
+    },
+    {
+      "icon": "key",
+      "title": "Privileged Model",
+      "sub": "PIM/PAW/tiering"
+    },
+    {
+      "icon": "chart",
+      "title": "Roadmap",
+      "sub": "Phased"
+    }
+  ]
+}

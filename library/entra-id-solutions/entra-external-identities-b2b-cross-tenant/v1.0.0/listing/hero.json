@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra External",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Identities (B2B)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Collaborate · Govern · Expire",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GUEST SPRAWL",
+    "items": [
+      "Open collaboration",
+      "Guests forever",
+      "No CA for guests",
+      "No lifecycle"
+    ]
+  },
+  "to": {
+    "label": "Governed B2B",
+    "stat": "Scoped · Reviewed · Time-bound"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Cross-Tenant",
+      "sub": "Trust settings"
+    },
+    {
+      "icon": "key",
+      "title": "Guest Access",
+      "sub": "Entitlement-managed"
+    },
+    {
+      "icon": "shield",
+      "title": "CA for Guests",
+      "sub": "Scoped policy"
+    },
+    {
+      "icon": "chart",
+      "title": "Lifecycle",
+      "sub": "Reviews + expiry"
+    }
+  ]
+}

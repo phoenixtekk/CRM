@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra Global",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Secure Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "SSE · ZTNA · No-VPN",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "VPN & FLAT ACCESS",
+    "items": [
+      "Backhauled VPN",
+      "Flat network",
+      "Uninspected SaaS",
+      "No ZTNA"
+    ]
+  },
+  "to": {
+    "label": "Global Secure Access",
+    "stat": "Segmented · Inspected · Conditional"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Traffic Profiles",
+      "sub": "MS/Internet/Private"
+    },
+    {
+      "icon": "shield",
+      "title": "ZTNA",
+      "sub": "Per-app access"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "CA + CAE",
+      "sub": "Identity-conditioned"
+    },
+    {
+      "icon": "chart",
+      "title": "Logged",
+      "sub": "Full visibility"
+    }
+  ]
+}

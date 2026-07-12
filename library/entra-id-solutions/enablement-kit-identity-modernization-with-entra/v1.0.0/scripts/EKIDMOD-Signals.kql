@@ -1,0 +1,78 @@
+// =====================================================================================
+// EKIDMOD-Signals.kql — Identity Modernization signal pack (READ-ONLY analysis)
+// -------------------------------------------------------------------------------------
+// PURPOSE
+//   A pack of Kusto (KQL) queries to run in Log Analytics / Microsoft Sentinel Logs to
+//   analyze the identity-modernization posture from Entra sign-in / audit logs: legacy
+//   authentication, risky sign-ins, Conditional Access coverage, and passwordless adoption.
+// HOW TO RUN
+//   Requires Entra Diagnostic settings exporting SigninLogs / AuditLogs to a Log Analytics
+//   workspace (verify in your tenant). Open the workspace (or Sentinel) -> Logs, paste ONE
+//   query block, adjust the time range, and Run. All queries are read-only.
+// EXPECTED RESULTS
+//   Rows summarizing each signal (or a clean empty result). Nothing is modified.
+// NOTES
+//   White-label. Read-only. Table/column names reflect current Entra log schema — verify in
+//   your tenant, as Microsoft evolves the schema (e.g. AADNonInteractiveUserSignInLogs).
+// =====================================================================================
+
+// -------------------------------------------------------------------------------------
+// Q1. Legacy-authentication sign-ins (last 14 days) — candidates to BLOCK via CA
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where ClientAppUsed in ("Other clients","IMAP4","POP3","SMTP","Exchange ActiveSync","Authenticated SMTP","MAPI Over HTTP","Offline Address Book")
+| summarize SignIns = count(), Users = dcount(UserPrincipalName) by ClientAppUsed
+| order by SignIns desc
+
+// -------------------------------------------------------------------------------------
+// Q2. Top users still using legacy auth (last 14 days)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where ClientAppUsed in ("Other clients","IMAP4","POP3","SMTP","Exchange ActiveSync")
+| summarize LegacySignIns = count(), Apps = make_set(AppDisplayName, 10) by UserPrincipalName
+| order by LegacySignIns desc
+| take 50
+
+// -------------------------------------------------------------------------------------
+// Q3. Risky sign-ins by risk level (Identity Protection — requires P2; last 14 days)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where RiskLevelDuringSignIn in ("high","medium","low")
+| summarize Count = count(), Users = dcount(UserPrincipalName) by RiskLevelDuringSignIn
+| order by Count desc
+
+// -------------------------------------------------------------------------------------
+// Q4. Conditional Access coverage — sign-ins where NO CA policy applied (last 7 days)
+//     (mtcExpand the ConditionalAccessPolicies array; "notApplied"/"notEnabled" = gap)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where ResultType == 0            // successful sign-ins
+| extend CAApplied = iff(array_length(todynamic(ConditionalAccessPolicies)) > 0
+        and todynamic(ConditionalAccessPolicies)
+            has_any ("success","failure","reportOnlySuccess","reportOnlyFailure"), "covered","gap")
+| summarize SignIns = count() by CAApplied
+| order by SignIns desc
+
+// -------------------------------------------------------------------------------------
+// Q5. Authentication method / strength used (passwordless adoption; last 14 days)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(14d)
+| where ResultType == 0
+| extend AuthDetail = tostring(todynamic(AuthenticationDetails))
+| extend Passwordless = iff(AuthDetail has_any ("FIDO2","Windows Hello","Passkey","certificate"), "passwordless/phishing-resistant", "password/other")
+| summarize SignIns = count(), Users = dcount(UserPrincipalName) by Passwordless
+| order by SignIns desc
+
+// -------------------------------------------------------------------------------------
+// Q6. Break-glass / emergency account usage (audit — replace the UPNs with your accounts)
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(30d)
+| where UserPrincipalName in~ ("breakglass1@contoso.onmicrosoft.com","breakglass2@contoso.onmicrosoft.com")
+| project TimeGenerated, UserPrincipalName, AppDisplayName, IPAddress, ResultType, ResultDescription
+| order by TimeGenerated desc

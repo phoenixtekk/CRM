@@ -1,0 +1,39 @@
+{
+  "slug": "enablement-kit-identity-modernization-with-entra",
+  "title": "Enablement Kit — Identity Modernization with Entra",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "EKIDMOD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Enablement Kit (self-guided training). Lab scripts + KQL; read-only/preview-first. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EKIDMOD-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-EKIDMOD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-EKIDMOD-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "EKIDMOD-Complete-Solution.zip"
+  ],
+  "hero": "EKIDMOD-hero.png"
+}
+

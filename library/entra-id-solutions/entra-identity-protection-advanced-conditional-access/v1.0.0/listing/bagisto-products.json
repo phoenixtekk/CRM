@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "entra-identity-protection-advanced-conditional-access",
+    "title": "Entra Identity Protection & Advanced Conditional Access",
+    "category_path": [
+      "Entra"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ENTIDP-COMM-001",
+      "name": "Entra Identity Protection & Advanced Conditional Access — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 2995.0,
+      "short_description": "<p>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE).</p>",
+      "description": "<h3>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE).</h3><p>A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risky users/sign-ins, risk-based policies), and deploy advanced Conditional Access — authentication contexts for step-up, token protection (bind tokens to devices), Continuous Access Evaluation, and authentication strengths — the identity core of a Zero Trust program, piloted report-only first.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Entra Identity Protection — risky user/sign-in policies, risk remediation</li><li>Authentication contexts for step-up on sensitive apps/actions</li><li>Token protection (token binding) and Continuous Access Evaluation</li><li>Authentication strengths (phishing-resistant) and named-location policy</li><li>Report-only validation, break-glass, and staged enforcement</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>An adaptive identity perimeter that reacts to risk in real time — risk-based access, step-up, and token protection over your CA baseline.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTIDP-Discovery.ps1</code> &mdash; inventory Conditional Access, Identity Protection, named locations, auth strengths, and auth contexts</li><li><code>ENTIDP-Report.ps1</code> &mdash; risk-and-coverage report: risky users/sign-ins, risk-policy coverage, legacy-auth & MFA gaps</li><li><code>ENTIDP-RiskHunt.ps1</code> &mdash; hunt risky sign-ins and CAE/token events via KQL (Log Analytics/Sentinel) or a Graph fallback</li><li><code>ENTIDP-Set-PolicyState.ps1</code> &mdash; safely flip a named Conditional Access policy between report-only and enabled</li><li><code>ENTIDP-Validate.ps1</code> &mdash; confirm the four pilot policies are report-only, scoped, and break-glass excluded</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Identity Protection & Advanced Conditional Access",
+      "meta_description": "A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risk",
+      "url_key": "entra-identity-protection-advanced-conditional-access-commercial",
+      "image": "ENTIDP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTIDP-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTIDP-NPO-001",
+      "name": "Entra Identity Protection & Advanced Conditional Access — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1797.0,
+      "short_description": "<p>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE). <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE).</h3><p>A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risky users/sign-ins, risk-based policies), and deploy advanced Conditional Access — authentication contexts for step-up, token protection (bind tokens to devices), Continuous Access Evaluation, and authentication strengths — the identity core of a Zero Trust program, piloted report-only first.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Entra Identity Protection — risky user/sign-in policies, risk remediation</li><li>Authentication contexts for step-up on sensitive apps/actions</li><li>Token protection (token binding) and Continuous Access Evaluation</li><li>Authentication strengths (phishing-resistant) and named-location policy</li><li>Report-only validation, break-glass, and staged enforcement</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTIDP-Discovery.ps1</code> &mdash; inventory Conditional Access, Identity Protection, named locations, auth strengths, and auth contexts</li><li><code>ENTIDP-Report.ps1</code> &mdash; risk-and-coverage report: risky users/sign-ins, risk-policy coverage, legacy-auth & MFA gaps</li><li><code>ENTIDP-RiskHunt.ps1</code> &mdash; hunt risky sign-ins and CAE/token events via KQL (Log Analytics/Sentinel) or a Graph fallback</li><li><code>ENTIDP-Set-PolicyState.ps1</code> &mdash; safely flip a named Conditional Access policy between report-only and enabled</li><li><code>ENTIDP-Validate.ps1</code> &mdash; confirm the four pilot policies are report-only, scoped, and break-glass excluded</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Identity Protection & Advanced Conditional Access — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risk",
+      "url_key": "entra-identity-protection-advanced-conditional-access-nonprofit",
+      "image": "ENTIDP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTIDP-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-ENTIDP-GOV-001",
+      "name": "Entra Identity Protection & Advanced Conditional Access — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 2545.75,
+      "short_description": "<p>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE). <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Move beyond a basic CA baseline — enable Entra Identity Protection risk policies and advanced Conditional Access (authentication contexts, token protection, CAE).</h3><p>A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risky users/sign-ins, risk-based policies), and deploy advanced Conditional Access — authentication contexts for step-up, token protection (bind tokens to devices), Continuous Access Evaluation, and authentication strengths — the identity core of a Zero Trust program, piloted report-only first.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Entra Identity Protection — risky user/sign-in policies, risk remediation</li><li>Authentication contexts for step-up on sensitive apps/actions</li><li>Token protection (token binding) and Continuous Access Evaluation</li><li>Authentication strengths (phishing-resistant) and named-location policy</li><li>Report-only validation, break-glass, and staged enforcement</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 5 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>ENTIDP-Discovery.ps1</code> &mdash; inventory Conditional Access, Identity Protection, named locations, auth strengths, and auth contexts</li><li><code>ENTIDP-Report.ps1</code> &mdash; risk-and-coverage report: risky users/sign-ins, risk-policy coverage, legacy-auth & MFA gaps</li><li><code>ENTIDP-RiskHunt.ps1</code> &mdash; hunt risky sign-ins and CAE/token events via KQL (Log Analytics/Sentinel) or a Graph fallback</li><li><code>ENTIDP-Set-PolicyState.ps1</code> &mdash; safely flip a named Conditional Access policy between report-only and enabled</li><li><code>ENTIDP-Validate.ps1</code> &mdash; confirm the four pilot policies are report-only, scoped, and break-glass excluded</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Entra Identity Protection & Advanced Conditional Access — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. A static Conditional Access baseline can't react to compromise. This solution adds the risk-and-context layer: turn on Entra Identity Protection (risk",
+      "url_key": "entra-identity-protection-advanced-conditional-access-government",
+      "image": "ENTIDP-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "ENTIDP-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

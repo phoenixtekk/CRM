@@ -1,0 +1,39 @@
+{
+  "slug": "entra-identity-protection-advanced-conditional-access",
+  "title": "Entra Identity Protection & Advanced Conditional Access",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTIDP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Product-named (merges Identity-Protection onboarding+optimization+'Zero Trust for Identity'). Requires Entra ID P2 — flag verify. Distinct from the ENTZTCA CA *baseline* — this is the risk/advanced layer; cross-reference. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTIDP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ENTIDP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ENTIDP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ENTIDP-Complete-Solution.zip"
+  ],
+  "hero": "ENTIDP-hero.png"
+}
+

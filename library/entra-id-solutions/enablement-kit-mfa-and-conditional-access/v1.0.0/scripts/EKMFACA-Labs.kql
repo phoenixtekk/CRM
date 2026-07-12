@@ -1,0 +1,94 @@
+// =====================================================================================
+// EKMFACA-Labs.kql — MFA & Conditional Access: the sign-in / CA-evaluation query pack.
+//
+// PURPOSE
+//   The runnable KQL for the CA-evaluation and troubleshooting labs (Lab 6). One labeled
+//   section per task. This is a take-home starter — keep it and grow it into your team's
+//   identity troubleshooting library.
+// HOW TO RUN
+//   These run over Entra sign-in logs. Two options:
+//     - Log Analytics: if you export Entra sign-in logs to a workspace (Diagnostic settings
+//       -> SigninLogs), paste a query into Sentinel/Log Analytics -> Logs.
+//     - Portal filters: if you do NOT export to a workspace, use the equivalent filter in
+//       Entra -> Monitoring -> Sign-in logs (each section notes the filter).
+//   The read-only PowerShell helpers (EKMFACA-Discovery/Report) cover the same signals via Graph.
+// EXPECTED RESULTS
+//   Small, explainable result sets you can read in class. Where a column may differ in your
+//   tenant/cloud it is flagged // VERIFY.
+// NOTES
+//   White-label. READ-ONLY — every query only reads logs; nothing changes the tenant. Report-only
+//   CA results appear as reportOnlySuccess / reportOnlyFailure / reportOnlyNotApplied — these are
+//   "would have", NOT enforced. Sign-in-log export needs Entra ID P1/P2 + a Diagnostic setting —
+//   VERIFY in your tenant. Column names evolve — VERIFY current schema (Logs -> schema).
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6a — Conditional Access: what each policy WOULD do (incl. the report-only lab policies)
+// Concept: report-only policies are evaluated + logged without enforcing. Confirm CALab001-003 here.
+// Portal equivalent: open a sign-in -> Conditional Access tab (per-policy result).
+// -------------------------------------------------------------------------------------
+SigninLogs                                            // VERIFY table (needs export to workspace)
+| where TimeGenerated > ago(7d)
+| mv-expand Policy = todynamic(ConditionalAccessPolicies)
+| extend PolicyName = tostring(Policy.displayName),
+         PolicyResult = tostring(Policy.result)       // success / failure / reportOnlySuccess / reportOnlyFailure / notApplied
+| where PolicyName startswith "CALab"                 // the kit's report-only lab policies
+| summarize Evaluations = count() by PolicyName, PolicyResult
+| sort by PolicyName asc, Evaluations desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6b — Top sign-in FAILURE reasons (troubleshooting: distinguish real failures)
+// Concept: ResultType 0 = success; non-zero = a failure with a reason. Read the reason, not the myth.
+// Portal equivalent: Sign-in logs -> filter Status = Failure -> read Failure reason.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where ResultType != 0
+| summarize Count = count() by ResultType, ResultDescription
+| sort by Count desc
+| take 25
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6c — Which MFA method satisfied the sign-in (method-strength reinforcement)
+// Concept: SMS/voice (weak) < authenticator < FIDO2/passkey/WHfB/CBA (phishing-resistant).
+// Portal equivalent: open a sign-in -> Authentication Details tab.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| mv-expand AuthDetail = todynamic(AuthenticationDetails)
+| extend Method = tostring(AuthDetail.authenticationMethod),
+         Satisfied = tostring(AuthDetail.authenticationStepResultDetail)
+| where isnotempty(Method)
+| summarize Attempts = count() by Method, Satisfied
+| sort by Attempts desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6d — Which policies applied per persona test user (verify scope against What-If)
+// Concept: a user should hit the policy for their persona and NOT the others; break-glass hits none.
+// Task: replace the UPNs with your persona test users + a break-glass account.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where UserPrincipalName in~ ("internal-test@contoso.com", "admin-test@contoso.com", "bg1@contoso.onmicrosoft.com")  // VERIFY: your test UPNs
+| mv-expand Policy = todynamic(ConditionalAccessPolicies)
+| extend PolicyName = tostring(Policy.displayName), PolicyResult = tostring(Policy.result)
+| where PolicyName startswith "CALab" and PolicyResult != "notApplied"
+| project TimeGenerated, UserPrincipalName, PolicyName, PolicyResult
+| sort by TimeGenerated desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6e — Legacy authentication sign-ins (observe only — blocking is ENTZTCA, not this kit)
+// Concept: legacy/basic-auth clients cannot do MFA. CALab003 is report-only, so it only OBSERVES.
+// Portal equivalent: Sign-in logs -> filter Client app = "Other clients" / Exchange ActiveSync.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where ClientAppUsed in ("Other clients", "Exchange ActiveSync", "IMAP4", "POP3", "SMTP", "Authenticated SMTP")  // VERIFY values
+| summarize Attempts = count(), Apps = make_set(AppDisplayName, 5) by UserPrincipalName, ClientAppUsed
+| sort by Attempts desc
+| take 25

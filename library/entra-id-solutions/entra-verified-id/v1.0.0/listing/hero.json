@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Entra Verified ID",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Verifiable Credentials",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Issue · Verify · Govern",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL PROOF",
+    "items": [
+      "Slow verification",
+      "Phishable claims",
+      "No portability",
+      "Paper trails"
+    ]
+  },
+  "to": {
+    "label": "Verifiable Credentials",
+    "stat": "Issued · Verified · Revocable"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Issue",
+      "sub": "To the wallet"
+    },
+    {
+      "icon": "shield",
+      "title": "Verify",
+      "sub": "Tamper-evident"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Privacy",
+      "sub": "Selective disclosure"
+    },
+    {
+      "icon": "gear",
+      "title": "Govern",
+      "sub": "Revoke + lifecycle"
+    }
+  ]
+}

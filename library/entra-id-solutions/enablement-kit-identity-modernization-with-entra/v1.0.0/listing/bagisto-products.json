@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "enablement-kit-identity-modernization-with-entra",
+    "title": "Enablement Kit — Identity Modernization with Entra",
+    "category_path": [
+      "Entra"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-EKIDMOD-COMM-001",
+      "name": "Enablement Kit — Identity Modernization with Entra — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 1995.0,
+      "short_description": "<p>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook.</p>",
+      "description": "<h3>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook.</h3><p>Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches identity modernization on Microsoft Entra — the journey, the building blocks (CA, Identity Protection, passwordless, governance, GSA), and guided hands-on labs — so your admins can drive the modernization confidently.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>Concepts — the legacy→modern identity journey and target-state architecture</li><li>Guided hands-on labs across CA, Identity Protection, passwordless, governance</li><li>Migration & coexistence patterns (AD FS/hybrid → cloud)</li><li>A take-home modernization runbook and knowledge-check</li><li>Sample scripts / KQL for validation and reporting</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A team that can confidently modernize your identity estate on Entra — concepts internalized, labs completed, and a runbook to execute.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKIDMOD-Discovery.ps1</code> &mdash; Read-only baseline of the identity-modernization posture</li><li><code>EKIDMOD-LabSetup.ps1</code> &mdash; Safe, preview-first helper to create/remove the pilot lab scope</li><li><code>EKIDMOD-Report.ps1</code> &mdash; Modernization scorecard exported to CSV + HTML (read-only)</li><li><code>EKIDMOD-Validate.ps1</code> &mdash; Read-only check that the enablement-lab prerequisites are met</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enablement Kit — Identity Modernization with Entra",
+      "meta_description": "Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches i",
+      "url_key": "enablement-kit-identity-modernization-with-entra-commercial",
+      "image": "EKIDMOD-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKIDMOD-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EKIDMOD-NPO-001",
+      "name": "Enablement Kit — Identity Modernization with Entra — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1197.0,
+      "short_description": "<p>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook. <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook.</h3><p>Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches identity modernization on Microsoft Entra — the journey, the building blocks (CA, Identity Protection, passwordless, governance, GSA), and guided hands-on labs — so your admins can drive the modernization confidently.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Concepts — the legacy→modern identity journey and target-state architecture</li><li>Guided hands-on labs across CA, Identity Protection, passwordless, governance</li><li>Migration & coexistence patterns (AD FS/hybrid → cloud)</li><li>A take-home modernization runbook and knowledge-check</li><li>Sample scripts / KQL for validation and reporting</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKIDMOD-Discovery.ps1</code> &mdash; Read-only baseline of the identity-modernization posture</li><li><code>EKIDMOD-LabSetup.ps1</code> &mdash; Safe, preview-first helper to create/remove the pilot lab scope</li><li><code>EKIDMOD-Report.ps1</code> &mdash; Modernization scorecard exported to CSV + HTML (read-only)</li><li><code>EKIDMOD-Validate.ps1</code> &mdash; Read-only check that the enablement-lab prerequisites are met</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enablement Kit — Identity Modernization with Entra — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches i",
+      "url_key": "enablement-kit-identity-modernization-with-entra-nonprofit",
+      "image": "EKIDMOD-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKIDMOD-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EKIDMOD-GOV-001",
+      "name": "Enablement Kit — Identity Modernization with Entra — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 1695.75,
+      "short_description": "<p>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook. <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Upskill your team to modernize identity on Entra — a self-guided enablement kit with concepts, hands-on labs, and a take-home runbook.</h3><p>Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches identity modernization on Microsoft Entra — the journey, the building blocks (CA, Identity Protection, passwordless, governance, GSA), and guided hands-on labs — so your admins can drive the modernization confidently.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>Concepts — the legacy→modern identity journey and target-state architecture</li><li>Guided hands-on labs across CA, Identity Protection, passwordless, governance</li><li>Migration & coexistence patterns (AD FS/hybrid → cloud)</li><li>A take-home modernization runbook and knowledge-check</li><li>Sample scripts / KQL for validation and reporting</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKIDMOD-Discovery.ps1</code> &mdash; Read-only baseline of the identity-modernization posture</li><li><code>EKIDMOD-LabSetup.ps1</code> &mdash; Safe, preview-first helper to create/remove the pilot lab scope</li><li><code>EKIDMOD-Report.ps1</code> &mdash; Modernization scorecard exported to CSV + HTML (read-only)</li><li><code>EKIDMOD-Validate.ps1</code> &mdash; Read-only check that the enablement-lab prerequisites are met</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Enablement Kit — Identity Modernization with Entra — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. Modernizing from legacy AD/AD FS to a Zero Trust Entra identity fails when the team doesn't understand the target state. This enablement kit teaches i",
+      "url_key": "enablement-kit-identity-modernization-with-entra-government",
+      "image": "EKIDMOD-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKIDMOD-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

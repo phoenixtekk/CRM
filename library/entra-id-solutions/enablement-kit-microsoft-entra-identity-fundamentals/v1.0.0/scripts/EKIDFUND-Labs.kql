@@ -1,0 +1,102 @@
+// =====================================================================================
+// EKIDFUND-Labs.kql — Identity Fundamentals: the sign-in & audit query pack.
+//
+// PURPOSE
+//   The runnable KQL for the sign-in / MFA / Conditional Access labs (Lab 6) and the
+//   audit-trail checks. One labeled section per lab. This is a take-home starter — keep it
+//   and grow it into your team's identity query library.
+// HOW TO RUN
+//   These run over Entra sign-in / audit logs. Two options:
+//     - Log Analytics: if you export Entra logs to a workspace (Diagnostic settings ->
+//       SigninLogs, AuditLogs), paste a query into Sentinel/Log Analytics -> Logs.
+//     - Portal filters: if you do NOT export to a workspace, use the equivalent filters in
+//       Entra -> Monitoring -> Sign-in logs / Audit logs (each section notes the filter).
+//   The read-only PowerShell helpers (EKIDFUND-Discovery/Report) cover the same signals via Graph.
+// EXPECTED RESULTS
+//   Small, explainable result sets you can read in class. Where a table/column may differ in
+//   your tenant/cloud it is flagged // VERIFY.
+// NOTES
+//   White-label. READ-ONLY — every query only reads logs; nothing changes the tenant.
+//   Sign-in-log export to a workspace needs Entra ID P1/P2 + a Diagnostic setting — VERIFY in
+//   your tenant. Column names evolve — VERIFY current schema (Logs -> schema).
+// =====================================================================================
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6a — Sign-ins by result: success vs failure (the sign-in flow, at a glance)
+// Concept: every interactive sign-in is logged with a result and a reason.
+// Portal equivalent: Sign-in logs -> filter Status = Success / Failure.
+// -------------------------------------------------------------------------------------
+SigninLogs                                            // VERIFY table (needs export to workspace)
+| where TimeGenerated > ago(7d)
+| summarize Count = count() by ResultType, ResultDescription
+| sort by Count desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6b — Which method satisfied MFA?
+// Concept: MFA methods range from SMS (weak) to authenticator to phishing-resistant FIDO2/passkey.
+// Portal equivalent: open a sign-in -> Authentication Details tab.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| mv-expand AuthDetail = todynamic(AuthenticationDetails)
+| extend Method = tostring(AuthDetail.authenticationMethod),
+         Result = tostring(AuthDetail.succeeded)
+| where isnotempty(Method)
+| summarize Attempts = count() by Method, Result
+| sort by Attempts desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6c — Conditional Access: what WOULD each policy do (incl. report-only results)
+// Concept: report-only policies are evaluated and logged without enforcing — read the outcome here.
+// Task: confirm CAFund-RequireMFA-LabTeam-ReportOnly shows "reportOnly*" results for the lab team.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| mv-expand Policy = todynamic(ConditionalAccessPolicies)
+| extend PolicyName = tostring(Policy.displayName),
+         PolicyResult = tostring(Policy.result)          // success / failure / reportOnlySuccess / reportOnlyFailure / notApplied
+| where PolicyName startswith "CAFund"                    // the kit's report-only lab policy
+| summarize Evaluations = count() by PolicyName, PolicyResult
+| sort by Evaluations desc
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6d — Legacy authentication sign-ins (why blocking legacy auth matters — concept only)
+// Concept: legacy/basic-auth clients cannot do MFA. This kit only OBSERVES them (blocking is ENTZTCA).
+// Portal equivalent: Sign-in logs -> filter Client app = "Other clients" / Exchange ActiveSync.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(7d)
+| where ClientAppUsed in ("Other clients", "Exchange ActiveSync", "IMAP4", "POP3", "SMTP", "Authenticated SMTP")  // VERIFY values
+| summarize Attempts = count() by UserPrincipalName, ClientAppUsed
+| sort by Attempts desc
+| take 25
+
+
+// -------------------------------------------------------------------------------------
+// Lab 6e — Guest (B2B) sign-ins (identities lab reinforcement)
+// Concept: guest UPNs contain #EXT# and come from another tenant/home realm.
+// -------------------------------------------------------------------------------------
+SigninLogs
+| where TimeGenerated > ago(30d)
+| where UserPrincipalName has "#EXT#"
+| summarize SignIns = count(), Apps = make_set(AppDisplayName, 5) by UserPrincipalName
+| sort by SignIns desc
+| take 25
+
+
+// -------------------------------------------------------------------------------------
+// Audit — the lab sandbox changes you just made (see your own actions in the audit log)
+// Concept: every create/update/delete of a directory object is written to the audit log.
+// Portal equivalent: Audit logs -> filter Target = Grp-EntraFund* / Lab-EntraFund*.
+// -------------------------------------------------------------------------------------
+AuditLogs                                             // VERIFY table (needs export to workspace)
+| where TimeGenerated > ago(7d)
+| where TargetResources has "EntraFund"               // the kit's sandbox object prefix
+| project TimeGenerated, OperationName, InitiatedBy = tostring(InitiatedBy.user.userPrincipalName),
+          Target = tostring(TargetResources[0].displayName), Result
+| sort by TimeGenerated desc
+| take 50

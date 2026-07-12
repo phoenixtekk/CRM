@@ -1,0 +1,39 @@
+{
+  "slug": "migrate-and-protect-applications-with-entra",
+  "title": "Migrate & Protect Applications with Entra",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTAPPMIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Product-named (merges the app-migration onboarding+architecture engagement items). Distinct from the existing 'SAML App Integration Factory' (SSO-at-scale) — this is AD FS migration + on-prem publishing; cross-reference. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTAPPMIG-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ENTAPPMIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ENTAPPMIG-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ENTAPPMIG-Complete-Solution.zip"
+  ],
+  "hero": "ENTAPPMIG-hero.png"
+}
+

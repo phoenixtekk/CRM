@@ -2323,5 +2323,60 @@
     "post_id": 12763,
     "status": "draft",
     "category_id": 411
+  },
+  "entra-global-secure-access": {
+    "post_id": 12765,
+    "status": "draft",
+    "category_id": 411
+  },
+  "migrate-and-protect-applications-with-entra": {
+    "post_id": 12767,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-external-identities-b2b-cross-tenant": {
+    "post_id": 12769,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-identity-protection-advanced-conditional-access": {
+    "post_id": 12771,
+    "status": "draft",
+    "category_id": 411
+  },
+  "entra-verified-id": {
+    "post_id": 12773,
+    "status": "draft",
+    "category_id": 411
+  },
+  "privileged-access-workstation-paw-cloud-admin": {
+    "post_id": 12775,
+    "status": "draft",
+    "category_id": 411
+  },
+  "microsoft-entra-secure-cloud-identity-reference-architecture": {
+    "post_id": 12777,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-identity-modernization-with-entra": {
+    "post_id": 12779,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-entra-hybrid-identity": {
+    "post_id": 12781,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-microsoft-entra-identity-fundamentals": {
+    "post_id": 12783,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enablement-kit-mfa-and-conditional-access": {
+    "post_id": 12785,
+    "status": "draft",
+    "category_id": 411
   }
 }

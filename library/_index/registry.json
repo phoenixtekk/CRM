@@ -9662,6 +9662,666 @@
     "product_count": 3
   },
   {
+    "title": "Enablement Kit — Identity Modernization with Entra",
+    "slug": "enablement-kit-identity-modernization-with-entra",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "EKIDMOD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-EKIDMOD-COMM-001",
+      "PTK-EKIDMOD-NPO-001",
+      "PTK-EKIDMOD-GOV-001"
+    ],
+    "deliverables": [
+      "EKIDMOD-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\enablement-kit-identity-modernization-with-entra\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/02-requirements.md",
+          "kb": 5.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/03-implementation.md",
+          "kb": 10.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/07-best-practices.md",
+          "kb": 3.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EKIDMOD-Discovery.ps1",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/scripts/EKIDMOD-Discovery.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "EKIDMOD-LabSetup.ps1",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/scripts/EKIDMOD-LabSetup.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "EKIDMOD-Report.ps1",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/scripts/EKIDMOD-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "EKIDMOD-Signals.kql",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/scripts/EKIDMOD-Signals.kql",
+          "kb": 4.6
+        },
+        {
+          "name": "EKIDMOD-Validate.ps1",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/scripts/EKIDMOD-Validate.ps1",
+          "kb": 2.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EKIDMOD-Complete-Solution.zip",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-Complete-Solution.zip",
+          "kb": 100.0
+        },
+        {
+          "name": "EKIDMOD-hero.png",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-hero.png",
+          "kb": 412.1
+        },
+        {
+          "name": "EKIDMOD-hero.svg",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "EKIDMOD-Scripts.zip",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-Scripts.zip",
+          "kb": 8.5
+        },
+        {
+          "name": "EKIDMOD-Solution.docx",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "EKIDMOD-Solution.pdf",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-Solution.pdf",
+          "kb": 54.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/enablement-kit-identity-modernization-with-entra/v1.0.0/deliverables/EKIDMOD-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Entra: Hybrid Identity",
+    "slug": "enablement-kit-microsoft-entra-hybrid-identity",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "EKHYBID",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-EKHYBID-COMM-001",
+      "PTK-EKHYBID-NPO-001",
+      "PTK-EKHYBID-GOV-001"
+    ],
+    "deliverables": [
+      "EKHYBID-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\enablement-kit-microsoft-entra-hybrid-identity\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/02-requirements.md",
+          "kb": 5.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EKHYBID-Discovery.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/scripts/EKHYBID-Discovery.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "EKHYBID-HealthCheck.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/scripts/EKHYBID-HealthCheck.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "EKHYBID-Report.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/scripts/EKHYBID-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "EKHYBID-Signals.kql",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/scripts/EKHYBID-Signals.kql",
+          "kb": 4.7
+        },
+        {
+          "name": "EKHYBID-Validate.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/scripts/EKHYBID-Validate.ps1",
+          "kb": 2.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EKHYBID-Complete-Solution.zip",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-Complete-Solution.zip",
+          "kb": 98.6
+        },
+        {
+          "name": "EKHYBID-hero.png",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-hero.png",
+          "kb": 457.6
+        },
+        {
+          "name": "EKHYBID-hero.svg",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "EKHYBID-Scripts.zip",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-Scripts.zip",
+          "kb": 8.3
+        },
+        {
+          "name": "EKHYBID-Solution.docx",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-Solution.docx",
+          "kb": 54.8
+        },
+        {
+          "name": "EKHYBID-Solution.pdf",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-Solution.pdf",
+          "kb": 53.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/enablement-kit-microsoft-entra-hybrid-identity/v1.0.0/deliverables/EKHYBID-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Microsoft Entra: Identity Fundamentals",
+    "slug": "enablement-kit-microsoft-entra-identity-fundamentals",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "EKIDFUND",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-EKIDFUND-COMM-001",
+      "PTK-EKIDFUND-NPO-001",
+      "PTK-EKIDFUND-GOV-001"
+    ],
+    "deliverables": [
+      "EKIDFUND-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\enablement-kit-microsoft-entra-identity-fundamentals\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/03-implementation.md",
+          "kb": 11.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/executive-summary.md",
+          "kb": 4.7
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EKIDFUND-Discovery.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/scripts/EKIDFUND-Discovery.ps1",
+          "kb": 7.8
+        },
+        {
+          "name": "EKIDFUND-Labs.kql",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/scripts/EKIDFUND-Labs.kql",
+          "kb": 5.8
+        },
+        {
+          "name": "EKIDFUND-LabSetup.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/scripts/EKIDFUND-LabSetup.ps1",
+          "kb": 7.5
+        },
+        {
+          "name": "EKIDFUND-Report.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/scripts/EKIDFUND-Report.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "EKIDFUND-Validate.ps1",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/scripts/EKIDFUND-Validate.ps1",
+          "kb": 7.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EKIDFUND-Complete-Solution.zip",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-Complete-Solution.zip",
+          "kb": 123.8
+        },
+        {
+          "name": "EKIDFUND-hero.png",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-hero.png",
+          "kb": 425.7
+        },
+        {
+          "name": "EKIDFUND-hero.svg",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "EKIDFUND-Scripts.zip",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-Scripts.zip",
+          "kb": 12.6
+        },
+        {
+          "name": "EKIDFUND-Solution.docx",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-Solution.docx",
+          "kb": 61.9
+        },
+        {
+          "name": "EKIDFUND-Solution.pdf",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-Solution.pdf",
+          "kb": 72.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/enablement-kit-microsoft-entra-identity-fundamentals/v1.0.0/deliverables/EKIDFUND-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enablement Kit — Multi-Factor Authentication & Conditional Access",
+    "slug": "enablement-kit-mfa-and-conditional-access",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "EKMFACA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-EKMFACA-COMM-001",
+      "PTK-EKMFACA-NPO-001",
+      "PTK-EKMFACA-GOV-001"
+    ],
+    "deliverables": [
+      "EKMFACA-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\enablement-kit-mfa-and-conditional-access\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/02-requirements.md",
+          "kb": 6.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/03-implementation.md",
+          "kb": 11.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 7.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/executive-summary.md",
+          "kb": 5.1
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EKMFACA-Discovery.ps1",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/scripts/EKMFACA-Discovery.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "EKMFACA-LabPolicy.ps1",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/scripts/EKMFACA-LabPolicy.ps1",
+          "kb": 7.8
+        },
+        {
+          "name": "EKMFACA-Labs.kql",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/scripts/EKMFACA-Labs.kql",
+          "kb": 5.6
+        },
+        {
+          "name": "EKMFACA-Report.ps1",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/scripts/EKMFACA-Report.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "EKMFACA-Validate.ps1",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/scripts/EKMFACA-Validate.ps1",
+          "kb": 7.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EKMFACA-Complete-Solution.zip",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-Complete-Solution.zip",
+          "kb": 127.8
+        },
+        {
+          "name": "EKMFACA-hero.png",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-hero.png",
+          "kb": 399.2
+        },
+        {
+          "name": "EKMFACA-hero.svg",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "EKMFACA-Scripts.zip",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-Scripts.zip",
+          "kb": 13.4
+        },
+        {
+          "name": "EKMFACA-Solution.docx",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-Solution.docx",
+          "kb": 62.6
+        },
+        {
+          "name": "EKMFACA-Solution.pdf",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-Solution.pdf",
+          "kb": 76.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/enablement-kit-mfa-and-conditional-access/v1.0.0/deliverables/EKMFACA-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Enterprise App & Service Principal Governance (App Registrations, API Permissions)",
     "slug": "enterprise-app-service-principal-governance",
     "category": "Entra",
@@ -9996,6 +10656,336 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/enterprise-app-service-principal-governance-gcc-high/v1.0.0/deliverables/APPGOVG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra External Identities (B2B) & Cross-Tenant Access",
+    "slug": "entra-external-identities-b2b-cross-tenant",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTB2B",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTB2B-COMM-001",
+      "PTK-ENTB2B-NPO-001",
+      "PTK-ENTB2B-GOV-001"
+    ],
+    "deliverables": [
+      "ENTB2B-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-external-identities-b2b-cross-tenant\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/03-implementation.md",
+          "kb": 10.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/05-testing.md",
+          "kb": 3.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/executive-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTB2B-CleanupStaleGuests.ps1",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/scripts/ENTB2B-CleanupStaleGuests.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ENTB2B-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/scripts/ENTB2B-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "ENTB2B-Report.ps1",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/scripts/ENTB2B-Report.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "ENTB2B-Set-CrossTenantAccess.ps1",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/scripts/ENTB2B-Set-CrossTenantAccess.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "ENTB2B-Validate.ps1",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/scripts/ENTB2B-Validate.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTB2B-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-Complete-Solution.zip",
+          "kb": 109.1
+        },
+        {
+          "name": "ENTB2B-hero.png",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-hero.png",
+          "kb": 456.7
+        },
+        {
+          "name": "ENTB2B-hero.svg",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTB2B-Scripts.zip",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-Scripts.zip",
+          "kb": 9.3
+        },
+        {
+          "name": "ENTB2B-Solution.docx",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-Solution.docx",
+          "kb": 56.9
+        },
+        {
+          "name": "ENTB2B-Solution.pdf",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-Solution.pdf",
+          "kb": 63.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-external-identities-b2b-cross-tenant/v1.0.0/deliverables/ENTB2B-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra Global Secure Access (Internet & Private Access)",
+    "slug": "entra-global-secure-access",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTGSA",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTGSA-COMM-001",
+      "PTK-ENTGSA-NPO-001",
+      "PTK-ENTGSA-GOV-001"
+    ],
+    "deliverables": [
+      "ENTGSA-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-global-secure-access\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/02-requirements.md",
+          "kb": 8.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/03-implementation.md",
+          "kb": 9.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTGSA-ConnectorHealth.ps1",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/scripts/ENTGSA-ConnectorHealth.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "ENTGSA-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/scripts/ENTGSA-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "ENTGSA-Report.ps1",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/scripts/ENTGSA-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "ENTGSA-TrafficLogs.ps1",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/scripts/ENTGSA-TrafficLogs.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "ENTGSA-Validate.ps1",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/scripts/ENTGSA-Validate.ps1",
+          "kb": 5.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTGSA-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-Complete-Solution.zip",
+          "kb": 112.9
+        },
+        {
+          "name": "ENTGSA-hero.png",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-hero.png",
+          "kb": 403.8
+        },
+        {
+          "name": "ENTGSA-hero.svg",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "ENTGSA-Scripts.zip",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-Scripts.zip",
+          "kb": 9.2
+        },
+        {
+          "name": "ENTGSA-Solution.docx",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-Solution.docx",
+          "kb": 59.2
+        },
+        {
+          "name": "ENTGSA-Solution.pdf",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-Solution.pdf",
+          "kb": 66.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-global-secure-access/v1.0.0/deliverables/ENTGSA-hero.png",
     "product_count": 3
   },
   {
@@ -10501,6 +11491,171 @@
     "product_count": 3
   },
   {
+    "title": "Entra Identity Protection & Advanced Conditional Access",
+    "slug": "entra-identity-protection-advanced-conditional-access",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTIDP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTIDP-COMM-001",
+      "PTK-ENTIDP-NPO-001",
+      "PTK-ENTIDP-GOV-001"
+    ],
+    "deliverables": [
+      "ENTIDP-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-identity-protection-advanced-conditional-access\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/03-implementation.md",
+          "kb": 8.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/05-testing.md",
+          "kb": 3.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/07-best-practices.md",
+          "kb": 3.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTIDP-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/scripts/ENTIDP-Discovery.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "ENTIDP-Report.ps1",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/scripts/ENTIDP-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "ENTIDP-RiskHunt.ps1",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/scripts/ENTIDP-RiskHunt.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "ENTIDP-Set-PolicyState.ps1",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/scripts/ENTIDP-Set-PolicyState.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "ENTIDP-Validate.ps1",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/scripts/ENTIDP-Validate.ps1",
+          "kb": 3.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTIDP-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-Complete-Solution.zip",
+          "kb": 99.1
+        },
+        {
+          "name": "ENTIDP-hero.png",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-hero.png",
+          "kb": 474.0
+        },
+        {
+          "name": "ENTIDP-hero.svg",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTIDP-Scripts.zip",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-Scripts.zip",
+          "kb": 8.4
+        },
+        {
+          "name": "ENTIDP-Solution.docx",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-Solution.docx",
+          "kb": 53.8
+        },
+        {
+          "name": "ENTIDP-Solution.pdf",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-Solution.pdf",
+          "kb": 55.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-identity-protection-advanced-conditional-access/v1.0.0/deliverables/ENTIDP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Entra Privileged Identity Management (PIM) — Just-in-Time Admin",
     "slug": "entra-privileged-identity-management-pim",
     "category": "Entra",
@@ -10833,6 +11988,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/entra-privileged-identity-management-pim-gcc-high/v1.0.0/deliverables/ENTPIMG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Entra Verified ID — Verifiable Credentials",
+    "slug": "entra-verified-id",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTVID",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTVID-COMM-001",
+      "PTK-ENTVID-NPO-001",
+      "PTK-ENTVID-GOV-001"
+    ],
+    "deliverables": [
+      "ENTVID-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\entra-verified-id\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/03-implementation.md",
+          "kb": 7.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/05-testing.md",
+          "kb": 3.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTVID-Discovery.ps1",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/scripts/ENTVID-Discovery.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "ENTVID-New-IssuanceRequest.ps1",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/scripts/ENTVID-New-IssuanceRequest.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "ENTVID-New-PresentationRequest.ps1",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/scripts/ENTVID-New-PresentationRequest.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "ENTVID-Report.ps1",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/scripts/ENTVID-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "ENTVID-Validate.ps1",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/scripts/ENTVID-Validate.ps1",
+          "kb": 4.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTVID-Complete-Solution.zip",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-Complete-Solution.zip",
+          "kb": 105.6
+        },
+        {
+          "name": "ENTVID-hero.png",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-hero.png",
+          "kb": 427.1
+        },
+        {
+          "name": "ENTVID-hero.svg",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTVID-Scripts.zip",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "ENTVID-Solution.docx",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-Solution.docx",
+          "kb": 55.3
+        },
+        {
+          "name": "ENTVID-Solution.pdf",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-Solution.pdf",
+          "kb": 60.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/README.md",
+          "kb": 0.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/entra-verified-id/v1.0.0/solution.meta.json",
+          "kb": 1.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/entra-verified-id/v1.0.0/deliverables/ENTVID-hero.png",
     "product_count": 3
   },
   {
@@ -11511,6 +12831,336 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/entra-id-abm-account-auto-provisioning-intune-gcc-high/v1.0.0/deliverables/ABMPROVG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Entra — Secure Cloud Identity Reference Architecture",
+    "slug": "microsoft-entra-secure-cloud-identity-reference-architecture",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTARCH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTARCH-COMM-001",
+      "PTK-ENTARCH-NPO-001",
+      "PTK-ENTARCH-GOV-001"
+    ],
+    "deliverables": [
+      "ENTARCH-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\microsoft-entra-secure-cloud-identity-reference-architecture\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/02-requirements.md",
+          "kb": 7.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/03-implementation.md",
+          "kb": 12.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/executive-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTARCH-Discovery.ps1",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/scripts/ENTARCH-Discovery.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "ENTARCH-IdentityInventory.ps1",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/scripts/ENTARCH-IdentityInventory.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "ENTARCH-PrivilegedAccessReview.ps1",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/scripts/ENTARCH-PrivilegedAccessReview.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "ENTARCH-Report.ps1",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/scripts/ENTARCH-Report.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "ENTARCH-Validate.ps1",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/scripts/ENTARCH-Validate.ps1",
+          "kb": 5.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTARCH-Complete-Solution.zip",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-Complete-Solution.zip",
+          "kb": 120.9
+        },
+        {
+          "name": "ENTARCH-hero.png",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-hero.png",
+          "kb": 409.7
+        },
+        {
+          "name": "ENTARCH-hero.svg",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "ENTARCH-Scripts.zip",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-Scripts.zip",
+          "kb": 12.2
+        },
+        {
+          "name": "ENTARCH-Solution.docx",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-Solution.docx",
+          "kb": 60.7
+        },
+        {
+          "name": "ENTARCH-Solution.pdf",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-Solution.pdf",
+          "kb": 70.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/microsoft-entra-secure-cloud-identity-reference-architecture/v1.0.0/deliverables/ENTARCH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Migrate & Protect Applications with Entra",
+    "slug": "migrate-and-protect-applications-with-entra",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTAPPMIG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTAPPMIG-COMM-001",
+      "PTK-ENTAPPMIG-NPO-001",
+      "PTK-ENTAPPMIG-GOV-001"
+    ],
+    "deliverables": [
+      "ENTAPPMIG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\migrate-and-protect-applications-with-entra\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/02-requirements.md",
+          "kb": 8.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/executive-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTAPPMIG-Cutover.ps1",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/scripts/ENTAPPMIG-Cutover.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "ENTAPPMIG-Discovery.ps1",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/scripts/ENTAPPMIG-Discovery.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "ENTAPPMIG-Provisioning.ps1",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/scripts/ENTAPPMIG-Provisioning.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "ENTAPPMIG-Report.ps1",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/scripts/ENTAPPMIG-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENTAPPMIG-Validate.ps1",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/scripts/ENTAPPMIG-Validate.ps1",
+          "kb": 5.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTAPPMIG-Complete-Solution.zip",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-Complete-Solution.zip",
+          "kb": 114.5
+        },
+        {
+          "name": "ENTAPPMIG-hero.png",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-hero.png",
+          "kb": 461.9
+        },
+        {
+          "name": "ENTAPPMIG-hero.svg",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTAPPMIG-Scripts.zip",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "ENTAPPMIG-Solution.docx",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-Solution.docx",
+          "kb": 59.4
+        },
+        {
+          "name": "ENTAPPMIG-Solution.pdf",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-Solution.pdf",
+          "kb": 66.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/migrate-and-protect-applications-with-entra/v1.0.0/deliverables/ENTAPPMIG-hero.png",
     "product_count": 3
   },
   {
@@ -12348,6 +13998,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Privileged Access Workstation (PAW) for Cloud Administration",
+    "slug": "privileged-access-workstation-paw-cloud-admin",
+    "category": "Entra",
+    "category_slug": "entra-id-solutions",
+    "sol_code": "ENTPAW",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-11",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENTPAW-COMM-001",
+      "PTK-ENTPAW-NPO-001",
+      "PTK-ENTPAW-GOV-001"
+    ],
+    "deliverables": [
+      "ENTPAW-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\entra-id-solutions\\privileged-access-workstation-paw-cloud-admin\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/02-requirements.md",
+          "kb": 5.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/03-implementation.md",
+          "kb": 8.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/05-testing.md",
+          "kb": 3.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/07-best-practices.md",
+          "kb": 3.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/executive-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "global-requirements-entra-id-solutions.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/source/global-requirements-entra-id-solutions.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTPAW-DeviceTag.ps1",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/scripts/ENTPAW-DeviceTag.ps1",
+          "kb": 3.0
+        },
+        {
+          "name": "ENTPAW-Discovery.ps1",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/scripts/ENTPAW-Discovery.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "ENTPAW-Report.ps1",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/scripts/ENTPAW-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "ENTPAW-Set-CAState.ps1",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/scripts/ENTPAW-Set-CAState.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "ENTPAW-Validate.ps1",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/scripts/ENTPAW-Validate.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTPAW-Complete-Solution.zip",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-Complete-Solution.zip",
+          "kb": 99.2
+        },
+        {
+          "name": "ENTPAW-hero.png",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-hero.png",
+          "kb": 493.4
+        },
+        {
+          "name": "ENTPAW-hero.svg",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENTPAW-Scripts.zip",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-Scripts.zip",
+          "kb": 8.8
+        },
+        {
+          "name": "ENTPAW-Solution.docx",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-Solution.docx",
+          "kb": 53.5
+        },
+        {
+          "name": "ENTPAW-Solution.pdf",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-Solution.pdf",
+          "kb": 55.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/listing/bagisto-products.json",
+          "kb": 12.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../entra-id-solutions/privileged-access-workstation-paw-cloud-admin/v1.0.0/deliverables/ENTPAW-hero.png",
     "product_count": 3
   },
   {

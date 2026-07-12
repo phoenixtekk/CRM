@@ -1,0 +1,39 @@
+{
+  "slug": "entra-verified-id",
+  "title": "Entra Verified ID — Verifiable Credentials",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "ENTVID",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Product-named (was a 'Workshop' engagement item; built as a full implementation product). Verified ID feature/preview flagged verify. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTVID-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTVID-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTVID-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTVID-Complete-Solution.zip"
+  ],
+  "hero": "ENTVID-hero.png"
+}
+

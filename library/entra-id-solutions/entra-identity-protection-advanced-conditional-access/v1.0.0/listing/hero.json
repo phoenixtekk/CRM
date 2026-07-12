@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Identity Protection",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "& Advanced CA",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Risk · Step-up · Token-bind",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STATIC BASELINE",
+    "items": [
+      "No risk engine",
+      "No step-up",
+      "Replayable tokens",
+      "Can't react"
+    ]
+  },
+  "to": {
+    "label": "Adaptive Access",
+    "stat": "Risk-based · CAE · Token-protected"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "Identity Protection",
+      "sub": "Risk policies"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Auth Contexts",
+      "sub": "Step-up"
+    },
+    {
+      "icon": "lock",
+      "title": "Token Protection",
+      "sub": "Bind + CAE"
+    },
+    {
+      "icon": "gear",
+      "title": "Report-Only First",
+      "sub": "Safe rollout"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enablement Kit",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Hybrid Identity",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Sync · Auth · Hybrid",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HYBRID PITFALLS",
+    "items": [
+      "Sync surprises",
+      "Wrong auth method",
+      "Join failures",
+      "Guesswork"
+    ]
+  },
+  "to": {
+    "label": "Team Enabled",
+    "stat": "Concepts · Labs · Runbook"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Entra Connect",
+      "sub": "Sync + anchor"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Auth Methods",
+      "sub": "PHS/PTA/Fed"
+    },
+    {
+      "icon": "users",
+      "title": "Hybrid Join",
+      "sub": "CA labs"
+    },
+    {
+      "icon": "key",
+      "title": "Runbook",
+      "sub": "Take-home"
+    }
+  ]
+}
