@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Self-Deploy",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "MFA & Conditional Access",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Design · Test · Troubleshoot",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "RISKY CA",
+    "items": [
+      "Lockout fear",
+      "Coverage gaps",
+      "Untested policy",
+      "No method plan"
+    ]
+  },
+  "to": {
+    "label": "Team Enabled",
+    "stat": "Concepts · Labs · Runbook"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "fingerprint",
+      "title": "MFA Methods",
+      "sub": "Phishing-resistant"
+    },
+    {
+      "icon": "shield",
+      "title": "CA Patterns",
+      "sub": "Personas"
+    },
+    {
+      "icon": "gear",
+      "title": "Report-Only Labs",
+      "sub": "No lockouts"
+    },
+    {
+      "icon": "key",
+      "title": "Runbook",
+      "sub": "Take-home"
+    }
+  ]
+}

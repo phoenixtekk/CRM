@@ -1,0 +1,72 @@
+{
+  "solution": {
+    "slug": "self-deploy-mfa-and-conditional-access",
+    "title": "Self-Deploy — Multi-Factor Authentication & Conditional Access",
+    "category_path": [
+      "Entra"
+    ],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-EKMFACA-COMM-001",
+      "name": "Self-Deploy — Multi-Factor Authentication & Conditional Access — Commercial",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 1995.0,
+      "short_description": "<p>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first).</p>",
+      "description": "<h3>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first).</h3><p>MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Access on Microsoft Entra — methods (incl. phishing-resistant), CA design patterns and personas, report-only testing, and troubleshooting — with guided labs your team runs safely in report-only mode.</p><h4>Run it yourself — simpler, cheaper, and proven</h4><p>You do <strong>not</strong> need a consultant. The package hands you the field-tested method as <strong>self-guided, click-by-click documentation</strong> a competent admin can follow end to end &mdash; backed by ready-to-run PowerShell.</p><ul><li><strong>Simpler</strong> &mdash; exact, ordered steps with full navigation paths; every object you create is named and reused through testing and troubleshooting.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open meter; a comparable consulting engagement runs well into the thousands per day. Reusable on every rollout.</li><li><strong>Tested</strong> &mdash; a pilot-first method (<strong>Assess &rarr; Configure &rarr; Pilot &rarr; Validate &rarr; Expand</strong>) with explicit pass/fail gates.</li></ul><h4>What's inside</h4><ul><li>MFA methods concepts (incl. phishing-resistant) and registration</li><li>Conditional Access design patterns, personas, and common policies</li><li>Report-only + What-If testing labs (no lockouts) and break-glass</li><li>Troubleshooting sign-in failures and CA evaluation</li><li>Take-home runbook and knowledge-check</li></ul><h4>The repeatable way</h4><p>Every solution follows the same repeatable shape, so each deployment feels familiar and low-risk — buy once, reuse the playbook for the next wave and the next project.</p><h4>The bottom line</h4><p>A team that designs, tests, and troubleshoots MFA and Conditional Access safely — confident policies, no lockouts.</p><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKMFACA-Discovery.ps1</code> &mdash; read-only inventory of MFA methods and Conditional Access</li><li><code>EKMFACA-LabPolicy.ps1</code> &mdash; create the REPORT-ONLY CA lab policies (persona-scoped, break-glass excluded)</li><li><code>EKMFACA-Report.ps1</code> &mdash; report-only CA impact + cohort progress for the enablement kit (read-only)</li><li><code>EKMFACA-Validate.ps1</code> &mdash; run the kit pass/fail gates and print the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Self-Deploy — Multi-Factor Authentication & Conditional Access",
+      "meta_description": "MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Ac",
+      "url_key": "self-deploy-mfa-and-conditional-access-commercial",
+      "image": "EKMFACA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKMFACA-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EKMFACA-NPO-001",
+      "name": "Self-Deploy — Multi-Factor Authentication & Conditional Access — Non-Profit",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 1197.0,
+      "short_description": "<p>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first). <strong>Qualifying non-profits save 40%.</strong></p>",
+      "description": "<h3>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first).</h3><p>MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Access on Microsoft Entra — methods (incl. phishing-resistant), CA design patterns and personas, report-only testing, and troubleshooting — with guided labs your team runs safely in report-only mode.</p><h4>Run it yourself — and stretch every dollar</h4><p>The complete commercial package at <strong>40% below</strong> the standard price — the same self-guided documentation and tested scripts, simpler and cheaper than consulting. <strong>Eligibility:</strong> verification of qualifying non-profit status (e.g. 501(c)(3)) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>MFA methods concepts (incl. phishing-resistant) and registration</li><li>Conditional Access design patterns, personas, and common policies</li><li>Report-only + What-If testing labs (no lockouts) and break-glass</li><li>Troubleshooting sign-in failures and CA evaluation</li><li>Take-home runbook and knowledge-check</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKMFACA-Discovery.ps1</code> &mdash; read-only inventory of MFA methods and Conditional Access</li><li><code>EKMFACA-LabPolicy.ps1</code> &mdash; create the REPORT-ONLY CA lab policies (persona-scoped, break-glass excluded)</li><li><code>EKMFACA-Report.ps1</code> &mdash; report-only CA impact + cohort progress for the enablement kit (read-only)</li><li><code>EKMFACA-Validate.ps1</code> &mdash; run the kit pass/fail gates and print the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Self-Deploy — Multi-Factor Authentication & Conditional Access — Non-Profit",
+      "meta_description": "Qualifying non-profits, 40% below commercial. MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Ac",
+      "url_key": "self-deploy-mfa-and-conditional-access-nonprofit",
+      "image": "EKMFACA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKMFACA-Complete-Solution.zip"
+        }
+      ]
+    },
+    {
+      "sku": "PTK-EKMFACA-GOV-001",
+      "name": "Self-Deploy — Multi-Factor Authentication & Conditional Access — Government",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 1695.75,
+      "short_description": "<p>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first). <strong>Verified public sector saves 15%.</strong></p>",
+      "description": "<h3>Level up your team on MFA & Conditional Access — a self-guided self-deploy with concepts, design patterns, and hands-on labs (report-only first).</h3><p>MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Access on Microsoft Entra — methods (incl. phishing-resistant), CA design patterns and personas, report-only testing, and troubleshooting — with guided labs your team runs safely in report-only mode.</p><h4>Public-sector pricing</h4><p>The complete commercial package at <strong>15% below</strong> the standard price for verified government / public-sector buyers. <strong>Eligibility:</strong> verification of public-sector status (e.g. a government email domain or SAM.gov entity) is completed before the discount applies.</p><h4>What's inside</h4><ul><li>MFA methods concepts (incl. phishing-resistant) and registration</li><li>Conditional Access design patterns, personas, and common policies</li><li>Report-only + What-If testing labs (no lockouts) and break-glass</li><li>Troubleshooting sign-in failures and CA evaluation</li><li>Take-home runbook and knowledge-check</li></ul><!--DELIVMANIFEST--><h4>What you receive &mdash; every file in your download</h4><p>This package is delivered as downloadable files you keep and reuse across unlimited devices &mdash; nothing is left out and nothing else is required:</p><ul><li><strong>Implementation Guide (PDF)</strong> &mdash; the complete, click-by-click solution: solution overview, requirements, step-by-step implementation, testing &amp; validation, troubleshooting, best practices.</li><li><strong>PowerShell Scripts (ZIP)</strong> &mdash; 4 ready-to-run scripts (read-only discovery/validation/reporting; remediation defaults to a safe preview):<ul><li><code>EKMFACA-Discovery.ps1</code> &mdash; read-only inventory of MFA methods and Conditional Access</li><li><code>EKMFACA-LabPolicy.ps1</code> &mdash; create the REPORT-ONLY CA lab policies (persona-scoped, break-glass excluded)</li><li><code>EKMFACA-Report.ps1</code> &mdash; report-only CA impact + cohort progress for the enablement kit (read-only)</li><li><code>EKMFACA-Validate.ps1</code> &mdash; run the kit pass/fail gates and print the knowledge-check (read-only)</li></ul></li></ul><!--/DELIVMANIFEST--><p><em>Delivered as a Word document and PDF, plus all five PowerShell scripts in a single ZIP — yours to keep and reuse.</em></p>",
+      "meta_title": "Self-Deploy — Multi-Factor Authentication & Conditional Access — Government",
+      "meta_description": "Verified public-sector pricing, 15% below commercial. MFA and Conditional Access are the front line, but misconfigured they lock users out or leave gaps. This self-deploy teaches MFA and Conditional Ac",
+      "url_key": "self-deploy-mfa-and-conditional-access-government",
+      "image": "EKMFACA-hero.png",
+      "downloads": [
+        {
+          "title": "Complete Solution Package (PDF, Word Doc & Scripts)",
+          "source_type": "file",
+          "source": "EKMFACA-Complete-Solution.zip"
+        }
+      ]
+    }
+  ]
+}

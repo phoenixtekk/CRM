@@ -2378,5 +2378,25 @@
     "post_id": 12785,
     "status": "draft",
     "category_id": 411
+  },
+  "self-deploy-identity-modernization-with-entra": {
+    "post_id": 12787,
+    "status": "draft",
+    "category_id": 411
+  },
+  "self-deploy-microsoft-entra-hybrid-identity": {
+    "post_id": 12789,
+    "status": "draft",
+    "category_id": 411
+  },
+  "self-deploy-microsoft-entra-identity-fundamentals": {
+    "post_id": 12791,
+    "status": "draft",
+    "category_id": 411
+  },
+  "self-deploy-mfa-and-conditional-access": {
+    "post_id": 12793,
+    "status": "draft",
+    "category_id": 411
   }
 }

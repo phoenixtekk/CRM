@@ -1,0 +1,40 @@
+{
+  "slug": "self-deploy-microsoft-entra-hybrid-identity",
+  "title": "Self-Deploy — Microsoft Entra: Hybrid Identity",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "EKHYBID",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Self-Deploy. Distinct from the existing 'Hybrid Identity with AD & Entra Connect' IMPLEMENTATION product — this is the team-enablement/labs deliverable; cross-reference. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EKHYBID-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-EKHYBID-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-EKHYBID-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "EKHYBID-Complete-Solution.zip"
+  ],
+  "hero": "EKHYBID-hero.png"
+}
+
+

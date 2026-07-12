@@ -1,0 +1,40 @@
+{
+  "slug": "self-deploy-mfa-and-conditional-access",
+  "title": "Self-Deploy — Multi-Factor Authentication & Conditional Access",
+  "category": "Entra",
+  "category_slug": "entra-id-solutions",
+  "sol_code": "EKMFACA",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-11",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Self-Deploy. Distinct from the CA *implementation* products (ENTZTCA + Conditional Access Integration) — this is team enablement/labs; cross-reference. Report-only-first. PowerShell (Microsoft.Graph / Az) + KQL. Cross-references existing Entra solutions (ENTPIM/ENTPASSKEY/ENTZTCA/ENTIGA, Conditional Access Integration, Hybrid Identity, SAML App Factory, enterprise-app governance) rather than duplicating them (gap-only). Change scripts -WhatIf/report-only-first + break-glass; licensing (P1/P2/Governance/GSA/Verified ID) + preview flagged verify."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EKMFACA-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-EKMFACA-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-EKMFACA-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "EKMFACA-Complete-Solution.zip"
+  ],
+  "hero": "EKMFACA-hero.png"
+}
+
+
