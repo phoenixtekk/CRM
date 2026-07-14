@@ -1,0 +1,160 @@
+// =============================================================================
+// MDEPROXY-Hunt.kql — Advanced Hunting query pack (READ-ONLY)
+// Defender for Endpoint network-telemetry visibility behind a loopback/forward SWG proxy.
+//
+// PURPOSE
+//   Interactive KQL to MEASURE how much endpoint destination telemetry the SWG proxy obscures,
+//   check DeviceNetworkEvents completeness/table population, and surface the network-dependent
+//   detection surface. Read-only — run in security.microsoft.com > Hunting > Advanced hunting,
+//   or via MDEPROXY-Validate.ps1 / MDEPROXY-FeatureImpact.ps1.
+//
+// HOW TO RUN
+//   Set the two parameters at the top of each query (device sample + proxy address set), then run
+//   the query you want. Nothing here changes the proxy, the agent, or the tenant.
+//
+// EXPECTED RESULTS
+//   Per-query: obfuscation share, missing-RemoteUrl counts, completeness ratios, table population,
+//   and the connections/detections exposed to proxy obfuscation. A true 0% obscured is a valid
+//   finding (no obfuscation), not an error.
+//
+// NOTE
+//   The obscured classification is only as complete as the proxy address set you supply (R5).
+//   Advanced-hunting retention is limited — verify current retention. White-label.
+// =============================================================================
+
+
+// -----------------------------------------------------------------------------
+// Q1 — Destination obfuscation share (RemoteIP in proxy/loopback set vs true remote)
+//      Edit _sample and the two address sets (_cidrSet CIDRs, _litSet literals e.g. '::1').
+// -----------------------------------------------------------------------------
+let _days = 7d;
+let _sample = dynamic(['AERO-WKS-01','AERO-WKS-02']);   // <-- MDEPROXY Device Sample - Proxy Ring - Assess
+let _litSet = dynamic(['::1']);                          // exact-match loopback/proxy literals
+let _cidrSet = dynamic(['127.0.0.0/8','169.254.0.0/16']); // CIDR ranges (IPv4)
+let obscured = (ip:string) {
+    iff(set_has_element(_litSet, ip)
+        or (ip matches regex @'^\d{1,3}(\.\d{1,3}){3}$'
+            and toscalar(range i from 0 to array_length(_cidrSet)-1 step 1
+                         | summarize any(ipv4_is_in_range(ip, tostring(_cidrSet[i]))))),
+    true, false)
+};
+DeviceNetworkEvents
+| where Timestamp > ago(_days)
+| where DeviceName in (_sample)
+| where isnotempty(RemoteIP)
+| extend IsObscured = obscured(RemoteIP), MissingUrl = isempty(RemoteUrl)
+| summarize Total=count(), Obscured=countif(IsObscured), TrueRemote=countif(not(IsObscured)),
+            MissingRemoteUrl=countif(MissingUrl)
+| extend ObscuredPct = round(100.0*Obscured/Total,2), MissingUrlPct = round(100.0*MissingRemoteUrl/Total,2)
+
+
+// -----------------------------------------------------------------------------
+// Q2 — Per-device obscured share (which devices are most proxy-blind)
+// -----------------------------------------------------------------------------
+let _days = 7d;
+let _sample = dynamic(['AERO-WKS-01','AERO-WKS-02']);
+let _litSet = dynamic(['::1']);
+let _cidrSet = dynamic(['127.0.0.0/8','169.254.0.0/16']);
+let obscured = (ip:string) {
+    iff(set_has_element(_litSet, ip)
+        or (ip matches regex @'^\d{1,3}(\.\d{1,3}){3}$'
+            and toscalar(range i from 0 to array_length(_cidrSet)-1 step 1
+                         | summarize any(ipv4_is_in_range(ip, tostring(_cidrSet[i]))))),
+    true, false)
+};
+DeviceNetworkEvents
+| where Timestamp > ago(_days)
+| where DeviceName in (_sample)
+| where isnotempty(RemoteIP)
+| extend IsObscured = obscured(RemoteIP)
+| summarize Total=count(), Obscured=countif(IsObscured) by DeviceName
+| extend ObscuredPct = round(100.0*Obscured/Total,2)
+| order by ObscuredPct desc
+
+
+// -----------------------------------------------------------------------------
+// Q3 — Top RemoteIP values (surfaces the loopback/proxy addresses to confirm your address set)
+//      Use this to VALIDATE the proxy address set (R5): the top talkers reveal the local listener.
+// -----------------------------------------------------------------------------
+let _days = 7d;
+let _sample = dynamic(['AERO-WKS-01','AERO-WKS-02']);
+DeviceNetworkEvents
+| where Timestamp > ago(_days)
+| where DeviceName in (_sample)
+| where isnotempty(RemoteIP)
+| summarize Conns=count(), Devices=dcount(DeviceName), SampleUrl=any(RemoteUrl) by RemoteIP, RemoteIPType
+| order by Conns desc
+| take 40
+
+
+// -----------------------------------------------------------------------------
+// Q4 — DeviceNetworkEvents completeness (network-to-process event ratio, missing RemoteUrl)
+//      A very low ratio / high missing-URL share can indicate flattened destination telemetry.
+// -----------------------------------------------------------------------------
+let _days = 7d;
+let _sample = dynamic(['AERO-WKS-01','AERO-WKS-02']);
+let net = DeviceNetworkEvents | where Timestamp > ago(_days) | where DeviceName in (_sample)
+    | summarize NetEvents=count(), MissingUrl=countif(isempty(RemoteUrl)) by DeviceName;
+let proc = DeviceProcessEvents | where Timestamp > ago(_days) | where DeviceName in (_sample)
+    | summarize ProcEvents=count() by DeviceName;
+net
+| join kind=fullouter proc on DeviceName
+| extend DeviceName = coalesce(DeviceName, DeviceName1)
+| project DeviceName, NetEvents=coalesce(NetEvents,0), ProcEvents=coalesce(ProcEvents,0), MissingUrl=coalesce(MissingUrl,0)
+| extend NetToProcRatio = iff(ProcEvents>0, round(1.0*NetEvents/ProcEvents,3), real(null)),
+         MissingUrlPct = iff(NetEvents>0, round(100.0*MissingUrl/NetEvents,2), real(null))
+| order by NetToProcRatio asc
+
+
+// -----------------------------------------------------------------------------
+// Q5 — Network Advanced Hunting table population (which tables are fresh at all)
+// -----------------------------------------------------------------------------
+let since = ago(1d);
+union
+ (DeviceInfo          | where Timestamp > since | summarize Rows=count() | extend Table='DeviceInfo'),
+ (DeviceNetworkEvents | where Timestamp > since | summarize Rows=count() | extend Table='DeviceNetworkEvents'),
+ (DeviceProcessEvents | where Timestamp > since | summarize Rows=count() | extend Table='DeviceProcessEvents'),
+ (DeviceEvents        | where Timestamp > since | summarize Rows=count() | extend Table='DeviceEvents')
+| project Table, Rows
+| order by Table asc
+
+
+// -----------------------------------------------------------------------------
+// Q6 — Network-dependent detection coverage: alerts that reference a remote destination
+//      Cross-check whether network-based alerts are firing on obscured destinations.
+// -----------------------------------------------------------------------------
+let _days = 30d;
+AlertEvidence
+| where Timestamp > ago(_days)
+| where isnotempty(RemoteIP) or isnotempty(RemoteUrl) or isnotempty(Url)
+| summarize Alerts=dcount(AlertId), Evidence=count(),
+            SampleRemoteIP=any(RemoteIP), SampleUrl=any(coalesce(RemoteUrl, Url))
+            by Categories = tostring(AdditionalFields)
+| order by Alerts desc
+| take 40
+
+
+// -----------------------------------------------------------------------------
+// Q7 — Loopback/proxy as the dominant destination per process (evidence of steering)
+//      Processes whose connections are almost entirely to loopback/proxy = strongest signal.
+// -----------------------------------------------------------------------------
+let _days = 7d;
+let _sample = dynamic(['AERO-WKS-01','AERO-WKS-02']);
+let _litSet = dynamic(['::1']);
+let _cidrSet = dynamic(['127.0.0.0/8','169.254.0.0/16']);
+let obscured = (ip:string) {
+    iff(set_has_element(_litSet, ip)
+        or (ip matches regex @'^\d{1,3}(\.\d{1,3}){3}$'
+            and toscalar(range i from 0 to array_length(_cidrSet)-1 step 1
+                         | summarize any(ipv4_is_in_range(ip, tostring(_cidrSet[i]))))),
+    true, false)
+};
+DeviceNetworkEvents
+| where Timestamp > ago(_days)
+| where DeviceName in (_sample)
+| where isnotempty(RemoteIP) and isnotempty(InitiatingProcessFileName)
+| extend IsObscured = obscured(RemoteIP)
+| summarize Total=count(), Obscured=countif(IsObscured) by InitiatingProcessFileName
+| extend ObscuredPct = round(100.0*Obscured/Total,2)
+| where Total > 20
+| order by ObscuredPct desc

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Defender for Endpoint",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Telemetry × Proxy/SWG",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Assess · Impact · Remediate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PROXY-BLIND MDE",
+    "items": [
+      "Loopback hides dest",
+      "DeviceNetworkEvents gaps",
+      "SmartScreen/NP/TI blind",
+      "Hunts miss"
+    ]
+  },
+  "to": {
+    "label": "Visibility Restored",
+    "stat": "Assessed · Supported · Confirmed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Telemetry Assessment",
+      "sub": "DeviceNetworkEvents KQL"
+    },
+    {
+      "icon": "shield",
+      "title": "Feature Impact",
+      "sub": "SmartScreen/NP/TI"
+    },
+    {
+      "icon": "gear",
+      "title": "Supported Topology",
+      "sub": "Proxy mode + exclusions"
+    },
+    {
+      "icon": "key",
+      "title": "MS Advisory Case",
+      "sub": "Ticket template"
+    }
+  ]
+}

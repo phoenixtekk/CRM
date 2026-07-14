@@ -1,0 +1,39 @@
+{
+  "slug": "microsoft-tunnel-gateway-deployment-operations",
+  "title": "Microsoft Tunnel Gateway — Deployment, VPN Configuration & Ongoing Operations",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "TUNGW",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-14",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Intune category. GAP-DEDUPED: the existing 'Microsoft Tunnel for MAM — Mobile Access to Intranet Resources' (+ GCC High) products are MAM-app-client scoped — this is the full device-tunnel Tunnel GATEWAY deployment + operations + ongoing support; cross-reference, don't duplicate. Automation = PowerShell (Microsoft.Graph Intune) for server config/profiles + shell (.sh) for the Linux gateway host + KQL/health. Server prerequisites, certificate, and Linux distro/container specifics flagged 'verify current Microsoft guidance'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-TUNGW-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-TUNGW-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-TUNGW-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "TUNGW-Complete-Solution.zip"
+  ],
+  "hero": "TUNGW-hero.png"
+}
+

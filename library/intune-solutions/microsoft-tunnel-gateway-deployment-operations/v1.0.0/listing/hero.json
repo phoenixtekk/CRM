@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Microsoft Tunnel",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Gateway",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Deploy · Configure · Operate",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO SECURE VPN",
+    "items": [
+      "No gateway",
+      "Manual VPN",
+      "No HA",
+      "No runbook"
+    ]
+  },
+  "to": {
+    "label": "Tunnel Gateway",
+    "stat": "Deployed · HA · Supported"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Gateway Install",
+      "sub": "Linux + container"
+    },
+    {
+      "icon": "lock",
+      "title": "TLS + Server Config",
+      "sub": "Split/full tunnel"
+    },
+    {
+      "icon": "device",
+      "title": "VPN Profiles",
+      "sub": "Win/iOS/Android/macOS"
+    },
+    {
+      "icon": "gear",
+      "title": "HA + Ops Runbook",
+      "sub": "Monitor + support"
+    }
+  ]
+}

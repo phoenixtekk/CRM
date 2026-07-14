@@ -1,0 +1,39 @@
+{
+  "slug": "mde-network-telemetry-web-proxy-swg-architectures",
+  "title": "Microsoft Defender for Endpoint — Network Telemetry Visibility in Web Proxy / SWG Architectures (iboss, Zscaler, Loopback)",
+  "category": "Defender",
+  "category_slug": "defender",
+  "sol_code": "MDEPROXY",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-11",
+  "updated": "2026-07-11",
+  "published_at": "2026-07-14",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Net-new: MDE network-telemetry coexistence with a loopback/forward proxy (iboss/Zscaler/generic SWG). Gap-deduped vs the Netskope line + the generic 'Endpoint Network Connectivity Troubleshooting Toolkit' (that is connectivity, this is telemetry visibility). Read-only assessment scripts (PowerShell Graph Security + KQL); NO changes to the proxy. Vendor (iboss/Zscaler) console internals + Microsoft's authoritative answers on affected tables / XFF support / supported topology are flagged 'confirm with Microsoft / verify against current guidance' — never asserted. Regulatory/architecture-acceptance decisions deferred to the customer's security/network owners."
+  ],
+  "products": [
+    {
+      "sku": "PTK-MDEPROXY-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-MDEPROXY-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-MDEPROXY-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "MDEPROXY-Complete-Solution.zip"
+  ],
+  "hero": "MDEPROXY-hero.png"
+}
+

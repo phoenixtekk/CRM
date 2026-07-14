@@ -8492,6 +8492,171 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Defender for Endpoint — Network Telemetry Visibility in Web Proxy / SWG Architectures (iboss, Zscaler, Loopback)",
+    "slug": "mde-network-telemetry-web-proxy-swg-architectures",
+    "category": "Defender",
+    "category_slug": "defender",
+    "sol_code": "MDEPROXY",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-14",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MDEPROXY-COMM-001",
+      "PTK-MDEPROXY-NPO-001",
+      "PTK-MDEPROXY-GOV-001"
+    ],
+    "deliverables": [
+      "MDEPROXY-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\defender\\mde-network-telemetry-web-proxy-swg-architectures\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/03-implementation.md",
+          "kb": 16.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/05-testing.md",
+          "kb": 6.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/executive-summary.md",
+          "kb": 6.1
+        },
+        {
+          "name": "global-requirements-defender.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/source/global-requirements-defender.md",
+          "kb": 4.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MDEPROXY-Discovery.ps1",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/scripts/MDEPROXY-Discovery.ps1",
+          "kb": 7.2
+        },
+        {
+          "name": "MDEPROXY-FeatureImpact.ps1",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/scripts/MDEPROXY-FeatureImpact.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "MDEPROXY-Hunt.kql",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/scripts/MDEPROXY-Hunt.kql",
+          "kb": 8.1
+        },
+        {
+          "name": "MDEPROXY-Report.ps1",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/scripts/MDEPROXY-Report.ps1",
+          "kb": 8.6
+        },
+        {
+          "name": "MDEPROXY-Validate.ps1",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/scripts/MDEPROXY-Validate.ps1",
+          "kb": 8.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MDEPROXY-Complete-Solution.zip",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-Complete-Solution.zip",
+          "kb": 129.8
+        },
+        {
+          "name": "MDEPROXY-hero.png",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-hero.png",
+          "kb": 446.8
+        },
+        {
+          "name": "MDEPROXY-hero.svg",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MDEPROXY-Scripts.zip",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-Scripts.zip",
+          "kb": 13.8
+        },
+        {
+          "name": "MDEPROXY-Solution.docx",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-Solution.docx",
+          "kb": 62.9
+        },
+        {
+          "name": "MDEPROXY-Solution.pdf",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-Solution.pdf",
+          "kb": 77.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../defender/mde-network-telemetry-web-proxy-swg-architectures/v1.0.0/deliverables/MDEPROXY-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Defender for Identity",
     "slug": "microsoft-defender-for-identity",
     "category": "Defender",
@@ -33147,6 +33312,171 @@
     "deliv_count": 6,
     "doc_count": 10,
     "hero_href": "../intune-solutions/microsoft-tunnel-for-mam-intranet-access-gcc-high/v1.0.0/deliverables/TUNMAMG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Tunnel Gateway — Deployment, VPN Configuration & Ongoing Operations",
+    "slug": "microsoft-tunnel-gateway-deployment-operations",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "TUNGW",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-11",
+    "updated": "2026-07-11",
+    "published_at": "2026-07-14",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-TUNGW-COMM-001",
+      "PTK-TUNGW-NPO-001",
+      "PTK-TUNGW-GOV-001"
+    ],
+    "deliverables": [
+      "TUNGW-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\microsoft-tunnel-gateway-deployment-operations\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/02-requirements.md",
+          "kb": 10.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/03-implementation.md",
+          "kb": 12.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/05-testing.md",
+          "kb": 3.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "TUNGW-Discovery.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/scripts/TUNGW-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "TUNGW-HealthCheck.sh",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/scripts/TUNGW-HealthCheck.sh",
+          "kb": 6.2
+        },
+        {
+          "name": "TUNGW-HostPrereqCheck.sh",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/scripts/TUNGW-HostPrereqCheck.sh",
+          "kb": 6.3
+        },
+        {
+          "name": "TUNGW-Report.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/scripts/TUNGW-Report.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "TUNGW-Validate.ps1",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/scripts/TUNGW-Validate.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "TUNGW-Complete-Solution.zip",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-Complete-Solution.zip",
+          "kb": 120.6
+        },
+        {
+          "name": "TUNGW-hero.png",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-hero.png",
+          "kb": 403.0
+        },
+        {
+          "name": "TUNGW-hero.svg",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "TUNGW-Scripts.zip",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "TUNGW-Solution.docx",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-Solution.docx",
+          "kb": 60.4
+        },
+        {
+          "name": "TUNGW-Solution.pdf",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-Solution.pdf",
+          "kb": 71.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/listing/bagisto-products.json",
+          "kb": 13.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/solution.meta.json",
+          "kb": 1.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/microsoft-tunnel-gateway-deployment-operations/v1.0.0/deliverables/TUNGW-hero.png",
     "product_count": 3
   },
   {
