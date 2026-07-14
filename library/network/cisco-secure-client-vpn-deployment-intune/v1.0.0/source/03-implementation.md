@@ -208,3 +208,44 @@ On iOS/Android, unassigning the store app and profile removes the managed app an
 
 **Gate E (Expand):** Fleet coverage meets your target (e.g. ≥ 95% of assigned devices *Installed* +
 profile *Succeeded*); remaining failures are triaged. Deployment is complete.
+
+---
+
+## Selecting the correct ASA tunnel group on iOS/iPadOS (important)
+
+A common failure on mobile is getting devices onto a **specific ASA tunnel group** (e.g. a `Mobile`
+group) when the connection URL is not just the plain hostname. On a **Windows** client the local
+AnyConnect *client profile* (`<ServerList><HostEntry><UserGroup>…`) drives group selection — but on
+**iOS/iPadOS under Intune that mechanism is not available**, so use one of the two supported approaches
+below. Do **not** try to add a URL path to the FQDN or paste the AnyConnect client profile into an App
+Configuration policy (see Troubleshooting — both fail).
+
+### Recommended: select the tunnel group on the ASA by client certificate
+Because these devices already authenticate with a client certificate (SCEP/PKCS), let the **ASA** choose
+the group from the certificate — the client never needs to know the group:
+
+1. **On the ASA**, map the mobile client certificate to the target tunnel group — build a certificate map
+   that matches a field unique to the mobile cert template (e.g. an OU or issuer), and bind it with a
+   tunnel-group map so matching sessions land on the `Mobile` group. *(The concept is
+   `crypto ca certificate map` → `tunnel-group-map`; confirm exact syntax against current Cisco ASA
+   documentation and with your Cisco/network admin.)*
+2. **In the Intune VPN profile** (this solution's Step for the Base VPN), set **VPN server address** to the
+   **plain FQDN** — e.g. `vpn.contoso.com`, with **no path and no slash** — Connection type **Cisco
+   AnyConnect**, Authentication **Certificates** with the SCEP/PKCS cert.
+3. Do **not** create a `UserGroup` App Configuration policy — it is unnecessary in this model.
+
+Result: the device connects to the clean FQDN and the ASA routes it to the correct tunnel group from the
+certificate. This is the most robust pattern for MDM-deployed, cert-auth AnyConnect at scale — nothing on
+the client to drift or break, and it sidesteps the iOS FQDN/app-config limitations entirely.
+
+### Alternative: ASA group-url (only if certificate mapping is not acceptable)
+1. **On the ASA**, enable a **group-url** on the target tunnel group so the group is reachable at a URL
+   path (e.g. `…/Mobile`). *(Concept: `group-url … enable` under the tunnel-group webvpn attributes —
+   verify against current Cisco guidance.)*
+2. On iOS the group can only be conveyed through **Cisco's documented Secure Client iOS MDM app-config
+   keys** — not by putting a path in the Intune FQDN field and not by pasting the AnyConnect profile XML.
+   If Cisco's iOS app supports carrying the connection this way, the profile is delivered as a **string
+   value under a plist key** (see Troubleshooting), never as top-level XML. Confirm the exact supported
+   key and format in Cisco's "Deploy Cisco Secure Client on Apple iOS/iPadOS with MDM" documentation.
+
+Prefer the certificate-map approach unless a documented constraint requires the group-url path.

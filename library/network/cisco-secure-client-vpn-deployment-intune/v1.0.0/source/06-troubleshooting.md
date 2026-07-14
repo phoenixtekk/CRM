@@ -105,6 +105,44 @@ connection entry never appears on the device.
 
 ---
 
+## iOS/iPadOS — selecting a specific ASA tunnel group (three failures that look different but share one cause)
+
+These three attempts all try to steer iOS devices to a non-default ASA tunnel group and all fail — the
+supported fix is in Implementation ("Selecting the correct ASA tunnel group on iOS/iPadOS"): map the
+group on the ASA by client certificate.
+
+- **Symptom:** VPN "Unable to contact" / "Connection attempt timed out" right after adding the group.
+  - **Cause:** a **URL path was added to the FQDN** (e.g. `vpn.contoso.com/Mobile`). The Intune VPN
+    **Server address is a hostname field** — the whole string is sent to DNS, which resolves *hostnames
+    only*. `vpn.contoso.com/Mobile` is not a hostname → NXDOMAIN → timeout.
+  - **Fix:** Server address must be the **plain FQDN**, no slash/path. Select the group on the ASA (cert
+    map) instead — see Implementation.
+
+- **Symptom:** an App Configuration policy with a bare **`UserGroup = Mobile`** key is assigned but the
+  device still lands on the default group.
+  - **Cause:** on **Windows** the AnyConnect *client profile* (`<HostEntry><UserGroup>`) drives group
+    selection; **iOS under Intune does not consume that profile**, and a lone `UserGroup` key, detached
+    from its parent `<HostEntry>` server-list structure, is not interpreted as a group selector — it is
+    ignored.
+  - **Fix:** remove it; select the group on the ASA (cert map). Do not rely on a bare app-config key.
+
+- **Symptom:** pasting the AnyConnect profile into an App Configuration policy (**"Enter XML data"**)
+  errors with **"Property list must begin and end with 'dict' tag. Remove XML headers from property
+  list."**
+  - **Cause:** that field is an **Apple property list (plist)**, not a free-form XML document. A plist
+    must (1) have a **lowercase `<dict>`** root — `<Dict>` (capitalized) is not recognized — and (2)
+    contain only `<key>`/value pairs. A pasted `<AnyConnectProfile xmlns="…" xmlns:xsi="…" …>` carries
+    **XML namespace declarations** (the "XML headers") that a plist `<dict>` cannot hold. Managed App
+    Configuration is not a transport for the AnyConnect profile schema, so this cannot work regardless of
+    formatting.
+  - **Fix:** don't paste the profile here. Use the ASA certificate-map approach (Implementation). If a
+    valid plist is needed at all, it must be lowercase `<dict>` with `<key>`/`<string>` pairs, e.g.
+    `<dict><key>UserGroup</key><string>Mobile</string></dict>` — and if Cisco's iOS app documents carrying
+    the connection this way, the profile goes in as a **CDATA string value under a key**, never as
+    top-level elements. Confirm the exact supported key with Cisco's iOS MDM app-config documentation.
+
+---
+
 If a failure persists after the Intune/Entra side is confirmed healthy (validation PASS, profile
 *Succeeded*, cert issued) and the tunnel still won't establish or authenticate, treat it as a
 **Cisco head-end issue** and continue with **Cisco's official documentation** and your Cisco admin.

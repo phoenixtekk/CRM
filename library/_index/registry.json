@@ -41788,7 +41788,7 @@
     "version": "1.0.0",
     "status": "published",
     "created": "2026-07-01",
-    "updated": "2026-07-01",
+    "updated": "2026-07-14",
     "published_at": "2026-07-01",
     "commercial": 2995.0,
     "nonprofit": 1797.0,
@@ -41817,7 +41817,7 @@
         {
           "name": "03-implementation.md",
           "href": "../network/cisco-secure-client-vpn-deployment-intune/v1.0.0/source/03-implementation.md",
-          "kb": 12.0
+          "kb": 14.9
         },
         {
           "name": "05-testing.md",
@@ -41827,7 +41827,7 @@
         {
           "name": "06-troubleshooting.md",
           "href": "../network/cisco-secure-client-vpn-deployment-intune/v1.0.0/source/06-troubleshooting.md",
-          "kb": 7.4
+          "kb": 10.1
         },
         {
           "name": "07-best-practices.md",
@@ -41881,7 +41881,7 @@
         {
           "name": "CSCVPN-Complete-Solution.zip",
           "href": "../network/cisco-secure-client-vpn-deployment-intune/v1.0.0/deliverables/CSCVPN-Complete-Solution.zip",
-          "kb": 119.1
+          "kb": 126.0
         },
         {
           "name": "CSCVPN-hero.png",
@@ -41901,12 +41901,12 @@
         {
           "name": "CSCVPN-Solution.docx",
           "href": "../network/cisco-secure-client-vpn-deployment-intune/v1.0.0/deliverables/CSCVPN-Solution.docx",
-          "kb": 60.0
+          "kb": 62.6
         },
         {
           "name": "CSCVPN-Solution.pdf",
           "href": "../network/cisco-secure-client-vpn-deployment-intune/v1.0.0/deliverables/CSCVPN-Solution.pdf",
-          "kb": 69.9
+          "kb": 75.6
         }
       ],
       "Listing": [
