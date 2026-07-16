@@ -172,6 +172,28 @@ this section is the condensed version.
   announcement** (email to all customers + members, plus an on-site/Wiki.js notice) and **hold it for
   human approval** before sending — never auto-send bulk mail.
 
+### 9. 🔗 Report the review links (MANDATORY — the factory's last generation step)
+**Owner directive (2026-07-16): every factory run that produces or republishes product solutions MUST
+end by reporting a summary of URL links to those products.** Never finish a run with only names and
+counts — the owner reviews by clicking. This is part of "done", exactly like the wiki mirror.
+
+Generate the links with the tool — **derive, never type them from memory** (a wrong link is worse than
+none; the tool reads `url_key` from each listing and `wiki_path`/`wiki_gated` from each meta, so it
+handles free products (`<slug>-free`, public wiki) and `wiki_path` overrides correctly):
+```bash
+# after publishing one or more slugs in this run:
+python tools/report-links.py --slug <slug> [--slug <slug> ...] --verify
+# or, for a whole wave published today:
+python tools/report-links.py --since <YYYY-MM-DD> --verify
+```
+- **Always pass `--verify`** — it checks each URL live and marks anything unexpected ⚠ (store must be
+  **200**; wiki **403** = correctly gated, **200** = intentionally public/free tier). Exit code 2 means
+  a link failed: **fix it or say so in the report — never emit a dead URL.**
+- Output shape is automatic: **inline pairs for 1–3 products, a table for a wave.** Paste it into the
+  Shipped summary as-is.
+- This satisfies the global standing rule in `~/.claude/CLAUDE.md` ("Shipped reports — always include
+  marketplace + wiki URLs"); the tool is the mechanical implementation of it.
+
 ## Rollback
 Restore the step-2 dump:
 `ssh linuxg5 'cd /home/workplace/public_html && sudo -u workplace bash -lc '"'"'set -a; . ./.env; set +a; mysql -h "$DB_HOST" -u "$DB_USERNAME" -p"$DB_PASSWORD" "$DB_DATABASE" < /home/workplace/backups/<file>.sql'"'"''`

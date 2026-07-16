@@ -18,6 +18,7 @@ solution on **https://workplace.phoenixtekk.com/** (Bagisto ~2.3.x).
 | Managed solution library (category → slug → version, self-contained) | `library/` | ✅ built; category-first, versioned, deliverables shelf |
 | Auto-generated master index + registry | `library/_index/` (`rebuild-index.ps1`) | ✅ built; regenerated from `solution.meta.json` |
 | Visual HTML dashboard (metrics, status donut, per-category chart, collapsible click-to-open file browser) | `library/_index/INDEX.html` | ✅ built; self-contained, no CDN; regenerated with the index |
+| Review-link reporter — every factory run's mandatory last step: Store + Wiki URLs per product, derived from `url_key`/`wiki_path` (never guessed), `--verify` flags dead links | `tools/report-links.py` | ✅ built (2026-07-16); `--slug` / `--since` / `--last`; see `publish-solution` SKILL §9 + project `CLAUDE.md` |
 
 ## Per-solution products
 Each solution publishes **two** products: Commercial (`PTK-<SOL>-COMM-001`) and
