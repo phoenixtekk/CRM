@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """report-links.py — emit the review URLs for factory-produced product solutions.
 
-The factory's mandatory FINAL step (publish-solution SKILL §9): after any run that creates or
-republishes products, report a clickable Store + Wiki link per product so the owner can review
-immediately. Links are DERIVED from registry.json + each solution's meta/listing — never typed
-by hand, never guessed (a wrong link is worse than none).
+The factory's mandatory FINAL step (publish-solution SKILL §9): after any run that TOUCHES a live
+product, report a clickable Store link + Wiki link + LOCAL DELIVERABLES PATH per product, so the
+owner can review the listing, the guide, and the actual files without hunting for any of them. All
+three are DERIVED from registry.json + each solution's meta/listing — never typed by hand, never
+guessed (a wrong link is worse than none).
 
 Usage
   python tools/report-links.py --slug <slug> [--slug <slug> ...]
@@ -42,6 +43,40 @@ def version_dir(entry):
     return base / f"v{entry.get('version', '1.0.0')}"
 
 
+def local_deliverables(entry, vdir, meta, absolute=False):
+    """Return (display_path, notes) for the run's local deliverables.
+
+    Reports the VERSION dir — that is the source of truth a rebuild writes to; library/_deliverables/
+    is a publish-time copy. If the two disagree, say so: a stale shelf means the store may have
+    shipped a different file than the one sitting in the version dir.
+    """
+    d = vdir / "deliverables"
+    notes = []
+    if not d.is_dir():
+        return None, ["NO LOCAL DELIVERABLES DIR"]
+
+    files = sorted(p.name for p in d.iterdir() if p.is_file())
+    if not files:
+        notes.append("EMPTY — nothing built")
+
+    # The bundle named in meta is what the listing hands the buyer; its absence is worth flagging.
+    for want in meta.get("deliverables", []):
+        if want not in files:
+            notes.append(f"MISSING {want}")
+
+    shelf = REPO / "library" / "_deliverables" / entry["slug"]
+    if shelf.is_dir():
+        shelf_files = sorted(p.name for p in shelf.iterdir() if p.is_file())
+        if shelf_files != files:
+            notes.append("shelf differs from version dir — re-publish to refresh")
+    elif files:
+        notes.append("not on the _deliverables shelf (not published yet?)")
+
+    if absolute:
+        return str(d), notes
+    return d.relative_to(REPO).as_posix(), notes
+
+
 def solution_links(entry):
     """Return (title, [(audience, store_url)], wiki_url, gated, notes)."""
     vdir = version_dir(entry)
@@ -71,7 +106,7 @@ def solution_links(entry):
         notes.append("NO STORE LISTING (no url_key found)")
     if entry.get("status") != "published":
         notes.append(f"status={entry.get('status')}")
-    return meta.get("title") or entry["title"], store, f"{WIKI}/en/{wpath}", gated, notes
+    return meta.get("title") or entry["title"], store, f"{WIKI}/en/{wpath}", gated, notes, vdir, meta
 
 
 def http_status(url):
@@ -93,6 +128,8 @@ def main():
     ap.add_argument("--verify", action="store_true", help="check each URL (store 200; wiki 403=gated / 200=public)")
     ap.add_argument("--retired", action="append", default=[],
                     help="slug that was retired/purged in this run: reported as removed, never as a live link (repeatable)")
+    ap.add_argument("--abs-paths", action="store_true", dest="abs_paths",
+                    help="print absolute local deliverable paths instead of repo-relative clickable links")
     ap.add_argument("--out", help="write markdown here as well as stdout")
     a = ap.parse_args()
 
@@ -120,7 +157,7 @@ def main():
     retired = set(a.retired)
     rows, bad = [], False
     for e in sols:
-        title, store, wiki, gated, notes = solution_links(e)
+        title, store, wiki, gated, notes, vdir, meta = solution_links(e)
         s_url = store[0][1] if store else None
         s_txt, w_txt = "—", None
 
@@ -129,7 +166,7 @@ def main():
         # "gone". Never emit a link that would dead-end the owner; state the removal instead.
         if e["slug"] in retired:
             rows.append((title, "_retired — listing removed from the store_",
-                         "_retired — wiki page deleted_"))
+                         "_retired — wiki page deleted_", "_retired_"))
             retired.discard(e["slug"])
             continue
 
@@ -152,27 +189,41 @@ def main():
 
         if notes:
             s_txt += f" _({'; '.join(notes)})_"
-        rows.append((title, s_txt, w_txt))
+
+        # Local deliverables — where the actual files sit on this machine.
+        dpath, dnotes = local_deliverables(e, vdir, meta, absolute=a.abs_paths)
+        if dpath is None:
+            d_txt = f"⚠ _{'; '.join(dnotes)}_"
+            bad = True
+        else:
+            d_txt = f"[`{dpath}`]({dpath})" if not a.abs_paths else f"`{dpath}`"
+            if dnotes:
+                d_txt += f" ⚠ _({'; '.join(dnotes)})_"
+                bad = True
+        rows.append((title, s_txt, w_txt, d_txt))
 
     # A retired solution is usually git-rm'd from the registry in the same run, so it never matched
     # above — report it anyway rather than let it disappear silently from the summary.
     for slug in sorted(retired):
         rows.append((f"{slug} (retired)", "_retired — listing removed from the store_",
-                     "_retired — wiki page deleted_"))
+                     "_retired — wiki page deleted_", "_retired_"))
 
     lines = []
     if len(rows) <= 3:
-        for t, s, w in rows:
-            lines += [f"- **{t}**", f"  - Store: {s}", f"  - Wiki: {w}"]
+        for t, s, w, d in rows:
+            lines += [f"- **{t}**", f"  - Store: {s}", f"  - Wiki: {w}", f"  - Deliverables (local): {d}"]
     else:
-        lines += ["| Product | Store (Marketplace) | Wiki (KB) |", "|---|---|---|"]
-        lines += [f"| **{t}** | {s} | {w} |" for t, s, w in rows]
+        lines += ["| Product | Store (Marketplace) | Wiki (KB) | Deliverables (local) |", "|---|---|---|---|"]
+        lines += [f"| **{t}** | {s} | {w} | {d} |" for t, s, w, d in rows]
     md = "\n".join(lines)
     print(md)
     if a.out:
         io.open(a.out, "w", encoding="utf-8", newline="\n").write(md + "\n")
-    if a.verify and bad:
-        print("\nWARN: at least one link did not verify — fix or say so; never report a dead URL.", file=sys.stderr)
+    # Deliverable problems are found locally and must fail the check with or without --verify.
+    if bad:
+        print("\nWARN: something above did not check out (⚠) — a link that did not verify, or missing/"
+              "stale local deliverables. Fix it or say so plainly; never report a dead URL or point at "
+              "files that aren't what the store shipped.", file=sys.stderr)
         return 2
     return 0
 

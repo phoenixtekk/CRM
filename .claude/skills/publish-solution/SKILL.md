@@ -173,9 +173,10 @@ this section is the condensed version.
   human approval** before sending — never auto-send bulk mail.
 
 ### 9. 🔗 Report the review links (MANDATORY — the last step of any run touching a live product)
-**Owner directive (2026-07-16, trigger widened same day): every run that TOUCHES a product live in the
-Marketplace MUST end by reporting a summary of URL links to those products.** Never finish with only
-names and counts — the owner reviews by clicking. This is part of "done", exactly like the wiki mirror.
+**Owner directive (2026-07-16, trigger widened + local paths added same day): every run that TOUCHES a
+product live in the Marketplace MUST end by reporting, per product, the Store link, the Wiki link, AND
+the local path to that product's deliverables.** Never finish with only names and counts — the owner
+reviews by clicking and reuses the built files locally. Part of "done", like the wiki mirror.
 
 **"Touches" is broad on purpose:** new products *and* doc/source edits + republish, folded-in field
 fixes, corrected scripts, renames, re-homes, re-prices, re-images, learning-loop syncs into a published
@@ -200,7 +201,16 @@ python tools/report-links.py --slug <live-slug> --retired <purged-slug> --verify
   404s, but the wiki page returns **403 even when deleted** (the Guests deny rule answers before the
   404), so it would be reported as "correctly gated" — a link that dead-ends the owner. `--retired`
   states the removal instead, and still reports slugs already `git rm`'d from the registry.
-- Output shape is automatic: **inline pairs for 1–3 products, a table for a wave.** Paste it into the
+- **The local deliverables path ships with the links** — the owner reuses the built files (see the
+  unbranded-copy rule in the project `CLAUDE.md`), so "where is it online" and "where are the files"
+  belong in the same row. The tool reports the **version dir**
+  (`library/<cat>/<slug>/v<ver>/deliverables`) — what a rebuild writes; `library/_deliverables/<slug>/`
+  is only the publish-time copy. It flags ⚠ on a missing/empty dir, a bundle named in
+  `meta.deliverables` that isn't built, or a **shelf that drifts from the version dir** (the store may
+  have shipped a different file than what's on disk). `--abs-paths` for absolute Windows paths.
+- **Exit 2** = a link failed `--verify` **or** local deliverables are missing/stale (local checks run
+  with or without `--verify`). Fix it or say so.
+- Output shape is automatic: **inline triples for 1–3 products, a table for a wave.** Paste it into the
   Shipped summary as-is.
 - This satisfies the global standing rule in `~/.claude/CLAUDE.md` ("Shipped reports — always include
   marketplace + wiki URLs"); the tool is the mechanical implementation of it.
