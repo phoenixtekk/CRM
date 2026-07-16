@@ -172,23 +172,34 @@ this section is the condensed version.
   announcement** (email to all customers + members, plus an on-site/Wiki.js notice) and **hold it for
   human approval** before sending — never auto-send bulk mail.
 
-### 9. 🔗 Report the review links (MANDATORY — the factory's last generation step)
-**Owner directive (2026-07-16): every factory run that produces or republishes product solutions MUST
-end by reporting a summary of URL links to those products.** Never finish a run with only names and
-counts — the owner reviews by clicking. This is part of "done", exactly like the wiki mirror.
+### 9. 🔗 Report the review links (MANDATORY — the last step of any run touching a live product)
+**Owner directive (2026-07-16, trigger widened same day): every run that TOUCHES a product live in the
+Marketplace MUST end by reporting a summary of URL links to those products.** Never finish with only
+names and counts — the owner reviews by clicking. This is part of "done", exactly like the wiki mirror.
+
+**"Touches" is broad on purpose:** new products *and* doc/source edits + republish, folded-in field
+fixes, corrected scripts, renames, re-homes, re-prices, re-images, learning-loop syncs into a published
+solution, and retires. Exempt only when **no live product is touched** (pure tooling work, authoring
+that stops before publish, read-only analysis). **When in doubt, emit the links.**
 
 Generate the links with the tool — **derive, never type them from memory** (a wrong link is worse than
 none; the tool reads `url_key` from each listing and `wiki_path`/`wiki_gated` from each meta, so it
 handles free products (`<slug>-free`, public wiki) and `wiki_path` overrides correctly):
 ```bash
-# after publishing one or more slugs in this run:
+# after publishing/updating one or more slugs in this run:
 python tools/report-links.py --slug <slug> [--slug <slug> ...] --verify
-# or, for a whole wave published today:
+# a whole wave published today:
 python tools/report-links.py --since <YYYY-MM-DD> --verify
+# anything retired/purged in this run (reported as removed, never as a live link):
+python tools/report-links.py --slug <live-slug> --retired <purged-slug> --verify
 ```
 - **Always pass `--verify`** — it checks each URL live and marks anything unexpected ⚠ (store must be
   **200**; wiki **403** = correctly gated, **200** = intentionally public/free tier). Exit code 2 means
   a link failed: **fix it or say so in the report — never emit a dead URL.**
+- **Retires MUST use `--retired <slug>`.** `--verify` cannot detect a retired product: the store URL
+  404s, but the wiki page returns **403 even when deleted** (the Guests deny rule answers before the
+  404), so it would be reported as "correctly gated" — a link that dead-ends the owner. `--retired`
+  states the removal instead, and still reports slugs already `git rm`'d from the registry.
 - Output shape is automatic: **inline pairs for 1–3 products, a table for a wave.** Paste it into the
   Shipped summary as-is.
 - This satisfies the global standing rule in `~/.claude/CLAUDE.md` ("Shipped reports — always include

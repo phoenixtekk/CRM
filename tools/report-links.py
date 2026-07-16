@@ -91,6 +91,8 @@ def main():
     ap.add_argument("--since", help="YYYY-MM-DD — published_at/updated on or after")
     ap.add_argument("--last", type=int, help="N most recently published")
     ap.add_argument("--verify", action="store_true", help="check each URL (store 200; wiki 403=gated / 200=public)")
+    ap.add_argument("--retired", action="append", default=[],
+                    help="slug that was retired/purged in this run: reported as removed, never as a live link (repeatable)")
     ap.add_argument("--out", help="write markdown here as well as stdout")
     a = ap.parse_args()
 
@@ -105,19 +107,31 @@ def main():
         sols = [e for e in reg if (e.get("published_at") or e.get("updated") or "") >= a.since]
     elif a.last:
         sols = sorted(reg, key=lambda e: (e.get("published_at") or e.get("updated") or ""), reverse=True)[: a.last]
+    elif a.retired:
+        sols = []  # a retire-only run: every slug is reported via --retired below
     else:
-        ap.error("give one of --slug / --since / --last")
+        ap.error("give one of --slug / --since / --last / --retired")
 
-    if not sols:
+    if not sols and not a.retired:
         print("No solutions matched.", file=sys.stderr)
         return 1
 
     sols.sort(key=lambda e: e["title"])
+    retired = set(a.retired)
     rows, bad = [], False
     for e in sols:
         title, store, wiki, gated, notes = solution_links(e)
         s_url = store[0][1] if store else None
         s_txt, w_txt = "—", None
+
+        # Retired/purged: the store URL 404s and the wiki page — even when deleted — still answers
+        # 403 (the Guests deny rule fires before the 404), so --verify CANNOT tell "gated" from
+        # "gone". Never emit a link that would dead-end the owner; state the removal instead.
+        if e["slug"] in retired:
+            rows.append((title, "_retired — listing removed from the store_",
+                         "_retired — wiki page deleted_"))
+            retired.discard(e["slug"])
+            continue
 
         if a.verify:
             if s_url:
@@ -139,6 +153,12 @@ def main():
         if notes:
             s_txt += f" _({'; '.join(notes)})_"
         rows.append((title, s_txt, w_txt))
+
+    # A retired solution is usually git-rm'd from the registry in the same run, so it never matched
+    # above — report it anyway rather than let it disappear silently from the summary.
+    for slug in sorted(retired):
+        rows.append((f"{slug} (retired)", "_retired — listing removed from the store_",
+                     "_retired — wiki page deleted_"))
 
     lines = []
     if len(rows) <= 3:
