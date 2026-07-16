@@ -71,3 +71,22 @@
 
 - [2026-07-14] **Intune iOS App Configuration "Enter XML data" is an Apple property list (plist), not free-form XML.** It must be a lowercase `<dict>` root containing only `<key>`/`<string>`(etc.) pairs. A capitalized `<Dict>` fails ("must begin and end with 'dict' tag"); a pasted vendor profile with `xmlns`/`xsi` namespace attributes fails ("Remove XML headers from property list"). Managed App Configuration is NOT a transport for a vendor's XML profile schema — a full profile, if supported at all, goes in as a CDATA string *value under a key*. When authoring any iOS app-config content, produce valid plist key/value pairs, never a namespaced XML document.
 - [2026-07-14] **Intune iOS/mobile VPN "Server address" is a HOSTNAME field, never a URL.** Adding a path/slash (e.g. `host.example.com/Group`) is sent to DNS as a whole string → NXDOMAIN → "Unable to contact/timeout". To select a non-default gateway group on iOS AnyConnect/ASA, select it on the ASA by client-certificate mapping (`crypto ca certificate map`→`tunnel-group-map`) — NOT a URL path, NOT a bare `UserGroup` app-config key (that's a Windows client-profile fragment iOS ignores), NOT the pasted AnyConnect profile. Cert-map is the robust MDM pattern; flag exact vendor CLI/keys as "verify with vendor docs".
+
+## 2026-07-16 — Lockdown is not session isolation (shared multi-user devices)
+When a solution involves a device **shared between people** (shift/frontline/kiosk), never present
+restriction/lockdown policy or app-level sign-out as the fix for one user seeing another's data. A
+single-user-enrolled device has **no per-user session boundary** at the OS level, so cached tokens and
+data survive any app sign-out. Authoring rule: state the root cause plainly, then present the actual
+**multi-user architecture** decision (on Apple: Shared iPad w/ Managed Apple IDs via ABM+ADE — OS-level
+per-user data separation; vs Microsoft 365 Shared Device Mode — app-level global sign-out only, no OS
+data separation), including the trade-offs and the fact that converting existing devices requires
+re-enrollment. Always close with an explicit **user-A → user-B isolation test** with PASS/FAIL criteria
+— the buyer needs proof, not policy.
+
+## 2026-07-16 — Identity prerequisites can be the real blocker; treat them as a first-class workstream
+If a solution depends on an identity the org does not yet control (e.g. Managed Apple IDs where staff
+tied work email to personal Apple IDs), the reclamation/conflict-resolution campaign is a **gating
+workstream**, not a footnote: it needs inventory, sponsorship, comms, a grace period, and it reaches
+every personal device those staff own. Author it as its own section, flag the vendor-side flow
+specifics as "verify against current documentation", and defer the *whether to mandate* decision to the
+customer's HR/legal/identity owners — never make that call in the document.
