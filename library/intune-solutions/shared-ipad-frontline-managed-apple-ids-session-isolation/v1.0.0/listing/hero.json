@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Shared iPad",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Session Isolation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Managed Apple IDs · ABM · M365",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SESSION BLEED",
+    "items": [
+      "Prior user's mail",
+      "Data persists",
+      "Sign-out incomplete",
+      "No user boundary"
+    ]
+  },
+  "to": {
+    "label": "Clean Handover",
+    "stat": "Isolated · Locked-down · Proven"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Per-User Data",
+      "sub": "Shared iPad partitions"
+    },
+    {
+      "icon": "fingerprint",
+      "title": "Managed Apple IDs",
+      "sub": "ABM ↔ Entra federated"
+    },
+    {
+      "icon": "lock",
+      "title": "Field Lockdown",
+      "sub": "No App Store/personal"
+    },
+    {
+      "icon": "shield",
+      "title": "Proven Isolation",
+      "sub": "A→B sign-out test"
+    }
+  ]
+}

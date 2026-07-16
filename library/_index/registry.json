@@ -34650,6 +34650,171 @@
     "product_count": 3
   },
   {
+    "title": "Shared iPad for Frontline Teams — Managed Apple IDs, ABM & Microsoft 365 Session Isolation",
+    "slug": "shared-ipad-frontline-managed-apple-ids-session-isolation",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "SHAREDIPAD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-14",
+    "updated": "2026-07-14",
+    "published_at": "2026-06-13",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-SHAREDIPAD-COMM-001",
+      "PTK-SHAREDIPAD-NPO-001",
+      "PTK-SHAREDIPAD-GOV-001"
+    ],
+    "deliverables": [
+      "SHAREDIPAD-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\shared-ipad-frontline-managed-apple-ids-session-isolation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/01-solution-overview.md",
+          "kb": 15.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/02-requirements.md",
+          "kb": 19.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/03-implementation.md",
+          "kb": 28.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/05-testing.md",
+          "kb": 14.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 25.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/07-best-practices.md",
+          "kb": 8.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 6.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/executive-summary.md",
+          "kb": 6.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SHAREDIPAD-AppleIDConflict.ps1",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/scripts/SHAREDIPAD-AppleIDConflict.ps1",
+          "kb": 10.8
+        },
+        {
+          "name": "SHAREDIPAD-Discovery.ps1",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/scripts/SHAREDIPAD-Discovery.ps1",
+          "kb": 15.6
+        },
+        {
+          "name": "SHAREDIPAD-Report.ps1",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/scripts/SHAREDIPAD-Report.ps1",
+          "kb": 10.8
+        },
+        {
+          "name": "SHAREDIPAD-Set-Restrictions.ps1",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/scripts/SHAREDIPAD-Set-Restrictions.ps1",
+          "kb": 12.4
+        },
+        {
+          "name": "SHAREDIPAD-Validate.ps1",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/scripts/SHAREDIPAD-Validate.ps1",
+          "kb": 17.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SHAREDIPAD-Complete-Solution.zip",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-Complete-Solution.zip",
+          "kb": 208.0
+        },
+        {
+          "name": "SHAREDIPAD-hero.png",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-hero.png",
+          "kb": 477.8
+        },
+        {
+          "name": "SHAREDIPAD-hero.svg",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-hero.svg",
+          "kb": 6.3
+        },
+        {
+          "name": "SHAREDIPAD-Scripts.zip",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-Scripts.zip",
+          "kb": 21.5
+        },
+        {
+          "name": "SHAREDIPAD-Solution.docx",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-Solution.docx",
+          "kb": 87.2
+        },
+        {
+          "name": "SHAREDIPAD-Solution.pdf",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-Solution.pdf",
+          "kb": 141.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/shared-ipad-frontline-managed-apple-ids-session-isolation/v1.0.0/deliverables/SHAREDIPAD-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Third-Party Application Patching with Intune",
     "slug": "third-party-app-patching-intune",
     "category": "Intune",

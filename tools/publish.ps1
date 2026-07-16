@@ -26,28 +26,50 @@ Set-Content -Path (Join-Path $metaFile.Directory.Parent.FullName 'LATEST.txt') -
 $shelf = "$repo\library\_deliverables\$Slug"; New-Item -ItemType Directory -Force $shelf | Out-Null
 Copy-Item "$deliv\*" $shelf -Force
 
-$pdf = "$deliv\$sol-Solution.pdf"; $zip = "$deliv\$sol-Scripts.zip"; $png = "$deliv\$sol-hero.png"
 $json = "$src\listing\bagisto-products.json"; $loader = "$repo\loader\create-bagisto-products.php"
-foreach ($f in @($pdf,$zip,$png,$json,$loader)) { if (-not (Test-Path $f)) { throw "Missing: $f" } }
+
+# Upload set = every file the listing actually references (downloads + image) + hero, resolved from
+# the listing JSON itself. Do NOT hardcode filenames: a listing that points at a bundle
+# (<SOL>-Complete-Solution.zip) must have that bundle on the server or products load with 0
+# downloads and buyers get nothing.
+$listing = Get-Content $json -Raw | ConvertFrom-Json
+$needed = New-Object System.Collections.Generic.HashSet[string]
+foreach ($p in $listing.products) {
+  foreach ($d in $p.downloads) { if ($d.source) { [void]$needed.Add($d.source) } }
+  if ($p.image) { [void]$needed.Add($p.image) }
+}
+[void]$needed.Add("$sol-hero.png")
+$upload = @()
+foreach ($n in $needed) {
+  $f = Join-Path $deliv $n
+  if (-not (Test-Path $f)) { throw "[$Slug] listing references '$n' but it is not in deliverables\ — build it before publishing." }
+  $upload += [pscustomobject]@{ Name = $n; Path = $f }
+}
+foreach ($f in @($json,$loader)) { if (-not (Test-Path $f)) { throw "Missing: $f" } }
 
 Write-Host "[$Slug] deploying..." -ForegroundColor Cyan
 scp -q $loader linuxg5:/tmp/loader.php
 scp -q $json   linuxg5:/tmp/bp.json
-scp -q $pdf    linuxg5:/tmp/d_pdf
-scp -q $zip    linuxg5:/tmp/d_zip
-scp -q $png    linuxg5:/tmp/d_png
+$i = 0; $cpLines = @(); $tmpList = @('/tmp/loader.php','/tmp/bp.json')
+foreach ($u in $upload) {
+  $t = "/tmp/d_$i"
+  scp -q $u.Path "linuxg5:$t"
+  $cpLines += "sudo -u workplace cp $t `"`$APP/solutions/$Slug/$($u.Name)`""
+  $tmpList += $t; $i++
+}
+$cpBlock  = ($cpLines -join "`n")
+$tmpFiles = ($tmpList -join ' ')
+Write-Host "  uploading $($upload.Count) file(s): $(($upload.Name) -join ', ')" -ForegroundColor DarkGray
 
 $remote = @"
 set -e
 APP=/home/workplace/public_html
-chmod 644 /tmp/loader.php /tmp/bp.json /tmp/d_pdf /tmp/d_zip /tmp/d_png
+chmod 644 $tmpFiles
 sudo -u workplace cp /tmp/loader.php "`$APP/create-bagisto-products.php"
 sudo -u workplace mkdir -p "`$APP/solutions/$Slug"
 sudo -u workplace cp /tmp/bp.json "`$APP/solutions/$Slug/bagisto-products.json"
-sudo -u workplace cp /tmp/d_pdf "`$APP/solutions/$Slug/$sol-Solution.pdf"
-sudo -u workplace cp /tmp/d_zip "`$APP/solutions/$Slug/$sol-Scripts.zip"
-sudo -u workplace cp /tmp/d_png "`$APP/solutions/$Slug/$sol-hero.png"
-rm -f /tmp/loader.php /tmp/bp.json /tmp/d_pdf /tmp/d_zip /tmp/d_png
+$cpBlock
+rm -f $tmpFiles
 cd "`$APP"
 sudo -u workplace php8.4 create-bagisto-products.php --file=solutions/$Slug/bagisto-products.json --ensure-category
 sudo -u workplace php8.4 artisan indexer:index >/dev/null 2>&1 && echo INDEXED

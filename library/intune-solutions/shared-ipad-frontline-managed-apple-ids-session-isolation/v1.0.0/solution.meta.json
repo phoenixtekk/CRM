@@ -1,0 +1,40 @@
+{
+  "slug": "shared-ipad-frontline-managed-apple-ids-session-isolation",
+  "title": "Shared iPad for Frontline Teams — Managed Apple IDs, ABM & Microsoft 365 Session Isolation",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "SHAREDIPAD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-14",
+  "updated": "2026-07-14",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Built from a live engagement: ~40 shift-based Facilities-Management field iPads where M365 sessions were not clearing between users (next user saw the prior user's mail). NET-NEW: Apple Shared iPad (the Apple multi-user feature: Managed Apple IDs + per-user APFS data separation) — the catalog had 0 Shared-iPad / 0 Managed-Apple-ID coverage. GAP-DEDUPED: cross-references (does NOT duplicate) 'Implement iOS Lock Down Profile … for Shared Devices' (iPhone single-user lockdown), 'iOS iPhone Shared Device Mode (Lockdown) with WebEx Calling' (Microsoft app-level SDM on iPhone), and 'Implement Entra ID Integration with ABM for Account Auto Provisioning' (ABM account provisioning). Automation = PowerShell (Microsoft.Graph Intune) — read-only discovery/validate/report + one -WhatIf-gated restriction-assignment helper. Apple Shared iPad prerequisites (iPadOS version, supervision, storage/per-user partition sizing), Managed Apple ID federation specifics, Apple domain-capture/conflict-resolution process, and the Microsoft 365 Shared Device Mode iOS app-support list are ALL flagged 'verify against current Apple/Microsoft guidance' — never asserted. Reclaiming staff personal Apple IDs is an identity/HR/comms decision deferred to the customer."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SHAREDIPAD-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-SHAREDIPAD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-SHAREDIPAD-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "SHAREDIPAD-Complete-Solution.zip"
+  ],
+  "hero": "SHAREDIPAD-hero.png"
+}
+
+
