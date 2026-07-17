@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Managed Identities",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Logic Apps + Functions",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "M365 · No Stored Secrets",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "STORED CREDENTIALS",
+    "items": [
+      "Secrets to rotate",
+      "Service accounts",
+      "Standing access",
+      "Leak risk"
+    ]
+  },
+  "to": {
+    "label": "Credential-Free",
+    "stat": "Managed · Least-priv · Rotated"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "System vs User",
+      "sub": "Pick the identity"
+    },
+    {
+      "icon": "lock",
+      "title": "App Permissions",
+      "sub": "Least-privilege grant"
+    },
+    {
+      "icon": "cloud",
+      "title": "Call Graph",
+      "sub": "Logic Apps + Functions"
+    },
+    {
+      "icon": "gear",
+      "title": "Migrate Off Secrets",
+      "sub": "Inventory + cutover"
+    }
+  ]
+}

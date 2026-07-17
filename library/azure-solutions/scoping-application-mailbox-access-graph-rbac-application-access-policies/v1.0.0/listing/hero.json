@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App Mailbox Scope",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Graph RBAC · Access Policy",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Least Privilege · Proven",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "TENANT-WIDE APP PERM",
+    "items": [
+      "Mail.Read = all mbx",
+      "Audit finding",
+      "Over-permissioned",
+      "No boundary proof"
+    ]
+  },
+  "to": {
+    "label": "Scoped",
+    "stat": "One mailbox · Tested · Auditable"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "lock",
+      "title": "Least Privilege",
+      "sub": "Scope to one mbx"
+    },
+    {
+      "icon": "users",
+      "title": "Access Policy",
+      "sub": "Mail-enabled group"
+    },
+    {
+      "icon": "shield",
+      "title": "Graph RBAC",
+      "sub": "Resource-scoped model"
+    },
+    {
+      "icon": "chart",
+      "title": "Prove It",
+      "sub": "In/out-of-scope tests"
+    }
+  ]
+}

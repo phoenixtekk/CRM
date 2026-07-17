@@ -1,0 +1,39 @@
+{
+  "slug": "event-driven-mail-processing-graph-change-notifications-logic-apps",
+  "title": "Event-Driven Mail Processing with Microsoft Graph Change Notifications (Logic Apps + Managed Identity)",
+  "category": "Azure",
+  "category_slug": "azure-solutions",
+  "sol_code": "GRAPHSUB",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-17",
+  "updated": "2026-07-17",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NET-NEW cluster (catalog had 0 Logic Apps mailbox / 0 managed-identity-to-M365 / 0 Graph-mail coverage; the lone 'Sentinel SOAR — Automation Rules & Playbooks (Logic Apps)' is a different domain and must NOT be duplicated). Cross-reference the SIBLINGS in this cluster by title, do not reproduce them: #1 'Exchange Online Mailbox Automation with Logic Apps Managed Identity — Replacing the O365 Connector with Microsoft Graph'; #2 'Event-Driven Mail Processing with Microsoft Graph Change Notifications (Logic Apps + Managed Identity)'; #3 'Graph Mailbox Polling Workflows in Azure Logic Apps (Managed Identity, No Service Account)'; #4 'Scoping Application-Permission Mailbox Access — Graph RBAC & Application Access Policies for Exchange Online'; #5 'Managed Identities for Azure Logic Apps & Functions — Authenticating to Microsoft 365 Without Stored Credentials'; #6 'Modernizing Office 365 Connector Workflows to Microsoft Graph (Logic Apps / Power Automate)'. THIS IS #2, the event-driven alternative named in #1. Go DEEP on the change-notification/webhook pattern; point to #3 for the polling alternative and #4 for mailbox scoping; do not reproduce them. Everything version/feature/licensing-specific — whether a given Office 365 Outlook connector trigger supports managed identity, exact Graph permission names/scopes, Graph change-notification max subscription lifetime + renewal cadence + supported mailbox resources, Application Access Policy vs the newer Graph RBAC-for-Exchange model and which to use, Logic Apps Standard vs Consumption differences, national-cloud endpoints — MUST be flagged 'verify against current Microsoft documentation' and never asserted as fact. Least-privilege APPLICATION Graph permission (e.g. Mail.Read) scoped to ONE mailbox is the security spine of every product here. Author for a novice admin, name every object created (Logic App, managed identity, app role assignment, Graph subscription, access policy/RBAC scope, Key Vault if any) and reuse names verbatim. White-label: no Phoenixtekk / client / tenant names; contoso.com only. PowerShell (Microsoft.Graph) for discovery/validation/reporting + one -WhatIf-gated helper; workflow JSON/ARM/Bicep as config artifacts where relevant."
+  ],
+  "products": [
+    {
+      "sku": "PTK-GRAPHSUB-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-GRAPHSUB-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-GRAPHSUB-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "GRAPHSUB-Complete-Solution.zip"
+  ],
+  "hero": "GRAPHSUB-hero.png"
+}
+

@@ -1,0 +1,14 @@
+# 7. Best Practices — Graph Mailbox Polling Workflows in Azure Logic Apps (Managed Identity, No Service Account)
+
+- **Prefer the webhook when you can; poll when you can't.** If a public HTTPS endpoint is available and near-real-time matters, use the event-driven design (**product #2**). Reach for polling when there is no inbound endpoint or the workload is periodic — polling is all **outbound** and needs no public listener.
+- **Never poll without a watermark.** A naive "get messages every 5 minutes" double-processes mail and trips throttling. Always persist a **high-water mark** (`receivedDateTime` watermark or delta `deltaLink`) so each run reads only what's new.
+- **Make the mark/move step the exactly-once backstop.** The watermark alone can miss an edge case (crash between "process" and "advance watermark"); **mark-as-read and/or move to `Processed`** so a re-read is caught and skipped. Watermark **and** mark/move together = idempotent.
+- **Honor `Retry-After`, never a hard-coded limit.** On HTTP 429, read **`Retry-After`** and wait; back off exponentially on transient 5xx. **Graph throttling limits change — verify against current Microsoft documentation and always defer to the returned header.**
+- **Always follow `@odata.nextLink`.** Loop on paging until the link is absent so a backlog is fully drained; a single un-paged GET silently truncates a busy mailbox.
+- **Least-privilege, one mailbox — the spine.** Grant the narrowest application read permission (e.g. `Mail.Read`; verify a narrower scope) and **scope it to the single mailbox** via Application Access Policy or Graph RBAC-for-Exchange (**product #4**). An unscoped application grant reads the whole tenant.
+- **Credential-free by design.** Authenticate the HTTP-to-Graph calls with the Logic App's **managed identity** — no service account, no secret in the workflow, nothing to rotate or leak.
+- **One watermark row per mailbox.** When you expand, give each mailbox its own watermark (`partitionKey=<mailbox>`) so mailboxes never share a high-water mark and can't skip each other's mail.
+- **Name everything and reuse the name.** Use `<Purpose> – <Scope> – <Stage>` for the Logic App, identity, scoped group, and `Processed` folder, and reuse it verbatim across scripts, tests, and rollback so the estate stays auditable.
+- **Confirm the cloud first.** Point the HTTP action, managed-identity audience, and Microsoft.Graph PowerShell at the correct **national-cloud** endpoints before building — commercial and GCC High / DoD differ; **verify against current Microsoft documentation**.
+- **Keep `$top` modest.** A small page size (e.g. 25–50) keeps each page cheap and the run inside its execution window; let the paging loop, not a large single page, handle volume.
+- **Pilot, then expand.** Prove exactly-once on one mailbox (two consecutive runs) before rolling the pattern out — the same repeatable shape every time.

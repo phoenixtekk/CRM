@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Mailbox Polling",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Graph + Managed Identity",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Watermarked · Throttle-Safe",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NAIVE POLLING",
+    "items": [
+      "Double-processing",
+      "Throttled runs",
+      "Skipped mail",
+      "Service account"
+    ]
+  },
+  "to": {
+    "label": "Exactly-Once",
+    "stat": "Scoped · Idempotent · Reliable"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Scheduled Read",
+      "sub": "Recurrence + Graph"
+    },
+    {
+      "icon": "chart",
+      "title": "Watermark",
+      "sub": "Delta / exactly-once"
+    },
+    {
+      "icon": "cloud",
+      "title": "Throttle-Safe",
+      "sub": "Paging + backoff"
+    },
+    {
+      "icon": "key",
+      "title": "Managed Identity",
+      "sub": "App permission"
+    }
+  ]
+}

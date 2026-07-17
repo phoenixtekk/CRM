@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Estate Migration",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "O365 Connectors → Graph",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Managed Identity · At Scale",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "CONNECTOR ESTATE",
+    "items": [
+      "Many legacy flows",
+      "User/svc auth",
+      "Standing creds",
+      "Aging out"
+    ]
+  },
+  "to": {
+    "label": "Modernized",
+    "stat": "Graph · MI · Governed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Inventory",
+      "sub": "Flows + auth model"
+    },
+    {
+      "icon": "shield",
+      "title": "Risk Classify",
+      "sub": "Creds + scope"
+    },
+    {
+      "icon": "gear",
+      "title": "Per-Flow Playbook",
+      "sub": "Repeatable cutover"
+    },
+    {
+      "icon": "cloud",
+      "title": "Parity + Govern",
+      "sub": "Validate, no regress"
+    }
+  ]
+}

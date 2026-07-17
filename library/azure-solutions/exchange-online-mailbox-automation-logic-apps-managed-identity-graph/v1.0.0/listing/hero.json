@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Mailbox Automation",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Managed Identity + Graph",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Replace the O365 Connector",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "O365 CONNECTOR WALL",
+    "items": [
+      "MI can't bind trigger",
+      "Service account needed",
+      "Secret to rotate",
+      "Tenant-wide risk"
+    ]
+  },
+  "to": {
+    "label": "Graph + MI",
+    "stat": "Credential-free · Scoped · Working"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "key",
+      "title": "Root Cause",
+      "sub": "Connector vs MI auth"
+    },
+    {
+      "icon": "cloud",
+      "title": "Graph Design",
+      "sub": "MI + app permission"
+    },
+    {
+      "icon": "gear",
+      "title": "Pick a Pattern",
+      "sub": "Webhook vs polling"
+    },
+    {
+      "icon": "lock",
+      "title": "One-Mailbox Scope",
+      "sub": "Least privilege"
+    }
+  ]
+}

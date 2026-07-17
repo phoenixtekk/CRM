@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Event-Driven Mail",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Graph Change Notifications",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Webhook · Managed Identity",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "SLOW / UNSUPPORTED",
+    "items": [
+      "Timer polling lag",
+      "O365 conn no-MI",
+      "Subs expire silently",
+      "Missed events"
+    ]
+  },
+  "to": {
+    "label": "Real-Time",
+    "stat": "Event-driven · Scoped · Durable"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Graph Subscription",
+      "sub": "Webhook on mailbox"
+    },
+    {
+      "icon": "gear",
+      "title": "Validated Receiver",
+      "sub": "Handshake + clientState"
+    },
+    {
+      "icon": "key",
+      "title": "Managed Identity",
+      "sub": "App permission read"
+    },
+    {
+      "icon": "shield",
+      "title": "Renewal + Recovery",
+      "sub": "No silent expiry"
+    }
+  ]
+}

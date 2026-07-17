@@ -2413,5 +2413,35 @@
     "post_id": 12856,
     "status": "draft",
     "category_id": 411
+  },
+  "exchange-online-mailbox-automation-logic-apps-managed-identity-graph": {
+    "post_id": 12872,
+    "status": "draft",
+    "category_id": 411
+  },
+  "event-driven-mail-processing-graph-change-notifications-logic-apps": {
+    "post_id": 12874,
+    "status": "draft",
+    "category_id": 411
+  },
+  "graph-mailbox-polling-workflows-logic-apps-managed-identity": {
+    "post_id": 12876,
+    "status": "draft",
+    "category_id": 411
+  },
+  "scoping-application-mailbox-access-graph-rbac-application-access-policies": {
+    "post_id": 12878,
+    "status": "draft",
+    "category_id": 411
+  },
+  "managed-identities-logic-apps-functions-microsoft-365-authentication": {
+    "post_id": 12880,
+    "status": "draft",
+    "category_id": 411
+  },
+  "modernizing-office-365-connector-workflows-to-microsoft-graph": {
+    "post_id": 12882,
+    "status": "draft",
+    "category_id": 411
   }
 }

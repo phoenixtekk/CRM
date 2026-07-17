@@ -5144,6 +5144,666 @@
     "product_count": 3
   },
   {
+    "title": "Event-Driven Mail Processing with Microsoft Graph Change Notifications (Logic Apps + Managed Identity)",
+    "slug": "event-driven-mail-processing-graph-change-notifications-logic-apps",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "GRAPHSUB",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GRAPHSUB-COMM-001",
+      "PTK-GRAPHSUB-NPO-001",
+      "PTK-GRAPHSUB-GOV-001"
+    ],
+    "deliverables": [
+      "GRAPHSUB-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\event-driven-mail-processing-graph-change-notifications-logic-apps\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/02-requirements.md",
+          "kb": 9.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/03-implementation.md",
+          "kb": 14.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GRAPHSUB-Discovery.ps1",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/scripts/GRAPHSUB-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "GRAPHSUB-Renew.ps1",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/scripts/GRAPHSUB-Renew.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "GRAPHSUB-Report.ps1",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/scripts/GRAPHSUB-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "GRAPHSUB-Test-Notification.ps1",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/scripts/GRAPHSUB-Test-Notification.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "GRAPHSUB-Validate.ps1",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/scripts/GRAPHSUB-Validate.ps1",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GRAPHSUB-Complete-Solution.zip",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-Complete-Solution.zip",
+          "kb": 121.7
+        },
+        {
+          "name": "GRAPHSUB-hero.png",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-hero.png",
+          "kb": 443.0
+        },
+        {
+          "name": "GRAPHSUB-hero.svg",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "GRAPHSUB-Scripts.zip",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-Scripts.zip",
+          "kb": 11.3
+        },
+        {
+          "name": "GRAPHSUB-Solution.docx",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-Solution.docx",
+          "kb": 61.3
+        },
+        {
+          "name": "GRAPHSUB-Solution.pdf",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-Solution.pdf",
+          "kb": 72.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/solution.meta.json",
+          "kb": 3.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/event-driven-mail-processing-graph-change-notifications-logic-apps/v1.0.0/deliverables/GRAPHSUB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Exchange Online Mailbox Automation with Logic Apps Managed Identity — Replacing the O365 Connector with Microsoft Graph",
+    "slug": "exchange-online-mailbox-automation-logic-apps-managed-identity-graph",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "LAMIMAIL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-LAMIMAIL-COMM-001",
+      "PTK-LAMIMAIL-NPO-001",
+      "PTK-LAMIMAIL-GOV-001"
+    ],
+    "deliverables": [
+      "LAMIMAIL-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\exchange-online-mailbox-automation-logic-apps-managed-identity-graph\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "LAMIMAIL-Discovery.ps1",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/scripts/LAMIMAIL-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "LAMIMAIL-Report.ps1",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/scripts/LAMIMAIL-Report.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "LAMIMAIL-Set-AppRole.ps1",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/scripts/LAMIMAIL-Set-AppRole.ps1",
+          "kb": 7.4
+        },
+        {
+          "name": "LAMIMAIL-Test-MailboxAccess.ps1",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/scripts/LAMIMAIL-Test-MailboxAccess.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "LAMIMAIL-Validate.ps1",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/scripts/LAMIMAIL-Validate.ps1",
+          "kb": 5.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "LAMIMAIL-Complete-Solution.zip",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-Complete-Solution.zip",
+          "kb": 112.9
+        },
+        {
+          "name": "LAMIMAIL-hero.png",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-hero.png",
+          "kb": 503.8
+        },
+        {
+          "name": "LAMIMAIL-hero.svg",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "LAMIMAIL-Scripts.zip",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "LAMIMAIL-Solution.docx",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-Solution.docx",
+          "kb": 57.7
+        },
+        {
+          "name": "LAMIMAIL-Solution.pdf",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-Solution.pdf",
+          "kb": 65.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/solution.meta.json",
+          "kb": 3.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/exchange-online-mailbox-automation-logic-apps-managed-identity-graph/v1.0.0/deliverables/LAMIMAIL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Graph Mailbox Polling Workflows in Azure Logic Apps (Managed Identity, No Service Account)",
+    "slug": "graph-mailbox-polling-workflows-logic-apps-managed-identity",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "GRAPHPOLL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-GRAPHPOLL-COMM-001",
+      "PTK-GRAPHPOLL-NPO-001",
+      "PTK-GRAPHPOLL-GOV-001"
+    ],
+    "deliverables": [
+      "GRAPHPOLL-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\graph-mailbox-polling-workflows-logic-apps-managed-identity\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/02-requirements.md",
+          "kb": 8.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/03-implementation.md",
+          "kb": 9.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "GRAPHPOLL-Discovery.ps1",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/scripts/GRAPHPOLL-Discovery.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "GRAPHPOLL-Report.ps1",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/scripts/GRAPHPOLL-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "GRAPHPOLL-Set-AppRole.ps1",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/scripts/GRAPHPOLL-Set-AppRole.ps1",
+          "kb": 5.9
+        },
+        {
+          "name": "GRAPHPOLL-Test-Watermark.ps1",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/scripts/GRAPHPOLL-Test-Watermark.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "GRAPHPOLL-Validate.ps1",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/scripts/GRAPHPOLL-Validate.ps1",
+          "kb": 6.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "GRAPHPOLL-Complete-Solution.zip",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-Complete-Solution.zip",
+          "kb": 118.6
+        },
+        {
+          "name": "GRAPHPOLL-hero.png",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-hero.png",
+          "kb": 463.3
+        },
+        {
+          "name": "GRAPHPOLL-hero.svg",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "GRAPHPOLL-Scripts.zip",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "GRAPHPOLL-Solution.docx",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-Solution.docx",
+          "kb": 59.5
+        },
+        {
+          "name": "GRAPHPOLL-Solution.pdf",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-Solution.pdf",
+          "kb": 69.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/solution.meta.json",
+          "kb": 3.1
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/graph-mailbox-polling-workflows-logic-apps-managed-identity/v1.0.0/deliverables/GRAPHPOLL-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Managed Identities for Azure Logic Apps & Functions — Authenticating to Microsoft 365 Without Stored Credentials",
+    "slug": "managed-identities-logic-apps-functions-microsoft-365-authentication",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "MIM365",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-MIM365-COMM-001",
+      "PTK-MIM365-NPO-001",
+      "PTK-MIM365-GOV-001"
+    ],
+    "deliverables": [
+      "MIM365-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\managed-identities-logic-apps-functions-microsoft-365-authentication\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/03-implementation.md",
+          "kb": 11.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/07-best-practices.md",
+          "kb": 2.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MIM365-Discovery.ps1",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/scripts/MIM365-Discovery.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "MIM365-Find-StoredCredentials.ps1",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/scripts/MIM365-Find-StoredCredentials.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "MIM365-Report.ps1",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/scripts/MIM365-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "MIM365-Set-AppRole.ps1",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/scripts/MIM365-Set-AppRole.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "MIM365-Validate.ps1",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/scripts/MIM365-Validate.ps1",
+          "kb": 5.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MIM365-Complete-Solution.zip",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-Complete-Solution.zip",
+          "kb": 110.2
+        },
+        {
+          "name": "MIM365-hero.png",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-hero.png",
+          "kb": 432.0
+        },
+        {
+          "name": "MIM365-hero.svg",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MIM365-Scripts.zip",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-Scripts.zip",
+          "kb": 10.6
+        },
+        {
+          "name": "MIM365-Solution.docx",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-Solution.docx",
+          "kb": 56.8
+        },
+        {
+          "name": "MIM365-Solution.pdf",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-Solution.pdf",
+          "kb": 63.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/solution.meta.json",
+          "kb": 3.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/managed-identities-logic-apps-functions-microsoft-365-authentication/v1.0.0/deliverables/MIM365-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Teams Phone Direct Routing with Session Border Controller (AudioCodes) Integration",
     "slug": "teams-phone-direct-routing-sbc-audiocodes",
     "category": "Azure",
@@ -5306,6 +5966,336 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../azure-solutions/teams-phone-direct-routing-sbc-audiocodes/v1.0.0/deliverables/TEAMSSBC-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Modernizing Office 365 Connector Workflows to Microsoft Graph (Logic Apps / Power Automate)",
+    "slug": "modernizing-office-365-connector-workflows-to-microsoft-graph",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "O365GRAPH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 4995.0,
+    "nonprofit": 2997.0,
+    "skus": [
+      "PTK-O365GRAPH-COMM-001",
+      "PTK-O365GRAPH-NPO-001",
+      "PTK-O365GRAPH-GOV-001"
+    ],
+    "deliverables": [
+      "O365GRAPH-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\modernizing-office-365-connector-workflows-to-microsoft-graph\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/02-requirements.md",
+          "kb": 9.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/03-implementation.md",
+          "kb": 11.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/05-testing.md",
+          "kb": 3.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/executive-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "O365GRAPH-Classify.ps1",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/scripts/O365GRAPH-Classify.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "O365GRAPH-Discovery.ps1",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/scripts/O365GRAPH-Discovery.ps1",
+          "kb": 6.4
+        },
+        {
+          "name": "O365GRAPH-Report.ps1",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/scripts/O365GRAPH-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "O365GRAPH-Set-AppRole.ps1",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/scripts/O365GRAPH-Set-AppRole.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "O365GRAPH-Validate.ps1",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/scripts/O365GRAPH-Validate.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "O365GRAPH-Complete-Solution.zip",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-Complete-Solution.zip",
+          "kb": 113.1
+        },
+        {
+          "name": "O365GRAPH-hero.png",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-hero.png",
+          "kb": 443.4
+        },
+        {
+          "name": "O365GRAPH-hero.svg",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "O365GRAPH-Scripts.zip",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-Scripts.zip",
+          "kb": 11.1
+        },
+        {
+          "name": "O365GRAPH-Solution.docx",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-Solution.docx",
+          "kb": 57.8
+        },
+        {
+          "name": "O365GRAPH-Solution.pdf",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-Solution.pdf",
+          "kb": 65.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/solution.meta.json",
+          "kb": 3.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/modernizing-office-365-connector-workflows-to-microsoft-graph/v1.0.0/deliverables/O365GRAPH-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Scoping Application-Permission Mailbox Access — Graph RBAC & Application Access Policies for Exchange Online",
+    "slug": "scoping-application-mailbox-access-graph-rbac-application-access-policies",
+    "category": "Azure",
+    "category_slug": "azure-solutions",
+    "sol_code": "MBXRBAC",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-17",
+    "updated": "2026-07-17",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-MBXRBAC-COMM-001",
+      "PTK-MBXRBAC-NPO-001",
+      "PTK-MBXRBAC-GOV-001"
+    ],
+    "deliverables": [
+      "MBXRBAC-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\azure-solutions\\scoping-application-mailbox-access-graph-rbac-application-access-policies\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-azure-solutions.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/source/global-requirements-azure-solutions.md",
+          "kb": 4.3
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "MBXRBAC-Discovery.ps1",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/scripts/MBXRBAC-Discovery.ps1",
+          "kb": 6.1
+        },
+        {
+          "name": "MBXRBAC-Report.ps1",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/scripts/MBXRBAC-Report.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "MBXRBAC-Set-AccessPolicy.ps1",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/scripts/MBXRBAC-Set-AccessPolicy.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "MBXRBAC-Test-Boundary.ps1",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/scripts/MBXRBAC-Test-Boundary.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "MBXRBAC-Validate.ps1",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/scripts/MBXRBAC-Validate.ps1",
+          "kb": 6.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "MBXRBAC-Complete-Solution.zip",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-Complete-Solution.zip",
+          "kb": 113.7
+        },
+        {
+          "name": "MBXRBAC-hero.png",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-hero.png",
+          "kb": 460.4
+        },
+        {
+          "name": "MBXRBAC-hero.svg",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "MBXRBAC-Scripts.zip",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-Scripts.zip",
+          "kb": 11.4
+        },
+        {
+          "name": "MBXRBAC-Solution.docx",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-Solution.docx",
+          "kb": 57.4
+        },
+        {
+          "name": "MBXRBAC-Solution.pdf",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-Solution.pdf",
+          "kb": 66.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/solution.meta.json",
+          "kb": 3.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../azure-solutions/scoping-application-mailbox-access-graph-rbac-application-access-policies/v1.0.0/deliverables/MBXRBAC-hero.png",
     "product_count": 3
   },
   {
