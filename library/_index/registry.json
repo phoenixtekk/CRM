@@ -12724,7 +12724,7 @@
         {
           "name": "HYBID-Discovery.ps1",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/scripts/HYBID-Discovery.ps1",
-          "kb": 3.4
+          "kb": 3.3
         },
         {
           "name": "HYBID-Remediation.ps1",
@@ -12739,19 +12739,19 @@
         {
           "name": "HYBID-Set-SyncScopeHelper.ps1",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/scripts/HYBID-Set-SyncScopeHelper.ps1",
-          "kb": 3.0
+          "kb": 2.9
         },
         {
           "name": "HYBID-Validation.ps1",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/scripts/HYBID-Validation.ps1",
-          "kb": 3.4
+          "kb": 3.3
         }
       ],
       "Deliverables": [
         {
           "name": "HYBID-Complete-Solution.zip",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/deliverables/HYBID-Complete-Solution.zip",
-          "kb": 82.7
+          "kb": 86.9
         },
         {
           "name": "HYBID-hero.png",
@@ -12771,12 +12771,12 @@
         {
           "name": "HYBID-Solution.docx",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/deliverables/HYBID-Solution.docx",
-          "kb": 49.1
+          "kb": 50.1
         },
         {
           "name": "HYBID-Solution.pdf",
           "href": "../entra-id-solutions/hybrid-identity-ad-entra-connect/v1.0.0/deliverables/HYBID-Solution.pdf",
-          "kb": 40.7
+          "kb": 45.6
         }
       ],
       "Listing": [
@@ -14260,7 +14260,7 @@
         {
           "name": "FIDO2-Complete-Solution.zip",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/deliverables/FIDO2-Complete-Solution.zip",
-          "kb": 71.7
+          "kb": 75.4
         },
         {
           "name": "FIDO2-hero.png",
@@ -14275,17 +14275,17 @@
         {
           "name": "FIDO2-Scripts.zip",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/deliverables/FIDO2-Scripts.zip",
-          "kb": 6.1
+          "kb": 6.0
         },
         {
           "name": "FIDO2-Solution.docx",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/deliverables/FIDO2-Solution.docx",
-          "kb": 45.9
+          "kb": 46.9
         },
         {
           "name": "FIDO2-Solution.pdf",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa/v1.0.0/deliverables/FIDO2-Solution.pdf",
-          "kb": 32.1
+          "kb": 35.7
         }
       ],
       "Listing": [
@@ -14387,7 +14387,7 @@
         {
           "name": "executive-summary.md",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/source/executive-summary.md",
-          "kb": 3.5
+          "kb": 3.4
         },
         {
           "name": "gcc-high-parity-notes.md",
@@ -14431,7 +14431,7 @@
         {
           "name": "FIDO2G-Complete-Solution.zip",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Complete-Solution.zip",
-          "kb": 105.7
+          "kb": 123.0
         },
         {
           "name": "FIDO2G-hero.png",
@@ -14451,12 +14451,12 @@
         {
           "name": "FIDO2G-Solution.docx",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Solution.docx",
-          "kb": 54.9
+          "kb": 60.3
         },
         {
           "name": "FIDO2G-Solution.pdf",
           "href": "../entra-id-solutions/passwordless-fido2-phishing-resistant-mfa-gcc-high/v1.0.0/deliverables/FIDO2G-Solution.pdf",
-          "kb": 61.7
+          "kb": 78.0
         }
       ],
       "Listing": [
@@ -27863,7 +27863,7 @@
         {
           "name": "PFXMOB-Import-Pfx.ps1",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/scripts/PFXMOB-Import-Pfx.ps1",
-          "kb": 6.5
+          "kb": 6.4
         },
         {
           "name": "PFXMOB-Remediation.ps1",
@@ -27885,7 +27885,7 @@
         {
           "name": "PFXMOB-Complete-Solution.zip",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-Complete-Solution.zip",
-          "kb": 96.9
+          "kb": 96.6
         },
         {
           "name": "PFXMOB-hero.png",
@@ -27900,7 +27900,7 @@
         {
           "name": "PFXMOB-Scripts.zip",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-Scripts.zip",
-          "kb": 9.6
+          "kb": 9.5
         },
         {
           "name": "PFXMOB-Solution.docx",
@@ -27910,7 +27910,7 @@
         {
           "name": "PFXMOB-Solution.pdf",
           "href": "../intune-solutions/deploy-third-party-pfx-certificate-mobile-intune/v1.0.0/deliverables/PFXMOB-Solution.pdf",
-          "kb": 51.9
+          "kb": 51.7
         }
       ],
       "Listing": [
@@ -32064,14 +32064,14 @@
         {
           "name": "WIN32-Validation.ps1",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/scripts/WIN32-Validation.ps1",
-          "kb": 3.8
+          "kb": 3.7
         }
       ],
       "Deliverables": [
         {
           "name": "WIN32-Complete-Solution.zip",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/deliverables/WIN32-Complete-Solution.zip",
-          "kb": 89.4
+          "kb": 89.1
         },
         {
           "name": "WIN32-hero.png",
@@ -32086,7 +32086,7 @@
         {
           "name": "WIN32-Scripts.zip",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/deliverables/WIN32-Scripts.zip",
-          "kb": 7.1
+          "kb": 7.0
         },
         {
           "name": "WIN32-Solution.docx",
@@ -32096,7 +32096,7 @@
         {
           "name": "WIN32-Solution.pdf",
           "href": "../intune-solutions/intune-win32-app-packaging-deployment/v1.0.0/deliverables/WIN32-Solution.pdf",
-          "kb": 46.7
+          "kb": 46.4
         }
       ],
       "Listing": [
@@ -39705,7 +39705,7 @@
         {
           "name": "GPOM-Report.ps1",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/scripts/GPOM-Report.ps1",
-          "kb": 4.5
+          "kb": 4.4
         },
         {
           "name": "GPOM-Set-MigrationRingTargeting.ps1",
@@ -39722,7 +39722,7 @@
         {
           "name": "GPOM-Complete-Solution.zip",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-Complete-Solution.zip",
-          "kb": 88.4
+          "kb": 88.2
         },
         {
           "name": "GPOM-hero.png",
@@ -39737,17 +39737,17 @@
         {
           "name": "GPOM-Scripts.zip",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-Scripts.zip",
-          "kb": 8.3
+          "kb": 8.2
         },
         {
           "name": "GPOM-Solution.docx",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-Solution.docx",
-          "kb": 51.1
+          "kb": 51.0
         },
         {
           "name": "GPOM-Solution.pdf",
           "href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-Solution.pdf",
-          "kb": 44.8
+          "kb": 44.7
         }
       ],
       "Listing": [
@@ -40414,7 +40414,7 @@
         {
           "name": "CVPNMIG-Solution.pdf",
           "href": "../migrations/cisco-vpn-client-sccm-gpo-to-intune-migration/v1.0.0/deliverables/CVPNMIG-Solution.pdf",
-          "kb": 53.5
+          "kb": 53.4
         }
       ],
       "Listing": [
@@ -40516,7 +40516,7 @@
         {
           "name": "executive-summary.md",
           "href": "../migrations/phased-gpo-to-intune-transition-program/v1.0.0/source/executive-summary.md",
-          "kb": 3.5
+          "kb": 3.4
         },
         {
           "name": "global-requirements-migrations.md",
@@ -40548,14 +40548,14 @@
         {
           "name": "GPOPROG-Validation.ps1",
           "href": "../migrations/phased-gpo-to-intune-transition-program/v1.0.0/scripts/GPOPROG-Validation.ps1",
-          "kb": 4.9
+          "kb": 4.8
         }
       ],
       "Deliverables": [
         {
           "name": "GPOPROG-Complete-Solution.zip",
           "href": "../migrations/phased-gpo-to-intune-transition-program/v1.0.0/deliverables/GPOPROG-Complete-Solution.zip",
-          "kb": 101.8
+          "kb": 101.7
         },
         {
           "name": "GPOPROG-hero.png",
@@ -40570,7 +40570,7 @@
         {
           "name": "GPOPROG-Scripts.zip",
           "href": "../migrations/phased-gpo-to-intune-transition-program/v1.0.0/deliverables/GPOPROG-Scripts.zip",
-          "kb": 9.3
+          "kb": 9.2
         },
         {
           "name": "GPOPROG-Solution.docx",
@@ -40580,7 +40580,7 @@
         {
           "name": "GPOPROG-Solution.pdf",
           "href": "../migrations/phased-gpo-to-intune-transition-program/v1.0.0/deliverables/GPOPROG-Solution.pdf",
-          "kb": 56.8
+          "kb": 56.7
         }
       ],
       "Listing": [

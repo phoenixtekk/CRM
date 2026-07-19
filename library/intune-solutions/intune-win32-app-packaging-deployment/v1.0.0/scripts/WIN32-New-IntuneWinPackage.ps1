@@ -17,7 +17,7 @@
         A single .intunewin file (e.g. ContosoLOB.intunewin) in the output folder, ready to upload
         in Intune (Apps > Windows > Add > Windows app (Win32)).
 .NOTES
-    Workplace Marketplace — Intune Solutions. Packaging helper; does not change Intune state.
+    Intune Solutions. Packaging helper; does not change Intune state.
 #>
 [CmdletBinding()]
 param(

@@ -19,7 +19,7 @@
         A list of imported PFX objects, the Certificate Connector(s) and their state, and the iOS
         certificate/custom profiles present in the tenant. No changes are made.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only. Uses documented Microsoft Graph
+    Intune Solutions. Read-only. Uses documented Microsoft Graph
     deviceManagement endpoints via Invoke-MgGraphRequest. Reports against Microsoft Graph beta for the
     userPfxCertificates / ndesConnectors resources where v1.0 coverage is incomplete (clearly noted).
 #>

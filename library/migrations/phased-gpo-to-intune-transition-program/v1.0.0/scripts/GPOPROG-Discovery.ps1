@@ -18,7 +18,7 @@
         rationalization, the local MDMWinsOverGP precedence state, and — with -UseGraph — a count of
         Intune-managed Windows devices (coverage signal). Read-only.
 .NOTES
-    Workplace Marketplace — Migrations. Read-only. Requires the GroupPolicy module for the GPO side
+    Migrations. Read-only. Requires the GroupPolicy module for the GPO side
     (Add-WindowsCapability -Online -Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0).
 #>
 [CmdletBinding()]

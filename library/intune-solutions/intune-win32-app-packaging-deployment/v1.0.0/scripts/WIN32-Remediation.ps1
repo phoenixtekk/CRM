@@ -14,7 +14,7 @@
         In preview: a list of the sync/retry actions that would run. When applied: an MDM sync is
         requested so the IME retries the failed Win32 app. Re-check with WIN32-Validation.ps1 / WIN32-Report.ps1.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Default -WhatIf; supports ShouldProcess.
+    Intune Solutions. Default -WhatIf; supports ShouldProcess.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact='Medium')]
 param(

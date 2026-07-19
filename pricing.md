@@ -1,4 +1,4 @@
-# Phoenixtekk Workplace Marketplace — Pricing Rules (source of truth)
+# Phoenixtekk Workplace Solutions — Pricing Rules (source of truth)
 
 These rules are applied by `/generate-solution` (Stage 1) and validated by
 `/publish-solution` (Stage 2). Do not hardcode prices in the loader — they come from

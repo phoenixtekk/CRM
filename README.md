@@ -1,4 +1,4 @@
-# Phoenixtekk Workplace Marketplace — Solution Factory
+# Phoenixtekk Workplace Solutions — Solution Factory
 
 A repeatable pipeline that turns a topic into a published, priced consulting solution on
 **https://workplace.phoenixtekk.com/** (Bagisto ~2.3.x on `linuxg5`).

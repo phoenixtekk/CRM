@@ -19,7 +19,7 @@
         WhatIf: a list of the assignment/sync actions that WOULD be taken.
         Apply : the group assignment added (if missing) and a sync requested on member devices.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Write actions require -Apply and the
+    Intune Solutions. Write actions require -Apply and the
     DeviceManagementConfiguration.ReadWrite.All / DeviceManagementManagedDevices.PrivilegedOperations.All
     scopes. Documented Graph endpoints (deviceConfigurations/assign, managedDevices/syncDevice).
 #>

@@ -1,4 +1,4 @@
-# ADMIN_DOCS — Phoenixtekk Workplace Marketplace
+# ADMIN_DOCS — Phoenixtekk Workplace Solutions
 
 Operator/runbook documentation for the solution factory and the live Bagisto store.
 

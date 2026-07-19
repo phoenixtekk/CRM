@@ -1,4 +1,4 @@
-# FEATURES — Phoenixtekk Workplace Marketplace factory
+# FEATURES — Phoenixtekk Workplace Solutions factory
 
 A repeatable two-stage pipeline that turns a topic into a published, priced marketplace
 solution on **https://workplace.phoenixtekk.com/** (Bagisto ~2.3.x).

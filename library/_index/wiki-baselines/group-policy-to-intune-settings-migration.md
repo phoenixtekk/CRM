@@ -11,7 +11,7 @@
 
 # Executive Summary — Group Policy to Intune Settings Migration (Microsoft Intune)
 
-**Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Decades of Group Policy keep your domain-joined PCs in line — but those settings only apply on the
 corporate network, they don't follow cloud-joined or remote devices, and nobody fully knows what is

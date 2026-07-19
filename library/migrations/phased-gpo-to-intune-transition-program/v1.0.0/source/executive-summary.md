@@ -1,6 +1,6 @@
 # Executive Summary — Phased GPO-to-Intune Transition Program & Sequencing Roadmap
 
-**Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 The fastest way to break a Group Policy-to-Intune transition is to migrate security controls — the
 firewall, application control, attack-surface rules — before the foundation is clean. When core OS

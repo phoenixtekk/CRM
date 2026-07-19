@@ -19,7 +19,7 @@
         (precedence coverage, open conflicts/loops). With -UseGraph: the phase scope groups and the
         named transition policies + assignments. Read-only.
 .NOTES
-    Workplace Marketplace — Migrations. Read-only.
+    Migrations. Read-only.
 #>
 [CmdletBinding()]
 param(

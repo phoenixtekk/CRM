@@ -20,7 +20,7 @@
         MDMWinsOverGP=1, requests an MDM sync, and advises re-running GPOPROG-Validation.ps1 and
         scoping the legacy GPO away for the conflicting area.
 .NOTES
-    Workplace Marketplace — Migrations. -WhatIf by default; -Apply makes changes.
+    Migrations. -WhatIf by default; -Apply makes changes.
 #>
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
 param(

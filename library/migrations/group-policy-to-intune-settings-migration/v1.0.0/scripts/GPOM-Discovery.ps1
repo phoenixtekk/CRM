@@ -13,7 +13,7 @@
         One <GPOName>.xml per GPO in the output folder, plus a console inventory table
         (DisplayName, Id, GpoStatus, Created/Modified) and a CSV summary you can review and keep.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only. Requires the GroupPolicy module
+    Intune Solutions. Read-only. Requires the GroupPolicy module
     (Add-WindowsCapability -Online -Name Rsat.GroupPolicy.Management.Tools~~~~0.0.1.0).
 #>
 [CmdletBinding()]

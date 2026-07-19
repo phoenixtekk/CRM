@@ -17,7 +17,7 @@
         coverage %, an overall gap list exported to CSV, and — with -UseGraph — the matching Intune
         policies and their assignments.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only.
+    Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

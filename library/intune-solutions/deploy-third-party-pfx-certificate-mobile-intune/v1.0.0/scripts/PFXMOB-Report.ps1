@@ -14,7 +14,7 @@
     EXPECTED RESULTS
         A table of device | profile | state, plus a per-state count. No changes are made.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only. Documented Graph endpoints
+    Intune Solutions. Read-only. Documented Graph endpoints
     (deviceConfigurations + deviceStatuses).
 #>
 [CmdletBinding()] param(

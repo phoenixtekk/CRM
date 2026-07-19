@@ -1,4 +1,4 @@
-# BILLING — Phoenixtekk Workplace Marketplace
+# BILLING — Phoenixtekk Workplace Solutions
 
 ## Processor & model in use
 - **Store:** Bagisto ~2.3.x at workplace.phoenixtekk.com (linuxg5). Built-in payment packages present:
@@ -82,7 +82,7 @@ SUBSCRIPTIONS_CURRENCY=usd       # optional
 (Bagisto's built-in one-time Stripe payment is configured separately in admin → Sales → Payment methods.)
 
 ## To ACTIVATE recurring (Stripe)
-1. In the **Workplace Marketplace** Stripe account, copy the API keys (Developers → API keys).
+1. In the **Workplace Solutions** Stripe account, copy the API keys (Developers → API keys).
 2. Admin → Configuration → Sales → **Subscriptions & Billing** → enter Stripe Secret Key (+ Publishable
    Key), Currency → **Save**. (Or set the `.env` keys above and leave UI blank.)
 3. Admin → **Subscriptions** → click **Sync plans to Stripe** → creates the 6 products/prices in

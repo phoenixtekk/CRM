@@ -14,7 +14,7 @@
         Host/TLS summary, forest/domain + UPN suffixes, counts of .local UPNs and duplicate
         UPN/proxyAddress values, and any AD health warning. No changes are made.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only.
+    Entra ID Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 

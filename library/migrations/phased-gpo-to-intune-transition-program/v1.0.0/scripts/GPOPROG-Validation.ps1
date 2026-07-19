@@ -19,7 +19,7 @@
         previous snapshot — a list of any settings that CHANGED value between cycles (loop signature).
         Zero changed settings + precedence enabled = the phase coexistence check passes.
 .NOTES
-    Workplace Marketplace — Migrations. Read-only.
+    Migrations. Read-only.
 #>
 [CmdletBinding()]
 param(

@@ -18,7 +18,7 @@
         A list of duplicate proxyAddress conflicts (always), and — only with -Apply — the removals
         performed plus a triggered delta sync. Nothing is changed unless -Apply is supplied.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Defaults to -WhatIf (no changes).
+    Entra ID Solutions. Defaults to -WhatIf (no changes).
 #>
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(

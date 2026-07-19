@@ -1,6 +1,6 @@
 # Executive Summary — Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys (Microsoft Entra ID)
 
-**Workplace Marketplace · Entra ID Solutions**
+**White-label · Entra ID Solutions**
 
 Passwords get phished, and even push-based MFA gets bombed until a tired user taps "Approve."
 Security-conscious and federal organizations are now expected to move to **phishing-resistant**,

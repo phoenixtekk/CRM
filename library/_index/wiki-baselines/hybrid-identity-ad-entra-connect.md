@@ -1,6 +1,6 @@
 # Hybrid Identity with Active Directory & Microsoft Entra Connect
 
-> **Version 1.0.0** · Category: Entra ID Solutions · Solution code: HYBID
+> **Version 1.0.0** · Category: Entra · Solution code: HYBID
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -11,7 +11,7 @@
 
 # Executive Summary — Hybrid Identity with Active Directory & Microsoft Entra Connect
 
-Workplace Marketplace · Entra ID Solutions
+White-label · Entra ID Solutions
 
 Most organizations still run Active Directory on-premises while their apps, devices, and security
 live in the cloud. When the bridge between them is misconfigured you get duplicate accounts, broken

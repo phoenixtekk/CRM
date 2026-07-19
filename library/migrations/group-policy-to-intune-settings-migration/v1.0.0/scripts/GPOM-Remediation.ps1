@@ -15,7 +15,7 @@
         In preview: prints what WOULD change (MDMWinsOverGP -> 1) and exits. With -Apply: sets
         MDMWinsOverGP=1, requests an MDM sync, and advises re-running GPOM-Validation.ps1.
 .NOTES
-    Workplace Marketplace — Intune Solutions. -WhatIf by default; -Apply makes changes.
+    Intune Solutions. -WhatIf by default; -Apply makes changes.
 #>
 [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
 param(

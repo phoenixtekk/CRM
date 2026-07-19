@@ -1,4 +1,4 @@
-# Help Center — Phoenixtekk Workplace Marketplace
+# Help Center — Phoenixtekk Workplace Solutions
 
 End-user (operator) guide to creating and publishing solutions with the factory. For
 infrastructure/runbook detail see `ADMIN_DOCS.md`; for the design see `README.md`.

@@ -20,7 +20,7 @@
         Both phase scope groups exist (created or found) with their object IDs printed; any supplied
         pilot device object IDs are added to the pilot group.
 .NOTES
-    Workplace Marketplace — Migrations. Creates/updates Entra groups only.
+    Migrations. Creates/updates Entra groups only.
 #>
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(

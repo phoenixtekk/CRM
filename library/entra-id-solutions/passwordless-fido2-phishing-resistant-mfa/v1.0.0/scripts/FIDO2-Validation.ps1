@@ -12,7 +12,7 @@
     EXPECTED RESULTS
         "PHISHING-RESISTANT METHOD REGISTERED" when a qualifying method is present; else NOT REGISTERED.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only against Graph.
+    Entra ID Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([Parameter(Mandatory)][string]$UserId)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

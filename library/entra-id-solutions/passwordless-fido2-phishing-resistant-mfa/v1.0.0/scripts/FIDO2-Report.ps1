@@ -12,7 +12,7 @@
     EXPECTED RESULTS
         Counts of passwordless-capable / FIDO2-registered users and an optional per-user CSV.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only against Graph.
+    Entra ID Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param([string]$CsvPath)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

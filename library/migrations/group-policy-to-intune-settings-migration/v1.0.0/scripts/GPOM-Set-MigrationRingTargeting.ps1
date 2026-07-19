@@ -17,7 +17,7 @@
         object IDs are added to the pilot ring. Use these group names verbatim in the Intune
         assignments from the Implementation Guide.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Creates/updates Entra groups only.
+    Intune Solutions. Creates/updates Entra groups only.
 #>
 [CmdletBinding(SupportsShouldProcess = $true)]
 param(

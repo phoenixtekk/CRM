@@ -18,7 +18,7 @@
     EXPECTED RESULTS
         IME service status, and DETECTED / NOT DETECTED for the chosen rule. No changes are made.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only; no system changes.
+    Intune Solutions. Read-only; no system changes.
 #>
 [CmdletBinding()]
 param(

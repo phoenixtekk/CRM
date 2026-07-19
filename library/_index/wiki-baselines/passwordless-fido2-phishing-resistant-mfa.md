@@ -1,6 +1,6 @@
 # Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys
 
-> **Version 1.0.0** · Category: Entra ID Solutions · Solution code: FIDO2
+> **Version 1.0.0** · Category: Entra · Solution code: FIDO2
 
 > This is the online, maintained copy of the implementation guide. When this solution is updated, eligible customers are alerted and can return here for the current content. Downloadable PDF + scripts are attached on the store listing.
 
@@ -11,7 +11,7 @@
 
 # Executive Summary — Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys (Microsoft Entra ID)
 
-**Workplace Marketplace · Entra ID Solutions**
+**White-label · Entra ID Solutions**
 
 Passwords get phished, and even push-based MFA gets bombed until a tired user taps "Approve."
 Security-conscious and federal organizations are now expected to move to **phishing-resistant**,

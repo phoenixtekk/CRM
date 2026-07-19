@@ -16,7 +16,7 @@
         MDMWinsOverGP state (enabled/disabled), a list of applied PolicyManager values, and — when a
         GPO XML is supplied — a parity table marking each compared setting match / missing / different.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only.
+    Intune Solutions. Read-only.
 #>
 [CmdletBinding()]
 param(

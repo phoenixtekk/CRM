@@ -1,6 +1,6 @@
 # Executive Summary — Passwordless & Phishing-Resistant MFA with FIDO2 Security Keys — Government (GCC High)
 
-**Workplace Marketplace · Entra ID Solutions · US Sovereign Cloud (GCC High / DoD)**
+**White-label · Entra ID Solutions · US Sovereign Cloud (GCC High / DoD)**
 
 Passwords get phished, and even push-based MFA gets bombed until a tired user taps "Approve." For US
 Government tenants this is not just a security preference — **Executive Order 14028** and **OMB

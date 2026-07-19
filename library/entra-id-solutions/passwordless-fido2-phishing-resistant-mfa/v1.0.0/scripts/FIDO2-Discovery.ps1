@@ -12,7 +12,7 @@
     EXPECTED RESULTS
         Per-method enablement state (FIDO2 / WHfB / certificate-based) and the targets configured.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only against Graph.
+    Entra ID Solutions. Read-only against Graph.
 #>
 [CmdletBinding()] param()
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

@@ -20,7 +20,7 @@
         A table of OUs with user/computer counts, or — when -IncludeOU is supplied — the total users
         and computers the proposed scope would synchronize. No directory or sync changes are made.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only (planning helper).
+    Entra ID Solutions. Read-only (planning helper).
 #>
 [CmdletBinding()]
 param(

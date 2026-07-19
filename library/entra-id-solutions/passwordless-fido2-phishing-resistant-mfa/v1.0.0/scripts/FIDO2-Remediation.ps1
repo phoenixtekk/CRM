@@ -15,7 +15,7 @@
         A list of users missing a phishing-resistant method; with -WhatIf:$false they are added to the
         remediation group for the campaign.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Default -WhatIf; additive only.
+    Entra ID Solutions. Default -WhatIf; additive only.
 #>
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact='Medium')]
 param([string]$RemediationGroupId)

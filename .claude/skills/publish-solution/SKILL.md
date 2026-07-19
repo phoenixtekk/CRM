@@ -1,6 +1,6 @@
 ---
 name: publish-solution
-description: Stage 2 of the Phoenixtekk Workplace Marketplace factory. Takes a generated solution from the local library, validates its bagisto-products.json, backs up the live store database, deploys the listing + deliverable files to linuxg5, and loads the products into the live Bagisto store at workplace.phoenixtekk.com via the idempotent PHP loader (php8.4), then verifies and updates the library index. Trigger when the user wants to publish/load/deploy an already-generated solution to the store.
+description: Stage 2 of the Phoenixtekk Workplace Solutions factory. Takes a generated solution from the local library, validates its bagisto-products.json, backs up the live store database, deploys the listing + deliverable files to linuxg5, and loads the products into the live Bagisto store at workplace.phoenixtekk.com via the idempotent PHP loader (php8.4), then verifies and updates the library index. Trigger when the user wants to publish/load/deploy an already-generated solution to the store.
 ---
 
 # /publish-solution — load a generated solution into the live store
@@ -26,7 +26,7 @@ produced the solution in the library.
 
 ## Branding (white-label by default)
 The factory is **white-label by default**: unless `solution.meta.json` has `"branding": "on"`, the
-company name (Phoenixtekk / Workplace Marketplace / URL) must **not** appear in the deliverables, hero,
+company name (Phoenixtekk / Workplace Solutions / URL) must **not** appear in the deliverables, hero,
 wiki page, or store copy (see generate-solution §0c). The compilers and `publish-wiki.py` already read
 `meta["branding"]`, so a normal publish preserves whatever was generated. **Do not** run the branded
 `tools/enrich-descriptions.py` against an **unbranded** solution (it injects "The Phoenixtekk way" /

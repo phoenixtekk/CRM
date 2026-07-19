@@ -17,7 +17,7 @@
         The two ring groups exist (created if missing) and any supplied pilot devices are added to
         Ring 1. The script prints each group's object id for use in the app assignment.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Creates Entra security groups; gated by ShouldProcess.
+    Intune Solutions. Creates Entra security groups; gated by ShouldProcess.
 #>
 [CmdletBinding(SupportsShouldProcess)]
 param(

@@ -1,13 +1,13 @@
-# CRM / Workplace Marketplace — project rules
+# CRM / Workplace Solutions — project rules
 
 Project-scoped rules for this repo. These complement the global rules in
-`~/.claude/CLAUDE.md` and the factory memory. This repo is the **Workplace Marketplace
+`~/.claude/CLAUDE.md` and the factory memory. This repo is the **Workplace Solutions
 solution-doc factory** (see `FEATURES.md`, `docs/factory-workflow.md`).
 
 ## Every run that TOUCHES a published product ENDS with a summary of the product URLs
 
 **Standing rule (owner directive, 2026-07-16; trigger widened same day).** Whenever a session
-**touches any product solution that is live in the Workplace Marketplace**, the **last step** is
+**touches any product solution that is live in the Workplace Solutions**, the **last step** is
 always to **report a summary for every product touched in that run** — three things per product:
 **Store link**, **Wiki link** (clickable markdown), **and the local path to that product's
 deliverables**. The owner reviews by clicking, and reuses the built files locally; a run that reports
@@ -75,9 +75,10 @@ handoffs under their own brand, templates, etc.).
 - **Local-only:** the unbranded reuse copy is **not** published to the store or mirrored to
   the wiki by default — it is a local working artifact for the owner. (Branded/productized
   versions still follow the normal publish + §5 wiki-mirror flow.)
-- **Never** put the company name (Phoenixtekk / "Workplace Marketplace" /
-  workplace.phoenixtekk.com) in the unbranded copy — same white-label discipline as the
-  catalog (`branding: off`), verified brand-free.
+- **Never** put the company name (Phoenixtekk / "Workplace Solutions" / the legacy
+  "Workplace Marketplace" / workplace.phoenixtekk.com) in the unbranded copy — same white-label
+  discipline as the catalog (`branding: off`), verified brand-free. (Leak checks grep for BOTH brand
+  phrases — the current name and the legacy one.)
 
 This is part of "done" for any documentation deliverable: a branded copy where sales needs it,
 **and** an unbranded local copy for everything else.

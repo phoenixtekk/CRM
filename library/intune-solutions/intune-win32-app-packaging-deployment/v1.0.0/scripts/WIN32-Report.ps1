@@ -13,7 +13,7 @@
     EXPECTED RESULTS
         A status summary per Win32 app and, with -CsvPath, a per-device CSV (device, app, install state).
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only against Graph.
+    Intune Solutions. Read-only against Graph.
 #>
 [CmdletBinding()]
 param(

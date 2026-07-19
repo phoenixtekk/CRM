@@ -1,6 +1,6 @@
 ---
 name: generate-solution
-description: Stage 1 of the Phoenixtekk Workplace Marketplace factory. Authors a complete, productized IT consulting solution for a given topic (Microsoft Intune / Entra / Defender / etc.) following the Phoenixtekk authoring standard, compiles it to Word+PDF, packages the PowerShell scripts, and emits a schema-conformant bagisto-products.json into the managed solution library ready for /publish-solution. Trigger when the user wants to create/author/generate a new marketplace solution from a topic.
+description: Stage 1 of the Phoenixtekk Workplace Solutions factory. Authors a complete, productized IT consulting solution for a given topic (Microsoft Intune / Entra / Defender / etc.) following the Phoenixtekk authoring standard, compiles it to Word+PDF, packages the PowerShell scripts, and emits a schema-conformant bagisto-products.json into the managed solution library ready for /publish-solution. Trigger when the user wants to create/author/generate a new marketplace solution from a topic.
 ---
 
 # /generate-solution — author a productized marketplace solution
@@ -122,7 +122,7 @@ Record the resolved directive in `solution.meta.json` as `"version_directive"` (
 ## 0c. Branding directive (`Brand:`) — DEFAULT OFF (white-label)
 The request may carry a **branding directive** — a free-form line, part of the **same**
 `/generate-solution` input — that controls whether the **company name and branding (Phoenixtekk,
-"Workplace Marketplace", workplace.phoenixtekk.com)** appear in the generated documentation and
+"Workplace Solutions", workplace.phoenixtekk.com)** appear in the generated documentation and
 materials. Parse it like the other directives:
 - **Topic** = the text before the first marker (`Notes:` / `Version:` / `Brand:`). The directive is
   the value after a line beginning **`Brand:`** (also accept an inline `--brand` / `--no-brand` flag).
@@ -136,10 +136,10 @@ materials. Parse it like the other directives:
 **What the toggle governs (apply consistently across everything the factory generates):**
 | Surface | Unbranded (default) | Branded (`Brand: on`) |
 |---|---|---|
-| Compiled **Word/PDF** (`build-deliverables.py`) | No cover name/subtitle/URL; neutral page footer (title + page). The navy/accent palette stays — it's a neutral document theme, not the company name. | "PHOENIXTEKK" cover, "Workplace Marketplace" subtitle, URL, and "Phoenixtekk ·" footer. |
+| Compiled **Word/PDF** (`build-deliverables.py`) | No cover name/subtitle/URL; neutral page footer (title + page). The navy/accent palette stays — it's a neutral document theme, not the company name. | "PHOENIXTEKK" cover, "Workplace Solutions" subtitle, URL, and "Phoenixtekk ·" footer. |
 | **Hero image** (`build-hero.py`) | Footer shows the **category only** (no company/URL). | "PHOENIXTEKK · <category> · workplace.phoenixtekk.com" footer. |
 | **Source docs** (`source\*.md`) | Use neutral phrasing — e.g. *"the standard deployment model"* / *"the standard pattern"*, **not** "the Phoenixtekk pattern/way". No company name in body text. | The house "Phoenixtekk" phrasing is allowed. |
-| **Scripts** (`scripts\*.ps1` `.NOTES`) | Neutral note line (e.g. *"Intune Solutions — read-only."*), **no** "Phoenixtekk Workplace Marketplace". | Company line allowed. |
+| **Scripts** (`scripts\*.ps1` `.NOTES`) | Neutral note line (e.g. *"Intune Solutions — read-only."*), **no** "Phoenixtekk Workplace Solutions". | Company line allowed. |
 | **Listing / sales copy** (`bagisto-products.json`, `sales-content.md`) | Drop the company name — rename the "The Phoenixtekk way" block to a neutral **"The repeatable way"**; no company name in descriptions. | "The Phoenixtekk way" + company name allowed. |
 
 **How it's enforced:** the two compilers read **`solution.meta.json` → `"branding"`** automatically

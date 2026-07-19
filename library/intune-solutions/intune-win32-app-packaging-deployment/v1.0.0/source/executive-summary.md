@@ -1,6 +1,6 @@
 # Executive Summary — Intune Win32 Application Packaging & Deployment (Microsoft Intune)
 
-**Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 Getting a Windows application onto your fleet shouldn't be a coin flip. Done by hand, app deployments
 fail silently: the installer runs but Intune reports the wrong state, detection rules are guesses,

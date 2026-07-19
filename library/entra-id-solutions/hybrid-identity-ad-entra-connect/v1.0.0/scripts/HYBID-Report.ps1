@@ -16,7 +16,7 @@
         Connector list, recent run results with any error counts, and synced vs. cloud-only user and
         hybrid-joined device counts. No changes are made.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only.
+    Entra ID Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 

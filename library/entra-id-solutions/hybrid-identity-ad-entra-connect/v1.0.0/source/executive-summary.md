@@ -1,6 +1,6 @@
 # Executive Summary — Hybrid Identity with Active Directory & Microsoft Entra Connect
 
-Workplace Marketplace · Entra ID Solutions
+White-label · Entra ID Solutions
 
 Most organizations still run Active Directory on-premises while their apps, devices, and security
 live in the cloud. When the bridge between them is misconfigured you get duplicate accounts, broken

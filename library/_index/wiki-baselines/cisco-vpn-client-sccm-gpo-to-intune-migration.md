@@ -11,7 +11,7 @@
 
 # Executive Summary — Migrating Cisco VPN Client Deployment from SCCM/GPO to Intune
 
-**Workplace Marketplace · Migrations**
+**White-label · Migrations**
 
 Many organizations still push the **Cisco Secure Client (AnyConnect)** and its VPN profile through
 **Configuration Manager (SCCM) packages** and **Group Policy** — on-prem plumbing that assumes a

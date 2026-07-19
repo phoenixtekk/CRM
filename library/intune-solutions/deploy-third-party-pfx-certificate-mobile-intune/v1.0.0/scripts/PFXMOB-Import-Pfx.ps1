@@ -38,7 +38,7 @@
         Confirm with PFXMOB-Discovery.ps1, then assign a "PKCS imported certificate" profile
         (PFX Imported - iOS App Cert - Pilot) to the user/group — the object alone does NOT deploy.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Requires write scope. Privacy: use the neutral
+    Intune Solutions. Requires write scope. Privacy: use the neutral
     placeholder Intune.Cert.<service>@<your-domain> — never a real tenant UPN.
 #>
 [CmdletBinding(SupportsShouldProcess)] param(

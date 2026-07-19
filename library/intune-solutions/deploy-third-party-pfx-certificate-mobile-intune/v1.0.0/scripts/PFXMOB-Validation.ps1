@@ -19,7 +19,7 @@
         Per-profile deployment status for the device; a clear PASS when both the chain profile and the
         delivery profile show Succeeded.
 .NOTES
-    Workplace Marketplace — Intune Solutions. Read-only. Documented Graph endpoints
+    Intune Solutions. Read-only. Documented Graph endpoints
     (deviceManagement/managedDevices and per-device configuration state).
 #>
 [CmdletBinding(DefaultParameterSetName='ByName')] param(

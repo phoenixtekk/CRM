@@ -16,7 +16,7 @@
         "SYNC HEALTHY" when the scheduler is on, the server is not in staging mode, the last run
         succeeded, and the tenant shows on-premises sync enabled.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Read-only.
+    Entra ID Solutions. Read-only.
 #>
 [CmdletBinding()] param()
 

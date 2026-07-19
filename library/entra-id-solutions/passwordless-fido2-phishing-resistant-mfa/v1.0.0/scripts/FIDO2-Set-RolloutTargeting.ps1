@@ -13,7 +13,7 @@
     EXPECTED RESULTS
         The pilot and all-staff groups exist; pilot members (if supplied) are added. Object IDs printed.
 .NOTES
-    Workplace Marketplace — Entra ID Solutions. Additive; does not delete groups or members.
+    Entra ID Solutions. Additive; does not delete groups or members.
 #>
 [CmdletBinding()] param([string[]]$PilotMembers)
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Authentication)) { Install-Module Microsoft.Graph -Scope CurrentUser -Force -AllowClobber }

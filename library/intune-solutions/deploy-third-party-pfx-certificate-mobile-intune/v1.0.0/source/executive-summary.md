@@ -1,6 +1,6 @@
 # Executive Summary — Deploy a Third-Party PFX Certificate to Mobile Devices for App Use (Microsoft Intune)
 
-**Workplace Marketplace · Intune Solutions**
+**White-label · Intune Solutions**
 
 A third-party PFX certificate — one that acts like a software/license credential an app consumes, not
 a standard TLS/SSL web certificate — needs to land on iOS/iPadOS devices through Microsoft Intune so a

@@ -1,5 +1,5 @@
 ---
-title: Workplace Marketplace — Solution-Doc Factory Workflow
+title: Workplace Solutions — Solution-Doc Factory Workflow
 description: End-to-end workflow of the two-stage solution-doc factory (generate → publish) and the daily learning loop.
 published: true
 date: 2026-07-02T00:00:00.000Z
@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2026-07-02T00:00:00.000Z
 ---
 
-# Workplace Marketplace — Solution-Doc Factory Workflow
+# Workplace Solutions — Solution-Doc Factory Workflow
 
 The factory turns a job description / topic into a productized IT solution published across
 three customer-facing surfaces, and learns from human wiki edits over time.
