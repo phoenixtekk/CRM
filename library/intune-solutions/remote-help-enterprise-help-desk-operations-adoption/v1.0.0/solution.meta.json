@@ -1,0 +1,39 @@
+{
+  "slug": "remote-help-enterprise-help-desk-operations-adoption",
+  "title": "Remote Help for the Enterprise Help Desk — Operations, Unattended Access & Adoption at Scale",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "RHELPOPS",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-21",
+  "updated": "2026-07-21",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "IMPORTANT: an existing product 'Remote Help' (slug remote-help) already covers BASE DEPLOYMENT + security model. This product must NOT duplicate it — it is the OPERATIONS/ADOPTION layer ON TOP. Explicitly reference the existing 'Remote Help' deployment product as the prerequisite ('assumes Remote Help is deployed per that product') and do NOT re-teach install/enable/security-model setup. Focus entirely on RBAC role/scope design, unattended-access governance, help-desk workflow, KPIs/reporting, and adoption. Unattended-access availability/behavior is verify-with-Microsoft. Author for a NOVICE admin; imperative exact navigation in required order; name every object created and reuse names verbatim. WHITE-LABEL: never 'Phoenixtekk'/'Workplace Solutions'/'Workplace Marketplace'/client/tenant names — contoso.com only. NEVER invent version/feature/licensing facts: exact Intune portal navigation/blade names, licensing/prereqs, feature availability and behavior, national-cloud endpoints MUST be flagged 'verify against current Microsoft documentation'. Describe concepts confidently; flag specifics. PowerShell (Microsoft.Graph Intune) scripts: read-only discovery/validation/reporting + one -WhatIf-gated state-changer. Do NOT run build/hero/publish tooling; do NOT modify solution.meta.json identity fields or listing/bagisto-products.json."
+  ],
+  "products": [
+    {
+      "sku": "PTK-RHELPOPS-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-RHELPOPS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-RHELPOPS-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "RHELPOPS-Complete-Solution.zip"
+  ],
+  "hero": "RHELPOPS-hero.png"
+}
+

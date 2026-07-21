@@ -2443,5 +2443,40 @@
     "post_id": 12882,
     "status": "draft",
     "category_id": 411
+  },
+  "endpoint-analytics-deployment-optimization-intune": {
+    "post_id": 12887,
+    "status": "draft",
+    "category_id": 411
+  },
+  "proactive-remediations-at-scale-intune": {
+    "post_id": 12889,
+    "status": "draft",
+    "category_id": 411
+  },
+  "anomaly-detection-application-reliability-endpoint-analytics": {
+    "post_id": 12891,
+    "status": "draft",
+    "category_id": 411
+  },
+  "enterprise-app-catalog-deployment-intune": {
+    "post_id": 12893,
+    "status": "draft",
+    "category_id": 411
+  },
+  "winget-microsoft-store-app-management-intune": {
+    "post_id": 12895,
+    "status": "draft",
+    "category_id": 411
+  },
+  "remote-help-enterprise-help-desk-operations-adoption": {
+    "post_id": 12897,
+    "status": "draft",
+    "category_id": 411
+  },
+  "remote-help-gcc-high": {
+    "post_id": 12899,
+    "status": "draft",
+    "category_id": 411
   }
 }

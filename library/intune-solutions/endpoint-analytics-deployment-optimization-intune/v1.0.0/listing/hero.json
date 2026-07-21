@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Endpoint Analytics",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deploy · Baseline · Optimize",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Startup · Reliability · WFA",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "NO EXPERIENCE DATA",
+    "items": [
+      "Slow boots unseen",
+      "Reliability unknown",
+      "Remote readiness blind",
+      "Ticket-driven"
+    ]
+  },
+  "to": {
+    "label": "Measured",
+    "stat": "Baselined · Scored · Improving"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Baseline Scores",
+      "sub": "Startup/Reliability/WFA"
+    },
+    {
+      "icon": "gear",
+      "title": "Enable + Scope",
+      "sub": "Data collection policy"
+    },
+    {
+      "icon": "device",
+      "title": "Startup Analysis",
+      "sub": "Boot/sign-in phases"
+    },
+    {
+      "icon": "shield",
+      "title": "Improvement Loop",
+      "sub": "Prioritized backlog"
+    }
+  ]
+}

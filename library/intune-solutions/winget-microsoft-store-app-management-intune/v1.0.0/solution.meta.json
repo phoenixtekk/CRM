@@ -1,0 +1,39 @@
+{
+  "slug": "winget-microsoft-store-app-management-intune",
+  "title": "Winget & Microsoft Store App Management with Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WINGETSTORE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-21",
+  "updated": "2026-07-21",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NET-NEW: 0 winget/Store-app coverage. Sibling of 'Enterprise App Catalog Deployment in Microsoft Intune' (#4) — cross-reference, do NOT duplicate (catalog = curated prepackaged; this = Store + winget public catalog + self-service). Cross-reference existing 'Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)' for break/fix. Winget-in-Intune specifics + update behavior are verify-with-Microsoft. NOTE: hero 'from' card empty stat on purpose — set from.items to 4 short pains (e.g. 'Package every app','No self-service','Manual updates','User install requests'). Author for a NOVICE admin; imperative exact navigation in required order; name every object created and reuse names verbatim. WHITE-LABEL: never 'Phoenixtekk'/'Workplace Solutions'/'Workplace Marketplace'/client/tenant names — contoso.com only. NEVER invent version/feature/licensing facts: exact Intune portal navigation/blade names, licensing/prereqs, feature availability and behavior, national-cloud endpoints MUST be flagged 'verify against current Microsoft documentation'. Describe concepts confidently; flag specifics. PowerShell (Microsoft.Graph Intune) scripts: read-only discovery/validation/reporting + one -WhatIf-gated state-changer. Do NOT run build/hero/publish tooling; do NOT modify solution.meta.json identity fields or listing/bagisto-products.json."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WINGETSTORE-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WINGETSTORE-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WINGETSTORE-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WINGETSTORE-Complete-Solution.zip"
+  ],
+  "hero": "WINGETSTORE-hero.png"
+}
+

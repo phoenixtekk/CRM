@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Proactive Remediations",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Detect · Remediate · Report",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Script Packs at Scale",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "REACTIVE TICKETS",
+    "items": [
+      "Same fix, again",
+      "One device at a time",
+      "No prevention",
+      "Manual toil"
+    ]
+  },
+  "to": {
+    "label": "Self-Healing",
+    "stat": "Detect · Fix · Verify"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Detect/Remediate",
+      "sub": "Safe script pairs"
+    },
+    {
+      "icon": "shield",
+      "title": "Guardrails",
+      "sub": "Idempotent + dry-run"
+    },
+    {
+      "icon": "chart",
+      "title": "Status Reporting",
+      "sub": "Pass/fail trends"
+    },
+    {
+      "icon": "key",
+      "title": "Pack Library",
+      "sub": "Versioned + governed"
+    }
+  ]
+}

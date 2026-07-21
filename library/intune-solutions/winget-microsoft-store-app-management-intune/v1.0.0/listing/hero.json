@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Store & Winget Apps",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Deploy · Update · Self-Serve",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Company Portal",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "PACKAGE EVERYTHING",
+    "items": [
+      "Package every app",
+      "No self-service",
+      "Manual updates",
+      "User install requests"
+    ]
+  },
+  "to": {
+    "label": "Self-Service",
+    "stat": "Store · Winget · Updated"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Store Apps",
+      "sub": "Winget-backed"
+    },
+    {
+      "icon": "gear",
+      "title": "Winget Long-Tail",
+      "sub": "Beyond the Store"
+    },
+    {
+      "icon": "users",
+      "title": "Self-Service",
+      "sub": "Company Portal"
+    },
+    {
+      "icon": "chart",
+      "title": "Updates",
+      "sub": "Stay current"
+    }
+  ]
+}

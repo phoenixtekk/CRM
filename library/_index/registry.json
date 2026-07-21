@@ -26286,6 +26286,171 @@
     "product_count": 3
   },
   {
+    "title": "Anomaly Detection & Application Reliability with Endpoint Analytics",
+    "slug": "anomaly-detection-application-reliability-endpoint-analytics",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ENDPTREL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENDPTREL-COMM-001",
+      "PTK-ENDPTREL-NPO-001",
+      "PTK-ENDPTREL-GOV-001"
+    ],
+    "deliverables": [
+      "ENDPTREL-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\anomaly-detection-application-reliability-endpoint-analytics\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/02-requirements.md",
+          "kb": 7.4
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/03-implementation.md",
+          "kb": 12.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/05-testing.md",
+          "kb": 6.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENDPTREL-Discovery.ps1",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/scripts/ENDPTREL-Discovery.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "ENDPTREL-Report.ps1",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/scripts/ENDPTREL-Report.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "ENDPTREL-Set-ReviewScope.ps1",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/scripts/ENDPTREL-Set-ReviewScope.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "ENDPTREL-Test-Signal.ps1",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/scripts/ENDPTREL-Test-Signal.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "ENDPTREL-Validate.ps1",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/scripts/ENDPTREL-Validate.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENDPTREL-Complete-Solution.zip",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-Complete-Solution.zip",
+          "kb": 110.3
+        },
+        {
+          "name": "ENDPTREL-hero.png",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-hero.png",
+          "kb": 422.6
+        },
+        {
+          "name": "ENDPTREL-hero.svg",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "ENDPTREL-Scripts.zip",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-Scripts.zip",
+          "kb": 9.2
+        },
+        {
+          "name": "ENDPTREL-Solution.docx",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-Solution.docx",
+          "kb": 58.3
+        },
+        {
+          "name": "ENDPTREL-Solution.pdf",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-Solution.pdf",
+          "kb": 63.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/solution.meta.json",
+          "kb": 2.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/anomaly-detection-application-reliability-endpoint-analytics/v1.0.0/deliverables/ENDPTREL-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Application Control (WDAC)",
     "slug": "application-control-wdac",
     "category": "Intune",
@@ -29455,6 +29620,171 @@
     "product_count": 1
   },
   {
+    "title": "Endpoint Analytics Deployment & Optimization in Microsoft Intune — Startup, Reliability & Work-From-Anywhere Scores",
+    "slug": "endpoint-analytics-deployment-optimization-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ENDPTAN",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-ENDPTAN-COMM-001",
+      "PTK-ENDPTAN-NPO-001",
+      "PTK-ENDPTAN-GOV-001"
+    ],
+    "deliverables": [
+      "ENDPTAN-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\endpoint-analytics-deployment-optimization-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/02-requirements.md",
+          "kb": 8.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/03-implementation.md",
+          "kb": 10.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENDPTAN-Discovery.ps1",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/scripts/ENDPTAN-Discovery.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "ENDPTAN-Report.ps1",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/scripts/ENDPTAN-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "ENDPTAN-Set-DataCollection.ps1",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/scripts/ENDPTAN-Set-DataCollection.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "ENDPTAN-Test-DataFlow.ps1",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/scripts/ENDPTAN-Test-DataFlow.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "ENDPTAN-Validate.ps1",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/scripts/ENDPTAN-Validate.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENDPTAN-Complete-Solution.zip",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-Complete-Solution.zip",
+          "kb": 103.9
+        },
+        {
+          "name": "ENDPTAN-hero.png",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-hero.png",
+          "kb": 438.4
+        },
+        {
+          "name": "ENDPTAN-hero.svg",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "ENDPTAN-Scripts.zip",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-Scripts.zip",
+          "kb": 9.0
+        },
+        {
+          "name": "ENDPTAN-Solution.docx",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-Solution.docx",
+          "kb": 56.2
+        },
+        {
+          "name": "ENDPTAN-Solution.pdf",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-Solution.pdf",
+          "kb": 57.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0/deliverables/ENDPTAN-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Endpoint Privilege Management (EPM)",
     "slug": "endpoint-privilege-management",
     "category": "Intune",
@@ -29782,6 +30112,171 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/endpoint-security-baselines/v1.0.0/deliverables/ESB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enterprise App Catalog Deployment in Microsoft Intune — Prepackaged Win32 Apps & Auto-Update",
+    "slug": "enterprise-app-catalog-deployment-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ENTAPPCAT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-ENTAPPCAT-COMM-001",
+      "PTK-ENTAPPCAT-NPO-001",
+      "PTK-ENTAPPCAT-GOV-001"
+    ],
+    "deliverables": [
+      "ENTAPPCAT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\enterprise-app-catalog-deployment-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/03-implementation.md",
+          "kb": 6.9
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 2.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENTAPPCAT-Discovery.ps1",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/scripts/ENTAPPCAT-Discovery.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "ENTAPPCAT-Report.ps1",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/scripts/ENTAPPCAT-Report.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "ENTAPPCAT-Set-Assignment.ps1",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/scripts/ENTAPPCAT-Set-Assignment.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "ENTAPPCAT-Test-Install.ps1",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/scripts/ENTAPPCAT-Test-Install.ps1",
+          "kb": 2.5
+        },
+        {
+          "name": "ENTAPPCAT-Validate.ps1",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/scripts/ENTAPPCAT-Validate.ps1",
+          "kb": 3.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENTAPPCAT-Complete-Solution.zip",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-Complete-Solution.zip",
+          "kb": 95.6
+        },
+        {
+          "name": "ENTAPPCAT-hero.png",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-hero.png",
+          "kb": 497.1
+        },
+        {
+          "name": "ENTAPPCAT-hero.svg",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "ENTAPPCAT-Scripts.zip",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-Scripts.zip",
+          "kb": 8.0
+        },
+        {
+          "name": "ENTAPPCAT-Solution.docx",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-Solution.docx",
+          "kb": 53.0
+        },
+        {
+          "name": "ENTAPPCAT-Solution.pdf",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-Solution.pdf",
+          "kb": 52.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/solution.meta.json",
+          "kb": 2.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-hero.png",
     "product_count": 3
   },
   {
@@ -35138,6 +35633,171 @@
     "product_count": 3
   },
   {
+    "title": "Proactive Remediations at Scale — Detection & Remediation Script Packs for Microsoft Intune",
+    "slug": "proactive-remediations-at-scale-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "PROREM",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-PROREM-COMM-001",
+      "PTK-PROREM-NPO-001",
+      "PTK-PROREM-GOV-001"
+    ],
+    "deliverables": [
+      "PROREM-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\proactive-remediations-at-scale-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/02-requirements.md",
+          "kb": 8.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/03-implementation.md",
+          "kb": 11.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "PROREM-Detect-Template.ps1",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/scripts/PROREM-Detect-Template.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "PROREM-Discovery.ps1",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/scripts/PROREM-Discovery.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "PROREM-Remediate-Template.ps1",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/scripts/PROREM-Remediate-Template.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "PROREM-Report.ps1",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/scripts/PROREM-Report.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "PROREM-Validate.ps1",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/scripts/PROREM-Validate.ps1",
+          "kb": 3.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "PROREM-Complete-Solution.zip",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-Complete-Solution.zip",
+          "kb": 106.4
+        },
+        {
+          "name": "PROREM-hero.png",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-hero.png",
+          "kb": 432.6
+        },
+        {
+          "name": "PROREM-hero.svg",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "PROREM-Scripts.zip",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-Scripts.zip",
+          "kb": 8.6
+        },
+        {
+          "name": "PROREM-Solution.docx",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-Solution.docx",
+          "kb": 58.1
+        },
+        {
+          "name": "PROREM-Solution.pdf",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-Solution.pdf",
+          "kb": 59.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Remote Help",
     "slug": "remote-help",
     "category": "Intune",
@@ -35300,6 +35960,341 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/remote-help/v1.0.0/deliverables/RHELP-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Remote Help — Government (GCC High) Edition",
+    "slug": "remote-help-gcc-high",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "RHELPG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-RHELPG-COMM-001",
+      "PTK-RHELPG-NPO-001",
+      "PTK-RHELPG-GOV-001"
+    ],
+    "deliverables": [
+      "RHELPG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\remote-help-gcc-high\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/02-requirements.md",
+          "kb": 10.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/03-implementation.md",
+          "kb": 8.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/05-testing.md",
+          "kb": 3.8
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/07-best-practices.md",
+          "kb": 2.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "gcc-high-parity-notes.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/gcc-high-parity-notes.md",
+          "kb": 8.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "RHELPG-Discovery.ps1",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/scripts/RHELPG-Discovery.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "RHELPG-Report.ps1",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/scripts/RHELPG-Report.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "RHELPG-Set-RoleScope.ps1",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/scripts/RHELPG-Set-RoleScope.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "RHELPG-Test-Endpoints.ps1",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/scripts/RHELPG-Test-Endpoints.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "RHELPG-Validate.ps1",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/scripts/RHELPG-Validate.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "RHELPG-Complete-Solution.zip",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-Complete-Solution.zip",
+          "kb": 119.1
+        },
+        {
+          "name": "RHELPG-hero.png",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-hero.png",
+          "kb": 402.0
+        },
+        {
+          "name": "RHELPG-hero.svg",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "RHELPG-Scripts.zip",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "RHELPG-Solution.docx",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-Solution.docx",
+          "kb": 59.5
+        },
+        {
+          "name": "RHELPG-Solution.pdf",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-Solution.pdf",
+          "kb": 73.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/remote-help-gcc-high/v1.0.0/solution.meta.json",
+          "kb": 2.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 10,
+    "hero_href": "../intune-solutions/remote-help-gcc-high/v1.0.0/deliverables/RHELPG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Remote Help for the Enterprise Help Desk — Operations, Unattended Access & Adoption at Scale",
+    "slug": "remote-help-enterprise-help-desk-operations-adoption",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "RHELPOPS",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-RHELPOPS-COMM-001",
+      "PTK-RHELPOPS-NPO-001",
+      "PTK-RHELPOPS-GOV-001"
+    ],
+    "deliverables": [
+      "RHELPOPS-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\remote-help-enterprise-help-desk-operations-adoption\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.5
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/02-requirements.md",
+          "kb": 6.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/03-implementation.md",
+          "kb": 11.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/05-testing.md",
+          "kb": 4.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "RHELPOPS-Discovery.ps1",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/scripts/RHELPOPS-Discovery.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "RHELPOPS-Report.ps1",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/scripts/RHELPOPS-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "RHELPOPS-Set-RoleScope.ps1",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/scripts/RHELPOPS-Set-RoleScope.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "RHELPOPS-Test-Scope.ps1",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/scripts/RHELPOPS-Test-Scope.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "RHELPOPS-Validate.ps1",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/scripts/RHELPOPS-Validate.ps1",
+          "kb": 5.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "RHELPOPS-Complete-Solution.zip",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-Complete-Solution.zip",
+          "kb": 105.9
+        },
+        {
+          "name": "RHELPOPS-hero.png",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-hero.png",
+          "kb": 476.6
+        },
+        {
+          "name": "RHELPOPS-hero.svg",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "RHELPOPS-Scripts.zip",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-Scripts.zip",
+          "kb": 9.8
+        },
+        {
+          "name": "RHELPOPS-Solution.docx",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-Solution.docx",
+          "kb": 55.5
+        },
+        {
+          "name": "RHELPOPS-Solution.pdf",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-Solution.pdf",
+          "kb": 60.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/remote-help-enterprise-help-desk-operations-adoption/v1.0.0/deliverables/RHELPOPS-hero.png",
     "product_count": 3
   },
   {
@@ -36798,6 +37793,171 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/windows-updates-for-business/v1.0.0/deliverables/WUFB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Winget & Microsoft Store App Management with Microsoft Intune",
+    "slug": "winget-microsoft-store-app-management-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "WINGETSTORE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-21",
+    "updated": "2026-07-21",
+    "published_at": "2026-06-13",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-WINGETSTORE-COMM-001",
+      "PTK-WINGETSTORE-NPO-001",
+      "PTK-WINGETSTORE-GOV-001"
+    ],
+    "deliverables": [
+      "WINGETSTORE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\winget-microsoft-store-app-management-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/03-implementation.md",
+          "kb": 7.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/05-testing.md",
+          "kb": 3.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 2.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WINGETSTORE-Discovery.ps1",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/scripts/WINGETSTORE-Discovery.ps1",
+          "kb": 2.7
+        },
+        {
+          "name": "WINGETSTORE-Report.ps1",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/scripts/WINGETSTORE-Report.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "WINGETSTORE-Set-Assignment.ps1",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/scripts/WINGETSTORE-Set-Assignment.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "WINGETSTORE-Test-Install.ps1",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/scripts/WINGETSTORE-Test-Install.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "WINGETSTORE-Validate.ps1",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/scripts/WINGETSTORE-Validate.ps1",
+          "kb": 3.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WINGETSTORE-Complete-Solution.zip",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-Complete-Solution.zip",
+          "kb": 98.4
+        },
+        {
+          "name": "WINGETSTORE-hero.png",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-hero.png",
+          "kb": 405.6
+        },
+        {
+          "name": "WINGETSTORE-hero.svg",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-hero.svg",
+          "kb": 5.8
+        },
+        {
+          "name": "WINGETSTORE-Scripts.zip",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-Scripts.zip",
+          "kb": 8.1
+        },
+        {
+          "name": "WINGETSTORE-Solution.docx",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-Solution.docx",
+          "kb": 53.9
+        },
+        {
+          "name": "WINGETSTORE-Solution.pdf",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-Solution.pdf",
+          "kb": 55.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 14.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/README.md",
+          "kb": 0.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/winget-microsoft-store-app-management-intune/v1.0.0/deliverables/WINGETSTORE-hero.png",
     "product_count": 3
   },
   {

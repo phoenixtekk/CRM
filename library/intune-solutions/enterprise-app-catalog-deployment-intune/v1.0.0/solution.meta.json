@@ -1,0 +1,39 @@
+{
+  "slug": "enterprise-app-catalog-deployment-intune",
+  "title": "Enterprise App Catalog Deployment in Microsoft Intune — Prepackaged Win32 Apps & Auto-Update",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ENTAPPCAT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-21",
+  "updated": "2026-07-21",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NET-NEW: the Intune ENTERPRISE APP CATALOG feature has 0 coverage. Do NOT confuse or duplicate with 'Enterprise App & Service Principal Governance (App Registrations, API Permissions)' — that is ENTRA app registrations, a totally different thing; you may add a one-line disambiguation. Cross-reference (do NOT reproduce): 'Winget & Microsoft Store App Management with Microsoft Intune' (#5, sibling) and 'Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store)' (existing break/fix). Whether a given app is in the catalog + exact update-management behavior are verify-with-Microsoft. NOTE: hero 'from' card has an empty stat on purpose — set from.items to 4 short pains (e.g. 'Wrap every installer','Write detection rules','Chase new versions','Manual updates'). Author for a NOVICE admin; imperative exact navigation in required order; name every object created and reuse names verbatim. WHITE-LABEL: never 'Phoenixtekk'/'Workplace Solutions'/'Workplace Marketplace'/client/tenant names — contoso.com only. NEVER invent version/feature/licensing facts: exact Intune portal navigation/blade names, licensing/prereqs, feature availability and behavior, national-cloud endpoints MUST be flagged 'verify against current Microsoft documentation'. Describe concepts confidently; flag specifics. PowerShell (Microsoft.Graph Intune) scripts: read-only discovery/validation/reporting + one -WhatIf-gated state-changer. Do NOT run build/hero/publish tooling; do NOT modify solution.meta.json identity fields or listing/bagisto-products.json."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENTAPPCAT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-ENTAPPCAT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-ENTAPPCAT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "ENTAPPCAT-Complete-Solution.zip"
+  ],
+  "hero": "ENTAPPCAT-hero.png"
+}
+

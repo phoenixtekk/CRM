@@ -1,0 +1,39 @@
+{
+  "slug": "endpoint-analytics-deployment-optimization-intune",
+  "title": "Endpoint Analytics Deployment & Optimization in Microsoft Intune — Startup, Reliability & Work-From-Anywhere Scores",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ENDPTAN",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-21",
+  "updated": "2026-07-21",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NET-NEW: catalog had 0 Endpoint Analytics coverage. FLAGSHIP of a 3-product Endpoint Analytics cluster. Point to (do NOT reproduce) the SIBLINGS: 'Proactive Remediations at Scale — Detection & Remediation Script Packs for Microsoft Intune' (#2, the remediation engine) and 'Anomaly Detection & Application Reliability with Endpoint Analytics' (#3, the reliability/anomaly deep-dive). Cover all four score areas at a working level; defer the deep script-authoring to #2 and the deep reliability/anomaly analysis to #3. Author for a NOVICE admin; imperative exact navigation in required order; name every object created and reuse names verbatim. WHITE-LABEL: never 'Phoenixtekk'/'Workplace Solutions'/'Workplace Marketplace'/client/tenant names — contoso.com only. NEVER invent version/feature/licensing facts: exact Intune portal navigation/blade names, licensing/prereqs, feature availability and behavior, national-cloud endpoints MUST be flagged 'verify against current Microsoft documentation'. Describe concepts confidently; flag specifics. PowerShell (Microsoft.Graph Intune) scripts: read-only discovery/validation/reporting + one -WhatIf-gated state-changer. Do NOT run build/hero/publish tooling; do NOT modify solution.meta.json identity fields or listing/bagisto-products.json."
+  ],
+  "products": [
+    {
+      "sku": "PTK-ENDPTAN-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-ENDPTAN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-ENDPTAN-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "ENDPTAN-Complete-Solution.zip"
+  ],
+  "hero": "ENDPTAN-hero.png"
+}
+

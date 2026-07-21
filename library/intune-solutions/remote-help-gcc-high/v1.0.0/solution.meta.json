@@ -1,0 +1,39 @@
+{
+  "slug": "remote-help-gcc-high",
+  "title": "Remote Help — Government (GCC High) Edition",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "RHELPG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-21",
+  "updated": "2026-07-21",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "GOVERNMENT (GCC HIGH) EDITION of the existing 'Remote Help' product (slug remote-help). Follow the catalog's GCC High pattern: title + ' — Government (GCC High)', include a gcc-high-parity-notes.md, national-cloud endpoints (login.microsoftonline.us / graph.microsoft.us / DoD dod-graph.microsoft.us / portal/security.azure.us), same 3-tier pricing. CRITICAL/HONEST: whether Remote Help is even AVAILABLE in GCC High/DoD is the #1 verify-with-Microsoft item — the product must ESTABLISH availability against current Microsoft docs BEFORE build steps, and if it is not available, say so plainly and give the compliant alternative rather than fabricating a deployment. Do NOT assert commercial parity. Author for a NOVICE admin; imperative exact navigation in required order; name every object created and reuse names verbatim. WHITE-LABEL: never 'Phoenixtekk'/'Workplace Solutions'/'Workplace Marketplace'/client/tenant names — contoso.com only. NEVER invent version/feature/licensing facts: exact Intune portal navigation/blade names, licensing/prereqs, feature availability and behavior, national-cloud endpoints MUST be flagged 'verify against current Microsoft documentation'. Describe concepts confidently; flag specifics. PowerShell (Microsoft.Graph Intune) scripts: read-only discovery/validation/reporting + one -WhatIf-gated state-changer. Do NOT run build/hero/publish tooling; do NOT modify solution.meta.json identity fields or listing/bagisto-products.json."
+  ],
+  "products": [
+    {
+      "sku": "PTK-RHELPG-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-RHELPG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-RHELPG-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "RHELPG-Complete-Solution.zip"
+  ],
+  "hero": "RHELPG-hero.png"
+}
+

@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Remote Help",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Government (GCC High)",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Sovereign-Cloud Verified",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "COMMERCIAL ASSUMED",
+    "items": [
+      "Parity assumed",
+      "Wrong endpoints",
+      "Availability unknown",
+      "Compliance risk"
+    ]
+  },
+  "to": {
+    "label": "Sovereign-Ready",
+    "stat": "Verified · Endpoints · Parity"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "shield",
+      "title": "GCC High",
+      "sub": "Sovereign cloud"
+    },
+    {
+      "icon": "key",
+      "title": "Availability First",
+      "sub": "Verify, don't assume"
+    },
+    {
+      "icon": "cloud",
+      "title": "Gov Endpoints",
+      "sub": "National cloud"
+    },
+    {
+      "icon": "chart",
+      "title": "Parity Notes",
+      "sub": "Gaps + alternatives"
+    }
+  ]
+}

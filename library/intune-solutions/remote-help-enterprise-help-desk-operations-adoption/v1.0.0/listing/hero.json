@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Remote Help Ops",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Help-Desk at Scale",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Roles · Unattended · Adoption",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "INSTALLED, NOT RUN",
+    "items": [
+      "No role model",
+      "Ad-hoc sessions",
+      "No metrics",
+      "Low adoption"
+    ]
+  },
+  "to": {
+    "label": "Operational",
+    "stat": "Scoped · Governed · Adopted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Role & Scope",
+      "sub": "Help-desk tiers"
+    },
+    {
+      "icon": "key",
+      "title": "Unattended Access",
+      "sub": "Governed + consented"
+    },
+    {
+      "icon": "gear",
+      "title": "Session Workflow",
+      "sub": "Ticket + escalation"
+    },
+    {
+      "icon": "chart",
+      "title": "Adoption + KPIs",
+      "sub": "Outcome reporting"
+    }
+  ]
+}

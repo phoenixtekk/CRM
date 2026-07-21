@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Reliability & Anomalies",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "App + Device Reliability",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Detect Regressions Early",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HIDDEN REGRESSIONS",
+    "items": [
+      "App crashes unseen",
+      "Restart spikes",
+      "Bad rollouts late",
+      "Ticket waves"
+    ]
+  },
+  "to": {
+    "label": "Reliable",
+    "stat": "Detected · Triaged · Prevented"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "App Reliability",
+      "sub": "Crash/hang by version"
+    },
+    {
+      "icon": "device",
+      "title": "Restart Analytics",
+      "sub": "Unexpected restarts"
+    },
+    {
+      "icon": "shield",
+      "title": "Anomaly Detection",
+      "sub": "Fleet regressions early"
+    },
+    {
+      "icon": "gear",
+      "title": "Close the Loop",
+      "sub": "Route to the fix"
+    }
+  ]
+}

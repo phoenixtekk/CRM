@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Enterprise App Catalog",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Prepackaged Win32",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Deploy Â· Auto-Update",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "HAND-PACKAGING",
+    "items": [
+      "Wrap every installer",
+      "Write detection rules",
+      "Chase new versions",
+      "Manual updates"
+    ]
+  },
+  "to": {
+    "label": "Curated",
+    "stat": "Prepackaged Â· Updated Â· Piloted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "cloud",
+      "title": "Catalog Apps",
+      "sub": "Curated + prepackaged"
+    },
+    {
+      "icon": "gear",
+      "title": "No Re-Wrapping",
+      "sub": "Built-in detection"
+    },
+    {
+      "icon": "chart",
+      "title": "Update Mgmt",
+      "sub": "Stay current auto"
+    },
+    {
+      "icon": "device",
+      "title": "Piloted Rollout",
+      "sub": "Ring-based"
+    }
+  ]
+}
