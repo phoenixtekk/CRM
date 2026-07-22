@@ -1,0 +1,39 @@
+{
+  "slug": "vpn-tunnel-health-monitoring-alerting-intune",
+  "title": "VPN Tunnel Health Monitoring & Alerting in Microsoft Intune — Scheduled Connectivity Health Checks, Telemetry & Alerts",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "VPNHEALTH",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-22",
+  "updated": "2026-07-22",
+  "published_at": "2026-06-13",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "NET-NEW monitoring layer. GAP-DEDUPED (cross-reference, do NOT reproduce): 'Microsoft Tunnel Gateway — Deployment, VPN Configuration & Ongoing Operations' OWNS Microsoft Tunnel gateway-SERVER health/status in Intune — this product defers server health to it and focuses on ENDPOINT-SIDE scheduled health checks across VPN types; 'Windows Always On VPN' (device + user tunnel) products, the Cisco Secure Client / ISE VPN products, and 'Endpoint Network Connectivity Troubleshooting Toolkit' own DEPLOYMENT and reactive break/fix respectively — this is proactive ongoing MONITORING/health-checks/alerting, not deployment or one-off troubleshooting. The health-check probes use the Proactive Remediations DETECTION model (reference 'Proactive Remediations at Scale' as the engine, do NOT reproduce it). Scripts = PowerShell (device-side connectivity probes: adapter/profile/route/DNS/cert checks — READ-ONLY, no tunnel changes) + Microsoft.Graph (deploy/report the health-check package) + KQL (fleet health rollup). Everything version/feature-specific (Proactive Remediations behavior, Log Analytics/Intune data paths, Tunnel health APIs, national-cloud) flagged verify-with-Microsoft. White-label; least intrusive (checks never modify the tunnel)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-VPNHEALTH-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-VPNHEALTH-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-VPNHEALTH-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "VPNHEALTH-Complete-Solution.zip"
+  ],
+  "hero": "VPNHEALTH-hero.png"
+}
+

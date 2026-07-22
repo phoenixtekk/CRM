@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "VPN Tunnel Health",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Monitoring & Alerts",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Scheduled Checks · Telemetry",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "BLIND TO OUTAGES",
+    "items": [
+      "Found out by tickets",
+      "No health signal",
+      "Cert expiries surprise",
+      "Silent gateway drops"
+    ]
+  },
+  "to": {
+    "label": "Proactive",
+    "stat": "Checked · Reported · Alerted"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Scheduled Checks",
+      "sub": "Endpoint-side probes"
+    },
+    {
+      "icon": "shield",
+      "title": "Health Signals",
+      "sub": "Tunnel/route/DNS/cert"
+    },
+    {
+      "icon": "gear",
+      "title": "Telemetry",
+      "sub": "Fleet dashboards + KQL"
+    },
+    {
+      "icon": "key",
+      "title": "Alerting",
+      "sub": "Before the ticket wave"
+    }
+  ]
+}

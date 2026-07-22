@@ -36965,6 +36965,171 @@
     "product_count": 3
   },
   {
+    "title": "VPN Tunnel Health Monitoring & Alerting in Microsoft Intune — Scheduled Connectivity Health Checks, Telemetry & Alerts",
+    "slug": "vpn-tunnel-health-monitoring-alerting-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "VPNHEALTH",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-22",
+    "updated": "2026-07-22",
+    "published_at": "2026-06-13",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-VPNHEALTH-COMM-001",
+      "PTK-VPNHEALTH-NPO-001",
+      "PTK-VPNHEALTH-GOV-001"
+    ],
+    "deliverables": [
+      "VPNHEALTH-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\vpn-tunnel-health-monitoring-alerting-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 12.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/02-requirements.md",
+          "kb": 11.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/03-implementation.md",
+          "kb": 12.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/05-testing.md",
+          "kb": 6.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 10.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 5.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.2
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "VPNHEALTH-Deploy-HealthCheck.ps1",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/scripts/VPNHEALTH-Deploy-HealthCheck.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "VPNHEALTH-Detect-TunnelHealth.ps1",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/scripts/VPNHEALTH-Detect-TunnelHealth.ps1",
+          "kb": 9.5
+        },
+        {
+          "name": "VPNHEALTH-Discovery.ps1",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/scripts/VPNHEALTH-Discovery.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "VPNHEALTH-Report.ps1",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/scripts/VPNHEALTH-Report.ps1",
+          "kb": 6.7
+        },
+        {
+          "name": "VPNHEALTH-Validate.ps1",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/scripts/VPNHEALTH-Validate.ps1",
+          "kb": 4.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "VPNHEALTH-Complete-Solution.zip",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-Complete-Solution.zip",
+          "kb": 129.4
+        },
+        {
+          "name": "VPNHEALTH-hero.png",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-hero.png",
+          "kb": 417.4
+        },
+        {
+          "name": "VPNHEALTH-hero.svg",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "VPNHEALTH-Scripts.zip",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-Scripts.zip",
+          "kb": 12.8
+        },
+        {
+          "name": "VPNHEALTH-Solution.docx",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-Solution.docx",
+          "kb": 63.9
+        },
+        {
+          "name": "VPNHEALTH-Solution.pdf",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-Solution.pdf",
+          "kb": 76.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/listing/sales-content.md",
+          "kb": 0.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/README.md",
+          "kb": 0.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/solution.meta.json",
+          "kb": 2.2
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/vpn-tunnel-health-monitoring-alerting-intune/v1.0.0/deliverables/VPNHEALTH-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows Autopilot",
     "slug": "windows-autopilot",
     "category": "Intune",
