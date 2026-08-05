@@ -1,0 +1,41 @@
+{
+  "slug": "intune-wifi-profile-deployment-management-windows-ios-android",
+  "title": "Intune Wi-Fi Profile Deployment & Management (Windows, iOS & Android)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "WIFIMGT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-08-05",
+  "updated": "2026-08-05",
+  "published_at": "2026-08-05",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — cross-platform Wi-Fi profile deployment (multi-component within Intune across Windows + iOS/iPadOS + Android Enterprise; 3 platforms, conditional per-platform authoring).",
+    "Government decision: gov_variant = false. Wi-Fi configuration-profile fields, options, and portal navigation are identical for GCC/GCC High/DoD; only the host (intune.microsoft.us) and Graph endpoint (graph.microsoft.us / Connect-MgGraph -Environment USGov|USGovDoD) differ. Documented inline (Step 0 + R9). No material setup difference warrants a separate Government deliverable. GCC High feature-rollout lag flagged 'verify for GCC High'.",
+    "Verified facts against Microsoft Learn (2026-08): Wi-Fi settings for Windows (https://learn.microsoft.com/en-us/intune/intune-service/configuration/wi-fi-settings-windows) — Wi-Fi type Basic/Enterprise, 'Wi-Fi name (SSID)' + 'Connection name', 'Connect automatically when in range', 'Connect to this network, even when it is not broadcasting its SSID', Wireless Security Type Open / WPA/WPA2-Personal (Pre-shared key), EAP types EAP-TLS/EAP-TTLS/PEAP, 'Company proxy settings' None / Manually configure (Proxy server IP address + Port number) / Automatically configure (PAC URL). Apple (https://learn.microsoft.com/en-us/intune/intune-service/configuration/wi-fi-settings-apple) — 'Network name' + 'SSID', 'Connect automatically' Enable/Disable, 'Hidden network', Security type WPA/WPA2-Personal + WPA2/WPA3-Personal + WPA3-Personal, Enterprise WPA-Enterprise/WPA-WPA2-Enterprise, Proxy None / Manual (Proxy server address IP + Port) / Automatic (Proxy server URL). Android Enterprise (https://learn.microsoft.com/en-us/intune/intune-service/configuration/wi-fi-settings-android-enterprise) — Templates profile; corporate-owned vs personally-owned work profile differ (work profile: no Connect automatically, proxy None/Automatic only, EAP cert SAN must include UPN); Security Open / WPA-Pre-shared key (WEP deprecated Android 12+); EAP-TLS/EAP-TTLS/PEAP with Radius server name + Root certificate + Certificates (SCEP/PKCS). Navigation (https://learn.microsoft.com/en-us/intune/intune-service/configuration/wi-fi-settings-configure): Devices > Manage devices > Configuration > Create > New policy > Platform + Templates > Wi-Fi.",
+    "Dedupe boundary: this product OWNS operational Wi-Fi profile deployment/management across Windows+iOS+Android (author, assign pilot->prod, update/supersede, validate). It DEFERS the deep 802.1X certificate build (SCEP/PKCS client cert, trusted root, Cisco ISE RADIUS/EAP-TLS policy) to the existing 'cisco-ise-8021x-certificate-wifi-wired-intune' (ISE8021X) product and only references those cert objects. It DEFERS deep 'changes not applying' diagnosis to the sibling WIFIDX troubleshooting product (intune-wifi-profile-remediation-changes-not-applying), pointing to it from troubleshooting rather than reproducing a full diagnostic."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WIFIMGT-COMM-001",
+      "audience": "commercial",
+      "price": 2295.0
+    },
+    {
+      "sku": "PTK-WIFIMGT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1377.0
+    },
+    {
+      "sku": "PTK-WIFIMGT-GOV-001",
+      "audience": "government",
+      "price": 1950.75
+    }
+  ],
+  "deliverables": [
+    "WIFIMGT-Complete-Solution.zip"
+  ],
+  "hero": "WIFIMGT-hero.png"
+}

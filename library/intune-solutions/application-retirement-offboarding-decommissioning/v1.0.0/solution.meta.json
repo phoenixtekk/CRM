@@ -1,0 +1,40 @@
+{
+  "slug": "application-retirement-offboarding-decommissioning",
+  "title": "Application Retirement, Offboarding & Decommissioning (Microsoft Intune)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPRET",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — multi-phase removal with license/data reclamation. Multi-component within one platform (Intune app assignment intents, supersedence, Entra groups, app-control/CA artefact cleanup) with conditional logic and irreversible operations; priced at $2,295 in the T3 band, above single-feature T2/T3 Intune solutions to reflect the multi-stage campaign + data/license reclamation effort, below the WSUS/troubleshooting T3 anchors that carry heavier tooling.",
+    "gov_variant decision: false. Research (Microsoft Learn US Government endpoints / Graph national cloud deployments) confirms the retirement MECHANICS (Uninstall intent, supersedence, wave targeting, artefact cleanup) are identical in GCC High / DoD; only portal + service + Graph endpoints differ (portal.azure.us, login.microsoftonline.us, manage.microsoft.us, graph.microsoft.us / dod-graph.microsoft.us). Documented inline (Overview endpoint table + every script accepts -Environment USGov/USGovDoD). No separate Government deliverable required. Where a control's sovereign availability is uncertain, guide says 'verify for GCC High'.",
+    "overlap boundary: this product owns the retirement PROCESS and the planned removal CAMPAIGN (decision record, impact analysis, staged uninstall waves, data/license reclamation, artefact cleanup, evidence pack). The sibling 'win32-app-uninstall-removal-failure-remediation' owns DEEP per-device Win32 uninstall FAILURE debugging. A per-device installer-level uninstall error here is treated as a straggler to be counted, contained, and ESCALATED to that sibling discipline — not re-diagnosed. Troubleshooting section is kept campaign-level (devices not checking in, partial fleet removal, Required-beats-Uninstall, reappearance, reporting gaps)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPRET-COMM-001",
+      "audience": "commercial",
+      "price": 2295.0
+    },
+    {
+      "sku": "PTK-APPRET-NPO-001",
+      "audience": "nonprofit",
+      "price": 1377.0
+    },
+    {
+      "sku": "PTK-APPRET-GOV-001",
+      "audience": "government",
+      "price": 1950.75
+    }
+  ],
+  "deliverables": [
+    "APPRET-Complete-Solution.zip"
+  ],
+  "hero": "APPRET-hero.png"
+}

@@ -1,0 +1,26 @@
+{
+  "_README": [
+    "android-managed-config.json — SAMPLE Android Enterprise managed-configuration document.",
+    "",
+    "HOW TO USE (Intune → Apps → App configuration policies → Create → Managed devices →",
+    "Platform = Android Enterprise → Targeted app = your managed Google Play app):",
+    "  * PREFER the Configuration designer. On Android you do NOT type key names — Intune reads the",
+    "    app's managed-configuration SCHEMA from managed Google Play and renders each key. Fill in",
+    "    values there. Keys the app did not publish cannot be set.",
+    "  * Use raw JSON (this format) only when you must supply a whole managed-configuration document",
+    "    (e.g. an OEMConfig-style bundle). Map each value to the schema's exact key.",
+    "",
+    "KEY NAMES ARE SCHEMA-DEFINED by the app vendor — the keys below are PLACEHOLDERS. Confirm them",
+    "in the app's managed-configuration schema (shown in the Intune designer) / vendor docs.",
+    "HOSTNAME, NOT URL: server_host is a bare hostname — no https://, no path/slash."
+  ],
+  "kind": "androidenterprise#managedConfiguration",
+  "managedProperty": [
+    { "key": "server_host", "valueString": "app.example.com" },
+    { "key": "tenant", "valueString": "contoso" },
+    { "key": "environment", "valueString": "production" },
+    { "key": "user_name", "valueString": "{{userprincipalname}}" },
+    { "key": "auth_mode", "valueString": "sso" },
+    { "key": "telemetry_enabled", "valueBool": false }
+  ]
+}

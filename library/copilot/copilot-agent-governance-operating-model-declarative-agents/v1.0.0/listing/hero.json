@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Copilot Agent",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "Build · Approve · Share · Retire",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED AGENTS",
+    "items": [
+      "No owners",
+      "No approval",
+      "Shared org-wide",
+      "Never retired"
+    ]
+  },
+  "to": {
+    "label": "Governed Agents",
+    "stat": "Owned · Approved · Reviewed"
+  },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Ownership & RACI",
+      "sub": "Four named roles"
+    },
+    {
+      "icon": "shield",
+      "title": "Approval Gate",
+      "sub": "Before business use"
+    },
+    {
+      "icon": "key",
+      "title": "Sharing Review",
+      "sub": "No silent org-wide"
+    },
+    {
+      "icon": "gear",
+      "title": "Lifecycle & Retire",
+      "sub": "Block-then-delete"
+    }
+  ]
+}

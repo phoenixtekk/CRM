@@ -1,0 +1,25 @@
+{
+  "_README": [
+    "android-managed-config-ariba.json — SAP Ariba Android managed configuration (PLACEHOLDER example).",
+    "",
+    "*** PLACEHOLDER KEYS — VERIFY AGAINST SAP ARIBA DOCUMENTATION ***",
+    "SAP states the SAP Ariba Procurement mobile app is NOT certified with MDM on Android as of",
+    "current documentation. This file shows the GENERAL Android managed-configuration pattern with",
+    "Ariba-style placeholder keys so the worked example is complete across platforms — it is NOT a",
+    "confirmed Ariba Android schema. If/when SAP supports Android MDM, take the exact keys from the",
+    "app's managed-configuration schema (Intune Configuration designer) and the SAP Ariba Procurement",
+    "Mobile App Guide before use.",
+    "",
+    "On Android, prefer the Configuration designer (schema-driven) over raw JSON.",
+    "HOSTNAME, NOT URL: server_host is a bare hostname (e.g. s1.ariba.com) — no https://, no path.",
+    "realm = the buyer subdomain (realm= value from your Ariba SSO/ACS URL)."
+  ],
+  "kind": "androidenterprise#managedConfiguration",
+  "managedProperty": [
+    { "key": "server_host", "valueString": "s1.ariba.com" },
+    { "key": "realm", "valueString": "yourcompany" },
+    { "key": "environment", "valueString": "production" },
+    { "key": "user_role", "valueString": "requester" },
+    { "key": "auth_mode", "valueString": "sso" }
+  ]
+}

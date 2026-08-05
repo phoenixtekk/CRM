@@ -1,0 +1,41 @@
+{
+  "slug": "application-management-assessment-modernization-roadmap",
+  "title": "Application Management Current-State Assessment & Modernization Roadmap (Microsoft Endpoint / Intune)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPASMT",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — assessment + roadmap archetype ($2,295 commercial). Multi-dimension (9-dimension x 5-level) maturity model with evidence-based scoring, cross-domain read-only Graph collection, gap analysis, and a sequenced modernization roadmap — advanced multi-component within one platform. Priced in line with sibling assessment/readiness products (Purview Maturity Assessment T3 $2,495; Copilot Readiness) but below them to reflect single-platform Intune scope.",
+    "gov_variant: false. Government (GCC High / DoD) differs only in endpoints, not in assessment logic: Intune portal intune.microsoft.us, Azure/Entra portal.azure.us, Graph graph.microsoft.us via Connect-MgGraph -Environment USGov / USGovDoD. Documented inline in Requirement 2.7 and every script's .NOTES / -Environment switch. Where a specific Intune feature's GCC High parity is uncertain the guide says 'verify for GCC High' rather than inventing specifics. No separate Government deliverable needed.",
+    "positioning: This is the CONSULTATIVE ENTRY-POINT product — it ASSESSES current-state application management and SEQUENCES a modernization roadmap; it does not re-teach the implementation detail of the five deeper sibling products it feeds: enterprise-application-management-governance-operating-model (D1 governance), application-packaging-deployment-standards (D2 packaging), application-retirement-offboarding-decommissioning (D6 retirement), win32-app-uninstall-removal-failure-remediation (uninstall remediation), and application-estate-monitoring-reporting-supportability (D7 monitoring). Findings state remediation direction + effort only and reference those workstreams.",
+    "read-only: All five scripts use Microsoft Graph *.Read.All scopes only (no .ReadWrite anywhere) and align to the Intune Read Only Operator role. The assessment must not change the tenant."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPASMT-COMM-001",
+      "audience": "commercial",
+      "price": 2295.0
+    },
+    {
+      "sku": "PTK-APPASMT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1377.0
+    },
+    {
+      "sku": "PTK-APPASMT-GOV-001",
+      "audience": "government",
+      "price": 1950.75
+    }
+  ],
+  "deliverables": [
+    "APPASMT-Complete-Solution.zip"
+  ],
+  "hero": "APPASMT-hero.png"
+}

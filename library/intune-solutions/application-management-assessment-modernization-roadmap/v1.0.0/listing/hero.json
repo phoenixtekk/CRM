@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Application Management",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Assessment & Roadmap",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "9 Dimensions · Scored · Sequenced",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "GREW, NOT DESIGNED",
+    "items": [
+      "No baseline",
+      "Version sprawl",
+      "Stalled",
+      "No roadmap"
+    ]
+  },
+  "to": {
+    "label": "Scored & sequenced",
+    "stat": "Evidence-based"
+  },
+  "tagline": "ASSESS.  SCORE.  SEQUENCE.",
+  "benefits": [
+    {
+      "icon": "chart",
+      "title": "Scored",
+      "sub": "9x5 model"
+    },
+    {
+      "icon": "shield",
+      "title": "Read-only",
+      "sub": "No changes"
+    },
+    {
+      "icon": "gear",
+      "title": "Evidenced",
+      "sub": "Not opinion"
+    },
+    {
+      "icon": "device",
+      "title": "Roadmap",
+      "sub": "3 waves"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "win32-app-uninstall-removal-failure-remediation",
+  "title": "Win32 App Uninstall & Removal Failure Remediation (Microsoft Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPUNIN",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — diagnostic playbook, parity with INTAPPDX effort (branch-based tree + 5 Graph/on-device scripts, live-environment care). Commercial 2495 matches INTAPPDX; monotonic with the catalog's install-path troubleshooting products.",
+    "SCOPE: deliberately scoped to the Win32 UNINSTALL/REMOVAL path only. The existing INTAPPDX product (intune-app-deployment-troubleshooting) branches A–F are ALL install-path oriented (not applicable / detection wrong / dependency-supersedence / download failure / exit-code decode / ESP block); uninstall appears there only incidentally via supersedence. This product owns removal: intent reconciliation (Required beats Uninstall), detection gating removal on both ends, ProductCode drift (1605), EXE switch/quoting (1603), per-user vs per-machine/SYSTEM context, app-in-use (1618), reboot codes (3010/1641), supersedence-driven uninstall, and reporting/lifecycle (deleted app object orphaning installs). Gap-only per AUTHORING_LESSONS dedupe rule.",
+    "gov_variant decision: gov_variant=false. Researched GCC/GCC High/DoD: the removal behaviour (intent reconciliation, detection-gated uninstall, Windows Installer registry/cache layout, exit codes, IME log paths) is Windows+Intune service behaviour and is identical in Government tenants. The ONLY material differences are endpoint/URL: admin console endpoint.microsoft.us, Graph graph.microsoft.us (DoD dod-graph.microsoft.us), Connect-MgGraph -Environment USGov/USGovDoD, login.microsoftonline.us. Documented inline in 02-requirements.md and every script accepts -GraphEnvironment Global|USGov|USGovDoD. Feature-timing parity flagged 'verify for GCC High' rather than asserted."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPUNIN-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-APPUNIN-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-APPUNIN-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "APPUNIN-Complete-Solution.zip"
+  ],
+  "hero": "APPUNIN-hero.png"
+}

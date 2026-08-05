@@ -34,6 +34,7 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Windows Hello for Business | `windows-hello-for-business` | $1,495 / $897 | ✅ published |
 | OneDrive for Business | `onedrive-for-business` | $1,495 / $897 | ✅ published |
 | Windows Autopilot | `windows-autopilot` | $2,495 / $1,497 | ✅ published |
+| Intune Wi-Fi Profile Deployment & Management (Windows, iOS & Android) | `intune-wifi-profile-deployment-management-windows-ios-android` | $2,295 / $1,377 / Gov $1,950.75 | 🟡 generated (T3; white-label) |
 | Device Compliance Policies | `device-compliance-policies` | $2,495 / $1,497 | ✅ published |
 | Conditional Access Integration | `conditional-access-integration` | $2,495 / $1,497 | ✅ published |
 | Microsoft Defender for Endpoint Integration | `defender-for-endpoint-integration` | $2,495 / $1,497 | ✅ published |
@@ -187,6 +188,7 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Intune Device Configuration & Policy Troubleshooting Toolkit | `intune-configuration-policy-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
 | Intune Compliance-Failure Diagnostics & Remediation | `intune-compliance-failure-diagnostics` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
 | Intune App Deployment Troubleshooting & Failure Remediation (Win32/LOB/Store) | `intune-app-deployment-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
+| Win32 App Uninstall & Removal Failure Remediation (Microsoft Intune) | `win32-app-uninstall-removal-failure-remediation` | $2,495 / $1,497 / Gov $2,120.75 | 🟡 generated (T3; white-label; Intune; uninstall-path, gap-only vs INTAPPDX) |
 | Enterprise Desktop Support Runbook Library for Intune-Managed Windows | `enterprise-desktop-support-runbook-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Infrastructure) |
 | Endpoint Network Connectivity Troubleshooting Toolkit (DNS, Proxy, VPN, IP/Port/URL Filtering) | `endpoint-network-connectivity-troubleshooting` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Network) |
 | IP/Port/URL Allow-List & Egress Filtering Management for Microsoft 365 & Intune Endpoints | `m365-endpoint-allowlist-egress-management` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Network) |
@@ -292,6 +294,47 @@ Governed by generate-solution SKILL §0d (research-and-fork rule). **Categories 
 `ADMIN_DOCS.md` → eligibility validation). Listings include a "run it yourself vs. consulting" value
 section. Hero images: title auto-fits (≥15px border margin); imagery seeded per solution; same-category
 solutions share a palette. Refresh an image via `tools/refresh-image.ps1`.
+
+### 2026-07-20 — Application Management wave (6 solutions authored, not yet published)
+Authored 6 net-new white-label **Intune Solutions** covering the full application-management
+lifecycle (from a Cameron LNG consultative-review request). Scoped gap-only against the existing
+catalog (WIN32 packaging, TPP patching, INTAPPDX install-troubleshooting, SAM/license products) —
+each new product owns a distinct layer, verified for no substantive cross-overlap. Status
+`generated`; awaiting `/publish-solution`.
+
+| Code | Solution | Slug | Commercial / NPO / Gov |
+|---|---|---|---|
+| APPOPS | Enterprise Application Management Governance & Operating Model | `enterprise-application-management-governance-operating-model` | $2,995 / $1,797 / $2,545.75 |
+| APPSTD | Application Packaging & Deployment Standards (Win32, MSIX & Store) | `application-packaging-deployment-standards` | $2,495 / $1,497 / $2,120.75 |
+| APPRET | Application Retirement, Offboarding & Decommissioning | `application-retirement-offboarding-decommissioning` | $2,295 / $1,377 / $1,950.75 |
+| APPUNIN | Win32 App Uninstall & Removal Failure Remediation | `win32-app-uninstall-removal-failure-remediation` | $2,495 / $1,497 / $2,120.75 |
+| APPRPT | Application Estate Monitoring, Reporting & Supportability | `application-estate-monitoring-reporting-supportability` | $2,495 / $1,497 / $2,120.75 |
+| APPASMT | Application Management Assessment & Modernization Roadmap | `application-management-assessment-modernization-roadmap` | $2,295 / $1,377 / $1,950.75 |
+
+All six: `branding: off` (white-label), `gov_variant: false` (Gov differs only by portal/Graph
+endpoint URLs, documented inline + `-GraphEnvironment USGov` script switches). Each ships a
+`<CODE>-Complete-Solution.zip` bundle (PDF + DOCX + 5 scripts) + seeded hero.
+
+### 2026-07-24 — Copilot Agent Governance wave (3 solutions authored, not yet published)
+Authored 3 net-new white-label **Copilot** solutions from a Cameron LNG request for governance
+visibility over Copilot **Agent Builder** (declarative) agents. Scoped gap-only against the existing
+Copilot cluster (COPILOT adoption/boundary, CPLTGOV DLP, AIHUB/AIPROMPT Purview, APPGOV Entra apps) —
+no substantive overlap. Status `generated`; awaiting `/publish-solution`.
+
+| Code | Solution | Slug | Commercial / NPO / Gov |
+|---|---|---|---|
+| AGBINV | Copilot Agent Builder — Agent Inventory & Sharing Governance Export | `copilot-agent-builder-inventory-sharing-governance-export` | $2,495 / $1,497 / $2,120.75 |
+| AGBGOV | Copilot Agent Governance & Operating Model (Declarative Agents) | `copilot-agent-governance-operating-model-declarative-agents` | $2,495 / $1,497 / $2,120.75 |
+| CPADMDX | MS Graph Beta Copilot Admin API — Access & Troubleshooting Runbook | `microsoft-graph-copilot-admin-api-access-troubleshooting-runbook` | $1,995 / $1,197 / $1,695.75 |
+
+All three: `branding: off`, `gov_variant: false` (the Copilot admin Package API is **Global-only** —
+GCC High/DoD unsupported — so Gov tenants use the admin-center Agent Registry CSV export fallback).
+**Key research finding (verified against Microsoft Learn 2026-07-24 by all three agents
+independently):** `GET /copilot/admin/catalog/packages/{id}` returns the sharing data
+(`allowedUsersAndGroups`), is delegated-only in practice, needs `CopilotPackages.Read.All` +
+AI Administrator, and per **current** docs now **requires a Microsoft Agent 365 licence** — a change
+from the original MC1173195 "no licence required" guidance. Flagged as preview-volatile / verify
+before customer delivery.
 
 ### 2026-07-28 — Basic Intune product + 2 free-conversions
 **New product (generated, not yet published):** `INTBASE` — "Microsoft Intune First-Time Setup for
@@ -406,6 +449,32 @@ IOSSSOEXT template. **Store: 3 SKUs live (200), downloads on private disk (403).
 per-product gating PENDING** — linuxg3 (wiki host) was unreachable (docs.phoenixtekk.com 530) at
 publish time; re-run `publish-wiki.py` + `wiki-access-sync.py` when the host recovers. DB backed up
 before load.
+
+### 2026-08-01 — Intune Wi-Fi profile pair (generated)
+Two net-new **Intune Solutions** from a live client incident (NYC HHS — Meraki Wi-Fi profile changes
+not reflecting on devices). Status `generated`; awaiting `/publish-solution`.
+
+| Code | Solution | Slug | Commercial / NPO / Gov |
+|---|---|---|---|
+| WIFIDX | Intune Wi-Fi Profile Remediation — Changes Not Applying (Proxy, SSID & Meraki) | `intune-wifi-profile-remediation-changes-not-applying` | $2,495 / $1,497 / $2,120.75 |
+| WIFIMGT | Intune Wi-Fi Profile Deployment & Management (Windows, iOS & Android) | `intune-wifi-profile-deployment-management-windows-ios-android` | $2,295 / $1,377 / $1,950.75 |
+
+Both `branding: off`, `gov_variant: false`, `<CODE>-Complete-Solution.zip` bundle. **Verified crux
+(Microsoft Learn):** Intune does NOT reliably update an existing Wi-Fi SSID in place — a modified
+profile reports "Succeeded" (delivered ≠ applied); fix = new/replacement profile + remove-and-re-add,
+not an in-place edit. Proxy = host+port (manual) vs PAC URL (automatic), per platform. Meraki:
+distinguished dashboard (SSID/infra) vs Systems Manager (competing MDM payload); co-managed
+same-SSID behavior flagged "verify against Cisco Meraki docs". WIFIDX owns the "not applying"
+diagnostic (defers general config to INTCFG); WIFIMGT owns deployment (defers 802.1X-cert to ISE8021X).
+
+### 2026-08-05 — Published 5 to the live store
+Copilot trio (AGBINV, AGBGOV, CPADMDX) + Wi-Fi pair (WIFIDX, WIFIMGT) loaded to
+workplace.phoenixtekk.com and verified: 15 SKUs enabled at correct prices, downloads on the private
+disk (public 403), public pages 200, images attached. Fixed the Wi-Fi listings' category (`Intune
+Solutions`→`Intune`) pre-load. Metas flipped to `published`. **Wiki guides + gating still pending**
+for these 5 AND the earlier 4 (INTBASE/SNOWINT/APPCFG/DELOPT) — host is back up; retry
+`publish-wiki.py` + `wiki-access-sync.py` (PYTHONUTF8=1 for the ↔/— titles).
+
 
 ## Compiler & imagery
 - `tools/build-deliverables.py` compiles each solution's `source\` + `scripts\` into a branded

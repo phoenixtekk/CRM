@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "App Configuration Policies",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Zero-Touch App Setup",
+      "color": "blue",
+      "size": "main"
+    },
+    {
+      "text": "iOS & Android · SSO Routing",
+      "color": "green",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "MANUAL SETUP",
+    "items": [
+      "Typed server & realm",
+      "Help-desk tickets",
+      "Wrong environment",
+      "No SSO routing"
+    ]
+  },
+  "to": {
+    "label": "Self-configuring apps",
+    "stat": "Opens ready · routed to Entra"
+  },
+  "tagline": "PUSH.  PRE-FILL.  ROUTE.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Pre-Filled",
+      "sub": "Host/realm/env"
+    },
+    {
+      "icon": "device",
+      "title": "iOS & Android",
+      "sub": "plist + schema"
+    },
+    {
+      "icon": "key",
+      "title": "SSO Routing",
+      "sub": "Entra / CA"
+    },
+    {
+      "icon": "cloud",
+      "title": "2 Channels",
+      "sub": "MDM + MAM"
+    }
+  ]
+}

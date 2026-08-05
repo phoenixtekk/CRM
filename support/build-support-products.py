@@ -17,9 +17,9 @@ DELIV = HERE / "deliverables"; DELIV.mkdir(exist_ok=True)
 
 TIERS = [
     {
-        "sku": "PTK-SUPPORT-CHAT30-001", "price": 199.0,
+        "sku": "PTK-SUPPORT-CHAT30-001", "price": 500.0,
         "name": "30-Day Chat Support", "url_key": "support-30-day-chat",
-        "file": "Support-Chat30-Getting-Started.pdf",
+        "file": "Support-Chat30-Getting-Started.pdf", "image": "chat30-support.png",
         "short": "30 days of expert chat support over your preferred messaging app — SMS, WhatsApp, Teams, Slack, Telegram, or web.",
         "intro": "Thank you for purchasing <b>30-Day Chat Support</b>. You now have 30 days of direct chat access to our implementation team to help you deploy and operate your Phoenixtekk solution.",
         "bullets": [
@@ -29,22 +29,22 @@ TIERS = [
         ],
     },
     {
-        "sku": "PTK-SUPPORT-PRIORITY-001", "price": 499.0,
+        "sku": "PTK-SUPPORT-PRIORITY-001", "price": 1000.0,
         "name": "Priority Implementation Support", "url_key": "support-priority-implementation",
-        "file": "Support-Priority-Getting-Started.pdf",
-        "short": "Priority, hands-on implementation support across your rollout — faster response and deeper help than standard chat.",
-        "intro": "Thank you for purchasing <b>Priority Implementation Support</b>. You're now front-of-queue for hands-on help across your Phoenixtekk solution rollout.",
+        "file": "Support-Priority-Getting-Started.pdf", "image": "priority-support.png",
+        "short": "One week of priority, hands-on implementation support — up to three scheduled working meetings that week, plus priority chat between them.",
+        "intro": "Thank you for purchasing <b>Priority Implementation Support</b>. This covers <b>one week</b> of front-of-queue, hands-on help across your Phoenixtekk solution rollout, with up to <b>three scheduled working meetings</b> during the week.",
         "bullets": [
-            "Priority response — your messages jump the queue.",
+            "Up to three scheduled working meetings during your support week (screen-share where it helps).",
+            "Priority response between meetings — your messages jump the queue.",
             "Hands-on guidance through implementation, testing, and validation.",
-            "Chat over your preferred app, plus screen-share where it helps.",
         ],
     },
     {
-        "sku": "PTK-SUPPORT-CALL60-001", "price": 250.0,
+        "sku": "PTK-SUPPORT-CALL60-001", "price": 200.0,
         "name": "Live Implementation Call (60 min)", "url_key": "support-live-call-60min",
-        "file": "Support-Call60-Getting-Started.pdf",
-        "short": "A scheduled 60-minute live call with a Phoenixtekk implementation engineer to plan or troubleshoot your deployment.",
+        "file": "Support-Call60-Getting-Started.pdf", "image": "call60-support.png",
+        "short": "A scheduled 60-minute live call ($200/hour) with a Phoenixtekk implementation engineer to plan or troubleshoot your deployment.",
         "intro": "Thank you for purchasing a <b>Live Implementation Call (60 minutes)</b>. We'll get you on a call with an implementation engineer to plan, configure, or troubleshoot your deployment.",
         "bullets": [
             "One scheduled 60-minute live session with an implementation engineer.",
@@ -102,6 +102,7 @@ for t in TIERS:
         "price": t["price"], "short_description": f"<p>{t['short']}</p>", "description": desc(t),
         "meta_title": f"{t['name']} — Phoenixtekk Support",
         "meta_description": t["short"], "url_key": t["url_key"],
+        "image": t["image"],
         "downloads": [{"title": "Getting Started (PDF)", "source_type": "file", "source": t["file"]}],
     })
 

@@ -1,0 +1,26 @@
+{
+  "_comment": "Sample MINIMAL Enrollment Status Page (ESP) — reference for INTBASE - ESP - Pilot. Configure in Intune: Devices > Enrollment > Windows > Enrollment Status Page. Keep the pilot ESP light (do not require heavy apps). Field names mirror the Graph windows10EnrollmentCompletionPageConfiguration resource.",
+  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "displayName": "INTBASE - ESP - Pilot",
+  "description": "Minimal Enrollment Status Page for the first-time Windows Autopilot pilot.",
+  "priority": 1,
+  "showInstallationProgress": true,
+  "blockDeviceSetupRetryByUser": false,
+  "allowDeviceResetOnInstallFailure": true,
+  "allowDeviceUseOnInstallFailure": true,
+  "allowLogCollectionOnInstallFailure": true,
+  "customErrorMessage": "Setup is taking longer than expected. You can keep using the device; contact IT if this persists.",
+  "installProgressTimeoutInMinutes": 60,
+  "installQualityUpdates": false,
+  "selectedMobileAppIds": [],
+  "trackInstallProgressForAutopilotOnly": true,
+  "disableUserStatusTrackingAfterFirstUser": false,
+  "roleScopeTagIds": [],
+  "assignedGroups": [
+    "INTBASE - Autopilot Devices"
+  ],
+  "_notes": {
+    "scope": "Pilot only. Deep ESP tuning (blocking apps, quality updates, per-app tracking) is OUT OF SCOPE — see the deeper Autopilot catalog solutions.",
+    "requiredApps": "Leave selectedMobileAppIds empty for the pilot to avoid a blocked ESP."
+  }
+}

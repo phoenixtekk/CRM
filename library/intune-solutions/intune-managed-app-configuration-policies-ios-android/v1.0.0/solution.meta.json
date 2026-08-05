@@ -1,0 +1,43 @@
+{
+  "slug": "intune-managed-app-configuration-policies-ios-android",
+  "title": "Intune Managed App Configuration Policies (iOS & Android) — Zero-Touch App Setup & SSO Routing",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPCFG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-30",
+  "updated": "2026-07-30",
+  "published_at": "2026-07-30",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T3 — cross-platform app-config feature + vendor SSO-routing example.",
+    "Government decision: gov_variant=false. Intune App Configuration Policies are the SAME feature in GCC/GCC High/DoD; only the endpoints differ (portal intune.microsoft.us, Graph graph.microsoft.us via Connect-MgGraph -Environment USGov, device endpoints manage.microsoft.us). No separate Government deliverable required; documented inline in requirements/implementation/troubleshooting. App-specific GCC High parity questions flagged 'verify for GCC High'.",
+    "SAP Ariba key-verification: the exact Ariba managed-app-configuration KEY NAMES could not be confirmed — SAP Help is a JS-gated SPA and the ProcurementMobile.pdf is not directly downloadable. Per task directive, general app-config mechanics are authored correctly and Ariba keys are shown as clearly-labeled PLACEHOLDERS flagged 'verify against SAP Ariba documentation', with the authoritative source named: SAP Ariba Procurement Mobile App Guide > 'Configuring SAP Ariba Procurement mobile app in Mobile Device Management Tool' (https://help.sap.com/docs/buying-invoicing/sap-ariba-procurement-mobile-app-guide/configuring-sap-ariba-procurement-mobile-app-in-mobile-device-management-tool ; guide PDF https://help.sap.com/doc/74db2889e01948deac1aaffc667a0c4b/2511/en-US/ProcurementMobile.pdf). Confirmed accurate facts used: SAP states the Ariba Procurement app is NOT MDM-certified on Android (iOS generic MDM only); device passcode required; app blocked on jailbroken/rooted; realm = buyer subdomain from the realm= value of the Ariba SSO/ACS URL. Ariba worked example is therefore iOS-first; Android shown as general pattern with placeholders.",
+    "Dedupe boundary: this product OWNS the dedicated App CONFIGURATION Policy topic (pushing app settings + SSO routing). Distinct from mam-app-protection-policies-byod-m365 (App PROTECTION / data controls — different feature), android-enterprise-app-management-managed-google-play-intune (app types/approval/assignment on managed Google Play — references managed config but does not own the App Config Policy topic), and conditional-access-integration (owns the CA build; this product only ROUTES the app to Entra/CA and defers the CA policy authoring to CAI).",
+    "Honors AUTHORING_LESSONS: iOS 'Enter XML data' authored as a valid Apple plist (lowercase <dict>, key/string pairs, no xmlns/xsi, no vendor profile header); every 'server/host' value is a hostname, not a URL (no path/slash); apps identified by exact publisher + bundle/package ID; every created object named."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPCFG-COMM-001",
+      "audience": "commercial",
+      "price": 2295.0
+    },
+    {
+      "sku": "PTK-APPCFG-NPO-001",
+      "audience": "nonprofit",
+      "price": 1377.0
+    },
+    {
+      "sku": "PTK-APPCFG-GOV-001",
+      "audience": "government",
+      "price": 1950.75
+    }
+  ],
+  "deliverables": [
+    "APPCFG-Complete-Solution.zip"
+  ],
+  "hero": "APPCFG-hero.png"
+}

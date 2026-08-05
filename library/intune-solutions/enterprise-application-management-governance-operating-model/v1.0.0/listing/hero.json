@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Who Owns This App?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "App Management Governance",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "RACI · Review Board · Rings · Standards",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "UNGOVERNED ESTATE",
+    "items": [
+      "Orphaned apps",
+      "No owner, no review",
+      "Assigned to All Users",
+      "One hero engineer"
+    ]
+  },
+  "to": {
+    "label": "Governed operating model",
+    "stat": "Owned · Approved · Ringed"
+  },
+  "tagline": "DEFINE IT.  APPROVE IT.  MEASURE IT.",
+  "benefits": [
+    {
+      "icon": "users",
+      "title": "Ownership & RACI",
+      "sub": "Named roles"
+    },
+    {
+      "icon": "gear",
+      "title": "Review Board",
+      "sub": "Decision rights"
+    },
+    {
+      "icon": "shield",
+      "title": "Risk-Tier Change",
+      "sub": "Rings + rollback"
+    },
+    {
+      "icon": "chart",
+      "title": "Scorecard",
+      "sub": "Proof it works"
+    }
+  ]
+}

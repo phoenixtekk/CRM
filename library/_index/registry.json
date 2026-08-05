@@ -7302,6 +7302,336 @@
     "product_count": 3
   },
   {
+    "title": "Copilot Agent Builder — Agent Inventory & Sharing Governance Export (Microsoft Graph)",
+    "slug": "copilot-agent-builder-inventory-sharing-governance-export",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "AGBINV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-24",
+    "updated": "2026-08-05",
+    "published_at": "2026-08-05",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AGBINV-COMM-001",
+      "PTK-AGBINV-NPO-001",
+      "PTK-AGBINV-GOV-001"
+    ],
+    "deliverables": [
+      "AGBINV-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\copilot-agent-builder-inventory-sharing-governance-export\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/02-requirements.md",
+          "kb": 11.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/05-testing.md",
+          "kb": 5.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 3.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AGBINV-Connect-Preflight.ps1",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/scripts/AGBINV-Connect-Preflight.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "AGBINV-Export-AgentInventory.ps1",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/scripts/AGBINV-Export-AgentInventory.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "AGBINV-Export-AgentSharing.ps1",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/scripts/AGBINV-Export-AgentSharing.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "AGBINV-Filter-AgentBuilderOnly.ps1",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/scripts/AGBINV-Filter-AgentBuilderOnly.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "AGBINV-Report-GovernanceRegister.ps1",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/scripts/AGBINV-Report-GovernanceRegister.ps1",
+          "kb": 4.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AGBINV-Complete-Solution.zip",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-Complete-Solution.zip",
+          "kb": 123.6
+        },
+        {
+          "name": "AGBINV-hero.png",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-hero.png",
+          "kb": 451.4
+        },
+        {
+          "name": "AGBINV-hero.svg",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-hero.svg",
+          "kb": 6.3
+        },
+        {
+          "name": "AGBINV-Scripts.zip",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "AGBINV-Solution.docx",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-Solution.docx",
+          "kb": 62.8
+        },
+        {
+          "name": "AGBINV-Solution.pdf",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-Solution.pdf",
+          "kb": 73.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/listing/bagisto-products.json",
+          "kb": 19.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/listing/sales-content.md",
+          "kb": 3.9
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/README.md",
+          "kb": 2.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/solution.meta.json",
+          "kb": 4.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/deliverables/AGBINV-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Copilot Agent Governance & Operating Model (Declarative Agents — Build, Approve, Share, Retire)",
+    "slug": "copilot-agent-governance-operating-model-declarative-agents",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "AGBGOV",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-24",
+    "updated": "2026-08-05",
+    "published_at": "2026-08-05",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-AGBGOV-COMM-001",
+      "PTK-AGBGOV-NPO-001",
+      "PTK-AGBGOV-GOV-001"
+    ],
+    "deliverables": [
+      "AGBGOV-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\copilot-agent-governance-operating-model-declarative-agents\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/01-solution-overview.md",
+          "kb": 17.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/02-requirements.md",
+          "kb": 10.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/03-implementation.md",
+          "kb": 33.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/05-testing.md",
+          "kb": 7.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/06-troubleshooting.md",
+          "kb": 9.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/07-best-practices.md",
+          "kb": 5.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/executive-summary.md",
+          "kb": 4.2
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "AGBGOV-Discovery.ps1",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/scripts/AGBGOV-Discovery.ps1",
+          "kb": 8.3
+        },
+        {
+          "name": "AGBGOV-Export-ApprovalEvidence.ps1",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/scripts/AGBGOV-Export-ApprovalEvidence.ps1",
+          "kb": 6.3
+        },
+        {
+          "name": "AGBGOV-Report.ps1",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/scripts/AGBGOV-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "AGBGOV-Review-SharedAgents.ps1",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/scripts/AGBGOV-Review-SharedAgents.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "AGBGOV-Validation.ps1",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/scripts/AGBGOV-Validation.ps1",
+          "kb": 5.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "AGBGOV-Complete-Solution.zip",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-Complete-Solution.zip",
+          "kb": 164.6
+        },
+        {
+          "name": "AGBGOV-hero.png",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-hero.png",
+          "kb": 433.6
+        },
+        {
+          "name": "AGBGOV-hero.svg",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "AGBGOV-Scripts.zip",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-Scripts.zip",
+          "kb": 12.7
+        },
+        {
+          "name": "AGBGOV-Solution.docx",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-Solution.docx",
+          "kb": 75.5
+        },
+        {
+          "name": "AGBGOV-Solution.pdf",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-Solution.pdf",
+          "kb": 110.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/listing/sales-content.md",
+          "kb": 3.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/README.md",
+          "kb": 3.3
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/solution.meta.json",
+          "kb": 3.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/deliverables/AGBGOV-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft 365 Copilot Adoption & Change-Management Program",
     "slug": "copilot-adoption-change-management",
     "category": "Copilot",
@@ -7642,8 +7972,8 @@
     "created": "2026-07-09",
     "updated": "2026-07-09",
     "published_at": "2026-07-09",
-    "commercial": 2495.0,
-    "nonprofit": 1497.0,
+    "commercial": 0.0,
+    "nonprofit": 0.0,
     "skus": [
       "PTK-CPLTREADY-COMM-001",
       "PTK-CPLTREADY-NPO-001",
@@ -7758,6 +8088,11 @@
           "name": "CPLTREADY-Solution.pdf",
           "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-Solution.pdf",
           "kb": 49.2
+        },
+        {
+          "name": "CPLTREADY-wiki.md",
+          "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-wiki.md",
+          "kb": 37.1
         }
       ],
       "Listing": [
@@ -7786,14 +8121,179 @@
         {
           "name": "solution.meta.json",
           "href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/solution.meta.json",
-          "kb": 1.0
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 7,
+    "doc_count": 9,
+    "hero_href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Graph Beta Copilot Admin API — Access, Permissions & Troubleshooting Runbook",
+    "slug": "microsoft-graph-copilot-admin-api-access-troubleshooting-runbook",
+    "category": "Copilot",
+    "category_slug": "copilot",
+    "sol_code": "CPADMDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-24",
+    "updated": "2026-08-05",
+    "published_at": "2026-08-05",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-CPADMDX-COMM-001",
+      "PTK-CPADMDX-NPO-001",
+      "PTK-CPADMDX-GOV-001"
+    ],
+    "deliverables": [
+      "CPADMDX-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\copilot\\microsoft-graph-copilot-admin-api-access-troubleshooting-runbook\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/02-requirements.md",
+          "kb": 13.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/03-implementation.md",
+          "kb": 18.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/07-best-practices.md",
+          "kb": 4.5
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-copilot.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/source/global-requirements-copilot.md",
+          "kb": 4.6
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CPADMDX-Preflight.ps1",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/scripts/CPADMDX-Preflight.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "CPADMDX-Probe-Endpoint.ps1",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/scripts/CPADMDX-Probe-Endpoint.ps1",
+          "kb": 6.8
+        },
+        {
+          "name": "CPADMDX-Report-Findings.ps1",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/scripts/CPADMDX-Report-Findings.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "CPADMDX-Resolve-Scopes.ps1",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/scripts/CPADMDX-Resolve-Scopes.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "CPADMDX-Test-Fallbacks.ps1",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/scripts/CPADMDX-Test-Fallbacks.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CPADMDX-Complete-Solution.zip",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-Complete-Solution.zip",
+          "kb": 136.2
+        },
+        {
+          "name": "CPADMDX-hero.png",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-hero.png",
+          "kb": 473.9
+        },
+        {
+          "name": "CPADMDX-hero.svg",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "CPADMDX-Scripts.zip",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "CPADMDX-Solution.docx",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-Solution.docx",
+          "kb": 67.4
+        },
+        {
+          "name": "CPADMDX-Solution.pdf",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-Solution.pdf",
+          "kb": 83.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/listing/bagisto-products.json",
+          "kb": 19.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/listing/sales-content.md",
+          "kb": 3.8
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/README.md",
+          "kb": 3.0
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/solution.meta.json",
+          "kb": 3.5
         }
       ]
     },
     "script_count": 5,
     "deliv_count": 6,
     "doc_count": 9,
-    "hero_href": "../copilot/microsoft-365-copilot-readiness-deployment/v1.0.0/deliverables/CPLTREADY-hero.png",
+    "hero_href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/deliverables/CPADMDX-hero.png",
     "product_count": 3
   },
   {
@@ -26616,6 +27116,171 @@
     "product_count": 3
   },
   {
+    "title": "Application Packaging & Deployment Standards (Win32, MSIX & Store) — Org-Wide Specification & Quality Gates",
+    "slug": "application-packaging-deployment-standards",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPSTD",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-APPSTD-COMM-001",
+      "PTK-APPSTD-NPO-001",
+      "PTK-APPSTD-GOV-001"
+    ],
+    "deliverables": [
+      "APPSTD-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\application-packaging-deployment-standards\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/02-requirements.md",
+          "kb": 13.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/03-implementation.md",
+          "kb": 38.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.8
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/executive-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPSTD-Get-AssignmentHygieneReport.ps1",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/scripts/APPSTD-Get-AssignmentHygieneReport.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "APPSTD-Get-PackageMetadataCompleteness.ps1",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/scripts/APPSTD-Get-PackageMetadataCompleteness.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "APPSTD-Invoke-PackageStandardAudit.ps1",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/scripts/APPSTD-Invoke-PackageStandardAudit.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "APPSTD-Set-AppMetadataStandard.ps1",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/scripts/APPSTD-Set-AppMetadataStandard.ps1",
+          "kb": 7.6
+        },
+        {
+          "name": "APPSTD-Test-DetectionRuleQuality.ps1",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/scripts/APPSTD-Test-DetectionRuleQuality.ps1",
+          "kb": 7.0
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPSTD-Complete-Solution.zip",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-Complete-Solution.zip",
+          "kb": 165.7
+        },
+        {
+          "name": "APPSTD-hero.png",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-hero.png",
+          "kb": 476.7
+        },
+        {
+          "name": "APPSTD-hero.svg",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-hero.svg",
+          "kb": 6.3
+        },
+        {
+          "name": "APPSTD-Scripts.zip",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-Scripts.zip",
+          "kb": 13.6
+        },
+        {
+          "name": "APPSTD-Solution.docx",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-Solution.docx",
+          "kb": 75.7
+        },
+        {
+          "name": "APPSTD-Solution.pdf",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-Solution.pdf",
+          "kb": 109.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/listing/sales-content.md",
+          "kb": 4.1
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/README.md",
+          "kb": 2.1
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/solution.meta.json",
+          "kb": 2.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/application-packaging-deployment-standards/v1.0.0/deliverables/APPSTD-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Attack Surface Reduction (ASR) Rules",
     "slug": "attack-surface-reduction-rules",
     "category": "Intune",
@@ -30277,6 +30942,171 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/enterprise-app-catalog-deployment-intune/v1.0.0/deliverables/ENTAPPCAT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Enterprise Application Management Governance & Operating Model (Microsoft Endpoint / Intune)",
+    "slug": "enterprise-application-management-governance-operating-model",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPOPS",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-APPOPS-COMM-001",
+      "PTK-APPOPS-NPO-001",
+      "PTK-APPOPS-GOV-001"
+    ],
+    "deliverables": [
+      "APPOPS-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\enterprise-application-management-governance-operating-model\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/01-solution-overview.md",
+          "kb": 11.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/02-requirements.md",
+          "kb": 15.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/03-implementation.md",
+          "kb": 34.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/05-testing.md",
+          "kb": 6.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/07-best-practices.md",
+          "kb": 6.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 3.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPOPS-Discovery.ps1",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/scripts/APPOPS-Discovery.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "APPOPS-Export-ApprovalEvidence.ps1",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/scripts/APPOPS-Export-ApprovalEvidence.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "APPOPS-Remediation.ps1",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/scripts/APPOPS-Remediation.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "APPOPS-Report.ps1",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/scripts/APPOPS-Report.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "APPOPS-Validation.ps1",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/scripts/APPOPS-Validation.ps1",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPOPS-Complete-Solution.zip",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-Complete-Solution.zip",
+          "kb": 166.4
+        },
+        {
+          "name": "APPOPS-hero.png",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-hero.png",
+          "kb": 519.9
+        },
+        {
+          "name": "APPOPS-hero.svg",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "APPOPS-Scripts.zip",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "APPOPS-Solution.docx",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-Solution.docx",
+          "kb": 76.2
+        },
+        {
+          "name": "APPOPS-Solution.pdf",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-Solution.pdf",
+          "kb": 112.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/listing/sales-content.md",
+          "kb": 4.7
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/README.md",
+          "kb": 2.1
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/solution.meta.json",
+          "kb": 2.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/enterprise-application-management-governance-operating-model/v1.0.0/deliverables/APPOPS-hero.png",
     "product_count": 3
   },
   {
@@ -38131,6 +38961,171 @@
     "product_count": 3
   },
   {
+    "title": "Win32 App Uninstall & Removal Failure Remediation (Microsoft Intune)",
+    "slug": "win32-app-uninstall-removal-failure-remediation",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPUNIN",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-APPUNIN-COMM-001",
+      "PTK-APPUNIN-NPO-001",
+      "PTK-APPUNIN-GOV-001"
+    ],
+    "deliverables": [
+      "APPUNIN-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\win32-app-uninstall-removal-failure-remediation\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/02-requirements.md",
+          "kb": 12.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/03-implementation.md",
+          "kb": 27.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/05-testing.md",
+          "kb": 4.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/07-best-practices.md",
+          "kb": 5.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/executive-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPUNIN-Discovery.ps1",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/scripts/APPUNIN-Discovery.ps1",
+          "kb": 5.5
+        },
+        {
+          "name": "APPUNIN-LogParser.ps1",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/scripts/APPUNIN-LogParser.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "APPUNIN-Remediation.ps1",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/scripts/APPUNIN-Remediation.ps1",
+          "kb": 8.7
+        },
+        {
+          "name": "APPUNIN-Report.ps1",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/scripts/APPUNIN-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "APPUNIN-Validation.ps1",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/scripts/APPUNIN-Validation.ps1",
+          "kb": 6.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPUNIN-Complete-Solution.zip",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-Complete-Solution.zip",
+          "kb": 140.6
+        },
+        {
+          "name": "APPUNIN-hero.png",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-hero.png",
+          "kb": 466.7
+        },
+        {
+          "name": "APPUNIN-hero.svg",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "APPUNIN-Scripts.zip",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-Scripts.zip",
+          "kb": 12.2
+        },
+        {
+          "name": "APPUNIN-Solution.docx",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-Solution.docx",
+          "kb": 68.6
+        },
+        {
+          "name": "APPUNIN-Solution.pdf",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-Solution.pdf",
+          "kb": 87.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/listing/sales-content.md",
+          "kb": 3.8
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/README.md",
+          "kb": 2.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/solution.meta.json",
+          "kb": 2.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/win32-app-uninstall-removal-failure-remediation/v1.0.0/deliverables/APPUNIN-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows Advanced Audit Policy & Security Event Logging Baseline (Intune)",
     "slug": "windows-advanced-audit-policy-security-logging-baseline-intune",
     "category": "Intune",
@@ -39953,6 +40948,1496 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/wsus-to-wufb-patch-modernization/v1.0.0/deliverables/WSUSM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Application Estate Monitoring, Reporting & Supportability (Microsoft Graph & Power BI)",
+    "slug": "application-estate-monitoring-reporting-supportability",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPRPT",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-APPRPT-COMM-001",
+      "PTK-APPRPT-NPO-001",
+      "PTK-APPRPT-GOV-001"
+    ],
+    "deliverables": [
+      "APPRPT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\application-estate-monitoring-reporting-supportability\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/02-requirements.md",
+          "kb": 12.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/03-implementation.md",
+          "kb": 17.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/05-testing.md",
+          "kb": 6.2
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/06-troubleshooting.md",
+          "kb": 8.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/07-best-practices.md",
+          "kb": 7.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPRPT-Bootstrap-ScheduledExport.ps1",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/scripts/APPRPT-Bootstrap-ScheduledExport.ps1",
+          "kb": 6.9
+        },
+        {
+          "name": "APPRPT-Export-AppInstallStatus.ps1",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/scripts/APPRPT-Export-AppInstallStatus.ps1",
+          "kb": 5.0
+        },
+        {
+          "name": "APPRPT-Generate-KPISnapshot.ps1",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/scripts/APPRPT-Generate-KPISnapshot.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "APPRPT-Report-TopFailures.ps1",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/scripts/APPRPT-Report-TopFailures.ps1",
+          "kb": 4.8
+        },
+        {
+          "name": "APPRPT-Report-VersionDrift.ps1",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/scripts/APPRPT-Report-VersionDrift.ps1",
+          "kb": 5.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPRPT-Complete-Solution.zip",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-Complete-Solution.zip",
+          "kb": 143.5
+        },
+        {
+          "name": "APPRPT-hero.png",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-hero.png",
+          "kb": 436.7
+        },
+        {
+          "name": "APPRPT-hero.svg",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "APPRPT-Scripts.zip",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-Scripts.zip",
+          "kb": 11.7
+        },
+        {
+          "name": "APPRPT-Solution.docx",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-Solution.docx",
+          "kb": 69.2
+        },
+        {
+          "name": "APPRPT-Solution.pdf",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-Solution.pdf",
+          "kb": 90.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.2
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/listing/sales-content.md",
+          "kb": 3.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/README.md",
+          "kb": 1.9
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/solution.meta.json",
+          "kb": 2.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/application-estate-monitoring-reporting-supportability/v1.0.0/deliverables/APPRPT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Application Management Current-State Assessment & Modernization Roadmap (Microsoft Endpoint / Intune)",
+    "slug": "application-management-assessment-modernization-roadmap",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPASMT",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2295.0,
+    "nonprofit": 1377.0,
+    "skus": [
+      "PTK-APPASMT-COMM-001",
+      "PTK-APPASMT-NPO-001",
+      "PTK-APPASMT-GOV-001"
+    ],
+    "deliverables": [
+      "APPASMT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\application-management-assessment-modernization-roadmap\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/02-requirements.md",
+          "kb": 10.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/03-implementation.md",
+          "kb": 16.0
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/05-testing.md",
+          "kb": 6.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/06-troubleshooting.md",
+          "kb": 7.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPASMT-Assignment-Analysis.ps1",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/scripts/APPASMT-Assignment-Analysis.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "APPASMT-Estate-Inventory.ps1",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/scripts/APPASMT-Estate-Inventory.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "APPASMT-Install-Health.ps1",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/scripts/APPASMT-Install-Health.ps1",
+          "kb": 5.3
+        },
+        {
+          "name": "APPASMT-Maturity-Evidence.ps1",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/scripts/APPASMT-Maturity-Evidence.ps1",
+          "kb": 10.2
+        },
+        {
+          "name": "APPASMT-Unmanaged-Detection.ps1",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/scripts/APPASMT-Unmanaged-Detection.ps1",
+          "kb": 4.8
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPASMT-Complete-Solution.zip",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-Complete-Solution.zip",
+          "kb": 134.3
+        },
+        {
+          "name": "APPASMT-hero.png",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-hero.png",
+          "kb": 455.7
+        },
+        {
+          "name": "APPASMT-hero.svg",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "APPASMT-Scripts.zip",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-Scripts.zip",
+          "kb": 13.6
+        },
+        {
+          "name": "APPASMT-Solution.docx",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-Solution.docx",
+          "kb": 64.1
+        },
+        {
+          "name": "APPASMT-Solution.pdf",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-Solution.pdf",
+          "kb": 82.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/listing/sales-content.md",
+          "kb": 4.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/README.md",
+          "kb": 2.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/solution.meta.json",
+          "kb": 2.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/application-management-assessment-modernization-roadmap/v1.0.0/deliverables/APPASMT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Application Retirement, Offboarding & Decommissioning (Microsoft Intune)",
+    "slug": "application-retirement-offboarding-decommissioning",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPRET",
+    "version": "1.0.0",
+    "status": "generated",
+    "created": "2026-07-20",
+    "updated": "2026-07-20",
+    "published_at": null,
+    "commercial": 2295.0,
+    "nonprofit": 1377.0,
+    "skus": [
+      "PTK-APPRET-COMM-001",
+      "PTK-APPRET-NPO-001",
+      "PTK-APPRET-GOV-001"
+    ],
+    "deliverables": [
+      "APPRET-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\application-retirement-offboarding-decommissioning\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.7
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/02-requirements.md",
+          "kb": 9.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/03-implementation.md",
+          "kb": 15.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPRET-ArtifactFinder.ps1",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/scripts/APPRET-ArtifactFinder.ps1",
+          "kb": 7.0
+        },
+        {
+          "name": "APPRET-Discovery.ps1",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/scripts/APPRET-Discovery.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "APPRET-EvidenceExport.ps1",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/scripts/APPRET-EvidenceExport.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "APPRET-ImpactAnalyzer.ps1",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/scripts/APPRET-ImpactAnalyzer.ps1",
+          "kb": 5.6
+        },
+        {
+          "name": "APPRET-WaveReporter.ps1",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/scripts/APPRET-WaveReporter.ps1",
+          "kb": 6.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPRET-Complete-Solution.zip",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-Complete-Solution.zip",
+          "kb": 127.8
+        },
+        {
+          "name": "APPRET-hero.png",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-hero.png",
+          "kb": 466.9
+        },
+        {
+          "name": "APPRET-hero.svg",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-hero.svg",
+          "kb": 6.3
+        },
+        {
+          "name": "APPRET-Scripts.zip",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-Scripts.zip",
+          "kb": 11.8
+        },
+        {
+          "name": "APPRET-Solution.docx",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-Solution.docx",
+          "kb": 63.3
+        },
+        {
+          "name": "APPRET-Solution.pdf",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-Solution.pdf",
+          "kb": 77.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/listing/sales-content.md",
+          "kb": 2.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/README.md",
+          "kb": 1.8
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/solution.meta.json",
+          "kb": 2.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/application-retirement-offboarding-decommissioning/v1.0.0/deliverables/APPRET-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Managed App Configuration Policies (iOS & Android) — Zero-Touch App Setup & SSO Routing",
+    "slug": "intune-managed-app-configuration-policies-ios-android",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "APPCFG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-30",
+    "updated": "2026-07-30",
+    "published_at": "2026-07-30",
+    "commercial": 2295.0,
+    "nonprofit": 1377.0,
+    "skus": [
+      "PTK-APPCFG-COMM-001",
+      "PTK-APPCFG-NPO-001",
+      "PTK-APPCFG-GOV-001"
+    ],
+    "deliverables": [
+      "APPCFG-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-managed-app-configuration-policies-ios-android\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/01-solution-overview.md",
+          "kb": 10.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/02-requirements.md",
+          "kb": 10.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/03-implementation.md",
+          "kb": 13.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/05-testing.md",
+          "kb": 4.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.8
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "APPCFG-Get-AppConfigPolicies.ps1",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/scripts/APPCFG-Get-AppConfigPolicies.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "APPCFG-Preflight.ps1",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/scripts/APPCFG-Preflight.ps1",
+          "kb": 2.7
+        },
+        {
+          "name": "APPCFG-Remediation.ps1",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/scripts/APPCFG-Remediation.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "APPCFG-Report-AppConfig.ps1",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/scripts/APPCFG-Report-AppConfig.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "APPCFG-Validate-Assignment.ps1",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/scripts/APPCFG-Validate-Assignment.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "APPCFG-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-Complete-Solution.zip",
+          "kb": 121.9
+        },
+        {
+          "name": "APPCFG-hero.png",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-hero.png",
+          "kb": 422.3
+        },
+        {
+          "name": "APPCFG-hero.svg",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "APPCFG-Scripts.zip",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-Scripts.zip",
+          "kb": 8.1
+        },
+        {
+          "name": "APPCFG-Solution.docx",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-Solution.docx",
+          "kb": 61.3
+        },
+        {
+          "name": "APPCFG-Solution.pdf",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-Solution.pdf",
+          "kb": 71.9
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/listing/sales-content.md",
+          "kb": 3.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/README.md",
+          "kb": 2.4
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/solution.meta.json",
+          "kb": 3.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/deliverables/APPCFG-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Wi-Fi Profile Deployment & Management (Windows, iOS & Android)",
+    "slug": "intune-wifi-profile-deployment-management-windows-ios-android",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "WIFIMGT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-08-05",
+    "updated": "2026-08-05",
+    "published_at": "2026-08-05",
+    "commercial": 2295.0,
+    "nonprofit": 1377.0,
+    "skus": [
+      "PTK-WIFIMGT-COMM-001",
+      "PTK-WIFIMGT-NPO-001",
+      "PTK-WIFIMGT-GOV-001"
+    ],
+    "deliverables": [
+      "WIFIMGT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-wifi-profile-deployment-management-windows-ios-android\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/02-requirements.md",
+          "kb": 6.9
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/03-implementation.md",
+          "kb": 12.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/05-testing.md",
+          "kb": 4.5
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/07-best-practices.md",
+          "kb": 3.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/executive-summary.md",
+          "kb": 2.0
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WIFIMGT-Get-WifiProfiles.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/scripts/WIFIMGT-Get-WifiProfiles.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "WIFIMGT-Preflight.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/scripts/WIFIMGT-Preflight.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "WIFIMGT-Remediation.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/scripts/WIFIMGT-Remediation.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "WIFIMGT-Report-Connectivity.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/scripts/WIFIMGT-Report-Connectivity.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "WIFIMGT-Validate-Assignment.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/scripts/WIFIMGT-Validate-Assignment.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WIFIMGT-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-Complete-Solution.zip",
+          "kb": 102.8
+        },
+        {
+          "name": "WIFIMGT-hero.png",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-hero.png",
+          "kb": 440.9
+        },
+        {
+          "name": "WIFIMGT-hero.svg",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "WIFIMGT-Scripts.zip",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-Scripts.zip",
+          "kb": 9.1
+        },
+        {
+          "name": "WIFIMGT-Solution.docx",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-Solution.docx",
+          "kb": 55.3
+        },
+        {
+          "name": "WIFIMGT-Solution.pdf",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-Solution.pdf",
+          "kb": 58.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/listing/sales-content.md",
+          "kb": 3.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/README.md",
+          "kb": 2.2
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/solution.meta.json",
+          "kb": 3.8
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/deliverables/WIFIMGT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Intune Wi-Fi Profile Remediation — Changes Not Applying (Proxy, SSID & Meraki)",
+    "slug": "intune-wifi-profile-remediation-changes-not-applying",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "WIFIDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-08-05",
+    "updated": "2026-08-05",
+    "published_at": "2026-08-05",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-WIFIDX-COMM-001",
+      "PTK-WIFIDX-NPO-001",
+      "PTK-WIFIDX-GOV-001"
+    ],
+    "deliverables": [
+      "WIFIDX-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-wifi-profile-remediation-changes-not-applying\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.1
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/03-implementation.md",
+          "kb": 19.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.6
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/07-best-practices.md",
+          "kb": 3.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WIFIDX-Get-WifiProfiles.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/scripts/WIFIDX-Get-WifiProfiles.ps1",
+          "kb": 6.6
+        },
+        {
+          "name": "WIFIDX-Preflight.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/scripts/WIFIDX-Preflight.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "WIFIDX-Remediation.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/scripts/WIFIDX-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "WIFIDX-Report-ProfileState.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/scripts/WIFIDX-Report-ProfileState.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "WIFIDX-Validate-Device.ps1",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/scripts/WIFIDX-Validate-Device.ps1",
+          "kb": 3.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WIFIDX-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-Complete-Solution.zip",
+          "kb": 118.5
+        },
+        {
+          "name": "WIFIDX-hero.png",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-hero.png",
+          "kb": 448.7
+        },
+        {
+          "name": "WIFIDX-hero.svg",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "WIFIDX-Scripts.zip",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-Scripts.zip",
+          "kb": 10.0
+        },
+        {
+          "name": "WIFIDX-Solution.docx",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-Solution.docx",
+          "kb": 61.4
+        },
+        {
+          "name": "WIFIDX-Solution.pdf",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-Solution.pdf",
+          "kb": 69.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/listing/hero.json",
+          "kb": 1.1
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/listing/sales-content.md",
+          "kb": 3.5
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/README.md",
+          "kb": 3.0
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/solution.meta.json",
+          "kb": 4.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/deliverables/WIFIDX-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Microsoft Intune First-Time Setup for Windows — User & Autopilot Enrollment (Entra-Joined)",
+    "slug": "intune-first-time-setup-windows-user-autopilot-enrollment",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "INTBASE",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-28",
+    "updated": "2026-07-30",
+    "published_at": "2026-07-30",
+    "commercial": 0.0,
+    "nonprofit": 0.0,
+    "skus": [
+      "PTK-INTBASE-ESS-001",
+      "PTK-INTBASE-PLUS-001"
+    ],
+    "deliverables": [
+      "INTBASE-Essentials.zip",
+      "INTBASE-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\intune-first-time-setup-windows-user-autopilot-enrollment\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.2
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/02-requirements.md",
+          "kb": 7.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/03-implementation.md",
+          "kb": 10.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/05-testing.md",
+          "kb": 3.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/07-best-practices.md",
+          "kb": 2.9
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "INTBASE-Get-AutopilotHash.ps1",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/scripts/INTBASE-Get-AutopilotHash.ps1",
+          "kb": 1.8
+        },
+        {
+          "name": "INTBASE-Preflight.ps1",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/scripts/INTBASE-Preflight.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "INTBASE-Remediation.ps1",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/scripts/INTBASE-Remediation.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "INTBASE-Report-Enrollment.ps1",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/scripts/INTBASE-Report-Enrollment.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "INTBASE-Validate-Enrollment.ps1",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/scripts/INTBASE-Validate-Enrollment.ps1",
+          "kb": 2.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "INTBASE-Complete-Solution.zip",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-Complete-Solution.zip",
+          "kb": 101.5
+        },
+        {
+          "name": "INTBASE-Essentials.zip",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-Essentials.zip",
+          "kb": 91.4
+        },
+        {
+          "name": "INTBASE-hero.png",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-hero.png",
+          "kb": 440.4
+        },
+        {
+          "name": "INTBASE-hero.svg",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "INTBASE-Scripts.zip",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-Scripts.zip",
+          "kb": 7.3
+        },
+        {
+          "name": "INTBASE-Solution.docx",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-Solution.docx",
+          "kb": 54.6
+        },
+        {
+          "name": "INTBASE-Solution.pdf",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-Solution.pdf",
+          "kb": 55.6
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/listing/bagisto-products.json",
+          "kb": 11.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/listing/sales-content.md",
+          "kb": 2.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/README.md",
+          "kb": 3.0
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/solution.meta.json",
+          "kb": 3.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 7,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/deliverables/INTBASE-hero.png",
+    "product_count": 2
+  },
+  {
+    "title": "ServiceNow ↔ Microsoft Intune Integration — Device Inventory & CMDB Sync",
+    "slug": "servicenow-intune-integration-device-inventory-cmdb-sync",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "SNOWINT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-30",
+    "updated": "2026-07-30",
+    "published_at": "2026-07-30",
+    "commercial": 2795.0,
+    "nonprofit": 1677.0,
+    "skus": [
+      "PTK-SNOWINT-COMM-001",
+      "PTK-SNOWINT-NPO-001",
+      "PTK-SNOWINT-GOV-001"
+    ],
+    "deliverables": [
+      "SNOWINT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\servicenow-intune-integration-device-inventory-cmdb-sync\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/02-requirements.md",
+          "kb": 11.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/03-implementation.md",
+          "kb": 9.8
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/05-testing.md",
+          "kb": 4.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "SNOWINT-Export-ManagedDevices.ps1",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/scripts/SNOWINT-Export-ManagedDevices.ps1",
+          "kb": 2.9
+        },
+        {
+          "name": "SNOWINT-Preflight.ps1",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/scripts/SNOWINT-Preflight.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "SNOWINT-Remediation.ps1",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/scripts/SNOWINT-Remediation.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "SNOWINT-Report-Coverage.ps1",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/scripts/SNOWINT-Report-Coverage.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "SNOWINT-Validate-Sync.ps1",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/scripts/SNOWINT-Validate-Sync.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "SNOWINT-Complete-Solution.zip",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-Complete-Solution.zip",
+          "kb": 110.3
+        },
+        {
+          "name": "SNOWINT-hero.png",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-hero.png",
+          "kb": 485.2
+        },
+        {
+          "name": "SNOWINT-hero.svg",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "SNOWINT-Scripts.zip",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-Scripts.zip",
+          "kb": 9.1
+        },
+        {
+          "name": "SNOWINT-Solution.docx",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "SNOWINT-Solution.pdf",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-Solution.pdf",
+          "kb": 64.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.3
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/listing/hero.json",
+          "kb": 0.8
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/listing/sales-content.md",
+          "kb": 2.7
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/README.md",
+          "kb": 2.9
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/solution.meta.json",
+          "kb": 4.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/deliverables/SNOWINT-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Delivery Optimization — Bandwidth Savings & Peer Content Distribution (Intune)",
+    "slug": "windows-delivery-optimization-bandwidth-content-distribution-intune",
+    "category": "Intune Solutions",
+    "category_slug": "intune-solutions",
+    "sol_code": "DELOPT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-30",
+    "updated": "2026-07-30",
+    "published_at": "2026-07-30",
+    "commercial": 2295.0,
+    "nonprofit": 1377.0,
+    "skus": [
+      "PTK-DELOPT-COMM-001",
+      "PTK-DELOPT-NPO-001",
+      "PTK-DELOPT-GOV-001"
+    ],
+    "deliverables": [
+      "DELOPT-Complete-Solution.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-delivery-optimization-bandwidth-content-distribution-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/02-requirements.md",
+          "kb": 5.5
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/03-implementation.md",
+          "kb": 9.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/executive-summary.md",
+          "kb": 2.4
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "DELOPT-Get-Policy.ps1",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/scripts/DELOPT-Get-Policy.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "DELOPT-Get-Status.ps1",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/scripts/DELOPT-Get-Status.ps1",
+          "kb": 3.0
+        },
+        {
+          "name": "DELOPT-Preflight.ps1",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/scripts/DELOPT-Preflight.ps1",
+          "kb": 3.6
+        },
+        {
+          "name": "DELOPT-Remediation.ps1",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/scripts/DELOPT-Remediation.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "DELOPT-Report-Savings.ps1",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/scripts/DELOPT-Report-Savings.ps1",
+          "kb": 3.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "DELOPT-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-Complete-Solution.zip",
+          "kb": 101.5
+        },
+        {
+          "name": "DELOPT-hero.png",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-hero.png",
+          "kb": 474.0
+        },
+        {
+          "name": "DELOPT-hero.svg",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "DELOPT-Scripts.zip",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-Scripts.zip",
+          "kb": 7.3
+        },
+        {
+          "name": "DELOPT-Solution.docx",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-Solution.docx",
+          "kb": 56.8
+        },
+        {
+          "name": "DELOPT-Solution.pdf",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-Solution.pdf",
+          "kb": 56.2
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.1
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/listing/sales-content.md",
+          "kb": 2.8
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/README.md",
+          "kb": 1.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/solution.meta.json",
+          "kb": 3.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/deliverables/DELOPT-hero.png",
     "product_count": 3
   },
   {
@@ -72525,8 +75010,8 @@
     "created": "2026-07-01",
     "updated": "2026-07-01",
     "published_at": "2026-07-01",
-    "commercial": 2995.0,
-    "nonprofit": 1797.0,
+    "commercial": 0.0,
+    "nonprofit": 0.0,
     "skus": [
       "PTK-M365SEC-COMM-001",
       "PTK-M365SEC-NPO-001",
@@ -72670,7 +75155,7 @@
         {
           "name": "solution.meta.json",
           "href": "../security/microsoft-365-security-baseline-audit-readiness/v1.0.0/solution.meta.json",
-          "kb": 1.2
+          "kb": 1.7
         }
       ]
     },

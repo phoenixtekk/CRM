@@ -13,30 +13,33 @@
   "branding": "off",
   "author_notes": [
     "Effort tier: T4 (M365 tenant secure-configuration baseline + control evidence + audit readiness across services; Secure Score, Compliance Manager, framework mapping).",
-    "Distinct from the CIS/STIG ENDPOINT baselines; this is the M365 TENANT/service configuration + audit-evidence layer. version_directive: New; branding: off."
+    "Distinct from the CIS/STIG ENDPOINT baselines; this is the M365 TENANT/service configuration + audit-evidence layer. version_directive: New; branding: off.",
+    "Converted to FREE lead-gen (2026-07-28): all 3 store SKUs repriced to $0 (surgical price update; downloads/status preserved). Marketing points at the -commercial url_key. Public ungated wiki guide to be published under a public KB path (not solutions/, which is gated). Original paid anchors were CPLTREADY $2495 / M365SEC $2995."
   ],
   "products": [
     {
       "sku": "PTK-M365SEC-COMM-001",
       "audience": "commercial",
-      "price": 2995.0
+      "price": 0.0
     },
     {
       "sku": "PTK-M365SEC-NPO-001",
       "audience": "nonprofit",
-      "price": 1797.0
+      "price": 0.0
     },
     {
       "sku": "PTK-M365SEC-GOV-001",
       "audience": "government",
-      "price": 2545.75
+      "price": 0.0
     }
   ],
   "deliverables": [
     "M365SEC-Solution.pdf",
     "M365SEC-Scripts.zip"
   ],
-  "hero": "M365SEC-hero.png"
+  "hero": "M365SEC-hero.png",
+  "commercial": 0.0,
+  "free": true,
+  "wiki_path": "Microsoft/security/microsoft-365-security-baseline-audit-readiness",
+  "wiki_public": true
 }
-
-

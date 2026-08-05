@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Intune Wi-Fi", "color": "white", "size": "main" },
+    { "text": "Profile Deployment", "color": "green", "size": "main" },
+    { "text": "Windows · iOS · Android", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "MANUAL WI-FI SETUP", "items": ["Users type the SSID", "Shared passwords leak", "Proxy set by guesswork", "Inconsistent per device"] },
+  "to": { "label": "Microsoft Intune", "stat": "Auto-join · One profile per platform" },
+  "tagline": "SECURE.  CONSISTENT.  CROSS-PLATFORM.",
+  "benefits": [
+    { "icon": "cloud", "title": "Pushed by Intune", "sub": "No user setup" },
+    { "icon": "device", "title": "Three Platforms", "sub": "Windows · iOS · Android" },
+    { "icon": "key", "title": "Right Security Type", "sub": "PSK or 802.1X" },
+    { "icon": "gear", "title": "Proxy Done Right", "sub": "Host+port vs PAC URL" }
+  ]
+}

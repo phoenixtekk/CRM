@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Intune First-Time Setup", "color": "white", "size": "main" },
+    { "text": "for Windows", "color": "green", "size": "main" },
+    { "text": "User-Driven + Autopilot · Entra-Joined", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "NO WINDOWS DEVICES MANAGED", "items": ["Intune on, nothing enrolled", "No enrollment method", "No zero-touch", "PCs unmanaged"] },
+  "to": { "label": "First Windows Devices Enrolled", "stat": "Enrolled · Managed · Compliant" },
+  "tagline": "TWO WAYS.  ZERO GUESSWORK.",
+  "benefits": [
+    { "icon": "users", "title": "User-Driven", "sub": "Entra join → auto-enroll" },
+    { "icon": "device", "title": "Basic Autopilot", "sub": "Zero-touch, Entra joined" },
+    { "icon": "gear", "title": "Named Objects", "sub": "Auditable pilot footprint" },
+    { "icon": "chart", "title": "Validated", "sub": "PASS/FAIL enrollment gates" }
+  ]
+}

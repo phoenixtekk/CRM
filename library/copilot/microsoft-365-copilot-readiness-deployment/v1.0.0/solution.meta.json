@@ -12,28 +12,32 @@
   "version_directive": "New",
   "branding": "off",
   "author_notes": [
-    "NEW Copilot category. PowerShell/Graph. Copilot licensing/preview flagged verify; AI-use policy deferred to the customer."
+    "NEW Copilot category. PowerShell/Graph. Copilot licensing/preview flagged verify; AI-use policy deferred to the customer.",
+    "Converted to FREE lead-gen (2026-07-28): all 3 store SKUs repriced to $0 (surgical price update; downloads/status preserved). Marketing points at the -commercial url_key. Public ungated wiki guide to be published under a public KB path (not solutions/, which is gated). Original paid anchors were CPLTREADY $2495 / M365SEC $2995."
   ],
   "products": [
     {
       "sku": "PTK-CPLTREADY-COMM-001",
       "audience": "commercial",
-      "price": 2495.0
+      "price": 0.0
     },
     {
       "sku": "PTK-CPLTREADY-NPO-001",
       "audience": "nonprofit",
-      "price": 1497.0
+      "price": 0.0
     },
     {
       "sku": "PTK-CPLTREADY-GOV-001",
       "audience": "government",
-      "price": 2120.75
+      "price": 0.0
     }
   ],
   "deliverables": [
     "CPLTREADY-Complete-Solution.zip"
   ],
-  "hero": "CPLTREADY-hero.png"
+  "hero": "CPLTREADY-hero.png",
+  "commercial": 0.0,
+  "free": true,
+  "wiki_path": "Microsoft/copilot/microsoft-365-copilot-readiness-deployment",
+  "wiki_public": true
 }
-

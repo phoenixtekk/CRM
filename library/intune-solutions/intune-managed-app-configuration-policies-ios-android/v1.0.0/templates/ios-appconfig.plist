@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ios-appconfig.plist — SAMPLE iOS/iPadOS Managed App Configuration (property list).
+
+  HOW TO USE (Intune → Apps → App configuration policies → Create → Managed devices →
+  Platform iOS/iPadOS → Settings → "Enter XML data"):
+    * Paste ONLY the <dict>...</dict> block below (the portal supplies the <?xml?>/<plist> wrapper).
+    * It MUST be a valid Apple plist: lowercase <dict> root, <key>/<string> (etc.) pairs only,
+      NO xmlns/xsi namespace attributes, NO vendor XML *profile* header. A capitalized <Dict> or a
+      namespaced document is REJECTED ("must begin and end with 'dict' tag" / "Remove XML headers").
+    * Prefer the "Configuration designer" (type key + value in the table) when you can — it is less
+      error-prone than pasting XML.
+
+  KEY NAMES ARE VENDOR-DEFINED. Replace the placeholder keys below with the exact keys from the
+  app vendor's MDM/app-configuration documentation. A key the app did not publish is ignored.
+
+  HOSTNAME, NOT URL: any "server/host" value is a bare hostname — no https://, no path/slash.
+  A path is sent to DNS as one string and fails to resolve.
+
+  Intune token variables (expanded per user/device at delivery): {{userprincipalname}}, {{mail}},
+  {{tenantid}}, {{deviceid}}, {{serialnumber}}.
+-->
+<plist version="1.0">
+<dict>
+    <key>serverHost</key>
+    <string>app.example.com</string>
+
+    <key>tenant</key>
+    <string>contoso</string>
+
+    <key>environment</key>
+    <string>production</string>
+
+    <key>userName</key>
+    <string>{{userprincipalname}}</string>
+
+    <key>tenantId</key>
+    <string>{{tenantid}}</string>
+
+    <key>authMode</key>
+    <string>SSO</string>
+
+    <key>telemetryEnabled</key>
+    <false/>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+{
+  "slug": "application-estate-monitoring-reporting-supportability",
+  "title": "Application Estate Monitoring, Reporting & Supportability (Microsoft Graph & Power BI)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPRPT",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — Intune + Graph + Power BI, 3 technologies (multi-component reporting pipeline within the endpoint platform; matches the $2,495 Intune app-troubleshooting reference).",
+    "Scope boundary: this is the MONITORING/REPORTING/SUPPORTABILITY layer of application management (deployment health KPIs, SLO, Graph->storage->Power BI pipeline, 3-view dashboard, alerting, supportability model). It is NOT license/cost reporting (that is the separate LICRPT/SAM discipline) and NOT per-install troubleshooting (that is INTAPPDX). Boundary stated explicitly in 01-solution-overview.md 'What this solution is NOT'.",
+    "gov_variant: false — decision + reasoning: US Gov clouds DO use different endpoints (Graph graph.microsoft.us/dod-graph.microsoft.us, Connect-MgGraph -Environment USGov/USGovDoD, portals endpoint.microsoft.us/portal.azure.us, and a SEPARATE Power BI Government cloud app.powerbigov.us with parity gaps). However the METHOD is identical across clouds — only URLs and one script parameter change. This is handled inline: all five scripts take -Environment Global|USGov|USGovDoD and route Graph accordingly; Requirements R11 carries the full endpoint substitution table; Implementation Step 0 selects the cloud; Best Practices + Troubleshooting T8 cover the separate Power BI Gov workspace and parity caveats ('verify for GCC High'). A separate source-gov\\ variant would duplicate near-identical content, so inline documentation is sufficient and preferred. Did NOT invent GCC High specifics; flagged uncertain parity as 'verify for GCC High'.",
+    "Adoption KPI honesty: Intune has no native per-app launch telemetry for Windows desktop apps; the solution instructs assembling adoption from M365/Defender/Endpoint-analytics/vendor signals and labeling confidence, rather than presenting an unsourced number."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPRPT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-APPRPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-APPRPT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "APPRPT-Complete-Solution.zip"
+  ],
+  "hero": "APPRPT-hero.png"
+}

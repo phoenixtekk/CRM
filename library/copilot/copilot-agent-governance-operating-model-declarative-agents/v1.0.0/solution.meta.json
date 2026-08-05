@@ -1,0 +1,41 @@
+{
+  "slug": "copilot-agent-governance-operating-model-declarative-agents",
+  "title": "Copilot Agent Governance & Operating Model (Declarative Agents — Build, Approve, Share, Retire)",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "AGBGOV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-24",
+  "updated": "2026-08-05",
+  "published_at": "2026-08-05",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — governance operating model scoped to declarative agents; narrower than APPOPS whole-estate T4",
+    "gov_variant: false — the governance operating model (roles, intake, ARB, sharing policy, lifecycle, retirement) is IDENTICAL for Commercial and GCC/GCC High/DoD; only portal URLs and agent feature availability differ, documented inline. Two Gov specifics captured: (1) publishing agents to the org IS supported in GCCH/GCCM; (2) the copilotPackages Graph API is NOT available in US Gov L4/L5, so Discovery/Review scripts degrade to the Agent Registry CSV export automatically. Government agent feature set is narrower/evolving — flagged verify-current.",
+    "scope boundary: this is the GOVERNANCE PROGRAM / operating model for Agent Builder declarative agents. The sibling product copilot-agent-builder-inventory-sharing-governance-export owns the deep inventory/sharing export + the Graph beta endpoint diagnostic — referenced, not reproduced. Purview DLP/oversharing/data-governance controls are referenced (the Copilot data-governance + oversharing-remediation solutions), not re-taught. Closes the specific gap the customer named: Copilot Studio agents already have publish-approval gates; Agent Builder declarative agents shared 'Anyone in your organization' can reach the whole tenant with no approval — this model governs that.",
+    "Agent admin/governance capabilities verified against Microsoft Learn on 2026-07-24: Agent Builder sharing options (Only you / Specific users / Anyone in your org); Copilot Control System agent access + org-wide sharing controls (All users / Specific users or groups / No users); org-catalog submit -> admin approve/reject -> 'Built by your org'; Agent Registry (Agents > All agents > Registry) block/unblock, reassign ownerless, export, Agents-without-owners/Unmanaged/Agents-at-risk; AI Administrator least-privilege role; copilotPackages Package Management API GET /copilot/admin/catalog/packages (CopilotPackages.Read.All, requires Microsoft Agent 365 license, Global only). Volatile/preview specifics flagged verify-current."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AGBGOV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AGBGOV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AGBGOV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AGBGOV-Complete-Solution.zip"
+  ],
+  "hero": "AGBGOV-hero.png"
+}

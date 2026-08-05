@@ -1,0 +1,41 @@
+{
+  "slug": "application-packaging-deployment-standards",
+  "title": "Application Packaging & Deployment Standards (Win32, MSIX & Store) — Org-Wide Specification & Quality Gates",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPSTD",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T3 — multi-component standard across 3 app formats (Win32/MSIX/Store) plus a 4th legacy format, spanning naming/version/metadata specification, a format decision tree, detection-rule acceptability + 10 banned patterns, command/return-code/reboot standards, an intake template, a 5-gate acceptance checklist, peer-review & sign-off process, assignment-hygiene rules, and a quarterly audit/enforcement cadence; 5 Graph scripts (4 read-only + 1 preview-by-default remediation).",
+    "SCOPE: This product is deliberately scoped to the STANDARDS/SPECIFICATION layer that sits ABOVE the existing 'Intune Win32 Application Packaging & Deployment' (WIN32) product, to avoid overlap. WIN32 teaches how to package and deploy ONE app (IntuneWinAppUtil, install/uninstall commands, detection rule mechanics, supersedence). APPSTD does NOT re-teach any of that; it governs the org-wide standard: mandatory naming/version/metadata convention, the format decision matrix (when Win32 vs MSIX vs Microsoft Store (new) vs LOB/MSI), detection-rule STANDARDS + banned patterns, command/return-code/reboot standards, package quality gates (acceptance checklist), peer review & sign-off with retained evidence, ring/assignment hygiene rules, a reusable intake/spec template, and enforcement/audit over time. Cross-references WIN32 for per-app mechanics; does not duplicate it.",
+    "gov decision: gov_variant=false. Government (GCC/GCC High/DoD) differences are documented INLINE rather than forked into a separate deliverable: Requirement 2.9 makes verifying Microsoft Store (new) availability a prerequisite; the format decision tree Step 3 carries a Government note (strike Q1 where Store is unavailable → apps fall through to Win32); Implementation and Troubleshooting note the different portal hosts (intune.microsoft.us / portal.azure.us) and the parity gaps. All Government specifics are flagged 'verify for GCC High against Microsoft documentation' and never invented — the standard itself (naming, detection, quality gates, audit) is cloud-agnostic, so a separate GOV deliverable was not warranted."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPSTD-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-APPSTD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-APPSTD-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "APPSTD-Complete-Solution.zip"
+  ],
+  "hero": "APPSTD-hero.png"
+}
