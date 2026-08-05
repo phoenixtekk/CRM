@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "iPhone Shared Device Mode", "color": "white", "size": "main" },
+    { "text": "Frontline SSO", "color": "green", "size": "main" },
+    { "text": "Global Sign-In · Single Sign-Out", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "SHARED ACCOUNT SPRAWL",
+    "items": [
+      "Previous user's data",
+      "No per-user session",
+      "Kiosk workarounds",
+      "No clean hand-off"
+    ]
+  },
+  "to": {
+    "label": "Per-user shared session",
+    "stat": "Sign out = clean"
+  },
+  "tagline": "SIGN IN.  WORK.  SIGN OUT CLEAN.",
+  "benefits": [
+    { "icon": "users", "title": "Per-user session", "sub": "Not a shared login" },
+    { "icon": "key", "title": "Global sign-out", "sub": "Clears the last user" },
+    { "icon": "device", "title": "Shared iPhones", "sub": "No-affinity ADE" },
+    { "icon": "shield", "title": "Clean hand-off", "sub": "Two-user tested" }
+  ]
+}

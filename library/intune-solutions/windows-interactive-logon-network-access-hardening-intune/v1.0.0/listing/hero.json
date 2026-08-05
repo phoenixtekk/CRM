@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Interactive Logon Hardening", "color": "white", "size": "main" },
+    { "text": "Windows Security Options", "color": "green", "size": "main" },
+    { "text": "Settings Catalog · Intune · Gap-only", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "LEFTOVER FINDINGS",
+    "items": [
+      "Non-domain bridging",
+      "Card pulled, still open",
+      "Auto restart sign-on",
+      "Network UI at logon"
+    ]
+  },
+  "to": {
+    "label": "Four findings closed",
+    "stat": "One profile"
+  },
+  "tagline": "ONE PROFILE.  FOUR CONTROLS.  FINDINGS CLOSED.",
+  "benefits": [
+    { "icon": "shield", "title": "Non-domain block", "sub": "fBlockNonDomain" },
+    { "icon": "key", "title": "Card = Lock", "sub": "scremoveoption" },
+    { "icon": "gear", "title": "No auto sign-on", "sub": "After update reboot" },
+    { "icon": "chart", "title": "Coverage", "sub": "Applied report" }
+  ]
+}

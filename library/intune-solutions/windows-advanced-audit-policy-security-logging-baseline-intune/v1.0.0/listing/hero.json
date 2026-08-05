@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Windows Audit Policy", "color": "white", "size": "main" },
+    { "text": "Security Logging Baseline", "color": "green", "size": "main" },
+    { "text": "Settings Catalog · CIS-aligned · 4688", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "UNDER-AUDITED",
+    "items": [
+      "No audit trail",
+      "Per-machine drift",
+      "Override off",
+      "No 4688 cmdline"
+    ]
+  },
+  "to": {
+    "label": "Baseline audit trail",
+    "stat": "~24 subcategories"
+  },
+  "tagline": "CONFIGURE IT.  FORCE IT.  CAPTURE THE EVIDENCE.",
+  "benefits": [
+    { "icon": "shield", "title": "Advanced Audit", "sub": "CIS/MS aligned" },
+    { "icon": "chip", "title": "Process 4688", "sub": "Command line on" },
+    { "icon": "gear", "title": "Force Subcategory", "sub": "Override enabled" },
+    { "icon": "chart", "title": "Coverage", "sub": "Audit report" }
+  ]
+}

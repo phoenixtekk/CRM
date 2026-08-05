@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Netlogon 5719", "color": "white", "size": "main" },
+    { "text": "Secure-Channel Health", "color": "green", "size": "main" },
+    { "text": "Diagnose · Repair · Validate", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "EVENT ID 5719",
+    "items": [
+      "No logon servers",
+      "Broken secure channel",
+      "DNS / time / ports",
+      "Invalid IPv6 config"
+    ]
+  },
+  "to": {
+    "label": "Root cause found & fixed",
+    "stat": "One device or fleet"
+  },
+  "tagline": "COLLECT IT.  DIAGNOSE IT.  REPAIR IT SAFELY.",
+  "benefits": [
+    { "icon": "search", "title": "Root-cause tree", "sub": "One-pass Discovery" },
+    { "icon": "shield", "title": "Safe repair", "sub": "-WhatIf by default" },
+    { "icon": "gear", "title": "IPv6 done right", "sub": "Keep it enabled" },
+    { "icon": "chart", "title": "At scale", "sub": "Proactive Remediations" }
+  ]
+}

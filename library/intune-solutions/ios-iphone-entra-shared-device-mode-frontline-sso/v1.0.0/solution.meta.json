@@ -1,0 +1,33 @@
+{
+  "slug": "ios-iphone-entra-shared-device-mode-frontline-sso",
+  "title": "iOS iPhone Entra ID Shared Device Mode — Frontline SSO with Global Sign-In & Single Sign-Out (Teams & MSAL Apps)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "IOSSDMFL",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "published_at": "2026-07-28",
+  "wiki_path": "solutions/intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (iOS + Entra Shared Device Mode + ABM/ADE no-affinity enrollment + apps; multi-component within one platform). Priced $2795 — above the single-user SSO extension sibling (IOSSSOEXT $2495) for the added no-affinity enrollment + shared-mode registration orchestration; below SHAREDIPAD ($2995).",
+    "Gap-only: distinct from IOSSDM (WebEx single-app kiosk, shared service account), IOSLD (lockdown profile), and SHAREDIPAD (Apple Managed Apple IDs, iPad-only). This is Entra ID Shared Device Mode = per-user global sign-in/single sign-out on shared iPhones.",
+    "Applied AUTHORING_LESSONS: (1) 2026-07-16 'lockdown is not session isolation' — presented SDM as the correct per-user session model, honestly bounded to SDM-aware apps; (2) assigned-group + Intune Provisioning Client owner (AppId f1346770-5b25-470b-88bd-d5744ab7952c) for no-affinity enrollment-time grouping; (3) ADE profile full nav drill-down; (4) store-app publisher + bundle ID (Authenticator com.microsoft.azureauthenticator, Teams com.microsoft.skype.teams).",
+    "Accuracy anchor: Apple Shared iPad is iPad-only, so Entra SDM is THE Microsoft-native shared-iPhone approach. iOS SDM app coverage narrower than Android; flagged 'verify per app', not invented.",
+    "White-label; Commercial-only per owner directive (no GCC High variant this run); Gov tier is price-only."
+  ],
+  "products": [
+    { "sku": "PTK-IOSSDMFL-COMM-001", "audience": "commercial", "price": 2795.0 },
+    { "sku": "PTK-IOSSDMFL-NPO-001",  "audience": "nonprofit",  "price": 1677.0 },
+    { "sku": "PTK-IOSSDMFL-GOV-001",  "audience": "government",  "price": 2375.75 }
+  ],
+  "deliverables": [
+    "IOSSDMFL-Solution.pdf",
+    "IOSSDMFL-Scripts.zip"
+  ],
+  "hero": "IOSSDMFL-hero.png"
+}

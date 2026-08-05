@@ -30446,6 +30446,172 @@
     "product_count": 3
   },
   {
+    "title": "HP Workforce Experience Platform (WXP) Integration with Microsoft Intune",
+    "slug": "hp-workforce-experience-platform-wxp-intune-integration",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "HPWXP",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-30",
+    "updated": "2026-07-30",
+    "published_at": "2026-07-30",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-HPWXP-COMM-001",
+      "PTK-HPWXP-NPO-001",
+      "PTK-HPWXP-GOV-001"
+    ],
+    "deliverables": [
+      "HPWXP-Solution.pdf",
+      "HPWXP-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\hp-workforce-experience-platform-wxp-intune-integration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/02-requirements.md",
+          "kb": 9.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/03-implementation.md",
+          "kb": 8.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/05-testing.md",
+          "kb": 5.1
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.7
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/07-best-practices.md",
+          "kb": 4.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/executive-summary.md",
+          "kb": 4.1
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "HPWXP-Discovery.ps1",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/scripts/HPWXP-Discovery.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "HPWXP-Remediation.ps1",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/scripts/HPWXP-Remediation.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "HPWXP-Report.ps1",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/scripts/HPWXP-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "HPWXP-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/scripts/HPWXP-Set-ScopeTargeting.ps1",
+          "kb": 4.6
+        },
+        {
+          "name": "HPWXP-Validation.ps1",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/scripts/HPWXP-Validation.ps1",
+          "kb": 4.2
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "HPWXP-Complete-Solution.zip",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-Complete-Solution.zip",
+          "kb": 113.0
+        },
+        {
+          "name": "HPWXP-hero.png",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-hero.png",
+          "kb": 480.9
+        },
+        {
+          "name": "HPWXP-hero.svg",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "HPWXP-Scripts.zip",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-Scripts.zip",
+          "kb": 10.3
+        },
+        {
+          "name": "HPWXP-Solution.docx",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-Solution.docx",
+          "kb": 58.0
+        },
+        {
+          "name": "HPWXP-Solution.pdf",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-Solution.pdf",
+          "kb": 66.8
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.9
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/listing/sales-content.md",
+          "kb": 3.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/README.md",
+          "kb": 3.0
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/solution.meta.json",
+          "kb": 2.0
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/hp-workforce-experience-platform-wxp-intune-integration/v1.0.0/deliverables/HPWXP-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Implement & Manage CIS Benchmarks for macOS Devices for Microsoft Intune",
     "slug": "cis-benchmarks-macos-intune",
     "category": "Intune",
@@ -32631,6 +32797,172 @@
     "product_count": 3
   },
   {
+    "title": "iOS iPhone Entra ID Shared Device Mode — Frontline SSO with Global Sign-In & Single Sign-Out (Teams & MSAL Apps)",
+    "slug": "ios-iphone-entra-shared-device-mode-frontline-sso",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "IOSSDMFL",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-28",
+    "updated": "2026-07-28",
+    "published_at": "2026-07-28",
+    "commercial": 2795.0,
+    "nonprofit": 1677.0,
+    "skus": [
+      "PTK-IOSSDMFL-COMM-001",
+      "PTK-IOSSDMFL-NPO-001",
+      "PTK-IOSSDMFL-GOV-001"
+    ],
+    "deliverables": [
+      "IOSSDMFL-Solution.pdf",
+      "IOSSDMFL-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\ios-iphone-entra-shared-device-mode-frontline-sso\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/02-requirements.md",
+          "kb": 8.0
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/03-implementation.md",
+          "kb": 6.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/05-testing.md",
+          "kb": 4.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/executive-summary.md",
+          "kb": 2.8
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "IOSSDMFL-Discovery.ps1",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/scripts/IOSSDMFL-Discovery.ps1",
+          "kb": 5.7
+        },
+        {
+          "name": "IOSSDMFL-Remediation.ps1",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/scripts/IOSSDMFL-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "IOSSDMFL-Report.ps1",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/scripts/IOSSDMFL-Report.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "IOSSDMFL-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/scripts/IOSSDMFL-Set-ScopeTargeting.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "IOSSDMFL-Validation.ps1",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/scripts/IOSSDMFL-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IOSSDMFL-Complete-Solution.zip",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-Complete-Solution.zip",
+          "kb": 99.6
+        },
+        {
+          "name": "IOSSDMFL-hero.png",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-hero.png",
+          "kb": 440.1
+        },
+        {
+          "name": "IOSSDMFL-hero.svg",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "IOSSDMFL-Scripts.zip",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-Scripts.zip",
+          "kb": 9.5
+        },
+        {
+          "name": "IOSSDMFL-Solution.docx",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-Solution.docx",
+          "kb": 53.7
+        },
+        {
+          "name": "IOSSDMFL-Solution.pdf",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-Solution.pdf",
+          "kb": 54.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.7
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/listing/sales-content.md",
+          "kb": 2.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/README.md",
+          "kb": 2.5
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/solution.meta.json",
+          "kb": 2.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/ios-iphone-entra-shared-device-mode-frontline-sso/v1.0.0/deliverables/IOSSDMFL-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "iOS iPhone Shared Device Mode (Lockdown) with WebEx Calling in Microsoft Intune",
     "slug": "ios-iphone-shared-device-mode",
     "category": "Intune",
@@ -32798,6 +33130,177 @@
     "deliv_count": 7,
     "doc_count": 9,
     "hero_href": "../intune-solutions/ios-iphone-shared-device-mode/v1.0.0/deliverables/IOSSDM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "iOS/iPadOS Enterprise SSO App Extension for Corporate-Owned iPhones (Microsoft Enterprise SSO Plug-in via Intune)",
+    "slug": "ios-enterprise-sso-app-extension-corporate-owned-iphones",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "IOSSSOEXT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-28",
+    "updated": "2026-07-28",
+    "published_at": "2026-07-28",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-IOSSSOEXT-COMM-001",
+      "PTK-IOSSSOEXT-NPO-001",
+      "PTK-IOSSSOEXT-GOV-001"
+    ],
+    "deliverables": [
+      "IOSSSOEXT-Solution.pdf",
+      "IOSSSOEXT-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\ios-enterprise-sso-app-extension-corporate-owned-iphones\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/01-solution-overview.md",
+          "kb": 6.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/03-implementation.md",
+          "kb": 7.6
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/05-testing.md",
+          "kb": 4.4
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.5
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/07-best-practices.md",
+          "kb": 3.8
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/executive-summary.md",
+          "kb": 2.9
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "IOSSSOEXT-Discovery.ps1",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/scripts/IOSSSOEXT-Discovery.ps1",
+          "kb": 4.7
+        },
+        {
+          "name": "IOSSSOEXT-Remediation.ps1",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/scripts/IOSSSOEXT-Remediation.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "IOSSSOEXT-Report.ps1",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/scripts/IOSSSOEXT-Report.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "IOSSSOEXT-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/scripts/IOSSSOEXT-Set-ScopeTargeting.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "IOSSSOEXT-Validation.ps1",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/scripts/IOSSSOEXT-Validation.ps1",
+          "kb": 5.1
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "IOSSSOEXT-Complete-Solution.zip",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-Complete-Solution.zip",
+          "kb": 101.7
+        },
+        {
+          "name": "IOSSSOEXT-hero.png",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-hero.png",
+          "kb": 477.2
+        },
+        {
+          "name": "IOSSSOEXT-hero.svg",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "IOSSSOEXT-Scripts.zip",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "IOSSSOEXT-Solution.docx",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-Solution.docx",
+          "kb": 54.4
+        },
+        {
+          "name": "IOSSSOEXT-Solution.pdf",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-Solution.pdf",
+          "kb": 56.1
+        },
+        {
+          "name": "IOSSSOEXT-wiki.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-wiki.md",
+          "kb": 45.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/listing/bagisto-products.json",
+          "kb": 15.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/listing/sales-content.md",
+          "kb": 2.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/README.md",
+          "kb": 2.3
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/solution.meta.json",
+          "kb": 1.9
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 7,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones/v1.0.0/deliverables/IOSSSOEXT-hero.png",
     "product_count": 3
   },
   {
@@ -34463,6 +34966,172 @@
     "product_count": 3
   },
   {
+    "title": "Microsoft Edge for Business — Enterprise Configuration & Security Baseline (Intune)",
+    "slug": "microsoft-edge-for-business-enterprise-configuration-security-baseline-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "EDGEBIZ",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 1995.0,
+    "nonprofit": 1197.0,
+    "skus": [
+      "PTK-EDGEBIZ-COMM-001",
+      "PTK-EDGEBIZ-NPO-001",
+      "PTK-EDGEBIZ-GOV-001"
+    ],
+    "deliverables": [
+      "EDGEBIZ-Solution.pdf",
+      "EDGEBIZ-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\microsoft-edge-for-business-enterprise-configuration-security-baseline-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 9.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/03-implementation.md",
+          "kb": 14.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/05-testing.md",
+          "kb": 6.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 5.4
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "EDGEBIZ-Discovery.ps1",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/scripts/EDGEBIZ-Discovery.ps1",
+          "kb": 6.2
+        },
+        {
+          "name": "EDGEBIZ-Remediation.ps1",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/scripts/EDGEBIZ-Remediation.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "EDGEBIZ-Report.ps1",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/scripts/EDGEBIZ-Report.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "EDGEBIZ-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/scripts/EDGEBIZ-Set-ScopeTargeting.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "EDGEBIZ-Validation.ps1",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/scripts/EDGEBIZ-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "EDGEBIZ-Complete-Solution.zip",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-Complete-Solution.zip",
+          "kb": 118.9
+        },
+        {
+          "name": "EDGEBIZ-hero.png",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-hero.png",
+          "kb": 508.5
+        },
+        {
+          "name": "EDGEBIZ-hero.svg",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "EDGEBIZ-Scripts.zip",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-Scripts.zip",
+          "kb": 9.9
+        },
+        {
+          "name": "EDGEBIZ-Solution.docx",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-Solution.docx",
+          "kb": 60.2
+        },
+        {
+          "name": "EDGEBIZ-Solution.pdf",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-Solution.pdf",
+          "kb": 72.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/listing/sales-content.md",
+          "kb": 2.8
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/README.md",
+          "kb": 3.1
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0/deliverables/EDGEBIZ-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Microsoft Tunnel for MAM — Mobile Access to Intranet Resources",
     "slug": "microsoft-tunnel-for-mam-intranet-access",
     "category": "Intune",
@@ -35302,6 +35971,172 @@
     "product_count": 3
   },
   {
+    "title": "NTLM Elimination & SMB Signing — Legacy Authentication Hardening (Intune)",
+    "slug": "ntlm-elimination-smb-signing-legacy-auth-hardening-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "NTLMHARD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2795.0,
+    "nonprofit": 1677.0,
+    "skus": [
+      "PTK-NTLMHARD-COMM-001",
+      "PTK-NTLMHARD-NPO-001",
+      "PTK-NTLMHARD-GOV-001"
+    ],
+    "deliverables": [
+      "NTLMHARD-Solution.pdf",
+      "NTLMHARD-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\ntlm-elimination-smb-signing-legacy-auth-hardening-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.3
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/03-implementation.md",
+          "kb": 9.5
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.4
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.1
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.3
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "NTLMHARD-Discovery.ps1",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/scripts/NTLMHARD-Discovery.ps1",
+          "kb": 5.4
+        },
+        {
+          "name": "NTLMHARD-Remediation.ps1",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/scripts/NTLMHARD-Remediation.ps1",
+          "kb": 8.6
+        },
+        {
+          "name": "NTLMHARD-Report.ps1",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/scripts/NTLMHARD-Report.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "NTLMHARD-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/scripts/NTLMHARD-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "NTLMHARD-Validation.ps1",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/scripts/NTLMHARD-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "NTLMHARD-Complete-Solution.zip",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-Complete-Solution.zip",
+          "kb": 108.6
+        },
+        {
+          "name": "NTLMHARD-hero.png",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-hero.png",
+          "kb": 446.4
+        },
+        {
+          "name": "NTLMHARD-hero.svg",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-hero.svg",
+          "kb": 5.9
+        },
+        {
+          "name": "NTLMHARD-Scripts.zip",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "NTLMHARD-Solution.docx",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-Solution.docx",
+          "kb": 56.1
+        },
+        {
+          "name": "NTLMHARD-Solution.pdf",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-Solution.pdf",
+          "kb": 62.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/listing/hero.json",
+          "kb": 0.8
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/listing/sales-content.md",
+          "kb": 3.0
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/README.md",
+          "kb": 3.3
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0/deliverables/NTLMHARD-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "OneDrive for Business",
     "slug": "onedrive-for-business",
     "category": "Intune",
@@ -35795,6 +36630,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/proactive-remediations-at-scale-intune/v1.0.0/deliverables/PROREM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Remote Desktop (RDP) Security Hardening for Windows Endpoints (Intune)",
+    "slug": "remote-desktop-rdp-security-hardening-windows-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "RDPHARD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-RDPHARD-COMM-001",
+      "PTK-RDPHARD-NPO-001",
+      "PTK-RDPHARD-GOV-001"
+    ],
+    "deliverables": [
+      "RDPHARD-Solution.pdf",
+      "RDPHARD-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\remote-desktop-rdp-security-hardening-windows-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.6
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.2
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/03-implementation.md",
+          "kb": 9.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.4
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "RDPHARD-Discovery.ps1",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/scripts/RDPHARD-Discovery.ps1",
+          "kb": 4.9
+        },
+        {
+          "name": "RDPHARD-Remediation.ps1",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/scripts/RDPHARD-Remediation.ps1",
+          "kb": 5.8
+        },
+        {
+          "name": "RDPHARD-Report.ps1",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/scripts/RDPHARD-Report.ps1",
+          "kb": 3.7
+        },
+        {
+          "name": "RDPHARD-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/scripts/RDPHARD-Set-ScopeTargeting.ps1",
+          "kb": 4.2
+        },
+        {
+          "name": "RDPHARD-Validation.ps1",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/scripts/RDPHARD-Validation.ps1",
+          "kb": 4.3
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "RDPHARD-Complete-Solution.zip",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-Complete-Solution.zip",
+          "kb": 107.9
+        },
+        {
+          "name": "RDPHARD-hero.png",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-hero.png",
+          "kb": 436.0
+        },
+        {
+          "name": "RDPHARD-hero.svg",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "RDPHARD-Scripts.zip",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-Scripts.zip",
+          "kb": 9.7
+        },
+        {
+          "name": "RDPHARD-Solution.docx",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-Solution.docx",
+          "kb": 56.4
+        },
+        {
+          "name": "RDPHARD-Solution.pdf",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-Solution.pdf",
+          "kb": 62.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/listing/sales-content.md",
+          "kb": 3.4
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/README.md",
+          "kb": 2.8
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0/deliverables/RDPHARD-hero.png",
     "product_count": 3
   },
   {
@@ -37130,6 +38131,172 @@
     "product_count": 3
   },
   {
+    "title": "Windows Advanced Audit Policy & Security Event Logging Baseline (Intune)",
+    "slug": "windows-advanced-audit-policy-security-logging-baseline-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "WINAUDIT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2795.0,
+    "nonprofit": 1677.0,
+    "skus": [
+      "PTK-WINAUDIT-COMM-001",
+      "PTK-WINAUDIT-NPO-001",
+      "PTK-WINAUDIT-GOV-001"
+    ],
+    "deliverables": [
+      "WINAUDIT-Solution.pdf",
+      "WINAUDIT-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-advanced-audit-policy-security-logging-baseline-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.9
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/02-requirements.md",
+          "kb": 7.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/03-implementation.md",
+          "kb": 12.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/05-testing.md",
+          "kb": 4.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.1
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WINAUDIT-Discovery.ps1",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/scripts/WINAUDIT-Discovery.ps1",
+          "kb": 5.1
+        },
+        {
+          "name": "WINAUDIT-Remediation.ps1",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/scripts/WINAUDIT-Remediation.ps1",
+          "kb": 9.4
+        },
+        {
+          "name": "WINAUDIT-Report.ps1",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/scripts/WINAUDIT-Report.ps1",
+          "kb": 3.9
+        },
+        {
+          "name": "WINAUDIT-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/scripts/WINAUDIT-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "WINAUDIT-Validation.ps1",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/scripts/WINAUDIT-Validation.ps1",
+          "kb": 4.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WINAUDIT-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-Complete-Solution.zip",
+          "kb": 113.7
+        },
+        {
+          "name": "WINAUDIT-hero.png",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-hero.png",
+          "kb": 418.9
+        },
+        {
+          "name": "WINAUDIT-hero.svg",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "WINAUDIT-Scripts.zip",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-Scripts.zip",
+          "kb": 10.8
+        },
+        {
+          "name": "WINAUDIT-Solution.docx",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-Solution.docx",
+          "kb": 58.2
+        },
+        {
+          "name": "WINAUDIT-Solution.pdf",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-Solution.pdf",
+          "kb": 66.4
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/listing/sales-content.md",
+          "kb": 3.6
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/README.md",
+          "kb": 2.8
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0/deliverables/WINAUDIT-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows Autopilot",
     "slug": "windows-autopilot",
     "category": "Intune",
@@ -37466,6 +38633,338 @@
     "product_count": 3
   },
   {
+    "title": "Windows Credential Theft Protection — Credential Guard, LSASS Protection & Windows LAPS (Intune)",
+    "slug": "windows-credential-theft-protection-credential-guard-laps-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "CREDGUARD",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2995.0,
+    "nonprofit": 1797.0,
+    "skus": [
+      "PTK-CREDGUARD-COMM-001",
+      "PTK-CREDGUARD-NPO-001",
+      "PTK-CREDGUARD-GOV-001"
+    ],
+    "deliverables": [
+      "CREDGUARD-Solution.pdf",
+      "CREDGUARD-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-credential-theft-protection-credential-guard-laps-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/02-requirements.md",
+          "kb": 8.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/03-implementation.md",
+          "kb": 13.3
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/05-testing.md",
+          "kb": 5.9
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 4.0
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.9
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/executive-summary.md",
+          "kb": 4.5
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "CREDGUARD-Discovery.ps1",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/scripts/CREDGUARD-Discovery.ps1",
+          "kb": 7.3
+        },
+        {
+          "name": "CREDGUARD-Remediation.ps1",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/scripts/CREDGUARD-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "CREDGUARD-Report.ps1",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/scripts/CREDGUARD-Report.ps1",
+          "kb": 4.1
+        },
+        {
+          "name": "CREDGUARD-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/scripts/CREDGUARD-Set-ScopeTargeting.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "CREDGUARD-Validation.ps1",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/scripts/CREDGUARD-Validation.ps1",
+          "kb": 4.7
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "CREDGUARD-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-Complete-Solution.zip",
+          "kb": 118.4
+        },
+        {
+          "name": "CREDGUARD-hero.png",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-hero.png",
+          "kb": 487.8
+        },
+        {
+          "name": "CREDGUARD-hero.svg",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "CREDGUARD-Scripts.zip",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-Scripts.zip",
+          "kb": 11.0
+        },
+        {
+          "name": "CREDGUARD-Solution.docx",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-Solution.docx",
+          "kb": 59.6
+        },
+        {
+          "name": "CREDGUARD-Solution.pdf",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-Solution.pdf",
+          "kb": 71.0
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 18.5
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/listing/sales-content.md",
+          "kb": 3.0
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/README.md",
+          "kb": 2.7
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/solution.meta.json",
+          "kb": 1.7
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0/deliverables/CREDGUARD-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Domain Secure-Channel & Netlogon Health Diagnostics Toolkit",
+    "slug": "windows-domain-secure-channel-netlogon-health-diagnostics",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "NETLOGONDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-NETLOGONDX-COMM-001",
+      "PTK-NETLOGONDX-NPO-001",
+      "PTK-NETLOGONDX-GOV-001"
+    ],
+    "deliverables": [
+      "NETLOGONDX-Solution.pdf",
+      "NETLOGONDX-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-domain-secure-channel-netlogon-health-diagnostics\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/01-solution-overview.md",
+          "kb": 8.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/02-requirements.md",
+          "kb": 6.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/03-implementation.md",
+          "kb": 7.2
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/05-testing.md",
+          "kb": 5.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/06-troubleshooting.md",
+          "kb": 6.0
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/07-best-practices.md",
+          "kb": 4.3
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 4.0
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/executive-summary.md",
+          "kb": 3.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "NETLOGONDX-Collect.ps1",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/scripts/NETLOGONDX-Collect.ps1",
+          "kb": 5.2
+        },
+        {
+          "name": "NETLOGONDX-Discovery.ps1",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/scripts/NETLOGONDX-Discovery.ps1",
+          "kb": 10.0
+        },
+        {
+          "name": "NETLOGONDX-Remediation.ps1",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/scripts/NETLOGONDX-Remediation.ps1",
+          "kb": 6.5
+        },
+        {
+          "name": "NETLOGONDX-Report.ps1",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/scripts/NETLOGONDX-Report.ps1",
+          "kb": 6.0
+        },
+        {
+          "name": "NETLOGONDX-Validation.ps1",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/scripts/NETLOGONDX-Validation.ps1",
+          "kb": 4.6
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "NETLOGONDX-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-Complete-Solution.zip",
+          "kb": 115.8
+        },
+        {
+          "name": "NETLOGONDX-hero.png",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-hero.png",
+          "kb": 485.2
+        },
+        {
+          "name": "NETLOGONDX-hero.svg",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "NETLOGONDX-Scripts.zip",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-Scripts.zip",
+          "kb": 14.0
+        },
+        {
+          "name": "NETLOGONDX-Solution.docx",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-Solution.docx",
+          "kb": 58.5
+        },
+        {
+          "name": "NETLOGONDX-Solution.pdf",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-Solution.pdf",
+          "kb": 64.3
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/listing/bagisto-products.json",
+          "kb": 16.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/listing/sales-content.md",
+          "kb": 2.9
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/README.md",
+          "kb": 2.8
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/solution.meta.json",
+          "kb": 1.6
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0/deliverables/NETLOGONDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows Firewall Management",
     "slug": "windows-firewall-management",
     "category": "Intune",
@@ -37793,6 +39292,172 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../intune-solutions/windows-hello-for-business/v1.0.0/deliverables/WHFB-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Windows Interactive Logon & Network-Access Security Options Hardening (Intune)",
+    "slug": "windows-interactive-logon-network-access-hardening-intune",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "WINSECOPT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-07-29",
+    "updated": "2026-07-29",
+    "published_at": "2026-07-29",
+    "commercial": 2495.0,
+    "nonprofit": 1497.0,
+    "skus": [
+      "PTK-WINSECOPT-COMM-001",
+      "PTK-WINSECOPT-NPO-001",
+      "PTK-WINSECOPT-GOV-001"
+    ],
+    "deliverables": [
+      "WINSECOPT-Solution.pdf",
+      "WINSECOPT-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-interactive-logon-network-access-hardening-intune\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/01-solution-overview.md",
+          "kb": 7.0
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/02-requirements.md",
+          "kb": 6.6
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/03-implementation.md",
+          "kb": 8.4
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/05-testing.md",
+          "kb": 5.0
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/06-troubleshooting.md",
+          "kb": 5.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/07-best-practices.md",
+          "kb": 3.7
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 3.2
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/executive-summary.md",
+          "kb": 3.7
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WINSECOPT-Discovery.ps1",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/scripts/WINSECOPT-Discovery.ps1",
+          "kb": 4.5
+        },
+        {
+          "name": "WINSECOPT-Remediation.ps1",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/scripts/WINSECOPT-Remediation.ps1",
+          "kb": 7.5
+        },
+        {
+          "name": "WINSECOPT-Report.ps1",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/scripts/WINSECOPT-Report.ps1",
+          "kb": 4.0
+        },
+        {
+          "name": "WINSECOPT-Set-ScopeTargeting.ps1",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/scripts/WINSECOPT-Set-ScopeTargeting.ps1",
+          "kb": 4.3
+        },
+        {
+          "name": "WINSECOPT-Validation.ps1",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/scripts/WINSECOPT-Validation.ps1",
+          "kb": 4.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WINSECOPT-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-Complete-Solution.zip",
+          "kb": 104.0
+        },
+        {
+          "name": "WINSECOPT-hero.png",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-hero.png",
+          "kb": 467.8
+        },
+        {
+          "name": "WINSECOPT-hero.svg",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-hero.svg",
+          "kb": 6.2
+        },
+        {
+          "name": "WINSECOPT-Scripts.zip",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-Scripts.zip",
+          "kb": 10.4
+        },
+        {
+          "name": "WINSECOPT-Solution.docx",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-Solution.docx",
+          "kb": 54.7
+        },
+        {
+          "name": "WINSECOPT-Solution.pdf",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-Solution.pdf",
+          "kb": 58.7
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/listing/bagisto-products.json",
+          "kb": 17.0
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        },
+        {
+          "name": "sales-content.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/listing/sales-content.md",
+          "kb": 3.3
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/README.md",
+          "kb": 2.9
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/solution.meta.json",
+          "kb": 1.5
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0/deliverables/WINSECOPT-hero.png",
     "product_count": 3
   },
   {

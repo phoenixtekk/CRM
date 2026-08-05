@@ -1,0 +1,44 @@
+{
+  "slug": "windows-advanced-audit-policy-security-logging-baseline-intune",
+  "title": "Windows Advanced Audit Policy & Security Event Logging Baseline (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WINAUDIT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - Windows advanced audit policy baseline via Intune; resolves ~24 audit findings from a Windows Client assessment.",
+    "Gap-only: focused audit-policy CONFIGURATION baseline; complements CIS11/STIG (broad baselines) and SENTLOG (forwarding to Sentinel) without duplicating them.",
+    "White-label; audit subcategory recommendations cited to CIS/Microsoft baseline; exact Settings-Catalog paths flagged verify-in-tenant where uncertain.",
+    "Commercial-only deliverable this run; Gov tier price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WINAUDIT-COMM-001",
+      "audience": "commercial",
+      "price": 2795.0
+    },
+    {
+      "sku": "PTK-WINAUDIT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1677.0
+    },
+    {
+      "sku": "PTK-WINAUDIT-GOV-001",
+      "audience": "government",
+      "price": 2375.75
+    }
+  ],
+  "deliverables": [
+    "WINAUDIT-Solution.pdf",
+    "WINAUDIT-Scripts.zip"
+  ],
+  "hero": "WINAUDIT-hero.png",
+  "published_at": "2026-07-29"
+}

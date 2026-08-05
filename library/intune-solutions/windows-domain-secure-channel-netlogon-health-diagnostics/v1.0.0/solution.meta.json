@@ -1,0 +1,44 @@
+{
+  "slug": "windows-domain-secure-channel-netlogon-health-diagnostics",
+  "title": "Windows Domain Secure-Channel & Netlogon Health Diagnostics Toolkit",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "NETLOGONDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - endpoint diagnostics toolkit for Windows domain secure-channel/Netlogon health + IPv6 recommended config; resolves the 2 availability findings (Event 5719; IPv6 config).",
+    "Gap-only: diagnostics toolkit (sibling of the endpoint performance/diagnostics toolkits), not a config baseline.",
+    "Endpoint PowerShell (local or via Proactive Remediations), read-only by default; repair script defaults to -WhatIf. IPv6 guidance: keep enabled, only correct invalid DisabledComponents; never blanket-disable (unsupported).",
+    "White-label; Commercial-only this run; Gov price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NETLOGONDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-NETLOGONDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-NETLOGONDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "NETLOGONDX-Solution.pdf",
+    "NETLOGONDX-Scripts.zip"
+  ],
+  "hero": "NETLOGONDX-hero.png",
+  "published_at": "2026-07-29"
+}

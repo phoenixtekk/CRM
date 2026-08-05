@@ -1,0 +1,44 @@
+{
+  "slug": "microsoft-edge-for-business-enterprise-configuration-security-baseline-intune",
+  "title": "Microsoft Edge for Business \u2014 Enterprise Configuration & Security Baseline (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "EDGEBIZ",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T2 \u2014 Microsoft Edge for Business enterprise configuration + security baseline via Intune; resolves 2 findings directly (Password Manager off, Edge as primary browser) plus full browser hardening.",
+    "Gap-only: no existing Edge enterprise-config product in the catalog.",
+    "IE mode + Enterprise Mode Site List for legacy apps; exact policy names flagged verify-in-tenant where uncertain.",
+    "White-label; Commercial-only this run; Gov price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-EDGEBIZ-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-EDGEBIZ-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-EDGEBIZ-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "EDGEBIZ-Solution.pdf",
+    "EDGEBIZ-Scripts.zip"
+  ],
+  "hero": "EDGEBIZ-hero.png",
+  "published_at": "2026-07-29"
+}

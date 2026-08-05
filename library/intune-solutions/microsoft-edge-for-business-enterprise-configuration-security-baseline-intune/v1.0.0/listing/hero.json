@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Microsoft Edge for Business", "color": "white", "size": "main" },
+    { "text": "Managed & Hardened", "color": "green", "size": "main" },
+    { "text": "Config Baseline · Default Browser · IE Mode", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "UNMANAGED EDGE",
+    "items": [
+      "Password manager on",
+      "Not the default browser",
+      "Extensions sideloaded",
+      "No security baseline"
+    ]
+  },
+  "to": {
+    "label": "Managed, hardened Edge",
+    "stat": "2 findings resolved"
+  },
+  "tagline": "CONFIGURE IT.  HARDEN IT.  STANDARDIZE IT.",
+  "benefits": [
+    { "icon": "key", "title": "Password Mgr Off", "sub": "Steer to the vault" },
+    { "icon": "shield", "title": "SmartScreen + PUA", "sub": "Security baseline" },
+    { "icon": "gear", "title": "Default Browser", "sub": "Enforced via Intune" },
+    { "icon": "chart", "title": "IE Mode", "sub": "Legacy apps live" }
+  ]
+}

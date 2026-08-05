@@ -1,0 +1,45 @@
+{
+  "slug": "hp-workforce-experience-platform-wxp-intune-integration",
+  "title": "HP Workforce Experience Platform (WXP) Integration with Microsoft Intune",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "HPWXP",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-30",
+  "updated": "2026-07-30",
+  "wiki_path": "solutions/intune-solutions/hp-workforce-experience-platform-wxp-intune-integration",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - vendor DEX platform (HP WXP) + Intune integration: agent deployment via Intune + Entra/Graph tenant connector + operations. Priced $2995 at parity with vendor+Intune integration siblings (ANDROIDGW/NSSWG/CSCVPN/ENDPTAN).",
+    "Gap-only: no existing HP-specific product; cross-references ENDPTAN (Microsoft Endpoint Analytics) and EHEM (generic DEX monitoring) without rebuilding them.",
+    "HP WXP = formerly HP TechPulse / Proactive Insights / Adaptive Endpoint Management; fast-renamed vendor product - console paths, agent names, Graph scopes, connector app name, and network URLs flagged verify-in-tenant/HP-console, not invented. HP WXP subscription is a buyer-supplied prerequisite.",
+    "White-label; Commercial-only deliverable this run; Gov tier price-only.",
+    "PUBLISH NOTE 2026-07-30: store live; wiki page publish + per-product gating group PENDING - linuxg3 (wiki host) was unreachable (docs.phoenixtekk.com 530) at publish time. Re-run publish-wiki.py + wiki-access-sync.py when the host is back."
+  ],
+  "products": [
+    {
+      "sku": "PTK-HPWXP-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-HPWXP-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-HPWXP-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "HPWXP-Solution.pdf",
+    "HPWXP-Scripts.zip"
+  ],
+  "hero": "HPWXP-hero.png",
+  "published_at": "2026-07-30"
+}

@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "NTLM Elimination", "color": "white", "size": "main" },
+    { "text": "& SMB Signing", "color": "green", "size": "main" },
+    { "text": "Legacy Auth Hardening · Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "LEGACY AUTH EXPOSURE",
+    "items": [
+      "LM / NTLMv1",
+      "NTLM relay",
+      "Unsigned SMB",
+      "Guest logons"
+    ]
+  },
+  "to": {
+    "label": "Hardened & audited",
+    "stat": "~7 findings resolved"
+  },
+  "tagline": "AUDIT IT.  REFUSE NTLM.  SIGN SMB.",
+  "benefits": [
+    { "icon": "shield", "title": "Refuse LM/NTLMv1", "sub": "NTLMv2 only" },
+    { "icon": "key", "title": "SMB Signing", "sub": "Both ends" },
+    { "icon": "gear", "title": "Audit-first", "sub": "Nothing breaks blind" },
+    { "icon": "chart", "title": "Coverage", "sub": "Hardening report" }
+  ]
+}

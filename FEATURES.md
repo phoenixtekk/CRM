@@ -193,6 +193,7 @@ each with branded Word/PDF + scripts ZIP + a seeded hero image, Commercial + Non
 | Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk) | `windows-endpoint-performance-reliability-troubleshooting` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
 | Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune) | `peripheral-driver-device-control-intune` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Intune) |
 | Enterprise VOIP / Softphone Endpoint Support & Troubleshooting | `voip-softphone-endpoint-support` | $2,495 / $1,497 / Gov $2,120.75 | ✅ published (T3; white-label; Infrastructure) |
+| Intune Wi-Fi Profile Remediation — Changes Not Applying (Proxy, SSID & Meraki) | `intune-wifi-profile-remediation-changes-not-applying` | $2,495 / $1,497 / Gov $2,120.75 | 🟡 generated (T3; white-label; Intune) |
 | Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra) | `continuous-compliance-audit-evidence-intune` | $2,995 / $1,797 / Gov $2,545.75 | ✅ published (T4; white-label; Security) |
 
 | **Government (GCC High) editions (2026-07-03)** | | | |
@@ -291,6 +292,120 @@ Governed by generate-solution SKILL §0d (research-and-fork rule). **Categories 
 `ADMIN_DOCS.md` → eligibility validation). Listings include a "run it yourself vs. consulting" value
 section. Hero images: title auto-fits (≥15px border margin); imagery seeded per solution; same-category
 solutions share a palette. Refresh an image via `tools/refresh-image.ps1`.
+
+### 2026-07-28 — Basic Intune product + 2 free-conversions
+**New product (generated, not yet published):** `INTBASE` — "Microsoft Intune First-Time Setup for
+Windows — User & Autopilot Enrollment (Entra-Joined)", Intune Solutions. Beginner on-ramp (Windows,
+Entra-joined only) between free ITSTART and the deep WAP/CFAPG Autopilot products. **Two VARIANTS, not
+audience tiers:** `PTK-INTBASE-ESS-001` Essentials/Self-Deploy $795 (docs-only zip) · `PTK-INTBASE-PLUS-001`
+Plus/We-Deploy $2,495 (docs + 5 scripts + 4 config templates + **done-for-you deployment** fulfilled
+post-purchase like the support add-ons). `branding: off`, `gov_variant: false`.
+- **Schema extended (backward-compatible):** `schema/bagisto-products.schema.json` audience enum now
+  also allows `essentials|plus|free`, and price `exclusiveMinimum:0`→`minimum:0` (to allow $0). Validated:
+  all existing listings still pass; this also legitimizes the free-product model. (Pre-existing exception:
+  ITSTART has 1 product vs the schema's `minItems:2` — unchanged, harmless.)
+
+**Two products converted to FREE lead-gen (2026-07-28):** `CPLTREADY` (Microsoft 365 Copilot Readiness)
+and `M365SEC` (M365 Security Baseline & Audit Readiness) — all 3 store SKUs each repriced to **$0**
+(surgical price-attribute update; downloads/status/images preserved), with a **public ungated wiki
+guide** as the lead magnet:
+- CPLTREADY → https://docs.phoenixtekk.com/en/Microsoft/copilot/microsoft-365-copilot-readiness-deployment
+- M365SEC   → https://docs.phoenixtekk.com/en/Microsoft/security/microsoft-365-security-baseline-audit-readiness
+Together with ITSTART this is a 3-magnet top-of-funnel (Intune enablement · Copilot/AI · Security).
+Social launch content for INTBASE lives at `marketing/INTBASE-social-launch-content.md`.
+
+### 2026-07-28 — iOS iPhone SSO pair (COD + Shared Device) — PUBLISHED
+**Two new products (published live)** filling the iOS SSO gaps against the existing
+macOS/shared-device coverage. 6 store SKUs live (pages 200), 2 wiki pages gated 403, Purchasers groups
+509/510 created, downloads on private disk (public 403), DB backed up before load. Both Intune Solutions, T3, `branding: off`, Commercial-only deliverable
+(3-tier pricing, Gov price-only this run):
+- **`IOSSSOEXT`** — "iOS/iPadOS Enterprise SSO App Extension for Corporate-Owned iPhones (Microsoft
+  Enterprise SSO Plug-in via Intune)", **$2,495** (NPO $1,497 / Gov $2,120.75). The iOS twin of
+  **MACSSOEXT** (macOS) — subject is the iOS Enterprise SSO app extension itself, deployed on
+  single-user COD iPhones for silent Entra SSO across apps + Safari. **Gap-deduped** vs MACSSOEXT (macOS)
+  and IOSDD (two-phone dual-device scenario). iOS specifics baked in: extension hosted in **Microsoft
+  Authenticator** (not Company Portal), extension id `com.microsoft.azureauthenticator.ssoextension`,
+  Device-features **Microsoft Entra ID** SSO type, and the `Enable_SSO_On_All_ManagedApps` coverage key.
+- **`IOSSDMFL`** — "iOS iPhone Entra ID Shared Device Mode — Frontline SSO with Global Sign-In & Single
+  Sign-Out (Teams & MSAL Apps)", **$2,795** (NPO $1,677 / Gov $2,375.75). Entra **Shared Device Mode** on
+  pooled iPhones: per-user global sign-in + single sign-out clears the last user for the next. **Gap-deduped**
+  vs IOSSDM (WebEx single-app kiosk, shared service account), IOSLD (lockdown profile), and SHAREDIPAD
+  (Apple Managed Apple IDs — **iPad-only**, so Entra SDM is the Microsoft-native shared-*iPhone* answer).
+  Applied AUTHORING_LESSONS: 2026-07-16 *lockdown≠session-isolation* (SDM presented as the correct
+  per-user session model, honestly bounded to SDM-aware apps); **Assigned-group + Intune Provisioning
+  Client owner** (`f1346770-…`) for no-affinity enrollment-time grouping; ADE full nav drill-down;
+  store-app publisher + bundle IDs. Acceptance gate = the two-user clean hand-off test.
+- Each: 8 source docs + category global-requirements, **5 PowerShell scripts** (Graph; read-only
+  discovery/validation/report, remediation + targeting default `-WhatIf`), built DOCX/PDF/Scripts.zip +
+  hero, schema-valid listing, white-label verified (no brand strings). Index rebuilt. Next:
+  `/publish-solution ios-enterprise-sso-app-extension-corporate-owned-iphones` and
+  `/publish-solution ios-iphone-entra-shared-device-mode-frontline-sso`.
+
+### 2026-07-29 — Windows Client Assessment resolution wave (+7) — PUBLISHED
+**Seven products built to resolve a client Windows Client security/ops assessment** (Apex Systems /
+CareFirst ODA). Findings mapped to solutions in `docs/client-assessments/` (a resolution-map workbook);
+~half the findings were already covered by live products (WUFB, CIS11, GPORAT/GPOM, BITLK, PERIDEV,
+WINPERF, ENDPTAN), so only the net-new gaps were built. All Intune Solutions, T2–T3, white-label,
+Commercial-only deliverable (Gov price-only). Authored via 7 parallel authoring agents on the
+IOSSSOEXT/IOSSDMFL template; built + validated + published centrally.
+- **WINAUDIT** — Windows Advanced Audit Policy & Security Event Logging Baseline (Intune) — $2,795 — resolves ~24 audit findings (advanced audit subcategories + force-subcategory override; cross-refs SENTLOG for forwarding).
+- **NTLMHARD** — NTLM Elimination & SMB Signing / Legacy Auth Hardening (Intune) — $2,795 — LAN Manager level, NTLM SSP client+server, SMB signing client+server, insecure guest logons, unauthenticated RPC; audit-before-enforce.
+- **RDPHARD** — Remote Desktop (RDP) Security Hardening (Intune) — $2,495 — 128-bit encryption, always-prompt password, no drive redirection, no saved passwords, solicited RA off, NLA.
+- **WINSECOPT** — Interactive Logon & Network-Access Security Options Hardening (Intune) — $2,495 — dual-network block, smart-card removal lock, no auto sign-in after restart, hide network-selection UI.
+- **CREDGUARD** — Credential Theft Protection: Credential Guard, LSASS PPL & Windows LAPS (Intune) — $2,995 — WDigest, credential delegation, WinRM RunAs + Credential Guard/VBS + Windows LAPS.
+- **EDGEBIZ** — Microsoft Edge for Business Enterprise Configuration & Security Baseline (Intune) — $1,995 — Password Manager off, Edge default + IE mode, SmartScreen/extension/sync baseline.
+- **NETLOGONDX** — Windows Domain Secure-Channel & Netlogon Health Diagnostics Toolkit (Intune) — $2,495 — endpoint PowerShell (local or Proactive Remediations): Event 5719 root-cause + secure-channel repair + IPv6 recommended config (never blanket-disable).
+- 21 store SKUs live (pages 200), 7 wiki pages gated 403, Purchasers groups 516–522, downloads on private disk (public 403), DB backed up before load. All schema-valid, price-math verified, brand-leak clean.
+
+### 2026-07-30 — ServiceNow-Intune integration + App Configuration Policies (2 solutions, generated)
+Two net-new **Intune Solutions** from a customer request (ServiceNow data feed for Intune like their
+Workspace ONE feed; auto-config the SAP Ariba app). Status `generated`; awaiting `/publish-solution`.
+
+| Code | Solution | Slug | Commercial / NPO / Gov |
+|---|---|---|---|
+| SNOWINT | ServiceNow ↔ Microsoft Intune Integration — Device Inventory & CMDB Sync | `servicenow-intune-integration-device-inventory-cmdb-sync` | $2,795 / $1,677 / $2,375.75 |
+| APPCFG | Intune Managed App Configuration Policies (iOS & Android) — Zero-Touch App Setup & SSO Routing | `intune-managed-app-configuration-policies-ios-android` | $2,295 / $1,377 / $1,950.75 |
+
+Both `branding: off`, `gov_variant: false`, `<CODE>-Complete-Solution.zip` bundle. Vendor facts
+researched, not invented: **SNOWINT** — Service Graph Connector for Microsoft Intune (needs ITOM
+Visibility/Discovery), Graph client-credentials Application scopes, CMDB write via IRE (exact
+handheld/mobile class flagged "verify"). **APPCFG** — SAP confirms Ariba is **iOS generic MDM only,
+not Android MDM-certified**; exact Ariba keys unconfirmable (SAP Help is JS-gated) so shipped as
+flagged placeholders pointing at the SAP Ariba Procurement Mobile App Guide. Companion immediate
+how-to for the customer: `docs/ariba-intune-app-config-howto.md` (corrected to iOS-first per that finding).
+
+### 2026-07-30 — Windows Delivery Optimization (generated)
+`DELOPT` — "Windows Delivery Optimization — Bandwidth Savings & Peer Content Distribution (Intune)",
+Intune Solutions, $2,295 / $1,377 / $1,950.75, `branding: off`, `gov_variant: false`,
+`DELOPT-Complete-Solution.zip` bundle. Owns the content-delivery/bandwidth layer (download modes,
+Group ID/peer scoping, bandwidth throttling, cache, Settings-Catalog config + savings monitoring via
+`Get-DeliveryOptimizationStatus`/`PerfSnap`); Microsoft Connected Cache covered at decision level with
+full MCC-node standup deferred to a future product; defers to WUFB/TPP/WIN32. DO settings verified
+against Microsoft Learn (DODownloadMode/GroupIDSource/bandwidth/cache); TCP 7680 firm, Teredo UDP 3544
++ DO cloud FQDNs flagged verify-current. Status `generated`; awaiting `/publish-solution`.
+
+### 2026-07-30 — Published 4 to the live store (INTBASE, SNOWINT, APPCFG, DELOPT)
+All four loaded to workplace.phoenixtekk.com and verified: 11 SKUs enabled at correct prices,
+downloads on the private disk (public 403, not 200), public pages 200, images attached. INTBASE
+published as its 2-variant model ($795 Essentials / $2,495 We-Deploy). Metas flipped to `published`.
+**Wiki guides + gating deferred:** linuxg3 (Wiki.js host) was down at publish time (docs.phoenixtekk.com
+530 / no route to host) — retry `publish-wiki.py` + `wiki-access-sync.py` for these 4 slugs once it's
+back (force UTF-8 for SNOWINT's "↔" title: `PYTHONUTF8=1`).
+
+### 2026-07-30 — HP Workforce Experience Platform (WXP) + Intune (+1)
+**`HPWXP`** — "HP Workforce Experience Platform (WXP) Integration with Microsoft Intune", Intune
+Solutions, T3, **$2,995** (NPO $1,797 / Gov $2,545.75). Net-new (no HP-specific product existed);
+covers both integration halves — deploy the HP WXP agent to endpoints **via Intune** (Win32 app +
+enrollment-code injection) and **connect** the HP WXP platform to the Entra/Intune tenant (Graph
+admin-consent connector) — plus DEX/telemetry/sustainability operations. Cross-references ENDPTAN
+(Microsoft Endpoint Analytics) and EHEM (generic DEX monitoring) without rebuilding them. HP WXP
+lineage (ex-TechPulse / Proactive Insights / Adaptive Endpoint Management) and all HP console
+paths/agent names/Graph scopes/connector app name/URLs flagged **verify-in-tenant/HP-console** (fast-
+renamed vendor product). White-label, Commercial-only deliverable. Authored via one agent on the
+IOSSSOEXT template. **Store: 3 SKUs live (200), downloads on private disk (403).** ⚠ **Wiki page +
+per-product gating PENDING** — linuxg3 (wiki host) was unreachable (docs.phoenixtekk.com 530) at
+publish time; re-run `publish-wiki.py` + `wiki-access-sync.py` when the host recovers. DB backed up
+before load.
 
 ## Compiler & imagery
 - `tools/build-deliverables.py` compiles each solution's `source\` + `scripts\` into a branded

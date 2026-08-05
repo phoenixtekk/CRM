@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "RDP Security Hardening", "color": "white", "size": "main" },
+    { "text": "for Windows Endpoints", "color": "green", "size": "main" },
+    { "text": "Settings Catalog · Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "RDP WIDE OPEN",
+    "items": [
+      "Weak encryption",
+      "No password prompt",
+      "Drive redirection on",
+      "Saved passwords"
+    ]
+  },
+  "to": {
+    "label": "Hardened endpoint RDP",
+    "stat": "~5 findings closed"
+  },
+  "tagline": "HARDEN IT.  PILOT IT.  CLOSE THE DOOR.",
+  "benefits": [
+    { "icon": "lock", "title": "High encryption", "sub": "128-bit forced" },
+    { "icon": "key", "title": "Prompt + NLA", "sub": "No saved passwords" },
+    { "icon": "shield", "title": "No redirection", "sub": "RA disabled" },
+    { "icon": "chart", "title": "Coverage", "sub": "Applied report" }
+  ]
+}

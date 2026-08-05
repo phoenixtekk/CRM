@@ -1,0 +1,44 @@
+{
+  "slug": "windows-credential-theft-protection-credential-guard-laps-intune",
+  "title": "Windows Credential Theft Protection \u2014 Credential Guard, LSASS Protection & Windows LAPS (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "CREDGUARD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - credential-theft defense (Credential Guard + LSASS PPL + WDigest + Remote Credential Guard + Windows LAPS) via Intune; resolves ~3 findings directly and hardens pass-the-hash posture.",
+    "Gap-only: no existing Credential Guard/LAPS product; WDigest overlaps the NTLM product but its primary home is here; RDP credential-delegation cross-referenced to the RDP hardening product.",
+    "Credential Guard requires TPM2.0/UEFI/Secure Boot/VBS - readiness assessment + phased rollout included; LSASS PPL audit-first.",
+    "White-label; Commercial-only this run; Gov price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CREDGUARD-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-CREDGUARD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-CREDGUARD-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "CREDGUARD-Solution.pdf",
+    "CREDGUARD-Scripts.zip"
+  ],
+  "hero": "CREDGUARD-hero.png",
+  "published_at": "2026-07-29"
+}

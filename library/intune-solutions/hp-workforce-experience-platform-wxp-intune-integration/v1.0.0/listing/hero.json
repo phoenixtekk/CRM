@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "HP Workforce Experience", "color": "white", "size": "main" },
+    { "text": "Platform + Intune", "color": "green", "size": "main" },
+    { "text": "Agent via Intune · Entra Connector", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "BLIND TO HARDWARE",
+    "items": [
+      "No battery health",
+      "No thermal/SSD signal",
+      "No sustainability data",
+      "No proactive support"
+    ]
+  },
+  "to": {
+    "label": "HP WXP telemetry in Intune",
+    "stat": "Hardware + DEX + CO₂"
+  },
+  "tagline": "PACKAGE IT.  CONNECT IT.  SEE THE HARDWARE.",
+  "benefits": [
+    { "icon": "chip", "title": "Hardware Telemetry", "sub": "Battery / thermal / SSD" },
+    { "icon": "chart", "title": "DEX Scores", "sub": "Experience + crashes" },
+    { "icon": "device", "title": "Agent via Intune", "sub": "Required Win32 app" },
+    { "icon": "cloud", "title": "Tenant Connector", "sub": "Entra admin consent" }
+  ]
+}

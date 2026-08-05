@@ -1,0 +1,177 @@
+{
+ "WUFB": {
+  "title": "Windows Updates for Business",
+  "slug": "windows-updates-for-business",
+  "store": "https://workplace.phoenixtekk.com/windows-updates-for-business-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/windows-updates-for-business",
+  "rel": "library/intune-solutions/windows-updates-for-business/v1.0.0"
+ },
+ "TPP": {
+  "title": "Third-Party Application Patching with Intune",
+  "slug": "third-party-app-patching-intune",
+  "store": "https://workplace.phoenixtekk.com/third-party-app-patching-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/third-party-app-patching-intune",
+  "rel": "library/intune-solutions/third-party-app-patching-intune/v1.0.0"
+ },
+ "WSUSM": {
+  "title": "WSUS to Windows Update for Business Patch Modernization",
+  "slug": "wsus-to-wufb-patch-modernization",
+  "store": "https://workplace.phoenixtekk.com/wsus-to-wufb-patch-modernization-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/wsus-to-wufb-patch-modernization",
+  "rel": "library/intune-solutions/wsus-to-wufb-patch-modernization/v1.0.0"
+ },
+ "CIS11": {
+  "title": "Implement & Manage CIS Benchmarks for Windows 11 Devices for Microsoft Intune",
+  "slug": "cis-benchmarks-windows-11-intune",
+  "store": "https://workplace.phoenixtekk.com/cis-benchmarks-windows-11-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/cis-benchmarks-windows-11-intune",
+  "rel": "library/intune-solutions/cis-benchmarks-windows-11-intune/v1.0.0"
+ },
+ "STIG": {
+  "title": "DISA STIG Compliance for Windows 10 & 11 in Microsoft Intune",
+  "slug": "disa-stig-compliance-windows-10-11-intune",
+  "store": "https://workplace.phoenixtekk.com/disa-stig-compliance-windows-10-11-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/disa-stig-compliance-windows-10-11-intune",
+  "rel": "library/intune-solutions/disa-stig-compliance-windows-10-11-intune/v1.0.0"
+ },
+ "ESB": {
+  "title": "Endpoint Security Baselines",
+  "slug": "endpoint-security-baselines",
+  "store": "https://workplace.phoenixtekk.com/endpoint-security-baselines-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/endpoint-security-baselines",
+  "rel": "library/intune-solutions/endpoint-security-baselines/v1.0.0"
+ },
+ "GPORAT": {
+  "title": "GPO Rationalization & Cleanup with Group Policy Analytics",
+  "slug": "gpo-rationalization-cleanup-group-policy-analytics",
+  "store": "https://workplace.phoenixtekk.com/gpo-rationalization-cleanup-group-policy-analytics-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/migrations/gpo-rationalization-cleanup-group-policy-analytics",
+  "rel": "library/migrations/gpo-rationalization-cleanup-group-policy-analytics/v1.0.0"
+ },
+ "GPOM": {
+  "title": "Group Policy to Intune Settings Migration",
+  "slug": "group-policy-to-intune-settings-migration",
+  "store": "https://workplace.phoenixtekk.com/group-policy-to-intune-settings-migration-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/migrations/group-policy-to-intune-settings-migration",
+  "rel": "library/migrations/group-policy-to-intune-settings-migration/v1.0.0"
+ },
+ "GPOPROG": {
+  "title": "Phased GPO-to-Intune Transition Program & Sequencing Roadmap",
+  "slug": "phased-gpo-to-intune-transition-program",
+  "store": "https://workplace.phoenixtekk.com/phased-gpo-to-intune-transition-program-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/migrations/phased-gpo-to-intune-transition-program",
+  "rel": "library/migrations/phased-gpo-to-intune-transition-program/v1.0.0"
+ },
+ "BITLK": {
+  "title": "BitLocker Drive Encryption",
+  "slug": "bitlocker-drive-encryption",
+  "store": "https://workplace.phoenixtekk.com/bitlocker-drive-encryption-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/bitlocker-drive-encryption",
+  "rel": "library/intune-solutions/bitlocker-drive-encryption/v1.0.0"
+ },
+ "PERIDEV": {
+  "title": "Peripheral, Driver & Device-Control Management for Enterprise Desktops (Intune)",
+  "slug": "peripheral-driver-device-control-intune",
+  "store": "https://workplace.phoenixtekk.com/peripheral-driver-device-control-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/peripheral-driver-device-control-intune",
+  "rel": "library/intune-solutions/peripheral-driver-device-control-intune/v1.0.0"
+ },
+ "WINPERF": {
+  "title": "Windows Endpoint Performance & Reliability Troubleshooting (Boot, Profile, Crash, Disk)",
+  "slug": "windows-endpoint-performance-reliability-troubleshooting",
+  "store": "https://workplace.phoenixtekk.com/windows-endpoint-performance-reliability-troubleshooting-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/infrastructure/windows-endpoint-performance-reliability-troubleshooting",
+  "rel": "library/infrastructure/windows-endpoint-performance-reliability-troubleshooting/v1.0.0"
+ },
+ "ENDPTAN": {
+  "title": "Endpoint Analytics Deployment & Optimization in Microsoft Intune \u2014 Startup, Reliability & Work-From-Anywhere Scores",
+  "slug": "endpoint-analytics-deployment-optimization-intune",
+  "store": "https://workplace.phoenixtekk.com/endpoint-analytics-deployment-optimization-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/endpoint-analytics-deployment-optimization-intune",
+  "rel": "library/intune-solutions/endpoint-analytics-deployment-optimization-intune/v1.0.0"
+ },
+ "PROREM": {
+  "title": "Proactive Remediations at Scale \u2014 Detection & Remediation Script Packs for Microsoft Intune",
+  "slug": "proactive-remediations-at-scale-intune",
+  "store": "https://workplace.phoenixtekk.com/proactive-remediations-at-scale-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/proactive-remediations-at-scale-intune",
+  "rel": "library/intune-solutions/proactive-remediations-at-scale-intune/v1.0.0"
+ },
+ "SENTLOG": {
+  "title": "Entra ID & Intune Audit Telemetry to Microsoft Sentinel",
+  "slug": "entra-intune-audit-telemetry-sentinel",
+  "store": "https://workplace.phoenixtekk.com/entra-intune-audit-telemetry-sentinel-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/sentinel-solutions/entra-intune-audit-telemetry-sentinel",
+  "rel": "library/sentinel-solutions/entra-intune-audit-telemetry-sentinel/v1.0.0"
+ },
+ "WDAC": {
+  "title": "Application Control (WDAC)",
+  "slug": "application-control-wdac",
+  "store": "https://workplace.phoenixtekk.com/application-control-wdac-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/application-control-wdac",
+  "rel": "library/intune-solutions/application-control-wdac/v1.0.0"
+ },
+ "ASR": {
+  "title": "Attack Surface Reduction (ASR) Rules",
+  "slug": "attack-surface-reduction-rules",
+  "store": "https://workplace.phoenixtekk.com/attack-surface-reduction-rules-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/attack-surface-reduction-rules",
+  "rel": "library/intune-solutions/attack-surface-reduction-rules/v1.0.0"
+ },
+ "CCAUDIT": {
+  "title": "Continuous Compliance Monitoring & Audit-Evidence Automation (CIS/STIG on Intune + Entra)",
+  "slug": "continuous-compliance-audit-evidence-intune",
+  "store": "https://workplace.phoenixtekk.com/continuous-compliance-audit-evidence-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/security/continuous-compliance-audit-evidence-intune",
+  "rel": "library/security/continuous-compliance-audit-evidence-intune/v1.0.0"
+ },
+ "WINAUDIT": {
+  "title": "Windows Advanced Audit Policy & Security Event Logging Baseline (Intune)",
+  "slug": "windows-advanced-audit-policy-security-logging-baseline-intune",
+  "store": "https://workplace.phoenixtekk.com/windows-advanced-audit-policy-security-logging-baseline-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune",
+  "rel": "library/intune-solutions/windows-advanced-audit-policy-security-logging-baseline-intune/v1.0.0"
+ },
+ "NTLMHARD": {
+  "title": "NTLM Elimination & SMB Signing \u2014 Legacy Authentication Hardening (Intune)",
+  "slug": "ntlm-elimination-smb-signing-legacy-auth-hardening-intune",
+  "store": "https://workplace.phoenixtekk.com/ntlm-elimination-smb-signing-legacy-auth-hardening-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune",
+  "rel": "library/intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune/v1.0.0"
+ },
+ "RDPHARD": {
+  "title": "Remote Desktop (RDP) Security Hardening for Windows Endpoints (Intune)",
+  "slug": "remote-desktop-rdp-security-hardening-windows-intune",
+  "store": "https://workplace.phoenixtekk.com/remote-desktop-rdp-security-hardening-windows-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/remote-desktop-rdp-security-hardening-windows-intune",
+  "rel": "library/intune-solutions/remote-desktop-rdp-security-hardening-windows-intune/v1.0.0"
+ },
+ "WINSECOPT": {
+  "title": "Windows Interactive Logon & Network-Access Security Options Hardening (Intune)",
+  "slug": "windows-interactive-logon-network-access-hardening-intune",
+  "store": "https://workplace.phoenixtekk.com/windows-interactive-logon-network-access-hardening-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/windows-interactive-logon-network-access-hardening-intune",
+  "rel": "library/intune-solutions/windows-interactive-logon-network-access-hardening-intune/v1.0.0"
+ },
+ "CREDGUARD": {
+  "title": "Windows Credential Theft Protection \u2014 Credential Guard, LSASS Protection & Windows LAPS (Intune)",
+  "slug": "windows-credential-theft-protection-credential-guard-laps-intune",
+  "store": "https://workplace.phoenixtekk.com/windows-credential-theft-protection-credential-guard-laps-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune",
+  "rel": "library/intune-solutions/windows-credential-theft-protection-credential-guard-laps-intune/v1.0.0"
+ },
+ "EDGEBIZ": {
+  "title": "Microsoft Edge for Business \u2014 Enterprise Configuration & Security Baseline (Intune)",
+  "slug": "microsoft-edge-for-business-enterprise-configuration-security-baseline-intune",
+  "store": "https://workplace.phoenixtekk.com/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune",
+  "rel": "library/intune-solutions/microsoft-edge-for-business-enterprise-configuration-security-baseline-intune/v1.0.0"
+ },
+ "NETLOGONDX": {
+  "title": "Windows Domain Secure-Channel & Netlogon Health Diagnostics Toolkit",
+  "slug": "windows-domain-secure-channel-netlogon-health-diagnostics",
+  "store": "https://workplace.phoenixtekk.com/windows-domain-secure-channel-netlogon-health-diagnostics-commercial",
+  "wiki": "https://docs.phoenixtekk.com/en/solutions/intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics",
+  "rel": "library/intune-solutions/windows-domain-secure-channel-netlogon-health-diagnostics/v1.0.0"
+ }
+}

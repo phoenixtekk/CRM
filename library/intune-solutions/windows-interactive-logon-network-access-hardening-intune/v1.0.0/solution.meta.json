@@ -1,0 +1,44 @@
+{
+  "slug": "windows-interactive-logon-network-access-hardening-intune",
+  "title": "Windows Interactive Logon & Network-Access Security Options Hardening (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "WINSECOPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/windows-interactive-logon-network-access-hardening-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - interactive-logon & network-access Security Options hardening via Intune; resolves ~4 Windows Client assessment findings.",
+    "Gap-only: leftover Security Options not covered by the NTLM/SMB, RDP, or credential-theft products; complements CIS11/STIG.",
+    "Notes user-impact of no-auto-signin; exact CSP paths flagged verify-in-tenant where uncertain.",
+    "White-label; Commercial-only this run; Gov price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WINSECOPT-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WINSECOPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WINSECOPT-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WINSECOPT-Solution.pdf",
+    "WINSECOPT-Scripts.zip"
+  ],
+  "hero": "WINSECOPT-hero.png",
+  "published_at": "2026-07-29"
+}

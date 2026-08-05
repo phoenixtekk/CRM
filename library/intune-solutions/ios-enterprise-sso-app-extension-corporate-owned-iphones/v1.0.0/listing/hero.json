@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "iOS Enterprise SSO", "color": "white", "size": "main" },
+    { "text": "for Corporate iPhones", "color": "green", "size": "main" },
+    { "text": "Extensible SSO · Apps · Safari", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "PROMPT FATIGUE",
+    "items": [
+      "Repeated sign-ins",
+      "Repeat MFA",
+      "Per-app logins",
+      "Safari re-auth"
+    ]
+  },
+  "to": {
+    "label": "Silent shared SSO",
+    "stat": "All managed apps"
+  },
+  "tagline": "DEPLOY IT.  PRIME IT.  SILENCE PROMPTS.",
+  "benefits": [
+    { "icon": "key", "title": "SSO Extension", "sub": "Enterprise plug-in" },
+    { "icon": "device", "title": "Apps + Safari", "sub": "Extensible SSO" },
+    { "icon": "gear", "title": "Managed-app SSO", "sub": "One key covers all" },
+    { "icon": "chart", "title": "Coverage", "sub": "SSO report" }
+  ]
+}

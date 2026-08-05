@@ -1,0 +1,44 @@
+{
+  "slug": "remote-desktop-rdp-security-hardening-windows-intune",
+  "title": "Remote Desktop (RDP) Security Hardening for Windows Endpoints (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "RDPHARD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/remote-desktop-rdp-security-hardening-windows-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - RDP/Remote Desktop security hardening via Intune; resolves ~5 Windows Client assessment findings.",
+    "Gap-only: focused RDP hardening; credential-delegation side cross-referenced to the credential-theft product; complements CIS11/STIG.",
+    "Pilot-first: High encryption denies <128-bit legacy clients; exact CSP paths flagged verify-in-tenant where uncertain.",
+    "White-label; Commercial-only this run; Gov price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-RDPHARD-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-RDPHARD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-RDPHARD-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "RDPHARD-Solution.pdf",
+    "RDPHARD-Scripts.zip"
+  ],
+  "hero": "RDPHARD-hero.png",
+  "published_at": "2026-07-29"
+}

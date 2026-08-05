@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Credential Theft", "color": "white", "size": "main" },
+    { "text": "Protection for Windows", "color": "green", "size": "main" },
+    { "text": "Credential Guard · LSASS PPL · LAPS", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "PASS-THE-HASH RISK",
+    "items": [
+      "LSASS dumping",
+      "Plaintext in memory",
+      "Static local-admin pw",
+      "Credential delegation"
+    ]
+  },
+  "to": {
+    "label": "Credentials locked down",
+    "stat": "6 controls, 1 playbook"
+  },
+  "tagline": "ASSESS IT.  ISOLATE IT.  ROTATE IT.",
+  "benefits": [
+    { "icon": "shield", "title": "Credential Guard", "sub": "VBS isolation" },
+    { "icon": "key", "title": "LSASS PPL", "sub": "Audit-first" },
+    { "icon": "gear", "title": "Windows LAPS", "sub": "Entra-backed" },
+    { "icon": "chart", "title": "Coverage", "sub": "Readiness report" }
+  ]
+}

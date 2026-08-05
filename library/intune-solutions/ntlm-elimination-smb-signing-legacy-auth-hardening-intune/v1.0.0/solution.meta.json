@@ -1,0 +1,44 @@
+{
+  "slug": "ntlm-elimination-smb-signing-legacy-auth-hardening-intune",
+  "title": "NTLM Elimination & SMB Signing \u2014 Legacy Authentication Hardening (Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "NTLMHARD",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-29",
+  "updated": "2026-07-29",
+  "wiki_path": "solutions/intune-solutions/ntlm-elimination-smb-signing-legacy-auth-hardening-intune",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 - NTLM/SMB/legacy-auth hardening via Intune; resolves ~7 Windows Client assessment findings.",
+    "Gap-only: focused NTLM-elimination + SMB-signing product; complements CIS11/STIG without duplicating the full baseline.",
+    "Phased audit-before-enforce to avoid breaking legacy clients; exact CSP paths flagged verify-in-tenant where uncertain.",
+    "White-label; Commercial-only deliverable this run; Gov tier price-only."
+  ],
+  "products": [
+    {
+      "sku": "PTK-NTLMHARD-COMM-001",
+      "audience": "commercial",
+      "price": 2795.0
+    },
+    {
+      "sku": "PTK-NTLMHARD-NPO-001",
+      "audience": "nonprofit",
+      "price": 1677.0
+    },
+    {
+      "sku": "PTK-NTLMHARD-GOV-001",
+      "audience": "government",
+      "price": 2375.75
+    }
+  ],
+  "deliverables": [
+    "NTLMHARD-Solution.pdf",
+    "NTLMHARD-Scripts.zip"
+  ],
+  "hero": "NTLMHARD-hero.png",
+  "published_at": "2026-07-29"
+}

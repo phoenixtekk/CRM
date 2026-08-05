@@ -1,0 +1,33 @@
+{
+  "slug": "ios-enterprise-sso-app-extension-corporate-owned-iphones",
+  "title": "iOS/iPadOS Enterprise SSO App Extension for Corporate-Owned iPhones (Microsoft Enterprise SSO Plug-in via Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "IOSSSOEXT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-28",
+  "updated": "2026-07-28",
+  "published_at": "2026-07-28",
+  "wiki_path": "solutions/intune-solutions/ios-enterprise-sso-app-extension-corporate-owned-iphones",
+  "wiki_gated": true,
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Effort tier: T3 (iOS/iPadOS + Microsoft Intune/Entra; configuration/identity work, live-fleet care). Priced at $2495 at parity with the macOS Enterprise SSO App Extension (MACSSOEXT) T3 sibling.",
+    "Gap-only: MACSSOEXT owns the macOS side; IOSDD only uses the iOS SSO extension inside the two-phone scenario. This product is the standalone iOS Enterprise SSO app extension for corporate-owned iPhones/iPads.",
+    "iOS specifics baked in: extension hosted in Microsoft Authenticator (not Company Portal); extension id com.microsoft.azureauthenticator.ssoextension; Device-features 'Microsoft Entra ID' SSO extension type; Enable_SSO_On_All_ManagedApps coverage key.",
+    "White-label; Apple/Microsoft console internals authored click-by-click from public docs; identifiers flagged 'verify in your tenant', not invented.",
+    "Commercial-only per owner directive (no GCC High variant this run); Gov tier is price-only."
+  ],
+  "products": [
+    { "sku": "PTK-IOSSSOEXT-COMM-001", "audience": "commercial", "price": 2495.0 },
+    { "sku": "PTK-IOSSSOEXT-NPO-001",  "audience": "nonprofit",  "price": 1497.0 },
+    { "sku": "PTK-IOSSSOEXT-GOV-001",  "audience": "government",  "price": 2120.75 }
+  ],
+  "deliverables": [
+    "IOSSSOEXT-Solution.pdf",
+    "IOSSSOEXT-Scripts.zip"
+  ],
+  "hero": "IOSSSOEXT-hero.png"
+}
