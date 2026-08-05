@@ -39,5 +39,7 @@
   "deliverables": [
     "SNOWINT-Complete-Solution.zip"
   ],
-  "hero": "SNOWINT-hero.png"
+  "hero": "SNOWINT-hero.png",
+  "wiki_path": "solutions/intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync",
+  "wiki_published": true
 }

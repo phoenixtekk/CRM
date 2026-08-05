@@ -39,5 +39,7 @@
   "deliverables": [
     "CPADMDX-Complete-Solution.zip"
   ],
-  "hero": "CPADMDX-hero.png"
+  "hero": "CPADMDX-hero.png",
+  "wiki_path": "solutions/copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook",
+  "wiki_published": true
 }

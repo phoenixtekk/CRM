@@ -7456,7 +7456,7 @@
         {
           "name": "solution.meta.json",
           "href": "../copilot/copilot-agent-builder-inventory-sharing-governance-export/v1.0.0/solution.meta.json",
-          "kb": 4.3
+          "kb": 4.5
         }
       ]
     },
@@ -7621,7 +7621,7 @@
         {
           "name": "solution.meta.json",
           "href": "../copilot/copilot-agent-governance-operating-model-declarative-agents/v1.0.0/solution.meta.json",
-          "kb": 3.0
+          "kb": 3.1
         }
       ]
     },
@@ -8286,7 +8286,7 @@
         {
           "name": "solution.meta.json",
           "href": "../copilot/microsoft-graph-copilot-admin-api-access-troubleshooting-runbook/v1.0.0/solution.meta.json",
-          "kb": 3.5
+          "kb": 3.6
         }
       ]
     },
@@ -41600,7 +41600,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/intune-managed-app-configuration-policies-ios-android/v1.0.0/solution.meta.json",
-          "kb": 3.5
+          "kb": 3.6
         }
       ]
     },
@@ -41765,7 +41765,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android/v1.0.0/solution.meta.json",
-          "kb": 3.8
+          "kb": 3.9
         }
       ]
     },
@@ -41930,7 +41930,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/intune-wifi-profile-remediation-changes-not-applying/v1.0.0/solution.meta.json",
-          "kb": 4.6
+          "kb": 4.7
         }
       ]
     },
@@ -42100,7 +42100,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment/v1.0.0/solution.meta.json",
-          "kb": 3.3
+          "kb": 3.4
         }
       ]
     },
@@ -42265,7 +42265,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/servicenow-intune-integration-device-inventory-cmdb-sync/v1.0.0/solution.meta.json",
-          "kb": 4.6
+          "kb": 4.7
         }
       ]
     },
@@ -42430,7 +42430,7 @@
         {
           "name": "solution.meta.json",
           "href": "../intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune/v1.0.0/solution.meta.json",
-          "kb": 3.5
+          "kb": 3.6
         }
       ]
     },

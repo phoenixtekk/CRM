@@ -42,5 +42,7 @@
   "deliverables": [
     "WIFIDX-Complete-Solution.zip"
   ],
-  "hero": "WIFIDX-hero.png"
+  "hero": "WIFIDX-hero.png",
+  "wiki_path": "solutions/intune-solutions/intune-wifi-profile-remediation-changes-not-applying",
+  "wiki_published": true
 }

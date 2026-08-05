@@ -36,5 +36,7 @@
     "INTBASE-Essentials.zip",
     "INTBASE-Complete-Solution.zip"
   ],
-  "hero": "INTBASE-hero.png"
+  "hero": "INTBASE-hero.png",
+  "wiki_path": "solutions/intune-solutions/intune-first-time-setup-windows-user-autopilot-enrollment",
+  "wiki_published": true
 }

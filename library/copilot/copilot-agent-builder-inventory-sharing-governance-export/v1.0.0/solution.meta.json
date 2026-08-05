@@ -40,5 +40,7 @@
   "deliverables": [
     "AGBINV-Complete-Solution.zip"
   ],
-  "hero": "AGBINV-hero.png"
+  "hero": "AGBINV-hero.png",
+  "wiki_path": "solutions/copilot/copilot-agent-builder-inventory-sharing-governance-export",
+  "wiki_published": true
 }

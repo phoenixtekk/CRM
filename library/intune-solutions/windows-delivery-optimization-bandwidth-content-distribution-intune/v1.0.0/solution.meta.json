@@ -40,5 +40,7 @@
   "deliverables": [
     "DELOPT-Complete-Solution.zip"
   ],
-  "hero": "DELOPT-hero.png"
+  "hero": "DELOPT-hero.png",
+  "wiki_path": "solutions/intune-solutions/windows-delivery-optimization-bandwidth-content-distribution-intune",
+  "wiki_published": true
 }

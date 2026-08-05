@@ -37,5 +37,7 @@
   "deliverables": [
     "WIFIMGT-Complete-Solution.zip"
   ],
-  "hero": "WIFIMGT-hero.png"
+  "hero": "WIFIMGT-hero.png",
+  "wiki_path": "solutions/intune-solutions/intune-wifi-profile-deployment-management-windows-ios-android",
+  "wiki_published": true
 }

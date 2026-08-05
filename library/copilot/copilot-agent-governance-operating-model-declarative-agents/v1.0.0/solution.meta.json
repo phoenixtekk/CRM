@@ -37,5 +37,7 @@
   "deliverables": [
     "AGBGOV-Complete-Solution.zip"
   ],
-  "hero": "AGBGOV-hero.png"
+  "hero": "AGBGOV-hero.png",
+  "wiki_path": "solutions/copilot/copilot-agent-governance-operating-model-declarative-agents",
+  "wiki_published": true
 }

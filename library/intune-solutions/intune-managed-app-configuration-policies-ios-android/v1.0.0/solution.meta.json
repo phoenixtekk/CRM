@@ -39,5 +39,7 @@
   "deliverables": [
     "APPCFG-Complete-Solution.zip"
   ],
-  "hero": "APPCFG-hero.png"
+  "hero": "APPCFG-hero.png",
+  "wiki_path": "solutions/intune-solutions/intune-managed-app-configuration-policies-ios-android",
+  "wiki_published": true
 }
