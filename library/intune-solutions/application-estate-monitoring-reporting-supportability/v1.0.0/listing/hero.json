@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "App Estate Health", "color": "white", "size": "main" },
+    { "text": "Monitoring & Reporting", "color": "green", "size": "main" },
+    { "text": "Graph Export · Power BI · SLO · Alerts", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "MANUAL CSV EXPORTS",
+    "items": [
+      "Numbers no one trusts",
+      "Different every time",
+      "No owner, no alert",
+      "Blind to version drift"
+    ]
+  },
+  "to": {
+    "label": "Living dashboard",
+    "stat": "Measured · owned · fixed"
+  },
+  "tagline": "MEASURE IT.  OWN IT.  FIX IT.",
+  "benefits": [
+    { "icon": "chart", "title": "KPI Set", "sub": "+ SLO" },
+    { "icon": "gear", "title": "Graph Export", "sub": "Scheduled" },
+    { "icon": "device", "title": "3-View BI", "sub": "Exec/Ops/App" },
+    { "icon": "shield", "title": "Alerts", "sub": "+ triage" }
+  ]
+}

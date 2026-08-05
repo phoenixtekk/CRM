@@ -1,0 +1,46 @@
+{
+  "slug": "intune-wifi-profile-remediation-changes-not-applying",
+  "title": "Intune Wi-Fi Profile Remediation — Changes Not Applying (Proxy, SSID & Meraki)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "WIFIDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-08-05",
+  "updated": "2026-08-05",
+  "published_at": "2026-08-05",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T3 — Wi-Fi profile diagnostic toolkit, parity with INTCFG/INTAPPDX (commercial 2495; nonprofit round(2495*0.60,2)=1497.00; government round(2495*0.85,2)=2120.75).",
+    "Government decision: gov_variant FALSE. Intune Wi-Fi config-profile behavior and the remediation pattern are identical in GCC/GCC High/DoD; only the portal (intune.microsoft.us) and Graph endpoint (graph.microsoft.us, Connect-MgGraph -Environment USGov/USGovDoD) differ, documented inline in every doc/script. The FIPS toggle on a Windows Wi-Fi profile is the one federal-relevant setting, noted in best-practices. GCC High uncertainties flagged 'verify for GCC High'. Requesting client is NYC Health & Human Services (public sector).",
+    "VERIFIED FACTS (crux): Intune does NOT reliably update an existing SSID in place. Microsoft documents the canonical case — after changing the password on an existing Wi-Fi profile, 'some users may not get the new profile' (Troubleshoot Wi-Fi device configuration profiles, https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/troubleshoot-wi-fi-profiles). Profile reports Succeeded = DELIVERED, not applied. Reliable remediation is a NEW/replacement profile + remove-and-re-add of the stale saved network, not an in-place edit.",
+    "VERIFIED FACTS (proxy): Windows Wi-Fi 'Company proxy settings' = None / Manually configure (Proxy server IP address + Port number) / Automatically configure (PAC URL e.g. http://proxy.contoso.com/proxy.pac) — https://learn.microsoft.com/en-us/intune/device-configuration/templates/ref-wifi-settings-windows. Apple (iOS/iPadOS/macOS) Wi-Fi 'Proxy settings' = None / Manual (Proxy server address + Port number) / Automatic (Proxy server URL) — https://learn.microsoft.com/en-us/intune/device-configuration/templates/ref-wifi-settings-apple. Manual = host+port (hostname/IP, NOT a URL); Automatic = full PAC URL. Honors AUTHORING_LESSONS hostname-vs-URL lesson.",
+    "VERIFIED FACTS (Android reporting): Android Enterprise fully managed/dedicated/COBO — one failing Wi-Fi profile makes ALL report failing; a Wi-Fi profile can report failing while working (fixed by Intune app 2021.05.02+); missing cert -> 'Skipping Wifi profile because it is pending certificates'. Same MS troubleshoot doc.",
+    "VERIFIED FACTS (Meraki): Meraki Systems Manager Wi-Fi Settings payload pushes SSID/auto-join/proxy; 'Proxying is only supported on Apple Devices'; manual proxy = 'Hostname or IP address (IPv4 or IPv6), and port number', automatic = URL (WPAD if blank) — https://documentation.meraki.com/Platform_Management/SM_-_Endpoint_Management/Design_and_Configure/Profiles_and_Settings/Systems_Manager_Wi-Fi_Settings_Payload. Distinguished Meraki DASHBOARD (network/SSID/RADIUS side) from Meraki SM (competing MDM). iOS single-MDM constraint used as the authority test.",
+    "COULD NOT VERIFY (flagged in text): Cisco Meraki did not publish, and MS docs do not cover, the exact behavior when a device is co-managed by Intune AND Meraki SM for the same SSID (duplicate/masking) — flagged 'verify against current Cisco Meraki documentation'. Android per-enrollment-type Wi-Fi proxy field availability varies — flagged 'verify against current Microsoft documentation'.",
+    "DEDUPE boundary: owns Wi-Fi-profile CHANGES-NOT-REFLECTING (in-place update, proxy placement, duplicates, Meraki authority, reported-vs-applied) ONLY. Defers general config-profile diagnosis to INTCFG (intune-configuration-policy-troubleshooting); defers 802.1X certificate DEPLOYMENT to the certificate-Wi-Fi (ISE8021X) and Wi-Fi deployment sibling (intune-wifi-profile-deployment-management-windows-ios-android). References, does not reproduce."
+  ],
+  "products": [
+    {
+      "sku": "PTK-WIFIDX-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-WIFIDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-WIFIDX-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "WIFIDX-Complete-Solution.zip"
+  ],
+  "hero": "WIFIDX-hero.png"
+}

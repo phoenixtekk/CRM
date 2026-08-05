@@ -1,0 +1,40 @@
+{
+  "slug": "intune-first-time-setup-windows-user-autopilot-enrollment",
+  "title": "Microsoft Intune First-Time Setup for Windows — User & Autopilot Enrollment (Entra-Joined)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "INTBASE",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-28",
+  "updated": "2026-07-30",
+  "published_at": "2026-07-30",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "TWO-VARIANT MODEL (not audience tiers): this solution is sold as two variants of ONE solution — Essentials (Self-Deploy, docs only, $795) and Plus (We-Deploy, docs + scripts + templates + done-for-you deployment, $2495). These are NOT the Commercial/NPO/Gov discount ladder, so the nonprofit==commercial*0.60 / government==commercial*0.85 price rule DOES NOT apply. The publish-time price validator must be told these are variants (audience 'essentials'/'plus'), not tiers — do NOT emit NPO/GOV products.",
+    "Plus includes a done-for-you deployment service fulfilled manually AFTER purchase (like the support add-on products): after checkout we reach out within one business day to schedule and run the basic Intune stand-up + first Windows enrollments. Plus remains a downloadable product type (it also delivers INTBASE-Complete-Solution.zip).",
+    "SCOPE BOUNDARY: beginner on-ramp, Windows only, Microsoft Entra ID-JOINED only. Positioned as: FREE ITSTART (enable Intune) -> THIS (first Windows devices enrolled two ways: user-driven + basic Entra-joined Autopilot) -> WAP 'windows-autopilot' / CFAPG 'cloud-first-autopilot-zero-touch' (depth). Explicitly OUT OF SCOPE and deferred to the deeper products: Hybrid Entra join, advanced/multi-profile Autopilot, deep ESP tuning, dynamic-group strategy, co-management, app packaging, Conditional Access. Does not reproduce ITSTART's deep enable detail (references it).",
+    "Applied AUTHORING_LESSONS: enrollment-time device grouping — 'INTBASE - Autopilot Devices' is an ASSIGNED group and the Intune Provisioning Client SP (AppId f1346770-5b25-470b-88bd-d5744ab7952c) must be an OWNER; full Autopilot nav drill-downs (Devices > Enrollment > Windows tab > Deployment Profiles/ESP/Devices).",
+    "GOV DECISION: gov_variant=false. US Gov portals/Graph differ (intune.microsoft.us / entra.microsoft.us / graph.microsoft.us / Connect-MgGraph -Environment USGov) and Autopilot/enrollment feature timing can differ in GCC High/DoD — documented INLINE in overview/requirements/troubleshooting with 'verify for GCC High' flags rather than a separate deliverable. No Gov audience tier exists in this 2-variant model.",
+    "pricing: Essentials T1-band docs-only ($795, below the standard T2 anchor because it is documentation-only self-deploy); Plus T3 ($2495, matches the deeper WAP anchor) because it adds scripts + templates + a done-for-you deployment service (real added effort)."
+  ],
+  "products": [
+    {
+      "sku": "PTK-INTBASE-ESS-001",
+      "audience": "essentials",
+      "price": 795.0
+    },
+    {
+      "sku": "PTK-INTBASE-PLUS-001",
+      "audience": "plus",
+      "price": 2495.0
+    }
+  ],
+  "deliverables": [
+    "INTBASE-Essentials.zip",
+    "INTBASE-Complete-Solution.zip"
+  ],
+  "hero": "INTBASE-hero.png"
+}

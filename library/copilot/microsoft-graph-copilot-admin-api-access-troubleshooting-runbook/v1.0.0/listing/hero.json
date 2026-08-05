@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Copilot Admin API Blocked?", "color": "white", "size": "main" },
+    { "text": "Graph Beta Troubleshooting Runbook", "color": "green", "size": "main" },
+    { "text": "401 · 403 · 404 · 429 → one named cause", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "BLOCKED CALLS",
+    "items": [
+      "403 “Access denied”",
+      "“User context required”",
+      "Scope vs role confusion",
+      "Not enabled in your cloud"
+    ]
+  },
+  "to": {
+    "label": "Root cause + supported fix",
+    "stat": "Decode & unblock"
+  },
+  "tagline": "DECODE IT.  DISAMBIGUATE IT.  UNBLOCK IT.",
+  "benefits": [
+    { "icon": "key", "title": "Scopes & Roles", "sub": "Have vs need" },
+    { "icon": "shield", "title": "401 vs 403", "sub": "Decoded" },
+    { "icon": "cloud", "title": "Gov Cloud", "sub": "Availability" },
+    { "icon": "gear", "title": "5 Scripts", "sub": "Read-only" }
+  ]
+}

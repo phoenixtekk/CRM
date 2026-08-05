@@ -1,0 +1,55 @@
+{
+  "title_lines": [
+    {
+      "text": "Wi-Fi Change Not Applying?",
+      "color": "white",
+      "size": "main"
+    },
+    {
+      "text": "Intune Wi-Fi Profile Remediation",
+      "color": "green",
+      "size": "main"
+    },
+    {
+      "text": "In-place SSID · Proxy · Duplicates · Meraki",
+      "color": "blue",
+      "size": "sub"
+    }
+  ],
+  "from": {
+    "label": "“SUCCEEDED” BUT UNCHANGED",
+    "items": [
+      "Edited profile won’t update",
+      "Proxy in the wrong field",
+      "Duplicate Wi-Fi profiles",
+      "Meraki overriding it"
+    ]
+  },
+  "to": {
+    "label": "Proven on the device",
+    "stat": "Applied, not just reported"
+  },
+  "tagline": "PROVE IT.  REPLACE IT.  FIX IT.",
+  "benefits": [
+    {
+      "icon": "gear",
+      "title": "Branch Playbook",
+      "sub": "By symptom"
+    },
+    {
+      "icon": "device",
+      "title": "Applied State",
+      "sub": "On the device"
+    },
+    {
+      "icon": "cloud",
+      "title": "Proxy Placement",
+      "sub": "Host vs PAC URL"
+    },
+    {
+      "icon": "shield",
+      "title": "Meraki Authority",
+      "sub": "Who owns it"
+    }
+  ]
+}

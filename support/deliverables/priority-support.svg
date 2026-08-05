@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ti de">
+<title id="ti">Priority — support product image</title><desc id="de">Phoenixtekk Support &amp; Services product image.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fdf1de"/></linearGradient><linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e08a1e"/><stop offset="1" stop-color="#b86a10"/></linearGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<circle cx="1200" cy="0" r="360" fill="#e08a1e" opacity="0.10"/><circle cx="0" cy="1200" r="420" fill="#e08a1e" opacity="0.08"/>
+<rect x="40" y="40" width="1120" height="1120" rx="48" fill="none" stroke="#e08a1e" stroke-width="3" opacity="0.30"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="515" y="96" width="170" height="54" rx="27" fill="url(#acc)"/><text x="600" y="132" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="3">PRIORITY</text></g>
+<g transform="translate(600,340)"><circle r="150" fill="#e08a1e"/><circle r="150" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.35"/><path d="M0 -118 L34 -38 L120 -30 L56 26 L74 112 L0 68 L-74 112 L-56 26 L-120 -30 L-34 -38 Z" fill="#ffffff"/><path d="M0 -70 L20 -22 L72 -18 L34 14 L46 66 L0 40 L-46 66 L-34 14 L-72 -18 L-20 -22 Z" fill="#e08a1e"/></g>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#1f2a37" font-weight="800">
+<text x="600" y="694" font-size="104">Priority</text>
+<text x="600" y="770" font-size="60">Implementation Support</text>
+</g>
+<text x="600" y="900" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="132" font-weight="800" fill="#e08a1e">$1,000</text>
+<text x="600" y="948" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600" fill="#5a6b7b">per week · up to 3 working meetings</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(300,1024)"><circle r="26" fill="#fdf1de" stroke="#e08a1e" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#e08a1e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="300" y="1082" font-size="24" font-weight="600" fill="#3d4b59">Front-of-queue response</text>
+<g transform="translate(600,1024)"><circle r="26" fill="#fdf1de" stroke="#e08a1e" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#e08a1e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="600" y="1082" font-size="24" font-weight="600" fill="#3d4b59">3 meetings / week</text>
+<g transform="translate(900,1024)"><circle r="26" fill="#fdf1de" stroke="#e08a1e" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#e08a1e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="900" y="1082" font-size="24" font-weight="600" fill="#3d4b59">Hands-on guidance</text>
+</g>
+<line x1="120" y1="1112" x2="1080" y2="1112" stroke="#e08a1e" stroke-width="2" opacity="0.4"/><text x="600" y="1152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#b86a10" letter-spacing="2">PHOENIXTEKK&#160;&#160;·&#160;&#160;SUPPORT &amp; SERVICES</text>
+</svg>

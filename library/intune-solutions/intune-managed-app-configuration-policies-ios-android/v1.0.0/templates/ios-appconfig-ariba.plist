@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ios-appconfig-ariba.plist — SAP Ariba Procurement iOS Managed App Configuration (WORKED EXAMPLE).
+
+  *** PLACEHOLDER KEYS — VERIFY AGAINST SAP ARIBA DOCUMENTATION ***
+  The key names below are ILLUSTRATIVE PLACEHOLDERS, not confirmed SAP keys. The authoritative keys
+  live in the "SAP Ariba Procurement Mobile App Guide" > "Configuring SAP Ariba Procurement mobile
+  app in Mobile Device Management Tool". Confirm every key and accepted value there before production.
+  SAP states the Ariba Procurement app is NOT MDM-certified on Android as of current docs — this
+  worked example is iOS only.
+
+  HOW TO USE: Intune → Apps → App configuration policies → Create → Managed devices →
+  Platform iOS/iPadOS → Targeted app = SAP Ariba Procurement (publisher SAP SE, bundle id
+  com.sap.ariba.procurement — verify) → Settings → "Enter XML data" → paste ONLY the <dict>...</dict>.
+  Prefer the Configuration designer where possible.
+
+  HOSTNAME, NOT URL: aribaSiteHost is a bare hostname (e.g. s1.ariba.com) — no https://, no path.
+  Region-specific (e.g. s1-eu.ariba.com); confirm your site host.
+  realm = the buyer subdomain (the realm= value from your Ariba SSO/ACS URL).
+-->
+<plist version="1.0">
+<dict>
+    <key>aribaSiteHost</key>
+    <string>s1.ariba.com</string>
+
+    <key>aribaRealm</key>
+    <string>yourcompany</string>
+
+    <key>aribaEnvironment</key>
+    <string>production</string>
+
+    <key>userRole</key>
+    <string>requester</string>
+
+    <key>authMode</key>
+    <string>SSO</string>
+
+    <key>tenantId</key>
+    <string>{{tenantid}}</string>
+</dict>
+</plist>

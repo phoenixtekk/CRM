@@ -1,0 +1,43 @@
+{
+  "slug": "microsoft-graph-copilot-admin-api-access-troubleshooting-runbook",
+  "title": "Microsoft Graph Beta Copilot Admin API — Access, Permissions & Troubleshooting Runbook",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "CPADMDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-24",
+  "updated": "2026-08-05",
+  "published_at": "2026-08-05",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T2/T3 - focused single-API-family troubleshooting runbook (branch-based diagnostic method + 5 read-only Graph scripts). Anchor 1995.00 sits at the T2/T3 boundary, consistent with single-platform Copilot solutions.",
+    "gov_variant: false. The Copilot admin beta endpoints (catalog/packages, policySettings) are Global-only per their national-cloud tables (US Gov L4, US Gov L5/DoD, 21Vianet all show unavailable). There is therefore no distinct Government CONFIGURATION to author; instead the Gov difference IS the finding - documented inline (Requirements R6, Runbook Branch F): in GCC High/DoD the endpoint does not exist and the supported fallback becomes primary. All 5 scripts expose -Environment Global|USGov|USGovDoD to target graph.microsoft.us / dod-graph.microsoft.us for the fallbacks. GCC High specifics flagged 'verify against current Microsoft documentation'.",
+    "ACCURACY: all endpoint paths, permission scopes, admin roles, license requirements, error semantics, and cloud-availability facts verified against Microsoft Learn on 2026-07-24 - Package Management API overview + copilotpackages-list + copilotpackagedetail-get, copilotpolicysetting-get, Copilot APIs overview, Copilot APIs security-authentication, Graph permissions reference (CopilotPackages), Graph throttling + national-cloud deployments, plus Microsoft Q&A threads confirming the app-only-token 403 'user context is required' behavior and tenant-by-tenant flighting. Beta behavior flagged volatile throughout ('verify against current Microsoft documentation - beta, subject to change').",
+    "Key verified specifics: catalog/packages requires DELEGATED context (app-only tokens rejected with 403 'User context is required') despite the reference listing Application permissions; policySettings Application = Not supported; scopes CopilotPackages.Read.All / CopilotPolicySettings.Read; least-priv role AI Administrator; current docs now require a Microsoft Agent 365 license for the package API (changed from original 'no additional license required' announcement).",
+    "Customer already RULED OUT Agent 365 licensing as the blocker - runbook Branch G confirms and excludes licensing, then moves on to the real causes.",
+    "DEDUPE boundary: sibling product copilot-agent-builder-inventory-sharing-governance-export (AGBINV) owns the agent INVENTORY + SHARING EXPORT deliverable and a short diagnostic. THIS product (CPADMDX) is the deep, general troubleshooting runbook for the /beta/copilot/admin/* API surface itself - broader than one export task; it references AGBINV for the export rather than reproducing it."
+  ],
+  "products": [
+    {
+      "sku": "PTK-CPADMDX-COMM-001",
+      "audience": "commercial",
+      "price": 1995.0
+    },
+    {
+      "sku": "PTK-CPADMDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 1197.0
+    },
+    {
+      "sku": "PTK-CPADMDX-GOV-001",
+      "audience": "government",
+      "price": 1695.75
+    }
+  ],
+  "deliverables": [
+    "CPADMDX-Complete-Solution.zip"
+  ],
+  "hero": "CPADMDX-hero.png"
+}

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ti de">
+<title id="ti">30-Day Chat — support product image</title><desc id="de">Phoenixtekk Support &amp; Services product image.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e6f7f4"/></linearGradient><linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12a594"/><stop offset="1" stop-color="#0d8276"/></linearGradient></defs>
+<rect width="1200" height="1200" fill="url(#bg)"/>
+<circle cx="1200" cy="0" r="360" fill="#12a594" opacity="0.10"/><circle cx="0" cy="1200" r="420" fill="#12a594" opacity="0.08"/>
+<rect x="40" y="40" width="1120" height="1120" rx="48" fill="none" stroke="#12a594" stroke-width="3" opacity="0.30"/>
+<g font-family="Segoe UI, Arial, sans-serif"><rect x="481" y="96" width="238" height="54" rx="27" fill="url(#acc)"/><text x="600" y="132" text-anchor="middle" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="3">CHAT SUPPORT</text></g>
+<g transform="translate(600,340)"><circle r="150" fill="#12a594"/><circle r="150" fill="none" stroke="#ffffff" stroke-width="6" opacity="0.35"/><g fill="#ffffff"><path d="M-118 -70 h150 a26 26 0 0 1 26 26 v72 a26 26 0 0 1 -26 26 h-96 l-40 34 v-34 h-14 a26 26 0 0 1 -26 -26 v-72 a26 26 0 0 1 26 -26 z"/></g><g fill="#12a594"><circle cx="-58" cy="-8" r="9"/><circle cx="-20" cy="-8" r="9"/><circle cx="18" cy="-8" r="9"/></g><path d="M40 20 h96 a24 24 0 0 1 24 24 v58 a24 24 0 0 1 -24 24 h-70 l-34 28 v-28 h8 a1 1 0 0 1 0 0" fill="#ffffff" opacity="0.55"/></g>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" fill="#1f2a37" font-weight="800">
+<text x="600" y="658" font-size="96">30-Day Chat</text>
+<text x="600" y="770" font-size="96">Support</text>
+</g>
+<text x="600" y="900" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="132" font-weight="800" fill="#12a594">$500</text>
+<text x="600" y="948" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600" fill="#5a6b7b">30 days · your preferred messaging app</text>
+<g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+<g transform="translate(300,1024)"><circle r="26" fill="#e6f7f4" stroke="#12a594" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#12a594" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="300" y="1082" font-size="24" font-weight="600" fill="#3d4b59">SMS · WhatsApp · Teams</text>
+<g transform="translate(600,1024)"><circle r="26" fill="#e6f7f4" stroke="#12a594" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#12a594" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="600" y="1082" font-size="24" font-weight="600" fill="#3d4b59">Slack · Telegram · Web</text>
+<g transform="translate(900,1024)"><circle r="26" fill="#e6f7f4" stroke="#12a594" stroke-width="3"/><path d="M-11 0 L-3 9 L12 -9" fill="none" stroke="#12a594" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="900" y="1082" font-size="24" font-weight="600" fill="#3d4b59">Unblock your rollout</text>
+</g>
+<line x1="120" y1="1112" x2="1080" y2="1112" stroke="#12a594" stroke-width="2" opacity="0.4"/><text x="600" y="1152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#0d8276" letter-spacing="2">PHOENIXTEKK&#160;&#160;·&#160;&#160;SUPPORT &amp; SERVICES</text>
+</svg>

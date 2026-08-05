@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Time to Retire an App?", "color": "white", "size": "main" },
+    { "text": "App Retirement & Decommissioning", "color": "green", "size": "main" },
+    { "text": "Intune · Uninstall Waves · Proof It's Gone", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "APP THAT WON'T DIE",
+    "items": [
+      "EOL / security risk",
+      "Paying for unused seats",
+      "“Uninstall did nothing”",
+      "Orphaned groups & rules"
+    ]
+  },
+  "to": {
+    "label": "Decommissioned & proven",
+    "stat": "Gone. With evidence."
+  },
+  "tagline": "DECIDE IT.  REMOVE IT.  PROVE IT.",
+  "benefits": [
+    { "icon": "gear", "title": "Uninstall Waves", "sub": "Pilot to broad" },
+    { "icon": "lock", "title": "Data Checkpoint", "sub": "Before removal" },
+    { "icon": "chart", "title": "License Reclaim", "sub": "Cost recovery" },
+    { "icon": "shield", "title": "Evidence Pack", "sub": "Proof it's gone" }
+  ]
+}

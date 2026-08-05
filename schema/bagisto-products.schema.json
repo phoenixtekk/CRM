@@ -44,11 +44,11 @@
             "enum": ["downloadable", "simple"],
             "description": "downloadable = files delivered on purchase (default for guide products)."
           },
-          "audience": { "type": "string", "enum": ["commercial", "nonprofit", "government"] },
+          "audience": { "type": "string", "enum": ["commercial", "nonprofit", "government", "essentials", "plus", "free"] },
           "price": {
             "type": "number",
-            "exclusiveMinimum": 0,
-            "description": "USD. Non-Profit MUST equal round(commercial * 0.60, 2); Government MUST equal round(commercial * 0.85, 2)."
+            "minimum": 0,
+            "description": "USD. For the audience-tier model, Non-Profit MUST equal round(commercial * 0.60, 2) and Government MUST equal round(commercial * 0.85, 2). The 'essentials'/'plus' audiences are two VARIANTS of one solution (Self-Deploy / We-Deploy), NOT the discount ladder — the NPO/GOV price relationship does not apply to them. 'free' is a $0 lead-gen product."
           },
           "short_description": { "type": "string", "minLength": 10, "description": "HTML allowed." },
           "description": { "type": "string", "minLength": 50, "description": "HTML allowed." },

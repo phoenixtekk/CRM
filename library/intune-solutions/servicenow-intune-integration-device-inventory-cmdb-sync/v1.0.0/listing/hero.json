@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "ServiceNow ↔ Intune", "color": "white", "size": "main" },
+    { "text": "Device Inventory", "color": "green", "size": "main" },
+    { "text": "& CMDB Sync", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "WORKSPACE ONE FEED", "items": ["Retiring MDM", "Feed going dark", "Duplicate CIs", "No Intune data"] },
+  "to": { "label": "ServiceNow CMDB", "stat": "Intune · Reconciled · Scheduled" },
+  "tagline": "SECURE.  MODERN.  EFFICIENT.",
+  "benefits": [
+    { "icon": "device", "title": "Device Inventory", "sub": "Intune → CMDB" },
+    { "icon": "cloud", "title": "Graph Feed", "sub": "Read-only scopes" },
+    { "icon": "users", "title": "Serial-key IRE", "sub": "No duplicate CIs" },
+    { "icon": "chart", "title": "WS1 Continuity", "sub": "Feed re-established" }
+  ]
+}

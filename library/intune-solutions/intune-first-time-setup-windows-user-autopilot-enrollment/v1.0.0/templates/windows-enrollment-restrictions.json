@@ -1,0 +1,24 @@
+{
+  "_comment": "Sample Windows enrollment platform restriction — reference for INTBASE - Windows Enrollment - Pilot. Configure in Intune: Devices > Enrollment > Windows > Enrollment device platform restrictions. Field names mirror the Graph deviceEnrollmentPlatformRestrictionConfiguration resource.",
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionConfiguration",
+  "displayName": "INTBASE - Windows Enrollment - Pilot",
+  "description": "Corporate-only Windows enrollment for the first-time pilot.",
+  "priority": 1,
+  "platformType": "windows",
+  "platformRestriction": {
+    "platformBlocked": false,
+    "personalDeviceEnrollmentBlocked": true,
+    "osMinimumVersion": "10.0.17763",
+    "osMaximumVersion": "",
+    "blockedManufacturers": [],
+    "blockedSkus": []
+  },
+  "roleScopeTagIds": [],
+  "assignedGroups": [
+    "INTBASE - Windows Users - Pilot"
+  ],
+  "_notes": {
+    "stance": "personalDeviceEnrollmentBlocked=true keeps the pilot to corporate devices; relax later if you want personal (BYOD) Windows enrollment.",
+    "osMinimumVersion": "10.0.17763 = Windows 10 1809, the minimum for modern enrollment. Home edition cannot enroll regardless."
+  }
+}

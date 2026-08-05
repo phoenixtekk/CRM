@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "App Packaging Standards", "color": "white", "size": "main" },
+    { "text": "One Spec, Every Package", "color": "green", "size": "main" },
+    { "text": "Win32 · MSIX · Store · Quality Gates", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "A DECAYING CATALOG",
+    "items": [
+      "Three naming styles",
+      "Guessed detection",
+      "Orphan assignments",
+      "No sign-off record"
+    ]
+  },
+  "to": {
+    "label": "A governed catalog",
+    "stat": "Named · detected · reviewed · audited"
+  },
+  "tagline": "SET THE STANDARD.  AUDIT IT.",
+  "benefits": [
+    { "icon": "gear", "title": "Format matrix", "sub": "Win32/MSIX/Store" },
+    { "icon": "chip", "title": "Detection rules", "sub": "10 banned patterns" },
+    { "icon": "lock", "title": "Quality gates", "sub": "5-gate sign-off" },
+    { "icon": "chart", "title": "Audit scripts", "sub": "Catalog stays clean" }
+  ]
+}

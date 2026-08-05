@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Uninstall Won't Uninstall?", "color": "white", "size": "main" },
+    { "text": "Win32 App Removal Remediation", "color": "green", "size": "main" },
+    { "text": "Intent · Detection · 1605 · ProductCode", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "STUCK REMOVALS",
+    "items": [
+      "“Uninstall failed”",
+      "Still installed",
+      "Wrong ProductCode (1605)",
+      "Loops every cycle"
+    ]
+  },
+  "to": {
+    "label": "Removal, proven gone",
+    "stat": "Find it. Fix it."
+  },
+  "tagline": "DECODE IT.  REMOVE IT.  PROVE IT.",
+  "benefits": [
+    { "icon": "gear",   "title": "Removal Tree", "sub": "9 branches" },
+    { "icon": "device", "title": "Detection",    "sub": "Both ends" },
+    { "icon": "chart",  "title": "Exit Codes",   "sub": "1605 / 1603" },
+    { "icon": "lock",   "title": "Intent",       "sub": "Conflicts" }
+  ]
+}

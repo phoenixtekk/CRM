@@ -1,0 +1,16 @@
+{
+  "title_lines": [
+    { "text": "Delivery Optimization", "color": "white", "size": "main" },
+    { "text": "Bandwidth & Peer Caching", "color": "green", "size": "main" },
+    { "text": "with Microsoft Intune", "color": "blue", "size": "sub" }
+  ],
+  "from": { "label": "WAN SATURATION", "items": ["Every device downloads alone", "Branch links maxed out", "Slow provisioning", "No savings visibility"] },
+  "to": { "label": "Microsoft Intune", "stat": "Peer · Cache · HTTP fallback" },
+  "tagline": "DOWNLOAD ONCE.  SHARE EVERYWHERE.",
+  "benefits": [
+    { "icon": "cloud", "title": "Peer + Cache", "sub": "Once per network" },
+    { "icon": "gear", "title": "Download Mode", "sub": "Group scoping" },
+    { "icon": "chart", "title": "Bandwidth Caps", "sub": "Business-hours aware" },
+    { "icon": "device", "title": "Proven Savings", "sub": "Peer vs HTTP bytes" }
+  ]
+}

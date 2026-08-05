@@ -1,0 +1,43 @@
+{
+  "slug": "servicenow-intune-integration-device-inventory-cmdb-sync",
+  "title": "ServiceNow ↔ Microsoft Intune Integration — Device Inventory & CMDB Sync",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "SNOWINT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-30",
+  "updated": "2026-07-30",
+  "published_at": "2026-07-30",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T3/T4 — two-platform integration (ServiceNow + Intune/Graph) + CMDB mapping. Commercial anchor $2,795 sits at the top of the T3 Advanced band (multi-component, 2-3 technologies, conditional logic across ServiceNow IRE + Microsoft Graph). Nonprofit round(2795*0.60,2)=1677.00; Government round(2795*0.85,2)=2375.75.",
+    "gov decision: gov_variant=false. The ServiceNow Service Graph Connector app and CMDB model are the SAME for Government; only the Microsoft endpoints change (graph.microsoft.us / dod-graph.microsoft.us, login.microsoftonline.us, intune.microsoft.us) and the scripts are cloud-aware via Connect-MgGraph -Environment USGov|USGovDoD. Differences documented INLINE in 02/03/06/07; no separate source-gov deliverable warranted. Flagged 'verify for GCC High' whether the Store connector release exposes a configurable sovereign Graph endpoint (custom Integration Hub import is the fallback).",
+    "VERIFIED FACTS (with sources): (1) ServiceNow ingests Intune managed-device data via the 'Service Graph Connector for Microsoft Intune' (ServiceNow Store), requiring an ITOM Visibility or ITOM Discovery subscription; writes to CMDB via IRE. Sources: ServiceNow Store https://store.servicenow.com/store/app/daa9ef221b246a50a85b16db234bcb6d ; ServiceNow docs https://www.servicenow.com/docs/bundle/xanadu-servicenow-platform/page/product/configuration-management/concept/cmdb-integration-intune.html ; ServiceNow community troubleshooting blog https://www.servicenow.com/community/cmdb-blog/service-graph-connector-for-microsoft-intune-troubleshooting/ba-p/2275201 . (2) Connector authenticates to Microsoft Graph (OAuth2 client-credentials) with APPLICATION permissions: DeviceManagementManagedDevices.Read.All, DeviceManagementApps.Read.All, DeviceManagementServiceConfig.Read.All, Directory.Read.All (all read-only, admin-consented) — per the ServiceNow community troubleshooting blog; scope names + semantics verified against Microsoft Learn https://learn.microsoft.com/en-us/intune/developer/configure-graph-api-access (DeviceManagementManagedDevices.Read.All = read Managed Device / Device Category / Detected App / Malware info; all Intune scopes require admin access). (3) Data streams: managed devices /deviceManagement/managedDevices, detected apps /deviceManagement/detectedApps; CMDB target = computer class cmdb_ci_computer + a handheld/mobile class (community references cmdb_ci_handheld_computing / a mobiledevices stream). (4) Workspace ONE parallel: 'Service Graph Connector for VMware Workspace ONE UEM' — same Service Graph framework, same ITOM requirement, same CMDB classes — so Intune reconciles onto existing WS1 CIs via serial-number IRE. Source: ServiceNow docs cmdb-integration-workspace-one + VMware/Omnissa integration docs.",
+    "COULD NOT FULLY VERIFY (flagged inline as 'verify against current ServiceNow documentation'): exact release-specific CMDB handheld/mobile class name (cmdb_ci_handheld_computing likely but not confirmed on the official docs render), the exact detected-apps CMDB target table (software model), the exact connector data-stream display names, and exact ServiceNow role names — the official docs.servicenow.com Intune connector page did not render usable detail via fetch; relied on ServiceNow community blogs + Store. Also flagged 'verify for GCC High' whether the Store connector exposes a configurable sovereign Graph endpoint.",
+    "scope boundary: OUT OF SCOPE and deferred (referenced, not reproduced) — SNOWSAM (ServiceNow SAM license workflow), SWDISC (software entitlement reconciliation / effective license position), WS1PROG (the Workspace ONE → Intune device migration itself). This product re-establishes only the CMDB device-inventory DATA FEED."
+  ],
+  "products": [
+    {
+      "sku": "PTK-SNOWINT-COMM-001",
+      "audience": "commercial",
+      "price": 2795.0
+    },
+    {
+      "sku": "PTK-SNOWINT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1677.0
+    },
+    {
+      "sku": "PTK-SNOWINT-GOV-001",
+      "audience": "government",
+      "price": 2375.75
+    }
+  ],
+  "deliverables": [
+    "SNOWINT-Complete-Solution.zip"
+  ],
+  "hero": "SNOWINT-hero.png"
+}

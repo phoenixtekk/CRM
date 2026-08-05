@@ -1,0 +1,44 @@
+{
+  "slug": "windows-delivery-optimization-bandwidth-content-distribution-intune",
+  "title": "Windows Delivery Optimization — Bandwidth Savings & Peer Content Distribution (Intune)",
+  "category": "Intune Solutions",
+  "category_slug": "intune-solutions",
+  "sol_code": "DELOPT",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-30",
+  "updated": "2026-07-30",
+  "published_at": "2026-07-30",
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T3 — focused content-delivery/bandwidth config across multiple content sources (peer + HTTP + cache) + monitoring. Commercial 2295.00; nonprofit round(2295*0.60,2)=1377.00; government round(2295*0.85,2)=1950.75.",
+    "DO settings verified against Microsoft Learn 'Delivery Optimization reference' (learn.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization-reference, doc dated 2026-05-20): DODownloadMode 0=HTTP Only,1=LAN(default),2=Group,3=Internet,99=Simple,100=Bypass(deprecated on Win11); DOGroupIDSource 1=AD Site,2=Auth domain SID,3=DHCP Option 234,4=DNS Suffix,5=Entra tenant ID; DORestrictPeerSelectionBy 0/1(subnet)/2(DNS-SD); DOMaxCacheSize default 20%, DOAbsoluteMaxCacheSize (GB, overrides %), DOMaxCacheAge default 259200s/3 days, DOMinFileSizeToCache default 50MB, DOModifyCacheDrive; DOPercentageMax(Fore/Back)groundBandwidth (default 0 dynamic), DOMax(Fore/Back)groundDownloadBandwidth (KB/s), DOSetHoursToLimit(Fore/Back)groundDownloadBandwidth, DOMinBackgroundQoS default 20MB/s, DOMonthlyUploadDataCap default 20GB; DOMinRAMAllowedToPeer 4GB, DOMinDiskSizeAllowedToPeer 32GB; MCC DOCacheHost / DOCacheHostSource (1=DHCP Option 235, 2=Force). Settings now live in the Intune Settings Catalog under 'Delivery Optimization'.",
+    "Peer listening port TCP 7680 documented; legacy Internet mode Teredo UDP 3544 flagged 'verify against current Microsoft documentation'; DO cloud/content endpoint FQDNs flagged verify-current (they change).",
+    "SCOPE BOUNDARY: Microsoft Connected Cache (MCC) covered at DECISION/pointer level only (what it is, when needed, how DO points at it via DOCacheHost/DOCacheHostSource). Full MCC-node deployment/standup DEFERRED to a separate future product — not authored here.",
+    "DEDUPE: this is the content-delivery/bandwidth layer only. Defers to WUFB (windows-updates-for-business = what/when updates deploy, update rings), TPP (third-party-app-patching-intune), and WIN32 (intune-win32-app-packaging-deployment = app packaging). DO optimizes the delivery underneath all of them; no overlap in scope.",
+    "GOV decision: gov_variant=false. US Gov differs only by portal/endpoint (intune.microsoft.us, portal.azure.us, graph.microsoft.us, Connect-MgGraph -Environment USGov/USGovDoD) and possible DO/MCC cloud-endpoint reachability differences — documented inline in 03-implementation §3.9 and troubleshooting. Settings Catalog DO settings themselves are identical, so no separate Gov deliverable warranted; GCC High endpoint-parity uncertainties flagged 'verify for GCC High'."
+  ],
+  "products": [
+    {
+      "sku": "PTK-DELOPT-COMM-001",
+      "audience": "commercial",
+      "price": 2295.0
+    },
+    {
+      "sku": "PTK-DELOPT-NPO-001",
+      "audience": "nonprofit",
+      "price": 1377.0
+    },
+    {
+      "sku": "PTK-DELOPT-GOV-001",
+      "audience": "government",
+      "price": 1950.75
+    }
+  ],
+  "deliverables": [
+    "DELOPT-Complete-Solution.zip"
+  ],
+  "hero": "DELOPT-hero.png"
+}

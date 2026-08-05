@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Copilot Agent Builder", "color": "white", "size": "main" },
+    { "text": "Inventory & Sharing Export", "color": "green", "size": "main" },
+    { "text": "Microsoft Graph · Package Management API · Governance", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "BLOCKED GRAPH REQUEST",
+    "items": [
+      "401 / 403 / 404, no answer",
+      "Who is this shared with?",
+      "Agent Builder vs Studio mixed",
+      "No repeatable export"
+    ]
+  },
+  "to": {
+    "label": "Governance register",
+    "stat": "Inventoried · shared-with · owned"
+  },
+  "tagline": "FIND THE AGENTS.  SEE THE SHARING.  GOVERN IT.",
+  "benefits": [
+    { "icon": "users", "title": "Sharing", "sub": "users + groups" },
+    { "icon": "chart", "title": "Inventory", "sub": "Agent Builder" },
+    { "icon": "gear", "title": "Graph Export", "sub": "scriptable" },
+    { "icon": "shield", "title": "Diagnostic", "sub": "401/403/404" }
+  ]
+}

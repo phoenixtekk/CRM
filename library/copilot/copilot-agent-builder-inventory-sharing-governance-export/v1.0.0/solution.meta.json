@@ -1,0 +1,44 @@
+{
+  "slug": "copilot-agent-builder-inventory-sharing-governance-export",
+  "title": "Copilot Agent Builder — Agent Inventory & Sharing Governance Export (Microsoft Graph)",
+  "category": "Copilot",
+  "category_slug": "copilot",
+  "sol_code": "AGBINV",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-07-24",
+  "updated": "2026-08-05",
+  "published_at": "2026-08-05",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "pricing: T3 — Graph export pipeline + sharing enumeration + beta-endpoint diagnostic. Multi-component within one platform (Graph Package Management API list + per-id detail, name resolution, admin-center fallback path, filtering to Agent Builder, governance register). Priced at $2,495 matching the APPRPT Graph-export reference of equal effort.",
+    "ACCURACY: every Microsoft Graph API claim was verified against Microsoft Learn on the build date 2026-07-24. Key sources: learn.microsoft.com List Copilot packages (copilotpackages-list) and Get Copilot package details (copilotpackagedetail-get); Agent Registry in M365 admin center (agent-registry); Share and manage agents built with M365 Copilot (agent-builder-share-manage-agents); Microsoft Q&A 403 on Copilot Packages API (answers 5827851); microsoft/copilot-agent-inventory-samples; Message Center MC1173195.",
+    "KEY FINDING: the customer's endpoint GET /copilot/admin/catalog/packages/{id} is CORRECT and its copilotPackageDetail response DOES expose sharing via the property allowedUsersAndGroups (array of {resourceId, resourceType=user|group}) plus acquireUsersAndGroups and availableTo/deployedTo (all/some/none). The LIST endpoint returns only the all/some/none summary — you must call the per-id detail to get recipients. Namespace /copilot/admin/catalog/packages is correct; API is now documented in BOTH v1.0 and beta (GA'd recently — flagged volatile).",
+    "BLOCKED/FAILED causes distinguished: 401 token; 403 = missing CopilotPackages.Read.All scope/consent OR insufficient admin role (AI Administrator/Global/Cloud App/App/Copilot Admin) OR Microsoft Agent 365 entitlement (current docs state the API requires Agent 365) OR tenant feature not rolled out; 404 = not deployed to tenant / Government cloud unsupported. Customer RULED OUT Agent 365 — acknowledged; docs now state Agent 365 is required for the API, so it is flagged as must-verify with a no-Agent-365 fallback (Path A admin center Registry Export to CSV).",
+    "Filtering to Agent Builder (exclude Copilot Studio): $filter=platform eq 'Microsoft 365 Copilot Agent Builder' plus elementTypes contains declarativeAgent. Copilot Studio agents carry platform 'Copilot Studio' and are OUT OF SCOPE per customer.",
+    "Honest limitation stated: the API returns the ALLOWED audience (who an agent can reach), not a runtime usage log of who actually opened/ran it — usage is a separate source (Copilot usage reporting / audit log), out of scope.",
+    "gov_variant: false — decision + reasoning: The Copilot Package Management API (Path B) is documented as Global service ONLY — US Gov L4 (GCC High) and L5 (DoD) both show NOT available on the Microsoft Learn national-cloud availability table, as does China 21Vianet. Rather than a separate source-gov deliverable, the difference is documented INLINE: Requirements R7 endpoint substitution table + 'Package API not available in GCC High/DoD — verify for GCC High'; Implementation Step 0/Step 5 route Government tenants to Path A (admin center Registry export); scripts accept -Environment Global|USGov|USGovDoD and route Graph to graph.microsoft.us/dod-graph.microsoft.us but report clearly when the API is absent rather than fabricating. Also flagged that Agent Builder feature parity itself in GCC High/DoD must be verified. Did NOT invent GCC High specifics; flagged uncertain parity as 'verify for GCC High'. Inline documentation is sufficient because the METHOD (Path A) is the same; only availability/URLs change."
+  ],
+  "products": [
+    {
+      "sku": "PTK-AGBINV-COMM-001",
+      "audience": "commercial",
+      "price": 2495.0
+    },
+    {
+      "sku": "PTK-AGBINV-NPO-001",
+      "audience": "nonprofit",
+      "price": 1497.0
+    },
+    {
+      "sku": "PTK-AGBINV-GOV-001",
+      "audience": "government",
+      "price": 2120.75
+    }
+  ],
+  "deliverables": [
+    "AGBINV-Complete-Solution.zip"
+  ],
+  "hero": "AGBINV-hero.png"
+}

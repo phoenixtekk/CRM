@@ -1,0 +1,41 @@
+{
+  "slug": "enterprise-application-management-governance-operating-model",
+  "title": "Enterprise Application Management Governance & Operating Model (Microsoft Endpoint / Intune)",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "APPOPS",
+  "version": "1.0.0",
+  "status": "generated",
+  "created": "2026-07-20",
+  "updated": "2026-07-20",
+  "published_at": null,
+  "version_directive": "New",
+  "branding": "off",
+  "gov_variant": false,
+  "author_notes": [
+    "pricing: T4 — multi-workstream org-wide operating model (governance layer spanning ownership/RACI, intake, review board, standards, risk-tiered change + CAB interface, tiered support, and security-stack integration; higher effort and org-wide scope than a single-platform Intune config solution).",
+    "gov decision: gov_variant=false. The governance process, roles, decision rights, and artefacts are identical for Commercial and Government tenants; the only difference is portal/Graph URLs (endpoint.microsoft.us, portal.azure.us, login.microsoftonline.us, graph.microsoft.us). All scripts accept -GraphEnvironment USGov and the docs carry a Government URL note. No distinct Gov deliverable required; where a specific Intune feature's GCC High/DoD availability is uncertain the docs say 'verify for GCC High'.",
+    "SCOPE: governance/operating-model ANCHOR product only. Deliberately does NOT re-teach packaging (WIN32), third-party patching (TPP), or install troubleshooting (INTAPPDX) — it describes HOW governance plugs into Intune/WDAC/MDE/App Protection, not their configuration."
+  ],
+  "products": [
+    {
+      "sku": "PTK-APPOPS-COMM-001",
+      "audience": "commercial",
+      "price": 2995.0
+    },
+    {
+      "sku": "PTK-APPOPS-NPO-001",
+      "audience": "nonprofit",
+      "price": 1797.0
+    },
+    {
+      "sku": "PTK-APPOPS-GOV-001",
+      "audience": "government",
+      "price": 2545.75
+    }
+  ],
+  "deliverables": [
+    "APPOPS-Complete-Solution.zip"
+  ],
+  "hero": "APPOPS-hero.png"
+}
