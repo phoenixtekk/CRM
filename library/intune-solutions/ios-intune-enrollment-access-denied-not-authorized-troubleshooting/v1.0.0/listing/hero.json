@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "\"Access Denied\"", "color": "white", "size": "main" },
+    { "text": "iOS Intune Enrollment", "color": "green", "size": "main" },
+    { "text": "License · MDM Scope · Restrictions · Conditional Access", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "THE SYMPTOM",
+    "items": [
+      "\"You are not authorized\"",
+      "Activity Id / Session Id",
+      "Enrollment blocked",
+      "Device unmanaged"
+    ]
+  },
+  "to": {
+    "label": "Deterministic root cause",
+    "stat": "Two-minute diagnosis from the on-screen IDs"
+  },
+  "tagline": "CAPTURE.  READ THE SIGN-IN.  REMEDIATE.",
+  "benefits": [
+    { "icon": "search",  "title": "Read the Sign-In", "sub": "The IDs name the gate" },
+    { "icon": "key",     "title": "License & Scope", "sub": "Intune plan + MDM scope" },
+    { "icon": "shield",  "title": "Restrictions & CA", "sub": "Platform, limit, policy" },
+    { "icon": "check",   "title": "Re-Enroll & Validate", "sub": "Sign-in now succeeds" }
+  ]
+}

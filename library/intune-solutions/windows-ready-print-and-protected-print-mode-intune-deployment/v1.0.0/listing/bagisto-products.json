@@ -1,0 +1,61 @@
+{
+  "solution": {
+    "slug": "windows-ready-print-and-protected-print-mode-intune-deployment",
+    "title": "Windows Ready Print & Windows Protected Print Mode (WPP) — Intune Deployment, Compatibility Assessment & Legacy Print-Server Migration",
+    "category_path": ["Intune"],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-WPPRINT-COMM-001",
+      "name": "Windows Ready Print & Windows Protected Print Mode (WPP) — Intune Deployment, Compatibility Assessment & Legacy Print-Server Migration",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 899.00,
+      "short_description": "Deploy Microsoft's modern <strong>driverless</strong> printing (Windows Ready Print) and harden it with <strong>Windows Protected Print mode</strong> through Intune &mdash; safely. Because enabling WPP <strong>removes</strong> printers on third-party drivers, this starts with a full <strong>compatibility assessment</strong>, then the exact <strong>Custom OMA-URI</strong> profile, a pilot, and a migration off legacy print servers. Five PowerShell tools included.",
+      "description": "<h3>Modern, driverless Windows printing &mdash; deployed through Intune without breaking production.</h3><p>Microsoft is moving Windows printing off vendor drivers. <strong>Windows Ready Print</strong> is the modern <strong>driverless</strong> platform &mdash; Windows talks to printers over open standards (<strong>IPP, Mopria, eSCL, Universal Print</strong>) using the built-in <strong>Microsoft IPP Class Driver</strong> instead of an HP/Canon/Xerox/Ricoh/Brother <code>.INF</code> package. <strong>Windows Protected Print mode (WPP)</strong> on Windows 11 24H2 is the hardened form: it forces the PC to use Ready Print exclusively and <strong>blocks third-party drivers</strong> &mdash; closing the Print Spooler / Point-and-Print attack surface behind PrintNightmare.</p><h3>The catch &mdash; and why an assessment comes first</h3><p>Enabling WPP is not cosmetic. On an enabled device, <strong>printers using unsupported third-party drivers are removed</strong>, their drivers are pulled from the driver store, third-party <strong>Point and Print is blocked</strong>, some <strong>legacy software printers</strong> disappear, and <strong>some multifunction scanning stops</strong> unless the device supports Mopria/eSCL. And WPP is <strong>device-scoped</strong> &mdash; it affects every user on the PC. So enabling it fleet-wide without knowing what it will remove breaks printing in production. <strong>This solution finds what WPP would remove before it removes it.</strong></p><h3>Run it as a project &mdash; assessment through hardening</h3><p>Self-guided, click-by-click documentation plus five PowerShell tools and a clear engineer-led runbook.</p><ul><li><strong>Assess</strong> &mdash; inventory every driver and printer; classify each as Ready-Print eligible, needs Universal Print, or a blocker (non-Mopria, legacy software printer, eSCL-less scanner).</li><li><strong>Design</strong> the target path &mdash; direct IPP/Mopria and/or Universal Print &mdash; and set the WPP scope.</li><li><strong>Configure</strong> the Intune <strong>Custom OMA-URI</strong> profile (the setting is <em>not yet in the Settings Catalog</em>): <code>ConfigureWindowsProtectedPrint = &lt;enabled/&gt;</code>, scoped to 24H2+ devices.</li><li><strong>Pilot &amp; validate</strong>, <strong>migrate</strong> off legacy print servers/Point-and-Print, then <strong>roll out in rings</strong> and prevent regression.</li></ul><h3>What's inside</h3><ul><li><strong>Solution Overview, Requirements, the Phase 1&ndash;7 Deployment Strategy, Testing, Troubleshooting, and Best Practices</strong> &mdash; every object named, with a GCC High note.</li><li><strong>Five PowerShell tools:</strong> <code>Get-PrintDriverInventory</code> (third-party vs IPP-class), <code>Test-MopriaReadiness</code> (IPP/IPPS), <code>Test-ScanCapability</code> (eSCL), <code>Get-WPPState</code> (24H2 eligibility + state), and <code>Validate-Deployment</code>.</li></ul><h3>The bottom line</h3><p>A hardened, driverless print estate on Windows 11 &mdash; reduced attack surface, fewer update-driven print outages, and alignment with Microsoft's V3/V4 driver end-of-servicing &mdash; deployed on evidence, with the printers WPP would remove found first. One fixed price; re-run the assessment and validation as your fleet evolves. Downloadable guide plus scripts.</p>",
+      "meta_title": "Windows Ready Print &amp; Protected Print Mode (WPP) — Intune Deployment &amp; Assessment",
+      "meta_description": "Deploy Windows Ready Print and harden with Windows Protected Print mode (WPP) via Intune on Windows 11 24H2: compatibility assessment (what WPP removes), the exact Custom OMA-URI profile, pilot, legacy print-server migration, ring rollout, and validation — with five PowerShell tools. GCC High covered.",
+      "url_key": "windows-ready-print-and-protected-print-mode-intune-deployment-commercial",
+      "image": "WPPRINT-hero.png",
+      "downloads": [
+        { "title": "Deployment Guide (PDF)", "source_type": "file", "source": "WPPRINT-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "WPPRINT-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-WPPRINT-NPO-001",
+      "name": "Windows Ready Print & Windows Protected Print Mode (WPP) — Intune Deployment & Assessment (Non-Profit)",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 539.40,
+      "short_description": "Non-profit pricing (40% off). Deploy Windows Ready Print and harden with Windows Protected Print mode (WPP) through Intune on Windows 11 24H2 &mdash; compatibility assessment (what WPP removes), the exact Custom OMA-URI profile, pilot, legacy print-server migration, and validation. Five PowerShell tools.",
+      "description": "<h3>Modern driverless Windows printing, deployed safely &mdash; at non-profit pricing.</h3><p><strong>Windows Protected Print mode</strong> forces Windows to use the driverless <strong>Windows Ready Print</strong> platform and blocks third-party drivers &mdash; but enabling it <strong>removes</strong> printers on unsupported drivers and can break some scanning. This solution assesses compatibility first, then deploys and hardens through Intune.</p><h3>Run it yourself &mdash; and stretch every dollar</h3><p>Self-guided documentation plus five PowerShell tools, one fixed price at <strong>40% off</strong> for eligible non-profits. Assess drivers/printers, configure the Custom OMA-URI profile, pilot, migrate off legacy print servers, and validate.</p><h3>What's inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;7 Deployment Strategy, Testing, Troubleshooting, and Best Practices.</li><li>Five tools: <code>Get-PrintDriverInventory</code>, <code>Test-MopriaReadiness</code>, <code>Test-ScanCapability</code>, <code>Get-WPPState</code>, <code>Validate-Deployment</code>.</li></ul><p><em>Eligibility is verified before the non-profit discount applies.</em></p><p>Buy once, unlimited use.</p>",
+      "meta_title": "Windows Protected Print (WPP) Intune Deployment (Non-Profit)",
+      "meta_description": "Non-profit (40% off): deploy Windows Ready Print + Windows Protected Print mode via Intune on Windows 11 24H2 — compatibility assessment, Custom OMA-URI profile, migration, validation. Five PowerShell tools.",
+      "url_key": "windows-ready-print-and-protected-print-mode-intune-deployment-nonprofit",
+      "image": "WPPRINT-hero.png",
+      "downloads": [
+        { "title": "Deployment Guide (PDF)", "source_type": "file", "source": "WPPRINT-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "WPPRINT-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-WPPRINT-GOV-001",
+      "name": "Windows Ready Print & Windows Protected Print Mode (WPP) — Intune Deployment & Assessment (Government)",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 764.15,
+      "short_description": "Government pricing (15% off). Deploy Windows Ready Print + Windows Protected Print mode (WPP) via Intune on Windows 11 24H2 &mdash; compatibility assessment, the Custom OMA-URI profile, pilot, legacy print-server migration, and validation. CSP identical in GCC / GCC High / DoD; portal <code>intune.microsoft.us</code>. Five PowerShell tools.",
+      "description": "<h3>Modern driverless Windows printing, deployed safely &mdash; public-sector pricing.</h3><p><strong>Windows Protected Print mode</strong> forces the driverless <strong>Windows Ready Print</strong> platform and blocks third-party drivers &mdash; closing the PrintNightmare attack surface. Because enabling it <strong>removes</strong> incompatible printers, this solution assesses first, then deploys and hardens through Intune.</p><h3>Run it yourself &mdash; built for public-sector realities</h3><p>Self-guided documentation plus five PowerShell tools, one fixed price at <strong>15% off</strong> for eligible government organizations. The <code>ConfigureWindowsProtectedPrint</code> CSP and method are <strong>identical in GCC / GCC High / DoD</strong> &mdash; use <code>intune.microsoft.us</code>. <strong>Universal Print availability differs by sovereign cloud</strong> &mdash; confirm for yours before designing a cloud-print path.</p><h3>What's inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;7 Deployment Strategy, Testing, Troubleshooting (incl. GCC High), and Best Practices.</li><li>Five tools: <code>Get-PrintDriverInventory</code>, <code>Test-MopriaReadiness</code>, <code>Test-ScanCapability</code>, <code>Get-WPPState</code>, <code>Validate-Deployment</code>.</li></ul><p><em>Eligibility (government/public-sector status) is verified before the discount applies.</em></p><p>Buy once, unlimited use.</p>",
+      "meta_title": "Windows Protected Print (WPP) Intune Deployment (Government)",
+      "meta_description": "Government (15% off): deploy Windows Ready Print + Windows Protected Print mode via Intune on Windows 11 24H2. CSP identical in GCC / GCC High / DoD; intune.microsoft.us. Confirm Universal Print sovereign availability. Five PowerShell tools.",
+      "url_key": "windows-ready-print-and-protected-print-mode-intune-deployment-government",
+      "image": "WPPRINT-hero.png",
+      "downloads": [
+        { "title": "Deployment Guide (PDF)", "source_type": "file", "source": "WPPRINT-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "WPPRINT-Scripts.zip" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting",
+  "title": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation (License, MDM Scope, Enrollment Restrictions & Conditional Access) Troubleshooting Guide",
+  "category": "Intune",
+  "category_slug": "intune-solutions",
+  "sol_code": "ENRLDX",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-09-01",
+  "updated": "2026-09-01",
+  "published_at": "2026-09-01",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Pricing: T3 diagnose-and-resolve (DX), new model, matches TMEXTDX/PKEYDX family ($749). Commercial $749, NPO 449.40, Gov 636.65.",
+    "Customer symptom (iPhone screenshot): 'Device Management / Access Denied — You are not authorized to view this page. Your IT department may be able to help' with Diagnostic information for IT: Activity Id af992f0f-1790-4677-8ef8-b61de01dfc67, Session Id 90022529-c5ec-41bb-953c-e2c2b8bbb7c7, Timestamp 2026-09-01T14:33:28Z.",
+    "VERIFIED: the screen is the Intune enrollment AUTHORIZATION gate (tenant-side), not a device fault. Five gates in likelihood order: (1) no Intune service plan on the user; (2) user outside MDM user scope (Entra > Mobility (MDM and WIP) > Microsoft Intune, appliesTo none/selected); (3) enrollment restriction — iOS/iPadOS platform blocked, personally-owned blocked, or device-limit reached; (4) Conditional Access targeting Microsoft Intune Enrollment app d4ebce55-015a-49b5-a083-c84d1797ae8c or Microsoft Intune app 0000000a-0000-0000-c000-000000000000 (classic require-compliant-device chicken-and-egg); (5) guest/B2B or disabled account.",
+    "Deterministic diagnosis: Session Id + Activity Id from the screen -> Entra sign-in logs -> failure reason + Conditional Access tab names the gate. Then confirm with the matching gate script.",
+    "5 Graph scripts (read-only, parse-verified): ENRLDX-Get-EnrollmentSignin (failed enrollment sign-in by correlationId/time + CA result), ENRLDX-Get-UserIntuneLicense (INTUNE_A service plan), ENRLDX-Get-MdmUserScope (beta /policies/mobileDeviceManagementPolicies appliesTo + included groups + membership), ENRLDX-Get-EnrollmentRestrictions (platform + personal + device limit), ENRLDX-Get-EnrollmentCA (CA policies targeting the enrollment apps).",
+    "gov_variant false: gates + method identical GCC/GCC High/DoD; portals entra.microsoft.us / intune.microsoft.us and -Environment USGov noted inline.",
+    "Scoped to the enrollment authorization 'Access Denied / not authorized' failure; general iOS enrollment setup (ADE/ABM, Company Portal, enrollment profiles) and enrollment-time device grouping referenced to companion Intune enrollment solutions, not rebuilt."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-ENRLDX-COMM-001",
+      "audience": "commercial",
+      "price": 749.0
+    },
+    {
+      "sku": "PTK-ENRLDX-NPO-001",
+      "audience": "nonprofit",
+      "price": 449.4
+    },
+    {
+      "sku": "PTK-ENRLDX-GOV-001",
+      "audience": "government",
+      "price": 636.65
+    }
+  ],
+  "deliverables": [
+    "ENRLDX-Solution.pdf",
+    "ENRLDX-Scripts.zip"
+  ],
+  "hero": "ENRLDX-hero.png",
+  "wiki_path": "solutions/intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting"
+}
+

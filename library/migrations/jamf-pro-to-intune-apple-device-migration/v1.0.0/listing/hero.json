@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Jamf Pro → Intune", "color": "white", "size": "main" },
+    { "text": "Apple Device Migration", "color": "green", "size": "main" },
+    { "text": "macOS · iPadOS · iOS/iPhone · ABM · VPP", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "MANAGED BY JAMF",
+    "items": [
+      "One MDM per device",
+      "Supervised needs a wipe",
+      "VPP bound to Jamf",
+      "Profiles don't transfer"
+    ]
+  },
+  "to": {
+    "label": "Managed by Intune",
+    "stat": "Enrolled, compliant, wave-by-wave"
+  },
+  "tagline": "RE-ASSIGN.  RE-ENROLL.  DECOMMISSION.",
+  "benefits": [
+    { "icon": "device", "title": "All Apple", "sub": "Mac, iPad, iPhone" },
+    { "icon": "cloud",  "title": "ABM Pivot", "sub": "MDM re-assign" },
+    { "icon": "gear",   "title": "VPP + Profiles", "sub": "Rebuilt in Intune" },
+    { "icon": "chart",  "title": "Wave Tracker", "sub": "To zero pending" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "solution": {
+    "slug": "jamf-pro-to-intune-apple-device-migration",
+    "title": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (ABM Re-Assignment, ADE Re-Enrollment, VPP & Profile Cutover)",
+    "category_path": ["Migrations"],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-JAMFMIG-COMM-001",
+      "name": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (ABM Re-Assignment, ADE Re-Enrollment, VPP & Profile Cutover)",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 1499.00,
+      "short_description": "Move your whole Apple fleet &mdash; <strong>macOS, iPadOS and iOS/iPhone</strong> &mdash; off <strong>Jamf Pro</strong> and onto <strong>Microsoft Intune</strong>, in validated waves. Because an Apple device has one MDM, this handles the real mechanics: <strong>ABM re-assignment</strong>, the <strong>wipe-and-re-enroll</strong> that supervised devices require, <strong>VPP</strong> license hand-off, FileVault escrow, SSO and profile rebuild.",
+      "description": "<h3>Migrate every Apple device from Jamf Pro to Intune — managed, compliant, and unbroken.</h3><p>Leaving Jamf Pro isn't a setting you flip. An Apple device can be enrolled in <strong>only one MDM at a time</strong>, so every Mac, iPad, and iPhone has to leave Jamf and enroll into Intune &mdash; and how it does that depends on whether it's <strong>supervised</strong> (which requires an <strong>erase</strong> after you re-assign it in Apple Business Manager) or <strong>BYOD</strong> (unenroll and re-enroll, no wipe). On top of that, VPP app licenses, FileVault escrow, SSO, and every configuration profile have to be rebuilt in Intune &mdash; none of it transfers automatically. Get any of that wrong and you're looking at wiped-but-unenrolled devices, missing apps, or lost recovery keys.</p><h3>Run it yourself — simpler, cheaper, and proven</h3><p>This is the full migration program, self-guided, so a competent admin can run it end to end &mdash; plus five PowerShell tools that inventory Jamf, check readiness, and track every device to done.</p><ul><li><strong>Simpler</strong> &mdash; a phased plan (Assess &rarr; Build the Intune target per platform &rarr; Pilot &rarr; Production waves &rarr; Decommission Jamf), with every object named and the wipe scope known up front.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of a per-day migration engagement across three platforms.</li><li><strong>Tested</strong> &mdash; pilot a mixed wave (Macs, iPads, iPhones), validate enrollment, compliance, apps, FileVault and SSO, then roll rings &mdash; with Jamf live for rollback until each wave is signed off.</li></ul><h3>What's inside</h3><ul><li><strong>Solution Overview</strong> &mdash; the one-MDM rule, ABM as the pivot, wipe vs no-wipe, the three migration approaches, and the wave model across macOS, iPadOS and iOS.</li><li><strong>Requirements, Implementation (Phase 1&ndash;5), Testing, Troubleshooting, Best Practices</strong> &mdash; per-platform steps for ADE profiles, config/compliance, VPP apps, FileVault escrow, SSO, and SCEP/PKCS certs, with rollback and a GCC High note.</li><li><strong>Five PowerShell tools:</strong> <code>Export-JamfInventory</code> (Jamf Pro API &rarr; mapping worksheet), <code>Get-IntuneReadiness</code> (push cert / ADE / VPP tokens), <code>Get-ABMAssignments</code>, <code>Validate-Migration</code>, and <code>Track-Waves</code> (reconcile Jamf vs Intune to zero pending).</li></ul><h3>The repeatable way</h3><p>One fixed price, unlimited devices &mdash; run the same wave process across the whole estate, and keep the tracker and validation reports as your decommission sign-off.</p><h3>The bottom line</h3><p>Your Apple fleet &mdash; macOS, iPadOS and iOS/iPhone &mdash; ends up on Intune, managed and compliant, with apps and policies rebuilt and Jamf cleanly retired &mdash; delivered in controlled waves instead of a risky big-bang cutover. Downloadable guide plus scripts.</p>",
+      "meta_title": "Jamf Pro to Intune Migration for Apple Devices (macOS, iPadOS, iOS)",
+      "meta_description": "Migrate macOS, iPadOS and iOS/iPhone from Jamf Pro to Microsoft Intune in validated waves — ABM re-assignment, supervised wipe-and-re-enroll, VPP hand-off, FileVault escrow, SSO and profile rebuild, with tracking scripts.",
+      "url_key": "jamf-pro-to-intune-apple-device-migration-commercial",
+      "image": "JAMFMIG-hero.png",
+      "downloads": [
+        { "title": "Implementation Guide (PDF)", "source_type": "file", "source": "JAMFMIG-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "JAMFMIG-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-JAMFMIG-NPO-001",
+      "name": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (Non-Profit)",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 899.40,
+      "short_description": "Non-profit pricing (40% off). Migrate your Apple fleet (<strong>macOS, iPadOS, iOS/iPhone</strong>) from <strong>Jamf Pro</strong> to <strong>Microsoft Intune</strong> in validated waves &mdash; ABM re-assignment, supervised wipe-and-re-enroll, VPP hand-off, FileVault escrow, SSO and profile rebuild.",
+      "description": "<h3>Migrate every Apple device from Jamf Pro to Intune — at non-profit pricing.</h3><p>An Apple device has one MDM, so each Mac, iPad and iPhone must leave Jamf and enroll into Intune &mdash; supervised devices via an erase after ABM re-assignment, BYOD via unenroll/re-enroll. VPP licenses, FileVault escrow, SSO, and profiles are rebuilt in Intune.</p><h3>Run it yourself — and stretch every dollar</h3><p>The full self-guided migration program plus five PowerShell tools &mdash; no consultant, one fixed price at <strong>40% off</strong> for eligible non-profits. Assess Jamf, build the Intune target per platform, pilot a mixed wave, validate, roll rings, and decommission Jamf &mdash; with the wave tracker showing progress to zero pending.</p><h3>What's inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;5 Implementation Guide, Testing, Troubleshooting, and Best Practices (all three Apple platforms).</li><li>Five scripts: <code>Export-JamfInventory</code>, <code>Get-IntuneReadiness</code>, <code>Get-ABMAssignments</code>, <code>Validate-Migration</code>, <code>Track-Waves</code>.</li></ul><p><em>Eligibility is verified before the non-profit discount applies.</em></p><p>Buy once, unlimited devices.</p>",
+      "meta_title": "Jamf Pro to Intune Apple Migration (Non-Profit)",
+      "meta_description": "Non-profit (40% off): migrate macOS, iPadOS and iOS from Jamf Pro to Intune in waves — ABM re-assignment, supervised wipe/re-enroll, VPP, FileVault, SSO.",
+      "url_key": "jamf-pro-to-intune-apple-device-migration-nonprofit",
+      "image": "JAMFMIG-hero.png",
+      "downloads": [
+        { "title": "Implementation Guide (PDF)", "source_type": "file", "source": "JAMFMIG-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "JAMFMIG-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-JAMFMIG-GOV-001",
+      "name": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (Government)",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 1274.15,
+      "short_description": "Government pricing (15% off). Migrate your Apple fleet (<strong>macOS, iPadOS, iOS/iPhone</strong>) from <strong>Jamf Pro</strong> to <strong>Microsoft Intune</strong> in validated waves. ABM + Intune is supported in GCC High / DoD and the mechanics are identical (portals <code>intune.microsoft.us</code>).",
+      "description": "<h3>Migrate every Apple device from Jamf Pro to Intune — public-sector pricing.</h3><p>An Apple device has one MDM, so each Mac, iPad and iPhone must leave Jamf and enroll into Intune &mdash; supervised via an erase after ABM re-assignment, BYOD via unenroll/re-enroll. VPP licenses, FileVault escrow, SSO, and profiles are rebuilt in Intune.</p><h3>Run it yourself — built for public-sector realities</h3><p>The full migration program plus five PowerShell tools, one fixed price at <strong>15% off</strong> for eligible government organizations. <strong>ABM + Intune is fully supported in GCC High / DoD</strong> and the migration mechanics are identical &mdash; only the portal host differs (<code>intune.microsoft.us</code> / <code>endpoint.microsoft.us</code>); confirm your tenant's VPP/ABM token and account-driven-enrollment availability and proceed the same way. Assess, build per platform, pilot, roll waves, decommission Jamf.</p><h3>What's inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;5 Implementation Guide, Testing, Troubleshooting (incl. GCC High), and Best Practices.</li><li>Five scripts: <code>Export-JamfInventory</code>, <code>Get-IntuneReadiness</code>, <code>Get-ABMAssignments</code>, <code>Validate-Migration</code>, <code>Track-Waves</code>.</li></ul><p><em>Eligibility (government/public-sector status) is verified before the discount applies.</em></p><p>Buy once, unlimited devices.</p>",
+      "meta_title": "Jamf Pro to Intune Apple Migration (Government)",
+      "meta_description": "Government (15% off): migrate macOS, iPadOS and iOS from Jamf Pro to Intune in waves. Identical in GCC High / DoD (intune.microsoft.us).",
+      "url_key": "jamf-pro-to-intune-apple-device-migration-government",
+      "image": "JAMFMIG-hero.png",
+      "downloads": [
+        { "title": "Implementation Guide (PDF)", "source_type": "file", "source": "JAMFMIG-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "JAMFMIG-Scripts.zip" }
+      ]
+    }
+  ]
+}

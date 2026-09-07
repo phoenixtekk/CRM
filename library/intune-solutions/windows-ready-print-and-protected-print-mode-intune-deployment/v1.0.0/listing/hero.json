@@ -1,0 +1,27 @@
+{
+  "title_lines": [
+    { "text": "Windows Ready Print", "color": "white", "size": "main" },
+    { "text": "+ Protected Print Mode", "color": "green", "size": "main" },
+    { "text": "Intune · Windows 11 24H2 · Driverless · WPP", "color": "blue", "size": "sub" }
+  ],
+  "from": {
+    "label": "FROM LEGACY",
+    "items": [
+      "Print server + Point and Print",
+      "Vendor V3/V4 drivers",
+      "PrintNightmare attack surface",
+      "Update-broken drivers"
+    ]
+  },
+  "to": {
+    "label": "To hardened, driverless",
+    "stat": "IPP / Mopria / Universal Print via WPP"
+  },
+  "tagline": "ASSESS.  CONFIGURE.  MIGRATE.  HARDEN.",
+  "benefits": [
+    { "icon": "search",  "title": "Compatibility Assessment", "sub": "Find what WPP removes first" },
+    { "icon": "shield",  "title": "Protected Print Mode", "sub": "Blocks third-party drivers" },
+    { "icon": "printer", "title": "Custom OMA-URI", "sub": "Not in Settings Catalog yet" },
+    { "icon": "check",   "title": "Pilot & Validate", "sub": "Ring rollout, evidence-led" }
+  ]
+}

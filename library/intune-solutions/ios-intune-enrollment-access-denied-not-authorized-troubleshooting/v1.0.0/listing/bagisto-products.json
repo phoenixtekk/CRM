@@ -1,0 +1,61 @@
+{
+  "solution": {
+    "slug": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting",
+    "title": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation (License, MDM Scope, Enrollment Restrictions & Conditional Access) Troubleshooting Guide",
+    "category_path": ["Intune"],
+    "version": "1.0.0"
+  },
+  "products": [
+    {
+      "sku": "PTK-ENRLDX-COMM-001",
+      "name": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation (License, MDM Scope, Enrollment Restrictions & Conditional Access) Troubleshooting Guide",
+      "type": "downloadable",
+      "audience": "commercial",
+      "price": 749.00,
+      "short_description": "A user enrolls an iPhone or iPad into Intune and hits <strong>&quot;Access Denied &mdash; you are not authorized to view this page&quot;</strong> with an Activity Id and Session Id. It&rsquo;s not the device &mdash; it&rsquo;s a <strong>tenant-side authorization gate</strong> (license, MDM scope, enrollment restriction, or Conditional Access). This guide turns the on-screen IDs into the <strong>exact root cause</strong> and a scoped fix, with five PowerShell tools.",
+      "description": "<h3>The iPhone says &quot;Access Denied.&quot; The cause is in your tenant — and the IDs on the screen point straight to it.</h3><p>A user starts Device Management enrollment into Microsoft Intune and lands on <strong>&quot;Access Denied &mdash; You are not authorized to view this page. Your IT department may be able to help,&quot;</strong> with a block of <strong>Diagnostic information for IT</strong> (Activity Id, Session Id, Timestamp). Enrollment stops and the device stays unmanaged. This is <strong>not a device fault</strong> &mdash; it&rsquo;s the Intune <strong>enrollment authorization</strong> service refusing the sign-in because a tenant-side gate blocks it.</p><h3>Deterministic diagnosis — not trial-and-error</h3><p>The <strong>Session Id</strong> and <strong>Activity Id</strong> on the screen are correlation identifiers. You look them up in the <strong>Entra sign-in logs</strong>; the failed enrollment sign-in&rsquo;s <strong>failure reason</strong> and its <strong>Conditional Access</strong> tab name the exact gate. This guide takes you from those IDs to the cause in about two minutes.</p><h3>Every common gate, in the order it happens</h3><ul><li><strong>Licensing</strong> &mdash; the user has no enabled Intune service plan (the most common cause).</li><li><strong>MDM user scope</strong> &mdash; the user is outside the Microsoft Intune MDM scope in Entra &rsquo;s Mobility (MDM and WIP) settings.</li><li><strong>Enrollment restrictions</strong> &mdash; iOS/iPadOS or personally-owned devices are blocked, or the user has hit their device limit.</li><li><strong>Conditional Access</strong> &mdash; a policy blocks the enrollment sign-in, or requires a compliant device the not-yet-enrolled device can&rsquo;t be (the classic chicken-and-egg).</li><li><strong>Account</strong> &mdash; a guest/B2B or disabled account.</li></ul><h3>Run it yourself — simpler, cheaper, proven</h3><p>Self-guided, click-by-click documentation plus five PowerShell tools, and a clear engineer-session narrative.</p><ul><li><strong>Simpler</strong> &mdash; capture the IDs, read the failed sign-in, confirm the gate, fix it, re-enroll.</li><li><strong>Cheaper</strong> &mdash; one fixed price instead of an open-ended support engagement.</li><li><strong>Tested</strong> &mdash; Capture &rarr; Read the sign-in &rarr; Confirm the gate &rarr; Remediate &rarr; Re-enroll &amp; validate &rarr; Prevent, with evidence at each step.</li></ul><h3>What&rsquo;s inside</h3><ul><li><strong>Solution Overview, Requirements, the Root-Cause &amp; Remediation Guide (Phase 1&ndash;4), Testing, Troubleshooting/FAQ, and Best Practices</strong> &mdash; every object named, with a GCC High note.</li><li><strong>Five PowerShell tools:</strong> <code>Get-EnrollmentSignin</code> (the failed enrollment sign-in + CA result), <code>Get-UserIntuneLicense</code>, <code>Get-MdmUserScope</code>, <code>Get-EnrollmentRestrictions</code>, and <code>Get-EnrollmentCA</code> &mdash; each turns a gate into a yes/no answer.</li></ul><h3>The repeatable way</h3><p>One fixed price &mdash; keep the runbook and scripts and re-run them for the next &quot;Access Denied&quot; enrollment, and fix the class problem so the next user doesn&rsquo;t hit the same wall.</p><h3>The bottom line</h3><p>A two-minute root cause from the on-screen IDs, a surgical fix that doesn&rsquo;t weaken your other controls, the device enrolled and managed, and evidence for the ticket. Downloadable guide plus scripts.</p>",
+      "meta_title": "iOS Intune Enrollment 'Access Denied / Not Authorized' — Root-Cause &amp; Remediation Troubleshooting",
+      "meta_description": "Fix the iOS/iPadOS Intune enrollment 'Access Denied — you are not authorized' screen: use the on-screen Activity Id / Session Id to read the failed sign-in and pin the gate — license, MDM user scope, enrollment restriction, or Conditional Access — then remediate, re-enroll, and validate. Five PowerShell tools; GCC High covered.",
+      "url_key": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting-commercial",
+      "image": "ENRLDX-hero.png",
+      "downloads": [
+        { "title": "Troubleshooting Guide (PDF)", "source_type": "file", "source": "ENRLDX-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "ENRLDX-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-ENRLDX-NPO-001",
+      "name": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation Troubleshooting Guide (Non-Profit)",
+      "type": "downloadable",
+      "audience": "nonprofit",
+      "price": 449.40,
+      "short_description": "Non-profit pricing (40% off). iPhone/iPad enrollment shows &quot;Access Denied &mdash; you are not authorized&quot;? Use the on-screen Activity Id / Session Id to pin the tenant-side gate &mdash; license, MDM scope, enrollment restriction, or Conditional Access &mdash; then remediate and re-enroll. Five PowerShell tools.",
+      "description": "<h3>The &quot;Access Denied&quot; enrollment screen — resolved, at non-profit pricing.</h3><p>The iOS/iPadOS &quot;Access Denied / not authorized&quot; enrollment screen is a <strong>tenant-side authorization gate</strong>, not a device fault. The Activity Id / Session Id on the screen point to the failed sign-in, whose failure reason names the gate: license, MDM user scope, enrollment restriction, or Conditional Access.</p><h3>Run it yourself — and stretch every dollar</h3><p>Self-guided documentation plus five PowerShell tools &mdash; no consultant, one fixed price at <strong>40% off</strong> for eligible non-profits. Capture the IDs, read the failed sign-in, confirm the gate, remediate, and validate a clean re-enrollment.</p><h3>What&rsquo;s inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;4 Root-Cause &amp; Remediation Guide, Testing, Troubleshooting/FAQ, and Best Practices.</li><li>Five tools: <code>Get-EnrollmentSignin</code>, <code>Get-UserIntuneLicense</code>, <code>Get-MdmUserScope</code>, <code>Get-EnrollmentRestrictions</code>, <code>Get-EnrollmentCA</code>.</li></ul><p><em>Eligibility is verified before the non-profit discount applies.</em></p><p>Buy once, unlimited use.</p>",
+      "meta_title": "iOS Intune Enrollment 'Access Denied' Troubleshooting (Non-Profit)",
+      "meta_description": "Non-profit (40% off): fix the iOS/iPadOS Intune enrollment 'Access Denied — not authorized' screen — read the sign-in, pin the gate (license, MDM scope, restriction, or CA), remediate and re-enroll. Five PowerShell tools.",
+      "url_key": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting-nonprofit",
+      "image": "ENRLDX-hero.png",
+      "downloads": [
+        { "title": "Troubleshooting Guide (PDF)", "source_type": "file", "source": "ENRLDX-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "ENRLDX-Scripts.zip" }
+      ]
+    },
+    {
+      "sku": "PTK-ENRLDX-GOV-001",
+      "name": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation Troubleshooting Guide (Government)",
+      "type": "downloadable",
+      "audience": "government",
+      "price": 636.65,
+      "short_description": "Government pricing (15% off). Fix the iOS/iPadOS Intune enrollment &quot;Access Denied &mdash; not authorized&quot; screen &mdash; use the on-screen IDs to pin the gate (license, MDM scope, enrollment restriction, or Conditional Access), remediate and re-enroll. Identical in GCC / GCC High / DoD; portals <code>entra.microsoft.us</code> / <code>intune.microsoft.us</code>. Five PowerShell tools.",
+      "description": "<h3>The &quot;Access Denied&quot; enrollment screen — resolved, public-sector pricing.</h3><p>The iOS/iPadOS &quot;Access Denied / not authorized&quot; enrollment screen is the Intune enrollment authorization gate refusing the sign-in. The Activity Id / Session Id on the screen locate the failed sign-in, whose failure reason names the gate: license, MDM user scope, enrollment restriction, or Conditional Access.</p><h3>Run it yourself — built for public-sector realities</h3><p>Self-guided documentation plus five PowerShell tools, one fixed price at <strong>15% off</strong> for eligible government organizations. The gates and method are <strong>identical in GCC / GCC High / DoD</strong> &mdash; use <code>entra.microsoft.us</code> / <code>intune.microsoft.us</code> and run the scripts with <code>-Environment USGov</code>. Capture the IDs, read the failed sign-in, confirm the gate, remediate, and validate a clean re-enrollment.</p><h3>What&rsquo;s inside</h3><ul><li>Solution Overview, Requirements, the Phase 1&ndash;4 Root-Cause &amp; Remediation Guide, Testing, Troubleshooting/FAQ (incl. GCC High), and Best Practices.</li><li>Five tools: <code>Get-EnrollmentSignin</code>, <code>Get-UserIntuneLicense</code>, <code>Get-MdmUserScope</code>, <code>Get-EnrollmentRestrictions</code>, <code>Get-EnrollmentCA</code>.</li></ul><p><em>Eligibility (government/public-sector status) is verified before the discount applies.</em></p><p>Buy once, unlimited use.</p>",
+      "meta_title": "iOS Intune Enrollment 'Access Denied' Troubleshooting (Government)",
+      "meta_description": "Government (15% off): fix the iOS/iPadOS Intune enrollment 'Access Denied — not authorized' screen. Identical in GCC / GCC High / DoD; entra.microsoft.us / intune.microsoft.us; -Environment USGov. Five PowerShell tools.",
+      "url_key": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting-government",
+      "image": "ENRLDX-hero.png",
+      "downloads": [
+        { "title": "Troubleshooting Guide (PDF)", "source_type": "file", "source": "ENRLDX-Solution.pdf" },
+        { "title": "PowerShell Scripts (ZIP)", "source_type": "file", "source": "ENRLDX-Scripts.zip" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "jamf-pro-to-intune-apple-device-migration",
+  "title": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (ABM Re-Assignment, ADE Re-Enrollment, VPP & Profile Cutover)",
+  "category": "Migrations",
+  "category_slug": "migrations",
+  "sol_code": "JAMFMIG",
+  "version": "1.0.0",
+  "status": "published",
+  "created": "2026-08-26",
+  "updated": "2026-08-26",
+  "published_at": "2026-08-26",
+  "version_directive": "New",
+  "branding": "off",
+  "author_notes": [
+    "Pricing: T5 program tier (new model) — matches the Workspace ONE umbrella program WS1PROG ($1499); this covers ALL THREE Apple platforms in one program. Commercial $1499, NPO 899.40, Gov 1274.15.",
+    "Customer request: build a Jamf Pro -> Intune migration for all Apple device types (macOS, iPadOS, iOS/iPhone). NET-NEW: catalog had WS1->Intune suite + JAMFADE (Jamf+Intune ADE co-existence) but NO off-Jamf migration.",
+    "Core realities authored: ONE MDM per Apple device (no dual-MDM). ABM is the pivot — re-assign devices from the Jamf MDM server to the Intune ADE token. Supervised/ADE migration REQUIRES a wipe (erase -> Setup Assistant -> auto-enroll); BYOD/user-enrolled = unenroll/re-enroll, no wipe. VPP licenses bound to the assigning MDM (revoke in Jamf, re-assign in Intune). macOS: FileVault re-escrow, Jamf Connect->Platform SSO/Enterprise SSO, packages->Intune apps/scripts, Defender re-onboard. iOS: SCEP/PKCS re-issue, restrictions/Wi-Fi/per-app VPN/kiosk rebuilt.",
+    "Wave-based program: Assess (inventory Jamf + confirm ABM/VPP/ADE) -> Build target per platform -> Pilot wave -> Production waves -> Decommission Jamf. Keep Jamf live for un-migrated devices; supervised rollback = another wipe.",
+    "gov_variant false: ABM+Intune supported in GCC High/DoD, mechanics identical; portals intune.microsoft.us/endpoint.microsoft.us noted inline.",
+    "Scoped to the migration; defers generic MDM readiness to MDMRDY and steady-state macOS/iOS config to the Intune baseline products."
+  ],
+  "gov_variant": false,
+  "products": [
+    {
+      "sku": "PTK-JAMFMIG-COMM-001",
+      "audience": "commercial",
+      "price": 1499.0
+    },
+    {
+      "sku": "PTK-JAMFMIG-NPO-001",
+      "audience": "nonprofit",
+      "price": 899.4
+    },
+    {
+      "sku": "PTK-JAMFMIG-GOV-001",
+      "audience": "government",
+      "price": 1274.15
+    }
+  ],
+  "deliverables": [
+    "JAMFMIG-Solution.pdf",
+    "JAMFMIG-Scripts.zip"
+  ],
+  "hero": "JAMFMIG-hero.png",
+  "wiki_path": "solutions/migrations/jamf-pro-to-intune-apple-device-migration"
+}
