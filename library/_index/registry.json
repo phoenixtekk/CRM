@@ -34134,6 +34134,167 @@
     "product_count": 3
   },
   {
+    "title": "iOS/iPadOS Intune Enrollment \"Access Denied / Not Authorized\" — Root-Cause & Remediation (License, MDM Scope, Enrollment Restrictions & Conditional Access) Troubleshooting Guide",
+    "slug": "ios-intune-enrollment-access-denied-not-authorized-troubleshooting",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "ENRLDX",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-09-01",
+    "updated": "2026-09-01",
+    "published_at": "2026-09-01",
+    "commercial": 749.0,
+    "nonprofit": 449.4,
+    "skus": [
+      "PTK-ENRLDX-COMM-001",
+      "PTK-ENRLDX-NPO-001",
+      "PTK-ENRLDX-GOV-001"
+    ],
+    "deliverables": [
+      "ENRLDX-Solution.pdf",
+      "ENRLDX-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\ios-intune-enrollment-access-denied-not-authorized-troubleshooting\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/01-solution-overview.md",
+          "kb": 4.3
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/02-requirements.md",
+          "kb": 3.7
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/03-implementation.md",
+          "kb": 4.7
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/05-testing.md",
+          "kb": 2.7
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/06-troubleshooting.md",
+          "kb": 4.3
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/07-best-practices.md",
+          "kb": 2.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.5
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/executive-summary.md",
+          "kb": 2.2
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.8
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "ENRLDX-Get-EnrollmentCA.ps1",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/scripts/ENRLDX-Get-EnrollmentCA.ps1",
+          "kb": 2.7
+        },
+        {
+          "name": "ENRLDX-Get-EnrollmentRestrictions.ps1",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/scripts/ENRLDX-Get-EnrollmentRestrictions.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "ENRLDX-Get-EnrollmentSignin.ps1",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/scripts/ENRLDX-Get-EnrollmentSignin.ps1",
+          "kb": 3.5
+        },
+        {
+          "name": "ENRLDX-Get-MdmUserScope.ps1",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/scripts/ENRLDX-Get-MdmUserScope.ps1",
+          "kb": 3.1
+        },
+        {
+          "name": "ENRLDX-Get-UserIntuneLicense.ps1",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/scripts/ENRLDX-Get-UserIntuneLicense.ps1",
+          "kb": 2.4
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "ENRLDX-Complete-Solution.zip",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-Complete-Solution.zip",
+          "kb": 80.9
+        },
+        {
+          "name": "ENRLDX-hero.png",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-hero.png",
+          "kb": 440.9
+        },
+        {
+          "name": "ENRLDX-hero.svg",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "ENRLDX-Scripts.zip",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-Scripts.zip",
+          "kb": 7.0
+        },
+        {
+          "name": "ENRLDX-Solution.docx",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-Solution.docx",
+          "kb": 48.6
+        },
+        {
+          "name": "ENRLDX-Solution.pdf",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-Solution.pdf",
+          "kb": 39.5
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.8
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/README.md",
+          "kb": 1.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/solution.meta.json",
+          "kb": 3.3
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/ios-intune-enrollment-access-denied-not-authorized-troubleshooting/v1.0.0/deliverables/ENRLDX-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "macOS App Deployment & Apple VPP with Microsoft Intune (App Store + Enterprise Apps)",
     "slug": "macos-app-deployment-vpp-intune",
     "category": "Intune",
@@ -40456,6 +40617,167 @@
     "product_count": 3
   },
   {
+    "title": "Windows Ready Print & Windows Protected Print Mode (WPP) — Intune Deployment, Compatibility Assessment & Legacy Print-Server Migration",
+    "slug": "windows-ready-print-and-protected-print-mode-intune-deployment",
+    "category": "Intune",
+    "category_slug": "intune-solutions",
+    "sol_code": "WPPRINT",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-09-06",
+    "updated": "2026-09-06",
+    "published_at": "2026-09-06",
+    "commercial": 899.0,
+    "nonprofit": 539.4,
+    "skus": [
+      "PTK-WPPRINT-COMM-001",
+      "PTK-WPPRINT-NPO-001",
+      "PTK-WPPRINT-GOV-001"
+    ],
+    "deliverables": [
+      "WPPRINT-Solution.pdf",
+      "WPPRINT-Scripts.zip"
+    ],
+    "rel_path": "library\\intune-solutions\\windows-ready-print-and-protected-print-mode-intune-deployment\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.4
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/02-requirements.md",
+          "kb": 4.8
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/03-implementation.md",
+          "kb": 6.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/05-testing.md",
+          "kb": 2.6
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.9
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/07-best-practices.md",
+          "kb": 2.6
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/executive-summary.md",
+          "kb": 2.6
+        },
+        {
+          "name": "global-requirements-intune-solutions.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/source/global-requirements-intune-solutions.md",
+          "kb": 2.9
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "WPPRINT-Get-PrintDriverInventory.ps1",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/scripts/WPPRINT-Get-PrintDriverInventory.ps1",
+          "kb": 3.3
+        },
+        {
+          "name": "WPPRINT-Get-WPPState.ps1",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/scripts/WPPRINT-Get-WPPState.ps1",
+          "kb": 2.7
+        },
+        {
+          "name": "WPPRINT-Test-MopriaReadiness.ps1",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/scripts/WPPRINT-Test-MopriaReadiness.ps1",
+          "kb": 3.8
+        },
+        {
+          "name": "WPPRINT-Test-ScanCapability.ps1",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/scripts/WPPRINT-Test-ScanCapability.ps1",
+          "kb": 3.2
+        },
+        {
+          "name": "WPPRINT-Validate-Deployment.ps1",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/scripts/WPPRINT-Validate-Deployment.ps1",
+          "kb": 3.5
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "WPPRINT-Complete-Solution.zip",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-Complete-Solution.zip",
+          "kb": 87.5
+        },
+        {
+          "name": "WPPRINT-hero.png",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-hero.png",
+          "kb": 495.8
+        },
+        {
+          "name": "WPPRINT-hero.svg",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-hero.svg",
+          "kb": 6.1
+        },
+        {
+          "name": "WPPRINT-Scripts.zip",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-Scripts.zip",
+          "kb": 7.9
+        },
+        {
+          "name": "WPPRINT-Solution.docx",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-Solution.docx",
+          "kb": 50.5
+        },
+        {
+          "name": "WPPRINT-Solution.pdf",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-Solution.pdf",
+          "kb": 45.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/listing/bagisto-products.json",
+          "kb": 10.4
+        },
+        {
+          "name": "hero.json",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/listing/hero.json",
+          "kb": 1.0
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/README.md",
+          "kb": 1.6
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/solution.meta.json",
+          "kb": 3.4
+        }
+      ]
+    },
+    "script_count": 5,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../intune-solutions/windows-ready-print-and-protected-print-mode-intune-deployment/v1.0.0/deliverables/WPPRINT-hero.png",
+    "product_count": 3
+  },
+  {
     "title": "Windows Updates for Business",
     "slug": "windows-updates-for-business",
     "category": "Intune",
@@ -45259,6 +45581,182 @@
     "deliv_count": 6,
     "doc_count": 9,
     "hero_href": "../migrations/group-policy-to-intune-settings-migration/v1.0.0/deliverables/GPOM-hero.png",
+    "product_count": 3
+  },
+  {
+    "title": "Jamf Pro to Microsoft Intune Migration for Apple Devices — macOS, iPadOS & iOS/iPhone (ABM Re-Assignment, ADE Re-Enrollment, VPP & Profile Cutover)",
+    "slug": "jamf-pro-to-intune-apple-device-migration",
+    "category": "Migrations",
+    "category_slug": "migrations",
+    "sol_code": "JAMFMIG",
+    "version": "1.0.0",
+    "status": "published",
+    "created": "2026-08-26",
+    "updated": "2026-08-26",
+    "published_at": "2026-08-26",
+    "commercial": 1499.0,
+    "nonprofit": 899.4,
+    "skus": [
+      "PTK-JAMFMIG-COMM-001",
+      "PTK-JAMFMIG-NPO-001",
+      "PTK-JAMFMIG-GOV-001"
+    ],
+    "deliverables": [
+      "JAMFMIG-Solution.pdf",
+      "JAMFMIG-Scripts.zip"
+    ],
+    "rel_path": "library\\migrations\\jamf-pro-to-intune-apple-device-migration\\v1.0.0",
+    "groups": {
+      "Documentation": [
+        {
+          "name": "01-solution-overview.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/01-solution-overview.md",
+          "kb": 5.8
+        },
+        {
+          "name": "02-requirements.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/02-requirements.md",
+          "kb": 5.1
+        },
+        {
+          "name": "03-implementation.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/03-implementation.md",
+          "kb": 7.1
+        },
+        {
+          "name": "05-testing.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/05-testing.md",
+          "kb": 2.3
+        },
+        {
+          "name": "06-troubleshooting.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/06-troubleshooting.md",
+          "kb": 3.2
+        },
+        {
+          "name": "07-best-practices.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/07-best-practices.md",
+          "kb": 2.2
+        },
+        {
+          "name": "08-deliverables-summary.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/08-deliverables-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "executive-summary.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/executive-summary.md",
+          "kb": 2.1
+        },
+        {
+          "name": "global-requirements-migrations.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/source/global-requirements-migrations.md",
+          "kb": 4.1
+        }
+      ],
+      "PowerShell Scripts": [
+        {
+          "name": "JAMFMIG-Export-JamfInventory.ps1",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Export-JamfInventory.ps1",
+          "kb": 4.4
+        },
+        {
+          "name": "JAMFMIG-Get-ABMAssignments.ps1",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Get-ABMAssignments.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "JAMFMIG-Get-IntuneReadiness.ps1",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Get-IntuneReadiness.ps1",
+          "kb": 3.4
+        },
+        {
+          "name": "JAMFMIG-Migrate-Device.sh",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Migrate-Device.sh",
+          "kb": 8.1
+        },
+        {
+          "name": "JAMFMIG-Track-Waves.ps1",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Track-Waves.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "JAMFMIG-Unmanage-Batch.sh",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Unmanage-Batch.sh",
+          "kb": 4.9
+        },
+        {
+          "name": "JAMFMIG-Validate-Migration.ps1",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/JAMFMIG-Validate-Migration.ps1",
+          "kb": 2.6
+        },
+        {
+          "name": "README-macos-inplace-migration.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/scripts/README-macos-inplace-migration.md",
+          "kb": 2.9
+        }
+      ],
+      "Deliverables": [
+        {
+          "name": "JAMFMIG-Complete-Solution.zip",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-Complete-Solution.zip",
+          "kb": 80.7
+        },
+        {
+          "name": "JAMFMIG-hero.png",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-hero.png",
+          "kb": 457.9
+        },
+        {
+          "name": "JAMFMIG-hero.svg",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-hero.svg",
+          "kb": 6.0
+        },
+        {
+          "name": "JAMFMIG-Scripts.zip",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-Scripts.zip",
+          "kb": 7.3
+        },
+        {
+          "name": "JAMFMIG-Solution.docx",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-Solution.docx",
+          "kb": 48.4
+        },
+        {
+          "name": "JAMFMIG-Solution.pdf",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-Solution.pdf",
+          "kb": 39.1
+        }
+      ],
+      "Listing": [
+        {
+          "name": "bagisto-products.json",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/listing/bagisto-products.json",
+          "kb": 9.6
+        },
+        {
+          "name": "hero.json",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/listing/hero.json",
+          "kb": 0.9
+        }
+      ],
+      "Overview": [
+        {
+          "name": "README.md",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/README.md",
+          "kb": 1.3
+        },
+        {
+          "name": "solution.meta.json",
+          "href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/solution.meta.json",
+          "kb": 2.6
+        }
+      ]
+    },
+    "script_count": 8,
+    "deliv_count": 6,
+    "doc_count": 9,
+    "hero_href": "../migrations/jamf-pro-to-intune-apple-device-migration/v1.0.0/deliverables/JAMFMIG-hero.png",
     "product_count": 3
   },
   {
